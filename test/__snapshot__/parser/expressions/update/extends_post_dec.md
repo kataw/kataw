@@ -34,7 +34,7 @@ class x extends a-- {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -69,7 +69,13 @@ class x extends a-- {}
                     "start": 15,
                     "end": 19
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 21,
+                    "end": 21
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 22

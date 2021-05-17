@@ -34,45 +34,51 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 14
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 18
+                                    },
+                                    "flags": 32,
                                     "start": 8,
-                                    "end": 14
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 16,
                                     "end": 18
                                 },
-                                "flags": 32,
-                                "start": 8,
-                                "end": 18
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 18,
-                                "end": 19
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 18,
+                                    "end": 19
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 8,
+                            "end": 19
+                        },
                         "flags": 32,
                         "start": 6,
                         "end": 21

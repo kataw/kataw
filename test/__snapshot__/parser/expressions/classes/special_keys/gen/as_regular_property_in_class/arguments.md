@@ -38,32 +38,38 @@ class x {arguments: x}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "arguments",
-                            "rawText": "arguments",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "arguments",
+                                "rawText": "arguments",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 18
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 9,
                             "end": 18
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 9,
-                        "end": 18
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 18
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 18

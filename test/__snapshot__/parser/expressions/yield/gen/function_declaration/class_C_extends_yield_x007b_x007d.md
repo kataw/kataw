@@ -71,7 +71,7 @@ function not_gen() { class C extends yield { } }}
                                 "end": 28
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -94,7 +94,13 @@ function not_gen() { class C extends yield { } }}
                                     "start": 36,
                                     "end": 42
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 44,
+                                    "end": 44
+                                },
                                 "flags": 32,
                                 "start": 28,
                                 "end": 46

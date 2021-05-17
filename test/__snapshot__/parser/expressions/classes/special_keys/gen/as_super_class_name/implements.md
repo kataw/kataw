@@ -38,7 +38,7 @@ class x extends implements {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -61,7 +61,13 @@ class x extends implements {}
                     "start": 15,
                     "end": 26
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 28,
+                    "end": 28
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 29

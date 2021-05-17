@@ -38,7 +38,7 @@ class A extends a = b {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -61,7 +61,13 @@ class A extends a = b {}
                     "start": 15,
                     "end": 17
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 17,
+                    "end": 17
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 17
@@ -116,7 +122,7 @@ class A extends a = b {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 17, end: 19
+✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 19
 ✖ Expected a `;` - start: 21, end: 23
 
 ```

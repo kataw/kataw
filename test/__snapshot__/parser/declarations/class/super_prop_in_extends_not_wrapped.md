@@ -42,7 +42,7 @@ class x extends super.foo {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -83,7 +83,13 @@ class x extends super.foo {}
                     "start": 15,
                     "end": 25
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 27,
+                    "end": 27
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 28

@@ -91,50 +91,56 @@ async function f() { class C { aaa = await } }
                                 "end": 28
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": null,
-                                "elements": [
-                                    {
-                                        "kind": 280,
-                                        "decorators": null,
-                                        "declaredToken": null,
-                                        "staticToken": null,
-                                        "asyncKeyword": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "aaa",
-                                            "rawText": "aaa",
-                                            "flags": 96,
-                                            "start": 30,
-                                            "end": 34
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 208,
-                                            "awaitKeyword": {
-                                                "kind": 82032,
-                                                "flags": 0,
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "aaa",
+                                                "rawText": "aaa",
+                                                "flags": 96,
+                                                "start": 30,
+                                                "end": 34
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 208,
+                                                "awaitKeyword": {
+                                                    "kind": 82032,
+                                                    "flags": 0,
+                                                    "start": 36,
+                                                    "end": 42
+                                                },
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "flags": 64,
+                                                    "start": 42,
+                                                    "end": 42
+                                                },
+                                                "flags": 32,
                                                 "start": 36,
                                                 "end": 42
                                             },
-                                            "expression": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 42,
-                                                "end": 42
-                                            },
                                             "flags": 32,
-                                            "start": 36,
+                                            "start": 30,
                                             "end": 42
-                                        },
-                                        "flags": 32,
-                                        "start": 30,
-                                        "end": 42
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 30,
+                                    "end": 42
+                                },
                                 "flags": 32,
                                 "start": 28,
                                 "end": 44

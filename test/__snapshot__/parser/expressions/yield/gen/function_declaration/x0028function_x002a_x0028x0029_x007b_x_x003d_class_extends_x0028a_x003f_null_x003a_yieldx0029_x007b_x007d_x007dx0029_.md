@@ -115,7 +115,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                             },
                                                             "name": null,
                                                             "typeParameters": null,
-                                                            "members": {
+                                                            "tail": {
                                                                 "kind": 277,
                                                                 "classHeritage": {
                                                                     "kind": 279,
@@ -184,7 +184,13 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                     "start": 55,
                                                                     "end": 74
                                                                 },
-                                                                "elements": [],
+                                                                "body": {
+                                                                    "kind": 262,
+                                                                    "elements": [],
+                                                                    "flags": 32,
+                                                                    "start": 76,
+                                                                    "end": 76
+                                                                },
                                                                 "flags": 32,
                                                                 "start": 47,
                                                                 "end": 78

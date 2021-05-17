@@ -64,7 +64,7 @@ class Foo<T> extends Bar<T> { }
                 "start": 9,
                 "end": 12
             },
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -109,7 +109,13 @@ class Foo<T> extends Bar<T> { }
                     "start": 20,
                     "end": 27
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 29,
+                    "end": 29
+                },
                 "flags": 32,
                 "start": 12,
                 "end": 31

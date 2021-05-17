@@ -38,7 +38,7 @@ class A extends x in y {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -61,46 +61,62 @@ class A extends x in y {}
                     "start": 15,
                     "end": 17
                 },
-                "elements": [],
-                "flags": 32,
-                "start": 7,
-                "end": 17
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "in",
+                                "rawText": "in",
+                                "flags": 96,
+                                "start": 17,
+                                "end": 20
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 17,
+                            "end": 20
+                        },
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 20,
+                                "end": 22
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 20,
+                            "end": 22
+                        }
+                    ],
+                    "flags": 32,
                     "start": 17,
-                    "end": 17
-                },
-                "operatorToken": {
-                    "kind": 21006388,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 20
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 20,
                     "end": 22
                 },
                 "flags": 32,
-                "start": 17,
+                "start": 7,
                 "end": 22
             },
             "flags": 16,
-            "start": 17,
+            "start": 0,
             "end": 22
         },
         {
@@ -135,8 +151,7 @@ class A extends x in y {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 17, end: 20
-✖ Expected a `;` - start: 22, end: 24
+✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 24
 
 ```
 

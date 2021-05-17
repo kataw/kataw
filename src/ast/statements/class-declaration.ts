@@ -1,7 +1,7 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
-import { ClassTail } from '../expressions/class-element-list';
+import { ClassTail } from '../expressions/class-tail';
 import { TypeParameter } from '../types/type-parameter';
 import { DecoratorList } from '../expressions/decorator-list';
 
@@ -14,7 +14,7 @@ export interface ClassDeclaration extends SyntaxNode {
   readonly classKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly name: Identifier | null;
   readonly typeParameters: TypeParameter | null;
-  readonly members: ClassTail;
+  readonly tail: ClassTail;
 }
 
 export function createClassDeclaration(
@@ -23,7 +23,7 @@ export function createClassDeclaration(
   classKeyword: SyntaxToken<TokenSyntaxKind>,
   name: Identifier | null,
   typeParameters: TypeParameter | null,
-  members: ClassTail,
+  tail: ClassTail,
   start: number,
   end: number
 ): ClassDeclaration {
@@ -34,7 +34,7 @@ export function createClassDeclaration(
     classKeyword,
     name,
     typeParameters,
-    members,
+    tail,
     flags: NodeFlags.IsStatement,
     start,
     end

@@ -55,68 +55,74 @@ for (class x { [a](){} } in c);
                     "end": 12
                 },
                 "typeParameters": null,
-                "members": {
+                "tail": {
                     "kind": 277,
                     "classHeritage": null,
-                    "elements": [
-                        {
-                            "kind": 278,
-                            "declareToken": null,
-                            "decorators": null,
-                            "generatorToken": null,
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
-                            "method": {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 16,
-                                        "end": 17
-                                    },
-                                    "flags": 32,
-                                    "start": 14,
-                                    "end": 18
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "start": 19,
-                                    "end": 20
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                    "body": {
+                        "kind": 262,
+                        "elements": [
+                            {
+                                "kind": 278,
+                                "declareToken": null,
+                                "decorators": null,
+                                "generatorToken": null,
+                                "staticKeyword": null,
+                                "asyncKeyword": null,
+                                "setKeyword": null,
+                                "getKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 16,
+                                            "end": 17
+                                        },
                                         "flags": 32,
-                                        "start": 21,
-                                        "end": 21
+                                        "start": 14,
+                                        "end": 18
                                     },
-                                    "flags": 32,
-                                    "start": 20,
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 19,
+                                        "end": 20
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 21,
+                                            "end": 21
+                                        },
+                                        "flags": 32,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    "flags": 0,
+                                    "start": 18,
                                     "end": 22
                                 },
                                 "flags": 0,
-                                "start": 18,
+                                "start": 14,
                                 "end": 22
-                            },
-                            "flags": 0,
-                            "start": 14,
-                            "end": 22
-                        }
-                    ],
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 14,
+                        "end": 22
+                    },
                     "flags": 32,
                     "start": 12,
                     "end": 24

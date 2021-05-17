@@ -60,1003 +60,1009 @@ class Foo {
                 "end": 9
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 67174651,
-                            "text": "#x",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 67174651,
+                                "text": "#x",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 15
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 11,
                             "end": 15
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 11,
-                        "end": 15
-                    },
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "unary",
-                                "rawText": "unary",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 22
-                            },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 23,
-                                "end": 24
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 127,
-                                                "operandToken": {
-                                                    "kind": 196635,
-                                                    "flags": 64,
-                                                    "start": 36,
-                                                    "end": 38
-                                                },
-                                                "operand": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 26,
-                                                        "end": 33
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "unary",
+                                    "rawText": "unary",
+                                    "flags": 96,
+                                    "start": 15,
+                                    "end": 22
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 23,
+                                    "end": 24
+                                },
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 127,
+                                                    "operandToken": {
+                                                        "kind": 196635,
+                                                        "flags": 64,
+                                                        "start": 36,
+                                                        "end": 38
                                                     },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 34,
+                                                    "operand": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 26,
+                                                            "end": 33
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 34,
+                                                            "end": 36
+                                                        },
+                                                        "flags": 536870944,
+                                                        "start": 26,
                                                         "end": 36
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "start": 26,
-                                                    "end": 36
+                                                    "end": 38
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 26,
                                                 "end": 38
                                             },
-                                            "flags": 16,
-                                            "start": 26,
-                                            "end": 38
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 127,
-                                                "operandToken": {
-                                                    "kind": 196636,
-                                                    "flags": 64,
-                                                    "start": 48,
-                                                    "end": 50
-                                                },
-                                                "operand": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 38,
-                                                        "end": 45
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 127,
+                                                    "operandToken": {
+                                                        "kind": 196636,
+                                                        "flags": 64,
+                                                        "start": 48,
+                                                        "end": 50
                                                     },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 46,
+                                                    "operand": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 38,
+                                                            "end": 45
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 46,
+                                                            "end": 48
+                                                        },
+                                                        "flags": 536870944,
+                                                        "start": 38,
                                                         "end": 48
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "start": 38,
-                                                    "end": 48
+                                                    "end": 50
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 38,
                                                 "end": 50
                                             },
-                                            "flags": 16,
-                                            "start": 38,
-                                            "end": 50
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 128,
-                                                "operandToken": {
-                                                    "kind": 196635,
-                                                    "flags": 65,
-                                                    "start": 50,
-                                                    "end": 55
-                                                },
-                                                "operand": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 55,
-                                                        "end": 59
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 128,
+                                                    "operandToken": {
+                                                        "kind": 196635,
+                                                        "flags": 65,
+                                                        "start": 50,
+                                                        "end": 55
                                                     },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 60,
+                                                    "operand": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 55,
+                                                            "end": 59
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 60,
+                                                            "end": 62
+                                                        },
+                                                        "flags": 536870944,
+                                                        "start": 55,
                                                         "end": 62
                                                     },
-                                                    "flags": 536870944,
-                                                    "start": 55,
+                                                    "flags": 32,
+                                                    "start": 50,
                                                     "end": 62
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 50,
                                                 "end": 62
                                             },
-                                            "flags": 16,
-                                            "start": 50,
-                                            "end": 62
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 128,
-                                                "operandToken": {
-                                                    "kind": 196636,
-                                                    "flags": 65,
-                                                    "start": 62,
-                                                    "end": 67
-                                                },
-                                                "operand": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 67,
-                                                        "end": 71
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 128,
+                                                    "operandToken": {
+                                                        "kind": 196636,
+                                                        "flags": 65,
+                                                        "start": 62,
+                                                        "end": 67
                                                     },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 72,
+                                                    "operand": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 67,
+                                                            "end": 71
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 72,
+                                                            "end": 74
+                                                        },
+                                                        "flags": 536870944,
+                                                        "start": 67,
                                                         "end": 74
                                                     },
-                                                    "flags": 536870944,
-                                                    "start": 67,
+                                                    "flags": 32,
+                                                    "start": 62,
                                                     "end": 74
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 62,
                                                 "end": 74
-                                            },
-                                            "flags": 16,
-                                            "start": 62,
-                                            "end": 74
-                                        }
-                                    ],
-                                    "flags": 33,
-                                    "start": 26,
-                                    "end": 74
+                                            }
+                                        ],
+                                        "flags": 33,
+                                        "start": 26,
+                                        "end": 74
+                                    },
+                                    "flags": 32,
+                                    "start": 24,
+                                    "end": 77
                                 },
-                                "flags": 32,
-                                "start": 24,
+                                "flags": 0,
+                                "start": 22,
                                 "end": 77
                             },
                             "flags": 0,
-                            "start": 22,
+                            "start": 15,
                             "end": 77
                         },
-                        "flags": 0,
-                        "start": 15,
-                        "end": 77
-                    },
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "binary",
-                                "rawText": "binary",
-                                "flags": 96,
-                                "start": 77,
-                                "end": 85
-                            },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 86,
-                                "end": 87
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "binary",
+                                    "rawText": "binary",
+                                    "flags": 96,
+                                    "start": 77,
+                                    "end": 85
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 86,
+                                    "end": 87
+                                },
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 89,
+                                                            "end": 96
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 97,
+                                                            "end": 99
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 89,
-                                                        "end": 96
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 97,
                                                         "end": 99
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4125,
+                                                        "flags": 64,
+                                                        "start": 99,
+                                                        "end": 101
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 101,
+                                                        "end": 103
+                                                    },
+                                                    "flags": 32,
                                                     "start": 89,
-                                                    "end": 99
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4125,
-                                                    "flags": 64,
-                                                    "start": 99,
-                                                    "end": 101
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 101,
                                                     "end": 103
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 89,
                                                 "end": 103
                                             },
-                                            "flags": 16,
-                                            "start": 89,
-                                            "end": 103
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 103,
+                                                            "end": 110
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 111,
+                                                            "end": 113
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 103,
-                                                        "end": 110
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 111,
                                                         "end": 113
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4130,
+                                                        "flags": 64,
+                                                        "start": 113,
+                                                        "end": 116
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 116,
+                                                        "end": 118
+                                                    },
+                                                    "flags": 32,
                                                     "start": 103,
-                                                    "end": 113
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4130,
-                                                    "flags": 64,
-                                                    "start": 113,
-                                                    "end": 116
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 116,
                                                     "end": 118
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 103,
                                                 "end": 118
                                             },
-                                            "flags": 16,
-                                            "start": 103,
-                                            "end": 118
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 118,
+                                                            "end": 125
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 126,
+                                                            "end": 128
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 118,
-                                                        "end": 125
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 126,
                                                         "end": 128
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4131,
+                                                        "flags": 64,
+                                                        "start": 128,
+                                                        "end": 131
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 131,
+                                                        "end": 133
+                                                    },
+                                                    "flags": 32,
                                                     "start": 118,
-                                                    "end": 128
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4131,
-                                                    "flags": 64,
-                                                    "start": 128,
-                                                    "end": 131
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 131,
                                                     "end": 133
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 118,
                                                 "end": 133
                                             },
-                                            "flags": 16,
-                                            "start": 118,
-                                            "end": 133
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 133,
+                                                            "end": 140
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 141,
+                                                            "end": 143
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 133,
-                                                        "end": 140
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 141,
                                                         "end": 143
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4132,
+                                                        "flags": 64,
+                                                        "start": 143,
+                                                        "end": 146
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 146,
+                                                        "end": 148
+                                                    },
+                                                    "flags": 32,
                                                     "start": 133,
-                                                    "end": 143
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4132,
-                                                    "flags": 64,
-                                                    "start": 143,
-                                                    "end": 146
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 146,
                                                     "end": 148
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 133,
                                                 "end": 148
                                             },
-                                            "flags": 16,
-                                            "start": 133,
-                                            "end": 148
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 148,
+                                                            "end": 155
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 156,
+                                                            "end": 158
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 148,
-                                                        "end": 155
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 156,
                                                         "end": 158
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4133,
+                                                        "flags": 64,
+                                                        "start": 158,
+                                                        "end": 161
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 161,
+                                                        "end": 163
+                                                    },
+                                                    "flags": 32,
                                                     "start": 148,
-                                                    "end": 158
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4133,
-                                                    "flags": 64,
-                                                    "start": 158,
-                                                    "end": 161
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 161,
                                                     "end": 163
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 148,
                                                 "end": 163
                                             },
-                                            "flags": 16,
-                                            "start": 148,
-                                            "end": 163
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 163,
+                                                            "end": 170
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 171,
+                                                            "end": 173
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 163,
-                                                        "end": 170
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 171,
                                                         "end": 173
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4134,
+                                                        "flags": 64,
+                                                        "start": 173,
+                                                        "end": 176
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 176,
+                                                        "end": 178
+                                                    },
+                                                    "flags": 32,
                                                     "start": 163,
-                                                    "end": 173
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4134,
-                                                    "flags": 64,
-                                                    "start": 173,
-                                                    "end": 176
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 176,
                                                     "end": 178
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 163,
                                                 "end": 178
                                             },
-                                            "flags": 16,
-                                            "start": 163,
-                                            "end": 178
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 178,
+                                                            "end": 185
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 186,
+                                                            "end": 188
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 178,
-                                                        "end": 185
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 186,
                                                         "end": 188
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4129,
+                                                        "flags": 64,
+                                                        "start": 188,
+                                                        "end": 192
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 192,
+                                                        "end": 194
+                                                    },
+                                                    "flags": 32,
                                                     "start": 178,
-                                                    "end": 188
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4129,
-                                                    "flags": 64,
-                                                    "start": 188,
-                                                    "end": 192
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 192,
                                                     "end": 194
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 178,
                                                 "end": 194
                                             },
-                                            "flags": 16,
-                                            "start": 178,
-                                            "end": 194
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 194,
+                                                            "end": 201
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 202,
+                                                            "end": 204
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 194,
-                                                        "end": 201
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 202,
                                                         "end": 204
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4126,
+                                                        "flags": 64,
+                                                        "start": 204,
+                                                        "end": 208
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 208,
+                                                        "end": 210
+                                                    },
+                                                    "flags": 32,
                                                     "start": 194,
-                                                    "end": 204
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4126,
-                                                    "flags": 64,
-                                                    "start": 204,
-                                                    "end": 208
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 208,
                                                     "end": 210
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 194,
                                                 "end": 210
                                             },
-                                            "flags": 16,
-                                            "start": 194,
-                                            "end": 210
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 210,
+                                                            "end": 217
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 218,
+                                                            "end": 220
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 210,
-                                                        "end": 217
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 218,
                                                         "end": 220
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4127,
+                                                        "flags": 64,
+                                                        "start": 220,
+                                                        "end": 224
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 224,
+                                                        "end": 226
+                                                    },
+                                                    "flags": 32,
                                                     "start": 210,
-                                                    "end": 220
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4127,
-                                                    "flags": 64,
-                                                    "start": 220,
-                                                    "end": 224
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 224,
                                                     "end": 226
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 210,
                                                 "end": 226
                                             },
-                                            "flags": 16,
-                                            "start": 210,
-                                            "end": 226
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 226,
+                                                            "end": 233
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 234,
+                                                            "end": 236
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 226,
-                                                        "end": 233
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 234,
                                                         "end": 236
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4128,
+                                                        "flags": 64,
+                                                        "start": 236,
+                                                        "end": 241
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 241,
+                                                        "end": 243
+                                                    },
+                                                    "flags": 32,
                                                     "start": 226,
-                                                    "end": 236
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4128,
-                                                    "flags": 64,
-                                                    "start": 236,
-                                                    "end": 241
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 241,
                                                     "end": 243
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 226,
                                                 "end": 243
                                             },
-                                            "flags": 16,
-                                            "start": 226,
-                                            "end": 243
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 243,
+                                                            "end": 250
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 251,
+                                                            "end": 253
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 243,
-                                                        "end": 250
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 251,
                                                         "end": 253
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4137,
+                                                        "flags": 64,
+                                                        "start": 253,
+                                                        "end": 256
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 256,
+                                                        "end": 258
+                                                    },
+                                                    "flags": 32,
                                                     "start": 243,
-                                                    "end": 253
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4137,
-                                                    "flags": 64,
-                                                    "start": 253,
-                                                    "end": 256
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 256,
                                                     "end": 258
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 243,
                                                 "end": 258
                                             },
-                                            "flags": 16,
-                                            "start": 243,
-                                            "end": 258
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 258,
+                                                            "end": 265
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 266,
+                                                            "end": 268
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 258,
-                                                        "end": 265
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 266,
                                                         "end": 268
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4136,
+                                                        "flags": 64,
+                                                        "start": 268,
+                                                        "end": 271
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 271,
+                                                        "end": 273
+                                                    },
+                                                    "flags": 32,
                                                     "start": 258,
-                                                    "end": 268
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4136,
-                                                    "flags": 64,
-                                                    "start": 268,
-                                                    "end": 271
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 271,
                                                     "end": 273
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 258,
                                                 "end": 273
                                             },
-                                            "flags": 16,
-                                            "start": 258,
-                                            "end": 273
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 273,
+                                                            "end": 280
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 281,
+                                                            "end": 283
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 273,
-                                                        "end": 280
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 281,
                                                         "end": 283
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4135,
+                                                        "flags": 64,
+                                                        "start": 283,
+                                                        "end": 286
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 286,
+                                                        "end": 288
+                                                    },
+                                                    "flags": 32,
                                                     "start": 273,
-                                                    "end": 283
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4135,
-                                                    "flags": 64,
-                                                    "start": 283,
-                                                    "end": 286
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 286,
                                                     "end": 288
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 273,
                                                 "end": 288
                                             },
-                                            "flags": 16,
-                                            "start": 273,
-                                            "end": 288
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 288,
+                                                            "end": 295
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 296,
+                                                            "end": 298
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 288,
-                                                        "end": 295
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 296,
                                                         "end": 298
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4139,
+                                                        "flags": 64,
+                                                        "start": 298,
+                                                        "end": 302
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 302,
+                                                        "end": 304
+                                                    },
+                                                    "flags": 32,
                                                     "start": 288,
-                                                    "end": 298
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4139,
-                                                    "flags": 64,
-                                                    "start": 298,
-                                                    "end": 302
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 302,
                                                     "end": 304
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 288,
                                                 "end": 304
                                             },
-                                            "flags": 16,
-                                            "start": 288,
-                                            "end": 304
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 304,
+                                                            "end": 311
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 312,
+                                                            "end": 314
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 304,
-                                                        "end": 311
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 312,
                                                         "end": 314
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4138,
+                                                        "flags": 64,
+                                                        "start": 314,
+                                                        "end": 318
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 318,
+                                                        "end": 320
+                                                    },
+                                                    "flags": 32,
                                                     "start": 304,
-                                                    "end": 314
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4138,
-                                                    "flags": 64,
-                                                    "start": 314,
-                                                    "end": 318
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 318,
                                                     "end": 320
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 304,
                                                 "end": 320
                                             },
-                                            "flags": 16,
-                                            "start": 304,
-                                            "end": 320
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 135,
+                                                            "flags": 96,
+                                                            "start": 320,
+                                                            "end": 327
+                                                        },
+                                                        "expression": {
+                                                            "kind": 67174651,
+                                                            "text": "#x",
+                                                            "flags": 96,
+                                                            "start": 328,
+                                                            "end": 330
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 320,
-                                                        "end": 327
-                                                    },
-                                                    "expression": {
-                                                        "kind": 67174651,
-                                                        "text": "#x",
-                                                        "flags": 96,
-                                                        "start": 328,
                                                         "end": 330
                                                     },
-                                                    "flags": 536870944,
+                                                    "operatorToken": {
+                                                        "kind": 4140,
+                                                        "flags": 64,
+                                                        "start": 330,
+                                                        "end": 334
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 334,
+                                                        "end": 336
+                                                    },
+                                                    "flags": 32,
                                                     "start": 320,
-                                                    "end": 330
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4140,
-                                                    "flags": 64,
-                                                    "start": 330,
-                                                    "end": 334
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 334,
                                                     "end": 336
                                                 },
-                                                "flags": 32,
+                                                "flags": 16,
                                                 "start": 320,
                                                 "end": 336
-                                            },
-                                            "flags": 16,
-                                            "start": 320,
-                                            "end": 336
-                                        }
-                                    ],
-                                    "flags": 33,
-                                    "start": 89,
-                                    "end": 336
+                                            }
+                                        ],
+                                        "flags": 33,
+                                        "start": 89,
+                                        "end": 336
+                                    },
+                                    "flags": 32,
+                                    "start": 87,
+                                    "end": 339
                                 },
-                                "flags": 32,
-                                "start": 87,
+                                "flags": 0,
+                                "start": 85,
                                 "end": 339
                             },
                             "flags": 0,
-                            "start": 85,
+                            "start": 77,
                             "end": 339
-                        },
-                        "flags": 0,
-                        "start": 77,
-                        "end": 339
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 11,
+                    "end": 339
+                },
                 "flags": 32,
                 "start": 9,
                 "end": 341

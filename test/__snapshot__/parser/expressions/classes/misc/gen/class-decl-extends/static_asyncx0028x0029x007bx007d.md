@@ -38,7 +38,7 @@ class C extends Base { static async(){} }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -61,64 +61,70 @@ class C extends Base { static async(){} }
                     "start": 15,
                     "end": 20
                 },
-                "elements": [
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": {
-                            "kind": 8388716,
-                            "flags": 64,
-                            "start": 22,
-                            "end": 29
-                        },
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 29,
-                                "end": 35
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 22,
+                                "end": 29
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 36,
-                                "end": 37
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 38,
-                                    "end": 38
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 29,
+                                    "end": 35
                                 },
-                                "flags": 32,
-                                "start": 37,
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 36,
+                                    "end": 37
+                                },
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 38,
+                                        "end": 38
+                                    },
+                                    "flags": 32,
+                                    "start": 37,
+                                    "end": 39
+                                },
+                                "flags": 0,
+                                "start": 35,
                                 "end": 39
                             },
                             "flags": 0,
-                            "start": 35,
+                            "start": 29,
                             "end": 39
-                        },
-                        "flags": 0,
-                        "start": 29,
-                        "end": 39
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 22,
+                    "end": 39
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 41

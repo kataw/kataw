@@ -34,7 +34,7 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -57,83 +57,89 @@
                             "start": 14,
                             "end": 19
                         },
-                        "elements": [
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": {
-                                    "kind": 16499,
-                                    "flags": 64,
-                                    "start": 21,
-                                    "end": 24
-                                },
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "static",
-                                        "rawText": "static",
-                                        "flags": 96,
-                                        "start": 24,
-                                        "end": 31
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": {
+                                        "kind": 16499,
+                                        "flags": 64,
+                                        "start": 21,
+                                        "end": 24
                                     },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [
-                                            {
-                                                "kind": 215,
-                                                "ellipsisToken": null,
-                                                "binding": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "static",
+                                            "rawText": "static",
+                                            "flags": 96,
+                                            "start": 24,
+                                            "end": 31
+                                        },
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [
+                                                {
+                                                    "kind": 215,
+                                                    "ellipsisToken": null,
+                                                    "binding": {
+                                                        "kind": 134299649,
+                                                        "text": "v",
+                                                        "rawText": "v",
+                                                        "flags": 96,
+                                                        "start": 32,
+                                                        "end": 33
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 32,
                                                     "end": 33
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 32,
-                                                "end": 33
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 544,
-                                        "start": 32,
-                                        "end": 34
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 36,
-                                            "end": 36
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 544,
+                                            "start": 32,
+                                            "end": 34
                                         },
-                                        "flags": 32,
-                                        "start": 34,
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 36,
+                                                "end": 36
+                                            },
+                                            "flags": 32,
+                                            "start": 34,
+                                            "end": 37
+                                        },
+                                        "flags": 512,
+                                        "start": 31,
                                         "end": 37
                                     },
                                     "flags": 512,
-                                    "start": 31,
+                                    "start": 21,
                                     "end": 37
-                                },
-                                "flags": 512,
-                                "start": 21,
-                                "end": 37
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 21,
+                            "end": 37
+                        },
                         "flags": 32,
                         "start": 6,
                         "end": 38

@@ -37,49 +37,57 @@ class new {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 210,
-                "newKeyword": {
-                    "kind": 138477661,
-                    "flags": 0,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "new",
+                                "rawText": "new",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 9
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 9
+                        }
+                    ],
+                    "flags": 32,
                     "start": 5,
                     "end": 9
                 },
-                "expression": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 11,
-                        "end": 11
-                    },
-                    "flags": 48,
-                    "start": 9,
-                    "end": 12
-                },
-                "argumentList": null,
                 "flags": 32,
                 "start": 5,
-                "end": 12
+                "end": 9
             },
             "flags": 16,
-            "start": 5,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 11,
+                "end": 11
+            },
+            "flags": 16,
+            "start": 9,
             "end": 12
         }
     ],
@@ -102,6 +110,7 @@ class new {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 9
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
 
 ```
 

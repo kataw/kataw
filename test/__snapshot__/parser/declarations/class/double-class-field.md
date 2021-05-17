@@ -53,59 +53,65 @@ class C { aaa; bbb}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "aaa",
-                            "rawText": "aaa",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "aaa",
+                                "rawText": "aaa",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 13
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 9,
                             "end": 13
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 9,
-                        "end": 13
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 13,
-                        "end": 14
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "bbb",
-                            "rawText": "bbb",
+                        {
+                            "kind": 281,
                             "flags": 96,
+                            "start": 13,
+                            "end": 14
+                        },
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "bbb",
+                                "rawText": "bbb",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 18
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 14,
                             "end": 18
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 14,
-                        "end": 18
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 18
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 19

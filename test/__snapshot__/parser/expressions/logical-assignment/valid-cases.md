@@ -621,10 +621,16 @@ x((y ?? z) ?? 1);
                                 },
                                 "name": null,
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 117,
+                                        "end": 117
+                                    },
                                     "flags": 32,
                                     "start": 115,
                                     "end": 118

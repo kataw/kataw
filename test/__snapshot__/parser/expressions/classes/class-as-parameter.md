@@ -327,10 +327,16 @@ class A {
                 "end": 124
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 126,
+                    "end": 126
+                },
                 "flags": 32,
                 "start": 124,
                 "end": 126
@@ -373,10 +379,16 @@ class A {
                 "end": 145
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 145,
+                    "end": 145
+                },
                 "flags": 32,
                 "start": 145,
                 "end": 145

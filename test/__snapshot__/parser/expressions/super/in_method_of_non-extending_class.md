@@ -34,147 +34,153 @@ class x { fo(){ return function() { super.foo; } }}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "fo",
-                                "rawText": "fo",
-                                "flags": 96,
-                                "start": 9,
-                                "end": 12
-                            },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 13,
-                                "end": 14
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 161,
-                                            "returnKeyword": {
-                                                "kind": 37757022,
-                                                "flags": 0,
-                                                "start": 15,
-                                                "end": 22
-                                            },
-                                            "expression": {
-                                                "kind": 177,
-                                                "asyncKeyword": null,
-                                                "functionKeyword": {
-                                                    "kind": 37822554,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "fo",
+                                    "rawText": "fo",
+                                    "flags": 96,
+                                    "start": 9,
+                                    "end": 12
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 13,
+                                    "end": 14
+                                },
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [
+                                            {
+                                                "kind": 161,
+                                                "returnKeyword": {
+                                                    "kind": 37757022,
                                                     "flags": 0,
-                                                    "start": 22,
-                                                    "end": 31
+                                                    "start": 15,
+                                                    "end": 22
                                                 },
-                                                "generatorToken": null,
-                                                "name": null,
-                                                "formalParameters": {
-                                                    "kind": 214,
-                                                    "formalParameterList": [],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 31,
-                                                    "end": 33
-                                                },
-                                                "contents": {
-                                                    "kind": 216,
-                                                    "functionStatementList": {
-                                                        "kind": 217,
-                                                        "directives": [],
-                                                        "statements": [
-                                                            {
-                                                                "kind": 120,
-                                                                "expression": {
-                                                                    "kind": 129,
-                                                                    "member": {
-                                                                        "kind": 225,
-                                                                        "superKeyword": {
-                                                                            "kind": 4259935,
-                                                                            "flags": 0,
+                                                "expression": {
+                                                    "kind": 177,
+                                                    "asyncKeyword": null,
+                                                    "functionKeyword": {
+                                                        "kind": 37822554,
+                                                        "flags": 0,
+                                                        "start": 22,
+                                                        "end": 31
+                                                    },
+                                                    "generatorToken": null,
+                                                    "name": null,
+                                                    "formalParameters": {
+                                                        "kind": 214,
+                                                        "formalParameterList": [],
+                                                        "trailingComma": false,
+                                                        "flags": 32,
+                                                        "start": 31,
+                                                        "end": 33
+                                                    },
+                                                    "contents": {
+                                                        "kind": 216,
+                                                        "functionStatementList": {
+                                                            "kind": 217,
+                                                            "directives": [],
+                                                            "statements": [
+                                                                {
+                                                                    "kind": 120,
+                                                                    "expression": {
+                                                                        "kind": 129,
+                                                                        "member": {
+                                                                            "kind": 225,
+                                                                            "superKeyword": {
+                                                                                "kind": 4259935,
+                                                                                "flags": 0,
+                                                                                "start": 35,
+                                                                                "end": 41
+                                                                            },
+                                                                            "flags": 96,
                                                                             "start": 35,
                                                                             "end": 41
                                                                         },
-                                                                        "flags": 96,
+                                                                        "expression": {
+                                                                            "kind": 134299649,
+                                                                            "text": "foo",
+                                                                            "rawText": "foo",
+                                                                            "flags": 96,
+                                                                            "start": 42,
+                                                                            "end": 45
+                                                                        },
+                                                                        "flags": 536870944,
                                                                         "start": 35,
-                                                                        "end": 41
-                                                                    },
-                                                                    "expression": {
-                                                                        "kind": 134299649,
-                                                                        "text": "foo",
-                                                                        "rawText": "foo",
-                                                                        "flags": 96,
-                                                                        "start": 42,
                                                                         "end": 45
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 16,
                                                                     "start": 35,
-                                                                    "end": 45
-                                                                },
-                                                                "flags": 16,
-                                                                "start": 35,
-                                                                "end": 46
-                                                            }
-                                                        ],
+                                                                    "end": 46
+                                                                }
+                                                            ],
+                                                            "flags": 32,
+                                                            "start": 35,
+                                                            "end": 46
+                                                        },
                                                         "flags": 32,
-                                                        "start": 35,
-                                                        "end": 46
+                                                        "start": 33,
+                                                        "end": 48
                                                     },
+                                                    "typeParameters": null,
+                                                    "returnType": null,
                                                     "flags": 32,
-                                                    "start": 33,
+                                                    "start": 22,
                                                     "end": 48
                                                 },
-                                                "typeParameters": null,
-                                                "returnType": null,
-                                                "flags": 32,
-                                                "start": 22,
-                                                "end": 48
-                                            },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 15
-                                        }
-                                    ],
+                                                "flags": 16,
+                                                "start": 0,
+                                                "end": 15
+                                            }
+                                        ],
+                                        "flags": 32,
+                                        "start": 15,
+                                        "end": 48
+                                    },
                                     "flags": 32,
-                                    "start": 15,
-                                    "end": 48
+                                    "start": 14,
+                                    "end": 50
                                 },
-                                "flags": 32,
-                                "start": 14,
+                                "flags": 0,
+                                "start": 12,
                                 "end": 50
                             },
                             "flags": 0,
-                            "start": 12,
+                            "start": 9,
                             "end": 50
-                        },
-                        "flags": 0,
-                        "start": 9,
-                        "end": 50
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 50
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 51

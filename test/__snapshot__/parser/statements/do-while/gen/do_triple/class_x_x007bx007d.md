@@ -101,10 +101,16 @@ do do do class x {} while while while
                             "end": 16
                         },
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": null,
-                            "elements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 18,
+                                "end": 18
+                            },
                             "flags": 32,
                             "start": 16,
                             "end": 19

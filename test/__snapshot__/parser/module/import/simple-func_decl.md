@@ -55,17 +55,23 @@ x@{x9}@+@{x9}@y
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 5
+                },
                 "flags": 32,
                 "start": 5,
-                "end": 5
+                "end": 6
             },
             "flags": 16,
             "start": 1,
-            "end": 5
+            "end": 6
         },
         {
             "kind": 178,
@@ -86,10 +92,16 @@ x@{x9}@+@{x9}@y
                 "end": 8
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 8,
+                    "end": 8
+                },
                 "flags": 32,
                 "start": 8,
                 "end": 8
@@ -118,17 +130,23 @@ x@{x9}@+@{x9}@y
                 "end": 12
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 12,
+                    "end": 12
+                },
                 "flags": 32,
                 "start": 12,
-                "end": 12
+                "end": 13
             },
             "flags": 16,
             "start": 8,
-            "end": 12
+            "end": 13
         },
         {
             "kind": 178,
@@ -164,10 +182,16 @@ x@{x9}@+@{x9}@y
                 "end": 15
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 15
+                },
                 "flags": 32,
                 "start": 15,
                 "end": 15
@@ -195,9 +219,7 @@ x@{x9}@+@{x9}@y
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 5, end: 6
 ✖ Binding identifier expected - start: 8, end: 9
-✖ Declaration or statement expected - start: 12, end: 13
 ✖ Binding identifier expected - start: 15, end: 15
 
 ```

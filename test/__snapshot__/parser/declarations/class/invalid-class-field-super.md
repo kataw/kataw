@@ -49,57 +49,63 @@ class C { [super.bbb] = 0 };
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "aaa",
-                            "rawText": "aaa",
-                            "flags": 96,
-                            "start": 9,
-                            "end": 13
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 129,
-                            "member": {
-                                "kind": 225,
-                                "superKeyword": {
-                                    "kind": 4259935,
-                                    "flags": 0,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "aaa",
+                                "rawText": "aaa",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 13
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 129,
+                                "member": {
+                                    "kind": 225,
+                                    "superKeyword": {
+                                        "kind": 4259935,
+                                        "flags": 0,
+                                        "start": 15,
+                                        "end": 21
+                                    },
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 21
                                 },
-                                "flags": 96,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "bbb",
+                                    "rawText": "bbb",
+                                    "flags": 96,
+                                    "start": 22,
+                                    "end": 25
+                                },
+                                "flags": 536870944,
                                 "start": 15,
-                                "end": 21
-                            },
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "bbb",
-                                "rawText": "bbb",
-                                "flags": 96,
-                                "start": 22,
                                 "end": 25
                             },
-                            "flags": 536870944,
-                            "start": 15,
+                            "flags": 32,
+                            "start": 9,
                             "end": 25
-                        },
-                        "flags": 32,
-                        "start": 9,
-                        "end": 25
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 25
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 27
@@ -133,73 +139,79 @@ class C { [super.bbb] = 0 };
                 "end": 37
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "aaa",
-                            "rawText": "aaa",
-                            "flags": 96,
-                            "start": 39,
-                            "end": 43
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 0,
-                                "start": 48,
-                                "end": 51
-                            },
-                            "typeParameters": null,
-                            "parameters": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
                             "asyncKeyword": null,
-                            "returnType": null,
-                            "contents": {
-                                "kind": 129,
-                                "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
-                                        "flags": 0,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "aaa",
+                                "rawText": "aaa",
+                                "flags": 96,
+                                "start": 39,
+                                "end": 43
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 271,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 0,
+                                    "start": 48,
+                                    "end": 51
+                                },
+                                "typeParameters": null,
+                                "parameters": [],
+                                "asyncKeyword": null,
+                                "returnType": null,
+                                "contents": {
+                                    "kind": 129,
+                                    "member": {
+                                        "kind": 225,
+                                        "superKeyword": {
+                                            "kind": 4259935,
+                                            "flags": 0,
+                                            "start": 51,
+                                            "end": 57
+                                        },
+                                        "flags": 96,
                                         "start": 51,
                                         "end": 57
                                     },
-                                    "flags": 96,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "bbb",
+                                        "rawText": "bbb",
+                                        "flags": 96,
+                                        "start": 58,
+                                        "end": 61
+                                    },
+                                    "flags": 536870944,
                                     "start": 51,
-                                    "end": 57
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "bbb",
-                                    "rawText": "bbb",
-                                    "flags": 96,
-                                    "start": 58,
                                     "end": 61
                                 },
-                                "flags": 536870944,
-                                "start": 51,
+                                "flags": 32,
+                                "start": 45,
                                 "end": 61
                             },
                             "flags": 32,
-                            "start": 45,
+                            "start": 39,
                             "end": 61
-                        },
-                        "flags": 32,
-                        "start": 39,
-                        "end": 61
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 39,
+                    "end": 61
+                },
                 "flags": 32,
                 "start": 37,
                 "end": 63
@@ -233,89 +245,95 @@ class C { [super.bbb] = 0 };
                 "end": 73
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "aaa",
-                            "rawText": "aaa",
-                            "flags": 96,
-                            "start": 75,
-                            "end": 79
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 0,
-                                "start": 84,
-                                "end": 87
-                            },
-                            "typeParameters": null,
-                            "parameters": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
                             "asyncKeyword": null,
-                            "returnType": null,
-                            "contents": {
+                            "key": {
+                                "kind": 134299649,
+                                "text": "aaa",
+                                "rawText": "aaa",
+                                "flags": 96,
+                                "start": 75,
+                                "end": 79
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 0,
-                                    "start": 90,
-                                    "end": 93
+                                    "start": 84,
+                                    "end": 87
                                 },
                                 "typeParameters": null,
                                 "parameters": [],
                                 "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 129,
-                                    "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 0,
+                                    "kind": 271,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 0,
+                                        "start": 90,
+                                        "end": 93
+                                    },
+                                    "typeParameters": null,
+                                    "parameters": [],
+                                    "asyncKeyword": null,
+                                    "returnType": null,
+                                    "contents": {
+                                        "kind": 129,
+                                        "member": {
+                                            "kind": 225,
+                                            "superKeyword": {
+                                                "kind": 4259935,
+                                                "flags": 0,
+                                                "start": 93,
+                                                "end": 99
+                                            },
+                                            "flags": 96,
                                             "start": 93,
                                             "end": 99
                                         },
-                                        "flags": 96,
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "bbb",
+                                            "rawText": "bbb",
+                                            "flags": 96,
+                                            "start": 100,
+                                            "end": 103
+                                        },
+                                        "flags": 536870944,
                                         "start": 93,
-                                        "end": 99
-                                    },
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "bbb",
-                                        "rawText": "bbb",
-                                        "flags": 96,
-                                        "start": 100,
                                         "end": 103
                                     },
-                                    "flags": 536870944,
-                                    "start": 93,
+                                    "flags": 32,
+                                    "start": 87,
                                     "end": 103
                                 },
                                 "flags": 32,
-                                "start": 87,
+                                "start": 81,
                                 "end": 103
                             },
                             "flags": 32,
-                            "start": 81,
+                            "start": 75,
                             "end": 103
-                        },
-                        "flags": 32,
-                        "start": 75,
-                        "end": 103
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 75,
+                    "end": 103
+                },
                 "flags": 32,
                 "start": 73,
                 "end": 105
@@ -349,63 +367,69 @@ class C { [super.bbb] = 0 };
                 "end": 115
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 194,
-                            "expression": {
-                                "kind": 129,
-                                "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
-                                        "flags": 0,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 129,
+                                    "member": {
+                                        "kind": 225,
+                                        "superKeyword": {
+                                            "kind": 4259935,
+                                            "flags": 0,
+                                            "start": 119,
+                                            "end": 124
+                                        },
+                                        "flags": 96,
                                         "start": 119,
                                         "end": 124
                                     },
-                                    "flags": 96,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "bbb",
+                                        "rawText": "bbb",
+                                        "flags": 96,
+                                        "start": 125,
+                                        "end": 128
+                                    },
+                                    "flags": 536870944,
                                     "start": 119,
-                                    "end": 124
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "bbb",
-                                    "rawText": "bbb",
-                                    "flags": 96,
-                                    "start": 125,
                                     "end": 128
                                 },
-                                "flags": 536870944,
-                                "start": 119,
-                                "end": 128
+                                "flags": 32,
+                                "start": 117,
+                                "end": 129
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 131,
+                                "end": 133
                             },
                             "flags": 32,
                             "start": 117,
-                            "end": 129
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 131,
                             "end": 133
-                        },
-                        "flags": 32,
-                        "start": 117,
-                        "end": 133
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 117,
+                    "end": 133
+                },
                 "flags": 32,
                 "start": 115,
                 "end": 135

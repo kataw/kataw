@@ -91,7 +91,7 @@
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "members": {
+                                            "tail": {
                                                 "kind": 277,
                                                 "classHeritage": {
                                                     "kind": 279,
@@ -160,7 +160,13 @@
                                                     "start": 48,
                                                     "end": 67
                                                 },
-                                                "elements": [],
+                                                "body": {
+                                                    "kind": 262,
+                                                    "elements": [],
+                                                    "flags": 32,
+                                                    "start": 69,
+                                                    "end": 69
+                                                },
                                                 "flags": 32,
                                                 "start": 40,
                                                 "end": 71

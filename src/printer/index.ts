@@ -100,6 +100,9 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printBindingProperty(node, printer);
     case SyntaxKind.ClassTail:
       return printClassTail(node, printer, parentNode);
+    case SyntaxKind.ClassBody:
+      console.log(node);
+      return printClassBody(node, printer, parentNode);
     case SyntaxKind.ClassDeclaration:
       return printClassDeclarationOrExpression(node, printer);
     case SyntaxKind.ObjectBindingPattern:
@@ -1022,22 +1025,27 @@ function printClassDeclarationOrExpression(node: any, printer: Printer): any {
     node.name ? printStatements(node.name, printer, node) : ''
   ];
 
-  parts.push(printer.space, printClassTail(node.members, printer, node));
+  parts.push(printer.space, printClassTail(node.tail, printer, node));
 
   return chain(parts);
 }
 
 function printClassTail(node: any, printer: Printer, parentNode: any): any {
-
-  if (node.elements.length === 0) {
-    return chain([
-      node.classHeritage ? chain([' ', printStatements(node.classHeritage, printer, node)]) : '',
-      '{}'
-    ]);
-  }
-
   return chain([
     node.classHeritage ? chain([' ', printStatements(node.classHeritage, printer, node)]) : '',
+    printClassBody(node.body, printer, parentNode)
+  ]);
+}
+
+function printClassBody(node: any, printer: Printer, parentNode: any): any {
+  try {
+    if (node.elements.length === 0) {
+      return '{}';
+    }
+  } catch (x) {
+    console.log(printer.source);
+  }
+  return chain([
     '{',
     indent(chain([hardline, printList(node.elements, printer, parentNode, printStatements)])),
     hardline,

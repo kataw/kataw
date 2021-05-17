@@ -38,10 +38,16 @@ class arguments {}
                 "end": 15
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 17,
+                    "end": 17
+                },
                 "flags": 32,
                 "start": 15,
                 "end": 18

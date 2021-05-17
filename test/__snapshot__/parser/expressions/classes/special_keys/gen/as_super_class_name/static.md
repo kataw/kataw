@@ -38,7 +38,7 @@ class x extends static {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -61,7 +61,13 @@ class x extends static {}
                     "start": 15,
                     "end": 22
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 24,
+                    "end": 24
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 25

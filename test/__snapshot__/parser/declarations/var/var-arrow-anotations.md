@@ -2114,112 +2114,118 @@ class Array { concat(items:number | string) {}; }
                 "end": 745
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "concat",
-                                "rawText": "concat",
-                                "flags": 96,
-                                "start": 747,
-                                "end": 754
-                            },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [
-                                    {
-                                        "kind": 215,
-                                        "ellipsisToken": null,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "items",
-                                            "rawText": "items",
-                                            "flags": 96,
-                                            "start": 755,
-                                            "end": 760
-                                        },
-                                        "optionalToken": null,
-                                        "type": {
-                                            "kind": 139,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "concat",
+                                    "rawText": "concat",
+                                    "flags": 96,
+                                    "start": 747,
+                                    "end": 754
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 215,
+                                            "ellipsisToken": null,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "items",
+                                                "rawText": "items",
+                                                "flags": 96,
+                                                "start": 755,
+                                                "end": 760
+                                            },
+                                            "optionalToken": null,
                                             "type": {
-                                                "kind": 137,
-                                                "types": [
-                                                    {
-                                                        "kind": 134234345,
-                                                        "flags": 64,
-                                                        "start": 761,
-                                                        "end": 767
-                                                    },
-                                                    {
-                                                        "kind": 134234347,
-                                                        "flags": 64,
-                                                        "start": 769,
-                                                        "end": 776
-                                                    }
-                                                ],
+                                                "kind": 139,
+                                                "type": {
+                                                    "kind": 137,
+                                                    "types": [
+                                                        {
+                                                            "kind": 134234345,
+                                                            "flags": 64,
+                                                            "start": 761,
+                                                            "end": 767
+                                                        },
+                                                        {
+                                                            "kind": 134234347,
+                                                            "flags": 64,
+                                                            "start": 769,
+                                                            "end": 776
+                                                        }
+                                                    ],
+                                                    "flags": 0,
+                                                    "start": 767,
+                                                    "end": 776
+                                                },
                                                 "flags": 0,
-                                                "start": 767,
+                                                "start": 760,
                                                 "end": 776
                                             },
-                                            "flags": 0,
-                                            "start": 760,
+                                            "initializer": null,
+                                            "flags": 32,
+                                            "start": 755,
                                             "end": 776
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 755,
-                                        "end": 776
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 755,
-                                "end": 777
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 32,
-                                    "start": 779,
-                                    "end": 779
+                                    "start": 755,
+                                    "end": 777
                                 },
-                                "flags": 32,
-                                "start": 777,
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 779,
+                                        "end": 779
+                                    },
+                                    "flags": 32,
+                                    "start": 777,
+                                    "end": 780
+                                },
+                                "flags": 0,
+                                "start": 754,
                                 "end": 780
                             },
                             "flags": 0,
-                            "start": 754,
+                            "start": 747,
                             "end": 780
                         },
-                        "flags": 0,
-                        "start": 747,
-                        "end": 780
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 780,
-                        "end": 781
-                    }
-                ],
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 780,
+                            "end": 781
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 747,
+                    "end": 781
+                },
                 "flags": 32,
                 "start": 745,
                 "end": 783

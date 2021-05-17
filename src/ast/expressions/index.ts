@@ -34,6 +34,8 @@ import { CallChain } from '../expressions/call-chain';
 import { PropertyDefinition } from '../expressions/property-definition';
 import { PropertyDefinitionList } from '../expressions/property-definition-list';
 import { OptionalExpression } from '../expressions/optional-expr';
+import { ClassBody } from '../expressions/class-body';
+import { ClassTail } from '../expressions/class-tail';
 
 /**
  * The set of all syntax items which are expressions.
@@ -58,6 +60,8 @@ export type ExpressionNode =
   | BigIntLiteral
   | BooleanLiteral
   | NullLiteral
+  | ClassBody
+  | ClassTail
   | ArgumentList
   | NumericLiteral
   | StringLiteral

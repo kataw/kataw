@@ -100,43 +100,49 @@ a});
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
-                            "kind": 8388716,
-                            "flags": 64,
-                            "start": 9,
-                            "end": 16
-                        },
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 67174651,
-                            "text": "#foo",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 16
+                            },
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 67174651,
+                                "text": "#foo",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 21
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 96,
+                                "start": 23,
+                                "end": 27
+                            },
+                            "flags": 32,
                             "start": 16,
-                            "end": 21
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 23,
                             "end": 27
-                        },
-                        "flags": 32,
-                        "start": 16,
-                        "end": 27
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 27
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 29
@@ -167,50 +173,56 @@ a});
                         "end": 39
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 41,
-                                    "end": 48
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 41,
+                                        "end": 48
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 48,
+                                        "end": 50
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 52,
+                                        "end": 54
+                                    },
+                                    "flags": 32,
                                     "start": 48,
-                                    "end": 50
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 52,
                                     "end": 54
                                 },
-                                "flags": 32,
-                                "start": 48,
-                                "end": 54
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 54,
-                                "end": 55
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 54,
+                                    "end": 55
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 41,
+                            "end": 55
+                        },
                         "flags": 32,
                         "start": 39,
                         "end": 56
@@ -249,71 +261,77 @@ a});
                         "end": 67
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 69,
-                                    "end": 76
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 69,
+                                        "end": 76
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 76,
+                                        "end": 78
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 80,
+                                        "end": 82
+                                    },
+                                    "flags": 32,
                                     "start": 76,
-                                    "end": 78
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 80,
                                     "end": 82
                                 },
-                                "flags": 32,
-                                "start": 76,
-                                "end": 82
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 82,
-                                "end": 83
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
+                                {
+                                    "kind": 281,
                                     "flags": 96,
+                                    "start": 82,
+                                    "end": 83
+                                },
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 83,
+                                        "end": 85
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 83,
                                     "end": 85
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 83,
-                                "end": 85
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 69,
+                            "end": 85
+                        },
                         "flags": 32,
                         "start": 67,
                         "end": 86
@@ -352,101 +370,107 @@ a});
                         "end": 97
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 99,
-                                    "end": 106
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 99,
+                                        "end": 106
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 106,
+                                        "end": 108
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 110,
+                                        "end": 112
+                                    },
+                                    "flags": 32,
                                     "start": 106,
-                                    "end": 108
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 110,
                                     "end": 112
                                 },
-                                "flags": 32,
-                                "start": 106,
-                                "end": 112
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 112,
-                                "end": 113
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 113,
-                                        "end": 115
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 116,
-                                        "end": 117
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 118,
-                                            "end": 118
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 112,
+                                    "end": 113
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 113,
+                                            "end": 115
                                         },
-                                        "flags": 32,
-                                        "start": 117,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 116,
+                                            "end": 117
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 118,
+                                                "end": 118
+                                            },
+                                            "flags": 32,
+                                            "start": 117,
+                                            "end": 119
+                                        },
+                                        "flags": 0,
+                                        "start": 115,
                                         "end": 119
                                     },
                                     "flags": 0,
-                                    "start": 115,
+                                    "start": 113,
                                     "end": 119
-                                },
-                                "flags": 0,
-                                "start": 113,
-                                "end": 119
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 99,
+                            "end": 119
+                        },
                         "flags": 32,
                         "start": 97,
                         "end": 120
@@ -485,106 +509,112 @@ a});
                         "end": 131
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 133,
-                                    "end": 140
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 133,
+                                        "end": 140
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 140,
+                                        "end": 142
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 144,
+                                        "end": 146
+                                    },
+                                    "flags": 32,
                                     "start": 140,
-                                    "end": 142
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 144,
                                     "end": 146
                                 },
-                                "flags": 32,
-                                "start": 140,
-                                "end": 146
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 146,
-                                "end": 147
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": {
-                                    "kind": 67143222,
-                                    "flags": 64,
-                                    "start": 147,
-                                    "end": 149
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 146,
+                                    "end": 147
                                 },
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 149,
-                                        "end": 150
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 147,
+                                        "end": 149
                                     },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 151,
-                                        "end": 152
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 153,
-                                            "end": 153
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 149,
+                                            "end": 150
                                         },
-                                        "flags": 32,
-                                        "start": 152,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 151,
+                                            "end": 152
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 153,
+                                                "end": 153
+                                            },
+                                            "flags": 32,
+                                            "start": 152,
+                                            "end": 154
+                                        },
+                                        "flags": 0,
+                                        "start": 150,
                                         "end": 154
                                     },
                                     "flags": 0,
-                                    "start": 150,
+                                    "start": 147,
                                     "end": 154
-                                },
-                                "flags": 0,
-                                "start": 147,
-                                "end": 154
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 133,
+                            "end": 154
+                        },
                         "flags": 32,
                         "start": 131,
                         "end": 155
@@ -623,107 +653,113 @@ a});
                         "end": 166
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 168,
-                                    "end": 175
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 168,
+                                        "end": 175
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 175,
+                                        "end": 177
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 179,
+                                        "end": 181
+                                    },
+                                    "flags": 32,
                                     "start": 175,
-                                    "end": 177
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 179,
                                     "end": 181
                                 },
-                                "flags": 32,
-                                "start": 175,
-                                "end": 181
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 181,
-                                "end": 182
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 194,
-                                        "expression": {
-                                            "kind": 201392131,
-                                            "text": "b",
-                                            "rawText": "'b'",
-                                            "flags": 4194400,
-                                            "start": 184,
-                                            "end": 187
-                                        },
-                                        "flags": 32,
-                                        "start": 182,
-                                        "end": 188
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 189,
-                                        "end": 190
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 181,
+                                    "end": 182
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 194,
+                                            "expression": {
+                                                "kind": 201392131,
+                                                "text": "b",
+                                                "rawText": "'b'",
+                                                "flags": 4194400,
+                                                "start": 184,
+                                                "end": 187
+                                            },
                                             "flags": 32,
-                                            "start": 191,
-                                            "end": 191
+                                            "start": 182,
+                                            "end": 188
                                         },
-                                        "flags": 32,
-                                        "start": 190,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 189,
+                                            "end": 190
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 191,
+                                                "end": 191
+                                            },
+                                            "flags": 32,
+                                            "start": 190,
+                                            "end": 192
+                                        },
+                                        "flags": 0,
+                                        "start": 188,
                                         "end": 192
                                     },
                                     "flags": 0,
-                                    "start": 188,
+                                    "start": 182,
                                     "end": 192
-                                },
-                                "flags": 0,
-                                "start": 182,
-                                "end": 192
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 168,
+                            "end": 192
+                        },
                         "flags": 32,
                         "start": 166,
                         "end": 193
@@ -762,43 +798,49 @@ a});
                         "end": 204
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 206,
-                                    "end": 213
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 206,
+                                        "end": 213
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 213,
+                                        "end": 215
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 213,
                                     "end": 215
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 213,
-                                "end": 215
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 215,
-                                "end": 216
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 215,
+                                    "end": 216
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 206,
+                            "end": 216
+                        },
                         "flags": 32,
                         "start": 204,
                         "end": 217
@@ -837,70 +879,76 @@ a});
                         "end": 228
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 230,
-                                    "end": 237
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 230,
+                                        "end": 237
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 237,
+                                        "end": 239
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 237,
                                     "end": 239
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 237,
-                                "end": 239
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 239,
-                                "end": 240
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
+                                {
+                                    "kind": 281,
                                     "flags": 96,
+                                    "start": 239,
+                                    "end": 240
+                                },
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 240,
+                                        "end": 242
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 240,
                                     "end": 242
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 240,
-                                "end": 242
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 242,
-                                "end": 243
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 242,
+                                    "end": 243
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 230,
+                            "end": 243
+                        },
                         "flags": 32,
                         "start": 228,
                         "end": 244
@@ -939,94 +987,100 @@ a});
                         "end": 255
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 257,
-                                    "end": 264
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 257,
+                                        "end": 264
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 264,
+                                        "end": 266
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 264,
                                     "end": 266
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 264,
-                                "end": 266
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 266,
-                                "end": 267
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 267,
-                                        "end": 269
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 270,
-                                        "end": 271
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 272,
-                                            "end": 272
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 266,
+                                    "end": 267
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 267,
+                                            "end": 269
                                         },
-                                        "flags": 32,
-                                        "start": 271,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 270,
+                                            "end": 271
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 272,
+                                                "end": 272
+                                            },
+                                            "flags": 32,
+                                            "start": 271,
+                                            "end": 273
+                                        },
+                                        "flags": 0,
+                                        "start": 269,
                                         "end": 273
                                     },
                                     "flags": 0,
-                                    "start": 269,
+                                    "start": 267,
                                     "end": 273
-                                },
-                                "flags": 0,
-                                "start": 267,
-                                "end": 273
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 257,
+                            "end": 273
+                        },
                         "flags": 32,
                         "start": 255,
                         "end": 274
@@ -1065,99 +1119,105 @@ a});
                         "end": 285
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 287,
-                                    "end": 294
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 287,
+                                        "end": 294
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 294,
+                                        "end": 296
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 294,
                                     "end": 296
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 294,
-                                "end": 296
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 296,
-                                "end": 297
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": {
-                                    "kind": 67143222,
-                                    "flags": 64,
-                                    "start": 297,
-                                    "end": 299
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 296,
+                                    "end": 297
                                 },
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 299,
-                                        "end": 300
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 297,
+                                        "end": 299
                                     },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 301,
-                                        "end": 302
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 303,
-                                            "end": 303
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 299,
+                                            "end": 300
                                         },
-                                        "flags": 32,
-                                        "start": 302,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 301,
+                                            "end": 302
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 303,
+                                                "end": 303
+                                            },
+                                            "flags": 32,
+                                            "start": 302,
+                                            "end": 304
+                                        },
+                                        "flags": 0,
+                                        "start": 300,
                                         "end": 304
                                     },
                                     "flags": 0,
-                                    "start": 300,
+                                    "start": 297,
                                     "end": 304
-                                },
-                                "flags": 0,
-                                "start": 297,
-                                "end": 304
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 287,
+                            "end": 304
+                        },
                         "flags": 32,
                         "start": 285,
                         "end": 305
@@ -1196,100 +1256,106 @@ a});
                         "end": 316
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 318,
-                                    "end": 325
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 318,
+                                        "end": 325
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 325,
+                                        "end": 327
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 325,
                                     "end": 327
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 325,
-                                "end": 327
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 327,
-                                "end": 328
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 194,
-                                        "expression": {
-                                            "kind": 201392131,
-                                            "text": "b",
-                                            "rawText": "'b'",
-                                            "flags": 4194400,
-                                            "start": 330,
-                                            "end": 333
-                                        },
-                                        "flags": 32,
-                                        "start": 328,
-                                        "end": 334
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 335,
-                                        "end": 336
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 327,
+                                    "end": 328
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 194,
+                                            "expression": {
+                                                "kind": 201392131,
+                                                "text": "b",
+                                                "rawText": "'b'",
+                                                "flags": 4194400,
+                                                "start": 330,
+                                                "end": 333
+                                            },
                                             "flags": 32,
-                                            "start": 337,
-                                            "end": 337
+                                            "start": 328,
+                                            "end": 334
                                         },
-                                        "flags": 32,
-                                        "start": 336,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 335,
+                                            "end": 336
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 337,
+                                                "end": 337
+                                            },
+                                            "flags": 32,
+                                            "start": 336,
+                                            "end": 338
+                                        },
+                                        "flags": 0,
+                                        "start": 334,
                                         "end": 338
                                     },
                                     "flags": 0,
-                                    "start": 334,
+                                    "start": 328,
                                     "end": 338
-                                },
-                                "flags": 0,
-                                "start": 328,
-                                "end": 338
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 318,
+                            "end": 338
+                        },
                         "flags": 32,
                         "start": 316,
                         "end": 339
@@ -1328,56 +1394,62 @@ a});
                         "end": 350
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 352,
-                                    "end": 359
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 361,
-                                        "end": 364
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 352,
+                                        "end": 359
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 361,
+                                            "end": 364
+                                        },
+                                        "flags": 32,
+                                        "start": 359,
+                                        "end": 365
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 367,
+                                        "end": 369
                                     },
                                     "flags": 32,
                                     "start": 359,
-                                    "end": 365
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 367,
                                     "end": 369
                                 },
-                                "flags": 32,
-                                "start": 359,
-                                "end": 369
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 369,
-                                "end": 370
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 369,
+                                    "end": 370
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 352,
+                            "end": 370
+                        },
                         "flags": 32,
                         "start": 350,
                         "end": 371
@@ -1416,77 +1488,83 @@ a});
                         "end": 382
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 384,
-                                    "end": 391
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 393,
-                                        "end": 396
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 384,
+                                        "end": 391
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 393,
+                                            "end": 396
+                                        },
+                                        "flags": 32,
+                                        "start": 391,
+                                        "end": 397
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 399,
+                                        "end": 401
                                     },
                                     "flags": 32,
                                     "start": 391,
-                                    "end": 397
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 399,
                                     "end": 401
                                 },
-                                "flags": 32,
-                                "start": 391,
-                                "end": 401
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 401,
-                                "end": 402
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
+                                {
+                                    "kind": 281,
                                     "flags": 96,
+                                    "start": 401,
+                                    "end": 402
+                                },
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 402,
+                                        "end": 404
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 402,
                                     "end": 404
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 402,
-                                "end": 404
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 384,
+                            "end": 404
+                        },
                         "flags": 32,
                         "start": 382,
                         "end": 405
@@ -1525,107 +1603,113 @@ a});
                         "end": 416
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 418,
-                                    "end": 425
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 427,
-                                        "end": 430
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 418,
+                                        "end": 425
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 427,
+                                            "end": 430
+                                        },
+                                        "flags": 32,
+                                        "start": 425,
+                                        "end": 431
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 433,
+                                        "end": 435
                                     },
                                     "flags": 32,
                                     "start": 425,
-                                    "end": 431
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 433,
                                     "end": 435
                                 },
-                                "flags": 32,
-                                "start": 425,
-                                "end": 435
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 435,
-                                "end": 436
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 436,
-                                        "end": 438
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 439,
-                                        "end": 440
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 441,
-                                            "end": 441
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 435,
+                                    "end": 436
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 436,
+                                            "end": 438
                                         },
-                                        "flags": 32,
-                                        "start": 440,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 439,
+                                            "end": 440
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 441,
+                                                "end": 441
+                                            },
+                                            "flags": 32,
+                                            "start": 440,
+                                            "end": 442
+                                        },
+                                        "flags": 0,
+                                        "start": 438,
                                         "end": 442
                                     },
                                     "flags": 0,
-                                    "start": 438,
+                                    "start": 436,
                                     "end": 442
-                                },
-                                "flags": 0,
-                                "start": 436,
-                                "end": 442
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 418,
+                            "end": 442
+                        },
                         "flags": 32,
                         "start": 416,
                         "end": 443
@@ -1664,112 +1748,118 @@ a});
                         "end": 454
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 456,
-                                    "end": 463
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 465,
-                                        "end": 468
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 456,
+                                        "end": 463
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 465,
+                                            "end": 468
+                                        },
+                                        "flags": 32,
+                                        "start": 463,
+                                        "end": 469
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 471,
+                                        "end": 473
                                     },
                                     "flags": 32,
                                     "start": 463,
-                                    "end": 469
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 471,
                                     "end": 473
                                 },
-                                "flags": 32,
-                                "start": 463,
-                                "end": 473
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 473,
-                                "end": 474
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": {
-                                    "kind": 67143222,
-                                    "flags": 64,
-                                    "start": 474,
-                                    "end": 476
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 473,
+                                    "end": 474
                                 },
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 476,
-                                        "end": 477
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 474,
+                                        "end": 476
                                     },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 478,
-                                        "end": 479
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 480,
-                                            "end": 480
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 476,
+                                            "end": 477
                                         },
-                                        "flags": 32,
-                                        "start": 479,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 478,
+                                            "end": 479
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 480,
+                                                "end": 480
+                                            },
+                                            "flags": 32,
+                                            "start": 479,
+                                            "end": 481
+                                        },
+                                        "flags": 0,
+                                        "start": 477,
                                         "end": 481
                                     },
                                     "flags": 0,
-                                    "start": 477,
+                                    "start": 474,
                                     "end": 481
-                                },
-                                "flags": 0,
-                                "start": 474,
-                                "end": 481
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 456,
+                            "end": 481
+                        },
                         "flags": 32,
                         "start": 454,
                         "end": 482
@@ -1808,113 +1898,119 @@ a});
                         "end": 493
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 495,
-                                    "end": 502
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 504,
-                                        "end": 507
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 495,
+                                        "end": 502
                                     },
-                                    "flags": 32,
-                                    "start": 502,
-                                    "end": 508
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 510,
-                                    "end": 512
-                                },
-                                "flags": 32,
-                                "start": 502,
-                                "end": 512
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 512,
-                                "end": 513
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
+                                    "asyncKeyword": null,
+                                    "key": {
                                         "kind": 194,
                                         "expression": {
                                             "kind": 201392131,
-                                            "text": "b",
-                                            "rawText": "'b'",
+                                            "text": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
-                                            "start": 515,
-                                            "end": 518
+                                            "start": 504,
+                                            "end": 507
                                         },
                                         "flags": 32,
-                                        "start": 513,
-                                        "end": 519
+                                        "start": 502,
+                                        "end": 508
                                     },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 520,
-                                        "end": 521
-                                    },
+                                    "optionalToken": null,
                                     "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 510,
+                                        "end": 512
+                                    },
+                                    "flags": 32,
+                                    "start": 502,
+                                    "end": 512
+                                },
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 512,
+                                    "end": 513
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 194,
+                                            "expression": {
+                                                "kind": 201392131,
+                                                "text": "b",
+                                                "rawText": "'b'",
+                                                "flags": 4194400,
+                                                "start": 515,
+                                                "end": 518
+                                            },
                                             "flags": 32,
-                                            "start": 522,
-                                            "end": 522
+                                            "start": 513,
+                                            "end": 519
                                         },
-                                        "flags": 32,
-                                        "start": 521,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 520,
+                                            "end": 521
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 522,
+                                                "end": 522
+                                            },
+                                            "flags": 32,
+                                            "start": 521,
+                                            "end": 523
+                                        },
+                                        "flags": 0,
+                                        "start": 519,
                                         "end": 523
                                     },
                                     "flags": 0,
-                                    "start": 519,
+                                    "start": 513,
                                     "end": 523
-                                },
-                                "flags": 0,
-                                "start": 513,
-                                "end": 523
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 495,
+                            "end": 523
+                        },
                         "flags": 32,
                         "start": 493,
                         "end": 524
@@ -1953,49 +2049,55 @@ a});
                         "end": 535
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 537,
-                                    "end": 544
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 546,
-                                        "end": 549
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 537,
+                                        "end": 544
                                     },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 546,
+                                            "end": 549
+                                        },
+                                        "flags": 32,
+                                        "start": 544,
+                                        "end": 550
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 544,
                                     "end": 550
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 544,
-                                "end": 550
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 550,
-                                "end": 551
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 550,
+                                    "end": 551
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 537,
+                            "end": 551
+                        },
                         "flags": 32,
                         "start": 535,
                         "end": 552
@@ -2034,76 +2136,82 @@ a});
                         "end": 563
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 565,
-                                    "end": 572
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 574,
-                                        "end": 577
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 565,
+                                        "end": 572
                                     },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 574,
+                                            "end": 577
+                                        },
+                                        "flags": 32,
+                                        "start": 572,
+                                        "end": 578
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 572,
                                     "end": 578
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 572,
-                                "end": 578
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 578,
-                                "end": 579
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
+                                {
+                                    "kind": 281,
                                     "flags": 96,
+                                    "start": 578,
+                                    "end": 579
+                                },
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 579,
+                                        "end": 581
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 579,
                                     "end": 581
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 579,
-                                "end": 581
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 581,
-                                "end": 582
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 581,
+                                    "end": 582
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 565,
+                            "end": 582
+                        },
                         "flags": 32,
                         "start": 563,
                         "end": 583
@@ -2142,100 +2250,106 @@ a});
                         "end": 594
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 596,
-                                    "end": 603
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 605,
-                                        "end": 608
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 596,
+                                        "end": 603
                                     },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 605,
+                                            "end": 608
+                                        },
+                                        "flags": 32,
+                                        "start": 603,
+                                        "end": 609
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 603,
                                     "end": 609
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 603,
-                                "end": 609
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 609,
-                                "end": 610
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 610,
-                                        "end": 612
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 613,
-                                        "end": 614
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 615,
-                                            "end": 615
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 609,
+                                    "end": 610
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 610,
+                                            "end": 612
                                         },
-                                        "flags": 32,
-                                        "start": 614,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 613,
+                                            "end": 614
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 615,
+                                                "end": 615
+                                            },
+                                            "flags": 32,
+                                            "start": 614,
+                                            "end": 616
+                                        },
+                                        "flags": 0,
+                                        "start": 612,
                                         "end": 616
                                     },
                                     "flags": 0,
-                                    "start": 612,
+                                    "start": 610,
                                     "end": 616
-                                },
-                                "flags": 0,
-                                "start": 610,
-                                "end": 616
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 596,
+                            "end": 616
+                        },
                         "flags": 32,
                         "start": 594,
                         "end": 617
@@ -2274,105 +2388,111 @@ a});
                         "end": 628
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 630,
-                                    "end": 637
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 639,
-                                        "end": 642
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 630,
+                                        "end": 637
                                     },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 639,
+                                            "end": 642
+                                        },
+                                        "flags": 32,
+                                        "start": 637,
+                                        "end": 643
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 637,
                                     "end": 643
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 637,
-                                "end": 643
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 643,
-                                "end": 644
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": {
-                                    "kind": 67143222,
-                                    "flags": 64,
-                                    "start": 644,
-                                    "end": 646
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 643,
+                                    "end": 644
                                 },
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 646,
-                                        "end": 647
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 644,
+                                        "end": 646
                                     },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 648,
-                                        "end": 649
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 650,
-                                            "end": 650
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 646,
+                                            "end": 647
                                         },
-                                        "flags": 32,
-                                        "start": 649,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 648,
+                                            "end": 649
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 650,
+                                                "end": 650
+                                            },
+                                            "flags": 32,
+                                            "start": 649,
+                                            "end": 651
+                                        },
+                                        "flags": 0,
+                                        "start": 647,
                                         "end": 651
                                     },
                                     "flags": 0,
-                                    "start": 647,
+                                    "start": 644,
                                     "end": 651
-                                },
-                                "flags": 0,
-                                "start": 644,
-                                "end": 651
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 630,
+                            "end": 651
+                        },
                         "flags": 32,
                         "start": 628,
                         "end": 652
@@ -2411,106 +2531,112 @@ a});
                         "end": 663
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 665,
-                                    "end": 672
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "'a'",
-                                        "flags": 4194400,
-                                        "start": 674,
-                                        "end": 677
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 665,
+                                        "end": 672
                                     },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "'a'",
+                                            "flags": 4194400,
+                                            "start": 674,
+                                            "end": 677
+                                        },
+                                        "flags": 32,
+                                        "start": 672,
+                                        "end": 678
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 672,
                                     "end": 678
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 672,
-                                "end": 678
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 678,
-                                "end": 679
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 194,
-                                        "expression": {
-                                            "kind": 201392131,
-                                            "text": "b",
-                                            "rawText": "'b'",
-                                            "flags": 4194400,
-                                            "start": 681,
-                                            "end": 684
-                                        },
-                                        "flags": 32,
-                                        "start": 679,
-                                        "end": 685
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 686,
-                                        "end": 687
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 678,
+                                    "end": 679
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 194,
+                                            "expression": {
+                                                "kind": 201392131,
+                                                "text": "b",
+                                                "rawText": "'b'",
+                                                "flags": 4194400,
+                                                "start": 681,
+                                                "end": 684
+                                            },
                                             "flags": 32,
-                                            "start": 688,
-                                            "end": 688
+                                            "start": 679,
+                                            "end": 685
                                         },
-                                        "flags": 32,
-                                        "start": 687,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 686,
+                                            "end": 687
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 688,
+                                                "end": 688
+                                            },
+                                            "flags": 32,
+                                            "start": 687,
+                                            "end": 689
+                                        },
+                                        "flags": 0,
+                                        "start": 685,
                                         "end": 689
                                     },
                                     "flags": 0,
-                                    "start": 685,
+                                    "start": 679,
                                     "end": 689
-                                },
-                                "flags": 0,
-                                "start": 679,
-                                "end": 689
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 665,
+                            "end": 689
+                        },
                         "flags": 32,
                         "start": 663,
                         "end": 690
@@ -2542,7 +2668,7 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -2565,47 +2691,53 @@ a});
                             "start": 708,
                             "end": 710
                         },
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 712,
-                                    "end": 719
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 712,
+                                        "end": 719
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 719,
+                                        "end": 721
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 723,
+                                        "end": 725
+                                    },
+                                    "flags": 32,
                                     "start": 719,
-                                    "end": 721
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 723,
                                     "end": 725
                                 },
-                                "flags": 32,
-                                "start": 719,
-                                "end": 725
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 725,
-                                "end": 726
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 725,
+                                    "end": 726
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 712,
+                            "end": 726
+                        },
                         "flags": 32,
                         "start": 700,
                         "end": 727
@@ -2637,7 +2769,7 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -2660,40 +2792,46 @@ a});
                             "start": 744,
                             "end": 746
                         },
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 748,
-                                    "end": 755
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 748,
+                                        "end": 755
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 755,
+                                        "end": 757
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 755,
                                     "end": 757
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 755,
-                                "end": 757
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 757,
-                                "end": 758
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 757,
+                                    "end": 758
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 748,
+                            "end": 758
+                        },
                         "flags": 32,
                         "start": 736,
                         "end": 759
@@ -2725,7 +2863,7 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -2748,47 +2886,53 @@ a});
                             "start": 776,
                             "end": 778
                         },
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 780,
-                                    "end": 787
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392131,
-                                    "text": "a",
-                                    "rawText": "'a'",
-                                    "flags": 4194400,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 780,
+                                        "end": 787
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 201392131,
+                                        "text": "a",
+                                        "rawText": "'a'",
+                                        "flags": 4194400,
+                                        "start": 787,
+                                        "end": 791
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 793,
+                                        "end": 795
+                                    },
+                                    "flags": 32,
                                     "start": 787,
-                                    "end": 791
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 793,
                                     "end": 795
                                 },
-                                "flags": 32,
-                                "start": 787,
-                                "end": 795
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 795,
-                                "end": 796
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 795,
+                                    "end": 796
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 780,
+                            "end": 796
+                        },
                         "flags": 32,
                         "start": 768,
                         "end": 797
@@ -2820,7 +2964,7 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -2843,40 +2987,46 @@ a});
                             "start": 814,
                             "end": 816
                         },
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 818,
-                                    "end": 825
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392131,
-                                    "text": "a",
-                                    "rawText": "'a'",
-                                    "flags": 4194400,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 818,
+                                        "end": 825
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 201392131,
+                                        "text": "a",
+                                        "rawText": "'a'",
+                                        "flags": 4194400,
+                                        "start": 825,
+                                        "end": 829
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 825,
                                     "end": 829
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 825,
-                                "end": 829
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 829,
-                                "end": 830
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 829,
+                                    "end": 830
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 818,
+                            "end": 830
+                        },
                         "flags": 32,
                         "start": 806,
                         "end": 831
@@ -2915,44 +3065,50 @@ a});
                         "end": 843
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 845,
-                                    "end": 852
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 845,
+                                        "end": 852
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 852,
+                                        "end": 858
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 860,
+                                        "end": 862
+                                    },
+                                    "flags": 32,
                                     "start": 852,
-                                    "end": 858
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 860,
                                     "end": 862
-                                },
-                                "flags": 32,
-                                "start": 852,
-                                "end": 862
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 845,
+                            "end": 862
+                        },
                         "flags": 32,
                         "start": 843,
                         "end": 863
@@ -2991,58 +3147,64 @@ a});
                         "end": 875
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 877,
-                                    "end": 884
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 877,
+                                        "end": 884
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 884,
+                                        "end": 890
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 884,
                                     "end": 890
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 884,
-                                "end": 890
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 890,
+                                        "end": 893
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 890,
                                     "end": 893
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 890,
-                                "end": 893
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 877,
+                            "end": 893
+                        },
                         "flags": 32,
                         "start": 875,
                         "end": 894
@@ -3081,43 +3243,49 @@ a});
                         "end": 906
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 908,
-                                    "end": 915
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 908,
+                                        "end": 915
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
+                                        "start": 915,
+                                        "end": 921
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 915,
                                     "end": 921
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 915,
-                                "end": 921
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 921,
-                                "end": 922
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 921,
+                                    "end": 922
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 908,
+                            "end": 922
+                        },
                         "flags": 32,
                         "start": 906,
                         "end": 923
@@ -3156,50 +3324,56 @@ a});
                         "end": 934
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 936,
-                                    "end": 943
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 936,
+                                        "end": 943
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
+                                        "start": 943,
+                                        "end": 949
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 951,
+                                        "end": 953
+                                    },
+                                    "flags": 32,
                                     "start": 943,
-                                    "end": 949
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 951,
                                     "end": 953
                                 },
-                                "flags": 32,
-                                "start": 943,
-                                "end": 953
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 953,
-                                "end": 954
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 953,
+                                    "end": 954
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 936,
+                            "end": 954
+                        },
                         "flags": 32,
                         "start": 934,
                         "end": 955
@@ -3238,37 +3412,43 @@ a});
                         "end": 966
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 968,
-                                    "end": 975
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 968,
+                                        "end": 975
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
+                                        "start": 975,
+                                        "end": 981
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 975,
                                     "end": 981
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 975,
-                                "end": 981
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 968,
+                            "end": 981
+                        },
                         "flags": 32,
                         "start": 966,
                         "end": 982
@@ -3307,44 +3487,50 @@ a});
                         "end": 993
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 995,
-                                    "end": 1002
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 995,
+                                        "end": 1002
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
+                                        "start": 1002,
+                                        "end": 1008
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 1010,
+                                        "end": 1012
+                                    },
+                                    "flags": 32,
                                     "start": 1002,
-                                    "end": 1008
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 1010,
                                     "end": 1012
-                                },
-                                "flags": 32,
-                                "start": 1002,
-                                "end": 1012
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 995,
+                            "end": 1012
+                        },
                         "flags": 32,
                         "start": 993,
                         "end": 1013
@@ -3383,72 +3569,78 @@ a});
                         "end": 1025
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1027,
-                                    "end": 1034
-                                },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 1034,
-                                    "end": 1040
-                                },
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 1040,
-                                        "end": 1043
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1027,
+                                        "end": 1034
                                     },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 256,
-                                        "start": 1044,
-                                        "end": 1045
+                                    "asyncKeyword": {
+                                        "kind": 82031,
+                                        "flags": 64,
+                                        "start": 1034,
+                                        "end": 1040
                                     },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 1046,
-                                            "end": 1046
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 1040,
+                                            "end": 1043
                                         },
-                                        "flags": 32,
-                                        "start": 1045,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 256,
+                                            "start": 1044,
+                                            "end": 1045
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 1046,
+                                                "end": 1046
+                                            },
+                                            "flags": 32,
+                                            "start": 1045,
+                                            "end": 1047
+                                        },
+                                        "flags": 256,
+                                        "start": 1043,
                                         "end": 1047
                                     },
                                     "flags": 256,
-                                    "start": 1043,
+                                    "start": 1034,
                                     "end": 1047
-                                },
-                                "flags": 256,
-                                "start": 1034,
-                                "end": 1047
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1027,
+                            "end": 1047
+                        },
                         "flags": 32,
                         "start": 1025,
                         "end": 1048
@@ -3487,42 +3679,48 @@ a});
                         "end": 1107
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1109,
-                                    "end": 1116
-                                },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1109,
+                                        "end": 1116
+                                    },
+                                    "asyncKeyword": {
+                                        "kind": 82031,
+                                        "flags": 64,
+                                        "start": 1116,
+                                        "end": 1122
+                                    },
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 1122,
+                                        "end": 1124
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1116,
-                                    "end": 1122
-                                },
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 1122,
                                     "end": 1124
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1116,
-                                "end": 1124
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1109,
+                            "end": 1124
+                        },
                         "flags": 32,
                         "start": 1107,
                         "end": 1125
@@ -3561,43 +3759,49 @@ a});
                         "end": 1137
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1139,
-                                    "end": 1146
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1139,
+                                        "end": 1146
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 1146,
+                                        "end": 1152
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1146,
                                     "end": 1152
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1146,
-                                "end": 1152
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 1152,
-                                "end": 1153
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 1152,
+                                    "end": 1153
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1139,
+                            "end": 1153
+                        },
                         "flags": 32,
                         "start": 1137,
                         "end": 1154
@@ -3636,50 +3840,56 @@ a});
                         "end": 1165
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1167,
-                                    "end": 1174
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1167,
+                                        "end": 1174
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 1174,
+                                        "end": 1180
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 1182,
+                                        "end": 1184
+                                    },
+                                    "flags": 32,
                                     "start": 1174,
-                                    "end": 1180
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 1182,
                                     "end": 1184
                                 },
-                                "flags": 32,
-                                "start": 1174,
-                                "end": 1184
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 1184,
-                                "end": 1185
-                            }
-                        ],
+                                {
+                                    "kind": 281,
+                                    "flags": 96,
+                                    "start": 1184,
+                                    "end": 1185
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1167,
+                            "end": 1185
+                        },
                         "flags": 32,
                         "start": 1165,
                         "end": 1186
@@ -3718,58 +3928,64 @@ a});
                         "end": 1198
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1200,
-                                    "end": 1207
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1200,
+                                        "end": 1207
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 1207,
+                                        "end": 1213
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1207,
                                     "end": 1213
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1207,
-                                "end": 1213
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 1213,
+                                        "end": 1216
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1213,
                                     "end": 1216
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1213,
-                                "end": 1216
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1200,
+                            "end": 1216
+                        },
                         "flags": 32,
                         "start": 1198,
                         "end": 1217
@@ -3808,79 +4024,85 @@ a});
                         "end": 1229
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1231,
-                                    "end": 1238
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 96,
-                                    "start": 1238,
-                                    "end": 1240
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 119,
-                                        "elementList": {
-                                            "kind": 270,
-                                            "elements": [
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "c",
-                                                    "rawText": "c",
-                                                    "flags": 96,
-                                                    "start": 1244,
-                                                    "end": 1245
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 1244,
-                                            "end": 1245
-                                        },
-                                        "flags": 32,
-                                        "start": 1242,
-                                        "end": 1246
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
                                         "flags": 64,
-                                        "start": 1246,
-                                        "end": 1248
+                                        "start": 1231,
+                                        "end": 1238
                                     },
-                                    "right": {
+                                    "asyncKeyword": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
-                                        "start": 1248,
+                                        "start": 1238,
+                                        "end": 1240
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 125,
+                                        "left": {
+                                            "kind": 119,
+                                            "elementList": {
+                                                "kind": 270,
+                                                "elements": [
+                                                    {
+                                                        "kind": 134299649,
+                                                        "text": "c",
+                                                        "rawText": "c",
+                                                        "flags": 96,
+                                                        "start": 1244,
+                                                        "end": 1245
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 1244,
+                                                "end": 1245
+                                            },
+                                            "flags": 32,
+                                            "start": 1242,
+                                            "end": 1246
+                                        },
+                                        "operatorToken": {
+                                            "kind": 4125,
+                                            "flags": 64,
+                                            "start": 1246,
+                                            "end": 1248
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
+                                            "start": 1248,
+                                            "end": 1250
+                                        },
+                                        "flags": 32,
+                                        "start": 1242,
                                         "end": 1250
                                     },
                                     "flags": 32,
-                                    "start": 1242,
+                                    "start": 1238,
                                     "end": 1250
-                                },
-                                "flags": 32,
-                                "start": 1238,
-                                "end": 1250
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1231,
+                            "end": 1250
+                        },
                         "flags": 32,
                         "start": 1229,
                         "end": 1251
@@ -3912,44 +4134,50 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1264,
-                                    "end": 1271
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1264,
+                                        "end": 1271
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 1271,
+                                        "end": 1273
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 1275,
+                                        "end": 1277
+                                    },
+                                    "flags": 32,
                                     "start": 1271,
-                                    "end": 1273
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 1275,
                                     "end": 1277
-                                },
-                                "flags": 32,
-                                "start": 1271,
-                                "end": 1277
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1264,
+                            "end": 1277
+                        },
                         "flags": 32,
                         "start": 1261,
                         "end": 1279
@@ -3981,65 +4209,71 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1292,
-                                    "end": 1299
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1292,
+                                        "end": 1299
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 1299,
+                                        "end": 1301
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 1303,
+                                        "end": 1305
+                                    },
+                                    "flags": 32,
                                     "start": 1299,
-                                    "end": 1301
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 1303,
                                     "end": 1305
                                 },
-                                "flags": 32,
-                                "start": 1299,
-                                "end": 1305
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 1305,
+                                        "end": 1308
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1305,
                                     "end": 1308
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1305,
-                                "end": 1308
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1292,
+                            "end": 1308
+                        },
                         "flags": 32,
                         "start": 1289,
                         "end": 1309
@@ -4071,95 +4305,101 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1322,
-                                    "end": 1329
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1322,
+                                        "end": 1329
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 1329,
+                                        "end": 1331
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 1333,
+                                        "end": 1335
+                                    },
+                                    "flags": 32,
                                     "start": 1329,
-                                    "end": 1331
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 1333,
                                     "end": 1335
                                 },
-                                "flags": 32,
-                                "start": 1329,
-                                "end": 1335
-                            },
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": null,
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 1335,
-                                        "end": 1338
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 1339,
-                                        "end": 1340
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 1341,
-                                            "end": 1341
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 1335,
+                                            "end": 1338
                                         },
-                                        "flags": 32,
-                                        "start": 1340,
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 1339,
+                                            "end": 1340
+                                        },
+                                        "type": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 1341,
+                                                "end": 1341
+                                            },
+                                            "flags": 32,
+                                            "start": 1340,
+                                            "end": 1342
+                                        },
+                                        "flags": 0,
+                                        "start": 1338,
                                         "end": 1342
                                     },
                                     "flags": 0,
-                                    "start": 1338,
+                                    "start": 1335,
                                     "end": 1342
-                                },
-                                "flags": 0,
-                                "start": 1335,
-                                "end": 1342
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1322,
+                            "end": 1342
+                        },
                         "flags": 32,
                         "start": 1319,
                         "end": 1343
@@ -4191,37 +4431,43 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1356,
-                                    "end": 1363
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1356,
+                                        "end": 1363
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 1363,
+                                        "end": 1365
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1363,
                                     "end": 1365
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1363,
-                                "end": 1365
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1356,
+                            "end": 1365
+                        },
                         "flags": 32,
                         "start": 1353,
                         "end": 1367
@@ -4253,58 +4499,64 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 1380,
-                                    "end": 1387
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": {
+                                        "kind": 8388716,
+                                        "flags": 64,
+                                        "start": 1380,
+                                        "end": 1387
+                                    },
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 1387,
+                                        "end": 1389
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1387,
                                     "end": 1389
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1387,
-                                "end": 1389
-                            },
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": null,
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 1389,
+                                        "end": 1392
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 1389,
                                     "end": 1392
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 1389,
-                                "end": 1392
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 1380,
+                            "end": 1392
+                        },
                         "flags": 32,
                         "start": 1377,
                         "end": 1394

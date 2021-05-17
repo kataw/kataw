@@ -111,62 +111,44 @@
                             "end": 24
                         },
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": null,
-                            "elements": [],
-                            "flags": 32,
-                            "start": 24,
-                            "end": 24
-                        },
-                        "flags": 16,
-                        "start": 18,
-                        "end": 24
-                    },
-                    {
-                        "kind": 176,
-                        "declareKeyword": null,
-                        "asyncKeyword": null,
-                        "functionKeyword": {
-                            "kind": 37822554,
-                            "flags": 0,
-                            "start": 24,
-                            "end": 33
-                        },
-                        "generatorToken": null,
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 33,
-                            "end": 33
-                        },
-                        "formalParameters": {
-                            "kind": 214,
-                            "formalParameterList": [],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 33,
-                            "end": 33
-                        },
-                        "contents": {
-                            "kind": 216,
-                            "functionStatementList": {
-                                "kind": 217,
-                                "directives": [],
-                                "statements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [
+                                    {
+                                        "kind": 280,
+                                        "decorators": null,
+                                        "declaredToken": null,
+                                        "staticToken": null,
+                                        "asyncKeyword": null,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "function",
+                                            "rawText": "function",
+                                            "flags": 96,
+                                            "start": 24,
+                                            "end": 33
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 24,
+                                        "end": 33
+                                    }
+                                ],
                                 "flags": 32,
-                                "start": 33,
+                                "start": 24,
                                 "end": 33
                             },
                             "flags": 32,
-                            "start": 33,
+                            "start": 24,
                             "end": 33
                         },
-                        "typeParameters": null,
-                        "returnType": null,
                         "flags": 16,
-                        "start": 24,
+                        "start": 18,
                         "end": 33
                     },
                     {
@@ -238,8 +220,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expected a `;` - start: 18, end: 24
 ✖ Binding identifier expected - start: 24, end: 33
-✖ Binding identifier expected - start: 33, end: 35
-✖ Unexpected token. - start: 33, end: 35
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 35
 ✖ Expression expected - start: 36, end: 36
 
 ```

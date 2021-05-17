@@ -39,7 +39,8 @@ import { createImportCall } from '../ast/expressions/import-call';
 import { createImportMeta } from '../ast/expressions/import-meta';
 import { createTemplateExpression, TemplateExpression } from '../ast/expressions/template-expression';
 import { createClassElement, ClassElement } from '../ast/expressions/class-element';
-import { createClassTail, ClassTail } from '../ast/expressions/class-element-list';
+import { createClassTail, ClassTail } from '../ast/expressions/class-tail';
+import { createClassBody, ClassBody } from '../ast/expressions/class-body';
 import { createClassExpression, ClassExpression } from '../ast/expressions/class-expr';
 import { createFieldDefinition, FieldDefinition } from '../ast/expressions/field-definition';
 import { createClassHeritage, ClassHeritage } from '../ast/expressions/class-heritage';
@@ -2142,7 +2143,7 @@ function parsePrimaryExpression(
       return parseThisExpression(parser, context);
     }
     if (context & Context.InAwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
-      return parseAwaitExpression(parser, context, inNewExpression);
+      return parseAwaitExpression(parser, context, inNewExpression, LeftHandSideContext);
     }
     const pos = parser.curPos;
     const token = parser.token;
@@ -6688,8 +6689,14 @@ function parseYieldIdentifierOrExpression(
 }
 
 // AwaitExpression : `await` UnaryExpression
-export function parseAwaitExpression(parser: ParserState, context: Context, inNewExpression: boolean): AwaitExpression {
+export function parseAwaitExpression(
+  parser: ParserState,
+  context: Context,
+  inNewExpression: boolean,
+  LeftHandSideContext: LeftHandSide
+): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
+  if (LeftHandSideContext) return parseIdentifierReference(parser, context);
   const awaitKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
   if (awaitKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
@@ -6952,69 +6959,84 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
   return createClassExpression(decorator, classToken, name, typeParameters, classTail, pos, parser.curPos);
 }
 
-function parseClassHeritage(parser: ParserState, context: Context): ClassHeritage | null {
-  const extendsToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExtendsKeyword);
-  if (extendsToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  const curPos = parser.curPos;
-  return createClassHeritage(
-    extendsToken,
-    parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.NotBindable),
-    (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null,
-    curPos,
-    parser.curPos
-  );
-}
-
+// ClassTail : ClassHeritage? `{` ClassBody? `}`
+// ClassHeritage : `extends` LeftHandSideExpression
+// ClassBody : ClassElementList
 function parseClassTail(parser: ParserState, context: Context, isDeclared: boolean, isDecl: boolean): ClassTail {
   const pos = parser.curPos;
-  const elements = [];
-  let hasConstructor = false;
+
   let classHeritage: ExpressionNode | null = null;
   let inheritedContext = context;
+  let body: any = null;
+  let ignoreMissingOpenBrace = false;
+
   if (parser.token === SyntaxKind.ExtendsKeyword) {
-    classHeritage = parseClassHeritage(parser, context);
+    const extendsToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExtendsKeyword);
+    if (extendsToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    const curPos = parser.curPos;
+    classHeritage = createClassHeritage(
+      extendsToken,
+      parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.NotBindable),
+      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null,
+      curPos,
+      parser.curPos
+    );
     inheritedContext |= Context.SuperCall;
   } else {
     inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
   }
 
-  if (consume(parser, context, SyntaxKind.LeftBrace)) {
-    while (parser.token & 0b01000100110000000100000000000000) {
-      const element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
-
-      if (element.flags & NodeFlags.Constructor) {
-        if (hasConstructor) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Multiple_constructor_implementations_are_not_allowed],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        hasConstructor = true;
-      }
-
-      elements.push(element);
-
-      if (parser.token === SyntaxKind.RightBrace) break;
-    }
-
-    if (isDecl) context | Context.AllowRegExp;
-    parseExpectedMatchingBracket(parser, context, SyntaxKind.RightBrace);
-  }
-
-  return createClassTail(classHeritage, elements, pos, parser.curPos);
+  consume(parser, context, SyntaxKind.LeftBrace) || ignoreMissingOpenBrace;
+  body = parseClassBody(parser, inheritedContext, context, isDeclared);
+  if (isDecl) context | Context.AllowRegExp;
+  parseExpectedMatchingBracket(parser, context, SyntaxKind.RightBrace);
+  return createClassTail(classHeritage, body, pos, parser.curPos);
 }
 
+export function parseClassBody(
+  parser: ParserState,
+  context: Context,
+  inheritedContext: Context,
+  isDeclared: boolean
+): ClassBody {
+  const pos = parser.curPos;
+  let hasConstructor = false;
+  let elements = [];
+  while (parser.token & 0b01000100110000000100000000000000) {
+    const element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
+
+    if (element.flags & NodeFlags.Constructor) {
+      if (hasConstructor) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Multiple_constructor_implementations_are_not_allowed],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      hasConstructor = true;
+    }
+
+    elements.push(element);
+
+    if (parser.token === SyntaxKind.RightBrace) break;
+  }
+  return createClassBody(elements, pos, parser.curPos);
+}
+
+// ClassElement :
+//   `static` MethodDefinition
+//   MethodDefinition
 export function parseClassElement(
   parser: ParserState,
   context: Context,

@@ -38,7 +38,7 @@ class A extends false {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,7 +60,13 @@ class A extends false {}
                     "start": 15,
                     "end": 21
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 23,
+                    "end": 23
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 24

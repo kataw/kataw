@@ -37,56 +37,57 @@ class try {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "try",
+                                "rawText": "try",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 9
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 9
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 9
+                },
                 "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 159,
-            "tryKeyword": {
-                "kind": 37757027,
-                "flags": 0,
                 "start": 5,
                 "end": 9
             },
+            "flags": 16,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 249,
             "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 11,
-                    "end": 11
-                },
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 9,
-                "end": 12
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 12,
-                    "end": 12
-                },
-                "flags": 16,
-                "start": 12,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "flags": 16,
-            "start": 5,
+            "start": 9,
             "end": 12
         }
     ],
@@ -109,6 +110,7 @@ class try {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 9
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
 
 ```
 

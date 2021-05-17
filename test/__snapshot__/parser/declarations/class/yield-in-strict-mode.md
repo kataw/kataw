@@ -81,46 +81,52 @@ function* f() { class C { aaa = yield } }
                                 "end": 23
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": null,
-                                "elements": [
-                                    {
-                                        "kind": 280,
-                                        "decorators": null,
-                                        "declaredToken": null,
-                                        "staticToken": null,
-                                        "asyncKeyword": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "aaa",
-                                            "rawText": "aaa",
-                                            "flags": 96,
-                                            "start": 25,
-                                            "end": 29
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 229,
-                                            "yieldKeyword": {
-                                                "kind": 8454253,
-                                                "flags": 0,
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "aaa",
+                                                "rawText": "aaa",
+                                                "flags": 96,
+                                                "start": 25,
+                                                "end": 29
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 0,
+                                                    "start": 31,
+                                                    "end": 37
+                                                },
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": null,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 37
                                             },
-                                            "delegate": false,
-                                            "asteriskToken": null,
-                                            "expression": null,
                                             "flags": 32,
-                                            "start": 31,
+                                            "start": 25,
                                             "end": 37
-                                        },
-                                        "flags": 32,
-                                        "start": 25,
-                                        "end": 37
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 25,
+                                    "end": 37
+                                },
                                 "flags": 32,
                                 "start": 23,
                                 "end": 39

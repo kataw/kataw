@@ -38,10 +38,16 @@ class package {}
                 "end": 13
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 15
+                },
                 "flags": 32,
                 "start": 13,
                 "end": 16

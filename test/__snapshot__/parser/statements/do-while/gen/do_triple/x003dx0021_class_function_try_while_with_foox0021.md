@@ -31,14 +31,14 @@ do do do =! class function try while with foo! while while while
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 36,
-                "end": 36
+                "start": 58,
+                "end": 58
             },
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 0,
-                "start": 30,
-                "end": 36
+                "start": 52,
+                "end": 58
             },
             "statement": {
                 "kind": 169,
@@ -52,10 +52,15 @@ do do do =! class function try while with foo! while while while
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 30,
-                    "end": 30
+                    "start": 52,
+                    "end": 52
                 },
-                "whileKeyword": null,
+                "whileKeyword": {
+                    "kind": 37757028,
+                    "flags": 0,
+                    "start": 46,
+                    "end": 52
+                },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
@@ -68,8 +73,8 @@ do do do =! class function try while with foo! while while while
                         "kind": 16637,
                         "text": "",
                         "flags": 64,
-                        "start": 26,
-                        "end": 26
+                        "start": 46,
+                        "end": 46
                     },
                     "whileKeyword": null,
                     "statement": {
@@ -108,155 +113,184 @@ do do do =! class function try while with foo! while while while
                                     },
                                     "name": null,
                                     "typeParameters": null,
-                                    "members": {
+                                    "tail": {
                                         "kind": 277,
                                         "classHeritage": null,
-                                        "elements": [],
+                                        "body": {
+                                            "kind": 262,
+                                            "elements": [
+                                                {
+                                                    "kind": 280,
+                                                    "decorators": null,
+                                                    "declaredToken": null,
+                                                    "staticToken": null,
+                                                    "asyncKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "function",
+                                                        "rawText": "function",
+                                                        "flags": 96,
+                                                        "start": 17,
+                                                        "end": 26
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "flags": 32,
+                                                    "start": 17,
+                                                    "end": 26
+                                                },
+                                                {
+                                                    "kind": 280,
+                                                    "decorators": null,
+                                                    "declaredToken": null,
+                                                    "staticToken": null,
+                                                    "asyncKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "try",
+                                                        "rawText": "try",
+                                                        "flags": 96,
+                                                        "start": 26,
+                                                        "end": 30
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "flags": 32,
+                                                    "start": 26,
+                                                    "end": 30
+                                                },
+                                                {
+                                                    "kind": 280,
+                                                    "decorators": null,
+                                                    "declaredToken": null,
+                                                    "staticToken": null,
+                                                    "asyncKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "while",
+                                                        "rawText": "while",
+                                                        "flags": 96,
+                                                        "start": 30,
+                                                        "end": 36
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "flags": 32,
+                                                    "start": 30,
+                                                    "end": 36
+                                                },
+                                                {
+                                                    "kind": 280,
+                                                    "decorators": null,
+                                                    "declaredToken": null,
+                                                    "staticToken": null,
+                                                    "asyncKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "with",
+                                                        "rawText": "with",
+                                                        "flags": 96,
+                                                        "start": 36,
+                                                        "end": 41
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "flags": 32,
+                                                    "start": 36,
+                                                    "end": 41
+                                                },
+                                                {
+                                                    "kind": 280,
+                                                    "decorators": null,
+                                                    "declaredToken": null,
+                                                    "staticToken": null,
+                                                    "asyncKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "foo",
+                                                        "rawText": "foo",
+                                                        "flags": 96,
+                                                        "start": 41,
+                                                        "end": 45
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "flags": 32,
+                                                    "start": 41,
+                                                    "end": 45
+                                                }
+                                            ],
+                                            "flags": 32,
+                                            "start": 17,
+                                            "end": 45
+                                        },
                                         "flags": 32,
                                         "start": 17,
-                                        "end": 17
+                                        "end": 45
                                     },
                                     "flags": 32,
                                     "start": 11,
-                                    "end": 17
+                                    "end": 45
                                 },
                                 "flags": 32,
                                 "start": 10,
-                                "end": 17
+                                "end": 45
                             },
                             "flags": 32,
                             "start": 8,
-                            "end": 17
+                            "end": 45
                         },
                         "flags": 16,
                         "start": 8,
-                        "end": 17
+                        "end": 45
                     },
                     "flags": 16,
                     "start": 5,
-                    "end": 26
-                },
-                "flags": 16,
-                "start": 2,
-                "end": 30
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 36
-        },
-        {
-            "kind": 153,
-            "withKeyword": {
-                "kind": 37757029,
-                "flags": 0,
-                "start": 36,
-                "end": 41
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 41,
-                "end": 45
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 126,
-                    "operandToken": {
-                        "kind": 65584,
-                        "flags": 64,
-                        "start": 45,
-                        "end": 46
-                    },
-                    "operand": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 46,
-                        "end": 46
-                    },
-                    "flags": 32,
-                    "start": 45,
                     "end": 46
                 },
                 "flags": 16,
-                "start": 45,
-                "end": 46
+                "start": 2,
+                "end": 52
             },
             "flags": 16,
-            "start": 36,
-            "end": 46
+            "start": 0,
+            "end": 58
         },
         {
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 0,
-                "start": 46,
-                "end": 52
+                "start": 58,
+                "end": 64
             },
             "expression": {
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 52,
-                "end": 52
+                "start": 64,
+                "end": 64
             },
             "statement": {
-                "kind": 154,
-                "whileKeyword": {
-                    "kind": 37757028,
-                    "flags": 0,
-                    "start": 52,
-                    "end": 58
-                },
+                "kind": 120,
                 "expression": {
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 58,
-                    "end": 58
-                },
-                "statement": {
-                    "kind": 154,
-                    "whileKeyword": {
-                        "kind": 37757028,
-                        "flags": 0,
-                        "start": 58,
-                        "end": 64
-                    },
-                    "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 64,
-                        "end": 64
-                    },
-                    "statement": {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 64,
-                            "end": 64
-                        },
-                        "flags": 16,
-                        "start": 64,
-                        "end": 64
-                    },
-                    "flags": 16,
-                    "start": 58,
+                    "start": 64,
                     "end": 64
                 },
                 "flags": 16,
-                "start": 52,
+                "start": 64,
                 "end": 64
             },
             "flags": 16,
-            "start": 46,
+            "start": 58,
             "end": 64
         }
     ],
@@ -279,11 +313,7 @@ do do do =! class function try while with foo! while while while
 
 ```javascript
 ✖ Expression expected - start: 8, end: 10
-✖ Expected a `;` - start: 17, end: 26
-✖ Expression expected - start: 26, end: 30
-✖ Expression expected - start: 30, end: 36
-✖ Expression expected - start: 36, end: 41
-✖ Expected a ')' to match the '(' token here - start: 45, end: 46
+✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 46
 ✖ Expression expected - start: 46, end: 52
 ✖ Expression expected - start: 52, end: 58
 ✖ Expression expected - start: 58, end: 64

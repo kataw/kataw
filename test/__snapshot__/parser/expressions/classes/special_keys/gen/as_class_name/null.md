@@ -37,29 +37,44 @@ class null {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "null",
+                                "rawText": "null",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 10
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 10
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 10
+                },
                 "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 269,
-                "text": null,
-                "flags": 96,
                 "start": 5,
                 "end": 10
             },
             "flags": 16,
-            "start": 5,
+            "start": 0,
             "end": 10
         },
         {
@@ -95,7 +110,7 @@ class null {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ Expected a `;` - start: 10, end: 12
+✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 12
 
 ```
 

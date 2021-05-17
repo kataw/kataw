@@ -53,10 +53,16 @@ class l\u0065t {}
                 "end": 14
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 16,
+                    "end": 16
+                },
                 "flags": 32,
                 "start": 14,
                 "end": 17

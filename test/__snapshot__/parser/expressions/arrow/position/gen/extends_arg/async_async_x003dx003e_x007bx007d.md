@@ -38,7 +38,7 @@ class A extends async async => {} {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -95,7 +95,13 @@ class A extends async async => {} {}
                     "start": 15,
                     "end": 33
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 35,
+                    "end": 35
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 36

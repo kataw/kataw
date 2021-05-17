@@ -38,7 +38,7 @@ class x extends for {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,66 +60,54 @@ class x extends for {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "for",
+                                "rawText": "for",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 19
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 19
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 19
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 19
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 19
         },
         {
-            "kind": 165,
-            "forKeyword": {
-                "kind": 37757017,
-                "flags": 0,
-                "start": 15,
-                "end": 19
-            },
-            "initializer": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 21,
-                    "end": 21
-                },
-                "flags": 48,
-                "start": 19,
-                "end": 22
-            },
-            "condition": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 22,
-                "end": 22
-            },
-            "incrementor": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 22,
-                "end": 22
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 22,
-                    "end": 22
-                },
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 22,
-                "end": 22
+                "start": 21,
+                "end": 21
             },
             "flags": 16,
-            "start": 15,
+            "start": 19,
             "end": 22
         }
     ],
@@ -142,7 +130,7 @@ class x extends for {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 19
-✖ Expression expected - start: 22, end: 22
+✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 21
 
 ```
 

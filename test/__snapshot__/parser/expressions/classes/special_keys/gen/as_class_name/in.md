@@ -37,55 +37,57 @@ class in {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 5,
-                    "end": 5
-                },
-                "operatorToken": {
-                    "kind": 21006388,
-                    "flags": 64,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "in",
+                                "rawText": "in",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 8
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 8
+                        }
+                    ],
+                    "flags": 32,
                     "start": 5,
                     "end": 8
                 },
-                "right": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 10,
-                        "end": 10
-                    },
-                    "flags": 48,
-                    "start": 8,
-                    "end": 11
-                },
                 "flags": 32,
                 "start": 5,
-                "end": 11
+                "end": 8
             },
             "flags": 16,
-            "start": 5,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 10,
+                "end": 10
+            },
+            "flags": 16,
+            "start": 8,
             "end": 11
         }
     ],
@@ -108,6 +110,7 @@ class in {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 10
 
 ```
 

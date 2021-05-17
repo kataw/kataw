@@ -74,10 +74,16 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "end": 25
                                         },
                                         "typeParameters": null,
-                                        "members": {
+                                        "tail": {
                                             "kind": 277,
                                             "classHeritage": null,
-                                            "elements": [],
+                                            "body": {
+                                                "kind": 262,
+                                                "elements": [],
+                                                "flags": 32,
+                                                "start": 27,
+                                                "end": 27
+                                            },
                                             "flags": 32,
                                             "start": 25,
                                             "end": 28
@@ -117,10 +123,16 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         },
                                         "name": null,
                                         "typeParameters": null,
-                                        "members": {
+                                        "tail": {
                                             "kind": 277,
                                             "classHeritage": null,
-                                            "elements": [],
+                                            "body": {
+                                                "kind": 262,
+                                                "elements": [],
+                                                "flags": 32,
+                                                "start": 43,
+                                                "end": 43
+                                            },
                                             "flags": 32,
                                             "start": 41,
                                             "end": 44
@@ -160,67 +172,73 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         },
                                         "name": null,
                                         "typeParameters": null,
-                                        "members": {
+                                        "tail": {
                                             "kind": 277,
                                             "classHeritage": null,
-                                            "elements": [
-                                                {
-                                                    "kind": 278,
-                                                    "declareToken": null,
-                                                    "decorators": null,
-                                                    "generatorToken": null,
-                                                    "staticKeyword": {
-                                                        "kind": 8388716,
-                                                        "flags": 64,
-                                                        "start": 61,
-                                                        "end": 68
-                                                    },
-                                                    "asyncKeyword": null,
-                                                    "setKeyword": null,
-                                                    "getKeyword": null,
-                                                    "method": {
-                                                        "kind": 209,
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "name",
-                                                            "rawText": "name",
-                                                            "flags": 96,
-                                                            "start": 68,
-                                                            "end": 73
+                                            "body": {
+                                                "kind": 262,
+                                                "elements": [
+                                                    {
+                                                        "kind": 278,
+                                                        "declareToken": null,
+                                                        "decorators": null,
+                                                        "generatorToken": null,
+                                                        "staticKeyword": {
+                                                            "kind": 8388716,
+                                                            "flags": 64,
+                                                            "start": 61,
+                                                            "end": 68
                                                         },
-                                                        "typeParameters": null,
-                                                        "formalParameters": {
-                                                            "kind": 214,
-                                                            "formalParameterList": [],
-                                                            "trailingComma": false,
-                                                            "flags": 0,
-                                                            "start": 74,
-                                                            "end": 75
-                                                        },
-                                                        "type": null,
-                                                        "contents": {
-                                                            "kind": 216,
-                                                            "functionStatementList": {
-                                                                "kind": 217,
-                                                                "directives": [],
-                                                                "statements": [],
-                                                                "flags": 32,
-                                                                "start": 77,
-                                                                "end": 77
+                                                        "asyncKeyword": null,
+                                                        "setKeyword": null,
+                                                        "getKeyword": null,
+                                                        "method": {
+                                                            "kind": 209,
+                                                            "name": {
+                                                                "kind": 134299649,
+                                                                "text": "name",
+                                                                "rawText": "name",
+                                                                "flags": 96,
+                                                                "start": 68,
+                                                                "end": 73
                                                             },
-                                                            "flags": 32,
-                                                            "start": 75,
+                                                            "typeParameters": null,
+                                                            "formalParameters": {
+                                                                "kind": 214,
+                                                                "formalParameterList": [],
+                                                                "trailingComma": false,
+                                                                "flags": 0,
+                                                                "start": 74,
+                                                                "end": 75
+                                                            },
+                                                            "type": null,
+                                                            "contents": {
+                                                                "kind": 216,
+                                                                "functionStatementList": {
+                                                                    "kind": 217,
+                                                                    "directives": [],
+                                                                    "statements": [],
+                                                                    "flags": 32,
+                                                                    "start": 77,
+                                                                    "end": 77
+                                                                },
+                                                                "flags": 32,
+                                                                "start": 75,
+                                                                "end": 78
+                                                            },
+                                                            "flags": 0,
+                                                            "start": 73,
                                                             "end": 78
                                                         },
                                                         "flags": 0,
-                                                        "start": 73,
+                                                        "start": 68,
                                                         "end": 78
-                                                    },
-                                                    "flags": 0,
-                                                    "start": 68,
-                                                    "end": 78
-                                                }
-                                            ],
+                                                    }
+                                                ],
+                                                "flags": 32,
+                                                "start": 61,
+                                                "end": 78
+                                            },
                                             "flags": 32,
                                             "start": 59,
                                             "end": 80

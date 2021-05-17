@@ -42,78 +42,84 @@ class Foo {get fooProp():number{}}
                 "end": 9
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": {
-                            "kind": 16498,
-                            "flags": 64,
-                            "start": 11,
-                            "end": 14
-                        },
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "fooProp",
-                                "rawText": "fooProp",
-                                "flags": 96,
-                                "start": 14,
-                                "end": 22
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": {
+                                "kind": 16498,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 14
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 1024,
-                                "start": 23,
-                                "end": 24
-                            },
-                            "type": {
-                                "kind": 139,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "fooProp",
+                                    "rawText": "fooProp",
+                                    "flags": 96,
+                                    "start": 14,
+                                    "end": 22
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 1024,
+                                    "start": 23,
+                                    "end": 24
+                                },
                                 "type": {
-                                    "kind": 134234345,
-                                    "flags": 64,
-                                    "start": 25,
+                                    "kind": 139,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 64,
+                                        "start": 25,
+                                        "end": 31
+                                    },
+                                    "flags": 0,
+                                    "start": 24,
                                     "end": 31
                                 },
-                                "flags": 0,
-                                "start": 24,
-                                "end": 31
-                            },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 32,
+                                        "end": 32
+                                    },
                                     "flags": 32,
-                                    "start": 32,
-                                    "end": 32
+                                    "start": 31,
+                                    "end": 33
                                 },
-                                "flags": 32,
-                                "start": 31,
+                                "flags": 1024,
+                                "start": 22,
                                 "end": 33
                             },
                             "flags": 1024,
-                            "start": 22,
+                            "start": 11,
                             "end": 33
-                        },
-                        "flags": 1024,
-                        "start": 11,
-                        "end": 33
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 11,
+                    "end": 33
+                },
                 "flags": 32,
                 "start": 9,
                 "end": 34

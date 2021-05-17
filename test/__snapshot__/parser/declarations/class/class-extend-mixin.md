@@ -64,7 +64,7 @@ class Foo<T> extends mixin(Bar) { }
                 "start": 9,
                 "end": 12
             },
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -110,7 +110,13 @@ class Foo<T> extends mixin(Bar) { }
                     "start": 20,
                     "end": 31
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 33,
+                    "end": 33
+                },
                 "flags": 32,
                 "start": 12,
                 "end": 35

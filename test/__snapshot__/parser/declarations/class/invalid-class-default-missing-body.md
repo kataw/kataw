@@ -33,17 +33,45 @@ class default
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "default",
+                                "rawText": "default",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 13
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 13
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 13
+                },
                 "flags": 32,
                 "start": 5,
-                "end": 5
+                "end": 13
             },
             "flags": 16,
             "start": 0,
-            "end": 5
+            "end": 13
         }
     ],
     "isModule": false,

@@ -52,50 +52,56 @@ async( x = class { x = await });
                     "end": 19
                 },
                 "typeParameters": null,
-                "members": {
+                "tail": {
                     "kind": 277,
                     "classHeritage": null,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "aaa",
-                                "rawText": "aaa",
-                                "flags": 96,
-                                "start": 21,
-                                "end": 25
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": {
-                                "kind": 208,
-                                "awaitKeyword": {
-                                    "kind": 82032,
-                                    "flags": 0,
+                    "body": {
+                        "kind": 262,
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": null,
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "aaa",
+                                    "rawText": "aaa",
+                                    "flags": 96,
+                                    "start": 21,
+                                    "end": 25
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": {
+                                    "kind": 208,
+                                    "awaitKeyword": {
+                                        "kind": 82032,
+                                        "flags": 0,
+                                        "start": 27,
+                                        "end": 33
+                                    },
+                                    "expression": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "flags": 64,
+                                        "start": 33,
+                                        "end": 33
+                                    },
+                                    "flags": 32,
                                     "start": 27,
                                     "end": 33
                                 },
-                                "expression": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 33,
-                                    "end": 33
-                                },
                                 "flags": 32,
-                                "start": 27,
+                                "start": 21,
                                 "end": 33
-                            },
-                            "flags": 32,
-                            "start": 21,
-                            "end": 33
-                        }
-                    ],
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 21,
+                        "end": 33
+                    },
                     "flags": 32,
                     "start": 19,
                     "end": 35
@@ -154,39 +160,45 @@ async( x = class { x = await });
                             },
                             "name": null,
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": null,
-                                "elements": [
-                                    {
-                                        "kind": 280,
-                                        "decorators": null,
-                                        "declaredToken": null,
-                                        "staticToken": null,
-                                        "asyncKeyword": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 56,
+                                                "end": 58
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 134299649,
+                                                "text": "await",
+                                                "rawText": "await",
+                                                "flags": 96,
+                                                "start": 60,
+                                                "end": 66
+                                            },
+                                            "flags": 32,
                                             "start": 56,
-                                            "end": 58
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 134299649,
-                                            "text": "await",
-                                            "rawText": "await",
-                                            "flags": 96,
-                                            "start": 60,
                                             "end": 66
-                                        },
-                                        "flags": 32,
-                                        "start": 56,
-                                        "end": 66
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 56,
+                                    "end": 66
+                                },
                                 "flags": 32,
                                 "start": 54,
                                 "end": 68

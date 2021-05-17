@@ -98,10 +98,16 @@
                             "end": 17
                         },
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": null,
-                            "elements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 19,
+                                "end": 19
+                            },
                             "flags": 32,
                             "start": 17,
                             "end": 20

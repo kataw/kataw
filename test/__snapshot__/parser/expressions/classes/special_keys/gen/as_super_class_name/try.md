@@ -38,7 +38,7 @@ class x extends try {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,53 +60,54 @@ class x extends try {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "try",
+                                "rawText": "try",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 19
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 19
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 19
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 19
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 19
         },
         {
-            "kind": 159,
-            "tryKeyword": {
-                "kind": 37757027,
-                "flags": 0,
-                "start": 15,
-                "end": 19
-            },
+            "kind": 249,
             "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 21,
-                    "end": 21
-                },
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 19,
-                "end": 22
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 22,
-                    "end": 22
-                },
-                "flags": 16,
-                "start": 22,
-                "end": 22
+                "start": 21,
+                "end": 21
             },
             "flags": 16,
-            "start": 15,
+            "start": 19,
             "end": 22
         }
     ],
@@ -129,6 +130,7 @@ class x extends try {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 19
+✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 21
 
 ```
 

@@ -35,19 +35,13 @@ for (class x extends a in b {} in c);
     "directives": [],
     "statements": [
         {
+            "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 22,
-                "end": 25
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 189,
                 "decorators": null,
@@ -66,7 +60,7 @@ for (class x extends a in b {} in c);
                     "end": 12
                 },
                 "typeParameters": null,
-                "members": {
+                "tail": {
                     "kind": 277,
                     "classHeritage": {
                         "kind": 279,
@@ -89,49 +83,79 @@ for (class x extends a in b {} in c);
                         "start": 20,
                         "end": 22
                     },
-                    "elements": [],
+                    "body": {
+                        "kind": 262,
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": null,
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "in",
+                                    "rawText": "in",
+                                    "flags": 96,
+                                    "start": 22,
+                                    "end": 25
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 22,
+                                "end": 25
+                            },
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": null,
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 25,
+                                    "end": 27
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 25,
+                                "end": 27
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 22,
+                        "end": 27
+                    },
                     "flags": 32,
                     "start": 12,
-                    "end": 22
+                    "end": 27
                 },
                 "flags": 32,
                 "start": 5,
-                "end": 22
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "b",
-                "rawText": "b",
-                "flags": 96,
-                "start": 25,
                 "end": 27
             },
-            "statement": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 29,
-                    "end": 29
-                },
-                "flags": 16,
-                "start": 27,
-                "end": 30
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 30
-        },
-        {
-            "kind": 120,
-            "expression": {
+            "condition": null,
+            "incrementor": {
                 "kind": 198,
                 "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 30,
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 29,
+                        "end": 29
+                    },
+                    "flags": 48,
+                    "start": 27,
                     "end": 30
                 },
                 "operatorToken": {
@@ -149,17 +173,17 @@ for (class x extends a in b {} in c);
                     "end": 35
                 },
                 "flags": 32,
-                "start": 30,
+                "start": 27,
                 "end": 35
             },
+            "statement": {
+                "kind": 168,
+                "flags": 16,
+                "start": 36,
+                "end": 37
+            },
             "flags": 16,
-            "start": 30,
-            "end": 35
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 36,
+            "start": 0,
             "end": 37
         }
     ],
@@ -181,10 +205,7 @@ for (class x extends a in b {} in c);
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 25, end: 27
-✖ Expected a ')' to match the '(' token here - start: 27, end: 29
-✖ Expression expected - start: 30, end: 33
-✖ Expected a `;` - start: 35, end: 36
+✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 29
 
 ```
 

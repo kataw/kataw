@@ -37,44 +37,57 @@ class export {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "export",
+                                "rawText": "export",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 12
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 12
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 12
+                },
                 "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 257,
-            "exportKeyword": {
-                "kind": 4202582,
-                "flags": 0,
                 "start": 5,
                 "end": 12
             },
-            "declaration": null,
-            "namedExports": {
-                "kind": 266,
-                "exportsList": {
-                    "kind": 261,
-                    "specifiers": [],
-                    "flags": 16,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 0,
-                "start": 12,
-                "end": 15
-            },
-            "exportFromClause": null,
-            "fromClause": null,
             "flags": 16,
-            "start": 5,
+            "start": 0,
+            "end": 12
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 14,
+                "end": 14
+            },
+            "flags": 16,
+            "start": 12,
             "end": 15
         }
     ],
@@ -97,7 +110,7 @@ class export {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
-✖ The `export` keyword can only be used with the module goal - start: 5, end: 12
+✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 14
 
 ```
 

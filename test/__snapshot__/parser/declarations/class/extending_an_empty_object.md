@@ -53,7 +53,7 @@ class x extends {} {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -82,7 +82,13 @@ class x extends {} {}
                     "start": 15,
                     "end": 18
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 20,
+                    "end": 20
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 21

@@ -82,10 +82,16 @@ f = ([xCls = class X {}]) => {}
                                                 "end": 20
                                             },
                                             "typeParameters": null,
-                                            "members": {
+                                            "tail": {
                                                 "kind": 277,
                                                 "classHeritage": null,
-                                                "elements": [],
+                                                "body": {
+                                                    "kind": 262,
+                                                    "elements": [],
+                                                    "flags": 32,
+                                                    "start": 22,
+                                                    "end": 22
+                                                },
                                                 "flags": 32,
                                                 "start": 20,
                                                 "end": 23

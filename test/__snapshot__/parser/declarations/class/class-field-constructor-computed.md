@@ -40,38 +40,44 @@ class Foo { static ['constructor'] = 1 }
                 "end": 9
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 194,
-                            "expression": {
-                                "kind": 201392131,
-                                "text": "constructor",
-                                "rawText": "'constructor'",
-                                "flags": 4194400,
-                                "start": 13,
-                                "end": 26
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 201392131,
+                                    "text": "constructor",
+                                    "rawText": "'constructor'",
+                                    "flags": 4194400,
+                                    "start": 13,
+                                    "end": 26
+                                },
+                                "flags": 32,
+                                "start": 11,
+                                "end": 27
                             },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
                             "flags": 32,
                             "start": 11,
                             "end": 27
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 11,
-                        "end": 27
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 11,
+                    "end": 27
+                },
                 "flags": 32,
                 "start": 9,
                 "end": 29
@@ -99,45 +105,51 @@ class Foo { static ['constructor'] = 1 }
                 "end": 40
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 194,
-                            "expression": {
-                                "kind": 201392131,
-                                "text": "constructor",
-                                "rawText": "'constructor'",
-                                "flags": 4194400,
-                                "start": 44,
-                                "end": 57
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 201392131,
+                                    "text": "constructor",
+                                    "rawText": "'constructor'",
+                                    "flags": 4194400,
+                                    "start": 44,
+                                    "end": 57
+                                },
+                                "flags": 32,
+                                "start": 42,
+                                "end": 58
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 60,
+                                "end": 62
                             },
                             "flags": 32,
                             "start": 42,
-                            "end": 58
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 60,
                             "end": 62
-                        },
-                        "flags": 32,
-                        "start": 42,
-                        "end": 62
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 42,
+                    "end": 62
+                },
                 "flags": 32,
                 "start": 40,
                 "end": 64
@@ -165,43 +177,49 @@ class Foo { static ['constructor'] = 1 }
                 "end": 75
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
-                            "kind": 8388716,
-                            "flags": 64,
-                            "start": 77,
-                            "end": 84
-                        },
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 194,
-                            "expression": {
-                                "kind": 201392131,
-                                "text": "constructor",
-                                "rawText": "'constructor'",
-                                "flags": 4194400,
-                                "start": 86,
-                                "end": 99
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 77,
+                                "end": 84
                             },
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 201392131,
+                                    "text": "constructor",
+                                    "rawText": "'constructor'",
+                                    "flags": 4194400,
+                                    "start": 86,
+                                    "end": 99
+                                },
+                                "flags": 32,
+                                "start": 84,
+                                "end": 100
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
                             "flags": 32,
                             "start": 84,
                             "end": 100
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 84,
-                        "end": 100
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 77,
+                    "end": 100
+                },
                 "flags": 32,
                 "start": 75,
                 "end": 102
@@ -229,50 +247,56 @@ class Foo { static ['constructor'] = 1 }
                 "end": 113
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
-                            "kind": 8388716,
-                            "flags": 64,
-                            "start": 115,
-                            "end": 122
-                        },
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 194,
-                            "expression": {
-                                "kind": 201392131,
-                                "text": "constructor",
-                                "rawText": "'constructor'",
-                                "flags": 4194400,
-                                "start": 124,
-                                "end": 137
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 115,
+                                "end": 122
+                            },
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 201392131,
+                                    "text": "constructor",
+                                    "rawText": "'constructor'",
+                                    "flags": 4194400,
+                                    "start": 124,
+                                    "end": 137
+                                },
+                                "flags": 32,
+                                "start": 122,
+                                "end": 138
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 140,
+                                "end": 142
                             },
                             "flags": 32,
                             "start": 122,
-                            "end": 138
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 140,
                             "end": 142
-                        },
-                        "flags": 32,
-                        "start": 122,
-                        "end": 142
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 115,
+                    "end": 142
+                },
                 "flags": 32,
                 "start": 113,
                 "end": 144

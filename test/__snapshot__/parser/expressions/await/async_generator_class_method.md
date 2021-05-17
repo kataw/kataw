@@ -34,91 +34,97 @@ class x {async *f(await){}}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": {
-                            "kind": 67143222,
-                            "flags": 64,
-                            "start": 14,
-                            "end": 16
-                        },
-                        "staticKeyword": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 9,
-                            "end": 14
-                        },
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 16,
-                                "end": 17
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 14,
+                                "end": 16
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [
-                                    {
-                                        "kind": 215,
-                                        "ellipsisToken": null,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "await",
-                                            "rawText": "await",
-                                            "flags": 96,
+                            "staticKeyword": null,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 14
+                            },
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 16,
+                                    "end": 17
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 215,
+                                            "ellipsisToken": null,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "await",
+                                                "rawText": "await",
+                                                "flags": 96,
+                                                "start": 18,
+                                                "end": 23
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 32,
                                             "start": 18,
                                             "end": 23
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 18,
-                                        "end": 23
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 416,
-                                "start": 18,
-                                "end": 24
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 25,
-                                    "end": 25
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 416,
+                                    "start": 18,
+                                    "end": 24
                                 },
-                                "flags": 32,
-                                "start": 24,
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 25,
+                                        "end": 25
+                                    },
+                                    "flags": 32,
+                                    "start": 24,
+                                    "end": 26
+                                },
+                                "flags": 384,
+                                "start": 17,
                                 "end": 26
                             },
                             "flags": 384,
-                            "start": 17,
+                            "start": 9,
                             "end": 26
-                        },
-                        "flags": 384,
-                        "start": 9,
-                        "end": 26
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 26
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 27

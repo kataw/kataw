@@ -78,7 +78,7 @@ async function p(){
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -89,37 +89,25 @@ async function p(){
                                         "end": 37
                                     },
                                     "expression": {
-                                        "kind": 208,
-                                        "awaitKeyword": {
-                                            "kind": 82032,
-                                            "flags": 0,
-                                            "start": 37,
-                                            "end": 43
-                                        },
-                                        "expression": {
-                                            "kind": 220,
-                                            "propertyList": {
-                                                "kind": 218,
-                                                "properties": [],
-                                                "trailingComma": false,
-                                                "flags": 16,
-                                                "start": 45,
-                                                "end": 45
-                                            },
-                                            "flags": 48,
-                                            "start": 43,
-                                            "end": 46
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
                                         "start": 37,
-                                        "end": 46
+                                        "end": 43
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
                                     "start": 37,
-                                    "end": 46
+                                    "end": 43
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 45,
+                                    "end": 45
+                                },
                                 "flags": 32,
                                 "start": 29,
                                 "end": 46
@@ -157,14 +145,12 @@ async function p(){
 
 ```javascript
 
-async function p() {
-  class C  {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'await' cannot be used as an identifier here - start: 37, end: 43
+
 ```
 

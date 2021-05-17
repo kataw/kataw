@@ -34,49 +34,55 @@ class C { aaa = new.target }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "aaa",
-                            "rawText": "aaa",
-                            "flags": 96,
-                            "start": 9,
-                            "end": 13
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 211,
-                            "newKeyword": {
-                                "kind": 138477661,
-                                "flags": 0,
-                                "start": 15,
-                                "end": 19
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "aaa",
+                                "rawText": "aaa",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 13
                             },
-                            "targetIdentifier": {
-                                "kind": 16594,
-                                "flags": 0,
-                                "start": 20,
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 211,
+                                "newKeyword": {
+                                    "kind": 138477661,
+                                    "flags": 0,
+                                    "start": 15,
+                                    "end": 19
+                                },
+                                "targetIdentifier": {
+                                    "kind": 16594,
+                                    "flags": 0,
+                                    "start": 20,
+                                    "end": 26
+                                },
+                                "flags": 96,
+                                "start": 15,
                                 "end": 26
                             },
-                            "flags": 96,
-                            "start": 15,
+                            "flags": 32,
+                            "start": 9,
                             "end": 26
-                        },
-                        "flags": 32,
-                        "start": 9,
-                        "end": 26
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 26
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 28

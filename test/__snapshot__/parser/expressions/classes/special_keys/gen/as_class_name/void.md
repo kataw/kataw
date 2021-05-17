@@ -37,48 +37,57 @@ class void {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 138477615,
-                    "flags": 64,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "void",
+                                "rawText": "void",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 10
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 10
+                        }
+                    ],
+                    "flags": 32,
                     "start": 5,
                     "end": 10
                 },
-                "operand": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 12,
-                        "end": 12
-                    },
-                    "flags": 48,
-                    "start": 10,
-                    "end": 13
-                },
                 "flags": 32,
                 "start": 5,
-                "end": 13
+                "end": 10
             },
             "flags": 16,
-            "start": 5,
+            "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 12,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 10,
             "end": 13
         }
     ],
@@ -101,6 +110,7 @@ class void {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
+✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 12
 
 ```
 

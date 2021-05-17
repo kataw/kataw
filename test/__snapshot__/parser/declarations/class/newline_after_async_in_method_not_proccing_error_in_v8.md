@@ -34,7 +34,7 @@ class K extends {} {;async\n async *1(){}}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -63,35 +63,41 @@ class K extends {} {;async\n async *1(){}}
                     "start": 15,
                     "end": 18
                 },
-                "elements": [
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 20,
-                        "end": 21
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 281,
                             "flags": 96,
+                            "start": 20,
+                            "end": 21
+                        },
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 21,
+                                "end": 26
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 21,
                             "end": 26
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 21,
-                        "end": 26
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 20,
+                    "end": 26
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 26

@@ -40,7 +40,7 @@ x {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -63,27 +63,41 @@ x {}
                     "start": 15,
                     "end": 21
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 21,
+                                "end": 23
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 21,
+                            "end": 23
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 21,
+                    "end": 23
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 21
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 21
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 21,
                 "end": 23
             },
             "flags": 16,
-            "start": 21,
+            "start": 0,
             "end": 23
         },
         {
@@ -119,7 +133,7 @@ x {}
 
 ```javascript
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 21
-✖ Expected a `;` - start: 23, end: 25
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 25
 
 ```
 

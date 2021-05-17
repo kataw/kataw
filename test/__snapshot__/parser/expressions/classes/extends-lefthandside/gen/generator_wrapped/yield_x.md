@@ -80,7 +80,7 @@ x {}
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -117,7 +117,13 @@ x {}
                                     "start": 32,
                                     "end": 40
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 42,
+                                    "end": 42
+                                },
                                 "flags": 32,
                                 "start": 24,
                                 "end": 43

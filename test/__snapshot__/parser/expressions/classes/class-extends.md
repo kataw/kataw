@@ -50,10 +50,16 @@
                         "end": 11
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 13,
+                            "end": 13
+                        },
                         "flags": 32,
                         "start": 11,
                         "end": 14
@@ -85,7 +91,7 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -108,7 +114,13 @@
                             "start": 31,
                             "end": 33
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 35,
+                            "end": 35
+                        },
                         "flags": 32,
                         "start": 23,
                         "end": 36
@@ -147,7 +159,7 @@
                         "end": 50
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -170,7 +182,13 @@
                             "start": 58,
                             "end": 60
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 62,
+                            "end": 62
+                        },
                         "flags": 32,
                         "start": 50,
                         "end": 63
@@ -202,7 +220,7 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -247,7 +265,13 @@
                             "start": 80,
                             "end": 87
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 89,
+                            "end": 89
+                        },
                         "flags": 32,
                         "start": 72,
                         "end": 90
@@ -286,7 +310,7 @@
                         "end": 104
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -331,7 +355,13 @@
                             "start": 112,
                             "end": 119
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 121,
+                            "end": 121
+                        },
                         "flags": 32,
                         "start": 104,
                         "end": 122
@@ -363,7 +393,7 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -384,10 +414,16 @@
                                 },
                                 "name": null,
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 147,
+                                        "end": 147
+                                    },
                                     "flags": 32,
                                     "start": 145,
                                     "end": 148
@@ -401,7 +437,13 @@
                             "start": 139,
                             "end": 148
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 150,
+                            "end": 150
+                        },
                         "flags": 32,
                         "start": 131,
                         "end": 151
@@ -440,7 +482,7 @@
                         "end": 165
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -461,10 +503,16 @@
                                 },
                                 "name": null,
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 181,
+                                        "end": 181
+                                    },
                                     "flags": 32,
                                     "start": 179,
                                     "end": 182
@@ -478,7 +526,13 @@
                             "start": 173,
                             "end": 182
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 184,
+                            "end": 184
+                        },
                         "flags": 32,
                         "start": 165,
                         "end": 185
@@ -510,7 +564,7 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -538,10 +592,16 @@
                                     "end": 213
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 215,
+                                        "end": 215
+                                    },
                                     "flags": 32,
                                     "start": 213,
                                     "end": 216
@@ -555,7 +615,13 @@
                             "start": 202,
                             "end": 216
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 218,
+                            "end": 218
+                        },
                         "flags": 32,
                         "start": 194,
                         "end": 219
@@ -594,7 +660,7 @@
                         "end": 233
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -622,10 +688,16 @@
                                     "end": 252
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 254,
+                                        "end": 254
+                                    },
                                     "flags": 32,
                                     "start": 252,
                                     "end": 255
@@ -639,7 +711,13 @@
                             "start": 241,
                             "end": 255
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 257,
+                            "end": 257
+                        },
                         "flags": 32,
                         "start": 233,
                         "end": 258
@@ -694,7 +772,7 @@
                             "end": 288
                         },
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": {
                                 "kind": 279,
@@ -717,7 +795,13 @@
                                 "start": 296,
                                 "end": 298
                             },
-                            "elements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 300,
+                                "end": 300
+                            },
                             "flags": 32,
                             "start": 288,
                             "end": 301
@@ -779,7 +863,7 @@
                             "end": 331
                         },
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": {
                                 "kind": 279,
@@ -824,7 +908,13 @@
                                 "start": 339,
                                 "end": 346
                             },
-                            "elements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 348,
+                                "end": 348
+                            },
                             "flags": 32,
                             "start": 331,
                             "end": 349
@@ -886,7 +976,7 @@
                             "end": 379
                         },
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": {
                                 "kind": 279,
@@ -907,10 +997,16 @@
                                     },
                                     "name": null,
                                     "typeParameters": null,
-                                    "members": {
+                                    "tail": {
                                         "kind": 277,
                                         "classHeritage": null,
-                                        "elements": [],
+                                        "body": {
+                                            "kind": 262,
+                                            "elements": [],
+                                            "flags": 32,
+                                            "start": 395,
+                                            "end": 395
+                                        },
                                         "flags": 32,
                                         "start": 393,
                                         "end": 396
@@ -924,7 +1020,13 @@
                                 "start": 387,
                                 "end": 396
                             },
-                            "elements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 398,
+                                "end": 398
+                            },
                             "flags": 32,
                             "start": 379,
                             "end": 399
@@ -986,7 +1088,7 @@
                             "end": 429
                         },
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": {
                                 "kind": 279,
@@ -1014,10 +1116,16 @@
                                         "end": 448
                                     },
                                     "typeParameters": null,
-                                    "members": {
+                                    "tail": {
                                         "kind": 277,
                                         "classHeritage": null,
-                                        "elements": [],
+                                        "body": {
+                                            "kind": 262,
+                                            "elements": [],
+                                            "flags": 32,
+                                            "start": 450,
+                                            "end": 450
+                                        },
                                         "flags": 32,
                                         "start": 448,
                                         "end": 451
@@ -1031,7 +1139,13 @@
                                 "start": 437,
                                 "end": 451
                             },
-                            "elements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 453,
+                                "end": 453
+                            },
                             "flags": 32,
                             "start": 429,
                             "end": 454

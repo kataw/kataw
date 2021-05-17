@@ -77,72 +77,78 @@ function* foo() {
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": null,
-                                "elements": [
-                                    {
-                                        "kind": 280,
-                                        "decorators": null,
-                                        "declaredToken": null,
-                                        "staticToken": null,
-                                        "asyncKeyword": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "p",
-                                            "rawText": "p",
-                                            "flags": 96,
-                                            "start": 29,
-                                            "end": 80
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 198,
-                                            "left": {
-                                                "kind": 229,
-                                                "yieldKeyword": {
-                                                    "kind": 8454253,
-                                                    "flags": 0,
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "p",
+                                                "rawText": "p",
+                                                "flags": 96,
+                                                "start": 29,
+                                                "end": 80
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 198,
+                                                "left": {
+                                                    "kind": 229,
+                                                    "yieldKeyword": {
+                                                        "kind": 8454253,
+                                                        "flags": 0,
+                                                        "start": 82,
+                                                        "end": 88
+                                                    },
+                                                    "delegate": false,
+                                                    "asteriskToken": null,
+                                                    "expression": null,
+                                                    "flags": 32,
                                                     "start": 82,
                                                     "end": 88
                                                 },
-                                                "delegate": false,
-                                                "asteriskToken": null,
-                                                "expression": null,
+                                                "operatorToken": {
+                                                    "kind": 34098,
+                                                    "flags": 64,
+                                                    "start": 88,
+                                                    "end": 90
+                                                },
+                                                "right": {
+                                                    "kind": 201392130,
+                                                    "text": 42,
+                                                    "rawText": "42",
+                                                    "flags": 96,
+                                                    "start": 90,
+                                                    "end": 93
+                                                },
                                                 "flags": 32,
                                                 "start": 82,
-                                                "end": 88
-                                            },
-                                            "operatorToken": {
-                                                "kind": 34098,
-                                                "flags": 64,
-                                                "start": 88,
-                                                "end": 90
-                                            },
-                                            "right": {
-                                                "kind": 201392130,
-                                                "text": 42,
-                                                "rawText": "42",
-                                                "flags": 96,
-                                                "start": 90,
                                                 "end": 93
                                             },
                                             "flags": 32,
-                                            "start": 82,
+                                            "start": 29,
                                             "end": 93
                                         },
-                                        "flags": 32,
-                                        "start": 29,
-                                        "end": 93
-                                    },
-                                    {
-                                        "kind": 281,
-                                        "flags": 96,
-                                        "start": 93,
-                                        "end": 94
-                                    }
-                                ],
+                                        {
+                                            "kind": 281,
+                                            "flags": 96,
+                                            "start": 93,
+                                            "end": 94
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 29,
+                                    "end": 94
+                                },
                                 "flags": 32,
                                 "start": 27,
                                 "end": 98

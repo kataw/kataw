@@ -37,35 +37,44 @@ class break {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "break",
+                                "rawText": "break",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 11
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 11
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 11
+                },
                 "flags": 32,
                 "start": 5,
-                "end": 5
+                "end": 11
             },
             "flags": 16,
             "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 150,
-            "breakKeyword": {
-                "kind": 37757005,
-                "flags": 0,
-                "start": 5,
-                "end": 11
-            },
-            "label": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 11,
-                "end": 11
-            },
-            "flags": 16,
-            "start": 5,
             "end": 11
         },
         {
@@ -101,8 +110,7 @@ class break {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 11, end: 13
-✖ Missing label - start: 11, end: 13
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 13
 
 ```
 

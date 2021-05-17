@@ -77,7 +77,7 @@ class C extends (function B() {
                 "end": 15
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -211,7 +211,13 @@ class C extends (function B() {
                     "start": 23,
                     "end": 69
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 71,
+                    "end": 71
+                },
                 "flags": 32,
                 "start": 15,
                 "end": 72

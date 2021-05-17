@@ -38,7 +38,7 @@ class x extends do {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,46 +60,54 @@ class x extends do {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "do",
+                                "rawText": "do",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 18
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 18
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 18
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 18
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 18
         },
         {
-            "kind": 169,
-            "doKeyword": {
-                "kind": 4202580,
-                "flags": 0,
-                "start": 15,
-                "end": 18
-            },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 21,
-                "end": 21
-            },
-            "whileKeyword": null,
-            "statement": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 20,
-                    "end": 20
-                },
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 18,
-                "end": 21
+                "start": 20,
+                "end": 20
             },
             "flags": 16,
-            "start": 15,
+            "start": 18,
             "end": 21
         }
     ],
@@ -122,7 +130,7 @@ class x extends do {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 18
-✖ Expression expected - start: 21, end: 21
+✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 20
 
 ```
 

@@ -1,5 +1,5 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { ClassElement } from '../expressions/class-element';
+import { ClassElement } from './class-element';
 import { FieldDefinition } from './field-definition';
 import { SemicolonClassElement } from './semicolon-class-element';
 import { ExpressionNode } from '.';
@@ -7,22 +7,15 @@ import { ExpressionNode } from '.';
 export type ClassElements = SemicolonClassElement | ClassElement | FieldDefinition;
 
 /**
- * ClassTail
+ * ClassBody
  */
-export interface ClassTail extends SyntaxNode {
-  readonly classHeritage: ExpressionNode | null;
+export interface ClassBody extends SyntaxNode {
   readonly elements: ClassElements[];
 }
 
-export function createClassTail(
-  classHeritage: ExpressionNode | null,
-  elements: ClassElements[],
-  start: number,
-  end: number
-): ClassTail {
+export function createClassBody(elements: ClassElements[], start: number, end: number): ClassBody {
   return {
-    kind: SyntaxKind.ClassTail,
-    classHeritage,
+    kind: SyntaxKind.ClassBody,
     elements,
     flags: NodeFlags.ExpressionNode,
     start,

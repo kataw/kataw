@@ -38,7 +38,7 @@ class x extends switch {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,46 +60,54 @@ class x extends switch {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "switch",
+                                "rawText": "switch",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 22
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 22
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 22
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 22
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 22
         },
         {
-            "kind": 160,
-            "switchKeyword": {
-                "kind": 37757024,
-                "flags": 0,
-                "start": 15,
-                "end": 22
-            },
-            "expression": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 24,
-                    "end": 24
-                },
-                "flags": 48,
-                "start": 22,
-                "end": 25
-            },
-            "caseBlock": {
-                "kind": 152,
-                "clauses": [],
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 25,
-                "end": 25
+                "start": 24,
+                "end": 24
             },
             "flags": 16,
-            "start": 15,
+            "start": 22,
             "end": 25
         }
     ],
@@ -122,7 +130,7 @@ class x extends switch {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 22
-✖ Expected a ')' to match the '(' token here - start: 25, end: 25
+✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 24
 
 ```
 

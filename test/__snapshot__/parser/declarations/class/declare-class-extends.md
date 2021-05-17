@@ -69,7 +69,7 @@ declare class A<T> extends B<T> { x: number }
                 "start": 15,
                 "end": 18
             },
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -114,40 +114,46 @@ declare class A<T> extends B<T> { x: number }
                     "start": 26,
                     "end": 31
                 },
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 33,
-                            "end": 35
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 33,
+                                "end": 35
+                            },
+                            "optionalToken": null,
                             "type": {
-                                "kind": 134234345,
-                                "flags": 64,
-                                "start": 36,
+                                "kind": 139,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 64,
+                                    "start": 36,
+                                    "end": 43
+                                },
+                                "flags": 0,
+                                "start": 35,
                                 "end": 43
                             },
-                            "flags": 0,
-                            "start": 35,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 33,
                             "end": 43
-                        },
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 33,
-                        "end": 43
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 33,
+                    "end": 43
+                },
                 "flags": 32,
                 "start": 18,
                 "end": 45

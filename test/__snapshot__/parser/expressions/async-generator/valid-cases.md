@@ -2693,7 +2693,7 @@ for (;;) {}});
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "members": {
+                                            "tail": {
                                                 "kind": 277,
                                                 "classHeritage": {
                                                     "kind": 279,
@@ -2729,7 +2729,13 @@ for (;;) {}});
                                                     "start": 1002,
                                                     "end": 1010
                                                 },
-                                                "elements": [],
+                                                "body": {
+                                                    "kind": 262,
+                                                    "elements": [],
+                                                    "flags": 32,
+                                                    "start": 1012,
+                                                    "end": 1012
+                                                },
                                                 "flags": 32,
                                                 "start": 994,
                                                 "end": 1013
@@ -2839,7 +2845,7 @@ for (;;) {}});
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "members": {
+                                            "tail": {
                                                 "kind": 277,
                                                 "classHeritage": {
                                                     "kind": 279,
@@ -2892,7 +2898,13 @@ for (;;) {}});
                                                     "start": 1053,
                                                     "end": 1062
                                                 },
-                                                "elements": [],
+                                                "body": {
+                                                    "kind": 262,
+                                                    "elements": [],
+                                                    "flags": 32,
+                                                    "start": 1064,
+                                                    "end": 1064
+                                                },
                                                 "flags": 32,
                                                 "start": 1045,
                                                 "end": 1065
@@ -3002,7 +3014,7 @@ for (;;) {}});
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "members": {
+                                            "tail": {
                                                 "kind": 277,
                                                 "classHeritage": {
                                                     "kind": 279,
@@ -3053,7 +3065,13 @@ for (;;) {}});
                                                     "start": 1105,
                                                     "end": 1119
                                                 },
-                                                "elements": [],
+                                                "body": {
+                                                    "kind": 262,
+                                                    "elements": [],
+                                                    "flags": 32,
+                                                    "start": 1121,
+                                                    "end": 1121
+                                                },
                                                 "flags": 32,
                                                 "start": 1097,
                                                 "end": 1123
@@ -3163,7 +3181,7 @@ for (;;) {}});
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "members": {
+                                            "tail": {
                                                 "kind": 277,
                                                 "classHeritage": {
                                                     "kind": 279,
@@ -3232,7 +3250,13 @@ for (;;) {}});
                                                     "start": 1163,
                                                     "end": 1182
                                                 },
-                                                "elements": [],
+                                                "body": {
+                                                    "kind": 262,
+                                                    "elements": [],
+                                                    "flags": 32,
+                                                    "start": 1184,
+                                                    "end": 1184
+                                                },
                                                 "flags": 32,
                                                 "start": 1155,
                                                 "end": 1186

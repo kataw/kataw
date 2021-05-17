@@ -38,7 +38,7 @@ class x extends const {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,56 +60,54 @@ class x extends const {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "const",
+                                "rawText": "const",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 21
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 21
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 21
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 21
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 21
         },
         {
-            "kind": 162,
-            "lexicalKeyword": {
-                "kind": 37757004,
-                "flags": 0,
-                "start": 15,
-                "end": 21
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 23,
+                "end": 23
             },
-            "binding": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 23,
-                                "end": 23
-                            },
-                            "flags": 32,
-                            "start": 21,
-                            "end": 24
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 21,
-                        "end": 24
-                    }
-                ],
-                "flags": 16777232,
-                "start": 21,
-                "end": 24
-            },
-            "flags": 33554448,
-            "start": 15,
+            "flags": 16,
+            "start": 21,
             "end": 24
         }
     ],
@@ -132,7 +130,7 @@ class x extends const {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 21
-✖ Missing initializer in const declaration - start: 24, end: 24
+✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 23
 
 ```
 

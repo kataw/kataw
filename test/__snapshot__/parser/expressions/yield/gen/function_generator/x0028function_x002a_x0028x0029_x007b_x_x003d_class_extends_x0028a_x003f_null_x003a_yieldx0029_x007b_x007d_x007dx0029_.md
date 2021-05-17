@@ -153,7 +153,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                             },
                                                                             "name": null,
                                                                             "typeParameters": null,
-                                                                            "members": {
+                                                                            "tail": {
                                                                                 "kind": 277,
                                                                                 "classHeritage": {
                                                                                     "kind": 279,
@@ -222,7 +222,13 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                     "start": 74,
                                                                                     "end": 93
                                                                                 },
-                                                                                "elements": [],
+                                                                                "body": {
+                                                                                    "kind": 262,
+                                                                                    "elements": [],
+                                                                                    "flags": 32,
+                                                                                    "start": 95,
+                                                                                    "end": 95
+                                                                                },
                                                                                 "flags": 32,
                                                                                 "start": 66,
                                                                                 "end": 97

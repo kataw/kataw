@@ -165,7 +165,9 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
     case SyntaxKind.ClassHeritage:
       return visitNode(node.expression, node, visitor) || visitNode(node.typeArguments, node, visitor);
     case SyntaxKind.ClassTail:
-      return visitNode(node.classHeritage, node, visitor) || visitNodes(node.elements, node, visitor);
+      return visitNode(node.classHeritage, node, visitor) || visitNode(node.body, node, visitor);
+    case SyntaxKind.ClassBody:
+      return visitNodes(node.elements, node, visitor);
     case SyntaxKind.CommaOperator:
       return visitNodes(node.expressions, node, visitor);
     case SyntaxKind.ComputedPropertyName:
@@ -208,7 +210,7 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       return (
         visitNode(node.name, node, visitor) ||
         visitNode(node.implementClauses, node, visitor) ||
-        visitNode(node.members, node, visitor)
+        visitNode(node.tail, node, visitor)
       );
     case SyntaxKind.BreakStatement:
       return visitNode(node.label, node, visitor);

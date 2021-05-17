@@ -38,7 +38,7 @@ class x extends delete {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -79,7 +79,13 @@ class x extends delete {}
                     "start": 15,
                     "end": 25
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 25,
+                    "end": 25
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 25
@@ -108,6 +114,7 @@ class x extends delete {}
 
 ```javascript
 ✖ Expression expected - start: 22, end: 24
+✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
 
 ```
 

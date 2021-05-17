@@ -42,10 +42,16 @@ class C { \\u0041 }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 9
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 9

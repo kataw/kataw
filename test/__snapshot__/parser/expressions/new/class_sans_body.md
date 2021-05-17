@@ -36,10 +36,16 @@ new class
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": null,
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 9,
+                            "end": 9
+                        },
                         "flags": 32,
                         "start": 9,
                         "end": 9
@@ -71,12 +77,12 @@ new class
 
 ```javascript
 
-new  class  {}();
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 9
+
 ```
 

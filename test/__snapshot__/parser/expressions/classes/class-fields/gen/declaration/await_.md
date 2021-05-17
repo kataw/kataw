@@ -38,38 +38,44 @@ class C { await; }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "await",
-                            "rawText": "await",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "await",
+                                "rawText": "await",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 15
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 9,
                             "end": 15
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 9,
-                        "end": 15
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 15,
-                        "end": 16
-                    }
-                ],
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 15,
+                            "end": 16
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 16
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 18

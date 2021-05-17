@@ -34,38 +34,44 @@ class C { #aaa = 0 }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 67174651,
-                            "text": "#aaa",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 67174651,
+                                "text": "#aaa",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 14
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "flags": 32,
                             "start": 9,
-                            "end": 14
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 16,
                             "end": 18
-                        },
-                        "flags": 32,
-                        "start": 9,
-                        "end": 18
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 18
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 20

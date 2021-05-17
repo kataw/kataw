@@ -66,62 +66,44 @@
                                                     "end": 20
                                                 },
                                                 "typeParameters": null,
-                                                "members": {
+                                                "tail": {
                                                     "kind": 277,
                                                     "classHeritage": null,
-                                                    "elements": [],
-                                                    "flags": 32,
-                                                    "start": 20,
-                                                    "end": 20
-                                                },
-                                                "flags": 16,
-                                                "start": 14,
-                                                "end": 20
-                                            },
-                                            {
-                                                "kind": 176,
-                                                "declareKeyword": null,
-                                                "asyncKeyword": null,
-                                                "functionKeyword": {
-                                                    "kind": 37822554,
-                                                    "flags": 0,
-                                                    "start": 20,
-                                                    "end": 29
-                                                },
-                                                "generatorToken": null,
-                                                "name": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "flags": 64,
-                                                    "start": 29,
-                                                    "end": 29
-                                                },
-                                                "formalParameters": {
-                                                    "kind": 214,
-                                                    "formalParameterList": [],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 29,
-                                                    "end": 29
-                                                },
-                                                "contents": {
-                                                    "kind": 216,
-                                                    "functionStatementList": {
-                                                        "kind": 217,
-                                                        "directives": [],
-                                                        "statements": [],
+                                                    "body": {
+                                                        "kind": 262,
+                                                        "elements": [
+                                                            {
+                                                                "kind": 280,
+                                                                "decorators": null,
+                                                                "declaredToken": null,
+                                                                "staticToken": null,
+                                                                "asyncKeyword": null,
+                                                                "key": {
+                                                                    "kind": 134299649,
+                                                                    "text": "function",
+                                                                    "rawText": "function",
+                                                                    "flags": 96,
+                                                                    "start": 20,
+                                                                    "end": 29
+                                                                },
+                                                                "optionalToken": null,
+                                                                "type": null,
+                                                                "initializer": null,
+                                                                "flags": 32,
+                                                                "start": 20,
+                                                                "end": 29
+                                                            }
+                                                        ],
                                                         "flags": 32,
-                                                        "start": 29,
+                                                        "start": 20,
                                                         "end": 29
                                                     },
                                                     "flags": 32,
-                                                    "start": 29,
+                                                    "start": 20,
                                                     "end": 29
                                                 },
-                                                "typeParameters": null,
-                                                "returnType": null,
                                                 "flags": 16,
-                                                "start": 20,
+                                                "start": 14,
                                                 "end": 29
                                             },
                                             {
@@ -209,8 +191,7 @@
 ```javascript
 ✖ Expected a `;` - start: 14, end: 20
 ✖ Binding identifier expected - start: 20, end: 29
-✖ Binding identifier expected - start: 29, end: 31
-✖ Unexpected token. - start: 29, end: 31
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 31
 ✖ Expression expected - start: 32, end: 32
 
 ```

@@ -37,51 +37,57 @@ class catch {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "catch",
+                                "rawText": "catch",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 11
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 11
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 11
+                },
                 "flags": 32,
                 "start": 5,
-                "end": 5
+                "end": 11
             },
             "flags": 16,
             "start": 0,
-            "end": 5
+            "end": 11
         },
         {
-            "kind": 159,
-            "tryKeyword": null,
+            "kind": 249,
             "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 13,
-                    "end": 13
-                },
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 11,
-                "end": 14
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 16,
-                "start": 14,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "flags": 16,
-            "start": 5,
+            "start": 11,
             "end": 14
         }
     ],
@@ -104,7 +110,7 @@ class catch {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ 'try' expected - start: 5, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 13
 
 ```
 

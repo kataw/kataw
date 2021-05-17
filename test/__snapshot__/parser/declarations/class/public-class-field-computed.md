@@ -42,38 +42,44 @@ class C { [0] }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 194,
-                            "expression": {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 11,
-                                "end": 12
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 11,
+                                    "end": 12
+                                },
+                                "flags": 32,
+                                "start": 9,
+                                "end": 13
                             },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
                             "flags": 32,
                             "start": 9,
                             "end": 13
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 9,
-                        "end": 13
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 13
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 15

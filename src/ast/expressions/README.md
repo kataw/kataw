@@ -281,7 +281,7 @@ interface ClassHeritage <: ExpressionNode {
 interface ClassTail <: ExpressionNode {
   kind: NodeKind.ClassTail;
   classHeritage: ExpressionNode | null;
-  elements: [ClassElements]
+  body: [ClassElements]
 }
 ```
 

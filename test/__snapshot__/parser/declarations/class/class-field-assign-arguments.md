@@ -42,39 +42,45 @@ class Foo { x = arguments }
                 "end": 9
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 13
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "arguments",
+                                "rawText": "arguments",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 25
+                            },
+                            "flags": 32,
                             "start": 11,
-                            "end": 13
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "arguments",
-                            "rawText": "arguments",
-                            "flags": 96,
-                            "start": 15,
                             "end": 25
-                        },
-                        "flags": 32,
-                        "start": 11,
-                        "end": 25
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 11,
+                    "end": 25
+                },
                 "flags": 32,
                 "start": 9,
                 "end": 27

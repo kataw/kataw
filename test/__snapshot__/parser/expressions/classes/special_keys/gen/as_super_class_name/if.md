@@ -38,7 +38,7 @@ class x extends if {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,54 +60,54 @@ class x extends if {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "if",
+                                "rawText": "if",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 18
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 18
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 18
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 18
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 18
         },
         {
-            "kind": 164,
-            "ifKeyword": {
-                "kind": 37757019,
-                "flags": 0,
-                "start": 15,
-                "end": 18
-            },
-            "expression": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 20,
-                    "end": 20
-                },
-                "flags": 48,
-                "start": 18,
-                "end": 21
-            },
-            "consequent": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 21,
-                    "end": 21
-                },
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 21,
-                "end": 21
+                "start": 20,
+                "end": 20
             },
-            "elseKeyword": null,
-            "alternate": null,
             "flags": 16,
-            "start": 15,
+            "start": 18,
             "end": 21
         }
     ],
@@ -130,7 +130,7 @@ class x extends if {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 18
-✖ Expected a ')' to match the '(' token here - start: 21, end: 21
+✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 20
 
 ```
 

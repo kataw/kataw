@@ -80,7 +80,7 @@ x => y {}
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -103,79 +103,84 @@ x => y {}
                                     "start": 37,
                                     "end": 43
                                 },
-                                "elements": [],
-                                "flags": 32,
-                                "start": 29,
-                                "end": 43
-                            },
-                            "flags": 16,
-                            "start": 19,
-                            "end": 43
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 0,
-                                    "start": 45,
-                                    "end": 48
-                                },
-                                "typeParameters": null,
-                                "parameters": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 43,
+                                                "end": 45
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 32,
+                                            "start": 43,
+                                            "end": 45
+                                        }
+                                    ],
+                                    "flags": 32,
                                     "start": 43,
                                     "end": 45
                                 },
-                                "asyncKeyword": null,
-                                "returnType": null,
-                                "contents": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 48,
-                                    "end": 50
-                                },
                                 "flags": 32,
-                                "start": 43,
-                                "end": 50
+                                "start": 29,
+                                "end": 45
                             },
                             "flags": 16,
-                            "start": 43,
-                            "end": 50
-                        },
-                        {
-                            "kind": 249,
-                            "block": {
-                                "kind": 124,
-                                "statements": [],
-                                "flags": 16,
-                                "start": 52,
-                                "end": 52
-                            },
-                            "flags": 16,
-                            "start": 50,
-                            "end": 53
+                            "start": 19,
+                            "end": 45
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 53
+                    "end": 45
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 55
+                "end": 45
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 55
+            "end": 45
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 48,
+                "end": 50
+            },
+            "flags": 16,
+            "start": 48,
+            "end": 50
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 52,
+                "end": 52
+            },
+            "flags": 16,
+            "start": 50,
+            "end": 53
         }
     ],
     "isModule": false,
@@ -196,7 +201,9 @@ x => y {}
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 48
 ✖ Expected a `;` - start: 50, end: 52
+✖ Declaration or statement expected - start: 53, end: 55
 
 ```
 

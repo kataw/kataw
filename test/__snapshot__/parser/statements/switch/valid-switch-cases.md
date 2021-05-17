@@ -4142,10 +4142,16 @@ switch (answer) { case 0: let a; };
                                     "end": 1509
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 1511,
+                                        "end": 1511
+                                    },
                                     "flags": 32,
                                     "start": 1509,
                                     "end": 1513
@@ -4349,10 +4355,16 @@ switch (answer) { case 0: let a; };
                                     "end": 1603
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 1605,
+                                        "end": 1605
+                                    },
                                     "flags": 32,
                                     "start": 1603,
                                     "end": 1606
@@ -4463,10 +4475,16 @@ switch (answer) { case 0: let a; };
                                     "end": 1658
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 1660,
+                                        "end": 1660
+                                    },
                                     "flags": 32,
                                     "start": 1658,
                                     "end": 1661
@@ -4630,7 +4648,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1730
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": {
                                         "kind": 279,
@@ -4653,7 +4671,13 @@ switch (answer) { case 0: let a; };
                                         "start": 1738,
                                         "end": 1740
                                     },
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 1742,
+                                        "end": 1742
+                                    },
                                     "flags": 32,
                                     "start": 1730,
                                     "end": 1743
@@ -4811,10 +4835,16 @@ switch (answer) { case 0: let a; };
                                     "end": 1812
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 1814,
+                                        "end": 1814
+                                    },
                                     "flags": 32,
                                     "start": 1812,
                                     "end": 1815
@@ -4925,10 +4955,16 @@ switch (answer) { case 0: let a; };
                                     "end": 1867
                                 },
                                 "typeParameters": null,
-                                "members": {
+                                "tail": {
                                     "kind": 277,
                                     "classHeritage": null,
-                                    "elements": [],
+                                    "body": {
+                                        "kind": 262,
+                                        "elements": [],
+                                        "flags": 32,
+                                        "start": 1869,
+                                        "end": 1869
+                                    },
                                     "flags": 32,
                                     "start": 1867,
                                     "end": 1871

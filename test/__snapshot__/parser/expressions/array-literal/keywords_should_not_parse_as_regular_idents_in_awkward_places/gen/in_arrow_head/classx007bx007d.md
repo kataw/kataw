@@ -47,10 +47,16 @@
                                     },
                                     "name": null,
                                     "typeParameters": null,
-                                    "members": {
+                                    "tail": {
                                         "kind": 277,
                                         "classHeritage": null,
-                                        "elements": [],
+                                        "body": {
+                                            "kind": 262,
+                                            "elements": [],
+                                            "flags": 32,
+                                            "start": 9,
+                                            "end": 9
+                                        },
                                         "flags": 32,
                                         "start": 8,
                                         "end": 10

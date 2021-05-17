@@ -49,17 +49,23 @@ left@{x200d}@right
                 "end": 11
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 11,
+                    "end": 11
+                },
                 "flags": 32,
                 "start": 11,
-                "end": 11
+                "end": 12
             },
             "flags": 16,
             "start": 4,
-            "end": 11
+            "end": 12
         },
         {
             "kind": 178,
@@ -95,10 +101,16 @@ left@{x200d}@right
                 "end": 18
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 18,
+                    "end": 18
+                },
                 "flags": 32,
                 "start": 18,
                 "end": 18
@@ -126,7 +138,6 @@ left@{x200d}@right
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 11, end: 12
 ✖ Binding identifier expected - start: 18, end: 18
 
 ```

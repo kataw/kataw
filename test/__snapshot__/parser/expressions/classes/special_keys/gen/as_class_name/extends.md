@@ -31,7 +31,7 @@ class extends {}
             },
             "name": null,
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,7 +60,13 @@ class extends {}
                     "start": 13,
                     "end": 16
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 16,
+                    "end": 16
+                },
                 "flags": 32,
                 "start": 5,
                 "end": 16
@@ -83,12 +89,12 @@ class extends {}
 
 ```javascript
 
-class   {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 16
+
 ```
 

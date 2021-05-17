@@ -37,69 +37,57 @@ class for {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "for",
+                                "rawText": "for",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 9
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 9
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 9
+                },
                 "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 165,
-            "forKeyword": {
-                "kind": 37757017,
-                "flags": 0,
                 "start": 5,
                 "end": 9
             },
-            "initializer": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 11,
-                    "end": 11
-                },
-                "flags": 48,
-                "start": 9,
-                "end": 12
-            },
-            "condition": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 12,
-                "end": 12
-            },
-            "incrementor": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 12,
-                "end": 12
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 12,
-                    "end": 12
-                },
+            "flags": 16,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 12,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "flags": 16,
-            "start": 5,
+            "start": 9,
             "end": 12
         }
     ],
@@ -122,7 +110,7 @@ class for {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 9
-✖ Expression expected - start: 12, end: 12
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
 
 ```
 

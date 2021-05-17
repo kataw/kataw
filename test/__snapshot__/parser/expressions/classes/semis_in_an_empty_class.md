@@ -34,35 +34,41 @@ class A {; ;; ;}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 9,
-                        "end": 10
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 10,
-                        "end": 12
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 12,
-                        "end": 13
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 13,
-                        "end": 15
-                    }
-                ],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 9,
+                            "end": 10
+                        },
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 10,
+                            "end": 12
+                        },
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 12,
+                            "end": 13
+                        },
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 13,
+                            "end": 15
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 15
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 16

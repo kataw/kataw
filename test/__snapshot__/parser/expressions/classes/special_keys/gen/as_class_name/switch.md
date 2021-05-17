@@ -37,49 +37,57 @@ class switch {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "switch",
+                                "rawText": "switch",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 12
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 12
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 12
+                },
                 "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 160,
-            "switchKeyword": {
-                "kind": 37757024,
-                "flags": 0,
                 "start": 5,
                 "end": 12
             },
-            "expression": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 48,
-                "start": 12,
-                "end": 15
-            },
-            "caseBlock": {
-                "kind": 152,
-                "clauses": [],
+            "flags": 16,
+            "start": 0,
+            "end": 12
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 15,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "flags": 16,
-            "start": 5,
+            "start": 12,
             "end": 15
         }
     ],
@@ -102,7 +110,7 @@ class switch {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
-✖ Expected a ')' to match the '(' token here - start: 15, end: 15
+✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 14
 
 ```
 

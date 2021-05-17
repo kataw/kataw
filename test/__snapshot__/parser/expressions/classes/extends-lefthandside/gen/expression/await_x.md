@@ -41,7 +41,7 @@
                         "end": 8
                     },
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -64,35 +64,49 @@
                             "start": 16,
                             "end": 22
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 22,
+                                        "end": 24
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 22,
+                                    "end": 24
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 22,
+                            "end": 24
+                        },
                         "flags": 32,
                         "start": 8,
-                        "end": 22
+                        "end": 24
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 22
+                    "end": 24
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 22
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 22
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 22,
                 "end": 24
             },
             "flags": 16,
-            "start": 22,
+            "start": 0,
             "end": 24
         },
         {
@@ -127,8 +141,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 22, end: 24
-✖ Expected a `;` - start: 24, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 26
 ✖ Declaration or statement expected - start: 27, end: 28
 
 ```

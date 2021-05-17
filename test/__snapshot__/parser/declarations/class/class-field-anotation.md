@@ -42,87 +42,93 @@ class Foo { prop1:string; prop2:number; }
                 "end": 9
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "prop1",
-                            "rawText": "prop1",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 17
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "prop1",
+                                "rawText": "prop1",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 17
+                            },
+                            "optionalToken": null,
                             "type": {
-                                "kind": 134234347,
-                                "flags": 64,
-                                "start": 18,
+                                "kind": 139,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 64,
+                                    "start": 18,
+                                    "end": 24
+                                },
+                                "flags": 0,
+                                "start": 17,
                                 "end": 24
                             },
-                            "flags": 0,
-                            "start": 17,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 11,
                             "end": 24
                         },
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 11,
-                        "end": 24
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 24,
-                        "end": 25
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "prop2",
-                            "rawText": "prop2",
+                        {
+                            "kind": 281,
                             "flags": 96,
-                            "start": 25,
-                            "end": 31
+                            "start": 24,
+                            "end": 25
                         },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "prop2",
+                                "rawText": "prop2",
+                                "flags": 96,
+                                "start": 25,
+                                "end": 31
+                            },
+                            "optionalToken": null,
                             "type": {
-                                "kind": 134234345,
-                                "flags": 64,
-                                "start": 32,
+                                "kind": 139,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 64,
+                                    "start": 32,
+                                    "end": 38
+                                },
+                                "flags": 0,
+                                "start": 31,
                                 "end": 38
                             },
-                            "flags": 0,
-                            "start": 31,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 25,
                             "end": 38
                         },
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 25,
-                        "end": 38
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 38,
-                        "end": 39
-                    }
-                ],
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 38,
+                            "end": 39
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 11,
+                    "end": 39
+                },
                 "flags": 32,
                 "start": 9,
                 "end": 41

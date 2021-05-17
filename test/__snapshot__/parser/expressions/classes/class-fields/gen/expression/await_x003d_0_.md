@@ -38,7 +38,7 @@ class C extends Base { await = 0; }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -61,42 +61,48 @@ class C extends Base { await = 0; }
                     "start": 15,
                     "end": 20
                 },
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "await",
-                            "rawText": "await",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "await",
+                                "rawText": "await",
+                                "flags": 96,
+                                "start": 22,
+                                "end": 28
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 30,
+                                "end": 32
+                            },
+                            "flags": 32,
                             "start": 22,
-                            "end": 28
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 30,
                             "end": 32
                         },
-                        "flags": 32,
-                        "start": 22,
-                        "end": 32
-                    },
-                    {
-                        "kind": 281,
-                        "flags": 96,
-                        "start": 32,
-                        "end": 33
-                    }
-                ],
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 32,
+                            "end": 33
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 22,
+                    "end": 33
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 35

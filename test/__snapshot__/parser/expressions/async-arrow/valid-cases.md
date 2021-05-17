@@ -2133,170 +2133,181 @@
                             "contents": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 198,
-                                    "left": {
-                                        "kind": 198,
-                                        "left": {
-                                            "kind": 198,
-                                            "left": {
-                                                "kind": 198,
-                                                "left": {
-                                                    "kind": 198,
-                                                    "left": {
-                                                        "kind": 208,
-                                                        "awaitKeyword": {
-                                                            "kind": 82032,
-                                                            "flags": 0,
-                                                            "start": 778,
-                                                            "end": 784
-                                                        },
-                                                        "expression": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 784,
-                                                            "end": 786
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 778,
-                                                        "end": 786
-                                                    },
-                                                    "operatorToken": {
-                                                        "kind": 34098,
-                                                        "flags": 64,
-                                                        "start": 786,
-                                                        "end": 788
-                                                    },
-                                                    "right": {
-                                                        "kind": 208,
-                                                        "awaitKeyword": {
-                                                            "kind": 82032,
-                                                            "flags": 0,
-                                                            "start": 788,
-                                                            "end": 794
-                                                        },
-                                                        "expression": {
-                                                            "kind": 134299649,
-                                                            "text": "b",
-                                                            "rawText": "b",
-                                                            "flags": 96,
-                                                            "start": 794,
-                                                            "end": 796
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 788,
-                                                        "end": 796
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 778,
-                                                    "end": 796
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 34098,
-                                                    "flags": 64,
-                                                    "start": 796,
-                                                    "end": 798
-                                                },
-                                                "right": {
-                                                    "kind": 134299649,
-                                                    "text": "c",
-                                                    "rawText": "c",
-                                                    "flags": 96,
-                                                    "start": 798,
-                                                    "end": 800
-                                                },
-                                                "flags": 32,
-                                                "start": 778,
-                                                "end": 800
-                                            },
-                                            "operatorToken": {
-                                                "kind": 34098,
-                                                "flags": 64,
-                                                "start": 800,
-                                                "end": 802
-                                            },
-                                            "right": {
-                                                "kind": 134299649,
-                                                "text": "d",
-                                                "rawText": "d",
-                                                "flags": 96,
-                                                "start": 802,
-                                                "end": 804
-                                            },
-                                            "flags": 32,
-                                            "start": 778,
-                                            "end": 804
-                                        },
-                                        "operatorToken": {
-                                            "kind": 34098,
-                                            "flags": 64,
-                                            "start": 804,
-                                            "end": 806
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "e",
-                                            "rawText": "e",
-                                            "flags": 96,
-                                            "start": 806,
-                                            "end": 808
-                                        },
-                                        "flags": 32,
+                                    "kind": 208,
+                                    "awaitKeyword": {
+                                        "kind": 82032,
+                                        "flags": 0,
                                         "start": 778,
-                                        "end": 808
+                                        "end": 784
                                     },
-                                    "operatorToken": {
-                                        "kind": 34098,
-                                        "flags": 64,
-                                        "start": 808,
-                                        "end": 810
-                                    },
-                                    "right": {
+                                    "expression": {
                                         "kind": 134299649,
-                                        "text": "f",
-                                        "rawText": "f",
+                                        "text": "a",
+                                        "rawText": "a",
                                         "flags": 96,
-                                        "start": 810,
-                                        "end": 812
+                                        "start": 784,
+                                        "end": 786
                                     },
                                     "flags": 32,
                                     "start": 778,
-                                    "end": 812
+                                    "end": 786
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
                                     "flags": 64,
-                                    "start": 812,
-                                    "end": 814
+                                    "start": 786,
+                                    "end": 788
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "text": "g",
-                                    "rawText": "g",
+                                    "text": "await",
+                                    "rawText": "await",
                                     "flags": 96,
-                                    "start": 814,
-                                    "end": 816
+                                    "start": 788,
+                                    "end": 794
                                 },
                                 "flags": 32,
                                 "start": 778,
-                                "end": 816
+                                "end": 794
                             },
                             "flags": 288,
                             "start": 747,
-                            "end": 816
+                            "end": 794
                         },
                         "flags": 16,
                         "start": 743,
-                        "end": 816
+                        "end": 794
+                    },
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 794,
+                            "end": 796
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 16,
+                        "start": 794,
+                        "end": 796
                     }
                 ],
                 "flags": 16,
                 "start": 743,
-                "end": 816
+                "end": 796
             },
             "flags": 16,
             "start": 734,
+            "end": 796
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 198,
+                        "left": {
+                            "kind": 198,
+                            "left": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 34098,
+                                    "flags": 64,
+                                    "start": 796,
+                                    "end": 798
+                                },
+                                "operand": {
+                                    "kind": 134299649,
+                                    "text": "c",
+                                    "rawText": "c",
+                                    "flags": 96,
+                                    "start": 798,
+                                    "end": 800
+                                },
+                                "flags": 32,
+                                "start": 796,
+                                "end": 800
+                            },
+                            "operatorToken": {
+                                "kind": 34098,
+                                "flags": 64,
+                                "start": 800,
+                                "end": 802
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "d",
+                                "rawText": "d",
+                                "flags": 96,
+                                "start": 802,
+                                "end": 804
+                            },
+                            "flags": 32,
+                            "start": 796,
+                            "end": 804
+                        },
+                        "operatorToken": {
+                            "kind": 34098,
+                            "flags": 64,
+                            "start": 804,
+                            "end": 806
+                        },
+                        "right": {
+                            "kind": 134299649,
+                            "text": "e",
+                            "rawText": "e",
+                            "flags": 96,
+                            "start": 806,
+                            "end": 808
+                        },
+                        "flags": 32,
+                        "start": 796,
+                        "end": 808
+                    },
+                    "operatorToken": {
+                        "kind": 34098,
+                        "flags": 64,
+                        "start": 808,
+                        "end": 810
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "f",
+                        "rawText": "f",
+                        "flags": 96,
+                        "start": 810,
+                        "end": 812
+                    },
+                    "flags": 32,
+                    "start": 796,
+                    "end": 812
+                },
+                "operatorToken": {
+                    "kind": 34098,
+                    "flags": 64,
+                    "start": 812,
+                    "end": 814
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "g",
+                    "rawText": "g",
+                    "flags": 96,
+                    "start": 814,
+                    "end": 816
+                },
+                "flags": 32,
+                "start": 796,
+                "end": 816
+            },
+            "flags": 16,
+            "start": 796,
             "end": 817
         },
         {
@@ -4843,87 +4854,15 @@
 
 ```javascript
 
-async(async(async(async(async(async())))))
-async()
-(async () =>  {});
-async(a)
-(s)(y)(n)(c);
-;
-({ async foo() {} });
-({ async() {} });
-async () =>  {}
-async () =>  {
-  return  42;
-}
-(async x =>  y);
-(async (x, z) =>  y);
-({ x: async (y, w) =>  z });
-async ({ x = yield }) =>  1
-async (icefapper = bad) =>  {}
-async({ a: b = c })
-async ({ a = b }) =>  a
-async (a, b) =>  a
-async () =>  a
-asyncFn = async ({ foo = 1 }) =>  foo;
-asyncFn = async ({ foo = 1 } = {}) =>  foo;
-foo = ({ async = true }) =>  {};
-foo = async ({ async: bar }) =>  {
-  await baz;
-};
-async ({}) =>  0
-async(a)
-var x = async(x);
-var x = async (a, b) =>  await a + b;
-var x = async (a, b, c, d, e, f, g) =>  await a + await b + c + d + e + f + g;
-async (a) =>  b
-[async (x, y) =>  z];
-[async x =>  z];
-id = async x =>  x, square = async (y) =>  {
-    y * y;
-  };
-f(a, async b =>  await b);
-async (x, y) =>  {
-  x * y;
-}
-async (x, y) =>  y
-async a =>  {
-  await a;
-};
-async (y) =>  y
-async (x, ...) =>  x
-async (x, y) =>  x
-async ({ a = b }) =>  a
-(async (x) =>  {}) + 1;
-(async (x) =>  {}) / 1;
-async a =>  a;
-async function foo(a = async () =>  await b) {}
-({ async: 1 });
-async yield =>  1;
-() =>  ({ async f() {
-      return  "\"test4\"";
-    } }).f();
-async ({ x = yield }) =>  1
-async (async) =>  1
-async ([a]) =>  1
-async ([a, b]) =>  1
-async ({ a }) =>  1
-async ({ a, b }) =>  1
-async a =>  async b =>  c;
-async a =>  async function () {};
-async a =>  async function b() {};
-async a =>  await 1;
-async x =>  x =>  x;
-async x =>  {
-  return  () =>  x;
-};
-var f = cond ? x =>  {
-      x.foo;
-    } : x =>  x + x + x + x + x + x + (x =>  x);
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'await' cannot be used as an identifier here - start: 788, end: 794
+✖ ',' expected - start: 794, end: 796
+✖ ',' expected - start: 796, end: 798
+✖ Expected a `;` - start: 796, end: 798
+
 ```
 

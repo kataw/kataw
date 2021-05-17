@@ -48,7 +48,7 @@ x = class extends (a ? null : yield) { }
                     },
                     "name": null,
                     "typeParameters": null,
-                    "members": {
+                    "tail": {
                         "kind": 277,
                         "classHeritage": {
                             "kind": 279,
@@ -110,7 +110,13 @@ x = class extends (a ? null : yield) { }
                             "start": 17,
                             "end": 36
                         },
-                        "elements": [],
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 38,
+                            "end": 38
+                        },
                         "flags": 32,
                         "start": 9,
                         "end": 40

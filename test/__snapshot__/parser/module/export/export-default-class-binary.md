@@ -54,10 +54,16 @@ export default class Foo {}++x
                     "end": 24
                 },
                 "typeParameters": null,
-                "members": {
+                "tail": {
                     "kind": 277,
                     "classHeritage": null,
-                    "elements": [],
+                    "body": {
+                        "kind": 262,
+                        "elements": [],
+                        "flags": 32,
+                        "start": 26,
+                        "end": 26
+                    },
                     "flags": 32,
                     "start": 24,
                     "end": 27

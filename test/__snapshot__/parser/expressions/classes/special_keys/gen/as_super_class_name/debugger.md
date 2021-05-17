@@ -38,7 +38,7 @@ class x extends debugger {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,25 +60,41 @@ class x extends debugger {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "debugger",
+                                "rawText": "debugger",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 24
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 24
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 24
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 15
-        },
-        {
-            "kind": 171,
-            "debuggerKeyword": {
-                "kind": 37757010,
-                "flags": 0,
-                "start": 15,
                 "end": 24
             },
             "flags": 16,
-            "start": 15,
+            "start": 0,
             "end": 24
         },
         {
@@ -114,7 +130,7 @@ class x extends debugger {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 24
-✖ Expected a `;` - start: 24, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 26
 
 ```
 

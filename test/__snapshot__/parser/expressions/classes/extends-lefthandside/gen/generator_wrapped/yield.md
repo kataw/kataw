@@ -78,7 +78,7 @@ function *P(){
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -121,19 +121,25 @@ function *P(){
                                     "start": 32,
                                     "end": 41
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 41,
+                                    "end": 41
+                                },
                                 "flags": 32,
                                 "start": 24,
-                                "end": 41
+                                "end": 43
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 41
+                            "end": 43
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 41
+                    "end": 43
                 },
                 "flags": 32,
                 "start": 13,
@@ -165,6 +171,7 @@ function *P(){
 
 ```javascript
 ✖ Expected a `;` - start: 38, end: 40
+✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
 
 ```
 

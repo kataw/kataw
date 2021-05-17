@@ -34,88 +34,94 @@ class A { static static constructor() {} }
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
-                            "kind": 8388716,
-                            "flags": 64,
-                            "start": 9,
-                            "end": 16
-                        },
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "static",
-                            "rawText": "static",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 16
+                            },
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 23
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 16,
                             "end": 23
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 16,
-                        "end": 23
-                    },
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "constructor",
-                                "rawText": "constructor",
-                                "flags": 96,
-                                "start": 23,
-                                "end": 35
-                            },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 2048,
-                                "start": 36,
-                                "end": 37
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 39,
-                                    "end": 39
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "constructor",
+                                    "rawText": "constructor",
+                                    "flags": 96,
+                                    "start": 23,
+                                    "end": 35
                                 },
-                                "flags": 32,
-                                "start": 37,
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 2048,
+                                    "start": 36,
+                                    "end": 37
+                                },
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 39,
+                                        "end": 39
+                                    },
+                                    "flags": 32,
+                                    "start": 37,
+                                    "end": 40
+                                },
+                                "flags": 2048,
+                                "start": 35,
                                 "end": 40
                             },
                             "flags": 2048,
-                            "start": 35,
+                            "start": 23,
                             "end": 40
-                        },
-                        "flags": 2048,
-                        "start": 23,
-                        "end": 40
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 40
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 42

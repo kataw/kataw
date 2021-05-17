@@ -78,7 +78,7 @@ async function p(){
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -89,37 +89,66 @@ async function p(){
                                         "end": 37
                                     },
                                     "expression": {
-                                        "kind": 208,
-                                        "awaitKeyword": {
-                                            "kind": 82032,
-                                            "flags": 0,
-                                            "start": 37,
-                                            "end": 43
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 43,
-                                            "end": 45
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
                                         "start": 37,
-                                        "end": 45
+                                        "end": 43
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
                                     "start": 37,
+                                    "end": 43
+                                },
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 43,
+                                                "end": 45
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 32,
+                                            "start": 43,
+                                            "end": 45
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 43,
                                     "end": 45
                                 },
-                                "elements": [],
                                 "flags": 32,
                                 "start": 29,
-                                "end": 48
+                                "end": 45
                             },
                             "flags": 16,
                             "start": 19,
+                            "end": 45
+                        },
+                        {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 47,
+                                "end": 47
+                            },
+                            "flags": 16,
+                            "start": 45,
                             "end": 48
                         }
                     ],
@@ -151,14 +180,13 @@ async function p(){
 
 ```javascript
 
-async function p() {
-  class C  {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'await' cannot be used as an identifier here - start: 37, end: 43
+✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 47
+
 ```
 

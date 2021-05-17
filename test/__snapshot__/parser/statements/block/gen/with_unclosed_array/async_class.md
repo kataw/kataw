@@ -50,10 +50,16 @@
                                         },
                                         "name": null,
                                         "typeParameters": null,
-                                        "members": {
+                                        "tail": {
                                             "kind": 277,
                                             "classHeritage": null,
-                                            "elements": [],
+                                            "body": {
+                                                "kind": 262,
+                                                "elements": [],
+                                                "flags": 32,
+                                                "start": 14,
+                                                "end": 14
+                                            },
                                             "flags": 32,
                                             "start": 14,
                                             "end": 14
@@ -105,8 +111,8 @@
 
 ```javascript
 ✖ ',' expected - start: 8, end: 14
+✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
 ✖ ',' expected - start: 14, end: 14
-✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 14
 
 ```
 

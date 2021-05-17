@@ -38,10 +38,16 @@ class public {}
                 "end": 12
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 14,
+                    "end": 14
+                },
                 "flags": 32,
                 "start": 12,
                 "end": 15

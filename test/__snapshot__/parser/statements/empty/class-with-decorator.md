@@ -56,10 +56,16 @@ class x {}
                 "end": 10
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 12,
+                    "end": 12
+                },
                 "flags": 32,
                 "start": 10,
                 "end": 13

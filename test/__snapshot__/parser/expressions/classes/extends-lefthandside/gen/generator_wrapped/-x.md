@@ -78,7 +78,7 @@ function *P(){
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -113,7 +113,13 @@ function *P(){
                                     "start": 32,
                                     "end": 35
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 37,
+                                    "end": 37
+                                },
                                 "flags": 32,
                                 "start": 24,
                                 "end": 38

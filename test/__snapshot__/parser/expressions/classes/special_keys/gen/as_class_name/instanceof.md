@@ -37,55 +37,57 @@ class instanceof {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 5,
-                    "end": 5
-                },
-                "operatorToken": {
-                    "kind": 4229173,
-                    "flags": 64,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "instanceof",
+                                "rawText": "instanceof",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 16
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 16
+                        }
+                    ],
+                    "flags": 32,
                     "start": 5,
                     "end": 16
                 },
-                "right": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 18,
-                        "end": 18
-                    },
-                    "flags": 48,
-                    "start": 16,
-                    "end": 19
-                },
                 "flags": 32,
                 "start": 5,
-                "end": 19
+                "end": 16
             },
             "flags": 16,
-            "start": 5,
+            "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 18,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 16,
             "end": 19
         }
     ],
@@ -108,6 +110,7 @@ class instanceof {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 16
+✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 18
 
 ```
 

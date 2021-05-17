@@ -38,7 +38,7 @@ class x extends class {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -59,10 +59,16 @@ class x extends class {}
                         },
                         "name": null,
                         "typeParameters": null,
-                        "members": {
+                        "tail": {
                             "kind": 277,
                             "classHeritage": null,
-                            "elements": [],
+                            "body": {
+                                "kind": 262,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 23,
+                                "end": 23
+                            },
                             "flags": 32,
                             "start": 21,
                             "end": 24
@@ -76,7 +82,13 @@ class x extends class {}
                     "start": 15,
                     "end": 24
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 24,
+                    "end": 24
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 24
@@ -99,12 +111,12 @@ class x extends class {}
 
 ```javascript
 
-class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 24
+
 ```
 

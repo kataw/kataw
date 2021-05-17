@@ -37,43 +37,58 @@ class return {}
                 "end": 5
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "return",
+                                "rawText": "return",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 12
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 12
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 5,
+                    "end": 12
+                },
                 "flags": 32,
-                "start": 5,
-                "end": 5
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 161,
-            "returnKeyword": {
-                "kind": 37757022,
-                "flags": 0,
                 "start": 5,
                 "end": 12
             },
-            "expression": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 48,
-                "start": 12,
-                "end": 15
-            },
             "flags": 16,
             "start": 0,
-            "end": 5
+            "end": 12
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 14,
+                "end": 14
+            },
+            "flags": 16,
+            "start": 12,
+            "end": 15
         }
     ],
     "isModule": false,
@@ -95,7 +110,7 @@ class return {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
-✖ A return statement can only be used within a function_body - start: 5, end: 12
+✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 14
 
 ```
 

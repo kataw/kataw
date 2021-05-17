@@ -38,32 +38,38 @@ class Foo { prototype = 1 }
                 "end": 9
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "prototype",
-                            "rawText": "prototype",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "prototype",
+                                "rawText": "prototype",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 21
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 11,
                             "end": 21
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 11,
-                        "end": 21
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 11,
+                    "end": 21
+                },
                 "flags": 32,
                 "start": 9,
                 "end": 23
@@ -91,32 +97,38 @@ class Foo { prototype = 1 }
                 "end": 34
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 201392131,
-                            "text": "prototype",
-                            "rawText": "'prototype'",
-                            "flags": 4194400,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 201392131,
+                                "text": "prototype",
+                                "rawText": "'prototype'",
+                                "flags": 4194400,
+                                "start": 36,
+                                "end": 48
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
                             "start": 36,
                             "end": 48
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 36,
-                        "end": 48
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 36,
+                    "end": 48
+                },
                 "flags": 32,
                 "start": 34,
                 "end": 50
@@ -144,39 +156,45 @@ class Foo { prototype = 1 }
                 "end": 61
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "prototype",
-                            "rawText": "prototype",
-                            "flags": 96,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "prototype",
+                                "rawText": "prototype",
+                                "flags": 96,
+                                "start": 63,
+                                "end": 73
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 75,
+                                "end": 77
+                            },
+                            "flags": 32,
                             "start": 63,
-                            "end": 73
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 75,
                             "end": 77
-                        },
-                        "flags": 32,
-                        "start": 63,
-                        "end": 77
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 63,
+                    "end": 77
+                },
                 "flags": 32,
                 "start": 61,
                 "end": 79

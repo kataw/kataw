@@ -80,7 +80,7 @@ x {}
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -103,27 +103,41 @@ x {}
                                     "start": 37,
                                     "end": 43
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 43,
+                                                "end": 45
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 32,
+                                            "start": 43,
+                                            "end": 45
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 43,
+                                    "end": 45
+                                },
                                 "flags": 32,
                                 "start": 29,
-                                "end": 43
-                            },
-                            "flags": 16,
-                            "start": 19,
-                            "end": 43
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 43,
                                 "end": 45
                             },
                             "flags": 16,
-                            "start": 43,
+                            "start": 19,
                             "end": 45
                         },
                         {
@@ -173,7 +187,7 @@ x {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 45, end: 47
+✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 47
 
 ```
 

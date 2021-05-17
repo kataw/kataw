@@ -38,7 +38,7 @@ class A extends function f(){} {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -99,7 +99,13 @@ class A extends function f(){} {}
                     "start": 15,
                     "end": 30
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 32,
+                    "end": 32
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 33

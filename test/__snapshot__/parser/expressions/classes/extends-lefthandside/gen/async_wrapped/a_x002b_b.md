@@ -78,7 +78,7 @@ async function p(){
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -101,7 +101,13 @@ async function p(){
                                     "start": 37,
                                     "end": 39
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 39,
+                                    "end": 39
+                                },
                                 "flags": 32,
                                 "start": 29,
                                 "end": 39
@@ -183,6 +189,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 41
 ✖ Expected a `;` - start: 43, end: 45
 
 ```

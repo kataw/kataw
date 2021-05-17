@@ -38,7 +38,7 @@ class x extends var {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,57 +60,54 @@ class x extends var {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "var",
+                                "rawText": "var",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 19
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 19
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 19
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 19
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 19
         },
         {
-            "kind": 155,
-            "declareKeyword": null,
-            "varKeyword": {
-                "kind": 37757002,
-                "flags": 0,
-                "start": 15,
-                "end": 19
-            },
-            "declarationList": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 21,
-                                "end": 21
-                            },
-                            "flags": 32,
-                            "start": 19,
-                            "end": 22
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 19,
-                        "end": 22
-                    }
-                ],
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
                 "flags": 16,
-                "start": 19,
-                "end": 22
+                "start": 21,
+                "end": 21
             },
             "flags": 16,
-            "start": 15,
+            "start": 19,
             "end": 22
         }
     ],
@@ -133,7 +130,7 @@ class x extends var {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 19
-✖ Missing initializer in destructuring declaration - start: 22, end: 22
+✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 21
 
 ```
 

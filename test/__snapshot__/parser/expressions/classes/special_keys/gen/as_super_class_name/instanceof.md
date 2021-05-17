@@ -38,7 +38,7 @@ class x extends instanceof {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,52 +60,54 @@ class x extends instanceof {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
-                "flags": 32,
-                "start": 7,
-                "end": 15
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 15
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 15,
-                    "end": 15
-                },
-                "operatorToken": {
-                    "kind": 4229173,
-                    "flags": 64,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "instanceof",
+                                "rawText": "instanceof",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 26
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 26
+                        }
+                    ],
+                    "flags": 32,
                     "start": 15,
                     "end": 26
                 },
-                "right": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 28,
-                        "end": 28
-                    },
-                    "flags": 48,
-                    "start": 26,
-                    "end": 29
-                },
                 "flags": 32,
-                "start": 15,
-                "end": 29
+                "start": 7,
+                "end": 26
             },
             "flags": 16,
-            "start": 15,
+            "start": 0,
+            "end": 26
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 28,
+                "end": 28
+            },
+            "flags": 16,
+            "start": 26,
             "end": 29
         }
     ],
@@ -128,6 +130,7 @@ class x extends instanceof {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 28
 
 ```
 

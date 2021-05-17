@@ -38,7 +38,7 @@ class x extends else {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,14 +60,42 @@ class x extends else {}
                     "start": 15,
                     "end": 15
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "else",
+                                "rawText": "else",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 20
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 20
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 20
+                },
                 "flags": 32,
                 "start": 7,
-                "end": 15
+                "end": 20
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 20
         },
         {
             "kind": 249,
@@ -102,6 +130,7 @@ class x extends else {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 20
+✖ The parser expected to find a '}' to match the '{' token here - start: 20, end: 22
 
 ```
 

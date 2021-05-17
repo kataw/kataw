@@ -44,7 +44,7 @@
                                 "end": 8
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -67,7 +67,13 @@
                                     "start": 16,
                                     "end": 19
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 19,
+                                    "end": 19
+                                },
                                 "flags": 32,
                                 "start": 8,
                                 "end": 19
@@ -129,6 +135,7 @@
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 20
 ✖ Expected a ')' to match the '(' token here - start: 22, end: 24
 ✖ Declaration or statement expected - start: 25, end: 26
 

@@ -78,7 +78,7 @@ async function p(){
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -129,7 +129,13 @@ async function p(){
                                     "start": 37,
                                     "end": 50
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 52,
+                                    "end": 52
+                                },
                                 "flags": 32,
                                 "start": 29,
                                 "end": 53

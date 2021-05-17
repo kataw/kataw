@@ -38,7 +38,7 @@ class A extends /more crap/g {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -60,7 +60,13 @@ class A extends /more crap/g {}
                     "start": 15,
                     "end": 28
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 30,
+                    "end": 30
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 31

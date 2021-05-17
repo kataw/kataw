@@ -38,7 +38,7 @@ class x extends void {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": {
                     "kind": 279,
@@ -79,7 +79,13 @@ class x extends void {}
                     "start": 15,
                     "end": 23
                 },
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 23,
+                    "end": 23
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 23
@@ -108,6 +114,7 @@ class x extends void {}
 
 ```javascript
 ✖ Expression expected - start: 20, end: 22
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 23
 
 ```
 

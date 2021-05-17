@@ -35,10 +35,16 @@ var B = class extends A {}
                 "end": 7
             },
             "typeParameters": null,
-            "members": {
+            "tail": {
                 "kind": 277,
                 "classHeritage": null,
-                "elements": [],
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 9
+                },
                 "flags": 32,
                 "start": 7,
                 "end": 10
@@ -82,7 +88,7 @@ var B = class extends A {}
                             },
                             "name": null,
                             "typeParameters": null,
-                            "members": {
+                            "tail": {
                                 "kind": 277,
                                 "classHeritage": {
                                     "kind": 279,
@@ -105,7 +111,13 @@ var B = class extends A {}
                                     "start": 32,
                                     "end": 34
                                 },
-                                "elements": [],
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 36,
+                                    "end": 36
+                                },
                                 "flags": 32,
                                 "start": 24,
                                 "end": 37
