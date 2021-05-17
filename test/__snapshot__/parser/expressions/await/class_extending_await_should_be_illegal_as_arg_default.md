@@ -8,7 +8,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -56,130 +56,90 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 0,
-                                    "start": 60,
-                                    "end": 63
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 132,
+                                    "flags": 32,
+                                    "start": 19,
+                                    "end": 38
                                 },
-                                "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 125,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "fail",
-                                            "rawText": "fail",
-                                            "flags": 96,
-                                            "start": 24,
-                                            "end": 28
-                                        },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 28,
-                                            "end": 30
-                                        },
-                                        "right": {
-                                            "kind": 189,
-                                            "decorators": null,
-                                            "classKeyword": {
-                                                "kind": 37822544,
-                                                "flags": 0,
-                                                "start": 30,
-                                                "end": 36
-                                            },
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "A",
-                                                "rawText": "A",
-                                                "flags": 96,
-                                                "start": 36,
-                                                "end": 38
-                                            },
-                                            "typeParameters": null,
-                                            "classHeritage": {
-                                                "kind": 279,
-                                                "extendsKeyword": {
-                                                    "kind": 4194391,
-                                                    "flags": 0,
-                                                    "start": 38,
-                                                    "end": 46
-                                                },
-                                                "expression": {
-                                                    "kind": 208,
-                                                    "awaitKeyword": {
-                                                        "kind": 82032,
-                                                        "flags": 0,
-                                                        "start": 46,
-                                                        "end": 52
-                                                    },
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 52,
-                                                        "end": 56
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 46,
-                                                    "end": 56
-                                                },
-                                                "typeParameter": null,
-                                                "flags": 16,
-                                                "start": 46,
-                                                "end": 56
-                                            },
-                                            "members": {
-                                                "kind": 277,
-                                                "elements": [],
-                                                "flags": 32,
-                                                "start": 58,
-                                                "end": 59
-                                            },
-                                            "flags": 32,
-                                            "start": 30,
-                                            "end": 59
-                                        },
-                                        "flags": 32,
-                                        "start": 19,
-                                        "end": 59
-                                    }
-                                ],
-                                "asyncKeyword": null,
-                                "returnType": null,
-                                "contents": {
-                                    "kind": 134299649,
-                                    "text": "fail",
-                                    "rawText": "fail",
-                                    "flags": 96,
-                                    "start": 63,
-                                    "end": 68
-                                },
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 19,
-                                "end": 68
+                                "end": 38
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 68
+                            "end": 38
                         }
                     ],
                     "flags": 32,
                     "start": 19,
-                    "end": 68
+                    "end": 38
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 73
+                "end": 38
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 73
+            "end": 38
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "await",
+                "rawText": "await",
+                "flags": 96,
+                "start": 46,
+                "end": 52
+            },
+            "flags": 16,
+            "start": 46,
+            "end": 52
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 52,
+                "end": 56
+            },
+            "flags": 16,
+            "start": 52,
+            "end": 56
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 58,
+                "end": 58
+            },
+            "flags": 16,
+            "start": 56,
+            "end": 59
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "fail",
+                "rawText": "fail",
+                "flags": 96,
+                "start": 63,
+                "end": 68
+            },
+            "flags": 16,
+            "start": 63,
+            "end": 68
         }
     ],
     "isModule": false,
@@ -195,14 +155,17 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 
 ```javascript
 
-async function f() {
-  (fail = class A  {}) =>  fail;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 38, end: 46
+✖ Expected a `;` - start: 52, end: 56
+✖ Expected a `;` - start: 56, end: 58
+✖ Declaration or statement expected - start: 59, end: 60
+✖ Declaration or statement expected - start: 60, end: 63
+✖ Declaration or statement expected - start: 68, end: 73
+
 ```
 

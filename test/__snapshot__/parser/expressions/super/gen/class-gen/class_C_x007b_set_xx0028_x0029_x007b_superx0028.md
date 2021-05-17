@@ -38,9 +38,9 @@ class C { *method() { class C { set x(_) { super( } }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -101,9 +101,9 @@ class C { *method() { class C { set x(_) { super( } }
                                                 "end": 29
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [
                                                     {
                                                         "kind": 278,

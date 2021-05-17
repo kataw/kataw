@@ -38,52 +38,70 @@ class C extends Base { static get x() {} }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "Base",
-                    "rawText": "Base",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 20
-                },
-                "typeParameter": null,
-                "flags": 16,
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Base",
+                "rawText": "Base",
+                "flags": 96,
                 "start": 15,
                 "end": 20
             },
-            "members": {
-                "kind": 277,
-                "elements": [
+            "flags": 16,
+            "start": 15,
+            "end": 20
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
                     {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": {
-                            "kind": 8388716,
-                            "flags": 64,
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 96,
                             "start": 22,
                             "end": 29
                         },
-                        "asyncKeyword": null,
-                        "setKeyword": {
-                            "kind": 16498,
-                            "flags": 64,
+                        "flags": 16,
+                        "start": 22,
+                        "end": 29
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "get",
+                            "rawText": "get",
+                            "flags": 96,
                             "start": 29,
                             "end": 33
                         },
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
+                        "flags": 16,
+                        "start": 29,
+                        "end": 33
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
@@ -91,45 +109,42 @@ class C extends Base { static get x() {} }
                                 "start": 33,
                                 "end": 35
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [],
                                 "trailingComma": false,
-                                "flags": 1024,
-                                "start": 36,
-                                "end": 37
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 39,
-                                    "end": 39
-                                },
                                 "flags": 32,
-                                "start": 37,
-                                "end": 40
+                                "start": 36,
+                                "end": 36
                             },
-                            "flags": 1024,
-                            "start": 35,
-                            "end": 40
+                            "flags": 268435488,
+                            "start": 33,
+                            "end": 37
                         },
-                        "flags": 1024,
-                        "start": 29,
+                        "flags": 16,
+                        "start": 33,
+                        "end": 37
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [],
+                            "flags": 16,
+                            "start": 39,
+                            "end": 39
+                        },
+                        "flags": 16,
+                        "start": 37,
                         "end": 40
                     }
                 ],
-                "flags": 32,
+                "flags": 16,
                 "start": 22,
-                "end": 42
+                "end": 40
             },
             "flags": 16,
-            "start": 0,
+            "start": 20,
             "end": 42
         }
     ],
@@ -146,14 +161,16 @@ class C extends Base { static get x() {} }
 
 ```javascript
 
-class C  {
-  static get static x() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 20, end: 22
+✖ Expected a `;` - start: 29, end: 33
+✖ Expected a `;` - start: 33, end: 35
+✖ Expected a `;` - start: 37, end: 39
+
 ```
 

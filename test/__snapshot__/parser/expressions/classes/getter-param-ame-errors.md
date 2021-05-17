@@ -56,9 +56,9 @@ class C { get name(private) {} }
                 "end": 8
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -163,9 +163,9 @@ class C { get name(private) {} }
                 "end": 44
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -270,9 +270,9 @@ class C { get name(private) {} }
                 "end": 77
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -391,9 +391,9 @@ class C { get name(private) {} }
                 "end": 125
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -512,9 +512,9 @@ class C { get name(private) {} }
                 "end": 176
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -633,9 +633,9 @@ class C { get name(private) {} }
                 "end": 222
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -765,9 +765,9 @@ class C { get name(private) {} }
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 278,
@@ -890,9 +890,9 @@ class C { get name(private) {} }
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 278,

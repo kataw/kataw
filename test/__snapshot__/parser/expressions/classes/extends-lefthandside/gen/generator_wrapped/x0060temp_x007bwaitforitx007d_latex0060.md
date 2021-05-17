@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -78,52 +78,59 @@ function *P(){
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 24,
-                                    "end": 32
-                                },
-                                "expression": {
-                                    "kind": 458761,
-                                    "text": "temp {waitforit} late",
-                                    "rawText": "temp {waitforit} late",
-                                    "flags": 134217824,
-                                    "start": 32,
-                                    "end": 56
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 32,
-                                "end": 56
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 58,
-                                "end": 59
+                                "start": 14,
+                                "end": 14
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 59
+                            "end": 24
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 59
+                    "end": 24
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 61
+                "end": 24
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 61
+            "end": 24
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 458761,
+                "text": "temp {waitforit} late",
+                "rawText": "temp {waitforit} late",
+                "flags": 134217824,
+                "start": 32,
+                "end": 56
+            },
+            "flags": 16,
+            "start": 32,
+            "end": 56
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 58,
+                "end": 58
+            },
+            "flags": 16,
+            "start": 56,
+            "end": 59
         }
     ],
     "isModule": false,
@@ -139,14 +146,14 @@ function *P(){
 
 ```javascript
 
-function * P() {
-  class D  {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
+✖ Expected a `;` - start: 56, end: 58
+✖ Declaration or statement expected - start: 59, end: 61
+
 ```
 

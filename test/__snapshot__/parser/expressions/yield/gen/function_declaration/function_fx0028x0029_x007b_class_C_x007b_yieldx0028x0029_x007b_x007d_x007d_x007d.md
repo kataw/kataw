@@ -104,9 +104,9 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                 "end": 43
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [
                                                     {
                                                         "kind": 278,

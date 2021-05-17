@@ -77,147 +77,154 @@ class C extends (function B() {
                 "end": 15
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 15,
-                    "end": 23
-                },
-                "expression": {
-                    "kind": 121,
-                    "expression": {
-                        "kind": 131,
-                        "expression": {
-                            "kind": 177,
-                            "asyncKeyword": null,
-                            "functionKeyword": {
-                                "kind": 37822554,
-                                "flags": 0,
-                                "start": 25,
-                                "end": 33
-                            },
-                            "generatorToken": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 96,
-                                "start": 33,
-                                "end": 35
-                            },
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 35,
-                                "end": 37
-                            },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 153,
-                                            "withKeyword": {
-                                                "kind": 37757029,
-                                                "flags": 1,
-                                                "start": 39,
-                                                "end": 46
-                                            },
-                                            "expression": {
-                                                "kind": 220,
-                                                "propertyList": {
-                                                    "kind": 218,
-                                                    "properties": [],
-                                                    "trailingComma": false,
-                                                    "flags": 16,
-                                                    "start": 49,
-                                                    "end": 49
-                                                },
-                                                "flags": 48,
-                                                "start": 48,
-                                                "end": 50
-                                            },
-                                            "statement": {
-                                                "kind": 168,
-                                                "flags": 16,
-                                                "start": 51,
-                                                "end": 52
-                                            },
-                                            "flags": 16,
-                                            "start": 39,
-                                            "end": 52
-                                        },
-                                        {
-                                            "kind": 161,
-                                            "returnKeyword": {
-                                                "kind": 37757022,
-                                                "flags": 1,
-                                                "start": 52,
-                                                "end": 61
-                                            },
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "B",
-                                                "rawText": "B",
-                                                "flags": 96,
-                                                "start": 61,
-                                                "end": 63
-                                            },
-                                            "flags": 16,
-                                            "start": 1,
-                                            "end": 52
-                                        }
-                                    ],
-                                    "flags": 33,
-                                    "start": 39,
-                                    "end": 64
-                                },
-                                "flags": 32,
-                                "start": 37,
-                                "end": 66
-                            },
-                            "typeParameters": null,
-                            "returnType": null,
-                            "flags": 32,
-                            "start": 25,
-                            "end": 66
-                        },
-                        "argumentList": {
-                            "kind": 256,
-                            "elements": [],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 67,
-                            "end": 67
-                        },
-                        "flags": 268435488,
-                        "start": 25,
-                        "end": 68
-                    },
-                    "flags": 32,
-                    "start": 23,
-                    "end": 69
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 23,
-                "end": 69
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 71,
-                "end": 72
+                "start": 6,
+                "end": 6
             },
             "flags": 16,
             "start": 6,
+            "end": 15
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 177,
+                        "asyncKeyword": null,
+                        "functionKeyword": {
+                            "kind": 37822554,
+                            "flags": 0,
+                            "start": 25,
+                            "end": 33
+                        },
+                        "generatorToken": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 96,
+                            "start": 33,
+                            "end": 35
+                        },
+                        "formalParameters": {
+                            "kind": 214,
+                            "formalParameterList": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 35,
+                            "end": 37
+                        },
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [
+                                    {
+                                        "kind": 153,
+                                        "withKeyword": {
+                                            "kind": 37757029,
+                                            "flags": 1,
+                                            "start": 39,
+                                            "end": 46
+                                        },
+                                        "expression": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 49,
+                                                "end": 49
+                                            },
+                                            "flags": 48,
+                                            "start": 48,
+                                            "end": 50
+                                        },
+                                        "statement": {
+                                            "kind": 168,
+                                            "flags": 16,
+                                            "start": 51,
+                                            "end": 52
+                                        },
+                                        "flags": 16,
+                                        "start": 39,
+                                        "end": 52
+                                    },
+                                    {
+                                        "kind": 161,
+                                        "returnKeyword": {
+                                            "kind": 37757022,
+                                            "flags": 1,
+                                            "start": 52,
+                                            "end": 61
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "B",
+                                            "rawText": "B",
+                                            "flags": 96,
+                                            "start": 61,
+                                            "end": 63
+                                        },
+                                        "flags": 16,
+                                        "start": 1,
+                                        "end": 52
+                                    }
+                                ],
+                                "flags": 33,
+                                "start": 39,
+                                "end": 64
+                            },
+                            "flags": 32,
+                            "start": 37,
+                            "end": 66
+                        },
+                        "typeParameters": null,
+                        "returnType": null,
+                        "flags": 32,
+                        "start": 25,
+                        "end": 66
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 67,
+                        "end": 67
+                    },
+                    "flags": 268435488,
+                    "start": 25,
+                    "end": 68
+                },
+                "flags": 32,
+                "start": 23,
+                "end": 69
+            },
+            "flags": 16,
+            "start": 23,
+            "end": 69
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 71,
+                "end": 71
+            },
+            "flags": 16,
+            "start": 69,
             "end": 72
         }
     ],
@@ -239,7 +246,8 @@ class C extends (function B() {
 ### Diagnostics
 
 ```javascript
-✖ 'with' statements are not allowed in strict mode. - start: 39, end: 46
+✖ Declaration or statement expected - start: 15, end: 23
+✖ Expected a `;` - start: 69, end: 71
 
 ```
 

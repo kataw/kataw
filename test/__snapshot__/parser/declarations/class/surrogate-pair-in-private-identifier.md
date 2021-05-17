@@ -42,9 +42,9 @@ class C { #@{x29e3d}@ }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -95,9 +95,9 @@ class C { #@{x29e3d}@ }
                 "end": 19
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 11,
@@ -126,9 +126,9 @@ class C { #@{x29e3d}@ }
                 "end": 23
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 20,

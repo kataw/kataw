@@ -38,9 +38,9 @@ class C { constructor() { class C { get x) { super; } } } }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -96,9 +96,9 @@ class C { constructor() { class C { get x) { super; } } } }
                                                 "end": 33
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [
                                                     {
                                                         "kind": 280,

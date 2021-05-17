@@ -43,29 +43,9 @@ x; {})
                         "end": 8
                     },
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 8,
-                            "end": 16
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "await",
-                            "rawText": "await",
-                            "flags": 96,
-                            "start": 16,
-                            "end": 22
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 22
-                    },
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
                         "start": 1,
@@ -73,14 +53,28 @@ x; {})
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 22
+                    "end": 8
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 22
+                "end": 8
             },
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "await",
+                "rawText": "await",
+                "flags": 96,
+                "start": 16,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 16,
             "end": 22
         },
         {
@@ -129,7 +123,7 @@ x; {})
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 22, end: 24
+✖ Expected a ')' to match the '(' token here - start: 8, end: 16
 ✖ Declaration or statement expected - start: 28, end: 29
 
 ```

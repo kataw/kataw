@@ -38,28 +38,9 @@ class x extends switch {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 15,
-                    "end": 15
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 15
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 0,
@@ -67,7 +48,7 @@ class x extends switch {}
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 7
         },
         {
             "kind": 160,
@@ -121,7 +102,7 @@ class x extends switch {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 22
+✖ Declaration or statement expected - start: 7, end: 15
 ✖ Expected a ')' to match the '(' token here - start: 25, end: 25
 
 ```

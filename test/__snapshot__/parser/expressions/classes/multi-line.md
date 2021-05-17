@@ -38,58 +38,65 @@ class C extends (
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
                 "expression": {
-                    "kind": 121,
-                    "expression": {
-                        "kind": 132,
-                        "expressions": [
-                            {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 17,
-                                "end": 21
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "c",
-                                "rawText": "c",
-                                "flags": 96,
-                                "start": 22,
-                                "end": 26
-                            }
-                        ],
-                        "flags": 32,
-                        "start": 15,
-                        "end": 28
-                    },
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 17,
+                            "end": 21
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "c",
+                            "rawText": "c",
+                            "flags": 96,
+                            "start": 22,
+                            "end": 26
+                        }
+                    ],
                     "flags": 32,
                     "start": 15,
                     "end": 28
                 },
-                "typeParameter": null,
-                "flags": 16,
+                "flags": 32,
                 "start": 15,
                 "end": 28
             },
-            "members": {
-                "kind": 277,
-                "elements": [],
-                "flags": 32,
+            "flags": 16,
+            "start": 15,
+            "end": 28
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 17,
                 "start": 30,
-                "end": 32
+                "end": 30
             },
             "flags": 16,
-            "start": 0,
+            "start": 28,
             "end": 32
         }
     ],
@@ -106,12 +113,13 @@ class C extends (
 
 ```javascript
 
-class C  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 28, end: 30
+
 ```
 

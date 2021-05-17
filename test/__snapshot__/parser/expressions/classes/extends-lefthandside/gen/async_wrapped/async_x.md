@@ -80,29 +80,9 @@ x {}
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 29,
-                                    "end": 37
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
-                                    "start": 37,
-                                    "end": 43
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 37,
-                                "end": 43
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
                                 "start": 19,
@@ -110,49 +90,63 @@ x {}
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 43
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 43,
-                                "end": 45
-                            },
-                            "flags": 16,
-                            "start": 43,
-                            "end": 45
-                        },
-                        {
-                            "kind": 249,
-                            "block": {
-                                "kind": 124,
-                                "statements": [],
-                                "flags": 16,
-                                "start": 47,
-                                "end": 47
-                            },
-                            "flags": 16,
-                            "start": 45,
-                            "end": 48
+                            "end": 29
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 48
+                    "end": 29
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 50
+                "end": 29
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 50
+            "end": 29
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "async",
+                "rawText": "async",
+                "flags": 96,
+                "start": 37,
+                "end": 43
+            },
+            "flags": 16,
+            "start": 37,
+            "end": 43
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 43,
+                "end": 45
+            },
+            "flags": 16,
+            "start": 43,
+            "end": 45
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 47,
+                "end": 47
+            },
+            "flags": 16,
+            "start": 45,
+            "end": 48
         }
     ],
     "isModule": false,
@@ -173,7 +167,9 @@ x {}
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
 ✖ Expected a `;` - start: 45, end: 47
+✖ Declaration or statement expected - start: 48, end: 50
 
 ```
 

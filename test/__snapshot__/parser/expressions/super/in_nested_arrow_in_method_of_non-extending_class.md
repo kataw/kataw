@@ -34,42 +34,42 @@ class x extends y { foo(){ return () => () => super.foo; }}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 17
-                },
-                "typeParameter": null,
-                "flags": 16,
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
-            "members": {
-                "kind": 277,
-                "elements": [
+            "flags": 16,
+            "start": 15,
+            "end": 17
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
                     {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
@@ -77,116 +77,113 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                 "start": 19,
                                 "end": 23
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 24,
-                                "end": 25
+                                "end": 24
                             },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 161,
-                                            "returnKeyword": {
-                                                "kind": 37757022,
+                            "flags": 268435488,
+                            "start": 19,
+                            "end": 25
+                        },
+                        "flags": 16,
+                        "start": 19,
+                        "end": 25
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [
+                                {
+                                    "kind": 161,
+                                    "returnKeyword": {
+                                        "kind": 37757022,
+                                        "flags": 0,
+                                        "start": 26,
+                                        "end": 33
+                                    },
+                                    "expression": {
+                                        "kind": 271,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 0,
+                                            "start": 36,
+                                            "end": 39
+                                        },
+                                        "typeParameters": null,
+                                        "parameters": [],
+                                        "asyncKeyword": null,
+                                        "returnType": null,
+                                        "contents": {
+                                            "kind": 271,
+                                            "arrowToken": {
+                                                "kind": 10,
                                                 "flags": 0,
-                                                "start": 26,
-                                                "end": 33
+                                                "start": 42,
+                                                "end": 45
                                             },
-                                            "expression": {
-                                                "kind": 271,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 0,
-                                                    "start": 36,
-                                                    "end": 39
-                                                },
-                                                "typeParameters": null,
-                                                "parameters": [],
-                                                "asyncKeyword": null,
-                                                "returnType": null,
-                                                "contents": {
-                                                    "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "asyncKeyword": null,
+                                            "returnType": null,
+                                            "contents": {
+                                                "kind": 129,
+                                                "member": {
+                                                    "kind": 225,
+                                                    "superKeyword": {
+                                                        "kind": 4259935,
                                                         "flags": 0,
-                                                        "start": 42,
-                                                        "end": 45
-                                                    },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
-                                                    "contents": {
-                                                        "kind": 129,
-                                                        "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 0,
-                                                                "start": 45,
-                                                                "end": 51
-                                                            },
-                                                            "flags": 96,
-                                                            "start": 45,
-                                                            "end": 51
-                                                        },
-                                                        "expression": {
-                                                            "kind": 134299649,
-                                                            "text": "foo",
-                                                            "rawText": "foo",
-                                                            "flags": 96,
-                                                            "start": 52,
-                                                            "end": 55
-                                                        },
-                                                        "flags": 536870944,
                                                         "start": 45,
-                                                        "end": 55
+                                                        "end": 51
                                                     },
-                                                    "flags": 32,
-                                                    "start": 39,
+                                                    "flags": 96,
+                                                    "start": 45,
+                                                    "end": 51
+                                                },
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "foo",
+                                                    "rawText": "foo",
+                                                    "flags": 96,
+                                                    "start": 52,
                                                     "end": 55
                                                 },
-                                                "flags": 32,
-                                                "start": 33,
+                                                "flags": 536870944,
+                                                "start": 45,
                                                 "end": 55
                                             },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 26
-                                        }
-                                    ],
-                                    "flags": 32,
-                                    "start": 26,
-                                    "end": 56
-                                },
-                                "flags": 32,
-                                "start": 25,
-                                "end": 58
-                            },
-                            "flags": 0,
-                            "start": 23,
-                            "end": 58
+                                            "flags": 32,
+                                            "start": 39,
+                                            "end": 55
+                                        },
+                                        "flags": 32,
+                                        "start": 33,
+                                        "end": 55
+                                    },
+                                    "flags": 16,
+                                    "start": 0,
+                                    "end": 26
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 26,
+                            "end": 56
                         },
-                        "flags": 0,
-                        "start": 19,
+                        "flags": 16,
+                        "start": 25,
                         "end": 58
                     }
                 ],
-                "flags": 32,
+                "flags": 16,
                 "start": 19,
-                "end": 59
+                "end": 58
             },
             "flags": 16,
-            "start": 0,
+            "start": 17,
             "end": 59
         }
     ],
@@ -203,16 +200,16 @@ class x extends y { foo(){ return () => () => super.foo; }}
 
 ```javascript
 
-class x  {
-  foo() {
-    return  () =>  () =>  .foo;
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 17, end: 19
+✖ Expected a `;` - start: 25, end: 26
+✖ A return statement can only be used within a function_body - start: 26, end: 33
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 51, end: 52
+
 ```
 

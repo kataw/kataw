@@ -12,7 +12,7 @@ class A extends new.target {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -38,46 +38,53 @@ class A extends new.target {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 211,
-                    "newKeyword": {
-                        "kind": 138477661,
-                        "flags": 0,
-                        "start": 15,
-                        "end": 19
-                    },
-                    "targetIdentifier": {
-                        "kind": 16594,
-                        "flags": 0,
-                        "start": 20,
-                        "end": 26
-                    },
-                    "flags": 96,
-                    "start": 15,
-                    "end": 26
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 26
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 28,
-                "end": 29
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 211,
+                "newKeyword": {
+                    "kind": 138477661,
+                    "flags": 0,
+                    "start": 15,
+                    "end": 19
+                },
+                "targetIdentifier": {
+                    "kind": 16594,
+                    "flags": 0,
+                    "start": 20,
+                    "end": 26
+                },
+                "flags": 96,
+                "start": 15,
+                "end": 26
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 26
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 28,
+                "end": 28
+            },
+            "flags": 16,
+            "start": 26,
             "end": 29
         }
     ],
@@ -99,7 +106,9 @@ class A extends new.target {}
 ### Diagnostics
 
 ```javascript
+✖ Declaration or statement expected - start: 7, end: 15
 ✖ 'new.target' only allowed within functions - start: 26, end: 28
+✖ Expected a `;` - start: 26, end: 28
 
 ```
 

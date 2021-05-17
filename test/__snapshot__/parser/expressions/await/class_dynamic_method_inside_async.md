@@ -10,7 +10,7 @@ async function f() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -74,9 +74,9 @@ async function f() {
                                 "end": 30
                             },
                             "typeParameters": null,
-                            "classHeritage": null,
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [
                                     {
                                         "kind": 278,

@@ -100,9 +100,9 @@ a});
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -167,9 +167,9 @@ a});
                         "end": 39
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -249,9 +249,9 @@ a});
                         "end": 67
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -352,9 +352,9 @@ a});
                         "end": 97
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -485,9 +485,9 @@ a});
                         "end": 131
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -623,9 +623,9 @@ a});
                         "end": 166
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -762,9 +762,9 @@ a});
                         "end": 204
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -837,9 +837,9 @@ a});
                         "end": 228
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -939,9 +939,9 @@ a});
                         "end": 255
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1065,9 +1065,9 @@ a});
                         "end": 285
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1196,9 +1196,9 @@ a});
                         "end": 316
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1328,9 +1328,9 @@ a});
                         "end": 350
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1416,9 +1416,9 @@ a});
                         "end": 382
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1525,9 +1525,9 @@ a});
                         "end": 416
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1664,9 +1664,9 @@ a});
                         "end": 454
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1808,9 +1808,9 @@ a});
                         "end": 493
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -1953,9 +1953,9 @@ a});
                         "end": 535
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -2034,9 +2034,9 @@ a});
                         "end": 563
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -2142,9 +2142,9 @@ a});
                         "end": 594
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -2274,9 +2274,9 @@ a});
                         "end": 628
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -2411,9 +2411,9 @@ a});
                         "end": 663
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -2542,84 +2542,106 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 700,
-                            "end": 708
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 708,
-                            "end": 710
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 708,
-                        "end": 710
-                    },
                     "members": {
                         "kind": 277,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 712,
-                                    "end": 719
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 719,
-                                    "end": 721
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 723,
-                                    "end": 725
-                                },
-                                "flags": 32,
-                                "start": 719,
-                                "end": 725
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 725,
-                                "end": 726
-                            }
-                        ],
+                        "classHeritage": null,
+                        "elements": [],
                         "flags": 32,
-                        "start": 712,
-                        "end": 727
+                        "start": 695,
+                        "end": 695
                     },
                     "flags": 32,
                     "start": 695,
-                    "end": 727
+                    "end": 700
                 },
                 "flags": 32,
                 "start": 692,
-                "end": 728
+                "end": 700
             },
             "flags": 16,
             "start": 692,
+            "end": 700
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 708,
+                "end": 710
+            },
+            "flags": 16,
+            "start": 708,
+            "end": 710
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 96,
+                            "start": 712,
+                            "end": 719
+                        },
+                        "flags": 16,
+                        "start": 712,
+                        "end": 719
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 719,
+                                "end": 721
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 721,
+                                "end": 723
+                            },
+                            "right": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 723,
+                                "end": 725
+                            },
+                            "flags": 32,
+                            "start": 719,
+                            "end": 725
+                        },
+                        "flags": 16,
+                        "start": 719,
+                        "end": 726
+                    }
+                ],
+                "flags": 16,
+                "start": 712,
+                "end": 726
+            },
+            "flags": 16,
+            "start": 710,
+            "end": 727
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 728,
             "end": 729
         },
         {
@@ -2637,77 +2659,86 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 736,
-                            "end": 744
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 744,
-                            "end": 746
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 744,
-                        "end": 746
-                    },
                     "members": {
                         "kind": 277,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 748,
-                                    "end": 755
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 755,
-                                    "end": 757
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 755,
-                                "end": 757
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 757,
-                                "end": 758
-                            }
-                        ],
+                        "classHeritage": null,
+                        "elements": [],
                         "flags": 32,
-                        "start": 748,
-                        "end": 759
+                        "start": 731,
+                        "end": 731
                     },
                     "flags": 32,
                     "start": 731,
-                    "end": 759
+                    "end": 736
                 },
                 "flags": 32,
                 "start": 729,
-                "end": 760
+                "end": 736
             },
             "flags": 16,
             "start": 729,
+            "end": 736
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 744,
+                "end": 746
+            },
+            "flags": 16,
+            "start": 744,
+            "end": 746
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 96,
+                            "start": 748,
+                            "end": 755
+                        },
+                        "flags": 16,
+                        "start": 748,
+                        "end": 755
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 96,
+                            "start": 755,
+                            "end": 757
+                        },
+                        "flags": 16,
+                        "start": 755,
+                        "end": 758
+                    }
+                ],
+                "flags": 16,
+                "start": 748,
+                "end": 758
+            },
+            "flags": 16,
+            "start": 746,
+            "end": 759
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 760,
             "end": 761
         },
         {
@@ -2725,84 +2756,106 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 768,
-                            "end": 776
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 776,
-                            "end": 778
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 776,
-                        "end": 778
-                    },
                     "members": {
                         "kind": 277,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 780,
-                                    "end": 787
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392131,
-                                    "text": "a",
-                                    "rawText": "'a'",
-                                    "flags": 4194400,
-                                    "start": 787,
-                                    "end": 791
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 201392130,
-                                    "text": 0,
-                                    "rawText": "0",
-                                    "flags": 96,
-                                    "start": 793,
-                                    "end": 795
-                                },
-                                "flags": 32,
-                                "start": 787,
-                                "end": 795
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 795,
-                                "end": 796
-                            }
-                        ],
+                        "classHeritage": null,
+                        "elements": [],
                         "flags": 32,
-                        "start": 780,
-                        "end": 797
+                        "start": 763,
+                        "end": 763
                     },
                     "flags": 32,
                     "start": 763,
-                    "end": 797
+                    "end": 768
                 },
                 "flags": 32,
                 "start": 761,
-                "end": 798
+                "end": 768
             },
             "flags": 16,
             "start": 761,
+            "end": 768
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 776,
+                "end": 778
+            },
+            "flags": 16,
+            "start": 776,
+            "end": 778
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 96,
+                            "start": 780,
+                            "end": 787
+                        },
+                        "flags": 16,
+                        "start": 780,
+                        "end": 787
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 201392131,
+                                "text": "a",
+                                "rawText": "'a'",
+                                "flags": 4194400,
+                                "start": 787,
+                                "end": 791
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 791,
+                                "end": 793
+                            },
+                            "right": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 793,
+                                "end": 795
+                            },
+                            "flags": 32,
+                            "start": 787,
+                            "end": 795
+                        },
+                        "flags": 16,
+                        "start": 787,
+                        "end": 796
+                    }
+                ],
+                "flags": 16,
+                "start": 780,
+                "end": 796
+            },
+            "flags": 16,
+            "start": 778,
+            "end": 797
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 798,
             "end": 799
         },
         {
@@ -2820,77 +2873,86 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 806,
-                            "end": 814
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 814,
-                            "end": 816
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 814,
-                        "end": 816
-                    },
                     "members": {
                         "kind": 277,
-                        "elements": [
-                            {
-                                "kind": 280,
-                                "decorators": null,
-                                "declaredToken": null,
-                                "staticToken": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 818,
-                                    "end": 825
-                                },
-                                "asyncKeyword": null,
-                                "key": {
-                                    "kind": 201392131,
-                                    "text": "a",
-                                    "rawText": "'a'",
-                                    "flags": 4194400,
-                                    "start": 825,
-                                    "end": 829
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 825,
-                                "end": 829
-                            },
-                            {
-                                "kind": 281,
-                                "flags": 96,
-                                "start": 829,
-                                "end": 830
-                            }
-                        ],
+                        "classHeritage": null,
+                        "elements": [],
                         "flags": 32,
-                        "start": 818,
-                        "end": 831
+                        "start": 801,
+                        "end": 801
                     },
                     "flags": 32,
                     "start": 801,
-                    "end": 831
+                    "end": 806
                 },
                 "flags": 32,
                 "start": 799,
-                "end": 832
+                "end": 806
             },
             "flags": 16,
             "start": 799,
+            "end": 806
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 814,
+                "end": 816
+            },
+            "flags": 16,
+            "start": 814,
+            "end": 816
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 96,
+                            "start": 818,
+                            "end": 825
+                        },
+                        "flags": 16,
+                        "start": 818,
+                        "end": 825
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 201392131,
+                            "text": "a",
+                            "rawText": "'a'",
+                            "flags": 4194400,
+                            "start": 825,
+                            "end": 829
+                        },
+                        "flags": 16,
+                        "start": 825,
+                        "end": 830
+                    }
+                ],
+                "flags": 16,
+                "start": 818,
+                "end": 830
+            },
+            "flags": 16,
+            "start": 816,
+            "end": 831
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 832,
             "end": 833
         },
         {
@@ -2915,9 +2977,9 @@ a});
                         "end": 843
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -2991,9 +3053,9 @@ a});
                         "end": 875
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3081,9 +3143,9 @@ a});
                         "end": 906
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3156,9 +3218,9 @@ a});
                         "end": 934
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3238,9 +3300,9 @@ a});
                         "end": 966
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3307,9 +3369,9 @@ a});
                         "end": 993
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3383,9 +3445,9 @@ a});
                         "end": 1025
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 278,
@@ -3487,9 +3549,9 @@ a});
                         "end": 1107
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3561,9 +3623,9 @@ a});
                         "end": 1137
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3636,9 +3698,9 @@ a});
                         "end": 1165
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3718,9 +3780,9 @@ a});
                         "end": 1198
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3808,9 +3870,9 @@ a});
                         "end": 1229
                     },
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3912,9 +3974,9 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -3981,9 +4043,9 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -4071,9 +4133,9 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -4191,9 +4253,9 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -4253,9 +4315,9 @@ a});
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 280,
@@ -4335,189 +4397,29 @@ a});
 
 ```javascript
 
-class x {
-  static #foo = bar;
-}
-(class C {
-    static a = 0;
-
-  });
-(class C {
-    static a = 0;
-
-    b;
-  });
-(class C {
-    static a = 0;
-
-    b() {}
-  });
-(class C {
-    static a = 0;
-
-    b() {}
-  });
-(class C {
-    static a = 0;
-
-    ["'b'"]() {}
-  });
-(class C {
-    static a;
-
-  });
-(class C {
-    static a;
-
-    b;
-
-  });
-(class C {
-    static a;
-
-    b() {}
-  });
-(class C {
-    static a;
-
-    b() {}
-  });
-(class C {
-    static a;
-
-    ["'b'"]() {}
-  });
-(class C {
-    static ["'a'"] = 0;
-
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    b;
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    b() {}
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    b() {}
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    ["'b'"]() {}
-  });
-(class C {
-    static ["'a'"];
-
-  });
-(class C {
-    static ["'a'"];
-
-    b;
-
-  });
-(class C {
-    static ["'a'"];
-
-    b() {}
-  });
-(class C {
-    static ["'a'"];
-
-    b() {}
-  });
-(class C {
-    static ["'a'"];
-
-    ["'b'"]() {}
-  });
-(class   {
-    static 0 = 0;
-
-  });
-(class   {
-    static 0;
-
-  });
-(class   {
-    static "'a'" = 0;
-
-  });
-(class   {
-    static "'a'";
-
-  });
-(class C {
-    static yield = 0;
-  });
-(class C {
-    static yield;
-    a;
-  });
-(class C {
-    static async;
-
-  });
-(class C {
-    static async = 0;
-
-  });
-(class C {
-    static async;
-  });
-(class C {
-    static async = 0;
-  });
-(class C {
-    async static static a() {}
-  }); // a field named async, and a method named a.
-
-(class C {
-    static async a;
-  });
-(class C {
-    static await;
-
-  });
-(class C {
-    static await = 0;
-
-  });
-(class C {
-    static await;
-    a;
-  });
-(class C {
-    static c = [c] = c;
-  });
-(class  {
-    static a = 0;
-  });
-(class  {
-    static a = 0;
-    b;
-  });
-(class  {
-    static a = 0;
-    b() {}
-  });
-(class  {
-    static a;
-  });
-(class  {
-    static a;
-    b;
-  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 700, end: 708
+✖ Expected a `;` - start: 710, end: 712
+✖ Expected a `;` - start: 719, end: 721
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 721, end: 723
+✖ Declaration or statement expected - start: 727, end: 728
+✖ Expected a ')' to match the '(' token here - start: 736, end: 744
+✖ Expected a `;` - start: 746, end: 748
+✖ Expected a `;` - start: 755, end: 757
+✖ Declaration or statement expected - start: 759, end: 760
+✖ Expected a ')' to match the '(' token here - start: 768, end: 776
+✖ Expected a `;` - start: 778, end: 780
+✖ Expected a `;` - start: 787, end: 791
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 791, end: 793
+✖ Declaration or statement expected - start: 797, end: 798
+✖ Expected a ')' to match the '(' token here - start: 806, end: 814
+✖ Expected a `;` - start: 816, end: 818
+✖ Expected a `;` - start: 825, end: 829
+✖ Declaration or statement expected - start: 831, end: 832
+
 ```
 

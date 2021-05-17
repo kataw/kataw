@@ -12,7 +12,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -41,55 +41,62 @@
                         "end": 8
                     },
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 8,
-                            "end": 16
-                        },
-                        "expression": {
-                            "kind": 211,
-                            "newKeyword": {
-                                "kind": 138477661,
-                                "flags": 0,
-                                "start": 16,
-                                "end": 20
-                            },
-                            "targetIdentifier": {
-                                "kind": 16594,
-                                "flags": 0,
-                                "start": 21,
-                                "end": 27
-                            },
-                            "flags": 96,
-                            "start": 16,
-                            "end": 27
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 27
-                    },
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
-                        "start": 29,
-                        "end": 30
+                        "start": 1,
+                        "end": 1
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 30
+                    "end": 8
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 31
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 31
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 211,
+                "newKeyword": {
+                    "kind": 138477661,
+                    "flags": 0,
+                    "start": 16,
+                    "end": 20
+                },
+                "targetIdentifier": {
+                    "kind": 16594,
+                    "flags": 0,
+                    "start": 21,
+                    "end": 27
+                },
+                "flags": 96,
+                "start": 16,
+                "end": 27
+            },
+            "flags": 16,
+            "start": 16,
+            "end": 27
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 29,
+                "end": 29
+            },
+            "flags": 16,
+            "start": 27,
+            "end": 30
         }
     ],
     "isModule": false,
@@ -110,7 +117,10 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 8, end: 16
 ✖ 'new.target' only allowed within functions - start: 27, end: 29
+✖ Expected a `;` - start: 27, end: 29
+✖ Declaration or statement expected - start: 30, end: 31
 
 ```
 

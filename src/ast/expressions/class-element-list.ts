@@ -2,19 +2,27 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ClassElement } from '../expressions/class-element';
 import { FieldDefinition } from './field-definition';
 import { SemicolonClassElement } from './semicolon-class-element';
+import { ExpressionNode } from '.';
 
 export type ClassElements = SemicolonClassElement | ClassElement | FieldDefinition;
 
 /**
- * ClassElementList
+ * ClassTail
  */
-export interface ClassElementList extends SyntaxNode {
+export interface ClassTail extends SyntaxNode {
+  readonly classHeritage: ExpressionNode | null;
   readonly elements: ClassElements[];
 }
 
-export function createClassElementList(elements: ClassElements[], start: number, end: number): ClassElementList {
+export function createClassTail(
+  classHeritage: ExpressionNode | null,
+  elements: ClassElements[],
+  start: number,
+  end: number
+): ClassTail {
   return {
-    kind: SyntaxKind.ClassElementList,
+    kind: SyntaxKind.ClassTail,
+    classHeritage,
     elements,
     flags: NodeFlags.ExpressionNode,
     start,

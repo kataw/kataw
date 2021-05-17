@@ -12,7 +12,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -41,57 +41,64 @@
                         "end": 8
                     },
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 8,
-                            "end": 16
-                        },
-                        "expression": {
-                            "kind": 126,
-                            "operandToken": {
-                                "kind": 4259886,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 23
-                            },
-                            "operand": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 23,
-                                "end": 25
-                            },
-                            "flags": 32,
-                            "start": 16,
-                            "end": 25
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 25
-                    },
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
-                        "start": 27,
-                        "end": 28
+                        "start": 1,
+                        "end": 1
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 28
+                    "end": 8
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 29
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 29
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 4259886,
+                    "flags": 64,
+                    "start": 16,
+                    "end": 23
+                },
+                "operand": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 23,
+                    "end": 25
+                },
+                "flags": 32,
+                "start": 16,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 16,
+            "end": 25
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 27,
+                "end": 27
+            },
+            "flags": 16,
+            "start": 25,
+            "end": 28
         }
     ],
     "isModule": false,
@@ -112,7 +119,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 23, end: 25
+✖ Expected a ')' to match the '(' token here - start: 8, end: 16
+✖ Expected a `;` - start: 25, end: 27
+✖ Declaration or statement expected - start: 28, end: 29
 
 ```
 

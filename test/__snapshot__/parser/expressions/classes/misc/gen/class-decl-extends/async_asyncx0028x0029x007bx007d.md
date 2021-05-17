@@ -38,47 +38,44 @@ class C extends Base { async async(){} }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "Base",
-                    "rawText": "Base",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 20
-                },
-                "typeParameter": null,
-                "flags": 16,
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Base",
+                "rawText": "Base",
+                "flags": 96,
                 "start": 15,
                 "end": 20
             },
-            "members": {
-                "kind": 277,
-                "elements": [
+            "flags": 16,
+            "start": 15,
+            "end": 20
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
                     {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 22,
-                            "end": 28
-                        },
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 271,
+                            "arrowToken": null,
+                            "typeParameters": null,
+                            "parameters": {
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
@@ -86,46 +83,49 @@ class C extends Base { async async(){} }
                                 "start": 28,
                                 "end": 34
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 256,
-                                "start": 35,
-                                "end": 36
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 64,
+                                "start": 22,
+                                "end": 28
                             },
-                            "type": null,
+                            "returnType": null,
                             "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 37,
-                                    "end": 37
-                                },
-                                "flags": 32,
-                                "start": 36,
-                                "end": 38
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 35,
+                                "end": 35
                             },
-                            "flags": 256,
-                            "start": 34,
-                            "end": 38
+                            "flags": 288,
+                            "start": 22,
+                            "end": 35
                         },
-                        "flags": 256,
+                        "flags": 16,
                         "start": 22,
-                        "end": 38
+                        "end": 35
                     }
                 ],
-                "flags": 32,
+                "flags": 16,
                 "start": 22,
-                "end": 40
+                "end": 35
             },
             "flags": 16,
-            "start": 0,
-            "end": 40
+            "start": 20,
+            "end": 35
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 37,
+                "end": 37
+            },
+            "flags": 16,
+            "start": 36,
+            "end": 38
         }
     ],
     "isModule": false,
@@ -141,14 +141,15 @@ class C extends Base { async async(){} }
 
 ```javascript
 
-class C  {
-  async async() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 20, end: 22
+✖ Expression expected - start: 35, end: 36
+✖ Declaration or statement expected - start: 38, end: 40
+
 ```
 

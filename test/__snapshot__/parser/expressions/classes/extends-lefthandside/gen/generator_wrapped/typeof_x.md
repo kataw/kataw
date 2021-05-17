@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -78,64 +78,71 @@ function *P(){
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 24,
-                                    "end": 32
-                                },
-                                "expression": {
-                                    "kind": 126,
-                                    "operandToken": {
-                                        "kind": 138477613,
-                                        "flags": 64,
-                                        "start": 32,
-                                        "end": 39
-                                    },
-                                    "operand": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 39,
-                                        "end": 41
-                                    },
-                                    "flags": 32,
-                                    "start": 32,
-                                    "end": 41
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 32,
-                                "end": 41
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 43,
-                                "end": 44
+                                "start": 14,
+                                "end": 14
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 44
+                            "end": 24
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 44
+                    "end": 24
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 46
+                "end": 24
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 46
+            "end": 24
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 138477613,
+                    "flags": 64,
+                    "start": 32,
+                    "end": 39
+                },
+                "operand": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 39,
+                    "end": 41
+                },
+                "flags": 32,
+                "start": 32,
+                "end": 41
+            },
+            "flags": 16,
+            "start": 32,
+            "end": 41
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 43,
+                "end": 43
+            },
+            "flags": 16,
+            "start": 41,
+            "end": 44
         }
     ],
     "isModule": false,
@@ -156,7 +163,9 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 39, end: 41
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
+✖ Expected a `;` - start: 41, end: 43
+✖ Declaration or statement expected - start: 44, end: 46
 
 ```
 

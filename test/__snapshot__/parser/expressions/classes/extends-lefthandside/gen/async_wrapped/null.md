@@ -14,7 +14,7 @@ async function p(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -78,51 +78,58 @@ async function p(){
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 29,
-                                    "end": 37
-                                },
-                                "expression": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
-                                    "start": 37,
-                                    "end": 42
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 37,
-                                "end": 42
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 44,
-                                "end": 45
+                                "start": 19,
+                                "end": 19
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 45
+                            "end": 29
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 45
+                    "end": 29
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 47
+                "end": 29
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 47
+            "end": 29
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 269,
+                "text": null,
+                "flags": 96,
+                "start": 37,
+                "end": 42
+            },
+            "flags": 16,
+            "start": 37,
+            "end": 42
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 44,
+                "end": 44
+            },
+            "flags": 16,
+            "start": 42,
+            "end": 45
         }
     ],
     "isModule": false,
@@ -138,14 +145,14 @@ async function p(){
 
 ```javascript
 
-async function p() {
-  class C  {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
+✖ Expected a `;` - start: 42, end: 44
+✖ Declaration or statement expected - start: 45, end: 47
+
 ```
 

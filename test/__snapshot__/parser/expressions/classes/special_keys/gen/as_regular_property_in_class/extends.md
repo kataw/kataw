@@ -38,32 +38,29 @@ class x {extends: x}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "extends",
-                            "rawText": "extends",
-                            "flags": 96,
-                            "start": 9,
-                            "end": 16
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
                         "start": 9,
                         "end": 16
-                    }
-                ],
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 16,
+                        "end": 16
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 16,
+                    "end": 16
+                },
+                "elements": [],
                 "flags": 32,
                 "start": 9,
                 "end": 16
@@ -105,7 +102,7 @@ class x {extends: x}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 17
+✖ Expression expected - start: 16, end: 17
 ✖ Declaration or statement expected - start: 19, end: 20
 
 ```

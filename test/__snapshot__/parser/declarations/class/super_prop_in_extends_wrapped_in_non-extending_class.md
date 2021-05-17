@@ -53,9 +53,9 @@ class a { foo(){      class x extends super.foo {}    }}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -111,81 +111,112 @@ class a { foo(){      class x extends super.foo {}    }}
                                                 "end": 29
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": {
-                                                "kind": 279,
-                                                "extendsKeyword": {
-                                                    "kind": 4194391,
-                                                    "flags": 0,
-                                                    "start": 29,
-                                                    "end": 37
-                                                },
-                                                "expression": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 0,
-                                                            "start": 37,
-                                                            "end": 43
-                                                        },
-                                                        "flags": 96,
-                                                        "start": 37,
-                                                        "end": 43
-                                                    },
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 44,
-                                                        "end": 47
-                                                    },
-                                                    "flags": 536870944,
-                                                    "start": 37,
-                                                    "end": 47
-                                                },
-                                                "typeParameter": null,
-                                                "flags": 16,
-                                                "start": 37,
-                                                "end": 47
-                                            },
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 49,
-                                                "end": 50
+                                                "start": 16,
+                                                "end": 16
                                             },
                                             "flags": 16,
                                             "start": 16,
-                                            "end": 50
+                                            "end": 29
                                         }
                                     ],
                                     "flags": 32,
                                     "start": 16,
-                                    "end": 50
+                                    "end": 29
                                 },
                                 "flags": 32,
                                 "start": 15,
-                                "end": 55
+                                "end": 29
                             },
                             "flags": 0,
                             "start": 13,
-                            "end": 55
+                            "end": 29
                         },
                         "flags": 0,
                         "start": 9,
-                        "end": 55
+                        "end": 29
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "extends",
+                            "rawText": "extends",
+                            "flags": 96,
+                            "start": 29,
+                            "end": 37
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 32,
+                        "start": 29,
+                        "end": 37
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "super",
+                            "rawText": "super",
+                            "flags": 96,
+                            "start": 37,
+                            "end": 43
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 32,
+                        "start": 37,
+                        "end": 43
                     }
                 ],
                 "flags": 32,
                 "start": 9,
-                "end": 56
+                "end": 43
             },
             "flags": 16,
             "start": 0,
-            "end": 56
+            "end": 43
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 44,
+                "end": 47
+            },
+            "flags": 16,
+            "start": 44,
+            "end": 47
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 49,
+                "end": 49
+            },
+            "flags": 16,
+            "start": 47,
+            "end": 50
         }
     ],
     "isModule": false,
@@ -201,16 +232,16 @@ class a { foo(){      class x extends super.foo {}    }}
 
 ```javascript
 
-class a {
-  foo() {
-    class x  {}
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
+✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 44
+✖ Expected a `;` - start: 47, end: 49
+✖ Declaration or statement expected - start: 50, end: 55
+✖ Declaration or statement expected - start: 55, end: 56
+
 ```
 

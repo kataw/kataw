@@ -80,66 +80,73 @@ x {}
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 24,
-                                    "end": 32
-                                },
-                                "expression": {
-                                    "kind": 229,
-                                    "yieldKeyword": {
-                                        "kind": 8454253,
-                                        "flags": 0,
-                                        "start": 32,
-                                        "end": 38
-                                    },
-                                    "delegate": false,
-                                    "asteriskToken": null,
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 38,
-                                        "end": 40
-                                    },
-                                    "flags": 32,
-                                    "start": 32,
-                                    "end": 40
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 32,
-                                "end": 40
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 42,
-                                "end": 43
+                                "start": 14,
+                                "end": 14
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 43
+                            "end": 24
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 43
+                    "end": 24
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 45
+                "end": 24
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 45
+            "end": 24
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "yield",
+                "rawText": "yield",
+                "flags": 96,
+                "start": 32,
+                "end": 38
+            },
+            "flags": 16,
+            "start": 32,
+            "end": 38
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 38,
+                "end": 40
+            },
+            "flags": 16,
+            "start": 38,
+            "end": 40
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 42,
+                "end": 42
+            },
+            "flags": 16,
+            "start": 40,
+            "end": 43
         }
     ],
     "isModule": false,
@@ -160,7 +167,9 @@ x {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 38, end: 40
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
+✖ Expected a `;` - start: 40, end: 42
+✖ Declaration or statement expected - start: 43, end: 45
 
 ```
 

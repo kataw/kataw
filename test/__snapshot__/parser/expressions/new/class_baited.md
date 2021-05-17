@@ -36,35 +36,9 @@ new class extends{}
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 9,
-                            "end": 17
-                        },
-                        "expression": {
-                            "kind": 220,
-                            "propertyList": {
-                                "kind": 218,
-                                "properties": [],
-                                "trailingComma": false,
-                                "flags": 16,
-                                "start": 18,
-                                "end": 18
-                            },
-                            "flags": 48,
-                            "start": 17,
-                            "end": 19
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 17,
-                        "end": 19
-                    },
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
                         "start": 3,
@@ -72,15 +46,28 @@ new class extends{}
                     },
                     "flags": 32,
                     "start": 3,
-                    "end": 19
+                    "end": 9
                 },
                 "argumentList": null,
                 "flags": 32,
                 "start": 0,
-                "end": 19
+                "end": 9
             },
             "flags": 16,
             "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 18,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 17,
             "end": 19
         }
     ],
@@ -97,12 +84,12 @@ new class extends{}
 
 ```javascript
 
-new  class   {}();
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 9, end: 17
+
 ```
 

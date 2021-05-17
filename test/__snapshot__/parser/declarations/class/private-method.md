@@ -60,9 +60,9 @@ class Foo {
                 "end": 9
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,

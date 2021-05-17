@@ -38,44 +38,9 @@ class x extends class {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 189,
-                    "decorators": null,
-                    "classKeyword": {
-                        "kind": 37822544,
-                        "flags": 0,
-                        "start": 15,
-                        "end": 21
-                    },
-                    "name": null,
-                    "typeParameters": null,
-                    "classHeritage": null,
-                    "members": {
-                        "kind": 277,
-                        "elements": [],
-                        "flags": 32,
-                        "start": 23,
-                        "end": 24
-                    },
-                    "flags": 32,
-                    "start": 15,
-                    "end": 24
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 24
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 0,
@@ -83,6 +48,30 @@ class x extends class {}
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37822544,
+                "flags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "name": null,
+            "typeParameters": null,
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 23,
+                "end": 24
+            },
+            "flags": 16,
+            "start": 15,
             "end": 24
         }
     ],
@@ -99,12 +88,13 @@ class x extends class {}
 
 ```javascript
 
-class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ A class declaration without the 'default' modifier must have a name. - start: 21, end: 23
+
 ```
 

@@ -16,7 +16,7 @@ function *f(){  class x{*[yield](a){}}  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -80,9 +80,9 @@ function *f(){  class x{*[yield](a){}}  }
                                 "end": 23
                             },
                             "typeParameters": null,
-                            "classHeritage": null,
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [
                                     {
                                         "kind": 278,

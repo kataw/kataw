@@ -83,9 +83,9 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 19,
@@ -133,9 +133,9 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "end": 36
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 38,
@@ -176,9 +176,9 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [
                                                     {
                                                         "kind": 278,

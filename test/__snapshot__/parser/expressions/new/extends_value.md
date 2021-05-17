@@ -34,56 +34,63 @@ class x extends new A() {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 210,
-                    "newKeyword": {
-                        "kind": 138477661,
-                        "flags": 0,
-                        "start": 15,
-                        "end": 19
-                    },
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "A",
-                        "rawText": "A",
-                        "flags": 96,
-                        "start": 19,
-                        "end": 21
-                    },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 22,
-                        "end": 22
-                    },
-                    "flags": 32,
-                    "start": 15,
-                    "end": 23
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 23
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 25,
-                "end": 26
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 210,
+                "newKeyword": {
+                    "kind": 138477661,
+                    "flags": 0,
+                    "start": 15,
+                    "end": 19
+                },
+                "expression": {
+                    "kind": 134299649,
+                    "text": "A",
+                    "rawText": "A",
+                    "flags": 96,
+                    "start": 19,
+                    "end": 21
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 22,
+                    "end": 22
+                },
+                "flags": 32,
+                "start": 15,
+                "end": 23
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 23
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 25,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 23,
             "end": 26
         }
     ],
@@ -100,12 +107,13 @@ class x extends new A() {}
 
 ```javascript
 
-class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 23, end: 25
+
 ```
 

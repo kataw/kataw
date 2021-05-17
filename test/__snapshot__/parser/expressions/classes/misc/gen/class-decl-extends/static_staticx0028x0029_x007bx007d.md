@@ -38,47 +38,56 @@ class C extends Base { static static() {} }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "Base",
-                    "rawText": "Base",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 20
-                },
-                "typeParameter": null,
-                "flags": 16,
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Base",
+                "rawText": "Base",
+                "flags": 96,
                 "start": 15,
                 "end": 20
             },
-            "members": {
-                "kind": 277,
-                "elements": [
+            "flags": 16,
+            "start": 15,
+            "end": 20
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
                     {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": {
-                            "kind": 8388716,
-                            "flags": 64,
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 96,
                             "start": 22,
                             "end": 29
                         },
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
+                        "flags": 16,
+                        "start": 22,
+                        "end": 29
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
@@ -86,45 +95,42 @@ class C extends Base { static static() {} }
                                 "start": 29,
                                 "end": 36
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [],
                                 "trailingComma": false,
-                                "flags": 0,
-                                "start": 37,
-                                "end": 38
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 40,
-                                    "end": 40
-                                },
                                 "flags": 32,
-                                "start": 38,
-                                "end": 41
+                                "start": 37,
+                                "end": 37
                             },
-                            "flags": 0,
-                            "start": 36,
-                            "end": 41
+                            "flags": 268435488,
+                            "start": 29,
+                            "end": 38
                         },
-                        "flags": 0,
+                        "flags": 16,
                         "start": 29,
+                        "end": 38
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [],
+                            "flags": 16,
+                            "start": 40,
+                            "end": 40
+                        },
+                        "flags": 16,
+                        "start": 38,
                         "end": 41
                     }
                 ],
-                "flags": 32,
+                "flags": 16,
                 "start": 22,
-                "end": 43
+                "end": 41
             },
             "flags": 16,
-            "start": 0,
+            "start": 20,
             "end": 43
         }
     ],
@@ -141,14 +147,15 @@ class C extends Base { static static() {} }
 
 ```javascript
 
-class C  {
-  static static static() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 20, end: 22
+✖ Expected a `;` - start: 29, end: 36
+✖ Expected a `;` - start: 38, end: 40
+
 ```
 

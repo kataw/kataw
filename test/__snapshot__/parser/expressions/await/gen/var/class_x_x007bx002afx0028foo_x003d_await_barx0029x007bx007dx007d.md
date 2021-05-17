@@ -132,9 +132,9 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                     "end": 46
                                                 },
                                                 "typeParameters": null,
-                                                "classHeritage": null,
                                                 "members": {
                                                     "kind": 277,
+                                                    "classHeritage": null,
                                                     "elements": [
                                                         {
                                                             "kind": 278,

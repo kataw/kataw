@@ -7566,49 +7566,9 @@ async function * gen() {class C extends await { }}
                                 "end": 3319
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 3319,
-                                    "end": 3327
-                                },
-                                "expression": {
-                                    "kind": 229,
-                                    "yieldKeyword": {
-                                        "kind": 8454253,
-                                        "flags": 0,
-                                        "start": 3327,
-                                        "end": 3333
-                                    },
-                                    "delegate": false,
-                                    "asteriskToken": null,
-                                    "expression": {
-                                        "kind": 220,
-                                        "propertyList": {
-                                            "kind": 218,
-                                            "properties": [],
-                                            "trailingComma": false,
-                                            "flags": 16,
-                                            "start": 3335,
-                                            "end": 3335
-                                        },
-                                        "flags": 48,
-                                        "start": 3333,
-                                        "end": 3337
-                                    },
-                                    "flags": 32,
-                                    "start": 3327,
-                                    "end": 3337
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 3327,
-                                "end": 3337
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
                                 "start": 3312,
@@ -7616,22 +7576,49 @@ async function * gen() {class C extends await { }}
                             },
                             "flags": 16,
                             "start": 3312,
-                            "end": 3337
+                            "end": 3319
                         }
                     ],
                     "flags": 32,
                     "start": 3312,
-                    "end": 3337
+                    "end": 3319
                 },
                 "flags": 32,
                 "start": 3310,
-                "end": 3338
+                "end": 3319
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 3287,
-            "end": 3338
+            "end": 3319
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "yield",
+                "rawText": "yield",
+                "flags": 96,
+                "start": 3327,
+                "end": 3333
+            },
+            "flags": 16,
+            "start": 3327,
+            "end": 3333
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 3335,
+                "end": 3335
+            },
+            "flags": 16,
+            "start": 3333,
+            "end": 3337
         },
         {
             "kind": 176,
@@ -7695,47 +7682,9 @@ async function * gen() {class C extends await { }}
                                 "end": 3370
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 3370,
-                                    "end": 3378
-                                },
-                                "expression": {
-                                    "kind": 208,
-                                    "awaitKeyword": {
-                                        "kind": 82032,
-                                        "flags": 0,
-                                        "start": 3378,
-                                        "end": 3384
-                                    },
-                                    "expression": {
-                                        "kind": 220,
-                                        "propertyList": {
-                                            "kind": 218,
-                                            "properties": [],
-                                            "trailingComma": false,
-                                            "flags": 16,
-                                            "start": 3386,
-                                            "end": 3386
-                                        },
-                                        "flags": 48,
-                                        "start": 3384,
-                                        "end": 3388
-                                    },
-                                    "flags": 32,
-                                    "start": 3378,
-                                    "end": 3388
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 3378,
-                                "end": 3388
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
                                 "start": 3363,
@@ -7743,22 +7692,49 @@ async function * gen() {class C extends await { }}
                             },
                             "flags": 16,
                             "start": 3363,
-                            "end": 3388
+                            "end": 3370
                         }
                     ],
                     "flags": 32,
                     "start": 3363,
-                    "end": 3388
+                    "end": 3370
                 },
                 "flags": 32,
                 "start": 3361,
-                "end": 3389
+                "end": 3370
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 3338,
-            "end": 3389
+            "end": 3370
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "await",
+                "rawText": "await",
+                "flags": 96,
+                "start": 3378,
+                "end": 3384
+            },
+            "flags": 16,
+            "start": 3378,
+            "end": 3384
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 3386,
+                "end": 3386
+            },
+            "flags": 16,
+            "start": 3384,
+            "end": 3388
         }
     ],
     "isModule": false,
@@ -7874,7 +7850,12 @@ async function * gen() {class C extends await { }}
 ✖ Expected a `;` - start: 3281, end: 3283
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287
+✖ The parser expected to find a '}' to match the '{' token here - start: 3319, end: 3327
 ✖ Expected a `;` - start: 3333, end: 3335
+✖ Declaration or statement expected - start: 3337, end: 3338
+✖ The parser expected to find a '}' to match the '{' token here - start: 3370, end: 3378
+✖ Expected a `;` - start: 3384, end: 3386
+✖ Declaration or statement expected - start: 3388, end: 3389
 
 ```
 

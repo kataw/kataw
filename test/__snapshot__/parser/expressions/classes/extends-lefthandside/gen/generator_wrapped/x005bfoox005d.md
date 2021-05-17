@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -78,67 +78,74 @@ function *P(){
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 24,
-                                    "end": 32
-                                },
-                                "expression": {
-                                    "kind": 119,
-                                    "elementList": {
-                                        "kind": 270,
-                                        "elements": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 96,
-                                                "start": 34,
-                                                "end": 37
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 34,
-                                        "end": 37
-                                    },
-                                    "flags": 32,
-                                    "start": 32,
-                                    "end": 38
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 32,
-                                "end": 38
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 40,
-                                "end": 41
+                                "start": 14,
+                                "end": 14
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 41
+                            "end": 24
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 41
+                    "end": 24
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 43
+                "end": 24
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 43
+            "end": 24
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 119,
+                "elementList": {
+                    "kind": 270,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 34,
+                            "end": 37
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 34,
+                    "end": 37
+                },
+                "flags": 32,
+                "start": 32,
+                "end": 38
+            },
+            "flags": 16,
+            "start": 32,
+            "end": 38
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 40,
+                "end": 40
+            },
+            "flags": 16,
+            "start": 38,
+            "end": 41
         }
     ],
     "isModule": false,
@@ -154,14 +161,14 @@ function *P(){
 
 ```javascript
 
-function * P() {
-  class D  {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
+✖ Expected a `;` - start: 38, end: 40
+✖ Declaration or statement expected - start: 41, end: 43
+
 ```
 

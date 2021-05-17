@@ -91,9 +91,9 @@ async function f() { class C { aaa = await } }
                                 "end": 28
                             },
                             "typeParameters": null,
-                            "classHeritage": null,
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [
                                     {
                                         "kind": 280,

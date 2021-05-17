@@ -55,9 +55,9 @@ left@{xa0}@right
                 "end": 9
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 4,
@@ -101,9 +101,9 @@ left@{xa0}@right
                 "end": 16
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 10,

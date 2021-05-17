@@ -42,9 +42,9 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 278,
@@ -104,9 +104,9 @@
                                                         "end": 26
                                                     },
                                                     "typeParameters": null,
-                                                    "classHeritage": null,
                                                     "members": {
                                                         "kind": 277,
+                                                        "classHeritage": null,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,
@@ -216,9 +216,9 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 278,
@@ -278,9 +278,9 @@
                                                         "end": 71
                                                     },
                                                     "typeParameters": null,
-                                                    "classHeritage": null,
                                                     "members": {
                                                         "kind": 277,
+                                                        "classHeritage": null,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,
@@ -395,9 +395,9 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 278,
@@ -531,9 +531,9 @@
                                                         "end": 136
                                                     },
                                                     "typeParameters": null,
-                                                    "classHeritage": null,
                                                     "members": {
                                                         "kind": 277,
+                                                        "classHeritage": null,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,
@@ -722,9 +722,9 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [
                             {
                                 "kind": 278,
@@ -779,9 +779,9 @@
                                                         "end": 197
                                                     },
                                                     "typeParameters": null,
-                                                    "classHeritage": null,
                                                     "members": {
                                                         "kind": 277,
+                                                        "classHeritage": null,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,

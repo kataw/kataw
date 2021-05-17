@@ -38,47 +38,9 @@ class x extends void {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 126,
-                    "operandToken": {
-                        "kind": 138477615,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 20
-                    },
-                    "operand": {
-                        "kind": 220,
-                        "propertyList": {
-                            "kind": 218,
-                            "properties": [],
-                            "trailingComma": false,
-                            "flags": 16,
-                            "start": 22,
-                            "end": 22
-                        },
-                        "flags": 48,
-                        "start": 20,
-                        "end": 23
-                    },
-                    "flags": 32,
-                    "start": 15,
-                    "end": 23
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 23
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 0,
@@ -86,6 +48,38 @@ class x extends void {}
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 138477615,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 20
+                },
+                "operand": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 22,
+                        "end": 22
+                    },
+                    "flags": 48,
+                    "start": 20,
+                    "end": 23
+                },
+                "flags": 32,
+                "start": 15,
+                "end": 23
+            },
+            "flags": 16,
+            "start": 15,
             "end": 23
         }
     ],
@@ -107,7 +101,7 @@ class x extends void {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 22
+✖ Declaration or statement expected - start: 7, end: 15
 
 ```
 

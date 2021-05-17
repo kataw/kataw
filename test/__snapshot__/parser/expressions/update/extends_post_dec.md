@@ -34,48 +34,55 @@ class x extends a-- {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 127,
-                    "operandToken": {
-                        "kind": 196636,
-                        "flags": 64,
-                        "start": 17,
-                        "end": 19
-                    },
-                    "operand": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 15,
-                        "end": 17
-                    },
-                    "flags": 32,
-                    "start": 15,
-                    "end": 19
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 19
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 21,
-                "end": 22
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196636,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 19
+                },
+                "operand": {
+                    "kind": 134299649,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 96,
+                    "start": 15,
+                    "end": 17
+                },
+                "flags": 32,
+                "start": 15,
+                "end": 19
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 19
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 21,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 19,
             "end": 22
         }
     ],
@@ -92,12 +99,13 @@ class x extends a-- {}
 
 ```javascript
 
-class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 19, end: 21
+
 ```
 

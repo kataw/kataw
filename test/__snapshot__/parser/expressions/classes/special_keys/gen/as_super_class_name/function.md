@@ -38,60 +38,9 @@ class x extends function {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 177,
-                    "asyncKeyword": null,
-                    "functionKeyword": {
-                        "kind": 37822554,
-                        "flags": 0,
-                        "start": 15,
-                        "end": 24
-                    },
-                    "generatorToken": null,
-                    "name": null,
-                    "formalParameters": {
-                        "kind": 214,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 24,
-                        "end": 24
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "flags": 32,
-                            "start": 26,
-                            "end": 26
-                        },
-                        "flags": 32,
-                        "start": 24,
-                        "end": 27
-                    },
-                    "typeParameters": null,
-                    "returnType": null,
-                    "flags": 32,
-                    "start": 15,
-                    "end": 27
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 27
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 0,
@@ -99,6 +48,52 @@ class x extends function {}
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37822554,
+                "flags": 0,
+                "start": 15,
+                "end": 24
+            },
+            "generatorToken": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 24,
+                "end": 24
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 24,
+                "end": 24
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 26,
+                    "end": 26
+                },
+                "flags": 32,
+                "start": 24,
+                "end": 27
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 16,
+            "start": 15,
             "end": 27
         }
     ],
@@ -115,12 +110,13 @@ class x extends function {}
 
 ```javascript
 
-class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Binding identifier expected - start: 24, end: 26
+
 ```
 

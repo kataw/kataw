@@ -38,42 +38,42 @@ class x extends y {
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 17
-                },
-                "typeParameter": null,
-                "flags": 16,
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
-            "members": {
-                "kind": 277,
-                "elements": [
+            "flags": 16,
+            "start": 15,
+            "end": 17
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
                     {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
@@ -81,106 +81,103 @@ class x extends y {
                                 "start": 19,
                                 "end": 33
                             },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 34,
-                                "end": 35
+                                "end": 34
                             },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 205,
-                                                "chainToken": {
-                                                    "kind": 393240,
-                                                    "flags": 0,
-                                                    "start": 47,
-                                                    "end": 49
-                                                },
-                                                "member": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 1,
-                                                        "start": 37,
-                                                        "end": 47
-                                                    },
-                                                    "flags": 96,
-                                                    "start": 37,
-                                                    "end": 47
-                                                },
-                                                "chain": {
-                                                    "kind": 206,
-                                                    "chain": {
-                                                        "kind": 204,
-                                                        "chain": null,
-                                                        "argumentList": {
-                                                            "kind": 256,
-                                                            "elements": [
-                                                                {
-                                                                    "kind": 134299649,
-                                                                    "text": "foo",
-                                                                    "rawText": "foo",
-                                                                    "flags": 96,
-                                                                    "start": 50,
-                                                                    "end": 53
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 32,
+                            "flags": 268435488,
+                            "start": 19,
+                            "end": 35
+                        },
+                        "flags": 16,
+                        "start": 19,
+                        "end": 35
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [
+                                {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 205,
+                                        "chainToken": {
+                                            "kind": 393240,
+                                            "flags": 0,
+                                            "start": 47,
+                                            "end": 49
+                                        },
+                                        "member": {
+                                            "kind": 225,
+                                            "superKeyword": {
+                                                "kind": 4259935,
+                                                "flags": 1,
+                                                "start": 37,
+                                                "end": 47
+                                            },
+                                            "flags": 96,
+                                            "start": 37,
+                                            "end": 47
+                                        },
+                                        "chain": {
+                                            "kind": 206,
+                                            "chain": {
+                                                "kind": 204,
+                                                "chain": null,
+                                                "argumentList": {
+                                                    "kind": 256,
+                                                    "elements": [
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
                                                             "start": 50,
                                                             "end": 53
-                                                        },
-                                                        "flags": 268435488,
-                                                        "start": 49,
-                                                        "end": 54
-                                                    },
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 49,
-                                                    "end": 54
+                                                    "start": 50,
+                                                    "end": 53
                                                 },
-                                                "flags": 32,
-                                                "start": 37,
+                                                "flags": 268435488,
+                                                "start": 49,
                                                 "end": 54
                                             },
-                                            "flags": 16,
-                                            "start": 37,
+                                            "flags": 32,
+                                            "start": 49,
                                             "end": 54
-                                        }
-                                    ],
-                                    "flags": 33,
+                                        },
+                                        "flags": 32,
+                                        "start": 37,
+                                        "end": 54
+                                    },
+                                    "flags": 16,
                                     "start": 37,
                                     "end": 54
-                                },
-                                "flags": 32,
-                                "start": 35,
-                                "end": 58
-                            },
-                            "flags": 0,
-                            "start": 33,
-                            "end": 58
+                                }
+                            ],
+                            "flags": 17,
+                            "start": 37,
+                            "end": 54
                         },
-                        "flags": 0,
-                        "start": 19,
+                        "flags": 16,
+                        "start": 35,
                         "end": 58
                     }
                 ],
-                "flags": 32,
+                "flags": 17,
                 "start": 19,
-                "end": 60
+                "end": 58
             },
             "flags": 16,
-            "start": 0,
+            "start": 17,
             "end": 60
         }
     ],
@@ -202,6 +199,9 @@ class x extends y {
 ### Diagnostics
 
 ```javascript
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 17, end: 19
+✖ Expected a `;` - start: 35, end: 37
 ✖ 'super' must be followed by an argument list or member access. - start: 47, end: 49
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 47, end: 49
 

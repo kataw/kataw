@@ -63,9 +63,9 @@ class C { f(){ this.#a } #a; }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -166,9 +166,9 @@ class C { f(){ this.#a } #a; }
                 "end": 37
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -269,9 +269,9 @@ class C { f(){ this.#a } #a; }
                 "end": 67
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -371,9 +371,9 @@ class C { f(){ this.#a } #a; }
                 "end": 95
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -473,9 +473,9 @@ class C { f(){ this.#a } #a; }
                 "end": 123
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -608,9 +608,9 @@ class C { f(){ this.#a } #a; }
                 "end": 155
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,

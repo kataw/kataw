@@ -38,48 +38,9 @@ class x extends new {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 210,
-                    "newKeyword": {
-                        "kind": 138477661,
-                        "flags": 0,
-                        "start": 15,
-                        "end": 19
-                    },
-                    "expression": {
-                        "kind": 220,
-                        "propertyList": {
-                            "kind": 218,
-                            "properties": [],
-                            "trailingComma": false,
-                            "flags": 16,
-                            "start": 21,
-                            "end": 21
-                        },
-                        "flags": 48,
-                        "start": 19,
-                        "end": 22
-                    },
-                    "argumentList": null,
-                    "flags": 32,
-                    "start": 15,
-                    "end": 22
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 22
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 0,
@@ -87,6 +48,39 @@ class x extends new {}
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 210,
+                "newKeyword": {
+                    "kind": 138477661,
+                    "flags": 0,
+                    "start": 15,
+                    "end": 19
+                },
+                "expression": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 21,
+                        "end": 21
+                    },
+                    "flags": 48,
+                    "start": 19,
+                    "end": 22
+                },
+                "argumentList": null,
+                "flags": 32,
+                "start": 15,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 15,
             "end": 22
         }
     ],
@@ -103,12 +97,12 @@ class x extends new {}
 
 ```javascript
 
-class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+
 ```
 

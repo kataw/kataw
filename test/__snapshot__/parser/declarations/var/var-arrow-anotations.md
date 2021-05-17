@@ -2114,9 +2114,9 @@ class Array { concat(items:number | string) {}; }
                 "end": 745
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,

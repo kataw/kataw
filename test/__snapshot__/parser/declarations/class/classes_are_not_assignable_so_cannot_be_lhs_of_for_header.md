@@ -55,9 +55,9 @@ for (class x { [a](){} } in c);
                     "end": 12
                 },
                 "typeParameters": null,
-                "classHeritage": null,
                 "members": {
                     "kind": 277,
+                    "classHeritage": null,
                     "elements": [
                         {
                             "kind": 278,

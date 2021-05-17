@@ -78,29 +78,9 @@ async function p(){
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 29,
-                                    "end": 37
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "oh",
-                                    "rawText": "oh",
-                                    "flags": 96,
-                                    "start": 37,
-                                    "end": 40
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 37,
-                                "end": 40
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
                                 "start": 19,
@@ -108,35 +88,51 @@ async function p(){
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 40
+                            "end": 29
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 40
+                    "end": 29
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 40
+                "end": 29
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 40
+            "end": 29
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "no",
-                "rawText": "no",
-                "flags": 96,
-                "start": 41,
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 134299649,
+                        "text": "oh",
+                        "rawText": "oh",
+                        "flags": 96,
+                        "start": 37,
+                        "end": 40
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "no",
+                        "rawText": "no",
+                        "flags": 96,
+                        "start": 41,
+                        "end": 43
+                    }
+                ],
+                "flags": 32,
+                "start": 37,
                 "end": 43
             },
             "flags": 16,
-            "start": 41,
+            "start": 37,
             "end": 43
         },
         {
@@ -171,7 +167,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 41
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
 ✖ Expected a `;` - start: 43, end: 45
 ✖ Declaration or statement expected - start: 46, end: 48
 

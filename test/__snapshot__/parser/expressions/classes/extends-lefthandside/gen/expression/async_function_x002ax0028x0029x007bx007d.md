@@ -41,86 +41,94 @@
                         "end": 8
                     },
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 8,
-                            "end": 16
-                        },
-                        "expression": {
-                            "kind": 177,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 22
-                            },
-                            "functionKeyword": {
-                                "kind": 37822554,
-                                "flags": 0,
-                                "start": 22,
-                                "end": 31
-                            },
-                            "generatorToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 31,
-                                "end": 33
-                            },
-                            "name": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 33,
-                                "end": 35
-                            },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 36,
-                                    "end": 36
-                                },
-                                "flags": 32,
-                                "start": 35,
-                                "end": 37
-                            },
-                            "typeParameters": null,
-                            "returnType": null,
-                            "flags": 416,
-                            "start": 16,
-                            "end": 37
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 37
-                    },
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
-                        "start": 39,
-                        "end": 40
+                        "start": 1,
+                        "end": 1
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 40
+                    "end": 8
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 41
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 41
+            "end": 8
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
+            "asyncKeyword": {
+                "kind": 82031,
+                "flags": 64,
+                "start": 16,
+                "end": 22
+            },
+            "functionKeyword": {
+                "kind": 37822554,
+                "flags": 0,
+                "start": 22,
+                "end": 31
+            },
+            "generatorToken": {
+                "kind": 67143222,
+                "flags": 64,
+                "start": 31,
+                "end": 33
+            },
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 33,
+                "end": 33
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 33,
+                "end": 35
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 36,
+                    "end": 36
+                },
+                "flags": 32,
+                "start": 35,
+                "end": 37
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 400,
+            "start": 16,
+            "end": 37
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 39,
+                "end": 39
+            },
+            "flags": 16,
+            "start": 37,
+            "end": 40
         }
     ],
     "isModule": false,
@@ -136,12 +144,14 @@
 
 ```javascript
 
-(class B  {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 8, end: 16
+✖ Binding identifier expected - start: 33, end: 34
+✖ Declaration or statement expected - start: 40, end: 41
+
 ```
 

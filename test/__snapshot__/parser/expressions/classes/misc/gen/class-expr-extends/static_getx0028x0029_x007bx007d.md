@@ -34,101 +34,113 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 6,
-                            "end": 14
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "Base",
-                            "rawText": "Base",
-                            "flags": 96,
-                            "start": 14,
-                            "end": 19
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 14,
-                        "end": 19
-                    },
                     "members": {
                         "kind": 277,
-                        "elements": [
-                            {
-                                "kind": 278,
-                                "declareToken": null,
-                                "decorators": null,
-                                "generatorToken": null,
-                                "staticKeyword": {
-                                    "kind": 8388716,
-                                    "flags": 64,
-                                    "start": 21,
-                                    "end": 27
-                                },
-                                "asyncKeyword": null,
-                                "setKeyword": null,
-                                "getKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "get",
-                                        "rawText": "get",
-                                        "flags": 96,
-                                        "start": 27,
-                                        "end": 31
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 32,
-                                        "end": 33
-                                    },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 35,
-                                            "end": 35
-                                        },
-                                        "flags": 32,
-                                        "start": 33,
-                                        "end": 36
-                                    },
-                                    "flags": 0,
-                                    "start": 31,
-                                    "end": 36
-                                },
-                                "flags": 0,
-                                "start": 27,
-                                "end": 36
-                            }
-                        ],
+                        "classHeritage": null,
+                        "elements": [],
                         "flags": 32,
-                        "start": 21,
-                        "end": 37
+                        "start": 1,
+                        "end": 1
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 37
+                    "end": 6
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 38
+                "end": 6
             },
             "flags": 16,
             "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Base",
+                "rawText": "Base",
+                "flags": 96,
+                "start": 14,
+                "end": 19
+            },
+            "flags": 16,
+            "start": 14,
+            "end": 19
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 96,
+                            "start": 21,
+                            "end": 27
+                        },
+                        "flags": 16,
+                        "start": 21,
+                        "end": 27
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 27,
+                                "end": 31
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 32,
+                                "end": 32
+                            },
+                            "flags": 268435488,
+                            "start": 27,
+                            "end": 33
+                        },
+                        "flags": 16,
+                        "start": 27,
+                        "end": 33
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [],
+                            "flags": 16,
+                            "start": 35,
+                            "end": 35
+                        },
+                        "flags": 16,
+                        "start": 33,
+                        "end": 36
+                    }
+                ],
+                "flags": 16,
+                "start": 21,
+                "end": 36
+            },
+            "flags": 16,
+            "start": 19,
+            "end": 37
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 38,
             "end": 39
         }
     ],
@@ -145,14 +157,16 @@
 
 ```javascript
 
-(class   {
-    static static get() {}
-  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 6, end: 14
+✖ Expected a `;` - start: 19, end: 21
+✖ Expected a `;` - start: 27, end: 31
+✖ Expected a `;` - start: 33, end: 35
+✖ Declaration or statement expected - start: 37, end: 38
+
 ```
 

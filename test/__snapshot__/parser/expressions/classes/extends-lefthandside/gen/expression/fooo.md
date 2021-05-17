@@ -41,45 +41,52 @@
                         "end": 8
                     },
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 8,
-                            "end": 16
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "fooo",
-                            "rawText": "fooo",
-                            "flags": 96,
-                            "start": 16,
-                            "end": 21
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 21
-                    },
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
-                        "start": 23,
-                        "end": 24
+                        "start": 1,
+                        "end": 1
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 24
+                    "end": 8
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 25
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 25
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "fooo",
+                "rawText": "fooo",
+                "flags": 96,
+                "start": 16,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 16,
+            "end": 21
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 23,
+                "end": 23
+            },
+            "flags": 16,
+            "start": 21,
+            "end": 24
         }
     ],
     "isModule": false,
@@ -95,12 +102,14 @@
 
 ```javascript
 
-(class B  {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 8, end: 16
+✖ Expected a `;` - start: 21, end: 23
+✖ Declaration or statement expected - start: 24, end: 25
+
 ```
 

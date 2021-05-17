@@ -49,9 +49,9 @@ class C { [super.bbb] = 0 };
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -133,9 +133,9 @@ class C { [super.bbb] = 0 };
                 "end": 37
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -233,9 +233,9 @@ class C { [super.bbb] = 0 };
                 "end": 73
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -349,9 +349,9 @@ class C { [super.bbb] = 0 };
                 "end": 115
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,

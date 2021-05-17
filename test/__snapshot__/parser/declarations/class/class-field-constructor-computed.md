@@ -40,9 +40,9 @@ class Foo { static ['constructor'] = 1 }
                 "end": 9
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -99,9 +99,9 @@ class Foo { static ['constructor'] = 1 }
                 "end": 40
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -165,9 +165,9 @@ class Foo { static ['constructor'] = 1 }
                 "end": 75
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -229,9 +229,9 @@ class Foo { static ['constructor'] = 1 }
                 "end": 113
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,

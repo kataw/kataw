@@ -38,64 +38,71 @@ class A extends async async => ok {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 0,
-                        "start": 27,
-                        "end": 30
-                    },
-                    "typeParameters": null,
-                    "parameters": {
-                        "kind": 134299649,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 96,
-                        "start": 21,
-                        "end": 27
-                    },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 21
-                    },
-                    "returnType": null,
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "ok",
-                        "rawText": "ok",
-                        "flags": 96,
-                        "start": 30,
-                        "end": 33
-                    },
-                    "flags": 288,
-                    "start": 15,
-                    "end": 33
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 33
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 35,
-                "end": 36
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 0,
+                    "start": 27,
+                    "end": 30
+                },
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 21,
+                    "end": 27
+                },
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 21
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "ok",
+                    "rawText": "ok",
+                    "flags": 96,
+                    "start": 30,
+                    "end": 33
+                },
+                "flags": 288,
+                "start": 15,
+                "end": 33
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 33
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 35,
+                "end": 35
+            },
+            "flags": 16,
+            "start": 33,
             "end": 36
         }
     ],
@@ -117,7 +124,8 @@ class A extends async async => ok {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 21, end: 27
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 33, end: 35
 
 ```
 

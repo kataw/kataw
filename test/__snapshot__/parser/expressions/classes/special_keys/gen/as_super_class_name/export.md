@@ -38,28 +38,9 @@ class x extends export {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 15,
-                    "end": 15
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 15
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 0,
@@ -67,7 +48,7 @@ class x extends export {}
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 7
         },
         {
             "kind": 257,
@@ -116,7 +97,7 @@ class x extends export {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 22
+✖ Declaration or statement expected - start: 7, end: 15
 ✖ The `export` keyword can only be used with the module goal - start: 15, end: 22
 
 ```

@@ -38,9 +38,9 @@ class Foo { prototype = 1 }
                 "end": 9
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -91,9 +91,9 @@ class Foo { prototype = 1 }
                 "end": 34
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -144,9 +144,9 @@ class Foo { prototype = 1 }
                 "end": 61
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,

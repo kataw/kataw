@@ -54,9 +54,9 @@ export default class x {}
                     "end": 22
                 },
                 "typeParameters": null,
-                "classHeritage": null,
                 "members": {
                     "kind": 277,
+                    "classHeritage": null,
                     "elements": [],
                     "flags": 32,
                     "start": 24,

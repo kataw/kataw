@@ -57,83 +57,90 @@
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": {
-                        "kind": 279,
-                        "extendsKeyword": {
-                            "kind": 4194391,
-                            "flags": 0,
-                            "start": 23,
-                            "end": 31
-                        },
-                        "expression": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 197,
-                                "shortCircuit": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 33,
-                                    "end": 34
-                                },
-                                "questionToken": {
-                                    "kind": 134217750,
-                                    "flags": 64,
-                                    "start": 34,
-                                    "end": 36
-                                },
-                                "consequent": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
-                                    "start": 36,
-                                    "end": 41
-                                },
-                                "colonToken": {
-                                    "kind": 21,
-                                    "flags": 0,
-                                    "start": 41,
-                                    "end": 43
-                                },
-                                "alternate": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
-                                    "start": 43,
-                                    "end": 49
-                                },
-                                "flags": 32,
-                                "start": 31,
-                                "end": 49
-                            },
-                            "flags": 32,
-                            "start": 31,
-                            "end": 50
-                        },
-                        "typeParameter": null,
-                        "flags": 16,
-                        "start": 31,
-                        "end": 50
-                    },
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
-                        "start": 52,
-                        "end": 54
+                        "start": 17,
+                        "end": 17
                     },
                     "flags": 32,
                     "start": 17,
-                    "end": 54
+                    "end": 23
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 54
+                "end": 23
             },
             "flags": 16,
             "start": 13,
+            "end": 23
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 197,
+                    "shortCircuit": {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 33,
+                        "end": 34
+                    },
+                    "questionToken": {
+                        "kind": 134217750,
+                        "flags": 64,
+                        "start": 34,
+                        "end": 36
+                    },
+                    "consequent": {
+                        "kind": 269,
+                        "text": null,
+                        "flags": 96,
+                        "start": 36,
+                        "end": 41
+                    },
+                    "colonToken": {
+                        "kind": 21,
+                        "flags": 0,
+                        "start": 41,
+                        "end": 43
+                    },
+                    "alternate": {
+                        "kind": 134299649,
+                        "text": "yield",
+                        "rawText": "yield",
+                        "flags": 96,
+                        "start": 43,
+                        "end": 49
+                    },
+                    "flags": 32,
+                    "start": 31,
+                    "end": 49
+                },
+                "flags": 32,
+                "start": 31,
+                "end": 50
+            },
+            "flags": 16,
+            "start": 31,
+            "end": 50
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 52,
+                "end": 52
+            },
+            "flags": 16,
+            "start": 50,
             "end": 54
         }
     ],
@@ -155,7 +162,9 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 23, end: 31
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
+✖ Expected a `;` - start: 50, end: 52
 
 ```
 

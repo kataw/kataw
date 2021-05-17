@@ -91,113 +91,119 @@
                                             },
                                             "name": null,
                                             "typeParameters": null,
-                                            "classHeritage": {
-                                                "kind": 279,
-                                                "extendsKeyword": {
-                                                    "kind": 4194391,
-                                                    "flags": 0,
-                                                    "start": 40,
-                                                    "end": 48
-                                                },
-                                                "expression": {
-                                                    "kind": 121,
-                                                    "expression": {
-                                                        "kind": 197,
-                                                        "shortCircuit": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 50,
-                                                            "end": 51
-                                                        },
-                                                        "questionToken": {
-                                                            "kind": 134217750,
-                                                            "flags": 64,
-                                                            "start": 51,
-                                                            "end": 53
-                                                        },
-                                                        "consequent": {
-                                                            "kind": 269,
-                                                            "text": null,
-                                                            "flags": 96,
-                                                            "start": 53,
-                                                            "end": 58
-                                                        },
-                                                        "colonToken": {
-                                                            "kind": 21,
-                                                            "flags": 0,
-                                                            "start": 58,
-                                                            "end": 60
-                                                        },
-                                                        "alternate": {
-                                                            "kind": 229,
-                                                            "yieldKeyword": {
-                                                                "kind": 8454253,
-                                                                "flags": 0,
-                                                                "start": 60,
-                                                                "end": 66
-                                                            },
-                                                            "delegate": false,
-                                                            "asteriskToken": null,
-                                                            "expression": null,
-                                                            "flags": 32,
-                                                            "start": 60,
-                                                            "end": 66
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 48,
-                                                        "end": 66
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 48,
-                                                    "end": 67
-                                                },
-                                                "typeParameter": null,
-                                                "flags": 16,
-                                                "start": 48,
-                                                "end": 67
-                                            },
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 69,
-                                                "end": 71
+                                                "start": 34,
+                                                "end": 34
                                             },
                                             "flags": 32,
                                             "start": 34,
-                                            "end": 71
+                                            "end": 40
                                         },
                                         "flags": 32,
                                         "start": 30,
-                                        "end": 71
+                                        "end": 40
                                     },
                                     "flags": 16,
                                     "start": 30,
-                                    "end": 71
+                                    "end": 40
                                 }
                             ],
                             "flags": 32,
                             "start": 30,
-                            "end": 71
+                            "end": 40
                         },
                         "flags": 32,
                         "start": 28,
-                        "end": 73
+                        "end": 40
                     },
                     "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 15,
-                    "end": 73
+                    "end": 40
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 74
+                "end": 40
             },
             "flags": 16,
             "start": 13,
+            "end": 40
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 197,
+                    "shortCircuit": {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 50,
+                        "end": 51
+                    },
+                    "questionToken": {
+                        "kind": 134217750,
+                        "flags": 64,
+                        "start": 51,
+                        "end": 53
+                    },
+                    "consequent": {
+                        "kind": 269,
+                        "text": null,
+                        "flags": 96,
+                        "start": 53,
+                        "end": 58
+                    },
+                    "colonToken": {
+                        "kind": 21,
+                        "flags": 0,
+                        "start": 58,
+                        "end": 60
+                    },
+                    "alternate": {
+                        "kind": 134299649,
+                        "text": "yield",
+                        "rawText": "yield",
+                        "flags": 96,
+                        "start": 60,
+                        "end": 66
+                    },
+                    "flags": 32,
+                    "start": 48,
+                    "end": 66
+                },
+                "flags": 32,
+                "start": 48,
+                "end": 67
+            },
+            "flags": 16,
+            "start": 48,
+            "end": 67
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 69,
+                "end": 69
+            },
+            "flags": 16,
+            "start": 67,
+            "end": 71
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 74,
             "end": 75
         }
     ],
@@ -214,14 +220,16 @@
 
 ```javascript
 
-(function * () {
-    x = class   {};
-  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 40, end: 48
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 60, end: 66
+✖ Expected a `;` - start: 67, end: 69
+✖ Declaration or statement expected - start: 71, end: 73
+✖ Declaration or statement expected - start: 73, end: 74
+
 ```
 

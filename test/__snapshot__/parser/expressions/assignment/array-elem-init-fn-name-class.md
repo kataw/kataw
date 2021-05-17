@@ -74,9 +74,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "end": 25
                                         },
                                         "typeParameters": null,
-                                        "classHeritage": null,
                                         "members": {
                                             "kind": 277,
+                                            "classHeritage": null,
                                             "elements": [],
                                             "flags": 32,
                                             "start": 27,
@@ -117,9 +117,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         },
                                         "name": null,
                                         "typeParameters": null,
-                                        "classHeritage": null,
                                         "members": {
                                             "kind": 277,
+                                            "classHeritage": null,
                                             "elements": [],
                                             "flags": 32,
                                             "start": 43,
@@ -160,9 +160,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         },
                                         "name": null,
                                         "typeParameters": null,
-                                        "classHeritage": null,
                                         "members": {
                                             "kind": 277,
+                                            "classHeritage": null,
                                             "elements": [
                                                 {
                                                     "kind": 278,

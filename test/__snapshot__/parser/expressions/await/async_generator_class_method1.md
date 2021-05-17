@@ -72,9 +72,9 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "classHeritage": null,
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [
                                     {
                                         "kind": 278,

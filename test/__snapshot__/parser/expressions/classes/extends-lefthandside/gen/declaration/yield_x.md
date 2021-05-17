@@ -40,29 +40,9 @@ x {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 21
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 21
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 0,
@@ -70,6 +50,20 @@ x {}
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "yield",
+                "rawText": "yield",
+                "flags": 96,
+                "start": 15,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 15,
             "end": 21
         },
         {
@@ -118,7 +112,7 @@ x {}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 21
+✖ Declaration or statement expected - start: 7, end: 15
 ✖ Expected a `;` - start: 23, end: 25
 
 ```

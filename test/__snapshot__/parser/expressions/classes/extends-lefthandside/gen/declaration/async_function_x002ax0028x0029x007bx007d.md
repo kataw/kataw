@@ -38,77 +38,85 @@ class A extends async function *(){} {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 177,
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 21
-                    },
-                    "functionKeyword": {
-                        "kind": 37822554,
-                        "flags": 0,
-                        "start": 21,
-                        "end": 30
-                    },
-                    "generatorToken": {
-                        "kind": 67143222,
-                        "flags": 64,
-                        "start": 30,
-                        "end": 32
-                    },
-                    "name": null,
-                    "formalParameters": {
-                        "kind": 214,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 32,
-                        "end": 34
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "flags": 32,
-                            "start": 35,
-                            "end": 35
-                        },
-                        "flags": 32,
-                        "start": 34,
-                        "end": 36
-                    },
-                    "typeParameters": null,
-                    "returnType": null,
-                    "flags": 416,
-                    "start": 15,
-                    "end": 36
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 36
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 38,
-                "end": 39
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
+            "asyncKeyword": {
+                "kind": 82031,
+                "flags": 64,
+                "start": 15,
+                "end": 21
+            },
+            "functionKeyword": {
+                "kind": 37822554,
+                "flags": 0,
+                "start": 21,
+                "end": 30
+            },
+            "generatorToken": {
+                "kind": 67143222,
+                "flags": 64,
+                "start": 30,
+                "end": 32
+            },
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 32,
+                "end": 32
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 32,
+                "end": 34
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 35,
+                    "end": 35
+                },
+                "flags": 32,
+                "start": 34,
+                "end": 36
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 400,
+            "start": 15,
+            "end": 36
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 38,
+                "end": 38
+            },
+            "flags": 16,
+            "start": 36,
             "end": 39
         }
     ],
@@ -125,12 +133,13 @@ class A extends async function *(){} {}
 
 ```javascript
 
-class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Binding identifier expected - start: 32, end: 33
+
 ```
 

@@ -53,36 +53,43 @@ class x extends y{}(09)
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 17
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 17
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 18,
-                "end": 19
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 15,
+                "end": 17
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 17
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 18,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 17,
             "end": 19
         },
         {
@@ -119,13 +126,13 @@ class x extends y{}(09)
 
 ```javascript
 
-class x  {}
-(09);
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 17, end: 18
+
 ```
 

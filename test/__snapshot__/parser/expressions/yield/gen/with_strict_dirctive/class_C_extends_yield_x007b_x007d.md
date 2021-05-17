@@ -47,36 +47,43 @@
                 "end": 21
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 21,
-                    "end": 29
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 96,
-                    "start": 29,
-                    "end": 35
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 29,
-                "end": 35
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 37,
-                "end": 39
+                "start": 13,
+                "end": 13
             },
             "flags": 16,
             "start": 13,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "yield",
+                "rawText": "yield",
+                "flags": 96,
+                "start": 29,
+                "end": 35
+            },
+            "flags": 16,
+            "start": 29,
+            "end": 35
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 37,
+                "end": 37
+            },
+            "flags": 16,
+            "start": 35,
             "end": 39
         }
     ],
@@ -98,7 +105,9 @@
 ### Diagnostics
 
 ```javascript
+✖ Declaration or statement expected - start: 21, end: 29
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 29, end: 35
+✖ Expected a `;` - start: 35, end: 37
 
 ```
 

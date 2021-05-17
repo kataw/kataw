@@ -108,9 +108,9 @@ do do do =! class function try while with foo! while while while
                                     },
                                     "name": null,
                                     "typeParameters": null,
-                                    "classHeritage": null,
                                     "members": {
                                         "kind": 277,
+                                        "classHeritage": null,
                                         "elements": [],
                                         "flags": 32,
                                         "start": 11,

@@ -53,54 +53,61 @@ let x = { foo(){ super(); } };
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 129,
-                    "member": {
-                        "kind": 225,
-                        "superKeyword": {
-                            "kind": 4259935,
-                            "flags": 0,
-                            "start": 15,
-                            "end": 21
-                        },
-                        "flags": 96,
-                        "start": 15,
-                        "end": 21
-                    },
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 22,
-                        "end": 25
-                    },
-                    "flags": 536870944,
-                    "start": 15,
-                    "end": 25
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 25
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 27,
-                "end": 29
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 129,
+                "member": {
+                    "kind": 225,
+                    "superKeyword": {
+                        "kind": 4259935,
+                        "flags": 0,
+                        "start": 15,
+                        "end": 21
+                    },
+                    "flags": 96,
+                    "start": 15,
+                    "end": 21
+                },
+                "expression": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 22,
+                    "end": 25
+                },
+                "flags": 536870944,
+                "start": 15,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 25
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 27,
+                "end": 27
+            },
+            "flags": 16,
+            "start": 25,
             "end": 29
         },
         {
@@ -128,47 +135,9 @@ let x = { foo(){ super(); } };
                 "end": 38
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 38,
-                    "end": 46
-                },
-                "expression": {
-                    "kind": 129,
-                    "member": {
-                        "kind": 225,
-                        "superKeyword": {
-                            "kind": 4259935,
-                            "flags": 0,
-                            "start": 46,
-                            "end": 52
-                        },
-                        "flags": 96,
-                        "start": 46,
-                        "end": 52
-                    },
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 53,
-                        "end": 56
-                    },
-                    "flags": 536870944,
-                    "start": 46,
-                    "end": 56
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 46,
-                "end": 56
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 30,
@@ -176,6 +145,38 @@ let x = { foo(){ super(); } };
             },
             "flags": 16,
             "start": 30,
+            "end": 38
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 129,
+                "member": {
+                    "kind": 225,
+                    "superKeyword": {
+                        "kind": 4259935,
+                        "flags": 0,
+                        "start": 46,
+                        "end": 52
+                    },
+                    "flags": 96,
+                    "start": 46,
+                    "end": 52
+                },
+                "expression": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 53,
+                    "end": 56
+                },
+                "flags": 536870944,
+                "start": 46,
+                "end": 56
+            },
+            "flags": 16,
+            "start": 46,
             "end": 56
         },
         {
@@ -230,77 +231,84 @@ let x = { foo(){ super(); } };
                 "end": 71
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 71,
-                    "end": 79
-                },
-                "expression": {
-                    "kind": 131,
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "feh",
-                        "rawText": "feh",
-                        "flags": 96,
-                        "start": 79,
-                        "end": 83
-                    },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [
-                            {
-                                "kind": 129,
-                                "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
-                                        "flags": 0,
-                                        "start": 84,
-                                        "end": 89
-                                    },
-                                    "flags": 96,
-                                    "start": 84,
-                                    "end": 89
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 90,
-                                    "end": 93
-                                },
-                                "flags": 536870944,
-                                "start": 84,
-                                "end": 93
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 84,
-                        "end": 93
-                    },
-                    "flags": 268435488,
-                    "start": 79,
-                    "end": 94
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 79,
-                "end": 94
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 96,
-                "end": 98
+                "start": 63,
+                "end": 63
             },
             "flags": 16,
             "start": 63,
+            "end": 71
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "feh",
+                    "rawText": "feh",
+                    "flags": 96,
+                    "start": 79,
+                    "end": 83
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 129,
+                            "member": {
+                                "kind": 225,
+                                "superKeyword": {
+                                    "kind": 4259935,
+                                    "flags": 0,
+                                    "start": 84,
+                                    "end": 89
+                                },
+                                "flags": 96,
+                                "start": 84,
+                                "end": 89
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 90,
+                                "end": 93
+                            },
+                            "flags": 536870944,
+                            "start": 84,
+                            "end": 93
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 84,
+                    "end": 93
+                },
+                "flags": 268435488,
+                "start": 79,
+                "end": 94
+            },
+            "flags": 16,
+            "start": 79,
+            "end": 94
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 96,
+                "end": 96
+            },
+            "flags": 16,
+            "start": 94,
             "end": 98
         },
         {
@@ -328,85 +336,92 @@ let x = { foo(){ super(); } };
                 "end": 107
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 107,
-                    "end": 115
-                },
-                "expression": {
-                    "kind": 131,
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "feh",
-                        "rawText": "feh",
-                        "flags": 96,
-                        "start": 115,
-                        "end": 119
-                    },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [
-                            {
-                                "kind": 129,
-                                "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
-                                        "flags": 0,
-                                        "start": 120,
-                                        "end": 125
-                                    },
-                                    "flags": 96,
-                                    "start": 120,
-                                    "end": 125
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 126,
-                                    "end": 129
-                                },
-                                "flags": 536870944,
-                                "start": 120,
-                                "end": 129
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 129,
-                                "end": 131
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 120,
-                        "end": 131
-                    },
-                    "flags": 268435488,
-                    "start": 115,
-                    "end": 132
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 115,
-                "end": 132
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 134,
-                "end": 136
+                "start": 99,
+                "end": 99
             },
             "flags": 16,
             "start": 99,
+            "end": 107
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "feh",
+                    "rawText": "feh",
+                    "flags": 96,
+                    "start": 115,
+                    "end": 119
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 129,
+                            "member": {
+                                "kind": 225,
+                                "superKeyword": {
+                                    "kind": 4259935,
+                                    "flags": 0,
+                                    "start": 120,
+                                    "end": 125
+                                },
+                                "flags": 96,
+                                "start": 120,
+                                "end": 125
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 126,
+                                "end": 129
+                            },
+                            "flags": 536870944,
+                            "start": 120,
+                            "end": 129
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 129,
+                            "end": 131
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 120,
+                    "end": 131
+                },
+                "flags": 268435488,
+                "start": 115,
+                "end": 132
+            },
+            "flags": 16,
+            "start": 115,
+            "end": 132
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 134,
+                "end": 134
+            },
+            "flags": 16,
+            "start": 132,
             "end": 136
         },
         {
@@ -434,9 +449,9 @@ let x = { foo(){ super(); } };
                 "end": 145
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -571,9 +586,9 @@ let x = { foo(){ super(); } };
                 "end": 175
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -671,9 +686,9 @@ let x = { foo(){ super(); } };
                 "end": 202
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -784,9 +799,9 @@ let x = { foo(){ super(); } };
                 "end": 231
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 280,
@@ -912,9 +927,9 @@ let x = { foo(){ super(); } };
                 "end": 262
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -969,9 +984,9 @@ let x = { foo(){ super(); } };
                                                 "end": 285
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 279,
@@ -1077,9 +1092,9 @@ let x = { foo(){ super(); } };
                 "end": 312
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -1135,47 +1150,9 @@ let x = { foo(){ super(); } };
                                                 "end": 337
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": {
-                                                "kind": 279,
-                                                "extendsKeyword": {
-                                                    "kind": 4194391,
-                                                    "flags": 0,
-                                                    "start": 337,
-                                                    "end": 345
-                                                },
-                                                "expression": {
-                                                    "kind": 129,
-                                                    "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 0,
-                                                            "start": 345,
-                                                            "end": 351
-                                                        },
-                                                        "flags": 96,
-                                                        "start": 345,
-                                                        "end": 351
-                                                    },
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 352,
-                                                        "end": 355
-                                                    },
-                                                    "flags": 536870944,
-                                                    "start": 345,
-                                                    "end": 355
-                                                },
-                                                "typeParameter": null,
-                                                "flags": 16,
-                                                "start": 345,
-                                                "end": 355
-                                            },
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 329,
@@ -1183,60 +1160,116 @@ let x = { foo(){ super(); } };
                                             },
                                             "flags": 16,
                                             "start": 329,
-                                            "end": 355
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 355,
-                                                "end": 357
-                                            },
-                                            "flags": 16,
-                                            "start": 355,
-                                            "end": 357
-                                        },
-                                        {
-                                            "kind": 249,
-                                            "block": {
-                                                "kind": 124,
-                                                "statements": [],
-                                                "flags": 16,
-                                                "start": 359,
-                                                "end": 359
-                                            },
-                                            "flags": 16,
-                                            "start": 357,
-                                            "end": 361
+                                            "end": 337
                                         }
                                     ],
                                     "flags": 32,
                                     "start": 329,
-                                    "end": 361
+                                    "end": 337
                                 },
                                 "flags": 32,
                                 "start": 328,
-                                "end": 364
+                                "end": 337
                             },
                             "flags": 2048,
                             "start": 326,
-                            "end": 364
+                            "end": 337
                         },
                         "flags": 2048,
                         "start": 314,
-                        "end": 364
+                        "end": 337
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "extends",
+                            "rawText": "extends",
+                            "flags": 96,
+                            "start": 337,
+                            "end": 345
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 32,
+                        "start": 337,
+                        "end": 345
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "super",
+                            "rawText": "super",
+                            "flags": 96,
+                            "start": 345,
+                            "end": 351
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 32,
+                        "start": 345,
+                        "end": 351
                     }
                 ],
                 "flags": 32,
                 "start": 314,
-                "end": 365
+                "end": 351
             },
             "flags": 16,
             "start": 304,
-            "end": 365
+            "end": 351
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 352,
+                "end": 355
+            },
+            "flags": 16,
+            "start": 352,
+            "end": 355
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 355,
+                "end": 357
+            },
+            "flags": 16,
+            "start": 355,
+            "end": 357
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 359,
+                "end": 359
+            },
+            "flags": 16,
+            "start": 357,
+            "end": 361
         },
         {
             "kind": 168,
@@ -1263,9 +1296,9 @@ let x = { foo(){ super(); } };
                 "end": 374
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -1321,112 +1354,177 @@ let x = { foo(){ super(); } };
                                                 "end": 399
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": {
-                                                "kind": 279,
-                                                "extendsKeyword": {
-                                                    "kind": 4194391,
-                                                    "flags": 0,
-                                                    "start": 399,
-                                                    "end": 407
-                                                },
-                                                "expression": {
-                                                    "kind": 131,
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "feh",
-                                                        "rawText": "feh",
-                                                        "flags": 96,
-                                                        "start": 407,
-                                                        "end": 411
-                                                    },
-                                                    "argumentList": {
-                                                        "kind": 256,
-                                                        "elements": [
-                                                            {
-                                                                "kind": 129,
-                                                                "member": {
-                                                                    "kind": 225,
-                                                                    "superKeyword": {
-                                                                        "kind": 4259935,
-                                                                        "flags": 0,
-                                                                        "start": 412,
-                                                                        "end": 417
-                                                                    },
-                                                                    "flags": 96,
-                                                                    "start": 412,
-                                                                    "end": 417
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "foo",
-                                                                    "rawText": "foo",
-                                                                    "flags": 96,
-                                                                    "start": 418,
-                                                                    "end": 421
-                                                                },
-                                                                "flags": 536870944,
-                                                                "start": 412,
-                                                                "end": 421
-                                                            },
-                                                            {
-                                                                "kind": 134299649,
-                                                                "text": "y",
-                                                                "rawText": "y",
-                                                                "flags": 96,
-                                                                "start": 421,
-                                                                "end": 423
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 32,
-                                                        "start": 412,
-                                                        "end": 423
-                                                    },
-                                                    "flags": 268435488,
-                                                    "start": 407,
-                                                    "end": 424
-                                                },
-                                                "typeParameter": null,
-                                                "flags": 16,
-                                                "start": 407,
-                                                "end": 424
-                                            },
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 426,
-                                                "end": 428
+                                                "start": 391,
+                                                "end": 391
                                             },
                                             "flags": 16,
                                             "start": 391,
-                                            "end": 428
+                                            "end": 399
                                         }
                                     ],
                                     "flags": 32,
                                     "start": 391,
-                                    "end": 428
+                                    "end": 399
                                 },
                                 "flags": 32,
                                 "start": 390,
-                                "end": 431
+                                "end": 399
                             },
                             "flags": 2048,
                             "start": 388,
-                            "end": 431
+                            "end": 399
                         },
                         "flags": 2048,
                         "start": 376,
-                        "end": 431
+                        "end": 399
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "extends",
+                            "rawText": "extends",
+                            "flags": 96,
+                            "start": 399,
+                            "end": 407
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 32,
+                        "start": 399,
+                        "end": 407
+                    },
+                    {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "generatorToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "feh",
+                                "rawText": "feh",
+                                "flags": 96,
+                                "start": 407,
+                                "end": 411
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 412,
+                                "end": 417
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 412,
+                                    "end": 412
+                                },
+                                "flags": 32,
+                                "start": 412,
+                                "end": 412
+                            },
+                            "flags": 0,
+                            "start": 411,
+                            "end": 412
+                        },
+                        "flags": 0,
+                        "start": 407,
+                        "end": 412
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "super",
+                            "rawText": "super",
+                            "flags": 96,
+                            "start": 412,
+                            "end": 417
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 32,
+                        "start": 412,
+                        "end": 417
                     }
                 ],
                 "flags": 32,
                 "start": 376,
-                "end": 432
+                "end": 417
             },
             "flags": 16,
             "start": 366,
-            "end": 432
+            "end": 417
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 418,
+                "end": 421
+            },
+            "flags": 16,
+            "start": 418,
+            "end": 421
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 421,
+                "end": 423
+            },
+            "flags": 16,
+            "start": 421,
+            "end": 423
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 426,
+                "end": 426
+            },
+            "flags": 16,
+            "start": 424,
+            "end": 428
         },
         {
             "kind": 168,
@@ -1453,9 +1551,9 @@ let x = { foo(){ super(); } };
                 "end": 441
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [
                     {
                         "kind": 278,
@@ -1511,9 +1609,9 @@ let x = { foo(){ super(); } };
                                                 "end": 466
                                             },
                                             "typeParameters": null,
-                                            "classHeritage": null,
                                             "members": {
                                                 "kind": 277,
+                                                "classHeritage": null,
                                                 "elements": [
                                                     {
                                                         "kind": 278,
@@ -2584,12 +2682,20 @@ let x = { foo(){ super(); } };
 ### Diagnostics
 
 ```javascript
+✖ Declaration or statement expected - start: 7, end: 15
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ Expected a `;` - start: 25, end: 27
+✖ Declaration or statement expected - start: 38, end: 46
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
+✖ Expected a `;` - start: 56, end: 58
 ✖ Expected a `;` - start: 58, end: 60
+✖ Declaration or statement expected - start: 71, end: 79
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 89, end: 90
+✖ Expected a `;` - start: 94, end: 96
+✖ Declaration or statement expected - start: 107, end: 115
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 125, end: 126
 ✖ ',' expected - start: 129, end: 131
+✖ Expected a `;` - start: 132, end: 134
 ✖ Expected a ')' to match the '(' token here - start: 152, end: 157
 ✖ Unexpected token. - start: 152, end: 157
 ✖ The parser expected to find a '}' to match the '{' token here - start: 157, end: 158
@@ -2606,8 +2712,20 @@ let x = { foo(){ super(); } };
 ✖ Declaration or statement expected - start: 251, end: 253
 ✖ Binding identifier expected - start: 285, end: 291
 ✖ Expected a `;` - start: 295, end: 297
+✖ The parser expected to find a '}' to match the '{' token here - start: 337, end: 345
+✖ The parser expected to find a '}' to match the '{' token here - start: 351, end: 352
+✖ Expected a `;` - start: 355, end: 357
 ✖ Expected a `;` - start: 357, end: 359
-✖ ',' expected - start: 421, end: 423
+✖ Declaration or statement expected - start: 361, end: 364
+✖ Declaration or statement expected - start: 364, end: 365
+✖ The parser expected to find a '}' to match the '{' token here - start: 399, end: 407
+✖ Expected a ')' to match the '(' token here - start: 412, end: 417
+✖ Unexpected token. - start: 412, end: 417
+✖ The parser expected to find a '}' to match the '{' token here - start: 417, end: 418
+✖ Expected a `;` - start: 421, end: 423
+✖ Expected a `;` - start: 423, end: 424
+✖ Declaration or statement expected - start: 428, end: 431
+✖ Declaration or statement expected - start: 431, end: 432
 ✖ Expected a ')' to match the '(' token here - start: 473, end: 478
 ✖ Unexpected token. - start: 473, end: 478
 ✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479

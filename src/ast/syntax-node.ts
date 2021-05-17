@@ -95,7 +95,7 @@ export const enum SyntaxKind {
   CatchParameter = 174,
   ClassDeclaration = 178,
   ClassElement = 278,
-  ClassElementList = 277,
+  ClassTail = 277,
   ClassExpression = 189,
   ClassHeritage = 279,
   ClassKeyword = 37822544,

@@ -98,8 +98,8 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printSingleNameBinding(node, printer);
     case SyntaxKind.BindingProperty:
       return printBindingProperty(node, printer);
-    case SyntaxKind.ClassElementList:
-      return printClassElementList(node, printer, parentNode);
+    case SyntaxKind.ClassTail:
+      return printClassTail(node, printer, parentNode);
     case SyntaxKind.ClassDeclaration:
       return printClassDeclarationOrExpression(node, printer);
     case SyntaxKind.ObjectBindingPattern:
@@ -1032,12 +1032,12 @@ function printClassDeclarationOrExpression(node: any, printer: Printer): any {
     parts.push(group(indent(chain(partsGroup))));
   }
   //ifBreak(hardline),
-  parts.push(printer.space, printClassElementList(node.members, printer, node));
+  parts.push(printer.space, printClassTail(node.members, printer, node));
 
   return chain(parts);
 }
 
-function printClassElementList(node: any, printer: Printer, parentNode: any): any {
+function printClassTail(node: any, printer: Printer, parentNode: any): any {
   if (node.elements.length === 0) {
     return '{}';
   }
@@ -1059,12 +1059,12 @@ function printBlock(node: any, printer: Printer, parentNode: any): any {
     parentNode.kind === SyntaxKind.ArrowFunction ||
     parentNode.kind === SyntaxKind.FieldDefinition ||
     parentNode.kind === SyntaxKind.ForStatement ||
-    parentNode.kind === SyntaxKind.ClassElementList ||
+    parentNode.kind === SyntaxKind.ClassTail ||
     parentNode.kind === SyntaxKind.WhileStatement ||
     parentNode.kind === SyntaxKind.DoWhileStatement ||
     parentNode.kind === SyntaxKind.ForInStatement ||
     parentNode.kind === SyntaxKind.SwitchStatement ||
-    parentNode.kind === SyntaxKind.ClassElementList
+    parentNode.kind === SyntaxKind.ClassTail
   ) {
     return group(chain(['{', node.multiline ? hardline : softline, '}']));
   }

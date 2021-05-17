@@ -38,37 +38,40 @@ class C extends Base { await\n a }
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "Base",
-                    "rawText": "Base",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 20
-                },
-                "typeParameter": null,
-                "flags": 16,
+            "members": {
+                "kind": 277,
+                "classHeritage": null,
+                "elements": [],
+                "flags": 32,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Base",
+                "rawText": "Base",
+                "flags": 96,
                 "start": 15,
                 "end": 20
             },
-            "members": {
-                "kind": 277,
-                "elements": [
+            "flags": 16,
+            "start": 15,
+            "end": 20
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
                     {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
+                        "kind": 120,
+                        "expression": {
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
@@ -76,20 +79,17 @@ class C extends Base { await\n a }
                             "start": 22,
                             "end": 28
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
+                        "flags": 16,
                         "start": 22,
                         "end": 28
                     }
                 ],
-                "flags": 32,
+                "flags": 16,
                 "start": 22,
                 "end": 28
             },
             "flags": 16,
-            "start": 0,
+            "start": 20,
             "end": 28
         },
         {
@@ -139,9 +139,11 @@ class C extends Base { await\n a }
 ### Diagnostics
 
 ```javascript
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 20, end: 22
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 28
 ✖ Invalid hexadecimal escape sequence - start: 28, end: 28
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
+✖ Expected a `;` - start: 28, end: 29
 ✖ Expected a `;` - start: 30, end: 32
 ✖ Declaration or statement expected - start: 32, end: 34
 

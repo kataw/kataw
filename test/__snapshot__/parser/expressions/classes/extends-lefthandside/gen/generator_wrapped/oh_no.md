@@ -78,29 +78,9 @@ function *P(){
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 24,
-                                    "end": 32
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "oh",
-                                    "rawText": "oh",
-                                    "flags": 96,
-                                    "start": 32,
-                                    "end": 35
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 32,
-                                "end": 35
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
                                 "start": 14,
@@ -108,35 +88,51 @@ function *P(){
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 35
+                            "end": 24
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 35
+                    "end": 24
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 35
+                "end": 24
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 35
+            "end": 24
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "no",
-                "rawText": "no",
-                "flags": 96,
-                "start": 36,
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 134299649,
+                        "text": "oh",
+                        "rawText": "oh",
+                        "flags": 96,
+                        "start": 32,
+                        "end": 35
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "no",
+                        "rawText": "no",
+                        "flags": 96,
+                        "start": 36,
+                        "end": 38
+                    }
+                ],
+                "flags": 32,
+                "start": 32,
                 "end": 38
             },
             "flags": 16,
-            "start": 36,
+            "start": 32,
             "end": 38
         },
         {
@@ -171,7 +167,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 36
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
 ✖ Expected a `;` - start: 38, end: 40
 ✖ Declaration or statement expected - start: 41, end: 43
 

@@ -46,9 +46,9 @@ do while [catch] =! class function try while with foo!
                     },
                     "name": null,
                     "typeParameters": null,
-                    "classHeritage": null,
                     "members": {
                         "kind": 277,
+                        "classHeritage": null,
                         "elements": [],
                         "flags": 32,
                         "start": 19,

@@ -78,70 +78,77 @@ async function p(){
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 279,
-                                "extendsKeyword": {
-                                    "kind": 4194391,
-                                    "flags": 0,
-                                    "start": 29,
-                                    "end": 37
-                                },
-                                "expression": {
-                                    "kind": 129,
-                                    "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 0,
-                                            "start": 37,
-                                            "end": 43
-                                        },
-                                        "flags": 96,
-                                        "start": 37,
-                                        "end": 43
-                                    },
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 44,
-                                        "end": 47
-                                    },
-                                    "flags": 536870944,
-                                    "start": 37,
-                                    "end": 47
-                                },
-                                "typeParameter": null,
-                                "flags": 16,
-                                "start": 37,
-                                "end": 47
-                            },
                             "members": {
                                 "kind": 277,
+                                "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 49,
-                                "end": 50
+                                "start": 19,
+                                "end": 19
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 50
+                            "end": 29
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 50
+                    "end": 29
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 52
+                "end": 29
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 52
+            "end": 29
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 129,
+                "member": {
+                    "kind": 225,
+                    "superKeyword": {
+                        "kind": 4259935,
+                        "flags": 0,
+                        "start": 37,
+                        "end": 43
+                    },
+                    "flags": 96,
+                    "start": 37,
+                    "end": 43
+                },
+                "expression": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 44,
+                    "end": 47
+                },
+                "flags": 536870944,
+                "start": 37,
+                "end": 47
+            },
+            "flags": 16,
+            "start": 37,
+            "end": 47
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 49,
+                "end": 49
+            },
+            "flags": 16,
+            "start": 47,
+            "end": 50
         }
     ],
     "isModule": false,
@@ -162,7 +169,10 @@ async function p(){
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 43, end: 44
+✖ Expected a `;` - start: 47, end: 49
+✖ Declaration or statement expected - start: 50, end: 52
 
 ```
 

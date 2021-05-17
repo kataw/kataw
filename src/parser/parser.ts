@@ -39,7 +39,7 @@ import { createImportCall } from '../ast/expressions/import-call';
 import { createImportMeta } from '../ast/expressions/import-meta';
 import { createTemplateExpression, TemplateExpression } from '../ast/expressions/template-expression';
 import { createClassElement, ClassElement } from '../ast/expressions/class-element';
-import { createClassElementList, ClassElementList } from '../ast/expressions/class-element-list';
+import { createClassTail, ClassTail } from '../ast/expressions/class-element-list';
 import { createClassExpression, ClassExpression } from '../ast/expressions/class-expr';
 import { createFieldDefinition, FieldDefinition } from '../ast/expressions/field-definition';
 import { createClassHeritage, ClassHeritage } from '../ast/expressions/class-heritage';
@@ -6843,6 +6843,10 @@ function parseTemplateTail(parser: ParserState, context: Context, flags: NodeFla
   return createTemplateTail(tokenRaw, tokenValue, flags, curPos, parser.curPos);
 }
 
+// #sec-class-definitions
+// ClassDeclaration :
+//   `class` BindingIdentifier ClassTail
+//   [+Default] `class` ClassTail
 function parseClassDeclaration(
   parser: ParserState,
   context: Context,
@@ -6897,27 +6901,10 @@ function parseClassDeclaration(
 
   const typeParameters = parseTypeParameters(parser, context);
 
-  let inheritedContext = context;
-
-  let classHeritage: ExpressionNode | null = null;
-
-  if (parser.token === SyntaxKind.ExtendsKeyword) {
-    classHeritage = parseClassHeritage(parser, context);
-    inheritedContext |= Context.SuperCall;
-  } else {
-    inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
-  }
-
-  const classElementList = consume(parser, context, SyntaxKind.LeftBrace)
-    ? parseClassElementList(
-        parser,
-        inheritedContext | Context.InClassBody,
-        context | Context.InClassBody,
-        declareKeyword ? true : false,
-        true
-      )
+  const classTail = consume(parser, context, SyntaxKind.LeftBrace)
+    ? parseClassTail(parser, context | Context.InClassBody, declareKeyword ? true : false, true)
     : // Empty list
-      createClassElementList([], pos, pos);
+      createClassTail(null, [], pos, pos);
 
   parser.assignable = false;
 
@@ -6927,13 +6914,15 @@ function parseClassDeclaration(
     classToken,
     name,
     typeParameters,
-    classHeritage,
-    classElementList,
+    classTail,
     pos,
     parser.curPos
   );
 }
 
+// #sec-class-definitions
+// ClassExpression :
+//   `class` BindingIdentifier? ClassTail
 function parseClassExpression(parser: ParserState, context: Context): ClassExpression {
   const pos = parser.curPos;
   const decorator = parseDecorators(parser, context);
@@ -6959,34 +6948,14 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
 
   const typeParameters = parseTypeParameters(parser, context);
 
-  let inheritedContext = context;
-
-  let classHeritage: ExpressionNode | null = null;
-
-  if (parser.token === SyntaxKind.ExtendsKeyword) {
-    classHeritage = parseClassHeritage(parser, context);
-    inheritedContext |= Context.SuperCall;
-  } else {
-    inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
-  }
-
-  const classElementList = consume(parser, context, SyntaxKind.LeftBrace)
-    ? parseClassElementList(parser, inheritedContext | Context.InClassBody, context | Context.InClassBody, false, true)
+  const classTail = consume(parser, context, SyntaxKind.LeftBrace)
+    ? parseClassTail(parser, context | Context.InClassBody, false, true)
     : // Empty list
-      createClassElementList([], pos, pos);
+      createClassTail(null, [], pos, pos);
 
   parser.assignable = false;
 
-  return createClassExpression(
-    decorator,
-    classToken,
-    name,
-    typeParameters,
-    classHeritage,
-    classElementList,
-    pos,
-    parser.curPos
-  );
+  return createClassExpression(decorator, classToken, name, typeParameters, classTail, pos, parser.curPos);
 }
 
 function parseClassHeritage(parser: ParserState, context: Context): ClassHeritage | null {
@@ -7010,16 +6979,19 @@ function parseClassHeritage(parser: ParserState, context: Context): ClassHeritag
   );
 }
 
-function parseClassElementList(
-  parser: ParserState,
-  context: Context,
-  inheritedContext: Context,
-  isDeclared: boolean,
-  isDecl: boolean
-): ClassElementList {
+function parseClassTail(parser: ParserState, context: Context, isDeclared: boolean, isDecl: boolean): ClassTail {
   const pos = parser.curPos;
   const elements = [];
   let hasConstructor = false;
+  let classHeritage: ExpressionNode | null = null;
+  let inheritedContext = context;
+  if (parser.token === SyntaxKind.ExtendsKeyword) {
+    classHeritage = parseClassHeritage(parser, context);
+    inheritedContext |= Context.SuperCall;
+  } else {
+    inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
+  }
+
   // ClassTail[Yield,Await] : (Modified) See 14.5
   //      ClassHeritage[?Yield,?Await]opt { ClassBody[?Yield,?Await]opt }
   while (parser.token & 0b01000100110000000100000000000000) {
@@ -7046,7 +7018,7 @@ function parseClassElementList(
   if (isDecl) context | Context.AllowRegExp;
 
   parseExpectedMatchingBracket(parser, context, SyntaxKind.RightBrace);
-  return createClassElementList(elements, pos, parser.curPos);
+  return createClassTail(classHeritage, elements, pos, parser.curPos);
 }
 
 export function parseClassElement(

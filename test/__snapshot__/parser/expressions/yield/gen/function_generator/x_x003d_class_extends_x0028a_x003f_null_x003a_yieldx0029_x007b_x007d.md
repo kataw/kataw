@@ -12,7 +12,7 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -119,114 +119,121 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                     },
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "classHeritage": {
-                                                        "kind": 279,
-                                                        "extendsKeyword": {
-                                                            "kind": 4194391,
-                                                            "flags": 0,
-                                                            "start": 49,
-                                                            "end": 57
-                                                        },
-                                                        "expression": {
-                                                            "kind": 121,
-                                                            "expression": {
-                                                                "kind": 197,
-                                                                "shortCircuit": {
-                                                                    "kind": 134299649,
-                                                                    "text": "a",
-                                                                    "rawText": "a",
-                                                                    "flags": 96,
-                                                                    "start": 59,
-                                                                    "end": 60
-                                                                },
-                                                                "questionToken": {
-                                                                    "kind": 134217750,
-                                                                    "flags": 64,
-                                                                    "start": 60,
-                                                                    "end": 62
-                                                                },
-                                                                "consequent": {
-                                                                    "kind": 269,
-                                                                    "text": null,
-                                                                    "flags": 96,
-                                                                    "start": 62,
-                                                                    "end": 67
-                                                                },
-                                                                "colonToken": {
-                                                                    "kind": 21,
-                                                                    "flags": 0,
-                                                                    "start": 67,
-                                                                    "end": 69
-                                                                },
-                                                                "alternate": {
-                                                                    "kind": 134299649,
-                                                                    "text": "yield",
-                                                                    "rawText": "yield",
-                                                                    "flags": 96,
-                                                                    "start": 69,
-                                                                    "end": 75
-                                                                },
-                                                                "flags": 32,
-                                                                "start": 57,
-                                                                "end": 75
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 57,
-                                                            "end": 76
-                                                        },
-                                                        "typeParameter": null,
-                                                        "flags": 16,
-                                                        "start": 57,
-                                                        "end": 76
-                                                    },
                                                     "members": {
                                                         "kind": 277,
+                                                        "classHeritage": null,
                                                         "elements": [],
                                                         "flags": 32,
-                                                        "start": 78,
-                                                        "end": 80
+                                                        "start": 43,
+                                                        "end": 43
                                                     },
                                                     "flags": 32,
                                                     "start": 43,
-                                                    "end": 80
+                                                    "end": 49
                                                 },
                                                 "flags": 32,
                                                 "start": 39,
-                                                "end": 80
+                                                "end": 49
                                             },
                                             "flags": 16,
                                             "start": 39,
-                                            "end": 80
+                                            "end": 49
                                         }
                                     ],
                                     "flags": 32,
                                     "start": 39,
-                                    "end": 80
+                                    "end": 49
                                 },
                                 "flags": 32,
                                 "start": 37,
-                                "end": 82
+                                "end": 49
                             },
                             "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
-                            "end": 82
+                            "end": 49
                         }
                     ],
                     "flags": 32,
                     "start": 18,
-                    "end": 82
+                    "end": 49
                 },
                 "flags": 32,
                 "start": 16,
-                "end": 83
+                "end": 49
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 83
+            "end": 49
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 197,
+                    "shortCircuit": {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 59,
+                        "end": 60
+                    },
+                    "questionToken": {
+                        "kind": 134217750,
+                        "flags": 64,
+                        "start": 60,
+                        "end": 62
+                    },
+                    "consequent": {
+                        "kind": 269,
+                        "text": null,
+                        "flags": 96,
+                        "start": 62,
+                        "end": 67
+                    },
+                    "colonToken": {
+                        "kind": 21,
+                        "flags": 0,
+                        "start": 67,
+                        "end": 69
+                    },
+                    "alternate": {
+                        "kind": 134299649,
+                        "text": "yield",
+                        "rawText": "yield",
+                        "flags": 96,
+                        "start": 69,
+                        "end": 75
+                    },
+                    "flags": 32,
+                    "start": 57,
+                    "end": 75
+                },
+                "flags": 32,
+                "start": 57,
+                "end": 76
+            },
+            "flags": 16,
+            "start": 57,
+            "end": 76
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 78,
+                "end": 78
+            },
+            "flags": 16,
+            "start": 76,
+            "end": 80
         }
     ],
     "isModule": false,
@@ -242,16 +249,15 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    x = class   {};
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 49, end: 57
+✖ Expected a `;` - start: 76, end: 78
+✖ Declaration or statement expected - start: 80, end: 82
+✖ Declaration or statement expected - start: 82, end: 83
+
 ```
 

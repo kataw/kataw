@@ -1,8 +1,7 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
-import { ExpressionNode } from '.';
 import { Identifier } from './identifier-expr';
-import { ClassElementList } from '../expressions/class-element-list';
+import { ClassTail } from '../expressions/class-element-list';
 import { TypeParameter } from '../types/type-parameter';
 import { DecoratorList } from './decorator-list';
 
@@ -15,8 +14,7 @@ export interface ClassExpression extends SyntaxNode {
   readonly decorators: DecoratorList | null;
   readonly name: Identifier | null;
   readonly typeParameters: TypeParameter | null;
-  readonly classHeritage: ExpressionNode | null;
-  readonly members: ClassElementList;
+  readonly members: ClassTail;
 }
 
 export function createClassExpression(
@@ -24,8 +22,7 @@ export function createClassExpression(
   classKeyword: SyntaxToken<TokenSyntaxKind>,
   name: Identifier | null,
   typeParameters: TypeParameter | null,
-  classHeritage: ExpressionNode | null,
-  members: ClassElementList,
+  members: ClassTail,
   start: number,
   end: number
 ): ClassExpression {
@@ -35,7 +32,6 @@ export function createClassExpression(
     classKeyword,
     name,
     typeParameters,
-    classHeritage,
     members,
     flags: NodeFlags.ExpressionNode,
     start,

@@ -55,9 +55,9 @@ x@{x9}@+@{x9}@y
                 "end": 5
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 1,
@@ -86,9 +86,9 @@ x@{x9}@+@{x9}@y
                 "end": 8
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 6,
@@ -118,9 +118,9 @@ x@{x9}@+@{x9}@y
                 "end": 12
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 8,
@@ -164,9 +164,9 @@ x@{x9}@+@{x9}@y
                 "end": 15
             },
             "typeParameters": null,
-            "classHeritage": null,
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
                 "start": 13,

@@ -34,42 +34,42 @@ class x extends {} {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 17,
-                        "end": 17
-                    },
-                    "flags": 48,
-                    "start": 15,
-                    "end": 18
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 18
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 20,
-                "end": 21
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 17,
+                "end": 17
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 18
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 20,
+                "end": 20
+            },
+            "flags": 16,
+            "start": 18,
             "end": 21
         }
     ],
@@ -86,12 +86,12 @@ class x extends {} {}
 
 ```javascript
 
-class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+
 ```
 

@@ -38,35 +38,42 @@ class A extends false {}
                 "end": 7
             },
             "typeParameters": null,
-            "classHeritage": {
-                "kind": 279,
-                "extendsKeyword": {
-                    "kind": 4194391,
-                    "flags": 0,
-                    "start": 7,
-                    "end": 15
-                },
-                "expression": {
-                    "kind": 134,
-                    "text": false,
-                    "flags": 96,
-                    "start": 15,
-                    "end": 21
-                },
-                "typeParameter": null,
-                "flags": 16,
-                "start": 15,
-                "end": 21
-            },
             "members": {
                 "kind": 277,
+                "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 23,
-                "end": 24
+                "start": 0,
+                "end": 0
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134,
+                "text": false,
+                "flags": 96,
+                "start": 15,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 21
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 23,
+                "end": 23
+            },
+            "flags": 16,
+            "start": 21,
             "end": 24
         }
     ],
@@ -83,12 +90,13 @@ class A extends false {}
 
 ```javascript
 
-class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 7, end: 15
+✖ Expected a `;` - start: 21, end: 23
+
 ```
 
