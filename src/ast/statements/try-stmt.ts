@@ -1,6 +1,6 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
-import { Block } from './block';
+import { BlockStatement } from './block-stmt';
 import { CatchClause } from './catch-stmt';
 
 /**
@@ -8,18 +8,18 @@ import { CatchClause } from './catch-stmt';
  */
 export interface TryStatement extends SyntaxNode {
   readonly tryKeyword: SyntaxToken<TokenSyntaxKind>;
-  readonly block: Block;
+  readonly block: BlockStatement;
   readonly catchClause: CatchClause | null;
   readonly finallyKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  readonly finallyBlock: Block | null;
+  readonly finallyBlock: BlockStatement | null;
 }
 
 export function createTryStatement(
   tryKeyword: SyntaxToken<TokenSyntaxKind>,
-  block: Block,
+  block: BlockStatement,
   catchClause: CatchClause | null,
   finallyKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  finallyBlock: Block | null,
+  finallyBlock: BlockStatement | null,
   start: number,
   end: number
 ): TryStatement {

@@ -1,16 +1,16 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { BlockStatement } from './block-stmt';
+import { StatementNode } from '.';
 
 export interface Block extends SyntaxNode {
-  kind: SyntaxKind.Block;
-  block: BlockStatement;
+  readonly kind: SyntaxKind.Block;
+  readonly statements: StatementNode[];
 }
 
-export function createBlock(block: BlockStatement, start: number, end: number): Block {
+export function createBlock(statements: StatementNode[], flags: NodeFlags, start: number, end: number): Block {
   return {
     kind: SyntaxKind.Block,
-    block,
-    flags: NodeFlags.IsStatement,
+    statements,
+    flags,
     start,
     end
   };

@@ -363,12 +363,14 @@ function parseStatementListItem(parser: ParserState, context: Context): Statemen
   }
 }
 
+// Statement :
+//   ...
 function parseStatement(parser: ParserState, context: Context, allowFunction: boolean): StatementNode {
   switch (parser.token) {
     case SyntaxKind.VarKeyword:
       return parseVariableStatement(parser, context, /* declareKeyword */ null);
     case SyntaxKind.LeftBrace:
-      return parseBlock(parser, context);
+      return parseBlockStatement(parser, context);
     case SyntaxKind.Semicolon:
       return parseEmptyStatement(parser, context);
     case SyntaxKind.IfKeyword:
@@ -524,19 +526,34 @@ function parseCaseOrDefaultClause(parser: ParserState, context: Context): CaseCl
     : parseDefaultClause(parser, context);
 }
 
+// TryStatement :
+//   `try` Block Catch
+//   `try` Block Finally
+//   `try` Block Catch Finally
+//
+// Catch :
+//   `catch` `(` CatchParameter `)` Block
+//   `catch` Block
+//
+// Finally :
+//   `finally` Block
+//
+// CatchParameter :
+//   BindingIdentifier
+//   BindingPattern
 function parseTryStatement(parser: ParserState, context: Context): TryStatement {
   const pos = parser.curPos;
   const tryToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.TryKeyword);
-  const block = parseBlock(parser, context);
+  const block = parseBlockStatement(parser, context);
   const catchClause = parser.token === SyntaxKind.CatchKeyword ? parseCatchClause(parser, context) : null;
 
   // If we don't have a catch clause, then we must have a finally clause. Try to parse
   // one out no matter what.
-  let finallyBlock: Block | null = null;
+  let finallyBlock: BlockStatement | null = null;
   let finallyKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   if (!catchClause || parser.token === SyntaxKind.FinallyKeyword) {
     finallyKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.FinallyKeyword);
-    finallyBlock = parseBlock(parser, context);
+    finallyBlock = parseBlockStatement(parser, context);
   }
   return createTryStatement(tryToken, block, catchClause, finallyKeyword, finallyBlock, pos, parser.curPos);
 }
@@ -572,7 +589,7 @@ function parseCatchClause(parser: ParserState, context: Context): CatchClause {
     }
     consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   }
-  return createCatch(catchToken, catchParameter, parseBlock(parser, context), pos, parser.curPos);
+  return createCatch(catchToken, catchParameter, parseBlockStatement(parser, context), pos, parser.curPos);
 }
 
 function parseDebuggerStatement(parser: ParserState, context: Context): DebuggerStatement {
@@ -593,6 +610,9 @@ function canParseSemicolon(parser: ParserState): number {
   return parser.token & SyntaxKind.Smi || parser.nodeFlags & NodeFlags.NewLine;
 }
 
+// BreakStatement :
+//   `break` `;`
+//   `break` [no LineTerminator here] LabelIdentifier `;`
 function parseBreakStatement(parser: ParserState, context: Context): BreakStatement {
   const pos = parser.curPos;
   let label = null;
@@ -634,6 +654,9 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
   return createBreakStatement(breakToken, label as Identifier, pos, parser.curPos);
 }
 
+// ContinueStatement :
+//   `continue` `;`
+//   `continue` [no LineTerminator here] LabelIdentifier `;`
 function parseContinueStatement(parser: ParserState, context: Context): ContinueStatement {
   const pos = parser.curPos;
   if ((context & Context.InIteration) < 1) {
@@ -654,6 +677,9 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
   return createContinueStatement(continueToken, label as Identifier, pos, parser.curPos);
 }
 
+// IfStatement :
+//  `if` `(` Expression `)` Statement `else` Statement
+//  `if` `(` Expression `)` Statement [lookahead != `else`]
 function parseIfStatement(parser: ParserState, context: Context): IfStatement {
   const pos = parser.curPos;
   const ifKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.IfKeyword);
@@ -691,6 +717,7 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context): St
       );
 }
 
+// `while` `(` Expression `)` Statement
 function parseWhileStatement(parser: ParserState, context: Context): WhileStatement {
   const pos = parser.curPos;
   const whileToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
@@ -731,6 +758,8 @@ function parseDoWhileStatement(parser: ParserState, context: Context): DoWhileSt
   return createDoWhileStatement(doKeyword, expression, whileKeyword, statement, pos, parser.curPos);
 }
 
+// WithStatement :
+//   `with` `(` Expression `)` Statement
 function parseWithStatement(parser: ParserState, context: Context): WithStatement {
   const pos = parser.curPos;
   if (context & Context.Strict) {
@@ -773,6 +802,9 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
   return createThrowStatement(throwKeyword, expression, pos, parser.curPos);
 }
 
+// ReturnStatement :
+//   `return` `;`
+//   `return` [no LineTerminator here] Expression `;`
 function parseReturnStatement(parser: ParserState, context: Context): ReturnStatement {
   if ((context & Context.AllowReturn) === 0) {
     parser.onError(
@@ -905,6 +937,20 @@ export function parseLabelledStatement(
   );
 }
 
+// `for` `(` [lookahead != `let` `[`] Expression? `;` Expression? `;` Expression? `)` Statement
+// `for` `(` `var` VariableDeclarationList `;` Expression? `;` Expression? `)` Statement
+// `for` `(` LexicalDeclaration Expression? `;` Expression? `)` Statement
+// `for` `(` [lookahead != `let` `[`] LeftHandSideExpression `in` Expression `)` Statement
+// `for` `(` `var` ForBinding `in` Expression `)` Statement
+// `for` `(` ForDeclaration `in` Expression `)` Statement
+// `for` `(` [lookahead != { `let`, `async` `of` }] LeftHandSideExpression `of` AssignmentExpression `)` Statement
+// `for` `(` `var` ForBinding `of` AssignmentExpression `)` Statement
+// `for` `(` ForDeclaration `of` AssignmentExpression `)` Statement
+// `for` `await` `(` [lookahead != `let`] LeftHandSideExpression `of` AssignmentExpression `)` Statement
+// `for` `await` `(` `var` ForBinding `of` AssignmentExpression `)` Statement
+// `for` `await` `(` ForDeclaration `of` AssignmentExpression `)` Statement
+//
+// ForDeclaration : LetOrConst ForBinding
 function parseForStatement(parser: ParserState, context: Context): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
   const forKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ForKeyword);
@@ -1167,6 +1213,8 @@ export function parseExpressionOrLabelledStatement(
     : parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, curPos), curPos);
 }
 
+// ExpressionStatement :
+//   [lookahead != `{`, `function`, `async` [no LineTerminator here] `function`, `class`, `let` `[` ] Expression `;`
 function parseExpressionStatement(
   parser: ParserState,
   context: Context,
@@ -1357,10 +1405,11 @@ function parseExpectedMatchingBracket(parser: ParserState, context: Context, t: 
   }
 }
 
-function parseBlock(parser: ParserState, context: Context): Block {
+// BlockStatement : Block
+function parseBlockStatement(parser: ParserState, context: Context): BlockStatement {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
-    const block = parseBlockStatement(parser, context);
+    const block = parseBlock(parser, context);
     parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightBrace);
     if (consumeOpt(parser, context, SyntaxKind.Assign)) {
       parser.onError(
@@ -1374,13 +1423,14 @@ function parseBlock(parser: ParserState, context: Context): Block {
         parser.pos
       );
     }
-    return createBlock(block, pos, parser.curPos);
+    return createBlockStatement(block, pos, parser.curPos);
   }
   // Empty list
-  return createBlock(createBlockStatement([], NodeFlags.IsStatement, pos, parser.curPos), pos, pos);
+  return createBlockStatement(createBlock([], NodeFlags.IsStatement, pos, parser.curPos), pos, pos);
 }
 
-function parseBlockStatement(parser: ParserState, context: Context): BlockStatement {
+// Block : `{` StatementList `}`
+function parseBlock(parser: ParserState, context: Context): Block {
   const curPos = parser.curPos;
   const statements: StatementNode[] = [];
   const flags = parser.nodeFlags;
@@ -1391,7 +1441,7 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
       statements.push(statement);
     }
   }
-  return createBlockStatement(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
+  return createBlock(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
 }
 
 // AssignmentExpression :
@@ -4392,6 +4442,10 @@ function parseIdentifierOrPattern(
   return parseBindingIdentifier(parser, context, diagnosticMessage, true);
 }
 
+// ArrayBindingPattern :
+//   `[` Elision? BindingRestElement `]`
+//   `[` BindingElementList `]`
+//   `[` BindingElementList `,` Elision? BindingRestElement `]`
 function parseArrayBindingPattern(parser: ParserState, context: Context): ArrayBindingPattern {
   const pos = parser.curPos;
   const flags = parser.nodeFlags;
@@ -4431,8 +4485,8 @@ function parseBindingElementList(parser: ParserState, context: Context): Binding
 }
 
 function parseArrayBindingElement(parser: ParserState, context: Context): Elison | ArrayBindingElement {
-  if (parser.token & SyntaxKind.IsComma) return createElison(parser.curPos, parser.curPos);
   const pos = parser.curPos;
+  if (parser.token === SyntaxKind.Comma) return createElison(pos, pos);
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
 
   return createArrayBindingElement(
@@ -5847,6 +5901,7 @@ function parseTypeParameter(parser: ParserState, context: Context): TypeParamete
   return createTypeParameter(types, pos, parser.curPos);
 }
 
+// VariableStatement : `var` VariableDeclarationList `;`
 function parseVariableStatement(
   parser: ParserState,
   context: Context,
@@ -5875,6 +5930,9 @@ function parseVariableStatement(
   );
 }
 
+// VariableDeclarationList :
+//   VariableDeclaration
+//   VariableDeclarationList `,` VariableDeclaration
 function parseVariableDeclarationList(
   parser: ParserState,
   context: Context,
@@ -5928,6 +5986,7 @@ function parseVariableDeclarationList(
   return createVariableDeclarationList(declarations, pos, parser.curPos);
 }
 
+// Initializer : `=` AssignmentExpression
 function parseInitializer(parser: ParserState, context: Context, disallowEllipsis: boolean): ExpressionNode | null {
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
     if (disallowEllipsis) {
@@ -5945,6 +6004,9 @@ function parseInitializer(parser: ParserState, context: Context, disallowEllipsi
   return null;
 }
 
+// VariableDeclaration :
+//   BindingIdentifier Initializer?
+//   BindingPattern Initializer
 function parseVariableDeclaration(parser: ParserState, context: Context, inForStatement: boolean): VariableDeclaration {
   const pos = parser.curPos;
   const requireInitializer = !inForStatement && parser.token & SyntaxKind.IsPatternStart;

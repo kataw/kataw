@@ -1,5 +1,5 @@
-import { BlockStatement } from './block-stmt';
 import { Block } from './block';
+import { BlockStatement } from './block-stmt';
 import { BreakStatement } from './break-stmt';
 import { ContinueStatement } from './continue-stmt';
 import { CaseBlock } from './case-block';

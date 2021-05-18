@@ -1,6 +1,6 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
-import { Block } from './block';
+import { BlockStatement } from './block-stmt';
 import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
 import { ObjectBindingPattern } from '../expressions/object-binding-pattern';
 import { Identifier } from '../expressions/identifier-expr';
@@ -11,13 +11,13 @@ import { Identifier } from '../expressions/identifier-expr';
 export interface CatchClause extends SyntaxNode {
   readonly catchKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly catchParameter: ArrayBindingPattern | ObjectBindingPattern | Identifier | null;
-  readonly block: Block;
+  readonly block: BlockStatement;
 }
 
 export function createCatch(
   catchKeyword: SyntaxToken<TokenSyntaxKind>,
   catchParameter: ArrayBindingPattern | ObjectBindingPattern | Identifier | null,
-  block: Block,
+  block: BlockStatement,
   start: number,
   end: number
 ): CatchClause {

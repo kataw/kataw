@@ -115,7 +115,7 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printArrayBindingElement(node, printer);
     case SyntaxKind.BindingElementList:
       return printBindingElementList(node, printer);
-    case SyntaxKind.Block:
+    case SyntaxKind.BlockStatement:
       return printBlockStatement(node, printer, parentNode);
     case SyntaxKind.VariableStatement:
       return printVariableStatement(node, printer, false);
@@ -1063,7 +1063,9 @@ function printBlock(node: any, printer: Printer, parentNode: any): any {
   const hasContents = statements !== undefined && statements.length > 0;
 
   if (
-    //!hasContents && //parentNode.kind & (SyntaxKind.IsFunctionExpression | SyntaxKind.IsFunctionDeclaration | SyntaxKind.IsMethod) ||
+    (!hasContents && parentNode.kind === SyntaxKind.FunctionDeclaration) ||
+    parentNode.kind === SyntaxKind.FunctionExpression ||
+    parentNode.kind === SyntaxKind.MethodDefinition ||
     parentNode.kind === SyntaxKind.ArrowFunction ||
     parentNode.kind === SyntaxKind.FieldDefinition ||
     parentNode.kind === SyntaxKind.ForStatement ||
