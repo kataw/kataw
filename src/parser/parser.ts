@@ -81,7 +81,7 @@ import { createFunctionExpression, FunctionExpression } from '../ast/expressions
 import { createFunctionStatementList, FunctionStatementList } from '../ast/expressions/function-stmt-list';
 import { createFormalParameter, FormalParameter } from '../ast/expressions/formal-parameter';
 import { createFormalParameterList, FormalParameterList } from '../ast/expressions/formal-parameter-list';
-import { createOmittedExpression, OmittedExpression } from '../ast/expressions/omitted-expr';
+import { createElison, Elison } from '../ast/expressions/elison';
 import { createBindingElement, BindingElement } from '../ast/expressions/binding-element';
 import { createBindingElementList, BindingElementList } from '../ast/expressions/binding-element-list';
 import { createArrayBindingElement, ArrayBindingElement } from '../ast/expressions/array-binding-element';
@@ -3337,7 +3337,7 @@ function parseArrayLiteralElement(
   parser: ParserState,
   context: Context,
   type: BindingType
-): OmittedExpression | SpreadElement | ExpressionNode {
+): Elison | SpreadElement | ExpressionNode {
   const pos = parser.curPos;
 
   // Simple cases: "[a]", "[a,]", "[a = b]", "[a.[b] ...]",  "[a.b ... ]" and "[a.(b) ...]"'
@@ -3427,7 +3427,7 @@ function parseArrayLiteralElement(
   }
 
   if (parser.token & SyntaxKind.IsComma) {
-    return createOmittedExpression(pos, pos);
+    return createElison(pos, pos);
   }
 
   const token = parser.token;
@@ -3459,7 +3459,7 @@ function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Contex
   return parser.token === SyntaxKind.Ellipsis
     ? parseSpreadElement(parser, context)
     : parser.token === SyntaxKind.Comma
-    ? createOmittedExpression(parser.curPos, parser.curPos)
+    ? createElison(parser.curPos, parser.curPos)
     : parseExpression(parser, context);
 }
 
@@ -4430,8 +4430,8 @@ function parseBindingElementList(parser: ParserState, context: Context): Binding
   return createBindingElementList(elements, trailingComma, flags, pos, parser.curPos);
 }
 
-function parseArrayBindingElement(parser: ParserState, context: Context): OmittedExpression | ArrayBindingElement {
-  if (parser.token & SyntaxKind.IsComma) return createOmittedExpression(parser.curPos, parser.curPos);
+function parseArrayBindingElement(parser: ParserState, context: Context): Elison | ArrayBindingElement {
+  if (parser.token & SyntaxKind.IsComma) return createElison(parser.curPos, parser.curPos);
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
 

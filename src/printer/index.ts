@@ -285,7 +285,7 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printYieldExpression(node, printer);
     case SyntaxKind.ClassExpression:
       return printClassDeclarationOrExpression(node, printer);
-    case SyntaxKind.OmittedExpression:
+    case SyntaxKind.Elison:
       return '';
     case SyntaxKind.BooleanLiteral:
       return node.text ? 'true' : 'false';
