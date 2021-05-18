@@ -143,21 +143,14 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                                                                 "end": 49
                                                                             },
                                                                             "value": {
-                                                                                "kind": 203,
-                                                                                "ellipsisToken": null,
-                                                                                "binding": {
-                                                                                    "kind": 134299649,
-                                                                                    "text": "await",
-                                                                                    "rawText": "await",
-                                                                                    "flags": 96,
-                                                                                    "start": 49,
-                                                                                    "end": 55
-                                                                                },
-                                                                                "initializer": null,
-                                                                                "flags": 32,
+                                                                                "kind": 134299649,
+                                                                                "text": "await",
+                                                                                "rawText": "await",
+                                                                                "flags": 96,
                                                                                 "start": 49,
                                                                                 "end": 55
                                                                             },
+                                                                            "initializer": null,
                                                                             "flags": 32,
                                                                             "start": 46,
                                                                             "end": 55

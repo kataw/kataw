@@ -65,26 +65,19 @@ var {x:y=z}, {a:b=c} = obj;
                                             "end": 7
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 7,
-                                                "end": 8
-                                            },
-                                            "initializer": {
-                                                "kind": 134299649,
-                                                "text": "z",
-                                                "rawText": "z",
-                                                "flags": 96,
-                                                "start": 9,
-                                                "end": 10
-                                            },
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
                                             "start": 7,
+                                            "end": 8
+                                        },
+                                        "initializer": {
+                                            "kind": 134299649,
+                                            "text": "z",
+                                            "rawText": "z",
+                                            "flags": 96,
+                                            "start": 9,
                                             "end": 10
                                         },
                                         "flags": 32,
@@ -127,26 +120,19 @@ var {x:y=z}, {a:b=c} = obj;
                                             "end": 16
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "b",
-                                                "rawText": "b",
-                                                "flags": 96,
-                                                "start": 16,
-                                                "end": 17
-                                            },
-                                            "initializer": {
-                                                "kind": 134299649,
-                                                "text": "c",
-                                                "rawText": "c",
-                                                "flags": 96,
-                                                "start": 18,
-                                                "end": 19
-                                            },
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
                                             "start": 16,
+                                            "end": 17
+                                        },
+                                        "initializer": {
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
+                                            "start": 18,
                                             "end": 19
                                         },
                                         "flags": 32,

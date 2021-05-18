@@ -46,26 +46,19 @@ var { x: x = 10 } = x;
                                             "end": 8
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 8,
-                                                "end": 10
-                                            },
-                                            "initializer": {
-                                                "kind": 201392130,
-                                                "text": 10,
-                                                "rawText": "10",
-                                                "flags": 96,
-                                                "start": 12,
-                                                "end": 15
-                                            },
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
                                             "start": 8,
+                                            "end": 10
+                                        },
+                                        "initializer": {
+                                            "kind": 201392130,
+                                            "text": 10,
+                                            "rawText": "10",
+                                            "flags": 96,
+                                            "start": 12,
                                             "end": 15
                                         },
                                         "flags": 32,

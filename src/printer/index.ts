@@ -901,7 +901,12 @@ function printTemplateTail(node: any, _printer: Printer): any {
 }
 
 function printBindingProperty(node: any, printer: Printer): any {
-  return chain([printStatements(node.key, printer, node), ': ', printStatements(node.value, printer, node)]);
+  return chain([
+    printStatements(node.key, printer, node),
+    ': ',
+    printStatements(node.value, printer, node),
+    printInitializer(node.initializer, printer, node)
+  ]);
 }
 
 function printSwitchStatement(node: any, printer: Printer): any {

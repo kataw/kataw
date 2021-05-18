@@ -1645,26 +1645,19 @@ var {get} = obj;
                                             "end": 431
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "localVar",
-                                                "rawText": "localVar",
-                                                "flags": 96,
-                                                "start": 431,
-                                                "end": 440
-                                            },
-                                            "initializer": {
-                                                "kind": 134299649,
-                                                "text": "defaultValue",
-                                                "rawText": "defaultValue",
-                                                "flags": 96,
-                                                "start": 442,
-                                                "end": 455
-                                            },
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "localVar",
+                                            "rawText": "localVar",
+                                            "flags": 96,
                                             "start": 431,
+                                            "end": 440
+                                        },
+                                        "initializer": {
+                                            "kind": 134299649,
+                                            "text": "defaultValue",
+                                            "rawText": "defaultValue",
+                                            "flags": 96,
+                                            "start": 442,
                                             "end": 455
                                         },
                                         "flags": 32,

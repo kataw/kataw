@@ -121,26 +121,19 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "end": 26
                                                 },
                                                 "value": {
-                                                    "kind": 203,
-                                                    "ellipsisToken": null,
-                                                    "binding": {
-                                                        "kind": 134299649,
-                                                        "text": "e",
-                                                        "rawText": "e",
-                                                        "flags": 96,
-                                                        "start": 26,
-                                                        "end": 27
-                                                    },
-                                                    "initializer": {
-                                                        "kind": 201392130,
-                                                        "text": 0,
-                                                        "rawText": "0",
-                                                        "flags": 96,
-                                                        "start": 28,
-                                                        "end": 29
-                                                    },
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "e",
+                                                    "rawText": "e",
+                                                    "flags": 96,
                                                     "start": 26,
+                                                    "end": 27
+                                                },
+                                                "initializer": {
+                                                    "kind": 201392130,
+                                                    "text": 0,
+                                                    "rawText": "0",
+                                                    "flags": 96,
+                                                    "start": 28,
                                                     "end": 29
                                                 },
                                                 "flags": 32,
@@ -165,26 +158,19 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "end": 34
                                                 },
                                                 "value": {
-                                                    "kind": 203,
-                                                    "ellipsisToken": null,
-                                                    "binding": {
-                                                        "kind": 134299649,
-                                                        "text": "g",
-                                                        "rawText": "g",
-                                                        "flags": 96,
-                                                        "start": 35,
-                                                        "end": 36
-                                                    },
-                                                    "initializer": {
-                                                        "kind": 201392130,
-                                                        "text": 0,
-                                                        "rawText": "0",
-                                                        "flags": 96,
-                                                        "start": 37,
-                                                        "end": 38
-                                                    },
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "g",
+                                                    "rawText": "g",
+                                                    "flags": 96,
                                                     "start": 35,
+                                                    "end": 36
+                                                },
+                                                "initializer": {
+                                                    "kind": 201392130,
+                                                    "text": 0,
+                                                    "rawText": "0",
+                                                    "flags": 96,
+                                                    "start": 37,
                                                     "end": 38
                                                 },
                                                 "flags": 32,

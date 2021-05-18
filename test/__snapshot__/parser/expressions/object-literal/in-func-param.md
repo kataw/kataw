@@ -61,27 +61,20 @@ function test({...{}}) {}
                                             "end": 18
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 212,
-                                                "propertyList": {
-                                                    "kind": 213,
-                                                    "properties": [],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 19,
-                                                    "end": 19
-                                                },
+                                            "kind": 212,
+                                            "propertyList": {
+                                                "kind": 213,
+                                                "properties": [],
+                                                "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 18,
-                                                "end": 20
+                                                "start": 19,
+                                                "end": 19
                                             },
-                                            "initializer": null,
                                             "flags": 32,
                                             "start": 18,
                                             "end": 20
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 15,
                                         "end": 20

@@ -86,21 +86,14 @@ let {a, [x]: y} = a;
                                             "end": 11
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 12,
-                                                "end": 14
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 14
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 7,
                                         "end": 14

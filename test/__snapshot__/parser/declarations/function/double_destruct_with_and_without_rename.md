@@ -64,21 +64,14 @@ let {x : y, z} = obj;
                                             "end": 8
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 8,
-                                                "end": 10
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
                                             "start": 8,
                                             "end": 10
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 10

@@ -45,27 +45,20 @@ let {a:{}} = 0
                                             "end": 7
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 212,
-                                                "propertyList": {
-                                                    "kind": 213,
-                                                    "properties": [],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 8,
-                                                    "end": 8
-                                                },
+                                            "kind": 212,
+                                            "propertyList": {
+                                                "kind": 213,
+                                                "properties": [],
+                                                "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 7,
-                                                "end": 9
+                                                "start": 8,
+                                                "end": 8
                                             },
-                                            "initializer": null,
                                             "flags": 32,
                                             "start": 7,
                                             "end": 9
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 9

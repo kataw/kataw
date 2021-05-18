@@ -120,21 +120,14 @@
                                                             "end": 54
                                                         },
                                                         "value": {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 55,
-                                                                "end": 57
-                                                            },
-                                                            "initializer": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
                                                             "start": 55,
                                                             "end": 57
                                                         },
+                                                        "initializer": null,
                                                         "flags": 32,
                                                         "start": 42,
                                                         "end": 57

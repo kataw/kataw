@@ -50,51 +50,44 @@ var { ...{ x = 5 } } = {x : 1};
                                             "end": 9
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 212,
-                                                "propertyList": {
-                                                    "kind": 213,
-                                                    "properties": [
-                                                        {
-                                                            "kind": 222,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 96,
-                                                                "start": 10,
-                                                                "end": 12
-                                                            },
-                                                            "right": {
-                                                                "kind": 201392130,
-                                                                "text": 5,
-                                                                "rawText": "5",
-                                                                "flags": 96,
-                                                                "start": 14,
-                                                                "end": 16
-                                                            },
-                                                            "flags": 32,
+                                            "kind": 212,
+                                            "propertyList": {
+                                                "kind": 213,
+                                                "properties": [
+                                                    {
+                                                        "kind": 222,
+                                                        "ellipsisToken": null,
+                                                        "left": {
+                                                            "kind": 134299649,
+                                                            "text": "x",
+                                                            "rawText": "x",
+                                                            "flags": 96,
                                                             "start": 10,
+                                                            "end": 12
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 5,
+                                                            "rawText": "5",
+                                                            "flags": 96,
+                                                            "start": 14,
                                                             "end": 16
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 10,
-                                                    "end": 16
-                                                },
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 10,
+                                                        "end": 16
+                                                    }
+                                                ],
+                                                "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 9,
-                                                "end": 18
+                                                "start": 10,
+                                                "end": 16
                                             },
-                                            "initializer": null,
                                             "flags": 32,
                                             "start": 9,
                                             "end": 18
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 18

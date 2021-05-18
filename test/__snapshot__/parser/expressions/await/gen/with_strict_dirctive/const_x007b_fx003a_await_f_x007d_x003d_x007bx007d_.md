@@ -58,21 +58,14 @@
                                             "end": 24
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
-                                                "start": 24,
-                                                "end": 30
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 30
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 21,
                                         "end": 30

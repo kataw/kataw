@@ -53,25 +53,18 @@ let {a:=c} = z;
                                             "end": 7
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 7,
-                                                "end": 7
-                                            },
-                                            "initializer": {
-                                                "kind": 134299649,
-                                                "text": "c",
-                                                "rawText": "c",
-                                                "flags": 96,
-                                                "start": 8,
-                                                "end": 9
-                                            },
-                                            "flags": 32,
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
                                             "start": 7,
+                                            "end": 7
+                                        },
+                                        "initializer": {
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
+                                            "start": 8,
                                             "end": 9
                                         },
                                         "flags": 32,

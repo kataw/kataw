@@ -3968,26 +3968,19 @@ function f({x:arg = (arg = 2)}) {}
                                             "end": 1058
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "arg",
-                                                "rawText": "arg",
-                                                "flags": 96,
-                                                "start": 1058,
-                                                "end": 1061
-                                            },
-                                            "initializer": {
-                                                "kind": 201392130,
-                                                "text": 1,
-                                                "rawText": "1",
-                                                "flags": 96,
-                                                "start": 1063,
-                                                "end": 1065
-                                            },
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "arg",
+                                            "rawText": "arg",
+                                            "flags": 96,
                                             "start": 1058,
+                                            "end": 1061
+                                        },
+                                        "initializer": {
+                                            "kind": 201392130,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 96,
+                                            "start": 1063,
                                             "end": 1065
                                         },
                                         "flags": 32,
@@ -4031,52 +4024,45 @@ function f({x:arg = (arg = 2)}) {}
                                             "end": 1071
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "b",
-                                                "rawText": "b",
-                                                "flags": 96,
-                                                "start": 1071,
-                                                "end": 1072
-                                            },
-                                            "initializer": {
-                                                "kind": 121,
-                                                "expression": {
-                                                    "kind": 125,
-                                                    "left": {
-                                                        "kind": 134299649,
-                                                        "text": "arg",
-                                                        "rawText": "arg",
-                                                        "flags": 96,
-                                                        "start": 1074,
-                                                        "end": 1077
-                                                    },
-                                                    "operatorToken": {
-                                                        "kind": 4125,
-                                                        "flags": 64,
-                                                        "start": 1077,
-                                                        "end": 1078
-                                                    },
-                                                    "right": {
-                                                        "kind": 201392130,
-                                                        "text": 2,
-                                                        "rawText": "2",
-                                                        "flags": 96,
-                                                        "start": 1078,
-                                                        "end": 1079
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 1073,
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 1071,
+                                            "end": 1072
+                                        },
+                                        "initializer": {
+                                            "kind": 121,
+                                            "expression": {
+                                                "kind": 125,
+                                                "left": {
+                                                    "kind": 134299649,
+                                                    "text": "arg",
+                                                    "rawText": "arg",
+                                                    "flags": 96,
+                                                    "start": 1074,
+                                                    "end": 1077
+                                                },
+                                                "operatorToken": {
+                                                    "kind": 4125,
+                                                    "flags": 64,
+                                                    "start": 1077,
+                                                    "end": 1078
+                                                },
+                                                "right": {
+                                                    "kind": 201392130,
+                                                    "text": 2,
+                                                    "rawText": "2",
+                                                    "flags": 96,
+                                                    "start": 1078,
                                                     "end": 1079
                                                 },
                                                 "flags": 32,
                                                 "start": 1073,
-                                                "end": 1080
+                                                "end": 1079
                                             },
                                             "flags": 32,
-                                            "start": 1071,
+                                            "start": 1073,
                                             "end": 1080
                                         },
                                         "flags": 32,
@@ -4168,52 +4154,45 @@ function f({x:arg = (arg = 2)}) {}
                                             "end": 1101
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "arg",
-                                                "rawText": "arg",
-                                                "flags": 96,
-                                                "start": 1101,
-                                                "end": 1104
-                                            },
-                                            "initializer": {
-                                                "kind": 121,
-                                                "expression": {
-                                                    "kind": 125,
-                                                    "left": {
-                                                        "kind": 134299649,
-                                                        "text": "arg",
-                                                        "rawText": "arg",
-                                                        "flags": 96,
-                                                        "start": 1108,
-                                                        "end": 1111
-                                                    },
-                                                    "operatorToken": {
-                                                        "kind": 4125,
-                                                        "flags": 64,
-                                                        "start": 1111,
-                                                        "end": 1113
-                                                    },
-                                                    "right": {
-                                                        "kind": 201392130,
-                                                        "text": 2,
-                                                        "rawText": "2",
-                                                        "flags": 96,
-                                                        "start": 1113,
-                                                        "end": 1115
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 1106,
+                                            "kind": 134299649,
+                                            "text": "arg",
+                                            "rawText": "arg",
+                                            "flags": 96,
+                                            "start": 1101,
+                                            "end": 1104
+                                        },
+                                        "initializer": {
+                                            "kind": 121,
+                                            "expression": {
+                                                "kind": 125,
+                                                "left": {
+                                                    "kind": 134299649,
+                                                    "text": "arg",
+                                                    "rawText": "arg",
+                                                    "flags": 96,
+                                                    "start": 1108,
+                                                    "end": 1111
+                                                },
+                                                "operatorToken": {
+                                                    "kind": 4125,
+                                                    "flags": 64,
+                                                    "start": 1111,
+                                                    "end": 1113
+                                                },
+                                                "right": {
+                                                    "kind": 201392130,
+                                                    "text": 2,
+                                                    "rawText": "2",
+                                                    "flags": 96,
+                                                    "start": 1113,
                                                     "end": 1115
                                                 },
                                                 "flags": 32,
                                                 "start": 1106,
-                                                "end": 1116
+                                                "end": 1115
                                             },
                                             "flags": 32,
-                                            "start": 1101,
+                                            "start": 1106,
                                             "end": 1116
                                         },
                                         "flags": 32,

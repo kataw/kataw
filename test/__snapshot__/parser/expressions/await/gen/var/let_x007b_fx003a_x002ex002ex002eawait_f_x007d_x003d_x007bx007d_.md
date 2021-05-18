@@ -143,28 +143,36 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                                 "end": 47
                                                                             },
                                                                             "value": {
-                                                                                "kind": 203,
-                                                                                "ellipsisToken": {
-                                                                                    "kind": 524302,
-                                                                                    "flags": 64,
-                                                                                    "start": 47,
-                                                                                    "end": 51
-                                                                                },
-                                                                                "binding": {
-                                                                                    "kind": 134299649,
-                                                                                    "text": "await",
-                                                                                    "rawText": "await",
-                                                                                    "flags": 96,
-                                                                                    "start": 51,
-                                                                                    "end": 56
-                                                                                },
-                                                                                "initializer": null,
-                                                                                "flags": 32,
+                                                                                "kind": 16637,
+                                                                                "text": "",
+                                                                                "flags": 64,
+                                                                                "start": 47,
+                                                                                "end": 47
+                                                                            },
+                                                                            "initializer": null,
+                                                                            "flags": 32,
+                                                                            "start": 44,
+                                                                            "end": 47
+                                                                        },
+                                                                        {
+                                                                            "kind": 222,
+                                                                            "ellipsisToken": {
+                                                                                "kind": 524302,
+                                                                                "flags": 64,
+                                                                                "start": 47,
+                                                                                "end": 51
+                                                                            },
+                                                                            "left": {
+                                                                                "kind": 134299649,
+                                                                                "text": "await",
+                                                                                "rawText": "await",
+                                                                                "flags": 96,
                                                                                 "start": 47,
                                                                                 "end": 56
                                                                             },
+                                                                            "right": null,
                                                                             "flags": 32,
-                                                                            "start": 44,
+                                                                            "start": 47,
                                                                             "end": 56
                                                                         },
                                                                         {
@@ -273,7 +281,8 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 51, end: 56
+✖ Expression expected - start: 47, end: 51
+✖ ',' expected - start: 47, end: 51
 ✖ ',' expected - start: 56, end: 58
 
 ```

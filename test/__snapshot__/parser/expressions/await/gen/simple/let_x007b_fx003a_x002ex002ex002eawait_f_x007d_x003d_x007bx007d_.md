@@ -49,28 +49,36 @@ let { f: ...await f } = {};
                                             "end": 8
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 8,
-                                                "end": 12
-                                            },
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
-                                                "start": 12,
-                                                "end": 17
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 8,
+                                            "end": 8
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 5,
+                                        "end": 8
+                                    },
+                                    {
+                                        "kind": 222,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 8,
+                                            "end": 12
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
                                             "start": 8,
                                             "end": 17
                                         },
+                                        "right": null,
                                         "flags": 32,
-                                        "start": 5,
+                                        "start": 8,
                                         "end": 17
                                     },
                                     {
@@ -147,6 +155,8 @@ let { f: ...await f } = {};
 ### Diagnostics
 
 ```javascript
+✖ Expression expected - start: 8, end: 12
+✖ ',' expected - start: 8, end: 12
 ✖ ',' expected - start: 17, end: 19
 
 ```

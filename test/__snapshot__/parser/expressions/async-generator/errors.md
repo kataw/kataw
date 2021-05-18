@@ -4239,21 +4239,14 @@ async function * gen() {class C extends await { }}
                                                                             "end": 2170
                                                                         },
                                                                         "value": {
-                                                                            "kind": 203,
-                                                                            "ellipsisToken": null,
-                                                                            "binding": {
-                                                                                "kind": 134299649,
-                                                                                "text": "yield",
-                                                                                "rawText": "yield",
-                                                                                "flags": 96,
-                                                                                "start": 2170,
-                                                                                "end": 2176
-                                                                            },
-                                                                            "initializer": null,
-                                                                            "flags": 32,
+                                                                            "kind": 134299649,
+                                                                            "text": "yield",
+                                                                            "rawText": "yield",
+                                                                            "flags": 96,
                                                                             "start": 2170,
                                                                             "end": 2176
                                                                         },
+                                                                        "initializer": null,
                                                                         "flags": 32,
                                                                         "start": 2166,
                                                                         "end": 2176
@@ -4410,21 +4403,14 @@ async function * gen() {class C extends await { }}
                                                                             "end": 2223
                                                                         },
                                                                         "value": {
-                                                                            "kind": 203,
-                                                                            "ellipsisToken": null,
-                                                                            "binding": {
-                                                                                "kind": 134299649,
-                                                                                "text": "await",
-                                                                                "rawText": "await",
-                                                                                "flags": 96,
-                                                                                "start": 2223,
-                                                                                "end": 2229
-                                                                            },
-                                                                            "initializer": null,
-                                                                            "flags": 32,
+                                                                            "kind": 134299649,
+                                                                            "text": "await",
+                                                                            "rawText": "await",
+                                                                            "flags": 96,
                                                                             "start": 2223,
                                                                             "end": 2229
                                                                         },
+                                                                        "initializer": null,
                                                                         "flags": 32,
                                                                         "start": 2219,
                                                                         "end": 2229
@@ -5520,21 +5506,14 @@ async function * gen() {class C extends await { }}
                                                             "end": 2609
                                                         },
                                                         "value": {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "yield",
-                                                                "rawText": "yield",
-                                                                "flags": 96,
-                                                                "start": 2609,
-                                                                "end": 2615
-                                                            },
-                                                            "initializer": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "yield",
+                                                            "rawText": "yield",
+                                                            "flags": 96,
                                                             "start": 2609,
                                                             "end": 2615
                                                         },
+                                                        "initializer": null,
                                                         "flags": 32,
                                                         "start": 2605,
                                                         "end": 2615
@@ -5551,20 +5530,13 @@ async function * gen() {class C extends await { }}
                                                             "end": 2618
                                                         },
                                                         "value": {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "binding": {
-                                                                "kind": 16637,
-                                                                "text": "",
-                                                                "flags": 64,
-                                                                "start": 2618,
-                                                                "end": 2618
-                                                            },
-                                                            "initializer": null,
-                                                            "flags": 32,
+                                                            "kind": 16637,
+                                                            "text": "",
+                                                            "flags": 64,
                                                             "start": 2618,
                                                             "end": 2618
                                                         },
+                                                        "initializer": null,
                                                         "flags": 32,
                                                         "start": 2615,
                                                         "end": 2618
@@ -5721,21 +5693,14 @@ async function * gen() {class C extends await { }}
                                                             "end": 2665
                                                         },
                                                         "value": {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
-                                                                "start": 2665,
-                                                                "end": 2671
-                                                            },
-                                                            "initializer": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "await",
+                                                            "rawText": "await",
+                                                            "flags": 96,
                                                             "start": 2665,
                                                             "end": 2671
                                                         },
+                                                        "initializer": null,
                                                         "flags": 32,
                                                         "start": 2661,
                                                         "end": 2671
@@ -5752,20 +5717,13 @@ async function * gen() {class C extends await { }}
                                                             "end": 2674
                                                         },
                                                         "value": {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "binding": {
-                                                                "kind": 16637,
-                                                                "text": "",
-                                                                "flags": 64,
-                                                                "start": 2674,
-                                                                "end": 2674
-                                                            },
-                                                            "initializer": null,
-                                                            "flags": 32,
+                                                            "kind": 16637,
+                                                            "text": "",
+                                                            "flags": 64,
                                                             "start": 2674,
                                                             "end": 2674
                                                         },
+                                                        "initializer": null,
                                                         "flags": 32,
                                                         "start": 2671,
                                                         "end": 2674

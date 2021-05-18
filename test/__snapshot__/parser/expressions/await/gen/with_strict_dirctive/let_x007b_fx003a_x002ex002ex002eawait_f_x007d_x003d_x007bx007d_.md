@@ -58,28 +58,36 @@
                                             "end": 22
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 22,
-                                                "end": 26
-                                            },
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
-                                                "start": 26,
-                                                "end": 31
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 22,
+                                            "end": 22
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 19,
+                                        "end": 22
+                                    },
+                                    {
+                                        "kind": 222,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 22,
+                                            "end": 26
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 31
                                         },
+                                        "right": null,
                                         "flags": 32,
-                                        "start": 19,
+                                        "start": 22,
                                         "end": 31
                                     },
                                     {
@@ -156,6 +164,8 @@
 ### Diagnostics
 
 ```javascript
+✖ Expression expected - start: 22, end: 26
+✖ ',' expected - start: 22, end: 26
 ✖ ',' expected - start: 31, end: 33
 
 ```

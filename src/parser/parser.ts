@@ -2223,7 +2223,7 @@ function parsePrimaryExpression(
       return parseObjectLiteral(parser, context);
     case SyntaxKind.LeftParen:
     case SyntaxKind.LessThan:
-      return parseParentheizedExpression(parser, context, LeftHandSideContext);
+      return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, LeftHandSideContext);
     case SyntaxKind.BigIntLiteral:
       return parseBigIntLiteral(parser, context);
     case SyntaxKind.YieldKeyword:
@@ -2915,6 +2915,8 @@ function paresSpreadPropertyArgument(parser: ParserState, context: Context, type
   return argument;
 }
 
+// RegularExpressionLiteral :
+//   `/` RegularExpressionBody `/` RegularExpressionFlags
 function parseRegularExpression(parser: ParserState, context: Context): RegularExpressionLiteral {
   const { curPos, tokenValue } = parser;
   nextToken(parser, context);
@@ -3572,7 +3574,15 @@ function parseSpreadElement(parser: ParserState, context: Context): SpreadElemen
   );
 }
 
-function parseParentheizedExpression(
+// CoverParenthesizedExpressionAndArrowParameterList :
+//   `(` Expression `)`
+//   `(` Expression `,` `)`
+//   `(` `)`
+//   `(` `...` BindingIdentifier `)`
+//   `(` `...` BindingPattern `)`
+//   `(` Expression `,` `...` BindingIdentifier `)`
+//   `(` Expression `.` `...` BindingPattern `)`
+function parseCoverParenthesizedExpressionAndArrowParameterList(
   parser: ParserState,
   context: Context,
   LeftHandSideContext: LeftHandSide
@@ -4334,6 +4344,15 @@ function isValidReturnType(parser: ParserState, context: Context, _expression1: 
   );
 }
 
+// PropertyName :
+//   LiteralPropertyName
+//   ComputedPropertyName
+// LiteralPropertyName :
+//   IdentifierName
+//   StringLiteral
+//   NumericLiteral
+// ComputedPropertyName :
+//   `[` AssignmentExpression `]`
 function parsePropertyName(
   parser: ParserState,
   context: Context
@@ -4444,6 +4463,11 @@ function parseBindingElement(parser: ParserState, context: Context): BindingElem
   return createBindingElement(ellipsis, binding, parseInitializer(parser, context), pos, parser.curPos);
 }
 
+// ObjectBindingPattern :
+//   `{` `}`
+//   `{` BindingRestProperty `}`
+//   `{` BindingPropertyList `}`
+//   `{` BindingPropertyList `,` BindingRestProperty? `}`
 function parseObjectBindingPattern(parser: ParserState, context: Context): ObjectBindingPattern {
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
@@ -4457,18 +4481,11 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
   const properties = [];
   let trailingComma = false;
   const flags = parser.nodeFlags;
-  while (
-    parser.token &
-    (SyntaxKind.IsPatternStart |
-      SyntaxKind.IsEllipsis |
-      SyntaxKind.IsProperty |
-      SyntaxKind.IsIdentifier |
-      SyntaxKind.IsFutureReserved)
-  ) {
+  while (parser.token & 0b00010100100010000100000000000000) {
     properties.push(parseBindingProperty(parser, context));
     if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
+      if (parser.token === SyntaxKind.RightBrace) {
         trailingComma = true;
         break;
       }
@@ -4492,6 +4509,9 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
   );
 }
 
+// BindingProperty :
+//   SingleNameBinding
+//   PropertyName : BindingElement
 function parseBindingProperty(parser: ParserState, context: Context): BindingProperty | SingleNameBinding {
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
@@ -4506,7 +4526,8 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
       return createBindingProperty(
         ellipsisToken,
         createIdentifier(tokenValue, tokenRaw, pos, parser.curPos),
-        parseBindingElement(parser, context),
+        parseIdentifierOrPattern(parser, context),
+        parseInitializer(parser, context),
         pos,
         parser.curPos
       );
@@ -4551,7 +4572,14 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
   }
   const key = parsePropertyName(parser, context);
   consume(parser, context, SyntaxKind.Colon);
-  return createBindingProperty(ellipsisToken, key, parseBindingElement(parser, context), pos, parser.curPos);
+  return createBindingProperty(
+    ellipsisToken,
+    key,
+    parseIdentifierOrPattern(parser, context),
+    parseInitializer(parser, context),
+    pos,
+    parser.curPos
+  );
 }
 
 function parseFunctionExpression(
@@ -5051,7 +5079,7 @@ function parseFormalParameterList(parser: ParserState, context: Context): Formal
   const curpPos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen)) {
     let trailingComma = false;
-    while (parser.token & 277364736) {
+    while (parser.token & 0b00010000100010000100000000000000) {
       const param = parseFormalParameter(parser, context);
       nodeFlags |= param.flags;
       parameters.push(param);

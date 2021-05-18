@@ -53,26 +53,19 @@ for (let {x: y = let};;) {}
                                             "end": 12
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 12,
-                                                "end": 14
-                                            },
-                                            "initializer": {
-                                                "kind": 134299649,
-                                                "text": "let",
-                                                "rawText": "let",
-                                                "flags": 96,
-                                                "start": 16,
-                                                "end": 20
-                                            },
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
                                             "start": 12,
+                                            "end": 14
+                                        },
+                                        "initializer": {
+                                            "kind": 134299649,
+                                            "text": "let",
+                                            "rawText": "let",
+                                            "flags": 96,
+                                            "start": 16,
                                             "end": 20
                                         },
                                         "flags": 32,

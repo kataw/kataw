@@ -111,21 +111,14 @@ async function f() {
                                                             "end": 40
                                                         },
                                                         "value": {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 41,
-                                                                "end": 43
-                                                            },
-                                                            "initializer": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
                                                             "start": 41,
                                                             "end": 43
                                                         },
+                                                        "initializer": null,
                                                         "flags": 32,
                                                         "start": 28,
                                                         "end": 43

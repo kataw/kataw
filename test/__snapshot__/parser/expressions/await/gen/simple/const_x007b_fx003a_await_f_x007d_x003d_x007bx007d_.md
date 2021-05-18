@@ -49,21 +49,14 @@ const { f: await f } = {};
                                             "end": 10
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
-                                                "start": 10,
-                                                "end": 16
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 16
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 7,
                                         "end": 16

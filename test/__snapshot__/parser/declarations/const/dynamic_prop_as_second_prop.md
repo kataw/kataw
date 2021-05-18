@@ -86,21 +86,14 @@ const {a, [x]: y} = a;
                                             "end": 13
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 14,
-                                                "end": 16
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 16
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 9,
                                         "end": 16

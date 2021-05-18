@@ -1940,21 +1940,14 @@
                                                                 "end": 745
                                                             },
                                                             "value": {
-                                                                "kind": 203,
-                                                                "ellipsisToken": null,
-                                                                "binding": {
-                                                                    "kind": 134299649,
-                                                                    "text": "yield",
-                                                                    "rawText": "yield",
-                                                                    "flags": 96,
-                                                                    "start": 745,
-                                                                    "end": 751
-                                                                },
-                                                                "initializer": null,
-                                                                "flags": 32,
+                                                                "kind": 134299649,
+                                                                "text": "yield",
+                                                                "rawText": "yield",
+                                                                "flags": 96,
                                                                 "start": 745,
                                                                 "end": 751
                                                             },
+                                                            "initializer": null,
                                                             "flags": 32,
                                                             "start": 743,
                                                             "end": 751
@@ -2909,21 +2902,14 @@
                                                                 "end": 1093
                                                             },
                                                             "value": {
-                                                                "kind": 203,
-                                                                "ellipsisToken": null,
-                                                                "binding": {
-                                                                    "kind": 134299649,
-                                                                    "text": "yield",
-                                                                    "rawText": "yield",
-                                                                    "flags": 96,
-                                                                    "start": 1093,
-                                                                    "end": 1099
-                                                                },
-                                                                "initializer": null,
-                                                                "flags": 32,
+                                                                "kind": 134299649,
+                                                                "text": "yield",
+                                                                "rawText": "yield",
+                                                                "flags": 96,
                                                                 "start": 1093,
                                                                 "end": 1099
                                                             },
+                                                            "initializer": null,
                                                             "flags": 32,
                                                             "start": 1091,
                                                             "end": 1099

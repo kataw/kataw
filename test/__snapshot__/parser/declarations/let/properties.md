@@ -84,21 +84,14 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "end": 13
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "d",
-                                                "rawText": "d",
-                                                "flags": 96,
-                                                "start": 13,
-                                                "end": 14
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "d",
+                                            "rawText": "d",
+                                            "flags": 96,
                                             "start": 13,
                                             "end": 14
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 11,
                                         "end": 14
@@ -115,26 +108,19 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "end": 17
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "f",
-                                                "rawText": "f",
-                                                "flags": 96,
-                                                "start": 17,
-                                                "end": 18
-                                            },
-                                            "initializer": {
-                                                "kind": 201392130,
-                                                "text": 0,
-                                                "rawText": "0",
-                                                "flags": 96,
-                                                "start": 19,
-                                                "end": 20
-                                            },
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 96,
                                             "start": 17,
+                                            "end": 18
+                                        },
+                                        "initializer": {
+                                            "kind": 201392130,
+                                            "text": 0,
+                                            "rawText": "0",
+                                            "flags": 96,
+                                            "start": 19,
                                             "end": 20
                                         },
                                         "flags": 32,
@@ -159,46 +145,39 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "end": 24
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 201,
-                                                "elementList": {
-                                                    "kind": 202,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 244,
-                                                            "ellipsisToken": null,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "h",
-                                                                "rawText": "h",
-                                                                "flags": 96,
-                                                                "start": 26,
-                                                                "end": 27
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "initializer": null,
-                                                            "flags": 32,
+                                            "kind": 201,
+                                            "elementList": {
+                                                "kind": 202,
+                                                "elements": [
+                                                    {
+                                                        "kind": 244,
+                                                        "ellipsisToken": null,
+                                                        "binding": {
+                                                            "kind": 134299649,
+                                                            "text": "h",
+                                                            "rawText": "h",
+                                                            "flags": 96,
                                                             "start": 26,
                                                             "end": 27
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 0,
-                                                    "start": 26,
-                                                    "end": 27
-                                                },
-                                                "flags": 32,
-                                                "start": 25,
-                                                "end": 28
+                                                        },
+                                                        "optionalToken": null,
+                                                        "type": null,
+                                                        "initializer": null,
+                                                        "flags": 32,
+                                                        "start": 26,
+                                                        "end": 27
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 26,
+                                                "end": 27
                                             },
-                                            "initializer": null,
                                             "flags": 32,
                                             "start": 25,
                                             "end": 28
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 21,
                                         "end": 28

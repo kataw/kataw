@@ -425,21 +425,14 @@
                                                                     "end": 81
                                                                 },
                                                                 "value": {
-                                                                    "kind": 203,
-                                                                    "ellipsisToken": null,
-                                                                    "binding": {
-                                                                        "kind": 134299649,
-                                                                        "text": "A",
-                                                                        "rawText": "A",
-                                                                        "flags": 96,
-                                                                        "start": 81,
-                                                                        "end": 83
-                                                                    },
-                                                                    "initializer": null,
-                                                                    "flags": 32,
+                                                                    "kind": 134299649,
+                                                                    "text": "A",
+                                                                    "rawText": "A",
+                                                                    "flags": 96,
                                                                     "start": 81,
                                                                     "end": 83
                                                                 },
+                                                                "initializer": null,
                                                                 "flags": 32,
                                                                 "start": 79,
                                                                 "end": 83

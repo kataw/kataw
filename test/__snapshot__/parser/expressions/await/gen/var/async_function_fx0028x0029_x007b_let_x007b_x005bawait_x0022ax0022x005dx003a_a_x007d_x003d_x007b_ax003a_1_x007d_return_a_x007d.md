@@ -205,21 +205,14 @@ var await; var f = (async function() { async function f() {
                                                                                                 "end": 79
                                                                                             },
                                                                                             "value": {
-                                                                                                "kind": 203,
-                                                                                                "ellipsisToken": null,
-                                                                                                "binding": {
-                                                                                                    "kind": 134299649,
-                                                                                                    "text": "a",
-                                                                                                    "rawText": "a",
-                                                                                                    "flags": 96,
-                                                                                                    "start": 80,
-                                                                                                    "end": 82
-                                                                                                },
-                                                                                                "initializer": null,
-                                                                                                "flags": 32,
+                                                                                                "kind": 134299649,
+                                                                                                "text": "a",
+                                                                                                "rawText": "a",
+                                                                                                "flags": 96,
                                                                                                 "start": 80,
                                                                                                 "end": 82
                                                                                             },
+                                                                                            "initializer": null,
                                                                                             "flags": 32,
                                                                                             "start": 67,
                                                                                             "end": 82

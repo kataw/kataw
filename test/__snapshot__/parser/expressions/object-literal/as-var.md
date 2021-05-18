@@ -56,20 +56,13 @@ var {...[]} = {}
                                             "end": 10
                                         },
                                         "value": {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 10,
-                                                "end": 10
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
                                             "start": 10,
                                             "end": 10
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 10
