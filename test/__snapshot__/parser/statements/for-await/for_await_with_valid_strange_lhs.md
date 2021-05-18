@@ -98,9 +98,9 @@ async function f() { for await ("foo".x of y) {} }
                                 "end": 44
                             },
                             "statement": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 47,
@@ -150,8 +150,9 @@ async function f() { for await ("foo".x of y) {} }
 ```javascript
 
 async function f() {
-  for await ("\"foo\"".x of y) {
-  }
+  for await ("\"foo\"".x of y)
+    {
+    }
 }
 ```
 

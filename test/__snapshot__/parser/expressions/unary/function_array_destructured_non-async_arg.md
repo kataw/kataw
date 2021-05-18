@@ -8,7 +8,7 @@ async function f(){   function fh([+ await x]) { }   }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -179,9 +179,9 @@ async function f(){   function fh([+ await x]) { }   }
             "end": 44
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 48,

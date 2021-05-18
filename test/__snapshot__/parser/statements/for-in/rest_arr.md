@@ -93,9 +93,9 @@ for (const [...x] in y){}
                 "end": 22
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 24,
@@ -123,7 +123,8 @@ for (const [...x] in y){}
 
 ```javascript
 
-for ( in y) {}
+for ( in y)
+  {}
 ```
 
 ### Diagnostics

@@ -12,7 +12,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -152,9 +152,9 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                 "end": 67
                                                                             },
                                                                             "block": {
-                                                                                "kind": 249,
+                                                                                "kind": 124,
                                                                                 "block": {
-                                                                                    "kind": 124,
+                                                                                    "kind": 249,
                                                                                     "statements": [
                                                                                         {
                                                                                             "kind": 120,
@@ -201,9 +201,9 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                 "end": 86
                                                                             },
                                                                             "finallyBlock": {
-                                                                                "kind": 249,
+                                                                                "kind": 124,
                                                                                 "block": {
-                                                                                    "kind": 124,
+                                                                                    "kind": 249,
                                                                                     "statements": [
                                                                                         {
                                                                                             "kind": 120,

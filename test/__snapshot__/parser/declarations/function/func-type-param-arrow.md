@@ -114,9 +114,9 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "end": 33
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 34,
@@ -269,9 +269,9 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "end": 90
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 92,
@@ -492,9 +492,9 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "end": 159
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 161,

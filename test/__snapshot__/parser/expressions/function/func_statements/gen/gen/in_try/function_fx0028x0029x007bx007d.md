@@ -15,7 +15,7 @@ try {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -31,9 +31,9 @@ try {
                 "end": 3
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 176,
@@ -108,9 +108,9 @@ try {
                     "end": 33
                 },
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [],
                         "flags": 17,
                         "start": 36,

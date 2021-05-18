@@ -12,7 +12,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -110,9 +110,9 @@
                                 "end": 49
                             },
                             "consequent": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [
                                         {
                                             "kind": 120,
@@ -223,8 +223,8 @@
 function * foo() {
    2;
   if (true) {
-     3;
-  }
+       3;
+    }
    4;
 }
 ```

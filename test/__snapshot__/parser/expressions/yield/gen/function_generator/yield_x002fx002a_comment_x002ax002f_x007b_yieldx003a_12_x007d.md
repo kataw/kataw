@@ -105,9 +105,9 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
                                             "end": 45
                                         },
                                         {
-                                            "kind": 249,
+                                            "kind": 124,
                                             "block": {
-                                                "kind": 124,
+                                                "kind": 249,
                                                 "statements": [
                                                     {
                                                         "kind": 163,

@@ -42,9 +42,9 @@ do {} while (x) { catch
                 "end": 11
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 4,
@@ -59,17 +59,17 @@ do {} while (x) { catch
             "end": 15
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 159,
                         "tryKeyword": null,
                         "block": {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [],
                                 "flags": 16,
                                 "start": 23,
@@ -82,9 +82,9 @@ do {} while (x) { catch
                         "catchClause": null,
                         "finallyKeyword": null,
                         "finallyBlock": {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [],
                                 "flags": 16,
                                 "start": 23,

@@ -213,9 +213,9 @@ let x = { foo(){ super(); } };
             "end": 58
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 60,
@@ -572,9 +572,9 @@ let x = { foo(){ super(); } };
             "end": 161
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 163,
@@ -678,9 +678,9 @@ let x = { foo(){ super(); } };
             "end": 189
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 190,
@@ -1112,9 +1112,9 @@ let x = { foo(){ super(); } };
             "end": 295
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 297,
@@ -1288,9 +1288,9 @@ let x = { foo(){ super(); } };
                                                 "end": 357
                                             },
                                             {
-                                                "kind": 249,
+                                                "kind": 124,
                                                 "block": {
-                                                    "kind": 124,
+                                                    "kind": 249,
                                                     "statements": [],
                                                     "flags": 16,
                                                     "start": 359,
@@ -1753,9 +1753,9 @@ let x = { foo(){ super(); } };
             "end": 482
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 484,

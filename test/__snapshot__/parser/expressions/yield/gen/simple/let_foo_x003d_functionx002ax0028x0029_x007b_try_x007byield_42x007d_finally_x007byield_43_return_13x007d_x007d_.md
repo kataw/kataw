@@ -81,9 +81,9 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                 "end": 27
                                             },
                                             "block": {
-                                                "kind": 249,
+                                                "kind": 124,
                                                 "block": {
-                                                    "kind": 124,
+                                                    "kind": 249,
                                                     "statements": [
                                                         {
                                                             "kind": 120,
@@ -130,9 +130,9 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                 "end": 46
                                             },
                                             "finallyBlock": {
-                                                "kind": 249,
+                                                "kind": 124,
                                                 "block": {
-                                                    "kind": 124,
+                                                    "kind": 249,
                                                     "statements": [
                                                         {
                                                             "kind": 120,

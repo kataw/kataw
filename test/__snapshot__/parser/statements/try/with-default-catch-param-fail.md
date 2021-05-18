@@ -24,9 +24,9 @@ try { } catch ([a] = []) { }
                 "end": 3
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 5,
@@ -78,9 +78,9 @@ try { } catch ([a] = []) { }
                     "end": 18
                 },
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [],
                         "flags": 16,
                         "start": 18,
@@ -121,9 +121,9 @@ try { } catch ([a] = []) { }
             "end": 23
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 26,

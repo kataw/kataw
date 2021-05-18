@@ -82,9 +82,9 @@ for (const x in obj) { var x = 13 }
                 "end": 19
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 155,
@@ -158,7 +158,8 @@ for (const x in obj) { var x = 13 }
 
 ```javascript
 
-for ( in obj) {}
+for ( in obj)
+  {}
 ```
 
 ### Diagnostics

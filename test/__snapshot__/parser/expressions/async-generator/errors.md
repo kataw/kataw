@@ -486,9 +486,9 @@ async function * gen() {class C extends await { }}
                                 "end": 161
                             },
                             "block": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 163,
@@ -515,9 +515,9 @@ async function * gen() {class C extends await { }}
                                     "end": 178
                                 },
                                 "block": {
-                                    "kind": 249,
+                                    "kind": 124,
                                     "block": {
-                                        "kind": 124,
+                                        "kind": 249,
                                         "statements": [],
                                         "flags": 16,
                                         "start": 181,
@@ -604,9 +604,9 @@ async function * gen() {class C extends await { }}
                                 "end": 212
                             },
                             "block": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 214,
@@ -633,9 +633,9 @@ async function * gen() {class C extends await { }}
                                     "end": 229
                                 },
                                 "block": {
-                                    "kind": 249,
+                                    "kind": 124,
                                     "block": {
-                                        "kind": 124,
+                                        "kind": 249,
                                         "statements": [],
                                         "flags": 16,
                                         "start": 232,
@@ -3579,9 +3579,9 @@ async function * gen() {class C extends await { }}
             "end": 1856
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 163,
@@ -3745,9 +3745,9 @@ async function * gen() {class C extends await { }}
             "end": 1914
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 163,
@@ -7286,9 +7286,9 @@ async function * gen() {class C extends await { }}
                             "end": 3227
                         },
                         {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [],
                                 "flags": 16,
                                 "start": 3229,
@@ -7429,9 +7429,9 @@ async function * gen() {class C extends await { }}
                             "end": 3281
                         },
                         {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [],
                                 "flags": 16,
                                 "start": 3283,

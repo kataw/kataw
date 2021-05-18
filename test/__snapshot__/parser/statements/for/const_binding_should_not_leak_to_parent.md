@@ -146,9 +146,9 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "end": 36
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 41,
@@ -291,9 +291,9 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "end": 80
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 85,
@@ -327,8 +327,10 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
 
 ```javascript
 
-for (; ; a  < 1) {}
-for (; ; a  < 1) {}
+for (; ; a  < 1)
+  {}
+for (; ; a  < 1)
+  {}
 
 ```
 

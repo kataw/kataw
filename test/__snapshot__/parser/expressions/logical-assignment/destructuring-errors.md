@@ -301,9 +301,9 @@ x({ x: x &&= 2 ] = { x: 2 });
             "end": 80
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 163,
@@ -644,9 +644,9 @@ x({ x: x &&= 2 ] = { x: 2 });
             "end": 177
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 163,
@@ -811,9 +811,9 @@ x({ x: x &&= 2 ] = { x: 2 });
             "end": 208
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 163,

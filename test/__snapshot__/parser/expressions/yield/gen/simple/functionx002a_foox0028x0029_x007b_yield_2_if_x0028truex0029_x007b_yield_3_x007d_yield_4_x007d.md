@@ -12,7 +12,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -101,9 +101,9 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "end": 35
                             },
                             "consequent": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [
                                         {
                                             "kind": 120,
@@ -214,8 +214,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 function * foo() {
    2;
   if (true) {
-     3;
-  }
+       3;
+    }
    4;
 }
 ```

@@ -115,9 +115,9 @@ function not_gen() { yield * \n { yield: 12 } }}
             "end": 31
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 163,

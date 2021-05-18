@@ -193,9 +193,9 @@ class C { set x(_) { class C { get x) { super; } } } }
             "end": 36
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 120,

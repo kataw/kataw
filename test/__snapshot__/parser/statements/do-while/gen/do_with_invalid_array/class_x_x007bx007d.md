@@ -62,9 +62,9 @@ do while [catch] class x {}
                     "kind": 159,
                     "tryKeyword": null,
                     "block": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 15,
@@ -77,9 +77,9 @@ do while [catch] class x {}
                     "catchClause": null,
                     "finallyKeyword": null,
                     "finallyBlock": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 16,
@@ -102,9 +102,9 @@ do while [catch] class x {}
             "end": 24
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 26,

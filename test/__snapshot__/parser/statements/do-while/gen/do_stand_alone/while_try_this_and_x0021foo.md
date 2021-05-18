@@ -72,9 +72,9 @@ do while try this and !foo
                         "end": 12
                     },
                     "block": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 12,
@@ -87,9 +87,9 @@ do while try this and !foo
                     "catchClause": null,
                     "finallyKeyword": null,
                     "finallyBlock": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 17,

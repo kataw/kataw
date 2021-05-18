@@ -94,9 +94,9 @@ for (const x in [1, 2, 3]) { x++ }
                 "end": 25
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 120,
@@ -151,7 +151,8 @@ for (const x in [1, 2, 3]) { x++ }
 
 ```javascript
 
-for ( in [1, 2, 3]) {}
+for ( in [1, 2, 3])
+  {}
 ```
 
 ### Diagnostics

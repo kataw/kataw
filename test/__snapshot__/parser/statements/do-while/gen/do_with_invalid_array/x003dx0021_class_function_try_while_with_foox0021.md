@@ -201,9 +201,9 @@ do while [catch] =! class function try while with foo!
                     "kind": 159,
                     "tryKeyword": null,
                     "block": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 15,
@@ -216,9 +216,9 @@ do while [catch] =! class function try while with foo!
                     "catchClause": null,
                     "finallyKeyword": null,
                     "finallyBlock": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 16,

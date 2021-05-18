@@ -760,9 +760,9 @@ class C { get name(private) {} }
             "end": 237
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 240,

@@ -411,9 +411,9 @@ async function f(){}
                                             "end": 109
                                         },
                                         {
-                                            "kind": 249,
+                                            "kind": 124,
                                             "block": {
-                                                "kind": 124,
+                                                "kind": 249,
                                                 "statements": [],
                                                 "flags": 16,
                                                 "start": 110,
@@ -611,9 +611,9 @@ async function f(){}
                                                 "end": 159
                                             },
                                             "block": {
-                                                "kind": 249,
+                                                "kind": 124,
                                                 "block": {
-                                                    "kind": 124,
+                                                    "kind": 249,
                                                     "statements": [],
                                                     "flags": 16,
                                                     "start": 159,
@@ -633,9 +633,9 @@ async function f(){}
                                                 },
                                                 "catchParameter": null,
                                                 "block": {
-                                                    "kind": 249,
+                                                    "kind": 124,
                                                     "block": {
-                                                        "kind": 124,
+                                                        "kind": 249,
                                                         "statements": [],
                                                         "flags": 16,
                                                         "start": 165,

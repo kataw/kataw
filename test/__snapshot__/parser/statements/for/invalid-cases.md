@@ -139,9 +139,9 @@ for ({x = y} ;;) {}
                 "end": 31
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 37,
@@ -203,9 +203,9 @@ for ({x = y} ;;) {}
             "condition": null,
             "incrementor": null,
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 58,

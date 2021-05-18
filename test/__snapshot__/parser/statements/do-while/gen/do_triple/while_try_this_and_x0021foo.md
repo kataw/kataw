@@ -114,9 +114,9 @@ do do do while try this and !foo while while while
                                 "end": 18
                             },
                             "block": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 18,
@@ -129,9 +129,9 @@ do do do while try this and !foo while while while
                             "catchClause": null,
                             "finallyKeyword": null,
                             "finallyBlock": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 23,

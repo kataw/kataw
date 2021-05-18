@@ -12,7 +12,7 @@ do {} while (x) { try { !xxx
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -42,9 +42,9 @@ do {} while (x) { try { !xxx
                 "end": 11
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 4,
@@ -59,9 +59,9 @@ do {} while (x) { try { !xxx
             "end": 15
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 159,
@@ -72,9 +72,9 @@ do {} while (x) { try { !xxx
                             "end": 21
                         },
                         "block": {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [
                                     {
                                         "kind": 120,
@@ -114,9 +114,9 @@ do {} while (x) { try { !xxx
                         "catchClause": null,
                         "finallyKeyword": null,
                         "finallyBlock": {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [],
                                 "flags": 16,
                                 "start": 28,

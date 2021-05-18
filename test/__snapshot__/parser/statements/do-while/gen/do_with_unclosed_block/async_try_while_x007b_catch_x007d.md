@@ -42,9 +42,9 @@ do {} while (x) { async try while { catch }
                 "end": 11
             },
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 4,
@@ -59,9 +59,9 @@ do {} while (x) { async try while { catch }
             "end": 15
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 120,
@@ -86,9 +86,9 @@ do {} while (x) { async try while { catch }
                             "end": 27
                         },
                         "block": {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [],
                                 "flags": 16,
                                 "start": 27,
@@ -101,17 +101,17 @@ do {} while (x) { async try while { catch }
                         "catchClause": null,
                         "finallyKeyword": null,
                         "finallyBlock": {
-                            "kind": 249,
+                            "kind": 124,
                             "block": {
-                                "kind": 124,
+                                "kind": 249,
                                 "statements": [
                                     {
                                         "kind": 159,
                                         "tryKeyword": null,
                                         "block": {
-                                            "kind": 249,
+                                            "kind": 124,
                                             "block": {
-                                                "kind": 124,
+                                                "kind": 249,
                                                 "statements": [],
                                                 "flags": 16,
                                                 "start": 41,
@@ -124,9 +124,9 @@ do {} while (x) { async try while { catch }
                                         "catchClause": null,
                                         "finallyKeyword": null,
                                         "finallyBlock": {
-                                            "kind": 249,
+                                            "kind": 124,
                                             "block": {
-                                                "kind": 124,
+                                                "kind": 249,
                                                 "statements": [],
                                                 "flags": 16,
                                                 "start": 43,

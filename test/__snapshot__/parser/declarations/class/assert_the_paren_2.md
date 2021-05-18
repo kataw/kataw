@@ -121,9 +121,9 @@ class x {[x]z){}}
             "end": 13
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 15,

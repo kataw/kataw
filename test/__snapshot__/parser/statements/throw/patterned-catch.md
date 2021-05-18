@@ -24,9 +24,9 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                 "end": 3
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 5,
@@ -228,9 +228,9 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                     "end": 45
                 },
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [],
                         "flags": 16,
                         "start": 48,

@@ -106,9 +106,9 @@ foo: bar: do { do continue foo; while(z); } while(z)
                         "end": 49
                     },
                     "statement": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [
                                 {
                                     "kind": 169,
@@ -191,7 +191,8 @@ foo: bar: do { do continue foo; while(z); } while(z)
 
 ```javascript
 
-foo: bar: do {} while (z);
+foo: bar: do {}
+while (z);
 ```
 
 ### Diagnostics

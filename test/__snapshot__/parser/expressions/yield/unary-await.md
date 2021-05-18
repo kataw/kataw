@@ -64,9 +64,9 @@ fuction *f() {  return await yield;  }
             "end": 12
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 161,

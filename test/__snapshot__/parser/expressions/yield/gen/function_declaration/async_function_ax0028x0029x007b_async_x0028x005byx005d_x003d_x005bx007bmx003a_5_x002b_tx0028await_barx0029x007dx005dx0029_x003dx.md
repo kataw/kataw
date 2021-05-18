@@ -287,9 +287,9 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
             "end": 82
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 87,

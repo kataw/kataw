@@ -342,9 +342,9 @@ switch (answer) { case 0: let a; };
                         },
                         "statements": [
                             {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [
                                         {
                                             "kind": 120,
@@ -2093,9 +2093,9 @@ switch (answer) { case 0: let a; };
                         },
                         "statements": [
                             {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [
                                         {
                                             "kind": 120,
@@ -5294,9 +5294,10 @@ switch([/a/]
     !x;
 
 switch(x
-  case y: {
-    x = b;
-  }
+  case y:
+    {
+      x = b;
+    }
 
 switch(x
   case y:
@@ -5373,9 +5374,10 @@ switch(x
     /a/;
 
 switch(x
-  case y: {
-    x;
-  }
+  case y:
+    {
+      x;
+    }
 
 switch(x
   case y:

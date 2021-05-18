@@ -66,9 +66,9 @@ do while [catch] while try this and !foo
                     "kind": 159,
                     "tryKeyword": null,
                     "block": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 15,
@@ -81,9 +81,9 @@ do while [catch] while try this and !foo
                     "catchClause": null,
                     "finallyKeyword": null,
                     "finallyBlock": {
-                        "kind": 249,
+                        "kind": 124,
                         "block": {
-                            "kind": 124,
+                            "kind": 249,
                             "statements": [],
                             "flags": 16,
                             "start": 16,
@@ -114,9 +114,9 @@ do while [catch] while try this and !foo
                 "end": 26
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 26,
@@ -129,9 +129,9 @@ do while [catch] while try this and !foo
             "catchClause": null,
             "finallyKeyword": null,
             "finallyBlock": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 31,

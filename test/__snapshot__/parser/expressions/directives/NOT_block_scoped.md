@@ -32,9 +32,9 @@ if (x) { "use strict"; with (x) y; }
                 "end": 5
             },
             "consequent": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 120,
@@ -114,9 +114,9 @@ if (x) { "use strict"; with (x) y; }
 ```javascript
 
 if (x) {
-  "\"use strict\"";
-  with (x y;
-}
+    "\"use strict\"";
+    with (x y;
+  }
 ```
 
 ### Diagnostics

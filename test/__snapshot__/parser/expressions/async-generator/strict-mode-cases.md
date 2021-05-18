@@ -207,9 +207,9 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 92
                             },
                             "block": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 94,
@@ -236,9 +236,9 @@ function * x() { "use strict";  yield: 34; }
                                     "end": 109
                                 },
                                 "block": {
-                                    "kind": 249,
+                                    "kind": 124,
                                     "block": {
-                                        "kind": 124,
+                                        "kind": 249,
                                         "statements": [],
                                         "flags": 16,
                                         "start": 112,

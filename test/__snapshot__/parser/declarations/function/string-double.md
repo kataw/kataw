@@ -110,9 +110,9 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "end": 54
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [],
                 "flags": 16,
                 "start": 56,

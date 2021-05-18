@@ -58,9 +58,9 @@ foo: while(z) { while(z) continue foo }
                     "end": 12
                 },
                 "statement": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [
                             {
                                 "kind": 154,

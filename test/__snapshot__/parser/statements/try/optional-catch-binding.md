@@ -24,7 +24,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -40,9 +40,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 3
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 5,
@@ -62,9 +62,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 },
                 "catchParameter": null,
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [],
                         "flags": 16,
                         "start": 14,
@@ -93,9 +93,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 20
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 22,
@@ -115,9 +115,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 },
                 "catchParameter": null,
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [],
                         "flags": 16,
                         "start": 32,
@@ -138,9 +138,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 42
             },
             "finallyBlock": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 44,
@@ -163,9 +163,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 51
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 162,
@@ -223,9 +223,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 },
                 "catchParameter": null,
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [
                             {
                                 "kind": 162,
@@ -292,9 +292,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 84
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 162,
@@ -352,9 +352,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 },
                 "catchParameter": null,
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [
                             {
                                 "kind": 162,
@@ -413,9 +413,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 120
             },
             "finallyBlock": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 162,
@@ -490,9 +490,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 150
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 152,
@@ -512,9 +512,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 },
                 "catchParameter": null,
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [],
                         "flags": 16,
                         "start": 162,
@@ -543,9 +543,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 169
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 159,
@@ -556,9 +556,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 175
                             },
                             "block": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 177,
@@ -578,9 +578,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 },
                                 "catchParameter": null,
                                 "block": {
-                                    "kind": 249,
+                                    "kind": 124,
                                     "block": {
-                                        "kind": 124,
+                                        "kind": 249,
                                         "statements": [],
                                         "flags": 16,
                                         "start": 187,
@@ -601,9 +601,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 197
                             },
                             "finallyBlock": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [],
                                     "flags": 16,
                                     "start": 199,
@@ -643,9 +643,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 212
                 },
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [],
                         "flags": 16,
                         "start": 215,
@@ -674,9 +674,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 222
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [
                         {
                             "kind": 162,
@@ -734,9 +734,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 },
                 "catchParameter": null,
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [
                             {
                                 "kind": 162,
@@ -803,9 +803,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 255
             },
             "block": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 257,
@@ -855,9 +855,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 269
                 },
                 "block": {
-                    "kind": 249,
+                    "kind": 124,
                     "block": {
-                        "kind": 124,
+                        "kind": 249,
                         "statements": [
                             {
                                 "kind": 159,
@@ -868,9 +868,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "end": 276
                                 },
                                 "block": {
-                                    "kind": 249,
+                                    "kind": 124,
                                     "block": {
-                                        "kind": 124,
+                                        "kind": 249,
                                         "statements": [
                                             {
                                                 "kind": 162,
@@ -928,9 +928,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     },
                                     "catchParameter": null,
                                     "block": {
-                                        "kind": 249,
+                                        "kind": 124,
                                         "block": {
-                                            "kind": 124,
+                                            "kind": 249,
                                             "statements": [
                                                 {
                                                     "kind": 162,
@@ -989,9 +989,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "end": 312
                                 },
                                 "finallyBlock": {
-                                    "kind": 249,
+                                    "kind": 124,
                                     "block": {
-                                        "kind": 124,
+                                        "kind": 249,
                                         "statements": [
                                             {
                                                 "kind": 162,
@@ -1104,9 +1104,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 345
                             },
                             "block": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [
                                         {
                                             "kind": 162,
@@ -1164,9 +1164,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 },
                                 "catchParameter": null,
                                 "block": {
-                                    "kind": 249,
+                                    "kind": 124,
                                     "block": {
-                                        "kind": 124,
+                                        "kind": 249,
                                         "statements": [
                                             {
                                                 "kind": 162,
@@ -1225,9 +1225,9 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 381
                             },
                             "finallyBlock": {
-                                "kind": 249,
+                                "kind": 124,
                                 "block": {
-                                    "kind": 124,
+                                    "kind": 249,
                                     "statements": [
                                         {
                                             "kind": 162,

@@ -97,9 +97,9 @@ for (let {x: y = let};;) {}
             "condition": null,
             "incrementor": null,
             "statement": {
-                "kind": 249,
+                "kind": 124,
                 "block": {
-                    "kind": 124,
+                    "kind": 249,
                     "statements": [],
                     "flags": 16,
                     "start": 26,
@@ -127,7 +127,8 @@ for (let {x: y = let};;) {}
 
 ```javascript
 
-for (; ; ) {}
+for (; ; )
+  {}
 ```
 
 ### Diagnostics

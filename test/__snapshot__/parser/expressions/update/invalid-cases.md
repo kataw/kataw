@@ -484,9 +484,9 @@ new new foo().bar++;
             "end": 126
         },
         {
-            "kind": 249,
+            "kind": 124,
             "block": {
-                "kind": 124,
+                "kind": 249,
                 "statements": [
                     {
                         "kind": 163,
