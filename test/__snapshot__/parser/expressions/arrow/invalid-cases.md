@@ -3855,7 +3855,7 @@ a++ => {};
 ✖ Expected a `;` - start: 1730, end: 1733
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1737, end: 1752
 ✖ Expected a `;` - start: 1768, end: 1771
-✖ A rest element cannot have an initializer - start: 1781, end: 1783
+✖ A rest element cannot have an initializer - start: 1783, end: 1785
 ✖ Expected a ')' to match the '(' token here - start: 1802, end: 1804
 ✖ Expected a `;` - start: 1806, end: 1807
 ✖ Declaration or statement expected - start: 1807, end: 1810

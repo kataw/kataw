@@ -1160,7 +1160,7 @@
 ```javascript
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 14
 ✖ Expected a `;` - start: 31, end: 34
-✖ A rest element cannot have an initializer - start: 45, end: 47
+✖ A rest element cannot have an initializer - start: 47, end: 49
 ✖ Expected a ')' to match the '(' token here - start: 66, end: 68
 ✖ Expected a `;` - start: 70, end: 71
 ✖ Declaration or statement expected - start: 71, end: 74

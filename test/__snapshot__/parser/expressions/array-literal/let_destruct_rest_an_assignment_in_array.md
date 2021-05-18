@@ -129,12 +129,12 @@ let [...x=y] = z
 
 ```javascript
 
-let [...x = y] = z;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A rest element cannot have an initializer - start: 10, end: 11
+
 ```
 

@@ -690,10 +690,10 @@
 ```javascript
 ✖ A rest parameter must be last in a parameter list - start: 7, end: 8
 ✖ A rest parameter must be last in a parameter list - start: 7, end: 8
-✖ A rest element cannot have an initializer - start: 16, end: 17
+✖ A rest element cannot have an initializer - start: 17, end: 18
 ✖ A rest parameter must be last in a parameter list - start: 30, end: 31
 ✖ A rest parameter must be last in a parameter list - start: 30, end: 31
-✖ A rest element cannot have an initializer - start: 41, end: 42
+✖ A rest element cannot have an initializer - start: 42, end: 43
 ✖ Expression expected - start: 42, end: 43
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
@@ -721,7 +721,7 @@
 ✖ Expression expected - start: 90, end: 93
 ✖ Expression expected - start: 93, end: 95
 ✖ Expression expected - start: 95, end: 96
-✖ A rest element cannot have an initializer - start: 103, end: 104
+✖ A rest element cannot have an initializer - start: 104, end: 105
 ✖ A rest parameter must be last in a parameter list - start: 117, end: 118
 ✖ A rest parameter must be last in a parameter list - start: 117, end: 118
 ✖ Expression expected - start: 125, end: 126

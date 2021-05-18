@@ -105,7 +105,7 @@
 ### Diagnostics
 
 ```javascript
-✖ A rest element cannot have an initializer - start: 8, end: 10
+✖ A rest element cannot have an initializer - start: 10, end: 13
 
 ```
 
