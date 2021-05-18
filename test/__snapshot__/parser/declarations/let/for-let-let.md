@@ -50,7 +50,7 @@ for (let {x: y = let};;) {}
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 10,
-                                            "end": 12
+                                            "end": 11
                                         },
                                         "value": {
                                             "kind": 134299649,

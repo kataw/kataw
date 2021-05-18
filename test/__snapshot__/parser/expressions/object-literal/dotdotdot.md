@@ -174,7 +174,6 @@ var { ...{ x = 5 } } = {x : 1};
 ### Diagnostics
 
 ```javascript
-✖ The binding pattern is not destructible - start: 9, end: 10
 ✖ Binding identifier expected - start: 9, end: 10
 
 ```

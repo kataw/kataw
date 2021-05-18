@@ -125,9 +125,8 @@ var {...[]} = {}
 ### Diagnostics
 
 ```javascript
-✖ The binding pattern is not destructible - start: 8, end: 9
 ✖ Expression expected - start: 9, end: 10
-✖ Expression expected - start: 10, end: 11
+✖ Binding identifier expected - start: 10, end: 11
 
 ```
 

@@ -1642,7 +1642,7 @@ var {get} = obj;
                                             "rawText": "propName",
                                             "flags": 96,
                                             "start": 422,
-                                            "end": 431
+                                            "end": 430
                                         },
                                         "value": {
                                             "kind": 134299649,

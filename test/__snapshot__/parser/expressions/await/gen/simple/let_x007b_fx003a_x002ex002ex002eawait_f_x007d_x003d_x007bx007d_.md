@@ -46,7 +46,7 @@ let { f: ...await f } = {};
                                             "rawText": "f",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 8
+                                            "end": 7
                                         },
                                         "value": {
                                             "kind": 16637,
@@ -73,7 +73,7 @@ let { f: ...await f } = {};
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
-                                            "start": 8,
+                                            "start": 12,
                                             "end": 17
                                         },
                                         "right": null,
@@ -155,7 +155,7 @@ let { f: ...await f } = {};
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 12
+✖ Expecated a ':' - start: 8, end: 12
 ✖ ',' expected - start: 8, end: 12
 ✖ ',' expected - start: 17, end: 19
 

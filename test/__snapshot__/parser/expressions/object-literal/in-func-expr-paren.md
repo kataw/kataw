@@ -70,7 +70,7 @@
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
-                                                    "start": 13,
+                                                    "start": 17,
                                                     "end": 18
                                                 },
                                                 "right": null,

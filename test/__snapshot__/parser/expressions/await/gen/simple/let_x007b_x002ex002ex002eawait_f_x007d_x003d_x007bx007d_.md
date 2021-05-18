@@ -50,7 +50,7 @@ let { ...await f } = {};
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
-                                            "start": 5,
+                                            "start": 9,
                                             "end": 14
                                         },
                                         "right": null,

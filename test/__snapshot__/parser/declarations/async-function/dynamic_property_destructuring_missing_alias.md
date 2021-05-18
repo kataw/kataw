@@ -133,7 +133,7 @@ let {[x]} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 9
+✖ Expecated a ':' - start: 8, end: 9
 
 ```
 

@@ -47,7 +47,7 @@ var { f: await f } = {};
                                             "rawText": "f",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 8
+                                            "end": 7
                                         },
                                         "value": {
                                             "kind": 134299649,

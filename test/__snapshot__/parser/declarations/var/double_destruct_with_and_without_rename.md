@@ -62,7 +62,7 @@ var {x : y, z} = obj;
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 8
+                                            "end": 6
                                         },
                                         "value": {
                                             "kind": 134299649,

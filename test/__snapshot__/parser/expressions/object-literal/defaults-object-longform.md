@@ -43,7 +43,7 @@ var { x: x = 10 } = x;
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 8
+                                            "end": 7
                                         },
                                         "value": {
                                             "kind": 134299649,

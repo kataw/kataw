@@ -4236,7 +4236,7 @@ async function * gen() {class C extends await { }}
                                                                             "rawText": "foo",
                                                                             "flags": 96,
                                                                             "start": 2166,
-                                                                            "end": 2170
+                                                                            "end": 2169
                                                                         },
                                                                         "value": {
                                                                             "kind": 134299649,
@@ -4400,7 +4400,7 @@ async function * gen() {class C extends await { }}
                                                                             "rawText": "foo",
                                                                             "flags": 96,
                                                                             "start": 2219,
-                                                                            "end": 2223
+                                                                            "end": 2222
                                                                         },
                                                                         "value": {
                                                                             "kind": 134299649,
@@ -5503,7 +5503,7 @@ async function * gen() {class C extends await { }}
                                                             "rawText": "foo",
                                                             "flags": 96,
                                                             "start": 2605,
-                                                            "end": 2609
+                                                            "end": 2608
                                                         },
                                                         "value": {
                                                             "kind": 134299649,
@@ -5690,7 +5690,7 @@ async function * gen() {class C extends await { }}
                                                             "rawText": "foo",
                                                             "flags": 96,
                                                             "start": 2661,
-                                                            "end": 2665
+                                                            "end": 2664
                                                         },
                                                         "value": {
                                                             "kind": 134299649,
@@ -7802,10 +7802,10 @@ async function * gen() {class C extends await { }}
 ✖ Declaration or statement expected - start: 2574, end: 2575
 ✖ 'yield' cannot be used as an identifier here - start: 2609, end: 2615
 ✖ ',' expected - start: 2615, end: 2618
-✖ Expression expected - start: 2618, end: 2619
+✖ Expecated a ':' - start: 2618, end: 2619
 ✖ 'await' cannot be used as an identifier here - start: 2665, end: 2671
 ✖ ',' expected - start: 2671, end: 2674
-✖ Expression expected - start: 2674, end: 2675
+✖ Expecated a ':' - start: 2674, end: 2675
 ✖ The left-hand side must be a variable or a property access. - start: 2722, end: 2724
 ✖ The left-hand side must be a variable or a property access. - start: 2766, end: 2768
 ✖ The left-hand side must be a variable or a property access. - start: 2814, end: 2816

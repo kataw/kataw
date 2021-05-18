@@ -43,7 +43,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 7
+                                            "end": 6
                                         },
                                         "value": {
                                             "kind": 134299649,
@@ -67,7 +67,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "rawText": "z",
                                             "flags": 96,
                                             "start": 10,
-                                            "end": 13
+                                            "end": 12
                                         },
                                         "value": {
                                             "kind": 212,
@@ -83,7 +83,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "rawText": "a",
                                                             "flags": 96,
                                                             "start": 15,
-                                                            "end": 18
+                                                            "end": 17
                                                         },
                                                         "value": {
                                                             "kind": 134299649,

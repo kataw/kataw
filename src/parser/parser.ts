@@ -4515,23 +4515,10 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
 function parseBindingProperty(parser: ParserState, context: Context): BindingProperty | SingleNameBinding {
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+  const token = parser.token;
+  const key = parsePropertyName(parser, context);
 
-  if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    const tokenValue = parser.tokenValue;
-    const tokenRaw = parser.tokenRaw;
-    const token = parser.token;
-
-    nextToken(parser, context);
-    if (consumeOpt(parser, context, SyntaxKind.Colon)) {
-      return createBindingProperty(
-        ellipsisToken,
-        createIdentifier(tokenValue, tokenRaw, pos, parser.curPos),
-        parseIdentifierOrPattern(parser, context),
-        parseInitializer(parser, context),
-        pos,
-        parser.curPos
-      );
-    }
+  if (token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) && parser.token !== SyntaxKind.Colon) {
     if (ellipsisToken && parser.token === SyntaxKind.Assign) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -4542,40 +4529,18 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
       );
     }
 
-    if (context & Context.Strict && token & SyntaxKind.IsFutureReserved) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-        parser.curPos,
-        parser.pos
-      );
-    }
-
-    return createSingleNameBinding(
-      ellipsisToken,
-      createIdentifier(tokenValue, tokenRaw, pos, parser.curPos),
-      parseInitializer(parser, context),
-      pos,
-      parser.curPos
-    );
+    return createSingleNameBinding(ellipsisToken, key as any, parseInitializer(parser, context), pos, parser.curPos);
   }
 
-  if (ellipsisToken) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.The_binding_pattern_is_not_destructible],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  const key = parsePropertyName(parser, context);
   consume(parser, context, SyntaxKind.Colon);
   return createBindingProperty(
     ellipsisToken,
     key,
-    parseIdentifierOrPattern(parser, context),
+    parseIdentifierOrPattern(
+      parser,
+      context,
+      ellipsisToken ? DiagnosticCode.Binding_identifier_expected : DiagnosticCode.Expecated_a
+    ),
     parseInitializer(parser, context),
     pos,
     parser.curPos

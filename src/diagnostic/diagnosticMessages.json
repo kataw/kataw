@@ -176,6 +176,7 @@
   "Object literal epected": 178,
   "The variable declaration of a 'for...of ... in' statement cannot have an initializer.": 179,
   "'static' modifier already seen": 180,
-  "An object literal cannot have multiple properties with the name '__proto__'": 181
+  "An object literal cannot have multiple properties with the name '__proto__'": 181,
+  "Expecated a ':'": 182
 }
 

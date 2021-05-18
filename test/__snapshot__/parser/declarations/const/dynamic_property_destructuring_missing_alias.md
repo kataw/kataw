@@ -133,7 +133,7 @@ const {[x]} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 10, end: 11
+✖ Expecated a ':' - start: 10, end: 11
 
 ```
 

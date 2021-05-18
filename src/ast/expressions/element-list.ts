@@ -1,13 +1,13 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SpreadElement } from './spread-element';
-import { OmittedExpression } from './omitted-expr';
+import { Elison } from './elison';
 import { ExpressionNode } from '.';
 
 /**
  * BindingElementList
  */
 
-export type ListElements = OmittedExpression | ExpressionNode | SpreadElement;
+export type ListElements = Elison | ExpressionNode | SpreadElement;
 
 export interface ElementList extends SyntaxNode {
   readonly elements: ListElements[];

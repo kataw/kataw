@@ -12,7 +12,7 @@ async function f({ await }) {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -127,14 +127,12 @@ async function f({ await }) {}
 
 ```javascript
 
-async function f({
-  await
-}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'await' cannot be used as an identifier here - start: 18, end: 24
+
 ```
 

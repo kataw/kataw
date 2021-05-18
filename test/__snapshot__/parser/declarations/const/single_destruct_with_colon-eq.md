@@ -50,7 +50,7 @@ const {a:=c} = z;
                                             "rawText": "a",
                                             "flags": 96,
                                             "start": 7,
-                                            "end": 9
+                                            "end": 8
                                         },
                                         "value": {
                                             "kind": 16637,
@@ -123,7 +123,7 @@ const {a:=c} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 10
+✖ Expecated a ':' - start: 9, end: 10
 
 ```
 

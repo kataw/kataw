@@ -140,7 +140,7 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                                                                 "rawText": "f",
                                                                                 "flags": 96,
                                                                                 "start": 46,
-                                                                                "end": 49
+                                                                                "end": 48
                                                                             },
                                                                             "value": {
                                                                                 "kind": 134299649,

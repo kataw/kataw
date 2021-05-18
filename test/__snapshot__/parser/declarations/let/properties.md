@@ -81,7 +81,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "rawText": "c",
                                             "flags": 96,
                                             "start": 11,
-                                            "end": 13
+                                            "end": 12
                                         },
                                         "value": {
                                             "kind": 134299649,
@@ -105,7 +105,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "rawText": "e",
                                             "flags": 96,
                                             "start": 15,
-                                            "end": 17
+                                            "end": 16
                                         },
                                         "value": {
                                             "kind": 134299649,

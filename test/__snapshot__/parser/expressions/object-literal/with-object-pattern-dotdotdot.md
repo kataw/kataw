@@ -46,7 +46,7 @@ let { ...x, y, z } = obj;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
-                                            "start": 5,
+                                            "start": 9,
                                             "end": 10
                                         },
                                         "right": null,

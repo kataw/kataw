@@ -46,7 +46,7 @@ const { f: await f } = {};
                                             "rawText": "f",
                                             "flags": 96,
                                             "start": 7,
-                                            "end": 10
+                                            "end": 9
                                         },
                                         "value": {
                                             "kind": 134299649,

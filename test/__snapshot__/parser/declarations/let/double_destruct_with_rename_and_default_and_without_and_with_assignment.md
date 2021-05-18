@@ -61,7 +61,7 @@ let {x:y=z}, {a:b=c} = obj;
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 7
+                                            "end": 6
                                         },
                                         "value": {
                                             "kind": 134299649,
@@ -116,7 +116,7 @@ let {x:y=z}, {a:b=c} = obj;
                                             "rawText": "a",
                                             "flags": 96,
                                             "start": 14,
-                                            "end": 16
+                                            "end": 15
                                         },
                                         "value": {
                                             "kind": 134299649,

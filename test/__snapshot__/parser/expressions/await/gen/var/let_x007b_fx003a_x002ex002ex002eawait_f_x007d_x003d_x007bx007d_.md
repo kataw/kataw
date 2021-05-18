@@ -140,7 +140,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                                 "rawText": "f",
                                                                                 "flags": 96,
                                                                                 "start": 44,
-                                                                                "end": 47
+                                                                                "end": 46
                                                                             },
                                                                             "value": {
                                                                                 "kind": 16637,
@@ -167,7 +167,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                                 "text": "await",
                                                                                 "rawText": "await",
                                                                                 "flags": 96,
-                                                                                "start": 47,
+                                                                                "start": 51,
                                                                                 "end": 56
                                                                             },
                                                                             "right": null,
@@ -281,8 +281,9 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 47, end: 51
+✖ Expecated a ':' - start: 47, end: 51
 ✖ ',' expected - start: 47, end: 51
+✖ 'await' cannot be used as an identifier here - start: 51, end: 56
 ✖ ',' expected - start: 56, end: 58
 
 ```

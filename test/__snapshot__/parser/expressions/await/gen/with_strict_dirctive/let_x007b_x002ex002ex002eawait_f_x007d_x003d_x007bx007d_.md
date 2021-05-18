@@ -59,7 +59,7 @@
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
-                                            "start": 19,
+                                            "start": 23,
                                             "end": 28
                                         },
                                         "right": null,

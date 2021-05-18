@@ -66,7 +66,7 @@ var {x = 10, y: { z = 10}} = a;
                                             "rawText": "y",
                                             "flags": 96,
                                             "start": 12,
-                                            "end": 15
+                                            "end": 14
                                         },
                                         "value": {
                                             "kind": 212,

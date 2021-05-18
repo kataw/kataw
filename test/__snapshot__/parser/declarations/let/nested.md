@@ -42,7 +42,7 @@ let {a:{}} = 0
                                             "rawText": "a",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 7
+                                            "end": 6
                                         },
                                         "value": {
                                             "kind": 212,

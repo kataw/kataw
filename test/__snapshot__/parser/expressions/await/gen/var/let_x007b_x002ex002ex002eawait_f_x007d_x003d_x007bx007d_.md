@@ -144,7 +144,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
                                                                                 "text": "await",
                                                                                 "rawText": "await",
                                                                                 "flags": 96,
-                                                                                "start": 44,
+                                                                                "start": 48,
                                                                                 "end": 53
                                                                             },
                                                                             "right": null,
@@ -258,6 +258,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
 ### Diagnostics
 
 ```javascript
+✖ 'await' cannot be used as an identifier here - start: 48, end: 53
 ✖ ',' expected - start: 53, end: 55
 
 ```

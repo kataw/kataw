@@ -55,7 +55,7 @@
                                             "rawText": "f",
                                             "flags": 96,
                                             "start": 19,
-                                            "end": 22
+                                            "end": 21
                                         },
                                         "value": {
                                             "kind": 16637,
@@ -82,7 +82,7 @@
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
-                                            "start": 22,
+                                            "start": 26,
                                             "end": 31
                                         },
                                         "right": null,
@@ -164,7 +164,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 22, end: 26
+✖ Expecated a ':' - start: 22, end: 26
 ✖ ',' expected - start: 22, end: 26
 ✖ ',' expected - start: 31, end: 33
 

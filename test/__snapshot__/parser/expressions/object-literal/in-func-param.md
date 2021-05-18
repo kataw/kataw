@@ -141,7 +141,6 @@ function test({...{}}) {}
 ### Diagnostics
 
 ```javascript
-✖ The binding pattern is not destructible - start: 18, end: 19
 ✖ Binding identifier expected - start: 18, end: 19
 
 ```

@@ -3965,7 +3965,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 1056,
-                                            "end": 1058
+                                            "end": 1057
                                         },
                                         "value": {
                                             "kind": 134299649,
@@ -4021,7 +4021,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "rawText": "y",
                                             "flags": 96,
                                             "start": 1069,
-                                            "end": 1071
+                                            "end": 1070
                                         },
                                         "value": {
                                             "kind": 134299649,
@@ -4151,7 +4151,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 1099,
-                                            "end": 1101
+                                            "end": 1100
                                         },
                                         "value": {
                                             "kind": 134299649,

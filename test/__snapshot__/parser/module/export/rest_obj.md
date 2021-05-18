@@ -60,7 +60,7 @@ export let {...x} = y
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
-                                                "start": 12,
+                                                "start": 15,
                                                 "end": 16
                                             },
                                             "right": null,

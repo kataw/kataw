@@ -261,7 +261,7 @@ export const enum SyntaxKind {
   ObjectTypeProperty = 193,
   ObjectTypeSpreadProperty = 247,
   OfKeyword = 16793717,
-  OmittedExpression = 230,
+  Elison = 230,
   OpaqueKeyword = 24822,
   OptionalChain = 206,
   OptionalExpression = 205,

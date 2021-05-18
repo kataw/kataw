@@ -1,12 +1,12 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ArrayBindingElement } from './array-binding-element';
-import { OmittedExpression } from './omitted-expr';
+import { Elison } from './elison';
 
 /**
  * BindingElementList
  */
 
-export type BindingListElements = OmittedExpression | ArrayBindingElement;
+export type BindingListElements = Elison | ArrayBindingElement;
 
 export interface BindingElementList extends SyntaxNode {
   readonly elements: BindingListElements[];

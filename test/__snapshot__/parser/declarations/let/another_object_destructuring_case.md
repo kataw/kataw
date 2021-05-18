@@ -65,7 +65,7 @@ let {...x} = y
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
-                                            "start": 5,
+                                            "start": 8,
                                             "end": 9
                                         },
                                         "right": null,

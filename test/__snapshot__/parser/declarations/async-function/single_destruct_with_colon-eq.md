@@ -50,7 +50,7 @@ let {a:=c} = z;
                                             "rawText": "a",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 7
+                                            "end": 6
                                         },
                                         "value": {
                                             "kind": 16637,
@@ -123,7 +123,7 @@ let {a:=c} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 7, end: 8
+✖ Expecated a ':' - start: 7, end: 8
 
 ```
 

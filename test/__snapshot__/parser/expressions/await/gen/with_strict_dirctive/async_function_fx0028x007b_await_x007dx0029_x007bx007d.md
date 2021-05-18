@@ -12,7 +12,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -136,14 +136,12 @@
 
 ```javascript
 
-async function f({
-  await
-}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'await' cannot be used as an identifier here - start: 32, end: 38
+
 ```
 

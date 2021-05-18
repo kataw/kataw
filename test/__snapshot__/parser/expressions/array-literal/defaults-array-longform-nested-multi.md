@@ -62,7 +62,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 7
+                                            "end": 6
                                         },
                                         "value": {
                                             "kind": 134299649,
@@ -86,7 +86,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "rawText": "y",
                                             "flags": 96,
                                             "start": 10,
-                                            "end": 13
+                                            "end": 12
                                         },
                                         "value": {
                                             "kind": 134299649,
@@ -110,7 +110,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "rawText": "z",
                                             "flags": 96,
                                             "start": 16,
-                                            "end": 19
+                                            "end": 18
                                         },
                                         "value": {
                                             "kind": 212,
@@ -126,7 +126,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                             "rawText": "a",
                                                             "flags": 96,
                                                             "start": 21,
-                                                            "end": 24
+                                                            "end": 23
                                                         },
                                                         "value": {
                                                             "kind": 134299649,
