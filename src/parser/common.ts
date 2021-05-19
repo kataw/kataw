@@ -39,7 +39,8 @@ export const enum DestructibleKind {
   Assignable = 1 << 2,
   Destructible = 1 << 3,
   DisallowTrailing = 1 << 4,
-  CoverInitializedName = 1 << 5
+  CoverInitializedName = 1 << 5,
+  EvalOrArguments = 1 << 6
 }
 
 export const enum BindingType {
@@ -173,6 +174,19 @@ export function speculate(parser: ParserState, context: Context, callback: any, 
     parser.tokenRaw = tokenRaw;
   }
   return result;
+}
+
+export function canParseSemicolon(parser: ParserState): number {
+  // We can parse out an optional semicolon in ASI cases in the following cases.
+  return parser.token & SyntaxKind.Smi || parser.nodeFlags & NodeFlags.NewLine;
+}
+
+export function isValidDirective(parser: ParserState): boolean {
+  return (
+    parser.token === SyntaxKind.NumericLiteral ||
+    ((parser.token & (SyntaxKind.IsPropertyOrCall | SyntaxKind.IsBinaryOp | SyntaxKind.IsExpressionStart)) === 0 &&
+      !!canParseSemicolon(parser))
+  );
 }
 
 export function isIterationStatement(t: SyntaxKind): boolean {

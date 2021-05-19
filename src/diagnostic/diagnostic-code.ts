@@ -180,7 +180,8 @@ export const enum DiagnosticCode {
   The_variable_declaration_of_a_for_of_in_statement_cannot_have_an_initializer = 179,
   _static_modifier_already_seen = 180,
   An_object_literal_cannot_have_multiple_properties_with_the_name___proto = 181,
-  Expecated_a = 182
+  Expecated_a = 182,
+  Cannot_assign_to_eval_and_arguments_because_they_are_not_a_variable = 183
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -362,5 +363,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [179]: "The variable declaration of a 'for...of ... in' statement cannot have an initializer.",
   [180]: "'static' modifier already seen",
   [181]: "An object literal cannot have multiple properties with the name '__proto__'",
-  [182]: "Expecated a ':'"
+  [182]: "Expecated a ':'",
+  [183]: "Cannot assign to 'eval' and 'arguments' because they are not a variable"
 };

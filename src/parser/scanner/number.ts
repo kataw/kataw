@@ -355,7 +355,6 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
     // Scan a implicit octal, or "noctal" (a number starting with '0' that contains '8' or '9' and is
     // treated as decimal) number.
     if (cp >= Char.Zero && cp <= Char.Eight) {
-
       parser.nodeFlags |= NodeFlags.ImplicitOctal;
       type = NumberKind.ImplicitOctal;
       do {
@@ -366,7 +365,6 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
           break;
         }
       } while (cp >= Char.Zero && cp <= Char.Nine);
-
 
       if (cp === Char.Underscore) {
         parser.onError(

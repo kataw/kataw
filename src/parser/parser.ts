@@ -169,7 +169,9 @@ import {
   DestructibleKind,
   BindingType,
   speculate,
-  isIterationStatement
+  isIterationStatement,
+  canParseSemicolon,
+  isValidDirective
 } from './common';
 
 // prettier-ignore
@@ -617,11 +619,6 @@ function parseEmptyStatement(parser: ParserState, context: Context): EmptyStatem
   const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   return createEmptyStatement(pos, parser.curPos);
-}
-
-function canParseSemicolon(parser: ParserState): number {
-  // We can parse out an optional semicolon in ASI cases in the following cases.
-  return parser.token & SyntaxKind.Smi || parser.nodeFlags & NodeFlags.NewLine;
 }
 
 // BreakStatement :
@@ -1485,7 +1482,9 @@ function parseAssignmentExpression(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+          parser.destructible & DestructibleKind.EvalOrArguments
+            ? DiagnosticCode.Cannot_assign_to_eval_and_arguments_because_they_are_not_a_variable
+            : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
         ],
         parser.curPos,
         parser.pos
@@ -2249,10 +2248,13 @@ function parsePrimaryExpression(
       );
     }
 
-    parser.assignable =
-      context & Context.Strict && (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier)
-        ? false
-        : true;
+    if (context & Context.Strict && (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier)) {
+      parser.destructible |= DestructibleKind.EvalOrArguments;
+      parser.assignable = false;
+      return expression;
+    }
+
+    parser.assignable = true;
 
     return expression;
   }
@@ -3835,7 +3837,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       parser.token === SyntaxKind.LeftBracket
         ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
         : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
-
     if (expression.flags & NodeFlags.PrototypeField) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -5056,12 +5057,6 @@ function parseFunctionBody(
 
   // Empty list
   return createFunctionBody(createFunctionStatementList([], [], NodeFlags.ExpressionNode, pos, pos), pos, pos);
-}
-export function isValidDirective(state: ParserState): boolean {
-  return (
-    state.token === SyntaxKind.NumericLiteral ||
-    ((state.token & (SyntaxKind.IsPropertyOrCall | SyntaxKind.IsExpressionStart)) === 0 && !!canParseSemicolon(state))
-  );
 }
 
 function parseFunctionStatementList(

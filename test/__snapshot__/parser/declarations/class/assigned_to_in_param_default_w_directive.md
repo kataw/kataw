@@ -178,7 +178,7 @@ class c {foo(x=eval=y){ "use strict"; }}
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 20
+✖ Cannot assign to 'eval' and 'arguments' because they are not a variable - start: 19, end: 20
 ✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 13, end: 37
 
 ```

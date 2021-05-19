@@ -14,7 +14,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -212,8 +212,8 @@
 
 ```javascript
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 18, end: 20
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 41, end: 43
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 66, end: 69
+✖ Cannot assign to 'eval' and 'arguments' because they are not a variable - start: 41, end: 43
+✖ Cannot assign to 'eval' and 'arguments' because they are not a variable - start: 66, end: 69
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 97, end: 99
 
 ```
