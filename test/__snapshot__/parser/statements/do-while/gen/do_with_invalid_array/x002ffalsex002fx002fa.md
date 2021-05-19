@@ -122,7 +122,7 @@ do while [catch] /false//a
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Unterminated regular expression - start: 24, end: 25
-✖ Expected a ')' to match the '(' token here - start: 26, end: 26
+✖ Declaration or statement expected - start: 26, end: 26
 
 ```
 

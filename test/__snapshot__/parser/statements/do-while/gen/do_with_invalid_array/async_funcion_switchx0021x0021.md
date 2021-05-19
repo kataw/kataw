@@ -172,7 +172,7 @@ do while [catch] async funcion switch!!
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Expected a ')' to match the '(' token here - start: 30, end: 37
+✖ Declaration or statement expected - start: 30, end: 37
 ✖ Expression expected - start: 39, end: 39
 
 ```

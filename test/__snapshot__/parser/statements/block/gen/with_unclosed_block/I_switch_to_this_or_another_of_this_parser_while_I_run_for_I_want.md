@@ -341,7 +341,7 @@
 ✖ Expected a `;` - start: 48, end: 53
 ✖ Expected a `;` - start: 53, end: 60
 ✖ Expected a `;` - start: 60, end: 66
-✖ Expected a ')' to match the '(' token here - start: 68, end: 72
+✖ Declaration or statement expected - start: 68, end: 72
 ✖ Expected a `;` - start: 72, end: 76
 ✖ Expression expected - start: 83, end: 83
 

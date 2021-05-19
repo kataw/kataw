@@ -162,9 +162,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 10, end: 17
+✖ Declaration or statement expected - start: 10, end: 17
 ✖ Expression expected - start: 17, end: 23
-✖ Expected a ')' to match the '(' token here - start: 25, end: 31
+✖ Declaration or statement expected - start: 25, end: 31
 
 ```
 

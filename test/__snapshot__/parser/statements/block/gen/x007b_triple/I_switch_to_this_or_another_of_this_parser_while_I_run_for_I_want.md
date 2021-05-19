@@ -291,7 +291,7 @@
 ✖ Expected a `;` - start: 36, end: 41
 ✖ Expected a `;` - start: 41, end: 48
 ✖ Expected a `;` - start: 48, end: 54
-✖ Expected a ')' to match the '(' token here - start: 56, end: 60
+✖ Declaration or statement expected - start: 56, end: 60
 ✖ Expected a `;` - start: 60, end: 64
 ✖ Expression expected - start: 71, end: 71
 

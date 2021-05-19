@@ -263,7 +263,7 @@
 ✖ Expected a `;` - start: 32, end: 37
 ✖ Expected a `;` - start: 37, end: 44
 ✖ Expected a `;` - start: 44, end: 50
-✖ Expected a ')' to match the '(' token here - start: 52, end: 56
+✖ Declaration or statement expected - start: 52, end: 56
 ✖ Expected a `;` - start: 56, end: 60
 ✖ Expression expected - start: 67, end: 67
 

@@ -134,9 +134,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 6, end: 13
+✖ Declaration or statement expected - start: 6, end: 13
 ✖ Expression expected - start: 13, end: 19
-✖ Expected a ')' to match the '(' token here - start: 21, end: 27
+✖ Declaration or statement expected - start: 21, end: 27
 
 ```
 

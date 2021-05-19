@@ -146,7 +146,7 @@ do( async try while { catch } while
 ✖ Expected a ')' to match the '(' token here - start: 9, end: 13
 ✖ Expression expected - start: 13, end: 19
 ✖ Property definition expected. Did you mean to use a ':'? - start: 27, end: 29
-✖ Expected a ')' to match the '(' token here - start: 29, end: 35
+✖ Declaration or statement expected - start: 29, end: 35
 
 ```
 

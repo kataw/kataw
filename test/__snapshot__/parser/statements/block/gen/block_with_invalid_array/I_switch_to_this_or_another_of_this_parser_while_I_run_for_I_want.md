@@ -320,7 +320,7 @@
 ✖ Expected a `;` - start: 40, end: 45
 ✖ Expected a `;` - start: 45, end: 52
 ✖ Expected a `;` - start: 52, end: 58
-✖ Expected a ')' to match the '(' token here - start: 60, end: 64
+✖ Declaration or statement expected - start: 60, end: 64
 ✖ Expected a `;` - start: 64, end: 68
 ✖ Expression expected - start: 75, end: 75
 
