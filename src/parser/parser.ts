@@ -2994,6 +2994,15 @@ function parseRegularExpression(parser: ParserState, context: Context): RegularE
 // NumericLiteral
 function parseNumericLiteral(parser: ParserState, context: Context): NumericLiteral {
   const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
+  if (context & Context.Strict && nodeFlags & NodeFlags.ImplicitOctal) {
+    parser.onError(
+      DiagnosticSource.Lexer,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Octal_literals_are_not_allowed_in_strict_mode],
+      parser.curPos,
+      parser.pos
+    );
+  }
   nextToken(parser, context);
   parser.assignable = false;
   return createNumericLiteral(

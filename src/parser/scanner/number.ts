@@ -355,6 +355,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
     // Scan a implicit octal, or "noctal" (a number starting with '0' that contains '8' or '9' and is
     // treated as decimal) number.
     if (cp >= Char.Zero && cp <= Char.Eight) {
+
       parser.nodeFlags |= NodeFlags.ImplicitOctal;
       type = NumberKind.ImplicitOctal;
       do {
@@ -366,15 +367,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
         }
       } while (cp >= Char.Zero && cp <= Char.Nine);
 
-      if (context & Context.Strict) {
-        parser.onError(
-          DiagnosticSource.Lexer,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Octal_literals_are_not_allowed_in_strict_mode],
-          parser.curPos,
-          pos
-        );
-      }
+
       if (cp === Char.Underscore) {
         parser.onError(
           DiagnosticSource.Lexer,
