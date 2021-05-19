@@ -703,9 +703,11 @@ function parseIfStatement(parser: ParserState, context: Context): IfStatement {
       parser.pos
     );
   }
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  openParenExists
+  ? parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen)
+  : consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen, DiagnosticCode.Declaration_or_statement_expected);
   const consequent = parseConsequentOrAlternative(parser, context);
   const elseKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.ElseKeyword);
   const alternate = elseKeyword ? parseConsequentOrAlternative(parser, context) : null;
@@ -732,9 +734,11 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context): St
 function parseWhileStatement(parser: ParserState, context: Context): WhileStatement {
   const pos = parser.curPos;
   const whileToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  openParenExists
+  ? parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen)
+  : consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen, DiagnosticCode.Declaration_or_statement_expected);
   const statement = parseStatement(
     parser,
     (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
@@ -762,9 +766,11 @@ function parseDoWhileStatement(parser: ParserState, context: Context): DoWhileSt
       parser.pos
     );
   }
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  openParenExists
+    ? parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen)
+    : consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen, DiagnosticCode.Declaration_or_statement_expected);
   consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
   return createDoWhileStatement(doKeyword, expression, whileKeyword, statement, pos, parser.curPos);
 }
@@ -783,9 +789,11 @@ function parseWithStatement(parser: ParserState, context: Context): WithStatemen
     );
   }
   const withKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WithKeyword);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  openParenExists
+  ? parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen)
+  : consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen, DiagnosticCode.Declaration_or_statement_expected);
   const statement = parseStatement(
     parser,
     (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
