@@ -148,8 +148,8 @@ function arguments() { "use strict"; }
 ### Diagnostics
 
 ```javascript
-✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 13, end: 31
-✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 53, end: 71
+✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 8, end: 17
+✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 43, end: 57
 
 ```
 

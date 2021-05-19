@@ -8,7 +8,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -151,7 +151,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 29, end: 30
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 12, end: 30
 
 ```
 

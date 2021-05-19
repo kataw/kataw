@@ -8,7 +8,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -198,7 +198,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 68, end: 69
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 39, end: 69
 
 ```
 

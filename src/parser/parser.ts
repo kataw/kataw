@@ -2773,9 +2773,9 @@ function parseMethodDefinition(
     context | Context.NewTarget,
     /* isDeclared */ isDeclared,
     /* isDecl */ false,
-    /* , /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
+    /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
     /* ignoreMissingOpenBrace */ false,
-    /* firstRestriced */ parser.token
+    /* firstRestricted */ null
   );
   parser.destructible = DestructibleKind.NotDestructible;
   return createMethodDefinition(
@@ -3796,6 +3796,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
         if (!parser.assignable) {
           destructible |= DestructibleKind.NotDestructible;
+          parser.diagnosticStartPos = curPos;
           flags |= NodeFlags.NoneSimpleParamList;
         }
       } else {
@@ -3835,6 +3836,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         parser.pos
       );
     }
+    parser.diagnosticStartPos = curPos;
     flags |= NodeFlags.NoneSimpleParamList;
 
     if (parser.token === SyntaxKind.QuestionMark) {
@@ -4117,10 +4119,12 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
               if (!parser.assignable) {
                 destructible |= DestructibleKind.NotDestructible;
+                parser.diagnosticStartPos = curPos;
                 flags |= NodeFlags.NoneSimpleParamList;
               }
             } else {
               if (parser.token === SyntaxKind.Assign) {
+                parser.diagnosticStartPos = curPos;
                 flags |= NodeFlags.NoneSimpleParamList;
               } else {
                 state = Tristate.False;
@@ -4155,7 +4159,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               parser.pos
             );
           }
-
+          parser.diagnosticStartPos = curPos;
           flags |= NodeFlags.NoneSimpleParamList;
 
           if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
@@ -4750,7 +4754,7 @@ function parseFunctionExpression(
       );
     }
     firstRestricted = parser.token;
-    parser.diagnosticStartPos = parser.pos;
+    parser.diagnosticStartPos = parser.curPos;
     name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 
@@ -4944,7 +4948,7 @@ function parseFunctionDeclaration(
     }
   }
 
-  parser.diagnosticStartPos = parser.pos;
+  parser.diagnosticStartPos = parser.curPos;
 
   if (isDefaultModifier) {
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -4997,7 +5001,7 @@ function parseFunctionBlockOrSemicolon(
   isDecl: boolean,
   isSimpleParameterList: boolean,
   ignoreMissingOpenBrace: boolean,
-  firstRestricted: SyntaxKind
+  firstRestricted: SyntaxKind | null
 ): FunctionBody | null {
   if (isDeclared && parser.token !== SyntaxKind.LeftBrace && canParseSemicolon(parser)) {
     parseSemicolon(parser, context);
@@ -5073,7 +5077,7 @@ function parseFunctionStatementList(
             DiagnosticKind.Error,
             diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
             parser.diagnosticStartPos,
-            parser.pos
+            pos
           );
         }
         if (
@@ -5089,7 +5093,7 @@ function parseFunctionStatementList(
                 : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
             ],
             parser.diagnosticStartPos,
-            parser.pos
+            pos
           );
         }
       }
@@ -5098,7 +5102,7 @@ function parseFunctionStatementList(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode._use_strict_directive_cannot_be_used_with_non_simple_parameter_list],
-          parser.curPos,
+          parser.diagnosticStartPos,
           parser.pos
         );
       }
@@ -5164,6 +5168,7 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
 
   if (ellipsisToken) {
     nodeflags |= NodeFlags.NoneSimpleParamList;
+    parser.diagnosticStartPos = pos;
     if (parser.token & SyntaxKind.IsComma) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -5210,7 +5215,10 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
   const type = parseTypeAnnotation(parser, context);
   const initializer = parseInitializer(parser, context, ellipsisToken ? true : false);
 
-  if (binding.kind !== SyntaxKind.Identifier || initializer) nodeflags |= NodeFlags.NoneSimpleParamList;
+  if (binding.kind !== SyntaxKind.Identifier || initializer) {
+    nodeflags |= NodeFlags.NoneSimpleParamList;
+    parser.diagnosticStartPos = pos;
+  }
 
   return createFormalParameter(ellipsisToken, binding, optionalToken, type, initializer, nodeflags, pos, parser.curPos);
 }
@@ -7665,6 +7673,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           }
         } else {
           if (parser.token === SyntaxKind.Assign) {
+            parser.diagnosticStartPos = pos;
             flags |= NodeFlags.NoneSimpleParamList;
           } else {
             state = Tristate.False;
@@ -7690,6 +7699,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
           : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
 
+      parser.diagnosticStartPos = pos;
       flags |= NodeFlags.NoneSimpleParamList;
 
       if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
@@ -7813,7 +7823,9 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     } else if (parser.token === SyntaxKind.Ellipsis) {
       state = Tristate.Unknown;
       const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+      parser.diagnosticStartPos = pos;
       flags |= NodeFlags.NoneSimpleParamList;
+
       let argument: any;
 
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -7910,6 +7922,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           (parser.token as SyntaxKind) === SyntaxKind.LeftBracket
             ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
             : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
+
+        parser.diagnosticStartPos = pos;
         flags |= NodeFlags.NoneSimpleParamList;
 
         if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {

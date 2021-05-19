@@ -793,13 +793,13 @@ function f(x, ...y) { 'use strict' }
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 62, end: 64
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 96, end: 98
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 132, end: 134
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 170, end: 172
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 203, end: 205
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 240, end: 242
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 279, end: 281
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 43, end: 64
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 77, end: 98
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 111, end: 134
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 149, end: 172
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 184, end: 205
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 219, end: 242
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 258, end: 281
 
 ```
 
