@@ -34,9 +34,11 @@ parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
 ### Recovery mode
 
-The recovery mode is on enabled by default.
+The recovery mode is enabled by default. See the readme in the `parser folder` for further details.
 
-**Note** This *must* not to be confused with `Acorn loose` because Kataw's error recovery mode reconstruct the CST 100%.
+**Note** This *must* not to be confused with `Acorn loose` because Kataw's error recovery mode reconstruct the CST 100% and makes sure the output
+conforms with the ECMA specs. In `Acron` you can expect that a `try statement` become a `while statement` during error recovery or parts of the
+`ESTree AST` is missing.
 
 ## This is what Kataw can do:
 
