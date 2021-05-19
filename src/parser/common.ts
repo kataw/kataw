@@ -104,7 +104,12 @@ export function consumeOpt<T extends TokenSyntaxKind>(parser: ParserState, conte
   return false;
 }
 
-export function consume<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T, diagnosticMessage?: DiagnosticCode,): boolean {
+export function consume<T extends TokenSyntaxKind>(
+  parser: ParserState,
+  context: Context,
+  token: T,
+  diagnosticMessage?: DiagnosticCode
+): boolean {
   if (parser.token === token) {
     nextToken(parser, context);
     return true;
@@ -115,9 +120,7 @@ export function consume<T extends TokenSyntaxKind>(parser: ParserState, context:
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[
-        diagnosticMessage
-      ],
+      diagnosticMap[diagnosticMessage],
       parser.curPos,
       parser.pos
     );
