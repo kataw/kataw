@@ -123,7 +123,7 @@ let {a:=c} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 7, end: 8
+✖ Object property expected - start: 7, end: 8
 
 ```
 

@@ -123,7 +123,7 @@ const {a:=c} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 9, end: 10
+✖ Object property expected - start: 9, end: 10
 
 ```
 

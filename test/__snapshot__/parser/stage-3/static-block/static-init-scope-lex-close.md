@@ -113,7 +113,7 @@ class C {
                                     "end": 53
                                 },
                                 "flags": 16,
-                                "start": 18,
+                                "start": 9,
                                 "end": 57
                             },
                             "flags": 32,
@@ -170,7 +170,7 @@ class C {
                                     "end": 89
                                 },
                                 "flags": 16,
-                                "start": 66,
+                                "start": 57,
                                 "end": 94
                             },
                             "flags": 32,

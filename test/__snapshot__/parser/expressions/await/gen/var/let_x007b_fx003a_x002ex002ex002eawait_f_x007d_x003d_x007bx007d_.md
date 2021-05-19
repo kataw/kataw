@@ -281,7 +281,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 47, end: 51
+✖ Object property expected - start: 47, end: 51
 ✖ ',' expected - start: 47, end: 51
 ✖ 'await' cannot be used as an identifier here - start: 51, end: 56
 ✖ ',' expected - start: 56, end: 58

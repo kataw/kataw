@@ -114,7 +114,7 @@ function f() {
                                                     "end": 53
                                                 },
                                                 "flags": 16,
-                                                "start": 37,
+                                                "start": 26,
                                                 "end": 59
                                             },
                                             "flags": 32,
@@ -163,16 +163,12 @@ function f() {
 
 ```javascript
 
-function f() {
-  class C {
-    import ;
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A return statement can only be used within a function_body - start: 39, end: 52
+
 ```
 

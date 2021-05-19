@@ -134,7 +134,7 @@ var {[x]} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 8, end: 9
+✖ Object property expected - start: 8, end: 9
 
 ```
 

@@ -126,7 +126,7 @@ const {[x]};
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 10, end: 11
+✖ Object property expected - start: 10, end: 11
 ✖ Missing initializer in const declaration - start: 11, end: 12
 
 ```

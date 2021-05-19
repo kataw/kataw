@@ -127,7 +127,7 @@ label: while(false) {
                                                         "end": 59
                                                     },
                                                     "flags": 16,
-                                                    "start": 44,
+                                                    "start": 33,
                                                     "end": 65
                                                 },
                                                 "flags": 32,
@@ -178,12 +178,12 @@ label: while(false) {
 
 ```javascript
 
-label: while (false) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 58, end: 59
+
 ```
 

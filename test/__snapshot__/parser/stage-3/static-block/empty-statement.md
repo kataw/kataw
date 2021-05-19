@@ -120,7 +120,7 @@ class C {
                                     "end": 38
                                 },
                                 "flags": 16,
-                                "start": 36,
+                                "start": 27,
                                 "end": 39
                             },
                             "flags": 32,

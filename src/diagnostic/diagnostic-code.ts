@@ -176,12 +176,13 @@ export const enum DiagnosticCode {
   Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier = 175,
   Property_definition_expected_Did_you_mean_to_use_a = 176,
   Expected_a_computed_property = 177,
-  Object_literal_epected = 178,
+  Object_literal_expected = 178,
   The_variable_declaration_of_a_for_of_in_statement_cannot_have_an_initializer = 179,
   _static_modifier_already_seen = 180,
   An_object_literal_cannot_have_multiple_properties_with_the_name___proto = 181,
-  Expecated_a = 182,
-  Cannot_assign_to_eval_and_arguments_because_they_are_not_a_variable = 183
+  Object_property_expected = 182,
+  Cannot_assign_to_eval_and_arguments_because_they_are_not_a_variable = 183,
+  _arguments_is_only_allowed_in_functions_and_class_methods = 184
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -359,10 +360,11 @@ export const diagnosticMap: { [key: number]: string } = {
   [175]: 'Arrow parameters can only contain a binding pattern or an identifier',
   [176]: "Property definition expected. Did you mean to use a ':'?",
   [177]: 'Expected a computed property',
-  [178]: 'Object literal epected',
+  [178]: 'Object literal expected',
   [179]: "The variable declaration of a 'for...of ... in' statement cannot have an initializer.",
   [180]: "'static' modifier already seen",
   [181]: "An object literal cannot have multiple properties with the name '__proto__'",
-  [182]: "Expecated a ':'",
-  [183]: "Cannot assign to 'eval' and 'arguments' because they are not a variable"
+  [182]: 'Object property expected',
+  [183]: "Cannot assign to 'eval' and 'arguments' because they are not a variable",
+  [184]: "'arguments' is only allowed in functions and class methods"
 };

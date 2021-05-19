@@ -98,7 +98,7 @@ class C {
                                     "end": 33
                                 },
                                 "flags": 16,
-                                "start": 18,
+                                "start": 9,
                                 "end": 37
                             },
                             "flags": 32,

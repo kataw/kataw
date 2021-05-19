@@ -7802,10 +7802,10 @@ async function * gen() {class C extends await { }}
 ✖ Declaration or statement expected - start: 2574, end: 2575
 ✖ 'yield' cannot be used as an identifier here - start: 2609, end: 2615
 ✖ ',' expected - start: 2615, end: 2618
-✖ Expecated a ':' - start: 2618, end: 2619
+✖ Object property expected - start: 2618, end: 2619
 ✖ 'await' cannot be used as an identifier here - start: 2665, end: 2671
 ✖ ',' expected - start: 2671, end: 2674
-✖ Expecated a ':' - start: 2674, end: 2675
+✖ Object property expected - start: 2674, end: 2675
 ✖ The left-hand side must be a variable or a property access. - start: 2722, end: 2724
 ✖ The left-hand side must be a variable or a property access. - start: 2766, end: 2768
 ✖ The left-hand side must be a variable or a property access. - start: 2814, end: 2816

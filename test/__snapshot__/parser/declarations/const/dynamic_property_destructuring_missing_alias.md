@@ -133,7 +133,7 @@ const {[x]} = z;
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 10, end: 11
+✖ Object property expected - start: 10, end: 11
 
 ```
 

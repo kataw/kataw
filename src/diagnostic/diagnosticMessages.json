@@ -173,11 +173,13 @@
   "Arrow parameters can only contain a binding pattern or an identifier": 175,
   "Property definition expected. Did you mean to use a ':'?": 176,
   "Expected a computed property": 177,
-  "Object literal epected": 178,
+  "Object literal expected": 178,
   "The variable declaration of a 'for...of ... in' statement cannot have an initializer.": 179,
   "'static' modifier already seen": 180,
   "An object literal cannot have multiple properties with the name '__proto__'": 181,
-  "Expecated a ':'": 182,
-  "Cannot assign to 'eval' and 'arguments' because they are not a variable": 183
+  "Object property expected": 182,
+  "Cannot assign to 'eval' and 'arguments' because they are not a variable": 183,
+  "'arguments' is only allowed in functions and class methods": 184
+
 }
 

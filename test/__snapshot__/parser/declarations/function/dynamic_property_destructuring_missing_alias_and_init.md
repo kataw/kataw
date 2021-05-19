@@ -126,7 +126,7 @@ let {[x]};
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 8, end: 9
+✖ Object property expected - start: 8, end: 9
 ✖ Missing initializer in destructuring declaration - start: 9, end: 10
 
 ```

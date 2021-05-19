@@ -120,7 +120,7 @@ function * g() {
                                                     "end": 54
                                                 },
                                                 "flags": 16,
-                                                "start": 39,
+                                                "start": 28,
                                                 "end": 60
                                             },
                                             "flags": 32,

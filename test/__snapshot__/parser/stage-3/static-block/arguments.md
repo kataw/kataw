@@ -9,10 +9,10 @@
 ## Input
 
 `````js
-async function f() {
+function f() {
   class C {
     static {
-      await 0;
+      arguments
     }
   }
 }
@@ -30,17 +30,12 @@ async function f() {
         {
             "kind": 176,
             "declareKeyword": null,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
+            "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 0,
-                "start": 5,
-                "end": 14
+                "start": 0,
+                "end": 8
             },
             "generatorToken": null,
             "name": {
@@ -48,16 +43,16 @@ async function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
-                "start": 14,
-                "end": 16
+                "start": 8,
+                "end": 10
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 10,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -72,16 +67,16 @@ async function f() {
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 1,
-                                "start": 20,
-                                "end": 28
+                                "start": 14,
+                                "end": 22
                             },
                             "name": {
                                 "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
-                                "start": 28,
-                                "end": 30
+                                "start": 22,
+                                "end": 24
                             },
                             "typeParameters": null,
                             "tail": {
@@ -104,78 +99,64 @@ async function f() {
                                                             "kind": 120,
                                                             "expression": {
                                                                 "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
+                                                                "text": "arguments",
+                                                                "rawText": "arguments",
                                                                 "flags": 96,
-                                                                "start": 45,
-                                                                "end": 57
+                                                                "start": 39,
+                                                                "end": 55
                                                             },
                                                             "flags": 16,
-                                                            "start": 45,
-                                                            "end": 57
-                                                        },
-                                                        {
-                                                            "kind": 120,
-                                                            "expression": {
-                                                                "kind": 201392130,
-                                                                "text": 0,
-                                                                "rawText": "0",
-                                                                "flags": 96,
-                                                                "start": 57,
-                                                                "end": 59
-                                                            },
-                                                            "flags": 16,
-                                                            "start": 57,
-                                                            "end": 60
+                                                            "start": 39,
+                                                            "end": 55
                                                         }
                                                     ],
                                                     "flags": 17,
-                                                    "start": 45,
-                                                    "end": 60
+                                                    "start": 39,
+                                                    "end": 55
                                                 },
                                                 "flags": 16,
-                                                "start": 32,
-                                                "end": 66
+                                                "start": 26,
+                                                "end": 61
                                             },
                                             "flags": 32,
-                                            "start": 32,
-                                            "end": 66
+                                            "start": 26,
+                                            "end": 61
                                         }
                                     ],
                                     "flags": 32,
-                                    "start": 32,
-                                    "end": 66
+                                    "start": 26,
+                                    "end": 61
                                 },
                                 "flags": 32,
-                                "start": 30,
-                                "end": 70
+                                "start": 24,
+                                "end": 65
                             },
                             "flags": 16,
-                            "start": 20,
-                            "end": 70
+                            "start": 14,
+                            "end": 65
                         }
                     ],
                     "flags": 33,
-                    "start": 20,
-                    "end": 70
+                    "start": 14,
+                    "end": 65
                 },
                 "flags": 32,
-                "start": 18,
-                "end": 72
+                "start": 12,
+                "end": 67
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 144,
+            "flags": 16,
             "start": 0,
-            "end": 72
+            "end": 67
         }
     ],
     "isModule": false,
-    "source": "async function f() {\n  class C {\n    static {\n      await 0;\n    }\n  }\n}",
+    "source": "function f() {\n  class C {\n    static {\n      arguments\n    }\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 72
+    "end": 67
 }
 ```
 
@@ -188,7 +169,7 @@ async function f() {
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 57, end: 59
+✖ 'arguments' is only allowed in functions and class methods - start: 39, end: 55
 
 ```
 

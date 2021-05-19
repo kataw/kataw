@@ -173,7 +173,7 @@ switch (0) {
                                                                     "end": 91
                                                                 },
                                                                 "flags": 16,
-                                                                "start": 74,
+                                                                "start": 61,
                                                                 "end": 99
                                                             },
                                                             "flags": 32,
@@ -230,20 +230,12 @@ switch (0) {
 
 ```javascript
 
-switch(0
-  default
-    {
-      class C {
-        static static foo() {}
-        import ;
-      }
-    }
- 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 90, end: 91
+
 ```
 

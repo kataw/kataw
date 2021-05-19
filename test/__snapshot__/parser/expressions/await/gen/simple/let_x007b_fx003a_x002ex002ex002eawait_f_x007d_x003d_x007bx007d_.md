@@ -155,7 +155,7 @@ let { f: ...await f } = {};
 ### Diagnostics
 
 ```javascript
-✖ Expecated a ':' - start: 8, end: 12
+✖ Object property expected - start: 8, end: 12
 ✖ ',' expected - start: 8, end: 12
 ✖ ',' expected - start: 17, end: 19
 

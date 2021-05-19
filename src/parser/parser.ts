@@ -4636,7 +4636,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
     parseIdentifierOrPattern(
       parser,
       context,
-      ellipsisToken ? DiagnosticCode.Binding_identifier_expected : DiagnosticCode.Expecated_a
+      ellipsisToken ? DiagnosticCode.Binding_identifier_expected : DiagnosticCode.Object_property_expected
     ),
     parseInitializer(parser, context, false),
     pos,
@@ -7416,17 +7416,56 @@ export function parseStaticBlock(
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ) {
+  nextToken(parser, context | Context.AllowRegExp);
+  if (parser.token === SyntaxKind.ArgumentsIdentifier) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[DiagnosticCode._arguments_is_only_allowed_in_functions_and_class_methods],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  const block = parseBlock(
+    parser,
+    (context |
+      Context.InGeneratorContext |
+      Context.InAwaitContext |
+      Context.NewTarget |
+      Context.InSwitch |
+      Context.InIteration |
+      Context.AllowReturn) ^
+      // The "await" and 'yield' parsing context does not apply to the block's statement list in a static block
+      // so we unset the bit to trigger an error message
+      (Context.InAwaitContext |
+        Context.InGeneratorContext |
+        Context.InSwitch |
+        Context.InIteration |
+        Context.AllowReturn)
+  );
+  consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.RightBrace,
+    DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+  );
+  if (consumeOpt(parser, context, SyntaxKind.Assign)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[
+        DiagnosticCode
+          .Declaration_or_statement_expected_This_follows_a_block_of_statements_so_if_you_intended_to_write_a_destructuring_assignment_you_might_need_to_wrap_the_whole_assignment_in_parentheses
+      ],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createStaticBlock(
     decorators,
     declareKeyword,
     staticKeyword,
-    parseBlockStatement(
-      parser,
-      (context | Context.InGeneratorContext | Context.InAwaitContext | Context.NewTarget) ^
-        // The "await" and 'yield' parsing context does not apply to the block's statement list in a static block
-        // so we unset the bit to trigger an error message
-        (Context.InAwaitContext | Context.InGeneratorContext)
-    ),
+    createBlockStatement(block, pos, parser.curPos),
     pos,
     parser.curPos
   );
