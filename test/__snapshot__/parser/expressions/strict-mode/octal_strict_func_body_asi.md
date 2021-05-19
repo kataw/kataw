@@ -11,7 +11,7 @@ function f() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -103,14 +103,12 @@ function f() {
 
 ```javascript
 
-function f() {
-  0777;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Octal literals are not allowed in strict mode - start: 29, end: 36
+
 ```
 
