@@ -6988,7 +6988,7 @@ function parseClassDeclaration(
   let name = null;
 
   if (parser.token !== SyntaxKind.ExtendsKeyword) {
-    if (context & Context.InStaticBlock && parser.tokenValue === 'await') {
+    if (context & Context.InStaticBlock && parser.token === SyntaxKind.AwaitKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
