@@ -177,16 +177,6 @@ interface BinaryExpression <: ExpressionNode {
 }
 ```
 
-### BindingElement
-
-```js
-interface BindingElement <: ExpressionNode {
-  kind: NodeKind.BindingElement;
-  left: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-  right: AssignmentExpression;
-}
-```
-
 ### ArrayBindingPattern
 
 ```js
@@ -214,7 +204,7 @@ interface ArrayBindingPattern <: ExpressionNode {
 ```js
 interface BindingElementList <: ExpressionNode {
   kind: NodeKind.BindingElement;
-  elements: [ Elison | BindingElement ];
+  elements: [ Elison | ArrayBindingElement ];
   trailingComma: boolean;
 }
 ```
@@ -778,7 +768,7 @@ interface PropertyDefinition <: ExpressionNode {
   generatorToken: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
-  right: AssignmentExpression | BindingElement | Identifier | ExpressionNode;
+  right: AssignmentExpression | Identifier | ExpressionNode;
 }
 ```
 
@@ -796,7 +786,7 @@ interface ObjectBindingPattern <: ExpressionNode {
 ```js
 interface BindingPropertyList <: ExpressionNode {
   kind: NodeKind.BindingPropertyList;
-  properties: [ BindingElement | BindingProperty ];
+  properties: [ BindingProperty ];
   trailingComma: boolean;
 }
 ```
@@ -808,7 +798,7 @@ interface BindingProperty <: ExpressionNode {
   kind: NodeKind.BindingProperty;
   ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   key: PropertyKey;
-  value: BindingElement | SingleNameBinding;
+  value: ArrayBindingPattern |  ObjectBindingPattern  | SingleNameBinding;
 }
 ```
 

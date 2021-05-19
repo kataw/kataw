@@ -83,7 +83,6 @@ import { createFunctionStatementList, FunctionStatementList } from '../ast/expre
 import { createFormalParameter, FormalParameter } from '../ast/expressions/formal-parameter';
 import { createFormalParameterList, FormalParameterList } from '../ast/expressions/formal-parameter-list';
 import { createElison, Elison } from '../ast/expressions/elison';
-import { createBindingElement, BindingElement } from '../ast/expressions/binding-element';
 import { createBindingElementList, BindingElementList } from '../ast/expressions/binding-element-list';
 import { createArrayBindingElement, ArrayBindingElement } from '../ast/expressions/array-binding-element';
 import { createArrayBindingPattern, ArrayBindingPattern } from '../ast/expressions/array-binding-pattern';
