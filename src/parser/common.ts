@@ -86,6 +86,7 @@ export interface ParserState {
   tokenPos: number;
   end: number;
   onError: OnError;
+  diagnosticStartPos: number;
   destructible: DestructibleKind;
   assignable: boolean;
   tokenValue: any;

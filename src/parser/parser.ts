@@ -208,6 +208,7 @@ export function create(source: string, pos: number, onError: OnError): ParserSta
     end: source.length,
     token: SyntaxKind.EndOfFileToken,
     tokenPos: 0,
+    diagnosticStartPos: 0,
     destructible: DestructibleKind.None,
     assignable: true,
     onError,
@@ -468,8 +469,21 @@ function parseCaseBlock(parser: ParserState, context: Context): CaseBlock {
   const pos = parser.curPos;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace);
   const clauses = [];
+  let hasDefaultCase = false;
+
   while (isCaseOrDefaultClause(parser.token)) {
-    clauses.push(parseCaseOrDefaultClause(parser, context));
+    let node = parseCaseOrDefaultClause(parser, context);
+    if (hasDefaultCase) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode.A_default_clause_cannot_appear_more_than_once_in_a_switch_statement],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    if (node.kind === SyntaxKind.DefaultClause) hasDefaultCase = true;
+    clauses.push(node);
   }
   parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightBrace);
   return createCaseBlock(clauses, pos, parser.curPos);
@@ -1945,7 +1959,8 @@ function parseConciseOrFunctionBody(
       context | Context.AllowReturn,
       /* isDecl */ true,
       /* isSimpleParameterList */ isSimpleParameterList,
-      /* ignoreMissingOpenBrace */ false
+      /* ignoreMissingOpenBrace */ false,
+      parser.token
     );
 
     if (parser.nodeFlags & NodeFlags.NewLine) {
@@ -2038,7 +2053,8 @@ function parseConciseOrFunctionBody(
       context,
       /* isDecl */ true,
       /* isSimpleParameterList */ true,
-      /* ignoreMissingOpenBrace */ true
+      /* ignoreMissingOpenBrace */ true,
+      /* firstRestricted */ parser.token
     );
   }
   return parseExpression(parser, context);
@@ -2758,7 +2774,8 @@ function parseMethodDefinition(
     /* isDeclared */ isDeclared,
     /* isDecl */ false,
     /* , /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
-    /* ignoreMissingOpenBrace */ false
+    /* ignoreMissingOpenBrace */ false,
+    /* firstRestriced */ parser.token
   );
   parser.destructible = DestructibleKind.NotDestructible;
   return createMethodDefinition(
@@ -4702,6 +4719,7 @@ function parseFunctionExpression(
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   let name = null;
+  let firstRestricted!: SyntaxKind;
 
   // The name is optional
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
@@ -4731,7 +4749,8 @@ function parseFunctionExpression(
         parser.pos
       );
     }
-
+    firstRestricted = parser.token;
+    parser.diagnosticStartPos = parser.pos;
     name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 
@@ -4752,7 +4771,8 @@ function parseFunctionExpression(
     context | Context.NewTarget | Context.AllowReturn,
     /* isDecl */ false,
     /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
-    /* ignoreMissingOpenBrace */ false
+    /* ignoreMissingOpenBrace */ false,
+    /* firstRestricted */ firstRestricted
   );
 
   parser.assignable = false;
@@ -4885,7 +4905,7 @@ function parseFunctionDeclaration(
 
   const functionToken = consumeToken(parser, context, SyntaxKind.FunctionKeyword);
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
-
+  let firstRestricted!: SyntaxKind;
   if (disallowGen && generatorToken) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -4923,6 +4943,9 @@ function parseFunctionDeclaration(
     }
   }
 
+  parser.diagnosticStartPos = parser.pos;
+  firstRestricted = parser.token;
+
   if (isDefaultModifier) {
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
       name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
@@ -4947,7 +4970,8 @@ function parseFunctionDeclaration(
     declareKeyword ? true : false,
     /* isDecl */ true,
     /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
-    /* ignoreMissingOpenBrace */ false
+    /* ignoreMissingOpenBrace */ false,
+    /* firstRestricted */ firstRestricted
   );
 
   return createFunctionDeclaration(
@@ -4972,7 +4996,8 @@ function parseFunctionBlockOrSemicolon(
   isDeclared: boolean,
   isDecl: boolean,
   isSimpleParameterList: boolean,
-  ignoreMissingOpenBrace: boolean
+  ignoreMissingOpenBrace: boolean,
+  firstRestricted: SyntaxKind
 ): FunctionBody | null {
   if (isDeclared && parser.token !== SyntaxKind.LeftBrace && canParseSemicolon(parser)) {
     parseSemicolon(parser, context);
@@ -4983,7 +5008,8 @@ function parseFunctionBlockOrSemicolon(
     context | Context.NewTarget | Context.AllowReturn,
     isDecl,
     isSimpleParameterList,
-    ignoreMissingOpenBrace
+    ignoreMissingOpenBrace,
+    firstRestricted
   );
 }
 
@@ -4992,14 +5018,16 @@ function parseFunctionBody(
   context: Context,
   isDecl: boolean,
   isSimpleParameterList: boolean,
-  ignoreMissingOpenBrace: boolean
+  ignoreMissingOpenBrace: boolean,
+  firstRestricted: SyntaxKind | null
 ): FunctionBody {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace) || ignoreMissingOpenBrace) {
     const statementList = parseFunctionStatementList(
       parser,
       (context | Context.InSwitch | Context.InIteration) ^ (Context.InSwitch | Context.InIteration),
-      isSimpleParameterList
+      isSimpleParameterList,
+      firstRestricted
     );
     parseExpectedMatchingBracket(parser, isDecl ? context | Context.AllowRegExp : context, SyntaxKind.RightBrace);
     return createFunctionBody(statementList, pos, parser.curPos);
@@ -5026,7 +5054,8 @@ export function isValidDirective(state: ParserState): boolean {
 function parseFunctionStatementList(
   parser: ParserState,
   context: Context,
-  isSimpleParameterList: boolean
+  isSimpleParameterList: boolean,
+  firstRestricted: SyntaxKind | null
 ): FunctionStatementList {
   const pos = parser.curPos;
   const statements = [];
@@ -5037,6 +5066,33 @@ function parseFunctionStatementList(
     const start = parser.curPos;
     const expr = parseStringLiteral(parser, context);
     if (isValidDirective(parser) && expr.rawText.length === 12 && expr.text === 'use strict') {
+      if (firstRestricted) {
+        if (firstRestricted & SyntaxKind.IsFutureReserved) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+            parser.diagnosticStartPos,
+            parser.pos
+          );
+        }
+        if (
+          (firstRestricted as SyntaxKind) === SyntaxKind.EvalIdentifier ||
+          (firstRestricted as SyntaxKind) === SyntaxKind.ArgumentsIdentifier
+        ) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[
+              flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+                ? DiagnosticCode._eval_and_arguments_cannot_contain_escape_characters
+                : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
+            ],
+            parser.diagnosticStartPos,
+            parser.pos
+          );
+        }
+      }
       if (!isSimpleParameterList) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -5056,15 +5112,7 @@ function parseFunctionStatementList(
     }
   }
 
-  while (
-    parser.token &
-    (SyntaxKind.IsStatementStart |
-      SyntaxKind.IsExpressionStart |
-      SyntaxKind.IsIdentifier |
-      SyntaxKind.IsFutureReserved |
-      SyntaxKind.IsPatternStart |
-      SyntaxKind.IsBinaryOp)
-  ) {
+  while (parser.token & 0b00010000100000011110000000000000) {
     statements.push(parseStatementListItem(parser, context));
   }
   return createFunctionStatementList(directives, statements, flags | NodeFlags.ExpressionNode, pos, parser.curPos);

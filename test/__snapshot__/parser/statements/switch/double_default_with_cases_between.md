@@ -181,21 +181,14 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
 
 ```javascript
 
-switch(x
-  default
-    break;
-  case y:
-    break;
-  case z:
-    break;
-  default
-    break;
- 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 42, end: 47
+✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 57, end: 65
+✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 73, end: 75
+
 ```
 

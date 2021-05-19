@@ -83,17 +83,12 @@ switch(x) { default: default: }
 
 ```javascript
 
-switch(x
-  default
-
-  default
-
- 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 29, end: 31
+
 ```
 
