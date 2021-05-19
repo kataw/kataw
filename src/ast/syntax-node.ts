@@ -360,7 +360,8 @@ export const enum SyntaxKind {
   YieldKeyword = 8454253,
   ParenthesizedType = 260,
   ArrowFunctionType = 261,
-  ClassBody = 262
+  ClassBody = 262,
+  StaticBlock = 263
 }
 
 export function tokenToString(node: any): string {

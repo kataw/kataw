@@ -39,6 +39,7 @@ import { createImportCall } from '../ast/expressions/import-call';
 import { createImportMeta } from '../ast/expressions/import-meta';
 import { createTemplateExpression, TemplateExpression } from '../ast/expressions/template-expression';
 import { createClassElement, ClassElement } from '../ast/expressions/class-element';
+import { createStaticBlock, StaticBlock } from '../ast/expressions/static-block';
 import { createClassTail, ClassTail } from '../ast/expressions/class-tail';
 import { createClassBody, ClassBody } from '../ast/expressions/class-body';
 import { createClassExpression, ClassExpression } from '../ast/expressions/class-expr';
@@ -7187,6 +7188,7 @@ export function parseClassElement(
               parser.pos
             );
           }
+
           if (!staticKeyword) {
             return parseClassElement(
               parser,
@@ -7260,6 +7262,12 @@ export function parseClassElement(
           nodeFlags |= NodeFlags.Setter;
           break;
       }
+    } else if (
+      context & Context.OptionsNext &&
+      token === SyntaxKind.StaticKeyword &&
+      parser.token === SyntaxKind.LeftBrace
+    ) {
+      return parseStaticBlock(parser, context, decorators, declareKeyword, staticKeyword, pos);
     }
 
     if (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) {
@@ -7397,6 +7405,30 @@ export function parseClassElement(
     key,
     null,
     pos
+  );
+}
+
+export function parseStaticBlock(
+  parser: ParserState,
+  context: Context,
+  decorators: DecoratorList | null,
+  declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  pos: number
+) {
+  return createStaticBlock(
+    decorators,
+    declareKeyword,
+    staticKeyword,
+    parseBlockStatement(
+      parser,
+      (context | Context.InGeneratorContext | Context.InAwaitContext | Context.NewTarget) ^
+        // The "await" and 'yield' parsing context does not apply to the block's statement list in a static block
+        // so we unset the bit to trigger an error message
+        (Context.InAwaitContext | Context.InGeneratorContext)
+    ),
+    pos,
+    parser.curPos
   );
 }
 
