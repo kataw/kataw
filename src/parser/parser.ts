@@ -472,7 +472,7 @@ function parseCaseBlock(parser: ParserState, context: Context): CaseBlock {
   let hasDefaultCase = false;
 
   while (isCaseOrDefaultClause(parser.token)) {
-    let node = parseCaseOrDefaultClause(parser, context);
+    const node = parseCaseOrDefaultClause(parser, context);
     if (hasDefaultCase) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -4905,7 +4905,7 @@ function parseFunctionDeclaration(
 
   const functionToken = consumeToken(parser, context, SyntaxKind.FunctionKeyword);
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
-  let firstRestricted!: SyntaxKind;
+
   if (disallowGen && generatorToken) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -4917,6 +4917,7 @@ function parseFunctionDeclaration(
   }
 
   let name = null;
+  const firstRestricted = parser.token;
 
   if (context & Context.Strict) {
     if (
@@ -4944,7 +4945,6 @@ function parseFunctionDeclaration(
   }
 
   parser.diagnosticStartPos = parser.pos;
-  firstRestricted = parser.token;
 
   if (isDefaultModifier) {
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -7028,7 +7028,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
   let classHeritage: ExpressionNode | null = null;
   let inheritedContext = context;
   let body: any = null;
-  let ignoreMissingOpenBrace = false;
+  const ignoreMissingOpenBrace = false;
 
   if (parser.token === SyntaxKind.ExtendsKeyword) {
     const extendsToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExtendsKeyword);
@@ -7070,7 +7070,7 @@ export function parseClassBody(
 ): ClassBody {
   const pos = parser.curPos;
   let hasConstructor = false;
-  let elements = [];
+  const elements = [];
   while (parser.token & 0b01000100110000000100000000000000) {
     const element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
 
