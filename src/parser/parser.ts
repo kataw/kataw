@@ -1970,7 +1970,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context | 0b00001001100000000001111010000000) ^ 0b00001001100000000001111010000000) |
+      ((context | 0b00000000010000000001111000000000) ^ 0b00000000010000000001111000000000) |
         (asyncToken ? Context.InAwaitContext : Context.None),
       (flags & NodeFlags.NoneSimpleParamList) === 0
     ),
@@ -6988,6 +6988,15 @@ function parseClassDeclaration(
   let name = null;
 
   if (parser.token !== SyntaxKind.ExtendsKeyword) {
+    if (context & Context.InStaticBlock && parser.tokenValue === 'await') {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode._BindingIdentifier_may_not_be_await_within_class_static_blocks],
+        parser.curPos,
+        parser.pos
+      );
+    }
     if (isDefaultModifier) {
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
         name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
@@ -7267,7 +7276,14 @@ export function parseClassElement(
       token === SyntaxKind.StaticKeyword &&
       parser.token === SyntaxKind.LeftBrace
     ) {
-      return parseStaticBlock(parser, context, decorators, declareKeyword, staticKeyword, pos);
+      return parseStaticBlock(
+        parser,
+        inheritedContext | Context.InStaticBlock,
+        decorators,
+        declareKeyword,
+        staticKeyword,
+        pos
+      );
     }
 
     if (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) {

@@ -179,7 +179,8 @@
   "An object literal cannot have multiple properties with the name '__proto__'": 181,
   "Object property expected": 182,
   "Cannot assign to 'eval' and 'arguments' because they are not a variable": 183,
-  "'arguments' is only allowed in functions and class methods": 184
+  "'arguments' is only allowed in functions and class methods": 184,
+  " BindingIdentifier may not be `await` within class static blocks": 185
 
 }
 

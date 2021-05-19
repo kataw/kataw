@@ -29,7 +29,8 @@ export const enum Context {
   InClassBody = 1 << 24,
   AllowImportMeta = 1 << 25,
   LexicalContext = 1 << 26,
-  InFormalParameter = 1 << 27
+  InFormalParameter = 1 << 27,
+  InStaticBlock = 1 << 28
 }
 
 export const enum DestructibleKind {

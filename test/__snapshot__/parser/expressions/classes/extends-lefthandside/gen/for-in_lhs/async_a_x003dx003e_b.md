@@ -20,13 +20,19 @@ for (async a => b in x) ;
     "directives": [],
     "statements": [
         {
-            "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 17,
+                "end": 20
+            },
+            "kind": 166,
             "initializer": {
                 "kind": 271,
                 "arrowToken": {
@@ -52,43 +58,23 @@ for (async a => b in x) ;
                 },
                 "returnType": null,
                 "contents": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "b",
-                        "rawText": "b",
-                        "flags": 96,
-                        "start": 15,
-                        "end": 17
-                    },
-                    "operatorToken": {
-                        "kind": 21006388,
-                        "flags": 64,
-                        "start": 17,
-                        "end": 20
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 20,
-                        "end": 22
-                    },
-                    "flags": 32,
+                    "kind": 134299649,
+                    "text": "b",
+                    "rawText": "b",
+                    "flags": 96,
                     "start": 15,
-                    "end": 22
+                    "end": 17
                 },
                 "flags": 288,
                 "start": 5,
-                "end": 22
+                "end": 17
             },
-            "condition": null,
-            "incrementor": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 22,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 20,
                 "end": 22
             },
             "statement": {
@@ -120,7 +106,7 @@ for (async a => b in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 22, end: 23
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 20, end: 22
 
 ```
 

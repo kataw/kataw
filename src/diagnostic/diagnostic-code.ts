@@ -182,7 +182,8 @@ export const enum DiagnosticCode {
   An_object_literal_cannot_have_multiple_properties_with_the_name___proto = 181,
   Object_property_expected = 182,
   Cannot_assign_to_eval_and_arguments_because_they_are_not_a_variable = 183,
-  _arguments_is_only_allowed_in_functions_and_class_methods = 184
+  _arguments_is_only_allowed_in_functions_and_class_methods = 184,
+  _BindingIdentifier_may_not_be_await_within_class_static_blocks = 185
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -366,5 +367,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [181]: "An object literal cannot have multiple properties with the name '__proto__'",
   [182]: 'Object property expected',
   [183]: "Cannot assign to 'eval' and 'arguments' because they are not a variable",
-  [184]: "'arguments' is only allowed in functions and class methods"
+  [184]: "'arguments' is only allowed in functions and class methods",
+  [185]: ' BindingIdentifier may not be `await` within class static blocks'
 };
