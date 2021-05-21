@@ -386,16 +386,16 @@ export function isMemberExpression(node: SyntaxNode): boolean {
 
 export function createScope(): ScopeState {
   return {
-    parent: null,
     kind: ScopeKind.Block,
+    parent: null,
     hasError: false
   };
 }
 
 export function createParentScope(parent: ScopeState | null, kind: ScopeKind): ScopeState {
   return {
-    parent,
     kind,
+    parent,
     hasError: false
   };
 }
@@ -419,10 +419,11 @@ export function addVarName(
   context: Context,
   scope: ScopeState,
   name: string,
-  type: BindingType
+  kind: BindingType
 ): void {
   if (scope) {
     let currentScope: any = scope;
+
     while (currentScope && (currentScope.kind & ScopeKind.FunctionRoot) === 0) {
       if (currentScope['#' + name] & (BindingType.Let | BindingType.Const | BindingType.FunctionLexical)) {
         parser.onError(
@@ -447,7 +448,7 @@ export function addVarName(
         }
       }
 
-      currentScope['#' + name] = type;
+      currentScope['#' + name] = kind;
       currentScope = currentScope.parent;
     }
   }
