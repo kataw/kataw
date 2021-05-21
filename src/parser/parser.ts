@@ -1,3 +1,4 @@
+
 import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
@@ -2078,6 +2079,7 @@ function parseConciseOrFunctionBody(
   scope: any,
   isSimpleParameterList: boolean
 ): FunctionBody | ExpressionNode {
+
   if (scope && scope.scopeError) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -4265,6 +4267,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     expressions = [expression];
     if (state) {
       while (parser.token & 0b00010000101010010100000000000000) {
+
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
           expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
@@ -5464,15 +5467,15 @@ function parseFunctionStatementList(
     }
   }
   if (context & Context.Strict) {
-    if (isNotPreviousStrict && scope && scope.scopeError) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
-        scope.scopeError.start,
-        parser.pos
-      );
-    }
+  if (isNotPreviousStrict && scope && scope.scopeError) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
+      scope.scopeError.start,
+      parser.pos
+    );
+  }
   }
 
   scope = createParentScope(scope, ScopeKind.FunctionBody);
@@ -5516,7 +5519,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode._expected],
+          diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
           scope.scopeError.start,
           parser.pos
         );

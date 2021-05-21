@@ -168,7 +168,7 @@ function f([b, a], b=x) {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 18, end: 23
+✖ Duplicate formal parameter - start: 18, end: 23
 
 ```
 

@@ -197,7 +197,7 @@ function f(b, a, b, a, [fine]) {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 19, end: 30
+✖ Duplicate formal parameter - start: 19, end: 30
 
 ```
 
