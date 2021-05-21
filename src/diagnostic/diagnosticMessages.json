@@ -180,7 +180,14 @@
   "Object property expected": 182,
   "Cannot assign to 'eval' and 'arguments' because they are not a variable": 183,
   "'arguments' is only allowed in functions and class methods": 184,
-  " BindingIdentifier may not be `await` within class static blocks": 185
+  "BindingIdentifier may not be `await` within class static blocks": 185,
+  "A 'static {}' initialization block may not have decorator": 186,
+  "Cannot redeclare block-scoped variable": 187,
+  "Cannot bound an already bound catch clause binding": 188,
+  "A block-scoped variable cannot shadow a catch clause binding": 189,
+  "Trailing comma not allowed after rest element": 190,
+  "Rest element must be last element": 191,
+  "Duplicate identifier": 192
 
 }
 

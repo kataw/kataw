@@ -611,30 +611,12 @@ class C { foo() { this.#a = 1; }}
 
 ```javascript
 
-(class  {
-    set #b(val) {
-      this.#a = val;
-    }
-  })(class  {
-    get #b() {
-      return  this.#a;
-    }
-  });
-class C  {
-  foo() {
-    return  this.#a;
-  }
-}
-class C {
-  foo() {
-    this.#a = 1;
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 139, end: 141
+
 ```
 

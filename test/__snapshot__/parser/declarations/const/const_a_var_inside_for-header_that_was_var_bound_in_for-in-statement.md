@@ -158,13 +158,12 @@ for (const x in obj) { var x = 13 }
 
 ```javascript
 
-for ( in obj)
-  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 26, end: 28
+
 ```
 

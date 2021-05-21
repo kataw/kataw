@@ -990,6 +990,7 @@ type T = <
 ✖ Declaration or statement expected - start: 179, end: 182
 ✖ Expected a `;` - start: 188, end: 190
 ✖ Expression expected - start: 259, end: 260
+✖ Cannot redeclare block-scoped variable - start: 267, end: 269
 ✖ Missing initializer in const declaration - start: 269, end: 270
 ✖ ',' expected - start: 269, end: 270
 ✖ Expected a `;` - start: 269, end: 270

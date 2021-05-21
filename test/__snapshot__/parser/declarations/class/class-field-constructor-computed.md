@@ -319,23 +319,14 @@ class Foo { static ['constructor'] = 1 }
 
 ```javascript
 
-class Foo {
-  ["'constructor'"];
-}
-class Foo {
-  ["'constructor'"] = 1;
-}
-class Foo {
-  static ["'constructor'"];
-}
-class Foo {
-  static ["'constructor'"] = 1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 36, end: 40
+✖ Cannot redeclare block-scoped variable - start: 71, end: 75
+✖ Cannot redeclare block-scoped variable - start: 109, end: 113
+
 ```
 

@@ -774,49 +774,16 @@ class C { f(){ this.#a } #a; }
 
 ```javascript
 
-class C {
-  #a;
-
-  a = this.#a;
-
-}
-class C {
-  a = this.#a;
-
-  #a;
-
-}
-class C {
-  #a;
-
-  [this.#a];
-
-}
-class C {
-  [this.#a];
-
-  #a;
-
-}
-class C {
-  #a;
-
-  f() {
-    this.#a;
-  }
-}
-class C {
-  f() {
-    this.#a;
-  }
-  #a;
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 35, end: 37
+✖ Cannot redeclare block-scoped variable - start: 65, end: 67
+✖ Cannot redeclare block-scoped variable - start: 93, end: 95
+✖ Cannot redeclare block-scoped variable - start: 121, end: 123
+✖ Cannot redeclare block-scoped variable - start: 153, end: 155
+
 ```
 

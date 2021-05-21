@@ -141,13 +141,12 @@ for (let x in {}) { var x; }
 
 ```javascript
 
-for ( in {})
-  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 23, end: 25
+
 ```
 

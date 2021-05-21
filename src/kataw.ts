@@ -45,14 +45,21 @@ export {
  * Parse a script, optionally with various options.
  */
 export function parseScript(source: string, options?: Options, onError?: OnError): RootNode {
-  return parse(source, /* filename */ '__root__', Context.None, /* isModule */ false, options, onError);
+  return parse(source, /* filename */ '__root__', Context.TopLevel, /* isModule */ false, options, onError);
 }
 
 /**
  * Parse a module, optionally with various options.
  */
 export function parseModule(source: string, options?: Options, onError?: OnError): RootNode {
-  return parse(source, '__root__', Context.Module | Context.Strict | Context.AllowImportMeta, true, options, onError);
+  return parse(
+    source,
+    '__root__',
+    Context.Module | Context.TopLevel | Context.Strict | Context.AllowImportMeta,
+    true,
+    options,
+    onError
+  );
 }
 
 export function prettifyScript(source: string, options?: Options, onError?: OnError): string {

@@ -62,7 +62,12 @@
                             "start": 1,
                             "end": 2
                         },
-                        "optionalToken": null,
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 2,
+                            "end": 3
+                        },
                         "type": {
                             "kind": 139,
                             "type": {
@@ -893,7 +898,7 @@
 
 ```javascript
 
-(x) =>  {};
+(x?) =>  {};
 () =>  {};
 () =>  {};
 () =>  {};

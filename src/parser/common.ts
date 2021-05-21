@@ -30,7 +30,9 @@ export const enum Context {
   AllowImportMeta = 1 << 25,
   LexicalContext = 1 << 26,
   InFormalParameter = 1 << 27,
-  InStaticBlock = 1 << 28
+  InStaticBlock = 1 << 28,
+  InBlock = 1 << 29,
+  TopLevel = 1 << 30
 }
 
 export const enum DestructibleKind {
@@ -66,6 +68,24 @@ export const enum DestuctionKind {
   NORMAL,
   REST,
   FOR
+}
+/**
+ * Scope kinds
+ */
+export const enum ScopeKind {
+  None = 0,
+  ForStatement = 1 << 0,
+  Block = 1 << 1,
+  CatchStatement = 1 << 2,
+  SwitchStatement = 1 << 3,
+  ArgList = 1 << 4,
+  TryStatement = 1 << 5,
+  CatchBlock = 1 << 6,
+  FunctionBody = 1 << 7,
+  FunctionRoot = 1 << 8,
+  FunctionParams = 1 << 9,
+  ArrowParams = 1 << 10,
+  CatchIdentifier = 1 << 11
 }
 
 export type OnError = (
@@ -164,10 +184,7 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[
-        //  DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
-        DiagnosticCode.Expected_a
-      ],
+      diagnosticMap[DiagnosticCode.Expected_a],
       parser.curPos,
       parser.pos
     );
@@ -356,4 +373,142 @@ export function isCallExpression(node: SyntaxNode): boolean {
 
 export function isMemberExpression(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.IsMemberExpression) === NodeFlags.IsMemberExpression;
+}
+
+/**
+ * Lexical scope interface
+ */
+export interface ScopeState {
+  parent: ScopeState | undefined;
+  type: ScopeKind;
+  scopeError?: ScopeError | null;
+}
+
+/** Scope error interface */
+export interface ScopeError {
+  code: DiagnosticCode;
+  start: number;
+}
+
+export function createScope(): ScopeState {
+  return {
+    parent: void 0,
+    type: ScopeKind.Block
+  };
+}
+
+export function createParentScope(parent: ScopeState | undefined, type: ScopeKind): ScopeState {
+  return {
+    parent,
+    type,
+    scopeError: void 0
+  };
+}
+export function addVarOrBlock(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  name: string,
+  bindingType: BindingType
+  // origin: Origin
+) {
+  if (bindingType & BindingType.Var) {
+    addVarName(parser, context, scope, name, bindingType);
+  } else {
+    addBlockName(parser, context, scope, name, bindingType /*, origin*/);
+  }
+}
+
+export function addVarName(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  name: string,
+  type: BindingType
+): void {
+  if (scope) {
+    let currentScope: any = scope;
+    while (currentScope && (currentScope.type & ScopeKind.FunctionRoot) === 0) {
+      if (currentScope['#' + name] & (BindingType.Let | BindingType.Const | BindingType.FunctionLexical)) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Cannot_redeclare_block_scoped_variable],
+          parser.curPos,
+          parser.pos
+        );
+      } else if (currentScope['#' + name] & (BindingType.CatchIdentifier | BindingType.CatchPattern)) {
+        if (
+          context & (Context.Strict | Context.OptionsDisableWebCompat) ||
+          (currentScope['#' + name] & BindingType.CatchIdentifier) === 0
+        ) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Cannot_bound_an_already_bound_catch_clause_binding],
+            parser.curPos,
+            parser.pos
+          );
+        }
+      }
+
+      currentScope['#' + name] = type;
+      currentScope = currentScope.parent;
+    }
+  }
+}
+
+export function addBlockName(parser: ParserState, context: Context, scope: any, name: string, type: BindingType): void {
+  if (!scope) return;
+  const value = scope['#' + name];
+
+  if (value) {
+    if ((value & BindingType.Empty) === 0) {
+      if (type & BindingType.ArgumentList) {
+        scope.scopeError = { start: parser.curPos, name, code: DiagnosticCode.Cannot_redeclare_block_scoped_variable };
+      } else if (
+        context & Context.OptionsDisableWebCompat ||
+        (value & BindingType.FunctionLexical) === 0 ||
+        (context & Context.InBlock) === 0
+      ) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Duplicate_identifier],
+          parser.curPos,
+          parser.pos
+        );
+      }
+    }
+  } else {
+    const parent = scope.parent;
+    if (scope.type & ScopeKind.FunctionBody && parent['#' + name] && (parent['#' + name] & BindingType.Empty) === 0) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Cannot_redeclare_block_scoped_variable],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    if (scope.type & ScopeKind.ArrowParams && value && (value & BindingType.Empty) === 0) {
+      if (type & BindingType.ArgumentList) {
+        scope.scopeError = { start: parser.curPos, name, code: DiagnosticCode.Cannot_redeclare_block_scoped_variable };
+      }
+    }
+
+    if (scope.type & ScopeKind.CatchBlock) {
+      if (parent['#' + name] & (BindingType.CatchIdentifier | BindingType.CatchPattern)) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.A_block_scoped_variable_cannot_shadow_a_catch_clause_binding],
+          parser.curPos,
+          parser.pos
+        );
+      }
+    }
+  }
+  scope['#' + name] = type;
 }

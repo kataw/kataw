@@ -220,6 +220,7 @@ x@{x9}@+@{x9}@y
 
 ```javascript
 ✖ Binding identifier expected - start: 8, end: 9
+✖ Cannot redeclare block-scoped variable - start: 10, end: 12
 ✖ Binding identifier expected - start: 15, end: 15
 
 ```

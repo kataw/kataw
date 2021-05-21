@@ -384,20 +384,13 @@ let {foo=3} = {};
 
 ```javascript
 
-let foo;
-let foo = 0;
-let [foo] = [1];
-let {
-  foo
-} = { foo: 2 };
-let {
-  foo = 3
-} = {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 12, end: 16
+✖ Cannot redeclare block-scoped variable - start: 27, end: 30
+
 ```
 

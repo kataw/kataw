@@ -341,17 +341,13 @@ let {x}: string = y;
 
 ```javascript
 
-let x;
-let [x] = y;
-let [x] = y;
-let {
-  x
-} = y;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 21, end: 22
+✖ Cannot redeclare block-scoped variable - start: 43, end: 44
+
 ```
 

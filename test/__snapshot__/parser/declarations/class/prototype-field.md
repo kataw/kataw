@@ -217,20 +217,13 @@ class Foo { prototype = 1 }
 
 ```javascript
 
-class Foo {
-  prototype;
-}
-class Foo {
-  "'prototype'";
-}
-class Foo {
-  prototype = 1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 30, end: 34
+✖ Cannot redeclare block-scoped variable - start: 57, end: 61
+
 ```
 

@@ -143,7 +143,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖  BindingIdentifier may not be `await` within class static blocks - start: 97, end: 103
+✖ BindingIdentifier may not be `await` within class static blocks - start: 97, end: 103
 
 ```
 

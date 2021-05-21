@@ -52,6 +52,7 @@ try { } catch (x) { let x; }
                     "start": 15,
                     "end": 16
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -127,15 +128,12 @@ try { } catch (x) { let x; }
 
 ```javascript
 
-try {
-} catch (x) {
-  let x;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A block-scoped variable cannot shadow a catch clause binding - start: 23, end: 25
+
 ```
 

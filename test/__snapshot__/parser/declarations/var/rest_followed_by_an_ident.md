@@ -141,12 +141,12 @@ var [...foo, bar] = obj;
 
 ```javascript
 
-var [...foo, bar] = obj;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Rest element must be last element - start: 12, end: 16
+
 ```
 

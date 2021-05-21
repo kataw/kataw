@@ -157,14 +157,12 @@ let protecte\u0064;
 
 ```javascript
 
-let x = protected;
-let protected;
-let protected;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 44, end: 59
+
 ```
 

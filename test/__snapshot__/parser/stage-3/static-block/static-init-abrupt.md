@@ -301,6 +301,7 @@ try {
                     "start": 183,
                     "end": 188
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

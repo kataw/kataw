@@ -158,6 +158,7 @@ class C { static #constructor }
 
 ```javascript
 ✖ '#constructor' is a reserved word. - start: 9, end: 11
+✖ Cannot redeclare block-scoped variable - start: 31, end: 33
 ✖ '#constructor' is a reserved word. - start: 42, end: 44
 
 ```
