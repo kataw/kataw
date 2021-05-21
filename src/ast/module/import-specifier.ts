@@ -2,19 +2,20 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
 import { StringLiteral } from '../expressions/string-literal';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 
 export interface ImportSpecifier extends SyntaxNode {
-  readonly name: Identifier | null;
+  readonly name: Identifier | DummyIdentifier | null;
   readonly asKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  readonly binding: Identifier | null;
+  readonly binding: Identifier | DummyIdentifier | null;
   readonly moduleExportName: StringLiteral | null;
 }
 
 export function createImportSpecifier(
   moduleExportName: StringLiteral | null,
-  name: Identifier | null,
+  name: Identifier | DummyIdentifier | null,
   asKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  binding: Identifier | null,
+  binding: Identifier | DummyIdentifier | null,
   start: number,
   end: number
 ): ImportSpecifier {

@@ -5729,6 +5729,7 @@ function parseImportsList(parser: ParserState, context: Context, scope: any): Im
 function parseImportSpecifier(parser: ParserState, context: Context, scope: any): ImportSpecifier {
   const pos = parser.curPos;
   const token = parser.token;
+  const tokenValue = parser.tokenValue;
   const flags = parser.nodeFlags;
   const Identifier = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true);
   const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
@@ -5745,12 +5746,12 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: any)
         BindingType.Let,
         DiagnosticCode.Binding_identifier_expected,
         /* allowKeywords */ true
-      ) as any,
+      ),
       pos,
       parser.curPos
     );
   }
-  if ((token as SyntaxKind) === SyntaxKind.EvalIdentifier || (token as SyntaxKind) === SyntaxKind.ArgumentsIdentifier) {
+  if (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -5763,6 +5764,18 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: any)
       parser.pos
     );
   }
+
+  if (token & SyntaxKind.IsFutureReserved) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  addVarOrBlock(parser, context, scope, tokenValue, BindingType.Let);
+
   return createImportSpecifier(asKeyword, null, null, Identifier as Identifier, pos, parser.curPos);
 }
 
@@ -5942,18 +5955,23 @@ function parseExportsList(parser: ParserState, context: Context): ExportsList {
 //   ModuleExportName `as` Identifier
 function parseExportSpecifier(parser: ParserState, context: Context): ExportSpecifier {
   const pos = parser.curPos;
+
   let moduleExportName: StringLiteral | null = null;
+
   const localName =
     parser.token === SyntaxKind.StringLiteral
       ? parseModuleExportName(parser, context)
-      : (parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true) as Identifier);
+      : parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true);
+
   let exportedName = null;
+
   const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
+
   if (asKeyword) {
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
     } else {
-      exportedName = parseIdentifier(parser, context) as Identifier;
+      exportedName = parseIdentifier(parser, context);
     }
   }
   return createExportSpecifier(moduleExportName, localName, asKeyword, exportedName, pos, parser.curPos);
