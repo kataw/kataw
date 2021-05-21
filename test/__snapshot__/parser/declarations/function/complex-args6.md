@@ -179,14 +179,12 @@ function f([b, a], {b}) {}
 
 ```javascript
 
-function f([b, a], {
-    b
-  }) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 22, end: 23
+
 ```
 

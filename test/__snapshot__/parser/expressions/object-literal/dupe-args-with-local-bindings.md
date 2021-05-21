@@ -867,6 +867,7 @@ class o {f([b, a], ...b) {}}
 ✖ Expected a `;` - start: 44, end: 46
 ✖ Duplicate identifier - start: 72, end: 74
 ✖ Duplicate identifier - start: 99, end: 101
+✖ ',' expected - start: 116, end: 117
 ✖ Duplicate identifier - start: 128, end: 130
 ✖ Duplicate identifier - start: 145, end: 146
 

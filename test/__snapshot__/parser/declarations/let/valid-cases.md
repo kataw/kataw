@@ -391,6 +391,8 @@ let {foo=3} = {};
 ```javascript
 ✖ Duplicate identifier - start: 12, end: 16
 ✖ Duplicate identifier - start: 27, end: 30
+✖ Duplicate identifier - start: 47, end: 48
+✖ Duplicate identifier - start: 69, end: 70
 
 ```
 

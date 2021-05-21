@@ -2192,12 +2192,14 @@
 ✖ ',' expected - start: 55, end: 56
 ✖ ',' expected - start: 79, end: 80
 ✖ ',' expected - start: 100, end: 101
+✖ ',' expected - start: 123, end: 124
 ✖ ',' expected - start: 146, end: 147
 ✖ Duplicate identifier - start: 169, end: 170
 ✖ Cannot redeclare block-scoped variable - start: 195, end: 197
 ✖ Duplicate identifier - start: 221, end: 223
 ✖ Cannot redeclare block-scoped variable - start: 253, end: 255
 ✖ Duplicate identifier - start: 281, end: 283
+✖ Duplicate identifier - start: 306, end: 307
 
 ```
 

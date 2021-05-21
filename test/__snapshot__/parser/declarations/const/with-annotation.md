@@ -414,6 +414,7 @@ const {x}: string = y;
 ✖ ',' expected - start: 50, end: 51
 ✖ Expected a `;` - start: 57, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59
+✖ Duplicate identifier - start: 81, end: 82
 ✖ Missing initializer in const declaration - start: 82, end: 83
 ✖ ',' expected - start: 82, end: 83
 ✖ Expected a `;` - start: 82, end: 83

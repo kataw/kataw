@@ -4837,9 +4837,13 @@ function parseBindingProperty(
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
   const token = parser.token;
+  const tokenValue = parser.tokenValue;
+
   const key = parsePropertyName(parser, context);
 
   if (token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) && parser.token !== SyntaxKind.Colon) {
+    addVarOrBlock(parser, context, scope, tokenValue, type);
+
     return createSingleNameBinding(
       ellipsisToken,
       key as any,

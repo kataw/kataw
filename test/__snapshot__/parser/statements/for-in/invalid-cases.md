@@ -7136,6 +7136,7 @@ for ({}.bar = x in obj);
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 525, end: 529
 ✖ Cannot redeclare block-scoped variable - start: 559, end: 561
 ✖ Cannot redeclare block-scoped variable - start: 589, end: 591
+✖ Duplicate identifier - start: 611, end: 612
 ✖ Expression expected - start: 661, end: 664
 ✖ Expected a `;` - start: 670, end: 671
 ✖ Expression expected - start: 685, end: 689

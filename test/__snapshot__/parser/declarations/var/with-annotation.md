@@ -413,6 +413,7 @@ let {x}: string = y;
 ✖ ',' expected - start: 44, end: 45
 ✖ Expected a `;` - start: 51, end: 52
 ✖ Declaration or statement expected - start: 52, end: 53
+✖ Duplicate identifier - start: 73, end: 74
 ✖ Missing initializer in destructuring declaration - start: 74, end: 75
 ✖ ',' expected - start: 74, end: 75
 ✖ Expected a `;` - start: 74, end: 75

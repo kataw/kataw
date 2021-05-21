@@ -1322,15 +1322,21 @@ let x = a; let x = b;
 ✖ Duplicate identifier - start: 69, end: 71
 ✖ Duplicate identifier - start: 88, end: 90
 ✖ Duplicate identifier - start: 94, end: 96
+✖ Duplicate identifier - start: 112, end: 113
+✖ Duplicate identifier - start: 115, end: 116
 ✖ Duplicate identifier - start: 132, end: 134
 ✖ Duplicate identifier - start: 142, end: 144
 ✖ Duplicate identifier - start: 158, end: 160
 ✖ Duplicate identifier - start: 169, end: 171
 ✖ Duplicate identifier - start: 185, end: 187
+✖ Duplicate identifier - start: 195, end: 196
 ✖ Duplicate identifier - start: 213, end: 215
 ✖ Binding identifier expected - start: 220, end: 221
+✖ Duplicate identifier - start: 222, end: 223
 ✖ Duplicate identifier - start: 240, end: 242
+✖ Duplicate identifier - start: 248, end: 249
 ✖ Duplicate identifier - start: 261, end: 263
+✖ Duplicate identifier - start: 267, end: 268
 ✖ Duplicate identifier - start: 280, end: 282
 ✖ Duplicate identifier - start: 291, end: 293
 
