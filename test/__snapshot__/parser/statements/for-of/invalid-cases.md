@@ -5421,10 +5421,8 @@ for ({a: b.c}-- of d) e;
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 408, end: 418
 ✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 434, end: 438
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 462, end: 466
-✖ Duplicate identifier - start: 490, end: 491
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 535, end: 537
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 555, end: 558
-✖ Duplicate identifier - start: 571, end: 572
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 595, end: 598
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 598, end: 600
 ✖ Expression expected - start: 614, end: 617

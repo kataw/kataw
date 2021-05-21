@@ -1172,8 +1172,8 @@ function parseForStatement(
     } else if (parser.token & SyntaxKind.IsPatternStart) {
       initializer =
         parser.token === SyntaxKind.LeftBrace
-          ? parseObjectLiteralOrAssignmentExpression(parser, context, scope, BindingType.Literal)
-          : parseArrayLiteralOrAssignmentExpression(parser, context, scope, BindingType.Literal);
+          ? parseObjectLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal)
+          : parseArrayLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal);
       if (initializer.flags & NodeFlags.PrototypeField) {
         parser.onError(
           DiagnosticSource.Parser,

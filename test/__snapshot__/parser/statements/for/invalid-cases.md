@@ -240,7 +240,6 @@ for ({x = y} ;;) {}
 ```javascript
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 10, end: 11
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 28, end: 30
-✖ Duplicate identifier - start: 47, end: 49
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 52, end: 54
 
 ```

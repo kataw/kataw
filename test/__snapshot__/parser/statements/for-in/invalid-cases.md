@@ -7141,24 +7141,17 @@ for ({}.bar = x in obj);
 ✖ Expression expected - start: 685, end: 689
 ✖ Expected a `;` - start: 695, end: 696
 ✖ Expression expected - start: 717, end: 718
-✖ Duplicate identifier - start: 729, end: 730
 ✖ Expression expected - start: 734, end: 735
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 754, end: 756
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 798, end: 807
-✖ Duplicate identifier - start: 824, end: 825
 ✖ Expression expected - start: 835, end: 836
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 855, end: 857
 ✖ Expression expected - start: 877, end: 878
-✖ Duplicate identifier - start: 889, end: 890
 ✖ Expression expected - start: 901, end: 902
-✖ Duplicate identifier - start: 913, end: 914
 ✖ Expression expected - start: 923, end: 924
-✖ Duplicate identifier - start: 935, end: 936
 ✖ Expression expected - start: 945, end: 946
 ✖ Expression expected - start: 965, end: 966
-✖ Duplicate identifier - start: 977, end: 979
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 983, end: 985
-✖ Duplicate identifier - start: 997, end: 998
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 1000, end: 1001
 ✖ Expression expected - start: 1029, end: 1030
 ✖ The parser expected to find a '}' to match the '{' token here - start: 1044, end: 1046
@@ -7186,7 +7179,6 @@ for ({}.bar = x in obj);
 ✖ Expression expected - start: 1679, end: 1680
 ✖ Expression expected - start: 1698, end: 1699
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1718, end: 1720
-✖ Duplicate identifier - start: 1731, end: 1732
 ✖ Expression expected - start: 1743, end: 1744
 ✖ Expression expected - start: 1771, end: 1772
 ✖ The left-hand side must be a variable or a property access. - start: 1790, end: 1792
