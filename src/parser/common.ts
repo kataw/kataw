@@ -97,6 +97,15 @@ export type OnError = (
 ) => void | undefined;
 
 /**
+ * The scope interface.
+ */
+export interface ScopeState {
+  parent: ScopeState | null;
+  kind: ScopeKind;
+  hasError: boolean;
+}
+
+/**
  * The parser interface.
  */
 export interface ParserState {
@@ -375,47 +384,33 @@ export function isMemberExpression(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.IsMemberExpression) === NodeFlags.IsMemberExpression;
 }
 
-/**
- * Lexical scope interface
- */
-export interface ScopeState {
-  parent: ScopeState | undefined;
-  type: ScopeKind;
-  scopeError?: ScopeError | null;
-}
-
-/** Scope error interface */
-export interface ScopeError {
-  code: DiagnosticCode;
-  start: number;
-}
-
 export function createScope(): ScopeState {
   return {
-    parent: void 0,
-    type: ScopeKind.Block
+    parent: null,
+    kind: ScopeKind.Block,
+    hasError: false
   };
 }
 
-export function createParentScope(parent: ScopeState | undefined, type: ScopeKind): ScopeState {
+export function createParentScope(parent: ScopeState | null, kind: ScopeKind): ScopeState {
   return {
     parent,
-    type,
-    scopeError: void 0
+    kind,
+    hasError: false
   };
 }
+
 export function addVarOrBlock(
   parser: ParserState,
   context: Context,
   scope: ScopeState,
   name: string,
   bindingType: BindingType
-  // origin: Origin
 ) {
   if (bindingType & BindingType.Var) {
     addVarName(parser, context, scope, name, bindingType);
   } else {
-    addBlockName(parser, context, scope, name, bindingType /*, origin*/);
+    addBlockName(parser, context, scope, name, bindingType);
   }
 }
 
@@ -428,7 +423,7 @@ export function addVarName(
 ): void {
   if (scope) {
     let currentScope: any = scope;
-    while (currentScope && (currentScope.type & ScopeKind.FunctionRoot) === 0) {
+    while (currentScope && (currentScope.kind & ScopeKind.FunctionRoot) === 0) {
       if (currentScope['#' + name] & (BindingType.Let | BindingType.Const | BindingType.FunctionLexical)) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -459,47 +454,54 @@ export function addVarName(
 }
 
 export function addBlockName(parser: ParserState, context: Context, scope: any, name: string, type: BindingType): void {
-  if (!scope) return;
-  const value = scope['#' + name];
+  if (scope) {
+    const value = scope['#' + name];
 
-  if (value) {
-    if ((value & BindingType.Empty) === 0) {
-      if (type & BindingType.ArgumentList) {
-        scope.scopeError = { start: parser.curPos, name, code: DiagnosticCode.Cannot_redeclare_block_scoped_variable };
-      } else if (
-        context & Context.OptionsDisableWebCompat ||
-        (value & BindingType.FunctionLexical) === 0 ||
-        (context & Context.InBlock) === 0
-      ) {
+    if (value) {
+      if ((value & BindingType.Empty) === 0) {
+        if (type & BindingType.ArgumentList) {
+          parser.diagnosticStartPos = parser.curPos;
+          scope.hasError = true;
+        } else if (
+          context & Context.OptionsDisableWebCompat ||
+          (value & BindingType.FunctionLexical) === 0 ||
+          (context & Context.InBlock) === 0
+        ) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Duplicate_identifier],
+            parser.curPos,
+            parser.pos
+          );
+        }
+      }
+    } else {
+      const parent = scope.parent;
+      if (scope.kind & ScopeKind.FunctionBody && parent['#' + name] && (parent['#' + name] & BindingType.Empty) === 0) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Duplicate_identifier],
+          diagnosticMap[DiagnosticCode.Cannot_redeclare_block_scoped_variable],
           parser.curPos,
           parser.pos
         );
       }
-    }
-  } else {
-    const parent = scope.parent;
-    if (scope.type & ScopeKind.FunctionBody && parent['#' + name] && (parent['#' + name] & BindingType.Empty) === 0) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Cannot_redeclare_block_scoped_variable],
-        parser.curPos,
-        parser.pos
-      );
-    }
 
-    if (scope.type & ScopeKind.ArrowParams && value && (value & BindingType.Empty) === 0) {
-      if (type & BindingType.ArgumentList) {
-        scope.scopeError = { start: parser.curPos, name, code: DiagnosticCode.Cannot_redeclare_block_scoped_variable };
+      if (
+        scope.kind & ScopeKind.ArrowParams &&
+        value &&
+        (value & BindingType.Empty) === 0 &&
+        type & BindingType.ArgumentList
+      ) {
+        parser.diagnosticStartPos = parser.curPos;
+        scope.hasError = true;
       }
-    }
 
-    if (scope.type & ScopeKind.CatchBlock) {
-      if (parent['#' + name] & (BindingType.CatchIdentifier | BindingType.CatchPattern)) {
+      if (
+        scope.kind & ScopeKind.CatchBlock &&
+        parent['#' + name] & (BindingType.CatchIdentifier | BindingType.CatchPattern)
+      ) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -509,6 +511,6 @@ export function addBlockName(parser: ParserState, context: Context, scope: any, 
         );
       }
     }
+    scope['#' + name] = type;
   }
-  scope['#' + name] = type;
 }

@@ -184,7 +184,7 @@ function f([b, a], {b}) {}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate formal parameter - start: 21, end: 23
+✖ Duplicate formal parameter - start: 18, end: 23
 
 ```
 

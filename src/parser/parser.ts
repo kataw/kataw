@@ -2092,12 +2092,12 @@ function parseConciseOrFunctionBody(
   scope: ScopeState,
   isSimpleParameterList: boolean
 ): FunctionBody | ExpressionNode {
-  if (scope && scope.scopeError) {
+  if (scope.hasError) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Duplicate_arrow_formal_parameter],
-      scope.scopeError.start,
+      parser.diagnosticStartPos,
       parser.pos
     );
   }
@@ -3056,12 +3056,12 @@ function parsMethodParameters(
     }
 
     // 14.1.2 - 'It is a Syntax Error if BoundNames of FormalParameters contains any duplicate elements.'
-    if (scope.scopeError) {
+    if (scope.hasError) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
-        scope.scopeError.start,
+        parser.diagnosticStartPos,
         parser.pos
       );
     }
@@ -5478,12 +5478,12 @@ function parseFunctionStatementList(
     }
   }
   if (context & Context.Strict) {
-    if (isNotPreviousStrict && scope && scope.scopeError) {
+    if (isNotPreviousStrict && scope && scope.hasError) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
-        scope.scopeError.start,
+        parser.diagnosticStartPos,
         parser.pos
       );
     }
@@ -5526,12 +5526,12 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
     }
 
     if (nodeFlags & NodeFlags.NoneSimpleParamList || context & Context.Strict) {
-      if (scope.scopeError) {
+      if (scope.hasError) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
-          scope.scopeError.start,
+          parser.diagnosticStartPos,
           parser.pos
         );
       }

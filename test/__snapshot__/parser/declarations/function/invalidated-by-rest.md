@@ -160,7 +160,7 @@ function f(b, a, b, ...a) {}
 
 ```javascript
 ✖ Duplicate identifier - start: 23, end: 24
-✖ Duplicate formal parameter - start: 16, end: 25
+✖ Duplicate formal parameter - start: 19, end: 25
 
 ```
 

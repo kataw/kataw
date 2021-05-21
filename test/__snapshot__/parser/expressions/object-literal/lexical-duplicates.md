@@ -2187,12 +2187,12 @@
 ### Diagnostics
 
 ```javascript
-✖ Duplicate formal parameter - start: 10, end: 14
-✖ Duplicate formal parameter - start: 31, end: 35
-✖ Duplicate formal parameter - start: 49, end: 56
-✖ Duplicate formal parameter - start: 76, end: 80
+✖ Duplicate formal parameter - start: 4, end: 14
+✖ Duplicate formal parameter - start: 25, end: 35
+✖ Duplicate formal parameter - start: 46, end: 56
+✖ Duplicate formal parameter - start: 67, end: 80
 ✖ Duplicate formal parameter - start: 98, end: 101
-✖ Duplicate formal parameter - start: 122, end: 124
+✖ Duplicate formal parameter - start: 119, end: 124
 ✖ Duplicate formal parameter - start: 142, end: 147
 ✖ Duplicate identifier - start: 169, end: 170
 ✖ Cannot redeclare block-scoped variable - start: 195, end: 197

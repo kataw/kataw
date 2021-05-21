@@ -1852,10 +1852,10 @@ o = {f([b, a], b=x) {}};
 ✖ Duplicate formal parameter - start: 31, end: 34
 ✖ Duplicate formal parameter - start: 53, end: 56
 ✖ Duplicate formal parameter - start: 72, end: 78
-✖ Duplicate formal parameter - start: 100, end: 111
+✖ Duplicate formal parameter - start: 103, end: 111
 ✖ Duplicate formal parameter - start: 133, end: 140
 ✖ Duplicate identifier - start: 166, end: 167
-✖ Duplicate formal parameter - start: 159, end: 168
+✖ Duplicate formal parameter - start: 162, end: 168
 ✖ Duplicate formal parameter - start: 189, end: 192
 ✖ Duplicate formal parameter - start: 213, end: 218
 ✖ Duplicate identifier - start: 243, end: 244

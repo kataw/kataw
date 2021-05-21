@@ -2094,11 +2094,11 @@ a = b => { let b; };
 ✖ Cannot redeclare block-scoped variable - start: 193, end: 194
 ✖ Cannot redeclare block-scoped variable - start: 214, end: 215
 ✖ Expected a `;` - start: 233, end: 236
-✖ Duplicate arrow formal parameter - start: 254, end: 261
-✖ Duplicate arrow formal parameter - start: 271, end: 278
-✖ Duplicate arrow formal parameter - start: 288, end: 298
+✖ Duplicate arrow formal parameter - start: 240, end: 261
+✖ Duplicate arrow formal parameter - start: 263, end: 278
+✖ Duplicate arrow formal parameter - start: 280, end: 298
 ✖ Duplicate arrow formal parameter - start: 310, end: 318
-✖ Duplicate arrow formal parameter - start: 334, end: 341
+✖ Duplicate arrow formal parameter - start: 320, end: 341
 ✖ Cannot redeclare block-scoped variable - start: 384, end: 386
 ✖ Cannot redeclare block-scoped variable - start: 410, end: 412
 
