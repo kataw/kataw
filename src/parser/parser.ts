@@ -2634,7 +2634,12 @@ function parsePropertyDefinition(
 
   if (parser.token & SyntaxKind.IsEllipsis) {
     const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-    return createSpreadProperty(ellipsisToken, paresSpreadPropertyArgument(parser, context, type), pos, parser.curPos);
+    return createSpreadProperty(
+      ellipsisToken,
+      paresSpreadPropertyArgument(parser, context, scope, type),
+      pos,
+      parser.curPos
+    );
   }
 
   let key!: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName | PrivateIdentifier;
@@ -2815,8 +2820,8 @@ function parsePropertyDefinition(
     } else if (parser.token & SyntaxKind.IsPatternStart) {
       left =
         parser.token === SyntaxKind.LeftBracket
-          ? parseArrayLiteralOrAssignmentExpression(parser, context, null, type)
-          : parseObjectLiteralOrAssignmentExpression(parser, context, null, type);
+          ? parseArrayLiteralOrAssignmentExpression(parser, context, scope, type)
+          : parseObjectLiteralOrAssignmentExpression(parser, context, scope, type);
 
       destructible = parser.destructible;
 
@@ -3038,9 +3043,15 @@ function parsMethodParameters(
   return createFormalParameterList([], /* trailingComma*/ false, nodeFlags, parser.curPos, parser.curPos);
 }
 
-function paresSpreadPropertyArgument(parser: ParserState, context: Context, type: BindingType): SpreadProperty | any {
+function paresSpreadPropertyArgument(
+  parser: ParserState,
+  context: Context,
+  scope: any,
+  type: BindingType
+): SpreadProperty | any {
   const pos = parser.curPos;
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    const tokenValue = parser.tokenValue;
     let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
     // '... )' , '... ]' and '... }'
@@ -3071,6 +3082,8 @@ function paresSpreadPropertyArgument(parser: ParserState, context: Context, type
 
     if (!parser.assignable) {
       destructible |= DestructibleKind.NotDestructible;
+    } else if (parser.token === SyntaxKind.Comma || (parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
+      addVarOrBlock(parser, context, scope, tokenValue, type);
     } else {
       destructible |= DestructibleKind.Assignable;
     }
@@ -3086,8 +3099,8 @@ function paresSpreadPropertyArgument(parser: ParserState, context: Context, type
   if (parser.token & SyntaxKind.IsPatternStart) {
     let argument: any =
       parser.token === SyntaxKind.LeftBracket
-        ? parseArrayLiteralOrAssignmentExpression(parser, context, null, type)
-        : parseObjectLiteralOrAssignmentExpression(parser, context, null, type);
+        ? parseArrayLiteralOrAssignmentExpression(parser, context, scope, type)
+        : parseObjectLiteralOrAssignmentExpression(parser, context, scope, type);
 
     // '...[ ] )' , '... { } ]' etc.
     if (parser.token === SyntaxKind.RightBrace) {
@@ -3666,7 +3679,12 @@ function parseArrayLiteralElement(
 
   if (parser.token & SyntaxKind.IsEllipsis) {
     const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-    return createSpreadElement(ellipsisToken, parseArraySpreadArgument(parser, context, type), pos, parser.curPos);
+    return createSpreadElement(
+      ellipsisToken,
+      parseArraySpreadArgument(parser, context, scope, type),
+      pos,
+      parser.curPos
+    );
   }
 
   if (parser.token & SyntaxKind.IsComma) {
@@ -3706,10 +3724,11 @@ function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Contex
     : parseExpression(parser, context);
 }
 
-function parseArraySpreadArgument(parser: ParserState, context: Context, type: BindingType): any {
+function parseArraySpreadArgument(parser: ParserState, context: Context, scope: any, type: BindingType): any {
   const pos = parser.curPos;
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    const tokenValue = parser.tokenValue;
     let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
     // '... )' , '... ]' and '... }'
@@ -3738,6 +3757,7 @@ function parseArraySpreadArgument(parser: ParserState, context: Context, type: B
     if (!parser.assignable) {
       destructible |= DestructibleKind.NotDestructible;
     } else if (parser.token === SyntaxKind.Comma || (parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
+      addVarOrBlock(parser, context, scope, tokenValue, type);
     } else {
       destructible |= DestructibleKind.Assignable;
     }
