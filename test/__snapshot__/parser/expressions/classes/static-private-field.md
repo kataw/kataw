@@ -183,7 +183,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 39, end: 41
+✖ Duplicate identifier - start: 39, end: 41
 
 ```
 

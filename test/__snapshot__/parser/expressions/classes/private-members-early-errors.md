@@ -616,7 +616,7 @@ class C { foo() { this.#a = 1; }}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 139, end: 141
+✖ Duplicate identifier - start: 139, end: 141
 
 ```
 

@@ -168,7 +168,7 @@ function f(b, a, b, ...a) {"use strict"}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 23, end: 24
+✖ Duplicate identifier - start: 23, end: 24
 ✖ ',' expected - start: 24, end: 25
 ✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 19, end: 40
 

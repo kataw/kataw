@@ -188,17 +188,12 @@ switch (0) { case 1: async function* f() {} default: var f }
 
 ```javascript
 
-switch(0
-  case 1:
-    async function * f() {}
-  default
-    var f;
- 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 56, end: 58
+
 ```
 

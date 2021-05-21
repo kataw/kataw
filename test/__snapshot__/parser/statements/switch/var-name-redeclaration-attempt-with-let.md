@@ -173,7 +173,7 @@ switch (0) { case 1: var f; default: let f }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 40, end: 42
+✖ Duplicate identifier - start: 40, end: 42
 
 ```
 

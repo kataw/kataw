@@ -177,17 +177,12 @@ switch (0) { case 1: class f {} default: function f() {} }
 
 ```javascript
 
-switch(0
-  case 1:
-    class f {}
-  default
-    function f() {}
- 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 49, end: 51
+
 ```
 

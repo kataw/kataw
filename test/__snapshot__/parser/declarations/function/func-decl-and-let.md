@@ -161,15 +161,12 @@ function f(){ function x(){} let x; }
 
 ```javascript
 
-function f() {
-  function x() {}
-  let x;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 32, end: 34
+
 ```
 

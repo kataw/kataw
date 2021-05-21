@@ -2189,20 +2189,20 @@ class x { dsda(){ return (a=super.foo) => a; }}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 28, end: 30
-✖ Cannot redeclare block-scoped variable - start: 57, end: 59
+✖ Duplicate identifier - start: 28, end: 30
+✖ Duplicate identifier - start: 57, end: 59
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 93, end: 94
-✖ Cannot redeclare block-scoped variable - start: 107, end: 109
-✖ Cannot redeclare block-scoped variable - start: 147, end: 149
-✖ Cannot redeclare block-scoped variable - start: 179, end: 181
-✖ Cannot redeclare block-scoped variable - start: 239, end: 241
-✖ Cannot redeclare block-scoped variable - start: 280, end: 282
-✖ Cannot redeclare block-scoped variable - start: 313, end: 315
-✖ Cannot redeclare block-scoped variable - start: 402, end: 404
+✖ Duplicate identifier - start: 107, end: 109
+✖ Duplicate identifier - start: 147, end: 149
+✖ Duplicate identifier - start: 179, end: 181
+✖ Duplicate identifier - start: 239, end: 241
+✖ Duplicate identifier - start: 280, end: 282
+✖ Duplicate identifier - start: 313, end: 315
+✖ Duplicate identifier - start: 402, end: 404
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 447, end: 448
-✖ Cannot redeclare block-scoped variable - start: 466, end: 468
-✖ Cannot redeclare block-scoped variable - start: 530, end: 532
-✖ Cannot redeclare block-scoped variable - start: 574, end: 576
+✖ Duplicate identifier - start: 466, end: 468
+✖ Duplicate identifier - start: 530, end: 532
+✖ Duplicate identifier - start: 574, end: 576
 
 ```
 

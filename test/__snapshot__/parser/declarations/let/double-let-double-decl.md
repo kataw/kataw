@@ -108,7 +108,7 @@ let a; let a;
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 10, end: 12
+✖ Duplicate identifier - start: 10, end: 12
 
 ```
 

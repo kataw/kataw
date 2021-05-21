@@ -162,7 +162,7 @@ let protecte\u0064;
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 44, end: 59
+✖ Duplicate identifier - start: 44, end: 59
 
 ```
 

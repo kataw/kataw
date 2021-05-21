@@ -222,8 +222,8 @@ class Foo { prototype = 1 }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 30, end: 34
-✖ Cannot redeclare block-scoped variable - start: 57, end: 61
+✖ Duplicate identifier - start: 30, end: 34
+✖ Duplicate identifier - start: 57, end: 61
 
 ```
 

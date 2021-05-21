@@ -324,9 +324,9 @@ class Foo { static ['constructor'] = 1 }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 36, end: 40
-✖ Cannot redeclare block-scoped variable - start: 71, end: 75
-✖ Cannot redeclare block-scoped variable - start: 109, end: 113
+✖ Duplicate identifier - start: 36, end: 40
+✖ Duplicate identifier - start: 71, end: 75
+✖ Duplicate identifier - start: 109, end: 113
 
 ```
 

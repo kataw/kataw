@@ -191,17 +191,12 @@ function f() {
 
 ```javascript
 
-function f() {
-  try {
-  } catch (e) {
-    function e() {}
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A block-scoped variable cannot shadow a catch clause binding - start: 59, end: 61
+
 ```
 

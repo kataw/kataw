@@ -182,17 +182,12 @@ switch (0) { case 1: let f; default: async function f() {} }
 
 ```javascript
 
-switch(0
-  case 1:
-    let f;
-  default
-    async function f() {}
- 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 51, end: 53
+
 ```
 

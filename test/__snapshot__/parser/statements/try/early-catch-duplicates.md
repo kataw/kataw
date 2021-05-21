@@ -138,7 +138,7 @@ try { } catch ([x, x]) {}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 18, end: 20
+✖ Duplicate identifier - start: 18, end: 20
 
 ```
 

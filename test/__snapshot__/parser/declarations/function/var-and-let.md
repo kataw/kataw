@@ -157,7 +157,7 @@ function f(){ var x; let x; }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 24, end: 26
+✖ Duplicate identifier - start: 24, end: 26
 
 ```
 

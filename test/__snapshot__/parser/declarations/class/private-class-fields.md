@@ -199,7 +199,7 @@ class C { #aaa
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 29, end: 31
+✖ Duplicate identifier - start: 29, end: 31
 
 ```
 

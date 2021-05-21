@@ -402,11 +402,11 @@ let {x}: string = y;
 ```javascript
 ✖ ',' expected - start: 5, end: 6
 ✖ Expected a `;` - start: 5, end: 6
-✖ Cannot redeclare block-scoped variable - start: 21, end: 22
+✖ Duplicate identifier - start: 21, end: 22
 ✖ Missing initializer in destructuring declaration - start: 23, end: 24
 ✖ ',' expected - start: 23, end: 24
 ✖ Expected a `;` - start: 23, end: 24
-✖ Cannot redeclare block-scoped variable - start: 43, end: 44
+✖ Duplicate identifier - start: 43, end: 44
 ✖ ',' expected - start: 44, end: 45
 ✖ Did you forgot a ']' to match the `[` token? - start: 44, end: 45
 ✖ Missing initializer in destructuring declaration - start: 44, end: 45

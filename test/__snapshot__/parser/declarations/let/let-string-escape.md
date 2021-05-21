@@ -230,9 +230,9 @@ let x = '\\009';
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 19, end: 21
-✖ Cannot redeclare block-scoped variable - start: 36, end: 38
-✖ Cannot redeclare block-scoped variable - start: 68, end: 70
+✖ Duplicate identifier - start: 19, end: 21
+✖ Duplicate identifier - start: 36, end: 38
+✖ Duplicate identifier - start: 68, end: 70
 
 ```
 

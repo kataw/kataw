@@ -161,15 +161,12 @@ function f(){ let x; function x(){} }
 
 ```javascript
 
-function f() {
-  let x;
-  function x() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot redeclare block-scoped variable - start: 29, end: 31
+
 ```
 

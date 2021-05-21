@@ -346,8 +346,8 @@ let {x}: string = y;
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 21, end: 22
-✖ Cannot redeclare block-scoped variable - start: 43, end: 44
+✖ Duplicate identifier - start: 21, end: 22
+✖ Duplicate identifier - start: 43, end: 44
 
 ```
 

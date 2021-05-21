@@ -245,7 +245,7 @@ class C extends (function B() {
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 13, end: 15
+✖ Duplicate identifier - start: 13, end: 15
 ✖ 'with' statements are not allowed in strict mode. - start: 39, end: 46
 
 ```

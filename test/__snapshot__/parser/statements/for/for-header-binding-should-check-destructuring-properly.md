@@ -147,7 +147,7 @@ for (const [x, x] in {}) {}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 14, end: 16
+✖ Duplicate identifier - start: 14, end: 16
 
 ```
 

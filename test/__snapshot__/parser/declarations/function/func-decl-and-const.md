@@ -168,15 +168,12 @@ function f(){ function x(){} const x = y; }
 
 ```javascript
 
-function f() {
-  function x() {}
-  const x = y;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 34, end: 36
+
 ```
 

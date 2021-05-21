@@ -180,7 +180,7 @@ o = {f(x) { let x }}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 15, end: 17
+✖ Duplicate identifier - start: 15, end: 17
 
 ```
 

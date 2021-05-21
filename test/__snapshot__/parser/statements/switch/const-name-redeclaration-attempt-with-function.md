@@ -184,17 +184,12 @@ switch (0) { case 1: const f = 0; default: function f() {} }
 
 ```javascript
 
-switch(0
-  case 1:
-    const f = 0;
-  default
-    function f() {}
- 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 51, end: 53
+
 ```
 

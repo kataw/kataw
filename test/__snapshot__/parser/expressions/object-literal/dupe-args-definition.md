@@ -1854,11 +1854,11 @@ o = {f([b, a], b=x) {}};
 ✖ ',' expected - start: 77, end: 78
 ✖ ',' expected - start: 110, end: 111
 ✖ ',' expected - start: 139, end: 140
-✖ Cannot redeclare block-scoped variable - start: 166, end: 167
+✖ Duplicate identifier - start: 166, end: 167
 ✖ ',' expected - start: 167, end: 168
 ✖ ',' expected - start: 191, end: 192
 ✖ ',' expected - start: 217, end: 218
-✖ Cannot redeclare block-scoped variable - start: 243, end: 244
+✖ Duplicate identifier - start: 243, end: 244
 ✖ ',' expected - start: 270, end: 271
 
 ```

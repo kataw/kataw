@@ -403,11 +403,11 @@ const {x}: string = y;
 ✖ Missing initializer in const declaration - start: 7, end: 8
 ✖ ',' expected - start: 7, end: 8
 ✖ Expected a `;` - start: 7, end: 8
-✖ Cannot redeclare block-scoped variable - start: 25, end: 26
+✖ Duplicate identifier - start: 25, end: 26
 ✖ Missing initializer in const declaration - start: 27, end: 28
 ✖ ',' expected - start: 27, end: 28
 ✖ Expected a `;` - start: 27, end: 28
-✖ Cannot redeclare block-scoped variable - start: 49, end: 50
+✖ Duplicate identifier - start: 49, end: 50
 ✖ ',' expected - start: 50, end: 51
 ✖ Did you forgot a ']' to match the `[` token? - start: 50, end: 51
 ✖ Missing initializer in const declaration - start: 50, end: 51

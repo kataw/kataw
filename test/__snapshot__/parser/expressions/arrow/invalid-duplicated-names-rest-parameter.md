@@ -118,12 +118,12 @@
 
 ```javascript
 
-() =>  0;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 7, end: 8
+
 ```
 

@@ -1324,8 +1324,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 107, end: 109
-✖ Cannot redeclare block-scoped variable - start: 245, end: 247
+✖ Duplicate identifier - start: 107, end: 109
+✖ Duplicate identifier - start: 245, end: 247
 
 ```
 

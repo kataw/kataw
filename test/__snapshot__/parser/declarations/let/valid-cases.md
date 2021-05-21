@@ -389,8 +389,8 @@ let {foo=3} = {};
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 12, end: 16
-✖ Cannot redeclare block-scoped variable - start: 27, end: 30
+✖ Duplicate identifier - start: 12, end: 16
+✖ Duplicate identifier - start: 27, end: 30
 
 ```
 

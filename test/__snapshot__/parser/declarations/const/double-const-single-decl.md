@@ -191,9 +191,9 @@ const a = 1; const a = 2;
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 12, end: 14
-✖ Cannot redeclare block-scoped variable - start: 26, end: 28
-✖ Cannot redeclare block-scoped variable - start: 39, end: 41
+✖ Duplicate identifier - start: 12, end: 14
+✖ Duplicate identifier - start: 26, end: 28
+✖ Duplicate identifier - start: 39, end: 41
 
 ```
 

@@ -179,7 +179,7 @@ switch (0) { case 1: class f {} default: const f = 0 }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 46, end: 48
+✖ Duplicate identifier - start: 46, end: 48
 
 ```
 
