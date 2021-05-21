@@ -179,7 +179,7 @@ function f([b, a, b, a]) {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 23, end: 24
+✖ ',' expected - start: 20, end: 24
 
 ```
 

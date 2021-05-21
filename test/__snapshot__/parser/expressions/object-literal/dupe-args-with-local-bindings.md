@@ -862,12 +862,12 @@ class o {f([b, a], ...b) {}}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 21, end: 23
+✖ Cannot redeclare block-scoped variable - start: 21, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 40
 ✖ Expected a `;` - start: 44, end: 46
 ✖ Duplicate identifier - start: 72, end: 74
 ✖ Duplicate identifier - start: 99, end: 101
-✖ ',' expected - start: 116, end: 117
+✖ Duplicate formal parameter - start: 115, end: 117
 ✖ Duplicate identifier - start: 128, end: 130
 ✖ Duplicate identifier - start: 145, end: 146
 

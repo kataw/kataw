@@ -140,12 +140,12 @@ function f(a, b, a) {"use strict"}
 
 ```javascript
 
-function f(a, b, a) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate formal parameter - start: 16, end: 34
+
 ```
 

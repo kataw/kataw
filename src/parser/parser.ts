@@ -2078,6 +2078,16 @@ function parseConciseOrFunctionBody(
   scope: any,
   isSimpleParameterList: boolean
 ): FunctionBody | ExpressionNode {
+  if (scope && scope.scopeError) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Duplicate_arrow_formal_parameter],
+      scope.scopeError.start,
+      parser.pos
+    );
+  }
+
   if (parser.token === SyntaxKind.LeftBrace) {
     const body = parseFunctionBody(
       parser,
@@ -3030,13 +3040,14 @@ function parsMethodParameters(
         parser.pos
       );
     }
+
     // 14.1.2 - 'It is a Syntax Error if BoundNames of FormalParameters contains any duplicate elements.'
     if (scope.scopeError) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._expected],
-        parser.curPos,
+        diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
+        scope.scopeError.start,
         parser.pos
       );
     }
@@ -5401,6 +5412,7 @@ function parseFunctionStatementList(
   const statements = [];
   const directives = [];
   const flags = parser.nodeFlags;
+  const isNotPreviousStrict = (context & Context.Strict) === 0;
 
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
@@ -5451,7 +5463,19 @@ function parseFunctionStatementList(
       );
     }
   }
+  if (context & Context.Strict) {
+    if (isNotPreviousStrict && scope && scope.scopeError) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
+        scope.scopeError.start,
+        parser.pos
+      );
+    }
+  }
 
+  scope = createParentScope(scope, ScopeKind.FunctionBody);
   while (parser.token & 0b00010000100000011110000000000000) {
     statements.push(parseStatementListItem(parser, context, scope));
   }
@@ -5493,7 +5517,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode._expected],
-          parser.curPos,
+          scope.scopeError.start,
           parser.pos
         );
       }

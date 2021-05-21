@@ -94,12 +94,12 @@
 
 ```javascript
 
-() =>  a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate arrow formal parameter - start: 6, end: 17
+
 ```
 

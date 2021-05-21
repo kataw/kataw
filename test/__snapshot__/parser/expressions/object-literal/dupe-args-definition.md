@@ -1848,18 +1848,18 @@ o = {f([b, a], b=x) {}};
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 11, end: 12
-✖ ',' expected - start: 33, end: 34
-✖ ',' expected - start: 55, end: 56
-✖ ',' expected - start: 77, end: 78
-✖ ',' expected - start: 110, end: 111
-✖ ',' expected - start: 139, end: 140
+✖ Duplicate formal parameter - start: 9, end: 12
+✖ Duplicate formal parameter - start: 31, end: 34
+✖ Duplicate formal parameter - start: 53, end: 56
+✖ Duplicate formal parameter - start: 72, end: 78
+✖ Duplicate formal parameter - start: 100, end: 111
+✖ Duplicate formal parameter - start: 133, end: 140
 ✖ Duplicate identifier - start: 166, end: 167
-✖ ',' expected - start: 167, end: 168
-✖ ',' expected - start: 191, end: 192
-✖ ',' expected - start: 217, end: 218
+✖ Duplicate formal parameter - start: 159, end: 168
+✖ Duplicate formal parameter - start: 189, end: 192
+✖ Duplicate formal parameter - start: 213, end: 218
 ✖ Duplicate identifier - start: 243, end: 244
-✖ ',' expected - start: 270, end: 271
+✖ Duplicate formal parameter - start: 266, end: 271
 
 ```
 

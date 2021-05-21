@@ -190,7 +190,9 @@ export const enum DiagnosticCode {
   A_block_scoped_variable_cannot_shadow_a_catch_clause_binding = 189,
   Trailing_comma_not_allowed_after_rest_element = 190,
   Rest_element_must_be_last_element = 191,
-  Duplicate_identifier = 192
+  Duplicate_identifier = 192,
+  Duplicate_formal_parameter = 193,
+  Duplicate_arrow_formal_parameter = 194
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -382,5 +384,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [189]: 'A block-scoped variable cannot shadow a catch clause binding',
   [190]: 'Trailing comma not allowed after rest element',
   [191]: 'Rest element must be last element',
-  [192]: 'Duplicate identifier'
+  [192]: 'Duplicate identifier',
+  [193]: 'Duplicate formal parameter',
+  [194]: 'Duplicate arrow formal parameter'
 };

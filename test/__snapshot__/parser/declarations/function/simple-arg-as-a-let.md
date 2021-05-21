@@ -138,7 +138,7 @@ function f(x) { let x }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 19, end: 21
+✖ Cannot redeclare block-scoped variable - start: 19, end: 21
 
 ```
 

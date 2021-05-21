@@ -197,7 +197,7 @@ function f(b, a, b, a, [fine]) {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 29, end: 30
+✖ ',' expected - start: 19, end: 30
 
 ```
 

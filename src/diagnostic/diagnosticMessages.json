@@ -187,7 +187,9 @@
   "A block-scoped variable cannot shadow a catch clause binding": 189,
   "Trailing comma not allowed after rest element": 190,
   "Rest element must be last element": 191,
-  "Duplicate identifier": 192
+  "Duplicate identifier": 192,
+  "Duplicate formal parameter": 193,
+  "Duplicate arrow formal parameter": 194
 
 }
 

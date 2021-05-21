@@ -168,7 +168,7 @@ function f([b, a], b=x) {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 22, end: 23
+✖ ',' expected - start: 18, end: 23
 
 ```
 

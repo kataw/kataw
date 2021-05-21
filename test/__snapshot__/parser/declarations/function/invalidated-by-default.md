@@ -162,7 +162,7 @@ function f(b, a, b, a = x) {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 25, end: 26
+✖ ',' expected - start: 19, end: 26
 
 ```
 
