@@ -183,7 +183,14 @@ export const enum DiagnosticCode {
   Object_property_expected = 182,
   Cannot_assign_to_eval_and_arguments_because_they_are_not_a_variable = 183,
   _arguments_is_only_allowed_in_functions_and_class_methods = 184,
-  _BindingIdentifier_may_not_be_await_within_class_static_blocks = 185
+  BindingIdentifier_may_not_be_await_within_class_static_blocks = 185,
+  A_static_initialization_block_may_not_have_decorator = 186,
+  Cannot_redeclare_block_scoped_variable = 187,
+  Cannot_bound_an_already_bound_catch_clause_binding = 188,
+  A_block_scoped_variable_cannot_shadow_a_catch_clause_binding = 189,
+  Trailing_comma_not_allowed_after_rest_element = 190,
+  Rest_element_must_be_last_element = 191,
+  Duplicate_identifier = 192
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -368,5 +375,12 @@ export const diagnosticMap: { [key: number]: string } = {
   [182]: 'Object property expected',
   [183]: "Cannot assign to 'eval' and 'arguments' because they are not a variable",
   [184]: "'arguments' is only allowed in functions and class methods",
-  [185]: ' BindingIdentifier may not be `await` within class static blocks'
+  [185]: 'BindingIdentifier may not be `await` within class static blocks',
+  [186]: "A 'static {}' initialization block may not have decorator",
+  [187]: 'Cannot redeclare block-scoped variable',
+  [188]: 'Cannot bound an already bound catch clause binding',
+  [189]: 'A block-scoped variable cannot shadow a catch clause binding',
+  [190]: 'Trailing comma not allowed after rest element',
+  [191]: 'Rest element must be last element',
+  [192]: 'Duplicate identifier'
 };

@@ -5752,6 +5752,7 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5251,
                     "end": 5252
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -5856,6 +5857,7 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5279,
                     "end": 5280
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -5970,6 +5972,7 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5595,
                     "end": 5596
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -6126,8 +6129,11 @@ try {} catch(e) { for(var e of 0); };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3176, end: 3177
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3211, end: 3212
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3286, end: 3287
+✖ Duplicate identifier - start: 3303, end: 3305
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3358, end: 3359
+✖ Duplicate identifier - start: 3375, end: 3377
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3433, end: 3434
+✖ Duplicate identifier - start: 3450, end: 3452
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3509, end: 3510
 ✖ Invalid hexadecimal escape sequence - start: 3520, end: 3728
 ✖ Declaration or statement expected - start: 3520, end: 3729
@@ -6154,6 +6160,8 @@ try {} catch(e) { for(var e of 0); };
 ✖ Expected a `;` - start: 5061, end: 5062
 ✖ Invalid hexadecimal escape sequence - start: 5073, end: 5073
 ✖ Expected a `;` - start: 5073, end: 5074
+✖ A block-scoped variable cannot shadow a catch clause binding - start: 5259, end: 5261
+✖ A block-scoped variable cannot shadow a catch clause binding - start: 5292, end: 5294
 
 ```
 

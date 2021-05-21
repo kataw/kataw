@@ -122,12 +122,12 @@ const [...foo,] = obj;
 
 ```javascript
 
-const [...foo,] = obj;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Rest element must be last element - start: 14, end: 15
+
 ```
 

@@ -194,20 +194,12 @@ class C { #aaa
 
 ```javascript
 
-class C {
-  #aaa;
-
-  #bbb;
-}
-class C {
-  #aaa;
-  #bbb;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 29, end: 31
+
 ```
 

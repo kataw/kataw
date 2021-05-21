@@ -2701,20 +2701,27 @@ let x = { foo(){ super(); } };
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ Duplicate identifier - start: 36, end: 38
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
 ✖ The parser expected to find a '}' to match the '{' token here - start: 58, end: 60
+✖ Duplicate identifier - start: 69, end: 71
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 89, end: 90
+✖ Duplicate identifier - start: 105, end: 107
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 125, end: 126
 ✖ ',' expected - start: 129, end: 131
+✖ Duplicate identifier - start: 143, end: 145
 ✖ Expected a ')' to match the '(' token here - start: 152, end: 157
 ✖ Unexpected token. - start: 152, end: 157
 ✖ The parser expected to find a '}' to match the '{' token here - start: 157, end: 158
 ✖ Expected a `;` - start: 161, end: 162
 ✖ Declaration or statement expected - start: 164, end: 166
+✖ Duplicate identifier - start: 173, end: 175
 ✖ The parser expected to find a '}' to match the '{' token here - start: 183, end: 184
 ✖ Expected a `;` - start: 189, end: 190
 ✖ Declaration or statement expected - start: 191, end: 193
+✖ Duplicate identifier - start: 200, end: 202
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 211, end: 212
+✖ Duplicate identifier - start: 229, end: 231
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 240, end: 241
 ✖ Expected a computed property - start: 233, end: 246
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
@@ -2725,8 +2732,11 @@ let x = { foo(){ super(); } };
 ✖ Expected a `;` - start: 295, end: 297
 ✖ Declaration or statement expected - start: 299, end: 302
 ✖ Declaration or statement expected - start: 302, end: 303
+✖ Duplicate identifier - start: 310, end: 312
 ✖ The parser expected to find a '}' to match the '{' token here - start: 357, end: 359
+✖ Duplicate identifier - start: 372, end: 374
 ✖ ',' expected - start: 421, end: 423
+✖ Duplicate identifier - start: 439, end: 441
 ✖ Expected a ')' to match the '(' token here - start: 473, end: 478
 ✖ Unexpected token. - start: 473, end: 478
 ✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
@@ -2740,9 +2750,12 @@ let x = { foo(){ super(); } };
 ✖ ',' expected - start: 588, end: 589
 ✖ The parser expected to find a '}' to match the '{' token here - start: 588, end: 589
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 614, end: 615
+✖ Cannot redeclare block-scoped variable - start: 630, end: 632
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 642, end: 643
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 669, end: 670
+✖ Duplicate identifier - start: 681, end: 683
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 695, end: 696
+✖ Duplicate identifier - start: 703, end: 705
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 722, end: 723
 
 ```

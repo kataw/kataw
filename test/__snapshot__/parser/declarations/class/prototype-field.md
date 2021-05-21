@@ -217,20 +217,13 @@ class Foo { prototype = 1 }
 
 ```javascript
 
-class Foo {
-  prototype;
-}
-class Foo {
-  "'prototype'";
-}
-class Foo {
-  prototype = 1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 30, end: 34
+✖ Duplicate identifier - start: 57, end: 61
+
 ```
 

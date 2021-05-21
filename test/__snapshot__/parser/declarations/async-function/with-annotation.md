@@ -341,17 +341,14 @@ let {x}: string = y;
 
 ```javascript
 
-let x;
-let [x] = y;
-let [x] = y;
-let {
-  x
-} = y;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 21, end: 22
+✖ Duplicate identifier - start: 43, end: 44
+✖ Duplicate identifier - start: 73, end: 74
+
 ```
 

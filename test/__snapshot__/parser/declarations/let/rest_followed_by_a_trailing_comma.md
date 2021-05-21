@@ -122,12 +122,12 @@ let [...foo,] = obj;
 
 ```javascript
 
-let [...foo,] = obj;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Rest element must be last element - start: 12, end: 13
+
 ```
 

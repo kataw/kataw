@@ -2261,11 +2261,13 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 391, end: 392
 ✖ Expected a ')' to match the '(' token here - start: 411, end: 414
 ✖ Expected a `;` - start: 416, end: 417
+✖ Duplicate identifier - start: 422, end: 424
 ✖ Invalid hexadecimal escape sequence - start: 426, end: 432
 ✖ Invalid hexadecimal escape sequence - start: 432, end: 432
 ✖ ',' expected - start: 432, end: 433
 ✖ Expected a `;` - start: 432, end: 433
 ✖ Expected a `;` - start: 437, end: 440
+✖ Duplicate identifier - start: 447, end: 449
 ✖ Invalid hexadecimal escape sequence - start: 451, end: 457
 ✖ Invalid hexadecimal escape sequence - start: 457, end: 457
 ✖ ',' expected - start: 457, end: 458

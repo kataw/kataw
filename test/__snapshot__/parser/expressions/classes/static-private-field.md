@@ -178,19 +178,12 @@ class A {
 
 ```javascript
 
-class A {
-  static #private;
-
-}
-class A {
-  static #private = x;
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 39, end: 41
+
 ```
 

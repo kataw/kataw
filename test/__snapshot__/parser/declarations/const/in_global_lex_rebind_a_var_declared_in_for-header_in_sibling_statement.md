@@ -138,13 +138,12 @@ const x = 1
 
 ```javascript
 
-for (; ; );
-const x = 1;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 20, end: 22
+
 ```
 

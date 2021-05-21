@@ -133,16 +133,12 @@ let { ...x, y, z } = obj;
 
 ```javascript
 
-let {
-  ...x,
-  y,
-  z
-} = obj;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Rest element must be last element - start: 11, end: 13
+
 ```
 

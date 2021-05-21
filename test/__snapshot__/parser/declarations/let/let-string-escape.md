@@ -225,16 +225,14 @@ let x = '\\009';
 
 ```javascript
 
-let x = "'\00'";
-let x = "'\\09'";
-let x = "'\\009'";
-"'use strict'";
-let x = "'\\0'";
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 19, end: 21
+✖ Duplicate identifier - start: 36, end: 38
+✖ Duplicate identifier - start: 68, end: 70
+
 ```
 

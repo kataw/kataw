@@ -61,6 +61,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 13
                 },
                 "catchParameter": null,
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -114,6 +115,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 32
                 },
                 "catchParameter": null,
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -222,6 +224,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 70
                 },
                 "catchParameter": null,
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -351,6 +354,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 103
                 },
                 "catchParameter": null,
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -511,6 +515,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 162
                 },
                 "catchParameter": null,
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -577,6 +582,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "end": 187
                                 },
                                 "catchParameter": null,
+                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {
@@ -642,6 +648,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "start": 213,
                     "end": 214
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -733,6 +740,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 241
                 },
                 "catchParameter": null,
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -854,6 +862,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "start": 268,
                     "end": 271
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -927,6 +936,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "end": 295
                                     },
                                     "catchParameter": null,
+                                    "initializer": null,
                                     "block": {
                                         "kind": 124,
                                         "block": {
@@ -1163,6 +1173,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "end": 364
                                 },
                                 "catchParameter": null,
+                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {
@@ -1308,67 +1319,14 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
 
 ```javascript
 
-try {
-} catch {
-}
-try {
-} catch {
-} try{
-}
-try {
-  let e;
-} catch {
-  let e;
-}
-try {
-  let e;
-} catch {
-  let e;
-} try{
-  let e;
-}
-"\"use strict\"";
-try {
-} catch {
-}
-try {
-  try {
-  } catch {
-  } try{
-  }
-} catch (e) {
-}
-try {
-  let e;
-} catch {
-  let e;
-}
-try {
-} catch ({
-  e
-}) {
-  try {
-    let e;
-  } catch {
-    let e;
-  } try{
-    let e;
-  }
-}
-function f() {
-  try {
-    let e;
-  } catch {
-    let e;
-  } try{
-    let e;
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate identifier - start: 109, end: 111
+✖ Duplicate identifier - start: 247, end: 249
+✖ A block-scoped variable cannot shadow a catch clause binding - start: 301, end: 303
+
 ```
 

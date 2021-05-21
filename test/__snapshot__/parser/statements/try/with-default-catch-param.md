@@ -92,6 +92,7 @@ try { } catch ([a = 0]) { }
                     "start": 15,
                     "end": 22
                 },
+                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

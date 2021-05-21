@@ -456,7 +456,10 @@ class x { static async *prototype(){} }
 
 ```javascript
 ✖ Classes may not have a static property named 'prototype' - start: 30, end: 31
+✖ Duplicate identifier - start: 43, end: 45
+✖ Duplicate identifier - start: 84, end: 86
 ✖ Classes may not have a static property named 'prototype' - start: 109, end: 110
+✖ Duplicate identifier - start: 122, end: 124
 ✖ Classes may not have a static property named 'prototype' - start: 150, end: 151
 
 ```

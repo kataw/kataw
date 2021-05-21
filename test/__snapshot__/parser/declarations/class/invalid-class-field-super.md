@@ -464,8 +464,11 @@ class C { [super.bbb] = 0 };
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ Duplicate identifier - start: 35, end: 37
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 57, end: 58
+✖ Duplicate identifier - start: 71, end: 73
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 99, end: 100
+✖ Duplicate identifier - start: 113, end: 115
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 124, end: 125
 
 ```

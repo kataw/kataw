@@ -236,6 +236,7 @@ const protected = x, function arguments(){}
 ### Diagnostics
 
 ```javascript
+✖ Duplicate identifier - start: 76, end: 86
 ✖ Trailing comma not allowed. - start: 91, end: 100
 
 ```
