@@ -2063,7 +2063,7 @@ function parseArrowFunction(
       parser,
       ((context | 0b00000000010000000001111000000000) ^ 0b00000000010000000001111000000000) |
         (asyncToken ? Context.InAwaitContext : Context.None),
-        scope,
+      scope,
       (flags & NodeFlags.NoneSimpleParamList) === 0
     ),
     flags | NodeFlags.ExpressionNode,
@@ -7782,7 +7782,7 @@ export function parseStaticBlock(
         Context.InSwitch |
         Context.InIteration |
         Context.AllowReturn),
-    {},
+    createScope(),
     false
   );
   consume(
