@@ -2340,6 +2340,7 @@ function parsePrimaryExpression(
     }
     const pos = parser.curPos;
     const token = parser.token;
+    const tokenValue = parser.tokenValue;
 
     const expression = parseIdentifierReference(parser, context);
 
@@ -2364,10 +2365,14 @@ function parsePrimaryExpression(
         );
       }
 
+      const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+
+      addBlockName(parser, context, scope, tokenValue, BindingType.ArgumentList);
+
       return parseArrowFunction(
         parser,
         context,
-        null,
+        scope,
         /*typeParameters */ null,
         /* returnType */ null,
         /* params */ expression,
@@ -3557,7 +3562,7 @@ function parseElementList(parser: ParserState, context: Context, scope: any, typ
   let trailingComma = false;
   const flags = parser.nodeFlags;
   let destructible = DestructibleKind.None;
-  while (parser.token & 279789568) {
+  while (parser.token & 0b00010000101011010100000000000000) {
     elements.push(parseArrayLiteralElement(parser, context, scope, type) as any);
     destructible |= parser.destructible;
     if (parser.token === SyntaxKind.RightBracket) break;
@@ -4836,25 +4841,41 @@ function parseBindingProperty(
 ): BindingProperty | SingleNameBinding {
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-  const token = parser.token;
-  const tokenValue = parser.tokenValue;
 
-  const key = parsePropertyName(parser, context);
+  if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    const tokenValue = parser.tokenValue;
+    const key = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
+    if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
+      addVarOrBlock(parser, context, scope, tokenValue, type);
+      return createSingleNameBinding(
+        ellipsisToken,
+        key,
+        parseInitializer(parser, context, ellipsisToken ? true : false),
+        pos,
+        parser.curPos
+      );
+    }
+    consume(parser, context, SyntaxKind.Colon);
 
-  if (token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) && parser.token !== SyntaxKind.Colon) {
-    addVarOrBlock(parser, context, scope, tokenValue, type);
-
-    return createSingleNameBinding(
+    return createBindingProperty(
       ellipsisToken,
-      key as any,
-      parseInitializer(parser, context, ellipsisToken ? true : false),
+      key,
+      parseIdentifierOrPattern(
+        parser,
+        context,
+        scope,
+        type,
+        ellipsisToken ? DiagnosticCode.Binding_identifier_expected : DiagnosticCode.Object_property_expected
+      ),
+      parseInitializer(parser, context, false),
       pos,
       parser.curPos
     );
   }
+  const key = parsePropertyName(parser, context);
 
   consume(parser, context, SyntaxKind.Colon);
-  //   addVarOrBlock(state, context, scope, tokenValue, type);
+
   return createBindingProperty(
     ellipsisToken,
     key,
@@ -4885,7 +4906,7 @@ function parseFunctionExpression(
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       const flags = parser.nodeFlags;
       if ((flags & NodeFlags.NewLine) === 0) {
-        // "async x => {}"
+        // `async` [no LineTerminator here] AsyncArrowBindingIdentifier [no LineTerminator here] => AsyncConciseBody
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
           if (
             parser.token & SyntaxKind.IsInOrOf &&
@@ -4928,10 +4949,15 @@ function parseFunctionExpression(
               parser.pos
             );
           }
+
+          const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+
+          addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
+
           return parseArrowFunction(
             parser,
             context,
-            null,
+            scope,
             /* typeParameters */ null,
             /* returnType */ null,
             /* params */ parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected),
@@ -4963,10 +4989,15 @@ function parseFunctionExpression(
             parser.pos
           );
         }
+
+        const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+
+        addBlockName(parser, context, scope, 'async', BindingType.ArgumentList);
+
         return parseArrowFunction(
           parser,
           context,
-          null,
+          /* scope */ scope,
           /* typeParameters */ null,
           /* returnType */ null,
           /* params */ expression,
@@ -5114,6 +5145,11 @@ function parseFunctionDeclaration(
               parser.pos
             );
           }
+
+          scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+
+          addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
+
           expression = parseArrowFunction(
             parser,
             context,
@@ -7109,19 +7145,26 @@ function parseYieldIdentifierOrExpression(
     );
   }
   const expression = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
-  return parser.token === SyntaxKind.Arrow
-    ? parseArrowFunction(
-        parser,
-        context,
-        null,
-        /*typeParameters */ null,
-        /* returnType */ null,
-        /* params */ expression,
-        /* asyncToken */ null,
-        /* nodeFlags */ NodeFlags.None,
-        pos
-      )
-    : expression;
+
+  if (parser.token === SyntaxKind.Arrow) {
+    const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+
+    addBlockName(parser, context, scope, 'yield', BindingType.ArgumentList);
+
+    return parseArrowFunction(
+      parser,
+      context,
+      scope,
+      /*typeParameters */ null,
+      /* returnType */ null,
+      /* params */ expression,
+      /* asyncToken */ null,
+      /* nodeFlags */ NodeFlags.None,
+      pos
+    );
+  }
+
+  return expression as any;
 }
 
 // AwaitExpression : `await` UnaryExpression

@@ -1,6 +1,6 @@
 {
   "name": "kataw",
-  "version": "0.0.21",
+  "version": "0.0.25",
   "description": "An insane fast Javascript toolchain supporting both Javascript and Typescript",
   "main": "dist/kataw.umd.min.js",
   "module": "dist/kataw.esm.min.js",
