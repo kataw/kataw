@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: r
 > :: test: function generator
@@ -9,10 +9,9 @@
 `````js
 function * gen() { function not_gen() { async function f(){ await await foo; } }}
 `````
-
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: r
 > :: test: class-constructor
@@ -9,7 +9,6 @@
 `````js
 class C { constructor() { var f = function() { super(); } } }
 `````
-
 ## Output
 
 ### CST

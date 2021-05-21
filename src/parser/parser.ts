@@ -1,4 +1,3 @@
-
 import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
@@ -332,13 +331,13 @@ function parseModuleItem(parser: ParserState, context: Context, scope: any): Sta
   //    StatementListItem
   const next = parser.token;
   if (next === SyntaxKind.ExportKeyword) {
-    return parseExportDeclaration(parser, context);
+    return parseExportDeclaration(parser, context, scope);
   }
 
   if (next === SyntaxKind.ImportKeyword) {
     //  dynamic import expression and import.meta expressions are parsed as part
     // of the import declaration to avoid any lookaheads
-    return parseImportDeclaration(parser, context, /* isScript*/ false);
+    return parseImportDeclaration(parser, context, scope, /* isScript*/ false);
   }
   return parseStatementListItem(parser, context, scope);
 }
@@ -368,7 +367,7 @@ function parseStatementListItem(parser: ParserState, context: Context, scope: an
     case SyntaxKind.DeclareKeyword:
       return parseDeclareAsIdentifierOrDeclareStatement(parser, context, scope);
     case SyntaxKind.ImportKeyword:
-      return parseImportDeclaration(parser, context, /* isScript */ true);
+      return parseImportDeclaration(parser, context, scope, /* isScript */ true);
     case SyntaxKind.ExportKeyword:
       parser.onError(
         DiagnosticSource.Parser,
@@ -377,7 +376,7 @@ function parseStatementListItem(parser: ParserState, context: Context, scope: an
         parser.curPos,
         parser.pos
       );
-      return parseExportDeclaration(parser, context);
+      return parseExportDeclaration(parser, context, scope);
     default:
       return parseStatement(parser, context, /* allowFunction */ true, scope);
   }
@@ -2079,7 +2078,6 @@ function parseConciseOrFunctionBody(
   scope: any,
   isSimpleParameterList: boolean
 ): FunctionBody | ExpressionNode {
-
   if (scope && scope.scopeError) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -4267,7 +4265,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     expressions = [expression];
     if (state) {
       while (parser.token & 0b00010000101010010100000000000000) {
-
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
           expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
@@ -5467,15 +5464,15 @@ function parseFunctionStatementList(
     }
   }
   if (context & Context.Strict) {
-  if (isNotPreviousStrict && scope && scope.scopeError) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
-      scope.scopeError.start,
-      parser.pos
-    );
-  }
+    if (isNotPreviousStrict && scope && scope.scopeError) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
+        scope.scopeError.start,
+        parser.pos
+      );
+    }
   }
 
   scope = createParentScope(scope, ScopeKind.FunctionBody);
@@ -5609,6 +5606,7 @@ function parseFormalParameter(parser: ParserState, context: Context, scope: any)
 function parseImportDeclaration(
   parser: ParserState,
   context: Context,
+  scope: any,
   isScript: boolean
 ): ImportDeclaration | ExpressionStatement {
   let moduleSpecifier = null;
@@ -5636,9 +5634,9 @@ function parseImportDeclaration(
       isCommaSeparated = !consumeOpt(parser, context, SyntaxKind.Comma);
     }
     if (parser.token === SyntaxKind.Multiply) {
-      namespace = parseNameSpaceImport(parser, context);
+      namespace = parseNameSpaceImport(parser, context, scope);
     } else if (parser.token === SyntaxKind.LeftBrace) {
-      namedImports = parseNamedImports(parser, context);
+      namedImports = parseNamedImports(parser, context, scope);
     } else if (!isCommaSeparated) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -5679,14 +5677,14 @@ function parseImportDeclaration(
 
 // NameSpaceImport :
 //   `*` `as` ImportedBinding
-function parseNameSpaceImport(parser: ParserState, context: Context): NameSpaceImport {
+function parseNameSpaceImport(parser: ParserState, context: Context, scope: any): NameSpaceImport {
   const pos = parser.curPos;
   const asteriskToken = consumeToken(parser, context, SyntaxKind.Multiply);
   const asKeyword = consumeToken(parser, context, SyntaxKind.AsKeyword);
   return createNameSpaceImport(
     asteriskToken,
     asKeyword,
-    parseIdentifier(parser, context, DiagnosticCode.Identifier_expected),
+    parseBindingIdentifier(parser, context, scope, BindingType.Let, DiagnosticCode.Identifier_expected),
     pos,
     parser.curPos
   );
@@ -5696,15 +5694,15 @@ function parseNameSpaceImport(parser: ParserState, context: Context): NameSpaceI
 //   `{` `}`
 //   `{` ImportsList `}`
 //   `{` ImportsList `,` `}`
-function parseNamedImports(parser: ParserState, context: Context): NamedImports {
+function parseNamedImports(parser: ParserState, context: Context, scope: any): NamedImports {
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
-  const importsList = parseImportsList(parser, context);
+  const importsList = parseImportsList(parser, context, scope);
   consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
   return createNamedImports(importsList, pos, parser.curPos);
 }
 
-function parseImportsList(parser: ParserState, context: Context): ImportsList {
+function parseImportsList(parser: ParserState, context: Context, scope: any): ImportsList {
   const pos = parser.curPos;
   const specifiers = [];
 
@@ -5718,7 +5716,7 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
   }
 
   while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved)) {
-    specifiers.push(parseImportSpecifier(parser, context));
+    specifiers.push(parseImportSpecifier(parser, context, scope));
     if (parser.token === SyntaxKind.RightBrace) break;
     consume(parser, context, SyntaxKind.Comma);
   }
@@ -5728,7 +5726,7 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
 // ImportSpecifier :
 //   ImportedBinding
 //   Identifier `as` ImportedBinding
-function parseImportSpecifier(parser: ParserState, context: Context): ImportSpecifier {
+function parseImportSpecifier(parser: ParserState, context: Context, scope: any): ImportSpecifier {
   const pos = parser.curPos;
   const token = parser.token;
   const flags = parser.nodeFlags;
@@ -5740,7 +5738,14 @@ function parseImportSpecifier(parser: ParserState, context: Context): ImportSpec
       null,
       Identifier as Identifier,
       asKeyword,
-      parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true) as Identifier,
+      parseBindingIdentifier(
+        parser,
+        context,
+        scope,
+        BindingType.Let,
+        DiagnosticCode.Binding_identifier_expected,
+        /* allowKeywords */ true
+      ) as any,
       pos,
       parser.curPos
     );
@@ -5796,7 +5801,8 @@ function parseFromClause(parser: ParserState, context: Context): FromClause {
 //   NamedExports
 function parseExportDeclaration(
   parser: ParserState,
-  context: Context
+  context: Context,
+  scope: any
 ): ExportDeclaration | ExportDefault | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const exportToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExportKeyword);
@@ -5807,7 +5813,7 @@ function parseExportDeclaration(
 
   switch (parser.token) {
     case SyntaxKind.DefaultKeyword:
-      return parseExportDefault(parser, context, exportToken, pos);
+      return parseExportDefault(parser, context, scope, exportToken, pos);
     case SyntaxKind.LeftBrace: {
       namedExports = parseNamedExports(parser, context);
       if ((parser.token as SyntaxKind) === SyntaxKind.FromKeyword) fromClause = parseFromClause(parser, context);
@@ -5825,7 +5831,7 @@ function parseExportDeclaration(
       declaration = parseClassDeclaration(
         parser,
         context,
-        null,
+        scope,
         /* declareKeyword */ null,
         /* isDefaultModifier */ false
       );
@@ -5835,23 +5841,23 @@ function parseExportDeclaration(
       declaration = parseFunctionDeclaration(
         parser,
         context,
-        null as any,
+        scope,
         /* declareKeyword */ null,
         ParseFunctionFlag.DisallowGenerator | ParseFunctionFlag.DisallowAsyncArrow
       );
       break;
     case SyntaxKind.ConstKeyword:
-      declaration = parseLexicalDeclaration(parser, context, /* isConst */ true, null, BindingType.Const);
+      declaration = parseLexicalDeclaration(parser, context, /* isConst */ true, scope, BindingType.Const);
       break;
     case SyntaxKind.LetKeyword:
-      declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context, null);
+      declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope);
       break;
     case SyntaxKind.VarKeyword:
       declaration = parseVariableStatement(
         parser,
         context,
         /* declareKeyword */ null,
-        null as any,
+        scope,
         BindingType.Var | BindingType.Export
       );
       break;
@@ -5960,6 +5966,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
 function parseExportDefault(
   parser: ParserState,
   context: Context,
+  scope: ScopeState,
   exportToken: SyntaxToken<TokenSyntaxKind>,
   pos: number
 ): ExportDefault | ExpressionStatement | LabelledStatement {
@@ -5981,7 +5988,7 @@ function parseExportDefault(
       declaration = parseFunctionDeclaration(
         parser,
         context,
-        null as any,
+        scope,
         /* declareKeyword */ null,
         ParseFunctionFlag.IsDefaultModifier
       );
@@ -5991,7 +5998,7 @@ function parseExportDefault(
       declaration = parseClassDeclaration(
         parser,
         context,
-        null,
+        scope,
         /* declareKeyword */ null,
         /* isDefaultModifier */ true
       );

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: e
 > :: test: do triple
@@ -9,7 +9,6 @@
 `````js
 do do do catch { try while while while
 `````
-
 ## Output
 
 ### CST

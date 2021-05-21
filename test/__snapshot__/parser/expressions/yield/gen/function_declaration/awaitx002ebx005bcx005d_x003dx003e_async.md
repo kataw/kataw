@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: n
 > :: test: function declaration
@@ -9,7 +9,6 @@
 `````js
 function not_gen() { await.b[c] => async }}
 `````
-
 ## Output
 
 ### CST

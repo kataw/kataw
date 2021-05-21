@@ -9,19 +9,19 @@
 ## Input
 
 `````js
-import { a as b } from 'm.js';
+import { x as d } from 'm.js';
 
 import n from 'n.js';
 
-import { a as b } from 'm.js';
+import { y as a } from 'm.js';
 
-import n from 'n.js';
+import w from 'n.js';
 
-export { a as b } from 'm.js';
+export { z as h } from 'm.js';
 
 import * as foo from 'bar.js';
 
-import { a as b } from 'm.js';
+import { q as o } from 'm.js';
 
 `````
 
@@ -77,8 +77,8 @@ import { a as b } from 'm.js';
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
+                                    "text": "x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 10
@@ -91,8 +91,8 @@ import { a as b } from 'm.js';
                                 },
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
+                                    "text": "d",
+                                    "rawText": "d",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 15
@@ -210,8 +210,8 @@ import { a as b } from 'm.js';
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
+                                    "text": "y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 63,
                                     "end": 65
@@ -224,8 +224,8 @@ import { a as b } from 'm.js';
                                 },
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
+                                    "text": "a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 68,
                                     "end": 70
@@ -284,8 +284,8 @@ import { a as b } from 'm.js';
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
-                    "text": "n",
-                    "rawText": "n",
+                    "text": "w",
+                    "rawText": "w",
                     "flags": 96,
                     "start": 93,
                     "end": 95
@@ -319,8 +319,8 @@ import { a as b } from 'm.js';
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
+                                "text": "z",
+                                "rawText": "z",
                                 "flags": 96,
                                 "start": 118,
                                 "end": 120
@@ -333,8 +333,8 @@ import { a as b } from 'm.js';
                             },
                             "binding": {
                                 "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
+                                "text": "h",
+                                "rawText": "h",
                                 "flags": 96,
                                 "start": 123,
                                 "end": 125
@@ -487,8 +487,8 @@ import { a as b } from 'm.js';
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
+                                    "text": "q",
+                                    "rawText": "q",
                                     "flags": 96,
                                     "start": 182,
                                     "end": 184
@@ -501,8 +501,8 @@ import { a as b } from 'm.js';
                                 },
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
+                                    "text": "o",
+                                    "rawText": "o",
                                     "flags": 96,
                                     "start": 187,
                                     "end": 189
@@ -530,7 +530,7 @@ import { a as b } from 'm.js';
         }
     ],
     "isModule": true,
-    "source": "import { a as b } from 'm.js';\n\nimport n from 'n.js';\n\nimport { a as b } from 'm.js';\n\nimport n from 'n.js';\n\nexport { a as b } from 'm.js';\n\nimport * as foo from 'bar.js';\n\nimport { a as b } from 'm.js';\n",
+    "source": "import { x as d } from 'm.js';\n\nimport n from 'n.js';\n\nimport { y as a } from 'm.js';\n\nimport w from 'n.js';\n\nexport { z as h } from 'm.js';\n\nimport * as foo from 'bar.js';\n\nimport { q as o } from 'm.js';\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
@@ -542,13 +542,13 @@ import { a as b } from 'm.js';
 
 ```javascript
 
-  a asb }  ;
+  x asd }  ;
  n  ;
-  a asb }  ;
- n  ;
-  a  b } from ;
+  y asa }  ;
+ w  ;
+  z  h } from ;
  * as   ;
-  a asb }  ;
+  q aso }  ;
 ```
 
 ### Diagnostics

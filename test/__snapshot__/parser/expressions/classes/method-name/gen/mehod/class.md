@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: d
 > :: test: mehod
@@ -9,7 +9,6 @@
 `````js
 ({class(x, y) {}});
 `````
-
 ## Output
 
 ### CST

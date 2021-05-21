@@ -5,11 +5,11 @@
 `````js
 let x = '\00';
 
-let x = '\\09';
+let y = '\\09';
 
-let x = '\\009';
+let z = '\\009';
 
-'use strict'; let x = '\\0';
+'use strict'; let q = '\\0';
 `````
 
 ## Output
@@ -80,8 +80,8 @@ let x = '\\009';
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
+                            "text": "y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 19,
                             "end": 21
@@ -124,8 +124,8 @@ let x = '\\009';
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
+                            "text": "z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 36,
                             "end": 38
@@ -182,8 +182,8 @@ let x = '\\009';
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
+                            "text": "q",
+                            "rawText": "q",
                             "flags": 96,
                             "start": 68,
                             "end": 70
@@ -213,7 +213,7 @@ let x = '\\009';
         }
     ],
     "isModule": false,
-    "source": "let x = '\\00';\n\nlet x = '\\\\09';\n\nlet x = '\\\\009';\n\n'use strict'; let x = '\\\\0';",
+    "source": "let x = '\\00';\n\nlet y = '\\\\09';\n\nlet z = '\\\\009';\n\n'use strict'; let q = '\\\\0';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
@@ -225,14 +225,16 @@ let x = '\\009';
 
 ```javascript
 
+let x = "'\00'";
+let y = "'\\09'";
+let z = "'\\009'";
+"'use strict'";
+let q = "'\\0'";
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 19, end: 21
-✖ Duplicate identifier - start: 36, end: 38
-✖ Duplicate identifier - start: 68, end: 70
-
+✔ No errors
 ```
 

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: g
 > :: test: await arg
@@ -11,10 +11,9 @@ async function f() {
   await async x => {}
 }
 `````
-
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

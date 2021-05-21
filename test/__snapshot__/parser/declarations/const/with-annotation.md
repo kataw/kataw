@@ -3,13 +3,12 @@
 ## Input
 
 `````js
-const x: string;
 
-const [x]: string = y;
+const [y]: string = y;
 
-const [x:symbol]: string = y;
+const [z:symbol]: string = y;
 
-const {x}: string = y;
+const {q}: string = y;
 
 `````
 
@@ -18,7 +17,7 @@ const {x}: string = y;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes: true }
 `````
 
 ## Output
@@ -34,9 +33,9 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 1,
                 "start": 0,
-                "end": 5
+                "end": 6
             },
             "binding": {
                 "kind": 151,
@@ -44,146 +43,79 @@ const {x}: string = y;
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 7
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 202,
+                                "elements": [
+                                    {
+                                        "kind": 244,
+                                        "ellipsisToken": null,
+                                        "binding": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 8,
+                                            "end": 9
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 8,
+                                        "end": 9
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 8,
+                                "end": 9
+                            },
+                            "flags": 32,
+                            "start": 6,
+                            "end": 10
                         },
                         "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
+                        "type": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 18
+                            },
+                            "flags": 0,
+                            "start": 10,
+                            "end": 18
+                        },
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 20,
+                            "end": 22
+                        },
                         "flags": 16,
-                        "start": 5,
-                        "end": 7
+                        "start": 6,
+                        "end": 22
                     }
                 ],
                 "flags": 16777232,
-                "start": 5,
-                "end": 7
+                "start": 6,
+                "end": 22
             },
             "flags": 33554448,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "string",
-                "rawText": "string",
-                "flags": 96,
-                "start": 8,
-                "end": 15
-            },
-            "flags": 16,
-            "start": 8,
-            "end": 16
+            "end": 23
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 1,
-                "start": 16,
-                "end": 23
-            },
-            "binding": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 202,
-                                "elements": [
-                                    {
-                                        "kind": 244,
-                                        "ellipsisToken": null,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 25,
-                                            "end": 26
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 25,
-                                        "end": 26
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 25,
-                                "end": 26
-                            },
-                            "flags": 32,
-                            "start": 23,
-                            "end": 27
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 23,
-                        "end": 27
-                    }
-                ],
-                "flags": 16777232,
                 "start": 23,
-                "end": 27
-            },
-            "flags": 33554448,
-            "start": 16,
-            "end": 27
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 134299649,
-                    "text": "string",
-                    "rawText": "string",
-                    "flags": 96,
-                    "start": 28,
-                    "end": 35
-                },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 64,
-                    "start": 35,
-                    "end": 37
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 37,
-                    "end": 39
-                },
-                "flags": 32,
-                "start": 28,
-                "end": 39
-            },
-            "flags": 16,
-            "start": 28,
-            "end": 40
-        },
-        {
-            "kind": 162,
-            "lexicalKeyword": {
-                "kind": 37757004,
-                "flags": 1,
-                "start": 40,
-                "end": 47
+                "end": 30
             },
             "binding": {
                 "kind": 151,
@@ -200,100 +132,81 @@ const {x}: string = y;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "text": "z",
+                                            "rawText": "z",
                                             "flags": 96,
-                                            "start": 49,
-                                            "end": 50
+                                            "start": 32,
+                                            "end": 33
                                         },
                                         "optionalToken": null,
-                                        "type": null,
+                                        "type": {
+                                            "kind": 139,
+                                            "type": {
+                                                "kind": 134234343,
+                                                "flags": 64,
+                                                "start": 34,
+                                                "end": 40
+                                            },
+                                            "flags": 0,
+                                            "start": 33,
+                                            "end": 40
+                                        },
                                         "initializer": null,
                                         "flags": 32,
-                                        "start": 49,
-                                        "end": 50
+                                        "start": 32,
+                                        "end": 40
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "start": 49,
-                                "end": 50
+                                "start": 32,
+                                "end": 40
                             },
                             "flags": 32,
-                            "start": 47,
-                            "end": 50
+                            "start": 30,
+                            "end": 41
                         },
                         "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
+                        "type": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 42,
+                                "end": 49
+                            },
+                            "flags": 0,
+                            "start": 41,
+                            "end": 49
+                        },
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 51,
+                            "end": 53
+                        },
                         "flags": 16,
-                        "start": 47,
-                        "end": 50
+                        "start": 30,
+                        "end": 53
                     }
                 ],
                 "flags": 16777232,
-                "start": 47,
-                "end": 50
+                "start": 30,
+                "end": 53
             },
             "flags": 33554448,
-            "start": 40,
-            "end": 50
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "symbol",
-                "rawText": "symbol",
-                "flags": 96,
-                "start": 51,
-                "end": 57
-            },
-            "flags": 16,
-            "start": 51,
-            "end": 57
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 134299649,
-                    "text": "string",
-                    "rawText": "string",
-                    "flags": 96,
-                    "start": 59,
-                    "end": 66
-                },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 64,
-                    "start": 66,
-                    "end": 68
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 68,
-                    "end": 70
-                },
-                "flags": 32,
-                "start": 59,
-                "end": 70
-            },
-            "flags": 16,
-            "start": 59,
-            "end": 71
+            "start": 23,
+            "end": 54
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 1,
-                "start": 71,
-                "end": 78
+                "start": 54,
+                "end": 61
             },
             "binding": {
                 "kind": 151,
@@ -310,84 +223,68 @@ const {x}: string = y;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "text": "q",
+                                            "rawText": "q",
                                             "flags": 96,
-                                            "start": 80,
-                                            "end": 81
+                                            "start": 63,
+                                            "end": 64
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "start": 80,
-                                        "end": 81
+                                        "start": 63,
+                                        "end": 64
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 80,
-                                "end": 81
+                                "start": 63,
+                                "end": 64
                             },
                             "flags": 32,
-                            "start": 78,
-                            "end": 82
+                            "start": 61,
+                            "end": 65
                         },
                         "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
+                        "type": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 66,
+                                "end": 73
+                            },
+                            "flags": 0,
+                            "start": 65,
+                            "end": 73
+                        },
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 75,
+                            "end": 77
+                        },
                         "flags": 16,
-                        "start": 78,
-                        "end": 82
+                        "start": 61,
+                        "end": 77
                     }
                 ],
                 "flags": 16777232,
-                "start": 78,
-                "end": 82
+                "start": 61,
+                "end": 77
             },
             "flags": 33554448,
-            "start": 71,
-            "end": 82
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 134299649,
-                    "text": "string",
-                    "rawText": "string",
-                    "flags": 96,
-                    "start": 83,
-                    "end": 90
-                },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 64,
-                    "start": 90,
-                    "end": 92
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 92,
-                    "end": 94
-                },
-                "flags": 32,
-                "start": 83,
-                "end": 94
-            },
-            "flags": 16,
-            "start": 83,
-            "end": 95
+            "start": 54,
+            "end": 78
         }
     ],
     "isModule": false,
-    "source": "const x: string;\n\nconst [x]: string = y;\n\nconst [x:symbol]: string = y;\n\nconst {x}: string = y;\n",
+    "source": "\nconst [y]: string = y;\n\nconst [z:symbol]: string = y;\n\nconst {q}: string = y;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 96
+    "end": 79
 }
 ```
 
@@ -395,29 +292,16 @@ const {x}: string = y;
 
 ```javascript
 
+const [y] = y;
+const [z] = y;
+const {
+  q
+} = y;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Missing initializer in const declaration - start: 7, end: 8
-✖ ',' expected - start: 7, end: 8
-✖ Expected a `;` - start: 7, end: 8
-✖ Duplicate identifier - start: 25, end: 26
-✖ Missing initializer in const declaration - start: 27, end: 28
-✖ ',' expected - start: 27, end: 28
-✖ Expected a `;` - start: 27, end: 28
-✖ Duplicate identifier - start: 49, end: 50
-✖ ',' expected - start: 50, end: 51
-✖ Did you forgot a ']' to match the `[` token? - start: 50, end: 51
-✖ Missing initializer in const declaration - start: 50, end: 51
-✖ ',' expected - start: 50, end: 51
-✖ Expected a `;` - start: 57, end: 58
-✖ Declaration or statement expected - start: 58, end: 59
-✖ Duplicate identifier - start: 81, end: 82
-✖ Missing initializer in const declaration - start: 82, end: 83
-✖ ',' expected - start: 82, end: 83
-✖ Expected a `;` - start: 82, end: 83
-
+✔ No errors
 ```
 

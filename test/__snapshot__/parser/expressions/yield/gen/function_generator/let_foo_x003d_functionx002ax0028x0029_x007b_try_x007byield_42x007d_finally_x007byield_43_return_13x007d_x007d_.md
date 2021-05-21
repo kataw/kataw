@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: r
 > :: test: function generator
@@ -9,7 +9,6 @@
 `````js
 function * gen() { function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; return 13} }; }}
 `````
-
 ## Output
 
 ### CST

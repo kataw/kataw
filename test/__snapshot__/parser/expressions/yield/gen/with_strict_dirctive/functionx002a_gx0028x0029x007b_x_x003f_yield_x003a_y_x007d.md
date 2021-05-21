@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: e
 > :: test: with_strict_dirctive
@@ -9,10 +9,9 @@
 `````js
 'use strict'; function* g(){ x ? yield : y }
 `````
-
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: r
 > :: test: var
@@ -9,10 +9,9 @@
 `````js
 var await; var f = (async function() { function f() { var await; } });
 `````
-
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

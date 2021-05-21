@@ -5,9 +5,9 @@
 `````js
 let x: string;
 
-let [x]: string = y;
+let [y]: string = y;
 
-let [x:symbol]: string = y;
+let [z:symbol]: string = y;
 
 let {x}: string = y;
 
@@ -101,8 +101,8 @@ let {x}: string = y;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "text": "y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 22
@@ -181,8 +181,8 @@ let {x}: string = y;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "text": "z",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 43,
                                             "end": 44
@@ -329,7 +329,7 @@ let {x}: string = y;
         }
     ],
     "isModule": false,
-    "source": "let x: string;\n\nlet [x]: string = y;\n\nlet [x:symbol]: string = y;\n\nlet {x}: string = y;\n",
+    "source": "let x: string;\n\nlet [y]: string = y;\n\nlet [z:symbol]: string = y;\n\nlet {x}: string = y;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
@@ -346,8 +346,6 @@ let {x}: string = y;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 21, end: 22
-✖ Duplicate identifier - start: 43, end: 44
 ✖ Duplicate identifier - start: 73, end: 74
 
 ```

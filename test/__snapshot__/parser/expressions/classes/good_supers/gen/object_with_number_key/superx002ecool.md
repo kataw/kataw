@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
+- Regenerated: 2021-05-21
 - From: d
 - Path: y
 > :: test: object with number key
@@ -13,7 +13,6 @@ class x extends y {
   }
 }
 `````
-
 ## Output
 
 ### CST

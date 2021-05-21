@@ -15,11 +15,11 @@ import {ev\u0061l} from 'foo';
 
 import {x as eval} from 'foo';
 
-import {x as ev\u0061l} from 'foo';
+import {xy as ev\u0061l} from 'foo';
 
 import {\u0061rguments} from 'foo';
 
-import {eval as x} from 'foo';
+import {eval as o} from 'foo';
 `````
 
 ## Output
@@ -272,20 +272,20 @@ import {eval as x} from 'foo';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 0,
-                    "start": 114,
-                    "end": 119
+                    "start": 115,
+                    "end": 120
                 },
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
-                    "start": 119,
-                    "end": 125
+                    "start": 120,
+                    "end": 126
                 },
                 "flags": 0,
-                "start": 114,
-                "end": 125
+                "start": 115,
+                "end": 126
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -302,74 +302,74 @@ import {eval as x} from 'foo';
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "xy",
+                                    "rawText": "xy",
                                     "flags": 96,
                                     "start": 99,
-                                    "end": 100
+                                    "end": 101
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 64,
-                                    "start": 100,
-                                    "end": 103
+                                    "start": 101,
+                                    "end": 104
                                 },
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "eval",
                                     "rawText": "ev\\u0061l",
                                     "flags": 96,
-                                    "start": 103,
-                                    "end": 113
+                                    "start": 104,
+                                    "end": 114
                                 },
                                 "flags": 16,
                                 "start": 99,
-                                "end": 113
+                                "end": 114
                             }
                         ],
                         "flags": 0,
                         "start": 99,
-                        "end": 113
+                        "end": 114
                     },
                     "flags": 16,
                     "start": 97,
-                    "end": 114
+                    "end": 115
                 },
                 "flags": 16,
                 "start": 97,
-                "end": 114
+                "end": 115
             },
             "flags": 16,
             "start": 97,
-            "end": 126
+            "end": 127
         },
         {
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 1,
-                "start": 126,
-                "end": 134
+                "start": 127,
+                "end": 135
             },
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 0,
-                    "start": 151,
-                    "end": 156
+                    "start": 152,
+                    "end": 157
                 },
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
-                    "start": 156,
-                    "end": 162
+                    "start": 157,
+                    "end": 163
                 },
                 "flags": 0,
-                "start": 151,
-                "end": 162
+                "start": 152,
+                "end": 163
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -391,57 +391,57 @@ import {eval as x} from 'foo';
                                     "text": "arguments",
                                     "rawText": "\\u0061rguments",
                                     "flags": 96,
-                                    "start": 136,
-                                    "end": 150
+                                    "start": 137,
+                                    "end": 151
                                 },
                                 "flags": 16,
-                                "start": 136,
-                                "end": 150
+                                "start": 137,
+                                "end": 151
                             }
                         ],
                         "flags": 0,
-                        "start": 136,
-                        "end": 150
+                        "start": 137,
+                        "end": 151
                     },
                     "flags": 16,
-                    "start": 134,
-                    "end": 151
+                    "start": 135,
+                    "end": 152
                 },
                 "flags": 16,
-                "start": 134,
-                "end": 151
+                "start": 135,
+                "end": 152
             },
             "flags": 16,
-            "start": 134,
-            "end": 163
+            "start": 135,
+            "end": 164
         },
         {
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 1,
-                "start": 163,
-                "end": 171
+                "start": 164,
+                "end": 172
             },
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 0,
-                    "start": 183,
-                    "end": 188
+                    "start": 184,
+                    "end": 189
                 },
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
-                    "start": 188,
-                    "end": 194
+                    "start": 189,
+                    "end": 195
                 },
                 "flags": 0,
-                "start": 183,
-                "end": 194
+                "start": 184,
+                "end": 195
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -461,51 +461,51 @@ import {eval as x} from 'foo';
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
-                                    "start": 173,
-                                    "end": 177
+                                    "start": 174,
+                                    "end": 178
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 64,
-                                    "start": 177,
-                                    "end": 180
+                                    "start": 178,
+                                    "end": 181
                                 },
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "o",
+                                    "rawText": "o",
                                     "flags": 96,
-                                    "start": 180,
-                                    "end": 182
+                                    "start": 181,
+                                    "end": 183
                                 },
                                 "flags": 16,
-                                "start": 173,
-                                "end": 182
+                                "start": 174,
+                                "end": 183
                             }
                         ],
                         "flags": 0,
-                        "start": 173,
-                        "end": 182
+                        "start": 174,
+                        "end": 183
                     },
                     "flags": 16,
-                    "start": 171,
-                    "end": 183
+                    "start": 172,
+                    "end": 184
                 },
                 "flags": 16,
-                "start": 171,
-                "end": 183
+                "start": 172,
+                "end": 184
             },
             "flags": 16,
-            "start": 171,
-            "end": 195
+            "start": 172,
+            "end": 196
         }
     ],
     "isModule": true,
-    "source": "import {eval} from 'foo';\n\nimport {ev\\u0061l} from 'foo';\n\nimport {x as eval} from 'foo';\n\nimport {x as ev\\u0061l} from 'foo';\n\nimport {\\u0061rguments} from 'foo';\n\nimport {eval as x} from 'foo';",
+    "source": "import {eval} from 'foo';\n\nimport {ev\\u0061l} from 'foo';\n\nimport {x as eval} from 'foo';\n\nimport {xy as ev\\u0061l} from 'foo';\n\nimport {\\u0061rguments} from 'foo';\n\nimport {eval as o} from 'foo';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 195
+    "end": 196
 }
 ```
 
@@ -520,7 +520,8 @@ import {eval as x} from 'foo';
 ```javascript
 ✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 12, end: 13
 ✖ 'eval' and 'arguments' cannot contain escape characters - start: 44, end: 45
-✖ 'eval' and 'arguments' cannot contain escape characters - start: 150, end: 151
+✖ Duplicate identifier - start: 104, end: 114
+✖ 'eval' and 'arguments' cannot contain escape characters - start: 151, end: 152
 
 ```
 
