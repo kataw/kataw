@@ -323,7 +323,7 @@ export function parse(
   return createRootNode(directives, statements, isModule, source, filename);
 }
 
-function parseModuleItem(parser: ParserState, context: Context, scope: any): StatementNode {
+function parseModuleItem(parser: ParserState, context: Context, scope: ScopeState): StatementNode {
   // ecma262/#prod-ModuleItem
   // ModuleItem :
   //    ImportDeclaration
@@ -342,7 +342,7 @@ function parseModuleItem(parser: ParserState, context: Context, scope: any): Sta
   return parseStatementListItem(parser, context, scope);
 }
 
-function parseStatementListItem(parser: ParserState, context: Context, scope: any): StatementNode {
+function parseStatementListItem(parser: ParserState, context: Context, scope: ScopeState): StatementNode {
   switch (parser.token) {
     case SyntaxKind.FunctionKeyword:
     case SyntaxKind.AsyncKeyword:
@@ -384,7 +384,12 @@ function parseStatementListItem(parser: ParserState, context: Context, scope: an
 
 // Statement :
 //   ...
-function parseStatement(parser: ParserState, context: Context, allowFunction: boolean, scope: any): StatementNode {
+function parseStatement(
+  parser: ParserState,
+  context: Context,
+  allowFunction: boolean,
+  scope: ScopeState
+): StatementNode {
   switch (parser.token) {
     case SyntaxKind.VarKeyword:
       return parseVariableStatement(parser, context, /* declareKeyword */ null, scope, BindingType.Var);
@@ -463,7 +468,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
 
 // SwitchStatement :
 //   `switch` `(` Expression `)` CaseBlock
-function parseSwitchStatement(parser: ParserState, context: Context, scope: any): SwitchStatement {
+function parseSwitchStatement(parser: ParserState, context: Context, scope: ScopeState): SwitchStatement {
   const pos = parser.curPos;
   const switchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.SwitchKeyword);
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
@@ -486,7 +491,7 @@ function parseSwitchStatement(parser: ParserState, context: Context, scope: any)
 // CaseBlock :
 //   `{` CaseClauses? `}`
 //   `{` CaseClauses? DefaultClause CaseClauses? `}`
-function parseCaseBlock(parser: ParserState, context: Context, scope: any): CaseBlock {
+function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState): CaseBlock {
   const pos = parser.curPos;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace);
   scope = createParentScope(scope, ScopeKind.SwitchStatement);
@@ -520,7 +525,7 @@ function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
 }
 
-function parseCaseClause(parser: ParserState, context: Context, scope: any): CaseClause {
+function parseCaseClause(parser: ParserState, context: Context, scope: ScopeState): CaseClause {
   const pos = parser.curPos;
   const caseToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.CaseKeyword);
   if (caseToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
@@ -541,7 +546,7 @@ function parseCaseClause(parser: ParserState, context: Context, scope: any): Cas
   return createCaseClause(caseToken, expression, statements, pos, parser.curPos);
 }
 
-function parseDefaultClause(parser: ParserState, context: Context, scope: any): DefaultClause {
+function parseDefaultClause(parser: ParserState, context: Context, scope: ScopeState): DefaultClause {
   const pos = parser.curPos;
   const defaultToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DefaultKeyword);
   if (defaultToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
@@ -561,7 +566,11 @@ function parseDefaultClause(parser: ParserState, context: Context, scope: any): 
   return createDefaultClause(defaultToken, statements, pos, parser.curPos);
 }
 
-function parseCaseOrDefaultClause(parser: ParserState, context: Context, scope: any): CaseClause | DefaultClause {
+function parseCaseOrDefaultClause(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState
+): CaseClause | DefaultClause {
   return parser.token === SyntaxKind.CaseKeyword
     ? parseCaseClause(parser, context, scope)
     : parseDefaultClause(parser, context, scope);
@@ -604,7 +613,7 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
   return createTryStatement(tryToken, block, catchClause, finallyKeyword, finallyBlock, pos, parser.curPos);
 }
 
-function parseCatchClause(parser: ParserState, context: Context, scope: any): CatchClause {
+function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState): CatchClause {
   const pos = parser.curPos;
   const catchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.CatchKeyword);
   if (catchToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
@@ -754,7 +763,7 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
 // IfStatement :
 //  `if` `(` Expression `)` Statement `else` Statement
 //  `if` `(` Expression `)` Statement [lookahead != `else`]
-function parseIfStatement(parser: ParserState, context: Context, scope: any): IfStatement {
+function parseIfStatement(parser: ParserState, context: Context, scope: ScopeState): IfStatement {
   const pos = parser.curPos;
   const ifKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.IfKeyword);
   if (ifKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
@@ -782,7 +791,7 @@ function parseIfStatement(parser: ParserState, context: Context, scope: any): If
   return createIfStatement(ifKeyword, expression, consequent, elseKeyword, alternate, pos, parser.curPos);
 }
 
-function parseConsequentOrAlternative(parser: ParserState, context: Context, scope: any): StatementNode {
+function parseConsequentOrAlternative(parser: ParserState, context: Context, scope: ScopeState): StatementNode {
   // Annex B.3.4 says that unbraced FunctionDeclarations under if/else in
   // non-strict code act as if they were braced: 'if (x) function f() {}'
   // parses as 'if (x) { function f() {} }'.
@@ -798,7 +807,7 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context, sco
 }
 
 // `while` `(` Expression `)` Statement
-function parseWhileStatement(parser: ParserState, context: Context, scope: any): WhileStatement {
+function parseWhileStatement(parser: ParserState, context: Context, scope: ScopeState): WhileStatement {
   const pos = parser.curPos;
   const whileToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
   const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
@@ -821,7 +830,7 @@ function parseWhileStatement(parser: ParserState, context: Context, scope: any):
 }
 
 // `do` Statement `while` `(` Expression `)` `;`
-function parseDoWhileStatement(parser: ParserState, context: Context, scope: any): DoWhileStatement {
+function parseDoWhileStatement(parser: ParserState, context: Context, scope: ScopeState): DoWhileStatement {
   const pos = parser.curPos;
   const doKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DoKeyword);
   const statement = parseStatement(
@@ -856,7 +865,7 @@ function parseDoWhileStatement(parser: ParserState, context: Context, scope: any
 
 // WithStatement :
 //   `with` `(` Expression `)` Statement
-function parseWithStatement(parser: ParserState, context: Context, scope: any): WithStatement {
+function parseWithStatement(parser: ParserState, context: Context, scope: ScopeState): WithStatement {
   const pos = parser.curPos;
   if (context & Context.Strict) {
     parser.onError(
@@ -933,7 +942,7 @@ export function parseLabelledStatement(
   token: SyntaxKind,
   flags: NodeFlags,
   allowFunction: boolean,
-  scope: any,
+  scope: ScopeState,
   pos: number
 ): LabelledStatement {
   switch (token) {
@@ -1058,7 +1067,7 @@ export function parseLabelledStatement(
 function parseForStatement(
   parser: ParserState,
   context: Context,
-  scope: any
+  scope: ScopeState
 ): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
   const forKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ForKeyword);
@@ -1345,7 +1354,7 @@ export function parseExpressionOrLabelledStatement(
   parser: ParserState,
   context: Context,
   allowFunction: boolean,
-  scope: any
+  scope: ScopeState
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
   const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
@@ -1369,7 +1378,7 @@ function parseExpressionStatement(
 function parseBindingIdentifier(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType,
   diagnosticMessage?: DiagnosticCode,
   allowKeywords?: boolean
@@ -1527,7 +1536,12 @@ function parseIdentifier(
 }
 
 // BlockStatement : Block
-function parseBlockStatement(parser: ParserState, context: Context, scope: any, isCatchScope: boolean): BlockStatement {
+function parseBlockStatement(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  isCatchScope: boolean
+): BlockStatement {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
     const block = parseBlock(
@@ -1561,7 +1575,7 @@ function parseBlockStatement(parser: ParserState, context: Context, scope: any, 
 }
 
 // Block : `{` StatementList `}`
-function parseBlock(parser: ParserState, context: Context, scope: any, isCatchScope: boolean): Block {
+function parseBlock(parser: ParserState, context: Context, scope: ScopeState, isCatchScope: boolean): Block {
   const curPos = parser.curPos;
   const statements: StatementNode[] = [];
   const flags = parser.nodeFlags;
@@ -2032,7 +2046,7 @@ function parseCallExpression(parser: ParserState, context: Context, expr: Expres
 function parseArrowFunction(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   typeParameters: TypeParameter | null,
   returnType: TypeNode | null,
   params: any,
@@ -2075,7 +2089,7 @@ function parseArrowFunction(
 function parseConciseOrFunctionBody(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   isSimpleParameterList: boolean
 ): FunctionBody | ExpressionNode {
   if (scope && scope.scopeError) {
@@ -2543,7 +2557,7 @@ function parseObjectLiteralOrAssignmentExpression(
         parser.pos
       );
     }
-    const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp);
+    const operatorToken = parseTokenNode(parser, context);
     const right = parseExpression(parser, context);
     parser.destructible = (parser.destructible | DestructibleKind.MustDestruct) ^ DestructibleKind.MustDestruct;
     return createAssignmentExpression(node, operatorToken, right, pos, parser.curPos);
@@ -2554,7 +2568,7 @@ function parseObjectLiteralOrAssignmentExpression(
 function parsePropertyDefinitionList(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): PropertyDefinitionList {
   const pos = parser.curPos;
@@ -2642,7 +2656,7 @@ function validateIdentifier(parser: ParserState, context: Context, t: SyntaxKind
 function parsePropertyDefinition(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): PropertyDefinition | SpreadProperty | Identifier | CoverInitializedName | PropertyMethod {
   const pos = parser.curPos;
@@ -2958,7 +2972,7 @@ function parsMethodParameters(
   parser: ParserState,
   context: Context,
   nodeFlags: NodeFlags,
-  scope: any
+  scope: ScopeState
 ): FormalParameterList {
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
@@ -3062,7 +3076,7 @@ function parsMethodParameters(
 function paresSpreadPropertyArgument(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): SpreadProperty | any {
   const pos = parser.curPos;
@@ -3567,7 +3581,7 @@ function parseArrayLiteralOrAssignmentExpression(
   return node;
 }
 
-function parseElementList(parser: ParserState, context: Context, scope: any, type: BindingType): ElementList {
+function parseElementList(parser: ParserState, context: Context, scope: ScopeState, type: BindingType): ElementList {
   const curPos = parser.curPos;
   const elements: ExpressionNode[] = [];
   let trailingComma = false;
@@ -3601,7 +3615,7 @@ function parseElementList(parser: ParserState, context: Context, scope: any, typ
 function parseArrayLiteralElement(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): Elison | SpreadElement | ExpressionNode {
   const pos = parser.curPos;
@@ -3740,7 +3754,7 @@ function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Contex
     : parseExpression(parser, context);
 }
 
-function parseArraySpreadArgument(parser: ParserState, context: Context, scope: any, type: BindingType): any {
+function parseArraySpreadArgument(parser: ParserState, context: Context, scope: ScopeState, type: BindingType): any {
   const pos = parser.curPos;
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -4615,10 +4629,10 @@ function isValidReturnType(parser: ParserState, context: Context, _expression1: 
     context,
     function () {
       nextToken(parser, context); // ':'
-      const validateIdentifier = parser.token & SyntaxKind.IsIdentifier;
+      const isIdentifier = parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier);
       let expression: any = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
       if (
-        validateIdentifier &&
+        isIdentifier &&
         expression.kind === SyntaxKind.ArrowFunction &&
         (parser.token as SyntaxKind) === SyntaxKind.Colon
       )
@@ -4663,7 +4677,7 @@ function parsePropertyName(
 function parseIdentifierOrPattern(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType,
   diagnosticMessage?: DiagnosticCode
 ): Identifier | ArrayBindingPattern | ObjectBindingPattern | DummyIdentifier | any {
@@ -4688,7 +4702,7 @@ function parseIdentifierOrPattern(
 function parseArrayBindingPattern(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): ArrayBindingPattern {
   const pos = parser.curPos;
@@ -4703,7 +4717,7 @@ function parseArrayBindingPattern(
 function parseBindingElementList(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): BindingElementList {
   const pos = parser.curPos;
@@ -4715,7 +4729,7 @@ function parseBindingElementList(
     let arrayBindingElement: any = parseArrayBindingElement(parser, context, scope, type);
     elements.push(arrayBindingElement);
 
-    if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) break;
+    if (parser.token === SyntaxKind.RightBracket) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
       if (arrayBindingElement.ellipsisToken) {
         parser.onError(
@@ -4751,7 +4765,7 @@ function parseBindingElementList(
 function parseArrayBindingElement(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): Elison | ArrayBindingElement {
   const pos = parser.curPos;
@@ -4777,7 +4791,7 @@ function parseArrayBindingElement(
 function parseObjectBindingPattern(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): ObjectBindingPattern {
   const pos = parser.curPos;
@@ -4790,7 +4804,7 @@ function parseObjectBindingPattern(
 function parseBindingPropertyList(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): BindingPropertyList {
   const pos = parser.curPos;
@@ -4847,7 +4861,7 @@ function parseBindingPropertyList(
 function parseBindingProperty(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): BindingProperty | SingleNameBinding {
   const pos = parser.curPos;
@@ -5340,7 +5354,7 @@ function parseFunctionDeclaration(
 function parseFunctionBlockOrSemicolon(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   isDeclared: boolean,
   isDecl: boolean,
   isSimpleParameterList: boolean,
@@ -5365,7 +5379,7 @@ function parseFunctionBlockOrSemicolon(
 function parseFunctionBody(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   isDecl: boolean,
   isSimpleParameterList: boolean,
   ignoreMissingOpenBrace: boolean,
@@ -5404,7 +5418,7 @@ function parseFunctionBody(
 function parseFunctionStatementList(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   isSimpleParameterList: boolean,
   firstRestricted: SyntaxKind | null
 ): FunctionStatementList {
@@ -5482,7 +5496,7 @@ function parseFunctionStatementList(
   return createFunctionStatementList(directives, statements, flags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
 
-function parseFormalParameterList(parser: ParserState, context: Context, scope: any): FormalParameterList {
+function parseFormalParameterList(parser: ParserState, context: Context, scope: ScopeState): FormalParameterList {
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   let nodeFlags = NodeFlags.ExpressionNode;
@@ -5531,7 +5545,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   return createFormalParameterList([], /* trailingComma*/ false, nodeFlags, curpPos, curpPos);
 }
 
-function parseFormalParameter(parser: ParserState, context: Context, scope: any): FormalParameter {
+function parseFormalParameter(parser: ParserState, context: Context, scope: ScopeState): FormalParameter {
   const pos = parser.curPos;
   let nodeflags = NodeFlags.ExpressionNode;
   const token = parser.token;
@@ -5606,7 +5620,7 @@ function parseFormalParameter(parser: ParserState, context: Context, scope: any)
 function parseImportDeclaration(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   isScript: boolean
 ): ImportDeclaration | ExpressionStatement {
   let moduleSpecifier = null;
@@ -5677,7 +5691,7 @@ function parseImportDeclaration(
 
 // NameSpaceImport :
 //   `*` `as` ImportedBinding
-function parseNameSpaceImport(parser: ParserState, context: Context, scope: any): NameSpaceImport {
+function parseNameSpaceImport(parser: ParserState, context: Context, scope: ScopeState): NameSpaceImport {
   const pos = parser.curPos;
   const asteriskToken = consumeToken(parser, context, SyntaxKind.Multiply);
   const asKeyword = consumeToken(parser, context, SyntaxKind.AsKeyword);
@@ -5694,7 +5708,7 @@ function parseNameSpaceImport(parser: ParserState, context: Context, scope: any)
 //   `{` `}`
 //   `{` ImportsList `}`
 //   `{` ImportsList `,` `}`
-function parseNamedImports(parser: ParserState, context: Context, scope: any): NamedImports {
+function parseNamedImports(parser: ParserState, context: Context, scope: ScopeState): NamedImports {
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
   const importsList = parseImportsList(parser, context, scope);
@@ -5702,7 +5716,7 @@ function parseNamedImports(parser: ParserState, context: Context, scope: any): N
   return createNamedImports(importsList, pos, parser.curPos);
 }
 
-function parseImportsList(parser: ParserState, context: Context, scope: any): ImportsList {
+function parseImportsList(parser: ParserState, context: Context, scope: ScopeState): ImportsList {
   const pos = parser.curPos;
   const specifiers = [];
 
@@ -5726,7 +5740,7 @@ function parseImportsList(parser: ParserState, context: Context, scope: any): Im
 // ImportSpecifier :
 //   ImportedBinding
 //   Identifier `as` ImportedBinding
-function parseImportSpecifier(parser: ParserState, context: Context, scope: any): ImportSpecifier {
+function parseImportSpecifier(parser: ParserState, context: Context, scope: ScopeState): ImportSpecifier {
   const pos = parser.curPos;
   const token = parser.token;
   const tokenValue = parser.tokenValue;
@@ -5815,7 +5829,7 @@ function parseFromClause(parser: ParserState, context: Context): FromClause {
 function parseExportDeclaration(
   parser: ParserState,
   context: Context,
-  scope: any
+  scope: ScopeState
 ): ExportDeclaration | ExportDefault | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const exportToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExportKeyword);
@@ -6528,7 +6542,7 @@ function parseVariableDeclaration(
 function parseDeclareAsIdentifierOrDeclareStatement(
   parser: ParserState,
   context: Context,
-  scope: any
+  scope: ScopeState
 ): TypeAlias | LabelledStatement | ExpressionStatement | StatementNode {
   const pos = parser.curPos;
   const expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
@@ -6599,7 +6613,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   context: Context,
   opaqueKeyword: SyntaxToken<TokenSyntaxKind> | null,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  scope: any
+  scope: ScopeState
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
@@ -6669,7 +6683,7 @@ function parseTypeAsIdentifierOrTypeAlias(
 function parseLetAsIdentifierOrLexicalDeclaration(
   parser: ParserState,
   context: Context,
-  scope: any
+  scope: ScopeState
 ): LexicalDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.IsStatement;
@@ -6736,7 +6750,7 @@ function parseLexicalDeclaration(
   parser: ParserState,
   context: Context,
   isConst: boolean,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): LexicalDeclaration {
   const pos = parser.curPos;
@@ -6758,7 +6772,7 @@ function parseBindingList(
   context: Context,
   isConst: boolean,
   inForStatement: boolean,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): BindingList {
   const pos = parser.curPos;
@@ -6815,7 +6829,7 @@ function parseLexicalBinding(
   context: Context,
   isConst: boolean,
   inForStatement: boolean,
-  scope: any,
+  scope: ScopeState,
   type: BindingType
 ): LexicalBinding {
   const pos = parser.curPos;
@@ -8717,7 +8731,7 @@ function parseOpaqueType(
   parser: ParserState,
   context: Context,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  scope: any
+  scope: ScopeState
 ) {
   const pos = parser.curPos;
   const expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
