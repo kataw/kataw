@@ -165,7 +165,7 @@ for (let [...[foo, bar],] = obj);
 ### Diagnostics
 
 ```javascript
-✖ Rest element must be last element - start: 24, end: 25
+✖ A rest element must be last in a destructuring pattern - start: 24, end: 25
 ✖ ',' expected - start: 31, end: 32
 ✖ Expression expected - start: 31, end: 32
 

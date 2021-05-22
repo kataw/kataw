@@ -127,7 +127,7 @@ let [...foo,] = obj;
 ### Diagnostics
 
 ```javascript
-✖ Rest element must be last element - start: 12, end: 13
+✖ A rest element must be last in a destructuring pattern - start: 12, end: 13
 
 ```
 

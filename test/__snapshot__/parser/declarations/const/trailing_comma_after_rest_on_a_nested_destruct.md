@@ -170,7 +170,7 @@ const [...[foo, bar],] = obj;
 ### Diagnostics
 
 ```javascript
-✖ Rest element must be last element - start: 21, end: 22
+✖ A rest element must be last in a destructuring pattern - start: 21, end: 22
 
 ```
 

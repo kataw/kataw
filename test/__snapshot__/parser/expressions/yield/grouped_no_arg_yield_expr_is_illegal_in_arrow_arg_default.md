@@ -8,7 +8,7 @@ function *f(){ async (x = (yield)) => {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

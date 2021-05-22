@@ -8,7 +8,7 @@ function *f() { 1 ? 2 : yield 3; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

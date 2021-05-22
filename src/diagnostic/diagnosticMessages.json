@@ -185,12 +185,11 @@
   "Cannot redeclare block-scoped variable": 187,
   "Cannot bound an already bound catch clause binding": 188,
   "A block-scoped variable cannot shadow a catch clause binding": 189,
-  "Trailing comma not allowed after rest element": 190,
-  "Rest element must be last element": 191,
-  "Duplicate identifier": 192,
-  "Duplicate formal parameter": 193,
-  "Duplicate arrow formal parameter": 194,
-  "An implementation cannot be declared in ambient contexts": 195,
-  "The left-hand side of a for...of loop cannot contain an 'async' identifier": 196
+  "A rest element must be last in a destructuring pattern": 190,
+  "Duplicate identifier": 191,
+  "Duplicate formal parameter": 192,
+  "Duplicate arrow formal parameter": 193,
+  "An implementation cannot be declared in ambient contexts": 194,
+  "The left-hand side of a for...of loop cannot contain an 'async' identifier": 195
 }
 

@@ -122,7 +122,7 @@ let {...obj1,a} = foo
 ### Diagnostics
 
 ```javascript
-✖ Rest element must be last element - start: 13, end: 14
+✖ A rest element must be last in a destructuring pattern - start: 13, end: 14
 
 ```
 

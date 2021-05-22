@@ -2370,6 +2370,7 @@ function parsePrimaryExpression(
 
     const expression = parseIdentifierReference(parser, context);
 
+    // Handle the start of an arrow expression
     if (parser.token === SyntaxKind.Arrow) {
       if (LeftHandSideContext) {
         parser.onError(
@@ -2481,7 +2482,7 @@ function parsePrimaryExpression(
 
   const { curPos, tokenValue, token } = parser;
 
-  const expr = parseIdentifier(parser, context);
+  let expr = parseIdentifier(parser, context);
 
   if (token & SyntaxKind.IsFutureReserved) {
     if (context & Context.Strict) {
@@ -4804,8 +4805,8 @@ function parseBindingElementList(
           DiagnosticKind.Error,
           diagnosticMap[
             parser.token === SyntaxKind.RightBrace
-              ? DiagnosticCode.Trailing_comma_not_allowed_after_rest_element
-              : DiagnosticCode.Rest_element_must_be_last_element
+              ? DiagnosticCode.A_rest_parameter_or_binding_pattern_may_not_have_a_trailing_comma
+              : DiagnosticCode.A_rest_element_must_be_last_in_a_destructuring_pattern
           ],
           parser.curPos,
           parser.pos
@@ -4890,8 +4891,8 @@ function parseBindingPropertyList(
           DiagnosticKind.Error,
           diagnosticMap[
             parser.token === SyntaxKind.RightBrace
-              ? DiagnosticCode.Trailing_comma_not_allowed_after_rest_element
-              : DiagnosticCode.Rest_element_must_be_last_element
+              ? DiagnosticCode.A_rest_parameter_or_binding_pattern_may_not_have_a_trailing_comma
+              : DiagnosticCode.A_rest_element_must_be_last_in_a_destructuring_pattern
           ],
           parser.curPos,
           parser.pos

@@ -122,7 +122,7 @@ for (let [...,] of obj);
 
 ```javascript
 ✖ Expression expected - start: 13, end: 14
-✖ Rest element must be last element - start: 14, end: 15
+✖ A rest element must be last in a destructuring pattern - start: 14, end: 15
 
 ```
 

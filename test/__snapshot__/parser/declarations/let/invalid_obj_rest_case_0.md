@@ -106,7 +106,7 @@ let {...obj1,} = foo
 ### Diagnostics
 
 ```javascript
-✖ Trailing comma not allowed after rest element - start: 13, end: 14
+✖ A rest parameter or binding pattern may not have a trailing comma. - start: 13, end: 14
 
 ```
 
