@@ -22,6 +22,7 @@ import { FunctionTypeParameterList } from './function-type-parameter-list';
 import { BooleanType } from './boolean-type';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeParameter } from './type-parameter';
+import { IndexedAccessType } from './indexed-access-type';
 
 /**
  * The set of all syntax items which are types.
@@ -30,6 +31,7 @@ export type TypeNode =
   | TypeofType
   | GenericType
   | NullableType
+  | IndexedAccessType
   | TypeParameterDeclaration
   | TypeParameter
   | ObjectTypeCallProperty

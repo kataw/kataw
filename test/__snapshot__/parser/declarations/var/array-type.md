@@ -416,6 +416,12 @@ var a: (?number)[];
                                     "kind": 260,
                                     "type": {
                                         "kind": 134217970,
+                                        "nullableToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 115,
+                                            "end": 116
+                                        },
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 64,

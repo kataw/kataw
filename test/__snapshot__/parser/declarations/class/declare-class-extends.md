@@ -95,10 +95,10 @@ declare class A<T> extends B<T> { x: number }
                         "end": 28
                     },
                     "typeParameter": {
-                        "kind": 265,
-                        "typeParameters": [
+                        "kind": 266,
+                        "parameters": [
                             {
-                                "kind": 146,
+                                "kind": 267,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -114,7 +114,6 @@ declare class A<T> extends B<T> { x: number }
                                     "start": 29,
                                     "end": 30
                                 },
-                                "initializer": null,
                                 "flags": 0,
                                 "start": 29,
                                 "end": 30

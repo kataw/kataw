@@ -58,10 +58,10 @@ opaque type Counter: Box<T> = Container<T>;
                         "end": 24
                     },
                     "typeParameters": {
-                        "kind": 265,
-                        "typeParameters": [
+                        "kind": 266,
+                        "parameters": [
                             {
-                                "kind": 146,
+                                "kind": 267,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -77,7 +77,6 @@ opaque type Counter: Box<T> = Container<T>;
                                     "start": 25,
                                     "end": 26
                                 },
-                                "initializer": null,
                                 "flags": 0,
                                 "start": 25,
                                 "end": 26
@@ -107,10 +106,10 @@ opaque type Counter: Box<T> = Container<T>;
                     "end": 39
                 },
                 "typeParameters": {
-                    "kind": 265,
-                    "typeParameters": [
+                    "kind": 266,
+                    "parameters": [
                         {
-                            "kind": 146,
+                            "kind": 267,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -126,7 +125,6 @@ opaque type Counter: Box<T> = Container<T>;
                                 "start": 40,
                                 "end": 41
                             },
-                            "initializer": null,
                             "flags": 0,
                             "start": 40,
                             "end": 41

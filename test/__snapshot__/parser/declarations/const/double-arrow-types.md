@@ -70,6 +70,12 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                 ],
                                 "returnType": {
                                     "kind": 134217970,
+                                    "nullableToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 19,
+                                        "end": 21
+                                    },
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -238,6 +244,12 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                 ],
                                 "returnType": {
                                     "kind": 134217970,
+                                    "nullableToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 78,
+                                        "end": 80
+                                    },
                                     "type": {
                                         "kind": 144,
                                         "id": {

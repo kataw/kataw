@@ -28,16 +28,9 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 223,
-                                "ellipsisToken": null,
-                                "argument": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 6,
-                                    "end": 6
-                                },
-                                "flags": 32,
+                                "kind": 134,
+                                "text": true,
+                                "flags": 96,
                                 "start": 1,
                                 "end": 6
                             }
@@ -92,7 +85,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 6, end: 8
 ✖ The left-hand side must be a variable or a property access. - start: 8, end: 10
 
 ```

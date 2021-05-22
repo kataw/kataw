@@ -73,10 +73,10 @@ type B = Foo<
                     "end": 12
                 },
                 "typeParameters": {
-                    "kind": 265,
-                    "typeParameters": [
+                    "kind": 266,
+                    "parameters": [
                         {
-                            "kind": 146,
+                            "kind": 267,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -153,7 +153,6 @@ type B = Foo<
                                 "start": 29,
                                 "end": 45
                             },
-                            "initializer": null,
                             "flags": 0,
                             "start": 13,
                             "end": 45
@@ -205,8 +204,8 @@ type B = Foo<
                             "end": 62
                         },
                         "typeParameters": {
-                            "kind": 265,
-                            "typeParameters": [],
+                            "kind": 266,
+                            "parameters": [],
                             "flags": 0,
                             "start": 62,
                             "end": 63

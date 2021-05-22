@@ -36,16 +36,9 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 223,
-                                    "ellipsisToken": null,
-                                    "argument": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "flags": 64,
-                                        "start": 7,
-                                        "end": 7
-                                    },
-                                    "flags": 32,
+                                    "kind": 134,
+                                    "text": true,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 7
                                 }
@@ -103,7 +96,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 7, end: 9
 ✖ The left hand side of the arrow is not destructible  - start: 10, end: 13
 
 ```

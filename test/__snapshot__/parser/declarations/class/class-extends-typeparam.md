@@ -90,10 +90,10 @@ class Foo<T> extends Bar<T> { }
                         "end": 24
                     },
                     "typeParameter": {
-                        "kind": 265,
-                        "typeParameters": [
+                        "kind": 266,
+                        "parameters": [
                             {
-                                "kind": 146,
+                                "kind": 267,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -109,7 +109,6 @@ class Foo<T> extends Bar<T> { }
                                     "start": 25,
                                     "end": 26
                                 },
-                                "initializer": null,
                                 "flags": 0,
                                 "start": 25,
                                 "end": 26

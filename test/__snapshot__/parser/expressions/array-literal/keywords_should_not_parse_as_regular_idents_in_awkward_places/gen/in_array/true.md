@@ -26,16 +26,9 @@
                     "kind": 270,
                     "elements": [
                         {
-                            "kind": 223,
-                            "ellipsisToken": null,
-                            "argument": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 6,
-                                "end": 6
-                            },
-                            "flags": 32,
+                            "kind": 134,
+                            "text": true,
+                            "flags": 96,
                             "start": 1,
                             "end": 6
                         }
@@ -67,12 +60,12 @@
 
 ```javascript
 
+[true];
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 6, end: 8
-
+✔ No errors
 ```
 

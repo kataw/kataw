@@ -114,6 +114,7 @@ import { createThisExpression, ThisExpression } from '../ast/expressions/this-ex
 import { createConditionalExpression } from '../ast/expressions/conditional-expr';
 import { createBinaryExpression, BinaryExpression } from '../ast/expressions/binary-expr';
 import { createBooleanType, BooleanType } from '../ast/types/boolean-type';
+import { createIndexedAccessType, IndexedAccessType } from '../ast/types/indexed-access-type';
 import { createObjectTypeSpreadProperty, ObjectTypeSpreadProperty } from '../ast/types/object-type-spread-property';
 import { createObjectTypeInternalSlot, ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
 import { createArrayType, ArrayType } from '../ast/types/array-type';
@@ -130,6 +131,14 @@ import { createTypeAnnotation, TypeAnnotation } from '../ast/types/type-annotati
 import { createQualifiedType, QualifiedType } from '../ast/types/qualified-type';
 import { createGenericType, GenericType } from '../ast/types/generic-type';
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
+import {
+  createTypeParameterInstantiationList,
+  TypeParameterInstantiationList
+} from '../ast/types/type-parameter-instantiation-list';
+import {
+  createTypeParameterInstantiation,
+  TypeParameterInstantiation
+} from '../ast/types/type-parameter-instantiation';
 import { createTupleType, TupleType } from '../ast/types/tuple-type';
 import { createArrowFunctionType, ArrowFunctionType } from '../ast/types/arrow-function-type';
 import { createParenthesizedType, ParenthesizedType } from '../ast/types/parenthesized-type';
@@ -3772,7 +3781,7 @@ function parseArrayLiteralElement(
     return left;
   }
 
-  if (parser.token & SyntaxKind.IsEllipsis) {
+  if (parser.token === SyntaxKind.Ellipsis) {
     const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
     return createSpreadElement(
       ellipsisToken,
@@ -3782,7 +3791,7 @@ function parseArrayLiteralElement(
     );
   }
 
-  if (parser.token & SyntaxKind.IsComma) {
+  if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
     return createElison(pos, pos);
   }
 
@@ -6175,8 +6184,9 @@ function parseIntersectionType(parser: ParserState, context: Context): TypeNode 
 
 function parsePrefixType(parser: ParserState, context: Context): TypeNode {
   const pos = parser.curPos;
-  if (consumeOpt(parser, context, SyntaxKind.QuestionMark)) {
-    return createNullableType(parsePrefixType(parser, context), pos, parser.curPos);
+  const nullableToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+  if (nullableToken) {
+    return createNullableType(nullableToken, parsePrefixType(parser, context), pos, parser.curPos);
   }
   return parsePostfixType(parser, context);
 }
@@ -6185,9 +6195,17 @@ function parsePostfixType(parser: ParserState, context: Context): TypeNode {
   let type = parsePrimaryType(parser, context);
   while ((parser.nodeFlags & NodeFlags.NewLine) === 0 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
     const pos = parser.curPos;
-    consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
-
-    type = createArrayType(type, pos, parser.curPos);
+    if (
+      parser.token &
+      (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsStartOfType | SyntaxKind.IsPatternStart)
+    ) {
+      const indexType = parseUnionType(parser, context);
+      consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
+      type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
+    } else {
+      consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
+      type = createArrayType(type, pos, parser.curPos);
+    }
   }
   return type;
 }
@@ -6445,7 +6463,7 @@ function parseGenericType(parser: ParserState, context: Context): GenericType {
   while (consumeOpt(parser, context, SyntaxKind.Period)) {
     entity = parseQualifiedType(parser, context, entity);
   }
-  const typeParameters = parseTypeParameterDeclaration(parser, context);
+  const typeParameters = parseTypeParameterInstantiationList(parser, context);
   return createGenericType(entity, typeParameters, pos, parser.curPos);
 }
 
@@ -6483,6 +6501,38 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
     return createTypeParameterDeclaration(types, pos, parser.curPos);
   }
   return null;
+}
+
+function parseTypeParameterInstantiationList(
+  parser: ParserState,
+  context: Context
+): TypeParameterInstantiationList | null {
+  const pos = parser.curPos;
+  const types = [];
+  if (consume(parser, context, SyntaxKind.LessThan)) {
+    while (
+      parser.token &
+      (SyntaxKind.IsLessThanOrLeftParen |
+        SyntaxKind.IsExpressionStart |
+        SyntaxKind.IsStartOfType |
+        SyntaxKind.IsIdentifier |
+        SyntaxKind.IsPatternStart)
+    ) {
+      types.push(parseTypeParameterInstantiation(parser, context));
+      if (parser.token !== SyntaxKind.GreaterThan) {
+        consume(parser, context, SyntaxKind.Comma);
+      }
+    }
+    consume(parser, context, SyntaxKind.GreaterThan);
+    return createTypeParameterInstantiationList(types, pos, parser.curPos);
+  }
+  return null;
+}
+
+function parseTypeParameterInstantiation(parser: ParserState, context: Context): TypeParameterInstantiation {
+  const start = parser.curPos;
+  const type = parseType(parser, context);
+  return createTypeParameterInstantiation(type, start, parser.curPos);
 }
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
@@ -7657,7 +7707,9 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     classHeritage = createClassHeritage(
       extendsToken,
       parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.NotBindable),
-      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameterDeclaration(parser, context) : null,
+      (parser.token as SyntaxKind) === SyntaxKind.LessThan
+        ? parseTypeParameterInstantiationList(parser, context)
+        : null,
       curPos,
       parser.curPos
     );

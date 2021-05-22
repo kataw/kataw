@@ -56,8 +56,20 @@ type a = ??string;
             "typeParameters": null,
             "type": {
                 "kind": 134217970,
+                "nullableToken": {
+                    "kind": 134217750,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 10
+                },
                 "type": {
                     "kind": 134217970,
+                    "nullableToken": {
+                        "kind": 134217750,
+                        "flags": 64,
+                        "start": 10,
+                        "end": 11
+                    },
                     "type": {
                         "kind": 134234347,
                         "flags": 64,

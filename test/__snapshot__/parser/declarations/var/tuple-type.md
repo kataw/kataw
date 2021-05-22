@@ -213,10 +213,10 @@ var x: [number, string] = [123, "aladdin"];
                                             "end": 56
                                         },
                                         "typeParameters": {
-                                            "kind": 265,
-                                            "typeParameters": [
+                                            "kind": 266,
+                                            "parameters": [
                                                 {
-                                                    "kind": 146,
+                                                    "kind": 267,
                                                     "type": {
                                                         "kind": 144,
                                                         "id": {
@@ -232,7 +232,6 @@ var x: [number, string] = [123, "aladdin"];
                                                         "start": 57,
                                                         "end": 58
                                                     },
-                                                    "initializer": null,
                                                     "flags": 0,
                                                     "start": 57,
                                                     "end": 58

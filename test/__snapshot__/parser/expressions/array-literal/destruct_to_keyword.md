@@ -25,33 +25,26 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 223,
-                                "ellipsisToken": null,
-                                "argument": {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "flags": 64,
-                                        "start": 5,
-                                        "end": 5
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 5,
-                                        "end": 7
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 7,
-                                        "end": 9
-                                    },
-                                    "flags": 32,
+                                "kind": 125,
+                                "left": {
+                                    "kind": 134,
+                                    "text": true,
+                                    "flags": 96,
+                                    "start": 1,
+                                    "end": 5
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
+                                    "flags": 64,
                                     "start": 5,
+                                    "end": 7
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 7,
                                     "end": 9
                                 },
                                 "flags": 32,
@@ -109,8 +102,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 5, end: 7
-✖ The left-hand side must be a variable or a property access. - start: 10, end: 12
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
 
 ```
 

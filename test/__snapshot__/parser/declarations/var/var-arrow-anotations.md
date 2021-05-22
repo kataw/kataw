@@ -156,23 +156,22 @@ class Array { concat(items:number | string) {}; }
                                     "end": 28
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
-                                    "typeParameters": [
+                                    "kind": 266,
+                                    "parameters": [
                                         {
-                                            "kind": 146,
+                                            "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 29,
                                                 "end": 35
                                             },
-                                            "initializer": null,
                                             "flags": 0,
                                             "start": 29,
                                             "end": 35
                                         },
                                         {
-                                            "kind": 146,
+                                            "kind": 267,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -184,17 +183,16 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 42
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 265,
-                                                    "typeParameters": [
+                                                    "kind": 266,
+                                                    "parameters": [
                                                         {
-                                                            "kind": 146,
+                                                            "kind": 267,
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 64,
                                                                 "start": 43,
                                                                 "end": 49
                                                             },
-                                                            "initializer": null,
                                                             "flags": 0,
                                                             "start": 43,
                                                             "end": 49
@@ -208,7 +206,6 @@ class Array { concat(items:number | string) {}; }
                                                 "start": 36,
                                                 "end": 49
                                             },
-                                            "initializer": null,
                                             "flags": 0,
                                             "start": 36,
                                             "end": 49
@@ -308,23 +305,22 @@ class Array { concat(items:number | string) {}; }
                                     "end": 64
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
-                                    "typeParameters": [
+                                    "kind": 266,
+                                    "parameters": [
                                         {
-                                            "kind": 146,
+                                            "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 65,
                                                 "end": 71
                                             },
-                                            "initializer": null,
                                             "flags": 0,
                                             "start": 65,
                                             "end": 71
                                         },
                                         {
-                                            "kind": 146,
+                                            "kind": 267,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -336,17 +332,16 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 78
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 265,
-                                                    "typeParameters": [
+                                                    "kind": 266,
+                                                    "parameters": [
                                                         {
-                                                            "kind": 146,
+                                                            "kind": 267,
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 64,
                                                                 "start": 79,
                                                                 "end": 85
                                                             },
-                                                            "initializer": null,
                                                             "flags": 0,
                                                             "start": 79,
                                                             "end": 85
@@ -360,7 +355,6 @@ class Array { concat(items:number | string) {}; }
                                                 "start": 72,
                                                 "end": 86
                                             },
-                                            "initializer": null,
                                             "flags": 0,
                                             "start": 72,
                                             "end": 86
@@ -1570,17 +1564,16 @@ class Array { concat(items:number | string) {}; }
                                     "end": 533
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
-                                    "typeParameters": [
+                                    "kind": 266,
+                                    "parameters": [
                                         {
-                                            "kind": 146,
+                                            "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 534,
                                                 "end": 540
                                             },
-                                            "initializer": null,
                                             "flags": 0,
                                             "start": 534,
                                             "end": 540
@@ -1933,6 +1926,12 @@ class Array { concat(items:number | string) {}; }
                             "kind": 139,
                             "type": {
                                 "kind": 134217970,
+                                "nullableToken": {
+                                    "kind": 134217750,
+                                    "flags": 64,
+                                    "start": 647,
+                                    "end": 649
+                                },
                                 "type": {
                                     "kind": 134234353,
                                     "properties": [

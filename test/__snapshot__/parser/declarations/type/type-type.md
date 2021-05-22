@@ -83,10 +83,10 @@ type Foo<T> = Bar<T>
                     "end": 17
                 },
                 "typeParameters": {
-                    "kind": 265,
-                    "typeParameters": [
+                    "kind": 266,
+                    "parameters": [
                         {
-                            "kind": 146,
+                            "kind": 267,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -102,7 +102,6 @@ type Foo<T> = Bar<T>
                                 "start": 18,
                                 "end": 19
                             },
-                            "initializer": null,
                             "flags": 0,
                             "start": 18,
                             "end": 19

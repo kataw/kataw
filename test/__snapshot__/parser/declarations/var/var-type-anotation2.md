@@ -50,6 +50,12 @@ var a: ?string[]
                             "kind": 139,
                             "type": {
                                 "kind": 134217970,
+                                "nullableToken": {
+                                    "kind": 134217750,
+                                    "flags": 64,
+                                    "start": 6,
+                                    "end": 8
+                                },
                                 "type": {
                                     "kind": 136,
                                     "type": {
