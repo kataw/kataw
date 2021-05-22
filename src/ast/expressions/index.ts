@@ -36,6 +36,7 @@ import { PropertyDefinitionList } from '../expressions/property-definition-list'
 import { OptionalExpression } from '../expressions/optional-expr';
 import { ClassBody } from '../expressions/class-body';
 import { ClassTail } from '../expressions/class-tail';
+import { ArrowFunction } from '../expressions/arrow-function';
 
 /**
  * The set of all syntax items which are expressions.
@@ -60,6 +61,7 @@ export type ExpressionNode =
   | BigIntLiteral
   | BooleanLiteral
   | NullLiteral
+  | ArrowFunction
   | ClassBody
   | ClassTail
   | ArgumentList

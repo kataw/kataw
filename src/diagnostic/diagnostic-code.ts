@@ -192,7 +192,8 @@ export const enum DiagnosticCode {
   Rest_element_must_be_last_element = 191,
   Duplicate_identifier = 192,
   Duplicate_formal_parameter = 193,
-  Duplicate_arrow_formal_parameter = 194
+  Duplicate_arrow_formal_parameter = 194,
+  An_implementation_cannot_be_declared_in_ambient_contexts = 195
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -386,5 +387,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [191]: 'Rest element must be last element',
   [192]: 'Duplicate identifier',
   [193]: 'Duplicate formal parameter',
-  [194]: 'Duplicate arrow formal parameter'
+  [194]: 'Duplicate arrow formal parameter',
+  [195]: 'An implementation cannot be declared in ambient contexts'
 };

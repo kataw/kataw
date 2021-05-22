@@ -361,7 +361,8 @@ export const enum SyntaxKind {
   ParenthesizedType = 260,
   ArrowFunctionType = 261,
   ClassBody = 262,
-  StaticBlock = 263
+  StaticBlock = 263,
+  FunctionAnnotation = 264
 }
 
 export function tokenToString(node: any): string {

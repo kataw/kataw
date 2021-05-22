@@ -131,7 +131,7 @@
 ```javascript
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 17, end: 18
 ✖ Identifier expected. Reserved word in strict mode - start: 13, end: 18
-✖ Identifier expected. Reserved word in strict mode - start: 37, end: 47
+✖ Identifier expected. Reserved word in strict mode - start: 37, end: 48
 
 ```
 

@@ -189,7 +189,7 @@
   "Rest element must be last element": 191,
   "Duplicate identifier": 192,
   "Duplicate formal parameter": 193,
-  "Duplicate arrow formal parameter": 194
-
+  "Duplicate arrow formal parameter": 194,
+  "An implementation cannot be declared in ambient contexts": 195
 }
 

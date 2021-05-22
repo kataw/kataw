@@ -98,13 +98,38 @@ declare class A { static foo(): number; static x : string }
                                     "start": 30,
                                     "end": 38
                                 },
-                                "contents": null,
+                                "contents": {
+                                    "kind": 264,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 38,
+                                            "end": 38
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 38,
+                                        "end": 38
+                                    },
+                                    "flags": 0,
+                                    "start": 38,
+                                    "end": 38
+                                },
                                 "flags": 0,
                                 "start": 28,
-                                "end": 39
+                                "end": 38
                             },
                             "flags": 0,
                             "start": 24,
+                            "end": 38
+                        },
+                        {
+                            "kind": 281,
+                            "flags": 96,
+                            "start": 38,
                             "end": 39
                         },
                         {
@@ -171,15 +196,12 @@ declare class A { static foo(): number; static x : string }
 
 ```javascript
 
-declare class A {
-  static static foo();
-  static x;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ An implementation cannot be declared in ambient contexts - start: 38, end: 39
+
 ```
 
