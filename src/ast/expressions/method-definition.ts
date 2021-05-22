@@ -9,7 +9,6 @@ import { StringLiteral } from './string-literal';
 import { NumericLiteral } from './numeric-literal';
 import { BigIntLiteral } from './big-int-literal';
 import { PrivateIdentifier } from './private-identifier';
-import { FunctionAnnotation } from '../types/function-annotation';
 
 /**
  * Method definition.
@@ -26,7 +25,7 @@ export type MethodName =
 export interface MethodDefinition extends SyntaxNode {
   readonly formalParameters: FormalParameterList | null;
   readonly name: MethodName;
-  readonly contents: FunctionBody | FunctionAnnotation;
+  readonly contents: FunctionBody | null;
   readonly typeParameters: TypeParameter | null;
   readonly type: TypeNode | null;
 }
@@ -36,7 +35,7 @@ export function createMethodDefinition(
   typeParameters: TypeParameter | null,
   formalParameters: FormalParameterList | null,
   type: TypeNode | null,
-  contents: FunctionBody | FunctionAnnotation,
+  contents: FunctionBody | null,
   flags: NodeFlags,
   start: number,
   end: number

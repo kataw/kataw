@@ -105,20 +105,7 @@ async function f(){   function fh([+ await x]) { }   }
                                 "start": 33,
                                 "end": 36
                             },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "flags": 32,
-                                    "start": 35,
-                                    "end": 35
-                                },
-                                "flags": 32,
-                                "start": 35,
-                                "end": 35
-                            },
+                            "contents": null,
                             "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
@@ -212,7 +199,6 @@ async function f(){   function fh([+ await x]) { }   }
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 35, end: 36
 ✖ ',' expected - start: 35, end: 36
-✖ Unexpected token. - start: 35, end: 36
 ✖ Expected a `;` - start: 44, end: 45
 ✖ Declaration or statement expected - start: 45, end: 46
 ✖ Declaration or statement expected - start: 50, end: 54

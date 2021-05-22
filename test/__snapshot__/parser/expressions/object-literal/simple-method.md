@@ -193,59 +193,43 @@ x = { method(test: string) { } };
                                         "start": 40,
                                         "end": 45
                                     },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 44,
-                                            "end": 44
+                                    "type": {
+                                        "kind": 139,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 45,
+                                            "end": 52
                                         },
-                                        "flags": 32,
-                                        "start": 44,
-                                        "end": 44
+                                        "flags": 0,
+                                        "start": 39,
+                                        "end": 52
                                     },
+                                    "contents": null,
                                     "flags": 32,
                                     "start": 39,
-                                    "end": 44
+                                    "end": 52
                                 },
                                 "flags": 32,
                                 "start": 32,
-                                "end": 44
+                                "end": 52
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
                         "start": 32,
-                        "end": 44
+                        "end": 52
                     },
                     "flags": 48,
                     "start": 30,
-                    "end": 44
+                    "end": 52
                 },
                 "flags": 32,
                 "start": 25,
-                "end": 44
-            },
-            "flags": 16,
-            "start": 25,
-            "end": 44
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "string",
-                "rawText": "string",
-                "flags": 96,
-                "start": 45,
                 "end": 52
             },
             "flags": 16,
-            "start": 45,
+            "start": 25,
             "end": 52
         },
         {
@@ -288,9 +272,8 @@ x = { method(test: string) { } };
 ```javascript
 ✖ ',' expected - start: 44, end: 45
 ✖ Expected a ')' to match the '(' token here - start: 44, end: 45
-✖ Unexpected token. - start: 44, end: 45
-✖ ',' expected - start: 44, end: 45
-✖ Expected a `;` - start: 52, end: 53
+✖ ',' expected - start: 52, end: 53
+✖ The parser expected to find a '}' to match the '{' token here - start: 52, end: 53
 ✖ Declaration or statement expected - start: 57, end: 59
 
 ```

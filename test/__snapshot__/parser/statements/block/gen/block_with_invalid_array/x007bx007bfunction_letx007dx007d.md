@@ -98,20 +98,7 @@
                                                         "start": 24,
                                                         "end": 24
                                                     },
-                                                    "contents": {
-                                                        "kind": 216,
-                                                        "functionStatementList": {
-                                                            "kind": 217,
-                                                            "directives": [],
-                                                            "statements": [],
-                                                            "flags": 32,
-                                                            "start": 24,
-                                                            "end": 24
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 24,
-                                                        "end": 24
-                                                    },
+                                                    "contents": null,
                                                     "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 16,
@@ -170,7 +157,6 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
-✖ Unexpected token. - start: 24, end: 25
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 26
 
 ```

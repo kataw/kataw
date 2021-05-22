@@ -16,7 +16,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -165,7 +165,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                     "end": 42
                 },
                 "flags": 0,
-                "start": 34,
+                "start": 0,
                 "end": 42
             },
             "flags": 16,

@@ -96,7 +96,7 @@ class Foo { bar():this { return this; }}
                                         "end": 22
                                     },
                                     "flags": 0,
-                                    "start": 17,
+                                    "start": 15,
                                     "end": 22
                                 },
                                 "contents": {

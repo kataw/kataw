@@ -120,7 +120,7 @@ class Foo {set fooProp(value:number):void{}}
                                         "end": 41
                                     },
                                     "flags": 0,
-                                    "start": 36,
+                                    "start": 22,
                                     "end": 41
                                 },
                                 "contents": {

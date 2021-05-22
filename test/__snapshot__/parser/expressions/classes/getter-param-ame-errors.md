@@ -703,20 +703,7 @@ class C { get name(private) {} }
                                     "end": 237
                                 },
                                 "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
-                                        "flags": 32,
-                                        "start": 234,
-                                        "end": 234
-                                    },
-                                    "flags": 32,
-                                    "start": 234,
-                                    "end": 234
-                                },
+                                "contents": null,
                                 "flags": 1024,
                                 "start": 233,
                                 "end": 234
@@ -1069,7 +1056,6 @@ class C { get name(private) {} }
 ✖ Duplicate identifier - start: 220, end: 222
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
 ✖ Expected a ')' to match the '(' token here - start: 234, end: 237
-✖ Unexpected token. - start: 234, end: 237
 ✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238
 ✖ Declaration or statement expected - start: 241, end: 243
 ✖ A 'get' accessor cannot have parameters. - start: 277, end: 284

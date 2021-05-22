@@ -90,7 +90,7 @@ class Foo {get fooProp():number{}}
                                         "end": 31
                                     },
                                     "flags": 0,
-                                    "start": 24,
+                                    "start": 22,
                                     "end": 31
                                 },
                                 "contents": {

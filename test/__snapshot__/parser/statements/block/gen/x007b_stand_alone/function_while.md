@@ -49,20 +49,7 @@
                             "start": 10,
                             "end": 10
                         },
-                        "contents": {
-                            "kind": 216,
-                            "functionStatementList": {
-                                "kind": 217,
-                                "directives": [],
-                                "statements": [],
-                                "flags": 32,
-                                "start": 10,
-                                "end": 10
-                            },
-                            "flags": 32,
-                            "start": 10,
-                            "end": 10
-                        },
+                        "contents": null,
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
@@ -130,7 +117,6 @@
 
 ```javascript
 ✖ Binding identifier expected - start: 10, end: 16
-✖ Unexpected token. - start: 10, end: 16
 
 ```
 

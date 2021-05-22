@@ -72,20 +72,7 @@ wrap({async [foo""](){}});
                                                 "end": 16
                                             },
                                             "type": null,
-                                            "contents": {
-                                                "kind": 216,
-                                                "functionStatementList": {
-                                                    "kind": 217,
-                                                    "directives": [],
-                                                    "statements": [],
-                                                    "flags": 32,
-                                                    "start": 16,
-                                                    "end": 16
-                                                },
-                                                "flags": 32,
-                                                "start": 16,
-                                                "end": 16
-                                            },
+                                            "contents": null,
                                             "flags": 288,
                                             "start": 16,
                                             "end": 16
@@ -176,7 +163,6 @@ wrap({async [foo""](){}});
 
 ```javascript
 ✖ Expected a computed property - start: 11, end: 18
-✖ Unexpected token. - start: 16, end: 18
 ✖ ',' expected - start: 16, end: 18
 ✖ Property definition expected. Did you mean to use a ':'? - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19

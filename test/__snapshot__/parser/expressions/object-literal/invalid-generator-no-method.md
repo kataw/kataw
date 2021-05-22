@@ -55,20 +55,7 @@
                                         "end": 5
                                     },
                                     "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 5,
-                                            "end": 5
-                                        },
-                                        "flags": 32,
-                                        "start": 5,
-                                        "end": 5
-                                    },
+                                    "contents": null,
                                     "flags": 160,
                                     "start": 5,
                                     "end": 5
@@ -109,12 +96,12 @@
 
 ```javascript
 
+({ * a(); });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 5, end: 7
-
+✔ No errors
 ```
 

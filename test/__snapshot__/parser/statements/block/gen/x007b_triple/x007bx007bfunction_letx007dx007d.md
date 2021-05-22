@@ -70,20 +70,7 @@
                                                                             "start": 20,
                                                                             "end": 20
                                                                         },
-                                                                        "contents": {
-                                                                            "kind": 216,
-                                                                            "functionStatementList": {
-                                                                                "kind": 217,
-                                                                                "directives": [],
-                                                                                "statements": [],
-                                                                                "flags": 32,
-                                                                                "start": 20,
-                                                                                "end": 20
-                                                                            },
-                                                                            "flags": 32,
-                                                                            "start": 20,
-                                                                            "end": 20
-                                                                        },
+                                                                        "contents": null,
                                                                         "typeParameters": null,
                                                                         "returnType": null,
                                                                         "flags": 16,
@@ -154,7 +141,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 20, end: 21
 ✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 22
 
 ```

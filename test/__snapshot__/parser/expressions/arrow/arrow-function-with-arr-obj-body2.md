@@ -59,38 +59,118 @@ var v = a => <any><any>{}
                             "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 121,
-                                "expression": {
-                                    "kind": 121,
-                                    "expression": {
-                                        "kind": 132,
-                                        "flags": 32,
-                                        "start": 18,
-                                        "end": 25
-                                    },
-                                    "flags": 32,
-                                    "start": 18,
-                                    "end": 25
-                                },
-                                "flags": 32,
+                                "kind": 134234350,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
                                 "start": 12,
-                                "end": 25
+                                "end": 14
                             },
                             "flags": 32,
                             "start": 7,
-                            "end": 25
+                            "end": 14
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 25
+                        "end": 14
+                    },
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "any",
+                            "rawText": "any",
+                            "flags": 96,
+                            "start": 14,
+                            "end": 17
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 16,
+                        "start": 14,
+                        "end": 17
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 25
+                "end": 17
             },
             "flags": 16,
             "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 17,
+                    "end": 17
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 18
+                },
+                "right": {
+                    "kind": 134234350,
+                    "text": "any",
+                    "rawText": "any",
+                    "flags": 96,
+                    "start": 18,
+                    "end": 19
+                },
+                "flags": 32,
+                "start": 17,
+                "end": 19
+            },
+            "flags": 16,
+            "start": 17,
+            "end": 19
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 134299649,
+                    "text": "any",
+                    "rawText": "any",
+                    "flags": 96,
+                    "start": 19,
+                    "end": 22
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 64,
+                    "start": 22,
+                    "end": 23
+                },
+                "right": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 24,
+                        "end": 24
+                    },
+                    "flags": 48,
+                    "start": 23,
+                    "end": 25
+                },
+                "flags": 32,
+                "start": 19,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 19,
             "end": 25
         }
     ],
@@ -112,7 +192,10 @@ var v = a => <any><any>{}
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 25, end: 25
+✖ ',' expected - start: 14, end: 17
+✖ ',' expected - start: 17, end: 18
+✖ Expected a `;` - start: 17, end: 18
+✖ Expected a `;` - start: 19, end: 22
 
 ```
 

@@ -65,20 +65,7 @@ do function while
                     "start": 11,
                     "end": 11
                 },
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 11,
-                        "end": 11
-                    },
-                    "flags": 32,
-                    "start": 11,
-                    "end": 11
-                },
+                "contents": null,
                 "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
@@ -110,7 +97,6 @@ do function while
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 11
 ✖ Binding identifier expected - start: 11, end: 17
-✖ Unexpected token. - start: 11, end: 17
 
 ```
 

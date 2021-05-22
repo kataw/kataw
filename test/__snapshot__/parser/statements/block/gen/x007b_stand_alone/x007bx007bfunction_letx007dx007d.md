@@ -60,20 +60,7 @@
                                                     "start": 16,
                                                     "end": 16
                                                 },
-                                                "contents": {
-                                                    "kind": 216,
-                                                    "functionStatementList": {
-                                                        "kind": 217,
-                                                        "directives": [],
-                                                        "statements": [],
-                                                        "flags": 32,
-                                                        "start": 16,
-                                                        "end": 16
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 16,
-                                                    "end": 16
-                                                },
+                                                "contents": null,
                                                 "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 16,
@@ -126,7 +113,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 16, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 18
 
 ```

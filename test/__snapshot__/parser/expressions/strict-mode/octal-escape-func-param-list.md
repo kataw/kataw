@@ -61,20 +61,7 @@ function foo(p\141ckage) { "use strict"; }
                 "start": 12,
                 "end": 15
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 32,
-                "start": 14,
-                "end": 14
-            },
+            "contents": null,
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -160,7 +147,6 @@ function foo(p\141ckage) { "use strict"; }
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 14
 ✖ ',' expected - start: 14, end: 15
 ✖ Expected a ')' to match the '(' token here - start: 14, end: 15
-✖ Unexpected token. - start: 14, end: 15
 ✖ Unexpected token. - start: 15, end: 18
 ✖ Expected a `;` - start: 18, end: 23
 ✖ Expected a `;` - start: 23, end: 24

@@ -150,7 +150,7 @@ a={123<T>(x: T): T {}}
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "start": 15,
+                                        "start": 6,
                                         "end": 18
                                     },
                                     "contents": {

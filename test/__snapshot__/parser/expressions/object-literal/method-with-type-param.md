@@ -150,7 +150,7 @@ a={id<T>(x: T): T {}}
                                             "end": 17
                                         },
                                         "flags": 0,
-                                        "start": 14,
+                                        "start": 5,
                                         "end": 17
                                     },
                                     "contents": {

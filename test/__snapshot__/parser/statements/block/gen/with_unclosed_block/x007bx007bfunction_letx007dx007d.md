@@ -136,20 +136,7 @@
                                                     "start": 32,
                                                     "end": 32
                                                 },
-                                                "contents": {
-                                                    "kind": 216,
-                                                    "functionStatementList": {
-                                                        "kind": 217,
-                                                        "directives": [],
-                                                        "statements": [],
-                                                        "flags": 32,
-                                                        "start": 32,
-                                                        "end": 32
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 32,
-                                                    "end": 32
-                                                },
+                                                "contents": null,
                                                 "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 16,
@@ -204,7 +191,6 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ Unexpected token. - start: 32, end: 33
 ✖ The parser expected to find a '}' to match the '{' token here - start: 34, end: 34
 
 ```

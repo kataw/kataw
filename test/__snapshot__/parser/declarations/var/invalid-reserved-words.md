@@ -148,20 +148,7 @@
                 "start": 58,
                 "end": 58
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 58,
-                    "end": 58
-                },
-                "flags": 32,
-                "start": 58,
-                "end": 58
-            },
+            "contents": null,
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -375,7 +362,6 @@
 ✖ Identifier expected. Reserved word in strict mode - start: 18, end: 29
 ✖ Expected a `;` - start: 49, end: 58
 ✖ Binding identifier expected - start: 58, end: 59
-✖ Unexpected token. - start: 58, end: 59
 ✖ Trailing comma not allowed. - start: 83, end: 89
 ✖ 'super' must be followed by an argument list or member access. - start: 89, end: 90
 ✖ Dot property must be an identifier - start: 89, end: 90

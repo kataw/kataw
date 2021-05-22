@@ -110,20 +110,7 @@ function call(foo= 5 + (await bar())){}
                 "start": 13,
                 "end": 34
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 33,
-                    "end": 33
-                },
-                "flags": 32,
-                "start": 33,
-                "end": 33
-            },
+            "contents": null,
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -179,7 +166,6 @@ function call(foo= 5 + (await bar())){}
 ✖ ',' expected - start: 29, end: 33
 ✖ ',' expected - start: 33, end: 34
 ✖ Expected a ')' to match the '(' token here - start: 33, end: 34
-✖ Unexpected token. - start: 33, end: 34
 ✖ Expression expected - start: 35, end: 36
 ✖ Declaration or statement expected - start: 36, end: 37
 

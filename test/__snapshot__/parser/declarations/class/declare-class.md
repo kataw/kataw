@@ -95,29 +95,10 @@ declare class A { static foo(): number; static x : string }
                                         "end": 38
                                     },
                                     "flags": 0,
-                                    "start": 30,
+                                    "start": 28,
                                     "end": 38
                                 },
-                                "contents": {
-                                    "kind": 264,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 38,
-                                            "end": 38
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 38,
-                                        "end": 38
-                                    },
-                                    "flags": 0,
-                                    "start": 38,
-                                    "end": 38
-                                },
+                                "contents": null,
                                 "flags": 0,
                                 "start": 28,
                                 "end": 38
@@ -196,12 +177,16 @@ declare class A { static foo(): number; static x : string }
 
 ```javascript
 
+declare class A {
+  static static foo();
+
+  static x;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ An implementation cannot be declared in ambient contexts - start: 38, end: 39
-
+✔ No errors
 ```
 

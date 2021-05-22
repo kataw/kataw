@@ -90,20 +90,7 @@
                             "start": 21,
                             "end": 21
                         },
-                        "contents": {
-                            "kind": 216,
-                            "functionStatementList": {
-                                "kind": 217,
-                                "directives": [],
-                                "statements": [],
-                                "flags": 32,
-                                "start": 21,
-                                "end": 21
-                            },
-                            "flags": 32,
-                            "start": 21,
-                            "end": 21
-                        },
+                        "contents": null,
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
@@ -183,7 +170,6 @@
 ```javascript
 ✖ Expected a `;` - start: 12, end: 21
 ✖ Binding identifier expected - start: 21, end: 27
-✖ Unexpected token. - start: 21, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
 ✖ Missing initializer in const declaration - start: 29, end: 29
 

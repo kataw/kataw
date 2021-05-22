@@ -61,38 +61,23 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "start": 22,
                 "end": 31
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 30,
-                    "end": 30
-                },
-                "flags": 32,
-                "start": 30,
-                "end": 30
-            },
+            "contents": null,
             "typeParameters": null,
-            "returnType": null,
-            "flags": 16,
-            "start": 0,
-            "end": 30
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "div",
-                "rawText": "\"div\"",
-                "flags": 96,
-                "start": 31,
+            "returnType": {
+                "kind": 139,
+                "type": {
+                    "kind": 134217967,
+                    "value": "div",
+                    "flags": 0,
+                    "start": 31,
+                    "end": 37
+                },
+                "flags": 0,
+                "start": 0,
                 "end": 37
             },
             "flags": 16,
-            "start": 31,
+            "start": 0,
             "end": 37
         },
         {
@@ -143,8 +128,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
 ```javascript
 ✖ ',' expected - start: 30, end: 31
 ✖ Expected a ')' to match the '(' token here - start: 30, end: 31
-✖ Unexpected token. - start: 30, end: 31
-✖ Expected a `;` - start: 37, end: 38
+✖ Declaration or statement expected - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 39
 ✖ Expected a `;` - start: 54, end: 56
 

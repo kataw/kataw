@@ -147,20 +147,7 @@
                             "start": 26,
                             "end": 35
                         },
-                        "contents": {
-                            "kind": 216,
-                            "functionStatementList": {
-                                "kind": 217,
-                                "directives": [],
-                                "statements": [],
-                                "flags": 32,
-                                "start": 35,
-                                "end": 35
-                            },
-                            "flags": 32,
-                            "start": 35,
-                            "end": 35
-                        },
+                        "contents": null,
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 272,
@@ -218,7 +205,6 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ `Yield` expression cannot be used in function parameters - start: 27, end: 32
 ✖ ',' expected - start: 32, end: 34
-✖ Unexpected token. - start: 35, end: 37
 ✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 39
 
 ```

@@ -65,84 +65,82 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "start": 24,
                 "end": 27
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 26,
-                    "end": 26
-                },
-                "flags": 32,
-                "start": 26,
-                "end": 26
-            },
+            "contents": null,
             "typeParameters": null,
-            "returnType": null,
+            "returnType": {
+                "kind": 139,
+                "type": {
+                    "kind": 134234345,
+                    "flags": 64,
+                    "start": 27,
+                    "end": 34
+                },
+                "flags": 0,
+                "start": 0,
+                "end": 34
+            },
             "flags": 16,
             "start": 0,
-            "end": 26
+            "end": 34
         },
         {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 134299649,
-                        "text": "number",
-                        "rawText": "number",
-                        "flags": 96,
-                        "start": 27,
-                        "end": 34
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "b",
-                        "rawText": "b",
-                        "flags": 96,
-                        "start": 35,
-                        "end": 37
-                    }
-                ],
-                "flags": 32,
-                "start": 27,
+            "kind": 163,
+            "label": {
+                "kind": 134299649,
+                "text": "b",
+                "rawText": "b",
+                "flags": 96,
+                "start": 35,
                 "end": 37
             },
-            "flags": 16,
-            "start": 27,
-            "end": 37
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 134299649,
-                        "text": "string",
-                        "rawText": "string",
-                        "flags": 96,
-                        "start": 38,
-                        "end": 45
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "c",
-                        "rawText": "c",
-                        "flags": 96,
-                        "start": 46,
-                        "end": 48
-                    }
-                ],
-                "flags": 32,
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "b",
+                    "iterationStatement": false,
+                    "flags": 16,
+                    "start": 35,
+                    "end": 37
+                }
+            ],
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 37,
+                "end": 38
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
+                            "start": 38,
+                            "end": 45
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "c",
+                            "rawText": "c",
+                            "flags": 96,
+                            "start": 46,
+                            "end": 48
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 38,
+                    "end": 48
+                },
+                "flags": 16,
                 "start": 38,
                 "end": 48
             },
             "flags": 16,
-            "start": 38,
+            "start": 35,
             "end": 48
         },
         {
@@ -395,8 +393,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 ```javascript
 ✖ ',' expected - start: 26, end: 27
 ✖ Expected a ')' to match the '(' token here - start: 26, end: 27
-✖ Unexpected token. - start: 26, end: 27
-✖ Expected a `;` - start: 37, end: 38
+✖ Declaration or statement expected - start: 34, end: 35
 ✖ Expected a `;` - start: 48, end: 49
 ✖ Expected a `;` - start: 57, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59

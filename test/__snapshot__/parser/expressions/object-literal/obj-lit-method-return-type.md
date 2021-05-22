@@ -82,59 +82,43 @@ x = { method(test: string): number { } };
                                         "start": 13,
                                         "end": 18
                                     },
-                                    "type": null,
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 17,
-                                            "end": 17
+                                    "type": {
+                                        "kind": 139,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 18,
+                                            "end": 25
                                         },
-                                        "flags": 32,
-                                        "start": 17,
-                                        "end": 17
+                                        "flags": 0,
+                                        "start": 12,
+                                        "end": 25
                                     },
+                                    "contents": null,
                                     "flags": 32,
                                     "start": 12,
-                                    "end": 17
+                                    "end": 25
                                 },
                                 "flags": 32,
                                 "start": 5,
-                                "end": 17
+                                "end": 25
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
                         "start": 5,
-                        "end": 17
+                        "end": 25
                     },
                     "flags": 48,
                     "start": 3,
-                    "end": 17
+                    "end": 25
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 17
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "string",
-                "rawText": "string",
-                "flags": 96,
-                "start": 18,
                 "end": 25
             },
             "flags": 16,
-            "start": 18,
+            "start": 0,
             "end": 25
         },
         {
@@ -191,9 +175,8 @@ x = { method(test: string): number { } };
 ```javascript
 ✖ ',' expected - start: 17, end: 18
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 18
-✖ Unexpected token. - start: 17, end: 18
-✖ ',' expected - start: 17, end: 18
-✖ Expected a `;` - start: 25, end: 26
+✖ ',' expected - start: 25, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 27
 ✖ Expected a `;` - start: 34, end: 36
 ✖ Declaration or statement expected - start: 38, end: 40

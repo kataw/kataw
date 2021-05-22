@@ -69,84 +69,82 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "start": 31,
                 "end": 34
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 33,
-                    "end": 33
-                },
-                "flags": 32,
-                "start": 33,
-                "end": 33
-            },
+            "contents": null,
             "typeParameters": null,
-            "returnType": null,
+            "returnType": {
+                "kind": 139,
+                "type": {
+                    "kind": 134234345,
+                    "flags": 64,
+                    "start": 34,
+                    "end": 41
+                },
+                "flags": 0,
+                "start": 0,
+                "end": 41
+            },
             "flags": 16,
             "start": 0,
-            "end": 33
+            "end": 41
         },
         {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 134299649,
-                        "text": "number",
-                        "rawText": "number",
-                        "flags": 96,
-                        "start": 34,
-                        "end": 41
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 42,
-                        "end": 44
-                    }
-                ],
-                "flags": 32,
-                "start": 34,
+            "kind": 163,
+            "label": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 42,
                 "end": 44
             },
-            "flags": 16,
-            "start": 34,
-            "end": 44
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 134299649,
-                        "text": "number",
-                        "rawText": "number",
-                        "flags": 96,
-                        "start": 45,
-                        "end": 52
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 96,
-                        "start": 53,
-                        "end": 55
-                    }
-                ],
-                "flags": 32,
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "y",
+                    "iterationStatement": false,
+                    "flags": 16,
+                    "start": 42,
+                    "end": 44
+                }
+            ],
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 44,
+                "end": 45
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 134299649,
+                            "text": "number",
+                            "rawText": "number",
+                            "flags": 96,
+                            "start": 45,
+                            "end": 52
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "z",
+                            "rawText": "z",
+                            "flags": 96,
+                            "start": 53,
+                            "end": 55
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 45,
+                    "end": 55
+                },
+                "flags": 16,
                 "start": 45,
                 "end": 55
             },
             "flags": 16,
-            "start": 45,
+            "start": 42,
             "end": 55
         },
         {
@@ -495,11 +493,65 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "end": 236
                         },
                         "expression": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 132,
+                            "kind": 198,
+                            "left": {
+                                "kind": 536871042,
+                                "member": {
+                                    "kind": 134234350,
+                                    "text": "return",
+                                    "rawText": "return",
+                                    "flags": 96,
+                                    "start": 236,
+                                    "end": 238
+                                },
+                                "expression": {
+                                    "kind": 132,
+                                    "expressions": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "any",
+                                            "rawText": "any",
+                                            "flags": 96,
+                                            "start": 239,
+                                            "end": 242
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "any",
+                                            "rawText": "any",
+                                            "flags": 96,
+                                            "start": 243,
+                                            "end": 247
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "any",
+                                            "rawText": "any",
+                                            "flags": 96,
+                                            "start": 248,
+                                            "end": 252
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 239,
+                                    "end": 252
+                                },
                                 "flags": 32,
                                 "start": 236,
+                                "end": 253
+                            },
+                            "operatorToken": {
+                                "kind": 34883,
+                                "flags": 64,
+                                "start": 253,
+                                "end": 254
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "result",
+                                "rawText": "result",
+                                "flags": 96,
+                                "start": 254,
                                 "end": 260
                             },
                             "flags": 32,
@@ -540,14 +592,12 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ```javascript
 ✖ ',' expected - start: 33, end: 34
 ✖ Expected a ')' to match the '(' token here - start: 33, end: 34
-✖ Unexpected token. - start: 33, end: 34
-✖ Expected a `;` - start: 44, end: 45
+✖ Declaration or statement expected - start: 41, end: 42
 ✖ Expected a `;` - start: 55, end: 56
 ✖ Expected a `;` - start: 63, end: 64
 ✖ Declaration or statement expected - start: 64, end: 65
 ✖ Expected a `;` - start: 90, end: 92
 ✖ A return statement can only be used within a function_body - start: 225, end: 236
-✖ Expected a ')' to match the '(' token here - start: 260, end: 261
 
 ```
 

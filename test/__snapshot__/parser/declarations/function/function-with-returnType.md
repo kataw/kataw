@@ -68,44 +68,28 @@ function foo():number{}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
-                    "start": 14,
-                    "end": 14
+                    "start": 22,
+                    "end": 22
                 },
                 "flags": 32,
-                "start": 14,
-                "end": 14
+                "start": 21,
+                "end": 23
             },
             "typeParameters": null,
-            "returnType": null,
-            "flags": 16,
-            "start": 0,
-            "end": 14
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "number",
-                "rawText": "number",
-                "flags": 96,
-                "start": 15,
+            "returnType": {
+                "kind": 139,
+                "type": {
+                    "kind": 134234345,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 21
+                },
+                "flags": 0,
+                "start": 0,
                 "end": 21
             },
             "flags": 16,
-            "start": 15,
-            "end": 21
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 22,
-                "end": 22
-            },
-            "flags": 16,
-            "start": 21,
+            "start": 0,
             "end": 23
         }
     ],
@@ -122,14 +106,12 @@ function foo():number{}
 
 ```javascript
 
+function foo() {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 14, end: 15
-✖ Declaration or statement expected - start: 14, end: 15
-✖ Expected a `;` - start: 21, end: 22
-
+✔ No errors
 ```
 

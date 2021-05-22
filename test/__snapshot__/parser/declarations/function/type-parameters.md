@@ -310,20 +310,7 @@ type T = <
                 "start": 113,
                 "end": 113
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 113,
-                    "end": 113
-                },
-                "flags": 32,
-                "start": 113,
-                "end": 113
-            },
+            "contents": null,
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -333,23 +320,37 @@ type T = <
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": null,
-                "typeParameters": {
-                    "kind": 146,
-                    "types": [],
-                    "flags": 0,
+                "kind": 198,
+                "left": {
+                    "kind": 134234350,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
                     "start": 113,
+                    "end": 114
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 64,
+                    "start": 114,
                     "end": 128
                 },
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 132,
+                "right": {
+                    "kind": 271,
+                    "arrowToken": null,
+                    "typeParameters": null,
+                    "parameters": [],
+                    "asyncKeyword": null,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 132,
+                        "end": 132
+                    },
+                    "flags": 32,
+                    "start": 128,
                     "end": 132
                 },
                 "flags": 32,
@@ -396,14 +397,34 @@ type T = <
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "arg",
-                                "rawText": "arg",
+                            "kind": 198,
+                            "left": {
+                                "kind": 134234350,
+                                "text": "Foo",
+                                "rawText": "Foo",
                                 "flags": 96,
-                                "start": 169,
-                                "end": 172
+                                "start": 150,
+                                "end": 154
+                            },
+                            "operatorToken": {
+                                "kind": 34883,
+                                "flags": 64,
+                                "start": 154,
+                                "end": 168
+                            },
+                            "right": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "arg",
+                                    "rawText": "arg",
+                                    "flags": 96,
+                                    "start": 169,
+                                    "end": 172
+                                },
+                                "flags": 32,
+                                "start": 168,
+                                "end": 173
                             },
                             "flags": 32,
                             "start": 150,
@@ -469,38 +490,52 @@ type T = <
                     "end": 192
                 },
                 "right": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 0,
-                        "start": 213,
-                        "end": 216
-                    },
-                    "typeParameters": {
-                        "kind": 146,
-                        "types": [],
-                        "flags": 0,
+                    "kind": 198,
+                    "left": {
+                        "kind": 134234350,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
                         "start": 192,
+                        "end": 194
+                    },
+                    "operatorToken": {
+                        "kind": 34883,
+                        "flags": 64,
+                        "start": 194,
                         "end": 208
                     },
-                    "parameters": [
-                        {
+                    "right": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 213,
+                            "end": 216
+                        },
+                        "typeParameters": null,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "arg",
+                                "rawText": "arg",
+                                "flags": 96,
+                                "start": 209,
+                                "end": 212
+                            }
+                        ],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
                             "kind": 134299649,
-                            "text": "arg",
-                            "rawText": "arg",
+                            "text": "any",
+                            "rawText": "any",
                             "flags": 96,
-                            "start": 209,
-                            "end": 212
-                        }
-                    ],
-                    "asyncKeyword": null,
-                    "returnType": null,
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "any",
-                        "rawText": "any",
-                        "flags": 96,
-                        "start": 216,
+                            "start": 216,
+                            "end": 220
+                        },
+                        "flags": 32,
+                        "start": 208,
                         "end": 220
                     },
                     "flags": 32,
@@ -750,20 +785,7 @@ type T = <
                 "start": 344,
                 "end": 344
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 344,
-                    "end": 344
-                },
-                "flags": 32,
-                "start": 344,
-                "end": 344
-            },
+            "contents": null,
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -773,23 +795,37 @@ type T = <
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": null,
-                "typeParameters": {
-                    "kind": 146,
-                    "types": [],
-                    "flags": 0,
+                "kind": 198,
+                "left": {
+                    "kind": 134234350,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
                     "start": 344,
+                    "end": 345
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 65,
+                    "start": 345,
                     "end": 362
                 },
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 366,
+                "right": {
+                    "kind": 271,
+                    "arrowToken": null,
+                    "typeParameters": null,
+                    "parameters": [],
+                    "asyncKeyword": null,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 366,
+                        "end": 366
+                    },
+                    "flags": 32,
+                    "start": 362,
                     "end": 366
                 },
                 "flags": 32,
@@ -836,21 +872,55 @@ type T = <
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "arg",
-                                "rawText": "arg",
-                                "flags": 96,
-                                "start": 408,
-                                "end": 411
-                            },
-                            "flags": 32,
+                            "kind": 134234350,
+                            "text": "Foo",
+                            "rawText": "Foo",
+                            "flags": 96,
                             "start": 384,
-                            "end": 412
+                            "end": 388
                         },
                         "flags": 16,
                         "start": 384,
+                        "end": 388
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 198,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
+                                "start": 388,
+                                "end": 393
+                            },
+                            "operatorToken": {
+                                "kind": 34883,
+                                "flags": 65,
+                                "start": 393,
+                                "end": 407
+                            },
+                            "right": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "arg",
+                                    "rawText": "arg",
+                                    "flags": 96,
+                                    "start": 408,
+                                    "end": 411
+                                },
+                                "flags": 32,
+                                "start": 407,
+                                "end": 412
+                            },
+                            "flags": 32,
+                            "start": 388,
+                            "end": 412
+                        },
+                        "flags": 16,
+                        "start": 388,
                         "end": 412
                     }
                 ],
@@ -909,38 +979,52 @@ type T = <
                     "end": 431
                 },
                 "right": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 0,
-                        "start": 455,
-                        "end": 458
-                    },
-                    "typeParameters": {
-                        "kind": 146,
-                        "types": [],
-                        "flags": 0,
+                    "kind": 198,
+                    "left": {
+                        "kind": 134234350,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
                         "start": 431,
+                        "end": 433
+                    },
+                    "operatorToken": {
+                        "kind": 34883,
+                        "flags": 65,
+                        "start": 433,
                         "end": 450
                     },
-                    "parameters": [
-                        {
+                    "right": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 455,
+                            "end": 458
+                        },
+                        "typeParameters": null,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "arg",
+                                "rawText": "arg",
+                                "flags": 96,
+                                "start": 451,
+                                "end": 454
+                            }
+                        ],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
                             "kind": 134299649,
-                            "text": "arg",
-                            "rawText": "arg",
+                            "text": "any",
+                            "rawText": "any",
                             "flags": 96,
-                            "start": 451,
-                            "end": 454
-                        }
-                    ],
-                    "asyncKeyword": null,
-                    "returnType": null,
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "any",
-                        "rawText": "any",
-                        "flags": 96,
-                        "start": 458,
+                            "start": 458,
+                            "end": 462
+                        },
+                        "flags": 32,
+                        "start": 450,
                         "end": 462
                     },
                     "flags": 32,
@@ -982,13 +1066,14 @@ type T = <
 ✖ Expression expected - start: 62, end: 64
 ✖ Expression expected - start: 82, end: 96
 ✖ Expression expected - start: 98, end: 99
-✖ Unexpected token. - start: 113, end: 114
+✖ Expected a `;` - start: 130, end: 132
 ✖ Expression expected - start: 132, end: 133
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
 ✖ Expected a `;` - start: 173, end: 174
 ✖ Declaration or statement expected - start: 179, end: 182
 ✖ Expected a `;` - start: 188, end: 190
+✖ Expected a `;` - start: 213, end: 216
 ✖ Expression expected - start: 259, end: 260
 ✖ Duplicate identifier - start: 267, end: 269
 ✖ Missing initializer in const declaration - start: 269, end: 270
@@ -998,13 +1083,14 @@ type T = <
 ✖ Expression expected - start: 290, end: 292
 ✖ Expression expected - start: 310, end: 327
 ✖ Expression expected - start: 329, end: 330
-✖ Unexpected token. - start: 344, end: 345
+✖ Expected a `;` - start: 364, end: 366
 ✖ Expression expected - start: 366, end: 367
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384
 ✖ Expected a `;` - start: 412, end: 413
 ✖ Declaration or statement expected - start: 418, end: 421
 ✖ Expected a `;` - start: 427, end: 429
+✖ Expected a `;` - start: 455, end: 458
 
 ```
 

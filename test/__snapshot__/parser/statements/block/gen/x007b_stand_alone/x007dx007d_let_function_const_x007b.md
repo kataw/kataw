@@ -71,20 +71,7 @@
                 "start": 17,
                 "end": 17
             },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 17,
-                    "end": 17
-                },
-                "flags": 32,
-                "start": 17,
-                "end": 17
-            },
+            "contents": null,
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -156,7 +143,6 @@
 ✖ Declaration or statement expected - start: 3, end: 4
 ✖ Expected a `;` - start: 8, end: 17
 ✖ Binding identifier expected - start: 17, end: 23
-✖ Unexpected token. - start: 17, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
 ✖ Missing initializer in const declaration - start: 25, end: 25
 

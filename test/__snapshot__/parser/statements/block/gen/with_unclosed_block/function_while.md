@@ -125,20 +125,7 @@
                             "start": 26,
                             "end": 26
                         },
-                        "contents": {
-                            "kind": 216,
-                            "functionStatementList": {
-                                "kind": 217,
-                                "directives": [],
-                                "statements": [],
-                                "flags": 32,
-                                "start": 26,
-                                "end": 26
-                            },
-                            "flags": 32,
-                            "start": 26,
-                            "end": 26
-                        },
+                        "contents": null,
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
@@ -208,7 +195,6 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Binding identifier expected - start: 26, end: 32
-✖ Unexpected token. - start: 26, end: 32
 
 ```
 

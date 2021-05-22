@@ -18,7 +18,7 @@ function a<string>(x: string): string {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -140,7 +140,7 @@ function a<string>(x: string): string {
                     "end": 37
                 },
                 "flags": 0,
-                "start": 29,
+                "start": 0,
                 "end": 37
             },
             "flags": 16,

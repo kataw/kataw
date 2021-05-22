@@ -40,82 +40,132 @@ var asserted1 = <any>((n) => { return n; });
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 0,
-                                    "start": 25,
-                                    "end": 28
-                                },
-                                "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "n",
-                                        "rawText": "n",
-                                        "flags": 96,
-                                        "start": 23,
-                                        "end": 24
-                                    }
-                                ],
-                                "asyncKeyword": null,
-                                "returnType": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [
-                                            {
-                                                "kind": 161,
-                                                "returnKeyword": {
-                                                    "kind": 37757022,
-                                                    "flags": 0,
-                                                    "start": 30,
-                                                    "end": 37
-                                                },
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "n",
-                                                    "rawText": "n",
-                                                    "flags": 96,
-                                                    "start": 37,
-                                                    "end": 39
-                                                },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 30
-                                            }
-                                        ],
-                                        "flags": 32,
-                                        "start": 30,
-                                        "end": 40
-                                    },
-                                    "flags": 32,
-                                    "start": 28,
-                                    "end": 42
-                                },
-                                "flags": 32,
-                                "start": 22,
-                                "end": 42
-                            },
-                            "flags": 32,
+                            "kind": 134234350,
+                            "text": "asserted1",
+                            "rawText": "asserted1",
+                            "flags": 96,
                             "start": 15,
-                            "end": 43
+                            "end": 17
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 43
+                        "end": 17
+                    },
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "any",
+                            "rawText": "any",
+                            "flags": 96,
+                            "start": 17,
+                            "end": 20
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 16,
+                        "start": 17,
+                        "end": 20
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 43
+                "end": 20
             },
             "flags": 16,
             "start": 0,
+            "end": 20
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 20,
+                    "end": 20
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 64,
+                    "start": 20,
+                    "end": 21
+                },
+                "right": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 25,
+                            "end": 28
+                        },
+                        "typeParameters": null,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "n",
+                                "rawText": "n",
+                                "flags": 96,
+                                "start": 23,
+                                "end": 24
+                            }
+                        ],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [
+                                    {
+                                        "kind": 161,
+                                        "returnKeyword": {
+                                            "kind": 37757022,
+                                            "flags": 0,
+                                            "start": 30,
+                                            "end": 37
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "n",
+                                            "rawText": "n",
+                                            "flags": 96,
+                                            "start": 37,
+                                            "end": 39
+                                        },
+                                        "flags": 16,
+                                        "start": 0,
+                                        "end": 30
+                                    }
+                                ],
+                                "flags": 32,
+                                "start": 30,
+                                "end": 40
+                            },
+                            "flags": 32,
+                            "start": 28,
+                            "end": 42
+                        },
+                        "flags": 32,
+                        "start": 22,
+                        "end": 42
+                    },
+                    "flags": 32,
+                    "start": 21,
+                    "end": 43
+                },
+                "flags": 32,
+                "start": 20,
+                "end": 43
+            },
+            "flags": 16,
+            "start": 20,
             "end": 44
         }
     ],
@@ -132,14 +182,14 @@ var asserted1 = <any>((n) => { return n; });
 
 ```javascript
 
-var asserted1 = ((n) =>  {
-    return  n;
-  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 17, end: 20
+✖ ',' expected - start: 20, end: 21
+✖ Expected a `;` - start: 20, end: 21
+
 ```
 
