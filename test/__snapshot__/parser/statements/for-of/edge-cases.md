@@ -6,13 +6,10 @@
 
 for (async.x of y);
 
-for (\u0061sync of x);
-
 for (async of => {};;);
 
 for ((async) of x);
 
-//for (async of => {} of x);
 `````
 
 ## Output
@@ -80,61 +77,20 @@ for ((async) of x);
             "end": 20
         },
         {
-            "kind": 167,
+            "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 20,
                 "end": 25
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 37,
-                "end": 40
-            },
-            "initializer": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "start": 27,
-                "end": 37
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 40,
-                "end": 42
-            },
-            "statement": {
-                "kind": 168,
-                "flags": 16,
-                "start": 43,
-                "end": 44
-            },
-            "awaitKeyword": null,
-            "flags": 16,
-            "start": 20,
-            "end": 44
-        },
-        {
-            "kind": 165,
-            "forKeyword": {
-                "kind": 37757017,
-                "flags": 1,
-                "start": 44,
-                "end": 49
-            },
             "initializer": {
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
                     "flags": 0,
-                    "start": 59,
-                    "end": 62
+                    "start": 35,
+                    "end": 38
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -142,14 +98,14 @@ for ((async) of x);
                     "text": "of",
                     "rawText": "of",
                     "flags": 96,
-                    "start": 56,
-                    "end": 59
+                    "start": 32,
+                    "end": 35
                 },
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
-                    "start": 51,
-                    "end": 56
+                    "start": 27,
+                    "end": 32
                 },
                 "returnType": null,
                 "contents": {
@@ -159,42 +115,42 @@ for ((async) of x);
                         "directives": [],
                         "statements": [],
                         "flags": 32,
-                        "start": 64,
-                        "end": 64
+                        "start": 40,
+                        "end": 40
                     },
                     "flags": 32,
-                    "start": 62,
-                    "end": 65
+                    "start": 38,
+                    "end": 41
                 },
                 "flags": 288,
-                "start": 51,
-                "end": 65
+                "start": 27,
+                "end": 41
             },
             "condition": null,
             "incrementor": null,
             "statement": {
                 "kind": 168,
                 "flags": 16,
-                "start": 68,
-                "end": 69
+                "start": 44,
+                "end": 45
             },
             "flags": 16,
-            "start": 44,
-            "end": 69
+            "start": 20,
+            "end": 45
         },
         {
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
-                "start": 69,
-                "end": 74
+                "start": 45,
+                "end": 50
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
-                "start": 83,
-                "end": 86
+                "start": 59,
+                "end": 62
             },
             "initializer": {
                 "kind": 121,
@@ -203,39 +159,39 @@ for ((async) of x);
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
-                    "start": 77,
-                    "end": 82
+                    "start": 53,
+                    "end": 58
                 },
                 "flags": 32,
-                "start": 76,
-                "end": 83
+                "start": 52,
+                "end": 59
             },
             "expression": {
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
-                "start": 86,
-                "end": 88
+                "start": 62,
+                "end": 64
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
-                "start": 89,
-                "end": 90
+                "start": 65,
+                "end": 66
             },
             "awaitKeyword": null,
             "flags": 16,
-            "start": 69,
-            "end": 90
+            "start": 45,
+            "end": 66
         }
     ],
     "isModule": false,
-    "source": "\nfor (async.x of y);\n\nfor (\\u0061sync of x);\n\nfor (async of => {};;);\n\nfor ((async) of x);\n\n//for (async of => {} of x);",
+    "source": "\nfor (async.x of y);\n\nfor (async of => {};;);\n\nfor ((async) of x);\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 120
+    "end": 67
 }
 ```
 
@@ -244,7 +200,6 @@ for ((async) of x);
 ```javascript
 
 for (async.x of y);
-for (async of x);
 for (; ; );
 for ((async) of x);
 ```

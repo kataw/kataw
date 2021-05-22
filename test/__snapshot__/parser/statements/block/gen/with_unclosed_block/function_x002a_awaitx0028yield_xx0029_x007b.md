@@ -237,7 +237,7 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ 'yield' cannot be used as an identifier here - start: 35, end: 40
+✖ `Yield` expression cannot be used in function parameters - start: 35, end: 40
 ✖ ',' expected - start: 40, end: 42
 ✖ Unexpected token. - start: 43, end: 45
 ✖ The parser expected to find a '}' to match the '{' token here - start: 47, end: 47

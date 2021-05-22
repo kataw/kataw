@@ -14,7 +14,7 @@ foo: function x() {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

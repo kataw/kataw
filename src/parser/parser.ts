@@ -1200,6 +1200,7 @@ function parseForStatement(
 
       initializer = parseMemberExpression(parser, context, initializer, true, pos);
     } else {
+      if (awaitKeyword) context |= Context.InForOfAwait
       initializer = parseLeftHandSideExpression(parser, context | Context.DisallowIn, LeftHandSide.None);
     }
   }
@@ -1398,7 +1399,7 @@ function parseBindingIdentifier(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          context & Context.InFormalParameter
+          context & Context.Parameters
             ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
             : context & Context.Strict
             ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
@@ -1412,7 +1413,7 @@ function parseBindingIdentifier(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          context & Context.InFormalParameter
+          context & Context.Parameters
             ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
             : context & Context.Module
             ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
@@ -1481,7 +1482,7 @@ function parseIdentifier(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          context & Context.InFormalParameter
+          context & Context.Parameters
             ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
             : context & Context.Strict
             ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
@@ -1497,7 +1498,7 @@ function parseIdentifier(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          context & Context.InFormalParameter
+          context & Context.Parameters
             ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
             : context & Context.Module
             ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
@@ -2290,7 +2291,7 @@ function parseIdentifierReference(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[
-            context & Context.InFormalParameter
+            context & Context.Parameters
               ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
               : context & Context.Strict
               ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
@@ -2306,7 +2307,7 @@ function parseIdentifierReference(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[
-            context & Context.InFormalParameter
+            context & Context.Parameters
               ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
               : context & Context.Module
               ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
@@ -3068,7 +3069,7 @@ function parsMethodParameters(
         }
       }
 
-      const parameter = parseFormalParameter(parser, context | Context.InFormalParameter, scope);
+      const parameter = parseFormalParameter(parser, context | Context.Parameters, scope);
 
       nodeFlags |= parameter.flags;
 
@@ -4226,7 +4227,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     }
   } else if (parser.token & SyntaxKind.IsEllipsis) {
     state = Tristate.True;
-    expression = parseFormalParameter(parser, context | Context.InFormalParameter, scope);
+    expression = parseFormalParameter(parser, context | Context.Parameters, scope);
     // If we have something like "(32" then this is definitely not an arrow function
   } else {
     state = Tristate.False;
@@ -4532,7 +4533,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           }
         } else if (parser.token & SyntaxKind.IsEllipsis) {
           state = Tristate.True;
-          expression = parseFormalParameter(parser, context | Context.InFormalParameter, scope);
+          expression = parseFormalParameter(parser, context | Context.Parameters, scope);
         } else {
           state = Tristate.False;
           destructible |= DestructibleKind.NotDestructible;
@@ -4964,6 +4965,11 @@ function parseBindingProperty(
   );
 }
 
+function isArrowAfterTheCurrentToken(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return parser.token !== SyntaxKind.Arrow;
+}
+
 function parseFunctionExpression(
   parser: ParserState,
   context: Context,
@@ -4980,18 +4986,19 @@ function parseFunctionExpression(
       if ((flags & NodeFlags.NewLine) === 0) {
         // `async` [no LineTerminator here] AsyncArrowBindingIdentifier [no LineTerminator here] => AsyncConciseBody
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-          if (
-            parser.token & SyntaxKind.IsInOrOf &&
-            speculate(
-              parser,
-              context,
-              function () {
-                nextToken(parser, context);
-                return parser.token !== SyntaxKind.Arrow;
-              },
-              true
-            )
-          ) {
+          // "for (async of" is only an arrow function if the next token is "=>"
+          if (parser.token & SyntaxKind.IsInOrOf && speculate(parser, context, isArrowAfterTheCurrentToken, true)) {
+            // Do not allow "for (async of []) ;" but do allow "for await (async of []) ;"
+            if ((context & Context.InForOfAwait) === 0 && parser.token & SyntaxKind.IsInOrOf) {
+              parser.onError(
+                DiagnosticSource.Parser,
+                DiagnosticKind.Error,
+                diagnosticMap[DiagnosticCode.The_left_hand_side_of_a_for_of_loop_cannot_contain_an_async_identifier],
+                parser.curPos,
+                parser.pos
+              );
+            }
+            // Plain 'async' identifier
             parser.assignable = true;
             return createIdentifier('async', 'async', pos, parser.curPos);
           }
@@ -5144,7 +5151,7 @@ function parseFunctionExpression(
   scope = createParentScope(scope, ScopeKind.FunctionParams);
   const formalParameterList = parseFormalParameterList(
     parser,
-    context | Context.Parameters | Context.InFormalParameter,
+    context | Context.Parameters | Context.Parameters,
     scope
   );
   const returnType = parseTypeAnnotation(parser, context);

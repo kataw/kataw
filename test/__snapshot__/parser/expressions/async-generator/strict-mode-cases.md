@@ -1763,8 +1763,8 @@ function * x() { "use strict";  yield: 34; }
 ✖ Identifier expected. Reserved word in strict mode - start: 161, end: 167
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 161, end: 167
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 220, end: 226
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 284, end: 289
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 349, end: 355
+✖ `Yield` expression cannot be used in function parameters - start: 284, end: 289
+✖ `Yield` expression cannot be used in function parameters - start: 349, end: 355
 ✖ Identifier expected. Reserved word in strict mode - start: 408, end: 414
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 408, end: 414
 ✖ Cannot use 'yield' as a name on a generator function expression - start: 469, end: 475

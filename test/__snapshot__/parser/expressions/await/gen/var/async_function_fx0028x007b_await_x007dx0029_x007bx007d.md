@@ -257,7 +257,7 @@ var await; var f = (async function() { async function f({ await }) {} });
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 57, end: 63
+✖ `Await` expression cannot be used in function parameters - start: 57, end: 63
 
 ```
 

@@ -112,7 +112,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 27, end: 32
+✖ `Yield` expression cannot be used in function parameters - start: 27, end: 32
 ✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 35
 
 ```

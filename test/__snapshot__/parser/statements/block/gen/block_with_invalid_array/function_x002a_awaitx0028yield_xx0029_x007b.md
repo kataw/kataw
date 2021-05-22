@@ -216,7 +216,7 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
-✖ 'yield' cannot be used as an identifier here - start: 27, end: 32
+✖ `Yield` expression cannot be used in function parameters - start: 27, end: 32
 ✖ ',' expected - start: 32, end: 34
 ✖ Unexpected token. - start: 35, end: 37
 ✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 39

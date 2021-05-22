@@ -190,6 +190,7 @@
   "Duplicate identifier": 192,
   "Duplicate formal parameter": 193,
   "Duplicate arrow formal parameter": 194,
-  "An implementation cannot be declared in ambient contexts": 195
+  "An implementation cannot be declared in ambient contexts": 195,
+  "The left-hand side of a for...of loop cannot contain an 'async' identifier": 196
 }
 

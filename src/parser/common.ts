@@ -14,7 +14,6 @@ export const enum Context {
   AllowReturn = 1 << 8,
   InGeneratorContext = 1 << 9,
   InAwaitContext = 1 << 10,
-
   InSwitch = 1 << 11,
   InIteration = 1 << 12,
   NewTarget = 1 << 13,
@@ -29,7 +28,7 @@ export const enum Context {
   InClassBody = 1 << 24,
   AllowImportMeta = 1 << 25,
   LexicalContext = 1 << 26,
-  InFormalParameter = 1 << 27,
+  InForOfAwait = 1 << 27,
   InStaticBlock = 1 << 28,
   InBlock = 1 << 29,
   TopLevel = 1 << 30

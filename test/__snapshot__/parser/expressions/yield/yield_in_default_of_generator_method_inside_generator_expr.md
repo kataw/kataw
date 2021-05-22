@@ -206,14 +206,12 @@
 
 ```javascript
 
-(function * f() {
-    ({ * g(x =  ) {} });
-  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `Yield` expression cannot be used in function parameters - start: 24, end: 30
+
 ```
 

@@ -140,7 +140,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 32, end: 38
+✖ `Await` expression cannot be used in function parameters - start: 32, end: 38
 
 ```
 
