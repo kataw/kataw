@@ -196,12 +196,14 @@ function* foo(a = {*bar() { yield b }}) {}
 
 ```javascript
 
+function * foo(a = { * bar() {
+     b;
+  } }) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 27, end: 35
-
+✔ No errors
 ```
 

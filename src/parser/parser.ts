@@ -1200,7 +1200,7 @@ function parseForStatement(
 
       initializer = parseMemberExpression(parser, context, initializer, true, pos);
     } else {
-      if (awaitKeyword) context |= Context.InForOfAwait
+      if (awaitKeyword) context |= Context.InForOfAwait;
       initializer = parseLeftHandSideExpression(parser, context | Context.DisallowIn, LeftHandSide.None);
     }
   }
@@ -5433,7 +5433,8 @@ function parseFunctionBody(
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace) || ignoreMissingOpenBrace) {
     const statementList = parseFunctionStatementList(
       parser,
-      (context | Context.InSwitch | Context.InIteration) ^ (Context.InSwitch | Context.InIteration),
+      (context | Context.InSwitch | Context.InIteration | Context.Parameters) ^
+        (Context.InSwitch | Context.InIteration | Context.Parameters),
       scope,
       isSimpleParameterList,
       firstRestricted
