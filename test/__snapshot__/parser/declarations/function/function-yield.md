@@ -240,15 +240,12 @@ function *foo() {
 
 ```javascript
 
-function * foo() {
-  const x = ();
-  x ?  1 : x;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected '=>' - start: 44, end: 45
+
 ```
 

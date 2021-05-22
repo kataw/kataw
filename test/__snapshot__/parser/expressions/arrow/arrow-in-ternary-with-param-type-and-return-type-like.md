@@ -145,12 +145,12 @@ test
 
 ```javascript
 
-test ? () : U =>  y;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected '=>' - start: 15, end: 16
+
 ```
 

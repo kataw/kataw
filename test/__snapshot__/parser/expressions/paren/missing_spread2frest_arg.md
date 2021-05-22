@@ -69,6 +69,7 @@
 
 ```javascript
 ✖ Expression expected - start: 4, end: 5
+✖ Expected '=>' - start: 5, end: 6
 
 ```
 

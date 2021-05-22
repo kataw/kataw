@@ -64,12 +64,12 @@
 
 ```javascript
 
-();
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected '=>' - start: 6, end: 7
+
 ```
 

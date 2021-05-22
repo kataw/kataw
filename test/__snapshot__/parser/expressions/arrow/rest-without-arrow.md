@@ -84,12 +84,12 @@
 
 ```javascript
 
-() + 1;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected '=>' - start: 6, end: 8
+
 ```
 

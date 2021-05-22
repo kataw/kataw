@@ -1057,8 +1057,11 @@ x = (a,b)+c=>{};
 ### Diagnostics
 
 ```javascript
+✖ Expected '=>' - start: 6, end: 22
 ✖ Expected a `;` - start: 25, end: 27
+✖ Expected '=>' - start: 36, end: 37
 ✖ Expected a `;` - start: 44, end: 46
+✖ Expected '=>' - start: 60, end: 61
 ✖ Expected a `;` - start: 63, end: 65
 ✖ Expected '=>' - start: 77, end: 93
 ✖ Expected a `;` - start: 96, end: 98

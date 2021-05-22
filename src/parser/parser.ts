@@ -4085,7 +4085,8 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         parser.curPos
       );
     } else {
-      state = Tristate.Unknown;
+      if (!state) state = Tristate.Unknown;
+
       // If we have "(a," or "(a=" or "(a" this *could* be an arrow function
       if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
         if (!parser.assignable) {
@@ -4322,6 +4323,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         );
       }
     }
+
     if (destructible & DestructibleKind.MustDestruct) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -4331,6 +4333,16 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             ? DiagnosticCode.Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring
             : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
         ],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    if (state === Tristate.True) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Expected],
         parser.curPos,
         parser.pos
       );
@@ -4667,6 +4679,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       parser.pos
     );
   }
+
   expression = createCommaOperator(expressions, curPos, parser.curPos);
 
   if (destructible & DestructibleKind.MustDestruct) {
