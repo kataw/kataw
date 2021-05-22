@@ -46,7 +46,10 @@ The `source` argument for each diagnostics is either `1` for lexer or  `2` for p
 
 Each error position is from the start of the problem to the end of the problem. The location *never* point to one specific token.
 
-This is a design choice, and makes it possible to add a red, thick line to highlight the issue in an editor.
+For example this case `(true)e=x`. *All* ECMAScript parses indicates the position to be `1, 6`.
+
+In `Kataw` the error position is `6, 7` where the start position is the end of the `)` token. The end position is the end of `e`.
+This makes it possible to put a thick, red line under `)e` to highlight the issue in an editor.
 
 
 ### Public API methods to extract info from CST nodes
