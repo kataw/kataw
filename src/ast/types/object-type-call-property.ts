@@ -1,10 +1,10 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
-import { TypeParameterList } from './type-parameter-list';
+import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeNode } from './';
 
 export interface ObjectTypeCallProperty extends SyntaxNode {
-  readonly typeParameter: TypeParameterList | null;
+  readonly typeParameter: TypeParameterDeclaration | null;
   readonly kind: SyntaxKind.ObjectTypeCallProperty;
   readonly value: any;
   readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -12,7 +12,7 @@ export interface ObjectTypeCallProperty extends SyntaxNode {
 }
 
 export function createObjectTypeCallProperty(
-  typeParameter: TypeParameterList | null,
+  typeParameter: TypeParameterDeclaration | null,
   value: any,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   returnType: TypeNode,

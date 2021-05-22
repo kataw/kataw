@@ -3,7 +3,7 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
 import { FunctionBody } from '../expressions/function-body';
 import { FormalParameterList } from '../expressions/formal-parameter-list';
-import { TypeParameterList } from '../types/type-parameter-list';
+import { TypeParameterDeclaration } from '../types/type-parameter-declaration';
 import { TypeNode } from '../types';
 
 /**
@@ -17,7 +17,7 @@ export interface FunctionDeclaration extends SyntaxNode {
   readonly name: Identifier | null;
   readonly formalParameters: FormalParameterList;
   readonly contents: FunctionBody | null;
-  readonly typeParameters: TypeParameterList | null;
+  readonly typeParameters: TypeParameterDeclaration | null;
   readonly returnType: TypeNode | null;
 }
 
@@ -29,7 +29,7 @@ export function createFunctionDeclaration(
   name: Identifier | null,
   formalParameters: FormalParameterList,
   contents: FunctionBody | null,
-  typeParameters: TypeParameterList | null,
+  typeParameters: TypeParameterDeclaration | null,
   returnType: TypeNode | null,
   flags: NodeFlags,
   start: number,

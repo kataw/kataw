@@ -2,7 +2,7 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { FunctionBody } from './function-body';
 import { FormalParameterList } from './formal-parameter-list';
 import { TypeNode } from '../types';
-import { TypeParameterList } from '../types/type-parameter-list';
+import { TypeParameterDeclaration } from '../types/type-parameter-declaration';
 import { ComputedPropertyName } from './computed-property-name';
 import { Identifier } from './identifier-expr';
 import { StringLiteral } from './string-literal';
@@ -26,13 +26,13 @@ export interface MethodDefinition extends SyntaxNode {
   readonly formalParameters: FormalParameterList | null;
   readonly name: MethodName;
   readonly contents: FunctionBody | null;
-  readonly typeParameters: TypeParameterList | null;
+  readonly typeParameters: TypeParameterDeclaration | null;
   readonly type: TypeNode | null;
 }
 
 export function createMethodDefinition(
   name: MethodName,
-  typeParameters: TypeParameterList | null,
+  typeParameters: TypeParameterDeclaration | null,
   formalParameters: FormalParameterList | null,
   type: TypeNode | null,
   contents: FunctionBody | null,

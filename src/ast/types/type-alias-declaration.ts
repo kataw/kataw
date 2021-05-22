@@ -2,7 +2,7 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
 import { TypeNode } from '.';
-import { TypeParameterList } from './type-parameter-list';
+import { TypeParameterDeclaration } from './type-parameter-declaration';
 
 export interface TypeAlias extends SyntaxNode {
   readonly declareToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -10,7 +10,7 @@ export interface TypeAlias extends SyntaxNode {
   readonly typeToken: SyntaxToken<TokenSyntaxKind>;
   readonly name: Identifier;
   readonly opaqueType: TypeNode | null;
-  readonly typeParameters: TypeParameterList | null;
+  readonly typeParameters: TypeParameterDeclaration | null;
   readonly type: TypeNode;
 }
 
@@ -20,7 +20,7 @@ export function createTypeAlias(
   typeToken: SyntaxToken<TokenSyntaxKind>,
   name: Identifier,
   opaqueType: TypeNode | null,
-  typeParameters: TypeParameterList | null,
+  typeParameters: TypeParameterDeclaration | null,
   type: TypeNode,
   flags: NodeFlags,
   start: number,

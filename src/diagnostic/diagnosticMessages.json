@@ -191,6 +191,7 @@
   "Duplicate arrow formal parameter": 193,
   "An implementation cannot be declared in ambient contexts": 194,
   "The left-hand side of a for...of loop cannot contain an 'async' identifier": 195,
-  "Expected '=>'": 196
+  "Expected '=>'": 196,
+  "The type parameter must have an 'default'": 197
 }
 

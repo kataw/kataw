@@ -20,7 +20,7 @@ import { TypeAlias } from './type-alias-declaration';
 import { TypeofType } from './typeof-type';
 import { FunctionTypeParameterList } from './function-type-parameter-list';
 import { BooleanType } from './boolean-type';
-import { TypeParameterList } from './type-parameter-list';
+import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeParameter } from './type-parameter';
 
 /**
@@ -30,7 +30,7 @@ export type TypeNode =
   | TypeofType
   | GenericType
   | NullableType
-  | TypeParameterList
+  | TypeParameterDeclaration
   | TypeParameter
   | ObjectTypeCallProperty
   | ObjectTypeIndexer

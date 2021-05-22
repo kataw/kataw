@@ -2,7 +2,7 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from './identifier-expr';
 import { ClassTail } from './class-tail';
-import { TypeParameterList } from '../types/type-parameter-list';
+import { TypeParameterDeclaration } from '../types/type-parameter-declaration';
 import { DecoratorList } from './decorator-list';
 
 /**
@@ -13,7 +13,7 @@ export interface ClassExpression extends SyntaxNode {
   readonly classKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly decorators: DecoratorList | null;
   readonly name: Identifier | null;
-  readonly typeParameters: TypeParameterList | null;
+  readonly typeParameters: TypeParameterDeclaration | null;
   readonly tail: ClassTail;
 }
 
@@ -21,7 +21,7 @@ export function createClassExpression(
   decorators: DecoratorList | null,
   classKeyword: SyntaxToken<TokenSyntaxKind>,
   name: Identifier | null,
-  typeParameters: TypeParameterList | null,
+  typeParameters: TypeParameterDeclaration | null,
   tail: ClassTail,
   start: number,
   end: number

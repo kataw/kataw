@@ -363,7 +363,7 @@ export const enum SyntaxKind {
   ClassBody = 262,
   StaticBlock = 263,
   FunctionAnnotation = 264,
-  TypeParameterList = 265
+  TypeParameterDeclaration = 265
 }
 
 export function tokenToString(node: any): string {

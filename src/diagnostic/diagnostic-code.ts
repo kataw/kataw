@@ -194,7 +194,8 @@ export const enum DiagnosticCode {
   Duplicate_arrow_formal_parameter = 193,
   An_implementation_cannot_be_declared_in_ambient_contexts = 194,
   The_left_hand_side_of_a_for_of_loop_cannot_contain_an_async_identifier = 195,
-  Expected = 196
+  Expected = 196,
+  The_type_parameter_must_have_an_default = 197
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -394,5 +395,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [193]: 'Duplicate arrow formal parameter',
   [194]: 'An implementation cannot be declared in ambient contexts',
   [195]: "The left-hand side of a for...of loop cannot contain an 'async' identifier",
-  [196]: "Expected '=>'"
+  [196]: "Expected '=>'",
+  [197]: "The type parameter must have an 'default'"
 };
