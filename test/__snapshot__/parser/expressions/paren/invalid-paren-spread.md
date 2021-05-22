@@ -690,14 +690,18 @@
 ```javascript
 ✖ A rest parameter must be last in a parameter list - start: 7, end: 8
 ✖ A rest parameter must be last in a parameter list - start: 7, end: 8
+✖ Expected '=>' - start: 9, end: 10
 ✖ A rest element cannot have an initializer - start: 17, end: 18
 ✖ A rest parameter must be last in a parameter list - start: 30, end: 31
 ✖ A rest parameter must be last in a parameter list - start: 30, end: 31
+✖ Expected '=>' - start: 32, end: 33
 ✖ A rest element cannot have an initializer - start: 42, end: 43
 ✖ Expression expected - start: 42, end: 43
+✖ Expected '=>' - start: 44, end: 45
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
 ✖ Expected a ')' to match the '(' token here - start: 54, end: 55
+✖ Expected '=>' - start: 54, end: 55
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 54, end: 55
 ✖ Expression expected - start: 55, end: 56
 ✖ A rest parameter must be last in a parameter list - start: 65, end: 66
@@ -724,6 +728,7 @@
 ✖ A rest element cannot have an initializer - start: 104, end: 105
 ✖ A rest parameter must be last in a parameter list - start: 117, end: 118
 ✖ A rest parameter must be last in a parameter list - start: 117, end: 118
+✖ Expected '=>' - start: 119, end: 120
 ✖ Expression expected - start: 125, end: 126
 
 ```

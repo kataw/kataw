@@ -64,7 +64,7 @@ class x { "construct\u{6f}r"(){} }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 29,
                                     "end": 30
                                 },
@@ -83,11 +83,11 @@ class x { "construct\u{6f}r"(){} }
                                     "start": 30,
                                     "end": 32
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 28,
                                 "end": 32
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 9,
                             "end": 32
                         }

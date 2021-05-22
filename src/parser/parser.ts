@@ -2852,6 +2852,9 @@ function parsePropertyDefinition(
     }
   } else {
     key = parsePropertyName(parser, context);
+    if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
+      nodeFlags |= NodeFlags.PrototypeField;
+    }
   }
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
@@ -4660,6 +4663,15 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     }
   }
 
+  if (state === Tristate.True) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Expected],
+      parser.curPos,
+      parser.pos
+    );
+  }
   expression = createCommaOperator(expressions, curPos, parser.curPos);
 
   if (destructible & DestructibleKind.MustDestruct) {
@@ -6998,7 +7010,7 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
         }
       } else if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         callProperties.push(parseObjectTypeCallProperty(parser, context, staticKeyword, innerPos));
-      } else if (parser.token === SyntaxKind.Ellipsis) {
+      } else if (parser.token & SyntaxKind.IsEllipsis) {
         properties.push(parseObjectTypeSpreadProperty(parser, context, staticKeyword, innerPos));
       } else {
         properties.push(parseObjectTypeProperty(parser, context, staticKeyword, innerPos));
@@ -7894,6 +7906,15 @@ export function parseClassElement(
   generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   const key = parsePropertyName(parser, inheritedContext);
+  if (parser.tokenValue === 'constructor') {
+    if (
+      parser.token & SyntaxKind.IsLessThanOrLeftParen &&
+      !staticKeyword &&
+      (context & Context.SuperCall) !== Context.SuperCall
+    ) {
+      nodeFlags |= NodeFlags.Constructor;
+    }
+  }
 
   if (generatorToken) nodeFlags | NodeFlags.Generator;
 

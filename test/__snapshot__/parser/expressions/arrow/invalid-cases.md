@@ -10813,9 +10813,11 @@ a++ => {};
 ✖ Expected a `;` - start: 3320, end: 3323
 ✖ A rest element cannot have an initializer - start: 3335, end: 3337
 ✖ Expected a ')' to match the '(' token here - start: 3354, end: 3356
+✖ Expected '=>' - start: 3354, end: 3356
 ✖ Expected a `;` - start: 3358, end: 3359
 ✖ Declaration or statement expected - start: 3359, end: 3362
 ✖ Expected a ')' to match the '(' token here - start: 3374, end: 3376
+✖ Expected '=>' - start: 3374, end: 3376
 ✖ Expected a `;` - start: 3379, end: 3380
 ✖ Declaration or statement expected - start: 3380, end: 3383
 

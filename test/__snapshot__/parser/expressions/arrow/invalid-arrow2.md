@@ -1162,6 +1162,7 @@
 ✖ Expected a `;` - start: 31, end: 34
 ✖ A rest element cannot have an initializer - start: 47, end: 49
 ✖ Expected a ')' to match the '(' token here - start: 66, end: 68
+✖ Expected '=>' - start: 66, end: 68
 ✖ Expected a `;` - start: 70, end: 71
 ✖ Declaration or statement expected - start: 71, end: 74
 ✖ The left hand side of the arrow is not destructible  - start: 90, end: 94
@@ -1174,6 +1175,7 @@
 ✖ Expected a `;` - start: 247, end: 250
 ✖ The left hand side of the arrow is not destructible  - start: 268, end: 271
 ✖ Did you forgot a ']' to match the `[` token? - start: 282, end: 284
+✖ Expected '=>' - start: 282, end: 284
 ✖ Expected a `;` - start: 284, end: 286
 ✖ Declaration or statement expected - start: 286, end: 287
 ✖ Declaration or statement expected - start: 287, end: 290

@@ -97,6 +97,7 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 3, end: 4
+✖ Expected '=>' - start: 3, end: 4
 ✖ Expected a `;` - start: 7, end: 8
 
 ```

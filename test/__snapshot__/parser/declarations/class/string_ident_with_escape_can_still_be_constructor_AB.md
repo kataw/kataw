@@ -83,7 +83,7 @@ class x { "constructor"(){}; constructor(){}; }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 24,
                                     "end": 25
                                 },
@@ -102,11 +102,11 @@ class x { "constructor"(){}; constructor(){}; }
                                     "start": 25,
                                     "end": 27
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 23,
                                 "end": 27
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 9,
                             "end": 27
                         },
@@ -200,17 +200,12 @@ class x { "constructor"(){}; constructor(){}; }
 
 ```javascript
 
-class x {
-  "\"constructor\""() {}
-
-  constructor() {}
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Multiple constructor implementations are not allowed - start: 44, end: 45
+
 ```
 
