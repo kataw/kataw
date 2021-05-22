@@ -57,84 +57,72 @@
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 224,
-                                                "ellipsisToken": null,
-                                                "argument": {
-                                                    "kind": 125,
-                                                    "left": {
-                                                        "kind": 16637,
-                                                        "text": "",
-                                                        "flags": 64,
-                                                        "start": 9,
-                                                        "end": 9
-                                                    },
-                                                    "operatorToken": {
-                                                        "kind": 4125,
-                                                        "flags": 64,
-                                                        "start": 9,
-                                                        "end": 10
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 96,
-                                                        "start": 10,
-                                                        "end": 11
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 9,
-                                                    "end": 11
-                                                },
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "true",
+                                                "rawText": "true",
+                                                "flags": 96,
                                                 "start": 5,
-                                                "end": 11
+                                                "end": 9
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
                                         "start": 5,
-                                        "end": 11
+                                        "end": 9
                                     },
                                     "flags": 48,
                                     "start": 4,
-                                    "end": 12
+                                    "end": 9
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 64,
-                                    "start": 12,
-                                    "end": 14
+                                    "start": 9,
+                                    "end": 10
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
+                                    "text": "x",
+                                    "rawText": "x",
                                     "flags": 96,
-                                    "start": 14,
-                                    "end": 16
+                                    "start": 10,
+                                    "end": 11
                                 },
                                 "flags": 32,
                                 "start": 4,
-                                "end": 16
+                                "end": 11
                             },
                             "flags": 32,
                             "start": 1,
-                            "end": 16
+                            "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 1,
-                    "end": 16
+                    "end": 11
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 17
+                "end": 11
             },
             "flags": 16,
             "start": 0,
-            "end": 17
+            "end": 11
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "c",
+                "rawText": "c",
+                "flags": 96,
+                "start": 14,
+                "end": 16
+            },
+            "flags": 16,
+            "start": 14,
+            "end": 16
         }
     ],
     "isModule": false,
@@ -155,8 +143,13 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 10
-✖ The left-hand side must be a variable or a property access. - start: 12, end: 14
+✖ Property definition expected. Did you mean to use a ':'? - start: 9, end: 10
+✖ ',' expected - start: 9, end: 10
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 10
+✖ ',' expected - start: 11, end: 12
+✖ Did you forgot a ']' to match the `[` token? - start: 11, end: 12
+✖ Declaration or statement expected - start: 12, end: 14
+✖ Expected a `;` - start: 16, end: 17
 
 ```
 

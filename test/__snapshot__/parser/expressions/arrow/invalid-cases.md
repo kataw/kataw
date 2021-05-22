@@ -866,16 +866,10 @@ a++ => {};
                                         "end": 196
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 201,
-                                            "end": 201
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 197,
                                         "end": 201
                                     },
@@ -1163,16 +1157,10 @@ a++ => {};
                                                                     "kind": 218,
                                                                     "properties": [
                                                                         {
-                                                                            "kind": 224,
-                                                                            "ellipsisToken": null,
-                                                                            "argument": {
-                                                                                "kind": 16637,
-                                                                                "text": "",
-                                                                                "flags": 64,
-                                                                                "start": 265,
-                                                                                "end": 265
-                                                                            },
-                                                                            "flags": 32,
+                                                                            "kind": 134299649,
+                                                                            "text": "true",
+                                                                            "rawText": "true",
+                                                                            "flags": 96,
                                                                             "start": 261,
                                                                             "end": 265
                                                                         },
@@ -1654,16 +1642,10 @@ a++ => {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 374,
-                                            "end": 374
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 370,
                                         "end": 374
                                     }
@@ -1915,44 +1897,26 @@ a++ => {};
                                         "end": 425
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 430,
-                                            "end": 430
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 426,
                                         "end": 430
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 435,
-                                            "end": 435
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 431,
                                         "end": 435
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 440,
-                                            "end": 440
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 436,
                                         "end": 440
                                     }
@@ -2050,16 +2014,10 @@ a++ => {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 465,
-                                            "end": 465
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 461,
                                         "end": 465
                                     },
@@ -2498,16 +2456,10 @@ a++ => {};
                                                         "end": 568
                                                     },
                                                     {
-                                                        "kind": 224,
-                                                        "ellipsisToken": null,
-                                                        "argument": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "flags": 64,
-                                                            "start": 573,
-                                                            "end": 573
-                                                        },
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "true",
+                                                        "rawText": "true",
+                                                        "flags": 96,
                                                         "start": 569,
                                                         "end": 573
                                                     }
@@ -2571,16 +2523,10 @@ a++ => {};
                                                         "end": 583
                                                     },
                                                     {
-                                                        "kind": 224,
-                                                        "ellipsisToken": null,
-                                                        "argument": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "flags": 64,
-                                                            "start": 588,
-                                                            "end": 588
-                                                        },
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "true",
+                                                        "rawText": "true",
+                                                        "flags": 96,
                                                         "start": 584,
                                                         "end": 588
                                                     }
@@ -2599,16 +2545,10 @@ a++ => {};
                                         "end": 589
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 594,
-                                            "end": 594
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 590,
                                         "end": 594
                                     }
@@ -3118,30 +3058,18 @@ a++ => {};
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 224,
-                                                    "ellipsisToken": null,
-                                                    "argument": {
-                                                        "kind": 16637,
-                                                        "text": "",
-                                                        "flags": 64,
-                                                        "start": 706,
-                                                        "end": 706
-                                                    },
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "true",
+                                                    "rawText": "true",
+                                                    "flags": 96,
                                                     "start": 702,
                                                     "end": 706
                                                 },
                                                 {
-                                                    "kind": 224,
-                                                    "ellipsisToken": null,
-                                                    "argument": {
-                                                        "kind": 16637,
-                                                        "text": "",
-                                                        "flags": 64,
-                                                        "start": 711,
-                                                        "end": 711
-                                                    },
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "true",
+                                                    "rawText": "true",
+                                                    "flags": 96,
                                                     "start": 707,
                                                     "end": 711
                                                 },
@@ -3405,16 +3333,10 @@ a++ => {};
                                                 "kind": 218,
                                                 "properties": [
                                                     {
-                                                        "kind": 224,
-                                                        "ellipsisToken": null,
-                                                        "argument": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "flags": 64,
-                                                            "start": 769,
-                                                            "end": 769
-                                                        },
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "true",
+                                                        "rawText": "true",
+                                                        "flags": 96,
                                                         "start": 765,
                                                         "end": 769
                                                     },
@@ -3763,16 +3685,10 @@ a++ => {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 849,
-                                            "end": 849
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 845,
                                         "end": 849
                                     }
@@ -3952,16 +3868,10 @@ a++ => {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 894,
-                                            "end": 894
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 890,
                                         "end": 894
                                     },
@@ -4681,16 +4591,10 @@ a++ => {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 1060,
-                                            "end": 1060
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 1056,
                                         "end": 1060
                                     },
@@ -4867,16 +4771,10 @@ a++ => {};
                                                         "end": 1097
                                                     },
                                                     {
-                                                        "kind": 224,
-                                                        "ellipsisToken": null,
-                                                        "argument": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "flags": 64,
-                                                            "start": 1102,
-                                                            "end": 1102
-                                                        },
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "true",
+                                                        "rawText": "true",
+                                                        "flags": 96,
                                                         "start": 1098,
                                                         "end": 1102
                                                     },
@@ -5018,16 +4916,10 @@ a++ => {};
                                         "end": 1127
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 1132,
-                                            "end": 1132
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 1128,
                                         "end": 1132
                                     }
@@ -5242,30 +5134,18 @@ a++ => {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 1184,
-                                            "end": 1184
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 1180,
                                         "end": 1184
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 1189,
-                                            "end": 1189
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 1185,
                                         "end": 1189
                                     }
@@ -5522,16 +5402,10 @@ a++ => {};
                                                 "kind": 218,
                                                 "properties": [
                                                     {
-                                                        "kind": 224,
-                                                        "ellipsisToken": null,
-                                                        "argument": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "flags": 64,
-                                                            "start": 1249,
-                                                            "end": 1249
-                                                        },
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "true",
+                                                        "rawText": "true",
+                                                        "flags": 96,
                                                         "start": 1245,
                                                         "end": 1249
                                                     },
@@ -6172,16 +6046,10 @@ a++ => {};
                                                         "end": 1383
                                                     },
                                                     {
-                                                        "kind": 224,
-                                                        "ellipsisToken": null,
-                                                        "argument": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "flags": 64,
-                                                            "start": 1388,
-                                                            "end": 1388
-                                                        },
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "true",
+                                                        "rawText": "true",
+                                                        "flags": 96,
                                                         "start": 1384,
                                                         "end": 1388
                                                     },
@@ -6225,16 +6093,10 @@ a++ => {};
                                                                         "end": 1397
                                                                     },
                                                                     {
-                                                                        "kind": 224,
-                                                                        "ellipsisToken": null,
-                                                                        "argument": {
-                                                                            "kind": 16637,
-                                                                            "text": "",
-                                                                            "flags": 64,
-                                                                            "start": 1402,
-                                                                            "end": 1402
-                                                                        },
-                                                                        "flags": 32,
+                                                                        "kind": 134299649,
+                                                                        "text": "true",
+                                                                        "rawText": "true",
+                                                                        "flags": 96,
                                                                         "start": 1398,
                                                                         "end": 1402
                                                                     },
@@ -6398,16 +6260,10 @@ a++ => {};
                                                                         "end": 1431
                                                                     },
                                                                     {
-                                                                        "kind": 224,
-                                                                        "ellipsisToken": null,
-                                                                        "argument": {
-                                                                            "kind": 16637,
-                                                                            "text": "",
-                                                                            "flags": 64,
-                                                                            "start": 1436,
-                                                                            "end": 1436
-                                                                        },
-                                                                        "flags": 32,
+                                                                        "kind": 134299649,
+                                                                        "text": "true",
+                                                                        "rawText": "true",
+                                                                        "flags": 96,
                                                                         "start": 1432,
                                                                         "end": 1436
                                                                     }
@@ -6643,16 +6499,10 @@ a++ => {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 1493,
-                                            "end": 1493
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 1489,
                                         "end": 1493
                                     },
@@ -7004,16 +6854,10 @@ a++ => {};
                                         "end": 1574
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 1579,
-                                            "end": 1579
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 1575,
                                         "end": 1579
                                     }
@@ -7095,16 +6939,10 @@ a++ => {};
                                         "end": 1596
                                     },
                                     {
-                                        "kind": 224,
-                                        "ellipsisToken": null,
-                                        "argument": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 1601,
-                                            "end": 1601
-                                        },
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "true",
+                                        "rawText": "true",
+                                        "flags": 96,
                                         "start": 1597,
                                         "end": 1601
                                     },
@@ -10723,44 +10561,36 @@ a++ => {};
 ✖ Block body arrows can not be immediately invoked without a group - start: 143, end: 144
 ✖ Block body arrows can not be immediately accessed without a group - start: 159, end: 160
 ✖ Block body arrows can not be immediately accessed without a group - start: 171, end: 172
-✖ Expression expected - start: 201, end: 202
-✖ The left hand side of the arrow is not destructible  - start: 215, end: 218
-✖ Expression expected - start: 265, end: 266
-✖ The left-hand side must be a variable or a property access. - start: 285, end: 287
-✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
-✖ Expression expected - start: 374, end: 375
+✖ Property definition expected. Did you mean to use a ':'? - start: 201, end: 202
+✖ Property definition expected. Did you mean to use a ':'? - start: 265, end: 266
+✖ Property definition expected. Did you mean to use a ':'? - start: 374, end: 375
 ✖ The left hand side of the arrow is not destructible  - start: 399, end: 402
-✖ Expression expected - start: 430, end: 431
-✖ Expression expected - start: 435, end: 436
-✖ Expression expected - start: 440, end: 441
-✖ Expression expected - start: 465, end: 466
-✖ The left hand side of the arrow is not destructible  - start: 496, end: 499
-✖ Expression expected - start: 573, end: 574
-✖ Expression expected - start: 588, end: 589
-✖ Expression expected - start: 594, end: 595
-✖ Expression expected - start: 706, end: 707
-✖ Expression expected - start: 711, end: 712
-✖ Expression expected - start: 769, end: 770
+✖ Property definition expected. Did you mean to use a ':'? - start: 430, end: 431
+✖ Property definition expected. Did you mean to use a ':'? - start: 435, end: 436
+✖ Property definition expected. Did you mean to use a ':'? - start: 440, end: 441
+✖ Property definition expected. Did you mean to use a ':'? - start: 465, end: 466
+✖ Property definition expected. Did you mean to use a ':'? - start: 573, end: 574
+✖ Property definition expected. Did you mean to use a ':'? - start: 588, end: 589
+✖ Property definition expected. Did you mean to use a ':'? - start: 594, end: 595
+✖ Property definition expected. Did you mean to use a ':'? - start: 706, end: 707
+✖ Property definition expected. Did you mean to use a ':'? - start: 711, end: 712
+✖ Property definition expected. Did you mean to use a ':'? - start: 769, end: 770
 ✖ The left hand side of the arrow is not destructible  - start: 816, end: 819
-✖ Expression expected - start: 849, end: 850
-✖ Expression expected - start: 894, end: 895
-✖ The left hand side of the arrow is not destructible  - start: 1044, end: 1047
-✖ Expression expected - start: 1060, end: 1061
-✖ Expression expected - start: 1102, end: 1103
-✖ Expression expected - start: 1132, end: 1133
-✖ The left hand side of the arrow is not destructible  - start: 1145, end: 1148
-✖ Expression expected - start: 1184, end: 1185
-✖ Expression expected - start: 1189, end: 1190
-✖ The left hand side of the arrow is not destructible  - start: 1212, end: 1215
-✖ Expression expected - start: 1249, end: 1250
-✖ Expression expected - start: 1388, end: 1389
-✖ Expression expected - start: 1402, end: 1403
-✖ Expression expected - start: 1436, end: 1437
-✖ Expression expected - start: 1493, end: 1494
-✖ Expression expected - start: 1579, end: 1580
+✖ Property definition expected. Did you mean to use a ':'? - start: 849, end: 850
+✖ Property definition expected. Did you mean to use a ':'? - start: 894, end: 895
+✖ Property definition expected. Did you mean to use a ':'? - start: 1060, end: 1061
+✖ Property definition expected. Did you mean to use a ':'? - start: 1102, end: 1103
+✖ Property definition expected. Did you mean to use a ':'? - start: 1132, end: 1133
+✖ Property definition expected. Did you mean to use a ':'? - start: 1184, end: 1185
+✖ Property definition expected. Did you mean to use a ':'? - start: 1189, end: 1190
+✖ Property definition expected. Did you mean to use a ':'? - start: 1249, end: 1250
+✖ Property definition expected. Did you mean to use a ':'? - start: 1388, end: 1389
+✖ Property definition expected. Did you mean to use a ':'? - start: 1402, end: 1403
+✖ Property definition expected. Did you mean to use a ':'? - start: 1436, end: 1437
+✖ Property definition expected. Did you mean to use a ':'? - start: 1493, end: 1494
+✖ Property definition expected. Did you mean to use a ':'? - start: 1579, end: 1580
 ✖ The left hand side of the arrow is not destructible  - start: 1582, end: 1585
-✖ Expression expected - start: 1601, end: 1602
-✖ The left hand side of the arrow is not destructible  - start: 1631, end: 1634
+✖ Property definition expected. Did you mean to use a ':'? - start: 1601, end: 1602
 ✖ Declaration or statement expected - start: 1638, end: 1756
 ✖ Declaration or statement expected - start: 1757, end: 1759
 ✖ Declaration or statement expected - start: 1759, end: 1762

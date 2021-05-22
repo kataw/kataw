@@ -2721,7 +2721,7 @@ function parsePropertyDefinition(
 ): PropertyDefinition | SpreadProperty | Identifier | CoverInitializedName | PropertyMethod {
   const pos = parser.curPos;
 
-  if (parser.token & SyntaxKind.IsEllipsis) {
+  if (parser.token === SyntaxKind.Ellipsis) {
     const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
     return createSpreadProperty(
       ellipsisToken,
@@ -3075,7 +3075,7 @@ function parsMethodParameters(
 
     while (parser.token & 0b00010000100010000100000000000000) {
       if (nodeFlags & NodeFlags.Setter) {
-        if (parser.token & SyntaxKind.IsEllipsis) {
+        if (parser.token === SyntaxKind.Ellipsis) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -4253,7 +4253,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         }
       }
     }
-  } else if (parser.token & SyntaxKind.IsEllipsis) {
+  } else if (parser.token === SyntaxKind.Ellipsis) {
     state = Tristate.True;
     expression = parseFormalParameter(parser, context | Context.Parameters, scope);
     // If we have something like "(32" then this is definitely not an arrow function
@@ -4570,7 +4570,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               }
             }
           }
-        } else if (parser.token & SyntaxKind.IsEllipsis) {
+        } else if (parser.token === SyntaxKind.Ellipsis) {
           state = Tristate.True;
           expression = parseFormalParameter(parser, context | Context.Parameters, scope);
         } else {
@@ -7092,7 +7092,7 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
         }
       } else if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         callProperties.push(parseObjectTypeCallProperty(parser, context, staticKeyword, innerPos));
-      } else if (parser.token & SyntaxKind.IsEllipsis) {
+      } else if (parser.token === SyntaxKind.Ellipsis) {
         properties.push(parseObjectTypeSpreadProperty(parser, context, staticKeyword, innerPos));
       } else {
         properties.push(parseObjectTypeProperty(parser, context, staticKeyword, innerPos));
