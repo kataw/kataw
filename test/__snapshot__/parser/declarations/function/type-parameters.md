@@ -307,59 +307,34 @@ type T = <
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 113,
-                "end": 113
+                "start": 128,
+                "end": 130
             },
-            "contents": null,
-            "typeParameters": null,
-            "returnType": null,
-            "flags": 16,
-            "start": 99,
-            "end": 113
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 134234350,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 113,
-                    "end": 114
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 114,
-                    "end": 128
-                },
-                "right": {
-                    "kind": 271,
-                    "arrowToken": null,
-                    "typeParameters": null,
-                    "parameters": [],
-                    "asyncKeyword": null,
-                    "returnType": null,
-                    "contents": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 132,
-                        "end": 132
-                    },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
                     "flags": 32,
-                    "start": 128,
+                    "start": 132,
                     "end": 132
                 },
                 "flags": 32,
-                "start": 113,
-                "end": 132
+                "start": 130,
+                "end": 133
             },
+            "typeParameters": {
+                "kind": 265,
+                "typeParameters": [],
+                "flags": 0,
+                "start": 113,
+                "end": 128
+            },
+            "returnType": null,
             "flags": 16,
-            "start": 113,
-            "end": 132
+            "start": 99,
+            "end": 133
         },
         {
             "kind": 120,
@@ -782,59 +757,34 @@ type T = <
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 344,
-                "end": 344
+                "start": 362,
+                "end": 364
             },
-            "contents": null,
-            "typeParameters": null,
-            "returnType": null,
-            "flags": 16,
-            "start": 330,
-            "end": 344
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 134234350,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 344,
-                    "end": 345
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 65,
-                    "start": 345,
-                    "end": 362
-                },
-                "right": {
-                    "kind": 271,
-                    "arrowToken": null,
-                    "typeParameters": null,
-                    "parameters": [],
-                    "asyncKeyword": null,
-                    "returnType": null,
-                    "contents": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 366,
-                        "end": 366
-                    },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
                     "flags": 32,
-                    "start": 362,
+                    "start": 366,
                     "end": 366
                 },
                 "flags": 32,
-                "start": 344,
-                "end": 366
+                "start": 364,
+                "end": 367
             },
+            "typeParameters": {
+                "kind": 265,
+                "typeParameters": [],
+                "flags": 0,
+                "start": 344,
+                "end": 362
+            },
+            "returnType": null,
             "flags": 16,
-            "start": 344,
-            "end": 366
+            "start": 330,
+            "end": 367
         },
         {
             "kind": 120,
@@ -1066,8 +1016,6 @@ type T = <
 ✖ Expression expected - start: 62, end: 64
 ✖ Expression expected - start: 82, end: 96
 ✖ Expression expected - start: 98, end: 99
-✖ Expected a `;` - start: 130, end: 132
-✖ Expression expected - start: 132, end: 133
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
 ✖ Expected a `;` - start: 173, end: 174
@@ -1083,8 +1031,6 @@ type T = <
 ✖ Expression expected - start: 290, end: 292
 ✖ Expression expected - start: 310, end: 327
 ✖ Expression expected - start: 329, end: 330
-✖ Expected a `;` - start: 364, end: 366
-✖ Expression expected - start: 366, end: 367
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384
 ✖ Expected a `;` - start: 412, end: 413

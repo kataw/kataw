@@ -63,11 +63,18 @@ type A = (Array<string>, ...Array<string>) => void
                             "end": 15
                         },
                         "typeParameters": {
-                            "kind": 146,
-                            "types": [
+                            "kind": 265,
+                            "typeParameters": [
                                 {
-                                    "kind": 134234347,
-                                    "flags": 64,
+                                    "kind": 146,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 64,
+                                        "start": 16,
+                                        "end": 22
+                                    },
+                                    "initializer": null,
+                                    "flags": 0,
                                     "start": 16,
                                     "end": 22
                                 }
@@ -101,11 +108,18 @@ type A = (Array<string>, ...Array<string>) => void
                                 "end": 33
                             },
                             "typeParameters": {
-                                "kind": 146,
-                                "types": [
+                                "kind": 265,
+                                "typeParameters": [
                                     {
-                                        "kind": 134234347,
-                                        "flags": 64,
+                                        "kind": 146,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 34,
+                                            "end": 40
+                                        },
+                                        "initializer": null,
+                                        "flags": 0,
                                         "start": 34,
                                         "end": 40
                                     }

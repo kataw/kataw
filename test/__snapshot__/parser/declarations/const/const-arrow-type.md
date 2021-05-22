@@ -110,11 +110,18 @@ const fn = async (a?: any): Promise<void> => {};
                                         "end": 35
                                     },
                                     "typeParameters": {
-                                        "kind": 146,
-                                        "types": [
+                                        "kind": 265,
+                                        "typeParameters": [
                                             {
-                                                "kind": 138477615,
-                                                "flags": 64,
+                                                "kind": 146,
+                                                "type": {
+                                                    "kind": 138477615,
+                                                    "flags": 64,
+                                                    "start": 36,
+                                                    "end": 40
+                                                },
+                                                "initializer": null,
+                                                "flags": 0,
                                                 "start": 36,
                                                 "end": 40
                                             }

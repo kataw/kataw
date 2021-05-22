@@ -1,7 +1,7 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '.';
-import { TypeParameter } from '../types/type-parameter';
+import { TypeParameterList } from '../types/type-parameter-list';
 
 /**
  * ClassHeritage
@@ -9,13 +9,13 @@ import { TypeParameter } from '../types/type-parameter';
 export interface ClassHeritage extends SyntaxNode {
   readonly extendsKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly expression: ExpressionNode;
-  readonly typeParameter: TypeParameter | null;
+  readonly typeParameter: TypeParameterList | null;
 }
 
 export function createClassHeritage(
   extendsKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
-  typeParameter: TypeParameter | null,
+  typeParameter: TypeParameterList | null,
   start: number,
   end: number
 ): ClassHeritage {

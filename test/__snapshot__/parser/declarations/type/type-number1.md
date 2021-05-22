@@ -43,11 +43,18 @@ type foo<number> = string;
             },
             "opaqueType": null,
             "typeParameters": {
-                "kind": 146,
-                "types": [
+                "kind": 265,
+                "typeParameters": [
                     {
-                        "kind": 134234345,
-                        "flags": 64,
+                        "kind": 146,
+                        "type": {
+                            "kind": 134234345,
+                            "flags": 64,
+                            "start": 9,
+                            "end": 15
+                        },
+                        "initializer": null,
+                        "flags": 0,
                         "start": 9,
                         "end": 15
                     }

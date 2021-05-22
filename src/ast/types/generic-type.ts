@@ -1,14 +1,14 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { TypeParameter } from './type-parameter';
+import { TypeParameterList } from './type-parameter-list';
 
 export interface GenericType extends SyntaxNode {
   readonly id: any;
-  readonly typeParameters: TypeParameter | null;
+  readonly typeParameters: TypeParameterList | null;
 }
 
 export function createGenericType(
   id: any,
-  typeParameters: TypeParameter | null,
+  typeParameters: TypeParameterList | null,
   start: number,
   end: number
 ): GenericType {

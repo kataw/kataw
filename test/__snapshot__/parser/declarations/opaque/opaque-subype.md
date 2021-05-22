@@ -58,19 +58,26 @@ opaque type Counter: Box<T> = Container<T>;
                         "end": 24
                     },
                     "typeParameters": {
-                        "kind": 146,
-                        "types": [
+                        "kind": 265,
+                        "typeParameters": [
                             {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                                "kind": 146,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 26
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
-                                "typeParameters": null,
+                                "initializer": null,
                                 "flags": 0,
                                 "start": 25,
                                 "end": 26
@@ -100,19 +107,26 @@ opaque type Counter: Box<T> = Container<T>;
                     "end": 39
                 },
                 "typeParameters": {
-                    "kind": 146,
-                    "types": [
+                    "kind": 265,
+                    "typeParameters": [
                         {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
+                            "kind": 146,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 40,
+                                    "end": 41
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 40,
                                 "end": 41
                             },
-                            "typeParameters": null,
+                            "initializer": null,
                             "flags": 0,
                             "start": 40,
                             "end": 41

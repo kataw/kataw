@@ -1,6 +1,6 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
-import { TypeParameter } from '../types/type-parameter';
+import { TypeParameterList } from '../types/type-parameter-list';
 import { Identifier } from './identifier-expr';
 import { FormalParameter } from './formal-parameter';
 import { TypeNode } from '../types';
@@ -9,7 +9,7 @@ import { ExpressionNode } from './';
 
 export interface ArrowFunction extends SyntaxNode {
   readonly arrowToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly typeParameters: TypeParameter | null;
+  readonly typeParameters: TypeParameterList | null;
   readonly parameters: Identifier | FormalParameter[];
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly returnType: TypeNode | null;
@@ -18,7 +18,7 @@ export interface ArrowFunction extends SyntaxNode {
 
 export function createArrowFunction(
   arrowToken: SyntaxToken<TokenSyntaxKind> | null,
-  typeParameters: TypeParameter | null,
+  typeParameters: TypeParameterList | null,
   parameters: Identifier | FormalParameter[],
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   returnType: TypeNode | null,

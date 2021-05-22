@@ -42,19 +42,26 @@ class Foo<T> extends Bar<T> { }
                 "end": 9
             },
             "typeParameters": {
-                "kind": 146,
-                "types": [
+                "kind": 265,
+                "typeParameters": [
                     {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                        "kind": 146,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
                             "start": 10,
                             "end": 11
                         },
-                        "typeParameters": null,
+                        "initializer": null,
                         "flags": 0,
                         "start": 10,
                         "end": 11
@@ -83,19 +90,26 @@ class Foo<T> extends Bar<T> { }
                         "end": 24
                     },
                     "typeParameter": {
-                        "kind": 146,
-                        "types": [
+                        "kind": 265,
+                        "typeParameters": [
                             {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                                "kind": 146,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 26
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
-                                "typeParameters": null,
+                                "initializer": null,
                                 "flags": 0,
                                 "start": 25,
                                 "end": 26

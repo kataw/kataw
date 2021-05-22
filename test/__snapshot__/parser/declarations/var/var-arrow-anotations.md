@@ -156,67 +156,120 @@ class Array { concat(items:number | string) {}; }
                                     "end": 28
                                 },
                                 "typeParameters": {
-                                    "kind": 146,
-                                    "types": [
+                                    "kind": 265,
+                                    "typeParameters": [
                                         {
-                                            "kind": 134234347,
-                                            "flags": 64,
+                                            "kind": 146,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 29,
+                                                "end": 35
+                                            },
+                                            "initializer": null,
+                                            "flags": 0,
                                             "start": 29,
                                             "end": 35
                                         },
                                         {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "Array",
-                                                "rawText": "Array",
-                                                "flags": 96,
-                                                "start": 36,
-                                                "end": 42
-                                            },
-                                            "typeParameters": {
-                                                "kind": 146,
-                                                "types": [
-                                                    {
-                                                        "kind": 134234347,
-                                                        "flags": 64,
-                                                        "start": 43,
-                                                        "end": 49
-                                                    }
-                                                ],
+                                            "kind": 146,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "Array",
+                                                    "rawText": "Array",
+                                                    "flags": 96,
+                                                    "start": 36,
+                                                    "end": 42
+                                                },
+                                                "typeParameters": {
+                                                    "kind": 265,
+                                                    "typeParameters": [
+                                                        {
+                                                            "kind": 146,
+                                                            "type": {
+                                                                "kind": 134234347,
+                                                                "flags": 64,
+                                                                "start": 43,
+                                                                "end": 49
+                                                            },
+                                                            "initializer": null,
+                                                            "flags": 0,
+                                                            "start": 43,
+                                                            "end": 49
+                                                        }
+                                                    ],
+                                                    "flags": 0,
+                                                    "start": 42,
+                                                    "end": 49
+                                                },
                                                 "flags": 0,
-                                                "start": 42,
-                                                "end": 50
+                                                "start": 36,
+                                                "end": 49
                                             },
+                                            "initializer": null,
                                             "flags": 0,
                                             "start": 36,
-                                            "end": 50
+                                            "end": 49
                                         }
                                     ],
                                     "flags": 0,
                                     "start": 28,
-                                    "end": 51
+                                    "end": 49
                                 },
                                 "flags": 0,
                                 "start": 24,
-                                "end": 51
+                                "end": 49
                             },
                             "flags": 0,
                             "start": 23,
-                            "end": 51
+                            "end": 49
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 21,
-                        "end": 51
+                        "end": 49
                     }
                 ],
                 "flags": 16,
                 "start": 21,
-                "end": 51
+                "end": 49
             },
             "flags": 16,
             "start": 16,
+            "end": 49
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 49,
+                    "end": 49
+                },
+                "operatorToken": {
+                    "kind": 35141,
+                    "flags": 64,
+                    "start": 49,
+                    "end": 51
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 51,
+                    "end": 51
+                },
+                "flags": 32,
+                "start": 49,
+                "end": 51
+            },
+            "flags": 16,
+            "start": 49,
             "end": 52
         },
         {
@@ -255,38 +308,59 @@ class Array { concat(items:number | string) {}; }
                                     "end": 64
                                 },
                                 "typeParameters": {
-                                    "kind": 146,
-                                    "types": [
+                                    "kind": 265,
+                                    "typeParameters": [
                                         {
-                                            "kind": 134234347,
-                                            "flags": 64,
+                                            "kind": 146,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 65,
+                                                "end": 71
+                                            },
+                                            "initializer": null,
+                                            "flags": 0,
                                             "start": 65,
                                             "end": 71
                                         },
                                         {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "Array",
-                                                "rawText": "Array",
-                                                "flags": 96,
-                                                "start": 72,
-                                                "end": 78
-                                            },
-                                            "typeParameters": {
-                                                "kind": 146,
-                                                "types": [
-                                                    {
-                                                        "kind": 134234347,
-                                                        "flags": 64,
-                                                        "start": 79,
-                                                        "end": 85
-                                                    }
-                                                ],
+                                            "kind": 146,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "Array",
+                                                    "rawText": "Array",
+                                                    "flags": 96,
+                                                    "start": 72,
+                                                    "end": 78
+                                                },
+                                                "typeParameters": {
+                                                    "kind": 265,
+                                                    "typeParameters": [
+                                                        {
+                                                            "kind": 146,
+                                                            "type": {
+                                                                "kind": 134234347,
+                                                                "flags": 64,
+                                                                "start": 79,
+                                                                "end": 85
+                                                            },
+                                                            "initializer": null,
+                                                            "flags": 0,
+                                                            "start": 79,
+                                                            "end": 85
+                                                        }
+                                                    ],
+                                                    "flags": 0,
+                                                    "start": 78,
+                                                    "end": 86
+                                                },
                                                 "flags": 0,
-                                                "start": 78,
+                                                "start": 72,
                                                 "end": 86
                                             },
+                                            "initializer": null,
                                             "flags": 0,
                                             "start": 72,
                                             "end": 86
@@ -1496,11 +1570,18 @@ class Array { concat(items:number | string) {}; }
                                     "end": 533
                                 },
                                 "typeParameters": {
-                                    "kind": 146,
-                                    "types": [
+                                    "kind": 265,
+                                    "typeParameters": [
                                         {
-                                            "kind": 134234347,
-                                            "flags": 64,
+                                            "kind": 146,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 534,
+                                                "end": 540
+                                            },
+                                            "initializer": null,
+                                            "flags": 0,
                                             "start": 534,
                                             "end": 540
                                         }
@@ -2248,40 +2329,14 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-var a;
-var a;
-var a;
-var x = Y;
-var x = fn;
-var foo = bar ? (foo) =>  {} : baz;
-var a;
-var foo = bar ? (foo) : number;
-var foo = ((bar) =>  bar);
-var foo = (() =>  bar);
-var foo = async (bar) =>  bar;
-var foo = async () =>  bar;
-var foo = async (foo, bar) =>  {};
-var foo = () =>  bar;
-var a;
-var [x] = ["\"hello\""];
-var {
-  x
-} = { x: "\"hello\"" };
-var {
-  x
-} = { x: "\"hello\"" };
-var a;
-var x = Y;
-var a;
-class Array {
-  concat(items) {}
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 49, end: 51
+✖ Expected a `;` - start: 49, end: 51
+✖ Expression expected - start: 51, end: 52
+
 ```
 

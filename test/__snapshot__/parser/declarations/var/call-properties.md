@@ -134,19 +134,26 @@ var a : { <T>(x: T): number; }
                                     {
                                         "kind": 196,
                                         "typeParameter": {
-                                            "kind": 146,
-                                            "types": [
+                                            "kind": 265,
+                                            "typeParameters": [
                                                 {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "T",
-                                                        "rawText": "T",
-                                                        "flags": 96,
+                                                    "kind": 146,
+                                                    "type": {
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 96,
+                                                            "start": 36,
+                                                            "end": 37
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 0,
                                                         "start": 36,
                                                         "end": 37
                                                     },
-                                                    "typeParameters": null,
+                                                    "initializer": null,
                                                     "flags": 0,
                                                     "start": 36,
                                                     "end": 37

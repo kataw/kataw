@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-<x>(): string => {}
+<A = B>(x) => {}
 `````
 
 ## Options
@@ -30,8 +30,8 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 0,
-                    "start": 13,
-                    "end": 16
+                    "start": 10,
+                    "end": 13
                 },
                 "typeParameters": {
                     "kind": 265,
@@ -42,8 +42,8 @@
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "A",
+                                    "rawText": "A",
                                     "flags": 96,
                                     "start": 1,
                                     "end": 2
@@ -53,30 +53,42 @@
                                 "start": 1,
                                 "end": 2
                             },
-                            "initializer": null,
+                            "initializer": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "B",
+                                    "rawText": "B",
+                                    "flags": 96,
+                                    "start": 4,
+                                    "end": 6
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 4,
+                                "end": 6
+                            },
                             "flags": 0,
                             "start": 1,
-                            "end": 2
+                            "end": 6
                         }
                     ],
                     "flags": 0,
                     "start": 0,
-                    "end": 3
+                    "end": 7
                 },
-                "parameters": [],
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 8,
+                        "end": 9
+                    }
+                ],
                 "asyncKeyword": null,
-                "returnType": {
-                    "kind": 139,
-                    "type": {
-                        "kind": 134234347,
-                        "flags": 64,
-                        "start": 6,
-                        "end": 13
-                    },
-                    "flags": 0,
-                    "start": 5,
-                    "end": 13
-                },
+                "returnType": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -84,28 +96,28 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
-                        "start": 18,
-                        "end": 18
+                        "start": 15,
+                        "end": 15
                     },
                     "flags": 32,
-                    "start": 16,
-                    "end": 19
+                    "start": 13,
+                    "end": 16
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 19
+                "end": 16
             },
             "flags": 16,
             "start": 0,
-            "end": 19
+            "end": 16
         }
     ],
     "isModule": false,
-    "source": "<x>(): string => {}",
+    "source": "<A = B>(x) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 16
 }
 ```
 
@@ -113,7 +125,7 @@
 
 ```javascript
 
-() =>  {};
+(x) =>  {};
 ```
 
 ### Diagnostics

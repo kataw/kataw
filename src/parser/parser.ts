@@ -136,6 +136,7 @@ import { createParenthesizedType, ParenthesizedType } from '../ast/types/parenth
 import { createFunctionType, FunctionType } from '../ast/types/function-type';
 import { createFunctionTypeParameterList, FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
 import { createFunctionTypeParameters, FunctionTypeParameter } from '../ast/types/function-type-parameter';
+import { createTypeParameterList, TypeParameterList } from '../ast/types/type-parameter-list';
 import { createBindingList, BindingList } from '../ast/statements/binding-list';
 import { createVariableDeclarationList, VariableDeclarationList } from '../ast/statements/variable-declarationList';
 import { createVariableStatement, VariableStatement } from '../ast/statements/variable-stmt';
@@ -2048,7 +2049,7 @@ function parseArrowFunction(
   parser: ParserState,
   context: Context,
   scope: ScopeState,
-  typeParameters: TypeParameter | null,
+  typeParameters: TypeParameterList | null,
   returnType: TypeNode | null,
   params: any,
   asyncToken: SyntaxToken<TokenSyntaxKind> | null,
@@ -2970,12 +2971,6 @@ function parsePropertyDefinition(
   return key as Identifier;
 }
 
-function parseTypeParameters(parser: ParserState, context: Context): TypeParameter | null {
-  return context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan
-    ? parseTypeParameter(parser, context | Context.InTypes)
-    : null;
-}
-
 function parseMethodDefinition(
   parser: ParserState,
   context: Context,
@@ -2984,7 +2979,7 @@ function parseMethodDefinition(
   nodeFlags: NodeFlags
 ): MethodDefinition {
   const pos = parser.curPos;
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
   if (nodeFlags & NodeFlags.Constructor) {
   } else {
     context = (context | Context.InConstructor | Context.SuperCall) ^ (Context.InConstructor | Context.SuperCall);
@@ -3951,13 +3946,13 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   LeftHandSideContext: LeftHandSide
 ): ParenthesizedExpression | any {
   const curPos = parser.curPos;
-  let typeParameters = null;
+  let typeParameters: any = null;
   let state = Tristate.False;
   let flags = NodeFlags.None;
 
   if (parser.token === SyntaxKind.LessThan) {
     state = Tristate.True;
-    typeParameters = parseTypeParameter(parser, context);
+    typeParameters = parseTypeParameterList(parser, context);
   }
 
   const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
@@ -5174,7 +5169,7 @@ function parseFunctionExpression(
     name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
 
   context =
     ((context | 0b00001001100000110100011010000000) ^ 0b00001001100000110100011010000000) |
@@ -5399,7 +5394,7 @@ function parseFunctionDeclaration(
     name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
 
   context =
     ((context | 0b00001001100000110100011010000000) ^ 0b00001001100000110100011010000000) |
@@ -6286,7 +6281,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
 
 function parseFunctionType(parser: ParserState, context: Context): FunctionType {
   const pos = parser.curPos;
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
   consume(parser, context, SyntaxKind.LeftParen);
   const params = parseFunctionTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
@@ -6346,7 +6341,7 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
 
 function parseParenthesizedType(parser: ParserState, context: Context): any {
   const pos = parser.curPos;
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
   nextToken(parser, context);
 
   let isGroupedType = false;
@@ -6437,7 +6432,7 @@ function parseGenericType(parser: ParserState, context: Context): GenericType {
   while (consumeOpt(parser, context, SyntaxKind.Period)) {
     entity = parseQualifiedType(parser, context, entity);
   }
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
   return createGenericType(entity, typeParameters, pos, parser.curPos);
 }
 
@@ -6451,26 +6446,46 @@ function parseQualifiedType(parser: ParserState, context: Context, entity: Ident
   );
 }
 
-function parseTypeParameter(parser: ParserState, context: Context): TypeParameter {
+function parseTypeParameterList(parser: ParserState, context: Context): TypeParameterList | null {
   const pos = parser.curPos;
-  const types: TypeNode[] = [];
-  consume(parser, context, SyntaxKind.LessThan);
-
-  while (
-    parser.token &
-    (SyntaxKind.IsLessThanOrLeftParen |
-      SyntaxKind.IsExpressionStart |
-      SyntaxKind.IsStartOfType |
-      SyntaxKind.IsIdentifier |
-      SyntaxKind.IsPatternStart)
-  ) {
-    types.push(parseType(parser, context));
-    if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) {
-      consume(parser, context, SyntaxKind.Comma);
+  const types = [];
+  if (consume(parser, context, SyntaxKind.LessThan)) {
+    while (
+      parser.token &
+      (SyntaxKind.IsLessThanOrLeftParen |
+        SyntaxKind.IsExpressionStart |
+        SyntaxKind.IsStartOfType |
+        SyntaxKind.IsIdentifier |
+        SyntaxKind.IsPatternStart)
+    ) {
+      types.push(parseTypeParameter(parser, context, /* requireInitializer */ false));
+      if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) {
+        consume(parser, context, SyntaxKind.Comma);
+      }
     }
+    consume(parser, context, SyntaxKind.GreaterThan);
+    return createTypeParameterList(types, pos, parser.curPos);
   }
-  consume(parser, context, SyntaxKind.GreaterThan);
-  return createTypeParameter(types, pos, parser.curPos);
+  return null;
+}
+
+function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean) {
+  const start = parser.curPos;
+  const type = parseType(parser, context);
+  let initializer = null;
+  if (consumeOpt(parser, context, SyntaxKind.Assign)) {
+    initializer = parseUnionType(parser, context | Context.InTypes);
+  }
+  if (requireInitializer) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  return createTypeParameter(type, initializer, start, parser.curPos);
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`
@@ -6701,7 +6716,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   if (context & Context.OptionsAllowTypes && parser.token & SyntaxKind.IsIdentifier) {
     expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
     const opaqueType = opaqueKeyword ? parseTypeAnnotation(parser, context) : null;
-    const typeParameters = parseTypeParameters(parser, context);
+    const typeParameters = parseTypeParameterList(parser, context);
     let type = null;
     if (consumeOpt(parser, context | Context.InTypes, SyntaxKind.Assign)) {
       type = parseType(parser, context);
@@ -7115,7 +7130,7 @@ function parseObjectTypeCallProperty(
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeCallProperty {
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
   consume(parser, context, SyntaxKind.LeftParen);
   const params = parseFunctionTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
@@ -7138,7 +7153,7 @@ function parseObjectTypeInternalSlot(
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-    const typeParameters = parseTypeParameters(parser, context);
+    const typeParameters = parseTypeParameterList(parser, context);
     consume(parser, context, SyntaxKind.LeftParen);
     const params = parseFunctionTypeParameters(parser, context);
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
@@ -7545,7 +7560,7 @@ function parseClassDeclaration(
     }
   }
 
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
 
   const classTail = parseClassTail(parser, context | Context.InClassBody, declareKeyword ? true : false, true);
 
@@ -7589,7 +7604,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
     name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 
-  const typeParameters = parseTypeParameters(parser, context);
+  const typeParameters = parseTypeParameterList(parser, context);
 
   const classTail = parseClassTail(parser, context | Context.InClassBody, false, true);
 
@@ -7625,7 +7640,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     classHeritage = createClassHeritage(
       extendsToken,
       parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.NotBindable),
-      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null,
+      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameterList(parser, context) : null,
       curPos,
       parser.curPos
     );
@@ -8206,7 +8221,7 @@ function parseDecoratorExpression(parser: ParserState, context: Context): Decora
 }
 
 function nextTokenIsLeftParen(parser: ParserState, context: Context) {
-  parseTypeParameter(parser, context);
+  parseTypeParameterList(parser, context);
   return parser.token !== SyntaxKind.LeftParen;
 }
 
@@ -8218,7 +8233,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   flags: NodeFlags,
   start: number
 ): ArrowFunction | ExpressionNode {
-  let typeParameters = null;
+  let typeParameters: any = null;
 
   let state = Tristate.False;
   let trailingComma = false;
@@ -8232,7 +8247,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       return expr;
     }
     state = Tristate.True;
-    typeParameters = parseTypeParameter(parser, context);
+    typeParameters = parseTypeParameterList(parser, context);
   }
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);

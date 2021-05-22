@@ -65,19 +65,26 @@ function foo<T>() {}
                 "end": 20
             },
             "typeParameters": {
-                "kind": 146,
-                "types": [
+                "kind": 265,
+                "typeParameters": [
                     {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                        "kind": 146,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 14
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
                             "start": 13,
                             "end": 14
                         },
-                        "typeParameters": null,
+                        "initializer": null,
                         "flags": 0,
                         "start": 13,
                         "end": 14

@@ -20,6 +20,8 @@ import { TypeAlias } from './type-alias-declaration';
 import { TypeofType } from './typeof-type';
 import { FunctionTypeParameterList } from './function-type-parameter-list';
 import { BooleanType } from './boolean-type';
+import { TypeParameterList } from './type-parameter-list';
+import { TypeParameter } from './type-parameter';
 
 /**
  * The set of all syntax items which are types.
@@ -28,6 +30,8 @@ export type TypeNode =
   | TypeofType
   | GenericType
   | NullableType
+  | TypeParameterList
+  | TypeParameter
   | ObjectTypeCallProperty
   | ObjectTypeIndexer
   | ObjectTypeInternalSlot

@@ -73,82 +73,89 @@ type B = Foo<
                     "end": 12
                 },
                 "typeParameters": {
-                    "kind": 146,
-                    "types": [
+                    "kind": 265,
+                    "typeParameters": [
                         {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134234353,
-                                    "properties": [
-                                        {
-                                            "kind": 193,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "type",
-                                                "rawText": "type",
-                                                "flags": 96,
+                            "kind": 146,
+                            "type": {
+                                "kind": 137,
+                                "types": [
+                                    {
+                                        "kind": 134234353,
+                                        "properties": [
+                                            {
+                                                "kind": 193,
+                                                "key": {
+                                                    "kind": 134299649,
+                                                    "text": "type",
+                                                    "rawText": "type",
+                                                    "flags": 96,
+                                                    "start": 19,
+                                                    "end": 23
+                                                },
+                                                "value": {
+                                                    "kind": 134217967,
+                                                    "value": "A",
+                                                    "flags": 0,
+                                                    "start": 24,
+                                                    "end": 28
+                                                },
+                                                "optionalToken": null,
+                                                "staticToken": false,
+                                                "flags": 0,
                                                 "start": 19,
-                                                "end": 23
-                                            },
-                                            "value": {
-                                                "kind": 134217967,
-                                                "value": "A",
-                                                "flags": 0,
-                                                "start": 24,
                                                 "end": 28
-                                            },
-                                            "optionalToken": null,
-                                            "staticToken": false,
-                                            "flags": 0,
-                                            "start": 19,
-                                            "end": 28
-                                        }
-                                    ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
-                                    "flags": 0,
-                                    "start": 17,
-                                    "end": 29
-                                },
-                                {
-                                    "kind": 134234353,
-                                    "properties": [
-                                        {
-                                            "kind": 193,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "type",
-                                                "rawText": "type",
-                                                "flags": 96,
-                                                "start": 35,
-                                                "end": 39
-                                            },
-                                            "value": {
-                                                "kind": 134217967,
-                                                "value": "B",
+                                            }
+                                        ],
+                                        "indexers": [],
+                                        "callProperties": [],
+                                        "internalSlots": [],
+                                        "flags": 0,
+                                        "start": 17,
+                                        "end": 29
+                                    },
+                                    {
+                                        "kind": 134234353,
+                                        "properties": [
+                                            {
+                                                "kind": 193,
+                                                "key": {
+                                                    "kind": 134299649,
+                                                    "text": "type",
+                                                    "rawText": "type",
+                                                    "flags": 96,
+                                                    "start": 35,
+                                                    "end": 39
+                                                },
+                                                "value": {
+                                                    "kind": 134217967,
+                                                    "value": "B",
+                                                    "flags": 0,
+                                                    "start": 40,
+                                                    "end": 44
+                                                },
+                                                "optionalToken": null,
+                                                "staticToken": false,
                                                 "flags": 0,
-                                                "start": 40,
+                                                "start": 35,
                                                 "end": 44
-                                            },
-                                            "optionalToken": null,
-                                            "staticToken": false,
-                                            "flags": 0,
-                                            "start": 35,
-                                            "end": 44
-                                        }
-                                    ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
-                                    "flags": 0,
-                                    "start": 33,
-                                    "end": 45
-                                }
-                            ],
+                                            }
+                                        ],
+                                        "indexers": [],
+                                        "callProperties": [],
+                                        "internalSlots": [],
+                                        "flags": 0,
+                                        "start": 33,
+                                        "end": 45
+                                    }
+                                ],
+                                "flags": 0,
+                                "start": 29,
+                                "end": 45
+                            },
+                            "initializer": null,
                             "flags": 0,
-                            "start": 29,
+                            "start": 13,
                             "end": 45
                         }
                     ],
@@ -198,8 +205,8 @@ type B = Foo<
                             "end": 62
                         },
                         "typeParameters": {
-                            "kind": 146,
-                            "types": [],
+                            "kind": 265,
+                            "typeParameters": [],
                             "flags": 0,
                             "start": 62,
                             "end": 63

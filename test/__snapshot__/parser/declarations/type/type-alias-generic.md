@@ -54,19 +54,26 @@ type T<U> = U;
             },
             "opaqueType": null,
             "typeParameters": {
-                "kind": 146,
-                "types": [
+                "kind": 265,
+                "typeParameters": [
                     {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "U",
-                            "rawText": "U",
-                            "flags": 96,
+                        "kind": 146,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "U",
+                                "rawText": "U",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
                             "start": 7,
                             "end": 8
                         },
-                        "typeParameters": null,
+                        "initializer": null,
                         "flags": 0,
                         "start": 7,
                         "end": 8

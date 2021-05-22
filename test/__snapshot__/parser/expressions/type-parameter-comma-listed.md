@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-<x>(): string => {}
+<A, B>(x) => {}
 `````
 
 ## Options
@@ -30,8 +30,8 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 0,
-                    "start": 13,
-                    "end": 16
+                    "start": 9,
+                    "end": 12
                 },
                 "typeParameters": {
                     "kind": 265,
@@ -42,8 +42,8 @@
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "A",
+                                    "rawText": "A",
                                     "flags": 96,
                                     "start": 1,
                                     "end": 2
@@ -57,26 +57,46 @@
                             "flags": 0,
                             "start": 1,
                             "end": 2
+                        },
+                        {
+                            "kind": 146,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "B",
+                                    "rawText": "B",
+                                    "flags": 96,
+                                    "start": 3,
+                                    "end": 5
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 3,
+                                "end": 5
+                            },
+                            "initializer": null,
+                            "flags": 0,
+                            "start": 3,
+                            "end": 5
                         }
                     ],
                     "flags": 0,
                     "start": 0,
-                    "end": 3
+                    "end": 6
                 },
-                "parameters": [],
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 7,
+                        "end": 8
+                    }
+                ],
                 "asyncKeyword": null,
-                "returnType": {
-                    "kind": 139,
-                    "type": {
-                        "kind": 134234347,
-                        "flags": 64,
-                        "start": 6,
-                        "end": 13
-                    },
-                    "flags": 0,
-                    "start": 5,
-                    "end": 13
-                },
+                "returnType": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -84,28 +104,28 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
-                        "start": 18,
-                        "end": 18
+                        "start": 14,
+                        "end": 14
                     },
                     "flags": 32,
-                    "start": 16,
-                    "end": 19
+                    "start": 12,
+                    "end": 15
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 19
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 19
+            "end": 15
         }
     ],
     "isModule": false,
-    "source": "<x>(): string => {}",
+    "source": "<A, B>(x) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 15
 }
 ```
 
@@ -113,7 +133,7 @@
 
 ```javascript
 
-() =>  {};
+(x) =>  {};
 ```
 
 ### Diagnostics

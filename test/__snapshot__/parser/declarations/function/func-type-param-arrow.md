@@ -335,7 +335,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 149,
+                        "end": 152
+                    },
                     "parameters": {
                         "kind": 208,
                         "functionTypeParameterList": [
@@ -397,90 +402,58 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                         "start": 135,
                                         "end": 140
                                     },
-                                    "typeParameters": null,
+                                    "typeParameters": {
+                                        "kind": 265,
+                                        "typeParameters": [
+                                            {
+                                                "kind": 146,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 64,
+                                                    "start": 141,
+                                                    "end": 147
+                                                },
+                                                "initializer": null,
+                                                "flags": 0,
+                                                "start": 141,
+                                                "end": 147
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 140,
+                                        "end": 148
+                                    },
                                     "flags": 0,
                                     "start": 135,
-                                    "end": 140
+                                    "end": 148
                                 },
                                 "flags": 0,
                                 "start": 127,
-                                "end": 140
+                                "end": 148
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 119,
-                        "end": 140
+                        "end": 148
                     },
                     "returnType": {
-                        "kind": 260,
-                        "type": {
-                            "kind": 134234345,
-                            "flags": 64,
-                            "start": 141,
-                            "end": 147
-                        },
-                        "flags": 0,
-                        "start": 140,
-                        "end": 147
+                        "kind": 134234345,
+                        "flags": 64,
+                        "start": 152,
+                        "end": 159
                     },
                     "typeParameters": null,
                     "flags": 0,
                     "start": 117,
-                    "end": 147
+                    "end": 159
                 },
                 "flags": 0,
                 "start": 93,
-                "end": 147
-            },
-            "flags": 16,
-            "start": 93,
-            "end": 147
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 147,
-                    "end": 147
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 147,
-                    "end": 148
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 148,
-                    "end": 148
-                },
-                "flags": 32,
-                "start": 147,
-                "end": 148
-            },
-            "flags": 16,
-            "start": 147,
-            "end": 148
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "number",
-                "rawText": "number",
-                "flags": 96,
-                "start": 152,
                 "end": 159
             },
             "flags": 16,
-            "start": 152,
+            "start": 93,
             "end": 159
         },
         {
@@ -520,11 +493,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 ✖ Declaration or statement expected - start: 90, end: 91
 ✖ ',' expected - start: 116, end: 117
 ✖ Expected a ')' to match the '(' token here - start: 116, end: 117
-✖ Expected a ')' to match the '(' token here - start: 140, end: 141
-✖ Expected a ')' to match the '(' token here - start: 147, end: 148
-✖ Expression expected - start: 148, end: 149
-✖ Declaration or statement expected - start: 149, end: 152
-✖ Expected a `;` - start: 159, end: 160
+✖ Declaration or statement expected - start: 159, end: 160
 
 ```
 

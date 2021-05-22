@@ -129,11 +129,18 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                     "end": 45
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 146,
-                                                    "types": [
+                                                    "kind": 265,
+                                                    "typeParameters": [
                                                         {
-                                                            "kind": 134234345,
-                                                            "flags": 64,
+                                                            "kind": 146,
+                                                            "type": {
+                                                                "kind": 134234345,
+                                                                "flags": 64,
+                                                                "start": 46,
+                                                                "end": 52
+                                                            },
+                                                            "initializer": null,
+                                                            "flags": 0,
                                                             "start": 46,
                                                             "end": 52
                                                         }

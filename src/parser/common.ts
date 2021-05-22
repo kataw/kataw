@@ -42,7 +42,8 @@ export const enum DestructibleKind {
   Destructible = 1 << 3,
   DisallowTrailing = 1 << 4,
   CoverInitializedName = 1 << 5,
-  EvalOrArguments = 1 << 6
+  EvalOrArguments = 1 << 6,
+  YieldContext = 1 << 7
 }
 
 export const enum BindingType {
@@ -61,7 +62,8 @@ export const enum BindingType {
   FunctionStatement = 1 << 11,
   Class = 1 << 12,
   Empty = 1 << 13,
-  Export = 1 << 14
+  Export = 1 << 14,
+  InArrow = 1 << 15
 }
 export const enum DestuctionKind {
   NORMAL,
