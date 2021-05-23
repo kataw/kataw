@@ -2830,7 +2830,7 @@ x((y ?? z) ?? 1);
                                         "end": 590
                                     },
                                     "operatorToken": {
-                                        "kind": 34375,
+                                        "kind": 134252103,
                                         "flags": 64,
                                         "start": 590,
                                         "end": 592
@@ -3660,7 +3660,7 @@ x((y ?? z) ?? 1);
                                         "end": 769
                                     },
                                     "operatorToken": {
-                                        "kind": 134251067,
+                                        "kind": 33339,
                                         "flags": 64,
                                         "start": 769,
                                         "end": 772

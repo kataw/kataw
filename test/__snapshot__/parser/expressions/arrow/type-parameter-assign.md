@@ -38,22 +38,16 @@
                     "typeParameters": [
                         {
                             "kind": 146,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
                                 "start": 1,
                                 "end": 2
                             },
-                            "initializer": {
+                            "type": null,
+                            "defaultType": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,

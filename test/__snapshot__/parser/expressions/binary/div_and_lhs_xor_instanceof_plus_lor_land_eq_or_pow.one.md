@@ -56,7 +56,7 @@ typeof x;
                                 "end": 7
                             },
                             "operatorToken": {
-                                "kind": 34375,
+                                "kind": 134252103,
                                 "flags": 64,
                                 "start": 7,
                                 "end": 9
@@ -150,7 +150,7 @@ typeof x;
                     "end": 42
                 },
                 "operatorToken": {
-                    "kind": 134251067,
+                    "kind": 33339,
                     "flags": 64,
                     "start": 42,
                     "end": 45

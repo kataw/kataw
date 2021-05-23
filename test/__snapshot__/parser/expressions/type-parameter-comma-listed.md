@@ -38,44 +38,32 @@
                     "typeParameters": [
                         {
                             "kind": 146,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
                                 "start": 1,
                                 "end": 2
                             },
-                            "initializer": null,
+                            "type": null,
+                            "defaultType": null,
                             "flags": 0,
                             "start": 1,
                             "end": 2
                         },
                         {
                             "kind": 146,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "B",
-                                    "rawText": "B",
-                                    "flags": 96,
-                                    "start": 3,
-                                    "end": 5
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 96,
                                 "start": 3,
                                 "end": 5
                             },
-                            "initializer": null,
+                            "type": null,
+                            "defaultType": null,
                             "flags": 0,
                             "start": 3,
                             "end": 5

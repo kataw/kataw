@@ -56,7 +56,7 @@ for(x in(t&{}=y))x
                         "end": 10
                     },
                     "operatorToken": {
-                        "kind": 34375,
+                        "kind": 134252103,
                         "flags": 64,
                         "start": 10,
                         "end": 11

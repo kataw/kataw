@@ -131,14 +131,6 @@ import { createTypeAnnotation, TypeAnnotation } from '../ast/types/type-annotati
 import { createQualifiedType, QualifiedType } from '../ast/types/qualified-type';
 import { createGenericType, GenericType } from '../ast/types/generic-type';
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
-import {
-  createTypeParameterInstantiationList,
-  TypeParameterInstantiationList
-} from '../ast/types/type-parameter-instantiation-list';
-import {
-  createTypeParameterInstantiation,
-  TypeParameterInstantiation
-} from '../ast/types/type-parameter-instantiation';
 import { createTupleType, TupleType } from '../ast/types/tuple-type';
 import { createArrowFunctionType, ArrowFunctionType } from '../ast/types/arrow-function-type';
 import { createParenthesizedType, ParenthesizedType } from '../ast/types/parenthesized-type';
@@ -163,6 +155,14 @@ import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
 import { Char } from './scanner/char';
 import { isLineTerminator } from '../parser/scanner/common';
+import {
+  createTypeParameterInstantiationList,
+  TypeParameterInstantiationList
+} from '../ast/types/type-parameter-instantiation-list';
+import {
+  createTypeParameterInstantiation,
+  TypeParameterInstantiation
+} from '../ast/types/type-parameter-instantiation';
 import {
   createPropertyDefinitionList,
   PropertyDefinitionList,
@@ -6496,18 +6496,11 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
   const pos = parser.curPos;
   const types = [];
   if (consume(parser, context, SyntaxKind.LessThan)) {
-    let requireInitializer = false;
-    while (
-      parser.token &
-      (SyntaxKind.IsLessThanOrLeftParen |
-        SyntaxKind.IsExpressionStart |
-        SyntaxKind.IsStartOfType |
-        SyntaxKind.IsIdentifier |
-        SyntaxKind.IsPatternStart)
-    ) {
-      const type = parseTypeParameter(parser, context, requireInitializer);
+    let requireDefault = false;
+    while (parser.token & 0b00111000000000010100000000000000) {
+      const type = parseTypeParameter(parser, context, requireDefault);
       types.push(type);
-      if (type.initializer) requireInitializer = true;
+      if (type.defaultType) requireDefault = true;
       if (parser.token !== SyntaxKind.GreaterThan) {
         consume(parser, context, SyntaxKind.Comma);
       }
@@ -6525,14 +6518,7 @@ function parseTypeParameterInstantiationList(
   const pos = parser.curPos;
   const types = [];
   if (consume(parser, context, SyntaxKind.LessThan)) {
-    while (
-      parser.token &
-      (SyntaxKind.IsLessThanOrLeftParen |
-        SyntaxKind.IsExpressionStart |
-        SyntaxKind.IsStartOfType |
-        SyntaxKind.IsIdentifier |
-        SyntaxKind.IsPatternStart)
-    ) {
+    while (parser.token & 0b00111000000000010100000000000000) {
       types.push(parseTypeParameterInstantiation(parser, context));
       if (parser.token !== SyntaxKind.GreaterThan) {
         consume(parser, context, SyntaxKind.Comma);
@@ -6552,12 +6538,12 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
   const start = parser.curPos;
-  const type = parseType(parser, context);
-  let initializer = null;
-  if (consumeOpt(parser, context, SyntaxKind.Assign)) {
-    initializer = parseUnionType(parser, context | Context.InTypes);
-  }
-  if (requireInitializer && parser.previousErrorPos !== parser.pos) {
+  let name = parseIdentifier(parser, context);
+  const type = parseTypeAnnotation(parser, context);
+  const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
+    ? parseUnionType(parser, context | Context.InTypes)
+    : null;
+  if (requireInitializer && !defaultType && parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;
     parser.onError(
       DiagnosticSource.Parser,
@@ -6570,7 +6556,7 @@ function parseTypeParameter(parser: ParserState, context: Context, requireInitia
       parser.pos
     );
   }
-  return createTypeParameter(type, initializer, start, parser.curPos);
+  return createTypeParameter(name, type, defaultType, start, parser.curPos);
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`

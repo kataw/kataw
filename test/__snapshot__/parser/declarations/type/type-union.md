@@ -235,7 +235,7 @@ type overloads2 = {
                     "end": 90
                 },
                 "operatorToken": {
-                    "kind": 34375,
+                    "kind": 134252103,
                     "flags": 65,
                     "start": 90,
                     "end": 94

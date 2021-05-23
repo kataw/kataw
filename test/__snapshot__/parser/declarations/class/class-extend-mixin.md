@@ -46,22 +46,16 @@ class Foo<T> extends mixin(Bar) { }
                 "typeParameters": [
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "start": 10,
                             "end": 11
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 10,
                         "end": 11

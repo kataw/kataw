@@ -293,22 +293,16 @@ type T27 = ArgumentType<never>;  // any
                                         "typeParameters": [
                                             {
                                                 "kind": 146,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "T",
-                                                        "rawText": "T",
-                                                        "flags": 96,
-                                                        "start": 125,
-                                                        "end": 126
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
                                                     "start": 125,
                                                     "end": 126
                                                 },
-                                                "initializer": null,
+                                                "type": null,
+                                                "defaultType": null,
                                                 "flags": 0,
                                                 "start": 125,
                                                 "end": 126

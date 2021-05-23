@@ -45,13 +45,16 @@ type foo<number> = string;
                 "typeParameters": [
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 134234345,
-                            "flags": 64,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "number",
+                            "rawText": "number",
+                            "flags": 96,
                             "start": 9,
                             "end": 15
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 9,
                         "end": 15

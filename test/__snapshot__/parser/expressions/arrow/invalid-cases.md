@@ -5353,7 +5353,7 @@ a++ => {};
                                                         "end": 1235
                                                     },
                                                     "operatorToken": {
-                                                        "kind": 134251067,
+                                                        "kind": 33339,
                                                         "flags": 64,
                                                         "start": 1235,
                                                         "end": 1237
@@ -5592,7 +5592,7 @@ a++ => {};
                                                         "end": 1282
                                                     },
                                                     "operatorToken": {
-                                                        "kind": 134251067,
+                                                        "kind": 33339,
                                                         "flags": 64,
                                                         "start": 1282,
                                                         "end": 1284
@@ -5739,7 +5739,7 @@ a++ => {};
                                                                     "end": 1311
                                                                 },
                                                                 "operatorToken": {
-                                                                    "kind": 134251067,
+                                                                    "kind": 33339,
                                                                     "flags": 64,
                                                                     "start": 1311,
                                                                     "end": 1313

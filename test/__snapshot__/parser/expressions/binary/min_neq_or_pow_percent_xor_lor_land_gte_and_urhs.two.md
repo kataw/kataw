@@ -148,7 +148,7 @@ x0 - x1 != x2 | x3 ** x4 % x5 ^ x6 || x7 && x8 >= x9 & x10 >>> x
                     "end": 34
                 },
                 "operatorToken": {
-                    "kind": 134251067,
+                    "kind": 33339,
                     "flags": 64,
                     "start": 34,
                     "end": 37
@@ -200,7 +200,7 @@ x0 - x1 != x2 | x3 ** x4 % x5 ^ x6 || x7 && x8 >= x9 & x10 >>> x
                             "end": 52
                         },
                         "operatorToken": {
-                            "kind": 34375,
+                            "kind": 134252103,
                             "flags": 64,
                             "start": 52,
                             "end": 54

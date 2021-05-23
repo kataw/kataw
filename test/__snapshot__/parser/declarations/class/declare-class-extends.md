@@ -51,22 +51,16 @@ declare class A<T> extends B<T> { x: number }
                 "typeParameters": [
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 16,
-                                "end": 17
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "start": 16,
                             "end": 17
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 16,
                         "end": 17

@@ -122,13 +122,16 @@ function a<string>(x: string): string {
                 "typeParameters": [
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 134234347,
-                            "flags": 64,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
                             "start": 11,
                             "end": 17
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 11,
                         "end": 17

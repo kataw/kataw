@@ -59,22 +59,16 @@ const identity = <T>(t: T): T => t;
                                 "typeParameters": [
                                     {
                                         "kind": 146,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "start": 18,
-                                                "end": 19
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 19
                                         },
-                                        "initializer": null,
+                                        "type": null,
+                                        "defaultType": null,
                                         "flags": 0,
                                         "start": 18,
                                         "end": 19

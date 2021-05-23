@@ -53,7 +53,7 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             "end": 8
                         },
                         "operatorToken": {
-                            "kind": 34375,
+                            "kind": 134252103,
                             "flags": 64,
                             "start": 8,
                             "end": 10
@@ -109,7 +109,7 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                     "end": 25
                 },
                 "operatorToken": {
-                    "kind": 134251067,
+                    "kind": 33339,
                     "flags": 64,
                     "start": 25,
                     "end": 28

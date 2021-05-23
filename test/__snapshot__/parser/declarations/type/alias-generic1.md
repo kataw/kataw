@@ -48,66 +48,48 @@ type MyObject<A, B, C> = {
                 "typeParameters": [
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "start": 14,
-                                "end": 15
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "A",
+                            "rawText": "A",
+                            "flags": 96,
                             "start": 14,
                             "end": 15
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 14,
                         "end": 15
                     },
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 96,
-                                "start": 16,
-                                "end": 18
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 96,
                             "start": 16,
                             "end": 18
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 16,
                         "end": 18
                     },
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "C",
-                                "rawText": "C",
-                                "flags": 96,
-                                "start": 19,
-                                "end": 21
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "C",
+                            "rawText": "C",
+                            "flags": 96,
                             "start": 19,
                             "end": 21
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 19,
                         "end": 21

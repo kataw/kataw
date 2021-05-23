@@ -89,22 +89,16 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                         "typeParameters": [
                                                             {
                                                                 "kind": 146,
-                                                                "type": {
-                                                                    "kind": 144,
-                                                                    "id": {
-                                                                        "kind": 134299649,
-                                                                        "text": "T",
-                                                                        "rawText": "T",
-                                                                        "flags": 96,
-                                                                        "start": 56,
-                                                                        "end": 57
-                                                                    },
-                                                                    "typeParameters": null,
-                                                                    "flags": 0,
+                                                                "name": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
                                                                     "start": 56,
                                                                     "end": 57
                                                                 },
-                                                                "initializer": null,
+                                                                "type": null,
+                                                                "defaultType": null,
                                                                 "flags": 0,
                                                                 "start": 56,
                                                                 "end": 57

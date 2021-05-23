@@ -254,7 +254,7 @@ typeof a == 'b';
                     "end": 44
                 },
                 "operatorToken": {
-                    "kind": 34375,
+                    "kind": 134252103,
                     "flags": 64,
                     "start": 44,
                     "end": 46

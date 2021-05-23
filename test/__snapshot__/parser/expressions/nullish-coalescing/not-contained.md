@@ -36,7 +36,7 @@ a ?? b && c;
                         "end": 1
                     },
                     "operatorToken": {
-                        "kind": 134251067,
+                        "kind": 33339,
                         "flags": 64,
                         "start": 1,
                         "end": 4
@@ -104,7 +104,7 @@ a ?? b && c;
                         "end": 20
                     },
                     "operatorToken": {
-                        "kind": 134251067,
+                        "kind": 33339,
                         "flags": 64,
                         "start": 20,
                         "end": 23

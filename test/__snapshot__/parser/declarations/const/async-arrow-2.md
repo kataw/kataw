@@ -65,66 +65,48 @@ const f = async <T, R, S>(
                                 "typeParameters": [
                                     {
                                         "kind": 146,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "start": 17,
-                                                "end": 18
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 18
                                         },
-                                        "initializer": null,
+                                        "type": null,
+                                        "defaultType": null,
                                         "flags": 0,
                                         "start": 17,
                                         "end": 18
                                     },
                                     {
                                         "kind": 146,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "R",
-                                                "rawText": "R",
-                                                "flags": 96,
-                                                "start": 19,
-                                                "end": 21
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "R",
+                                            "rawText": "R",
+                                            "flags": 96,
                                             "start": 19,
                                             "end": 21
                                         },
-                                        "initializer": null,
+                                        "type": null,
+                                        "defaultType": null,
                                         "flags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
                                     {
                                         "kind": 146,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "S",
-                                                "rawText": "S",
-                                                "flags": 96,
-                                                "start": 22,
-                                                "end": 24
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "S",
+                                            "rawText": "S",
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 24
                                         },
-                                        "initializer": null,
+                                        "type": null,
+                                        "defaultType": null,
                                         "flags": 0,
                                         "start": 22,
                                         "end": 24

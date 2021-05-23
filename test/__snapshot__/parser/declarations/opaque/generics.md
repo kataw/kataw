@@ -55,66 +55,48 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                 "typeParameters": [
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "start": 21,
-                                "end": 22
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "A",
+                            "rawText": "A",
+                            "flags": 96,
                             "start": 21,
                             "end": 22
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 21,
                         "end": 22
                     },
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 96,
-                                "start": 23,
-                                "end": 25
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 96,
                             "start": 23,
                             "end": 25
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 23,
                         "end": 25
                     },
                     {
                         "kind": 146,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "C",
-                                "rawText": "C",
-                                "flags": 96,
-                                "start": 26,
-                                "end": 28
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "C",
+                            "rawText": "C",
+                            "flags": 96,
                             "start": 26,
                             "end": 28
                         },
-                        "initializer": null,
+                        "type": null,
+                        "defaultType": null,
                         "flags": 0,
                         "start": 26,
                         "end": 28
