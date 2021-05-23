@@ -1,7 +1,7 @@
-import { ExpressionNode } from './';
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { BinaryExpression } from './binary-expr';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from './';
+import { BinaryExpression } from './binary-expr';
 
 /**
  * Conditional expression.

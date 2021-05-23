@@ -7,7 +7,7 @@ import { createBlock, Block } from '../ast/statements/block';
 import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
 import { createBreakStatement, BreakStatement } from '../ast/statements/break-stmt';
 import { createContinueStatement, ContinueStatement } from '../ast/statements/continue-stmt';
-import { createLabels, Labels } from '../ast/statements/labelled-identifier';
+import { createLabels } from '../ast/statements/labelled-identifier';
 import { createCaseBlock, CaseBlock } from '../ast/statements/case-block';
 import { createCaseClause, CaseClause } from '../ast/statements/case-clause';
 import { createCatch, CatchClause } from '../ast/statements/catch-stmt';
@@ -66,7 +66,7 @@ import { createExportDefault, ExportDefault } from '../ast/module/export-default
 import { createExportFromClause, ExportFromClause } from '../ast/module/export-from-clause';
 import { createExportSpecifier, ExportSpecifier } from '../ast/module/export-specifier';
 import { createExportsList, ExportsList } from '../ast/module/exports-list';
-import { createImportClause, ImportClause } from '../ast/module/import-clause';
+import { createImportClause } from '../ast/module/import-clause';
 import { createImportDeclaration, ImportDeclaration } from '../ast/module/import-declaration';
 import { createImportsList, ImportsList } from '../ast/module/imports-list';
 import { createNamedExports, NamedExports } from '../ast/module/named-exports';
@@ -114,26 +114,26 @@ import { createThisExpression, ThisExpression } from '../ast/expressions/this-ex
 import { createConditionalExpression } from '../ast/expressions/conditional-expr';
 import { createBinaryExpression, BinaryExpression } from '../ast/expressions/binary-expr';
 import { createBooleanType, BooleanType } from '../ast/types/boolean-type';
-import { createIndexedAccessType, IndexedAccessType } from '../ast/types/indexed-access-type';
+import { createIndexedAccessType } from '../ast/types/indexed-access-type';
 import { createObjectTypeSpreadProperty, ObjectTypeSpreadProperty } from '../ast/types/object-type-spread-property';
 import { createObjectTypeInternalSlot, ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
-import { createArrayType, ArrayType } from '../ast/types/array-type';
+import { createArrayType } from '../ast/types/array-type';
 import { createTypeofType, TypeofType } from '../ast/types/typeof-type';
-import { createNullableType, NullableType } from '../ast/types/nullable-type';
+import { createNullableType } from '../ast/types/nullable-type';
 import { createObjectType, ObjectType } from '../ast/types/object-type';
 import { createStringType, StringType } from '../ast/types/string-type';
 import { createNumberType, NumberType } from '../ast/types/number-type';
 import { createObjectTypeCallProperty, ObjectTypeCallProperty } from '../ast/types/object-type-call-property';
 import { createObjectTypeIndexer, ObjectTypeIndexer } from '../ast/types/object-type-indexer';
-import { createIntersectionType, IntersectionType } from '../ast/types/intersection-type';
-import { createUnionType, UnionType } from '../ast/types/union-type';
+import { createIntersectionType } from '../ast/types/intersection-type';
+import { createUnionType } from '../ast/types/union-type';
 import { createTypeAnnotation, TypeAnnotation } from '../ast/types/type-annotation';
 import { createQualifiedType, QualifiedType } from '../ast/types/qualified-type';
 import { createGenericType, GenericType } from '../ast/types/generic-type';
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
 import { createTupleType, TupleType } from '../ast/types/tuple-type';
-import { createArrowFunctionType, ArrowFunctionType } from '../ast/types/arrow-function-type';
-import { createParenthesizedType, ParenthesizedType } from '../ast/types/parenthesized-type';
+import { createArrowFunctionType } from '../ast/types/arrow-function-type';
+import { createParenthesizedType } from '../ast/types/parenthesized-type';
 import { createFunctionType, FunctionType } from '../ast/types/function-type';
 import { createFunctionTypeParameterList, FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
 import { createFunctionTypeParameters, FunctionTypeParameter } from '../ast/types/function-type-parameter';
@@ -146,7 +146,7 @@ import { createClassDeclaration, ClassDeclaration } from '../ast/statements/clas
 import { createLexicalBinding, LexicalBinding } from '../ast/statements/lexical-binding';
 import { createLexicalDeclaration, LexicalDeclaration } from '../ast/statements/lexical-declaration';
 import { createTypeAlias, TypeAlias } from '../ast/types/type-alias-declaration';
-import { createOpaqueType, OpaqueType } from '../ast/types/opaque-type';
+import { createOpaqueType } from '../ast/types/opaque-type';
 import { createObjectTypeProperty, ObjectTypeProperty } from '../ast/types/object-type-property';
 import { createFunctionDeclaration, FunctionDeclaration } from '../ast/statements/function-declaration';
 import { createDummyIdentifier, DummyIdentifier } from '../ast/internal/dummy-identifier';
@@ -163,11 +163,7 @@ import {
   createTypeParameterInstantiation,
   TypeParameterInstantiation
 } from '../ast/types/type-parameter-instantiation';
-import {
-  createPropertyDefinitionList,
-  PropertyDefinitionList,
-  Properties
-} from '../ast/expressions/property-definition-list';
+import { createPropertyDefinitionList, PropertyDefinitionList } from '../ast/expressions/property-definition-list';
 import {
   ParserState,
   Context,
@@ -8189,7 +8185,7 @@ export function parseStaticBlock(
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
-) {
+): StaticBlock {
   if (decorators) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -8211,37 +8207,19 @@ export function parseStaticBlock(
   }
   const block = parseBlock(
     parser,
-    (context |
-      Context.InGeneratorContext |
-      Context.InAwaitContext |
-      Context.NewTarget |
-      Context.InSwitch |
-      Context.InIteration |
-      Context.AllowReturn) ^
+    (context | 0b01100000000000000111111100000000) ^
       // The "await" and 'yield' parsing context does not apply to the block's statement list in a static block
       // so we unset the bit to trigger an error message
-      (Context.InAwaitContext |
-        Context.InGeneratorContext |
-        Context.InSwitch |
-        Context.InIteration |
-        Context.AllowReturn),
+      0b01000000000000000101111100000000,
     createScope(),
     false
   );
-  consume(
-    parser,
-    context | Context.AllowRegExp,
-    SyntaxKind.RightBrace,
-    DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-  );
+  consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
   if (consumeOpt(parser, context, SyntaxKind.Assign)) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[
-        DiagnosticCode
-          .Declaration_or_statement_expected_This_follows_a_block_of_statements_so_if_you_intended_to_write_a_destructuring_assignment_you_might_need_to_wrap_the_whole_assignment_in_parentheses
-      ],
+      diagnosticMap[DiagnosticCode.Expression_expected],
       parser.curPos,
       parser.pos
     );
@@ -8329,7 +8307,7 @@ function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateI
   return createPrivateIdentifier(name, pos, parser.curPos);
 }
 
-export function parseImportMetaOrCall(parser: ParserState, context: Context, inNewExpression: boolean): any {
+export function parseImportMetaOrCall(parser: ParserState, context: Context, inNewExpression: boolean): ExpressionNode {
   if (inNewExpression) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -8358,7 +8336,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
         parser.pos
       );
     case SyntaxKind.LeftParen:
-      if ((context & Context.SuperCall) < 1) {
+      if ((context & Context.SuperCall) === 0) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -8373,7 +8351,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
       return expression;
     case SyntaxKind.LeftBracket:
     case SyntaxKind.Period:
-      if ((context & Context.SuperProperty) < 1) {
+      if ((context & Context.SuperProperty) === 0) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -8425,7 +8403,7 @@ function parseDecoratorExpression(parser: ParserState, context: Context): Decora
   return createDecorator(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
-function nextTokenIsLeftParen(parser: ParserState, context: Context) {
+function nextTokenIsLeftParen(parser: ParserState, context: Context): boolean {
   parseTypeParameterDeclaration(parser, context);
   return parser.token !== SyntaxKind.LeftParen;
 }
@@ -8445,9 +8423,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   const asyncToken = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, parser.curPos);
   const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
   if (parser.token === SyntaxKind.LessThan) {
-    if ((context & Context.OptionsAllowTypes) === 0) {
-      return expr;
-    }
+    if ((context & Context.OptionsAllowTypes) === 0) return expr;
     if (speculate(parser, context, nextTokenIsLeftParen, true)) {
       return expr;
     }
@@ -8507,15 +8483,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   const params: ExpressionNode[] = [];
 
-  while (
-    parser.token &
-    (SyntaxKind.IsExpressionStart |
-      SyntaxKind.IsIdentifier |
-      SyntaxKind.IsFutureReserved |
-      SyntaxKind.IsPatternStart |
-      SyntaxKind.IsComma |
-      SyntaxKind.IsEllipsis)
-  ) {
+  while (parser.token & 0b00010000101010010100000000000000) {
     const pos = parser.curPos;
 
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -8949,7 +8917,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
       let trailingComma = false;
 
-      while (parser.token & 11255808) {
+      while (parser.token & 0b00000000101010111100000000000000) {
         params.push(parseArgumentOrArrayLiteralElement(parser, context));
         if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
         if (consumeOpt(parser, context, SyntaxKind.Comma)) {
