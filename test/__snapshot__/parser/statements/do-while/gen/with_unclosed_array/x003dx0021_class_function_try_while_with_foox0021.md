@@ -237,7 +237,7 @@ do[ =! class function try while with foo!
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 5
-✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 41
+✖ Expression expected - start: 40, end: 41
 
 ```
 

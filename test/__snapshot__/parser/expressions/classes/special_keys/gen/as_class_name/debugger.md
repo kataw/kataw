@@ -109,7 +109,7 @@ class debugger {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 14
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 16
+✖ Expression expected - start: 14, end: 16
 
 ```
 

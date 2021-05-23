@@ -109,7 +109,7 @@ class typeof {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
-✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 14
+✖ Expression expected - start: 12, end: 14
 
 ```
 

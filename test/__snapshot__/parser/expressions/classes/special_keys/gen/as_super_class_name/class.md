@@ -115,7 +115,7 @@ class x extends class {}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 24
+✖ Expression expected - start: 24, end: 24
 
 ```
 

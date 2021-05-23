@@ -205,7 +205,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 46
+✖ Expression expected - start: 44, end: 46
 
 ```
 

@@ -113,7 +113,7 @@ class x extends delete {}
 
 ```javascript
 ✖ Expression expected - start: 22, end: 24
-✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
+✖ Expression expected - start: 25, end: 25
 
 ```
 

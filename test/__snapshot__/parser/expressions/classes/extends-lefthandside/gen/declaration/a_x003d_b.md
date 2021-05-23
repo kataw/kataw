@@ -121,7 +121,7 @@ class A extends a = b {}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 19
+✖ Expression expected - start: 17, end: 19
 ✖ Expected a `;` - start: 21, end: 23
 
 ```

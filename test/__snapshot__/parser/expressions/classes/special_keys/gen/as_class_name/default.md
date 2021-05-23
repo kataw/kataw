@@ -109,7 +109,7 @@ class default {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 13
-✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 15
+✖ Expression expected - start: 13, end: 15
 
 ```
 

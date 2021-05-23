@@ -132,7 +132,7 @@ x {}
 
 ```javascript
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 21
-✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 25
+✖ Expression expected - start: 23, end: 25
 
 ```
 

@@ -166,7 +166,7 @@
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 11, end: 17
 ✖ Binding identifier expected - start: 17, end: 26
-✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 28
+✖ Expression expected - start: 26, end: 28
 ✖ Expression expected - start: 29, end: 29
 
 ```

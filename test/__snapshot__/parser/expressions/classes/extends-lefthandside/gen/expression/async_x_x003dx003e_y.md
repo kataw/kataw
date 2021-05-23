@@ -156,7 +156,7 @@ x => y {})
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 27
+✖ Expression expected - start: 24, end: 27
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 24
 ✖ Expected a `;` - start: 29, end: 31
 ✖ Declaration or statement expected - start: 32, end: 33

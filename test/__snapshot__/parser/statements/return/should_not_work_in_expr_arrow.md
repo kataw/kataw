@@ -85,7 +85,7 @@
 
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 5, end: 12
-✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 12
+✖ Expression expected - start: 12, end: 12
 
 ```
 

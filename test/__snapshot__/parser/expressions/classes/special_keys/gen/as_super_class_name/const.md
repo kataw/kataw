@@ -129,7 +129,7 @@ class x extends const {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 21
-✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 23
+✖ Expression expected - start: 21, end: 23
 
 ```
 

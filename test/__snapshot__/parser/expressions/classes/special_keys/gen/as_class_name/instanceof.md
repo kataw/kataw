@@ -109,7 +109,7 @@ class instanceof {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 16
-✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 18
+✖ Expression expected - start: 16, end: 18
 
 ```
 

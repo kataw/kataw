@@ -219,7 +219,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expected a `;` - start: 18, end: 24
 ✖ Binding identifier expected - start: 24, end: 33
-✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 35
+✖ Expression expected - start: 33, end: 35
 ✖ Expression expected - start: 36, end: 36
 
 ```

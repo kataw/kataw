@@ -240,7 +240,7 @@
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Expected a `;` - start: 26, end: 32
 ✖ Binding identifier expected - start: 32, end: 41
-✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 43
+✖ Expression expected - start: 41, end: 43
 ✖ Expression expected - start: 44, end: 44
 
 ```

@@ -190,7 +190,7 @@
 ```javascript
 ✖ Expected a `;` - start: 14, end: 20
 ✖ Binding identifier expected - start: 20, end: 29
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 31
+✖ Expression expected - start: 29, end: 31
 ✖ Expression expected - start: 32, end: 32
 
 ```

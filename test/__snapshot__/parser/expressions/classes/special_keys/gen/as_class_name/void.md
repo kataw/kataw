@@ -109,7 +109,7 @@ class void {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 12
+✖ Expression expected - start: 10, end: 12
 
 ```
 

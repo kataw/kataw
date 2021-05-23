@@ -138,7 +138,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 20
+✖ Expression expected - start: 18, end: 20
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 ✖ Expected a ')' to match the '(' token here - start: 22, end: 24
 ✖ Declaration or statement expected - start: 25, end: 26

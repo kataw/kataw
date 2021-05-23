@@ -129,7 +129,7 @@ class A extends await x {}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 25
+✖ Expression expected - start: 23, end: 25
 
 ```
 

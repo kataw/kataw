@@ -185,7 +185,7 @@ async function p(){
 
 ```javascript
 ✖ 'await' cannot be used as an identifier here - start: 37, end: 43
-✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 47
+✖ Expression expected - start: 45, end: 47
 
 ```
 

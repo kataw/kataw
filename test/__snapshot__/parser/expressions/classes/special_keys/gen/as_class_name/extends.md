@@ -93,7 +93,7 @@ class extends {}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 16
+✖ Expression expected - start: 16, end: 16
 
 ```
 

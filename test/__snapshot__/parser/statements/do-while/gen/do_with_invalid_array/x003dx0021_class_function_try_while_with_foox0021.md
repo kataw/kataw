@@ -285,7 +285,7 @@ do while [catch] =! class function try while with foo!
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ The parser expected to find a '}' to match the '{' token here - start: 53, end: 54
+✖ Expression expected - start: 53, end: 54
 
 ```
 

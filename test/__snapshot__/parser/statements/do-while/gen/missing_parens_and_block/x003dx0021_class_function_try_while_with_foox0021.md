@@ -262,7 +262,7 @@ do =! class function try while with foo! while
 
 ```javascript
 ✖ Expression expected - start: 2, end: 4
-✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 40
+✖ Expression expected - start: 39, end: 40
 ✖ Expression expected - start: 40, end: 46
 
 ```

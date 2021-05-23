@@ -109,7 +109,7 @@ class throw {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 13
+✖ Expression expected - start: 11, end: 13
 
 ```
 

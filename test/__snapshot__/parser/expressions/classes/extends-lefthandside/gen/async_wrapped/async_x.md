@@ -186,7 +186,7 @@ x {}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 47
+✖ Expression expected - start: 45, end: 47
 
 ```
 

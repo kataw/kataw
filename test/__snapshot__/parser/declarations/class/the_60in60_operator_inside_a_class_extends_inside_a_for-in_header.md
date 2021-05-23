@@ -205,7 +205,7 @@ for (class x extends a in b {} in c);
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 29
+✖ Expression expected - start: 27, end: 29
 
 ```
 

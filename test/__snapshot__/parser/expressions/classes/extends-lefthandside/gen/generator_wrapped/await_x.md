@@ -184,7 +184,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 42
+✖ Expression expected - start: 40, end: 42
 
 ```
 

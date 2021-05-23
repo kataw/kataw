@@ -129,7 +129,7 @@ class x extends extends {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 23
-✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 25
+✖ Expression expected - start: 23, end: 25
 
 ```
 

@@ -5478,7 +5478,8 @@ function parseFunctionBody(
   firstRestricted: SyntaxKind | null
 ): FunctionBody {
   const pos = parser.curPos;
-  if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace) || ignoreMissingOpenBrace) {
+  const openBraceExists = consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace);
+  if (openBraceExists || ignoreMissingOpenBrace) {
     const statementList = parseFunctionStatementList(
       parser,
       (context | Context.InSwitch | Context.InIteration | Context.Parameters) ^
@@ -5491,7 +5492,7 @@ function parseFunctionBody(
       parser,
       isDecl ? context | Context.AllowRegExp : context,
       SyntaxKind.RightBrace,
-      DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+      openBraceExists ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here : DiagnosticCode.Expression_expected
     );
     return createFunctionBody(statementList, pos, parser.curPos);
   }
@@ -7749,10 +7750,10 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
   }
 
-  consume(parser, context, SyntaxKind.LeftBrace) || ignoreMissingOpenBrace;
+  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace);
   body = parseClassBody(parser, inheritedContext, context, isDeclared);
   if (isDecl) context | Context.AllowRegExp;
-  consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
+  consume(parser, context, SyntaxKind.RightBrace, openBraceExists ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here : DiagnosticCode.Expression_expected);
   return createClassTail(classHeritage, body, pos, parser.curPos);
 }
 
