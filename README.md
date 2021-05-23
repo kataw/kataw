@@ -26,6 +26,8 @@ parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
 - 100% correct comment extraction and attachment algorithm
 
+- Can parse types and type annotations (_Kataw has it's own type system_)
+
 - Can be used in any editors
 
 - Scalable
