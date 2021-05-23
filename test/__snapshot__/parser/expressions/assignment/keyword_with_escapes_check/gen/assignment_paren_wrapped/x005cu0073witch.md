@@ -109,7 +109,7 @@
 
 ```javascript
 ✖ Expression expected - start: 1, end: 12
-✖ Expression expected - start: 12, end: 14
+✖ Missing an opening parentheses - '( - start: 12, end: 14
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
 
 ```

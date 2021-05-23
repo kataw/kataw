@@ -110,7 +110,7 @@
 
 ```javascript
 ✖ ',' expected - start: 8, end: 14
-✖ Expression expected - start: 14, end: 14
+✖ Missing an opening brace - '{ - start: 14, end: 14
 ✖ ',' expected - start: 14, end: 14
 
 ```

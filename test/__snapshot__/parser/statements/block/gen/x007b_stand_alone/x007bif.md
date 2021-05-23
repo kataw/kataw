@@ -99,7 +99,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 5, end: 5
+✖ Missing an opening parentheses - '( - start: 5, end: 5
 
 ```
 

@@ -118,6 +118,7 @@ do while [catch] /false//a
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Unterminated regular expression - start: 24, end: 25

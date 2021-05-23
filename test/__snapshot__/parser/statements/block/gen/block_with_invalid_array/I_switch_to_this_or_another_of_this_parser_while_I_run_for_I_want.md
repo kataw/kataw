@@ -312,13 +312,15 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expected a `;` - start: 11, end: 18
-✖ Expected a ')' to match the '(' token here - start: 21, end: 26
+✖ Missing an opening parentheses - '( - start: 18, end: 21
+✖ Declaration or statement expected - start: 21, end: 26
 ✖ Expected a `;` - start: 26, end: 29
 ✖ Expected a `;` - start: 29, end: 37
 ✖ Expected a `;` - start: 37, end: 40
 ✖ Expected a `;` - start: 40, end: 45
 ✖ Expected a `;` - start: 45, end: 52
 ✖ Expected a `;` - start: 52, end: 58
+✖ Missing an opening parentheses - '( - start: 58, end: 60
 ✖ Declaration or statement expected - start: 60, end: 64
 ✖ Expected a `;` - start: 64, end: 68
 ✖ Expression expected - start: 75, end: 75

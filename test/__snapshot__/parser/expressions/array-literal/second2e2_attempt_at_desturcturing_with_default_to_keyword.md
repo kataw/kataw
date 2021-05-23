@@ -176,6 +176,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening brace - '{ - start: 16, end: 17
 ✖ Unexpected token. - start: 16, end: 17
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 17
 ✖ The left-hand side must be a variable or a property access. - start: 19, end: 21

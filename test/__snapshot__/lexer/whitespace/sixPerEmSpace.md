@@ -144,6 +144,7 @@ left@{x2006}@right
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening brace - '{ - start: 11, end: 12
 ✖ Binding identifier expected - start: 18, end: 18
 
 ```

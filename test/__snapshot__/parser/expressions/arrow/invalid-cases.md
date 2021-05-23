@@ -10607,12 +10607,12 @@ a++ => {};
 ✖ Expected a `;` - start: 2858, end: 2861
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2865, end: 2870
 ✖ Expected a `;` - start: 2885, end: 2888
-✖ Expression expected - start: 2895, end: 2898
+✖ Missing an opening parentheses - '( - start: 2895, end: 2898
 ✖ Expression expected - start: 2904, end: 2906
-✖ Expression expected - start: 2906, end: 2907
+✖ Missing an opening parentheses - '( - start: 2906, end: 2907
 ✖ Expression expected - start: 2907, end: 2910
 ✖ Expected a ')' to match the '(' token here - start: 2918, end: 2921
-✖ Expression expected - start: 2921, end: 2922
+✖ Missing an opening parentheses - '( - start: 2921, end: 2922
 ✖ Expression expected - start: 2922, end: 2925
 ✖ Expected a `;` - start: 2935, end: 2938
 ✖ Expected a `;` - start: 2950, end: 2953

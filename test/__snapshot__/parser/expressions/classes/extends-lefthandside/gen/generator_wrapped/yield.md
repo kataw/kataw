@@ -170,7 +170,7 @@ function *P(){
 
 ```javascript
 ✖ Expected a `;` - start: 38, end: 40
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
+✖ Missing an opening brace - '{ - start: 41, end: 43
 
 ```
 

@@ -190,8 +190,10 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
+✖ Missing an opening parentheses - '( - start: 12, end: 14
 ✖ Declaration or statement expected - start: 14, end: 21
-✖ Expression expected - start: 21, end: 27
+✖ Missing an opening parentheses - '( - start: 21, end: 27
+✖ Missing an opening parentheses - '( - start: 27, end: 29
 ✖ Declaration or statement expected - start: 29, end: 35
 
 ```

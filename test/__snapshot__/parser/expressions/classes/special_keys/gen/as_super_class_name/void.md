@@ -113,7 +113,7 @@ class x extends void {}
 
 ```javascript
 ✖ Expression expected - start: 20, end: 22
-✖ Expression expected - start: 23, end: 23
+✖ Missing an opening brace - '{ - start: 23, end: 23
 
 ```
 

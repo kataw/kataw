@@ -89,8 +89,8 @@ sw\u0069tch = x;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 11, end: 13
-✖ Expected a ')' to match the '(' token here - start: 15, end: 16
+✖ Missing an opening parentheses - '( - start: 11, end: 13
+✖ Declaration or statement expected - start: 15, end: 16
 
 ```
 

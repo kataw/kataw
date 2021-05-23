@@ -188,7 +188,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 39, end: 41
+✖ Missing an opening brace - '{ - start: 39, end: 41
 ✖ Expected a `;` - start: 43, end: 45
 
 ```

@@ -67,7 +67,8 @@ switch {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 9, end: 9
+✖ Missing an opening parentheses - '( - start: 6, end: 8
+✖ Declaration or statement expected - start: 9, end: 9
 
 ```
 

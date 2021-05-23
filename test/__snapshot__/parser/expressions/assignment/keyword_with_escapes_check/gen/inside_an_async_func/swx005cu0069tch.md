@@ -119,8 +119,8 @@ async () => {  sw\u0069tch = x  }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 26, end: 28
-✖ Expected a ')' to match the '(' token here - start: 30, end: 33
+✖ Missing an opening parentheses - '( - start: 26, end: 28
+✖ Declaration or statement expected - start: 30, end: 33
 
 ```
 

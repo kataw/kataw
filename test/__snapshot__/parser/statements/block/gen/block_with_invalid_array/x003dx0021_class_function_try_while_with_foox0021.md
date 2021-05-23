@@ -288,6 +288,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 11, end: 12
+✖ Missing an opening brace - '{ - start: 18, end: 27
 ✖ Expression expected - start: 46, end: 47
 
 ```

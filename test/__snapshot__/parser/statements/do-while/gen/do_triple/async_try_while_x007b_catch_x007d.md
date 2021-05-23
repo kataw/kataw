@@ -194,7 +194,7 @@ do do do async try while { catch } while while while
 ✖ Property definition expected. Did you mean to use a ':'? - start: 32, end: 34
 ✖ Declaration or statement expected - start: 34, end: 40
 ✖ Expression expected - start: 40, end: 46
-✖ Expression expected - start: 46, end: 52
+✖ Missing an opening parentheses - '( - start: 46, end: 52
 
 ```
 

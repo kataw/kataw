@@ -171,7 +171,7 @@
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 2, end: 8
-✖ Expression expected - start: 8, end: 12
+✖ Missing an opening parentheses - '( - start: 8, end: 12
 ✖ Expected a `;` - start: 21, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 26
 

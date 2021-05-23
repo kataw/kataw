@@ -93,7 +93,7 @@ class extends {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 16, end: 16
+✖ Missing an opening brace - '{ - start: 16, end: 16
 
 ```
 

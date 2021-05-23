@@ -150,7 +150,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 7, end: 11
+✖ Missing an opening parentheses - '( - start: 7, end: 11
 ✖ Expected a `;` - start: 20, end: 22
 ✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
 

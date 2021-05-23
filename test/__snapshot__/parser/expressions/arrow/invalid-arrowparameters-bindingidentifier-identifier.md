@@ -120,7 +120,7 @@ var af = switch => 1;
 ```javascript
 ✖ Expression expected - start: 8, end: 15
 ✖ Variable declaration expected. - start: 8, end: 15
-✖ Expression expected - start: 15, end: 18
+✖ Missing an opening parentheses - '( - start: 15, end: 18
 
 ```
 

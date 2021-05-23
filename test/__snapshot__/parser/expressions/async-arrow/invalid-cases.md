@@ -2243,7 +2243,7 @@ async ([a]:string)=>c;
 ✖ 'try' expected - start: 53, end: 58
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ Expected a `;` - start: 71, end: 74
-✖ Expression expected - start: 74, end: 77
+✖ Missing an opening parentheses - '( - start: 74, end: 77
 ✖ Declaration or statement expected - start: 106, end: 109
 ✖ Expected a `;` - start: 138, end: 140
 ✖ Declaration or statement expected - start: 140, end: 143

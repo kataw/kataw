@@ -333,13 +333,15 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Expected a `;` - start: 19, end: 26
-✖ Expected a ')' to match the '(' token here - start: 29, end: 34
+✖ Missing an opening parentheses - '( - start: 26, end: 29
+✖ Declaration or statement expected - start: 29, end: 34
 ✖ Expected a `;` - start: 34, end: 37
 ✖ Expected a `;` - start: 37, end: 45
 ✖ Expected a `;` - start: 45, end: 48
 ✖ Expected a `;` - start: 48, end: 53
 ✖ Expected a `;` - start: 53, end: 60
 ✖ Expected a `;` - start: 60, end: 66
+✖ Missing an opening parentheses - '( - start: 66, end: 68
 ✖ Declaration or statement expected - start: 68, end: 72
 ✖ Expected a `;` - start: 72, end: 76
 ✖ Expression expected - start: 83, end: 83

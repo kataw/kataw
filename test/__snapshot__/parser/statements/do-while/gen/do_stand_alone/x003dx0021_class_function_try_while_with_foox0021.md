@@ -230,6 +230,7 @@ do =! class function try while with foo!
 
 ```javascript
 ✖ Expression expected - start: 2, end: 4
+✖ Missing an opening brace - '{ - start: 11, end: 20
 ✖ Expression expected - start: 39, end: 40
 
 ```

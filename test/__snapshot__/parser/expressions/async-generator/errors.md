@@ -7829,6 +7829,7 @@ async function * gen() {class C extends await { }}
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3333, end: 3335
+✖ Missing an opening brace - '{ - start: 3337, end: 3338
 ✖ 'await' cannot be used as an identifier here - start: 3378, end: 3384
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3389, end: 3389
 

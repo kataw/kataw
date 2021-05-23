@@ -908,13 +908,15 @@ async function f(){}
 ✖ Duplicate identifier - start: 139, end: 141
 ✖ Expected a ')' to match the '(' token here - start: 142, end: 143
 ✖ Expected a `;` - start: 144, end: 151
-✖ Expected a ')' to match the '(' token here - start: 155, end: 159
-✖ Expression expected - start: 172, end: 173
+✖ Missing an opening parentheses - '( - start: 151, end: 155
+✖ Declaration or statement expected - start: 155, end: 159
+✖ Missing an opening parentheses - '( - start: 172, end: 173
 ✖ The parser expected to find a '}' to match the '{' token here - start: 174, end: 175
 ✖ Expression expected - start: 175, end: 176
 ✖ Duplicate identifier - start: 186, end: 188
+✖ Missing an opening parentheses - '( - start: 228, end: 237
+✖ Missing an opening brace - '{ - start: 237, end: 238
 ✖ Unexpected token. - start: 237, end: 238
-✖ Expected a ')' to match the '(' token here - start: 237, end: 238
 
 ```
 

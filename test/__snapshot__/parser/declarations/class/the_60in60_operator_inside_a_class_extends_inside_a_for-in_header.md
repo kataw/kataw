@@ -205,6 +205,7 @@ for (class x extends a in b {} in c);
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening brace - '{ - start: 22, end: 25
 ✖ Expression expected - start: 27, end: 29
 
 ```

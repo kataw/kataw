@@ -133,8 +133,10 @@
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 4, end: 6
 ✖ Declaration or statement expected - start: 6, end: 13
-✖ Expression expected - start: 13, end: 19
+✖ Missing an opening parentheses - '( - start: 13, end: 19
+✖ Missing an opening parentheses - '( - start: 19, end: 21
 ✖ Declaration or statement expected - start: 21, end: 27
 
 ```

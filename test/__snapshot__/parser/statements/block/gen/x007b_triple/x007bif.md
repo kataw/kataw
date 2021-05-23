@@ -127,7 +127,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 9
+✖ Missing an opening parentheses - '( - start: 9, end: 9
 
 ```
 

@@ -133,6 +133,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 
 ```javascript
 ✖ 'await' cannot be used as an identifier here - start: 46, end: 52
+✖ Missing an opening brace - '{ - start: 52, end: 56
 ✖ Expression expected - start: 56, end: 58
 ✖ The parser expected to find a '}' to match the '{' token here - start: 59, end: 60
 ✖ Declaration or statement expected - start: 60, end: 63

@@ -98,7 +98,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 10
+✖ Missing an opening parentheses - '( - start: 9, end: 10
 
 ```
 

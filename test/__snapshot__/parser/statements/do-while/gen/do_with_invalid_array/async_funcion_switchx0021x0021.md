@@ -169,9 +169,11 @@ do while [catch] async funcion switch!!
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Declaration or statement expected - start: 30, end: 37
+✖ Missing an opening parentheses - '( - start: 37, end: 38
 ✖ Expression expected - start: 39, end: 39
 
 ```

@@ -476,13 +476,20 @@ function parseStatement(
 function parseSwitchStatement(parser: ParserState, context: Context, scope: ScopeState): SwitchStatement {
   const pos = parser.curPos;
   const switchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.SwitchKeyword);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const expression = parseExpression(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.RightParen,
-    DiagnosticCode.Expected_a_to_match_the_token_here
+    openParenExists
+      ? DiagnosticCode.Expected_a_to_match_the_token_here
+      : DiagnosticCode.Declaration_or_statement_expected
   );
 
   const caseBlock = parseCaseBlock(
@@ -780,7 +787,12 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
       parser.pos
     );
   }
-  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const expression = parseExpression(parser, context);
   consume(
     parser,
@@ -815,7 +827,12 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context, sco
 function parseWhileStatement(parser: ParserState, context: Context, scope: ScopeState): WhileStatement {
   const pos = parser.curPos;
   const whileToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
-  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const expression = parseExpression(parser, context);
   consume(
     parser,
@@ -882,7 +899,12 @@ function parseWithStatement(parser: ParserState, context: Context, scope: ScopeS
     );
   }
   const withKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WithKeyword);
-  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const expression = parseExpression(parser, context);
   consume(
     parser,
@@ -5478,7 +5500,12 @@ function parseFunctionBody(
   firstRestricted: SyntaxKind | null
 ): FunctionBody {
   const pos = parser.curPos;
-  const openBraceExists = consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace);
+  const openBraceExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftBrace,
+    DiagnosticCode.Missing_an_opening_brace
+  );
   if (openBraceExists || ignoreMissingOpenBrace) {
     const statementList = parseFunctionStatementList(
       parser,
@@ -5492,7 +5519,9 @@ function parseFunctionBody(
       parser,
       isDecl ? context | Context.AllowRegExp : context,
       SyntaxKind.RightBrace,
-      openBraceExists ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here : DiagnosticCode.Expression_expected
+      openBraceExists
+        ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+        : DiagnosticCode.Expression_expected
     );
     return createFunctionBody(statementList, pos, parser.curPos);
   }
@@ -7750,10 +7779,17 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
   }
 
-  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace);
+  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace);
   body = parseClassBody(parser, inheritedContext, context, isDeclared);
   if (isDecl) context | Context.AllowRegExp;
-  consume(parser, context, SyntaxKind.RightBrace, openBraceExists ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here : DiagnosticCode.Expression_expected);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightBrace,
+    openBraceExists
+      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+      : DiagnosticCode.Expression_expected
+  );
   return createClassTail(classHeritage, body, pos, parser.curPos);
 }
 

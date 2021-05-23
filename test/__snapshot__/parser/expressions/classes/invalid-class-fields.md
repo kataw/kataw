@@ -3413,6 +3413,7 @@
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 34, end: 35
 ✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 36
+✖ Missing an opening brace - '{ - start: 43, end: 44
 ✖ Binding identifier expected - start: 47, end: 48
 ✖ Invalid character - start: 62, end: 63
 ✖ The parser expected to find a '}' to match the '{' token here - start: 126, end: 128

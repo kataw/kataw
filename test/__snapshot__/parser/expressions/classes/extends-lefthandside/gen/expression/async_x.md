@@ -142,6 +142,7 @@ x {})
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening brace - '{ - start: 22, end: 24
 ✖ Expression expected - start: 24, end: 26
 ✖ Declaration or statement expected - start: 27, end: 28
 

@@ -135,7 +135,7 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
-✖ Expression expected - start: 17, end: 17
+✖ Missing an opening parentheses - '( - start: 17, end: 17
 
 ```
 

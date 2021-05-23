@@ -134,8 +134,8 @@
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening brace - '{ - start: 11, end: 17
 ✖ Unexpected token. - start: 11, end: 17
-✖ Expected a ')' to match the '(' token here - start: 11, end: 17
 
 ```
 

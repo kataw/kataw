@@ -219,8 +219,10 @@ x@{x9}@+@{x9}@y
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening brace - '{ - start: 5, end: 6
 ✖ Binding identifier expected - start: 8, end: 9
 ✖ Duplicate identifier - start: 10, end: 12
+✖ Missing an opening brace - '{ - start: 12, end: 13
 ✖ Binding identifier expected - start: 15, end: 15
 
 ```

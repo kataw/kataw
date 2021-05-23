@@ -158,6 +158,7 @@ do while [catch] catch try {
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Expression expected - start: 22, end: 26

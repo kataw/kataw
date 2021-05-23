@@ -138,8 +138,8 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 28, end: 30
-✖ Expected a ')' to match the '(' token here - start: 32, end: 34
+✖ Missing an opening parentheses - '( - start: 28, end: 30
+✖ Declaration or statement expected - start: 32, end: 34
 
 ```
 

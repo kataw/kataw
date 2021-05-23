@@ -161,7 +161,7 @@ do while try this and !foo while
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 12
+✖ Missing an opening parentheses - '( - start: 8, end: 12
 ✖ Declaration or statement expected - start: 26, end: 32
 
 ```
