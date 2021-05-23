@@ -100,7 +100,7 @@ do class x {} while
 
 ```javascript
 ✖ Class declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
-✖ Expression expected - start: 19, end: 19
+✖ Missing an opening parentheses - '( - start: 19, end: 19
 
 ```
 

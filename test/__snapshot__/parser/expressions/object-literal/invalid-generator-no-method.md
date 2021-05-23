@@ -96,12 +96,12 @@
 
 ```javascript
 
-({ * a(); });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Missing an opening parentheses - '( - start: 5, end: 7
+
 ```
 

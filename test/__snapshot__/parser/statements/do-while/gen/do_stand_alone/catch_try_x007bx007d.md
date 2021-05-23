@@ -93,7 +93,7 @@ do catch try {}
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
-✖ Expression expected - start: 15, end: 15
+✖ Missing an opening parentheses - '( - start: 15, end: 15
 
 ```
 

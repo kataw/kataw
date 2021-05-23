@@ -90,7 +90,7 @@ do /false//a
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 12, end: 12
+✖ Missing an opening parentheses - '( - start: 12, end: 12
 
 ```
 

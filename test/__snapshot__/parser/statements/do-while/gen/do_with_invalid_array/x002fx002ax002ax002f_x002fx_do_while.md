@@ -122,7 +122,7 @@ do while [catch] /**/ /x do while
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Unterminated regular expression - start: 16, end: 23
-✖ Expression expected - start: 33, end: 33
+✖ Missing an opening parentheses - '( - start: 33, end: 33
 
 ```
 

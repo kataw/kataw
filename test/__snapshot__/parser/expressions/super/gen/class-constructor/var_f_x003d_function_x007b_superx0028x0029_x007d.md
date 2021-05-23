@@ -236,6 +236,7 @@ class C { constructor() { var f = function { super(); } } }
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 42, end: 44
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 50, end: 51
 
 ```

@@ -134,7 +134,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 11, end: 17
+✖ Missing an opening parentheses - '( - start: 11, end: 17
 ✖ Unexpected token. - start: 11, end: 17
 
 ```

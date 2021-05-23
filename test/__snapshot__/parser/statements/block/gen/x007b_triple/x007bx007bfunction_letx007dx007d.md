@@ -141,6 +141,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 20, end: 21
 ✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 22
 
 ```

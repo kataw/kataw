@@ -179,9 +179,9 @@ do do do function while while while while
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 8, end: 17
 ✖ Binding identifier expected - start: 17, end: 23
-✖ Expression expected - start: 23, end: 29
-✖ Expression expected - start: 29, end: 35
-✖ Expression expected - start: 35, end: 41
+✖ Missing an opening parentheses - '( - start: 23, end: 29
+✖ Missing an opening parentheses - '( - start: 29, end: 35
+✖ Missing an opening parentheses - '( - start: 35, end: 41
 
 ```
 

@@ -135,6 +135,7 @@ do while [catch] class x {}
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ Missing an opening parentheses - '( - start: 22, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
 
 ```

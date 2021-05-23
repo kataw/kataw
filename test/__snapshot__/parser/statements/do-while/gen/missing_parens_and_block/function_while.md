@@ -129,7 +129,7 @@ do function while while
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 11
 ✖ Binding identifier expected - start: 11, end: 17
-✖ Expression expected - start: 17, end: 23
+✖ Missing an opening parentheses - '( - start: 17, end: 23
 
 ```
 

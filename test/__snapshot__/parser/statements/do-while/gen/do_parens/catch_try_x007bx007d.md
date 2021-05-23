@@ -117,7 +117,7 @@ do( catch try {} while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 9
-✖ Expression expected - start: 9, end: 13
+✖ Missing an opening parentheses - '( - start: 9, end: 13
 
 ```
 

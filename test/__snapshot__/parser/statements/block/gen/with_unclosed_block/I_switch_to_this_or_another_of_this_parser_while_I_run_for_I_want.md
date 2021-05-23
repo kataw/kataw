@@ -344,6 +344,7 @@
 ✖ Missing an opening parentheses - '( - start: 66, end: 68
 ✖ Declaration or statement expected - start: 68, end: 72
 ✖ Expected a `;` - start: 72, end: 76
+✖ Missing an opening parentheses - '( - start: 76, end: 78
 ✖ Expression expected - start: 83, end: 83
 
 ```

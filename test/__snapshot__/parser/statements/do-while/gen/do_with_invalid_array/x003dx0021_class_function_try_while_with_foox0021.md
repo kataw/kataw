@@ -286,6 +286,7 @@ do while [catch] =! class function try while with foo!
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ Missing an opening parentheses - '( - start: 18, end: 19
 ✖ Missing an opening brace - '{ - start: 25, end: 34
 ✖ Expression expected - start: 53, end: 54
 

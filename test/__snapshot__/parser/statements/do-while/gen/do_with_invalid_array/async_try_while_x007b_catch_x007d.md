@@ -197,7 +197,7 @@ do while [catch] async try while { catch }
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Expression expected - start: 22, end: 26
+✖ Missing an opening parentheses - '( - start: 22, end: 26
 ✖ 'try' expected - start: 34, end: 40
 ✖ The parser expected to find a '}' to match the '{' token here - start: 42, end: 42
 

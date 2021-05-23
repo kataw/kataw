@@ -95,7 +95,7 @@ do class x {}
 
 ```javascript
 ✖ Class declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
-✖ Expression expected - start: 13, end: 13
+✖ Missing an opening parentheses - '( - start: 13, end: 13
 
 ```
 

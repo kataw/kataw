@@ -101,6 +101,7 @@ do( catch { try while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 9
+✖ Missing an opening parentheses - '( - start: 9, end: 11
 ✖ Property definition expected. Did you mean to use a ':'? - start: 15, end: 21
 ✖ ',' expected - start: 15, end: 21
 ✖ Property definition expected. Did you mean to use a ':'? - start: 21, end: 21

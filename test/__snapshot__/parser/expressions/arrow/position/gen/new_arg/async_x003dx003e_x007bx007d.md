@@ -29,54 +29,33 @@ new async => {}
                     "end": 3
                 },
                 "expression": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 0,
-                        "start": 9,
-                        "end": 12
-                    },
-                    "typeParameters": null,
-                    "parameters": {
-                        "kind": 134299649,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 96,
-                        "start": 3,
-                        "end": 9
-                    },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 3,
-                        "end": 9
-                    },
-                    "returnType": null,
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "flags": 32,
-                            "start": 14,
-                            "end": 14
-                        },
-                        "flags": 32,
-                        "start": 12,
-                        "end": 15
-                    },
-                    "flags": 32,
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
                     "start": 3,
-                    "end": 15
+                    "end": 9
                 },
                 "argumentList": null,
                 "flags": 32,
                 "start": 0,
-                "end": 15
+                "end": 9
             },
             "flags": 16,
             "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 14,
+                "end": 14
+            },
+            "flags": 16,
+            "start": 12,
             "end": 15
         }
     ],
@@ -98,7 +77,7 @@ new async => {}
 ### Diagnostics
 
 ```javascript
-✖ Async arrow can not be followed by new expression - start: 9, end: 12
+✖ Expected a `;` - start: 9, end: 12
 
 ```
 

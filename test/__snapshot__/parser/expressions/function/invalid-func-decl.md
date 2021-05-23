@@ -915,7 +915,7 @@ async function f(){}
 ✖ Expression expected - start: 175, end: 176
 ✖ Duplicate identifier - start: 186, end: 188
 ✖ Missing an opening parentheses - '( - start: 228, end: 237
-✖ Missing an opening brace - '{ - start: 237, end: 238
+✖ Missing an opening parentheses - '( - start: 237, end: 238
 ✖ Unexpected token. - start: 237, end: 238
 
 ```

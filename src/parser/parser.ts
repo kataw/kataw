@@ -871,7 +871,12 @@ function parseDoWhileStatement(parser: ParserState, context: Context, scope: Sco
       parser.pos
     );
   }
-  const openParenExists = consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openParenExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const expression = parseExpression(parser, context);
   consume(
     parser,
@@ -1113,7 +1118,7 @@ function parseForStatement(
     );
   }
 
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses);
 
   let initializer = null;
   let isVarOrLexical = false;
@@ -2241,12 +2246,22 @@ function parseConciseOrFunctionBody(
 }
 
 function parseArguments(parser: ParserState, context: Context): ArgumentList {
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
+  const openingParentExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const result = parseArgumentList(
     parser,
     (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
   );
-  consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightParen,
+    openingParentExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Expression_expected
+  );
   return result;
 }
 
@@ -3067,7 +3082,13 @@ function parsMethodParameters(
 ): FormalParameterList {
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
-  if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen)) {
+  const openingParenExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
+  if (openingParenExists) {
     if (parser.token === SyntaxKind.RightParen) {
       if (nodeFlags & NodeFlags.Setter && parser.token === SyntaxKind.RightParen) {
         parser.onError(
@@ -3157,7 +3178,12 @@ function parsMethodParameters(
       );
     }
     const result = createFormalParameterList(parameters, trailingComma, nodeFlags, curpPos, parser.pos);
-    consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+    consume(
+      parser,
+      context,
+      SyntaxKind.RightParen,
+      openingParenExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Expression_expected
+    );
     return result;
   }
   // Empty list
@@ -5115,26 +5141,19 @@ function parseFunctionExpression(
 
       let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
 
+      // "new async"
+      if (inNewExpression) return expression;
+
       // "async()"
       // "async () => {}"
       // "async<T>()"
       // "async <T>() => {}"
-      if (!inNewExpression && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+      if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         expression = parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, flags, pos);
       }
 
       // "async => {}"
       if (parser.token === SyntaxKind.Arrow) {
-        if (inNewExpression) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Async_arrow_can_not_be_followed_by_new_expression],
-            parser.curPos,
-            parser.pos
-          );
-        }
-
         const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
 
         addBlockName(parser, context, scope, 'async', BindingType.ArgumentList);
@@ -5624,7 +5643,13 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   let nodeFlags = NodeFlags.ExpressionNode;
   const curpPos = parser.curPos;
-  if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen)) {
+  const openingParenExists = consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
+  if (openingParenExists) {
     let trailingComma = false;
     while (parser.token & 0b00010000100010000100000000000000) {
       const param = parseFormalParameter(parser, context, scope);
@@ -5661,7 +5686,12 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
     }
 
     const result = createFormalParameterList(parameters, trailingComma, nodeFlags, curpPos, parser.pos);
-    consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+    consume(
+      parser,
+      context,
+      SyntaxKind.RightParen,
+      openingParenExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Expression_expected
+    );
     return result;
   }
   // Empty list
@@ -6355,9 +6385,19 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
 function parseFunctionType(parser: ParserState, context: Context): FunctionType {
   const pos = parser.curPos;
   const typeParameters = parseTypeParameterDeclaration(parser, context);
-  consume(parser, context, SyntaxKind.LeftParen);
+  const openingParensExists = consume(
+    parser,
+    context,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const params = parseFunctionTypeParameters(parser, context);
-  consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightParen,
+    openingParensExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Unexpected_token
+  );
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   return createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
@@ -7259,9 +7299,19 @@ function parseObjectTypeCallProperty(
   pos: number
 ): ObjectTypeCallProperty {
   const typeParameters = parseTypeParameterDeclaration(parser, context);
-  consume(parser, context, SyntaxKind.LeftParen);
+  const openingParensExists = consume(
+    parser,
+    context,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
   const params = parseFunctionTypeParameters(parser, context);
-  consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightParen,
+    openingParensExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Unexpected_token
+  );
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   consumeOpt(parser, context, SyntaxKind.Semicolon);
@@ -7282,9 +7332,19 @@ function parseObjectTypeInternalSlot(
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     const typeParameters = parseTypeParameterDeclaration(parser, context);
-    consume(parser, context, SyntaxKind.LeftParen);
+    const openingParensExists = consume(
+      parser,
+      context,
+      SyntaxKind.LeftParen,
+      DiagnosticCode.Missing_an_opening_parentheses
+    );
     const params = parseFunctionTypeParameters(parser, context);
-    consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+    consume(
+      parser,
+      context,
+      SyntaxKind.RightParen,
+      openingParensExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Unexpected_token
+    );
     consume(parser, context, SyntaxKind.Colon);
     const returnType = parseType(parser, context);
     const value = createFunctionType(params, returnType, typeParameters, pos, parser.curPos);

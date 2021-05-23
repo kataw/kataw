@@ -314,9 +314,9 @@ do do do =! class function try while with foo! while while while
 ✖ Expression expected - start: 8, end: 10
 ✖ Missing an opening brace - '{ - start: 17, end: 26
 ✖ Expression expected - start: 45, end: 46
-✖ Expression expected - start: 46, end: 52
-✖ Expression expected - start: 52, end: 58
-✖ Expression expected - start: 58, end: 64
+✖ Missing an opening parentheses - '( - start: 46, end: 52
+✖ Missing an opening parentheses - '( - start: 52, end: 58
+✖ Missing an opening parentheses - '( - start: 58, end: 64
 
 ```
 

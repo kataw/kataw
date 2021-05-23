@@ -153,7 +153,7 @@ do while [catch] function while
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Expression expected - start: 25, end: 31
+✖ Missing an opening parentheses - '( - start: 25, end: 31
 
 ```
 

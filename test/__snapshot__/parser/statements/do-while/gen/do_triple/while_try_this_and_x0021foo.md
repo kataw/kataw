@@ -212,9 +212,10 @@ do do do while try this and !foo while while while
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 14, end: 18
+✖ Missing an opening parentheses - '( - start: 27, end: 29
 ✖ Declaration or statement expected - start: 32, end: 38
-✖ Expression expected - start: 38, end: 44
-✖ Expression expected - start: 44, end: 50
+✖ Missing an opening parentheses - '( - start: 38, end: 44
+✖ Missing an opening parentheses - '( - start: 44, end: 50
 
 ```
 

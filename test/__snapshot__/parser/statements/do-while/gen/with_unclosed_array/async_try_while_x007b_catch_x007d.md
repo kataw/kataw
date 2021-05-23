@@ -136,7 +136,7 @@ do[ async try while { catch }
 ```javascript
 ✖ ',' expected - start: 9, end: 13
 ✖ Did you forgot a ']' to match the `[` token? - start: 9, end: 13
-✖ Expression expected - start: 13, end: 19
+✖ Missing an opening parentheses - '( - start: 13, end: 19
 ✖ Missing an opening parentheses - '( - start: 19, end: 21
 ✖ Property definition expected. Did you mean to use a ':'? - start: 27, end: 29
 ✖ Declaration or statement expected - start: 29, end: 29

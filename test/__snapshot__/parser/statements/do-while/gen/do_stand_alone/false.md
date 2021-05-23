@@ -70,7 +70,7 @@ do false
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 8
+✖ Missing an opening parentheses - '( - start: 8, end: 8
 
 ```
 

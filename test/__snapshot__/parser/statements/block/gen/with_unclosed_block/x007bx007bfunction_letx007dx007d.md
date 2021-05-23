@@ -191,6 +191,7 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
+✖ Missing an opening parentheses - '( - start: 32, end: 33
 ✖ The parser expected to find a '}' to match the '{' token here - start: 34, end: 34
 
 ```

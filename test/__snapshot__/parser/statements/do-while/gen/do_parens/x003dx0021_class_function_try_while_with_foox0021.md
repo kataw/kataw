@@ -270,7 +270,7 @@ do( =! class function try while with foo! while
 ✖ Expression expected - start: 3, end: 5
 ✖ Missing an opening brace - '{ - start: 12, end: 21
 ✖ Expression expected - start: 40, end: 41
-✖ Expression expected - start: 41, end: 47
+✖ Missing an opening parentheses - '( - start: 41, end: 47
 
 ```
 

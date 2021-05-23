@@ -150,8 +150,8 @@ do do do class x {} while while while
 
 ```javascript
 ✖ Class declarations are not allowed in an arbitrary statement position. - start: 8, end: 14
-✖ Expression expected - start: 25, end: 31
-✖ Expression expected - start: 31, end: 37
+✖ Missing an opening parentheses - '( - start: 25, end: 31
+✖ Missing an opening parentheses - '( - start: 31, end: 37
 
 ```
 

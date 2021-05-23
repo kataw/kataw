@@ -137,6 +137,7 @@ do while [catch] catch { try
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ Missing an opening parentheses - '( - start: 22, end: 24
 ✖ Property definition expected. Did you mean to use a ':'? - start: 28, end: 28
 ✖ ',' expected - start: 28, end: 28
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28

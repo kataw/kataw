@@ -323,6 +323,7 @@
 ✖ Missing an opening parentheses - '( - start: 58, end: 60
 ✖ Declaration or statement expected - start: 60, end: 64
 ✖ Expected a `;` - start: 64, end: 68
+✖ Missing an opening parentheses - '( - start: 68, end: 70
 ✖ Expression expected - start: 75, end: 75
 
 ```

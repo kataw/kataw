@@ -130,6 +130,7 @@ do while try this and !foo
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 8, end: 12
+✖ Missing an opening parentheses - '( - start: 21, end: 23
 ✖ Declaration or statement expected - start: 26, end: 26
 
 ```

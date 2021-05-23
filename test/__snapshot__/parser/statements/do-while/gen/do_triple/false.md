@@ -126,8 +126,8 @@ do do do false while while while
 
 ```javascript
 ✖ Expected a `;` - start: 14, end: 20
-✖ Expression expected - start: 20, end: 26
-✖ Expression expected - start: 26, end: 32
+✖ Missing an opening parentheses - '( - start: 20, end: 26
+✖ Missing an opening parentheses - '( - start: 26, end: 32
 
 ```
 

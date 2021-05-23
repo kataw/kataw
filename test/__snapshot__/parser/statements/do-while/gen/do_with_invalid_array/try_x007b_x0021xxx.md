@@ -154,6 +154,7 @@ do while [catch] try { !xxx
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ Missing an opening parentheses - '( - start: 20, end: 22
 ✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 24
 
 ```
