@@ -164,6 +164,7 @@ export var [foo] = arr, [bar] = arr2;
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 37

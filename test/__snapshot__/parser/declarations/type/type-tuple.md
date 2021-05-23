@@ -26,7 +26,6 @@ type A = { [string]: number };
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -41,7 +40,6 @@ type A = { [string]: number };
                 "start": 4,
                 "end": 6
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
@@ -62,7 +60,7 @@ type A = { [string]: number };
                             "start": 20,
                             "end": 27
                         },
-                        "staticToken": false,
+                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 27

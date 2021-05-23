@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-var foo,,bar
+var a: (number)
 `````
 
 ## Options
@@ -12,17 +12,6 @@ var foo,,bar
 
 `````js
 { allowTypes : true }
-`````
-
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
 `````
 
 ## Output
@@ -50,49 +39,52 @@ var foo,,bar
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
+                            "text": "a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 3,
-                            "end": 7
+                            "end": 5
                         },
                         "optionalToken": null,
-                        "type": null,
+                        "type": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 260,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 64,
+                                    "start": 8,
+                                    "end": 14
+                                },
+                                "flags": 0,
+                                "start": 6,
+                                "end": 15
+                            },
+                            "flags": 0,
+                            "start": 5,
+                            "end": 15
+                        },
                         "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 7
+                        "end": 15
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 8
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "bar",
-                "rawText": "bar",
-                "flags": 96,
-                "start": 9,
-                "end": 12
-            },
-            "flags": 16,
-            "start": 9,
-            "end": 12
+            "end": 15
         }
     ],
     "isModule": false,
-    "source": "var foo,,bar",
+    "source": "var a: (number)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 12
+    "end": 15
 }
 ```
 
@@ -100,12 +92,12 @@ var foo,,bar
 
 ```javascript
 
+var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Trailing comma not allowed. - start: 8, end: 9
-
+✔ No errors
 ```
 

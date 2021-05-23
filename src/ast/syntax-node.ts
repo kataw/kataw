@@ -8,6 +8,11 @@ export interface SyntaxNode {
   end: number;
 }
 
+export const enum ExportKind {
+  Type,
+  Value
+}
+
 export const enum NodeFlags {
   None = 0,
   NewLine = 1 << 0,
@@ -220,7 +225,7 @@ export const enum SyntaxKind {
   LineFeed = 273,
   LogicalAnd = 33594,
   LogicalAndAssign = 4139,
-  LogicalOr = 33339,
+  LogicalOr = 134251067,
   LogicalOrAssign = 4138,
   LogicalShiftRight = 35142,
   LogicalShiftRightAssign = 4128,
@@ -366,7 +371,8 @@ export const enum SyntaxKind {
   TypeParameterDeclaration = 265,
   TypeParameterInstantiationList = 266,
   TypeParameterInstantiation = 267,
-  IndexedAccessType = 268
+  IndexedAccessType = 268,
+  OpaqueType = 269
 }
 
 export function tokenToString(node: any): string {

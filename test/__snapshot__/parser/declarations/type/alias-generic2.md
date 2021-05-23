@@ -1,0 +1,251 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+type MyObject<A, B, C> = {
+  foo: A,
+  bar: B,
+  baz: C,
+};
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
+## Output
+
+### CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 200,
+            "declareToken": null,
+            "typeToken": {
+                "kind": 24775,
+                "flags": 64,
+                "start": 0,
+                "end": 13
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "MyObject",
+                "rawText": "MyObject",
+                "flags": 96,
+                "start": 4,
+                "end": 13
+            },
+            "typeParameters": {
+                "kind": 265,
+                "typeParameters": [
+                    {
+                        "kind": 146,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 15
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 14,
+                            "end": 15
+                        },
+                        "initializer": null,
+                        "flags": 0,
+                        "start": 14,
+                        "end": 15
+                    },
+                    {
+                        "kind": 146,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 16,
+                            "end": 18
+                        },
+                        "initializer": null,
+                        "flags": 0,
+                        "start": 16,
+                        "end": 18
+                    },
+                    {
+                        "kind": 146,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "C",
+                                "rawText": "C",
+                                "flags": 96,
+                                "start": 19,
+                                "end": 21
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 19,
+                            "end": 21
+                        },
+                        "initializer": null,
+                        "flags": 0,
+                        "start": 19,
+                        "end": 21
+                    }
+                ],
+                "flags": 0,
+                "start": 13,
+                "end": 22
+            },
+            "type": {
+                "kind": 134234353,
+                "properties": [
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 26,
+                            "end": 32
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
+                                "start": 33,
+                                "end": 35
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 33,
+                            "end": 35
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 26,
+                        "end": 35
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 36,
+                            "end": 42
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 96,
+                                "start": 43,
+                                "end": 45
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 43,
+                            "end": 45
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 36,
+                        "end": 45
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "baz",
+                            "rawText": "baz",
+                            "flags": 96,
+                            "start": 46,
+                            "end": 52
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "C",
+                                "rawText": "C",
+                                "flags": 96,
+                                "start": 53,
+                                "end": 55
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 53,
+                            "end": 55
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 46,
+                        "end": 55
+                    }
+                ],
+                "indexers": [],
+                "callProperties": [],
+                "internalSlots": [],
+                "flags": 0,
+                "start": 24,
+                "end": 58
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 59
+        }
+    ],
+    "isModule": false,
+    "source": "type MyObject<A, B, C> = {\n  foo: A,\n  bar: B,\n  baz: C,\n};",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 59
+}
+```
+
+### Printed
+
+```javascript
+
+
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+

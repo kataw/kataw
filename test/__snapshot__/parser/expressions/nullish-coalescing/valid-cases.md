@@ -222,7 +222,7 @@ a ?? b ?? c ? d : e;
                             "end": 45
                         },
                         "operatorToken": {
-                            "kind": 33339,
+                            "kind": 134251067,
                             "flags": 64,
                             "start": 45,
                             "end": 48

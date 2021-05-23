@@ -26,7 +26,6 @@ type C = { ...A&B };
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -41,7 +40,6 @@ type C = { ...A&B };
                 "start": 4,
                 "end": 6
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
@@ -92,7 +90,7 @@ type C = { ...A&B };
                             "start": 15,
                             "end": 17
                         },
-                        "staticToken": false,
+                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 17

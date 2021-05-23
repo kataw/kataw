@@ -26,7 +26,6 @@ type A = (Array<string>, ...Array<string>) => void
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -41,7 +40,6 @@ type A = (Array<string>, ...Array<string>) => void
                 "start": 4,
                 "end": 6
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 261,

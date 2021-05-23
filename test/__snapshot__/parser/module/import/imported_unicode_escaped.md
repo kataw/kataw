@@ -94,6 +94,7 @@ export {a \u0061s b} from "x";
                 "start": 20,
                 "end": 29
             },
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 30

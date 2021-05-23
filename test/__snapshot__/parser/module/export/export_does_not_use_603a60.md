@@ -101,6 +101,7 @@ var x; export {x: a}
             },
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 6,
             "end": 16

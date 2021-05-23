@@ -108,7 +108,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                     "end": 24
                 },
                 "operatorToken": {
-                    "kind": 33339,
+                    "kind": 134251067,
                     "flags": 64,
                     "start": 24,
                     "end": 27

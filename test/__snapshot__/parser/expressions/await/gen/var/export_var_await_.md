@@ -161,6 +161,7 @@ var await; var f = (async function() { export var await; });
                                                 "namedExports": null,
                                                 "exportFromClause": null,
                                                 "fromClause": null,
+                                                "exportKind": 0,
                                                 "flags": 16,
                                                 "start": 38,
                                                 "end": 56

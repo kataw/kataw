@@ -26,7 +26,6 @@ type Foo = (string | number)
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -41,7 +40,6 @@ type Foo = (string | number)
                 "start": 4,
                 "end": 8
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 260,

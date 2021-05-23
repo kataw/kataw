@@ -132,7 +132,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 55,
                                             "end": 62
                                         },
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 42,
                                         "end": 63
@@ -159,7 +159,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 76,
                                             "end": 83
                                         },
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 63,
                                         "end": 84

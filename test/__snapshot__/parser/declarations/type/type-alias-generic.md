@@ -37,7 +37,6 @@ type T<U> = U;
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -52,7 +51,6 @@ type T<U> = U;
                 "start": 4,
                 "end": 6
             },
-            "opaqueType": null,
             "typeParameters": {
                 "kind": 265,
                 "typeParameters": [

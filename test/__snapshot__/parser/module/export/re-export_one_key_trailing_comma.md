@@ -82,6 +82,7 @@ export {x,} from "foo"
                 "start": 11,
                 "end": 22
             },
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 22

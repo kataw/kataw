@@ -66,6 +66,7 @@ export * from "foo";
                 "start": 8,
                 "end": 19
             },
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 20

@@ -91,7 +91,7 @@ var {x}: {x: string; } = { x: "hello" };
                                             "end": 19
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 10,
                                         "end": 19

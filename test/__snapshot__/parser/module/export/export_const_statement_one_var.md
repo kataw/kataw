@@ -69,6 +69,7 @@ export const x
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 14

@@ -33,6 +33,7 @@ export ...x = y
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 6
@@ -90,7 +91,6 @@ export ...x = y
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 6, end: 10
 ✖ Declaration or statement expected - start: 6, end: 10
 
 ```

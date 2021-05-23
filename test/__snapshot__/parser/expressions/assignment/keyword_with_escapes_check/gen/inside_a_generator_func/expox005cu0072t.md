@@ -70,6 +70,7 @@ function *f(){
                             "namedExports": null,
                             "exportFromClause": null,
                             "fromClause": null,
+                            "exportKind": 0,
                             "flags": 16,
                             "start": 14,
                             "end": 28
@@ -123,8 +124,7 @@ function *f(){
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 14, end: 28
-✖ Unexpected token. - start: 28, end: 30
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 30
+✖ Declaration or statement expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 34
 
 ```

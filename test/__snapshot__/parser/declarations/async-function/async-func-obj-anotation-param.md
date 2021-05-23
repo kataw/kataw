@@ -107,7 +107,7 @@ async function foo({x}: { x: string; }) {}
                                             "end": 35
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 25,
                                         "end": 35

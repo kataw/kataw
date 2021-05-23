@@ -33,6 +33,7 @@ export bar, * as foo from 'bar';
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 6
@@ -147,7 +148,7 @@ export bar, * as foo from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 6, end: 10
+✖ Declaration or statement expected - start: 6, end: 10
 ✖ Expression expected - start: 11, end: 13
 ✖ Expected a `;` - start: 16, end: 20
 ✖ Expected a `;` - start: 20, end: 25

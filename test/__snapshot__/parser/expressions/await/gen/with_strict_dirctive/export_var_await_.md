@@ -76,6 +76,7 @@
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 13,
             "end": 31

@@ -23,19 +23,19 @@ opaque type Counter: Box<T> = Container<T>;
     "directives": [],
     "statements": [
         {
-            "kind": 200,
+            "kind": 269,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 11
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
-                "start": 0,
-                "end": 19
+                "start": 6,
+                "end": 11
             },
             "name": {
                 "kind": 134299649,
@@ -45,57 +45,51 @@ opaque type Counter: Box<T> = Container<T>;
                 "start": 11,
                 "end": 19
             },
-            "opaqueType": {
-                "kind": 139,
-                "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Box",
-                        "rawText": "Box",
-                        "flags": 96,
-                        "start": 20,
-                        "end": 24
-                    },
-                    "typeParameters": {
-                        "kind": 266,
-                        "parameters": [
-                            {
-                                "kind": 267,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "start": 25,
-                                        "end": 26
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 0,
+            "typeParameters": null,
+            "superType": {
+                "kind": 144,
+                "id": {
+                    "kind": 134299649,
+                    "text": "Box",
+                    "rawText": "Box",
+                    "flags": 96,
+                    "start": 20,
+                    "end": 24
+                },
+                "typeParameters": {
+                    "kind": 266,
+                    "parameters": [
+                        {
+                            "kind": 267,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
                                     "start": 25,
                                     "end": 26
                                 },
+                                "typeParameters": null,
                                 "flags": 0,
                                 "start": 25,
                                 "end": 26
-                            }
-                        ],
-                        "flags": 0,
-                        "start": 24,
-                        "end": 27
-                    },
+                            },
+                            "flags": 0,
+                            "start": 25,
+                            "end": 26
+                        }
+                    ],
                     "flags": 0,
-                    "start": 20,
+                    "start": 24,
                     "end": 27
                 },
                 "flags": 0,
-                "start": 19,
+                "start": 20,
                 "end": 27
             },
-            "typeParameters": null,
-            "type": {
+            "impltype": {
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
@@ -138,8 +132,14 @@ opaque type Counter: Box<T> = Container<T>;
                 "start": 29,
                 "end": 42
             },
+            "flags": 0,
+            "start": 0,
+            "end": 42
+        },
+        {
+            "kind": 168,
             "flags": 16,
-            "start": 6,
+            "start": 42,
             "end": 43
         }
     ],
@@ -155,6 +155,7 @@ opaque type Counter: Box<T> = Container<T>;
 ### Printed
 
 ```javascript
+
 
 
 ```

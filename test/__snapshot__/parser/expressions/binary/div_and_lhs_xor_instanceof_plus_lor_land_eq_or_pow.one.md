@@ -150,7 +150,7 @@ typeof x;
                     "end": 42
                 },
                 "operatorToken": {
-                    "kind": 33339,
+                    "kind": 134251067,
                     "flags": 64,
                     "start": 42,
                     "end": 45

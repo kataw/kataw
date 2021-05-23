@@ -22,17 +22,6 @@ type B = Foo<
 { allowTypes : true }
 `````
 
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
-`````
-
 ## Output
 
 ### CST
@@ -45,7 +34,6 @@ type B = Foo<
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -60,7 +48,6 @@ type B = Foo<
                 "start": 4,
                 "end": 6
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -101,7 +88,7 @@ type B = Foo<
                                                     "end": 28
                                                 },
                                                 "optionalToken": null,
-                                                "staticToken": false,
+                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 19,
                                                 "end": 28
@@ -135,7 +122,7 @@ type B = Foo<
                                                     "end": 44
                                                 },
                                                 "optionalToken": null,
-                                                "staticToken": false,
+                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 35,
                                                 "end": 44
@@ -173,7 +160,6 @@ type B = Foo<
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -188,7 +174,6 @@ type B = Foo<
                 "start": 54,
                 "end": 56
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 138,
@@ -235,7 +220,7 @@ type B = Foo<
                                     "end": 78
                                 },
                                 "optionalToken": null,
-                                "staticToken": false,
+                                "staticToken": null,
                                 "flags": 0,
                                 "start": 69,
                                 "end": 78
@@ -269,7 +254,7 @@ type B = Foo<
                                     "end": 94
                                 },
                                 "optionalToken": null,
-                                "staticToken": false,
+                                "staticToken": null,
                                 "flags": 0,
                                 "start": 85,
                                 "end": 94

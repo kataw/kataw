@@ -413,6 +413,12 @@ class Array { concat(items:number | string) {}; }
                             "kind": 139,
                             "type": {
                                 "kind": 134299891,
+                                "typeOfKeyword": {
+                                    "kind": 138477613,
+                                    "flags": 0,
+                                    "start": 97,
+                                    "end": 104
+                                },
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -735,7 +741,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 223
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 209,
                                         "end": 223
@@ -1445,7 +1451,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 499
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 485,
                                         "end": 499
@@ -1472,7 +1478,7 @@ class Array { concat(items:number | string) {}; }
                                             "start": 507,
                                             "end": 508
                                         },
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 500,
                                         "end": 516
@@ -1695,7 +1701,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 577
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 568,
                                         "end": 577
@@ -1831,7 +1837,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 618
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 609,
                                         "end": 618
@@ -1952,7 +1958,7 @@ class Array { concat(items:number | string) {}; }
                                                 "end": 664
                                             },
                                             "optionalToken": null,
-                                            "staticToken": false,
+                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 650,
                                             "end": 664
@@ -2017,6 +2023,12 @@ class Array { concat(items:number | string) {}; }
                                 "types": [
                                     {
                                         "kind": 134299891,
+                                        "typeOfKeyword": {
+                                            "kind": 138477613,
+                                            "flags": 0,
+                                            "start": 674,
+                                            "end": 681
+                                        },
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -2130,7 +2142,7 @@ class Array { concat(items:number | string) {}; }
                                                         "end": 730
                                                     },
                                                     "optionalToken": null,
-                                                    "staticToken": false,
+                                                    "staticToken": null,
                                                     "flags": 0,
                                                     "start": 716,
                                                     "end": 730
@@ -2144,7 +2156,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 731
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 707,
                                         "end": 731

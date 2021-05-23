@@ -37,7 +37,6 @@ type a = ??string;
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -52,7 +51,6 @@ type a = ??string;
                 "start": 4,
                 "end": 6
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134217970,

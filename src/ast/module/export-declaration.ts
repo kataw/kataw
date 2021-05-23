@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, ExportKind } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { NamedExports } from './named-exports';
 import { StatementNode } from '../statements';
@@ -25,6 +25,7 @@ export interface ExportDeclaration extends SyntaxNode {
   readonly namedExports: NamedExports | null;
   readonly fromClause: FromClause;
   readonly exportFromClause: ExportFromClause | null;
+  readonly exportKind: ExportKind;
 }
 
 export function createExportDeclaration(
@@ -33,6 +34,7 @@ export function createExportDeclaration(
   namedExports: NamedExports | null,
   fromClause: FromClause,
   exportFromClause: ExportFromClause | null,
+  exportKind: ExportKind,
   start: number,
   end: number
 ): ExportDeclaration {
@@ -43,6 +45,7 @@ export function createExportDeclaration(
     namedExports,
     exportFromClause,
     fromClause,
+    exportKind,
     flags: NodeFlags.IsStatement,
     start,
     end

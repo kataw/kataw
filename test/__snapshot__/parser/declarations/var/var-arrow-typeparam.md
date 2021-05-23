@@ -73,7 +73,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 14,
                                             "end": 15
                                         },
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8,
                                         "end": 23
@@ -95,7 +95,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "end": 39
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 24,
                                         "end": 39
@@ -117,7 +117,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "end": 55
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 40,
                                         "end": 55

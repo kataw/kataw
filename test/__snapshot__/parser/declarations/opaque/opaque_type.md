@@ -35,19 +35,19 @@ opaque type ID = number;
     "directives": [],
     "statements": [
         {
-            "kind": 200,
+            "kind": 269,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 11
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
-                "start": 0,
-                "end": 14
+                "start": 6,
+                "end": 11
             },
             "name": {
                 "kind": 134299649,
@@ -57,16 +57,22 @@ opaque type ID = number;
                 "start": 11,
                 "end": 14
             },
-            "opaqueType": null,
             "typeParameters": null,
-            "type": {
+            "superType": null,
+            "impltype": {
                 "kind": 134234345,
                 "flags": 64,
                 "start": 16,
                 "end": 23
             },
+            "flags": 0,
+            "start": 0,
+            "end": 23
+        },
+        {
+            "kind": 168,
             "flags": 16,
-            "start": 6,
+            "start": 23,
             "end": 24
         }
     ],
@@ -82,6 +88,7 @@ opaque type ID = number;
 ### Printed
 
 ```javascript
+
 
 
 ```

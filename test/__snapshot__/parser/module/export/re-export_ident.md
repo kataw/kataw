@@ -66,6 +66,7 @@ export * from x
                 "start": 8,
                 "end": 15
             },
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 15

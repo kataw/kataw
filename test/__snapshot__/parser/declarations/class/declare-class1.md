@@ -77,7 +77,6 @@ type T2 = number;
                 "start": 19,
                 "end": 28
             },
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -92,7 +91,6 @@ type T2 = number;
                 "start": 33,
                 "end": 36
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
@@ -107,7 +105,6 @@ type T2 = number;
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -122,7 +119,6 @@ type T2 = number;
                 "start": 52,
                 "end": 55
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134234345,

@@ -94,6 +94,7 @@ export {foo as bar} from "foo";
                 "start": 19,
                 "end": 30
             },
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 31

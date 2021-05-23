@@ -69,7 +69,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "end": 19
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 9,
                                         "end": 19
@@ -103,7 +103,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                         "end": 30
                                                     },
                                                     "optionalToken": null,
-                                                    "staticToken": false,
+                                                    "staticToken": null,
                                                     "flags": 0,
                                                     "start": 20,
                                                     "end": 30
@@ -117,7 +117,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "end": 32
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 19,
                                         "end": 32

@@ -14,17 +14,6 @@ declare type bool = any;
 { allowTypes : true }
 `````
 
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
-`````
-
 ## Output
 
 ### CST
@@ -42,7 +31,6 @@ declare type bool = any;
                 "start": 0,
                 "end": 7
             },
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -57,7 +45,6 @@ declare type bool = any;
                 "start": 12,
                 "end": 17
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134234252,

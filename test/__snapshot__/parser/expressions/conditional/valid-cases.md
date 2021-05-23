@@ -531,7 +531,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 109
                     },
                     "operatorToken": {
-                        "kind": 33339,
+                        "kind": 134251067,
                         "flags": 64,
                         "start": 109,
                         "end": 112
@@ -599,7 +599,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 125
                     },
                     "operatorToken": {
-                        "kind": 33339,
+                        "kind": 134251067,
                         "flags": 64,
                         "start": 125,
                         "end": 128
@@ -885,7 +885,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 194
                     },
                     "operatorToken": {
-                        "kind": 33339,
+                        "kind": 134251067,
                         "flags": 64,
                         "start": 194,
                         "end": 197

@@ -66,7 +66,7 @@ var a : { <T>(x: T): number; }
                                             "start": 11,
                                             "end": 11
                                         },
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 134234345,
                                             "flags": 64,
@@ -203,7 +203,7 @@ var a : { <T>(x: T): number; }
                                             "start": 39,
                                             "end": 43
                                         },
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 134234345,
                                             "flags": 64,

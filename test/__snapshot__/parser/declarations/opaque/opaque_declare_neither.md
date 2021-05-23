@@ -24,7 +24,7 @@ declare opaque type Foo
     "directives": [],
     "statements": [
         {
-            "kind": 200,
+            "kind": 269,
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
@@ -35,13 +35,13 @@ declare opaque type Foo
                 "kind": 24822,
                 "flags": 64,
                 "start": 7,
-                "end": 14
+                "end": 19
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
-                "start": 7,
-                "end": 23
+                "start": 14,
+                "end": 19
             },
             "name": {
                 "kind": 134299649,
@@ -51,11 +51,11 @@ declare opaque type Foo
                 "start": 19,
                 "end": 23
             },
-            "opaqueType": null,
             "typeParameters": null,
-            "type": null,
-            "flags": 4112,
-            "start": 14,
+            "superType": null,
+            "impltype": null,
+            "flags": 0,
+            "start": 7,
             "end": 23
         }
     ],

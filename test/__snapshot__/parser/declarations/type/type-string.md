@@ -15,17 +15,6 @@ type T1 = number;
 { allowTypes : true }
 `````
 
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
-`````
-
 ## Output
 
 ### CST
@@ -38,7 +27,6 @@ type T1 = number;
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -53,7 +41,6 @@ type T1 = number;
                 "start": 4,
                 "end": 7
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134234347,
@@ -68,7 +55,6 @@ type T1 = number;
         {
             "kind": 200,
             "declareToken": null,
-            "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
@@ -83,7 +69,6 @@ type T1 = number;
                 "start": 22,
                 "end": 25
             },
-            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134234345,

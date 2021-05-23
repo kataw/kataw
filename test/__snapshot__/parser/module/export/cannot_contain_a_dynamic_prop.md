@@ -83,6 +83,7 @@ var foo; export {[foo]}
             },
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 8,
             "end": 17

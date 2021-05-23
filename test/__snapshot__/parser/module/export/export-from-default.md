@@ -82,6 +82,7 @@ export {default} from "foo";
                 "start": 16,
                 "end": 27
             },
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 28

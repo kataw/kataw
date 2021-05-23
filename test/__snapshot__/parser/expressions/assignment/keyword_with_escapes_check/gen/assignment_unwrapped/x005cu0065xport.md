@@ -30,6 +30,7 @@
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
             "start": 0,
             "end": 11
@@ -68,7 +69,6 @@
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 11
-✖ Unexpected token. - start: 11, end: 13
 ✖ Declaration or statement expected - start: 11, end: 13
 
 ```

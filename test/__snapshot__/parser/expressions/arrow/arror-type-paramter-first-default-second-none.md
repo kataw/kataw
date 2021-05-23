@@ -152,7 +152,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The type parameter must have an 'default' - start: 7, end: 8
+✖ Type parameter declaration needs a default, since a preceding type parameter declaration has a default - start: 7, end: 8
 
 ```
 

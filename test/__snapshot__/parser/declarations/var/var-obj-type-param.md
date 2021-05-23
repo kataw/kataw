@@ -153,7 +153,7 @@ var a: { id<T>(x: T): T; }
                                             "end": 23
                                         },
                                         "optionalToken": null,
-                                        "staticToken": false,
+                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8,
                                         "end": 23

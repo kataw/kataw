@@ -115,7 +115,7 @@ a+1 ?? b+1 && c;
                         "end": 16
                     },
                     "operatorToken": {
-                        "kind": 33339,
+                        "kind": 134251067,
                         "flags": 64,
                         "start": 16,
                         "end": 19
@@ -237,7 +237,7 @@ a+1 ?? b+1 && c;
                         "end": 49
                     },
                     "operatorToken": {
-                        "kind": 33339,
+                        "kind": 134251067,
                         "flags": 64,
                         "start": 49,
                         "end": 52
@@ -351,7 +351,7 @@ a+1 ?? b+1 && c;
                         "end": 74
                     },
                     "operatorToken": {
-                        "kind": 33339,
+                        "kind": 134251067,
                         "flags": 64,
                         "start": 74,
                         "end": 77
@@ -573,7 +573,7 @@ a+1 ?? b+1 && c;
                         "end": 116
                     },
                     "operatorToken": {
-                        "kind": 33339,
+                        "kind": 134251067,
                         "flags": 64,
                         "start": 116,
                         "end": 119

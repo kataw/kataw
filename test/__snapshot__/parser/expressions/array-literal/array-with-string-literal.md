@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-[ "string" ]
+[ "string"   ]
 `````
 
 ## Output
@@ -38,19 +38,19 @@
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 12
+                "end": 14
             },
             "flags": 16,
             "start": 0,
-            "end": 12
+            "end": 14
         }
     ],
     "isModule": false,
-    "source": "[ \"string\" ]",
+    "source": "[ \"string\"   ]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 12
+    "end": 14
 }
 ```
 

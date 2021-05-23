@@ -10,6 +10,14 @@ type = x;
 (type);
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### CST
