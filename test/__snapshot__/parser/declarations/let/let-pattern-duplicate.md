@@ -134,7 +134,7 @@ let x = a; let x = b;
                         "end": 24
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 24
             },
@@ -245,7 +245,7 @@ let x = a; let x = b;
                         "end": 53
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 30,
                 "end": 53
             },
@@ -344,7 +344,7 @@ let x = a; let x = b;
                         "end": 78
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 59,
                 "end": 78
             },
@@ -443,7 +443,7 @@ let x = a; let x = b;
                         "end": 103
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 84,
                 "end": 103
             },
@@ -526,7 +526,7 @@ let x = a; let x = b;
                         "end": 122
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 109,
                 "end": 122
             },
@@ -656,7 +656,7 @@ let x = a; let x = b;
                         "end": 152
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 128,
                 "end": 152
             },
@@ -779,7 +779,7 @@ let x = a; let x = b;
                         "end": 179
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 158,
                 "end": 179
             },
@@ -894,7 +894,7 @@ let x = a; let x = b;
                         "end": 203
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 185,
                 "end": 203
             },
@@ -1020,7 +1020,7 @@ let x = a; let x = b;
                         "end": 230
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 209,
                 "end": 230
             },
@@ -1116,7 +1116,7 @@ let x = a; let x = b;
                         "end": 255
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 236,
                 "end": 255
             },
@@ -1200,7 +1200,7 @@ let x = a; let x = b;
                         "end": 274
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 261,
                 "end": 274
             },
@@ -1244,7 +1244,7 @@ let x = a; let x = b;
                         "end": 286
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 280,
                 "end": 286
             },
@@ -1288,7 +1288,7 @@ let x = a; let x = b;
                         "end": 297
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 291,
                 "end": 297
             },

@@ -111,7 +111,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "end": 15
                                                             }
                                                         ],
-                                                        "flags": 33554448,
+                                                        "flags": 16,
                                                         "start": 13,
                                                         "end": 15
                                                     },
@@ -314,7 +314,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "end": 51
                                                             }
                                                         ],
-                                                        "flags": 33554448,
+                                                        "flags": 16,
                                                         "start": 49,
                                                         "end": 51
                                                     },
@@ -613,7 +613,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "end": 108
                                                             }
                                                         ],
-                                                        "flags": 33554448,
+                                                        "flags": 16,
                                                         "start": 106,
                                                         "end": 108
                                                     },

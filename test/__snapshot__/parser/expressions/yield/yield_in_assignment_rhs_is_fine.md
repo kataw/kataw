@@ -103,7 +103,7 @@ function* g() { let x = yield 3; }
                                         "end": 31
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 31
                             },

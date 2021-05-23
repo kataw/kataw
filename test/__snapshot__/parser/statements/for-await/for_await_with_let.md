@@ -88,7 +88,7 @@ async function f() { for await (let x of y) {} }
                                         "end": 37
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16777232,
                                 "start": 35,
                                 "end": 37
                             },

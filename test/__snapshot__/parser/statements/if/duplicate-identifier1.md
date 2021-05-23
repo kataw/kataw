@@ -118,7 +118,7 @@ if (x) var foo = 1; let foo = 1;
                         "end": 31
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 23,
                 "end": 31
             },

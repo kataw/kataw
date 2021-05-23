@@ -76,7 +76,7 @@ for (let [foo = x]);
                         "end": 18
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 18
             },

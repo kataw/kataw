@@ -136,7 +136,7 @@ let x = function f(foo = await bar){
                         "end": 36
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 36
             },

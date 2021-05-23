@@ -103,7 +103,7 @@ for (let [... ...foo] = obj);
                         "end": 27
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 27
             },

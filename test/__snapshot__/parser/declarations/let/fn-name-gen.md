@@ -95,7 +95,7 @@ let gen = function*() {};
                         "end": 27
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 27
             },
@@ -175,7 +175,7 @@ let gen = function*() {};
                         "end": 53
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 32,
                 "end": 53
             },

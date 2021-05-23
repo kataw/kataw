@@ -61,7 +61,7 @@ let protecte\u0064;
                         "end": 22
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 22
             },
@@ -98,7 +98,7 @@ let protecte\u0064;
                         "end": 38
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 28,
                 "end": 38
             },
@@ -135,7 +135,7 @@ let protecte\u0064;
                         "end": 59
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 44,
                 "end": 59
             },

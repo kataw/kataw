@@ -45,7 +45,7 @@ let async
                         "end": 9
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },

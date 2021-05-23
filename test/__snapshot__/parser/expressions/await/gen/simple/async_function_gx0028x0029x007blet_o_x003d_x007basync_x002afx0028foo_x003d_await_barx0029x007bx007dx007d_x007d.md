@@ -195,7 +195,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                         "end": 56
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 22,
                                 "end": 56
                             },

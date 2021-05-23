@@ -115,7 +115,7 @@ function f(){ var x; let x; }
                                         "end": 26
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 24,
                                 "end": 26
                             },

@@ -69,7 +69,7 @@ let [..x] = obj;
                         "end": 5
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },

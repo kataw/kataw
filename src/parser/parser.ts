@@ -362,7 +362,7 @@ function parseStatementListItem(parser: ParserState, context: Context, scope: Sc
     case SyntaxKind.ClassKeyword:
       return parseClassDeclaration(parser, context, scope, /* declareKeyword */ null, /* isDefaultModifier */ false);
     case SyntaxKind.ConstKeyword:
-      return parseLexicalDeclaration(parser, context, /* isConst */ true, scope, BindingType.Const);
+      return parseLexicalDeclaration(parser, context, SyntaxKind.ConstKeyword, NodeFlags.Const, scope, BindingType.Const);
     case SyntaxKind.LetKeyword:
       return parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope);
     case SyntaxKind.TypeKeyword:
@@ -1145,7 +1145,7 @@ function parseForStatement(
           initializer = parseBindingList(
             parser,
             context | Context.DisallowIn | Context.LexicalContext,
-            /* isConst */ false,
+            NodeFlags.Const,
             /* inForStatement */ true,
             scope,
             BindingType.Let
@@ -1184,7 +1184,7 @@ function parseForStatement(
       initializer = parseBindingList(
         parser,
         context | Context.DisallowIn | Context.LexicalContext,
-        /* isConst */ true,
+        NodeFlags.Const,
         /* inForStatement */ true,
         scope,
         BindingType.Const
@@ -6028,7 +6028,7 @@ function parseExportDeclaration(
       );
       break;
     case SyntaxKind.ConstKeyword:
-      declaration = parseLexicalDeclaration(parser, context, /* isConst */ true, scope, BindingType.Const);
+      declaration = parseLexicalDeclaration(parser, context, SyntaxKind.ConstKeyword, NodeFlags.Const, scope, BindingType.Const);
       break;
     case SyntaxKind.LetKeyword:
       declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope);
@@ -6911,7 +6911,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
     const declarationList = parseBindingList(
       parser,
       context | Context.LexicalContext,
-      /* isConst */ false,
+      flags,
       /* isForStatement */ false,
       scope,
       BindingType.Let
@@ -6965,16 +6965,17 @@ function parseLetAsIdentifierOrLexicalDeclaration(
 function parseLexicalDeclaration(
   parser: ParserState,
   context: Context,
-  isConst: boolean,
+  token: TokenSyntaxKind,
+  flags: NodeFlags,
   scope: ScopeState,
   type: BindingType
 ): LexicalDeclaration {
   const pos = parser.curPos;
-  const lexicalToken = consumeToken(parser, context, isConst ? SyntaxKind.ConstKeyword : SyntaxKind.LetKeyword);
+  const lexicalToken = consumeToken(parser, context, token);
   const declarationList = parseBindingList(
     parser,
     (context | Context.LexicalContext | Context.InBlock) ^ Context.InBlock,
-    isConst,
+    flags,
     /* inForStatement */ false,
     scope,
     type
@@ -6986,7 +6987,7 @@ function parseLexicalDeclaration(
 function parseBindingList(
   parser: ParserState,
   context: Context,
-  isConst: boolean,
+  flags: NodeFlags,
   inForStatement: boolean,
   scope: ScopeState,
   type: BindingType
@@ -6995,7 +6996,7 @@ function parseBindingList(
   const bindinglist = [];
 
   while (parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    bindinglist.push(parseLexicalBinding(parser, context, isConst, inForStatement, scope, type));
+    bindinglist.push(parseLexicalBinding(parser, context, flags, inForStatement, scope, type));
     // If we can consume a semicolon (either explicitly, or with ASI), then consider us done
     // with parsing the list of lexical bindings.
     //
@@ -7037,20 +7038,20 @@ function parseBindingList(
       parser.pos
     );
   }
-  return createBindingList(bindinglist, isConst, pos, parser.curPos);
+  return createBindingList(bindinglist, flags, pos, parser.curPos);
 }
 
 function parseLexicalBinding(
   parser: ParserState,
   context: Context,
-  isConst: boolean,
+  flags: NodeFlags,
   inForStatement: boolean,
   scope: ScopeState,
   type: BindingType
 ): LexicalBinding {
   const pos = parser.curPos;
 
-  const requireInitializer = !inForStatement && (isConst || parser.token & SyntaxKind.IsPatternStart);
+  const requireInitializer = !inForStatement && ((flags & NodeFlags.Const) !== 0 || parser.token & SyntaxKind.IsPatternStart);
 
   if (parser.token === SyntaxKind.LetKeyword) {
     parser.onError(
@@ -7084,7 +7085,7 @@ function parseLexicalBinding(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        isConst
+        flags & NodeFlags.Const
           ? DiagnosticCode.Missing_initializer_in_const_declaration
           : DiagnosticCode.Missing_initializer_in_destructuring_declaration
       ],

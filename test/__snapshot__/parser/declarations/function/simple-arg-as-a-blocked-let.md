@@ -101,7 +101,7 @@ function f(x) { { let x } }
                                                     "end": 23
                                                 }
                                             ],
-                                            "flags": 33554448,
+                                            "flags": 16,
                                             "start": 21,
                                             "end": 23
                                         },

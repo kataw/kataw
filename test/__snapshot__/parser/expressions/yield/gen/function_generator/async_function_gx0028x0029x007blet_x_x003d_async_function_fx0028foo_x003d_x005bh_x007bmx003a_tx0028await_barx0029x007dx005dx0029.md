@@ -320,7 +320,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                         "end": 115
                                                                     }
                                                                 ],
-                                                                "flags": 33554448,
+                                                                "flags": 16,
                                                                 "start": 62,
                                                                 "end": 115
                                                             },

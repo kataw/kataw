@@ -90,7 +90,7 @@ for (let {x: y = let};;) {}
                         "end": 21
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 21
             },

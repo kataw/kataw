@@ -44,7 +44,7 @@ for (let a;;) { let a; }
                         "end": 10
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 10
             },
@@ -84,7 +84,7 @@ for (let a;;) { let a; }
                                         "end": 21
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 21
                             },

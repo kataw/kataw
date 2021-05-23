@@ -8,7 +8,7 @@ let y = () => new.target
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -77,7 +77,7 @@ let y = () => new.target
                         "end": 24
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 24
             },

@@ -96,7 +96,7 @@ function f(x) { let x }
                                         "end": 21
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 21
                             },

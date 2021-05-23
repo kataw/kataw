@@ -150,7 +150,7 @@ try {} catch({ x: "str" }) {}
                                             "end": 28
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 28
                                 },
@@ -612,7 +612,7 @@ try {} catch({ x: "str" }) {}
                         "end": 159
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 155,
                 "end": 159
             },
@@ -763,7 +763,7 @@ try {} catch({ x: "str" }) {}
                         "end": 207
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 199,
                 "end": 207
             },
@@ -2023,7 +2023,7 @@ try {} catch({ x: "str" }) {}
                                                         "end": 570
                                                     }
                                                 ],
-                                                "flags": 33554448,
+                                                "flags": 16,
                                                 "start": 568,
                                                 "end": 570
                                             },
@@ -2079,7 +2079,7 @@ try {} catch({ x: "str" }) {}
                                     "end": 581
                                 }
                             ],
-                            "flags": 33554448,
+                            "flags": 17,
                             "start": 577,
                             "end": 581
                         },
@@ -2177,7 +2177,7 @@ try {} catch({ x: "str" }) {}
                                     "end": 612
                                 }
                             ],
-                            "flags": 33554448,
+                            "flags": 16,
                             "start": 608,
                             "end": 612
                         },
@@ -2328,7 +2328,7 @@ try {} catch({ x: "str" }) {}
                                     "end": 660
                                 }
                             ],
-                            "flags": 33554448,
+                            "flags": 16,
                             "start": 652,
                             "end": 660
                         },

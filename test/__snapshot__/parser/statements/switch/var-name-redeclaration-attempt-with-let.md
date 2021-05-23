@@ -132,7 +132,7 @@ switch (0) { case 1: var f; default: let f }
                                             "end": 42
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 40,
                                     "end": 42
                                 },

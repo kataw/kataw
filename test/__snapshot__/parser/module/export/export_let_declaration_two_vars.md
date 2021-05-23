@@ -75,7 +75,7 @@ export let x, y
                             "end": 15
                         }
                     ],
-                    "flags": 33554448,
+                    "flags": 16,
                     "start": 10,
                     "end": 15
                 },

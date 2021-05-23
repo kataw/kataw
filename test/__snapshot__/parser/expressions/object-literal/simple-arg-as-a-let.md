@@ -118,7 +118,7 @@ o = {f(x) { let x }}
                                                                 "end": 17
                                                             }
                                                         ],
-                                                        "flags": 33554448,
+                                                        "flags": 16,
                                                         "start": 15,
                                                         "end": 17
                                                     },

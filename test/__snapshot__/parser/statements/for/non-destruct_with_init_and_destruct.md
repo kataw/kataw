@@ -100,7 +100,7 @@ for (let foo = arr, [bar] = arr2;;);
                         "end": 32
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 32
             },

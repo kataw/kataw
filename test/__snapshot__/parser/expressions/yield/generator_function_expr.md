@@ -94,7 +94,7 @@ let x = function *await(){}
                         "end": 27
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 27
             },

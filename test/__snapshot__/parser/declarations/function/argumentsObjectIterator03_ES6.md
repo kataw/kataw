@@ -304,7 +304,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                     "end": 117
                                 }
                             ],
-                            "flags": 33554448,
+                            "flags": 17,
                             "start": 95,
                             "end": 117
                         },

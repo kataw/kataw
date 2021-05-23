@@ -44,7 +44,7 @@ let a; let a;
                         "end": 5
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
@@ -81,7 +81,7 @@ let a; let a;
                         "end": 12
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 10,
                 "end": 12
             },

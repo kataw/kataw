@@ -146,7 +146,7 @@ switch (0) { case 1: async function f() {} default: let f }
                                             "end": 57
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 55,
                                     "end": 57
                                 },

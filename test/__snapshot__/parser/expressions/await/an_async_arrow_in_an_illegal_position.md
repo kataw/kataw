@@ -103,7 +103,7 @@ let y = typeof async x => await x
                         "end": 33
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 33
             },

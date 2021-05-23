@@ -51,7 +51,7 @@ let foo = 1; { var foo = 1; }
                         "end": 11
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 11
             },

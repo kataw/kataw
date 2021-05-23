@@ -99,7 +99,7 @@ let [...] = obj;
                         "end": 15
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 15
             },

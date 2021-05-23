@@ -96,7 +96,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                         "end": 19
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 19
             },

@@ -59,7 +59,7 @@ let {x}: string = y;
                         "end": 5
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
@@ -135,7 +135,7 @@ let {x}: string = y;
                         "end": 23
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 19,
                 "end": 23
             },
@@ -231,7 +231,7 @@ let {x}: string = y;
                         "end": 44
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 41,
                 "end": 44
             },
@@ -339,7 +339,7 @@ let {x}: string = y;
                         "end": 74
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 70,
                 "end": 74
             },

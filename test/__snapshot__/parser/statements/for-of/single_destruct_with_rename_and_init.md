@@ -88,7 +88,7 @@ for (let {x : y = z} of obj);
                         "end": 20
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 20
             },

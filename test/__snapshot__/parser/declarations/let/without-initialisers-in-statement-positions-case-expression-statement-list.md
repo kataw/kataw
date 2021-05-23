@@ -78,7 +78,7 @@ switch (true) { case true: let x; }
                                             "end": 32
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 30,
                                     "end": 32
                                 },

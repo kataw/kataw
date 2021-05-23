@@ -285,7 +285,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                         "end": 110
                                                     }
                                                 ],
-                                                "flags": 33554448,
+                                                "flags": 16,
                                                 "start": 43,
                                                 "end": 110
                                             },

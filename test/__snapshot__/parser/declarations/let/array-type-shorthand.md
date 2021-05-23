@@ -115,7 +115,7 @@ let arr: number[] = [0, 1, 2, 3];
                         "end": 32
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 32
             },

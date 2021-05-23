@@ -77,7 +77,7 @@ function f(){ let x; function x(){} }
                                         "end": 19
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 19
                             },

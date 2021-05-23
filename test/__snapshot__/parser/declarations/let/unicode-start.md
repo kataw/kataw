@@ -48,7 +48,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "end": 10
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 10
             },
@@ -85,7 +85,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "end": 24
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 15,
                 "end": 24
             },
@@ -122,7 +122,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "end": 48
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 29,
                 "end": 48
             },
@@ -159,7 +159,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "end": 58
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 53,
                 "end": 58
             },
@@ -196,7 +196,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "end": 100
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 63,
                 "end": 100
             },

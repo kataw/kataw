@@ -129,7 +129,7 @@ async function f(){ let y = x => await x; }
                                         "end": 40
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 23,
                                 "end": 40
                             },

@@ -1431,7 +1431,7 @@ for ({}.bar = x in obj);
                         "end": 366
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 362,
                 "end": 366
             },
@@ -1879,7 +1879,7 @@ for ({}.bar = x in obj);
                         "end": 509
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 505,
                 "end": 509
             },
@@ -1936,7 +1936,7 @@ for ({}.bar = x in obj);
                         "end": 529
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 525,
                 "end": 529
             },
@@ -1994,7 +1994,7 @@ for ({}.bar = x in obj);
                         "end": 547
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 545,
                 "end": 547
             },
@@ -6711,7 +6711,7 @@ for ({}.bar = x in obj);
                         "end": 1819
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 1813,
                 "end": 1819
             },

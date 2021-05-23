@@ -117,7 +117,7 @@ let {x} = a, y = obj;
                         "end": 20
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 20
             },

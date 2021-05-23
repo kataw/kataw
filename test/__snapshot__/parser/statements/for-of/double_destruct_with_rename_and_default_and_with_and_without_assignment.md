@@ -144,7 +144,7 @@ for (let {x:y=z} = obj, {a:b=c});
                         "end": 31
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 31
             },

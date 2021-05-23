@@ -112,7 +112,7 @@ let y = async x => { await x; }
                         "end": 31
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 31
             },

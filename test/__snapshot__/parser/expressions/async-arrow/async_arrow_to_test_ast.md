@@ -112,7 +112,7 @@ let f = a + b + async()=>d
                         "end": 26
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 26
             },

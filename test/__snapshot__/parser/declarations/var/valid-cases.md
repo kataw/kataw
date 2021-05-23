@@ -603,7 +603,7 @@ var {get} = obj;
                                     "end": 140
                                 }
                             ],
-                            "flags": 33554448,
+                            "flags": 16,
                             "start": 134,
                             "end": 140
                         },

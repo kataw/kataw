@@ -86,7 +86,7 @@ for (let {[x]} of obj);
                         "end": 14
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 14
             },

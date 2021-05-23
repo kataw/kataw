@@ -95,7 +95,7 @@ export let [...x] = y
                             "end": 21
                         }
                     ],
-                    "flags": 33554448,
+                    "flags": 16,
                     "start": 10,
                     "end": 21
                 },

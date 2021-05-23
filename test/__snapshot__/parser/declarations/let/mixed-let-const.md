@@ -53,7 +53,7 @@ const a = 1; let a = 2;
                         "end": 9
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
@@ -185,7 +185,7 @@ const a = 1; let a = 2;
                         "end": 47
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 41,
                 "end": 47
             },

@@ -105,7 +105,7 @@ let foo, [bar];
                         "end": 14
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 14
             },

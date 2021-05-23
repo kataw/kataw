@@ -94,7 +94,7 @@ try {} catch (x) { { var x } }
                                                         "end": 26
                                                     }
                                                 ],
-                                                "flags": 33554448,
+                                                "flags": 16,
                                                 "start": 24,
                                                 "end": 26
                                             },

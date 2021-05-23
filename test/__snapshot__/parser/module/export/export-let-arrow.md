@@ -84,7 +84,7 @@ export let foo = async () => this
                             "end": 33
                         }
                     ],
-                    "flags": 33554448,
+                    "flags": 16,
                     "start": 10,
                     "end": 33
                 },

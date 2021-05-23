@@ -46,7 +46,7 @@ for (var x;;) { { let x; } }
                         "end": 10
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16777232,
                 "start": 8,
                 "end": 10
             },
@@ -196,7 +196,7 @@ for (var x;;) { { let x; } }
                                                     "end": 53
                                                 }
                                             ],
-                                            "flags": 33554448,
+                                            "flags": 16,
                                             "start": 51,
                                             "end": 53
                                         },

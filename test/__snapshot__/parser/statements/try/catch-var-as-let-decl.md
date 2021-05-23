@@ -100,7 +100,7 @@ try {} catch (e) { let e = x; }
                                             "end": 28
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 28
                                 },

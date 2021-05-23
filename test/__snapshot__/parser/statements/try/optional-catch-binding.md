@@ -198,7 +198,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "end": 59
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 57,
                                 "end": 59
                             },
@@ -259,7 +259,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "end": 76
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 74,
                                     "end": 76
                                 },
@@ -328,7 +328,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "end": 92
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 90,
                                 "end": 92
                             },
@@ -389,7 +389,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "end": 109
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 107,
                                     "end": 109
                                 },
@@ -450,7 +450,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "end": 128
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 126,
                                 "end": 128
                             },
@@ -714,7 +714,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "end": 230
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 228,
                                 "end": 230
                             },
@@ -775,7 +775,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "end": 247
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 245,
                                     "end": 247
                                 },
@@ -910,7 +910,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "end": 284
                                                         }
                                                     ],
-                                                    "flags": 33554448,
+                                                    "flags": 16,
                                                     "start": 282,
                                                     "end": 284
                                                 },
@@ -971,7 +971,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                 "end": 301
                                                             }
                                                         ],
-                                                        "flags": 33554448,
+                                                        "flags": 16,
                                                         "start": 299,
                                                         "end": 301
                                                     },
@@ -1032,7 +1032,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "end": 320
                                                         }
                                                     ],
-                                                    "flags": 33554448,
+                                                    "flags": 16,
                                                     "start": 318,
                                                     "end": 320
                                                 },
@@ -1147,7 +1147,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "end": 353
                                                     }
                                                 ],
-                                                "flags": 33554448,
+                                                "flags": 16,
                                                 "start": 351,
                                                 "end": 353
                                             },
@@ -1208,7 +1208,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "end": 370
                                                         }
                                                     ],
-                                                    "flags": 33554448,
+                                                    "flags": 16,
                                                     "start": 368,
                                                     "end": 370
                                                 },
@@ -1269,7 +1269,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "end": 389
                                                     }
                                                 ],
-                                                "flags": 33554448,
+                                                "flags": 16,
                                                 "start": 387,
                                                 "end": 389
                                             },

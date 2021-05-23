@@ -11,14 +11,14 @@ export interface BindingList extends SyntaxNode {
 
 export function createBindingList(
   bindingList: LexicalBinding[],
-  isConst: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): BindingList {
   return {
     kind: SyntaxKind.BindingList,
     bindingList,
-    flags: isConst ? NodeFlags.Const | NodeFlags.IsStatement : NodeFlags.IsStatement | NodeFlags.Lexical,
+    flags: flags | NodeFlags.IsStatement,
     start,
     end
   };

@@ -208,7 +208,7 @@ function *foo() { let x = {yield} }
                                         "end": 66
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 54,
                                 "end": 66
                             },
@@ -428,7 +428,7 @@ function *foo() { let x = {yield} }
                                         "end": 138
                                     }
                                 ],
-                                "flags": 33554448,
+                                "flags": 16,
                                 "start": 126,
                                 "end": 138
                             },

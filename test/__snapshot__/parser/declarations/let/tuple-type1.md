@@ -94,7 +94,7 @@ let tuple1: [number] = [1];
                         "end": 26
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 26
             },

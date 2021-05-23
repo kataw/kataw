@@ -198,7 +198,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
                                                             "end": 62
                                                         }
                                                     ],
-                                                    "flags": 33554448,
+                                                    "flags": 16,
                                                     "start": 42,
                                                     "end": 62
                                                 },

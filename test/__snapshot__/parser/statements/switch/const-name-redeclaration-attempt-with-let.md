@@ -138,7 +138,7 @@ switch (0) { case 1: const f = 0; default: let f }
                                             "end": 48
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 46,
                                     "end": 48
                                 },

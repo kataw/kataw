@@ -98,7 +98,7 @@ let {...obj1,a} = foo
                         "end": 21
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 21
             },

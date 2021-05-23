@@ -123,7 +123,7 @@ let {a, [x]: y} = a;
                         "end": 19
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 19
             },

@@ -71,7 +71,7 @@ switch (true) { default: let x; }
                                             "end": 30
                                         }
                                     ],
-                                    "flags": 33554448,
+                                    "flags": 16,
                                     "start": 28,
                                     "end": 30
                                 },

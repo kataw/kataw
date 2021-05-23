@@ -2647,7 +2647,7 @@ let x = { foo(){ super(); } };
                         "end": 729
                     }
                 ],
-                "flags": 33554448,
+                "flags": 17,
                 "start": 703,
                 "end": 729
             },

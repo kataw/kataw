@@ -154,7 +154,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                         "end": 42
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 34,
                 "end": 42
             },

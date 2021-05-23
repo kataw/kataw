@@ -111,7 +111,7 @@ let [... ...foo] = obj;
                         "end": 22
                     }
                 ],
-                "flags": 33554448,
+                "flags": 16,
                 "start": 3,
                 "end": 22
             },
