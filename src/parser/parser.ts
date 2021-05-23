@@ -5993,7 +5993,7 @@ function parseExportDeclaration(
   let fromClause: FromClause | null = null;
   let namedExports: NamedExports | null = null;
   let exportFromClause: any | null = null;
-  let exportKind = ExportKind.Type;
+  const exportKind = ExportKind.Type;
 
   switch (parser.token) {
     case SyntaxKind.DefaultKeyword:
@@ -6618,7 +6618,7 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
   const start = parser.curPos;
-  let name = parseIdentifier(parser, context);
+  const name = parseIdentifier(parser, context);
   const type = parseTypeAnnotation(parser, context);
   const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
     ? parseUnionType(parser, context | Context.InTypes)
@@ -7576,7 +7576,6 @@ export function parseImportCall(
 ): ExpressionStatement {
   const pos = parser.curPos;
   nextToken(parser, context);
-  let expression!: ExpressionNode;
   if (parser.token === SyntaxKind.RightParen) {
     parser.previousErrorPos = parser.pos;
     parser.onError(
@@ -7587,7 +7586,7 @@ export function parseImportCall(
       parser.pos
     );
   }
-  expression = parseExpression(parser, context);
+  const expression = parseExpression(parser, context);
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
   return parseExpressionStatement(
     parser,
@@ -7638,7 +7637,7 @@ export function parseImportMeta(
       parser.pos
     );
   }
-  let expression: any = createImportMeta(
+  const expression: any = createImportMeta(
     importKeyword,
     metaKeyword,
     pos,
