@@ -40,7 +40,7 @@ For example:
 kataw.parseScript('¤', { allowTypes: false}, function (source, kind, message, start, end) {})
 ```
 The diagnostics are dynamics - they will will change based on the context you are parsing in - and the `kind` is either
-a `hint`, `warning`, or an `error`., and
+a `hint`, `warning`, or an `error`.
 
 The `source` argument for each diagnostics is either `1` for lexer or  `2` for parser.
 
