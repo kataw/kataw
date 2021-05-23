@@ -2697,7 +2697,7 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 211, end: 212
 ✖ Duplicate identifier - start: 229, end: 231
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 240, end: 241
-✖ Expected a computed property - start: 233, end: 246
+✖ Expected a computed property - start: 244, end: 246
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
 ✖ Expression expected - start: 250, end: 251
 ✖ Declaration or statement expected - start: 251, end: 253

@@ -362,7 +362,14 @@ function parseStatementListItem(parser: ParserState, context: Context, scope: Sc
     case SyntaxKind.ClassKeyword:
       return parseClassDeclaration(parser, context, scope, /* declareKeyword */ null, /* isDefaultModifier */ false);
     case SyntaxKind.ConstKeyword:
-      return parseLexicalDeclaration(parser, context, SyntaxKind.ConstKeyword, NodeFlags.Const, scope, BindingType.Const);
+      return parseLexicalDeclaration(
+        parser,
+        context,
+        SyntaxKind.ConstKeyword,
+        NodeFlags.Const,
+        scope,
+        BindingType.Const
+      );
     case SyntaxKind.LetKeyword:
       return parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope);
     case SyntaxKind.TypeKeyword:
@@ -6028,7 +6035,14 @@ function parseExportDeclaration(
       );
       break;
     case SyntaxKind.ConstKeyword:
-      declaration = parseLexicalDeclaration(parser, context, SyntaxKind.ConstKeyword, NodeFlags.Const, scope, BindingType.Const);
+      declaration = parseLexicalDeclaration(
+        parser,
+        context,
+        SyntaxKind.ConstKeyword,
+        NodeFlags.Const,
+        scope,
+        BindingType.Const
+      );
       break;
     case SyntaxKind.LetKeyword:
       declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope);
@@ -7051,7 +7065,8 @@ function parseLexicalBinding(
 ): LexicalBinding {
   const pos = parser.curPos;
 
-  const requireInitializer = !inForStatement && ((flags & NodeFlags.Const) !== 0 || parser.token & SyntaxKind.IsPatternStart);
+  const requireInitializer =
+    !inForStatement && ((flags & NodeFlags.Const) !== 0 || parser.token & SyntaxKind.IsPatternStart);
 
   if (parser.token === SyntaxKind.LetKeyword) {
     parser.onError(
@@ -7405,18 +7420,7 @@ function parseComputedPropertyName(parser: ParserState, context: Context): Compu
     parser,
     (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
   );
-  if (parser.token === SyntaxKind.RightBracket) {
-    nextToken(parser, context | Context.AllowRegExp);
-  } else if (parser.previousErrorPos !== parser.pos) {
-    parser.previousErrorPos = parser.pos;
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Expected_a_computed_property],
-      pos,
-      parser.pos
-    );
-  }
+  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightBracket, DiagnosticCode.Expected_a_computed_property);
   return createComputedPropertyName(expression, pos, parser.curPos);
 }
 
@@ -7428,13 +7432,11 @@ function parseYieldIdentifierOrExpression(
   parser: ParserState,
   context: Context,
   LeftHandSideContext: LeftHandSide
-): YieldExpression {
+): YieldExpression | ArrowFunction | Identifier | DummyIdentifier {
   const pos = parser.curPos;
 
   if (context & Context.InGeneratorContext) {
-    const yieldKeyword = consumeToken(parser, context, SyntaxKind.YieldKeyword);
-
-    if (yieldKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -7443,15 +7445,7 @@ function parseYieldIdentifierOrExpression(
         parser.curPos
       );
     }
-    if (LeftHandSideContext) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Expected_a],
-        parser.curPos,
-        parser.pos
-      );
-    }
+
     if (context & Context.Parameters) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -7461,9 +7455,22 @@ function parseYieldIdentifierOrExpression(
         parser.pos
       );
     }
-    const token = parser.token;
+
+    const yieldKeyword = consumeToken(parser, context, SyntaxKind.YieldKeyword);
+
+    if (LeftHandSideContext) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Expected_a],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
     parser.assignable = false;
-    if (token === SyntaxKind.Multiply) {
+
+    if (parser.token === SyntaxKind.Multiply) {
       // A `\n` after `yield` is illegal for `yield *`, and '*' should therefor be parsed as
       //an binary expr operator in error recovery mode
       if (parser.nodeFlags & NodeFlags.NewLine) {
@@ -7490,7 +7497,7 @@ function parseYieldIdentifierOrExpression(
       /* yieldKeyword */ yieldKeyword,
       /* delegate */ false,
       /* asteriskToken */ null,
-      /* expression */ token & SyntaxKind.IsExpressionStart ? parseExpression(parser, context) : null,
+      /* expression */ parser.token & SyntaxKind.IsExpressionStart ? parseExpression(parser, context) : null,
       pos,
       parser.curPos
     );
@@ -7512,10 +7519,10 @@ function parseYieldIdentifierOrExpression(
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
-    ) as any;
+    );
   }
 
-  return expression as any;
+  return expression;
 }
 
 // AwaitExpression : `await` UnaryExpression
@@ -7527,8 +7534,7 @@ export function parseAwaitExpression(
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
   if (LeftHandSideContext) return parseIdentifierReference(parser, context);
-  const awaitKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
-  if (awaitKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -7537,6 +7543,7 @@ export function parseAwaitExpression(
       parser.curPos
     );
   }
+  const awaitKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
   const expression = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
   if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate) {
     // Unary expressions as the left operand of an exponentation expression must be disambiguated with parentheses
@@ -7575,6 +7582,7 @@ export function parseImportCall(
   nextToken(parser, context);
   let expression!: ExpressionNode;
   if (parser.token === SyntaxKind.RightParen) {
+    parser.previousErrorPos = parser.pos;
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -7582,16 +7590,15 @@ export function parseImportCall(
       parser.curPos,
       parser.pos
     );
-    expression = createDummyIdentifier(pos, parser.curPos);
-  } else {
-    expression = parseExpression(parser, context);
   }
-
+  expression = parseExpression(parser, context);
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
-
-  expression = createImportCall(importKeyword, expression, pos, parser.curPos);
-  expression = parseExpressionRest(parser, context, expression, pos);
-  return parseExpressionStatement(parser, context, expression, pos);
+  return parseExpressionStatement(
+    parser,
+    context,
+    parseExpressionRest(parser, context, createImportCall(importKeyword, expression, pos, parser.curPos), pos),
+    pos
+  );
 }
 
 // ImportMeta:
@@ -7643,13 +7650,12 @@ export function parseImportMeta(
     parser.curPos
   );
   parser.assignable = false;
-  expression = parseExpressionRest(parser, context, expression, pos);
-  return parseExpressionStatement(parser, context, expression, pos);
+  return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expression, pos), pos);
 }
 
 function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
   const pos = parser.curPos;
-  const nodeFlags = parser.nodeFlags;
+  const nodeFlags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const templateSpans = [parseTemplateSpan(parser, context)];
 
   while (scanTemplateTail(parser, context, isTaggedTemplate) === SyntaxKind.TemplateCont) {
@@ -7657,8 +7663,8 @@ function parseTemplateExpression(parser: ParserState, context: Context, isTagged
   }
   return createTemplateExpression(
     templateSpans,
-    parseTemplateTail(parser, context, NodeFlags.ExpressionNode | NodeFlags.ChildLess),
-    nodeFlags | NodeFlags.ExpressionNode,
+    parseTemplateTail(parser, context, nodeFlags | NodeFlags.ChildLess),
+    nodeFlags,
     pos,
     parser.curPos
   );
@@ -7667,11 +7673,13 @@ function parseTemplateExpression(parser: ParserState, context: Context, isTagged
 function parseTemplateSpan(parser: ParserState, context: Context): TemplateSpan {
   const { curPos, tokenValue, tokenRaw } = parser;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.TemplateCont);
-  const expression = parseExpressions(
-    parser,
-    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+  return createTemplateSpan(
+    tokenRaw,
+    tokenValue,
+    parseExpressions(parser, (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000),
+    curPos,
+    parser.curPos
   );
-  return createTemplateSpan(tokenRaw, tokenValue, expression, curPos, parser.curPos);
 }
 
 function parseTemplateTail(parser: ParserState, context: Context, flags: NodeFlags): TemplateTail {
@@ -7810,8 +7818,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
 
   let classHeritage: ExpressionNode | null = null;
   let inheritedContext = context;
-  let body: any = null;
-  const ignoreMissingOpenBrace = false;
+  let body = null;
 
   if (parser.token === SyntaxKind.ExtendsKeyword) {
     const extendsToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExtendsKeyword);
@@ -7863,10 +7870,10 @@ export function parseClassBody(
   const pos = parser.curPos;
   let hasConstructor = false;
   const elements = [];
+  let classElement = null;
   while (parser.token & 0b01000100110000000100000000000000) {
-    const element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
-
-    if (element.flags & NodeFlags.Constructor) {
+    classElement = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
+    if (classElement.flags & NodeFlags.Constructor) {
       if (hasConstructor) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -7879,7 +7886,7 @@ export function parseClassBody(
       hasConstructor = true;
     }
 
-    elements.push(element);
+    elements.push(classElement);
 
     if (parser.token === SyntaxKind.RightBrace) break;
   }

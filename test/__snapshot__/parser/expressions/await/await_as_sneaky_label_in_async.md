@@ -124,7 +124,7 @@ async () => { aw\u{61}it: x }
 ### Diagnostics
 
 ```javascript
-✖ 'await' keyword must not contain escaped characters - start: 13, end: 24
+✖ 'await' keyword must not contain escaped characters - start: 13, end: 13
 ✖ Expression expected - start: 24, end: 25
 ✖ Unicode escapes at the start of labels should not allow keywords - start: 13, end: 25
 

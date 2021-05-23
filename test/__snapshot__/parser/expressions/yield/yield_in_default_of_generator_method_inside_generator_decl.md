@@ -200,7 +200,7 @@ function *f(){  ({*g(x=yield){}})  }
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 23, end: 29
+✖ `Yield` expression cannot be used in function parameters - start: 23, end: 28
 
 ```
 

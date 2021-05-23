@@ -3463,7 +3463,7 @@
 ✖ Invalid character - start: 547, end: 548
 ✖ Invalid character - start: 578, end: 579
 ✖ Unterminated string literal - start: 580, end: 592
-✖ Expected a computed property - start: 579, end: 628
+✖ Expected a computed property - start: 627, end: 628
 ✖ The parser expected to find a '}' to match the '{' token here - start: 628, end: 630
 ✖ Invalid character - start: 653, end: 654
 ✖ Expected a ')' to match the '(' token here - start: 666, end: 667

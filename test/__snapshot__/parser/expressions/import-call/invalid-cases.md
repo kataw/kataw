@@ -147,7 +147,7 @@ new import(x);
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 17,
+                    "start": 18,
                     "end": 18
                 },
                 "flags": 32,
@@ -218,7 +218,7 @@ new import(x);
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 48,
+                    "start": 49,
                     "end": 49
                 },
                 "flags": 32,

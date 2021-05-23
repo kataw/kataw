@@ -134,7 +134,7 @@ function *foo() { (x = \u0079ield) }
 ### Diagnostics
 
 ```javascript
-✖ 'yield' keyword must not contain escaped characters - start: 22, end: 33
+✖ 'yield' keyword must not contain escaped characters - start: 22, end: 22
 
 ```
 
