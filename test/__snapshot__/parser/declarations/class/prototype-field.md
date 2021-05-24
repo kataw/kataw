@@ -70,8 +70,8 @@ class Foo { prototype = 1 }
                     "start": 11,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 23
             },
             "flags": 16,
@@ -129,8 +129,8 @@ class Foo { prototype = 1 }
                     "start": 36,
                     "end": 48
                 },
-                "flags": 32,
-                "start": 34,
+                "flags": 34,
+                "start": 32,
                 "end": 50
             },
             "flags": 16,
@@ -195,8 +195,8 @@ class Foo { prototype = 1 }
                     "start": 63,
                     "end": 77
                 },
-                "flags": 32,
-                "start": 61,
+                "flags": 61,
+                "start": 32,
                 "end": 79
             },
             "flags": 16,

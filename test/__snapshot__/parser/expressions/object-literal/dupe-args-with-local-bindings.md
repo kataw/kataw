@@ -210,8 +210,8 @@ class o {f([b, a], ...b) {}}
                     "start": 9,
                     "end": 38
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 38
             },
             "flags": 16,
@@ -469,8 +469,8 @@ class o {f([b, a], ...b) {}}
                     "start": 76,
                     "end": 91
                 },
-                "flags": 32,
-                "start": 74,
+                "flags": 74,
+                "start": 32,
                 "end": 92
             },
             "flags": 16,
@@ -661,8 +661,8 @@ class o {f([b, a], ...b) {}}
                     "start": 103,
                     "end": 120
                 },
-                "flags": 32,
-                "start": 101,
+                "flags": 101,
+                "start": 32,
                 "end": 121
             },
             "flags": 16,
@@ -835,8 +835,8 @@ class o {f([b, a], ...b) {}}
                     "start": 132,
                     "end": 150
                 },
-                "flags": 32,
-                "start": 130,
+                "flags": 130,
+                "start": 32,
                 "end": 151
             },
             "flags": 16,

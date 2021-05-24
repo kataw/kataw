@@ -153,8 +153,8 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                         "start": 30,
                                                         "end": 36
                                                     },
-                                                    "flags": 32,
-                                                    "start": 28,
+                                                    "flags": 28,
+                                                    "start": 32,
                                                     "end": 36
                                                 },
                                                 "flags": 16,
@@ -183,8 +183,8 @@ class C { set x(_) { class C { get x) { super; } } } }
                     "start": 9,
                     "end": 36
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 36
             },
             "flags": 16,

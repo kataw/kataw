@@ -95,8 +95,8 @@ class A extends async a => b {}
                     "start": 30,
                     "end": 30
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 31
             },
             "flags": 16,

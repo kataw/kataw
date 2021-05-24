@@ -51,8 +51,8 @@ typeof class{}
                                     "start": 13,
                                     "end": 13
                                 },
-                                "flags": 32,
-                                "start": 12,
+                                "flags": 12,
+                                "start": 32,
                                 "end": 14
                             },
                             "flags": 32,

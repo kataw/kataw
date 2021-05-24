@@ -161,8 +161,8 @@ class x { \u0063onstructor(){}; constructor(){} }
                     "start": 9,
                     "end": 47
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 49
             },
             "flags": 16,

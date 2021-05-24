@@ -88,8 +88,8 @@ class x extends throw {}
                     "start": 15,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 21
             },
             "flags": 16,

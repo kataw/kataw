@@ -233,8 +233,8 @@ class C { set x(_) { var f = function() { super(); } } }
                     "start": 9,
                     "end": 54
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 56
             },
             "flags": 16,

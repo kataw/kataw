@@ -66,8 +66,8 @@ class A extends /crap/ {}
                     "start": 24,
                     "end": 24
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 25
             },
             "flags": 16,

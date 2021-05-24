@@ -100,8 +100,8 @@ function not_gen() { class C extends yield { } }}
                                     "start": 44,
                                     "end": 44
                                 },
-                                "flags": 32,
-                                "start": 28,
+                                "flags": 28,
+                                "start": 32,
                                 "end": 46
                             },
                             "flags": 16,

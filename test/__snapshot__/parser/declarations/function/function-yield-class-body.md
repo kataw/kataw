@@ -105,8 +105,8 @@ function* bar() { yield class {} }
                                             "start": 31,
                                             "end": 31
                                         },
-                                        "flags": 32,
-                                        "start": 29,
+                                        "flags": 29,
+                                        "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,

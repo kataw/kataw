@@ -93,8 +93,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                     "start": 19,
                                                     "end": 19
                                                 },
-                                                "flags": 32,
-                                                "start": 17,
+                                                "flags": 17,
+                                                "start": 32,
                                                 "end": 20
                                             },
                                             "flags": 32,
@@ -149,8 +149,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                     "start": 38,
                                                     "end": 38
                                                 },
-                                                "flags": 32,
-                                                "start": 36,
+                                                "flags": 36,
+                                                "start": 32,
                                                 "end": 39
                                             },
                                             "flags": 32,
@@ -255,8 +255,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                     "start": 56,
                                                     "end": 73
                                                 },
-                                                "flags": 32,
-                                                "start": 54,
+                                                "flags": 54,
+                                                "start": 32,
                                                 "end": 75
                                             },
                                             "flags": 32,

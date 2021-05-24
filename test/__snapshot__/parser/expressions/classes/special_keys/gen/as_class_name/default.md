@@ -68,8 +68,8 @@ class default {}
                     "start": 5,
                     "end": 13
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 32,
                 "end": 13
             },
             "flags": 16,

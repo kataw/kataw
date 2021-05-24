@@ -67,8 +67,8 @@ class x extends interface {}
                     "start": 27,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 28
             },
             "flags": 16,

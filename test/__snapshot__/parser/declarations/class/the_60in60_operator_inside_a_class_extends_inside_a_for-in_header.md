@@ -133,8 +133,8 @@ for (class x extends a in b {} in c);
                         "start": 22,
                         "end": 27
                     },
-                    "flags": 32,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 32,
                     "end": 27
                 },
                 "flags": 32,

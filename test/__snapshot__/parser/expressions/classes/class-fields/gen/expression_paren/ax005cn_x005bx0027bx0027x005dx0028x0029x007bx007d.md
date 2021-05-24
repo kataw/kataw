@@ -65,8 +65,8 @@
                             "start": 8,
                             "end": 10
                         },
-                        "flags": 32,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 32,
                         "end": 10
                     },
                     "flags": 32,

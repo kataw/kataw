@@ -73,8 +73,8 @@ class C { #@{x29e3d}@ }
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 11
             },
             "flags": 16,
@@ -111,8 +111,8 @@ class C { #@{x29e3d}@ }
                     "start": 19,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 19,
+                "flags": 19,
+                "start": 32,
                 "end": 20
             },
             "flags": 16,
@@ -148,8 +148,8 @@ class C { #@{x29e3d}@ }
                     "start": 23,
                     "end": 23
                 },
-                "flags": 32,
-                "start": 23,
+                "flags": 23,
+                "start": 32,
                 "end": 23
             },
             "flags": 16,

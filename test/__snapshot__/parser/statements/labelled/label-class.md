@@ -70,8 +70,8 @@ label: class x {}
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 32,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 32,
                     "end": 17
                 },
                 "flags": 16,

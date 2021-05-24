@@ -145,8 +145,8 @@ class Foo { bar():this { return this; }}
                     "start": 11,
                     "end": 39
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 40
             },
             "flags": 16,

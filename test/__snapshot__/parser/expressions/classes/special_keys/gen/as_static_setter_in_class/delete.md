@@ -128,8 +128,8 @@ class x {static set delete(x){}}
                     "start": 9,
                     "end": 31
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 32
             },
             "flags": 16,

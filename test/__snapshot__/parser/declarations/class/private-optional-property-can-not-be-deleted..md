@@ -203,8 +203,8 @@ class Foo {
                     "start": 11,
                     "end": 60
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 62
             },
             "flags": 16,

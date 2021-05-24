@@ -128,8 +128,8 @@ class A {async get [foo](){}}
                     "start": 9,
                     "end": 28
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 29
             },
             "flags": 16,

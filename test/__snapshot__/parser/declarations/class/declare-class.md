@@ -51,25 +51,21 @@ declare class A { static foo(): number; static x : string }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
-                    "elements": [
+                    "kind": 134234353,
+                    "properties": [
                         {
-                            "kind": 278,
-                            "declareToken": null,
-                            "decorators": null,
-                            "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
+                            "kind": 193,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
                                 "start": 17,
                                 "end": 24
                             },
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
-                            "method": {
-                                "kind": 209,
-                                "name": {
+                            "value": {
+                                "kind": 144,
+                                "id": {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
@@ -78,84 +74,100 @@ declare class A { static foo(): number; static x : string }
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "start": 29,
-                                    "end": 30
-                                },
-                                "type": {
-                                    "kind": 139,
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 64,
-                                        "start": 31,
-                                        "end": 38
-                                    },
-                                    "flags": 0,
-                                    "start": 28,
-                                    "end": 38
-                                },
-                                "contents": null,
                                 "flags": 0,
-                                "start": 28,
-                                "end": 38
+                                "start": 24,
+                                "end": 28
                             },
+                            "optionalToken": null,
+                            "staticToken": null,
                             "flags": 0,
-                            "start": 24,
-                            "end": 38
+                            "start": 17,
+                            "end": 28
                         },
                         {
-                            "kind": 281,
-                            "flags": 96,
-                            "start": 38,
-                            "end": 39
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 64,
+                            "kind": 193,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
                                 "start": 39,
                                 "end": 46
                             },
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 46,
+                                    "end": 48
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 46,
                                 "end": 48
                             },
                             "optionalToken": null,
-                            "type": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 134234347,
-                                    "flags": 64,
-                                    "start": 50,
-                                    "end": 57
-                                },
-                                "flags": 0,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 39,
+                            "end": 48
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
                                 "start": 48,
+                                "end": 48
+                            },
+                            "value": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 50,
                                 "end": 57
                             },
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 46,
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 48,
                             "end": 57
                         }
                     ],
-                    "flags": 32,
-                    "start": 17,
-                    "end": 57
+                    "indexers": [],
+                    "callProperties": [
+                        {
+                            "kind": 196,
+                            "typeParameter": null,
+                            "value": {
+                                "kind": 208,
+                                "functionTypeParameterList": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 29,
+                                "end": 29
+                            },
+                            "staticToken": null,
+                            "returnType": {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 31,
+                                "end": 38
+                            },
+                            "flags": 0,
+                            "start": 28,
+                            "end": 39
+                        }
+                    ],
+                    "internalSlots": [],
+                    "flags": 0,
+                    "start": 15,
+                    "end": 59
                 },
-                "flags": 32,
+                "flags": 4128,
                 "start": 15,
                 "end": 59
             },
@@ -177,16 +189,12 @@ declare class A { static foo(): number; static x : string }
 
 ```javascript
 
-declare class A {
-  static static foo();
-
-  static x;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Binding identifier expected - start: 48, end: 50
+
 ```
 

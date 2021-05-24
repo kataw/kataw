@@ -142,8 +142,8 @@ class C { get name(private) {} }
                     "start": 10,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 8,
+                "flags": 8,
+                "start": 32,
                 "end": 35
             },
             "flags": 16,
@@ -255,8 +255,8 @@ class C { get name(private) {} }
                     "start": 46,
                     "end": 66
                 },
-                "flags": 32,
-                "start": 44,
+                "flags": 44,
+                "start": 32,
                 "end": 68
             },
             "flags": 16,
@@ -368,8 +368,8 @@ class C { get name(private) {} }
                     "start": 79,
                     "end": 100
                 },
-                "flags": 32,
-                "start": 77,
+                "flags": 77,
+                "start": 32,
                 "end": 102
             },
             "flags": 16,
@@ -495,8 +495,8 @@ class C { get name(private) {} }
                     "start": 127,
                     "end": 151
                 },
-                "flags": 32,
-                "start": 125,
+                "flags": 125,
+                "start": 32,
                 "end": 153
             },
             "flags": 16,
@@ -622,8 +622,8 @@ class C { get name(private) {} }
                     "start": 178,
                     "end": 197
                 },
-                "flags": 32,
-                "start": 176,
+                "flags": 176,
+                "start": 32,
                 "end": 199
             },
             "flags": 16,
@@ -738,8 +738,8 @@ class C { get name(private) {} }
                     "start": 224,
                     "end": 237
                 },
-                "flags": 32,
-                "start": 222,
+                "flags": 222,
+                "start": 32,
                 "end": 237
             },
             "flags": 16,
@@ -874,8 +874,8 @@ class C { get name(private) {} }
                             "start": 267,
                             "end": 288
                         },
-                        "flags": 32,
-                        "start": 265,
+                        "flags": 265,
+                        "start": 32,
                         "end": 290
                     },
                     "flags": 32,
@@ -1005,8 +1005,8 @@ class C { get name(private) {} }
                             "start": 315,
                             "end": 335
                         },
-                        "flags": 32,
-                        "start": 313,
+                        "flags": 313,
+                        "start": 32,
                         "end": 337
                     },
                     "flags": 32,

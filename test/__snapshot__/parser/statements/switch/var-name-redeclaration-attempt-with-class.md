@@ -132,8 +132,8 @@ switch (0) { case 1: var f; default: class f {} }
                                         "start": 46,
                                         "end": 46
                                     },
-                                    "flags": 32,
-                                    "start": 44,
+                                    "flags": 44,
+                                    "start": 32,
                                     "end": 47
                                 },
                                 "flags": 16,

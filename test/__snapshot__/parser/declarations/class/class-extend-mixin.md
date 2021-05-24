@@ -118,8 +118,8 @@ class Foo<T> extends mixin(Bar) { }
                     "start": 33,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 32,
                 "end": 35
             },
             "flags": 16,

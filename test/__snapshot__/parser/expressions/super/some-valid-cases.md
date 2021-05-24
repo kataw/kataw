@@ -95,8 +95,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 19,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 21
             },
             "flags": 16,
@@ -204,8 +204,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 42,
                     "end": 48
                 },
-                "flags": 32,
-                "start": 30,
+                "flags": 30,
+                "start": 32,
                 "end": 50
             },
             "flags": 16,
@@ -346,8 +346,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 71,
                     "end": 98
                 },
-                "flags": 32,
-                "start": 59,
+                "flags": 59,
+                "start": 32,
                 "end": 100
             },
             "flags": 16,
@@ -468,8 +468,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 111,
                     "end": 139
                 },
-                "flags": 32,
-                "start": 109,
+                "flags": 109,
+                "start": 32,
                 "end": 140
             },
             "flags": 16,
@@ -590,8 +590,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 151,
                     "end": 171
                 },
-                "flags": 32,
-                "start": 149,
+                "flags": 149,
+                "start": 32,
                 "end": 172
             },
             "flags": 16,
@@ -723,8 +723,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 183,
                     "end": 203
                 },
-                "flags": 32,
-                "start": 181,
+                "flags": 181,
+                "start": 32,
                 "end": 204
             },
             "flags": 16,
@@ -978,8 +978,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 243,
                     "end": 272
                 },
-                "flags": 32,
-                "start": 241,
+                "flags": 241,
+                "start": 32,
                 "end": 273
             },
             "flags": 16,
@@ -1100,8 +1100,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 284,
                     "end": 305
                 },
-                "flags": 32,
-                "start": 282,
+                "flags": 282,
+                "start": 32,
                 "end": 306
             },
             "flags": 16,
@@ -1233,8 +1233,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 317,
                     "end": 338
                 },
-                "flags": 32,
-                "start": 315,
+                "flags": 315,
+                "start": 32,
                 "end": 339
             },
             "flags": 16,
@@ -1681,8 +1681,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 416,
                     "end": 458
                 },
-                "flags": 32,
-                "start": 404,
+                "flags": 404,
+                "start": 32,
                 "end": 459
             },
             "flags": 16,
@@ -1845,8 +1845,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 480,
                     "end": 522
                 },
-                "flags": 32,
-                "start": 468,
+                "flags": 468,
+                "start": 32,
                 "end": 523
             },
             "flags": 16,
@@ -1989,8 +1989,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 534,
                     "end": 566
                 },
-                "flags": 32,
-                "start": 532,
+                "flags": 532,
+                "start": 32,
                 "end": 567
             },
             "flags": 16,
@@ -2162,8 +2162,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "start": 578,
                     "end": 615
                 },
-                "flags": 32,
-                "start": 576,
+                "flags": 576,
+                "start": 32,
                 "end": 616
             },
             "flags": 16,

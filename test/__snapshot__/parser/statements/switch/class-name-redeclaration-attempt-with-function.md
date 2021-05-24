@@ -80,8 +80,8 @@ switch (0) { case 1: class f {} default: function f() {} }
                                         "start": 30,
                                         "end": 30
                                     },
-                                    "flags": 32,
-                                    "start": 28,
+                                    "flags": 28,
+                                    "start": 32,
                                     "end": 31
                                 },
                                 "flags": 16,

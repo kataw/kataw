@@ -216,8 +216,8 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                         "start": 30,
                                                         "end": 52
                                                     },
-                                                    "flags": 32,
-                                                    "start": 28,
+                                                    "flags": 28,
+                                                    "start": 32,
                                                     "end": 54
                                                 },
                                                 "flags": 16,
@@ -246,8 +246,8 @@ class C { set x(_) { class C { method() { super(); } } } }
                     "start": 9,
                     "end": 56
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 58
             },
             "flags": 16,

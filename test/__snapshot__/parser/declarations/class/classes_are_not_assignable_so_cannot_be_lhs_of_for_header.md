@@ -123,8 +123,8 @@ for (class x { [a](){} } in c);
                         "start": 14,
                         "end": 22
                     },
-                    "flags": 32,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 32,
                     "end": 24
                 },
                 "flags": 32,

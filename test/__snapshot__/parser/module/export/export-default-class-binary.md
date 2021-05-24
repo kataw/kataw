@@ -64,8 +64,8 @@ export default class Foo {}++x
                         "start": 26,
                         "end": 26
                     },
-                    "flags": 32,
-                    "start": 24,
+                    "flags": 24,
+                    "start": 32,
                     "end": 27
                 },
                 "flags": 16,

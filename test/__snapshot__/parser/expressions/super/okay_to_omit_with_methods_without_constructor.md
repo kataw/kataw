@@ -116,8 +116,8 @@ class x extends y { f(){} }
                     "start": 19,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 27
             },
             "flags": 16,

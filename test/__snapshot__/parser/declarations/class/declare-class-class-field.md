@@ -55,14 +55,10 @@ declare class X {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
-                    "elements": [
+                    "kind": 134234353,
+                    "properties": [
                         {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
+                            "kind": 193,
                             "key": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -71,79 +67,72 @@ declare class X {
                                 "start": 17,
                                 "end": 21
                             },
-                            "optionalToken": null,
-                            "type": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 134234345,
-                                    "flags": 64,
-                                    "start": 22,
-                                    "end": 29
-                                },
-                                "flags": 0,
-                                "start": 21,
+                            "value": {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 22,
                                 "end": 29
                             },
-                            "initializer": null,
-                            "flags": 32,
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
                             "start": 17,
                             "end": 29
                         },
                         {
-                            "kind": 281,
-                            "flags": 96,
-                            "start": 29,
-                            "end": 30
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 64,
+                            "kind": 193,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
                                 "start": 30,
                                 "end": 39
                             },
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 39,
+                                    "end": 41
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 39,
                                 "end": 41
                             },
                             "optionalToken": null,
-                            "type": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 134234345,
-                                    "flags": 64,
-                                    "start": 42,
-                                    "end": 49
-                                },
-                                "flags": 0,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 30,
+                            "end": 41
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
                                 "start": 41,
+                                "end": 41
+                            },
+                            "value": {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 42,
                                 "end": 49
                             },
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 39,
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 41,
                             "end": 49
                         },
                         {
-                            "kind": 281,
-                            "flags": 96,
-                            "start": 49,
-                            "end": 50
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
+                            "kind": 193,
                             "key": {
                                 "kind": 134299649,
                                 "text": "c",
@@ -152,36 +141,27 @@ declare class X {
                                 "start": 50,
                                 "end": 54
                             },
-                            "optionalToken": null,
-                            "type": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 134234345,
-                                    "flags": 64,
-                                    "start": 55,
-                                    "end": 62
-                                },
-                                "flags": 0,
-                                "start": 54,
+                            "value": {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 55,
                                 "end": 62
                             },
-                            "initializer": null,
-                            "flags": 32,
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
                             "start": 50,
                             "end": 62
-                        },
-                        {
-                            "kind": 281,
-                            "flags": 96,
-                            "start": 62,
-                            "end": 63
                         }
                     ],
-                    "flags": 32,
-                    "start": 17,
-                    "end": 63
+                    "indexers": [],
+                    "callProperties": [],
+                    "internalSlots": [],
+                    "flags": 0,
+                    "start": 15,
+                    "end": 65
                 },
-                "flags": 32,
+                "flags": 4128,
                 "start": 15,
                 "end": 65
             },
@@ -203,19 +183,12 @@ declare class X {
 
 ```javascript
 
-declare class X {
-  a;
-
-  static b;
-
-  c;
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Binding identifier expected - start: 41, end: 42
+
 ```
 

@@ -273,8 +273,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "start": 74,
                         "end": 74
                     },
-                    "flags": 32,
-                    "start": 72,
+                    "flags": 72,
+                    "start": 32,
                     "end": 75
                 },
                 "flags": 16,
@@ -720,8 +720,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "start": 236,
                         "end": 236
                     },
-                    "flags": 32,
-                    "start": 234,
+                    "flags": 234,
+                    "start": 32,
                     "end": 237
                 },
                 "flags": 16,

@@ -78,8 +78,8 @@ class Foo { static ['constructor'] = 1 }
                     "start": 11,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 29
             },
             "flags": 16,
@@ -150,8 +150,8 @@ class Foo { static ['constructor'] = 1 }
                     "start": 42,
                     "end": 62
                 },
-                "flags": 32,
-                "start": 40,
+                "flags": 40,
+                "start": 32,
                 "end": 64
             },
             "flags": 16,
@@ -220,8 +220,8 @@ class Foo { static ['constructor'] = 1 }
                     "start": 77,
                     "end": 100
                 },
-                "flags": 32,
-                "start": 75,
+                "flags": 75,
+                "start": 32,
                 "end": 102
             },
             "flags": 16,
@@ -297,8 +297,8 @@ class Foo { static ['constructor'] = 1 }
                     "start": 115,
                     "end": 142
                 },
-                "flags": 32,
-                "start": 113,
+                "flags": 113,
+                "start": 32,
                 "end": 144
             },
             "flags": 16,

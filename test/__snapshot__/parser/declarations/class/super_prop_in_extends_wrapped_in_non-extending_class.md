@@ -161,8 +161,8 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "start": 49,
                                                         "end": 49
                                                     },
-                                                    "flags": 32,
-                                                    "start": 29,
+                                                    "flags": 29,
+                                                    "start": 32,
                                                     "end": 50
                                                 },
                                                 "flags": 16,
@@ -191,8 +191,8 @@ class a { foo(){      class x extends super.foo {}    }}
                     "start": 9,
                     "end": 55
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 56
             },
             "flags": 16,

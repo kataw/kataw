@@ -81,8 +81,8 @@ class Foo { x = arguments }
                     "start": 11,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 27
             },
             "flags": 16,

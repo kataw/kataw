@@ -44,8 +44,8 @@ class let {}
                     "start": 11,
                     "end": 11
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 12
             },
             "flags": 16,

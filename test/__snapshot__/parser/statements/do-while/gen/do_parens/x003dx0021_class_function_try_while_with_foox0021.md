@@ -188,8 +188,8 @@ do( =! class function try while with foo! while
                                         "start": 12,
                                         "end": 40
                                     },
-                                    "flags": 32,
-                                    "start": 12,
+                                    "flags": 12,
+                                    "start": 32,
                                     "end": 40
                                 },
                                 "flags": 32,

@@ -68,8 +68,8 @@ class continue {}
                     "start": 5,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 32,
                 "end": 14
             },
             "flags": 16,

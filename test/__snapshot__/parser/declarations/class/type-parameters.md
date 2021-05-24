@@ -84,8 +84,8 @@ class A9<S = number, T: ?string = string> {}
                     "start": 22,
                     "end": 22
                 },
-                "flags": 32,
-                "start": 20,
+                "flags": 20,
+                "start": 32,
                 "end": 23
             },
             "flags": 16,
@@ -172,8 +172,8 @@ class A9<S = number, T: ?string = string> {}
                     "start": 55,
                     "end": 55
                 },
-                "flags": 32,
-                "start": 53,
+                "flags": 53,
+                "start": 32,
                 "end": 56
             },
             "flags": 16,
@@ -276,8 +276,8 @@ class A9<S = number, T: ?string = string> {}
                     "start": 91,
                     "end": 91
                 },
-                "flags": 32,
-                "start": 89,
+                "flags": 89,
+                "start": 32,
                 "end": 92
             },
             "flags": 16,
@@ -385,8 +385,8 @@ class A9<S = number, T: ?string = string> {}
                     "start": 136,
                     "end": 136
                 },
-                "flags": 32,
-                "start": 134,
+                "flags": 134,
+                "start": 32,
                 "end": 137
             },
             "flags": 16,
@@ -453,8 +453,8 @@ class A9<S = number, T: ?string = string> {}
                             "start": 162,
                             "end": 162
                         },
-                        "flags": 32,
-                        "start": 160,
+                        "flags": 160,
+                        "start": 32,
                         "end": 163
                     },
                     "flags": 32,

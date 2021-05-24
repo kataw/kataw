@@ -167,8 +167,8 @@
                                                                 "start": 28,
                                                                 "end": 36
                                                             },
-                                                            "flags": 32,
-                                                            "start": 26,
+                                                            "flags": 26,
+                                                            "start": 32,
                                                             "end": 38
                                                         },
                                                         "flags": 16,
@@ -197,8 +197,8 @@
                             "start": 8,
                             "end": 39
                         },
-                        "flags": 32,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 32,
                         "end": 41
                     },
                     "flags": 32,
@@ -358,8 +358,8 @@
                                                                 "start": 73,
                                                                 "end": 85
                                                             },
-                                                            "flags": 32,
-                                                            "start": 71,
+                                                            "flags": 71,
+                                                            "start": 32,
                                                             "end": 87
                                                         },
                                                         "flags": 16,
@@ -388,8 +388,8 @@
                             "start": 53,
                             "end": 88
                         },
-                        "flags": 32,
-                        "start": 51,
+                        "flags": 51,
+                        "start": 32,
                         "end": 90
                     },
                     "flags": 32,
@@ -697,8 +697,8 @@
                                                                 "start": 138,
                                                                 "end": 165
                                                             },
-                                                            "flags": 32,
-                                                            "start": 136,
+                                                            "flags": 136,
+                                                            "start": 32,
                                                             "end": 167
                                                         },
                                                         "flags": 16,
@@ -727,8 +727,8 @@
                             "start": 102,
                             "end": 168
                         },
-                        "flags": 32,
-                        "start": 100,
+                        "flags": 100,
+                        "start": 32,
                         "end": 170
                     },
                     "flags": 32,
@@ -902,8 +902,8 @@
                                                                 "start": 199,
                                                                 "end": 214
                                                             },
-                                                            "flags": 32,
-                                                            "start": 197,
+                                                            "flags": 197,
+                                                            "start": 32,
                                                             "end": 216
                                                         },
                                                         "flags": 16,
@@ -932,8 +932,8 @@
                             "start": 182,
                             "end": 217
                         },
-                        "flags": 32,
-                        "start": 180,
+                        "flags": 180,
+                        "start": 32,
                         "end": 219
                     },
                     "flags": 32,

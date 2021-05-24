@@ -111,8 +111,8 @@ f = ([xCls = class X {}]) => {}
                                                     "start": 22,
                                                     "end": 22
                                                 },
-                                                "flags": 32,
-                                                "start": 20,
+                                                "flags": 20,
+                                                "start": 32,
                                                 "end": 23
                                             },
                                             "flags": 32,

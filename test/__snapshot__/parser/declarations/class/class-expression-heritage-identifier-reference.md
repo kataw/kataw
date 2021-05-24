@@ -45,8 +45,8 @@ var B = class extends A {}
                     "start": 9,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 10
             },
             "flags": 16,
@@ -118,8 +118,8 @@ var B = class extends A {}
                                     "start": 36,
                                     "end": 36
                                 },
-                                "flags": 32,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 32,
                                 "end": 37
                             },
                             "flags": 32,

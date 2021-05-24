@@ -104,8 +104,8 @@ class x {* typeof(){}}
                     "start": 9,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 22
             },
             "flags": 16,

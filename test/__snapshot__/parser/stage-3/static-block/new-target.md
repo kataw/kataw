@@ -279,8 +279,8 @@ class Base {
                                                                 "start": 53,
                                                                 "end": 123
                                                             },
-                                                            "flags": 32,
-                                                            "start": 51,
+                                                            "flags": 51,
+                                                            "start": 32,
                                                             "end": 129
                                                         },
                                                         "flags": 32,
@@ -317,8 +317,8 @@ class Base {
                     "start": 12,
                     "end": 134
                 },
-                "flags": 32,
-                "start": 10,
+                "flags": 10,
+                "start": 32,
                 "end": 137
             },
             "flags": 16,

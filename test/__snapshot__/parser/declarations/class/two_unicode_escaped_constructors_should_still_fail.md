@@ -178,8 +178,8 @@ class x { constructor(){}; \u0063onstructor(){}; }
                     "start": 9,
                     "end": 48
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 50
             },
             "flags": 16,

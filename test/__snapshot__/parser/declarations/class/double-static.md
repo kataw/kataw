@@ -122,8 +122,8 @@ class A { static static constructor() {} }
                     "start": 9,
                     "end": 40
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 42
             },
             "flags": 16,

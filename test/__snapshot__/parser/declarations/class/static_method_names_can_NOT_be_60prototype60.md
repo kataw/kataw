@@ -131,8 +131,8 @@ class x { static async *prototype(){} }
                     "start": 9,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 36
             },
             "flags": 16,
@@ -225,8 +225,8 @@ class x { static async *prototype(){} }
                     "start": 47,
                     "end": 75
                 },
-                "flags": 32,
-                "start": 45,
+                "flags": 45,
+                "start": 32,
                 "end": 77
             },
             "flags": 16,
@@ -324,8 +324,8 @@ class x { static async *prototype(){} }
                     "start": 88,
                     "end": 113
                 },
-                "flags": 32,
-                "start": 86,
+                "flags": 86,
+                "start": 32,
                 "end": 115
             },
             "flags": 16,
@@ -428,8 +428,8 @@ class x { static async *prototype(){} }
                     "start": 126,
                     "end": 154
                 },
-                "flags": 32,
-                "start": 124,
+                "flags": 124,
+                "start": 32,
                 "end": 156
             },
             "flags": 16,

@@ -67,8 +67,8 @@ class x extends enum {}
                     "start": 22,
                     "end": 22
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 23
             },
             "flags": 16,

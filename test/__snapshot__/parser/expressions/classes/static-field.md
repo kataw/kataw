@@ -82,8 +82,8 @@ class {
                     "start": 7,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 32,
                 "end": 38
             },
             "flags": 16,

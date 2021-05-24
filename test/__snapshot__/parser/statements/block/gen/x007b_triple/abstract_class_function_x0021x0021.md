@@ -97,8 +97,8 @@
                                                         "start": 20,
                                                         "end": 29
                                                     },
-                                                    "flags": 32,
-                                                    "start": 20,
+                                                    "flags": 20,
+                                                    "start": 32,
                                                     "end": 29
                                                 },
                                                 "flags": 16,

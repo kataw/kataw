@@ -109,8 +109,8 @@ class x {static get function(){}}
                     "start": 9,
                     "end": 32
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 33
             },
             "flags": 16,

@@ -97,8 +97,8 @@ x; {}
                     "start": 21,
                     "end": 24
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 24
             },
             "flags": 16,

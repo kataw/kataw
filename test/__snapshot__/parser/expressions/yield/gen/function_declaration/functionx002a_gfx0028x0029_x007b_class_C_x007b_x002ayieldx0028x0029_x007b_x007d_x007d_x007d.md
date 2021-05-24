@@ -175,8 +175,8 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                     "start": 47,
                                                     "end": 60
                                                 },
-                                                "flags": 32,
-                                                "start": 45,
+                                                "flags": 45,
+                                                "start": 32,
                                                 "end": 62
                                             },
                                             "flags": 16,

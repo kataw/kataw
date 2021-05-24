@@ -70,8 +70,8 @@
                             "start": 42,
                             "end": 42
                         },
-                        "flags": 32,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 32,
                         "end": 43
                     },
                     "flags": 32,

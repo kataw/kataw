@@ -68,8 +68,8 @@ class var {}
                     "start": 5,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 32,
                 "end": 9
             },
             "flags": 16,

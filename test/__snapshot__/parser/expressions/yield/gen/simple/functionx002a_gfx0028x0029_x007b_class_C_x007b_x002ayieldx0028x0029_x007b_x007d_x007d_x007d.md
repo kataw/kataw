@@ -142,8 +142,8 @@ function* gf() { class C { *yield() { } } }
                                     "start": 26,
                                     "end": 39
                                 },
-                                "flags": 32,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 32,
                                 "end": 41
                             },
                             "flags": 16,

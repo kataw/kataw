@@ -216,8 +216,8 @@ class C { constructor() { class C { set x(_) { super( } }
                                                         "start": 35,
                                                         "end": 55
                                                     },
-                                                    "flags": 32,
-                                                    "start": 33,
+                                                    "flags": 33,
+                                                    "start": 32,
                                                     "end": 57
                                                 },
                                                 "flags": 16,
@@ -246,8 +246,8 @@ class C { constructor() { class C { set x(_) { super( } }
                     "start": 9,
                     "end": 57
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 57
             },
             "flags": 16,

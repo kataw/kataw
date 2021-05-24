@@ -6511,7 +6511,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
   nextToken(parser, context);
 
-  if (parser.token === SyntaxKind.RightParen || parser.token & SyntaxKind.IsEllipsis) {
+  if (parser.token === SyntaxKind.RightParen || parser.token === SyntaxKind.Ellipsis) {
     return parseArrowFunctionType(parser, context, typeParameters, pos);
   }
 
@@ -6554,6 +6554,20 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     }
 
     const type = parseUnionType(parser, context);
+
+    if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
+      if (context & Context.InTypes || parser.token !== SyntaxKind.Arrow) {
+        return createParenthesizedType(type, pos, parser.curPos);
+      }
+      return createArrowFunctionType(
+        consumeOptToken(parser, context, SyntaxKind.Arrow),
+        [type],
+        parseType(parser, context),
+        typeParameters,
+        pos,
+        parser.curPos
+      );
+    }
 
     if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
       const params: any = [type];
@@ -7891,6 +7905,15 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
   }
 
+  if (isDeclared) {
+    return createClassTail(
+      classHeritage,
+      parseObjectType(parser, context, /* allowStatic */ false, /* allowProto */ false) as any,
+      NodeFlags.ExpressionNode | NodeFlags.Declared,
+      pos,
+      parser.curPos
+    );
+  }
   const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace);
   body = parseClassBody(parser, inheritedContext, context, isDeclared);
   if (isDecl) context | Context.AllowRegExp;
@@ -7902,7 +7925,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
       ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
       : DiagnosticCode.Expression_expected
   );
-  return createClassTail(classHeritage, body, pos, parser.curPos);
+  return createClassTail(classHeritage, body, pos, NodeFlags.ExpressionNode, parser.curPos);
 }
 
 export function parseClassBody(
@@ -8011,6 +8034,15 @@ export function parseClassElement(
         case SyntaxKind.DeclareKeyword:
           if (context & Context.OptionsAllowTypes) {
             if (!declareKeyword) {
+              if (staticKeyword) {
+                parser.onError(
+                  DiagnosticSource.Parser,
+                  DiagnosticKind.Error,
+                  diagnosticMap[DiagnosticCode.Cannot_declare_a_static_class_field],
+                  parser.curPos,
+                  parser.pos
+                );
+              }
               return parseClassElement(
                 parser,
                 context,

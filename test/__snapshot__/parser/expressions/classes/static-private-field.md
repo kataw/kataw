@@ -80,8 +80,8 @@ class A {
                     "start": 9,
                     "end": 28
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 30
             },
             "flags": 16,
@@ -156,8 +156,8 @@ class A {
                     "start": 43,
                     "end": 66
                 },
-                "flags": 32,
-                "start": 41,
+                "flags": 41,
+                "start": 32,
                 "end": 68
             },
             "flags": 16,

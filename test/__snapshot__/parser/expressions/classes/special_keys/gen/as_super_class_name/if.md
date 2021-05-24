@@ -88,8 +88,8 @@ class x extends if {}
                     "start": 15,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 18
             },
             "flags": 16,

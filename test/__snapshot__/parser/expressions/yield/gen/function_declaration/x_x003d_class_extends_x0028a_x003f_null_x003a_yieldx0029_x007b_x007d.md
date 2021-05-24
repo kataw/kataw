@@ -149,8 +149,8 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                             "start": 59,
                                             "end": 59
                                         },
-                                        "flags": 32,
-                                        "start": 30,
+                                        "flags": 30,
+                                        "start": 32,
                                         "end": 61
                                     },
                                     "flags": 32,

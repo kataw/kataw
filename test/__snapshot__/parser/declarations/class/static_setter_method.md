@@ -144,8 +144,8 @@ class A {static set 10(x){}}
                     "start": 9,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 28
             },
             "flags": 16,

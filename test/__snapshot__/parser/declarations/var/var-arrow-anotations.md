@@ -2318,8 +2318,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 747,
                     "end": 781
                 },
-                "flags": 32,
-                "start": 745,
+                "flags": 745,
+                "start": 32,
                 "end": 783
             },
             "flags": 16,

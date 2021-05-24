@@ -119,8 +119,8 @@ function *P(){
                                     "start": 37,
                                     "end": 37
                                 },
-                                "flags": 32,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 32,
                                 "end": 38
                             },
                             "flags": 16,

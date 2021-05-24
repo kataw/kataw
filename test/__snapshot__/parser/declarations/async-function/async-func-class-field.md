@@ -141,8 +141,8 @@ async function f() { class C { aaa = await } }
                                     "start": 30,
                                     "end": 42
                                 },
-                                "flags": 32,
-                                "start": 28,
+                                "flags": 28,
+                                "start": 32,
                                 "end": 44
                             },
                             "flags": 16,

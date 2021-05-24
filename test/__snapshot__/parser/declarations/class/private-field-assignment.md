@@ -1063,8 +1063,8 @@ class Foo {
                     "start": 11,
                     "end": 339
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 341
             },
             "flags": 16,

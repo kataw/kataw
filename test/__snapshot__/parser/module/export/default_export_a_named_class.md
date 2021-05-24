@@ -64,8 +64,8 @@ export default class x {}
                         "start": 24,
                         "end": 24
                     },
-                    "flags": 32,
-                    "start": 22,
+                    "flags": 22,
+                    "start": 32,
                     "end": 25
                 },
                 "flags": 16,

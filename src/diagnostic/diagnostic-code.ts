@@ -200,7 +200,8 @@ export const enum DiagnosticCode {
   Missing_an_opening_bracket = 199,
   Expected_to_find_a_to_match_the_token_here = 200,
   Type_expected = 201,
-  Expected_a_valid_subtraction_operand = 202
+  Expected_a_valid_subtraction_operand = 202,
+  Cannot_declare_a_static_class_field = 203
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -402,5 +403,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [199]: "Missing an opening bracket - '[",
   [200]: "Expected to find a '>' to match the '<' token here.",
   [201]: 'Type expected',
-  [202]: 'Expected a valid subtraction operand'
+  [202]: 'Expected a valid subtraction operand',
+  [203]: "Cannot declare a 'static' class field"
 };

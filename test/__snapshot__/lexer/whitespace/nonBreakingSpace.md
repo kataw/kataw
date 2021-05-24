@@ -65,8 +65,8 @@ left@{xa0}@right
                     "start": 9,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 10
             },
             "flags": 16,
@@ -117,8 +117,8 @@ left@{xa0}@right
                     "start": 16,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 16,
+                "flags": 16,
+                "start": 32,
                 "end": 16
             },
             "flags": 16,

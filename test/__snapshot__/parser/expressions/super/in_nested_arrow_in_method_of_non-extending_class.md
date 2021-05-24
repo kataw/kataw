@@ -187,8 +187,8 @@ class x extends y { foo(){ return () => () => super.foo; }}
                     "start": 19,
                     "end": 58
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 59
             },
             "flags": 16,

@@ -47,8 +47,8 @@ class this {}
                     "start": 12,
                     "end": 12
                 },
-                "flags": 32,
-                "start": 10,
+                "flags": 10,
+                "start": 32,
                 "end": 13
             },
             "flags": 16,

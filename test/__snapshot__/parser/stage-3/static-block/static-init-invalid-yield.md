@@ -132,8 +132,8 @@ function * g() {
                                     "start": 28,
                                     "end": 60
                                 },
-                                "flags": 32,
-                                "start": 26,
+                                "flags": 26,
+                                "start": 32,
                                 "end": 64
                             },
                             "flags": 16,

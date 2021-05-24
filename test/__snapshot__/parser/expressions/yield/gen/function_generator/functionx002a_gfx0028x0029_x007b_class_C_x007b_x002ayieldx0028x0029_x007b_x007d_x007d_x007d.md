@@ -213,8 +213,8 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                                     "start": 66,
                                                                     "end": 79
                                                                 },
-                                                                "flags": 32,
-                                                                "start": 64,
+                                                                "flags": 64,
+                                                                "start": 32,
                                                                 "end": 81
                                                             },
                                                             "flags": 16,

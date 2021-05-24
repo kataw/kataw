@@ -144,8 +144,8 @@ class C { constructor() { new super; } }
                     "start": 9,
                     "end": 38
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 40
             },
             "flags": 16,

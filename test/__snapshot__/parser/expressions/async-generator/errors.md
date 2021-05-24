@@ -7576,8 +7576,8 @@ async function * gen() {class C extends await { }}
                                     "start": 3337,
                                     "end": 3337
                                 },
-                                "flags": 32,
-                                "start": 3319,
+                                "flags": 3319,
+                                "start": 32,
                                 "end": 3338
                             },
                             "flags": 16,
@@ -7676,8 +7676,8 @@ async function * gen() {class C extends await { }}
                                                     "start": 3386,
                                                     "end": 3386
                                                 },
-                                                "flags": 32,
-                                                "start": 3370,
+                                                "flags": 3370,
+                                                "start": 32,
                                                 "end": 3388
                                             },
                                             "flags": 16,

@@ -132,8 +132,8 @@ function f() { class C { yield() { } } }
                                     "start": 24,
                                     "end": 36
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 38
                             },
                             "flags": 16,

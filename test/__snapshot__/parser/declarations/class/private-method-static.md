@@ -100,8 +100,8 @@ class C { static#aaa(){} }
                     "start": 9,
                     "end": 24
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 26
             },
             "flags": 16,

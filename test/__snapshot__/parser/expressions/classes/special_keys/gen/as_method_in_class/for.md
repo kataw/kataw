@@ -99,8 +99,8 @@ class x {for(){}}
                     "start": 9,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 17
             },
             "flags": 16,

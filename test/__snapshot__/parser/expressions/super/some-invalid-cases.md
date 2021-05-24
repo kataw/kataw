@@ -101,8 +101,8 @@ let x = { foo(){ super(); } };
                     "start": 27,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 29
             },
             "flags": 16,
@@ -204,8 +204,8 @@ let x = { foo(){ super(); } };
                     "start": 56,
                     "end": 58
                 },
-                "flags": 32,
-                "start": 38,
+                "flags": 38,
+                "start": 32,
                 "end": 58
             },
             "flags": 16,
@@ -321,8 +321,8 @@ let x = { foo(){ super(); } };
                     "start": 96,
                     "end": 96
                 },
-                "flags": 32,
-                "start": 71,
+                "flags": 71,
+                "start": 32,
                 "end": 98
             },
             "flags": 16,
@@ -433,8 +433,8 @@ let x = { foo(){ super(); } };
                     "start": 134,
                     "end": 134
                 },
-                "flags": 32,
-                "start": 107,
+                "flags": 107,
+                "start": 32,
                 "end": 136
             },
             "flags": 16,
@@ -536,8 +536,8 @@ let x = { foo(){ super(); } };
                     "start": 147,
                     "end": 157
                 },
-                "flags": 32,
-                "start": 145,
+                "flags": 145,
+                "start": 32,
                 "end": 157
             },
             "flags": 16,
@@ -628,8 +628,8 @@ let x = { foo(){ super(); } };
                     "start": 177,
                     "end": 183
                 },
-                "flags": 32,
-                "start": 175,
+                "flags": 175,
+                "start": 32,
                 "end": 183
             },
             "flags": 16,
@@ -788,8 +788,8 @@ let x = { foo(){ super(); } };
                     "start": 204,
                     "end": 220
                 },
-                "flags": 32,
-                "start": 202,
+                "flags": 202,
+                "start": 32,
                 "end": 222
             },
             "flags": 16,
@@ -898,8 +898,8 @@ let x = { foo(){ super(); } };
                     "start": 233,
                     "end": 246
                 },
-                "flags": 32,
-                "start": 231,
+                "flags": 231,
+                "start": 32,
                 "end": 246
             },
             "flags": 16,
@@ -1046,8 +1046,8 @@ let x = { foo(){ super(); } };
                                                         "start": 285,
                                                         "end": 291
                                                     },
-                                                    "flags": 32,
-                                                    "start": 285,
+                                                    "flags": 285,
+                                                    "start": 32,
                                                     "end": 291
                                                 },
                                                 "flags": 16,
@@ -1076,8 +1076,8 @@ let x = { foo(){ super(); } };
                     "start": 264,
                     "end": 291
                 },
-                "flags": 32,
-                "start": 262,
+                "flags": 262,
+                "start": 32,
                 "end": 291
             },
             "flags": 16,
@@ -1266,8 +1266,8 @@ let x = { foo(){ super(); } };
                                                         "start": 355,
                                                         "end": 357
                                                     },
-                                                    "flags": 32,
-                                                    "start": 337,
+                                                    "flags": 337,
+                                                    "start": 32,
                                                     "end": 357
                                                 },
                                                 "flags": 16,
@@ -1309,8 +1309,8 @@ let x = { foo(){ super(); } };
                     "start": 314,
                     "end": 364
                 },
-                "flags": 32,
-                "start": 312,
+                "flags": 312,
+                "start": 32,
                 "end": 365
             },
             "flags": 16,
@@ -1481,8 +1481,8 @@ let x = { foo(){ super(); } };
                                                         "start": 426,
                                                         "end": 426
                                                     },
-                                                    "flags": 32,
-                                                    "start": 399,
+                                                    "flags": 399,
+                                                    "start": 32,
                                                     "end": 428
                                                 },
                                                 "flags": 16,
@@ -1511,8 +1511,8 @@ let x = { foo(){ super(); } };
                     "start": 376,
                     "end": 431
                 },
-                "flags": 32,
-                "start": 374,
+                "flags": 374,
+                "start": 32,
                 "end": 432
             },
             "flags": 16,
@@ -1674,8 +1674,8 @@ let x = { foo(){ super(); } };
                                                         "start": 468,
                                                         "end": 478
                                                     },
-                                                    "flags": 32,
-                                                    "start": 466,
+                                                    "flags": 466,
+                                                    "start": 32,
                                                     "end": 478
                                                 },
                                                 "flags": 16,
@@ -1704,8 +1704,8 @@ let x = { foo(){ super(); } };
                     "start": 443,
                     "end": 478
                 },
-                "flags": 32,
-                "start": 441,
+                "flags": 441,
+                "start": 32,
                 "end": 478
             },
             "flags": 16,

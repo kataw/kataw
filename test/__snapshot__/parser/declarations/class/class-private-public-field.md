@@ -145,8 +145,8 @@ class C { f(){ this.#a } #a; }
                     "start": 9,
                     "end": 26
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 28
             },
             "flags": 16,
@@ -254,8 +254,8 @@ class C { f(){ this.#a } #a; }
                     "start": 39,
                     "end": 56
                 },
-                "flags": 32,
-                "start": 37,
+                "flags": 37,
+                "start": 32,
                 "end": 58
             },
             "flags": 16,
@@ -362,8 +362,8 @@ class C { f(){ this.#a } #a; }
                     "start": 69,
                     "end": 84
                 },
-                "flags": 32,
-                "start": 67,
+                "flags": 67,
+                "start": 32,
                 "end": 86
             },
             "flags": 16,
@@ -470,8 +470,8 @@ class C { f(){ this.#a } #a; }
                     "start": 97,
                     "end": 112
                 },
-                "flags": 32,
-                "start": 95,
+                "flags": 95,
+                "start": 32,
                 "end": 114
             },
             "flags": 16,
@@ -611,8 +611,8 @@ class C { f(){ this.#a } #a; }
                     "start": 125,
                     "end": 144
                 },
-                "flags": 32,
-                "start": 123,
+                "flags": 123,
+                "start": 32,
                 "end": 146
             },
             "flags": 16,
@@ -752,8 +752,8 @@ class C { f(){ this.#a } #a; }
                     "start": 157,
                     "end": 176
                 },
-                "flags": 32,
-                "start": 155,
+                "flags": 155,
+                "start": 32,
                 "end": 178
             },
             "flags": 16,

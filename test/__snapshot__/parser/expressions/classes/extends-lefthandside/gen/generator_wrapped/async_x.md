@@ -131,8 +131,8 @@ x {}
                                     "start": 38,
                                     "end": 40
                                 },
-                                "flags": 32,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 32,
                                 "end": 40
                             },
                             "flags": 16,

@@ -68,8 +68,8 @@ class x extends class {}
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 32,
-                            "start": 21,
+                            "flags": 21,
+                            "start": 32,
                             "end": 24
                         },
                         "flags": 32,
@@ -88,8 +88,8 @@ class x extends class {}
                     "start": 24,
                     "end": 24
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 24
             },
             "flags": 16,

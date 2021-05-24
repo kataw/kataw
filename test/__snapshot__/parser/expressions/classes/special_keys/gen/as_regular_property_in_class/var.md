@@ -69,8 +69,8 @@ class x {var: x}
                     "start": 9,
                     "end": 12
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 12
             },
             "flags": 16,

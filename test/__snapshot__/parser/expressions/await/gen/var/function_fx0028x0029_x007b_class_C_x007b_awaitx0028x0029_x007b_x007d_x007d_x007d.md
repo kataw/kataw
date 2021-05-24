@@ -226,8 +226,8 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                         "start": 63,
                                                                         "end": 75
                                                                     },
-                                                                    "flags": 32,
-                                                                    "start": 61,
+                                                                    "flags": 61,
+                                                                    "start": 32,
                                                                     "end": 77
                                                                 },
                                                                 "flags": 16,

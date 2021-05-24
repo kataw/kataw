@@ -88,8 +88,8 @@ class x extends var {}
                     "start": 15,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 19
             },
             "flags": 16,

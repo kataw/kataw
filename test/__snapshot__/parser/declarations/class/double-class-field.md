@@ -112,8 +112,8 @@ class C { aaa; bbb}
                     "start": 9,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 19
             },
             "flags": 16,

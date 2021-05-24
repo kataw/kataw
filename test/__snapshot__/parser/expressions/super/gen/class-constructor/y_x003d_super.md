@@ -151,8 +151,8 @@ class C { constructor() { y = super } }
                     "start": 9,
                     "end": 37
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 39
             },
             "flags": 16,

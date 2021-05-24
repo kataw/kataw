@@ -215,8 +215,8 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                     "start": 9,
                     "end": 46
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 47
             },
             "flags": 16,

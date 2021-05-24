@@ -407,8 +407,8 @@ class Foo {
                     "start": 11,
                     "end": 119
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 121
             },
             "flags": 16,

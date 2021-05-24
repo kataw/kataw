@@ -68,8 +68,8 @@ class null {}
                     "start": 5,
                     "end": 10
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 32,
                 "end": 10
             },
             "flags": 16,

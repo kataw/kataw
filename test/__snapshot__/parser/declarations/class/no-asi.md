@@ -107,8 +107,8 @@ class C { static
                     "start": 9,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 29
             },
             "flags": 16,

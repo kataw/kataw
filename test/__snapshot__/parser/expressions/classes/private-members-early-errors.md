@@ -175,8 +175,8 @@ class C { foo() { this.#a = 1; }}
                                 "start": 8,
                                 "end": 39
                             },
-                            "flags": 32,
-                            "start": 6,
+                            "flags": 6,
+                            "start": 32,
                             "end": 40
                         },
                         "flags": 32,
@@ -299,8 +299,8 @@ class C { foo() { this.#a = 1; }}
                                     "start": 51,
                                     "end": 80
                                 },
-                                "flags": 32,
-                                "start": 49,
+                                "flags": 49,
+                                "start": 32,
                                 "end": 81
                             },
                             "flags": 32,
@@ -454,8 +454,8 @@ class C { foo() { this.#a = 1; }}
                     "start": 106,
                     "end": 131
                 },
-                "flags": 32,
-                "start": 91,
+                "flags": 91,
+                "start": 32,
                 "end": 132
             },
             "flags": 16,
@@ -589,8 +589,8 @@ class C { foo() { this.#a = 1; }}
                     "start": 143,
                     "end": 166
                 },
-                "flags": 32,
-                "start": 141,
+                "flags": 141,
+                "start": 32,
                 "end": 167
             },
             "flags": 16,

@@ -69,8 +69,8 @@ class x {arguments: x}
                     "start": 9,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 18
             },
             "flags": 16,

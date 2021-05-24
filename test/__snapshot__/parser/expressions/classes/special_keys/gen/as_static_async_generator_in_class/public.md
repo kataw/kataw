@@ -114,8 +114,8 @@ class x {static async * public(){}}
                     "start": 9,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 35
             },
             "flags": 16,

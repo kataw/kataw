@@ -66,8 +66,8 @@ class Foo { constructor }
                     "start": 11,
                     "end": 23
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 25
             },
             "flags": 16,

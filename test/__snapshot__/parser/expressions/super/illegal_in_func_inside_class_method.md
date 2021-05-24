@@ -177,8 +177,8 @@ class x { foo(){ function f(){ super.foo; } }}
                     "start": 9,
                     "end": 45
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 46
             },
             "flags": 16,

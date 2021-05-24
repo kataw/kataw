@@ -1038,7 +1038,7 @@ function printClassDeclarationOrExpression(node: any, printer: Printer): any {
 function printClassTail(node: any, printer: Printer, parentNode: any): any {
   return chain([
     node.classHeritage ? chain([' ', printStatements(node.classHeritage, printer, node)]) : '',
-    printClassBody(node.body, printer, parentNode)
+    node.flags & NodeFlags.Declared ? /* TODO */ 'TODO!' : printClassBody(node.body, printer, parentNode)
   ]);
 }
 

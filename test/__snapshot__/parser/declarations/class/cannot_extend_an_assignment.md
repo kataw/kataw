@@ -83,8 +83,8 @@ class x extends a = b {}
                     "start": 17,
                     "end": 17
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 17
             },
             "flags": 16,

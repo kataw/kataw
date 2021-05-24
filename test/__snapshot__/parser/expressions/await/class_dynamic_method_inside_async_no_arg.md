@@ -168,8 +168,8 @@ async function f() {
                                     "start": 31,
                                     "end": 45
                                 },
-                                "flags": 32,
-                                "start": 30,
+                                "flags": 30,
+                                "start": 32,
                                 "end": 46
                             },
                             "flags": 16,

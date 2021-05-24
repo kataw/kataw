@@ -186,8 +186,8 @@ do =! class function try while with foo! while
                                     "start": 11,
                                     "end": 39
                                 },
-                                "flags": 32,
-                                "start": 11,
+                                "flags": 11,
+                                "start": 32,
                                 "end": 39
                             },
                             "flags": 32,

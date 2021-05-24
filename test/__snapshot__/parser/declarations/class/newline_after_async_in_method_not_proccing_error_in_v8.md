@@ -98,8 +98,8 @@ class K extends {} {;async\n async *1(){}}
                     "start": 20,
                     "end": 26
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 26
             },
             "flags": 16,

@@ -219,8 +219,8 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                         "start": 46,
                                                         "end": 60
                                                     },
-                                                    "flags": 32,
-                                                    "start": 34,
+                                                    "flags": 34,
+                                                    "start": 32,
                                                     "end": 62
                                                 },
                                                 "flags": 16,
@@ -249,8 +249,8 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                     "start": 9,
                     "end": 67
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 68
             },
             "flags": 16,

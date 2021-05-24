@@ -3,6 +3,7 @@ import { ClassElement } from '../expressions/class-element';
 import { FieldDefinition } from './field-definition';
 import { SemicolonClassElement } from './semicolon-class-element';
 import { ClassBody } from './class-body';
+import { ObjectType } from '../types/object-type';
 import { ExpressionNode } from '.';
 
 export type ClassElements = SemicolonClassElement | ClassElement | FieldDefinition;
@@ -12,12 +13,14 @@ export type ClassElements = SemicolonClassElement | ClassElement | FieldDefiniti
  */
 export interface ClassTail extends SyntaxNode {
   readonly classHeritage: ExpressionNode | null;
-  readonly body: ClassBody | null;
+  /* `ObjectType` *only* if the class has been declared */
+  readonly body: ClassBody | ObjectType;
 }
 
 export function createClassTail(
   classHeritage: ExpressionNode | null,
-  body: ClassBody | null,
+  body: ClassBody | ObjectType,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ClassTail {
@@ -25,7 +28,7 @@ export function createClassTail(
     kind: SyntaxKind.ClassTail,
     classHeritage,
     body,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

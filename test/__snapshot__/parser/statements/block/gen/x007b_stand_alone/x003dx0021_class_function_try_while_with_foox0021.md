@@ -168,8 +168,8 @@
                             "start": 10,
                             "end": 38
                         },
-                        "flags": 32,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 32,
                         "end": 38
                     },
                     "flags": 32,

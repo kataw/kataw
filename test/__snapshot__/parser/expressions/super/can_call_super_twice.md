@@ -181,8 +181,8 @@ class x extends y { constructor() { super.mom; super.mom; } }
                     "start": 19,
                     "end": 59
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 61
             },
             "flags": 16,

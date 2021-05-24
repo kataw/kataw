@@ -139,8 +139,8 @@ label: while(false) {
                                         "start": 33,
                                         "end": 65
                                     },
-                                    "flags": 32,
-                                    "start": 31,
+                                    "flags": 31,
+                                    "start": 32,
                                     "end": 69
                                 },
                                 "flags": 16,

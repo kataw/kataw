@@ -120,8 +120,8 @@ class Foo {get fooProp():number{}}
                     "start": 11,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 34
             },
             "flags": 16,

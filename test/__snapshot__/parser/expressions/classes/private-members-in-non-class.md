@@ -445,8 +445,8 @@ class C { test() {get #a() { }}}
                     "start": 85,
                     "end": 107
                 },
-                "flags": 32,
-                "start": 83,
+                "flags": 83,
+                "start": 32,
                 "end": 108
             },
             "flags": 16,

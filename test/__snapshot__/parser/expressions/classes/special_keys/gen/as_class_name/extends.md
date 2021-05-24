@@ -66,8 +66,8 @@ class extends {}
                     "start": 16,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 32,
                 "end": 16
             },
             "flags": 16,

@@ -115,8 +115,8 @@ class A extends async function *f(){} {}
                     "start": 39,
                     "end": 39
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 40
             },
             "flags": 16,

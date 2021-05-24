@@ -141,8 +141,8 @@ class x{   async static static(){}    }
                     "start": 8,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 39
             },
             "flags": 16,

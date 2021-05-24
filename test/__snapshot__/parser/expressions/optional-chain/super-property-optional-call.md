@@ -186,8 +186,8 @@ class Foo extends Base {
                     "start": 24,
                     "end": 69
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 9,
+                "start": 32,
                 "end": 71
             },
             "flags": 16,

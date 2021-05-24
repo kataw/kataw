@@ -84,8 +84,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                 "start": 27,
                                                 "end": 27
                                             },
-                                            "flags": 32,
-                                            "start": 25,
+                                            "flags": 25,
+                                            "start": 32,
                                             "end": 28
                                         },
                                         "flags": 32,
@@ -133,8 +133,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                 "start": 43,
                                                 "end": 43
                                             },
-                                            "flags": 32,
-                                            "start": 41,
+                                            "flags": 41,
+                                            "start": 32,
                                             "end": 44
                                         },
                                         "flags": 32,
@@ -239,8 +239,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                 "start": 61,
                                                 "end": 78
                                             },
-                                            "flags": 32,
-                                            "start": 59,
+                                            "flags": 59,
+                                            "start": 32,
                                             "end": 80
                                         },
                                         "flags": 32,

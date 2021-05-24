@@ -69,8 +69,8 @@ class C { async\n a }
                     "start": 9,
                     "end": 15
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 15
             },
             "flags": 16,

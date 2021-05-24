@@ -106,8 +106,8 @@ class C { [super.bbb] = 0 };
                     "start": 9,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 27
             },
             "flags": 16,
@@ -212,8 +212,8 @@ class C { [super.bbb] = 0 };
                     "start": 39,
                     "end": 61
                 },
-                "flags": 32,
-                "start": 37,
+                "flags": 37,
+                "start": 32,
                 "end": 63
             },
             "flags": 16,
@@ -334,8 +334,8 @@ class C { [super.bbb] = 0 };
                     "start": 75,
                     "end": 103
                 },
-                "flags": 32,
-                "start": 73,
+                "flags": 73,
+                "start": 32,
                 "end": 105
             },
             "flags": 16,
@@ -430,8 +430,8 @@ class C { [super.bbb] = 0 };
                     "start": 117,
                     "end": 133
                 },
-                "flags": 32,
-                "start": 115,
+                "flags": 115,
+                "start": 32,
                 "end": 135
             },
             "flags": 16,

@@ -98,8 +98,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 15,
                     "end": 15
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 32,
                 "end": 16
             },
             "flags": 16,
@@ -206,8 +206,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 47,
                     "end": 47
                 },
-                "flags": 32,
-                "start": 30,
+                "flags": 30,
+                "start": 32,
                 "end": 48
             },
             "flags": 16,
@@ -309,8 +309,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 83,
                     "end": 83
                 },
-                "flags": 32,
-                "start": 62,
+                "flags": 62,
+                "start": 32,
                 "end": 84
             },
             "flags": 16,
@@ -433,8 +433,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 97,
                     "end": 129
                 },
-                "flags": 32,
-                "start": 95,
+                "flags": 95,
+                "start": 32,
                 "end": 131
             },
             "flags": 16,
@@ -568,8 +568,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 144,
                     "end": 182
                 },
-                "flags": 32,
-                "start": 142,
+                "flags": 142,
+                "start": 32,
                 "end": 184
             },
             "flags": 16,
@@ -673,8 +673,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 197,
                     "end": 224
                 },
-                "flags": 32,
-                "start": 195,
+                "flags": 195,
+                "start": 32,
                 "end": 226
             },
             "flags": 16,
@@ -785,8 +785,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 239,
                     "end": 255
                 },
-                "flags": 32,
-                "start": 237,
+                "flags": 237,
+                "start": 32,
                 "end": 257
             },
             "flags": 16,
@@ -904,8 +904,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 271,
                     "end": 312
                 },
-                "flags": 32,
-                "start": 269,
+                "flags": 269,
+                "start": 32,
                 "end": 314
             },
             "flags": 16,
@@ -1017,8 +1017,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 328,
                     "end": 363
                 },
-                "flags": 32,
-                "start": 326,
+                "flags": 326,
+                "start": 32,
                 "end": 365
             },
             "flags": 16,
@@ -1156,8 +1156,8 @@ class Array { concat(items:number | string) {}; }
                     "start": 379,
                     "end": 413
                 },
-                "flags": 32,
-                "start": 377,
+                "flags": 377,
+                "start": 32,
                 "end": 415
             },
             "flags": 16,

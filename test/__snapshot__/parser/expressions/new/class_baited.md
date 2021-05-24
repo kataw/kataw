@@ -72,8 +72,8 @@ new class extends{}
                             "start": 19,
                             "end": 19
                         },
-                        "flags": 32,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 32,
                         "end": 19
                     },
                     "flags": 32,

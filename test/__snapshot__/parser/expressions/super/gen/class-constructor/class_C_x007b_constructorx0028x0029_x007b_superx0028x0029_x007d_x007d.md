@@ -192,8 +192,8 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                                         "start": 35,
                                                         "end": 62
                                                     },
-                                                    "flags": 32,
-                                                    "start": 33,
+                                                    "flags": 33,
+                                                    "start": 32,
                                                     "end": 64
                                                 },
                                                 "flags": 16,
@@ -222,8 +222,8 @@ class C { constructor() { class C { constructor() { super(); } } } }
                     "start": 9,
                     "end": 66
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 68
             },
             "flags": 16,

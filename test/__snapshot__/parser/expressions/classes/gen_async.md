@@ -112,8 +112,8 @@ class x { async *prototype(){} }
                     "start": 9,
                     "end": 30
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 32
             },
             "flags": 16,

@@ -123,8 +123,8 @@ class Foo<T> extends Bar<T> { }
                     "start": 29,
                     "end": 29
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 32,
                 "end": 31
             },
             "flags": 16,

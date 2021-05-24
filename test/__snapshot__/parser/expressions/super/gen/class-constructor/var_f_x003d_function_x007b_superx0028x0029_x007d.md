@@ -209,8 +209,8 @@ class C { constructor() { var f = function { super(); } } }
                     "start": 9,
                     "end": 57
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 59
             },
             "flags": 16,

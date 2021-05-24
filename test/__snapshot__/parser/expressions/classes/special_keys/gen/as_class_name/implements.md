@@ -47,8 +47,8 @@ class implements {}
                     "start": 18,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 16,
+                "flags": 16,
+                "start": 32,
                 "end": 19
             },
             "flags": 16,

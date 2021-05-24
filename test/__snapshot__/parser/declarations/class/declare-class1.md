@@ -55,13 +55,16 @@ type T2 = number;
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
-                    "elements": [],
-                    "flags": 32,
-                    "start": 18,
-                    "end": 18
+                    "kind": 134234353,
+                    "properties": [],
+                    "indexers": [],
+                    "callProperties": [],
+                    "internalSlots": [],
+                    "flags": 0,
+                    "start": 16,
+                    "end": 19
                 },
-                "flags": 32,
+                "flags": 4128,
                 "start": 16,
                 "end": 19
             },
@@ -144,7 +147,7 @@ type T2 = number;
 
 ```javascript
 
-declare class C1 {}
+declare class C1 TODO!
 
 
 ```

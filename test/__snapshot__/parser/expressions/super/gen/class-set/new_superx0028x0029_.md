@@ -162,8 +162,8 @@ class C { set x(_) { new super(); } }
                     "start": 9,
                     "end": 35
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 37
             },
             "flags": 16,

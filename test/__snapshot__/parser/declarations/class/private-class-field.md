@@ -65,8 +65,8 @@ class C { #aaa }
                     "start": 9,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 16
             },
             "flags": 16,

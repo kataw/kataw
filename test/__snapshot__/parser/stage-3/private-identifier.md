@@ -221,8 +221,8 @@ class C {
                                                         "start": 54,
                                                         "end": 96
                                                     },
-                                                    "flags": 32,
-                                                    "start": 52,
+                                                    "flags": 52,
+                                                    "start": 32,
                                                     "end": 102
                                                 },
                                                 "flags": 16,
@@ -251,8 +251,8 @@ class C {
                     "start": 9,
                     "end": 106
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 108
             },
             "flags": 16,

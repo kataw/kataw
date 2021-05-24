@@ -129,8 +129,8 @@
                             "start": 8,
                             "end": 41
                         },
-                        "flags": 32,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 32,
                         "end": 43
                     },
                     "flags": 32,

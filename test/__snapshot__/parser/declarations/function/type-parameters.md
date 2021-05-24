@@ -421,42 +421,49 @@ type T = <
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "arg",
-                        "rawText": "arg",
-                        "flags": 96,
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 213,
+                    "end": 216
+                },
+                "parameters": [
+                    {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "arg",
+                            "rawText": "arg",
+                            "flags": 96,
+                            "start": 209,
+                            "end": 212
+                        },
+                        "typeParameters": null,
+                        "flags": 0,
                         "start": 209,
                         "end": 212
-                    },
-                    "typeParameters": null,
+                    }
+                ],
+                "returnType": {
+                    "kind": 134234252,
+                    "flags": 64,
+                    "start": 216,
+                    "end": 220
+                },
+                "typeParameters": {
+                    "kind": 265,
+                    "typeParameters": [],
                     "flags": 0,
-                    "start": 209,
-                    "end": 212
+                    "start": 192,
+                    "end": 208
                 },
                 "flags": 0,
                 "start": 192,
-                "end": 213
-            },
-            "flags": 16,
-            "start": 182,
-            "end": 213
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "any",
-                "rawText": "any",
-                "flags": 96,
-                "start": 216,
                 "end": 220
             },
             "flags": 16,
-            "start": 216,
+            "start": 182,
             "end": 221
         },
         {
@@ -815,42 +822,49 @@ type T = <
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "arg",
-                        "rawText": "arg",
-                        "flags": 96,
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 455,
+                    "end": 458
+                },
+                "parameters": [
+                    {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "arg",
+                            "rawText": "arg",
+                            "flags": 96,
+                            "start": 451,
+                            "end": 454
+                        },
+                        "typeParameters": null,
+                        "flags": 0,
                         "start": 451,
                         "end": 454
-                    },
-                    "typeParameters": null,
+                    }
+                ],
+                "returnType": {
+                    "kind": 134234252,
+                    "flags": 64,
+                    "start": 458,
+                    "end": 462
+                },
+                "typeParameters": {
+                    "kind": 265,
+                    "typeParameters": [],
                     "flags": 0,
-                    "start": 451,
-                    "end": 454
+                    "start": 431,
+                    "end": 450
                 },
                 "flags": 0,
                 "start": 431,
-                "end": 455
-            },
-            "flags": 16,
-            "start": 421,
-            "end": 455
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "any",
-                "rawText": "any",
-                "flags": 96,
-                "start": 458,
                 "end": 462
             },
             "flags": 16,
-            "start": 458,
+            "start": 421,
             "end": 463
         }
     ],
@@ -878,7 +892,6 @@ type T = <
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
 ✖ Expression expected - start: 179, end: 182
-✖ Expected a `;` - start: 213, end: 216
 ✖ Expression expected - start: 259, end: 260
 ✖ Duplicate identifier - start: 267, end: 269
 ✖ Expression expected - start: 310, end: 327
@@ -886,7 +899,6 @@ type T = <
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384
 ✖ Expression expected - start: 418, end: 421
-✖ Expected a `;` - start: 455, end: 458
 
 ```
 

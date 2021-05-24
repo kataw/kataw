@@ -179,8 +179,8 @@ function *f(){  class x{*[yield](a){}}  }
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 32,
-                                "start": 23,
+                                "flags": 23,
+                                "start": 32,
                                 "end": 38
                             },
                             "flags": 16,

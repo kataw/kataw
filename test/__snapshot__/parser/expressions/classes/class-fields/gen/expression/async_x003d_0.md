@@ -96,8 +96,8 @@ class C extends Base { async = 0 }
                     "start": 22,
                     "end": 32
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 34
             },
             "flags": 16,

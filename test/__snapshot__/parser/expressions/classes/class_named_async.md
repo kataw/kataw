@@ -50,8 +50,8 @@ class async {}
                     "start": 13,
                     "end": 13
                 },
-                "flags": 32,
-                "start": 11,
+                "flags": 11,
+                "start": 32,
                 "end": 14
             },
             "flags": 16,

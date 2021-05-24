@@ -2968,8 +2968,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3246,
                     "end": 3295
                 },
-                "flags": 32,
-                "start": 3234,
+                "flags": 3234,
+                "start": 32,
                 "end": 3297
             },
             "flags": 16,
@@ -3197,8 +3197,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3317,
                     "end": 3367
                 },
-                "flags": 32,
-                "start": 3305,
+                "flags": 3305,
+                "start": 32,
                 "end": 3369
             },
             "flags": 16,
@@ -3426,8 +3426,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3389,
                     "end": 3442
                 },
-                "flags": 32,
-                "start": 3377,
+                "flags": 3377,
+                "start": 32,
                 "end": 3444
             },
             "flags": 16,
@@ -3674,8 +3674,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3464,
                     "end": 3518
                 },
-                "flags": 32,
-                "start": 3452,
+                "flags": 3452,
+                "start": 32,
                 "end": 3520
             },
             "flags": 16,

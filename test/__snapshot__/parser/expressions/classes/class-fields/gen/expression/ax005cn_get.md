@@ -89,8 +89,8 @@ class C extends Base { a\n get }
                     "start": 22,
                     "end": 24
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 24
             },
             "flags": 16,

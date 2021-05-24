@@ -89,8 +89,8 @@ class A extends await x {}
                     "start": 21,
                     "end": 23
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 32,
                 "end": 23
             },
             "flags": 16,

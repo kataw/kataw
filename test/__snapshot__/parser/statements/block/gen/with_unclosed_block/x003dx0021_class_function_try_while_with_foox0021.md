@@ -244,8 +244,8 @@
                             "start": 26,
                             "end": 54
                         },
-                        "flags": 32,
-                        "start": 26,
+                        "flags": 26,
+                        "start": 32,
                         "end": 54
                     },
                     "flags": 32,
