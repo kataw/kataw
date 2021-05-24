@@ -83,40 +83,10 @@ declare class X {
                             "kind": 193,
                             "key": {
                                 "kind": 134299649,
-                                "text": "static",
-                                "rawText": "static",
+                                "text": "b",
+                                "rawText": "b",
                                 "flags": 96,
-                                "start": 29,
-                                "end": 37
-                            },
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 37,
-                                    "end": 39
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
                                 "start": 37,
-                                "end": 39
-                            },
-                            "optionalToken": null,
-                            "staticToken": null,
-                            "flags": 0,
-                            "start": 29,
-                            "end": 39
-                        },
-                        {
-                            "kind": 193,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 39,
                                 "end": 39
                             },
                             "value": {
@@ -128,7 +98,7 @@ declare class X {
                             "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 39,
+                            "start": 37,
                             "end": 47
                         },
                         {
@@ -183,12 +153,12 @@ declare class X {
 
 ```javascript
 
+declare class X TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 39, end: 40
-
+✔ No errors
 ```
 

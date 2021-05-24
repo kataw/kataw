@@ -211,6 +211,12 @@ const enum LeftHandSide {
   NotBindable = 1 << 1
 }
 
+const enum ObjectTypeFlag {
+  None = 0,
+  AllowStatic = 1 << 0,
+  AllowProto = 1 << 1
+}
+
 /**
  * The parser options.
  */
@@ -6318,7 +6324,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
     case SyntaxKind.TrueKeyword:
       return parseBooleanType(parser, context, /* isTruthy */ false);
     case SyntaxKind.LeftBrace:
-      return parseObjectType(parser, context, /* allowStatic */ false, /* allowProto */ false);
+      return parseObjectType(parser, context, ObjectTypeFlag.None);
     case SyntaxKind.LeftBracket:
       return parseTupleType(parser, context);
     case SyntaxKind.LessThan:
@@ -7169,9 +7175,9 @@ function parseLexicalBinding(
   return createLexicalBinding(binding, optionalToken, typeAnnotation, initializer, pos, parser.curPos);
 }
 
-function parseObjectType(parser: ParserState, context: Context, allowStatic: boolean, allowProto: boolean): ObjectType {
+function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): ObjectType {
   const pos = parser.curPos;
-  consume(parser, context, SyntaxKind.LeftBrace);
+  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace);
 
   const properties = [];
   const indexers = [];
@@ -7181,7 +7187,7 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
   while ((parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
     const innerPos = parser.curPos;
 
-    if (allowProto && parser.tokenValue === '__proto__') {
+    if (objectTypeFlag & ObjectTypeFlag.AllowProto && parser.tokenValue === '__proto__') {
       if (
         speculate(
           parser,
@@ -7197,13 +7203,13 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
         )
       ) {
         protoStart = parser.curPos;
-        allowStatic = false;
+        objectTypeFlag & ~ObjectTypeFlag.AllowStatic;
       }
     }
 
     let staticKeyword = null;
 
-    if (allowStatic && parser.token === SyntaxKind.StaticKeyword) {
+    if (objectTypeFlag & ObjectTypeFlag.AllowStatic && parser.token === SyntaxKind.StaticKeyword) {
       staticKeyword = consumeToken(parser, context, SyntaxKind.StaticKeyword);
       if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         properties.push(
@@ -7277,7 +7283,14 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
       nextToken(parser, context);
     }
   }
-  consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightBrace,
+    openBraceExists
+      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+      : DiagnosticCode.Type_expected
+  );
   return createObjectType(properties, indexers, callProperties, internalSlots, pos, parser.curPos);
 }
 
@@ -7906,14 +7919,16 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
   }
 
   if (isDeclared) {
+    // This is a declared class so the class body has to change into 'ObjectType' as part of the type system
     return createClassTail(
       classHeritage,
-      parseObjectType(parser, context, /* allowStatic */ false, /* allowProto */ false) as any,
+      parseObjectType(parser, context, ObjectTypeFlag.AllowProto | ObjectTypeFlag.AllowStatic),
       NodeFlags.ExpressionNode | NodeFlags.Declared,
       pos,
       parser.curPos
     );
   }
+
   const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace);
   body = parseClassBody(parser, inheritedContext, context, isDeclared);
   if (isDecl) context | Context.AllowRegExp;

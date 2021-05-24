@@ -61,7 +61,7 @@ declare class B { () : number }
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
-                                "start": 17,
+                                "start": 15,
                                 "end": 24
                             },
                             "value": {
@@ -88,7 +88,7 @@ declare class B { () : number }
                             "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 17,
+                            "start": 15,
                             "end": 36
                         }
                     ],
