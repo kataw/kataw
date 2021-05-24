@@ -55,7 +55,20 @@
                                         "end": 5
                                     },
                                     "type": null,
-                                    "contents": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 5,
+                                            "end": 5
+                                        },
+                                        "flags": 32,
+                                        "start": 5,
+                                        "end": 5
+                                    },
                                     "flags": 160,
                                     "start": 5,
                                     "end": 5
@@ -102,6 +115,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 5, end: 7
+✖ Expression expected - start: 5, end: 7
 
 ```
 

@@ -41,7 +41,20 @@ function 00004() { "use strict"; 00004; }
                 "start": 8,
                 "end": 8
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 8,
+                    "end": 8
+                },
+                "flags": 32,
+                "start": 8,
+                "end": 8
+            },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -138,6 +151,7 @@ function 00004() { "use strict"; 00004; }
 
 ```javascript
 ✖ Binding identifier expected - start: 8, end: 14
+✖ Expression expected - start: 8, end: 14
 ✖ Expected a `;` - start: 16, end: 18
 
 ```

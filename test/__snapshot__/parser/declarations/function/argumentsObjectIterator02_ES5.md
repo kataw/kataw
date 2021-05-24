@@ -69,7 +69,20 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "start": 31,
                 "end": 34
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 41,
+                    "end": 41
+                },
+                "flags": 32,
+                "start": 41,
+                "end": 41
+            },
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
@@ -592,7 +605,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ```javascript
 ✖ ',' expected - start: 33, end: 34
 ✖ Expected a ')' to match the '(' token here - start: 33, end: 34
-✖ Declaration or statement expected - start: 41, end: 42
+✖ Missing an opening brace - '{ - start: 41, end: 42
+✖ Expression expected - start: 41, end: 42
 ✖ Expected a `;` - start: 55, end: 56
 ✖ Expected a `;` - start: 63, end: 64
 ✖ Declaration or statement expected - start: 64, end: 65

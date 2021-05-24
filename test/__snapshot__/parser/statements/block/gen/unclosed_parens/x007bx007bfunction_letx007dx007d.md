@@ -73,7 +73,20 @@
                                         "start": 17,
                                         "end": 17
                                     },
-                                    "contents": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 17,
+                                            "end": 17
+                                        },
+                                        "flags": 32,
+                                        "start": 17,
+                                        "end": 17
+                                    },
                                     "typeParameters": null,
                                     "returnType": null,
                                     "flags": 16,
@@ -119,6 +132,7 @@
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 5
 ✖ Missing an opening parentheses - '( - start: 17, end: 18
+✖ Expression expected - start: 17, end: 18
 
 ```
 

@@ -90,7 +90,20 @@ function f(x=(yield z)=y){}
                 "start": 10,
                 "end": 22
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 22,
+                    "end": 22
+                },
+                "flags": 32,
+                "start": 22,
+                "end": 22
+            },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -145,7 +158,8 @@ function f(x=(yield z)=y){}
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 19, end: 21
 ✖ ',' expected - start: 19, end: 21
-✖ Declaration or statement expected - start: 22, end: 23
+✖ Missing an opening brace - '{ - start: 22, end: 23
+✖ Expression expected - start: 22, end: 23
 ✖ Expected a `;` - start: 24, end: 25
 
 ```

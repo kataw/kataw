@@ -544,7 +544,20 @@
                                             "start": 104,
                                             "end": 110
                                         },
-                                        "contents": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 110,
+                                                "end": 110
+                                            },
+                                            "flags": 32,
+                                            "start": 110,
+                                            "end": 110
+                                        },
                                         "flags": 0,
                                         "start": 104,
                                         "end": 110
@@ -625,7 +638,20 @@
                                                 "end": 126
                                             },
                                             "type": null,
-                                            "contents": null,
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "flags": 32,
+                                                    "start": 126,
+                                                    "end": 126
+                                                },
+                                                "flags": 32,
+                                                "start": 126,
+                                                "end": 126
+                                            },
                                             "flags": 0,
                                             "start": 124,
                                             "end": 126
@@ -727,7 +753,20 @@
                                             "end": 144
                                         },
                                         "type": null,
-                                        "contents": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 144,
+                                                "end": 144
+                                            },
+                                            "flags": 32,
+                                            "start": 144,
+                                            "end": 144
+                                        },
                                         "flags": 0,
                                         "start": 142,
                                         "end": 144
@@ -913,7 +952,20 @@
                                                 "end": 187
                                             },
                                             "type": null,
-                                            "contents": null,
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "flags": 32,
+                                                    "start": 187,
+                                                    "end": 187
+                                                },
+                                                "flags": 32,
+                                                "start": 187,
+                                                "end": 187
+                                            },
                                             "flags": 0,
                                             "start": 185,
                                             "end": 187
@@ -1021,7 +1073,20 @@
                                             "end": 208
                                         },
                                         "type": null,
-                                        "contents": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 208,
+                                                "end": 208
+                                            },
+                                            "flags": 32,
+                                            "start": 208,
+                                            "end": 208
+                                        },
                                         "flags": 0,
                                         "start": 206,
                                         "end": 208
@@ -1125,7 +1190,20 @@
                                             "end": 230
                                         },
                                         "type": null,
-                                        "contents": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 230,
+                                                "end": 230
+                                            },
+                                            "flags": 32,
+                                            "start": 230,
+                                            "end": 230
+                                        },
                                         "flags": 0,
                                         "start": 228,
                                         "end": 230
@@ -1228,7 +1306,20 @@
                                             "end": 256
                                         },
                                         "type": null,
-                                        "contents": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 256,
+                                                "end": 256
+                                            },
+                                            "flags": 32,
+                                            "start": 256,
+                                            "end": 256
+                                        },
                                         "flags": 1024,
                                         "start": 254,
                                         "end": 256
@@ -1354,7 +1445,20 @@
                                             "end": 280
                                         },
                                         "type": null,
-                                        "contents": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 280,
+                                                "end": 280
+                                            },
+                                            "flags": 32,
+                                            "start": 280,
+                                            "end": 280
+                                        },
                                         "flags": 0,
                                         "start": 278,
                                         "end": 280
@@ -1568,7 +1672,20 @@
                                                 "end": 330
                                             },
                                             "type": null,
-                                            "contents": null,
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "flags": 32,
+                                                    "start": 330,
+                                                    "end": 330
+                                                },
+                                                "flags": 32,
+                                                "start": 330,
+                                                "end": 330
+                                            },
                                             "flags": 256,
                                             "start": 328,
                                             "end": 330
@@ -3416,11 +3533,15 @@
 ✖ Missing an opening brace - '{ - start: 43, end: 44
 ✖ Binding identifier expected - start: 47, end: 48
 ✖ Invalid character - start: 62, end: 63
-✖ The parser expected to find a '}' to match the '{' token here - start: 126, end: 128
+✖ Missing an opening brace - '{ - start: 110, end: 111
+✖ Expression expected - start: 110, end: 111
+✖ Missing an opening brace - '{ - start: 126, end: 128
+✖ Expression expected - start: 126, end: 128
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 126, end: 128
 ✖ Expression expected - start: 128, end: 129
 ✖ Declaration or statement expected - start: 129, end: 130
-✖ The parser expected to find a '}' to match the '{' token here - start: 144, end: 147
+✖ Missing an opening brace - '{ - start: 144, end: 147
+✖ Expression expected - start: 144, end: 147
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 131, end: 144
 ✖ Declaration or statement expected - start: 150, end: 151
 ✖ Declaration or statement expected - start: 151, end: 152
@@ -3428,27 +3549,35 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 153, end: 164
 ✖ Declaration or statement expected - start: 170, end: 171
 ✖ Declaration or statement expected - start: 171, end: 172
-✖ The parser expected to find a '}' to match the '{' token here - start: 187, end: 189
+✖ Missing an opening brace - '{ - start: 187, end: 189
+✖ Expression expected - start: 187, end: 189
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 187, end: 189
 ✖ Expected a ')' to match the '(' token here - start: 191, end: 192
 ✖ Declaration or statement expected - start: 192, end: 193
-✖ The parser expected to find a '}' to match the '{' token here - start: 208, end: 211
+✖ Missing an opening brace - '{ - start: 208, end: 211
+✖ Expression expected - start: 208, end: 211
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 194, end: 208
 ✖ Declaration or statement expected - start: 213, end: 214
 ✖ Declaration or statement expected - start: 214, end: 215
-✖ The parser expected to find a '}' to match the '{' token here - start: 230, end: 233
+✖ Missing an opening brace - '{ - start: 230, end: 233
+✖ Expression expected - start: 230, end: 233
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 216, end: 230
 ✖ Declaration or statement expected - start: 236, end: 237
 ✖ Declaration or statement expected - start: 237, end: 238
+✖ Missing an opening brace - '{ - start: 256, end: 257
+✖ Expression expected - start: 256, end: 257
 ✖ Expression expected - start: 257, end: 258
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 270, end: 275
+✖ Missing an opening brace - '{ - start: 280, end: 281
+✖ Expression expected - start: 280, end: 281
 ✖ Expression expected - start: 281, end: 282
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 294, end: 299
 ✖ The parser expected to find a '}' to match the '{' token here - start: 302, end: 305
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 285, end: 302
 ✖ Declaration or statement expected - start: 308, end: 309
 ✖ Declaration or statement expected - start: 309, end: 310
-✖ The parser expected to find a '}' to match the '{' token here - start: 330, end: 332
+✖ Missing an opening brace - '{ - start: 330, end: 332
+✖ Expression expected - start: 330, end: 332
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 330, end: 332
 ✖ Expected a ')' to match the '(' token here - start: 334, end: 335
 ✖ Declaration or statement expected - start: 335, end: 336

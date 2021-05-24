@@ -65,7 +65,20 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "start": 24,
                 "end": 27
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 34,
+                    "end": 34
+                },
+                "flags": 32,
+                "start": 34,
+                "end": 34
+            },
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
@@ -393,7 +406,8 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 ```javascript
 ✖ ',' expected - start: 26, end: 27
 ✖ Expected a ')' to match the '(' token here - start: 26, end: 27
-✖ Declaration or statement expected - start: 34, end: 35
+✖ Missing an opening brace - '{ - start: 34, end: 35
+✖ Expression expected - start: 34, end: 35
 ✖ Expected a `;` - start: 48, end: 49
 ✖ Expected a `;` - start: 57, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59

@@ -205,7 +205,20 @@ x = { method(test: string) { } };
                                         "start": 39,
                                         "end": 52
                                     },
-                                    "contents": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 52,
+                                            "end": 52
+                                        },
+                                        "flags": 32,
+                                        "start": 52,
+                                        "end": 52
+                                    },
                                     "flags": 32,
                                     "start": 39,
                                     "end": 52
@@ -272,8 +285,9 @@ x = { method(test: string) { } };
 ```javascript
 ✖ ',' expected - start: 44, end: 45
 ✖ Expected a ')' to match the '(' token here - start: 44, end: 45
+✖ Missing an opening brace - '{ - start: 52, end: 53
+✖ Expression expected - start: 52, end: 53
 ✖ ',' expected - start: 52, end: 53
-✖ The parser expected to find a '}' to match the '{' token here - start: 52, end: 53
 ✖ Declaration or statement expected - start: 57, end: 59
 
 ```

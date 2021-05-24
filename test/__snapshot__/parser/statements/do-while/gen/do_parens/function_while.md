@@ -146,7 +146,7 @@ do( function while while
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 12, end: 18
-✖ Unexpected token. - start: 12, end: 18
+✖ Expression expected - start: 12, end: 18
 ✖ Missing an opening parentheses - '( - start: 18, end: 24
 
 ```

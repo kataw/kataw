@@ -67,7 +67,20 @@ async () => {  \u0066unction = x  }
                                 "start": 28,
                                 "end": 28
                             },
-                            "contents": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 28,
+                                    "end": 28
+                                },
+                                "flags": 32,
+                                "start": 28,
+                                "end": 28
+                            },
                             "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
@@ -121,6 +134,7 @@ async () => {  \u0066unction = x  }
 
 ```javascript
 ✖ Binding identifier expected - start: 28, end: 30
+✖ Expression expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 
 ```

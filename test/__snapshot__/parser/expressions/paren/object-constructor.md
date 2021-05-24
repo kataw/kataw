@@ -82,7 +82,20 @@
                                         "start": 18,
                                         "end": 31
                                     },
-                                    "contents": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 31,
+                                            "end": 31
+                                        },
+                                        "flags": 32,
+                                        "start": 31,
+                                        "end": 31
+                                    },
                                     "flags": 32,
                                     "start": 18,
                                     "end": 31
@@ -143,8 +156,9 @@
 ```javascript
 ✖ ',' expected - start: 23, end: 24
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 24
+✖ Missing an opening brace - '{ - start: 31, end: 32
+✖ Expression expected - start: 31, end: 32
 ✖ ',' expected - start: 31, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 32
 ✖ Expected a `;` - start: 32, end: 33
 ✖ Declaration or statement expected - start: 34, end: 36
 ✖ Declaration or statement expected - start: 36, end: 37

@@ -136,7 +136,20 @@
                                                     "start": 32,
                                                     "end": 32
                                                 },
-                                                "contents": null,
+                                                "contents": {
+                                                    "kind": 216,
+                                                    "functionStatementList": {
+                                                        "kind": 217,
+                                                        "directives": [],
+                                                        "statements": [],
+                                                        "flags": 32,
+                                                        "start": 32,
+                                                        "end": 32
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 32,
+                                                    "end": 32
+                                                },
                                                 "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 16,
@@ -192,6 +205,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Missing an opening parentheses - '( - start: 32, end: 33
+✖ Expression expected - start: 32, end: 33
 ✖ The parser expected to find a '}' to match the '{' token here - start: 34, end: 34
 
 ```

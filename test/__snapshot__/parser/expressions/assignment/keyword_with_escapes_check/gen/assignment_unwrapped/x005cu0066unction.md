@@ -44,7 +44,20 @@
                 "start": 13,
                 "end": 13
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 32,
+                "start": 13,
+                "end": 13
+            },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -85,6 +98,7 @@
 
 ```javascript
 ✖ Binding identifier expected - start: 13, end: 15
+✖ Expression expected - start: 13, end: 15
 
 ```
 

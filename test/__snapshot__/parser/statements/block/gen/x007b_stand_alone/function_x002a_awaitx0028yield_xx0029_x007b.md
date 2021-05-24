@@ -92,7 +92,20 @@
                             "start": 18,
                             "end": 27
                         },
-                        "contents": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 27,
+                                "end": 27
+                            },
+                            "flags": 32,
+                            "start": 27,
+                            "end": 27
+                        },
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 272,
@@ -148,6 +161,8 @@
 ```javascript
 ✖ `Yield` expression cannot be used in function parameters - start: 19, end: 24
 ✖ ',' expected - start: 24, end: 26
+✖ Missing an opening brace - '{ - start: 27, end: 29
+✖ Expression expected - start: 27, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 31
 
 ```

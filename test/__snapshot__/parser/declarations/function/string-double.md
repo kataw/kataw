@@ -61,7 +61,20 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "start": 22,
                 "end": 31
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 37,
+                    "end": 37
+                },
+                "flags": 32,
+                "start": 37,
+                "end": 37
+            },
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
@@ -128,7 +141,8 @@ function createElement(tagName: "div"): HTMLDivElement {}
 ```javascript
 ✖ ',' expected - start: 30, end: 31
 ✖ Expected a ')' to match the '(' token here - start: 30, end: 31
-✖ Declaration or statement expected - start: 37, end: 38
+✖ Missing an opening brace - '{ - start: 37, end: 38
+✖ Expression expected - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 39
 ✖ Expected a `;` - start: 54, end: 56
 

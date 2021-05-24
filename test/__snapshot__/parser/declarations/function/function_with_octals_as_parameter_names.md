@@ -42,7 +42,20 @@ function foo(001, 003) { "use strict"; }
                 "start": 12,
                 "end": 16
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 32,
+                "start": 13,
+                "end": 13
+            },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
@@ -127,6 +140,7 @@ function foo(001, 003) { "use strict"; }
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 13, end: 16
+✖ Expression expected - start: 13, end: 16
 ✖ Expected a `;` - start: 21, end: 22
 
 ```

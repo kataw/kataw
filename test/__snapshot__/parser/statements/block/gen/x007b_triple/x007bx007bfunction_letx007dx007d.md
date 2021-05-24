@@ -70,7 +70,20 @@
                                                                             "start": 20,
                                                                             "end": 20
                                                                         },
-                                                                        "contents": null,
+                                                                        "contents": {
+                                                                            "kind": 216,
+                                                                            "functionStatementList": {
+                                                                                "kind": 217,
+                                                                                "directives": [],
+                                                                                "statements": [],
+                                                                                "flags": 32,
+                                                                                "start": 20,
+                                                                                "end": 20
+                                                                            },
+                                                                            "flags": 32,
+                                                                            "start": 20,
+                                                                            "end": 20
+                                                                        },
                                                                         "typeParameters": null,
                                                                         "returnType": null,
                                                                         "flags": 16,
@@ -142,6 +155,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
+✖ Expression expected - start: 20, end: 21
 ✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 22
 
 ```

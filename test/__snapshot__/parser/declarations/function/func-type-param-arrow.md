@@ -177,7 +177,20 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 49,
                 "end": 59
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 90,
+                    "end": 90
+                },
+                "flags": 32,
+                "start": 90,
+                "end": 90
+            },
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
@@ -329,7 +342,20 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 107,
                 "end": 117
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 159,
+                    "end": 159
+                },
+                "flags": 32,
+                "start": 159,
+                "end": 159
+            },
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
@@ -489,10 +515,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 ```javascript
 ✖ ',' expected - start: 58, end: 59
 ✖ Expected a ')' to match the '(' token here - start: 58, end: 59
-✖ Declaration or statement expected - start: 90, end: 91
+✖ Missing an opening brace - '{ - start: 90, end: 91
+✖ Expression expected - start: 90, end: 91
 ✖ ',' expected - start: 116, end: 117
 ✖ Expected a ')' to match the '(' token here - start: 116, end: 117
-✖ Declaration or statement expected - start: 159, end: 160
+✖ Missing an opening brace - '{ - start: 159, end: 160
+✖ Expression expected - start: 159, end: 160
 
 ```
 

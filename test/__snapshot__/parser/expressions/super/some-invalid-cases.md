@@ -501,7 +501,20 @@ let x = { foo(){ super(); } };
                                     "end": 157
                                 },
                                 "type": null,
-                                "contents": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 152,
+                                        "end": 152
+                                    },
+                                    "flags": 32,
+                                    "start": 152,
+                                    "end": 152
+                                },
                                 "flags": 0,
                                 "start": 151,
                                 "end": 152
@@ -1639,7 +1652,20 @@ let x = { foo(){ super(); } };
                                                                         "end": 478
                                                                     },
                                                                     "type": null,
-                                                                    "contents": null,
+                                                                    "contents": {
+                                                                        "kind": 216,
+                                                                        "functionStatementList": {
+                                                                            "kind": 217,
+                                                                            "directives": [],
+                                                                            "statements": [],
+                                                                            "flags": 32,
+                                                                            "start": 473,
+                                                                            "end": 473
+                                                                        },
+                                                                        "flags": 32,
+                                                                        "start": 473,
+                                                                        "end": 473
+                                                                    },
                                                                     "flags": 0,
                                                                     "start": 472,
                                                                     "end": 473
@@ -2686,6 +2712,7 @@ let x = { foo(){ super(); } };
 ✖ ',' expected - start: 129, end: 131
 ✖ Duplicate identifier - start: 143, end: 145
 ✖ Expected a ')' to match the '(' token here - start: 152, end: 157
+✖ Expression expected - start: 152, end: 157
 ✖ The parser expected to find a '}' to match the '{' token here - start: 157, end: 158
 ✖ Expected a `;` - start: 161, end: 162
 ✖ Declaration or statement expected - start: 164, end: 166
@@ -2713,6 +2740,7 @@ let x = { foo(){ super(); } };
 ✖ ',' expected - start: 421, end: 423
 ✖ Duplicate identifier - start: 439, end: 441
 ✖ Expected a ')' to match the '(' token here - start: 473, end: 478
+✖ Expression expected - start: 473, end: 478
 ✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
 ✖ Expected a `;` - start: 482, end: 483
 ✖ Declaration or statement expected - start: 485, end: 487

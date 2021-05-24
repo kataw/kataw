@@ -84,7 +84,20 @@ function *f(){
                                 "start": 30,
                                 "end": 30
                             },
-                            "contents": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 30,
+                                    "end": 30
+                                },
+                                "flags": 32,
+                                "start": 30,
+                                "end": 30
+                            },
                             "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
@@ -140,6 +153,7 @@ function *f(){
 
 ```javascript
 ✖ Binding identifier expected - start: 30, end: 32
+✖ Expression expected - start: 30, end: 32
 ✖ Declaration or statement expected - start: 34, end: 36
 
 ```

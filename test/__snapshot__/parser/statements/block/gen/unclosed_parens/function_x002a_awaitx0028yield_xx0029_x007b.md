@@ -167,7 +167,7 @@
 ✖ `Yield` expression cannot be used in function parameters - start: 20, end: 25
 ✖ ',' expected - start: 25, end: 27
 ✖ Missing an opening brace - '{ - start: 28, end: 30
-✖ Unexpected token. - start: 28, end: 30
+✖ Expression expected - start: 28, end: 30
 ✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
 
 ```

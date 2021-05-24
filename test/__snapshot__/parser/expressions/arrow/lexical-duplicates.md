@@ -2083,10 +2083,8 @@ a = b => { let b; };
 ✖ Cannot redeclare block-scoped variable - start: 29, end: 31
 ✖ Expected a `;` - start: 38, end: 41
 ✖ Duplicate arrow formal parameter - start: 65, end: 73
-✖ Missing an opening brace - '{ - start: 81, end: 87
 ✖ Cannot redeclare block-scoped variable - start: 90, end: 91
 ✖ Missing initializer in const declaration - start: 91, end: 92
-✖ Missing an opening brace - '{ - start: 102, end: 106
 ✖ Cannot redeclare block-scoped variable - start: 106, end: 112
 ✖ Cannot redeclare block-scoped variable - start: 127, end: 129
 ✖ Missing initializer in const declaration - start: 129, end: 131

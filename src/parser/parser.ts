@@ -3069,6 +3069,16 @@ function parseMethodDefinition(
           /* ignoreMissingOpenBrace */ false,
           /* firstRestricted */ null
         )
+      : !isDeclared
+      ? parseFunctionBody(
+          parser,
+          context | Context.NewTarget | Context.AllowReturn,
+          scope,
+          /* isDecl */ isDeclared,
+          /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
+          /* ignoreMissingOpenBrace */ false,
+          /* firstRestricted */ null
+        )
       : null;
 
   parser.destructible = DestructibleKind.NotDestructible;
@@ -5499,6 +5509,16 @@ function parseFunctionDeclaration(
           /* ignoreMissingOpenBrace */ false,
           /* firstRestricted */ firstRestricted
         )
+      : !declareKeyword
+      ? parseFunctionBody(
+          parser,
+          context | Context.NewTarget | Context.AllowReturn,
+          innerScope,
+          /* isDecl */ declareKeyword ? true : false,
+          /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
+          /* ignoreMissingOpenBrace */ false,
+          /* firstRestricted */ firstRestricted
+        )
       : null;
 
   parser.assignable = false;
@@ -5529,13 +5549,10 @@ function parseFunctionBody(
   firstRestricted: SyntaxKind | null
 ): FunctionBody {
   const pos = parser.curPos;
-  const openBraceExists = consume(
-    parser,
-    context | Context.AllowRegExp,
-    SyntaxKind.LeftBrace,
-    DiagnosticCode.Missing_an_opening_brace
-  );
-  if (openBraceExists || ignoreMissingOpenBrace) {
+  if (
+    ignoreMissingOpenBrace ||
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)
+  ) {
     const statementList = parseFunctionStatementList(
       parser,
       (context | Context.InSwitch | Context.InIteration | Context.Parameters) ^
@@ -5548,9 +5565,7 @@ function parseFunctionBody(
       parser,
       isDecl ? context | Context.AllowRegExp : context,
       SyntaxKind.RightBrace,
-      openBraceExists
-        ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-        : DiagnosticCode.Expression_expected
+      DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
     );
     return createFunctionBody(statementList, pos, parser.curPos);
   }
@@ -5558,7 +5573,7 @@ function parseFunctionBody(
   parser.onError(
     DiagnosticSource.Parser,
     DiagnosticKind.Error,
-    diagnosticMap[DiagnosticCode.Unexpected_token],
+    diagnosticMap[DiagnosticCode.Expression_expected],
     parser.curPos,
     parser.pos
   );

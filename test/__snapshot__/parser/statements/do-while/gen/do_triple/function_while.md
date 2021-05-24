@@ -107,7 +107,20 @@ do do do function while while while while
                             "start": 17,
                             "end": 17
                         },
-                        "contents": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 17,
+                                "end": 17
+                            },
+                            "flags": 32,
+                            "start": 17,
+                            "end": 17
+                        },
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
@@ -179,6 +192,7 @@ do do do function while while while while
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 8, end: 17
 ✖ Binding identifier expected - start: 17, end: 23
+✖ Expression expected - start: 17, end: 23
 ✖ Missing an opening parentheses - '( - start: 23, end: 29
 ✖ Missing an opening parentheses - '( - start: 29, end: 35
 ✖ Missing an opening parentheses - '( - start: 35, end: 41

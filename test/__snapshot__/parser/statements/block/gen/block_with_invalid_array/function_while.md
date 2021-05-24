@@ -104,7 +104,20 @@
                             "start": 18,
                             "end": 18
                         },
-                        "contents": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 18,
+                                "end": 18
+                            },
+                            "flags": 32,
+                            "start": 18,
+                            "end": 18
+                        },
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
@@ -174,6 +187,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Binding identifier expected - start: 18, end: 24
+✖ Expression expected - start: 18, end: 24
 
 ```
 
