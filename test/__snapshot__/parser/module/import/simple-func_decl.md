@@ -97,55 +97,72 @@ x@{x9}@+@{x9}@y
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [],
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": {
+                                "kind": 207,
+                                "decoratorList": [],
+                                "flags": 32,
+                                "start": 9,
+                                "end": 9
+                            },
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 9,
+                                "end": 9
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 8,
+                            "end": 9
+                        }
+                    ],
                     "flags": 32,
                     "start": 8,
-                    "end": 8
+                    "end": 9
                 },
                 "flags": 8,
                 "start": 32,
-                "end": 8
+                "end": 9
             },
             "flags": 16,
             "start": 6,
-            "end": 8
+            "end": 9
         },
         {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": {
-                "kind": 207,
-                "decoratorList": [],
-                "flags": 32,
-                "start": 9,
-                "end": 9
-            },
-            "classKeyword": null,
-            "name": {
-                "kind": 134299649,
-                "text": "x9",
-                "rawText": "x9",
-                "flags": 96,
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x9",
+                            "rawText": "x9",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 12
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 12
+                    }
+                ],
+                "flags": 16,
                 "start": 10,
                 "end": 12
             },
-            "typeParameters": null,
-            "tail": {
-                "kind": 277,
-                "classHeritage": null,
-                "body": {
-                    "kind": 262,
-                    "elements": [],
-                    "flags": 32,
-                    "start": 12,
-                    "end": 12
-                },
-                "flags": 12,
-                "start": 32,
-                "end": 13
-            },
             "flags": 16,
-            "start": 8,
+            "start": 9,
             "end": 13
         },
         {
@@ -221,8 +238,7 @@ x@{x9}@+@{x9}@y
 ```javascript
 ✖ Missing an opening brace - '{ - start: 5, end: 6
 ✖ Binding identifier expected - start: 8, end: 9
-✖ Duplicate identifier - start: 10, end: 12
-✖ Missing an opening brace - '{ - start: 12, end: 13
+✖ Binding identifier expected - start: 9, end: 10
 ✖ Binding identifier expected - start: 15, end: 15
 
 ```

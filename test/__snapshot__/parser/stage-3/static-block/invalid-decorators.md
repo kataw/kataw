@@ -107,133 +107,121 @@ class C {
                             "flags": 0,
                             "start": 18,
                             "end": 27
+                        },
+                        {
+                            "kind": 263,
+                            "decorators": {
+                                "kind": 207,
+                                "decoratorList": [
+                                    {
+                                        "kind": 34611453,
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "dec",
+                                            "rawText": "dec",
+                                            "flags": 96,
+                                            "start": 31,
+                                            "end": 34
+                                        },
+                                        "flags": 1,
+                                        "start": 31,
+                                        "end": 34
+                                    }
+                                ],
+                                "flags": 32,
+                                "start": 31,
+                                "end": 34
+                            },
+                            "declaredKeyword": null,
+                            "staticKeyword": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 125,
+                                                "left": {
+                                                    "kind": 129,
+                                                    "member": {
+                                                        "kind": 135,
+                                                        "flags": 96,
+                                                        "start": 45,
+                                                        "end": 54
+                                                    },
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "bar",
+                                                        "rawText": "bar",
+                                                        "flags": 96,
+                                                        "start": 55,
+                                                        "end": 58
+                                                    },
+                                                    "flags": 536870944,
+                                                    "start": 45,
+                                                    "end": 58
+                                                },
+                                                "operatorToken": {
+                                                    "kind": 4125,
+                                                    "flags": 64,
+                                                    "start": 58,
+                                                    "end": 60
+                                                },
+                                                "right": {
+                                                    "kind": 129,
+                                                    "member": {
+                                                        "kind": 135,
+                                                        "flags": 96,
+                                                        "start": 60,
+                                                        "end": 65
+                                                    },
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "foo",
+                                                        "rawText": "foo",
+                                                        "flags": 96,
+                                                        "start": 66,
+                                                        "end": 69
+                                                    },
+                                                    "flags": 536870944,
+                                                    "start": 60,
+                                                    "end": 69
+                                                },
+                                                "flags": 32,
+                                                "start": 45,
+                                                "end": 69
+                                            },
+                                            "flags": 16,
+                                            "start": 45,
+                                            "end": 70
+                                        }
+                                    ],
+                                    "flags": 17,
+                                    "start": 45,
+                                    "end": 70
+                                },
+                                "flags": 16,
+                                "start": 27,
+                                "end": 74
+                            },
+                            "flags": 32,
+                            "start": 27,
+                            "end": 74
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 27
+                    "end": 74
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 27
+                "end": 76
             },
             "flags": 16,
             "start": 0,
-            "end": 27
-        },
-        {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": {
-                "kind": 207,
-                "decoratorList": [
-                    {
-                        "kind": 34611453,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "dec",
-                            "rawText": "dec",
-                            "flags": 96,
-                            "start": 31,
-                            "end": 34
-                        },
-                        "flags": 1,
-                        "start": 31,
-                        "end": 34
-                    }
-                ],
-                "flags": 32,
-                "start": 31,
-                "end": 34
-            },
-            "classKeyword": null,
-            "name": null,
-            "typeParameters": null,
-            "tail": {
-                "kind": 277,
-                "classHeritage": null,
-                "body": {
-                    "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "this",
-                                "rawText": "this",
-                                "flags": 96,
-                                "start": 45,
-                                "end": 54
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 45,
-                            "end": 54
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 45,
-                    "end": 54
-                },
-                "flags": 43,
-                "start": 32,
-                "end": 54
-            },
-            "flags": 16,
-            "start": 27,
-            "end": 54
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 134299649,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 96,
-                    "start": 55,
-                    "end": 58
-                },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 64,
-                    "start": 58,
-                    "end": 60
-                },
-                "right": {
-                    "kind": 129,
-                    "member": {
-                        "kind": 135,
-                        "flags": 96,
-                        "start": 60,
-                        "end": 65
-                    },
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 66,
-                        "end": 69
-                    },
-                    "flags": 536870944,
-                    "start": 60,
-                    "end": 69
-                },
-                "flags": 32,
-                "start": 55,
-                "end": 69
-            },
-            "flags": 16,
-            "start": 55,
-            "end": 70
+            "end": 76
         }
     ],
     "isModule": false,
@@ -254,11 +242,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 31
-✖ A class declaration without the 'default' modifier must have a name. - start: 43, end: 45
-✖ The parser expected to find a '}' to match the '{' token here - start: 54, end: 55
-✖ Declaration or statement expected - start: 70, end: 74
-✖ Declaration or statement expected - start: 74, end: 76
+✖ A 'static {}' initialization block may not have decorator - start: 43, end: 45
 
 ```
 

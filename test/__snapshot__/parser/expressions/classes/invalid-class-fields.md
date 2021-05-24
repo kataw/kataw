@@ -198,64 +198,80 @@
                                     "flags": 32,
                                     "start": 33,
                                     "end": 35
+                                },
+                                {
+                                    "kind": 280,
+                                    "decorators": {
+                                        "kind": 207,
+                                        "decoratorList": [],
+                                        "flags": 32,
+                                        "start": 36,
+                                        "end": 36
+                                    },
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "flags": 64,
+                                        "start": 36,
+                                        "end": 36
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 35,
+                                    "end": 36
                                 }
                             ],
                             "flags": 32,
                             "start": 33,
-                            "end": 35
+                            "end": 36
                         },
                         "flags": 31,
                         "start": 32,
-                        "end": 35
+                        "end": 36
                     },
                     "flags": 32,
                     "start": 24,
-                    "end": 35
+                    "end": 36
                 },
                 "flags": 32,
                 "start": 21,
-                "end": 35
+                "end": 36
             },
             "flags": 16,
             "start": 21,
-            "end": 35
+            "end": 36
         },
         {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": {
-                "kind": 207,
-                "decoratorList": [],
-                "flags": 32,
-                "start": 36,
-                "end": 36
-            },
-            "classKeyword": null,
-            "name": {
-                "kind": 134299649,
-                "text": "x1f44d",
-                "rawText": "x1f44d",
-                "flags": 96,
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x1f44d",
+                            "rawText": "x1f44d",
+                            "flags": 96,
+                            "start": 37,
+                            "end": 43
+                        },
+                        "flags": 16,
+                        "start": 37,
+                        "end": 43
+                    }
+                ],
+                "flags": 16,
                 "start": 37,
                 "end": 43
             },
-            "typeParameters": null,
-            "tail": {
-                "kind": 277,
-                "classHeritage": null,
-                "body": {
-                    "kind": 262,
-                    "elements": [],
-                    "flags": 32,
-                    "start": 43,
-                    "end": 43
-                },
-                "flags": 43,
-                "start": 32,
-                "end": 44
-            },
             "flags": 16,
-            "start": 35,
+            "start": 36,
             "end": 44
         },
         {
@@ -3529,8 +3545,7 @@
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 19
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 34, end: 35
-✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 36
-✖ Missing an opening brace - '{ - start: 43, end: 44
+✖ Binding identifier expected - start: 36, end: 37
 ✖ Binding identifier expected - start: 47, end: 48
 ✖ Invalid character - start: 62, end: 63
 ✖ Missing an opening brace - '{ - start: 110, end: 111

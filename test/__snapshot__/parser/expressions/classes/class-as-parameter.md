@@ -332,94 +332,91 @@ class A {
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [],
+                    "elements": [
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": {
+                                "kind": 207,
+                                "decoratorList": [
+                                    {
+                                        "kind": 34611453,
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "decorator",
+                                            "rawText": "decorator",
+                                            "flags": 96,
+                                            "start": 130,
+                                            "end": 139
+                                        },
+                                        "flags": 1,
+                                        "start": 130,
+                                        "end": 139
+                                    }
+                                ],
+                                "flags": 32,
+                                "start": 130,
+                                "end": 139
+                            },
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 96,
+                                    "start": 139,
+                                    "end": 145
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 146,
+                                    "end": 147
+                                },
+                                "type": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 149,
+                                        "end": 149
+                                    },
+                                    "flags": 32,
+                                    "start": 147,
+                                    "end": 150
+                                },
+                                "flags": 0,
+                                "start": 145,
+                                "end": 150
+                            },
+                            "flags": 0,
+                            "start": 126,
+                            "end": 150
+                        }
+                    ],
                     "flags": 32,
                     "start": 126,
-                    "end": 126
+                    "end": 150
                 },
                 "flags": 124,
                 "start": 32,
-                "end": 126
+                "end": 152
             },
             "flags": 16,
             "start": 115,
-            "end": 126
-        },
-        {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": {
-                "kind": 207,
-                "decoratorList": [
-                    {
-                        "kind": 34611453,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "decorator",
-                            "rawText": "decorator",
-                            "flags": 96,
-                            "start": 130,
-                            "end": 139
-                        },
-                        "flags": 1,
-                        "start": 130,
-                        "end": 139
-                    }
-                ],
-                "flags": 32,
-                "start": 130,
-                "end": 139
-            },
-            "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 145,
-                "end": 145
-            },
-            "typeParameters": null,
-            "tail": {
-                "kind": 277,
-                "classHeritage": null,
-                "body": {
-                    "kind": 262,
-                    "elements": [],
-                    "flags": 32,
-                    "start": 145,
-                    "end": 145
-                },
-                "flags": 145,
-                "start": 32,
-                "end": 145
-            },
-            "flags": 16,
-            "start": 126,
-            "end": 145
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 271,
-                "arrowToken": null,
-                "typeParameters": null,
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 149,
-                    "end": 149
-                },
-                "flags": 32,
-                "start": 145,
-                "end": 149
-            },
-            "flags": 16,
-            "start": 145,
-            "end": 149
+            "end": 152
         }
     ],
     "isModule": false,
@@ -435,15 +432,21 @@ class A {
 
 ```javascript
 
+var C;
+function decorator(el) {
+  return  Object.assign(el, { finisher(Class) {
+        C = Class;
+      } });
+}
+class A {
+  @decorator
+  foo() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 126, end: 130
-✖ Binding identifier expected - start: 145, end: 146
-✖ Expression expected - start: 149, end: 150
-✖ Declaration or statement expected - start: 150, end: 152
-
+✔ No errors
 ```
 
