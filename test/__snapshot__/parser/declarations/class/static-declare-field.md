@@ -113,7 +113,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ Cannot declare a 'static' class field - start: 26, end: 30
+✖ The 'declare' modifier cannot follow after a 'static' modifier - start: 26, end: 30
 
 ```
 

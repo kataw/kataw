@@ -101,7 +101,7 @@
   "`_` is only allowed as a type argument to call or new": 102,
   "Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`": 103,
   "Only declares and type imports are allowed inside declare module": 104,
-  "The `declare` modifier can only appear on class fields.": 105,
+  "Class methods cannot have the 'declare' modifier": 105,
   "Initializers are not allowed in fields with the `declare` modifier.": 106,
   "Explicit inexact syntax cannot appear inside an explicit exact object type": 107,
   "The this parameter cannot be optional": 108,
@@ -198,6 +198,7 @@
   "Expected to find a '>' to match the '<' token here.": 200,
   "Type expected": 201,
   "Expected a valid subtraction operand": 202,
-  "Cannot declare a 'static' class field": 203
+  "The 'declare' modifier cannot follow after a 'static' modifier": 203,
+  "Decorators cannot follow after a 'static' modifier": 204
 }
 

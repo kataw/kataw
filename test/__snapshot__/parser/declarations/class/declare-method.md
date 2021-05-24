@@ -138,7 +138,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ The `declare` modifier can only appear on class fields. - start: 23, end: 24
+✖ Class methods cannot have the 'declare' modifier - start: 23, end: 24
 
 ```
 

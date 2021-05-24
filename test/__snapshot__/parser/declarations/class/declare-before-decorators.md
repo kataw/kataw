@@ -52,27 +52,6 @@ class A {
                     "elements": [
                         {
                             "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "declare",
-                                "rawText": "declare",
-                                "flags": 96,
-                                "start": 9,
-                                "end": 19
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 9,
-                            "end": 19
-                        },
-                        {
-                            "kind": 280,
                             "decorators": {
                                 "kind": 207,
                                 "decoratorList": [
@@ -95,7 +74,12 @@ class A {
                                 "start": 21,
                                 "end": 24
                             },
-                            "declaredToken": null,
+                            "declaredToken": {
+                                "kind": 82165,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 19
+                            },
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
@@ -140,16 +124,12 @@ class A {
 
 ```javascript
 
-class A {
-  declare;
-  @dec
-  foo;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Decorators cannot follow after a 'static' modifier - start: 19, end: 21
+
 ```
 

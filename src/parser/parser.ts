@@ -2806,7 +2806,7 @@ function parsePropertyDefinition(
           asyncKeyword,
           /* getKeyword */ null,
           /* setKeyword */ null,
-          parseMethodDefinition(parser, context, /* isDeclared*/ false, key, nodeFlags | NodeFlags.Async),
+          parseMethodDefinition(parser, context, key, nodeFlags | NodeFlags.Async),
           pos,
           parser.curPos
         );
@@ -2830,7 +2830,7 @@ function parsePropertyDefinition(
           asyncKeyword,
           getKeyword,
           setKeyword,
-          parseMethodDefinition(parser, context, /* isDeclared*/ false, key, nodeFlags | NodeFlags.Getter),
+          parseMethodDefinition(parser, context, key, nodeFlags | NodeFlags.Getter),
           pos,
           parser.curPos
         );
@@ -2855,7 +2855,7 @@ function parsePropertyDefinition(
           asyncKeyword,
           getKeyword,
           setKeyword,
-          parseMethodDefinition(parser, context, /* isDeclared*/ false, key, nodeFlags | NodeFlags.Setter),
+          parseMethodDefinition(parser, context, key, nodeFlags | NodeFlags.Setter),
           pos,
           parser.curPos
         );
@@ -2869,7 +2869,7 @@ function parsePropertyDefinition(
         asyncKeyword,
         getKeyword,
         setKeyword,
-        parseMethodDefinition(parser, context, /* isDeclared*/ false, key, nodeFlags),
+        parseMethodDefinition(parser, context, key, nodeFlags),
         pos,
         parser.curPos
       );
@@ -2915,7 +2915,7 @@ function parsePropertyDefinition(
       asyncKeyword,
       getKeyword,
       setKeyword,
-      parseMethodDefinition(parser, context, /* isDeclared*/ false, key, nodeFlags),
+      parseMethodDefinition(parser, context, key, nodeFlags),
       pos,
       parser.curPos
     );
@@ -3025,7 +3025,6 @@ function parsePropertyDefinition(
 function parseMethodDefinition(
   parser: ParserState,
   context: Context,
-  isDeclared: boolean,
   key: any,
   nodeFlags: NodeFlags
 ): MethodDefinition {
@@ -3046,15 +3045,15 @@ function parseMethodDefinition(
 
   const returnType = parseTypeAnnotation(parser, context);
 
-  const contents =  parseFunctionBody(
-          parser,
-          context | Context.NewTarget | Context.AllowReturn,
-          scope,
-          /* isDecl */ isDeclared,
-          /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
-          /* ignoreMissingOpenBrace */ false,
-          /* firstRestricted */ null
-        );
+  const contents = parseFunctionBody(
+    parser,
+    context | Context.NewTarget | Context.AllowReturn,
+    scope,
+    /* isDecl */ false,
+    /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
+    /* ignoreMissingOpenBrace */ false,
+    /* firstRestricted */ null
+  );
 
   parser.destructible = DestructibleKind.NotDestructible;
 
@@ -7931,7 +7930,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
   }
 
   const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace);
-  body = parseClassBody(parser, inheritedContext, context, isDeclared);
+  body = parseClassBody(parser, inheritedContext, context);
   if (isDecl) context | Context.AllowRegExp;
   consume(
     parser,
@@ -7944,18 +7943,13 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
   return createClassTail(classHeritage, body, pos, NodeFlags.ExpressionNode, parser.curPos);
 }
 
-export function parseClassBody(
-  parser: ParserState,
-  context: Context,
-  inheritedContext: Context,
-  isDeclared: boolean
-): ClassBody {
+export function parseClassBody(parser: ParserState, context: Context, inheritedContext: Context): ClassBody {
   const pos = parser.curPos;
   let hasConstructor = false;
   const elements = [];
   let classElement = null;
   while (parser.token & 0b01000100110000000100000000000000 || parser.token === SyntaxKind.Decorator) {
-    classElement = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
+    classElement = parseClassElement(parser, context, inheritedContext, null, null, null, NodeFlags.None);
     if (classElement.flags & NodeFlags.Constructor) {
       if (hasConstructor) {
         parser.onError(
@@ -7988,7 +7982,6 @@ export function parseClassElement(
   context: Context,
   inheritedContext: Context,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  isDeclared: boolean,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   decorators: DecoratorList | null,
   nodeFlags: NodeFlags
@@ -8011,7 +8004,7 @@ export function parseClassElement(
   if (token & 0b00000000100000000100000000000000) {
     let key = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
 
-    if (parser.token & 0b00000100110000000100000000000000) {
+    if (parser.token & 0b00000100110000000100000000000000 || parser.token === SyntaxKind.Decorator) {
       switch (token) {
         case SyntaxKind.StaticKeyword:
           // avoid 'static static'
@@ -8031,7 +8024,6 @@ export function parseClassElement(
               context,
               inheritedContext,
               declareKeyword,
-              isDeclared,
               createToken(SyntaxKind.StaticKeyword, NodeFlags.ChildLess, pos, parser.curPos),
               decorators,
               nodeFlags
@@ -8054,17 +8046,26 @@ export function parseClassElement(
                 parser.onError(
                   DiagnosticSource.Parser,
                   DiagnosticKind.Error,
-                  diagnosticMap[DiagnosticCode.Cannot_declare_a_static_class_field],
+                  diagnosticMap[DiagnosticCode.The_declare_modifier_cannot_follow_after_a_static_modifier],
                   parser.curPos,
                   parser.pos
                 );
               }
+              if (parser.token === SyntaxKind.Decorator) {
+                parser.onError(
+                  DiagnosticSource.Parser,
+                  DiagnosticKind.Error,
+                  diagnosticMap[DiagnosticCode.Decorators_cannot_follow_after_a_static_modifier],
+                  parser.curPos,
+                  parser.pos
+                );
+              }
+
               return parseClassElement(
                 parser,
                 context,
                 inheritedContext,
                 createToken(SyntaxKind.DeclareKeyword, NodeFlags.ChildLess, pos, parser.curPos),
-                isDeclared,
                 staticKeyword,
                 decorators,
                 nodeFlags
@@ -8181,13 +8182,13 @@ export function parseClassElement(
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.The_declare_modifier_can_only_appear_on_class_fields],
+          diagnosticMap[DiagnosticCode.Class_methods_cannot_have_the_declare_modifier],
           parser.curPos,
           parser.pos
         );
       }
 
-      const method = parseMethodDefinition(parser, context | Context.InClassBody, isDeclared, key, nodeFlags);
+      const method = parseMethodDefinition(parser, context | Context.InClassBody, key, nodeFlags);
       return createClassElement(
         declareKeyword,
         decorators,
@@ -8235,13 +8236,13 @@ export function parseClassElement(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.The_declare_modifier_can_only_appear_on_class_fields],
+        diagnosticMap[DiagnosticCode.Class_methods_cannot_have_the_declare_modifier],
         parser.curPos,
         parser.pos
       );
     }
 
-    const method = parseMethodDefinition(parser, context | Context.InClassBody, isDeclared, key, nodeFlags);
+    const method = parseMethodDefinition(parser, context | Context.InClassBody, key, nodeFlags);
     return createClassElement(
       declareKeyword,
       decorators,

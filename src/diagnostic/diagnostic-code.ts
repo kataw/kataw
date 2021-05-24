@@ -104,7 +104,7 @@ export const enum DiagnosticCode {
   ___is_only_allowed_as_a_type_argument_to_call_or_new = 102,
   Type_parameters_must_come_after_the_async_keyword_e_g_instead_of_T_async_use_async_T = 103,
   Only_declares_and_type_imports_are_allowed_inside_declare_module = 104,
-  The_declare_modifier_can_only_appear_on_class_fields = 105,
+  Class_methods_cannot_have_the_declare_modifier = 105,
   Initializers_are_not_allowed_in_fields_with_the_declare_modifier = 106,
   Explicit_inexact_syntax_cannot_appear_inside_an_explicit_exact_object_type = 107,
   The_this_parameter_cannot_be_optional = 108,
@@ -201,7 +201,8 @@ export const enum DiagnosticCode {
   Expected_to_find_a_to_match_the_token_here = 200,
   Type_expected = 201,
   Expected_a_valid_subtraction_operand = 202,
-  Cannot_declare_a_static_class_field = 203
+  The_declare_modifier_cannot_follow_after_a_static_modifier = 203,
+  Decorators_cannot_follow_after_a_static_modifier = 204
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -308,7 +309,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [103]:
     'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
   [104]: 'Only declares and type imports are allowed inside declare module',
-  [105]: 'The `declare` modifier can only appear on class fields.',
+  [105]: "Class methods cannot have the 'declare' modifier",
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
   [107]: 'Explicit inexact syntax cannot appear inside an explicit exact object type',
   [108]: 'The this parameter cannot be optional',
@@ -408,5 +409,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [200]: "Expected to find a '>' to match the '<' token here.",
   [201]: 'Type expected',
   [202]: 'Expected a valid subtraction operand',
-  [203]: "Cannot declare a 'static' class field"
+  [203]: "The 'declare' modifier cannot follow after a 'static' modifier",
+  [204]: "Decorators cannot follow after a 'static' modifier"
 };
