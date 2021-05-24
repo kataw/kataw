@@ -126,22 +126,7 @@ var a: (?number)[];
                                             "start": 28,
                                             "end": 31
                                         },
-                                        "parameters": [
-                                            {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "flags": 64,
-                                                    "start": 27,
-                                                    "end": 27
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
-                                                "start": 27,
-                                                "end": 27
-                                            }
-                                        ],
+                                        "parameters": [],
                                         "returnType": {
                                             "kind": 134234345,
                                             "flags": 64,
@@ -472,12 +457,18 @@ var a: (?number)[];
 
 ```javascript
 
+var a;
+var a;
+var a;
+var a;
+var a;
+[];
+var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 27, end: 28
-
+✔ No errors
 ```
 

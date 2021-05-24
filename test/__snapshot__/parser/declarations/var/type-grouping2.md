@@ -61,22 +61,7 @@ var a: (() => number) | () => string
                                                 "start": 10,
                                                 "end": 13
                                             },
-                                            "parameters": [
-                                                {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 16637,
-                                                        "text": "",
-                                                        "flags": 64,
-                                                        "start": 9,
-                                                        "end": 9
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
-                                                    "start": 9,
-                                                    "end": 9
-                                                }
-                                            ],
+                                            "parameters": [],
                                             "returnType": {
                                                 "kind": 134234345,
                                                 "flags": 64,
@@ -156,12 +141,12 @@ var a: (() => number) | () => string
 
 ```javascript
 
+var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 9, end: 10
-
+✔ No errors
 ```
 

@@ -889,13 +889,22 @@ type D32 = {p?: number};
 
 ```javascript
 
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 248, end: 249
-✖ Expected a `;` - start: 300, end: 301
-
+✔ No errors
 ```
 

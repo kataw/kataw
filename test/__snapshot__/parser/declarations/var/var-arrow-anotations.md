@@ -200,73 +200,41 @@ class Array { concat(items:number | string) {}; }
                                                     ],
                                                     "flags": 0,
                                                     "start": 42,
-                                                    "end": 49
+                                                    "end": 50
                                                 },
                                                 "flags": 0,
                                                 "start": 36,
-                                                "end": 49
+                                                "end": 50
                                             },
                                             "flags": 0,
                                             "start": 36,
-                                            "end": 49
+                                            "end": 50
                                         }
                                     ],
                                     "flags": 0,
                                     "start": 28,
-                                    "end": 49
+                                    "end": 51
                                 },
                                 "flags": 0,
                                 "start": 24,
-                                "end": 49
+                                "end": 51
                             },
                             "flags": 0,
                             "start": 23,
-                            "end": 49
+                            "end": 51
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 21,
-                        "end": 49
+                        "end": 51
                     }
                 ],
                 "flags": 16,
                 "start": 21,
-                "end": 49
-            },
-            "flags": 16,
-            "start": 16,
-            "end": 49
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 49,
-                    "end": 49
-                },
-                "operatorToken": {
-                    "kind": 35141,
-                    "flags": 64,
-                    "start": 49,
-                    "end": 51
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 51,
-                    "end": 51
-                },
-                "flags": 32,
-                "start": 49,
                 "end": 51
             },
             "flags": 16,
-            "start": 49,
+            "start": 16,
             "end": 52
         },
         {
@@ -2340,14 +2308,40 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
+var a;
+var a;
+var a;
+var x = Y;
+var x = fn;
+var foo = bar ? (foo) =>  {} : baz;
+var a;
+var foo = bar ? (foo) : number;
+var foo = ((bar) =>  bar);
+var foo = (() =>  bar);
+var foo = async (bar) =>  bar;
+var foo = async () =>  bar;
+var foo = async (foo, bar) =>  {};
+var foo = () =>  bar;
+var a;
+var [x] = ["\"hello\""];
+var {
+  x
+} = { x: "\"hello\"" };
+var {
+  x
+} = { x: "\"hello\"" };
+var a;
+var x = Y;
+var a;
+class Array {
+  concat(items) {}
+
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 49, end: 51
-✖ ',' expected - start: 49, end: 51
-✖ Expression expected - start: 51, end: 52
-
+✔ No errors
 ```
 

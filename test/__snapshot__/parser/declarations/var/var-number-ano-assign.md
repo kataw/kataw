@@ -135,7 +135,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 42,
-                                        "end": 63
+                                        "end": 62
                                     },
                                     {
                                         "kind": 195,
@@ -162,7 +162,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 63,
-                                        "end": 84
+                                        "end": 83
                                     }
                                 ],
                                 "callProperties": [],

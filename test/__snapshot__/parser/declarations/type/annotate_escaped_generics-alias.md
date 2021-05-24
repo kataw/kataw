@@ -51,22 +51,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                         "start": 21,
                         "end": 24
                     },
-                    "parameters": [
-                        {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 20,
-                                "end": 20
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 20,
-                            "end": 20
-                        }
-                    ],
+                    "parameters": [],
                     "returnType": {
                         "kind": 144,
                         "id": {
@@ -179,7 +164,6 @@ type Tr = <Return>(() => Pr<Return>) => Return;
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 20, end: 21
 ✖ Expected a `;` - start: 36, end: 39
 
 ```
