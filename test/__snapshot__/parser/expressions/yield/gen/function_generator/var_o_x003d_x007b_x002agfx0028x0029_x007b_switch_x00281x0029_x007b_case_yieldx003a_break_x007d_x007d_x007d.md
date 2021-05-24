@@ -148,7 +148,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                 "start": 54,
                                                                                 "end": 55
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {

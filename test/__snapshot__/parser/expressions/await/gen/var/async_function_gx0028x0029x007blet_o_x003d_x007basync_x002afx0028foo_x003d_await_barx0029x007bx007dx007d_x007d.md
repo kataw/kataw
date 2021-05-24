@@ -251,7 +251,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                                     "start": 76,
                                                                                                     "end": 92
                                                                                                 },
-                                                                                                "type": null,
+                                                                                                "returnType": null,
                                                                                                 "contents": {
                                                                                                     "kind": 216,
                                                                                                     "functionStatementList": {

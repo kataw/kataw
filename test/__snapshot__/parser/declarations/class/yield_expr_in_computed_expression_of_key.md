@@ -112,7 +112,7 @@ class x{[yield](a){}}
                                     "start": 16,
                                     "end": 18
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

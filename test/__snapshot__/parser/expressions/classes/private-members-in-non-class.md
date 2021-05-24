@@ -362,7 +362,7 @@ class C { test() {get #a() { }}}
                                     "start": 91,
                                     "end": 92
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -524,7 +524,7 @@ class C { test() {get #a() { }}}
                                         "start": 133,
                                         "end": 137
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -617,7 +617,7 @@ class C { test() {get #a() { }}}
                                         "start": 166,
                                         "end": 167
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -698,7 +698,7 @@ class C { test() {get #a() { }}}
                                             "start": 187,
                                             "end": 188
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -808,7 +808,7 @@ class C { test() {get #a() { }}}
                                             "start": 214,
                                             "end": 215
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

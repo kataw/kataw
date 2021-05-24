@@ -87,7 +87,7 @@ let o = {f(await){}}
                                                 "start": 11,
                                                 "end": 17
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

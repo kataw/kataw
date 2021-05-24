@@ -103,7 +103,7 @@ class x { static async *prototype(){} }
                                     "start": 31,
                                     "end": 32
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -197,7 +197,7 @@ class x { static async *prototype(){} }
                                     "start": 72,
                                     "end": 73
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -296,7 +296,7 @@ class x { static async *prototype(){} }
                                     "start": 110,
                                     "end": 111
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -400,7 +400,7 @@ class x { static async *prototype(){} }
                                     "start": 151,
                                     "end": 152
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

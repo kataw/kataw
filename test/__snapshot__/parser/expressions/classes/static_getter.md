@@ -78,7 +78,7 @@ class A {static get foo(){}}
                                     "start": 24,
                                     "end": 25
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

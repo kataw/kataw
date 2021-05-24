@@ -211,7 +211,7 @@ class A {
                                                                 "start": 75,
                                                                 "end": 81
                                                             },
-                                                            "type": null,
+                                                            "returnType": null,
                                                             "contents": {
                                                                 "kind": 216,
                                                                 "functionStatementList": {
@@ -382,7 +382,7 @@ class A {
                                     "start": 146,
                                     "end": 147
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

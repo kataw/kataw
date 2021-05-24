@@ -119,7 +119,7 @@ class x {    async async get f(x){}    }
                                     "start": 31,
                                     "end": 33
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

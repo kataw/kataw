@@ -157,7 +157,7 @@ class C {
                                                                                         "start": 42,
                                                                                         "end": 64
                                                                                     },
-                                                                                    "type": null,
+                                                                                    "returnType": null,
                                                                                     "contents": {
                                                                                         "kind": 216,
                                                                                         "functionStatementList": {

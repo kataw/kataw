@@ -68,7 +68,7 @@ class A {set(){} get(){} async(){}}
                                     "start": 13,
                                     "end": 14
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -119,7 +119,7 @@ class A {set(){} get(){} async(){}}
                                     "start": 21,
                                     "end": 22
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -170,7 +170,7 @@ class A {set(){} get(){} async(){}}
                                     "start": 31,
                                     "end": 32
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

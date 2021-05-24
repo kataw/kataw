@@ -76,7 +76,7 @@ class x {static switch(){}}
                                     "start": 23,
                                     "end": 24
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

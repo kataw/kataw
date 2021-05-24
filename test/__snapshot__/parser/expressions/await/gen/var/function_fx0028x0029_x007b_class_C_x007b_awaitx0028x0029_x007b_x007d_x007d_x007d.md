@@ -198,7 +198,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                                         "start": 70,
                                                                                         "end": 71
                                                                                     },
-                                                                                    "type": null,
+                                                                                    "returnType": null,
                                                                                     "contents": {
                                                                                         "kind": 216,
                                                                                         "functionStatementList": {

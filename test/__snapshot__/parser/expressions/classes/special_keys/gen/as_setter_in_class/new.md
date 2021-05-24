@@ -95,7 +95,7 @@ class x {set new(x){}}
                                     "start": 17,
                                     "end": 19
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

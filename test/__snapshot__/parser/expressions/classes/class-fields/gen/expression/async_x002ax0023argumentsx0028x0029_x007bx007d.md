@@ -100,7 +100,7 @@ class C extends Base { async *#arguments() {} }
                                     "start": 41,
                                     "end": 42
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

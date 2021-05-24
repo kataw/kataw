@@ -114,7 +114,7 @@ class C { get name(private) {} }
                                     "start": 20,
                                     "end": 30
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -227,7 +227,7 @@ class C { get name(private) {} }
                                     "start": 56,
                                     "end": 63
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -340,7 +340,7 @@ class C { get name(private) {} }
                                     "start": 89,
                                     "end": 97
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -467,7 +467,7 @@ class C { get name(private) {} }
                                     "start": 137,
                                     "end": 148
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -594,7 +594,7 @@ class C { get name(private) {} }
                                     "start": 188,
                                     "end": 194
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -702,7 +702,7 @@ class C { get name(private) {} }
                                     "start": 234,
                                     "end": 237
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -859,7 +859,7 @@ class C { get name(private) {} }
                                             "start": 277,
                                             "end": 285
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -990,7 +990,7 @@ class C { get name(private) {} }
                                             "start": 325,
                                             "end": 332
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

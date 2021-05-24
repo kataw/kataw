@@ -113,7 +113,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                     "start": 18,
                                     "end": 22
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

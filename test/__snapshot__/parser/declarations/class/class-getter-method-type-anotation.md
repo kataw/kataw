@@ -81,7 +81,7 @@ class Foo {get fooProp():number{}}
                                     "start": 23,
                                     "end": 24
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -90,7 +90,7 @@ class Foo {get fooProp():number{}}
                                         "end": 31
                                     },
                                     "flags": 0,
-                                    "start": 22,
+                                    "start": 24,
                                     "end": 31
                                 },
                                 "contents": {

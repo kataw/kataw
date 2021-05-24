@@ -63,7 +63,7 @@ x={f(){ let f }}
                                         "start": 5,
                                         "end": 6
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

@@ -86,7 +86,7 @@ class x {static async * with(){}}
                                     "start": 29,
                                     "end": 30
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

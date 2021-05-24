@@ -76,7 +76,7 @@ class x {* with(){}}
                                     "start": 16,
                                     "end": 17
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

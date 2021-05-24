@@ -631,7 +631,7 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 1072,
                                             "end": 1073
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -750,7 +750,7 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 1091,
                                             "end": 1093
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -864,7 +864,7 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 1107,
                                             "end": 1109
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2508,7 +2508,7 @@ try {} catch(e) { for(var e of 0); };
                                         "start": 3168,
                                         "end": 3169
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -2616,7 +2616,7 @@ try {} catch(e) { for(var e of 0); };
                                         "start": 3191,
                                         "end": 3192
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -2825,7 +2825,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 3259,
                                     "end": 3260
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -2872,7 +2872,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "start": 3277,
                                                                             "end": 3278
                                                                         },
-                                                                        "type": null,
+                                                                        "returnType": null,
                                                                         "contents": {
                                                                             "kind": 216,
                                                                             "functionStatementList": {
@@ -3049,7 +3049,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 3330,
                                     "end": 3331
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -3101,7 +3101,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "start": 3349,
                                                                             "end": 3350
                                                                         },
-                                                                        "type": null,
+                                                                        "returnType": null,
                                                                         "contents": {
                                                                             "kind": 216,
                                                                             "functionStatementList": {
@@ -3278,7 +3278,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 3402,
                                     "end": 3403
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -3330,7 +3330,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "start": 3424,
                                                                             "end": 3425
                                                                         },
-                                                                        "type": null,
+                                                                        "returnType": null,
                                                                         "contents": {
                                                                             "kind": 216,
                                                                             "functionStatementList": {
@@ -3507,7 +3507,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 3477,
                                     "end": 3478
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -3578,7 +3578,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "start": 3499,
                                                                             "end": 3501
                                                                         },
-                                                                        "type": null,
+                                                                        "returnType": null,
                                                                         "contents": {
                                                                             "kind": 216,
                                                                             "functionStatementList": {

@@ -101,7 +101,7 @@ class C extends Base { static *static() {} }
                                     "start": 38,
                                     "end": 39
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

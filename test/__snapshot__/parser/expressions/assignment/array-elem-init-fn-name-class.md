@@ -211,7 +211,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                 "start": 74,
                                                                 "end": 75
                                                             },
-                                                            "type": null,
+                                                            "returnType": null,
                                                             "contents": {
                                                                 "kind": 216,
                                                                 "functionStatementList": {

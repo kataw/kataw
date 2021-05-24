@@ -76,7 +76,7 @@ class x {static debugger(){}}
                                     "start": 25,
                                     "end": 26
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

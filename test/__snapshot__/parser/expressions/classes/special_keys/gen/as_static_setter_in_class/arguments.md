@@ -100,7 +100,7 @@ class x {static set arguments(x){}}
                                     "start": 30,
                                     "end": 32
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

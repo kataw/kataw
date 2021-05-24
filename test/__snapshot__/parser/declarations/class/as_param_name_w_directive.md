@@ -87,7 +87,7 @@ class c {foo(eval){ "use strict"; }}
                                     "start": 13,
                                     "end": 18
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

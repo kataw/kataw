@@ -111,7 +111,7 @@ class Foo {set fooProp(value:number){}}
                                     "start": 23,
                                     "end": 36
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

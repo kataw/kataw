@@ -77,7 +77,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                 "start": 14,
                                                 "end": 15
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

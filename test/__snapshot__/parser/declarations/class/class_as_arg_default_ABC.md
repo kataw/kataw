@@ -227,7 +227,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                                     "start": 69,
                                                                     "end": 70
                                                                 },
-                                                                "type": null,
+                                                                "returnType": null,
                                                                 "contents": {
                                                                     "kind": 216,
                                                                     "functionStatementList": {

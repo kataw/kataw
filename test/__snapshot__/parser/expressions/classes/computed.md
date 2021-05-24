@@ -113,7 +113,7 @@ class A { [x=y](foo) {} }
                                     "start": 16,
                                     "end": 20
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -23,19 +23,19 @@ export type MethodName =
   | PrivateIdentifier;
 
 export interface MethodDefinition extends SyntaxNode {
-  readonly formalParameters: FormalParameterList | null;
+  readonly formalParameters: FormalParameterList;
   readonly name: MethodName;
-  readonly contents: FunctionBody | null;
+  readonly contents: FunctionBody;
   readonly typeParameters: TypeParameterDeclaration | null;
-  readonly type: TypeNode | null;
+  readonly returnType: TypeNode | null;
 }
 
 export function createMethodDefinition(
   name: MethodName,
   typeParameters: TypeParameterDeclaration | null,
-  formalParameters: FormalParameterList | null,
-  type: TypeNode | null,
-  contents: FunctionBody | null,
+  formalParameters: FormalParameterList,
+  returnType: TypeNode | null,
+  contents: FunctionBody,
   flags: NodeFlags,
   start: number,
   end: number
@@ -45,7 +45,7 @@ export function createMethodDefinition(
     name,
     typeParameters,
     formalParameters,
-    type,
+    returnType,
     contents,
     flags,
     start,

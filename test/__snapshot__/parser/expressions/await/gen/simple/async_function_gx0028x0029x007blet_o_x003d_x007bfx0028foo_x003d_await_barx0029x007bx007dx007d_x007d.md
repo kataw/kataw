@@ -153,7 +153,7 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                 "start": 30,
                                                                 "end": 46
                                                             },
-                                                            "type": null,
+                                                            "returnType": null,
                                                             "contents": {
                                                                 "kind": 216,
                                                                 "functionStatementList": {

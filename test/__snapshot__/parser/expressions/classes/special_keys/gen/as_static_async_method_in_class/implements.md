@@ -81,7 +81,7 @@ class x {static async implements(){}}
                                     "start": 33,
                                     "end": 34
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

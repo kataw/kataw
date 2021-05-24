@@ -73,7 +73,7 @@ class x {async await(){}}
                                     "start": 21,
                                     "end": 22
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -137,7 +137,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                     "start": 52,
                                                                     "end": 53
                                                                 },
-                                                                "type": null,
+                                                                "returnType": null,
                                                                 "contents": {
                                                                     "kind": 216,
                                                                     "functionStatementList": {

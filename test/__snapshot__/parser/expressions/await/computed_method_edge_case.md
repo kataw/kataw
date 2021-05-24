@@ -167,7 +167,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "start": 62,
                                                                                 "end": 63
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {
@@ -215,7 +215,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "start": 71,
                                                                                 "end": 72
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {

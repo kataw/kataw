@@ -138,7 +138,7 @@ a={*id<T>(x: T): T {}}
                                         "start": 10,
                                         "end": 15
                                     },
-                                    "type": {
+                                    "returnType": {
                                         "kind": 139,
                                         "type": {
                                             "kind": 144,
@@ -156,7 +156,7 @@ a={*id<T>(x: T): T {}}
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "start": 6,
+                                        "start": 15,
                                         "end": 18
                                     },
                                     "contents": {

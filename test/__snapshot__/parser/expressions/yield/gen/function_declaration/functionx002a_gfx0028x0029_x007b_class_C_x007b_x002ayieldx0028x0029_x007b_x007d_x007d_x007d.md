@@ -147,7 +147,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                                     "start": 55,
                                                                     "end": 56
                                                                 },
-                                                                "type": null,
+                                                                "returnType": null,
                                                                 "contents": {
                                                                     "kind": 216,
                                                                     "functionStatementList": {

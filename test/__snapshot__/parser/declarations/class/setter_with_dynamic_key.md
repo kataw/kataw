@@ -122,7 +122,7 @@ class x { static set [y](z){}}
                                     "start": 25,
                                     "end": 27
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

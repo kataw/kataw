@@ -281,7 +281,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                         "start": 57,
                                                                         "end": 83
                                                                     },
-                                                                    "type": null,
+                                                                    "returnType": null,
                                                                     "contents": {
                                                                         "kind": 216,
                                                                         "functionStatementList": {

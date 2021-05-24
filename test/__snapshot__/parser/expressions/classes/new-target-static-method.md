@@ -109,7 +109,7 @@ class A {static a(x=new.target){}}
                                     "start": 18,
                                     "end": 31
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

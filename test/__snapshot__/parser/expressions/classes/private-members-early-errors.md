@@ -101,7 +101,7 @@ class C { foo() { this.#a = 1; }}
                                                 "start": 16,
                                                 "end": 20
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -239,7 +239,7 @@ class C { foo() { this.#a = 1; }}
                                                     "start": 59,
                                                     "end": 60
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {
@@ -394,7 +394,7 @@ class C { foo() { this.#a = 1; }}
                                     "start": 110,
                                     "end": 111
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -515,7 +515,7 @@ class C { foo() { this.#a = 1; }}
                                     "start": 148,
                                     "end": 149
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -114,7 +114,7 @@ class C extends Base { set #await(test) {} }
                                     "start": 34,
                                     "end": 39
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

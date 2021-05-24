@@ -76,7 +76,7 @@ class x {static implements(){}}
                                     "start": 27,
                                     "end": 28
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

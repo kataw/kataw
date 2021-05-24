@@ -134,7 +134,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                             "start": 50,
                                                             "end": 59
                                                         },
-                                                        "type": null,
+                                                        "returnType": null,
                                                         "contents": {
                                                             "kind": 216,
                                                             "functionStatementList": {

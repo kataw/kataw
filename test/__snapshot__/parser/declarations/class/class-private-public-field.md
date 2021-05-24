@@ -557,7 +557,7 @@ class C { f(){ this.#a } #a; }
                                     "start": 132,
                                     "end": 133
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -672,7 +672,7 @@ class C { f(){ this.#a } #a; }
                                     "start": 160,
                                     "end": 161
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

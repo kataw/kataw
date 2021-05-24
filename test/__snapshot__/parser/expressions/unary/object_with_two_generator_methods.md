@@ -65,7 +65,7 @@ wrap({* foo(){},*bar(){}});
                                                 "start": 12,
                                                 "end": 13
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -118,7 +118,7 @@ wrap({* foo(){},*bar(){}});
                                                 "start": 21,
                                                 "end": 22
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

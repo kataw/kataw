@@ -151,7 +151,7 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "start": 33,
                                                     "end": 35
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {

@@ -22,105 +22,32 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [
-                            {
-                                "kind": 257,
-                                "asyncKeyword": null,
-                                "generatorToken": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
-                                "method": {
-                                    "kind": 209,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "constructor",
-                                        "rawText": "constructor",
-                                        "flags": 96,
-                                        "start": 2,
-                                        "end": 18
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [
-                                            {
-                                                "kind": 215,
-                                                "ellipsisToken": null,
-                                                "binding": {
-                                                    "kind": 134299649,
-                                                    "text": "this",
-                                                    "rawText": "this",
-                                                    "flags": 96,
-                                                    "start": 19,
-                                                    "end": 23
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 19,
-                                                "end": 23
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 19,
-                                        "end": 24
-                                    },
-                                    "type": {
-                                        "kind": 139,
-                                        "type": {
-                                            "kind": 134234345,
-                                            "flags": 64,
-                                            "start": 24,
-                                            "end": 31
-                                        },
-                                        "flags": 0,
-                                        "start": 18,
-                                        "end": 31
-                                    },
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 31,
-                                            "end": 31
-                                        },
-                                        "flags": 32,
-                                        "start": 31,
-                                        "end": 31
-                                    },
-                                    "flags": 32,
-                                    "start": 18,
-                                    "end": 31
-                                },
-                                "flags": 32,
-                                "start": 2,
-                                "end": 31
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 17,
-                        "start": 2,
-                        "end": 31
-                    },
-                    "flags": 49,
-                    "start": 1,
-                    "end": 31
+                    "kind": 132,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 23
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 32
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 32
+            "end": 23
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "number",
+                "rawText": "number",
+                "flags": 96,
+                "start": 24,
+                "end": 31
+            },
+            "flags": 16,
+            "start": 24,
+            "end": 31
         },
         {
             "kind": 124,
@@ -156,10 +83,10 @@
 ```javascript
 ✖ ',' expected - start: 23, end: 24
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 24
-✖ Missing an opening brace - '{ - start: 31, end: 32
-✖ Expression expected - start: 31, end: 32
-✖ ',' expected - start: 31, end: 32
-✖ Expected a `;` - start: 32, end: 33
+✖ Expression expected - start: 23, end: 24
+✖ ',' expected - start: 23, end: 24
+✖ Expected '=>' - start: 23, end: 24
+✖ Expected a `;` - start: 31, end: 32
 ✖ Declaration or statement expected - start: 34, end: 36
 ✖ Declaration or statement expected - start: 36, end: 37
 

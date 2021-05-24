@@ -63,7 +63,7 @@ x = {0o730(){}}
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

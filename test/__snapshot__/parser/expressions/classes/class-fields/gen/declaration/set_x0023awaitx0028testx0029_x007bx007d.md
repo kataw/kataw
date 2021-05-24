@@ -94,7 +94,7 @@ class C { set #await(test) {} }
                                     "start": 21,
                                     "end": 26
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

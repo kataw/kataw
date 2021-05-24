@@ -187,7 +187,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                     "start": 18,
                                     "end": 44
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

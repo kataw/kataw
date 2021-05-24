@@ -111,7 +111,7 @@ class Foo {set fooProp(value:number):void{}}
                                     "start": 23,
                                     "end": 36
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 138477615,
@@ -120,7 +120,7 @@ class Foo {set fooProp(value:number):void{}}
                                         "end": 41
                                     },
                                     "flags": 0,
-                                    "start": 22,
+                                    "start": 36,
                                     "end": 41
                                 },
                                 "contents": {

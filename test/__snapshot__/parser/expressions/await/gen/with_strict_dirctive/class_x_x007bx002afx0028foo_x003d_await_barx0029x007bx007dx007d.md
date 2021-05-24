@@ -129,7 +129,7 @@
                                     "start": 26,
                                     "end": 42
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

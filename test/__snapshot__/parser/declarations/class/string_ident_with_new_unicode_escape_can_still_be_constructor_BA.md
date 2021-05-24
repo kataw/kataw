@@ -76,7 +76,7 @@ class x { constructor(){}; "constructor"(){}; }
                                     "start": 22,
                                     "end": 23
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -133,7 +133,7 @@ class x { constructor(){}; "constructor"(){}; }
                                     "start": 41,
                                     "end": 42
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

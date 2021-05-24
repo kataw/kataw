@@ -165,7 +165,7 @@ class x { #foo() {}}
                                     "start": 15,
                                     "end": 16
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -249,7 +249,7 @@ class x { #foo() {}}
                                             "start": 33,
                                             "end": 34
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -346,7 +346,7 @@ class x { #foo() {}}
                                             "start": 57,
                                             "end": 58
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -462,7 +462,7 @@ class x { #foo() {}}
                                             "start": 81,
                                             "end": 85
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -559,7 +559,7 @@ class x { #foo() {}}
                                             "start": 105,
                                             "end": 106
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -656,7 +656,7 @@ class x { #foo() {}}
                                             "start": 131,
                                             "end": 132
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -758,7 +758,7 @@ class x { #foo() {}}
                                             "start": 158,
                                             "end": 159
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -850,7 +850,7 @@ class x { #foo() {}}
                                             "start": 179,
                                             "end": 180
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -900,7 +900,7 @@ class x { #foo() {}}
                                             "start": 188,
                                             "end": 189
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -997,7 +997,7 @@ class x { #foo() {}}
                                             "start": 211,
                                             "end": 212
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1071,7 +1071,7 @@ class x { #foo() {}}
                                             "start": 224,
                                             "end": 228
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1168,7 +1168,7 @@ class x { #foo() {}}
                                             "start": 250,
                                             "end": 251
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1223,7 +1223,7 @@ class x { #foo() {}}
                                             "start": 263,
                                             "end": 264
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1297,7 +1297,7 @@ class x { #foo() {}}
                                             "start": 275,
                                             "end": 279
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1394,7 +1394,7 @@ class x { #foo() {}}
                                             "start": 301,
                                             "end": 302
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1449,7 +1449,7 @@ class x { #foo() {}}
                                             "start": 314,
                                             "end": 315
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1523,7 +1523,7 @@ class x { #foo() {}}
                                             "start": 326,
                                             "end": 330
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1597,7 +1597,7 @@ class x { #foo() {}}
                                             "start": 341,
                                             "end": 345
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1713,7 +1713,7 @@ class x { #foo() {}}
                                             "start": 367,
                                             "end": 371
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1787,7 +1787,7 @@ class x { #foo() {}}
                                             "start": 383,
                                             "end": 387
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1884,7 +1884,7 @@ class x { #foo() {}}
                                             "start": 409,
                                             "end": 410
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1939,7 +1939,7 @@ class x { #foo() {}}
                                             "start": 422,
                                             "end": 423
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2031,7 +2031,7 @@ class x { #foo() {}}
                                             "start": 442,
                                             "end": 443
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2087,7 +2087,7 @@ class x { #foo() {}}
                                             "start": 457,
                                             "end": 458
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2179,7 +2179,7 @@ class x { #foo() {}}
                                             "start": 476,
                                             "end": 477
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2230,7 +2230,7 @@ class x { #foo() {}}
                                             "start": 484,
                                             "end": 485
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2322,7 +2322,7 @@ class x { #foo() {}}
                                             "start": 503,
                                             "end": 504
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2373,7 +2373,7 @@ class x { #foo() {}}
                                             "start": 511,
                                             "end": 512
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2429,7 +2429,7 @@ class x { #foo() {}}
                                             "start": 525,
                                             "end": 526
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2526,7 +2526,7 @@ class x { #foo() {}}
                                             "start": 548,
                                             "end": 549
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2582,7 +2582,7 @@ class x { #foo() {}}
                                             "start": 560,
                                             "end": 561
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2643,7 +2643,7 @@ class x { #foo() {}}
                                             "start": 578,
                                             "end": 579
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2759,7 +2759,7 @@ class x { #foo() {}}
                                             "start": 601,
                                             "end": 605
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2834,7 +2834,7 @@ class x { #foo() {}}
                                             "start": 616,
                                             "end": 620
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2914,7 +2914,7 @@ class x { #foo() {}}
                                             "start": 637,
                                             "end": 641
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3006,7 +3006,7 @@ class x { #foo() {}}
                                             "start": 660,
                                             "end": 661
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3061,7 +3061,7 @@ class x { #foo() {}}
                                             "start": 673,
                                             "end": 674
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3153,7 +3153,7 @@ class x { #foo() {}}
                                             "start": 692,
                                             "end": 693
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3208,7 +3208,7 @@ class x { #foo() {}}
                                             "start": 707,
                                             "end": 708
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3300,7 +3300,7 @@ class x { #foo() {}}
                                             "start": 726,
                                             "end": 727
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3360,7 +3360,7 @@ class x { #foo() {}}
                                             "start": 742,
                                             "end": 743
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3452,7 +3452,7 @@ class x { #foo() {}}
                                             "start": 764,
                                             "end": 765
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3544,7 +3544,7 @@ class x { #foo() {}}
                                             "start": 786,
                                             "end": 787
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3636,7 +3636,7 @@ class x { #foo() {}}
                                             "start": 810,
                                             "end": 811
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3728,7 +3728,7 @@ class x { #foo() {}}
                                             "start": 834,
                                             "end": 835
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3820,7 +3820,7 @@ class x { #foo() {}}
                                             "start": 858,
                                             "end": 859
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3912,7 +3912,7 @@ class x { #foo() {}}
                                             "start": 883,
                                             "end": 884
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4004,7 +4004,7 @@ class x { #foo() {}}
                                             "start": 911,
                                             "end": 912
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4101,7 +4101,7 @@ class x { #foo() {}}
                                             "start": 939,
                                             "end": 940
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4198,7 +4198,7 @@ class x { #foo() {}}
                                             "start": 967,
                                             "end": 968
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4295,7 +4295,7 @@ class x { #foo() {}}
                                             "start": 995,
                                             "end": 996
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4392,7 +4392,7 @@ class x { #foo() {}}
                                             "start": 1021,
                                             "end": 1022
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4489,7 +4489,7 @@ class x { #foo() {}}
                                             "start": 1050,
                                             "end": 1051
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4586,7 +4586,7 @@ class x { #foo() {}}
                                             "start": 1082,
                                             "end": 1083
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4702,7 +4702,7 @@ class x { #foo() {}}
                                             "start": 1110,
                                             "end": 1115
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4818,7 +4818,7 @@ class x { #foo() {}}
                                             "start": 1142,
                                             "end": 1147
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4934,7 +4934,7 @@ class x { #foo() {}}
                                             "start": 1174,
                                             "end": 1179
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5050,7 +5050,7 @@ class x { #foo() {}}
                                             "start": 1204,
                                             "end": 1209
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5166,7 +5166,7 @@ class x { #foo() {}}
                                             "start": 1237,
                                             "end": 1242
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5282,7 +5282,7 @@ class x { #foo() {}}
                                             "start": 1273,
                                             "end": 1278
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5379,7 +5379,7 @@ class x { #foo() {}}
                                             "start": 1307,
                                             "end": 1308
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5476,7 +5476,7 @@ class x { #foo() {}}
                                             "start": 1337,
                                             "end": 1338
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5573,7 +5573,7 @@ class x { #foo() {}}
                                             "start": 1367,
                                             "end": 1368
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5670,7 +5670,7 @@ class x { #foo() {}}
                                             "start": 1395,
                                             "end": 1396
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5767,7 +5767,7 @@ class x { #foo() {}}
                                             "start": 1423,
                                             "end": 1424
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5864,7 +5864,7 @@ class x { #foo() {}}
                                             "start": 1454,
                                             "end": 1455
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5961,7 +5961,7 @@ class x { #foo() {}}
                                             "start": 1488,
                                             "end": 1489
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6058,7 +6058,7 @@ class x { #foo() {}}
                                             "start": 1513,
                                             "end": 1514
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6155,7 +6155,7 @@ class x { #foo() {}}
                                             "start": 1538,
                                             "end": 1539
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6252,7 +6252,7 @@ class x { #foo() {}}
                                             "start": 1563,
                                             "end": 1564
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6349,7 +6349,7 @@ class x { #foo() {}}
                                             "start": 1586,
                                             "end": 1587
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6446,7 +6446,7 @@ class x { #foo() {}}
                                             "start": 1609,
                                             "end": 1610
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6543,7 +6543,7 @@ class x { #foo() {}}
                                             "start": 1635,
                                             "end": 1636
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6640,7 +6640,7 @@ class x { #foo() {}}
                                             "start": 1664,
                                             "end": 1665
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6742,7 +6742,7 @@ class x { #foo() {}}
                                             "start": 1695,
                                             "end": 1696
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6844,7 +6844,7 @@ class x { #foo() {}}
                                             "start": 1726,
                                             "end": 1727
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -6946,7 +6946,7 @@ class x { #foo() {}}
                                             "start": 1757,
                                             "end": 1758
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7048,7 +7048,7 @@ class x { #foo() {}}
                                             "start": 1786,
                                             "end": 1787
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7150,7 +7150,7 @@ class x { #foo() {}}
                                             "start": 1815,
                                             "end": 1816
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7252,7 +7252,7 @@ class x { #foo() {}}
                                             "start": 1847,
                                             "end": 1848
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7354,7 +7354,7 @@ class x { #foo() {}}
                                             "start": 1882,
                                             "end": 1883
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7472,7 +7472,7 @@ class x { #foo() {}}
                                             "start": 1906,
                                             "end": 1907
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7595,7 +7595,7 @@ class x { #foo() {}}
                                             "start": 1934,
                                             "end": 1935
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7737,7 +7737,7 @@ class x { #foo() {}}
                                             "start": 1962,
                                             "end": 1966
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7860,7 +7860,7 @@ class x { #foo() {}}
                                             "start": 1990,
                                             "end": 1991
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -7983,7 +7983,7 @@ class x { #foo() {}}
                                             "start": 2020,
                                             "end": 2021
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -8111,7 +8111,7 @@ class x { #foo() {}}
                                             "start": 2051,
                                             "end": 2052
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -8236,7 +8236,7 @@ class x { #foo() {}}
                                             "start": 2079,
                                             "end": 2080
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -8366,7 +8366,7 @@ class x { #foo() {}}
                                             "start": 2111,
                                             "end": 2112
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -8515,7 +8515,7 @@ class x { #foo() {}}
                                             "start": 2143,
                                             "end": 2147
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -8645,7 +8645,7 @@ class x { #foo() {}}
                                             "start": 2175,
                                             "end": 2176
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -8775,7 +8775,7 @@ class x { #foo() {}}
                                             "start": 2209,
                                             "end": 2210
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -8910,7 +8910,7 @@ class x { #foo() {}}
                                             "start": 2244,
                                             "end": 2245
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9029,7 +9029,7 @@ class x { #foo() {}}
                                             "start": 2267,
                                             "end": 2268
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9153,7 +9153,7 @@ class x { #foo() {}}
                                             "start": 2294,
                                             "end": 2295
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9296,7 +9296,7 @@ class x { #foo() {}}
                                             "start": 2321,
                                             "end": 2325
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9420,7 +9420,7 @@ class x { #foo() {}}
                                             "start": 2348,
                                             "end": 2349
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9544,7 +9544,7 @@ class x { #foo() {}}
                                             "start": 2377,
                                             "end": 2378
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9673,7 +9673,7 @@ class x { #foo() {}}
                                             "start": 2407,
                                             "end": 2408
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9799,7 +9799,7 @@ class x { #foo() {}}
                                             "start": 2434,
                                             "end": 2435
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -9930,7 +9930,7 @@ class x { #foo() {}}
                                             "start": 2465,
                                             "end": 2466
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -10080,7 +10080,7 @@ class x { #foo() {}}
                                             "start": 2496,
                                             "end": 2500
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -10211,7 +10211,7 @@ class x { #foo() {}}
                                             "start": 2527,
                                             "end": 2528
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -10342,7 +10342,7 @@ class x { #foo() {}}
                                             "start": 2560,
                                             "end": 2561
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -10478,7 +10478,7 @@ class x { #foo() {}}
                                             "start": 2594,
                                             "end": 2595
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

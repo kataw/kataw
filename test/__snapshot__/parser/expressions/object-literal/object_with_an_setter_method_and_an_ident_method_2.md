@@ -66,7 +66,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "start": 12,
                                                 "end": 13
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -144,7 +144,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "start": 27,
                                                 "end": 29
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

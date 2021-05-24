@@ -232,7 +232,7 @@ function targetKey() {
                                                     "start": 87,
                                                     "end": 88
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {
@@ -482,7 +482,7 @@ function targetKey() {
                                                     "start": 210,
                                                     "end": 212
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {

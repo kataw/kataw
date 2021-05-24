@@ -443,7 +443,7 @@ a});
                                             "start": 116,
                                             "end": 117
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -587,7 +587,7 @@ a});
                                             "start": 151,
                                             "end": 152
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -732,7 +732,7 @@ a});
                                             "start": 189,
                                             "end": 190
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1053,7 +1053,7 @@ a});
                                             "start": 270,
                                             "end": 271
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1190,7 +1190,7 @@ a});
                                             "start": 301,
                                             "end": 302
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1328,7 +1328,7 @@ a});
                                             "start": 335,
                                             "end": 336
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1682,7 +1682,7 @@ a});
                                             "start": 439,
                                             "end": 440
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1832,7 +1832,7 @@ a});
                                             "start": 478,
                                             "end": 479
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -1983,7 +1983,7 @@ a});
                                             "start": 520,
                                             "end": 521
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2322,7 +2322,7 @@ a});
                                             "start": 613,
                                             "end": 614
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2465,7 +2465,7 @@ a});
                                             "start": 648,
                                             "end": 649
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2609,7 +2609,7 @@ a});
                                             "start": 686,
                                             "end": 687
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -3613,7 +3613,7 @@ a});
                                             "start": 1044,
                                             "end": 1045
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -4372,7 +4372,7 @@ a});
                                             "start": 1339,
                                             "end": 1340
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

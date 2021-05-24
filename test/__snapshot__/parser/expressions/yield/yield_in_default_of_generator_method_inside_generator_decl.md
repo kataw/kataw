@@ -125,7 +125,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                         "start": 21,
                                                         "end": 29
                                                     },
-                                                    "type": null,
+                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 216,
                                                         "functionStatementList": {

@@ -175,7 +175,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                     "start": 71,
                                                                                     "end": 72
                                                                                 },
-                                                                                "type": null,
+                                                                                "returnType": null,
                                                                                 "contents": {
                                                                                     "kind": 216,
                                                                                     "functionStatementList": {

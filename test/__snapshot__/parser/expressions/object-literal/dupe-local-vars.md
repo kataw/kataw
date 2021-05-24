@@ -75,7 +75,7 @@ o = {f(){ function x(){} var x = y; }};
                                         "start": 7,
                                         "end": 8
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -240,7 +240,7 @@ o = {f(){ function x(){} var x = y; }};
                                         "start": 36,
                                         "end": 37
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -405,7 +405,7 @@ o = {f(){ function x(){} var x = y; }};
                                         "start": 65,
                                         "end": 66
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -577,7 +577,7 @@ o = {f(){ function x(){} var x = y; }};
                                         "start": 100,
                                         "end": 101
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -751,7 +751,7 @@ o = {f(){ function x(){} var x = y; }};
                                         "start": 137,
                                         "end": 138
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -932,7 +932,7 @@ o = {f(){ function x(){} var x = y; }};
                                         "start": 180,
                                         "end": 181
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1113,7 +1113,7 @@ o = {f(){ function x(){} var x = y; }};
                                         "start": 223,
                                         "end": 224
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

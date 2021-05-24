@@ -88,7 +88,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                     "start": 32,
                                     "end": 33
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

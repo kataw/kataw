@@ -90,7 +90,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "start": 13,
                                                 "end": 15
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -168,7 +168,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "start": 29,
                                                 "end": 31
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

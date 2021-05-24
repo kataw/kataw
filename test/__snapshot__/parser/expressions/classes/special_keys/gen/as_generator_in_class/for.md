@@ -76,7 +76,7 @@ class x {* for(){}}
                                     "start": 15,
                                     "end": 16
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

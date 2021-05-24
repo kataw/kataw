@@ -95,7 +95,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                     "start": 16,
                                     "end": 18
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -155,7 +155,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                         "start": 38,
                                                                         "end": 39
                                                                     },
-                                                                    "type": null,
+                                                                    "returnType": null,
                                                                     "contents": {
                                                                         "kind": 216,
                                                                         "functionStatementList": {

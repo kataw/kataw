@@ -120,7 +120,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 7,
                                         "end": 12
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -264,7 +264,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 26,
                                         "end": 34
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -408,7 +408,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 48,
                                         "end": 56
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -552,7 +552,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 70,
                                         "end": 78
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -757,7 +757,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 92,
                                         "end": 111
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -926,7 +926,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 125,
                                         "end": 140
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1093,7 +1093,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 154,
                                         "end": 168
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1262,7 +1262,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 182,
                                         "end": 192
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1438,7 +1438,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 206,
                                         "end": 218
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1612,7 +1612,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 232,
                                         "end": 245
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1788,7 +1788,7 @@ o = {f([b, a], b=x) {}};
                                         "start": 259,
                                         "end": 271
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

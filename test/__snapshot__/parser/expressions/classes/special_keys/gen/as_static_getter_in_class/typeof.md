@@ -81,7 +81,7 @@ class x {static get typeof(){}}
                                     "start": 27,
                                     "end": 28
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

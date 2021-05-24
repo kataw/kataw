@@ -201,7 +201,7 @@ class I<X> {
                                     "start": 30,
                                     "end": 35
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -312,7 +312,7 @@ class I<X> {
                                     "start": 60,
                                     "end": 65
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

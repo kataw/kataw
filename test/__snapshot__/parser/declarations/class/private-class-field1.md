@@ -207,7 +207,7 @@ class Annotations {
                                     "start": 50,
                                     "end": 51
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -368,7 +368,7 @@ class Annotations {
                                     "start": 119,
                                     "end": 128
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -516,7 +516,7 @@ class Annotations {
                                     "start": 241,
                                     "end": 242
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -639,7 +639,7 @@ class Annotations {
                                                                                         "start": 308,
                                                                                         "end": 309
                                                                                     },
-                                                                                    "type": null,
+                                                                                    "returnType": null,
                                                                                     "contents": {
                                                                                         "kind": 216,
                                                                                         "functionStatementList": {
@@ -1409,7 +1409,7 @@ class Annotations {
                                     "start": 885,
                                     "end": 886
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -1418,7 +1418,7 @@ class Annotations {
                                         "end": 894
                                     },
                                     "flags": 0,
-                                    "start": 884,
+                                    "start": 886,
                                     "end": 894
                                 },
                                 "contents": {
@@ -1503,7 +1503,7 @@ class Annotations {
                                     "start": 929,
                                     "end": 930
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -1512,7 +1512,7 @@ class Annotations {
                                         "end": 938
                                     },
                                     "flags": 0,
-                                    "start": 928,
+                                    "start": 930,
                                     "end": 938
                                 },
                                 "contents": {
@@ -1597,7 +1597,7 @@ class Annotations {
                                     "start": 1000,
                                     "end": 1001
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -1606,7 +1606,7 @@ class Annotations {
                                         "end": 1009
                                     },
                                     "flags": 0,
-                                    "start": 999,
+                                    "start": 1001,
                                     "end": 1009
                                 },
                                 "contents": {
@@ -1693,7 +1693,7 @@ class Annotations {
                                     "start": 1052,
                                     "end": 1053
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -1702,7 +1702,7 @@ class Annotations {
                                         "end": 1061
                                     },
                                     "flags": 0,
-                                    "start": 1051,
+                                    "start": 1053,
                                     "end": 1061
                                 },
                                 "contents": {
@@ -1789,7 +1789,7 @@ class Annotations {
                                     "start": 1131,
                                     "end": 1132
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -1798,7 +1798,7 @@ class Annotations {
                                         "end": 1140
                                     },
                                     "flags": 0,
-                                    "start": 1130,
+                                    "start": 1132,
                                     "end": 1140
                                 },
                                 "contents": {
@@ -1883,7 +1883,7 @@ class Annotations {
                                     "start": 1175,
                                     "end": 1176
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
@@ -1892,7 +1892,7 @@ class Annotations {
                                         "end": 1184
                                     },
                                     "flags": 0,
-                                    "start": 1174,
+                                    "start": 1176,
                                     "end": 1184
                                 },
                                 "contents": {
@@ -1977,7 +1977,7 @@ class Annotations {
                                     "start": 1256,
                                     "end": 1257
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -2074,7 +2074,7 @@ class Annotations {
                                     "start": 1289,
                                     "end": 1290
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -2083,7 +2083,7 @@ class Annotations {
                                         "end": 1298
                                     },
                                     "flags": 0,
-                                    "start": 1288,
+                                    "start": 1290,
                                     "end": 1298
                                 },
                                 "contents": {
@@ -2170,7 +2170,7 @@ class Annotations {
                                     "start": 1341,
                                     "end": 1342
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
@@ -2179,7 +2179,7 @@ class Annotations {
                                         "end": 1350
                                     },
                                     "flags": 0,
-                                    "start": 1340,
+                                    "start": 1342,
                                     "end": 1350
                                 },
                                 "contents": {
@@ -2266,7 +2266,7 @@ class Annotations {
                                     "start": 1430,
                                     "end": 1431
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

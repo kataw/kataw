@@ -172,7 +172,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                             "start": 69,
                                                                             "end": 78
                                                                         },
-                                                                        "type": null,
+                                                                        "returnType": null,
                                                                         "contents": {
                                                                             "kind": 216,
                                                                             "functionStatementList": {

@@ -66,7 +66,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 15,
                                         "end": 16
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -178,7 +178,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 50,
                                         "end": 51
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -226,7 +226,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 65,
                                         "end": 66
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -320,7 +320,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 92,
                                         "end": 93
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -373,7 +373,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 108,
                                         "end": 109
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

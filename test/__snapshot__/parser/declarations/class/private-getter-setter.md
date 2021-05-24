@@ -107,7 +107,7 @@ class Foo {
                                     "start": 22,
                                     "end": 23
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -214,7 +214,7 @@ class Foo {
                                     "start": 54,
                                     "end": 58
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -316,7 +316,7 @@ class Foo {
                                     "start": 89,
                                     "end": 90
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -423,7 +423,7 @@ class Foo {
                                     "start": 123,
                                     "end": 127
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -540,7 +540,7 @@ class Foo {
                                     "start": 153,
                                     "end": 156
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -815,7 +815,7 @@ class Foo {
                                     "start": 227,
                                     "end": 230
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1098,7 +1098,7 @@ class Foo {
                                     "start": 308,
                                     "end": 311
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -110,7 +110,7 @@
                                             "start": 33,
                                             "end": 38
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

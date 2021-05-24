@@ -100,7 +100,7 @@ class x {static set import(x){}}
                                     "start": 27,
                                     "end": 29
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

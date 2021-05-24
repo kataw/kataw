@@ -86,7 +86,7 @@ x = {
                                         "start": 17,
                                         "end": 22
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

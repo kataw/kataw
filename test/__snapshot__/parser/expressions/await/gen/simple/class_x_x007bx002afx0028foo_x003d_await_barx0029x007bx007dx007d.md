@@ -120,7 +120,7 @@ class x {*f(foo = await bar){}}
                                     "start": 12,
                                     "end": 28
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

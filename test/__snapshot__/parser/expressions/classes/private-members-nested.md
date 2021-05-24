@@ -80,7 +80,7 @@
                                             "start": 16,
                                             "end": 17
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -139,7 +139,7 @@
                                                                                 "start": 32,
                                                                                 "end": 33
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {
@@ -266,7 +266,7 @@
                                             "start": 61,
                                             "end": 62
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -330,7 +330,7 @@
                                                                                 "start": 81,
                                                                                 "end": 82
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {
@@ -476,7 +476,7 @@
                                             "start": 110,
                                             "end": 114
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -531,7 +531,7 @@
                                             "start": 125,
                                             "end": 126
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -595,7 +595,7 @@
                                                                                 "start": 146,
                                                                                 "end": 147
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {
@@ -669,7 +669,7 @@
                                                                                 "start": 158,
                                                                                 "end": 162
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {
@@ -791,7 +791,7 @@
                                             "start": 186,
                                             "end": 187
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -874,7 +874,7 @@
                                                                                 "start": 207,
                                                                                 "end": 211
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {

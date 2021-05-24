@@ -3043,24 +3043,10 @@ function parseMethodDefinition(
     (nodeFlags & NodeFlags.Generator ? Context.InGeneratorContext : Context.None);
 
   const methodParameters = parsMethodParameters(parser, context, nodeFlags, scope);
-  let returnType = null;
 
-  if (
-    isDeclared
-      ? consume(
-          parser,
-          context | Context.AllowRegExp,
-          SyntaxKind.Colon,
-          DiagnosticCode.An_implementation_cannot_be_declared_in_ambient_contexts
-        )
-      : consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)
-  ) {
-    returnType = createTypeAnnotation(parseType(parser, context), pos, parser.curPos);
-  }
+  const returnType = parseTypeAnnotation(parser, context);
 
-  const contents =
-    parser.token === SyntaxKind.LeftBrace
-      ? parseFunctionBody(
+  const contents =  parseFunctionBody(
           parser,
           context | Context.NewTarget | Context.AllowReturn,
           scope,
@@ -3068,18 +3054,7 @@ function parseMethodDefinition(
           /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
           /* ignoreMissingOpenBrace */ false,
           /* firstRestricted */ null
-        )
-      : !isDeclared
-      ? parseFunctionBody(
-          parser,
-          context | Context.NewTarget | Context.AllowReturn,
-          scope,
-          /* isDecl */ isDeclared,
-          /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
-          /* ignoreMissingOpenBrace */ false,
-          /* firstRestricted */ null
-        )
-      : null;
+        );
 
   parser.destructible = DestructibleKind.NotDestructible;
 

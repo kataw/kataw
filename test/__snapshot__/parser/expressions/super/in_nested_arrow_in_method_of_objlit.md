@@ -63,7 +63,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                         "start": 8,
                                         "end": 9
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

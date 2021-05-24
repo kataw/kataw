@@ -76,7 +76,7 @@ class C { *method() { var f = function() { super(); } } }
                                     "start": 18,
                                     "end": 19
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

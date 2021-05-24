@@ -100,7 +100,7 @@ class x {static set continue(x){}}
                                     "start": 29,
                                     "end": 31
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

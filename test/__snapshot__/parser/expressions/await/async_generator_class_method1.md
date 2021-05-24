@@ -230,7 +230,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                     "start": 37,
                                                     "end": 66
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {

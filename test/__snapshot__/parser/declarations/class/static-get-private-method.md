@@ -77,7 +77,7 @@ class C { static get #aaa(){} }
                                     "start": 26,
                                     "end": 27
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

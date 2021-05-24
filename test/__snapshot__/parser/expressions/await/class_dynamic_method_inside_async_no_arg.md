@@ -140,7 +140,7 @@ async function f() {
                                                     "start": 35,
                                                     "end": 43
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {

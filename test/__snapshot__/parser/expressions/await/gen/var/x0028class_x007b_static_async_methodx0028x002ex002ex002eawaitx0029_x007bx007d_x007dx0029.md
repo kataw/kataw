@@ -195,7 +195,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                                 "start": 68,
                                                                                 "end": 77
                                                                             },
-                                                                            "type": null,
+                                                                            "returnType": null,
                                                                             "contents": {
                                                                                 "kind": 216,
                                                                                 "functionStatementList": {

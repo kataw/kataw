@@ -100,7 +100,7 @@ class x {static set with(x){}}
                                     "start": 25,
                                     "end": 27
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

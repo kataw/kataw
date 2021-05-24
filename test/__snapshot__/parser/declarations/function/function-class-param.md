@@ -105,7 +105,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                     "start": 30,
                                                     "end": 31
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {

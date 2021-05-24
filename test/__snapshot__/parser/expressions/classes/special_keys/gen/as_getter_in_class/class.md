@@ -76,7 +76,7 @@ class x {get class(){}}
                                     "start": 19,
                                     "end": 20
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

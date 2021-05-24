@@ -100,7 +100,7 @@ class x {static set do(x){}}
                                     "start": 23,
                                     "end": 25
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

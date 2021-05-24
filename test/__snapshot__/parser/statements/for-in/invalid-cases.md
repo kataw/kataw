@@ -1034,7 +1034,7 @@ for ({}.bar = x in obj);
                                                 "start": 267,
                                                 "end": 268
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -4244,7 +4244,7 @@ for ({}.bar = x in obj);
                                                             "start": 1128,
                                                             "end": 1132
                                                         },
-                                                        "type": null,
+                                                        "returnType": null,
                                                         "contents": {
                                                             "kind": 216,
                                                             "functionStatementList": {
@@ -4489,7 +4489,7 @@ for ({}.bar = x in obj);
                                                         "start": 1182,
                                                         "end": 1186
                                                     },
-                                                    "type": null,
+                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 216,
                                                         "functionStatementList": {

@@ -193,7 +193,7 @@
                                         "start": 17,
                                         "end": 58
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -440,7 +440,7 @@
                                         "start": 83,
                                         "end": 117
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -609,7 +609,7 @@
                                         "start": 142,
                                         "end": 168
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -745,7 +745,7 @@
                                         "start": 193,
                                         "end": 202
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -892,7 +892,7 @@
                                         "start": 227,
                                         "end": 234
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

@@ -92,7 +92,7 @@ class x extends y {
                                     "start": 34,
                                     "end": 35
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

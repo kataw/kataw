@@ -153,7 +153,7 @@ async function f(){
                                                                     "start": 49,
                                                                     "end": 50
                                                                 },
-                                                                "type": null,
+                                                                "returnType": null,
                                                                 "contents": {
                                                                     "kind": 216,
                                                                     "functionStatementList": {
@@ -210,7 +210,7 @@ async function f(){
                                                                     "start": 58,
                                                                     "end": 59
                                                                 },
-                                                                "type": null,
+                                                                "returnType": null,
                                                                 "contents": {
                                                                     "kind": 216,
                                                                     "functionStatementList": {

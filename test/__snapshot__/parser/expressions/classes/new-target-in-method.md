@@ -111,7 +111,7 @@ class A {a(x=new.target){}}
                                     "start": 11,
                                     "end": 24
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

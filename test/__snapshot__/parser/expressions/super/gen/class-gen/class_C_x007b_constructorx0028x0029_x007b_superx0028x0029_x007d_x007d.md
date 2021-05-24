@@ -76,7 +76,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                     "start": 18,
                                     "end": 19
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -136,7 +136,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                         "start": 44,
                                                                         "end": 45
                                                                     },
-                                                                    "type": null,
+                                                                    "returnType": null,
                                                                     "contents": {
                                                                         "kind": 216,
                                                                         "functionStatementList": {

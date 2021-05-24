@@ -75,7 +75,7 @@ x = { method(test) { } }
                                         "start": 13,
                                         "end": 14
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -164,7 +164,7 @@ x = { method(test) { } }
                                         "start": 32,
                                         "end": 33
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -253,7 +253,7 @@ x = { method(test) { } }
                                         "start": 51,
                                         "end": 52
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -363,7 +363,7 @@ x = { method(test) { } }
                                             "start": 73,
                                             "end": 78
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -429,7 +429,7 @@ x = { method(test) { } }
                                                     "start": 98,
                                                     "end": 99
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {
@@ -530,7 +530,7 @@ x = { method(test) { } }
                                             "start": 121,
                                             "end": 122
                                         },
-                                        "type": null,
+                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -642,7 +642,7 @@ x = { method(test) { } }
                                         "start": 142,
                                         "end": 147
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

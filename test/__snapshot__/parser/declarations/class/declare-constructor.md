@@ -83,7 +83,7 @@ class A {
                                     "start": 32,
                                     "end": 33
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

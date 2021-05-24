@@ -73,7 +73,7 @@ class X { ge\u0074 x() {} }
                                     "start": 21,
                                     "end": 22
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -115,7 +115,7 @@ class C extends Base { set static(v) {} }
                                     "start": 34,
                                     "end": 36
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

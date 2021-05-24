@@ -176,7 +176,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 45,
                                     "end": 46
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -285,7 +285,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 84,
                                     "end": 85
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -407,7 +407,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 124,
                                     "end": 125
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -529,7 +529,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 156,
                                     "end": 157
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -695,7 +695,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 188,
                                     "end": 200
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -823,7 +823,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "start": 214,
                                         "end": 228
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -917,7 +917,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 256,
                                     "end": 257
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1039,7 +1039,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 289,
                                     "end": 290
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1205,7 +1205,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 322,
                                     "end": 335
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1289,7 +1289,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "start": 349,
                                         "end": 350
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1455,7 +1455,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "start": 376,
                                         "end": 391
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1569,7 +1569,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 429,
                                     "end": 430
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1762,7 +1762,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 493,
                                     "end": 494
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1906,7 +1906,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 538,
                                     "end": 539
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -2050,7 +2050,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 584,
                                     "end": 585
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

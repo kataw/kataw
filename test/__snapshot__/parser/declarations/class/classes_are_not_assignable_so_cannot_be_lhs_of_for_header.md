@@ -95,7 +95,7 @@ for (class x { [a](){} } in c);
                                         "start": 19,
                                         "end": 20
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

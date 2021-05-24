@@ -130,7 +130,7 @@ class B extends A {
                                     "start": 45,
                                     "end": 46
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

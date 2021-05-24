@@ -95,7 +95,7 @@ class o {f([b, a], ...b) {}}
                                     "start": 11,
                                     "end": 13
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -402,7 +402,7 @@ class o {f([b, a], ...b) {}}
                                     "start": 78,
                                     "end": 80
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -633,7 +633,7 @@ class o {f([b, a], ...b) {}}
                                     "start": 105,
                                     "end": 117
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -807,7 +807,7 @@ class o {f([b, a], ...b) {}}
                                     "start": 134,
                                     "end": 147
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

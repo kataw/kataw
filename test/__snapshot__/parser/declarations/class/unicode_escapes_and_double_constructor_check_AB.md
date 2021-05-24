@@ -76,7 +76,7 @@ class x { \u0063onstructor(){}; constructor(){} }
                                     "start": 27,
                                     "end": 28
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -133,7 +133,7 @@ class x { \u0063onstructor(){}; constructor(){} }
                                     "start": 44,
                                     "end": 45
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

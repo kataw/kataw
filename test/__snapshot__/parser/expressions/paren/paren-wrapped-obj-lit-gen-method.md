@@ -87,7 +87,7 @@ x({*foo(){}});
                                                 "start": 10,
                                                 "end": 11
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -184,7 +184,7 @@ x({*foo(){}});
                                                 "start": 26,
                                                 "end": 27
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -281,7 +281,7 @@ x({*foo(){}});
                                                 "start": 42,
                                                 "end": 43
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -378,7 +378,7 @@ x({*foo(){}});
                                                 "start": 63,
                                                 "end": 64
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -426,7 +426,7 @@ x({*foo(){}});
                                                 "start": 72,
                                                 "end": 73
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -518,7 +518,7 @@ x({*foo(){}});
                                                 "start": 87,
                                                 "end": 88
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -571,7 +571,7 @@ x({*foo(){}});
                                                 "start": 102,
                                                 "end": 103
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -668,7 +668,7 @@ x({*foo(){}});
                                                 "start": 125,
                                                 "end": 126
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -771,7 +771,7 @@ x({*foo(){}});
                                                 "start": 148,
                                                 "end": 149
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -863,7 +863,7 @@ x({*foo(){}});
                                                 "start": 163,
                                                 "end": 164
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -916,7 +916,7 @@ x({*foo(){}});
                                                 "start": 173,
                                                 "end": 174
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -1013,7 +1013,7 @@ x({*foo(){}});
                                                 "start": 189,
                                                 "end": 190
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

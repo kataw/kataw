@@ -107,7 +107,7 @@ x={ foo(a = super.foo){ }}
                                         "start": 8,
                                         "end": 22
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

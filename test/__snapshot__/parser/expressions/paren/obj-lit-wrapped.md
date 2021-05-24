@@ -3621,7 +3621,7 @@
                                         "start": 806,
                                         "end": 807
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

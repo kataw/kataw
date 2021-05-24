@@ -76,7 +76,7 @@ class C { *method() { class C { set x(_) { super( } }
                                     "start": 18,
                                     "end": 19
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -160,7 +160,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                                         "start": 38,
                                                                         "end": 40
                                                                     },
-                                                                    "type": null,
+                                                                    "returnType": null,
                                                                     "contents": {
                                                                         "kind": 216,
                                                                         "functionStatementList": {

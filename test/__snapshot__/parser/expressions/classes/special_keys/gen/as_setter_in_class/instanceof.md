@@ -95,7 +95,7 @@ class x {set instanceof(x){}}
                                     "start": 24,
                                     "end": 26
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

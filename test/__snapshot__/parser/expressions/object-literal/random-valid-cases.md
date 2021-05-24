@@ -853,7 +853,7 @@ a = { y: x = 1 } = b;
                                         "start": 187,
                                         "end": 188
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1035,7 +1035,7 @@ a = { y: x = 1 } = b;
                                         "start": 222,
                                         "end": 227
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1110,7 +1110,7 @@ a = { y: x = 1 } = b;
                                         "start": 239,
                                         "end": 240
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1213,7 +1213,7 @@ a = { y: x = 1 } = b;
                                         "start": 259,
                                         "end": 260
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1266,7 +1266,7 @@ a = { y: x = 1 } = b;
                                         "start": 271,
                                         "end": 272
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -2081,7 +2081,7 @@ a = { y: x = 1 } = b;
                                                 "start": 455,
                                                 "end": 457
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -2285,7 +2285,7 @@ a = { y: x = 1 } = b;
                                                 "start": 500,
                                                 "end": 501
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -2338,7 +2338,7 @@ a = { y: x = 1 } = b;
                                                 "start": 510,
                                                 "end": 511
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -2612,7 +2612,7 @@ a = { y: x = 1 } = b;
                                                 "start": 576,
                                                 "end": 577
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -2709,7 +2709,7 @@ a = { y: x = 1 } = b;
                                                 "start": 593,
                                                 "end": 594
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -3178,7 +3178,7 @@ a = { y: x = 1 } = b;
                                         "start": 720,
                                         "end": 722
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -3398,7 +3398,7 @@ a = { y: x = 1 } = b;
                                                     "start": 773,
                                                     "end": 775
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {
@@ -3488,7 +3488,7 @@ a = { y: x = 1 } = b;
                                         "start": 790,
                                         "end": 791
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -3568,7 +3568,7 @@ a = { y: x = 1 } = b;
                                         "start": 809,
                                         "end": 810
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -3648,7 +3648,7 @@ a = { y: x = 1 } = b;
                                         "start": 827,
                                         "end": 828
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -3828,7 +3828,7 @@ a = { y: x = 1 } = b;
                                         "start": 870,
                                         "end": 871
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -3922,7 +3922,7 @@ a = { y: x = 1 } = b;
                                         "start": 891,
                                         "end": 892
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -4035,7 +4035,7 @@ a = { y: x = 1 } = b;
                                         "start": 911,
                                         "end": 913
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

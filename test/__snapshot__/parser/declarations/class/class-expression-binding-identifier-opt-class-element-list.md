@@ -95,7 +95,7 @@ var A = class B {
                                                     "start": 27,
                                                     "end": 28
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {
@@ -151,7 +151,7 @@ var A = class B {
                                                     "start": 48,
                                                     "end": 49
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {

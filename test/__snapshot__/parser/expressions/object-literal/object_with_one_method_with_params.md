@@ -115,7 +115,7 @@ wrap({foo(a,b,c){}});
                                                 "start": 10,
                                                 "end": 16
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

@@ -65,7 +65,7 @@ x({async foo(){}, async bar(){}});
                                                 "start": 13,
                                                 "end": 14
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -118,7 +118,7 @@ x({async foo(){}, async bar(){}});
                                                 "start": 28,
                                                 "end": 29
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

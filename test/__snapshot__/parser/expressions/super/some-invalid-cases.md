@@ -500,7 +500,7 @@ let x = { foo(){ super(); } };
                                     "start": 152,
                                     "end": 157
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -773,7 +773,7 @@ let x = { foo(){ super(); } };
                                     "start": 217,
                                     "end": 218
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1002,7 +1002,7 @@ let x = { foo(){ super(); } };
                                     "start": 277,
                                     "end": 278
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1183,7 +1183,7 @@ let x = { foo(){ super(); } };
                                     "start": 327,
                                     "end": 328
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1389,7 +1389,7 @@ let x = { foo(){ super(); } };
                                     "start": 389,
                                     "end": 390
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1591,7 +1591,7 @@ let x = { foo(){ super(); } };
                                     "start": 456,
                                     "end": 457
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1651,7 +1651,7 @@ let x = { foo(){ super(); } };
                                                                         "start": 473,
                                                                         "end": 478
                                                                     },
-                                                                    "type": null,
+                                                                    "returnType": null,
                                                                     "contents": {
                                                                         "kind": 216,
                                                                         "functionStatementList": {
@@ -2204,7 +2204,7 @@ let x = { foo(){ super(); } };
                                         "start": 606,
                                         "end": 607
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -2602,7 +2602,7 @@ let x = { foo(){ super(); } };
                                                 "start": 714,
                                                 "end": 715
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

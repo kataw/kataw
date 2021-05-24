@@ -95,7 +95,7 @@ class x {set private(x){}}
                                     "start": 21,
                                     "end": 23
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

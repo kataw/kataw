@@ -98,7 +98,7 @@ class A {set 9(x){}}
                                     "start": 15,
                                     "end": 17
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

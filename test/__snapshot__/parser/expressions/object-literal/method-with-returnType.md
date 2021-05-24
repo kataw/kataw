@@ -76,7 +76,7 @@ a={get fooProp():number{}}
                                         "start": 15,
                                         "end": 16
                                     },
-                                    "type": {
+                                    "returnType": {
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
@@ -85,7 +85,7 @@ a={get fooProp():number{}}
                                             "end": 23
                                         },
                                         "flags": 0,
-                                        "start": 14,
+                                        "start": 16,
                                         "end": 23
                                     },
                                     "contents": {

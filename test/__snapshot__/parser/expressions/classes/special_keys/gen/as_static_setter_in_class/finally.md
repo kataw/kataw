@@ -100,7 +100,7 @@ class x {static set finally(x){}}
                                     "start": 28,
                                     "end": 30
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -110,7 +110,7 @@ class C {
                                     "start": 31,
                                     "end": 32
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -165,7 +165,7 @@ class C {
                                     "start": 51,
                                     "end": 52
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -240,7 +240,7 @@ class C {
                                     "start": 70,
                                     "end": 74
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

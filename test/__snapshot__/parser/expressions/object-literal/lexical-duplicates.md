@@ -159,7 +159,7 @@
                                         "start": 4,
                                         "end": 14
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -320,7 +320,7 @@
                                         "start": 25,
                                         "end": 35
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -481,7 +481,7 @@
                                         "start": 46,
                                         "end": 56
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -660,7 +660,7 @@
                                         "start": 67,
                                         "end": 80
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -821,7 +821,7 @@
                                         "start": 91,
                                         "end": 101
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1005,7 +1005,7 @@
                                         "start": 112,
                                         "end": 124
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1173,7 +1173,7 @@
                                         "start": 135,
                                         "end": 147
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1339,7 +1339,7 @@
                                         "start": 158,
                                         "end": 171
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1420,7 +1420,7 @@
                                         "start": 182,
                                         "end": 183
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1577,7 +1577,7 @@
                                         "start": 208,
                                         "end": 209
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1734,7 +1734,7 @@
                                         "start": 234,
                                         "end": 235
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1898,7 +1898,7 @@
                                         "start": 266,
                                         "end": 267
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -2127,7 +2127,7 @@
                                         "start": 298,
                                         "end": 308
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

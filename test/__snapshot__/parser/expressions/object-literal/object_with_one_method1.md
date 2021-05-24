@@ -69,7 +69,7 @@ wrap({0o4432(){}});
                                                 "start": 8,
                                                 "end": 9
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -161,7 +161,7 @@ wrap({0o4432(){}});
                                                 "start": 24,
                                                 "end": 25
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -253,7 +253,7 @@ wrap({0o4432(){}});
                                                 "start": 47,
                                                 "end": 48
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -345,7 +345,7 @@ wrap({0o4432(){}});
                                                 "start": 69,
                                                 "end": 70
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -437,7 +437,7 @@ wrap({0o4432(){}});
                                                 "start": 90,
                                                 "end": 91
                                             },
-                                            "type": null,
+                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

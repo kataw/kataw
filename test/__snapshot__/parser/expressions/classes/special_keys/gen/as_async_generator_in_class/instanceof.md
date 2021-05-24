@@ -81,7 +81,7 @@ class x {async * instanceof(){}}
                                     "start": 28,
                                     "end": 29
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

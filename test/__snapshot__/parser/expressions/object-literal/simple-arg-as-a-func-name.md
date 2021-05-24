@@ -82,7 +82,7 @@ o = {f(x) { function x() {} }}
                                         "start": 7,
                                         "end": 9
                                     },
-                                    "type": null,
+                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

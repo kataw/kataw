@@ -76,7 +76,7 @@ class x {static finally(){}}
                                     "start": 24,
                                     "end": 25
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

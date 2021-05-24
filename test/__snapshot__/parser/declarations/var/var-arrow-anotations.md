@@ -2252,7 +2252,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 755,
                                     "end": 777
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

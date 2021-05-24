@@ -405,7 +405,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 112,
                                     "end": 126
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -529,7 +529,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 159,
                                     "end": 173
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 138477615,
@@ -538,7 +538,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 179
                                     },
                                     "flags": 0,
-                                    "start": 158,
+                                    "start": 173,
                                     "end": 179
                                 },
                                 "contents": {
@@ -634,7 +634,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 212,
                                     "end": 213
                                 },
-                                "type": {
+                                "returnType": {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
@@ -643,7 +643,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 221
                                     },
                                     "flags": 0,
-                                    "start": 211,
+                                    "start": 213,
                                     "end": 221
                                 },
                                 "contents": {
@@ -757,7 +757,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 251,
                                     "end": 252
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -1122,7 +1122,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 387,
                                     "end": 409
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -124,7 +124,7 @@ async function foo() {
                                                     "start": 50,
                                                     "end": 51
                                                 },
-                                                "type": null,
+                                                "returnType": null,
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {

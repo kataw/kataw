@@ -247,7 +247,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                     "start": 69,
                                                                                                     "end": 85
                                                                                                 },
-                                                                                                "type": null,
+                                                                                                "returnType": null,
                                                                                                 "contents": {
                                                                                                     "kind": 216,
                                                                                                     "functionStatementList": {

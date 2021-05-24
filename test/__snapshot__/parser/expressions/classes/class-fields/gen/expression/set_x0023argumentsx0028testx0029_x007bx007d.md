@@ -114,7 +114,7 @@ class C extends Base { set #arguments(test) {} }
                                     "start": 38,
                                     "end": 43
                                 },
-                                "type": null,
+                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
