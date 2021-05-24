@@ -3082,6 +3082,7 @@ function parseMethodDefinition(
       : null;
 
   parser.destructible = DestructibleKind.NotDestructible;
+
   return createMethodDefinition(
     key,
     typeParameters,
