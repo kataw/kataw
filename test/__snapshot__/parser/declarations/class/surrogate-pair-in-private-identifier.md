@@ -67,56 +67,72 @@ class C { #@{x29e3d}@ }
                             "flags": 32,
                             "start": 9,
                             "end": 11
+                        },
+                        {
+                            "kind": 280,
+                            "decorators": {
+                                "kind": 207,
+                                "decoratorList": [],
+                                "flags": 32,
+                                "start": 12,
+                                "end": 12
+                            },
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 12,
+                                "end": 12
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 11,
+                            "end": 12
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 11
+                    "end": 12
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 11
+                "end": 12
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 12
         },
         {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": {
-                "kind": 207,
-                "decoratorList": [],
-                "flags": 32,
-                "start": 12,
-                "end": 12
-            },
-            "classKeyword": null,
-            "name": {
-                "kind": 134299649,
-                "text": "x29e3d",
-                "rawText": "x29e3d",
-                "flags": 96,
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x29e3d",
+                            "rawText": "x29e3d",
+                            "flags": 96,
+                            "start": 13,
+                            "end": 19
+                        },
+                        "flags": 16,
+                        "start": 13,
+                        "end": 19
+                    }
+                ],
+                "flags": 16,
                 "start": 13,
                 "end": 19
             },
-            "typeParameters": null,
-            "tail": {
-                "kind": 277,
-                "classHeritage": null,
-                "body": {
-                    "kind": 262,
-                    "elements": [],
-                    "flags": 32,
-                    "start": 19,
-                    "end": 19
-                },
-                "flags": 19,
-                "start": 32,
-                "end": 20
-            },
             "flags": 16,
-            "start": 11,
+            "start": 12,
             "end": 20
         },
         {
@@ -176,8 +192,7 @@ class C { #@{x29e3d}@ }
 
 ```javascript
 ✖ Invalid character - start: 10, end: 11
-✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 12
-✖ Missing an opening brace - '{ - start: 19, end: 20
+✖ Binding identifier expected - start: 12, end: 13
 ✖ Binding identifier expected - start: 23, end: 23
 
 ```

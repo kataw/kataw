@@ -49,70 +49,44 @@ class A {
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [],
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": {
+                                "kind": 82165,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 24
+                            },
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 24,
+                                "end": 28
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 24,
+                            "end": 28
+                        }
+                    ],
                     "flags": 32,
                     "start": 9,
-                    "end": 9
-                },
-                "flags": 7,
-                "start": 32,
-                "end": 9
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": {
-                "kind": 207,
-                "decoratorList": [
-                    {
-                        "kind": 34611453,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "dec",
-                            "rawText": "dec",
-                            "flags": 96,
-                            "start": 13,
-                            "end": 16
-                        },
-                        "flags": 0,
-                        "start": 13,
-                        "end": 16
-                    }
-                ],
-                "flags": 32,
-                "start": 13,
-                "end": 16
-            },
-            "classKeyword": null,
-            "name": {
-                "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 24,
-                "end": 28
-            },
-            "typeParameters": null,
-            "tail": {
-                "kind": 277,
-                "classHeritage": null,
-                "body": {
-                    "kind": 262,
-                    "elements": [],
-                    "flags": 32,
-                    "start": 28,
                     "end": 28
                 },
-                "flags": 28,
+                "flags": 7,
                 "start": 32,
                 "end": 30
             },
             "flags": 16,
-            "start": 9,
+            "start": 0,
             "end": 30
         }
     ],
@@ -129,13 +103,14 @@ class A {
 
 ```javascript
 
+class A {
+  declare foo;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 13
-✖ Missing an opening brace - '{ - start: 28, end: 30
-
+✔ No errors
 ```
 

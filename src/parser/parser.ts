@@ -7969,7 +7969,7 @@ export function parseClassBody(
   let hasConstructor = false;
   const elements = [];
   let classElement = null;
-  while (parser.token & 0b01000100110000000100000000000000) {
+  while (parser.token & 0b01000100110000000100000000000000 || parser.token === SyntaxKind.Decorator) {
     classElement = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
     if (classElement.flags & NodeFlags.Constructor) {
       if (hasConstructor) {
