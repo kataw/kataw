@@ -69,7 +69,7 @@ var a : A.B
                                         "end": 11
                                     },
                                     "flags": 0,
-                                    "start": 10,
+                                    "start": 7,
                                     "end": 11
                                 },
                                 "typeParameters": null,

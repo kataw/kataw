@@ -1,13 +1,17 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { TypeNode } from '.';
 
+/**
+ * TupleType
+ */
+
 export interface TupleType extends SyntaxNode {
-  readonly types: TypeNode[];
+  readonly elementTypes: TypeNode[];
   readonly trailingComma: boolean;
 }
 
 export function createTupleType(
-  types: TypeNode[],
+  elementTypes: TypeNode[],
   trailingComma: boolean,
   flags: NodeFlags,
   start: number,
@@ -15,7 +19,7 @@ export function createTupleType(
 ): TupleType {
   return {
     kind: SyntaxKind.TupleType,
-    types,
+    elementTypes,
     trailingComma,
     flags,
     start,

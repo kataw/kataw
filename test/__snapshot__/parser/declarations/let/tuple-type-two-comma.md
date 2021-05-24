@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-let tuple1: [number] = [1];
+let x: [y,,] = z;
 `````
 
 ## Options
@@ -38,11 +38,11 @@ let tuple1: [number] = [1];
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "tuple1",
-                            "rawText": "tuple1",
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
-                            "end": 10
+                            "end": 5
                         },
                         "optionalToken": null,
                         "type": {
@@ -51,64 +51,65 @@ let tuple1: [number] = [1];
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 134234345,
-                                        "flags": 64,
-                                        "start": 13,
-                                        "end": 19
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 8,
+                                            "end": 9
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 8,
+                                        "end": 9
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "start": 11,
-                                "end": 20
+                                "start": 6,
+                                "end": 10
                             },
                             "flags": 0,
-                            "start": 10,
-                            "end": 20
+                            "start": 5,
+                            "end": 10
                         },
-                        "initializer": {
-                            "kind": 119,
-                            "elementList": {
-                                "kind": 270,
-                                "elements": [
-                                    {
-                                        "kind": 201392130,
-                                        "text": 1,
-                                        "rawText": "1",
-                                        "flags": 96,
-                                        "start": 24,
-                                        "end": 25
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 24,
-                                "end": 25
-                            },
-                            "flags": 32,
-                            "start": 22,
-                            "end": 26
-                        },
+                        "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 26
+                        "end": 10
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 26
+                "end": 11
             },
             "flags": 33554448,
             "start": 0,
-            "end": 27
+            "end": 11
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "z",
+                "rawText": "z",
+                "flags": 96,
+                "start": 14,
+                "end": 16
+            },
+            "flags": 16,
+            "start": 14,
+            "end": 17
         }
     ],
     "isModule": false,
-    "source": "let tuple1: [number] = [1];",
+    "source": "let x: [y,,] = z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 27
+    "end": 17
 }
 ```
 
@@ -116,12 +117,13 @@ let tuple1: [number] = [1];
 
 ```javascript
 
-let tuple1 = [1];
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Trailing comma not allowed. - start: 11, end: 12
+✖ Declaration or statement expected - start: 12, end: 14
+
 ```
 

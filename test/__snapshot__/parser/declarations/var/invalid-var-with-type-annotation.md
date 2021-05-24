@@ -161,7 +161,7 @@ var f: >x:int) => string;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 6, end: 8
+✖ Type expected - start: 6, end: 8
 ✖ ',' expected - start: 6, end: 8
 ✖ Expected a `;` - start: 9, end: 10
 ✖ Expected a `;` - start: 13, end: 14

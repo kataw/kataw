@@ -134,6 +134,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected to find a '>' to match the '<' token here. - start: 2, end: 10
 ✖ Expected a `;` - start: 1, end: 2
 ✖ Expected a `;` - start: 2, end: 10
 ✖ Expected a `;` - start: 16, end: 19

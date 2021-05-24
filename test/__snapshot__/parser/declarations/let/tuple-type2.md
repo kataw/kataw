@@ -49,7 +49,7 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                             "kind": 139,
                             "type": {
                                 "kind": 147,
-                                "types": [
+                                "elementTypes": [
                                     {
                                         "kind": 134234345,
                                         "flags": 64,

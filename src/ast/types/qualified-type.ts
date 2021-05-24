@@ -1,14 +1,15 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { Identifier } from '../expressions/identifier-expr';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 
 export interface QualifiedType extends SyntaxNode {
-  readonly qualification: Identifier | QualifiedType;
-  readonly id: Identifier;
+  readonly qualification: Identifier | DummyIdentifier | QualifiedType;
+  readonly id: Identifier | DummyIdentifier;
 }
 
 export function createQualifiedType(
-  qualification: Identifier | QualifiedType,
-  id: Identifier,
+  qualification: Identifier | DummyIdentifier | QualifiedType,
+  id: Identifier | DummyIdentifier,
   start: number,
   end: number
 ): QualifiedType {

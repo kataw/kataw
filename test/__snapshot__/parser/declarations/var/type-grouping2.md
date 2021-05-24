@@ -161,7 +161,7 @@ var a: (() => number) | () => string
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 9, end: 10
+✖ Type expected - start: 9, end: 10
 
 ```
 

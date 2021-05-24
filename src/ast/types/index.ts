@@ -8,7 +8,7 @@ import { FunctionTypeParameter } from './function-type-parameter';
 import { NumberType } from './number-type';
 import { StringType } from './string-type';
 import { ObjectType } from './object-type';
-import { GenericType } from './generic-type';
+import { TypeReference } from './type-reference';
 import { NullableType } from './nullable-type';
 import { ObjectTypeCallProperty } from './object-type-call-property';
 import { ObjectTypeIndexer } from './object-type-indexer';
@@ -23,17 +23,19 @@ import { BooleanType } from './boolean-type';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeParameter } from './type-parameter';
 import { IndexedAccessType } from './indexed-access-type';
+import { SubtractionType } from './subtraction-type';
 
 /**
  * The set of all syntax items which are types.
  */
 export type TypeNode =
   | TypeofType
-  | GenericType
+  | TypeReference
   | NullableType
   | IndexedAccessType
   | TypeParameterDeclaration
   | TypeParameter
+  | SubtractionType
   | ObjectTypeCallProperty
   | ObjectTypeIndexer
   | ObjectTypeInternalSlot

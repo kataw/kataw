@@ -71,7 +71,7 @@ var a : A.B.C
                                             "end": 11
                                         },
                                         "flags": 0,
-                                        "start": 10,
+                                        "start": 7,
                                         "end": 11
                                     },
                                     "id": {
@@ -83,7 +83,7 @@ var a : A.B.C
                                         "end": 13
                                     },
                                     "flags": 0,
-                                    "start": 12,
+                                    "start": 7,
                                     "end": 13
                                 },
                                 "typeParameters": null,

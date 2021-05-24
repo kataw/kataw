@@ -194,6 +194,9 @@
   "Expected '=>'": 196,
   "Missing an opening brace - '{": 197,
   "Missing an opening parentheses - '(": 198,
-  "Missing an opening bracket - '[": 199
+  "Missing an opening bracket - '[": 199,
+  "Expected to find a '>' to match the '<' token here.": 200,
+  "Type expected": 201,
+  "Expected a valid subtraction operand": 202
 }
 

@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-var a: -0x7B
+let x: [,] = y;
 `````
 
 ## Options
@@ -24,23 +24,22 @@ var a: -0x7B
     "directives": [],
     "statements": [
         {
-            "kind": 155,
-            "declareKeyword": null,
-            "varKeyword": {
-                "kind": 37757002,
-                "flags": 0,
+            "kind": 162,
+            "lexicalKeyword": {
+                "kind": 41951307,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
-            "declarationList": {
-                "kind": 156,
-                "declarations": [
+            "binding": {
+                "kind": 151,
+                "bindingList": [
                     {
-                        "kind": 157,
+                        "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -49,43 +48,52 @@ var a: -0x7B
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 271,
-                                "subtractionToken": {
-                                    "kind": 35379,
-                                    "flags": 0,
-                                    "start": 6,
-                                    "end": 8
-                                },
-                                "value": 123,
-                                "flags": 64,
+                                "kind": 147,
+                                "elementTypes": [],
+                                "trailingComma": false,
+                                "flags": 0,
                                 "start": 6,
-                                "end": 12
+                                "end": 8
                             },
                             "flags": 0,
                             "start": 5,
-                            "end": 12
+                            "end": 8
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 12
+                        "end": 8
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 12
+                "end": 9
+            },
+            "flags": 33554448,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 12,
+                "end": 14
             },
             "flags": 16,
-            "start": 0,
-            "end": 12
+            "start": 12,
+            "end": 15
         }
     ],
     "isModule": false,
-    "source": "var a: -0x7B",
+    "source": "let x: [,] = y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 12
+    "end": 15
 }
 ```
 
@@ -93,12 +101,13 @@ var a: -0x7B
 
 ```javascript
 
-var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Trailing comma not allowed. - start: 9, end: 10
+✖ Declaration or statement expected - start: 10, end: 12
+
 ```
 

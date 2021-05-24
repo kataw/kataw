@@ -486,12 +486,12 @@ type T4 = { foo: number, bar: string, ... };
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 15, end: 17
-✖ Identifier expected - start: 48, end: 49
-✖ Identifier expected - start: 54, end: 56
-✖ Identifier expected - start: 61, end: 63
-✖ Identifier expected - start: 94, end: 96
-✖ Identifier expected - start: 139, end: 141
+✖ Type expected - start: 15, end: 17
+✖ Type expected - start: 48, end: 49
+✖ Type expected - start: 54, end: 56
+✖ Type expected - start: 61, end: 63
+✖ Type expected - start: 94, end: 96
+✖ Type expected - start: 139, end: 141
 
 ```
 

@@ -2345,8 +2345,8 @@ class Array { concat(items:number | string) {}; }
 ### Diagnostics
 
 ```javascript
+✖ Expected to find a '>' to match the '<' token here. - start: 49, end: 51
 ✖ ',' expected - start: 49, end: 51
-✖ Expected a `;` - start: 49, end: 51
 ✖ Expression expected - start: 51, end: 52
 
 ```

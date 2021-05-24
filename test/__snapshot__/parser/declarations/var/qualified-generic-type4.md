@@ -77,7 +77,7 @@ var a : typeof A.B<T>
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "start": 17,
+                                        "start": 14,
                                         "end": 18
                                     },
                                     "typeParameters": {

@@ -477,7 +477,7 @@ var a: (?number)[];
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 27, end: 28
+✖ Type expected - start: 27, end: 28
 
 ```
 

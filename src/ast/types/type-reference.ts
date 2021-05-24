@@ -1,19 +1,21 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { TypeParameterInstantiationList } from './type-parameter-instantiation-list';
+import { DummyIdentifier } from '../internal/dummy-identifier';
+import { Identifier } from '../expressions/identifier-expr';
 
-export interface GenericType extends SyntaxNode {
-  readonly id: any;
+export interface TypeReference extends SyntaxNode {
+  readonly id: Identifier | DummyIdentifier;
   readonly typeParameters: TypeParameterInstantiationList | null;
 }
 
-export function createGenericType(
-  id: any,
+export function createTypeReference(
+  id: Identifier | DummyIdentifier,
   typeParameters: TypeParameterInstantiationList | null,
   start: number,
   end: number
-): GenericType {
+): TypeReference {
   return {
-    kind: SyntaxKind.GenericType,
+    kind: SyntaxKind.TypeReference,
     id,
     typeParameters,
     flags: NodeFlags.None,

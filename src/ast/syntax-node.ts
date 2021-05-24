@@ -169,7 +169,7 @@ export const enum SyntaxKind {
   FunctionType = 148,
   FunctionTypeParameter = 149,
   FunctionTypeParameterList = 208,
-  GenericType = 144,
+  TypeReference = 144,
   GetKeyword = 16498,
   GreaterThan = 34883,
   GreaterThanOrEqual = 34881,
@@ -372,7 +372,9 @@ export const enum SyntaxKind {
   TypeParameterInstantiationList = 266,
   TypeParameterInstantiation = 267,
   IndexedAccessType = 268,
-  OpaqueType = 269
+  OpaqueType = 269,
+  Hyphen = 16654,
+  SubtractionType = 271
 }
 
 export function tokenToString(node: any): string {
@@ -478,8 +480,6 @@ export function tokenToString(node: any): string {
       return 'from';
     case SyntaxKind.FunctionKeyword:
       return 'function';
-    case SyntaxKind.GenericType:
-      return 'generic';
     case SyntaxKind.GetKeyword:
       return 'get';
     case SyntaxKind.GreaterThan:
