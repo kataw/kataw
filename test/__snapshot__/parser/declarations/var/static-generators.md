@@ -3,7 +3,10 @@
 ## Input
 
 `````js
-class x { *[expr](){} }
+class Foo {
+	static *bar() {
+	}
+}
 `````
 
 ## Output
@@ -27,11 +30,11 @@ class x { *[expr](){} }
             },
             "name": {
                 "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "text": "Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
-                "end": 7
+                "end": 9
             },
             "typeParameters": null,
             "tail": {
@@ -47,28 +50,27 @@ class x { *[expr](){} }
                             "generatorToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "start": 9,
-                                "end": 11
+                                "start": 19,
+                                "end": 21
                             },
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 19
+                            },
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "expr",
-                                        "rawText": "expr",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 16
-                                    },
-                                    "flags": 32,
-                                    "start": 11,
-                                    "end": 17
+                                    "kind": 134299649,
+                                    "text": "bar",
+                                    "rawText": "bar",
+                                    "flags": 96,
+                                    "start": 21,
+                                    "end": 24
                                 },
                                 "typeParameters": null,
                                 "formalParameters": {
@@ -76,8 +78,8 @@ class x { *[expr](){} }
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "start": 18,
-                                    "end": 19
+                                    "start": 25,
+                                    "end": 26
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -86,42 +88,42 @@ class x { *[expr](){} }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "flags": 32,
-                                        "start": 20,
-                                        "end": 20
+                                        "flags": 33,
+                                        "start": 28,
+                                        "end": 28
                                     },
                                     "flags": 32,
-                                    "start": 19,
-                                    "end": 21
+                                    "start": 26,
+                                    "end": 31
                                 },
                                 "flags": 0,
-                                "start": 17,
-                                "end": 21
+                                "start": 24,
+                                "end": 31
                             },
                             "flags": 0,
-                            "start": 9,
-                            "end": 21
+                            "start": 19,
+                            "end": 31
                         }
                     ],
                     "flags": 32,
-                    "start": 9,
-                    "end": 21
+                    "start": 11,
+                    "end": 31
                 },
-                "flags": 7,
+                "flags": 9,
                 "start": 32,
-                "end": 23
+                "end": 33
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 33
         }
     ],
     "isModule": false,
-    "source": "class x { *[expr](){} }",
+    "source": "class Foo {\n\tstatic *bar() {\n\t}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 33
 }
 ```
 
@@ -129,8 +131,8 @@ class x { *[expr](){} }
 
 ```javascript
 
-class x {
-  [expr]() {}
+class Foo {
+  static static bar() {}
 }
 ```
 

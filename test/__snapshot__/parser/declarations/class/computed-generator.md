@@ -3,7 +3,10 @@
 ## Input
 
 `````js
-class x { *[expr](){} }
+class Foo {
+	*[Symbol.iterator]() {
+	}
+}
 `````
 
 ## Output
@@ -27,11 +30,11 @@ class x { *[expr](){} }
             },
             "name": {
                 "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "text": "Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
-                "end": 7
+                "end": 9
             },
             "typeParameters": null,
             "tail": {
@@ -46,9 +49,9 @@ class x { *[expr](){} }
                             "decorators": null,
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 11
+                                "flags": 65,
+                                "start": 11,
+                                "end": 14
                             },
                             "staticKeyword": null,
                             "asyncKeyword": null,
@@ -59,16 +62,30 @@ class x { *[expr](){} }
                                 "name": {
                                     "kind": 194,
                                     "expression": {
-                                        "kind": 134299649,
-                                        "text": "expr",
-                                        "rawText": "expr",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 16
+                                        "kind": 129,
+                                        "member": {
+                                            "kind": 134299649,
+                                            "text": "Symbol",
+                                            "rawText": "Symbol",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 21
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "iterator",
+                                            "rawText": "iterator",
+                                            "flags": 96,
+                                            "start": 22,
+                                            "end": 30
+                                        },
+                                        "flags": 536870944,
+                                        "start": 15,
+                                        "end": 30
                                     },
                                     "flags": 32,
-                                    "start": 11,
-                                    "end": 17
+                                    "start": 14,
+                                    "end": 31
                                 },
                                 "typeParameters": null,
                                 "formalParameters": {
@@ -76,8 +93,8 @@ class x { *[expr](){} }
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "start": 18,
-                                    "end": 19
+                                    "start": 32,
+                                    "end": 33
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -86,42 +103,42 @@ class x { *[expr](){} }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "flags": 32,
-                                        "start": 20,
-                                        "end": 20
+                                        "flags": 33,
+                                        "start": 35,
+                                        "end": 35
                                     },
                                     "flags": 32,
-                                    "start": 19,
-                                    "end": 21
+                                    "start": 33,
+                                    "end": 38
                                 },
                                 "flags": 0,
-                                "start": 17,
-                                "end": 21
+                                "start": 31,
+                                "end": 38
                             },
                             "flags": 0,
-                            "start": 9,
-                            "end": 21
+                            "start": 11,
+                            "end": 38
                         }
                     ],
                     "flags": 32,
-                    "start": 9,
-                    "end": 21
+                    "start": 11,
+                    "end": 38
                 },
-                "flags": 7,
+                "flags": 9,
                 "start": 32,
-                "end": 23
+                "end": 40
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 40
         }
     ],
     "isModule": false,
-    "source": "class x { *[expr](){} }",
+    "source": "class Foo {\n\t*[Symbol.iterator]() {\n\t}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 40
 }
 ```
 
@@ -129,8 +146,8 @@ class x { *[expr](){} }
 
 ```javascript
 
-class x {
-  [expr]() {}
+class Foo {
+  [Symbol.iterator]() {}
 }
 ```
 
