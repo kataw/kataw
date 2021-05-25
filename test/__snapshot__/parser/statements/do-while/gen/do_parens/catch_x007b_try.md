@@ -105,8 +105,6 @@ do( catch { try while
 ✖ Property definition expected. Did you mean to use a ':'? - start: 15, end: 21
 ✖ ',' expected - start: 15, end: 21
 ✖ Property definition expected. Did you mean to use a ':'? - start: 21, end: 21
-✖ ',' expected - start: 21, end: 21
-✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
 
 ```
 

@@ -145,9 +145,7 @@
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 9, end: 10
 ✖ ',' expected - start: 9, end: 10
-✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 10
 ✖ ',' expected - start: 11, end: 12
-✖ Did you forgot a ']' to match the `[` token? - start: 11, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14
 ✖ Expected a `;` - start: 16, end: 17
 

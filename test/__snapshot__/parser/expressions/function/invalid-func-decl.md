@@ -977,7 +977,6 @@ async function f(){}
 ✖ Expression expected - start: 11, end: 21
 ✖ Duplicate identifier - start: 21, end: 23
 ✖ ',' expected - start: 56, end: 65
-✖ Expected a ')' to match the '(' token here - start: 56, end: 65
 ✖ Expression expected - start: 56, end: 65
 ✖ Duplicate identifier - start: 65, end: 67
 ✖ Duplicate identifier - start: 87, end: 89

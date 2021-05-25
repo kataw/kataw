@@ -135,9 +135,7 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 5, end: 7
-✖ ',' expected - start: 5, end: 7
 ✖ ',' expected - start: 14, end: 16
-✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 16
 ✖ Expected a `;` - start: 23, end: 24
 
 ```

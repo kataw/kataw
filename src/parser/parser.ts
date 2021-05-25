@@ -2271,28 +2271,14 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
   const start = parser.curPos;
   const elements: ExpressionNode[] = [];
   let trailingComma = false;
-
   while (parser.token & 0b00000000101010111100000000000000) {
     elements.push(parseArgumentOrArrayLiteralElement(parser, context));
-
     if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
-    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
-        trailingComma = true;
-        break;
-      }
-      continue;
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+      trailingComma = true;
+      break;
     }
-    // We didn't get a comma, and the list wasn't terminated, explicitly so give
-    // a good error message instead
-
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._expected],
-      parser.curPos,
-      parser.pos
-    );
   }
 
   return createArgumentList(elements, trailingComma, start, parser.curPos);
@@ -2682,21 +2668,12 @@ function parsePropertyDefinitionList(
       prototypeCount++;
     }
     destructible |= parser.destructible;
-    if (parser.token === SyntaxKind.RightBrace) break;
-    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
-        trailingComma = true;
-        break;
-      }
-      continue;
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) break;
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
+      trailingComma = true;
+      break;
     }
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._expected],
-      parser.curPos,
-      parser.pos
-    );
   }
   if (prototypeCount > 1) {
     flags |= NodeFlags.PrototypeField;
@@ -3697,22 +3674,12 @@ function parseElementList(parser: ParserState, context: Context, scope: ScopeSta
   while (parser.token & 0b00010000101011010100000000000000) {
     elements.push(parseArrayLiteralElement(parser, context, scope, type) as any);
     destructible |= parser.destructible;
-    if (parser.token === SyntaxKind.RightBracket) break;
-    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
-        trailingComma = true;
-        break;
-      }
-      continue;
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) break;
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
+      trailingComma = true;
+      break;
     }
-
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._expected],
-      parser.curPos,
-      parser.pos
-    );
   }
 
   parser.destructible = destructible;
@@ -3854,11 +3821,7 @@ function parseArrayLiteralElement(
 }
 
 function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Context): any {
-  return parser.token === SyntaxKind.Ellipsis
-    ? parseSpreadElement(parser, context)
-    : parser.token === SyntaxKind.Comma
-    ? createElison(parser.curPos, parser.curPos)
-    : parseExpression(parser, context);
+  return parser.token === SyntaxKind.Ellipsis ? parseSpreadElement(parser, context) : parseExpression(parser, context);
 }
 
 function parseArraySpreadArgument(parser: ParserState, context: Context, scope: ScopeState, type: BindingType): any {
@@ -5639,21 +5602,11 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
       nodeFlags |= param.flags;
       parameters.push(param);
       if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
-      if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
-        if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
-          trailingComma = true;
-          break;
-        }
-        continue;
+      consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+        trailingComma = true;
+        break;
       }
-
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._expected],
-        parser.curPos,
-        parser.pos
-      );
     }
 
     if (nodeFlags & NodeFlags.NoneSimpleParamList || context & Context.Strict) {
@@ -6361,21 +6314,12 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   const elements: TypeNode[] = [];
   while (parser.token & 0b00111000100000000100000000000000) {
     elements.push(parseType(parser, context));
-    if (parser.token === SyntaxKind.RightBracket) break;
-    if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
-        trailingComma = true;
-        break;
-      }
-      continue;
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) break;
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
+      trailingComma = true;
+      break;
     }
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._expected],
-      parser.curPos,
-      parser.pos
-    );
   }
   consume(parser, context, SyntaxKind.RightBracket);
 

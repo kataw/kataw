@@ -100,7 +100,6 @@
 
 ```javascript
 ✖ ',' expected - start: 12, end: 12
-✖ Did you forgot a ']' to match the `[` token? - start: 12, end: 12
 
 ```
 

@@ -270,7 +270,6 @@
 
 ```javascript
 ✖ ',' expected - start: 4, end: 11
-✖ Did you forgot a ']' to match the `[` token? - start: 4, end: 11
 ✖ Missing an opening parentheses - '( - start: 11, end: 14
 ✖ Declaration or statement expected - start: 14, end: 19
 ✖ Expected a `;` - start: 19, end: 22

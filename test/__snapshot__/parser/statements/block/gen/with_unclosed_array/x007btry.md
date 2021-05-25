@@ -97,8 +97,6 @@
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 7, end: 7
 ✖ ',' expected - start: 7, end: 7
-✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 7
-✖ ',' expected - start: 7, end: 7
 
 ```
 

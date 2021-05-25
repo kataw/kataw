@@ -165,9 +165,7 @@
 ✖ ',' expected - start: 11, end: 17
 ✖ Missing an opening brace - '{ - start: 17, end: 26
 ✖ Expression expected - start: 26, end: 28
-✖ ',' expected - start: 26, end: 28
 ✖ Expression expected - start: 29, end: 29
-✖ ',' expected - start: 29, end: 29
 
 ```
 

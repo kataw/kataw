@@ -87,7 +87,6 @@ do[ /**/ /x do while
 ```javascript
 ✖ Unterminated regular expression - start: 3, end: 10
 ✖ ',' expected - start: 20, end: 20
-✖ Did you forgot a ']' to match the `[` token? - start: 20, end: 20
 
 ```
 

@@ -177,10 +177,7 @@ wrap({async [foo""](){}});
 ```javascript
 ✖ Expected a computed property - start: 16, end: 18
 ✖ Expression expected - start: 16, end: 18
-✖ ',' expected - start: 16, end: 18
 ✖ Property definition expected. Did you mean to use a ':'? - start: 18, end: 19
-✖ ',' expected - start: 18, end: 19
-✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
 ✖ Expression expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24

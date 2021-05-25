@@ -514,11 +514,9 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 
 ```javascript
 ✖ ',' expected - start: 58, end: 59
-✖ Expected a ')' to match the '(' token here - start: 58, end: 59
 ✖ Missing an opening brace - '{ - start: 90, end: 91
 ✖ Expression expected - start: 90, end: 91
 ✖ ',' expected - start: 116, end: 117
-✖ Expected a ')' to match the '(' token here - start: 116, end: 117
 ✖ Missing an opening brace - '{ - start: 159, end: 160
 ✖ Expression expected - start: 159, end: 160
 

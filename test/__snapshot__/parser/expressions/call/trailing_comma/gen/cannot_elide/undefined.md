@@ -42,8 +42,9 @@ foo(a,,);
                             "end": 5
                         },
                         {
-                            "kind": 230,
-                            "flags": 96,
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
                             "start": 6,
                             "end": 6
                         }
@@ -75,12 +76,12 @@ foo(a,,);
 
 ```javascript
 
-foo(a, );
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 6, end: 7
+
 ```
 

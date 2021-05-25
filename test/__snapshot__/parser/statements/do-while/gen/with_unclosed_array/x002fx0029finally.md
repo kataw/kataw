@@ -87,7 +87,6 @@ do[ /)finally
 ```javascript
 ✖ Unterminated regular expression - start: 3, end: 5
 ✖ ',' expected - start: 13, end: 13
-✖ Did you forgot a ']' to match the `[` token? - start: 13, end: 13
 
 ```
 

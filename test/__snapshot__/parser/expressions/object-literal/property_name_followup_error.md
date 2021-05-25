@@ -54,7 +54,6 @@
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 5, end: 8
 ✖ ',' expected - start: 5, end: 8
-✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 8
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 5, end: 8
 ✖ Expected a ')' to match the '(' token here - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 14

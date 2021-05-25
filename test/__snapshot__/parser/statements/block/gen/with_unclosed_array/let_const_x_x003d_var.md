@@ -144,7 +144,6 @@
 
 ```javascript
 ✖ ',' expected - start: 6, end: 12
-✖ Did you forgot a ']' to match the `[` token? - start: 6, end: 12
 ✖ Expression expected - start: 16, end: 20
 ✖ Lexical declaration expected - start: 16, end: 20
 

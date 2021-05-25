@@ -267,7 +267,6 @@
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 41, end: 42
 ✖ Expected a ')' to match the '(' token here - start: 42, end: 44
 ✖ The parser expected to find a '}' to match the '{' token here - start: 46, end: 47
-✖ ',' expected - start: 46, end: 47
 
 ```
 

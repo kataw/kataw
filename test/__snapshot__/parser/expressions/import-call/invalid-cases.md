@@ -2015,7 +2015,6 @@ new import(x);
 ✖ Unexpected token. - start: 85, end: 86
 ✖ Expected a `;` - start: 85, end: 86
 ✖ ',' expected - start: 89, end: 90
-✖ Did you forgot a ']' to match the `[` token? - start: 89, end: 90
 ✖ Unexpected token. - start: 99, end: 101
 ✖ Expected a `;` - start: 99, end: 101
 ✖ Dynamic import must have one specifier as an argument. - start: 114, end: 115
@@ -2066,7 +2065,6 @@ new import(x);
 ✖ ',' expected - start: 400, end: 403
 ✖ Property definition expected. Did you mean to use a ':'? - start: 409, end: 410
 ✖ ',' expected - start: 410, end: 411
-✖ Did you forgot a ']' to match the `[` token? - start: 410, end: 411
 ✖ Unexpected token. - start: 419, end: 420
 ✖ Expected a `;` - start: 419, end: 420
 ✖ Expression expected - start: 420, end: 421

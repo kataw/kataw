@@ -82,7 +82,6 @@
 ```javascript
 ✖ Unexpected token. - start: 8, end: 12
 ✖ ',' expected - start: 8, end: 12
-✖ Did you forgot a ']' to match the `[` token? - start: 8, end: 12
 
 ```
 

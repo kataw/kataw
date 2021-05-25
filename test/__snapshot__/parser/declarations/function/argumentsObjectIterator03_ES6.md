@@ -405,7 +405,6 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 
 ```javascript
 ✖ ',' expected - start: 26, end: 27
-✖ Expected a ')' to match the '(' token here - start: 26, end: 27
 ✖ Missing an opening brace - '{ - start: 34, end: 35
 ✖ Expression expected - start: 34, end: 35
 ✖ Expected a `;` - start: 48, end: 49

@@ -94,8 +94,6 @@
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 11
-✖ ',' expected - start: 4, end: 11
-✖ ',' expected - start: 11, end: 11
 
 ```
 

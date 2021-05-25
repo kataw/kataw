@@ -2112,7 +2112,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ The left-hand side must be a variable or a property access. - start: 437, end: 439
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 469, end: 473
 ✖ ',' expected - start: 513, end: 515
-✖ The parser expected to find a '}' to match the '{' token here - start: 513, end: 515
 ✖ Declaration or statement expected - start: 515, end: 517
 ✖ Declaration or statement expected - start: 526, end: 527
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 550, end: 554

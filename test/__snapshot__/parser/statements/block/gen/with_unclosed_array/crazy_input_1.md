@@ -98,8 +98,6 @@
 ```javascript
 ✖ ',' expected - start: 8, end: 14
 ✖ ',' expected - start: 14, end: 16
-✖ ',' expected - start: 16, end: 16
-✖ Did you forgot a ']' to match the `[` token? - start: 16, end: 16
 
 ```
 

@@ -34,14 +34,16 @@ foo(,,);
                     "kind": 256,
                     "elements": [
                         {
-                            "kind": 230,
-                            "flags": 96,
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
                             "start": 4,
                             "end": 4
                         },
                         {
-                            "kind": 230,
-                            "flags": 96,
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
                             "start": 5,
                             "end": 5
                         }
@@ -73,12 +75,13 @@ foo(,,);
 
 ```javascript
 
-foo(, );
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 4, end: 5
+✖ Expression expected - start: 5, end: 6
+
 ```
 

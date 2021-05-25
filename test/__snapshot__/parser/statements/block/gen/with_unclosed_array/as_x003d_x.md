@@ -101,7 +101,6 @@
 
 ```javascript
 ✖ ',' expected - start: 9, end: 9
-✖ Did you forgot a ']' to match the `[` token? - start: 9, end: 9
 
 ```
 

@@ -92,7 +92,6 @@
 
 ```javascript
 ✖ 'import.meta' is the only valid meta property for import - start: 14, end: 14
-✖ ',' expected - start: 14, end: 14
 
 ```
 

@@ -2750,7 +2750,6 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 551, end: 552
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 584, end: 585
 ✖ ',' expected - start: 588, end: 589
-✖ The parser expected to find a '}' to match the '{' token here - start: 588, end: 589
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 614, end: 615
 ✖ Cannot redeclare block-scoped variable - start: 630, end: 632
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 642, end: 643
