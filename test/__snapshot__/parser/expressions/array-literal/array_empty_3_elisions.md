@@ -3,6 +3,8 @@
 ## Input
 
 `````js
+#!foo // hashbang comment
+
 [,,,]
 `````
 
@@ -44,42 +46,42 @@
                         {
                             "kind": 230,
                             "flags": 96,
-                            "start": 1,
-                            "end": 1
+                            "start": 28,
+                            "end": 28
                         },
                         {
                             "kind": 230,
                             "flags": 96,
-                            "start": 2,
-                            "end": 2
+                            "start": 29,
+                            "end": 29
                         },
                         {
                             "kind": 230,
                             "flags": 96,
-                            "start": 3,
-                            "end": 3
+                            "start": 30,
+                            "end": 30
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
-                    "start": 1,
-                    "end": 4
+                    "start": 28,
+                    "end": 31
                 },
                 "flags": 32,
-                "start": 0,
-                "end": 5
+                "start": 25,
+                "end": 32
             },
             "flags": 16,
-            "start": 0,
-            "end": 5
+            "start": 25,
+            "end": 32
         }
     ],
     "isModule": false,
-    "source": "[,,,]",
+    "source": "#!foo // hashbang comment\n\n[,,,]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 5
+    "end": 32
 }
 ```
 

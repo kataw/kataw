@@ -8100,15 +8100,27 @@ export function parseClassElement(
           }
           break;
         case SyntaxKind.AsyncKeyword:
+          if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+              parser.curPos,
+              parser.pos
+            );
+          }
           nodeFlags |= NodeFlags.Async;
-          asyncKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
+          asyncKeyword = createToken(
+            SyntaxKind.AsyncKeyword,
+            flags | NodeFlags.ChildLess,
+            pos,
+            parser.curPos
+          );
           generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
           if (generatorToken) nodeFlags |= NodeFlags.Generator;
           break;
         case SyntaxKind.GetKeyword:
-          nodeFlags |= NodeFlags.Getter;
-          getKeyword = createToken(SyntaxKind.GetKeyword, NodeFlags.ChildLess, pos, parser.curPos);
-          if (getKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -8117,11 +8129,12 @@ export function parseClassElement(
               parser.pos
             );
           }
+          getKeyword = createToken(SyntaxKind.GetKeyword, flags | NodeFlags.ChildLess, pos, parser.curPos);
+          nodeFlags |= NodeFlags.Getter;
           break;
 
         case SyntaxKind.SetKeyword:
-          setKeyword = createToken(SyntaxKind.SetKeyword, NodeFlags.ChildLess, pos, parser.curPos);
-          if (setKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -8130,6 +8143,7 @@ export function parseClassElement(
               parser.pos
             );
           }
+          setKeyword = createToken(SyntaxKind.SetKeyword, flags | NodeFlags.ChildLess, pos, parser.curPos);
           nodeFlags |= NodeFlags.Setter;
           break;
       }

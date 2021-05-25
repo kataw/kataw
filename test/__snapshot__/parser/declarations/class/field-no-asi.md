@@ -56,7 +56,7 @@ get
                             "asyncKeyword": null,
                             "setKeyword": {
                                 "kind": 16498,
-                                "flags": 64,
+                                "flags": 65,
                                 "start": 16,
                                 "end": 20
                             },

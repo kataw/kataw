@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-class X { ge\u0074 x() {} }
+class X { \u0061sync x() { await x } }
 `````
 
 ## Output
@@ -46,13 +46,13 @@ class X { ge\u0074 x() {} }
                             "decorators": null,
                             "generatorToken": null,
                             "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 16448,
                                 "start": 9,
-                                "end": 18
+                                "end": 20
                             },
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
@@ -61,17 +61,17 @@ class X { ge\u0074 x() {} }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
-                                    "start": 18,
-                                    "end": 20
+                                    "start": 20,
+                                    "end": 22
                                 },
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1024,
-                                    "start": 21,
-                                    "end": 22
+                                    "flags": 256,
+                                    "start": 23,
+                                    "end": 24
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -79,43 +79,70 @@ class X { ge\u0074 x() {} }
                                     "functionStatementList": {
                                         "kind": 217,
                                         "directives": [],
-                                        "statements": [],
+                                        "statements": [
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 208,
+                                                    "awaitKeyword": {
+                                                        "kind": 82032,
+                                                        "flags": 0,
+                                                        "start": 26,
+                                                        "end": 32
+                                                    },
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 32,
+                                                        "end": 34
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 26,
+                                                    "end": 34
+                                                },
+                                                "flags": 16,
+                                                "start": 26,
+                                                "end": 34
+                                            }
+                                        ],
                                         "flags": 32,
-                                        "start": 24,
-                                        "end": 24
+                                        "start": 26,
+                                        "end": 34
                                     },
                                     "flags": 32,
-                                    "start": 22,
-                                    "end": 25
+                                    "start": 24,
+                                    "end": 36
                                 },
-                                "flags": 1024,
-                                "start": 20,
-                                "end": 25
+                                "flags": 256,
+                                "start": 22,
+                                "end": 36
                             },
-                            "flags": 1024,
+                            "flags": 256,
                             "start": 9,
-                            "end": 25
+                            "end": 36
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 25
+                    "end": 36
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 27
+                "end": 38
             },
             "flags": 16,
             "start": 0,
-            "end": 27
+            "end": 38
         }
     ],
     "isModule": false,
-    "source": "class X { ge\\u0074 x() {} }",
+    "source": "class X { \\u0061sync x() { await x } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 27
+    "end": 38
 }
 ```
 
@@ -128,7 +155,7 @@ class X { ge\u0074 x() {} }
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 18, end: 20
+✖ Keywords cannot contain escape characters - start: 20, end: 22
 
 ```
 

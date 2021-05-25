@@ -352,7 +352,7 @@ class Array { concat(items:number | string) {}; }
                             "setKeyword": null,
                             "getKeyword": {
                                 "kind": 16499,
-                                "flags": 64,
+                                "flags": 65,
                                 "start": 97,
                                 "end": 103
                             },
@@ -476,7 +476,7 @@ class Array { concat(items:number | string) {}; }
                             "setKeyword": null,
                             "getKeyword": {
                                 "kind": 16499,
-                                "flags": 64,
+                                "flags": 65,
                                 "start": 144,
                                 "end": 150
                             },
@@ -610,7 +610,7 @@ class Array { concat(items:number | string) {}; }
                             "asyncKeyword": null,
                             "setKeyword": {
                                 "kind": 16498,
-                                "flags": 64,
+                                "flags": 65,
                                 "start": 197,
                                 "end": 203
                             },

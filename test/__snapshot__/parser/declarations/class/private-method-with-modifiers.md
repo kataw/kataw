@@ -110,7 +110,7 @@ class Foo {
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 64,
+                                "flags": 65,
                                 "start": 21,
                                 "end": 28
                             },
@@ -170,7 +170,7 @@ class Foo {
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 64,
+                                "flags": 65,
                                 "start": 36,
                                 "end": 43
                             },

@@ -9,6 +9,7 @@
 ## Input
 
 `````js
+--> HTML Close
 [x,,y]
 `````
 
@@ -33,44 +34,44 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
-                            "start": 1,
-                            "end": 2
+                            "start": 16,
+                            "end": 17
                         },
                         {
                             "kind": 230,
                             "flags": 96,
-                            "start": 3,
-                            "end": 3
+                            "start": 18,
+                            "end": 18
                         },
                         {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
-                            "start": 4,
-                            "end": 5
+                            "start": 19,
+                            "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 1,
-                    "end": 5
+                    "start": 16,
+                    "end": 20
                 },
                 "flags": 32,
-                "start": 0,
-                "end": 6
+                "start": 14,
+                "end": 21
             },
             "flags": 16,
-            "start": 0,
-            "end": 6
+            "start": 14,
+            "end": 21
         }
     ],
     "isModule": false,
-    "source": "[x,,y]",
+    "source": "--> HTML Close\n[x,,y]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 6
+    "end": 21
 }
 ```
 

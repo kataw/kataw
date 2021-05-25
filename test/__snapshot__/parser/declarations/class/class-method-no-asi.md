@@ -1,17 +1,20 @@
 # Kataw parser test case
 
-## Options
-
-`````js
-{ jsx: false, disableWebCompat: true }
-`````
-
 ## Input
 
 `````js
 class A {
-  get prop (arg) {}
+  async
+  * a(){}
 }
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
 `````
 
 ## Output
@@ -52,53 +55,39 @@ class A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "generatorToken": {
+                                "kind": 67143222,
+                                "flags": 65,
+                                "start": 17,
+                                "end": 21
+                            },
                             "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 65,
                                 "start": 9,
-                                "end": 15
+                                "end": 17
                             },
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "prop",
-                                    "rawText": "prop",
+                                    "text": "a",
+                                    "rawText": "a",
                                     "flags": 96,
-                                    "start": 15,
-                                    "end": 20
+                                    "start": 21,
+                                    "end": 23
                                 },
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 215,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "arg",
-                                                "rawText": "arg",
-                                                "flags": 96,
-                                                "start": 22,
-                                                "end": 25
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 22,
-                                            "end": 25
-                                        }
-                                    ],
+                                    "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1056,
-                                    "start": 22,
-                                    "end": 26
+                                    "flags": 384,
+                                    "start": 24,
+                                    "end": 25
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -108,41 +97,41 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
-                                        "start": 28,
-                                        "end": 28
+                                        "start": 26,
+                                        "end": 26
                                     },
                                     "flags": 32,
-                                    "start": 26,
-                                    "end": 29
+                                    "start": 25,
+                                    "end": 27
                                 },
-                                "flags": 1024,
-                                "start": 20,
-                                "end": 29
+                                "flags": 384,
+                                "start": 23,
+                                "end": 27
                             },
-                            "flags": 1024,
+                            "flags": 384,
                             "start": 9,
-                            "end": 29
+                            "end": 27
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 29
+                    "end": 27
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 31
+                "end": 29
             },
             "flags": 16,
             "start": 0,
-            "end": 31
+            "end": 29
         }
     ],
     "isModule": false,
-    "source": "class A {\n  get prop (arg) {}\n}",
+    "source": "class A {\n  async\n  * a(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 31
+    "end": 29
 }
 ```
 
@@ -150,12 +139,14 @@ class A {
 
 ```javascript
 
+class A {
+  async a() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A 'get' accessor cannot have parameters. - start: 22, end: 25
-
+✔ No errors
 ```
 

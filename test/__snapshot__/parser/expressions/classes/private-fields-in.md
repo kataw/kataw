@@ -142,7 +142,7 @@ class C {
                             "asyncKeyword": null,
                             "setKeyword": {
                                 "kind": 16498,
-                                "flags": 64,
+                                "flags": 65,
                                 "start": 35,
                                 "end": 42
                             },
