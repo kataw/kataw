@@ -7159,6 +7159,7 @@ for ({}.bar = x in obj);
 ✖ Expression expected - start: 1051, end: 1052
 ✖ Expression expected - start: 1052, end: 1055
 ✖ Expected a `;` - start: 1059, end: 1060
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 1090, end: 1092
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1095, end: 1097
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 1139, end: 1142
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1234, end: 1236

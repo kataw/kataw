@@ -215,6 +215,7 @@ async function f(){
 
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 50, end: 52
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 57, end: 59
 ✖ Expected a ')' to match the '(' token here - start: 67, end: 69
 ✖ Expected a `;` - start: 69, end: 70
 ✖ Declaration or statement expected - start: 71, end: 75

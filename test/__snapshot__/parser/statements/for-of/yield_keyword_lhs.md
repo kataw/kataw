@@ -154,6 +154,7 @@ function *f(){ for (yield of obj); }
 ### Diagnostics
 
 ```javascript
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 25, end: 28
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 28, end: 32
 
 ```

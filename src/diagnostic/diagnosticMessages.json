@@ -201,6 +201,7 @@
   "The 'declare' modifier cannot follow after a 'static' modifier": 203,
   "Decorators cannot follow after a 'static' modifier": 204,
   "Decorators are not valid here": 205,
-  "'import.meta' is the only valid meta property for import": 206
+  "'import.meta' is the only valid meta property for import": 206,
+  "The left-hand side of a 'for...in or of' statement must not be an arrow function": 207,
+  "Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context": 208
 }
-

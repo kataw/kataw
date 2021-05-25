@@ -3,7 +3,9 @@
 ## Input
 
 `````js
-var foo = async ([...(foo)]) => {};
+var foo = ( { title, ...other } ) => {
+
+};
 `````
 
 ## Output
@@ -44,59 +46,56 @@ var foo = async ([...(foo)]) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 0,
-                                "start": 28,
-                                "end": 31
+                                "start": 33,
+                                "end": 36
                             },
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
-                                    "elementList": {
-                                        "kind": 270,
-                                        "elements": [
+                                    "kind": 220,
+                                    "propertyList": {
+                                        "kind": 218,
+                                        "properties": [
                                             {
-                                                "kind": 223,
+                                                "kind": 134299649,
+                                                "text": "title",
+                                                "rawText": "title",
+                                                "flags": 96,
+                                                "start": 13,
+                                                "end": 19
+                                            },
+                                            {
+                                                "kind": 224,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 0,
-                                                    "start": 18,
-                                                    "end": 21
+                                                    "start": 20,
+                                                    "end": 24
                                                 },
                                                 "argument": {
-                                                    "kind": 121,
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 22,
-                                                        "end": 25
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 21,
-                                                    "end": 26
+                                                    "kind": 134299649,
+                                                    "text": "other",
+                                                    "rawText": "other",
+                                                    "flags": 96,
+                                                    "start": 24,
+                                                    "end": 29
                                                 },
                                                 "flags": 32,
-                                                "start": 18,
-                                                "end": 26
+                                                "start": 20,
+                                                "end": 29
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 18,
-                                        "end": 26
+                                        "flags": 16,
+                                        "start": 13,
+                                        "end": 29
                                     },
-                                    "flags": 32,
-                                    "start": 17,
-                                    "end": 27
+                                    "flags": 48,
+                                    "start": 11,
+                                    "end": 31
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 15
-                            },
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -104,38 +103,38 @@ var foo = async ([...(foo)]) => {};
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "flags": 32,
-                                    "start": 33,
-                                    "end": 33
+                                    "flags": 33,
+                                    "start": 38,
+                                    "end": 38
                                 },
                                 "flags": 32,
-                                "start": 31,
-                                "end": 34
+                                "start": 36,
+                                "end": 41
                             },
-                            "flags": 290,
+                            "flags": 34,
                             "start": 9,
-                            "end": 34
+                            "end": 41
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 34
+                        "end": 41
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 34
+                "end": 41
             },
             "flags": 16,
             "start": 0,
-            "end": 35
+            "end": 42
         }
     ],
     "isModule": false,
-    "source": "var foo = async ([...(foo)]) => {};",
+    "source": "var foo = ( { title, ...other } ) => {\n\n};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 35
+    "end": 42
 }
 ```
 
@@ -143,12 +142,12 @@ var foo = async ([...(foo)]) => {};
 
 ```javascript
 
+var foo = ({ title, ...other }) =>  {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 28, end: 31
-
+✔ No errors
 ```
 

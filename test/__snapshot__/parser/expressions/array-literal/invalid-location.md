@@ -3,26 +3,7 @@
 ## Input
 
 `````js
-[..."foo".bar] = x
-`````
-
-## Options
-
-### Parser Options
-
-`````js
-{}
-`````
-
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
+[...a, b] = c
 `````
 
 ## Output
@@ -52,70 +33,64 @@
                                     "end": 4
                                 },
                                 "argument": {
-                                    "kind": 129,
-                                    "member": {
-                                        "kind": 201392131,
-                                        "text": "foo",
-                                        "rawText": "\"foo\"",
-                                        "flags": 96,
-                                        "start": 4,
-                                        "end": 9
-                                    },
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "bar",
-                                        "rawText": "bar",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 13
-                                    },
-                                    "flags": 536870944,
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
                                     "start": 4,
-                                    "end": 13
+                                    "end": 5
                                 },
                                 "flags": 32,
                                 "start": 1,
-                                "end": 13
+                                "end": 5
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 6,
+                                "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 1,
-                        "end": 13
+                        "end": 8
                     },
                     "flags": 32,
                     "start": 0,
-                    "end": 14
+                    "end": 9
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 64,
-                    "start": 14,
-                    "end": 16
+                    "start": 9,
+                    "end": 11
                 },
                 "right": {
                     "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
+                    "text": "c",
+                    "rawText": "c",
                     "flags": 96,
-                    "start": 16,
-                    "end": 18
+                    "start": 11,
+                    "end": 13
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 18
+                "end": 13
             },
             "flags": 16,
             "start": 0,
-            "end": 18
+            "end": 13
         }
     ],
     "isModule": false,
-    "source": "[...\"foo\".bar] = x",
+    "source": "[...a, b] = c",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 18
+    "end": 13
 }
 ```
 
@@ -123,12 +98,12 @@
 
 ```javascript
 
-[..."\"foo\"".bar] = x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side must be a variable or a property access. - start: 9, end: 11
+
 ```
 

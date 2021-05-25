@@ -204,7 +204,9 @@ export const enum DiagnosticCode {
   The_declare_modifier_cannot_follow_after_a_static_modifier = 203,
   Decorators_cannot_follow_after_a_static_modifier = 204,
   Decorators_are_not_valid_here = 205,
-  _import_meta_is_the_only_valid_meta_property_for_import = 206
+  _import_meta_is_the_only_valid_meta_property_for_import = 206,
+  The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function = 207,
+  Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context = 208
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -308,8 +310,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [100]: 'A type annotation is required for the `this` parameter.',
   [101]: 'The `this` parameter must be the first function parameter.',
   [102]: '`_` is only allowed as a type argument to call or new',
-  [103]:
-    'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
+  [103]: 'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
   [104]: 'Only declares and type imports are allowed inside declare module',
   [105]: "Class methods cannot have the 'declare' modifier",
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
@@ -347,14 +348,11 @@ export const diagnosticMap: { [key: number]: string } = {
   [138]: 'Invalid BigInt syntax',
   [139]: 'Non number after exponent indicator',
   [140]: 'Numeric separators not allowed here',
-  [141]:
-    'In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block',
-  [142]:
-    'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
+  [141]: 'In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block',
+  [142]: 'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
   [143]: "'try' expected",
   [144]: 'Expected a `;`',
-  [145]:
-    "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
+  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
   [146]: 'Unicode escapes at the start of labels should not allow keywords',
   [147]: "Identifier expected.  'await' is a reserved word in module goal",
   [148]: 'Duplicate label',
@@ -414,5 +412,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [203]: "The 'declare' modifier cannot follow after a 'static' modifier",
   [204]: "Decorators cannot follow after a 'static' modifier",
   [205]: 'Decorators are not valid here',
-  [206]: "'import.meta' is the only valid meta property for import"
+  [206]: "'import.meta' is the only valid meta property for import",
+  [207]: "The left-hand side of a 'for...in or of' statement must not be an arrow function",
+  [208]: "Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context"
 };

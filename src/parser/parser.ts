@@ -167,6 +167,10 @@ import {
 import { createPropertyDefinitionList, PropertyDefinitionList } from '../ast/expressions/property-definition-list';
 import {
   ParserState,
+  Tristate,
+  ParseFunctionFlag,
+  LeftHandSide,
+  ObjectTypeFlag,
   Context,
   OnError,
   consumeOpt,
@@ -188,34 +192,6 @@ import {
   addVarName,
   addBlockName
 } from './common';
-
-// prettier-ignore
-const enum Tristate {
-  False,  // There *cannot* be a parenthesized arrow function here.
-  True,   // We definitely expect a parenthesized arrow function here.
-  Unknown // There *might* be a parenthesized arrow function here.
-}
-
-// prettier-ignore
-const enum ParseFunctionFlag {
-  None = 0,
-  IsDefaultModifier = 1 << 0,
-  DisallowAsyncArrow = 1 << 1,
-  DisallowGenerator = 1 << 2,
-}
-
-// prettier-ignore
-const enum LeftHandSide {
-  None = 0,
-  NotAssignable = 1 << 0,
-  NotBindable = 1 << 1
-}
-
-const enum ObjectTypeFlag {
-  None = 0,
-  AllowStatic = 1 << 0,
-  AllowProto = 1 << 1
-}
 
 /**
  * The parser options.
@@ -1233,7 +1209,8 @@ function parseForStatement(
       initializer = parseMemberExpression(parser, context, initializer, true, pos);
     } else {
       if (awaitKeyword) context |= Context.InForOfAwait;
-      initializer = parseLeftHandSideExpression(parser, context | Context.DisallowIn, LeftHandSide.None);
+
+      initializer = parseLeftHandSideExpression(parser, context | Context.DisallowIn, LeftHandSide.ForStatement);
     }
   }
 
@@ -2406,7 +2383,11 @@ function parsePrimaryExpression(
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Expected_a],
+          diagnosticMap[
+            LeftHandSideContext & LeftHandSide.ForStatement
+              ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
+              : DiagnosticCode.Expected_a
+          ],
           parser.curPos,
           parser.pos
         );
@@ -2526,7 +2507,7 @@ function parsePrimaryExpression(
     }
 
     if (parser.token === SyntaxKind.Arrow) {
-      if (LeftHandSideContext) {
+      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -3906,20 +3887,23 @@ function parseArraySpreadArgument(parser: ParserState, context: Context, scope: 
     return argument;
   }
 
+  let destructible = DestructibleKind.Assignable;
+
   let argument = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
-  if (parser.token & SyntaxKind.IsExpressionStart) {
+  const token = parser.token;
+
+  if (token === SyntaxKind.Assign) {
     argument = parseAssignmentExpression(parser, context, argument, pos);
-    parser.destructible |= DestructibleKind.NotDestructible;
+    parser.destructible = destructible |= DestructibleKind.NotDestructible;
     return argument;
   }
 
-  if (parser.token === SyntaxKind.Comma) {
-    parser.destructible = DestructibleKind.NotDestructible;
-    return argument;
+  if (token === SyntaxKind.Comma) {
+    destructible |= DestructibleKind.NotDestructible;
+  } else if (token !== SyntaxKind.RightBracket) {
+    argument = parseAssignmentExpression(parser, context, argument, pos);
   }
-
-  argument = parseAssignmentExpression(parser, context, argument, pos);
 
   parser.destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
 
@@ -3990,11 +3974,15 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       case SyntaxKind.Arrow:
       case SyntaxKind.Colon:
       case SyntaxKind.LeftBrace:
-        if (LeftHandSideContext) {
+        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Expected_a],
+            diagnosticMap[
+              LeftHandSideContext & LeftHandSide.ForStatement
+                ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
+                : DiagnosticCode.Expected_a
+            ],
             parser.curPos,
             parser.pos
           );
@@ -4306,7 +4294,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parser.pos
           );
         }
-        if (LeftHandSideContext) {
+        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -4652,7 +4640,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parser.pos
         );
       }
-      if (LeftHandSideContext) {
+      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -5035,7 +5023,7 @@ function parseFunctionExpression(
             parser.assignable = true;
             return createIdentifier('async', 'async', pos, parser.curPos);
           }
-          if (LeftHandSideContext) {
+          if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -7449,7 +7437,11 @@ function parseYieldIdentifierOrExpression(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Expected_a],
+        diagnosticMap[
+          LeftHandSideContext & LeftHandSide.ForStatement
+            ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context
+            : DiagnosticCode.Expected_a
+        ],
         parser.curPos,
         parser.pos
       );
@@ -7520,7 +7512,8 @@ export function parseAwaitExpression(
   LeftHandSideContext: LeftHandSide
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
-  if (LeftHandSideContext) return parseIdentifierReference(parser, context);
+  if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable))
+    return parseIdentifierReference(parser, context);
   if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,

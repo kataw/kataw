@@ -7812,12 +7812,16 @@ async function * gen() {class C extends await { }}
 ✖ The left-hand side must be a variable or a property access. - start: 2766, end: 2768
 ✖ The left-hand side must be a variable or a property access. - start: 2814, end: 2816
 ✖ The left-hand side must be a variable or a property access. - start: 2866, end: 2868
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 2914, end: 2918
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2921, end: 2923
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2969, end: 2971
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3010, end: 3014
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 3017, end: 3019
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 3065, end: 3067
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3106, end: 3110
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3113, end: 3115
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3167, end: 3169
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3214, end: 3218
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3221, end: 3223
 ✖ Expected a ')' to match the '(' token here - start: 3224, end: 3227
 ✖ Expected a `;` - start: 3227, end: 3229

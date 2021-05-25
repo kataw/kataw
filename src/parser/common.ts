@@ -4,6 +4,32 @@ import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
 import { TokenSyntaxKind, createToken } from '../ast/token';
 import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 
+export const enum Tristate {
+  False, // There *cannot* be a parenthesized arrow function here.
+  True, // We definitely expect a parenthesized arrow function here.
+  Unknown // There *might* be a parenthesized arrow function here.
+}
+
+export const enum ParseFunctionFlag {
+  None = 0,
+  IsDefaultModifier = 1 << 0, // Parsed with 'default' modifer in 'eport default'
+  DisallowAsyncArrow = 1 << 1, // Disallows async arrows in export declarations
+  DisallowGenerator = 1 << 2 // Disallow generators in 'IfStatement' and 'LabelledStatement'
+}
+
+export const enum LeftHandSide {
+  None = 0,
+  NotAssignable = 1 << 0, // The left hand side is not assignable
+  NotBindable = 1 << 1, // The left hand side is not bindable
+  ForStatement = 1 << 2 // Left hand side in 'ForStatement'
+}
+
+export const enum ObjectTypeFlag {
+  None = 0,
+  AllowStatic = 1 << 0, // Allows 'static' modifier if parsed as an declared class
+  AllowProto = 1 << 1 // Allows '__proto__' if parsed as an declared class
+}
+
 export const enum Context {
   None = 0,
   OptionsNext = 1 << 0,

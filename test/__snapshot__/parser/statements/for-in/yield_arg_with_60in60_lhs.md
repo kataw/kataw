@@ -180,6 +180,7 @@ function *f(){   for (yield x in y in z);   }
 ### Diagnostics
 
 ```javascript
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 27, end: 29
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 32, end: 34
 
 ```
