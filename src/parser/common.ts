@@ -20,7 +20,7 @@ export const enum ParseFunctionFlag {
 export const enum LeftHandSide {
   None = 0,
   NotAssignable = 1 << 0, // The left hand side is not assignable
-  NotBindable = 1 << 1, // The left hand side is not bindable
+  DisallowClassExtends = 1 << 1, // Disallow expr on the left side of 'class extends'
   ForStatement = 1 << 2 // Left hand side in 'ForStatement'
 }
 

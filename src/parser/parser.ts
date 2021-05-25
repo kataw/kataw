@@ -2446,7 +2446,7 @@ function parsePrimaryExpression(
 
   if (token & SyntaxKind.IsFutureReserved) {
     if (parser.token === SyntaxKind.Arrow) {
-      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
+      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -3388,7 +3388,7 @@ function parsePrefixUpdateExpression(
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
   const operand = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
-  if (LeftHandSideContext & LeftHandSide.NotBindable) {
+  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3448,7 +3448,7 @@ function parseUnaryExpression(
 ): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
-  if (LeftHandSideContext & LeftHandSide.NotBindable) {
+  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3913,7 +3913,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       case SyntaxKind.Arrow:
       case SyntaxKind.Colon:
       case SyntaxKind.LeftBrace:
-        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
+        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -4233,7 +4233,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parser.pos
           );
         }
-        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
+        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -4579,7 +4579,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parser.pos
         );
       }
-      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
+      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -4962,7 +4962,7 @@ function parseFunctionExpression(
             parser.assignable = true;
             return createIdentifier('async', 'async', pos, parser.curPos);
           }
-          if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
+          if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -7455,7 +7455,7 @@ export function parseAwaitExpression(
   LeftHandSideContext: LeftHandSide
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
-  if (LeftHandSideContext & LeftHandSide.NotBindable) return parseIdentifierReference(parser, context);
+  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) return parseIdentifierReference(parser, context);
   if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -7792,7 +7792,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     const curPos = parser.curPos;
     classHeritage = createClassHeritage(
       extendsToken,
-      parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.NotBindable),
+      parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends),
       (parser.token as SyntaxKind) === SyntaxKind.LessThan
         ? parseTypeParameterInstantiationList(parser, context)
         : null,
