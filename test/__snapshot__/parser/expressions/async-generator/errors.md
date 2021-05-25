@@ -7759,9 +7759,9 @@ async function * gen() {class C extends await { }}
 ✖ Expression expected - start: 1160, end: 1161
 ✖ Expression expected - start: 1194, end: 1195
 ✖ Expression expected - start: 1228, end: 1229
-✖ Expected a `;` - start: 1368, end: 1370
+✖ Expected a `;` - start: 1362, end: 1370
 ✖ Identifier expected. Reserved word in strict mode - start: 1397, end: 1403
-✖ Expected a `;` - start: 1527, end: 1528
+✖ Expected a `;` - start: 1521, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
 ✖ Expected a `;` - start: 1683, end: 1684
@@ -7812,16 +7812,16 @@ async function * gen() {class C extends await { }}
 ✖ The left-hand side must be a variable or a property access. - start: 2766, end: 2768
 ✖ The left-hand side must be a variable or a property access. - start: 2814, end: 2816
 ✖ The left-hand side must be a variable or a property access. - start: 2866, end: 2868
-✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 2914, end: 2918
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 2909, end: 2918
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2921, end: 2923
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2969, end: 2971
-✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3010, end: 3014
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3005, end: 3014
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 3017, end: 3019
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 3065, end: 3067
-✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3106, end: 3110
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3101, end: 3110
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3113, end: 3115
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3167, end: 3169
-✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3214, end: 3218
+✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3209, end: 3218
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3221, end: 3223
 ✖ Expected a ')' to match the '(' token here - start: 3224, end: 3227
 ✖ Expected a `;` - start: 3227, end: 3229
@@ -7832,7 +7832,7 @@ async function * gen() {class C extends await { }}
 ✖ Expected a `;` - start: 3281, end: 3283
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287
-✖ Expected a `;` - start: 3333, end: 3335
+✖ Expected a `;` - start: 3327, end: 3335
 ✖ Missing an opening brace - '{ - start: 3337, end: 3338
 ✖ 'await' cannot be used as an identifier here - start: 3378, end: 3384
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3389, end: 3389

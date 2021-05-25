@@ -7442,7 +7442,7 @@ function parseYieldIdentifierOrExpression(
             ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context
             : DiagnosticCode.Expected_a
         ],
-        parser.curPos,
+        pos,
         parser.pos
       );
     }
