@@ -1,4 +1,5 @@
 import { ExportDeclaration } from './export-declaration';
+import { StatementNode } from '../statements';
 import { ImportDeclaration } from './import-declaration';
 import { ExportDefault } from './export-default';
 import { ExportFromClause } from './export-from-clause';
@@ -17,7 +18,7 @@ export type ImportExport = ExportDeclaration | ExportDefault | ImportDeclaration
 /**
  * The set of all syntax items which are module.
  */
-export type StatementNode =
+export type Module =
   | ExportDeclaration
   | ImportDeclaration
   | ExportDefault
