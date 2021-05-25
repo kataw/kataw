@@ -91,9 +91,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Cannot use 'import.meta' outside a module - start: 14, end: 14
+✖ 'import.meta' is the only valid meta property for import - start: 14, end: 14
 ✖ ',' expected - start: 14, end: 14
-✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 14
 
 ```
 

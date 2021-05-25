@@ -18,6 +18,7 @@ export type TokenSyntaxKind =
   | SyntaxKind.LeftParen
   | SyntaxKind.RightParen
   | SyntaxKind.Decrement
+  | SyntaxKind.UnknownToken
   | SyntaxKind.Increment
   | SyntaxKind.DeleteKeyword
   | SyntaxKind.Negate

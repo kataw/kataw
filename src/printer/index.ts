@@ -843,7 +843,7 @@ function printImportMeta(node: any, printer: Printer): any {
   return chain([
     printKeyword(node.importKeyword, printer, node.importKeyword.start, node, /* separator */ false),
     '.',
-    printKeyword(node.metaIdentifier, printer, node.metaIdentifier.start, node, /* separator */ false)
+    node.metaIdentifier ? printKeyword(node.metaIdentifier, printer, node.metaIdentifier.start, node, /* separator */ false)  :''
   ]);
 }
 

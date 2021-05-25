@@ -202,7 +202,9 @@ export const enum DiagnosticCode {
   Type_expected = 201,
   Expected_a_valid_subtraction_operand = 202,
   The_declare_modifier_cannot_follow_after_a_static_modifier = 203,
-  Decorators_cannot_follow_after_a_static_modifier = 204
+  Decorators_cannot_follow_after_a_static_modifier = 204,
+  Decorators_are_not_valid_here = 205,
+  _import_meta_is_the_only_valid_meta_property_for_import = 206
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -410,5 +412,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [201]: 'Type expected',
   [202]: 'Expected a valid subtraction operand',
   [203]: "The 'declare' modifier cannot follow after a 'static' modifier",
-  [204]: "Decorators cannot follow after a 'static' modifier"
+  [204]: "Decorators cannot follow after a 'static' modifier",
+  [205]: 'Decorators are not valid here',
+  [206]: "'import.meta' is the only valid meta property for import"
 };

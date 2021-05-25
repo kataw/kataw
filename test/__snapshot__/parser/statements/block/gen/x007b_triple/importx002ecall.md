@@ -98,8 +98,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Cannot use 'import.meta' outside a module - start: 17, end: 17
-✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 17
+✖ 'import.meta' is the only valid meta property for import - start: 17, end: 17
 
 ```
 

@@ -8,7 +8,7 @@ import.call
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -53,7 +53,7 @@ import.call
 ### Diagnostics
 
 ```javascript
-✖ Cannot use 'import.meta' outside a module - start: 11, end: 11
+✖ 'import.meta' is the only valid meta property for import - start: 11, end: 11
 
 ```
 

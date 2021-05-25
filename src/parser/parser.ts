@@ -7660,7 +7660,20 @@ export function parseImportCall(
       parser.pos
     );
   }
+
   const expression = parseExpression(parser, context);
+
+  if (parser.token === SyntaxKind.Comma) {
+    parser.previousErrorPos = parser.pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Dynamic_import_must_have_one_specifier_as_an_argument],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
   return parseExpressionStatement(
     parser,
@@ -7692,6 +7705,18 @@ export function parseImportMeta(
   consume(parser, context, SyntaxKind.Period);
 
   const metaKeyword = consumeToken(parser, context, SyntaxKind.Meta);
+
+  if (!metaKeyword) {
+    parser.previousErrorPos = parser.pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._import_meta_is_the_only_valid_meta_property_for_import],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   if (metaKeyword && metaKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -7702,7 +7727,7 @@ export function parseImportMeta(
     );
   }
 
-  if ((context & Context.AllowImportMeta) === 0) {
+  if ((context & Context.AllowImportMeta) === 0 && parser.previousErrorPos !== parser.pos) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -8152,6 +8177,15 @@ export function parseClassElement(
         }
         if ((context & Context.SuperCall) !== Context.SuperCall) {
           nodeFlags |= NodeFlags.Constructor;
+        }
+        if (decorators) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Decorators_are_not_valid_here],
+            parser.curPos,
+            parser.pos
+          );
         }
       } else if ((parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0) {
         if (parser.previousErrorPos !== parser.pos) {

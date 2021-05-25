@@ -79,7 +79,7 @@ import(x,y
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 8, end: 9
+✖ Dynamic import must have one specifier as an argument. - start: 8, end: 9
 
 ```
 
