@@ -206,7 +206,11 @@ export const enum DiagnosticCode {
   Decorators_are_not_valid_here = 205,
   _import_meta_is_the_only_valid_meta_property_for_import = 206,
   The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function = 207,
-  Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context = 208
+  Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context = 208,
+  Cannot_use_await_as_a_name_on_a_async_generator_expression = 209,
+  Cannot_use_await_as_a_name_on_a_async_function_expression = 210,
+  Cannot_use_await_as_a_name_on_a_async_generator_declaration = 211,
+  Cannot_use_await_as_a_name_on_a_async_function_declaration = 212
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -418,5 +422,9 @@ export const diagnosticMap: { [key: number]: string } = {
   [205]: 'Decorators are not valid here',
   [206]: "'import.meta' is the only valid meta property for import",
   [207]: "The left-hand side of a 'for...in or of' statement must not be an arrow function",
-  [208]: "Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context"
+  [208]: "Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context",
+  [209]: "Cannot use 'await' as a name on a async generator expression",
+  [210]: "Cannot use 'await' as a name on a async function expression",
+  [211]: "Cannot use 'await' as a name on a async generator declaration",
+  [212]: "Cannot use 'await' as a name on a async function declaration"
 };

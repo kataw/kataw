@@ -136,7 +136,7 @@ async function foo() {
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 33, end: 39
+✖ Cannot use 'await' as a name on a async function declaration - start: 33, end: 39
 
 ```
 

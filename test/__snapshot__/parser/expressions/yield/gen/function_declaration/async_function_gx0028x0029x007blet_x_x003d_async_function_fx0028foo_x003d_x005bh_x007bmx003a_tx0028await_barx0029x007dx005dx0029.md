@@ -339,6 +339,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 ### Diagnostics
 
 ```javascript
+✖ `Await` expression cannot be used in function parameters - start: 81, end: 86
 ✖ Declaration or statement expected - start: 103, end: 104
 
 ```

@@ -192,7 +192,6 @@ x; {}
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 37, end: 43
 ✖ Missing an opening brace - '{ - start: 43, end: 45
 ✖ Expression expected - start: 46, end: 48
 

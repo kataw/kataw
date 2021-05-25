@@ -257,7 +257,6 @@ var await; var f = (async function() { let { ...await f } = {}; });
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 48, end: 53
 ✖ ',' expected - start: 53, end: 55
 
 ```

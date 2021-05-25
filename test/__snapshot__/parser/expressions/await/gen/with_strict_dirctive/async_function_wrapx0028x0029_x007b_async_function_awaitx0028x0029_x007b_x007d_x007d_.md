@@ -157,7 +157,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 52, end: 58
+✖ Cannot use 'await' as a name on a async function declaration - start: 52, end: 58
 
 ```
 

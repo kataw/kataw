@@ -363,17 +363,12 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
 
 ```javascript
 
-var await;
-var f = (async function () {
-    class x {
-      async f(foo = [{ m: t(await bar) }]) {}
-    }
-  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `Await` expression cannot be used in function parameters - start: 70, end: 75
+
 ```
 

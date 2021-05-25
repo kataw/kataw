@@ -2055,7 +2055,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context | 0b00000000010000000001111000000000) ^ 0b00000000010000000001111000000000) |
+      ((context | 0b00000000010000000101111000000000) ^ 0b00000000010000000101111000000000) |
         (asyncToken ? Context.InAwaitContext : Context.None),
       scope,
       (flags & NodeFlags.NoneSimpleParamList) === 0
@@ -2259,22 +2259,6 @@ function parseIdentifierReference(
 
   if (token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     if (parser.previousErrorPos !== parser.pos) {
-      if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[
-            context & Context.Parameters
-              ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
-              : context & Context.Module
-              ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
-              : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
-          ],
-          parser.curPos,
-          parser.pos
-        );
-      }
-
       if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -2336,6 +2320,7 @@ function parsePrimaryExpression(
     if (context & Context.InAwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
       return parseAwaitExpression(parser, context, inNewExpression, LeftHandSideContext);
     }
+
     const pos = parser.curPos;
     const token = parser.token;
     const tokenValue = parser.tokenValue;
@@ -2392,7 +2377,6 @@ function parsePrimaryExpression(
     }
 
     parser.assignable = true;
-
     return expression;
   }
   switch (parser.token) {
@@ -5079,20 +5063,20 @@ function parseFunctionExpression(
 
   // The name is optional
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    /*if (context & (Context.Strict | Context.InGeneratorContext) && parser.token === SyntaxKind.YieldKeyword) {
+    if (context & (Context.InAwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
           asyncToken
-            ? DiagnosticCode.Cannot_use_yield_as_a_name_on_a_async_generator_function_expression
-            : DiagnosticCode.Cannot_use_yield_as_a_name_on_a_generator_function_expression
+            ? DiagnosticCode.Cannot_use_await_as_a_name_on_a_async_generator_expression
+            : DiagnosticCode.Cannot_use_await_as_a_name_on_a_async_function_expression
         ],
         parser.curPos,
         parser.pos
       );
-    }*/
+    }
     if (
       context & Context.Strict &&
       (parser.token === SyntaxKind.EvalIdentifier || parser.token === SyntaxKind.ArgumentsIdentifier)
@@ -5317,6 +5301,20 @@ function parseFunctionDeclaration(
       name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
     }
   } else {
+    if (context & (Context.InAwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[
+          generatorToken
+            ? DiagnosticCode.Cannot_use_await_as_a_name_on_a_async_generator_declaration
+            : DiagnosticCode.Cannot_use_await_as_a_name_on_a_async_function_declaration
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    }
     if (context & Context.TopLevel && (context & Context.Module) !== Context.Module) {
       addVarName(parser, context, scope, parser.tokenValue, BindingType.Var);
     } else {
@@ -7457,8 +7455,7 @@ export function parseAwaitExpression(
   LeftHandSideContext: LeftHandSide
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
-  if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable))
-    return parseIdentifierReference(parser, context);
+  if (LeftHandSideContext & LeftHandSide.NotBindable) return parseIdentifierReference(parser, context);
   if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -7466,6 +7463,15 @@ export function parseAwaitExpression(
       diagnosticMap[DiagnosticCode._await_keyword_must_not_contain_escaped_characters],
       pos,
       parser.curPos
+    );
+  }
+  if (context & Context.Parameters) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters],
+      pos,
+      parser.pos
     );
   }
   const awaitKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);

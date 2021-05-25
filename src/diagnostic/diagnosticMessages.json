@@ -203,5 +203,9 @@
   "Decorators are not valid here": 205,
   "'import.meta' is the only valid meta property for import": 206,
   "The left-hand side of a 'for...in or of' statement must not be an arrow function": 207,
-  "Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context": 208
+  "Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context": 208,
+  "Cannot use 'await' as a name on a async generator expression": 209,
+  "Cannot use 'await' as a name on a async function expression": 210,
+  "Cannot use 'await' as a name on a async generator declaration": 211,
+  "Cannot use 'await' as a name on a async function declaration": 212
 }

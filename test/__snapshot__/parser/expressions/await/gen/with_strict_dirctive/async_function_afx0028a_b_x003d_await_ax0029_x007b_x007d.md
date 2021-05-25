@@ -149,12 +149,12 @@
 
 ```javascript
 
-async function af(a, b = await a) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `Await` expression cannot be used in function parameters - start: 38, end: 44
+
 ```
 

@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-({ async a(b = await (0)) {} })
+({async foo(a) { await a }});
 `````
 
 ## Output
@@ -30,7 +30,7 @@
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 2,
-                                    "end": 8
+                                    "end": 7
                                 },
                                 "generatorToken": null,
                                 "getKeyword": null,
@@ -39,11 +39,11 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
+                                        "text": "foo",
+                                        "rawText": "foo",
                                         "flags": 96,
-                                        "start": 8,
-                                        "end": 10
+                                        "start": 7,
+                                        "end": 11
                                     },
                                     "typeParameters": null,
                                     "formalParameters": {
@@ -54,49 +54,24 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "text": "b",
-                                                    "rawText": "b",
+                                                    "text": "a",
+                                                    "rawText": "a",
                                                     "flags": 96,
-                                                    "start": 11,
-                                                    "end": 12
+                                                    "start": 12,
+                                                    "end": 13
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": {
-                                                    "kind": 208,
-                                                    "awaitKeyword": {
-                                                        "kind": 82032,
-                                                        "flags": 0,
-                                                        "start": 14,
-                                                        "end": 20
-                                                    },
-                                                    "expression": {
-                                                        "kind": 121,
-                                                        "expression": {
-                                                            "kind": 201392130,
-                                                            "text": 0,
-                                                            "rawText": "0",
-                                                            "flags": 96,
-                                                            "start": 22,
-                                                            "end": 23
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 20,
-                                                        "end": 24
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 14,
-                                                    "end": 24
-                                                },
-                                                "flags": 34,
-                                                "start": 11,
-                                                "end": 24
+                                                "initializer": null,
+                                                "flags": 32,
+                                                "start": 12,
+                                                "end": 13
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 290,
-                                        "start": 11,
-                                        "end": 25
+                                        "flags": 288,
+                                        "start": 12,
+                                        "end": 14
                                     },
                                     "returnType": null,
                                     "contents": {
@@ -104,48 +79,75 @@
                                         "functionStatementList": {
                                             "kind": 217,
                                             "directives": [],
-                                            "statements": [],
+                                            "statements": [
+                                                {
+                                                    "kind": 120,
+                                                    "expression": {
+                                                        "kind": 208,
+                                                        "awaitKeyword": {
+                                                            "kind": 82032,
+                                                            "flags": 0,
+                                                            "start": 16,
+                                                            "end": 22
+                                                        },
+                                                        "expression": {
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
+                                                            "start": 22,
+                                                            "end": 24
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 16,
+                                                        "end": 24
+                                                    },
+                                                    "flags": 16,
+                                                    "start": 16,
+                                                    "end": 24
+                                                }
+                                            ],
                                             "flags": 32,
-                                            "start": 27,
-                                            "end": 27
+                                            "start": 16,
+                                            "end": 24
                                         },
                                         "flags": 32,
-                                        "start": 25,
-                                        "end": 28
+                                        "start": 14,
+                                        "end": 26
                                     },
                                     "flags": 288,
-                                    "start": 10,
-                                    "end": 28
+                                    "start": 11,
+                                    "end": 26
                                 },
                                 "flags": 32,
                                 "start": 2,
-                                "end": 28
+                                "end": 26
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
                         "start": 2,
-                        "end": 28
+                        "end": 26
                     },
                     "flags": 48,
                     "start": 1,
-                    "end": 30
+                    "end": 27
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 31
+                "end": 28
             },
             "flags": 16,
             "start": 0,
-            "end": 31
+            "end": 29
         }
     ],
     "isModule": false,
-    "source": "({ async a(b = await (0)) {} })",
+    "source": "({async foo(a) { await a }});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 31
+    "end": 29
 }
 ```
 
@@ -153,12 +155,14 @@
 
 ```javascript
 
+({ async foo(a) {
+    await a;
+  } });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 14, end: 20
-
+✔ No errors
 ```
 

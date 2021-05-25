@@ -335,18 +335,12 @@ async function f(){
 
 ```javascript
 
-async function f() {
-  (fail = class A {
-    async [x](y = await z) {}
-
-    "\"x\""() {}
-  }) =>  {};
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `Await` expression cannot be used in function parameters - start: 51, end: 56
+
 ```
 

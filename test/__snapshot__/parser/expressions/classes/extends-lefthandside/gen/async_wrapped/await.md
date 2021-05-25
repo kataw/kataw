@@ -144,12 +144,14 @@ async function p(){
 
 ```javascript
 
+async function p() {
+  class C  {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 37, end: 43
-
+✔ No errors
 ```
 

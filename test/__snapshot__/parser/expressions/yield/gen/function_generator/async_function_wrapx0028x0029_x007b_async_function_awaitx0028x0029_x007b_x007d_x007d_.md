@@ -249,7 +249,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 78, end: 84
+✖ Cannot use 'await' as a name on a async function declaration - start: 78, end: 84
 
 ```
 

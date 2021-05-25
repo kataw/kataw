@@ -135,12 +135,14 @@
 
 ```javascript
 
+async function f({
+  await
+}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 32, end: 38
-
+✔ No errors
 ```
 

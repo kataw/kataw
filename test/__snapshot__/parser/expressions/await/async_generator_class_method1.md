@@ -295,16 +295,12 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
 
 ```javascript
 
-async function g() {
-  class x {
-    async f(foo = [h, { m: t(await bar) }]) {}
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `Await` expression cannot be used in function parameters - start: 53, end: 58
+
 ```
 

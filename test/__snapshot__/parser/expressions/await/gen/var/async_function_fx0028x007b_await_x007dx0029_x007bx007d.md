@@ -252,12 +252,17 @@ var await; var f = (async function() { async function f({ await }) {} });
 
 ```javascript
 
+var await;
+var f = (async function () {
+    async function f({
+      await
+    }) {}
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 57, end: 63
-
+✔ No errors
 ```
 

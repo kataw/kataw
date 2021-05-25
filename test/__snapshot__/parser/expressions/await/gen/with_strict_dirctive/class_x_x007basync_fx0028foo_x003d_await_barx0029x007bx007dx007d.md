@@ -173,14 +173,12 @@
 
 ```javascript
 
-class x {
-  async f(foo = await bar) {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `Await` expression cannot be used in function parameters - start: 36, end: 42
+
 ```
 

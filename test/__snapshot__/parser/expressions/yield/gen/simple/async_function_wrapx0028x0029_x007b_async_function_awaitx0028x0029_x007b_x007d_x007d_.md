@@ -148,7 +148,7 @@ async function wrap() { async function await() { } };
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 38, end: 44
+✖ Cannot use 'await' as a name on a async function declaration - start: 38, end: 44
 
 ```
 

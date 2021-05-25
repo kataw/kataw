@@ -7738,8 +7738,8 @@ async function * gen() {class C extends await { }}
 ✖ 'await' cannot be used as an identifier here - start: 125, end: 131
 ✖ 'yield' cannot be used as an identifier here - start: 173, end: 178
 ✖ 'await' cannot be used as an identifier here - start: 224, end: 229
-✖ 'await' cannot be used as an identifier here - start: 314, end: 320
-✖ 'await' cannot be used as an identifier here - start: 542, end: 548
+✖ Cannot use 'await' as a name on a async function declaration - start: 314, end: 320
+✖ Cannot use 'await' as a name on a async generator expression - start: 542, end: 548
 ✖ `Yield` expression cannot be used in function parameters - start: 676, end: 681
 ✖ `Yield` expression cannot be used in function parameters - start: 734, end: 739
 ✖ `Await` expression cannot be used in function parameters - start: 792, end: 797
@@ -7832,7 +7832,6 @@ async function * gen() {class C extends await { }}
 ✖ Declaration or statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3327, end: 3335
 ✖ Missing an opening brace - '{ - start: 3337, end: 3338
-✖ 'await' cannot be used as an identifier here - start: 3378, end: 3384
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3389, end: 3389
 
 ```
