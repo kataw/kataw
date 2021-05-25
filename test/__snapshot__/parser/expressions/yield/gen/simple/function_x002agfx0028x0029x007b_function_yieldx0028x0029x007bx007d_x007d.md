@@ -138,12 +138,15 @@ function *gf(){ function yield(){}; }
 
 ```javascript
 
+function * gf() {
+  function yield() {}
+
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'yield' cannot be used as an identifier here - start: 24, end: 30
-
+✔ No errors
 ```
 

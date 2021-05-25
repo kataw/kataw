@@ -106,12 +106,12 @@
 
 ```javascript
 
+var x = yield =>  1;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 21, end: 27
-
+✔ No errors
 ```
 

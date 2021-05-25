@@ -169,12 +169,16 @@ function * g() {
 
 ```javascript
 
+function * g() {
+  class C {
+    import ;
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 41, end: 53
-
+✔ No errors
 ```
 

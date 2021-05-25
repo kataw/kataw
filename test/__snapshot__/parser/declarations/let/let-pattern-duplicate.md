@@ -1331,7 +1331,7 @@ let x = a; let x = b;
 ✖ Duplicate identifier - start: 185, end: 187
 ✖ Duplicate identifier - start: 195, end: 196
 ✖ Duplicate identifier - start: 213, end: 215
-✖ Binding identifier expected - start: 220, end: 221
+✖ Identifier expected - start: 220, end: 221
 ✖ Duplicate identifier - start: 222, end: 223
 ✖ Duplicate identifier - start: 240, end: 242
 ✖ Duplicate identifier - start: 248, end: 249

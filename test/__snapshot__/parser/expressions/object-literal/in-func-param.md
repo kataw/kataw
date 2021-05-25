@@ -141,7 +141,7 @@ function test({...{}}) {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 18, end: 19
+✖ Identifier expected - start: 18, end: 19
 
 ```
 

@@ -157,7 +157,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 29, end: 30
+✖ Identifier expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 31, end: 33
 
 ```

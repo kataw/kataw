@@ -131,12 +131,14 @@ class x {static * yield(){}}
 
 ```javascript
 
+class x {
+  static static yield() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 17, end: 23
-
+✔ No errors
 ```
 

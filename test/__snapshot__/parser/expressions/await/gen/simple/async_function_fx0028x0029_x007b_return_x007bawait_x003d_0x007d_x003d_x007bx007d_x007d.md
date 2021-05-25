@@ -165,7 +165,6 @@ async function f() { return {await = 0} = {}; }
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 29, end: 34
 ✖ Identifier expected. Reserved word in strict mode - start: 34, end: 36
 
 ```

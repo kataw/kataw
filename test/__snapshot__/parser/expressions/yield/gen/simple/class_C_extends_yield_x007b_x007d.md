@@ -89,12 +89,12 @@ class C extends yield { }
 
 ```javascript
 
+class C  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 21
-
+✔ No errors
 ```
 

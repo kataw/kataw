@@ -191,7 +191,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
 ### Diagnostics
 
 ```javascript
-✖ 'yield' cannot be used as an identifier here - start: 45, end: 51
 ✖ Declaration or statement expected - start: 60, end: 61
 
 ```

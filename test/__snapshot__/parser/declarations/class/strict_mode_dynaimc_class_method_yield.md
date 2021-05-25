@@ -172,12 +172,14 @@ class x{[yield](a){}}
 
 ```javascript
 
+class x {
+  [yield](a) {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 23, end: 28
-
+✔ No errors
 ```
 

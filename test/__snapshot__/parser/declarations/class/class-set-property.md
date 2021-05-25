@@ -170,7 +170,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 15, end: 19
+✖ Identifier expected - start: 15, end: 19
 
 ```
 

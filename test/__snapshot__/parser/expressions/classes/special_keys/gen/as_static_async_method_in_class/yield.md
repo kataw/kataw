@@ -131,12 +131,14 @@ class x {static async yield(){}}
 
 ```javascript
 
+class x {
+  async static static yield() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 21, end: 27
-
+✔ No errors
 ```
 

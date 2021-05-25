@@ -208,12 +208,15 @@ var await; var f = (async function() { ({ await: async }) });
 
 ```javascript
 
+var await;
+var f = (async function () {
+    ({ await: async });
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 41, end: 47
-
+✔ No errors
 ```
 

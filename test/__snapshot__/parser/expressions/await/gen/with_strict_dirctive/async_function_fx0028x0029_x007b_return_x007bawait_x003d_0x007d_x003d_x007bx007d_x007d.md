@@ -174,7 +174,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 43, end: 48
 ✖ Identifier expected. Reserved word in strict mode - start: 48, end: 50
 
 ```

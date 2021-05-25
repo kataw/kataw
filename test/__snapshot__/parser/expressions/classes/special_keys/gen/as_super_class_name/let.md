@@ -94,7 +94,7 @@ class x extends let {}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. Reserved word in strict mode - start: 15, end: 21
+✖ Identifier expected. Reserved word in strict mode - start: 15, end: 19
 
 ```
 

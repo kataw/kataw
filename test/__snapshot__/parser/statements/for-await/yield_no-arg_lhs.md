@@ -244,12 +244,17 @@ async function f(){
 
 ```javascript
 
+async function f() {
+  for await (yield of x);
+}
+async function f() {
+  for await (yield of x);
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 98, end: 103
-
+✔ No errors
 ```
 

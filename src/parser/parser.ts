@@ -1486,39 +1486,6 @@ function parseIdentifier(
       ? SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier
       : SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
   ) {
-    if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
-      parser.previousErrorPos = pos;
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[
-          context & Context.Parameters
-            ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
-            : context & Context.Strict
-            ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
-            : DiagnosticCode._yield_cannot_be_used_as_an_identifier_here
-        ],
-        curPos,
-        pos
-      );
-    }
-
-    if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[
-          context & Context.Parameters
-            ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
-            : context & Context.Module
-            ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
-            : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
-        ],
-        curPos,
-        pos
-      );
-    }
-
     // 'let' followed by '[' means a lexical declaration, which should not appear here.
     if (token === SyntaxKind.LetKeyword && (parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
       parser.onError(
@@ -2292,22 +2259,6 @@ function parseIdentifierReference(
 
   if (token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     if (parser.previousErrorPos !== parser.pos) {
-      if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[
-            context & Context.Parameters
-              ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
-              : context & Context.Strict
-              ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
-              : DiagnosticCode._yield_cannot_be_used_as_an_identifier_here
-          ],
-          parser.curPos,
-          parser.pos
-        );
-      }
-
       if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -2320,6 +2271,20 @@ function parseIdentifierReference(
               : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
           ],
           parser.curPos,
+          parser.pos
+        );
+      }
+
+      if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[
+            parser.token === SyntaxKind.YieldKeyword
+              ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+              : DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode
+          ],
+          curPos,
           parser.pos
         );
       }
@@ -2493,19 +2458,9 @@ function parsePrimaryExpression(
 
   const { curPos, tokenValue, token } = parser;
 
-  const expr = parseIdentifier(parser, context);
+  const expr = parseIdentifierReference(parser, context);
 
   if (token & SyntaxKind.IsFutureReserved) {
-    if (context & Context.Strict) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-        curPos,
-        parser.pos
-      );
-    }
-
     if (parser.token === SyntaxKind.Arrow) {
       if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NotBindable)) {
         parser.onError(
@@ -4739,7 +4694,7 @@ function parsePropertyName(
     case SyntaxKind.PrivateIdentifier:
       return parsePrivateIdentifier(parser, context);
     default:
-      return parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected, true);
+      return parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, true);
   }
 }
 
@@ -5060,7 +5015,7 @@ function parseFunctionExpression(
             scope,
             /* typeParameters */ null,
             /* returnType */ null,
-            /* params */ parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected),
+            /* params */ parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected),
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -5124,7 +5079,7 @@ function parseFunctionExpression(
 
   // The name is optional
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    if (generatorToken && parser.token === SyntaxKind.YieldKeyword) {
+    /*if (context & (Context.Strict | Context.InGeneratorContext) && parser.token === SyntaxKind.YieldKeyword) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
@@ -5137,7 +5092,7 @@ function parseFunctionExpression(
         parser.curPos,
         parser.pos
       );
-    }
+    }*/
     if (
       context & Context.Strict &&
       (parser.token === SyntaxKind.EvalIdentifier || parser.token === SyntaxKind.ArgumentsIdentifier)
@@ -5342,16 +5297,6 @@ function parseFunctionDeclaration(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-        parser.curPos,
-        parser.pos
-      );
-    }
-
-    if (parser.token & SyntaxKind.IsFutureReserved) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
         parser.curPos,
         parser.pos
       );

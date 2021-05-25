@@ -158,12 +158,12 @@
 
 ```javascript
 
+({ * yield(x, y) {} });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 17, end: 22
-
+✔ No errors
 ```
 

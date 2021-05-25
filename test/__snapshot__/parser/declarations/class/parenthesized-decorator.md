@@ -456,11 +456,11 @@ class Foo {
 ✖ Missing an opening brace - '{ - start: 5, end: 6
 ✖ Expression expected - start: 7, end: 8
 ✖ Expected a `;` - start: 11, end: 12
-✖ Binding identifier expected - start: 28, end: 29
+✖ Identifier expected - start: 28, end: 29
 ✖ ',' expected - start: 35, end: 36
 ✖ Missing an opening brace - '{ - start: 48, end: 55
 ✖ Expression expected - start: 48, end: 55
-✖ Binding identifier expected - start: 65, end: 66
+✖ Identifier expected - start: 65, end: 66
 ✖ ',' expected - start: 69, end: 71
 ✖ Expected a ')' to match the '(' token here - start: 69, end: 71
 ✖ Expression expected - start: 69, end: 71

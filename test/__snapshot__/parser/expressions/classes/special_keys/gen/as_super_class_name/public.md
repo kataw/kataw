@@ -94,7 +94,7 @@ class x extends public {}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. Reserved word in strict mode - start: 15, end: 24
+✖ Identifier expected. Reserved word in strict mode - start: 15, end: 22
 
 ```
 

@@ -155,12 +155,12 @@
 
 ```javascript
 
+x = class   {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
-
+✔ No errors
 ```
 

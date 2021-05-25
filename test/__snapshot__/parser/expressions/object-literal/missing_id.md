@@ -115,7 +115,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 6, end: 7
+✖ Identifier expected - start: 6, end: 7
 
 ```
 

@@ -3113,25 +3113,10 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 18, end: 24
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 51, end: 57
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 84, end: 90
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 113, end: 118
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 142, end: 147
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 176, end: 181
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 207, end: 212
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 245, end: 250
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 278, end: 284
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 310, end: 315
 ✖ Identifier expected. Reserved word in strict mode - start: 315, end: 316
 ✖ Identifier expected. Reserved word in strict mode - start: 315, end: 316
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 341, end: 346
 ✖ Identifier expected. Reserved word in strict mode - start: 346, end: 348
 ✖ Identifier expected. Reserved word in strict mode - start: 346, end: 348
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 379, end: 385
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 406, end: 412
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 448, end: 454
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 488, end: 494
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 529, end: 535
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 565, end: 571
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 607, end: 612

@@ -470,9 +470,7 @@ function *foo() { let x = {yield} }
 ### Diagnostics
 
 ```javascript
-✖ 'yield' cannot be used as an identifier here - start: 90, end: 95
 ✖ Identifier expected. Reserved word in strict mode - start: 95, end: 96
-✖ 'yield' cannot be used as an identifier here - start: 132, end: 137
 ✖ Identifier expected. Reserved word in strict mode - start: 137, end: 138
 
 ```

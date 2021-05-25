@@ -174,7 +174,7 @@ var { ...{ x = 5 } } = {x : 1};
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 9, end: 10
+✖ Identifier expected - start: 9, end: 10
 
 ```
 

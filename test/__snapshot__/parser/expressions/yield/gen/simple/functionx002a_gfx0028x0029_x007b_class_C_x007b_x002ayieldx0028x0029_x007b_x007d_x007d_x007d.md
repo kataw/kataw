@@ -179,12 +179,16 @@ function* gf() { class C { *yield() { } } }
 
 ```javascript
 
+function * gf() {
+  class C {
+    yield() {}
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 28, end: 33
-
+✔ No errors
 ```
 

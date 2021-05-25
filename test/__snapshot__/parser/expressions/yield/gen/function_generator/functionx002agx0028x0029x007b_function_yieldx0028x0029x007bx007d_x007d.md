@@ -239,12 +239,19 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
 
 ```javascript
 
+function * gen() {
+  function not_gen() {
+    function * g() {
+      function yield() {}
+
+    }
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'yield' cannot be used as an identifier here - start: 62, end: 68
-
+✔ No errors
 ```
 

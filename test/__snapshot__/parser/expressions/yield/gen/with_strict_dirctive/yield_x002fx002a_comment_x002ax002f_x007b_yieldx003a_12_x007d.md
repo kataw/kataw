@@ -118,9 +118,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 13, end: 19
 ✖ Expected a `;` - start: 19, end: 35
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 35, end: 41
 ✖ Identifier expected. Reserved word in strict mode - start: 35, end: 42
 
 ```

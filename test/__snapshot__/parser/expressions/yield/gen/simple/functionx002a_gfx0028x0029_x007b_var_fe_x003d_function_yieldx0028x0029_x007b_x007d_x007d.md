@@ -168,12 +168,14 @@ function* gf() { var fe = function yield() { } }
 
 ```javascript
 
+function * gf() {
+  var fe = function yield() {};
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'yield' cannot be used as an identifier here - start: 34, end: 40
-
+✔ No errors
 ```
 

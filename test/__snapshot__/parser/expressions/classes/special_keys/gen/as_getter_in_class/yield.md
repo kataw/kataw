@@ -126,12 +126,14 @@ class x {get yield(){}}
 
 ```javascript
 
+class x {
+  get yield() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 12, end: 18
-
+✔ No errors
 ```
 

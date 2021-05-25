@@ -95,14 +95,12 @@
 
 ```javascript
 
+(yield) ? yield : yield;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 20
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 23, end: 29
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 31, end: 37
-
+✔ No errors
 ```
 

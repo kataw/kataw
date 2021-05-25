@@ -84,7 +84,6 @@ yield: 1;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 0, end: 5
 ✖ Identifier expected. Reserved word in strict mode - start: 0, end: 6
 
 ```

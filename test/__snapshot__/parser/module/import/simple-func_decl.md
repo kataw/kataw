@@ -238,7 +238,7 @@ x@{x9}@+@{x9}@y
 ```javascript
 ✖ Missing an opening brace - '{ - start: 5, end: 6
 ✖ Binding identifier expected - start: 8, end: 9
-✖ Binding identifier expected - start: 9, end: 10
+✖ Identifier expected - start: 9, end: 10
 ✖ Binding identifier expected - start: 15, end: 15
 
 ```

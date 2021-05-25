@@ -227,7 +227,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 19, end: 20
+✖ Identifier expected - start: 19, end: 20
 
 ```
 

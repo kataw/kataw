@@ -3553,7 +3553,7 @@
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 19
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 34, end: 35
-✖ Binding identifier expected - start: 36, end: 37
+✖ Identifier expected - start: 36, end: 37
 ✖ Binding identifier expected - start: 47, end: 48
 ✖ Invalid character - start: 62, end: 63
 ✖ Missing an opening brace - '{ - start: 106, end: 108
@@ -3592,11 +3592,9 @@
 ✖ Missing an opening brace - '{ - start: 256, end: 257
 ✖ Expression expected - start: 256, end: 257
 ✖ Expression expected - start: 257, end: 258
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 270, end: 275
 ✖ Missing an opening brace - '{ - start: 280, end: 281
 ✖ Expression expected - start: 280, end: 281
 ✖ Expression expected - start: 281, end: 282
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 294, end: 299
 ✖ The parser expected to find a '}' to match the '{' token here - start: 302, end: 305
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 285, end: 302
 ✖ Declaration or statement expected - start: 308, end: 309

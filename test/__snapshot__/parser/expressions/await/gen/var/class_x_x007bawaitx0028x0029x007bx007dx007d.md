@@ -247,12 +247,17 @@ var await; var f = (async function() { class x {await(){}} });
 
 ```javascript
 
+var await;
+var f = (async function () {
+    class x {
+      await() {}
+    }
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 48, end: 53
-
+✔ No errors
 ```
 

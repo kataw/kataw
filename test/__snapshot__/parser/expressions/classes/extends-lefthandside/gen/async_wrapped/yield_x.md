@@ -186,7 +186,6 @@ x {}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
 ✖ Missing an opening brace - '{ - start: 43, end: 45
 ✖ Expression expected - start: 45, end: 47
 

@@ -169,12 +169,16 @@ function f() { class C { yield() { } } }
 
 ```javascript
 
+function f() {
+  class C {
+    yield() {}
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 24, end: 30
-
+✔ No errors
 ```
 

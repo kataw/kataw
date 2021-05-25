@@ -291,7 +291,6 @@ var await; var f = (async function() { async function f() { return {await = 0} =
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 68, end: 73
 ✖ Identifier expected. Reserved word in strict mode - start: 73, end: 75
 
 ```

@@ -80,7 +80,6 @@ export default yield x
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 14, end: 20
 ✖ Expected a `;` - start: 20, end: 22
 
 ```

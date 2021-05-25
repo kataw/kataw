@@ -270,12 +270,20 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
 
 ```javascript
 
+function * gen() {
+  function not_gen() {
+    function f() {
+      class C {
+        yield() {}
+      }
+    }
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 64, end: 70
-
+✔ No errors
 ```
 

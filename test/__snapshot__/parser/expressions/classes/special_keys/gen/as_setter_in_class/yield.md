@@ -145,12 +145,14 @@ class x {set yield(x){}}
 
 ```javascript
 
+class x {
+  set yield(x) {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 12, end: 18
-
+✔ No errors
 ```
 

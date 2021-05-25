@@ -167,7 +167,7 @@ var {...{z}} = { z: 1};
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 8, end: 9
+✖ Identifier expected - start: 8, end: 9
 
 ```
 

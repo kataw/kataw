@@ -89,12 +89,12 @@ class A extends yield {}
 
 ```javascript
 
+class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 21
-
+✔ No errors
 ```
 

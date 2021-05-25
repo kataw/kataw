@@ -76,12 +76,12 @@
 
 ```javascript
 
+[...yield];
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 4, end: 9
-
+✔ No errors
 ```
 
