@@ -114,7 +114,6 @@
 
 ```javascript
 ✖ A rest parameter must be last in a parameter list - start: 5, end: 6
-✖ A rest parameter must be last in a parameter list - start: 5, end: 6
 
 ```
 

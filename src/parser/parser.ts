@@ -3196,7 +3196,7 @@ function paresSpreadPropertyArgument(
 
     // A spread or rest element / property may not have a trailing comma, so we are setting the
     // destructible state to 'NotDestructible' for cases like '..., )',  '..., }'  and '..., ]'.
-    if (parser.token & SyntaxKind.IsComma) {
+    if (parser.token === SyntaxKind.Comma) {
       parser.destructible = DestructibleKind.NotDestructible;
       return argument;
     }
@@ -3216,7 +3216,10 @@ function paresSpreadPropertyArgument(
 
     if (!parser.assignable) {
       destructible |= DestructibleKind.NotDestructible;
-    } else if (parser.token === SyntaxKind.Comma || (parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
+    } else if (
+      (parser.token as SyntaxKind) === SyntaxKind.Comma ||
+      (parser.token as SyntaxKind) === SyntaxKind.RightBrace
+    ) {
       addVarOrBlock(parser, context, scope, tokenValue, type);
     } else {
       destructible |= DestructibleKind.Assignable;
@@ -3736,7 +3739,7 @@ function parseArrayLiteralElement(
 
     // Array with only one identifier, should be 'destructible' except for a few valid identifiers / keywords
     // that can't be assigned to. For example `true` and `typeof`.
-    if (parser.token === SyntaxKind.RightBracket || parser.token & SyntaxKind.IsComma) {
+    if (parser.token === SyntaxKind.RightBracket || parser.token === SyntaxKind.Comma) {
       if (parser.assignable) {
         addVarOrBlock(parser, context, scope, tokenValue, type);
         parser.destructible = DestructibleKind.None;
@@ -3873,7 +3876,7 @@ function parseArraySpreadArgument(parser: ParserState, context: Context, scope: 
 
     // A spread or rest element / property may not have a trailing comma, so we are setting the
     // destructible state to 'NotDestructible' for cases like '..., )',  '..., }'  and '..., ]'.
-    if (parser.token & SyntaxKind.IsComma) {
+    if (parser.token === SyntaxKind.Comma) {
       parser.destructible = DestructibleKind.NotDestructible;
       return argument;
     }
@@ -3890,7 +3893,7 @@ function parseArraySpreadArgument(parser: ParserState, context: Context, scope: 
 
     if (!parser.assignable) {
       destructible |= DestructibleKind.NotDestructible;
-    } else if (parser.token === SyntaxKind.Comma || (parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
+    } else if ((parser.token as SyntaxKind) || (parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
       addVarOrBlock(parser, context, scope, tokenValue, type);
     } else {
       destructible |= DestructibleKind.Assignable;
@@ -4720,18 +4723,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   }
 
   expression = createCommaOperator(expressions, curPos, parser.curPos);
-
-  if (destructible & DestructibleKind.MustDestruct) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[
-        DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
-      ],
-      parser.curPos,
-      parser.pos
-    );
-  }
 
   if (destructible & DestructibleKind.MustDestruct) {
     parser.onError(
@@ -5705,17 +5696,7 @@ function parseFormalParameter(parser: ParserState, context: Context, scope: Scop
   if (ellipsisToken) {
     nodeflags |= NodeFlags.NoneSimpleParamList;
     parser.diagnosticStartPos = pos;
-    if (parser.token & SyntaxKind.IsComma) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.A_rest_parameter_must_be_last_in_a_parameter_list],
-        parser.curPos,
-        parser.pos
-      );
-    }
-
-    if (parser.token & SyntaxKind.IsComma) {
+    if (parser.token === SyntaxKind.Comma) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -8619,6 +8600,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     const pos = parser.curPos;
 
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+      addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
+
       expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
       if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
@@ -8714,6 +8697,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           : parseObjectLiteralOrAssignmentExpression(parser, context, null, BindingType.ArgumentList);
 
       parser.diagnosticStartPos = pos;
+
       flags |= NodeFlags.NoneSimpleParamList;
 
       if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
@@ -8777,8 +8761,6 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
         destructible = parser.destructible;
 
-        parser.assignable = false;
-
         if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightParen) {
           if (destructible & DestructibleKind.MustDestruct) {
             parser.onError(
@@ -8799,20 +8781,9 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           destructible |= DestructibleKind.NotDestructible;
 
-          if ((parser.token & SyntaxKind.IsAssignOp) > 0) {
-            if (!parser.assignable) {
-              parser.onError(
-                DiagnosticSource.Parser,
-                DiagnosticKind.Error,
-                diagnosticMap[
-                  DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
-                ],
-                parser.curPos,
-                parser.pos
-              );
-            }
+          if (parser.token & SyntaxKind.IsAssignOp) {
             expression = parseAssignmentExpression(parser, context, expression, pos);
-          } else if ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
+          } else if (parser.token & SyntaxKind.IsBinaryOp) {
             expression = parseBinaryExpression(parser, context, expression, 4, parser.token, pos);
             if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
               expression = parseConditionalExpression(parser, context, expression, pos);
@@ -8823,14 +8794,6 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             } else {
               destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
             }
-          }
-
-          if (
-            (parser.token as SyntaxKind) !== SyntaxKind.Comma ||
-            (parser.token as SyntaxKind) !== SyntaxKind.LeftParen
-          ) {
-            expression = parseAssignmentExpression(parser, context, expression, pos);
-            destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
           }
         }
       }
@@ -8907,7 +8870,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           // '... )' , '... ]' and '... }'
           if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
             destructible |= parser.assignable ? DestructibleKind.Destructible : DestructibleKind.NotDestructible;
-          } else if (parser.token & SyntaxKind.IsComma) {
+          } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
             destructible = DestructibleKind.NotDestructible;
           } else {
             // This is the slow path. We shouldn't care too much about performance
