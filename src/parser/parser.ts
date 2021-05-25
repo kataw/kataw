@@ -7,7 +7,7 @@ import { createBlock, Block } from '../ast/statements/block';
 import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
 import { createBreakStatement, BreakStatement } from '../ast/statements/break-stmt';
 import { createContinueStatement, ContinueStatement } from '../ast/statements/continue-stmt';
-import { createLabels } from '../ast/statements/labelled-identifier';
+import { createLabels } from '../ast/statements/labels';
 import { createCaseBlock, CaseBlock } from '../ast/statements/case-block';
 import { createCaseClause, CaseClause } from '../ast/statements/case-clause';
 import { createCatch, CatchClause } from '../ast/statements/catch-stmt';
@@ -1108,7 +1108,6 @@ function parseForStatement(
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
   if (awaitKeyword && (context & Context.InAwaitContext) === 0) {
-
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -8103,12 +8102,7 @@ export function parseClassElement(
             );
           }
           nodeFlags |= NodeFlags.Async;
-          asyncKeyword = createToken(
-            SyntaxKind.AsyncKeyword,
-            flags | NodeFlags.ChildLess,
-            pos,
-            parser.curPos
-          );
+          asyncKeyword = createToken(SyntaxKind.AsyncKeyword, flags | NodeFlags.ChildLess, pos, parser.curPos);
           generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
           if (generatorToken) nodeFlags |= NodeFlags.Generator;
           break;

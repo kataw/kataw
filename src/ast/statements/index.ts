@@ -26,36 +26,38 @@ import { TryStatement } from './try-stmt';
 import { ThrowStatement } from './throw-stmt';
 import { SwitchStatement } from './switch-stmt';
 import { ReturnStatement } from './return-stmt';
+import { Labels } from './labels';
 
 /**
  * The set of all syntax items which are statements.
  */
 export type StatementNode =
-  | BlockStatement
+  | BindingList
   | Block
+  | BlockStatement
   | BreakStatement
-  | ContinueStatement
   | CaseBlock
   | CaseClause
   | CatchClause
-  | FunctionDeclaration
+  | ContinueStatement
   | DebuggerStatement
   | DefaultClause
   | DoWhileStatement
-  | WhileStatement
-  | WithStatement
   | EmptyStatement
   | ExpressionStatement
   | ForInStatement
   | ForOfStatement
   | ForStatement
+  | FunctionDeclaration
   | IfStatement
   | LabelledStatement
+  | Labels
   | LexicalBinding
   | LexicalDeclaration
-  | BindingList
-  | VariableStatement
-  | TryStatement
-  | ThrowStatement
+  | ReturnStatement
   | SwitchStatement
-  | ReturnStatement;
+  | ThrowStatement
+  | TryStatement
+  | VariableStatement
+  | WhileStatement
+  | WithStatement;

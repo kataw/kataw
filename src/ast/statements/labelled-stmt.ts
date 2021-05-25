@@ -2,7 +2,7 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { StatementNode } from '.';
 import { Identifier } from '../expressions/identifier-expr';
-import { Labels } from './labelled-identifier';
+import { Labels } from './labels';
 
 /**
  * Labelled statement
