@@ -34,6 +34,10 @@ parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
 - Performance
 
+### Current state
+
+- The CST parser can be used in production
+
 ### Recovery mode
 
 The recovery mode is enabled by default. See the readme in the `parser folder` for further details.
