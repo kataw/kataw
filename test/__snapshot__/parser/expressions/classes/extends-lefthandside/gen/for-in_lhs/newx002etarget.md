@@ -19,19 +19,13 @@ for (new.target in x) ;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 15,
-                "end": 18
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 211,
                 "newKeyword": {
@@ -49,6 +43,12 @@ for (new.target in x) ;
                 "flags": 96,
                 "start": 5,
                 "end": 15
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 15,
+                "end": 18
             },
             "expression": {
                 "kind": 134299649,

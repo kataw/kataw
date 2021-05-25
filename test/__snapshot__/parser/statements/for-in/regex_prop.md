@@ -35,19 +35,13 @@ for (/foo/.x in c) d;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 12,
-                "end": 15
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 129,
                 "member": {
@@ -68,6 +62,12 @@ for (/foo/.x in c) d;
                 "flags": 536870944,
                 "start": 5,
                 "end": 12
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 12,
+                "end": 15
             },
             "expression": {
                 "kind": 134299649,

@@ -26,12 +26,7 @@ for(let.a of 0);
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 9,
-                "end": 12
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 129,
                 "member": {
@@ -54,6 +49,12 @@ for(let.a of 0);
                 "start": 4,
                 "end": 9
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 9,
+                "end": 12
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -68,7 +69,6 @@ for(let.a of 0);
                 "start": 15,
                 "end": 16
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 16

@@ -23,12 +23,7 @@ for (let [...foo] of obj);
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 17,
-                "end": 20
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -84,6 +79,12 @@ for (let [...foo] of obj);
                 "start": 8,
                 "end": 17
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 17,
+                "end": 20
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
@@ -98,7 +99,6 @@ for (let [...foo] of obj);
                 "start": 25,
                 "end": 26
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 26

@@ -19,19 +19,13 @@ for (let x in {}) { var x; }
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 10,
-                "end": 13
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -56,6 +50,12 @@ for (let x in {}) { var x; }
                 "flags": 16777232,
                 "start": 8,
                 "end": 10
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 10,
+                "end": 13
             },
             "expression": {
                 "kind": 220,

@@ -279,8 +279,8 @@ export function parse(
 
   // HTML close
   // https://tc39.es/ecma262/#sec-html-like-comments
-  if (!isModule && source.charCodeAt(0) === Char.Hyphen) {
-    if (source.charCodeAt(2) === Char.GreaterThan && source.charCodeAt(1) === Char.Hyphen) {
+  if (!isModule && source.charCodeAt(pos) === Char.Hyphen) {
+    if (source.charCodeAt(pos + 2) === Char.GreaterThan && source.charCodeAt(pos + 1) === Char.Hyphen) {
       pos = 3;
       while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
         pos++;
@@ -638,15 +638,6 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
 function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState): CatchClause {
   const pos = parser.curPos;
   const catchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.CatchKeyword);
-  if (catchToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
   // Keep shape of node to avoid degrading performance.
   let catchParameter = null;
   let initializer = null;
@@ -1117,6 +1108,7 @@ function parseForStatement(
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
   if (awaitKeyword && (context & Context.InAwaitContext) === 0) {
+
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1337,6 +1329,7 @@ function parseForStatement(
       );
     }
   }
+
   let condition: ExpressionNode | null = null;
   let incrementor: ExpressionNode | null = null;
 

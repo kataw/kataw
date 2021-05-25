@@ -19,19 +19,13 @@ for (async function f(){} in x) ;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 25,
-                "end": 28
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 177,
                 "asyncKeyword": {
@@ -82,6 +76,12 @@ for (async function f(){} in x) ;
                 "flags": 160,
                 "start": 5,
                 "end": 25
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 25,
+                "end": 28
             },
             "expression": {
                 "kind": 134299649,

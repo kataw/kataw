@@ -31,12 +31,7 @@ for ([{x=y}]=x of x) ;
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 14,
-                "end": 17
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 125,
                 "left": {
@@ -109,6 +104,12 @@ for ([{x=y}]=x of x) ;
                 "start": 5,
                 "end": 14
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 14,
+                "end": 17
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "x",
@@ -123,7 +124,6 @@ for ([{x=y}]=x of x) ;
                 "start": 20,
                 "end": 22
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 22

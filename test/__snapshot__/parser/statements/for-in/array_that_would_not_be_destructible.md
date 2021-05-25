@@ -35,19 +35,13 @@ for ([x + y] in obj);
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 12,
-                "end": 15
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 119,
                 "elementList": {
@@ -90,6 +84,12 @@ for ([x + y] in obj);
                 "flags": 32,
                 "start": 5,
                 "end": 12
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 12,
+                "end": 15
             },
             "expression": {
                 "kind": 134299649,

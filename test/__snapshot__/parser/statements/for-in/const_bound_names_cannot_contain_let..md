@@ -35,19 +35,13 @@ for (const [let] in obj);
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 16,
-                "end": 19
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -97,6 +91,12 @@ for (const [let] in obj);
                 "flags": 16777232,
                 "start": 10,
                 "end": 16
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 16,
+                "end": 19
             },
             "expression": {
                 "kind": 134299649,

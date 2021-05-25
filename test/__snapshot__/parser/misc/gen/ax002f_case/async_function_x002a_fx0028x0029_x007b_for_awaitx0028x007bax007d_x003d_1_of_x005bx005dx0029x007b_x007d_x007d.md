@@ -69,11 +69,11 @@ async function * f() { for await({a} = 1 of []){ } }
                                 "start": 22,
                                 "end": 26
                             },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 0,
-                                "start": 40,
-                                "end": 43
+                            "awaitKeyword": {
+                                "kind": 82032,
+                                "flags": 64,
+                                "start": 26,
+                                "end": 32
                             },
                             "initializer": {
                                 "kind": 125,
@@ -118,6 +118,12 @@ async function * f() { for await({a} = 1 of []){ } }
                                 "start": 33,
                                 "end": 40
                             },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 0,
+                                "start": 40,
+                                "end": 43
+                            },
                             "expression": {
                                 "kind": 119,
                                 "elementList": {
@@ -144,12 +150,6 @@ async function * f() { for await({a} = 1 of []){ } }
                                 "flags": 16,
                                 "start": 47,
                                 "end": 50
-                            },
-                            "awaitKeyword": {
-                                "kind": 82032,
-                                "flags": 64,
-                                "start": 26,
-                                "end": 32
                             },
                             "flags": 16,
                             "start": 22,

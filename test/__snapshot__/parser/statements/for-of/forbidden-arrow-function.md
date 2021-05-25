@@ -23,12 +23,7 @@ for (async of => {} of x);
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 19,
-                "end": 22
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 271,
                 "arrowToken": {
@@ -71,6 +66,12 @@ for (async of => {} of x);
                 "start": 5,
                 "end": 19
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 19,
+                "end": 22
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "x",
@@ -85,7 +86,6 @@ for (async of => {} of x);
                 "start": 25,
                 "end": 26
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 26

@@ -19,19 +19,13 @@ for (async a => b in x) ;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 17,
-                "end": 20
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 271,
                 "arrowToken": {
@@ -67,6 +61,12 @@ for (async a => b in x) ;
                 "flags": 288,
                 "start": 5,
                 "end": 17
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 17,
+                "end": 20
             },
             "expression": {
                 "kind": 134299649,

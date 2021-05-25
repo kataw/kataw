@@ -52,12 +52,7 @@ a => {
                                     "start": 6,
                                     "end": 12
                                 },
-                                "ofKeyword": {
-                                    "kind": 16793717,
-                                    "flags": 64,
-                                    "start": 19,
-                                    "end": 22
-                                },
+                                "awaitKeyword": null,
                                 "initializer": {
                                     "kind": 151,
                                     "bindingList": [
@@ -83,6 +78,12 @@ a => {
                                     "start": 17,
                                     "end": 19
                                 },
+                                "ofKeyword": {
+                                    "kind": 16793717,
+                                    "flags": 64,
+                                    "start": 19,
+                                    "end": 22
+                                },
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "b",
@@ -105,7 +106,6 @@ a => {
                                     "start": 25,
                                     "end": 27
                                 },
-                                "awaitKeyword": null,
                                 "flags": 16,
                                 "start": 6,
                                 "end": 27

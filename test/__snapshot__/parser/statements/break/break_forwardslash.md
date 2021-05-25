@@ -23,12 +23,7 @@ for(x of 3)break/
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 5,
-                "end": 8
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 134299649,
                 "text": "x",
@@ -36,6 +31,12 @@ for(x of 3)break/
                 "flags": 96,
                 "start": 4,
                 "end": 5
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 5,
+                "end": 8
             },
             "expression": {
                 "kind": 201392130,
@@ -64,7 +65,6 @@ for(x of 3)break/
                 "start": 11,
                 "end": 16
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 16

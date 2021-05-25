@@ -27,12 +27,7 @@ async () => {
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 10,
-                "end": 13
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 134299649,
                 "text": "async",
@@ -40,6 +35,12 @@ async () => {
                 "flags": 96,
                 "start": 5,
                 "end": 10
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 10,
+                "end": 13
             },
             "expression": {
                 "kind": 134299649,
@@ -55,7 +56,6 @@ async () => {
                 "start": 16,
                 "end": 17
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 17
@@ -91,12 +91,7 @@ async () => {
                                 "start": 32,
                                 "end": 38
                             },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 64,
-                                "start": 45,
-                                "end": 48
-                            },
+                            "awaitKeyword": null,
                             "initializer": {
                                 "kind": 134299649,
                                 "text": "async",
@@ -104,6 +99,12 @@ async () => {
                                 "flags": 96,
                                 "start": 40,
                                 "end": 45
+                            },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 64,
+                                "start": 45,
+                                "end": 48
                             },
                             "expression": {
                                 "kind": 134299649,
@@ -119,7 +120,6 @@ async () => {
                                 "start": 51,
                                 "end": 52
                             },
-                            "awaitKeyword": null,
                             "flags": 16,
                             "start": 32,
                             "end": 52

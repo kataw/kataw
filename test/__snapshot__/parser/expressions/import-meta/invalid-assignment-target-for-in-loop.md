@@ -22,19 +22,13 @@ for (import.meta in null) ;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 16,
-                "end": 19
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 120,
                 "expression": {
@@ -58,6 +52,12 @@ for (import.meta in null) ;
                 "flags": 16,
                 "start": 11,
                 "end": 16
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 16,
+                "end": 19
             },
             "expression": {
                 "kind": 269,

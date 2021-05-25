@@ -19,19 +19,13 @@ for (`temp {waitforit} late` in x) ;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 28,
-                "end": 31
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 458761,
                 "text": "temp {waitforit} late",
@@ -39,6 +33,12 @@ for (`temp {waitforit} late` in x) ;
                 "flags": 134217824,
                 "start": 5,
                 "end": 28
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 28,
+                "end": 31
             },
             "expression": {
                 "kind": 134299649,

@@ -23,12 +23,7 @@ for (let [...] of obj);
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 14,
-                "end": 17
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -83,6 +78,12 @@ for (let [...] of obj);
                 "start": 8,
                 "end": 14
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 14,
+                "end": 17
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
@@ -97,7 +98,6 @@ for (let [...] of obj);
                 "start": 22,
                 "end": 23
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 23

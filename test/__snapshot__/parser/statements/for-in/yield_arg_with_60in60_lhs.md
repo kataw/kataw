@@ -73,19 +73,13 @@ function *f(){   for (yield x in y in z);   }
                     "directives": [],
                     "statements": [
                         {
+                            "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 0,
                                 "start": 14,
                                 "end": 20
                             },
-                            "inKeyword": {
-                                "kind": 21006388,
-                                "flags": 64,
-                                "start": 29,
-                                "end": 32
-                            },
-                            "kind": 166,
                             "initializer": {
                                 "kind": 229,
                                 "yieldKeyword": {
@@ -107,6 +101,12 @@ function *f(){   for (yield x in y in z);   }
                                 "flags": 32,
                                 "start": 22,
                                 "end": 29
+                            },
+                            "inKeyword": {
+                                "kind": 21006388,
+                                "flags": 64,
+                                "start": 29,
+                                "end": 32
                             },
                             "expression": {
                                 "kind": 198,

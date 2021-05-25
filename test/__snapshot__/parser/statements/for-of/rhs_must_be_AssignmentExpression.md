@@ -42,12 +42,7 @@ for (let x of a,b) c
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 10,
-                "end": 13
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -72,6 +67,12 @@ for (let x of a,b) c
                 "flags": 16777232,
                 "start": 8,
                 "end": 10
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 10,
+                "end": 13
             },
             "expression": {
                 "kind": 134299649,
@@ -110,7 +111,6 @@ for (let x of a,b) c
                 "start": 15,
                 "end": 17
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 17

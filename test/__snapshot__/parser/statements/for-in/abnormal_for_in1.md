@@ -205,19 +205,13 @@ function baz(x: boolean) {
                             "end": 53
                         },
                         {
+                            "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 1,
                                 "start": 53,
                                 "end": 59
                             },
-                            "inKeyword": {
-                                "kind": 21006388,
-                                "flags": 64,
-                                "start": 69,
-                                "end": 72
-                            },
-                            "kind": 166,
                             "initializer": {
                                 "kind": 156,
                                 "declarations": [
@@ -242,6 +236,12 @@ function baz(x: boolean) {
                                 "flags": 16,
                                 "start": 64,
                                 "end": 69
+                            },
+                            "inKeyword": {
+                                "kind": 21006388,
+                                "flags": 64,
+                                "start": 69,
+                                "end": 72
                             },
                             "expression": {
                                 "kind": 134299649,
@@ -410,19 +410,13 @@ function baz(x: boolean) {
                     "directives": [],
                     "statements": [
                         {
+                            "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 1,
                                 "start": 160,
                                 "end": 166
                             },
-                            "inKeyword": {
-                                "kind": 21006388,
-                                "flags": 64,
-                                "start": 176,
-                                "end": 179
-                            },
-                            "kind": 166,
                             "initializer": {
                                 "kind": 156,
                                 "declarations": [
@@ -447,6 +441,12 @@ function baz(x: boolean) {
                                 "flags": 16,
                                 "start": 171,
                                 "end": 176
+                            },
+                            "inKeyword": {
+                                "kind": 21006388,
+                                "flags": 64,
+                                "start": 176,
+                                "end": 179
                             },
                             "expression": {
                                 "kind": 220,
@@ -572,19 +572,13 @@ function baz(x: boolean) {
                     "directives": [],
                     "statements": [
                         {
+                            "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 1,
                                 "start": 231,
                                 "end": 237
                             },
-                            "inKeyword": {
-                                "kind": 21006388,
-                                "flags": 64,
-                                "start": 247,
-                                "end": 250
-                            },
-                            "kind": 166,
                             "initializer": {
                                 "kind": 156,
                                 "declarations": [
@@ -609,6 +603,12 @@ function baz(x: boolean) {
                                 "flags": 16,
                                 "start": 242,
                                 "end": 247
+                            },
+                            "inKeyword": {
+                                "kind": 21006388,
+                                "flags": 64,
+                                "start": 247,
+                                "end": 250
                             },
                             "expression": {
                                 "kind": 220,

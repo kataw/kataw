@@ -49,12 +49,7 @@ foo: for (x of y) continue foo
                     "start": 4,
                     "end": 8
                 },
-                "ofKeyword": {
-                    "kind": 16793717,
-                    "flags": 64,
-                    "start": 11,
-                    "end": 14
-                },
+                "awaitKeyword": null,
                 "initializer": {
                     "kind": 134299649,
                     "text": "x",
@@ -62,6 +57,12 @@ foo: for (x of y) continue foo
                     "flags": 96,
                     "start": 10,
                     "end": 11
+                },
+                "ofKeyword": {
+                    "kind": 16793717,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
                 },
                 "expression": {
                     "kind": 134299649,
@@ -91,7 +92,6 @@ foo: for (x of y) continue foo
                     "start": 17,
                     "end": 30
                 },
-                "awaitKeyword": null,
                 "flags": 16,
                 "start": 4,
                 "end": 30

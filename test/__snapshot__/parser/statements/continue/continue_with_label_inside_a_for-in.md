@@ -42,19 +42,13 @@ foo: for (x in y) continue foo
                 "end": 4
             },
             "statement": {
+                "kind": 166,
                 "forKeyword": {
                     "kind": 37757017,
                     "flags": 0,
                     "start": 4,
                     "end": 8
                 },
-                "inKeyword": {
-                    "kind": 21006388,
-                    "flags": 64,
-                    "start": 11,
-                    "end": 14
-                },
-                "kind": 166,
                 "initializer": {
                     "kind": 134299649,
                     "text": "x",
@@ -62,6 +56,12 @@ foo: for (x in y) continue foo
                     "flags": 96,
                     "start": 10,
                     "end": 11
+                },
+                "inKeyword": {
+                    "kind": 21006388,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
                 },
                 "expression": {
                     "kind": 134299649,

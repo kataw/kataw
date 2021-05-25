@@ -101,11 +101,11 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                 "start": 27,
                                 "end": 31
                             },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 0,
-                                "start": 71,
-                                "end": 74
+                            "awaitKeyword": {
+                                "kind": 82032,
+                                "flags": 64,
+                                "start": 31,
+                                "end": 37
                             },
                             "initializer": {
                                 "kind": 151,
@@ -190,6 +190,12 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                 "start": 44,
                                 "end": 71
                             },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 0,
+                                "start": 71,
+                                "end": 74
+                            },
                             "expression": {
                                 "kind": 119,
                                 "elementList": {
@@ -209,12 +215,6 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                 "flags": 16,
                                 "start": 78,
                                 "end": 80
-                            },
-                            "awaitKeyword": {
-                                "kind": 82032,
-                                "flags": 64,
-                                "start": 31,
-                                "end": 37
                             },
                             "flags": 16,
                             "start": 27,

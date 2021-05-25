@@ -35,19 +35,13 @@ for ("foo".bar in obj);
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 14,
-                "end": 17
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 129,
                 "member": {
@@ -69,6 +63,12 @@ for ("foo".bar in obj);
                 "flags": 536870944,
                 "start": 5,
                 "end": 14
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 14,
+                "end": 17
             },
             "expression": {
                 "kind": 134299649,

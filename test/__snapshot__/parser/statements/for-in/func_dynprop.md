@@ -35,19 +35,13 @@ for (function(){ }[foo] in x);
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 23,
-                "end": 26
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 536871042,
                 "member": {
@@ -100,6 +94,12 @@ for (function(){ }[foo] in x);
                 "flags": 32,
                 "start": 5,
                 "end": 23
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 23,
+                "end": 26
             },
             "expression": {
                 "kind": 134299649,

@@ -24,19 +24,13 @@ for (const a in b);
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 12,
-                "end": 15
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -61,6 +55,12 @@ for (const a in b);
                 "flags": 16777232,
                 "start": 10,
                 "end": 12
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 12,
+                "end": 15
             },
             "expression": {
                 "kind": 134299649,

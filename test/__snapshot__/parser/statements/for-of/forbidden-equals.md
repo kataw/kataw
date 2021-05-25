@@ -23,12 +23,7 @@ for (async of = x);
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 10,
-                "end": 13
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 134299649,
                 "text": "async",
@@ -36,6 +31,12 @@ for (async of = x);
                 "flags": 96,
                 "start": 5,
                 "end": 10
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 10,
+                "end": 13
             },
             "expression": {
                 "kind": 125,
@@ -70,7 +71,6 @@ for (async of = x);
                 "start": 18,
                 "end": 19
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 19

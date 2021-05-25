@@ -101,11 +101,11 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                                 "start": 27,
                                 "end": 31
                             },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 0,
-                                "start": 61,
-                                "end": 64
+                            "awaitKeyword": {
+                                "kind": 82032,
+                                "flags": 64,
+                                "start": 31,
+                                "end": 37
                             },
                             "initializer": {
                                 "kind": 220,
@@ -165,6 +165,12 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                                 "start": 39,
                                 "end": 61
                             },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 0,
+                                "start": 61,
+                                "end": 64
+                            },
                             "expression": {
                                 "kind": 119,
                                 "elementList": {
@@ -184,12 +190,6 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                                 "flags": 16,
                                 "start": 68,
                                 "end": 70
-                            },
-                            "awaitKeyword": {
-                                "kind": 82032,
-                                "flags": 64,
-                                "start": 31,
-                                "end": 37
                             },
                             "flags": 16,
                             "start": 27,

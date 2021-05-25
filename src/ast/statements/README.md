@@ -190,7 +190,10 @@ See [13.7 Iteration Statements](https://tc39.es/ecma262/#sec-iteration-statement
 interface ForOfStatement <: Statements {
   kind: NodeKind.ForOfStatement;
   forKeyword: SyntaxToken<TokenSyntaxKind>;
-  initializer: LexicalDeclaration | ForBinding | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
+  awaitKeyword: SyntaxToken<TokenSyntaxKind> | null
+  initializer: LexicalDeclaration | ForBinding | ObjectAssignmentPattern | ArrayAssignmentPattern |
+  Expression;
+  ofKeyword: SyntfaxToken<TokenSyntaxKind>
   expression: Expression;
   statement: Statement;
   awaitKeyword: SyntaxToken<TokenSyntaxKind>;
@@ -204,6 +207,7 @@ interface ForInStatement <: Statements {
   kind: NodeKind.ForInStatement;
   forKeyword: SyntaxToken<TokenSyntaxKind>;
   initializer: LexicalDeclaration | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
+  inKeyword: SyntaxToken<TokenSyntaxKind>
   expression: Expression;
   statement: Statement;
 }

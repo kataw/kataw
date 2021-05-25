@@ -8,7 +8,7 @@ for(delete((1)?y:x in y) in z)x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -16,19 +16,13 @@ for(delete((1)?y:x in y) in z)x
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 24,
-                "end": 27
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 126,
                 "operandToken": {
@@ -114,6 +108,12 @@ for(delete((1)?y:x in y) in z)x
                 "flags": 32,
                 "start": 4,
                 "end": 24
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 24,
+                "end": 27
             },
             "expression": {
                 "kind": 134299649,

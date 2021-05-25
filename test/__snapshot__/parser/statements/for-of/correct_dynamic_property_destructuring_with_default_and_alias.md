@@ -23,12 +23,7 @@ for (let {[x]: y = z} of obj);
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 21,
-                "end": 24
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -98,6 +93,12 @@ for (let {[x]: y = z} of obj);
                 "start": 8,
                 "end": 21
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 21,
+                "end": 24
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
@@ -112,7 +113,6 @@ for (let {[x]: y = z} of obj);
                 "start": 29,
                 "end": 30
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 30

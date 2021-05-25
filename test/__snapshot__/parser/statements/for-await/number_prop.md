@@ -42,12 +42,7 @@ for (456..x of c) d;
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 11,
-                "end": 14
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 129,
                 "member": {
@@ -69,6 +64,12 @@ for (456..x of c) d;
                 "flags": 536870944,
                 "start": 5,
                 "end": 11
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 11,
+                "end": 14
             },
             "expression": {
                 "kind": 134299649,
@@ -92,7 +93,6 @@ for (456..x of c) d;
                 "start": 17,
                 "end": 20
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 20

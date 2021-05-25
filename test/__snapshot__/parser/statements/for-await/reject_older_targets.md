@@ -63,11 +63,11 @@ async function f() {
                                 "start": 20,
                                 "end": 26
                             },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 0,
-                                "start": 35,
-                                "end": 38
+                            "awaitKeyword": {
+                                "kind": 82032,
+                                "flags": 64,
+                                "start": 26,
+                                "end": 32
                             },
                             "initializer": {
                                 "kind": 134299649,
@@ -76,6 +76,12 @@ async function f() {
                                 "flags": 96,
                                 "start": 34,
                                 "end": 35
+                            },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 0,
+                                "start": 35,
+                                "end": 38
                             },
                             "expression": {
                                 "kind": 134299649,
@@ -90,12 +96,6 @@ async function f() {
                                 "flags": 16,
                                 "start": 41,
                                 "end": 43
-                            },
-                            "awaitKeyword": {
-                                "kind": 82032,
-                                "flags": 64,
-                                "start": 26,
-                                "end": 32
                             },
                             "flags": 16,
                             "start": 20,

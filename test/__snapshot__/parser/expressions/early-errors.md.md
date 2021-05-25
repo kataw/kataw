@@ -1623,19 +1623,13 @@ try {} catch(e) { for(var e of 0); };
             "end": 1983
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 1983,
                 "end": 2257
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 2264,
-                "end": 2267
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 220,
                 "propertyList": {
@@ -1674,6 +1668,12 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2258,
                 "end": 2264
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 2264,
+                "end": 2267
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -1693,19 +1693,13 @@ try {} catch(e) { for(var e of 0); };
             "end": 2271
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 2271,
                 "end": 2275
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 2279,
-                "end": 2282
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 119,
                 "elementList": {
@@ -1728,6 +1722,12 @@ try {} catch(e) { for(var e of 0); };
                 "flags": 32,
                 "start": 2276,
                 "end": 2279
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 2279,
+                "end": 2282
             },
             "expression": {
                 "kind": 201392130,
@@ -1755,12 +1755,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2286,
                 "end": 2290
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 2297,
-                "end": 2300
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 220,
                 "propertyList": {
@@ -1799,6 +1794,12 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2291,
                 "end": 2297
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 2297,
+                "end": 2300
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -1813,7 +1814,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2303,
                 "end": 2304
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 2286,
             "end": 2304
@@ -1826,12 +1826,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2304,
                 "end": 2308
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 2312,
-                "end": 2315
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 119,
                 "elementList": {
@@ -1855,6 +1850,12 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2309,
                 "end": 2312
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 2312,
+                "end": 2315
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -1869,25 +1870,18 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2318,
                 "end": 2319
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 2304,
             "end": 2319
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 2319,
                 "end": 2417
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 2419,
-                "end": 2422
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 201392130,
                 "text": 0,
@@ -1895,6 +1889,12 @@ try {} catch(e) { for(var e of 0); };
                 "flags": 96,
                 "start": 2418,
                 "end": 2419
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 2419,
+                "end": 2422
             },
             "expression": {
                 "kind": 201392130,
@@ -1922,12 +1922,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2426,
                 "end": 2430
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 2432,
-                "end": 2435
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 201392130,
                 "text": 0,
@@ -1935,6 +1930,12 @@ try {} catch(e) { for(var e of 0); };
                 "flags": 96,
                 "start": 2431,
                 "end": 2432
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 2432,
+                "end": 2435
             },
             "expression": {
                 "kind": 201392130,
@@ -1950,25 +1951,18 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2438,
                 "end": 2439
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 2426,
             "end": 2439
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 2439,
                 "end": 2765
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 2774,
-                "end": 2777
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2013,6 +2007,12 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2766,
                 "end": 2774
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 2774,
+                "end": 2777
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -2032,19 +2032,13 @@ try {} catch(e) { for(var e of 0); };
             "end": 2781
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 2781,
                 "end": 2785
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 2791,
-                "end": 2794
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2074,6 +2068,12 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2786,
                 "end": 2791
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 2791,
+                "end": 2794
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -2100,12 +2100,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2798,
                 "end": 2802
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 2811,
-                "end": 2814
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2150,6 +2145,12 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2803,
                 "end": 2811
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 2811,
+                "end": 2814
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -2164,7 +2165,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2817,
                 "end": 2818
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 2798,
             "end": 2818
@@ -2177,12 +2177,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2818,
                 "end": 2822
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 2828,
-                "end": 2831
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2212,6 +2207,12 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2823,
                 "end": 2828
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 2828,
+                "end": 2831
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -2226,25 +2227,18 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2834,
                 "end": 2835
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 2818,
             "end": 2835
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 2835,
                 "end": 2839
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 2843,
-                "end": 2846
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2258,6 +2252,12 @@ try {} catch(e) { for(var e of 0); };
                 "flags": 32,
                 "start": 2840,
                 "end": 2843
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 2843,
+                "end": 2846
             },
             "expression": {
                 "kind": 201392130,
@@ -2285,12 +2285,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2850,
                 "end": 2854
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 2858,
-                "end": 2861
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2304,6 +2299,12 @@ try {} catch(e) { for(var e of 0); };
                 "flags": 32,
                 "start": 2855,
                 "end": 2858
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 2858,
+                "end": 2861
             },
             "expression": {
                 "kind": 201392130,
@@ -2319,7 +2320,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2864,
                 "end": 2865
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 2850,
             "end": 2865
@@ -5986,12 +5986,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5599,
                                     "end": 5603
                                 },
-                                "ofKeyword": {
-                                    "kind": 16793717,
-                                    "flags": 64,
-                                    "start": 5609,
-                                    "end": 5612
-                                },
+                                "awaitKeyword": null,
                                 "initializer": {
                                     "kind": 156,
                                     "declarations": [
@@ -6017,6 +6012,12 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5607,
                                     "end": 5609
                                 },
+                                "ofKeyword": {
+                                    "kind": 16793717,
+                                    "flags": 64,
+                                    "start": 5609,
+                                    "end": 5612
+                                },
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -6031,7 +6032,6 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5615,
                                     "end": 5616
                                 },
-                                "awaitKeyword": null,
                                 "flags": 16,
                                 "start": 5599,
                                 "end": 5616

@@ -80,12 +80,7 @@ function *f(){ for (yield of obj); }
                                 "start": 14,
                                 "end": 18
                             },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 64,
-                                "start": 25,
-                                "end": 28
-                            },
+                            "awaitKeyword": null,
                             "initializer": {
                                 "kind": 229,
                                 "yieldKeyword": {
@@ -101,6 +96,12 @@ function *f(){ for (yield of obj); }
                                 "start": 20,
                                 "end": 25
                             },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 64,
+                                "start": 25,
+                                "end": 28
+                            },
                             "expression": {
                                 "kind": 134299649,
                                 "text": "obj",
@@ -115,7 +116,6 @@ function *f(){ for (yield of obj); }
                                 "start": 33,
                                 "end": 34
                             },
-                            "awaitKeyword": null,
                             "flags": 16,
                             "start": 14,
                             "end": 34

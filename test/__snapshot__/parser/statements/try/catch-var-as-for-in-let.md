@@ -65,19 +65,13 @@ try {} catch (e) { for (let e in y) {} }
                         "kind": 249,
                         "statements": [
                             {
+                                "kind": 166,
                                 "forKeyword": {
                                     "kind": 37757017,
                                     "flags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
-                                "inKeyword": {
-                                    "kind": 21006388,
-                                    "flags": 64,
-                                    "start": 29,
-                                    "end": 32
-                                },
-                                "kind": 166,
                                 "initializer": {
                                     "kind": 151,
                                     "bindingList": [
@@ -102,6 +96,12 @@ try {} catch (e) { for (let e in y) {} }
                                     "flags": 16777232,
                                     "start": 27,
                                     "end": 29
+                                },
+                                "inKeyword": {
+                                    "kind": 21006388,
+                                    "flags": 64,
+                                    "start": 29,
+                                    "end": 32
                                 },
                                 "expression": {
                                     "kind": 134299649,

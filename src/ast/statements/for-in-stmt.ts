@@ -10,8 +10,8 @@ import { VariableDeclarationList } from './variable-declarationList';
  */
 export interface ForInStatement extends SyntaxNode {
   readonly forKeyword: SyntaxToken<TokenSyntaxKind>;
-  readonly inKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly initializer: VariableDeclarationList | BindingList | ExpressionNode | null;
+  readonly inKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly expression: ExpressionNode;
   readonly statement: StatementNode;
 }
@@ -26,10 +26,10 @@ export function createForInStatement(
   end: number
 ): ForInStatement {
   return {
-    forKeyword,
-    inKeyword,
     kind: SyntaxKind.ForInStatement,
+    forKeyword,
     initializer,
+    inKeyword,
     expression,
     statement,
     flags: NodeFlags.IsStatement,

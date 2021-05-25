@@ -24,19 +24,13 @@ for (let in in x);
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 134299649,
                 "text": "let",
@@ -44,6 +38,12 @@ for (let in in x);
                 "flags": 96,
                 "start": 5,
                 "end": 8
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 8,
+                "end": 11
             },
             "expression": {
                 "kind": 134299649,
@@ -64,19 +64,13 @@ for (let in in x);
             "end": 15
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 1,
                 "start": 15,
                 "end": 20
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 25,
-                "end": 28
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 134299649,
                 "text": "let",
@@ -84,6 +78,12 @@ for (let in in x);
                 "flags": 96,
                 "start": 22,
                 "end": 25
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 25,
+                "end": 28
             },
             "expression": {
                 "kind": 198,

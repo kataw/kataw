@@ -23,12 +23,7 @@ for (function(){ }[x in y] of x);
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 26,
-                "end": 29
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 536871042,
                 "member": {
@@ -102,6 +97,12 @@ for (function(){ }[x in y] of x);
                 "start": 5,
                 "end": 26
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 26,
+                "end": 29
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "x",
@@ -116,7 +117,6 @@ for (function(){ }[x in y] of x);
                 "start": 32,
                 "end": 33
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 33

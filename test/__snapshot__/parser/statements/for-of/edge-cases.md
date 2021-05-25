@@ -29,12 +29,7 @@ for ((async) of x);
                 "start": 0,
                 "end": 4
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 13,
-                "end": 16
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 129,
                 "member": {
@@ -57,6 +52,12 @@ for ((async) of x);
                 "start": 6,
                 "end": 13
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 13,
+                "end": 16
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "y",
@@ -71,7 +72,6 @@ for ((async) of x);
                 "start": 19,
                 "end": 20
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 20
@@ -146,12 +146,7 @@ for ((async) of x);
                 "start": 45,
                 "end": 50
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 59,
-                "end": 62
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -165,6 +160,12 @@ for ((async) of x);
                 "flags": 32,
                 "start": 52,
                 "end": 59
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 59,
+                "end": 62
             },
             "expression": {
                 "kind": 134299649,
@@ -180,7 +181,6 @@ for ((async) of x);
                 "start": 65,
                 "end": 66
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 45,
             "end": 66

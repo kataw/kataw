@@ -29,12 +29,7 @@ for (import.meta of null) ;
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 16,
-                "end": 19
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 120,
                 "expression": {
@@ -59,6 +54,12 @@ for (import.meta of null) ;
                 "start": 11,
                 "end": 16
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 16,
+                "end": 19
+            },
             "expression": {
                 "kind": 269,
                 "text": null,
@@ -72,7 +73,6 @@ for (import.meta of null) ;
                 "start": 25,
                 "end": 27
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 27

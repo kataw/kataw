@@ -42,12 +42,7 @@ for ([a.b] of c) d
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 10,
-                "end": 13
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 119,
                 "elementList": {
@@ -85,6 +80,12 @@ for ([a.b] of c) d
                 "start": 5,
                 "end": 10
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 10,
+                "end": 13
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "c",
@@ -107,7 +108,6 @@ for ([a.b] of c) d
                 "start": 16,
                 "end": 18
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 18

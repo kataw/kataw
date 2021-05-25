@@ -42,12 +42,7 @@ for({}/=y of a)x
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 9,
-                "end": 12
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 125,
                 "left": {
@@ -82,6 +77,12 @@ for({}/=y of a)x
                 "start": 4,
                 "end": 9
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 9,
+                "end": 12
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "a",
@@ -104,7 +105,6 @@ for({}/=y of a)x
                 "start": 15,
                 "end": 16
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 16

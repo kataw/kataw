@@ -19,19 +19,13 @@ for (eval in x) ;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 9,
-                "end": 12
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 134299649,
                 "text": "eval",
@@ -39,6 +33,12 @@ for (eval in x) ;
                 "flags": 96,
                 "start": 5,
                 "end": 9
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 9,
+                "end": 12
             },
             "expression": {
                 "kind": 134299649,

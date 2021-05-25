@@ -35,19 +35,13 @@ for ({ eval = 0 } in [{}]) ;
     "directives": [],
     "statements": [
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 0,
                 "end": 3
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 17,
-                "end": 20
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 220,
                 "propertyList": {
@@ -84,6 +78,12 @@ for ({ eval = 0 } in [{}]) ;
                 "flags": 48,
                 "start": 5,
                 "end": 17
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 17,
+                "end": 20
             },
             "expression": {
                 "kind": 119,

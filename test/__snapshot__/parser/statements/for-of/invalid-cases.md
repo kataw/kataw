@@ -134,12 +134,7 @@ for ({a: b.c}-- of d) e;
                 "start": 0,
                 "end": 3
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 10,
-                "end": 13
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -168,6 +163,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 32,
                 "start": 5,
                 "end": 10
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 10,
+                "end": 13
             },
             "expression": {
                 "kind": 119,
@@ -235,7 +236,6 @@ for ({a: b.c}-- of d) e;
                 "start": 22,
                 "end": 25
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 0,
             "end": 25
@@ -373,11 +373,11 @@ for ({a: b.c}-- of d) e;
                 "start": 58,
                 "end": 63
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 0,
-                "start": 76,
-                "end": 79
+            "awaitKeyword": {
+                "kind": 82032,
+                "flags": 64,
+                "start": 63,
+                "end": 69
             },
             "initializer": {
                 "kind": 129,
@@ -400,6 +400,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 536870944,
                 "start": 71,
                 "end": 76
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 0,
+                "start": 76,
+                "end": 79
             },
             "expression": {
                 "kind": 119,
@@ -427,12 +433,6 @@ for ({a: b.c}-- of d) e;
                 "flags": 16,
                 "start": 83,
                 "end": 86
-            },
-            "awaitKeyword": {
-                "kind": 82032,
-                "flags": 64,
-                "start": 63,
-                "end": 69
             },
             "flags": 16,
             "start": 58,
@@ -613,12 +613,7 @@ for ({a: b.c}-- of d) e;
                 "start": 138,
                 "end": 143
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 156,
-                "end": 159
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -674,6 +669,12 @@ for ({a: b.c}-- of d) e;
                 "start": 148,
                 "end": 156
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 156,
+                "end": 159
+            },
             "expression": {
                 "kind": 119,
                 "elementList": {
@@ -701,7 +702,6 @@ for ({a: b.c}-- of d) e;
                 "start": 163,
                 "end": 166
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 138,
             "end": 166
@@ -828,12 +828,7 @@ for ({a: b.c}-- of d) e;
                 "start": 193,
                 "end": 198
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 214,
-                "end": 217
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -876,6 +871,12 @@ for ({a: b.c}-- of d) e;
                 "start": 205,
                 "end": 214
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 214,
+                "end": 217
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "x",
@@ -890,7 +891,6 @@ for ({a: b.c}-- of d) e;
                 "start": 220,
                 "end": 221
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 193,
             "end": 221
@@ -961,12 +961,7 @@ for ({a: b.c}-- of d) e;
                 "start": 239,
                 "end": 244
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 251,
-                "end": 254
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -991,6 +986,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16,
                 "start": 249,
                 "end": 251
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 251,
+                "end": 254
             },
             "expression": {
                 "kind": 119,
@@ -1053,7 +1054,6 @@ for ({a: b.c}-- of d) e;
                 "start": 258,
                 "end": 274
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 239,
             "end": 274
@@ -1072,12 +1072,7 @@ for ({a: b.c}-- of d) e;
                 "start": 275,
                 "end": 280
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 287,
-                "end": 290
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -1102,6 +1097,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16,
                 "start": 285,
                 "end": 287
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 287,
+                "end": 290
             },
             "expression": {
                 "kind": 119,
@@ -1169,7 +1170,6 @@ for ({a: b.c}-- of d) e;
                 "start": 294,
                 "end": 311
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 275,
             "end": 311
@@ -1188,12 +1188,7 @@ for ({a: b.c}-- of d) e;
                 "start": 312,
                 "end": 317
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 324,
-                "end": 327
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -1218,6 +1213,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16,
                 "start": 322,
                 "end": 324
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 324,
+                "end": 327
             },
             "expression": {
                 "kind": 119,
@@ -1247,7 +1248,6 @@ for ({a: b.c}-- of d) e;
                 "start": 331,
                 "end": 335
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 312,
             "end": 335
@@ -1280,12 +1280,7 @@ for ({a: b.c}-- of d) e;
                 "start": 339,
                 "end": 344
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 351,
-                "end": 354
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -1310,6 +1305,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16777232,
                 "start": 349,
                 "end": 351
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 351,
+                "end": 354
             },
             "expression": {
                 "kind": 119,
@@ -1360,7 +1361,6 @@ for ({a: b.c}-- of d) e;
                 "start": 357,
                 "end": 361
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 339,
             "end": 361
@@ -1430,12 +1430,7 @@ for ({a: b.c}-- of d) e;
                 "start": 374,
                 "end": 378
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 381,
-                "end": 384
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 134299649,
                 "text": "x",
@@ -1443,6 +1438,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 96,
                 "start": 380,
                 "end": 381
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 381,
+                "end": 384
             },
             "expression": {
                 "kind": 119,
@@ -1493,7 +1494,6 @@ for ({a: b.c}-- of d) e;
                 "start": 387,
                 "end": 391
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 374,
             "end": 391
@@ -1525,12 +1525,7 @@ for ({a: b.c}-- of d) e;
                 "start": 396,
                 "end": 401
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 418,
-                "end": 421
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -1563,6 +1558,12 @@ for ({a: b.c}-- of d) e;
                 "start": 408,
                 "end": 418
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 418,
+                "end": 421
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "x",
@@ -1577,7 +1578,6 @@ for ({a: b.c}-- of d) e;
                 "start": 424,
                 "end": 425
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 396,
             "end": 425
@@ -1590,12 +1590,7 @@ for ({a: b.c}-- of d) e;
                 "start": 425,
                 "end": 430
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 438,
-                "end": 441
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -1627,6 +1622,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16,
                 "start": 434,
                 "end": 438
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 438,
+                "end": 441
             },
             "expression": {
                 "kind": 119,
@@ -1681,7 +1682,6 @@ for ({a: b.c}-- of d) e;
                 "start": 450,
                 "end": 453
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 425,
             "end": 453
@@ -1694,12 +1694,7 @@ for ({a: b.c}-- of d) e;
                 "start": 453,
                 "end": 458
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 466,
-                "end": 469
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -1731,6 +1726,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16777232,
                 "start": 462,
                 "end": 466
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 466,
+                "end": 469
             },
             "expression": {
                 "kind": 119,
@@ -1785,7 +1786,6 @@ for ({a: b.c}-- of d) e;
                 "start": 478,
                 "end": 481
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 453,
             "end": 481
@@ -1798,12 +1798,7 @@ for ({a: b.c}-- of d) e;
                 "start": 481,
                 "end": 486
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 495,
-                "end": 498
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 125,
                 "left": {
@@ -1847,6 +1842,12 @@ for ({a: b.c}-- of d) e;
                 "start": 488,
                 "end": 495
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 495,
+                "end": 498
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "z",
@@ -1861,7 +1862,6 @@ for ({a: b.c}-- of d) e;
                 "start": 501,
                 "end": 502
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 481,
             "end": 502
@@ -1932,12 +1932,7 @@ for ({a: b.c}-- of d) e;
                 "start": 520,
                 "end": 525
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 532,
-                "end": 535
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 131,
                 "expression": {
@@ -1959,6 +1954,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 268435488,
                 "start": 527,
                 "end": 532
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 532,
+                "end": 535
             },
             "expression": {
                 "kind": 119,
@@ -1987,7 +1988,6 @@ for ({a: b.c}-- of d) e;
                 "start": 539,
                 "end": 542
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 520,
             "end": 542
@@ -2006,12 +2006,7 @@ for ({a: b.c}-- of d) e;
                 "start": 543,
                 "end": 548
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 555,
-                "end": 558
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 129,
                 "member": {
@@ -2034,6 +2029,12 @@ for ({a: b.c}-- of d) e;
                 "start": 550,
                 "end": 555
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 555,
+                "end": 558
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "x",
@@ -2048,7 +2049,6 @@ for ({a: b.c}-- of d) e;
                 "start": 561,
                 "end": 562
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 543,
             "end": 562
@@ -2061,12 +2061,7 @@ for ({a: b.c}-- of d) e;
                 "start": 562,
                 "end": 567
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 576,
-                "end": 579
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 125,
                 "left": {
@@ -2110,6 +2105,12 @@ for ({a: b.c}-- of d) e;
                 "start": 569,
                 "end": 576
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 576,
+                "end": 579
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "z",
@@ -2124,7 +2125,6 @@ for ({a: b.c}-- of d) e;
                 "start": 582,
                 "end": 583
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 562,
             "end": 583
@@ -2137,12 +2137,7 @@ for ({a: b.c}-- of d) e;
                 "start": 583,
                 "end": 588
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 595,
-                "end": 598
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 131,
                 "expression": {
@@ -2165,6 +2160,12 @@ for ({a: b.c}-- of d) e;
                 "start": 590,
                 "end": 595
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 595,
+                "end": 598
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "y",
@@ -2179,7 +2180,6 @@ for ({a: b.c}-- of d) e;
                 "start": 601,
                 "end": 602
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 583,
             "end": 602
@@ -2265,12 +2265,7 @@ for ({a: b.c}-- of d) e;
                 "start": 621,
                 "end": 626
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 629,
-                "end": 632
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 134299649,
                 "text": "a",
@@ -2278,6 +2273,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 96,
                 "start": 628,
                 "end": 629
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 629,
+                "end": 632
             },
             "expression": {
                 "kind": 134299649,
@@ -2316,7 +2317,6 @@ for ({a: b.c}-- of d) e;
                 "start": 634,
                 "end": 636
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 621,
             "end": 636
@@ -2421,12 +2421,7 @@ for ({a: b.c}-- of d) e;
                 "start": 661,
                 "end": 666
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 672,
-                "end": 675
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2456,6 +2451,12 @@ for ({a: b.c}-- of d) e;
                 "start": 667,
                 "end": 672
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 672,
+                "end": 675
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -2470,7 +2471,6 @@ for ({a: b.c}-- of d) e;
                 "start": 678,
                 "end": 679
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 661,
             "end": 679
@@ -2483,12 +2483,7 @@ for ({a: b.c}-- of d) e;
                 "start": 679,
                 "end": 684
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 693,
-                "end": 696
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 121,
                 "expression": {
@@ -2533,6 +2528,12 @@ for ({a: b.c}-- of d) e;
                 "start": 685,
                 "end": 693
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 693,
+                "end": 696
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
@@ -2547,7 +2548,6 @@ for ({a: b.c}-- of d) e;
                 "start": 699,
                 "end": 700
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 679,
             "end": 700
@@ -2560,12 +2560,7 @@ for ({a: b.c}-- of d) e;
                 "start": 700,
                 "end": 705
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 707,
-                "end": 710
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 201392130,
                 "text": 0,
@@ -2573,6 +2568,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 96,
                 "start": 706,
                 "end": 707
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 707,
+                "end": 710
             },
             "expression": {
                 "kind": 201392130,
@@ -2588,7 +2589,6 @@ for ({a: b.c}-- of d) e;
                 "start": 713,
                 "end": 714
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 700,
             "end": 714
@@ -2722,12 +2722,7 @@ for ({a: b.c}-- of d) e;
                 "start": 739,
                 "end": 744
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 760,
-                "end": 763
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -2771,6 +2766,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16777232,
                 "start": 749,
                 "end": 760
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 760,
+                "end": 763
             },
             "expression": {
                 "kind": 119,
@@ -2824,7 +2825,6 @@ for ({a: b.c}-- of d) e;
                 "start": 774,
                 "end": 777
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 739,
             "end": 777
@@ -3031,12 +3031,7 @@ for ({a: b.c}-- of d) e;
                 "start": 820,
                 "end": 825
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 837,
-                "end": 840
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 131,
                 "expression": {
@@ -3097,6 +3092,12 @@ for ({a: b.c}-- of d) e;
                 "start": 820,
                 "end": 837
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 837,
+                "end": 840
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "c",
@@ -3119,7 +3120,6 @@ for ({a: b.c}-- of d) e;
                 "start": 843,
                 "end": 846
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 820,
             "end": 846
@@ -3132,12 +3132,7 @@ for ({a: b.c}-- of d) e;
                 "start": 846,
                 "end": 851
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 863,
-                "end": 866
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 226,
                 "member": {
@@ -3189,6 +3184,12 @@ for ({a: b.c}-- of d) e;
                 "start": 846,
                 "end": 863
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 863,
+                "end": 866
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "c",
@@ -3211,7 +3212,6 @@ for ({a: b.c}-- of d) e;
                 "start": 869,
                 "end": 872
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 846,
             "end": 872
@@ -3224,12 +3224,7 @@ for ({a: b.c}-- of d) e;
                 "start": 872,
                 "end": 877
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 889,
-                "end": 892
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 131,
                 "expression": {
@@ -3296,6 +3291,12 @@ for ({a: b.c}-- of d) e;
                 "start": 872,
                 "end": 889
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 889,
+                "end": 892
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "d",
@@ -3318,7 +3319,6 @@ for ({a: b.c}-- of d) e;
                 "start": 895,
                 "end": 898
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 872,
             "end": 898
@@ -3331,12 +3331,7 @@ for ({a: b.c}-- of d) e;
                 "start": 898,
                 "end": 903
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 916,
-                "end": 919
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 226,
                 "member": {
@@ -3403,6 +3398,12 @@ for ({a: b.c}-- of d) e;
                 "start": 898,
                 "end": 916
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 916,
+                "end": 919
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "d",
@@ -3425,7 +3426,6 @@ for ({a: b.c}-- of d) e;
                 "start": 922,
                 "end": 925
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 898,
             "end": 925
@@ -3438,12 +3438,7 @@ for ({a: b.c}-- of d) e;
                 "start": 925,
                 "end": 930
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 946,
-                "end": 949
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -3516,6 +3511,12 @@ for ({a: b.c}-- of d) e;
                 "start": 935,
                 "end": 946
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 946,
+                "end": 949
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
@@ -3530,7 +3531,6 @@ for ({a: b.c}-- of d) e;
                 "start": 954,
                 "end": 955
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 925,
             "end": 955
@@ -3543,12 +3543,7 @@ for ({a: b.c}-- of d) e;
                 "start": 955,
                 "end": 960
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 978,
-                "end": 981
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -3621,6 +3616,12 @@ for ({a: b.c}-- of d) e;
                 "start": 965,
                 "end": 978
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 978,
+                "end": 981
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "obj2",
@@ -3635,7 +3636,6 @@ for ({a: b.c}-- of d) e;
                 "start": 987,
                 "end": 988
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 955,
             "end": 988
@@ -3648,12 +3648,7 @@ for ({a: b.c}-- of d) e;
                 "start": 988,
                 "end": 993
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1003,
-                "end": 1006
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -3695,6 +3690,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16,
                 "start": 998,
                 "end": 1003
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1003,
+                "end": 1006
             },
             "expression": {
                 "kind": 119,
@@ -3748,7 +3749,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1017,
                 "end": 1020
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 988,
             "end": 1020
@@ -3767,12 +3767,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1021,
                 "end": 1026
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1040,
-                "end": 1043
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -3822,6 +3817,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1031,
                 "end": 1040
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1040,
+                "end": 1043
+            },
             "expression": {
                 "kind": 220,
                 "propertyList": {
@@ -3849,7 +3850,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1047,
                 "end": 1050
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1021,
             "end": 1050
@@ -3868,12 +3868,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1051,
                 "end": 1056
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1075,
-                "end": 1078
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 156,
                 "declarations": [
@@ -3935,6 +3930,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1061,
                 "end": 1075
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1075,
+                "end": 1078
+            },
             "expression": {
                 "kind": 119,
                 "elementList": {
@@ -3987,7 +3988,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1089,
                 "end": 1092
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1051,
             "end": 1092
@@ -4006,12 +4006,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1093,
                 "end": 1098
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1108,
-                "end": 1111
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4054,6 +4049,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1103,
                 "end": 1108
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1108,
+                "end": 1111
+            },
             "expression": {
                 "kind": 220,
                 "propertyList": {
@@ -4081,7 +4082,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1115,
                 "end": 1118
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1093,
             "end": 1118
@@ -4100,12 +4100,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1119,
                 "end": 1124
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1134,
-                "end": 1137
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4147,6 +4142,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16777232,
                 "start": 1129,
                 "end": 1134
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1134,
+                "end": 1137
             },
             "expression": {
                 "kind": 119,
@@ -4200,7 +4201,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1148,
                 "end": 1151
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1119,
             "end": 1151
@@ -4219,12 +4219,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1152,
                 "end": 1157
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1171,
-                "end": 1174
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4274,6 +4269,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1162,
                 "end": 1171
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1171,
+                "end": 1174
+            },
             "expression": {
                 "kind": 220,
                 "propertyList": {
@@ -4301,7 +4302,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1178,
                 "end": 1181
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1152,
             "end": 1181
@@ -4320,12 +4320,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1182,
                 "end": 1187
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1197,
-                "end": 1200
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4368,6 +4363,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1192,
                 "end": 1197
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1197,
+                "end": 1200
+            },
             "expression": {
                 "kind": 201392130,
                 "text": 1,
@@ -4404,7 +4405,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1202,
                 "end": 1203
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1182,
             "end": 1203
@@ -4417,12 +4417,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1203,
                 "end": 1208
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1222,
-                "end": 1225
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4472,6 +4467,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1213,
                 "end": 1222
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1222,
+                "end": 1225
+            },
             "expression": {
                 "kind": 220,
                 "propertyList": {
@@ -4494,12 +4495,7 @@ for ({a: b.c}-- of d) e;
                     "start": 1229,
                     "end": 1234
                 },
-                "ofKeyword": {
-                    "kind": 16793717,
-                    "flags": 64,
-                    "start": 1253,
-                    "end": 1256
-                },
+                "awaitKeyword": null,
                 "initializer": {
                     "kind": 151,
                     "bindingList": [
@@ -4561,6 +4557,12 @@ for ({a: b.c}-- of d) e;
                     "start": 1239,
                     "end": 1253
                 },
+                "ofKeyword": {
+                    "kind": 16793717,
+                    "flags": 64,
+                    "start": 1253,
+                    "end": 1256
+                },
                 "expression": {
                     "kind": 119,
                     "elementList": {
@@ -4613,12 +4615,10 @@ for ({a: b.c}-- of d) e;
                     "start": 1267,
                     "end": 1270
                 },
-                "awaitKeyword": null,
                 "flags": 16,
                 "start": 1229,
                 "end": 1270
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1203,
             "end": 1270
@@ -4637,12 +4637,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1271,
                 "end": 1276
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1288,
-                "end": 1291
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4685,6 +4680,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1283,
                 "end": 1288
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1288,
+                "end": 1291
+            },
             "expression": {
                 "kind": 220,
                 "propertyList": {
@@ -4712,7 +4713,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1295,
                 "end": 1298
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1271,
             "end": 1298
@@ -4731,12 +4731,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1299,
                 "end": 1304
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1316,
-                "end": 1319
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4778,6 +4773,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 16777232,
                 "start": 1311,
                 "end": 1316
+            },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1316,
+                "end": 1319
             },
             "expression": {
                 "kind": 119,
@@ -4831,7 +4832,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1330,
                 "end": 1333
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1299,
             "end": 1333
@@ -4850,12 +4850,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1334,
                 "end": 1339
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1355,
-                "end": 1358
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -4905,6 +4900,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1346,
                 "end": 1355
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1355,
+                "end": 1358
+            },
             "expression": {
                 "kind": 220,
                 "propertyList": {
@@ -4932,7 +4933,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1362,
                 "end": 1365
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1334,
             "end": 1365
@@ -4951,12 +4951,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1366,
                 "end": 1371
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1392,
-                "end": 1395
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 151,
                 "bindingList": [
@@ -5018,6 +5013,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1378,
                 "end": 1392
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1392,
+                "end": 1395
+            },
             "expression": {
                 "kind": 119,
                 "elementList": {
@@ -5070,7 +5071,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1406,
                 "end": 1409
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1366,
             "end": 1409
@@ -5222,19 +5222,13 @@ for ({a: b.c}-- of d) e;
             "end": 1484
         },
         {
+            "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 0,
                 "start": 1484,
                 "end": 1488
             },
-            "inKeyword": {
-                "kind": 21006388,
-                "flags": 64,
-                "start": 1495,
-                "end": 1498
-            },
-            "kind": 166,
             "initializer": {
                 "kind": 129,
                 "member": {
@@ -5256,6 +5250,12 @@ for ({a: b.c}-- of d) e;
                 "flags": 536870944,
                 "start": 1490,
                 "end": 1495
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 1495,
+                "end": 1498
             },
             "expression": {
                 "kind": 134299649,
@@ -5283,12 +5283,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1502,
                 "end": 1507
             },
-            "ofKeyword": {
-                "kind": 16793717,
-                "flags": 64,
-                "start": 1519,
-                "end": 1522
-            },
+            "awaitKeyword": null,
             "initializer": {
                 "kind": 127,
                 "operandToken": {
@@ -5353,6 +5348,12 @@ for ({a: b.c}-- of d) e;
                 "start": 1502,
                 "end": 1519
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 64,
+                "start": 1519,
+                "end": 1522
+            },
             "expression": {
                 "kind": 134299649,
                 "text": "d",
@@ -5375,7 +5376,6 @@ for ({a: b.c}-- of d) e;
                 "start": 1525,
                 "end": 1528
             },
-            "awaitKeyword": null,
             "flags": 16,
             "start": 1502,
             "end": 1528
