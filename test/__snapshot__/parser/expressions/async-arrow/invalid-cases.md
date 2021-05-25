@@ -2283,6 +2283,7 @@ async ([a]:string)=>c;
 ✖ Declaration or statement expected - start: 559, end: 561
 ✖ Declaration or statement expected - start: 585, end: 588
 ✖ Binding identifier expected - start: 601, end: 603
+✖ Parameter 'await' for async arrow not allowed here - start: 638, end: 644
 ✖ An arrow function can not be part of an operator to the right - start: 694, end: 696
 ✖ Declaration or statement expected - start: 694, end: 696
 

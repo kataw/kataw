@@ -160,7 +160,7 @@ class X { static \u0061sync x() { await x } }
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 27, end: 29
+✖ Keywords cannot contain escape characters - start: 16, end: 29
 
 ```
 

@@ -5178,6 +5178,15 @@ function parseFunctionDeclaration(
               parser.pos
             );
           }
+          if (parser.token === SyntaxKind.AwaitKeyword) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.Parameter_await_for_async_arrow_not_allowed_here],
+              parser.curPos,
+              parser.pos
+            );
+          }
 
           scope = createParentScope(createScope(), ScopeKind.ArrowParams);
 
@@ -7966,6 +7975,15 @@ export function parseClassElement(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+              pos,
+              parser.pos
+            );
+          }
+          if (parser.nodeFlags & NodeFlags.NewLine) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.Line_terminator_not_permitted_before_async_modifier_in_a_class_body],
               parser.curPos,
               parser.pos
             );
@@ -7981,7 +7999,7 @@ export function parseClassElement(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-              parser.curPos,
+              pos,
               parser.pos
             );
           }
@@ -7995,7 +8013,7 @@ export function parseClassElement(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-              parser.curPos,
+              pos,
               parser.pos
             );
           }
@@ -8023,7 +8041,21 @@ export function parseClassElement(
         token &
         (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsProperty)
       ) {
+        let t = parser.token;
         key = parsePropertyName(parser, inheritedContext) as Identifier;
+        if (
+          asyncKeyword &&
+          (t === SyntaxKind.SetKeyword || t === SyntaxKind.GetKeyword) &&
+          parser.token & 0b00000100110000000100000000000000
+        ) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode._async_modifier_cannot_be_used_here],
+            parser.curPos,
+            parser.pos
+          );
+        }
       } else {
         parser.onError(
           DiagnosticSource.Parser,

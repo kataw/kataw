@@ -163,15 +163,12 @@ class A {async get 7(){}}
 
 ```javascript
 
-class A {
-  async get;
-  7() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'async' modifier cannot be used here - start: 18, end: 20
+
 ```
 

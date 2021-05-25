@@ -143,14 +143,12 @@ get(){} }
 
 ```javascript
 
-class C {
-  async get() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Line terminator not permitted before async modifier in a class body - start: 15, end: 19
+
 ```
 

@@ -3,7 +3,8 @@
 ## Input
 
 `````js
-class X { ge\u0074 x() {} }
+class A {async
+  foo() { }};
 `````
 
 ## Output
@@ -27,8 +28,8 @@ class X { ge\u0074 x() {} }
             },
             "name": {
                 "kind": 134299649,
-                "text": "X",
-                "rawText": "X",
+                "text": "A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -46,22 +47,22 @@ class X { ge\u0074 x() {} }
                             "decorators": null,
                             "generatorToken": null,
                             "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
-                                "flags": 16448,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 64,
                                 "start": 9,
-                                "end": 18
+                                "end": 14
                             },
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "foo",
+                                    "rawText": "foo",
                                     "flags": 96,
-                                    "start": 18,
+                                    "start": 14,
                                     "end": 20
                                 },
                                 "typeParameters": null,
@@ -69,7 +70,7 @@ class X { ge\u0074 x() {} }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1024,
+                                    "flags": 256,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -86,20 +87,20 @@ class X { ge\u0074 x() {} }
                                     },
                                     "flags": 32,
                                     "start": 22,
-                                    "end": 25
+                                    "end": 26
                                 },
-                                "flags": 1024,
+                                "flags": 256,
                                 "start": 20,
-                                "end": 25
+                                "end": 26
                             },
-                            "flags": 1024,
+                            "flags": 256,
                             "start": 9,
-                            "end": 25
+                            "end": 26
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 25
+                    "end": 26
                 },
                 "flags": 7,
                 "start": 32,
@@ -108,14 +109,20 @@ class X { ge\u0074 x() {} }
             "flags": 16,
             "start": 0,
             "end": 27
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 27,
+            "end": 28
         }
     ],
     "isModule": false,
-    "source": "class X { ge\\u0074 x() {} }",
+    "source": "class A {async\n  foo() { }};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 27
+    "end": 28
 }
 ```
 
@@ -128,7 +135,7 @@ class X { ge\u0074 x() {} }
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 9, end: 20
+✖ Line terminator not permitted before async modifier in a class body - start: 14, end: 20
 
 ```
 

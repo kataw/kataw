@@ -207,5 +207,8 @@
   "Cannot use 'await' as a name on a async generator expression": 209,
   "Cannot use 'await' as a name on a async function expression": 210,
   "Cannot use 'await' as a name on a async generator declaration": 211,
-  "Cannot use 'await' as a name on a async function declaration": 212
+  "Cannot use 'await' as a name on a async function declaration": 212,
+  "Line terminator not permitted before async modifier in a class body": 213,
+  "'async' modifier cannot be used here": 214,
+  "Parameter 'await' for async arrow not allowed here": 215
 }

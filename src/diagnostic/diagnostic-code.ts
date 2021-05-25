@@ -210,7 +210,10 @@ export const enum DiagnosticCode {
   Cannot_use_await_as_a_name_on_a_async_generator_expression = 209,
   Cannot_use_await_as_a_name_on_a_async_function_expression = 210,
   Cannot_use_await_as_a_name_on_a_async_generator_declaration = 211,
-  Cannot_use_await_as_a_name_on_a_async_function_declaration = 212
+  Cannot_use_await_as_a_name_on_a_async_function_declaration = 212,
+  Line_terminator_not_permitted_before_async_modifier_in_a_class_body = 213,
+  _async_modifier_cannot_be_used_here = 214,
+  Parameter_await_for_async_arrow_not_allowed_here = 215
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -314,8 +317,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [100]: 'A type annotation is required for the `this` parameter.',
   [101]: 'The `this` parameter must be the first function parameter.',
   [102]: '`_` is only allowed as a type argument to call or new',
-  [103]:
-    'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
+  [103]: 'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
   [104]: 'Only declares and type imports are allowed inside declare module',
   [105]: "Class methods cannot have the 'declare' modifier",
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
@@ -353,14 +355,11 @@ export const diagnosticMap: { [key: number]: string } = {
   [138]: 'Invalid BigInt syntax',
   [139]: 'Non number after exponent indicator',
   [140]: 'Numeric separators not allowed here',
-  [141]:
-    'In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block',
-  [142]:
-    'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
+  [141]: 'In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block',
+  [142]: 'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
   [143]: "'try' expected",
   [144]: 'Expected a `;`',
-  [145]:
-    "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
+  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
   [146]: 'Unicode escapes at the start of labels should not allow keywords',
   [147]: "Identifier expected.  'await' is a reserved word in module goal",
   [148]: 'Duplicate label',
@@ -426,5 +425,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [209]: "Cannot use 'await' as a name on a async generator expression",
   [210]: "Cannot use 'await' as a name on a async function expression",
   [211]: "Cannot use 'await' as a name on a async generator declaration",
-  [212]: "Cannot use 'await' as a name on a async function declaration"
+  [212]: "Cannot use 'await' as a name on a async function declaration",
+  [213]: 'Line terminator not permitted before async modifier in a class body',
+  [214]: "'async' modifier cannot be used here",
+  [215]: "Parameter 'await' for async arrow not allowed here"
 };

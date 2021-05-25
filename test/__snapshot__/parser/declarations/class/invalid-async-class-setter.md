@@ -1,15 +1,9 @@
 # Kataw parser test case
 
-## Options
-
-`````js
-{ jsx: true, disableWebCompat: true }
-`````
-
 ## Input
 
 `````js
-class A {async set 11(x){}}
+class A {async set foo(value) { }};
 `````
 
 ## Output
@@ -84,12 +78,12 @@ class A {async set 11(x){}}
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 201392130,
-                                    "text": 11,
-                                    "rawText": "11",
+                                    "kind": 134299649,
+                                    "text": "foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 18,
-                                    "end": 21
+                                    "end": 22
                                 },
                                 "typeParameters": null,
                                 "formalParameters": {
@@ -100,24 +94,24 @@ class A {async set 11(x){}}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
+                                                "text": "value",
+                                                "rawText": "value",
                                                 "flags": 96,
-                                                "start": 22,
-                                                "end": 23
+                                                "start": 23,
+                                                "end": 28
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 32,
-                                            "start": 22,
-                                            "end": 23
+                                            "start": 23,
+                                            "end": 28
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 22,
-                                    "end": 24
+                                    "start": 23,
+                                    "end": 29
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -127,41 +121,47 @@ class A {async set 11(x){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
-                                        "start": 25,
-                                        "end": 25
+                                        "start": 31,
+                                        "end": 31
                                     },
                                     "flags": 32,
-                                    "start": 24,
-                                    "end": 26
+                                    "start": 29,
+                                    "end": 33
                                 },
                                 "flags": 0,
-                                "start": 21,
-                                "end": 26
+                                "start": 22,
+                                "end": 33
                             },
                             "flags": 0,
                             "start": 18,
-                            "end": 26
+                            "end": 33
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 26
+                    "end": 33
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 27
+                "end": 34
             },
             "flags": 16,
             "start": 0,
-            "end": 27
+            "end": 34
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 34,
+            "end": 35
         }
     ],
     "isModule": false,
-    "source": "class A {async set 11(x){}}",
+    "source": "class A {async set foo(value) { }};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 27
+    "end": 35
 }
 ```
 
@@ -174,7 +174,7 @@ class A {async set 11(x){}}
 ### Diagnostics
 
 ```javascript
-✖ 'async' modifier cannot be used here - start: 18, end: 21
+✖ 'async' modifier cannot be used here - start: 18, end: 22
 
 ```
 

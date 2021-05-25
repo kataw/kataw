@@ -139,14 +139,12 @@ class A {
 
 ```javascript
 
-class A {
-  async a() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Line terminator not permitted before async modifier in a class body - start: 17, end: 21
+
 ```
 

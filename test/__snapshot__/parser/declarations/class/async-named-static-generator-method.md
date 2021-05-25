@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-class X { ge\u0074 x() {} }
+class A {static* async() { }};
 `````
 
 ## Output
@@ -27,8 +27,8 @@ class X { ge\u0074 x() {} }
             },
             "name": {
                 "kind": 134299649,
-                "text": "X",
-                "rawText": "X",
+                "text": "A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -44,34 +44,39 @@ class X { ge\u0074 x() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
-                                "flags": 16448,
-                                "start": 9,
-                                "end": 18
+                            "generatorToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 16
                             },
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 15
+                            },
+                            "asyncKeyword": null,
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "async",
+                                    "rawText": "async",
                                     "flags": 96,
-                                    "start": 18,
-                                    "end": 20
+                                    "start": 16,
+                                    "end": 22
                                 },
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1024,
-                                    "start": 21,
-                                    "end": 22
+                                    "flags": 0,
+                                    "start": 23,
+                                    "end": 24
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -81,41 +86,47 @@ class X { ge\u0074 x() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
-                                        "start": 24,
-                                        "end": 24
+                                        "start": 26,
+                                        "end": 26
                                     },
                                     "flags": 32,
-                                    "start": 22,
-                                    "end": 25
+                                    "start": 24,
+                                    "end": 28
                                 },
-                                "flags": 1024,
-                                "start": 20,
-                                "end": 25
+                                "flags": 0,
+                                "start": 22,
+                                "end": 28
                             },
-                            "flags": 1024,
-                            "start": 9,
-                            "end": 25
+                            "flags": 0,
+                            "start": 15,
+                            "end": 28
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 25
+                    "end": 28
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 27
+                "end": 29
             },
             "flags": 16,
             "start": 0,
-            "end": 27
+            "end": 29
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 29,
+            "end": 30
         }
     ],
     "isModule": false,
-    "source": "class X { ge\\u0074 x() {} }",
+    "source": "class A {static* async() { }};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 27
+    "end": 30
 }
 ```
 
@@ -123,12 +134,15 @@ class X { ge\u0074 x() {} }
 
 ```javascript
 
+class A {
+  static static async() {}
+}
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 9, end: 20
-
+✔ No errors
 ```
 

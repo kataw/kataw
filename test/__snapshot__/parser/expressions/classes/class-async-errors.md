@@ -1493,6 +1493,8 @@
 
 ```javascript
 ✖ Identifier expected - start: 41, end: 42
+✖ 'async' modifier cannot be used here - start: 67, end: 69
+✖ 'async' modifier cannot be used here - start: 95, end: 97
 ✖ The parser expected to find a '}' to match the '{' token here - start: 122, end: 124
 ✖ Declaration or statement expected - start: 126, end: 127
 ✖ Declaration or statement expected - start: 127, end: 128
@@ -1500,6 +1502,8 @@
 ✖ Declaration or statement expected - start: 148, end: 149
 ✖ Declaration or statement expected - start: 149, end: 150
 ✖ Identifier expected - start: 240, end: 241
+✖ 'async' modifier cannot be used here - start: 273, end: 275
+✖ 'async' modifier cannot be used here - start: 308, end: 310
 ✖ The parser expected to find a '}' to match the '{' token here - start: 342, end: 344
 ✖ Declaration or statement expected - start: 346, end: 347
 ✖ Declaration or statement expected - start: 347, end: 348

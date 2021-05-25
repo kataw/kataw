@@ -155,7 +155,7 @@ class X { \u0061sync x() { await x } }
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 20, end: 22
+✖ Keywords cannot contain escape characters - start: 9, end: 22
 
 ```
 
