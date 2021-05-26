@@ -98,11 +98,11 @@ import {default as foo} from "foo";
                     "end": 23
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 23
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 35
         }
     ],

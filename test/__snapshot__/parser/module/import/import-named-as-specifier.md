@@ -98,11 +98,11 @@ import {bar as baz} from "foo";
                     "end": 19
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 19
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 31
         }
     ],

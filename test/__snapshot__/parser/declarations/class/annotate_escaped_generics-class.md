@@ -174,8 +174,8 @@ class B<X> {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 37,
+                                                        "flags": 37,
+                                                        "start": 96,
                                                         "end": 41
                                                     },
                                                     "expression": {
@@ -217,8 +217,8 @@ class B<X> {
                                                                         "kind": 129,
                                                                         "member": {
                                                                             "kind": 135,
-                                                                            "flags": 96,
-                                                                            "start": 56,
+                                                                            "flags": 56,
+                                                                            "start": 96,
                                                                             "end": 61
                                                                         },
                                                                         "expression": {
@@ -264,8 +264,8 @@ class B<X> {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 70,
+                                                            "flags": 70,
+                                                            "start": 97,
                                                             "end": 79
                                                         },
                                                         "expression": {

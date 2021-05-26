@@ -119,11 +119,11 @@ function f(){import {x} from "y";}
                                     "end": 23
                                 },
                                 "flags": 16,
-                                "start": 19,
+                                "start": 13,
                                 "end": 23
                             },
                             "flags": 16,
-                            "start": 19,
+                            "start": 13,
                             "end": 33
                         }
                     ],

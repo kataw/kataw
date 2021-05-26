@@ -103,11 +103,11 @@ import {x, z,} from "y"
                     "end": 14
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 14
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 23
         }
     ],

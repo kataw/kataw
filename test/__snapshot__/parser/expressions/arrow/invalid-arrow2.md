@@ -324,8 +324,8 @@
                                     },
                                     "right": {
                                         "kind": 135,
-                                        "flags": 96,
-                                        "start": 83,
+                                        "flags": 83,
+                                        "start": 96,
                                         "end": 88
                                     },
                                     "flags": 32,

@@ -113,11 +113,11 @@ import { type Foo12 } from "bar";
                     "end": 27
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 27
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 39
         },
         {
@@ -162,11 +162,11 @@ import { type Foo12 } from "bar";
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
-                "start": 46,
+                "start": 39,
                 "end": 51
             },
             "flags": 16,
-            "start": 46,
+            "start": 39,
             "end": 63
         },
         {
@@ -241,11 +241,11 @@ import { type Foo12 } from "bar";
                     "end": 87
                 },
                 "flags": 16,
-                "start": 70,
+                "start": 63,
                 "end": 87
             },
             "flags": 16,
-            "start": 70,
+            "start": 63,
             "end": 99
         },
         {
@@ -285,11 +285,11 @@ import { type Foo12 } from "bar";
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
-                "start": 106,
+                "start": 99,
                 "end": 111
             },
             "flags": 16,
-            "start": 106,
+            "start": 99,
             "end": 122
         },
         {
@@ -395,11 +395,11 @@ import { type Foo12 } from "bar";
                     "end": 157
                 },
                 "flags": 16,
-                "start": 136,
+                "start": 129,
                 "end": 157
             },
             "flags": 16,
-            "start": 136,
+            "start": 129,
             "end": 169
         },
         {
@@ -414,7 +414,7 @@ import { type Foo12 } from "bar";
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 16,
-            "start": 176,
+            "start": 169,
             "end": 176
         },
         {
@@ -586,11 +586,11 @@ import { type Foo12 } from "bar";
                     "end": 232
                 },
                 "flags": 16,
-                "start": 217,
+                "start": 210,
                 "end": 232
             },
             "flags": 16,
-            "start": 217,
+            "start": 210,
             "end": 244
         }
     ],

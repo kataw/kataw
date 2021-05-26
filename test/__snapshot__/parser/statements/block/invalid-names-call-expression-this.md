@@ -42,8 +42,8 @@
                                         "returnType": null,
                                         "contents": {
                                             "kind": 135,
-                                            "flags": 96,
-                                            "start": 8,
+                                            "flags": 8,
+                                            "start": 96,
                                             "end": 13
                                         },
                                         "flags": 32,

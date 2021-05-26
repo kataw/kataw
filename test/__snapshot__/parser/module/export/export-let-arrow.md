@@ -71,8 +71,8 @@ export let foo = async () => this
                                 "returnType": null,
                                 "contents": {
                                     "kind": 135,
-                                    "flags": 96,
-                                    "start": 28,
+                                    "flags": 28,
+                                    "start": 96,
                                     "end": 33
                                 },
                                 "flags": 288,

@@ -38,7 +38,7 @@ export default class {
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 0,
-                "start": 6,
+                "start": 0,
                 "end": 14
             },
             "declaration": {
@@ -152,8 +152,8 @@ export default class {
                                 "kind": 129,
                                 "member": {
                                     "kind": 135,
-                                    "flags": 96,
-                                    "start": 49,
+                                    "flags": 49,
+                                    "start": 97,
                                     "end": 58
                                 },
                                 "expression": {

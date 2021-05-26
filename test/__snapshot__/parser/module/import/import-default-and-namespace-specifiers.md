@@ -88,11 +88,11 @@ import foo, * as bar from "foo";
                 },
                 "namedImports": null,
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 20
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 32
         }
     ],

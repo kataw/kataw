@@ -70,7 +70,7 @@ function *f(){
                             "moduleSpecifier": null,
                             "importClause": null,
                             "flags": 16,
-                            "start": 28,
+                            "start": 14,
                             "end": 28
                         }
                     ],
@@ -121,7 +121,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 28, end: 30
+✖ Keywords cannot contain escape characters - start: 14, end: 28
 ✖ Unexpected token. - start: 28, end: 30
 ✖ The `import` keyword can only be used with the module goal - start: 28, end: 30
 ✖ Expected a `;` - start: 28, end: 30

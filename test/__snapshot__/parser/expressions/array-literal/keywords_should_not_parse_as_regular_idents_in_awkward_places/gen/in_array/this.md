@@ -27,8 +27,8 @@
                     "elements": [
                         {
                             "kind": 135,
-                            "flags": 96,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 96,
                             "end": 6
                         }
                     ],

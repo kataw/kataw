@@ -30,7 +30,7 @@ impo\u0072t = x;
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 16,
-            "start": 11,
+            "start": 0,
             "end": 11
         },
         {
@@ -66,7 +66,7 @@ impo\u0072t = x;
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 11, end: 13
+✖ Keywords cannot contain escape characters - start: 0, end: 11
 ✖ Unexpected token. - start: 11, end: 13
 ✖ The `import` keyword can only be used with the module goal - start: 11, end: 13
 ✖ Expected a `;` - start: 11, end: 13

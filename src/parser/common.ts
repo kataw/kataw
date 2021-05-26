@@ -35,6 +35,9 @@ export const enum Context {
   OptionsNext = 1 << 0,
   OptionsAllowTypes = 1 << 1,
   OptionsDisableWebCompat = 1 << 2,
+  TopLevel = 1 << 3,
+  InBlock = 1 << 4,
+  InStaticBlock = 1 << 5,
   AllowRegExp = 1 << 6,
   DisallowIn = 1 << 7,
   AllowReturn = 1 << 8,
@@ -44,20 +47,17 @@ export const enum Context {
   InIteration = 1 << 12,
   NewTarget = 1 << 13,
   Parameters = 1 << 14,
+  InForOfAwait = 1 << 15,
   SuperCall = 1 << 16,
   SuperProperty = 1 << 17,
   InConstructor = 1 << 18,
   Strict = 1 << 19,
   Module = 1 << 20,
+  InClassBody = 1 << 21,
   InConditionalExpr = 1 << 22,
   InTypes = 1 << 23,
-  InClassBody = 1 << 24,
   AllowImportMeta = 1 << 25,
-  LexicalContext = 1 << 26,
-  InForOfAwait = 1 << 27,
-  InStaticBlock = 1 << 28,
-  InBlock = 1 << 29,
-  TopLevel = 1 << 30
+  LexicalContext = 1 << 26
 }
 
 export const enum DestructibleKind {
@@ -201,6 +201,31 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
   const kind = parser.token;
   const flags = parser.nodeFlags;
   if (parser.token === token) {
+    nextToken(parser, context);
+    return createToken(kind, flags, pos, parser.curPos);
+  }
+  nextToken(parser, context);
+  return null;
+}
+
+export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKind>(
+  parser: ParserState,
+  context: Context,
+  token: T,
+  pos: number
+): any {
+  const kind = parser.token;
+  const flags = parser.nodeFlags;
+  if (parser.token === token) {
+    if (flags & 0b00000000000000000110000000000000) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+        parser.curPos,
+        parser.pos
+      );
+    }
     nextToken(parser, context);
     return createToken(kind, flags, pos, parser.curPos);
   }

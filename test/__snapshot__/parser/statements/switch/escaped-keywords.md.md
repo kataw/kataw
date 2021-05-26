@@ -29,8 +29,8 @@ switch (this.a) { c\u0061se 6: break; }
                 "kind": 129,
                 "member": {
                     "kind": 135,
-                    "flags": 96,
-                    "start": 8,
+                    "flags": 8,
+                    "start": 96,
                     "end": 12
                 },
                 "expression": {
@@ -96,8 +96,8 @@ switch (this.a) { c\u0061se 6: break; }
                 "kind": 129,
                 "member": {
                     "kind": 135,
-                    "flags": 96,
-                    "start": 50,
+                    "flags": 50,
+                    "start": 96,
                     "end": 54
                 },
                 "expression": {
@@ -178,8 +178,8 @@ switch (this.a) { c\u0061se 6: break; }
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 30, end: 31
-✖ Keywords cannot contain escape characters - start: 69, end: 71
+✖ Keywords cannot contain escape characters - start: 17, end: 30
+✖ Keywords cannot contain escape characters - start: 59, end: 69
 
 ```
 

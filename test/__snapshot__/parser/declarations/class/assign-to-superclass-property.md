@@ -140,8 +140,8 @@ class B extends A {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 56,
+                                                            "flags": 56,
+                                                            "start": 97,
                                                             "end": 69
                                                         },
                                                         "expression": {
@@ -168,8 +168,8 @@ class B extends A {
                                                             "kind": 129,
                                                             "member": {
                                                                 "kind": 135,
-                                                                "flags": 96,
-                                                                "start": 83,
+                                                                "flags": 83,
+                                                                "start": 96,
                                                                 "end": 88
                                                             },
                                                             "expression": {

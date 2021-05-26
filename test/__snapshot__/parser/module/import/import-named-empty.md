@@ -68,11 +68,11 @@ import {} from "foo";
                     "end": 9
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 9
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 21
         }
     ],

@@ -185,8 +185,8 @@ class C extends B {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 60,
+                                                        "flags": 60,
+                                                        "start": 97,
                                                         "end": 69
                                                     },
                                                     "expression": {

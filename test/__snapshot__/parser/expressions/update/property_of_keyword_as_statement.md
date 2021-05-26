@@ -29,8 +29,8 @@
                     "kind": 129,
                     "member": {
                         "kind": 135,
-                        "flags": 96,
-                        "start": 2,
+                        "flags": 2,
+                        "start": 96,
                         "end": 6
                     },
                     "expression": {

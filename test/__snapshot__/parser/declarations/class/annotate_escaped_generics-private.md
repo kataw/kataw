@@ -327,8 +327,8 @@ class I<X> {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 67,
+                                                            "flags": 67,
+                                                            "start": 97,
                                                             "end": 76
                                                         },
                                                         "expression": {
@@ -372,8 +372,8 @@ class I<X> {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 84,
+                                                            "flags": 84,
+                                                            "start": 97,
                                                             "end": 93
                                                         },
                                                         "expression": {

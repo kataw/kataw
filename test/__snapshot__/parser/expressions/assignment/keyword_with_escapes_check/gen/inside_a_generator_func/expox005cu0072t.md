@@ -124,7 +124,7 @@ function *f(){
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 14, end: 28
-✖ Keywords cannot contain escape characters - start: 28, end: 30
+✖ Keywords cannot contain escape characters - start: 14, end: 28
 ✖ Declaration or statement expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 34
 

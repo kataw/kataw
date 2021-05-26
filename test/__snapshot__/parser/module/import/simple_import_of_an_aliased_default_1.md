@@ -81,11 +81,11 @@ import * as a from "y"
                 },
                 "namedImports": null,
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 13
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 22
         }
     ],

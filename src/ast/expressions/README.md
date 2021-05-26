@@ -110,6 +110,7 @@ See [13.16](https://tc39.es/ecma262/#sec-comma-operator)
 ```js
 interface ThisExpression <: ExpressionNode {
   kind: NodeKind.ThisExpression;
+  thisKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 

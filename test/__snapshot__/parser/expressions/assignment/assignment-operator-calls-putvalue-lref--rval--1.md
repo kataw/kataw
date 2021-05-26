@@ -114,8 +114,8 @@ Object.defineProperty(this, "x", {
                         "type": null,
                         "initializer": {
                             "kind": 135,
-                            "flags": 96,
-                            "start": 27,
+                            "flags": 27,
+                            "start": 96,
                             "end": 32
                         },
                         "flags": 16,
@@ -162,8 +162,8 @@ Object.defineProperty(this, "x", {
                     "elements": [
                         {
                             "kind": 135,
-                            "flags": 96,
-                            "start": 57,
+                            "flags": 57,
+                            "start": 96,
                             "end": 61
                         },
                         {

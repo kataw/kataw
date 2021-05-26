@@ -222,8 +222,8 @@ class Annotations {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 53,
+                                                            "flags": 53,
+                                                            "start": 97,
                                                             "end": 62
                                                         },
                                                         "expression": {
@@ -265,8 +265,8 @@ class Annotations {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 70,
+                                                        "flags": 70,
+                                                        "start": 97,
                                                         "end": 91
                                                     },
                                                     "expression": {
@@ -654,8 +654,8 @@ class Annotations {
                                                                                                             "kind": 129,
                                                                                                             "member": {
                                                                                                                 "kind": 135,
-                                                                                                                "flags": 96,
-                                                                                                                "start": 311,
+                                                                                                                "flags": 311,
+                                                                                                                "start": 97,
                                                                                                                 "end": 324
                                                                                                             },
                                                                                                             "expression": {
@@ -1439,8 +1439,8 @@ class Annotations {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 907,
+                                                        "flags": 907,
+                                                        "start": 96,
                                                         "end": 912
                                                     },
                                                     "expression": {
@@ -1533,8 +1533,8 @@ class Annotations {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 951,
+                                                        "flags": 951,
+                                                        "start": 96,
                                                         "end": 956
                                                     },
                                                     "expression": {
@@ -1819,8 +1819,8 @@ class Annotations {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 1153,
+                                                        "flags": 1153,
+                                                        "start": 96,
                                                         "end": 1158
                                                     },
                                                     "expression": {
@@ -1913,8 +1913,8 @@ class Annotations {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 1197,
+                                                        "flags": 1197,
+                                                        "start": 96,
                                                         "end": 1202
                                                     },
                                                     "expression": {
@@ -1992,8 +1992,8 @@ class Annotations {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 1259,
+                                                            "flags": 1259,
+                                                            "start": 97,
                                                             "end": 1268
                                                         },
                                                         "expression": {

@@ -210,8 +210,8 @@ class Test {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 65,
+                                                        "flags": 65,
+                                                        "start": 96,
                                                         "end": 70
                                                     },
                                                     "expression": {
@@ -508,8 +508,8 @@ class Test {
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 135,
-                                                                        "flags": 96,
-                                                                        "start": 172,
+                                                                        "flags": 172,
+                                                                        "start": 96,
                                                                         "end": 176
                                                                     },
                                                                     "expression": {
@@ -527,8 +527,8 @@ class Test {
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 135,
-                                                                        "flags": 96,
-                                                                        "start": 180,
+                                                                        "flags": 180,
+                                                                        "start": 96,
                                                                         "end": 184
                                                                     },
                                                                     "expression": {
@@ -546,8 +546,8 @@ class Test {
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 135,
-                                                                        "flags": 96,
-                                                                        "start": 188,
+                                                                        "flags": 188,
+                                                                        "start": 96,
                                                                         "end": 192
                                                                     },
                                                                     "expression": {
@@ -584,8 +584,8 @@ class Test {
                                                             "kind": 129,
                                                             "member": {
                                                                 "kind": 135,
-                                                                "flags": 96,
-                                                                "start": 197,
+                                                                "flags": 197,
+                                                                "start": 96,
                                                                 "end": 202
                                                             },
                                                             "expression": {

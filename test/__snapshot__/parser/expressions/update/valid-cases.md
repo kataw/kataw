@@ -251,8 +251,8 @@ new foo().bar++;
                     "kind": 129,
                     "member": {
                         "kind": 135,
-                        "flags": 96,
-                        "start": 56,
+                        "flags": 56,
+                        "start": 97,
                         "end": 61
                     },
                     "expression": {
@@ -289,8 +289,8 @@ new foo().bar++;
                     "kind": 536871042,
                     "member": {
                         "kind": 135,
-                        "flags": 96,
-                        "start": 68,
+                        "flags": 68,
+                        "start": 97,
                         "end": 73
                     },
                     "expression": {

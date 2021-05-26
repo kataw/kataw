@@ -80,8 +80,8 @@ class C {
                                                 },
                                                 "right": {
                                                     "kind": 135,
-                                                    "flags": 96,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 96,
                                                     "end": 37
                                                 },
                                                 "flags": 32,

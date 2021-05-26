@@ -63,11 +63,11 @@ import x from "y"
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 8
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 17
         }
     ],

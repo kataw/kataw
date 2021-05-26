@@ -140,8 +140,8 @@ class Example {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 71,
+                                                        "flags": 71,
+                                                        "start": 96,
                                                         "end": 76
                                                     },
                                                     "expression": {

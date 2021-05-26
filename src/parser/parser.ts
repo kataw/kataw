@@ -190,7 +190,8 @@ import {
   ScopeState,
   addVarOrBlock,
   addVarName,
-  addBlockName
+  addBlockName,
+  consumeKeywordAndCheckForEscapeSequence
 } from './common';
 
 /**
@@ -525,16 +526,12 @@ function isCaseOrDefaultClause(t: SyntaxKind): boolean {
 
 function parseCaseClause(parser: ParserState, context: Context, scope: ScopeState): CaseClause {
   const pos = parser.curPos;
-  const caseToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.CaseKeyword);
-  if (caseToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const caseToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.CaseKeyword,
+    pos
+  );
   const expression = parseExpression(parser, context);
   consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
   const statements = [];
@@ -546,16 +543,12 @@ function parseCaseClause(parser: ParserState, context: Context, scope: ScopeStat
 
 function parseDefaultClause(parser: ParserState, context: Context, scope: ScopeState): DefaultClause {
   const pos = parser.curPos;
-  const defaultToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DefaultKeyword);
-  if (defaultToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const defaultToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.DefaultKeyword,
+    pos
+  );
   consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
   const statements = [];
   while (parser.token & 0b00010010100000011100000000000000) {
@@ -613,16 +606,12 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
 
 function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState): CatchClause {
   const pos = parser.curPos;
-  const catchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.CatchKeyword);
-  if (catchToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const catchToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.CatchKeyword,
+    pos
+  );
   // Keep shape of node to avoid degrading performance.
   let catchParameter = null;
   let initializer = null;
@@ -750,17 +739,7 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
     );
   }
   let label = null;
-  const continueToken = consumeToken(parser, context, SyntaxKind.ContinueKeyword);
-  if (continueToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.previousErrorPos = pos;
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const continueToken = consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.ContinueKeyword, pos);
   if (!canParseSemicolon(parser)) {
     label = parseIdentifier(parser, context);
   }
@@ -773,16 +752,12 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
 //  `if` `(` Expression `)` Statement [lookahead != `else`]
 function parseIfStatement(parser: ParserState, context: Context, scope: ScopeState): IfStatement {
   const pos = parser.curPos;
-  const ifKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.IfKeyword);
-  if (ifKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const ifKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.IfKeyword,
+    pos
+  );
   const openParenExists = consume(
     parser,
     context | Context.AllowRegExp,
@@ -864,16 +839,12 @@ function parseWhileStatement(parser: ParserState, context: Context, scope: Scope
 // `do` Statement `while` `(` Expression `)` `;`
 function parseDoWhileStatement(parser: ParserState, context: Context, scope: ScopeState): DoWhileStatement {
   const pos = parser.curPos;
-  const doKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DoKeyword);
-  if (doKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const doKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.DoKeyword,
+    pos
+  );
   const statement = parseStatement(
     parser,
     (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
@@ -989,7 +960,7 @@ export function parseLabelledStatement(
 ): LabelledStatement {
   switch (token) {
     case SyntaxKind.AwaitKeyword:
-      if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+      if (flags & 0b00000000000000000110000000000000) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1101,17 +1072,12 @@ function parseForStatement(
   scope: ScopeState
 ): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
-  const forKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ForKeyword);
-  if (forKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
-
+  const forKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.ForKeyword,
+    pos
+  );
   let destructible!: DestructibleKind;
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
@@ -1247,7 +1213,7 @@ function parseForStatement(
   }
 
   if (parser.token & SyntaxKind.IsInOrOf || awaitKeyword) {
-    if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    if (parser.nodeFlags & 0b00000000000000000110000000000000) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1459,7 +1425,7 @@ function parseBindingIdentifier(
             ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
             : context & Context.Module
             ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
-            : parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+            : parser.nodeFlags & 0b00000000000000000110000000000000
             ? DiagnosticCode._await_keyword_must_not_contain_escaped_characters
             : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
         ],
@@ -3259,7 +3225,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
   const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const newToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.NewKeyword);
 
-  if (newToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (newToken.flags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3276,7 +3242,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
-          flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+          flags & 0b00000000000000000110000000000000
             ? DiagnosticCode.Keywords_cannot_contain_escape_characters
             : DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target
         ],
@@ -3325,20 +3291,22 @@ function parseNullLiteral(parser: ParserState, context: Context): NullLiteral {
   parser.assignable = false;
   return createNullLiteral(curPos, parser.curPos);
 }
+
 function parseThisExpression(parser: ParserState, context: Context): ThisExpression {
-  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  const nodeFlags = parser.nodeFlags;
+  const curPos = parser.curPos;
+  if (nodeFlags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
+      curPos,
       parser.pos
     );
   }
-  const curPos = parser.curPos;
   nextToken(parser, context);
   parser.assignable = false;
-  return createThisExpression(curPos, parser.curPos);
+  return createThisExpression(curPos, nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess, parser.curPos);
 }
 
 // BooleanLiteral :
@@ -3347,7 +3315,7 @@ function parseThisExpression(parser: ParserState, context: Context): ThisExpress
 function parseBooleanLiteral(parser: ParserState, context: Context, isTruthy: boolean): BooleanLiteral {
   const curPos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess;
-  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (parser.nodeFlags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3460,7 +3428,7 @@ function parseUnaryExpression(
 ): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
-  if (operandToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (operandToken.flags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3478,7 +3446,7 @@ function parseUnaryExpression(
       parser.pos
     );
   }
-  if (operandToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (operandToken.flags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -4971,7 +4939,7 @@ function parseFunctionExpression(
           if (parser.token & SyntaxKind.IsInOrOf && speculate(parser, context, isArrowAfterTheCurrentToken, true)) {
             // Do not allow "for (async of []) ;" but do allow "for await (async of []) ;"
             if (
-              (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) === 0 &&
+              (asyncToken.flags & 0b00000000000000000110000000000000) === 0 &&
               (context & Context.InForOfAwait) === 0 &&
               parser.token & SyntaxKind.IsInOrOf
             ) {
@@ -4996,7 +4964,7 @@ function parseFunctionExpression(
               parser.pos
             );
           }
-          if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (asyncToken.flags & 0b00000000000000000110000000000000) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -5076,7 +5044,7 @@ function parseFunctionExpression(
       // "async + 1"
       return expression;
     }
-    if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    if (asyncToken.flags & 0b00000000000000000110000000000000) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -5203,7 +5171,7 @@ function parseFunctionDeclaration(
             );
           }
 
-          if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (asyncToken.flags & 0b00000000000000000110000000000000) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -5310,7 +5278,7 @@ function parseFunctionDeclaration(
       return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expression, pos), pos);
     }
 
-    if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    if (asyncToken.flags & 0b00000000000000000110000000000000) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -5550,7 +5518,7 @@ function parseFunctionStatementList(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
             diagnosticMap[
-              flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+              flags & 0b00000000000000000110000000000000
                 ? DiagnosticCode._eval_and_arguments_cannot_contain_escape_characters
                 : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
             ],
@@ -5717,18 +5685,13 @@ function parseImportDeclaration(
   let moduleSpecifier = null;
   let importClause = null;
   let fromClause: FromClause | null = null;
-
-  const importToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ImportKeyword);
-  if (importToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
   const pos = parser.curPos;
+  const importToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.ImportKeyword,
+    pos
+  );
 
   if (parser.token === SyntaxKind.StringLiteral) {
     moduleSpecifier = parseStringLiteral(parser, context);
@@ -5869,7 +5832,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+        flags & 0b00000000000000000110000000000000
           ? DiagnosticCode._eval_and_arguments_cannot_contain_escape_characters
           : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
       ],
@@ -5931,16 +5894,12 @@ function parseExportDeclaration(
   scope: ScopeState
 ): ExportDeclaration | ExportDefault | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
-  const exportToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExportKeyword);
-  if (exportToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const exportToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.ExportKeyword,
+    pos
+  );
   let declaration: any = null;
   let fromClause: FromClause | null = null;
   let namedExports: NamedExports | null = null;
@@ -6134,16 +6093,12 @@ function parseExportDefault(
   exportToken: SyntaxToken<TokenSyntaxKind>,
   pos: number
 ): ExportDefault | ExpressionStatement | LabelledStatement {
-  const defaultToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DefaultKeyword);
-  if (defaultToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const defaultToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.DefaultKeyword,
+    pos
+  );
   let declaration!: StatementNode | ExpressionNode | any;
 
   switch (parser.token) {
@@ -6664,16 +6619,12 @@ function parseVariableStatement(
   type: BindingType
 ): VariableStatement {
   const pos = parser.curPos;
-  const varKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.VarKeyword);
-  if (varKeyword && varKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const varKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.VarKeyword,
+    pos
+  );
   const declarationList = parseVariableDeclarationList(parser, context, /* inForStatement */ false, scope, type);
   parseSemicolon(parser, context);
   return createVariableStatement(
@@ -6932,7 +6883,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
   let expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
   if (
     parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) &&
-    (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) === 0
+    (flags & 0b00000000000000000110000000000000) === 0
   ) {
     const declarationList = parseBindingList(
       parser,
@@ -6998,7 +6949,7 @@ function parseLexicalDeclaration(
 ): LexicalDeclaration {
   const pos = parser.curPos;
   const lexicalToken = consumeToken(parser, context, token);
-  if (lexicalToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (lexicalToken.flags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -7461,7 +7412,7 @@ function parseYieldIdentifierOrExpression(
   const pos = parser.curPos;
 
   if (context & Context.InGeneratorContext) {
-    if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    if (parser.nodeFlags & 0b00000000000000000110000000000000) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -7563,7 +7514,7 @@ export function parseAwaitExpression(
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
   if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) return parseIdentifierReference(parser, context);
-  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (parser.nodeFlags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -7660,7 +7611,7 @@ export function parseImportMeta(
 ): ExpressionStatement {
   const pos = parser.curPos;
 
-  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (parser.nodeFlags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -7685,7 +7636,7 @@ export function parseImportMeta(
     );
   }
 
-  if (metaKeyword && metaKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (metaKeyword && metaKeyword.flags & 0b00000000000000000110000000000000) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -7763,17 +7714,12 @@ function parseClassDeclaration(
 ): ClassDeclaration {
   const pos = parser.curPos;
   const decorator = parseDecorators(parser, context);
-  const classToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ClassKeyword);
-
-  if (classToken && classToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const classToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.ClassKeyword,
+    pos
+  );
   context = (context | Context.InConstructor | Context.Strict) ^ Context.InConstructor;
 
   let name = null;
@@ -7885,16 +7831,12 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
   let body = null;
 
   if (parser.token === SyntaxKind.ExtendsKeyword) {
-    const extendsToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExtendsKeyword);
-    if (extendsToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-        parser.curPos,
-        parser.pos
-      );
-    }
+    const extendsToken = consumeKeywordAndCheckForEscapeSequence(
+      parser,
+      context | Context.AllowRegExp,
+      SyntaxKind.ExtendsKeyword,
+      pos
+    );
 
     const curPos = parser.curPos;
     classHeritage = createClassHeritage(
@@ -8007,7 +7949,7 @@ export function parseClassElement(
       switch (token) {
         case SyntaxKind.StaticKeyword:
           // avoid 'static static'
-          if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (flags & 0b00000000000000000110000000000000) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -8074,7 +8016,7 @@ export function parseClassElement(
           }
           break;
         case SyntaxKind.AsyncKeyword:
-          if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (flags & 0b00000000000000000110000000000000) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -8089,7 +8031,7 @@ export function parseClassElement(
           if (generatorToken) nodeFlags |= NodeFlags.Generator;
           break;
         case SyntaxKind.GetKeyword:
-          if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (flags & 0b00000000000000000110000000000000) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -8103,7 +8045,7 @@ export function parseClassElement(
           break;
 
         case SyntaxKind.SetKeyword:
-          if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          if (flags & 0b00000000000000000110000000000000) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -8462,7 +8404,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
-          superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+          superKeyword.flags & 0b00000000000000000110000000000000
             ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
             : DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access
         ],
@@ -8475,7 +8417,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[
-            superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+            superKeyword.flags & 0b00000000000000000110000000000000
               ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
               : DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
           ],
@@ -8492,7 +8434,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[
-            superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+            superKeyword.flags & 0b00000000000000000110000000000000
               ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
               : DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
           ],
@@ -8509,7 +8451,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
-          superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+          superKeyword.flags & 0b00000000000000000110000000000000
             ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
             : DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access
         ],

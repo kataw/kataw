@@ -126,8 +126,8 @@ class Foo {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 32,
+                                                        "flags": 32,
+                                                        "start": 96,
                                                         "end": 37
                                                     },
                                                     "expression": {
@@ -229,8 +229,8 @@ class Foo {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 60,
+                                                            "flags": 60,
+                                                            "start": 96,
                                                             "end": 65
                                                         },
                                                         "expression": {
@@ -335,8 +335,8 @@ class Foo {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 99,
+                                                        "flags": 99,
+                                                        "start": 96,
                                                         "end": 104
                                                     },
                                                     "expression": {
@@ -438,8 +438,8 @@ class Foo {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 129,
+                                                            "flags": 129,
+                                                            "start": 96,
                                                             "end": 134
                                                         },
                                                         "expression": {

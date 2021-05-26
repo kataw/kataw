@@ -37,8 +37,8 @@
                             "returnType": null,
                             "contents": {
                                 "kind": 135,
-                                "flags": 96,
-                                "start": 6,
+                                "flags": 6,
+                                "start": 96,
                                 "end": 11
                             },
                             "flags": 32,

@@ -170,8 +170,8 @@
                                                             "kind": 129,
                                                             "member": {
                                                                 "kind": 135,
-                                                                "flags": 96,
-                                                                "start": 37,
+                                                                "flags": 37,
+                                                                "start": 96,
                                                                 "end": 42
                                                             },
                                                             "expression": {
@@ -352,8 +352,8 @@
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 135,
-                                                                    "flags": 96,
-                                                                    "start": 82,
+                                                                    "flags": 82,
+                                                                    "start": 96,
                                                                     "end": 87
                                                                 },
                                                                 "expression": {
@@ -569,8 +569,8 @@
                                                                                     "kind": 129,
                                                                                     "member": {
                                                                                         "kind": 135,
-                                                                                        "flags": 96,
-                                                                                        "start": 138,
+                                                                                        "flags": 138,
+                                                                                        "start": 96,
                                                                                         "end": 143
                                                                                     },
                                                                                     "expression": {
@@ -782,8 +782,8 @@
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 135,
-                                                                    "flags": 96,
-                                                                    "start": 188,
+                                                                    "flags": 188,
+                                                                    "start": 96,
                                                                     "end": 193
                                                                 },
                                                                 "expression": {

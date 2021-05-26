@@ -4,10 +4,10 @@ export interface ThisExpression extends SyntaxNode {
   kind: SyntaxKind.ThisExpression;
 }
 
-export function createThisExpression(start: number, end: number): ThisExpression {
+export function createThisExpression(flags: NodeFlags, start: number, end: number): ThisExpression {
   return {
     kind: SyntaxKind.ThisExpression,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags,
     start,
     end
   };

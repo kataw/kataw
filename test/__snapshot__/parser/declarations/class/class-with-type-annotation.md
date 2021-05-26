@@ -115,8 +115,8 @@ class Foo { bar():this { return this; }}
                                                 },
                                                 "expression": {
                                                     "kind": 135,
-                                                    "flags": 96,
-                                                    "start": 31,
+                                                    "flags": 31,
+                                                    "start": 96,
                                                     "end": 36
                                                 },
                                                 "flags": 16,

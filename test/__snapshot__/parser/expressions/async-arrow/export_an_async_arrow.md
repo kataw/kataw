@@ -26,7 +26,7 @@ export default async (x) => y
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 0,
-                "start": 6,
+                "start": 0,
                 "end": 14
             },
             "declaration": {

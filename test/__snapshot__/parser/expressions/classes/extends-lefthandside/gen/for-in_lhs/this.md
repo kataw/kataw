@@ -28,8 +28,8 @@ for (this in x) ;
             },
             "initializer": {
                 "kind": 135,
-                "flags": 96,
-                "start": 5,
+                "flags": 5,
+                "start": 96,
                 "end": 9
             },
             "inKeyword": {

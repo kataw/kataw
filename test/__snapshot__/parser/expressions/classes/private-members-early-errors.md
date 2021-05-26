@@ -116,8 +116,8 @@ class C { foo() { this.#a = 1; }}
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 135,
-                                                                        "flags": 96,
-                                                                        "start": 22,
+                                                                        "flags": 22,
+                                                                        "start": 96,
                                                                         "end": 27
                                                                     },
                                                                     "expression": {
@@ -258,8 +258,8 @@ class C { foo() { this.#a = 1; }}
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 135,
-                                                                        "flags": 96,
-                                                                        "start": 69,
+                                                                        "flags": 69,
+                                                                        "start": 96,
                                                                         "end": 74
                                                                     },
                                                                     "expression": {
@@ -413,8 +413,8 @@ class C { foo() { this.#a = 1; }}
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 120,
+                                                        "flags": 120,
+                                                        "start": 96,
                                                         "end": 125
                                                     },
                                                     "expression": {
@@ -530,8 +530,8 @@ class C { foo() { this.#a = 1; }}
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 151,
+                                                            "flags": 151,
+                                                            "start": 96,
                                                             "end": 156
                                                         },
                                                         "expression": {

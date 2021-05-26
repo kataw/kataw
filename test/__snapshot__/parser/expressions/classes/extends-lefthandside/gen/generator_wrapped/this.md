@@ -89,8 +89,8 @@ function *P(){
                                     },
                                     "expression": {
                                         "kind": 135,
-                                        "flags": 96,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 96,
                                         "end": 37
                                     },
                                     "typeParameter": null,

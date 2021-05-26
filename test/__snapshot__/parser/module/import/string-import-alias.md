@@ -104,11 +104,11 @@ import {'' as x} from 'foo';
                     "end": 18
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 18
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 30
         },
         {
@@ -188,11 +188,11 @@ import {'' as x} from 'foo';
                     "end": 51
                 },
                 "flags": 16,
-                "start": 38,
+                "start": 30,
                 "end": 51
             },
             "flags": 16,
-            "start": 38,
+            "start": 30,
             "end": 63
         },
         {
@@ -272,11 +272,11 @@ import {'' as x} from 'foo';
                     "end": 93
                 },
                 "flags": 16,
-                "start": 71,
+                "start": 63,
                 "end": 93
             },
             "flags": 16,
-            "start": 71,
+            "start": 63,
             "end": 105
         },
         {
@@ -356,11 +356,11 @@ import {'' as x} from 'foo';
                     "end": 123
                 },
                 "flags": 16,
-                "start": 113,
+                "start": 105,
                 "end": 123
             },
             "flags": 16,
-            "start": 113,
+            "start": 105,
             "end": 135
         }
     ],

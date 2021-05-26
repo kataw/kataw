@@ -57,7 +57,7 @@ export @bar class Foo { }
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 0,
-                    "start": 11,
+                    "start": 6,
                     "end": 17
                 },
                 "name": {

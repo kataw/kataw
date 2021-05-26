@@ -47,8 +47,8 @@
                             "kind": 125,
                             "left": {
                                 "kind": 135,
-                                "flags": 96,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 96,
                                 "end": 5
                             },
                             "operatorToken": {
@@ -94,8 +94,8 @@
                         "elements": [
                             {
                                 "kind": 135,
-                                "flags": 96,
-                                "start": 12,
+                                "flags": 12,
+                                "start": 96,
                                 "end": 16
                             }
                         ],

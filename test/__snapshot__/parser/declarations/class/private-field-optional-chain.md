@@ -114,8 +114,8 @@ class Foo {
                                                     },
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 24,
+                                                        "flags": 24,
+                                                        "start": 97,
                                                         "end": 31
                                                     },
                                                     "chain": {
@@ -172,8 +172,8 @@ class Foo {
                                                     },
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 37,
+                                                        "flags": 37,
+                                                        "start": 97,
                                                         "end": 44
                                                     },
                                                     "chain": {
@@ -232,8 +232,8 @@ class Foo {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 50,
+                                                            "flags": 50,
+                                                            "start": 97,
                                                             "end": 57
                                                         },
                                                         "expression": {

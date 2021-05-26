@@ -1986,8 +1986,8 @@ a = { y: x = 1 } = b;
                                 },
                                 "right": {
                                     "kind": 135,
-                                    "flags": 96,
-                                    "start": 433,
+                                    "flags": 433,
+                                    "start": 96,
                                     "end": 438
                                 },
                                 "flags": 32,

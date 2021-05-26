@@ -116,8 +116,8 @@ class x extends y { constructor() { super(this); } }
                                                         "elements": [
                                                             {
                                                                 "kind": 135,
-                                                                "flags": 96,
-                                                                "start": 42,
+                                                                "flags": 42,
+                                                                "start": 96,
                                                                 "end": 46
                                                             }
                                                         ],

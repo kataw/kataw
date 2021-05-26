@@ -107,7 +107,7 @@ async () => {  \u0063ontinue = x  }
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 28
-✖ Keywords cannot contain escape characters - start: 28, end: 30
+✖ Keywords cannot contain escape characters - start: 13, end: 28
 ✖ Expression expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 

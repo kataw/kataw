@@ -70,8 +70,8 @@ function fn() { (() => this)().#x }
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 135,
-                                                "flags": 96,
-                                                "start": 22,
+                                                "flags": 22,
+                                                "start": 96,
                                                 "end": 27
                                             },
                                             "flags": 32,

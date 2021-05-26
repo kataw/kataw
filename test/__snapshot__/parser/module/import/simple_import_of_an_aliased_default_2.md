@@ -88,11 +88,11 @@ import x, * as a from "y"
                 },
                 "namedImports": null,
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 16
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 25
         }
     ],

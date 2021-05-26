@@ -21,8 +21,8 @@
                 "kind": 121,
                 "expression": {
                     "kind": 135,
-                    "flags": 96,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 96,
                     "end": 5
                 },
                 "flags": 32,

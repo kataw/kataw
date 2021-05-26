@@ -98,8 +98,8 @@ class Base {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 135,
-                                                            "flags": 96,
-                                                            "start": 30,
+                                                            "flags": 30,
+                                                            "start": 97,
                                                             "end": 39
                                                         },
                                                         "expression": {
@@ -187,8 +187,8 @@ class Base {
                                                                                                             "kind": 129,
                                                                                                             "member": {
                                                                                                                 "kind": 135,
-                                                                                                                "flags": 96,
-                                                                                                                "start": 80,
+                                                                                                                "flags": 80,
+                                                                                                                "start": 97,
                                                                                                                 "end": 93
                                                                                                             },
                                                                                                             "expression": {

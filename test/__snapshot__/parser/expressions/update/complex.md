@@ -41,8 +41,8 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                             "kind": 129,
                                             "member": {
                                                 "kind": 135,
-                                                "flags": 96,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 96,
                                                 "end": 4
                                             },
                                             "expression": {
@@ -86,8 +86,8 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                     "elements": [
                                         {
                                             "kind": 135,
-                                            "flags": 96,
-                                            "start": 18,
+                                            "flags": 18,
+                                            "start": 96,
                                             "end": 22
                                         }
                                     ],

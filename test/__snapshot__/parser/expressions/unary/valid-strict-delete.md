@@ -56,8 +56,8 @@
                 },
                 "operand": {
                     "kind": 135,
-                    "flags": 96,
-                    "start": 21,
+                    "flags": 21,
+                    "start": 96,
                     "end": 26
                 },
                 "flags": 32,

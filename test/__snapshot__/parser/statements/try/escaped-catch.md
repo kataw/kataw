@@ -109,7 +109,7 @@ try {} c\u0061tch  (x) {}sss
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 17, end: 20
+✖ Keywords cannot contain escape characters - start: 6, end: 17
 
 ```
 

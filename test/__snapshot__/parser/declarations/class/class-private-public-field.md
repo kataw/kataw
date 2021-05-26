@@ -115,8 +115,8 @@ class C { f(){ this.#a } #a; }
                                 "kind": 129,
                                 "member": {
                                     "kind": 135,
-                                    "flags": 96,
-                                    "start": 17,
+                                    "flags": 17,
+                                    "start": 96,
                                     "end": 22
                                 },
                                 "expression": {
@@ -198,8 +198,8 @@ class C { f(){ this.#a } #a; }
                                 "kind": 129,
                                 "member": {
                                     "kind": 135,
-                                    "flags": 96,
-                                    "start": 43,
+                                    "flags": 43,
+                                    "start": 96,
                                     "end": 48
                                 },
                                 "expression": {
@@ -325,8 +325,8 @@ class C { f(){ this.#a } #a; }
                                     "kind": 129,
                                     "member": {
                                         "kind": 135,
-                                        "flags": 96,
-                                        "start": 75,
+                                        "flags": 75,
+                                        "start": 96,
                                         "end": 79
                                     },
                                     "expression": {
@@ -407,8 +407,8 @@ class C { f(){ this.#a } #a; }
                                     "kind": 129,
                                     "member": {
                                         "kind": 135,
-                                        "flags": 96,
-                                        "start": 99,
+                                        "flags": 99,
+                                        "start": 96,
                                         "end": 103
                                     },
                                     "expression": {
@@ -570,8 +570,8 @@ class C { f(){ this.#a } #a; }
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 134,
+                                                        "flags": 134,
+                                                        "start": 96,
                                                         "end": 139
                                                     },
                                                     "expression": {
@@ -685,8 +685,8 @@ class C { f(){ this.#a } #a; }
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
-                                                        "flags": 96,
-                                                        "start": 162,
+                                                        "flags": 162,
+                                                        "start": 96,
                                                         "end": 167
                                                     },
                                                     "expression": {

@@ -86,11 +86,11 @@ import {x} from "y"
                     "end": 10
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 10
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 19
         }
     ],

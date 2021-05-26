@@ -99,8 +99,8 @@ new Foo();
                                                 },
                                                 "expression": {
                                                     "kind": 135,
-                                                    "flags": 96,
-                                                    "start": 33,
+                                                    "flags": 33,
+                                                    "start": 96,
                                                     "end": 38
                                                 },
                                                 "flags": 16,
@@ -143,8 +143,8 @@ new Foo();
                                 "kind": 129,
                                 "member": {
                                     "kind": 135,
-                                    "flags": 96,
-                                    "start": 54,
+                                    "flags": 54,
+                                    "start": 96,
                                     "end": 59
                                 },
                                 "expression": {
@@ -232,8 +232,8 @@ new Foo();
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 135,
-                                                                        "flags": 96,
-                                                                        "start": 105,
+                                                                        "flags": 105,
+                                                                        "start": 96,
                                                                         "end": 110
                                                                     },
                                                                     "expression": {
@@ -319,8 +319,8 @@ new Foo();
                                                                 },
                                                                 "right": {
                                                                     "kind": 135,
-                                                                    "flags": 96,
-                                                                    "start": 165,
+                                                                    "flags": 165,
+                                                                    "start": 96,
                                                                     "end": 170
                                                                 },
                                                                 "flags": 32,
@@ -370,8 +370,8 @@ new Foo();
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 135,
-                                                                        "flags": 96,
-                                                                        "start": 195,
+                                                                        "flags": 195,
+                                                                        "start": 96,
                                                                         "end": 200
                                                                     },
                                                                     "expression": {
@@ -457,8 +457,8 @@ new Foo();
                                                                 },
                                                                 "right": {
                                                                     "kind": 135,
-                                                                    "flags": 96,
-                                                                    "start": 257,
+                                                                    "flags": 257,
+                                                                    "start": 96,
                                                                     "end": 262
                                                                 },
                                                                 "flags": 32,

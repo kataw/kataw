@@ -53,7 +53,7 @@ async () => {  \u0069mport = x  }
                             "moduleSpecifier": null,
                             "importClause": null,
                             "flags": 16,
-                            "start": 26,
+                            "start": 13,
                             "end": 26
                         }
                     ],
@@ -102,7 +102,7 @@ async () => {  \u0069mport = x  }
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 26, end: 28
+✖ Keywords cannot contain escape characters - start: 13, end: 26
 ✖ Unexpected token. - start: 26, end: 28
 ✖ The `import` keyword can only be used with the module goal - start: 26, end: 28
 ✖ Expected a `;` - start: 26, end: 28

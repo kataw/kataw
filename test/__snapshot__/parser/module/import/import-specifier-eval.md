@@ -96,11 +96,11 @@ import {eval as o} from 'foo';
                     "end": 13
                 },
                 "flags": 16,
-                "start": 6,
+                "start": 0,
                 "end": 13
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 25
         },
         {
@@ -168,11 +168,11 @@ import {eval as o} from 'foo';
                     "end": 45
                 },
                 "flags": 16,
-                "start": 33,
+                "start": 25,
                 "end": 45
             },
             "flags": 16,
-            "start": 33,
+            "start": 25,
             "end": 57
         },
         {
@@ -252,11 +252,11 @@ import {eval as o} from 'foo';
                     "end": 77
                 },
                 "flags": 16,
-                "start": 65,
+                "start": 57,
                 "end": 77
             },
             "flags": 16,
-            "start": 65,
+            "start": 57,
             "end": 89
         },
         {
@@ -336,11 +336,11 @@ import {eval as o} from 'foo';
                     "end": 115
                 },
                 "flags": 16,
-                "start": 97,
+                "start": 89,
                 "end": 115
             },
             "flags": 16,
-            "start": 97,
+            "start": 89,
             "end": 127
         },
         {
@@ -408,11 +408,11 @@ import {eval as o} from 'foo';
                     "end": 152
                 },
                 "flags": 16,
-                "start": 135,
+                "start": 127,
                 "end": 152
             },
             "flags": 16,
-            "start": 135,
+            "start": 127,
             "end": 164
         },
         {
@@ -492,11 +492,11 @@ import {eval as o} from 'foo';
                     "end": 184
                 },
                 "flags": 16,
-                "start": 172,
+                "start": 164,
                 "end": 184
             },
             "flags": 16,
-            "start": 172,
+            "start": 164,
             "end": 196
         }
     ],

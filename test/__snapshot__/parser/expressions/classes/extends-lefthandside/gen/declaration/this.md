@@ -49,8 +49,8 @@ class A extends this {}
                     },
                     "expression": {
                         "kind": 135,
-                        "flags": 96,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 96,
                         "end": 20
                     },
                     "typeParameter": null,

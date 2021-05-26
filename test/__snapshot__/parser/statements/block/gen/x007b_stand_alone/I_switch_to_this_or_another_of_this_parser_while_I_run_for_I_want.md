@@ -68,8 +68,8 @@
                         "kind": 120,
                         "expression": {
                             "kind": 135,
-                            "flags": 96,
-                            "start": 13,
+                            "flags": 13,
+                            "start": 96,
                             "end": 18
                         },
                         "flags": 16,
@@ -122,8 +122,8 @@
                         "kind": 120,
                         "expression": {
                             "kind": 135,
-                            "flags": 96,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 96,
                             "end": 37
                         },
                         "flags": 16,

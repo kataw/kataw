@@ -40,7 +40,7 @@ import "foo";
             },
             "importClause": null,
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 13
         }
     ],

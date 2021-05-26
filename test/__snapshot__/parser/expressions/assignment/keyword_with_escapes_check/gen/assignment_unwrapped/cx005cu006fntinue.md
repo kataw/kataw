@@ -71,7 +71,7 @@ c\u006fntinue = x;
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 0, end: 13
-✖ Keywords cannot contain escape characters - start: 13, end: 15
+✖ Keywords cannot contain escape characters - start: 0, end: 13
 ✖ Expression expected - start: 13, end: 15
 
 ```
