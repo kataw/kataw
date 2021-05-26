@@ -191,6 +191,7 @@ function not_gen() { function *gf(){ function yield(){}; } }}
 ### Diagnostics
 
 ```javascript
+✖ Cannot use 'yield' as a name on a async generator declaration - start: 45, end: 51
 ✖ Declaration or statement expected - start: 60, end: 61
 
 ```

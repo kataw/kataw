@@ -167,8 +167,8 @@ export const enum DiagnosticCode {
   _yield_can_only_be_used_in_a_generator_function = 166,
   _yield_cannot_be_used_as_an_identifier_here = 167,
   _await_cannot_be_used_as_an_identifier_here = 168,
-  Cannot_use_yield_as_a_name_on_a_async_generator_function_expression = 169,
-  Cannot_use_yield_as_a_name_on_a_generator_function_expression = 170,
+  Cannot_use_yield_as_a_name_on_a_async_generator_declaration = 169,
+  Cannot_use_yield_as_a_name_on_a_generator_declaration = 170,
   _async_keyword_in_an_async_arrow_must_not_contain_escaped_characters = 171,
   _eval_and_arguments_cannot_be_used_as_an_identifier_here = 172,
   _eval_and_arguments_cannot_contain_escape_characters = 173,
@@ -214,7 +214,10 @@ export const enum DiagnosticCode {
   Line_terminator_not_permitted_before_async_modifier_in_a_class_body = 213,
   _async_modifier_cannot_be_used_here = 214,
   Parameter_await_for_async_arrow_not_allowed_here = 215,
-  _super_keyword_must_not_contain_escaped_characters = 216
+  Function_declarations_inside_if_statements_cannot_be_used_in_strict_mode = 216,
+  _super_keyword_must_not_contain_escaped_characters = 217,
+  Without_web_compability_enabled_functtion_declarations_are_disallowed_inside_if_statements = 218,
+  Cannot_use_yield_as_a_name_on_a_generator_function_expression = 219
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -318,8 +321,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [100]: 'A type annotation is required for the `this` parameter.',
   [101]: 'The `this` parameter must be the first function parameter.',
   [102]: '`_` is only allowed as a type argument to call or new',
-  [103]:
-    'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
+  [103]: 'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
   [104]: 'Only declares and type imports are allowed inside declare module',
   [105]: "Class methods cannot have the 'declare' modifier",
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
@@ -357,14 +359,11 @@ export const diagnosticMap: { [key: number]: string } = {
   [138]: 'Invalid BigInt syntax',
   [139]: 'Non number after exponent indicator',
   [140]: 'Numeric separators not allowed here',
-  [141]:
-    'In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block',
-  [142]:
-    'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
+  [141]: 'In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block',
+  [142]: 'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
   [143]: "'try' expected",
   [144]: 'Expected a `;`',
-  [145]:
-    "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
+  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
   [146]: 'Unicode escapes at the start of labels should not allow keywords',
   [147]: "Identifier expected.  'await' is a reserved word in module goal",
   [148]: 'Duplicate label',
@@ -387,8 +386,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [166]: "'yield' can only be used in a generator function",
   [167]: "'yield' cannot be used as an identifier here",
   [168]: "'await' cannot be used as an identifier here",
-  [169]: "Cannot use 'yield' as a name on a async generator function expression",
-  [170]: "Cannot use 'yield' as a name on a generator function expression",
+  [169]: "Cannot use 'yield' as a name on a async generator declaration",
+  [170]: "Cannot use 'yield' as a name on a generator declaration",
   [171]: "'async' keyword in an async arrow must not contain escaped characters",
   [172]: "'eval' and 'arguments' cannot be used as an identifier here",
   [173]: "'eval' and 'arguments' cannot contain escape characters",
@@ -434,5 +433,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [213]: 'Line terminator not permitted before async modifier in a class body',
   [214]: "'async' modifier cannot be used here",
   [215]: "Parameter 'await' for async arrow not allowed here",
-  [216]: "'super' keyword must not contain escaped characters"
+  [216]: 'Function declarations inside if statements cannot be used in strict mode',
+  [217]: "'super' keyword must not contain escaped characters",
+  [218]: 'Without web compability enabled functtion declarations are disallowed inside if statements',
+  [219]: "Cannot use 'yield' as a name on a generator function expression"
 };

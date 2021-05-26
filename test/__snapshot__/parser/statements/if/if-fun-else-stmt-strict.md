@@ -118,7 +118,7 @@ if (true) function f() {} else ;
 ### Diagnostics
 
 ```javascript
-✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 9, end: 18
+✖ Function declarations inside if statements cannot be used in strict mode - start: 9, end: 18
 
 ```
 

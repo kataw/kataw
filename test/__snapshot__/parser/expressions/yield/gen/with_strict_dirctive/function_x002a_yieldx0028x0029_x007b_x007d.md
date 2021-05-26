@@ -98,7 +98,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 24, end: 30
+✖ Cannot use 'yield' as a name on a generator declaration - start: 24, end: 30
 
 ```
 

@@ -29,13 +29,7 @@
                 "end": 13
             },
             "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 13,
-                "end": 13
-            },
+            "name": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -98,6 +92,7 @@
 
 ```javascript
 ✖ Binding identifier expected - start: 13, end: 15
+✖ Missing an opening parentheses - '( - start: 13, end: 15
 ✖ Expression expected - start: 13, end: 15
 
 ```

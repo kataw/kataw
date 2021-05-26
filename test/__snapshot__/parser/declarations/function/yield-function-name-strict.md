@@ -91,7 +91,7 @@ function yield() {}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 22, end: 28
+✖ Cannot use 'yield' as a name on a async generator declaration - start: 22, end: 28
 
 ```
 

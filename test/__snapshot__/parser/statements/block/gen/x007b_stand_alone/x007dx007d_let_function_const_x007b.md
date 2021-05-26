@@ -56,13 +56,7 @@
                 "end": 17
             },
             "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 17,
-                "end": 17
-            },
+            "name": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -156,6 +150,7 @@
 ✖ Declaration or statement expected - start: 3, end: 4
 ✖ Expected a `;` - start: 8, end: 17
 ✖ Binding identifier expected - start: 17, end: 23
+✖ Missing an opening parentheses - '( - start: 17, end: 23
 ✖ Expression expected - start: 17, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
 ✖ Missing initializer in const declaration - start: 25, end: 25

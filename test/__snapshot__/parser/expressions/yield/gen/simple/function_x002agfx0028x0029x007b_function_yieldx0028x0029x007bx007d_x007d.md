@@ -138,15 +138,12 @@ function *gf(){ function yield(){}; }
 
 ```javascript
 
-function * gf() {
-  function yield() {}
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot use 'yield' as a name on a async generator declaration - start: 24, end: 30
+
 ```
 

@@ -44,13 +44,7 @@
                                                     "end": 14
                                                 },
                                                 "generatorToken": null,
-                                                "name": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "flags": 64,
-                                                    "start": 14,
-                                                    "end": 14
-                                                },
+                                                "name": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -158,6 +152,7 @@
 
 ```javascript
 ✖ Binding identifier expected - start: 14, end: 20
+✖ Missing an opening parentheses - '( - start: 14, end: 20
 ✖ Expression expected - start: 14, end: 20
 
 ```

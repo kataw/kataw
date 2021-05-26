@@ -62,13 +62,7 @@ foo: function() {}
                     "end": 27
                 },
                 "generatorToken": null,
-                "name": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 27,
-                    "end": 27
-                },
+                "name": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],

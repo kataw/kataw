@@ -89,13 +89,7 @@
                             "end": 18
                         },
                         "generatorToken": null,
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 18,
-                            "end": 18
-                        },
+                        "name": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -187,6 +181,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Binding identifier expected - start: 18, end: 24
+✖ Missing an opening parentheses - '( - start: 18, end: 24
 ✖ Expression expected - start: 18, end: 24
 
 ```

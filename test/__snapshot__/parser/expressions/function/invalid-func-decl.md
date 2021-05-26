@@ -335,13 +335,7 @@ async function f(){}
                                                 "end": 104
                                             },
                                             "generatorToken": null,
-                                            "name": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 104,
-                                                "end": 104
-                                            },
+                                            "name": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -981,6 +975,7 @@ async function f(){}
 ✖ Duplicate identifier - start: 65, end: 67
 ✖ Duplicate identifier - start: 87, end: 89
 ✖ Binding identifier expected - start: 104, end: 106
+✖ Missing an opening parentheses - '( - start: 104, end: 106
 ✖ Expression expected - start: 104, end: 106
 ✖ Expected a `;` - start: 109, end: 110
 ✖ Duplicate identifier - start: 123, end: 125

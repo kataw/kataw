@@ -52,13 +52,7 @@ async () => {  \u0066unction = x  }
                                 "end": 28
                             },
                             "generatorToken": null,
-                            "name": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 28,
-                                "end": 28
-                            },
+                            "name": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -134,6 +128,7 @@ async () => {  \u0066unction = x  }
 
 ```javascript
 ✖ Binding identifier expected - start: 28, end: 30
+✖ Missing an opening parentheses - '( - start: 28, end: 30
 ✖ Expression expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 

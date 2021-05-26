@@ -41,13 +41,7 @@ async
                 "end": 15
             },
             "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 15,
-                "end": 15
-            },
+            "name": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],

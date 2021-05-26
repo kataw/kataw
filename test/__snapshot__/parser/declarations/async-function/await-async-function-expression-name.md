@@ -92,12 +92,12 @@
 
 ```javascript
 
-(async function await() {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot use 'await' as a name on a async generator expression - start: 15, end: 21
+
 ```
 

@@ -7738,7 +7738,9 @@ async function * gen() {class C extends await { }}
 ✖ 'await' cannot be used as an identifier here - start: 125, end: 131
 ✖ 'yield' cannot be used as an identifier here - start: 173, end: 178
 ✖ 'await' cannot be used as an identifier here - start: 224, end: 229
+✖ Cannot use 'yield' as a name on a async generator declaration - start: 268, end: 274
 ✖ Cannot use 'await' as a name on a async function declaration - start: 314, end: 320
+✖ Cannot use 'yield' as a name on a generator function expression - start: 486, end: 492
 ✖ Cannot use 'await' as a name on a async generator expression - start: 542, end: 548
 ✖ `Yield` expression cannot be used in function parameters - start: 676, end: 681
 ✖ `Yield` expression cannot be used in function parameters - start: 734, end: 739

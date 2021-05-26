@@ -110,13 +110,7 @@
                             "end": 26
                         },
                         "generatorToken": null,
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 26,
-                            "end": 26
-                        },
+                        "name": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -208,6 +202,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Binding identifier expected - start: 26, end: 32
+✖ Missing an opening parentheses - '( - start: 26, end: 32
 ✖ Expression expected - start: 26, end: 32
 
 ```

@@ -808,15 +808,29 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context, sco
   // Annex B.3.4 says that unbraced FunctionDeclarations under if/else in
   // non-strict code act as if they were braced: 'if (x) function f() {}'
   // parses as 'if (x) { function f() {} }'.
-  return context & (Context.OptionsDisableWebCompat | Context.Strict) || parser.token !== SyntaxKind.FunctionKeyword
-    ? parseStatement(parser, context, /* allowFunction */ false, scope)
-    : parseFunctionDeclaration(
-        parser,
-        context,
-        createParentScope(scope, ScopeKind.Block),
-        /* declareKeyword */ null,
-        ParseFunctionFlag.DisallowGenerator
+  if (parser.token === SyntaxKind.FunctionKeyword) {
+    if (context & (Context.OptionsDisableWebCompat | Context.Strict)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[
+          context & Context.Strict
+            ? DiagnosticCode.Function_declarations_inside_if_statements_cannot_be_used_in_strict_mode
+            : DiagnosticCode.Without_web_compability_enabled_functtion_declarations_are_disallowed_inside_if_statements
+        ],
+        parser.curPos,
+        parser.pos
       );
+    }
+    return parseFunctionDeclaration(
+      parser,
+      context,
+      createParentScope(scope, ScopeKind.Block),
+      /* declareKeyword */ null,
+      ParseFunctionFlag.DisallowGenerator
+    );
+  }
+  return parseStatement(parser, context, /* allowFunction */ false, scope);
 }
 
 // `while` `(` Expression `)` Statement
@@ -851,14 +865,7 @@ function parseWhileStatement(parser: ParserState, context: Context, scope: Scope
 function parseDoWhileStatement(parser: ParserState, context: Context, scope: ScopeState): DoWhileStatement {
   const pos = parser.curPos;
   const doKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DoKeyword);
-  const statement = parseStatement(
-    parser,
-    (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
-    /* allowFunction */ false,
-    scope
-  );
-  const whileKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
-  if (whileKeyword && whileKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (doKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -867,6 +874,13 @@ function parseDoWhileStatement(parser: ParserState, context: Context, scope: Sco
       parser.pos
     );
   }
+  const statement = parseStatement(
+    parser,
+    (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
+    /* allowFunction */ false,
+    scope
+  );
+  const whileKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
   const openParenExists = consume(
     parser,
     context | Context.AllowRegExp,
@@ -995,17 +1009,6 @@ export function parseLabelledStatement(
       break;
     case SyntaxKind.YieldKeyword:
       if (context & (Context.InGeneratorContext | Context.Strict)) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-          pos,
-          parser.pos
-        );
-      }
-      break;
-    case SyntaxKind.AwaitKeyword:
-      if (context & (Context.InAwaitContext | Context.Module)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1515,16 +1518,6 @@ function parseIdentifier(
       ? SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier
       : SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
   ) {
-    // 'let' followed by '[' means a lexical declaration, which should not appear here.
-    if (token === SyntaxKind.LetKeyword && (parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
-        curPos,
-        pos
-      );
-    }
     nextToken(parser, context);
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }
@@ -2302,17 +2295,6 @@ function parseIdentifierReference(
           parser.pos
         );
       }
-
-      // 'let' followed by '[' means a lexical declaration, which should not appear here.
-      if (token === SyntaxKind.LetKeyword && (parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
-          parser.curPos,
-          parser.pos
-        );
-      }
     }
     nextToken(parser, context);
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
@@ -2822,22 +2804,7 @@ function parsePropertyDefinition(
         return key as Identifier;
     }
   } else {
-    let t = parser.token;
     key = parsePropertyName(parser, context);
-    if (
-      t & SyntaxKind.IsKeyword &&
-      parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape) &&
-      parser.token !== SyntaxKind.Colon
-    ) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._yield_keyword_must_not_contain_escaped_characters],
-        pos,
-        parser.curPos
-      );
-    }
-
     if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
       nodeFlags |= NodeFlags.PrototypeField;
     }
@@ -5003,7 +4970,11 @@ function parseFunctionExpression(
           // "for (async of" is only an arrow function if the next token is "=>"
           if (parser.token & SyntaxKind.IsInOrOf && speculate(parser, context, isArrowAfterTheCurrentToken, true)) {
             // Do not allow "for (async of []) ;" but do allow "for await (async of []) ;"
-            if ((context & Context.InForOfAwait) === 0 && parser.token & SyntaxKind.IsInOrOf) {
+            if (
+              (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) === 0 &&
+              (context & Context.InForOfAwait) === 0 &&
+              parser.token & SyntaxKind.IsInOrOf
+            ) {
               parser.onError(
                 DiagnosticSource.Parser,
                 DiagnosticKind.Error,
@@ -5124,7 +5095,7 @@ function parseFunctionExpression(
 
   // The name is optional
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    if (context & (Context.InAwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
+    if (asyncToken && parser.token === SyntaxKind.AwaitKeyword) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
@@ -5134,6 +5105,16 @@ function parseFunctionExpression(
             ? DiagnosticCode.Cannot_use_await_as_a_name_on_a_async_generator_expression
             : DiagnosticCode.Cannot_use_await_as_a_name_on_a_async_function_expression
         ],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    if (generatorToken && parser.token === SyntaxKind.YieldKeyword) {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Cannot_use_yield_as_a_name_on_a_generator_function_expression],
         parser.curPos,
         parser.pos
       );
@@ -5358,35 +5339,24 @@ function parseFunctionDeclaration(
   let innerScope = createScope();
   const firstRestricted = parser.token;
 
-  if (context & Context.Strict) {
-    if (
-      (parser.token as SyntaxKind) === SyntaxKind.EvalIdentifier ||
-      (parser.token as SyntaxKind) === SyntaxKind.ArgumentsIdentifier
-    ) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-        parser.curPos,
-        parser.pos
-      );
-    }
-  }
-
   parser.diagnosticStartPos = parser.curPos;
 
-  if (functionFlags & ParseFunctionFlag.IsDefaultModifier) {
-    if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-      if (context & Context.TopLevel && (context & Context.Module) !== Context.Module) {
-        addVarName(parser, context, scope, parser.tokenValue, BindingType.Var);
-      } else {
-        addBlockName(parser, context, scope, parser.tokenValue, BindingType.FunctionLexical);
+  if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    if (context & Context.Strict) {
+      if (
+        (parser.token as SyntaxKind) === SyntaxKind.EvalIdentifier ||
+        (parser.token as SyntaxKind) === SyntaxKind.ArgumentsIdentifier
+      ) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+          parser.curPos,
+          parser.pos
+        );
       }
-
-      innerScope = createParentScope(innerScope, ScopeKind.FunctionRoot);
-      name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
     }
-  } else {
+
     if (context & (Context.InAwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
@@ -5401,13 +5371,38 @@ function parseFunctionDeclaration(
         parser.pos
       );
     }
+
+    if (context & (Context.InGeneratorContext | Context.Strict) && parser.token === SyntaxKind.YieldKeyword) {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[
+          generatorToken
+            ? DiagnosticCode.Cannot_use_yield_as_a_name_on_a_generator_declaration
+            : DiagnosticCode.Cannot_use_yield_as_a_name_on_a_async_generator_declaration
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
     if (context & Context.TopLevel && (context & Context.Module) !== Context.Module) {
       addVarName(parser, context, scope, parser.tokenValue, BindingType.Var);
     } else {
       addBlockName(parser, context, scope, parser.tokenValue, BindingType.FunctionLexical);
     }
+
     innerScope = createParentScope(innerScope, ScopeKind.FunctionRoot);
     name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
+  } else if ((functionFlags & ParseFunctionFlag.IsDefaultModifier) === 0) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Binding_identifier_expected],
+      parser.curPos,
+      parser.pos
+    );
   }
 
   const typeParameters = parseTypeParameterDeclaration(parser, context);

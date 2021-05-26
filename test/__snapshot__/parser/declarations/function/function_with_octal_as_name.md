@@ -26,13 +26,7 @@ function 00004() { "use strict"; 00004; }
                 "end": 8
             },
             "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 8,
-                "end": 8
-            },
+            "name": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -151,6 +145,7 @@ function 00004() { "use strict"; 00004; }
 
 ```javascript
 ✖ Binding identifier expected - start: 8, end: 14
+✖ Missing an opening parentheses - '( - start: 8, end: 14
 ✖ Expression expected - start: 8, end: 14
 ✖ Expected a `;` - start: 16, end: 18
 

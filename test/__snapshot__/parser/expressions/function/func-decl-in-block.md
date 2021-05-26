@@ -47,13 +47,7 @@
                             "end": 12
                         },
                         "generatorToken": null,
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 12,
-                            "end": 12
-                        },
+                        "name": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],

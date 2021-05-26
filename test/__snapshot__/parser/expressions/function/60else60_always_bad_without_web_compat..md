@@ -3,7 +3,7 @@
 ## Options
 
 `````js
-{ jsx: false, disableWebCompat: true, module: true }
+{ jsx: false, disableWebCompat: true }
 `````
 
 ## Input
@@ -101,7 +101,7 @@ if (x) ; else function f(){}
             "end": 28
         }
     ],
-    "isModule": true,
+    "isModule": false,
     "source": "if (x) ; else function f(){}",
     "fileName": "__root__",
     "flags": 0,
@@ -119,7 +119,7 @@ if (x) ; else function f(){}
 ### Diagnostics
 
 ```javascript
-✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 13, end: 22
+✖ Without web compability enabled functtion declarations are disallowed inside if statements - start: 13, end: 22
 
 ```
 

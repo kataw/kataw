@@ -239,19 +239,12 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * g() {
-      function yield() {}
-
-    }
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot use 'yield' as a name on a async generator declaration - start: 62, end: 68
+
 ```
 

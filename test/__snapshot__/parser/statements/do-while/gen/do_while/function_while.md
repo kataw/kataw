@@ -50,13 +50,7 @@ do function while while
                     "end": 11
                 },
                 "generatorToken": null,
-                "name": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 11,
-                    "end": 11
-                },
+                "name": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -142,6 +136,7 @@ do function while while
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 11
 ✖ Binding identifier expected - start: 11, end: 17
+✖ Missing an opening parentheses - '( - start: 11, end: 17
 ✖ Expression expected - start: 11, end: 17
 ✖ Missing an opening parentheses - '( - start: 17, end: 23
 

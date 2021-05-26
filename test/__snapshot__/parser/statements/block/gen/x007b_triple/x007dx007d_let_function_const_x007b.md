@@ -75,13 +75,7 @@
                             "end": 21
                         },
                         "generatorToken": null,
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 21,
-                            "end": 21
-                        },
+                        "name": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -183,6 +177,7 @@
 ```javascript
 ✖ Expected a `;` - start: 12, end: 21
 ✖ Binding identifier expected - start: 21, end: 27
+✖ Missing an opening parentheses - '( - start: 21, end: 27
 ✖ Expression expected - start: 21, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
 ✖ Missing initializer in const declaration - start: 29, end: 29

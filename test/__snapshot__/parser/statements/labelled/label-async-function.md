@@ -57,13 +57,7 @@ label: async function () {}
                     "end": 21
                 },
                 "generatorToken": null,
-                "name": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 21,
-                    "end": 21
-                },
+                "name": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],

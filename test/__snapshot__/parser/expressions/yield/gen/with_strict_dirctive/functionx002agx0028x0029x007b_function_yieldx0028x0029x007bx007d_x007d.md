@@ -152,7 +152,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 36, end: 42
+✖ Cannot use 'yield' as a name on a async generator declaration - start: 36, end: 42
 
 ```
 

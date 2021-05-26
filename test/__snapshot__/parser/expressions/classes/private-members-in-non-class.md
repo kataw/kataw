@@ -81,13 +81,7 @@ class C { test() {get #a() { }}}
                 "end": 18
             },
             "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 18,
-                "end": 18
-            },
+            "name": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -183,13 +177,7 @@ class C { test() {get #a() { }}}
                 "end": 47
             },
             "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 47,
-                "end": 47
-            },
+            "name": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],

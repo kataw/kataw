@@ -133,13 +133,7 @@
                 "end": 58
             },
             "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 58,
-                "end": 58
-            },
+            "name": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -375,6 +369,7 @@
 ✖ Identifier expected. Reserved word in strict mode - start: 18, end: 29
 ✖ Expected a `;` - start: 49, end: 58
 ✖ Binding identifier expected - start: 58, end: 59
+✖ Missing an opening parentheses - '( - start: 58, end: 59
 ✖ Expression expected - start: 58, end: 59
 ✖ Trailing comma not allowed. - start: 83, end: 89
 ✖ 'super' must be followed by an argument list or member access. - start: 89, end: 90

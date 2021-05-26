@@ -1,0 +1,98 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: false, disableWebCompat: true }
+`````
+
+## Input
+
+`````js
+({}) = {};
+`````
+
+## Output
+
+### CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [],
+                            "trailingComma": false,
+                            "flags": 16,
+                            "start": 2,
+                            "end": 2
+                        },
+                        "flags": 48,
+                        "start": 1,
+                        "end": 3
+                    },
+                    "flags": 32,
+                    "start": 0,
+                    "end": 4
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 64,
+                    "start": 4,
+                    "end": 6
+                },
+                "right": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 8,
+                        "end": 8
+                    },
+                    "flags": 48,
+                    "start": 6,
+                    "end": 9
+                },
+                "flags": 32,
+                "start": 0,
+                "end": 9
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 10
+        }
+    ],
+    "isModule": false,
+    "source": "({}) = {};",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 10
+}
+```
+
+### Printed
+
+```javascript
+
+```
+
+### Diagnostics
+
+```javascript
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 4, end: 6
+
+```
+

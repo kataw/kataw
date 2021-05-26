@@ -117,12 +117,12 @@ var g = function* yield() {};
 
 ```javascript
 
-var g = function * yield() {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot use 'yield' as a name on a generator function expression - start: 17, end: 23
+
 ```
 

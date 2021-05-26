@@ -164,8 +164,8 @@
   "'yield' can only be used in a generator function": 166,
   "'yield' cannot be used as an identifier here": 167,
   "'await' cannot be used as an identifier here": 168,
-  "Cannot use 'yield' as a name on a async generator function expression": 169,
-  "Cannot use 'yield' as a name on a generator function expression": 170,
+  "Cannot use 'yield' as a name on a async generator declaration": 169,
+  "Cannot use 'yield' as a name on a generator declaration": 170,
   "'async' keyword in an async arrow must not contain escaped characters": 171,
   "'eval' and 'arguments' cannot be used as an identifier here": 172,
   "'eval' and 'arguments' cannot contain escape characters": 173,
@@ -211,5 +211,8 @@
   "Line terminator not permitted before async modifier in a class body": 213,
   "'async' modifier cannot be used here": 214,
   "Parameter 'await' for async arrow not allowed here": 215,
-  "'super' keyword must not contain escaped characters": 216
+  "Function declarations inside if statements cannot be used in strict mode": 216,
+  "'super' keyword must not contain escaped characters": 217,
+  "Without web compability enabled functtion declarations are disallowed inside if statements": 218,
+  "Cannot use 'yield' as a name on a generator function expression": 219
 }
