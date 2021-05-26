@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-foo?.bar *= x
+obj?.foo++
 `````
 
 ## Output
@@ -18,8 +18,14 @@ foo?.bar *= x
         {
             "kind": 120,
             "expression": {
-                "kind": 125,
-                "left": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 10
+                },
+                "operand": {
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
@@ -29,8 +35,8 @@ foo?.bar *= x
                     },
                     "member": {
                         "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
+                        "text": "obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 0,
                         "end": 3
@@ -42,8 +48,8 @@ foo?.bar *= x
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
-                                "text": "bar",
-                                "rawText": "bar",
+                                "text": "foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 5,
                                 "end": 8
@@ -60,35 +66,21 @@ foo?.bar *= x
                     "start": 0,
                     "end": 8
                 },
-                "operatorToken": {
-                    "kind": 4132,
-                    "flags": 64,
-                    "start": 8,
-                    "end": 11
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 11,
-                    "end": 13
-                },
                 "flags": 32,
                 "start": 0,
-                "end": 13
+                "end": 10
             },
             "flags": 16,
             "start": 0,
-            "end": 13
+            "end": 10
         }
     ],
     "isModule": false,
-    "source": "foo?.bar *= x",
+    "source": "obj?.foo++",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 13
+    "end": 10
 }
 ```
 
@@ -101,8 +93,7 @@ foo?.bar *= x
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression may not be an optional property access - start: 5, end: 11
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 11
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 8, end: 10
 
 ```
 

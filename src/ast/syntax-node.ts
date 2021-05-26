@@ -69,7 +69,6 @@ export const enum SyntaxKind {
   AsyncKeyword = 82031,
   AwaitExpression = 208,
   AwaitKeyword = 82032,
-  BigIntLiteral = 134234350,
   BinaryExpression = 198,
   BindingElement = 203,
   BindingElementList = 202,
@@ -374,7 +373,8 @@ export const enum SyntaxKind {
   IndexedAccessType = 268,
   OpaqueType = 269,
   Hyphen = 16654,
-  SubtractionType = 271
+  SubtractionType = 271,
+  BigIntLiteral = 201392400
 }
 
 export function tokenToString(node: any): string {

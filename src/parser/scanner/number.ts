@@ -300,6 +300,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
           case ZeroDigitKind.BigInt:
             parser.tokenValue = val;
             parser.pos = ++pos;
+            parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
             return SyntaxKind.BigIntLiteral;
         }
         digits++;
@@ -441,9 +442,10 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
         parser.pos
       );
     }
+
     parser.tokenValue = source.slice(parser.tokenPos, parser.pos);
-    parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
     ++parser.pos; // skips: 'n'
+    parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
     return SyntaxKind.BigIntLiteral;
   }
 

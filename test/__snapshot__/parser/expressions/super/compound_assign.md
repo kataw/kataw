@@ -102,6 +102,7 @@ foo?.bar *= x
 
 ```javascript
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 5, end: 11
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 11
 
 ```
 

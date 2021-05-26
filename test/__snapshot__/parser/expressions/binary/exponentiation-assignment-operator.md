@@ -894,9 +894,9 @@
                                             "end": 241
                                         },
                                         "expression": {
-                                            "kind": 134299649,
+                                            "kind": 201392400,
                                             "text": "123",
-                                            "rawText": "123",
+                                            "rawText": "123n",
                                             "flags": 96,
                                             "start": 242,
                                             "end": 246

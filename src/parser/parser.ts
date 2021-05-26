@@ -1864,7 +1864,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   }
 
   chain = createOptionalChain(chain, pos, parser.curPos);
-
+  parser.assignable = false;
   while (
     parser.token &
     (SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsPropertyOrCall)
@@ -1950,6 +1950,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
       );
     }
 
+    parser.assignable = false;
     return chain;
   }
   return chain;
@@ -5215,6 +5216,15 @@ function parseFunctionDeclaration(
       // "async<T>()"
       // "async <T>() => {}"
       if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+        if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.An_async_arrow_without_the_default_modifier_can_not_be_exported],
+            parser.curPos,
+            parser.pos
+          );
+        }
         return parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, flags, pos) as any;
       }
 
@@ -6719,7 +6729,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
   scope: ScopeState
 ): TypeAlias | LabelledStatement | ExpressionStatement | StatementNode {
   const pos = parser.curPos;
-  const expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
   if (context & Context.OptionsAllowTypes && parser.token & SyntaxKind.IsStatementStart) {
     const declareKeyword = createToken(SyntaxKind.DeclareKeyword, NodeFlags.ChildLess, expr.start, expr.end);
     switch (parser.token) {
@@ -6749,7 +6759,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
     );
   }
   if (parser.token === SyntaxKind.Arrow) {
-    return parseArrowFunction(
+    expr = parseArrowFunction(
       parser,
       context,
       scope,
@@ -6759,7 +6769,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
-    );
+    ) as any;
   }
   return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, pos), pos);
 }
@@ -6779,7 +6789,7 @@ function parseTypeAsIdentifierOrTypeAlias(
     let type = null;
     if (consumeOpt(parser, context | Context.InTypes, SyntaxKind.Assign)) {
       type = parseType(parser, context);
-    } else if (!declareKeyword) {
+    } else {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,

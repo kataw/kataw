@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-foo?.bar *= x
+obj?.foo = 0
 `````
 
 ## Output
@@ -29,8 +29,8 @@ foo?.bar *= x
                     },
                     "member": {
                         "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
+                        "text": "obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 0,
                         "end": 3
@@ -42,8 +42,8 @@ foo?.bar *= x
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
-                                "text": "bar",
-                                "rawText": "bar",
+                                "text": "foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 5,
                                 "end": 8
@@ -61,34 +61,34 @@ foo?.bar *= x
                     "end": 8
                 },
                 "operatorToken": {
-                    "kind": 4132,
+                    "kind": 4125,
                     "flags": 64,
                     "start": 8,
-                    "end": 11
+                    "end": 10
                 },
                 "right": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
+                    "kind": 201392130,
+                    "text": 0,
+                    "rawText": "0",
                     "flags": 96,
-                    "start": 11,
-                    "end": 13
+                    "start": 10,
+                    "end": 12
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 13
+                "end": 12
             },
             "flags": 16,
             "start": 0,
-            "end": 13
+            "end": 12
         }
     ],
     "isModule": false,
-    "source": "foo?.bar *= x",
+    "source": "obj?.foo = 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 13
+    "end": 12
 }
 ```
 
@@ -101,8 +101,8 @@ foo?.bar *= x
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression may not be an optional property access - start: 5, end: 11
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 11
+✖ The left-hand side of an assignment expression may not be an optional property access - start: 5, end: 10
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 10
 
 ```
 

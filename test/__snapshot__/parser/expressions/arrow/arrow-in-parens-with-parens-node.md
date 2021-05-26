@@ -40,7 +40,7 @@ var asserted1 = <any>((n) => { return n; });
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134234350,
+                            "kind": 201392400,
                             "text": "asserted1",
                             "rawText": "asserted1",
                             "flags": 96,

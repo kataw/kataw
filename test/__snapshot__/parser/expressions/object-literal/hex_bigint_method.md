@@ -47,9 +47,9 @@ x = {0xeban(){}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 134299649,
+                                        "kind": 201392400,
                                         "text": 3770,
-                                        "rawText": "",
+                                        "rawText": "0xeban",
                                         "flags": 96,
                                         "start": 5,
                                         "end": 11
@@ -118,7 +118,7 @@ x = {0xeban(){}}
 
 ```javascript
 
-x = { () {} };
+x = { 0xebann() {} };
 ```
 
 ### Diagnostics

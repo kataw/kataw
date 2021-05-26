@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-foo?.bar = x
+obj?.foo.bar = 0
 `````
 
 ## Output
@@ -29,22 +29,28 @@ foo?.bar = x
                     },
                     "member": {
                         "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
+                        "text": "obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 0,
                         "end": 3
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 536871114,
                         "chain": {
-                            "kind": 536871114,
-                            "chain": null,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "bar",
-                                "rawText": "bar",
-                                "flags": 96,
+                            "kind": 206,
+                            "chain": {
+                                "kind": 536871114,
+                                "chain": null,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 8
+                                },
+                                "flags": 32,
                                 "start": 5,
                                 "end": 8
                             },
@@ -52,43 +58,51 @@ foo?.bar = x
                             "start": 5,
                             "end": 8
                         },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 9,
+                            "end": 12
+                        },
                         "flags": 32,
-                        "start": 5,
-                        "end": 8
+                        "start": 8,
+                        "end": 12
                     },
                     "flags": 32,
                     "start": 0,
-                    "end": 8
+                    "end": 12
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 64,
-                    "start": 8,
-                    "end": 10
+                    "start": 12,
+                    "end": 14
                 },
                 "right": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
+                    "kind": 201392130,
+                    "text": 0,
+                    "rawText": "0",
                     "flags": 96,
-                    "start": 10,
-                    "end": 12
+                    "start": 14,
+                    "end": 16
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 12
+                "end": 16
             },
             "flags": 16,
             "start": 0,
-            "end": 12
+            "end": 16
         }
     ],
     "isModule": false,
-    "source": "foo?.bar = x",
+    "source": "obj?.foo.bar = 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 12
+    "end": 16
 }
 ```
 
@@ -101,8 +115,7 @@ foo?.bar = x
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression may not be an optional property access - start: 5, end: 10
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 10
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 12, end: 14
 
 ```
 

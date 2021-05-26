@@ -42,9 +42,9 @@ x = {10n: y}
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 134299649,
+                                    "kind": 201392400,
                                     "text": "10",
-                                    "rawText": "10",
+                                    "rawText": "10n",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 8
@@ -93,7 +93,7 @@ x = {10n: y}
 
 ```javascript
 
-x = { 10: y };
+x = { 10nn: y };
 ```
 
 ### Diagnostics

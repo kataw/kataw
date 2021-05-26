@@ -59,7 +59,7 @@ var v = a => <any><any>{}
                             "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 134234350,
+                                "kind": 201392400,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -118,7 +118,7 @@ var v = a => <any><any>{}
                     "end": 18
                 },
                 "right": {
-                    "kind": 134234350,
+                    "kind": 201392400,
                     "text": "any",
                     "rawText": "any",
                     "flags": 96,

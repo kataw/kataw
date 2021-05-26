@@ -510,7 +510,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "left": {
                                 "kind": 536871042,
                                 "member": {
-                                    "kind": 134234350,
+                                    "kind": 201392400,
                                     "text": "return",
                                     "rawText": "return",
                                     "flags": 96,

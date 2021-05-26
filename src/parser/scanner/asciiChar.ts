@@ -13,7 +13,8 @@ export const enum AsciiCharFlags {
   Exponent = 1 << 9,
   Period = 1 << 10,
   LeftBraceOrLessThan = 1 << 10,
-  GreaterThanOrRightBrace = 1 << 11
+  GreaterThanOrRightBrace = 1 << 11,
+  BigInt = 1 << 12,
 }
 
 /**

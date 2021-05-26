@@ -401,8 +401,10 @@ x?.y = 0;
 ✖ Private identifiers are not allowed outside class_bodies - start: 3, end: 4
 ✖ An member access expression should take an argument. - start: 5, end: 6
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 4, end: 8
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 6, end: 8
 ✖ An member access expression should take an argument. - start: 17, end: 18
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 16, end: 20
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 ✖ Expression expected - start: 32, end: 34
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 45, end: 46
 ✖ Expression expected - start: 45, end: 46
