@@ -42,22 +42,38 @@ class A {static async
                     "kind": 262,
                     "elements": [
                         {
-                            "kind": 278,
-                            "declareToken": null,
+                            "kind": 280,
                             "decorators": null,
-                            "generatorToken": null,
-                            "staticKeyword": {
+                            "declaredToken": null,
+                            "staticToken": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 9,
                                 "end": 15
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
                                 "start": 15,
                                 "end": 21
                             },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 15,
+                            "end": 21
+                        },
+                        {
+                            "kind": 278,
+                            "declareToken": null,
+                            "decorators": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
                             "method": {
@@ -75,7 +91,7 @@ class A {static async
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -94,12 +110,12 @@ class A {static async
                                     "start": 29,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 27,
                                 "end": 33
                             },
-                            "flags": 256,
-                            "start": 15,
+                            "flags": 0,
+                            "start": 21,
                             "end": 33
                         }
                     ],
@@ -135,12 +151,16 @@ class A {static async
 
 ```javascript
 
+class A {
+  static async;
+  foo() {}
+}
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Line terminator not permitted before async modifier in a class body - start: 21, end: 27
-
+✔ No errors
 ```
 

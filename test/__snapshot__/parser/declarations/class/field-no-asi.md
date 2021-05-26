@@ -43,23 +43,55 @@ get
                     "kind": 262,
                     "elements": [
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 16
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 9,
+                            "end": 16
+                        },
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 20
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 16,
+                            "end": 20
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 16
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
-                                "flags": 65,
-                                "start": 16,
-                                "end": 20
-                            },
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
@@ -75,7 +107,7 @@ get
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1024,
+                                    "flags": 0,
                                     "start": 26,
                                     "end": 27
                                 },
@@ -94,12 +126,12 @@ get
                                     "start": 27,
                                     "end": 29
                                 },
-                                "flags": 1024,
+                                "flags": 0,
                                 "start": 25,
                                 "end": 29
                             },
-                            "flags": 1024,
-                            "start": 16,
+                            "flags": 0,
+                            "start": 20,
                             "end": 29
                         }
                     ],
@@ -130,7 +162,9 @@ get
 ```javascript
 
 class C {
-  static get static #aaa() {}
+  static;
+  get;
+  #aaa() {}
 }
 ```
 

@@ -42,17 +42,33 @@ get(){} }
                     "kind": 262,
                     "elements": [
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 15
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 9,
+                            "end": 15
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
                             "staticKeyword": null,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 15
-                            },
+                            "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
                             "method": {
@@ -70,7 +86,7 @@ get(){} }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 0,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -89,12 +105,12 @@ get(){} }
                                     "start": 21,
                                     "end": 23
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 19,
                                 "end": 23
                             },
-                            "flags": 256,
-                            "start": 9,
+                            "flags": 0,
+                            "start": 15,
                             "end": 23
                         }
                     ],
@@ -124,12 +140,15 @@ get(){} }
 
 ```javascript
 
+class C {
+  async;
+  get() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Line terminator not permitted before async modifier in a class body - start: 15, end: 19
-
+✔ No errors
 ```
 

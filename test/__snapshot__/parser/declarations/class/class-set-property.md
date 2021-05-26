@@ -69,10 +69,11 @@ class C {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 15,
+                                "kind": 134299649,
+                                "text": "set",
+                                "rawText": "set",
+                                "flags": 96,
+                                "start": 9,
                                 "end": 15
                             },
                             "optionalToken": null,
@@ -165,12 +166,15 @@ class C {
 
 ```javascript
 
+class C {
+  set;
+  aaa() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 15, end: 19
-
+✔ No errors
 ```
 

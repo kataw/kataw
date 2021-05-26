@@ -43,6 +43,27 @@ class C { static
                     "kind": 262,
                     "elements": [
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 16
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 9,
+                            "end": 16
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
@@ -52,12 +73,7 @@ class C { static
                                 "start": 16,
                                 "end": 18
                             },
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 16
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
@@ -130,7 +146,8 @@ class C { static
 ```javascript
 
 class C {
-  static static #aaa() {}
+  static;
+  #aaa() {}
 }
 ```
 

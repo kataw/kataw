@@ -7909,7 +7909,13 @@ export function parseClassElement(
   if (token & 0b00000000100000000100000000000000) {
     let key = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
 
-    if (parser.token & 0b00000100110000000100000000000000 || parser.token === SyntaxKind.Decorator) {
+    if (
+      (parser.token & 0b00000100110000000100000000000000 || parser.token === SyntaxKind.Decorator) &&
+      // If a line terminator is permitted before a 'static' 'declare', 'async', 'get', or 'set' modifier, this
+      // is an class field
+
+      (parser.nodeFlags & NodeFlags.NewLine) === 0
+    ) {
       switch (token) {
         case SyntaxKind.StaticKeyword:
           // avoid 'static static'
@@ -7986,15 +7992,6 @@ export function parseClassElement(
               DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
               pos,
-              parser.pos
-            );
-          }
-          if (parser.nodeFlags & NodeFlags.NewLine) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Line_terminator_not_permitted_before_async_modifier_in_a_class_body],
-              parser.curPos,
               parser.pos
             );
           }

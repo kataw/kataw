@@ -14,7 +14,7 @@ export const enum AsciiCharFlags {
   Period = 1 << 10,
   LeftBraceOrLessThan = 1 << 10,
   GreaterThanOrRightBrace = 1 << 11,
-  BigInt = 1 << 12,
+  BigInt = 1 << 12
 }
 
 /**

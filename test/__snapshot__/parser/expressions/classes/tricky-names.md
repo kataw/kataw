@@ -459,16 +459,32 @@ class A {
                             "end": 127
                         },
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 127,
+                                "end": 138
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 127,
+                            "end": 138
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 127,
-                                "end": 138
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
@@ -515,16 +531,32 @@ class A {
                             "end": 152
                         },
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 152,
+                                "end": 162
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 152,
+                            "end": 162
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 152,
-                                "end": 162
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
@@ -571,16 +603,32 @@ class A {
                             "end": 176
                         },
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 176,
+                                "end": 186
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 176,
+                            "end": 186
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 176,
-                                "end": 186
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
@@ -627,16 +675,32 @@ class A {
                             "end": 203
                         },
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 203,
+                                "end": 213
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 203,
+                            "end": 213
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 203,
-                                "end": 213
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
@@ -683,16 +747,32 @@ class A {
                             "end": 229
                         },
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 229,
+                                "end": 239
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 229,
+                            "end": 239
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 229,
-                                "end": 239
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
@@ -739,18 +819,34 @@ class A {
                             "end": 251
                         },
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 251,
+                                "end": 259
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 251,
+                            "end": 259
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
-                                "flags": 65,
-                                "start": 251,
-                                "end": 259
-                            },
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
@@ -767,7 +863,7 @@ class A {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1024,
+                                    "flags": 0,
                                     "start": 271,
                                     "end": 272
                                 },
@@ -786,32 +882,64 @@ class A {
                                     "start": 272,
                                     "end": 275
                                 },
-                                "flags": 1024,
+                                "flags": 0,
                                 "start": 267,
                                 "end": 275
                             },
-                            "flags": 1024,
-                            "start": 251,
+                            "flags": 0,
+                            "start": 259,
                             "end": 275
+                        },
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "static",
+                                "rawText": "static",
+                                "flags": 96,
+                                "start": 275,
+                                "end": 286
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 275,
+                            "end": 286
+                        },
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 286,
+                                "end": 292
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 286,
+                            "end": 292
                         },
                         {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
-                            "staticKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 275,
-                                "end": 286
-                            },
+                            "staticKeyword": null,
                             "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
-                                "flags": 65,
-                                "start": 286,
-                                "end": 292
-                            },
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
@@ -828,7 +956,7 @@ class A {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1024,
+                                    "flags": 0,
                                     "start": 305,
                                     "end": 306
                                 },
@@ -847,12 +975,12 @@ class A {
                                     "start": 306,
                                     "end": 309
                                 },
-                                "flags": 1024,
+                                "flags": 0,
                                 "start": 301,
                                 "end": 309
                             },
-                            "flags": 1024,
-                            "start": 286,
+                            "flags": 0,
+                            "start": 292,
                             "end": 309
                         }
                     ],
@@ -890,13 +1018,21 @@ class A {
   "'get'"() {}
   "'set'"() {}
   "'async'"() {}
-  static static get() {}
-  static static set() {}
-  static static static() {}
-  static static async() {}
-  static static a() {}
-  get async() {}
-  static get static static() {}
+  static;
+  get() {}
+  static;
+  set() {}
+  static;
+  static() {}
+  static;
+  async() {}
+  static;
+  a() {}
+  get;
+  async() {}
+  static;
+  get;
+  static() {}
 }
 ```
 

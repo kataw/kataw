@@ -42,17 +42,33 @@ class A {async
                     "kind": 262,
                     "elements": [
                         {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 14
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 9,
+                            "end": 14
+                        },
+                        {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
                             "generatorToken": null,
                             "staticKeyword": null,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 14
-                            },
+                            "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
                             "method": {
@@ -70,7 +86,7 @@ class A {async
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -89,12 +105,12 @@ class A {async
                                     "start": 22,
                                     "end": 26
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 20,
                                 "end": 26
                             },
-                            "flags": 256,
-                            "start": 9,
+                            "flags": 0,
+                            "start": 14,
                             "end": 26
                         }
                     ],
@@ -130,12 +146,16 @@ class A {async
 
 ```javascript
 
+class A {
+  async;
+  foo() {}
+}
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Line terminator not permitted before async modifier in a class body - start: 14, end: 20
-
+✔ No errors
 ```
 

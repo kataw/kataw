@@ -3576,22 +3576,38 @@ a});
                             "kind": 262,
                             "elements": [
                                 {
-                                    "kind": 278,
-                                    "declareToken": null,
+                                    "kind": 280,
                                     "decorators": null,
-                                    "generatorToken": null,
-                                    "staticKeyword": {
+                                    "declaredToken": null,
+                                    "staticToken": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1027,
                                         "end": 1034
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
                                         "start": 1034,
                                         "end": 1040
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 1034,
+                                    "end": 1040
+                                },
+                                {
+                                    "kind": 278,
+                                    "declareToken": null,
+                                    "decorators": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
                                     "method": {
@@ -3609,7 +3625,7 @@ a});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 0,
                                             "start": 1044,
                                             "end": 1045
                                         },
@@ -3628,12 +3644,12 @@ a});
                                             "start": 1045,
                                             "end": 1047
                                         },
-                                        "flags": 256,
+                                        "flags": 0,
                                         "start": 1043,
                                         "end": 1047
                                     },
-                                    "flags": 256,
-                                    "start": 1034,
+                                    "flags": 0,
+                                    "start": 1040,
                                     "end": 1047
                                 }
                             ],
@@ -3695,12 +3711,28 @@ a});
                                         "start": 1109,
                                         "end": 1116
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
                                         "start": 1116,
                                         "end": 1122
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 1116,
+                                    "end": 1122
+                                },
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -3713,7 +3745,7 @@ a});
                                     "type": null,
                                     "initializer": null,
                                     "flags": 32,
-                                    "start": 1116,
+                                    "start": 1122,
                                     "end": 1124
                                 }
                             ],
@@ -4587,13 +4619,191 @@ a});
 
 ```javascript
 
+class x {
+  static #foo = bar;
+}
+(class C {
+    static a = 0;
+
+  });
+(class C {
+    static a = 0;
+
+    b;
+  });
+(class C {
+    static a = 0;
+
+    b() {}
+  });
+(class C {
+    static a = 0;
+
+    b() {}
+  });
+(class C {
+    static a = 0;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static a;
+
+  });
+(class C {
+    static a;
+
+    b;
+
+  });
+(class C {
+    static a;
+
+    b() {}
+  });
+(class C {
+    static a;
+
+    b() {}
+  });
+(class C {
+    static a;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b;
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static ["'a'"];
+
+  });
+(class C {
+    static ["'a'"];
+
+    b;
+
+  });
+(class C {
+    static ["'a'"];
+
+    b() {}
+  });
+(class C {
+    static ["'a'"];
+
+    b() {}
+  });
+(class C {
+    static ["'a'"];
+
+    ["'b'"]() {}
+  });
+(class   {
+    static 0 = 0;
+
+  });
+(class   {
+    static 0;
+
+  });
+(class   {
+    static "'a'" = 0;
+
+  });
+(class   {
+    static "'a'";
+
+  });
+(class C {
+    static yield = 0;
+  });
+(class C {
+    static yield;
+    a;
+  });
+(class C {
+    static async;
+
+  });
+(class C {
+    static async = 0;
+
+  });
+(class C {
+    static async;
+  });
+(class C {
+    static async = 0;
+  });
+(class C {
+    static async;
+    a() {}
+  }); // a field named async, and a method named a.
+
+(class C {
+    static async;
+    a;
+  });
+(class C {
+    static await;
+
+  });
+(class C {
+    static await = 0;
+
+  });
+(class C {
+    static await;
+    a;
+  });
+(class C {
+    static c = [c] = c;
+  });
+(class  {
+    static a = 0;
+  });
+(class  {
+    static a = 0;
+    b;
+  });
+(class  {
+    static a = 0;
+    b() {}
+  });
+(class  {
+    static a;
+  });
+(class  {
+    static a;
+    b;
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Line terminator not permitted before async modifier in a class body - start: 1040, end: 1043
-✖ Line terminator not permitted before async modifier in a class body - start: 1122, end: 1124
-
+✔ No errors
 ```
 
