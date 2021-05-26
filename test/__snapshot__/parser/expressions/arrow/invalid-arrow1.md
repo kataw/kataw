@@ -32,6 +32,28 @@
 (q, a + b, c) => {};
 
 (...a => 42);
+
+() => {}(0);
+
+x => {}(0);
+
+async x => {}(0);
+
+y = () => {}(0);
+
+(async () => {}(0));
+
+(() => {}(0));
+
+y = (x => {}(0));
+
+(async () => {}(0));
+
+(async () => {}(0));
+
+(async () => {}(0));
+
+(async () => {}(0));
 `````
 
 ## Output
@@ -1321,14 +1343,793 @@
             "flags": 16,
             "start": 313,
             "end": 314
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 0,
+                        "start": 318,
+                        "end": 321
+                    },
+                    "typeParameters": null,
+                    "parameters": [],
+                    "asyncKeyword": null,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [],
+                            "flags": 32,
+                            "start": 323,
+                            "end": 323
+                        },
+                        "flags": 32,
+                        "start": 321,
+                        "end": 324
+                    },
+                    "flags": 32,
+                    "start": 314,
+                    "end": 324
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 96,
+                            "start": 325,
+                            "end": 326
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 325,
+                    "end": 326
+                },
+                "flags": 268435488,
+                "start": 314,
+                "end": 327
+            },
+            "flags": 16,
+            "start": 314,
+            "end": 328
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 0,
+                        "start": 331,
+                        "end": 334
+                    },
+                    "typeParameters": null,
+                    "parameters": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 328,
+                        "end": 331
+                    },
+                    "asyncKeyword": null,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [],
+                            "flags": 32,
+                            "start": 336,
+                            "end": 336
+                        },
+                        "flags": 32,
+                        "start": 334,
+                        "end": 337
+                    },
+                    "flags": 32,
+                    "start": 328,
+                    "end": 337
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 96,
+                            "start": 338,
+                            "end": 339
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 338,
+                    "end": 339
+                },
+                "flags": 268435488,
+                "start": 328,
+                "end": 340
+            },
+            "flags": 16,
+            "start": 328,
+            "end": 341
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 0,
+                    "start": 350,
+                    "end": 353
+                },
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 348,
+                    "end": 350
+                },
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 65,
+                    "start": 341,
+                    "end": 348
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 355,
+                        "end": 355
+                    },
+                    "flags": 32,
+                    "start": 353,
+                    "end": 356
+                },
+                "flags": 288,
+                "start": 341,
+                "end": 356
+            },
+            "flags": 16,
+            "start": 341,
+            "end": 356
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 201392130,
+                    "text": 0,
+                    "rawText": "0",
+                    "flags": 96,
+                    "start": 357,
+                    "end": 358
+                },
+                "flags": 32,
+                "start": 356,
+                "end": 359
+            },
+            "flags": 16,
+            "start": 356,
+            "end": 360
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 96,
+                    "start": 360,
+                    "end": 363
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 64,
+                    "start": 363,
+                    "end": 365
+                },
+                "right": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 368,
+                            "end": 371
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 373,
+                                "end": 373
+                            },
+                            "flags": 32,
+                            "start": 371,
+                            "end": 374
+                        },
+                        "flags": 32,
+                        "start": 365,
+                        "end": 374
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 375,
+                                "end": 376
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 375,
+                        "end": 376
+                    },
+                    "flags": 268435488,
+                    "start": 365,
+                    "end": 377
+                },
+                "flags": 32,
+                "start": 360,
+                "end": 377
+            },
+            "flags": 16,
+            "start": 360,
+            "end": 378
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 389,
+                            "end": 392
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 381,
+                            "end": 386
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 394,
+                                "end": 394
+                            },
+                            "flags": 32,
+                            "start": 392,
+                            "end": 395
+                        },
+                        "flags": 288,
+                        "start": 381,
+                        "end": 395
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 396,
+                                "end": 397
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 396,
+                        "end": 397
+                    },
+                    "flags": 268435488,
+                    "start": 378,
+                    "end": 398
+                },
+                "flags": 32,
+                "start": 378,
+                "end": 399
+            },
+            "flags": 16,
+            "start": 378,
+            "end": 400
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 405,
+                            "end": 408
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 410,
+                                "end": 410
+                            },
+                            "flags": 32,
+                            "start": 408,
+                            "end": 411
+                        },
+                        "flags": 32,
+                        "start": 403,
+                        "end": 411
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 412,
+                                "end": 413
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 412,
+                        "end": 413
+                    },
+                    "flags": 268435488,
+                    "start": 403,
+                    "end": 414
+                },
+                "flags": 32,
+                "start": 400,
+                "end": 415
+            },
+            "flags": 16,
+            "start": 400,
+            "end": 416
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 96,
+                    "start": 416,
+                    "end": 419
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 64,
+                    "start": 419,
+                    "end": 421
+                },
+                "right": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 131,
+                        "expression": {
+                            "kind": 271,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 0,
+                                "start": 424,
+                                "end": 427
+                            },
+                            "typeParameters": null,
+                            "parameters": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 423,
+                                "end": 424
+                            },
+                            "asyncKeyword": null,
+                            "returnType": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 429,
+                                    "end": 429
+                                },
+                                "flags": 32,
+                                "start": 427,
+                                "end": 430
+                            },
+                            "flags": 32,
+                            "start": 423,
+                            "end": 430
+                        },
+                        "argumentList": {
+                            "kind": 256,
+                            "elements": [
+                                {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 431,
+                                    "end": 432
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 431,
+                            "end": 432
+                        },
+                        "flags": 268435488,
+                        "start": 421,
+                        "end": 433
+                    },
+                    "flags": 32,
+                    "start": 421,
+                    "end": 434
+                },
+                "flags": 32,
+                "start": 416,
+                "end": 434
+            },
+            "flags": 16,
+            "start": 416,
+            "end": 435
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 446,
+                            "end": 449
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 438,
+                            "end": 443
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 451,
+                                "end": 451
+                            },
+                            "flags": 32,
+                            "start": 449,
+                            "end": 452
+                        },
+                        "flags": 288,
+                        "start": 438,
+                        "end": 452
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 453,
+                                "end": 454
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 453,
+                        "end": 454
+                    },
+                    "flags": 268435488,
+                    "start": 435,
+                    "end": 455
+                },
+                "flags": 32,
+                "start": 435,
+                "end": 456
+            },
+            "flags": 16,
+            "start": 435,
+            "end": 457
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 468,
+                            "end": 471
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 460,
+                            "end": 465
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 473,
+                                "end": 473
+                            },
+                            "flags": 32,
+                            "start": 471,
+                            "end": 474
+                        },
+                        "flags": 288,
+                        "start": 460,
+                        "end": 474
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 475,
+                                "end": 476
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 475,
+                        "end": 476
+                    },
+                    "flags": 268435488,
+                    "start": 457,
+                    "end": 477
+                },
+                "flags": 32,
+                "start": 457,
+                "end": 478
+            },
+            "flags": 16,
+            "start": 457,
+            "end": 479
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 490,
+                            "end": 493
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 482,
+                            "end": 487
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 495,
+                                "end": 495
+                            },
+                            "flags": 32,
+                            "start": 493,
+                            "end": 496
+                        },
+                        "flags": 288,
+                        "start": 482,
+                        "end": 496
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 497,
+                                "end": 498
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 497,
+                        "end": 498
+                    },
+                    "flags": 268435488,
+                    "start": 479,
+                    "end": 499
+                },
+                "flags": 32,
+                "start": 479,
+                "end": 500
+            },
+            "flags": 16,
+            "start": 479,
+            "end": 501
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 512,
+                            "end": 515
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 504,
+                            "end": 509
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 517,
+                                "end": 517
+                            },
+                            "flags": 32,
+                            "start": 515,
+                            "end": 518
+                        },
+                        "flags": 288,
+                        "start": 504,
+                        "end": 518
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 519,
+                                "end": 520
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 519,
+                        "end": 520
+                    },
+                    "flags": 268435488,
+                    "start": 501,
+                    "end": 521
+                },
+                "flags": 32,
+                "start": 501,
+                "end": 522
+            },
+            "flags": 16,
+            "start": 501,
+            "end": 523
         }
     ],
     "isModule": false,
-    "source": "({a:b[0]}) => x;\n\n([{x: y.z} = a]) => b;\n\n([{x: y.z}]) => b;\n\n([{x: y.z}] = a) => b;\n\n([{\"foo\": y.z} = a]) => b;\n\n({\"foo\": y.z} = a) => b;\n\n([{\"foo\": y.z}]) => b;\n\n([{\"foo\": y.z}] = a) => b;\n\n([a, b] => 42);\n\n([a, b] = [] => 42);\n\n(if) => {};\n\n(a, if) => {};\n\n(q, a + b) => {};\n\n(q, a + b, c) => {};\n\n(...a => 42);",
+    "source": "({a:b[0]}) => x;\n\n([{x: y.z} = a]) => b;\n\n([{x: y.z}]) => b;\n\n([{x: y.z}] = a) => b;\n\n([{\"foo\": y.z} = a]) => b;\n\n({\"foo\": y.z} = a) => b;\n\n([{\"foo\": y.z}]) => b;\n\n([{\"foo\": y.z}] = a) => b;\n\n([a, b] => 42);\n\n([a, b] = [] => 42);\n\n(if) => {};\n\n(a, if) => {};\n\n(q, a + b) => {};\n\n(q, a + b, c) => {};\n\n(...a => 42);\n\n() => {}(0);\n\nx => {}(0);\n\nasync x => {}(0);\n\ny = () => {}(0);\n\n(async () => {}(0));\n\n(() => {}(0));\n\ny = (x => {}(0));\n\n(async () => {}(0));\n\n(async () => {}(0));\n\n(async () => {}(0));\n\n(async () => {}(0));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 314
+    "end": 523
 }
 ```
 
@@ -1365,6 +2166,18 @@
 ✖ The left hand side of the arrow is not destructible  - start: 292, end: 295
 ✖ Expected a ')' to match the '(' token here - start: 306, end: 309
 ✖ Expected a `;` - start: 312, end: 313
+✖ Block body arrows can not be immediately invoked without a group - start: 324, end: 325
+✖ Block body arrows can not be immediately invoked without a group - start: 337, end: 338
+✖ Block body arrows can not be immediately invoked without a group - start: 356, end: 357
+✖ Expected a `;` - start: 356, end: 357
+✖ Block body arrows can not be immediately invoked without a group - start: 374, end: 375
+✖ Block body arrows can not be immediately invoked without a group - start: 395, end: 396
+✖ Block body arrows can not be immediately invoked without a group - start: 411, end: 412
+✖ Block body arrows can not be immediately invoked without a group - start: 430, end: 431
+✖ Block body arrows can not be immediately invoked without a group - start: 452, end: 453
+✖ Block body arrows can not be immediately invoked without a group - start: 474, end: 475
+✖ Block body arrows can not be immediately invoked without a group - start: 496, end: 497
+✖ Block body arrows can not be immediately invoked without a group - start: 518, end: 519
 
 ```
 

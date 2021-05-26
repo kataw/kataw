@@ -2112,19 +2112,19 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ```javascript
 ✖ Expected a `;` - start: 16, end: 18
 ✖ Generators can only be declared at the top level or inside a block - start: 48, end: 50
-✖ Class declarations are not allowed in an arbitrary statement position. - start: 64, end: 70
+✖ Class declarations cannot be used in a single-statement context - start: 64, end: 70
 ✖ Missing an opening parentheses - '( - start: 80, end: 86
 ✖ 'try' expected - start: 80, end: 86
 ✖ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 106, end: 107
 ✖ A return statement can only be used within a function_body - start: 116, end: 123
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 139, end: 145
+✖ Function declarations cannot be used in a single-statement context - start: 139, end: 145
 ✖ Generators can only be declared at the top level or inside a block - start: 180, end: 181
 ✖ A return statement can only be used within a function_body - start: 197, end: 204
 ✖ Expected a `;` - start: 206, end: 211
-✖ Class declarations are not allowed in an arbitrary statement position. - start: 226, end: 232
+✖ Class declarations cannot be used in a single-statement context - start: 226, end: 232
 ✖ Expression expected - start: 249, end: 255
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 277, end: 283
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 306, end: 312
+✖ Function declarations cannot be used in a single-statement context - start: 277, end: 283
+✖ Function declarations cannot be used in a single-statement context - start: 306, end: 312
 ✖ Expected a `;` - start: 353, end: 355
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 397, end: 401
 ✖ The left-hand side must be a variable or a property access. - start: 437, end: 439

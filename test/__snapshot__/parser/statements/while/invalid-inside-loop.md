@@ -106,7 +106,7 @@ while (1) async function foo(){}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 9, end: 15
+✖ Function declarations cannot be used in a single-statement context - start: 9, end: 15
 
 ```
 

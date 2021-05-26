@@ -118,7 +118,7 @@ do function *f(){} while (x);
 ### Diagnostics
 
 ```javascript
-✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 2, end: 11
+✖ Function declarations can only be declared at top level or inside a block in strict mode - start: 2, end: 11
 
 ```
 

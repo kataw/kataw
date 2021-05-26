@@ -3568,11 +3568,11 @@
 ✖ Declaration or statement expected - start: 129, end: 130
 ✖ Missing an opening brace - '{ - start: 144, end: 147
 ✖ Expression expected - start: 144, end: 147
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 131, end: 144
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 144, end: 147
 ✖ Declaration or statement expected - start: 150, end: 151
 ✖ Declaration or statement expected - start: 151, end: 152
 ✖ The parser expected to find a '}' to match the '{' token here - start: 164, end: 167
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 153, end: 164
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 164, end: 167
 ✖ Declaration or statement expected - start: 170, end: 171
 ✖ Declaration or statement expected - start: 171, end: 172
 ✖ Missing an opening brace - '{ - start: 187, end: 189
@@ -3582,12 +3582,12 @@
 ✖ Declaration or statement expected - start: 192, end: 193
 ✖ Missing an opening brace - '{ - start: 208, end: 211
 ✖ Expression expected - start: 208, end: 211
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 194, end: 208
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 208, end: 211
 ✖ Declaration or statement expected - start: 213, end: 214
 ✖ Declaration or statement expected - start: 214, end: 215
 ✖ Missing an opening brace - '{ - start: 230, end: 233
 ✖ Expression expected - start: 230, end: 233
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 216, end: 230
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 230, end: 233
 ✖ Declaration or statement expected - start: 236, end: 237
 ✖ Declaration or statement expected - start: 237, end: 238
 ✖ Missing an opening brace - '{ - start: 256, end: 257
@@ -3597,7 +3597,7 @@
 ✖ Expression expected - start: 280, end: 281
 ✖ Expression expected - start: 281, end: 282
 ✖ The parser expected to find a '}' to match the '{' token here - start: 302, end: 305
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 285, end: 302
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 302, end: 305
 ✖ Declaration or statement expected - start: 308, end: 309
 ✖ Declaration or statement expected - start: 309, end: 310
 ✖ Missing an opening brace - '{ - start: 330, end: 332
@@ -3606,7 +3606,7 @@
 ✖ Expected a ')' to match the '(' token here - start: 334, end: 335
 ✖ Declaration or statement expected - start: 335, end: 336
 ✖ The parser expected to find a '}' to match the '{' token here - start: 354, end: 357
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 337, end: 354
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 354, end: 357
 ✖ Declaration or statement expected - start: 360, end: 361
 ✖ Declaration or statement expected - start: 361, end: 362
 ✖ Invalid character - start: 433, end: 434

@@ -1848,18 +1848,18 @@ o = {f([b, a], b=x) {}};
 ### Diagnostics
 
 ```javascript
-✖ Duplicate formal parameter - start: 9, end: 12
-✖ Duplicate formal parameter - start: 31, end: 34
-✖ Duplicate formal parameter - start: 53, end: 56
-✖ Duplicate formal parameter - start: 72, end: 78
-✖ Duplicate formal parameter - start: 103, end: 111
-✖ Duplicate formal parameter - start: 133, end: 140
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 9, end: 12
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 31, end: 34
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 53, end: 56
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 72, end: 78
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 103, end: 111
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 133, end: 140
 ✖ Duplicate identifier - start: 166, end: 167
-✖ Duplicate formal parameter - start: 162, end: 168
-✖ Duplicate formal parameter - start: 189, end: 192
-✖ Duplicate formal parameter - start: 213, end: 218
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 162, end: 168
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 189, end: 192
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 213, end: 218
 ✖ Duplicate identifier - start: 243, end: 244
-✖ Duplicate formal parameter - start: 266, end: 271
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 266, end: 271
 
 ```
 

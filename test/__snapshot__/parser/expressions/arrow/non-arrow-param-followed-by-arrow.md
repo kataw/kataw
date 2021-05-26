@@ -74,7 +74,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 5
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 5, end: 8
 
 ```
 

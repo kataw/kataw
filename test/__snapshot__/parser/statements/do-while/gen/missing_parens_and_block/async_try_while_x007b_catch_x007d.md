@@ -178,7 +178,7 @@ do async try while { catch } while
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
+✖ Function declarations cannot be used in a single-statement context - start: 2, end: 8
 ✖ Expected a `;` - start: 8, end: 12
 ✖ Missing an opening parentheses - '( - start: 18, end: 20
 ✖ Property definition expected. Did you mean to use a ':'? - start: 26, end: 28

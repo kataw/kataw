@@ -2187,13 +2187,13 @@
 ### Diagnostics
 
 ```javascript
-✖ Duplicate formal parameter - start: 4, end: 14
-✖ Duplicate formal parameter - start: 25, end: 35
-✖ Duplicate formal parameter - start: 46, end: 56
-✖ Duplicate formal parameter - start: 67, end: 80
-✖ Duplicate formal parameter - start: 98, end: 101
-✖ Duplicate formal parameter - start: 119, end: 124
-✖ Duplicate formal parameter - start: 142, end: 147
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 4, end: 14
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 25, end: 35
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 46, end: 56
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 67, end: 80
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 98, end: 101
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 119, end: 124
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 142, end: 147
 ✖ Duplicate identifier - start: 169, end: 170
 ✖ Cannot redeclare block-scoped variable - start: 195, end: 197
 ✖ Duplicate identifier - start: 221, end: 223

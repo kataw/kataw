@@ -104,7 +104,7 @@ while (x) function f(){}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 9, end: 18
+✖ Function declarations cannot be used in a single-statement context - start: 9, end: 18
 
 ```
 

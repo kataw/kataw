@@ -144,7 +144,7 @@ async function x() {
 
 ```javascript
 ✖ Expression expected - start: 28, end: 29
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 29, end: 35
+✖ Function declarations cannot be used in a single-statement context - start: 29, end: 35
 
 ```
 

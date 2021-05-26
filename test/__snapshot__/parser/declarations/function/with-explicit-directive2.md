@@ -145,7 +145,7 @@ function f(a, b, a) {"use strict"}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate formal parameter - start: 16, end: 34
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 16, end: 34
 
 ```
 

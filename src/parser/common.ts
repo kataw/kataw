@@ -204,6 +204,7 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
     nextToken(parser, context);
     return createToken(kind, flags, pos, parser.curPos);
   }
+
   return null;
 }
 

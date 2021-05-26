@@ -117,7 +117,7 @@ foo: function x() {}
 ### Diagnostics
 
 ```javascript
-✖ Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement - start: 4, end: 13
+✖ Function declarations cannot be used in a single-statement context - start: 4, end: 13
 
 ```
 

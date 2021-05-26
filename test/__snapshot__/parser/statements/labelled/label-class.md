@@ -101,7 +101,7 @@ label: class x {}
 ### Diagnostics
 
 ```javascript
-✖ Class declarations are not allowed in an arbitrary statement position. - start: 6, end: 12
+✖ Class declarations cannot be used in a single-statement context - start: 6, end: 12
 
 ```
 

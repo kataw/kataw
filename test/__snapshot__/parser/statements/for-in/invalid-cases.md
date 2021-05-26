@@ -7129,7 +7129,7 @@ for ({}.bar = x in obj);
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 428, end: 430
 ✖ Expected a ')' to match the '(' token here - start: 450, end: 451
 ✖ Declaration or statement expected - start: 452, end: 453
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 481, end: 490
+✖ Function declarations cannot be used in a single-statement context - start: 481, end: 490
 ✖ A lexical declaration can't define a 'let' binding - start: 505, end: 509
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 505, end: 509
 ✖ A lexical declaration can't define a 'let' binding - start: 525, end: 529
@@ -7144,7 +7144,7 @@ for ({}.bar = x in obj);
 ✖ Expression expected - start: 717, end: 718
 ✖ Expression expected - start: 734, end: 735
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 754, end: 756
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 798, end: 807
+✖ Function declarations cannot be used in a single-statement context - start: 798, end: 807
 ✖ Expression expected - start: 835, end: 836
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 855, end: 857
 ✖ Expression expected - start: 877, end: 878

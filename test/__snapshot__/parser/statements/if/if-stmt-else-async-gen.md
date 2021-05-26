@@ -122,7 +122,7 @@ if (false) ; else async function* f() {  }
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 17, end: 23
+✖ Function declarations cannot be used in a single-statement context - start: 17, end: 23
 
 ```
 

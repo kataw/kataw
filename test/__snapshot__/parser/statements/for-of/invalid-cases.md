@@ -5411,8 +5411,8 @@ for ({a: b.c}-- of d) e;
 ✖ Expression expected - start: 178, end: 179
 ✖ Expression expected - start: 191, end: 192
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 214, end: 217
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 258, end: 267
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 294, end: 303
+✖ Function declarations cannot be used in a single-statement context - start: 258, end: 267
+✖ Function declarations cannot be used in a single-statement context - start: 294, end: 303
 ✖ Expected a `;` - start: 335, end: 337
 ✖ Expected a ')' to match the '(' token here - start: 357, end: 358
 ✖ Expected a `;` - start: 361, end: 362

@@ -149,7 +149,7 @@ do do do class x {} while while while
 ### Diagnostics
 
 ```javascript
-✖ Class declarations are not allowed in an arbitrary statement position. - start: 8, end: 14
+✖ Class declarations cannot be used in a single-statement context - start: 8, end: 14
 ✖ Missing an opening parentheses - '( - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 31, end: 37
 

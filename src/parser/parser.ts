@@ -300,7 +300,6 @@ export function parse(
     }
 
     if (parser.previousErrorPos !== parser.pos) {
-      parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -426,17 +425,14 @@ function parseStatement(
     case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
       // FunctionDeclaration are only allowed as a StatementListItem, not in
-      // an arbitrary Statement position.
-
+      // in a single-statement context.
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
           context & Context.Strict
-            ? DiagnosticCode.In_strict_mode_code_or_without_web_compability_enabled_functions_can_only_be_declared_at_top_level_or_inside_a_block
-            : context & Context.OptionsDisableWebCompat /* AnnexB */
-            ? DiagnosticCode.Without_web_compability_enabled_functions_can_not_be_declared_at_top_level_inside_a_block_or_as_the_body_of_an_if_statement
-            : DiagnosticCode.Function_declarations_are_not_allowed_in_an_arbitrary_statement_position
+            ? DiagnosticCode.Function_declarations_can_only_be_declared_at_top_level_or_inside_a_block_in_strict_mode
+            : DiagnosticCode.Function_declarations_cannot_be_used_in_a_single_statement_context
         ],
         parser.curPos,
         parser.pos
@@ -447,7 +443,7 @@ function parseStatement(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.Class_declarations_are_not_allowed_in_an_arbitrary_statement_position],
+        diagnosticMap[DiagnosticCode.Class_declarations_cannot_be_used_in_a_single_statement_context],
         parser.curPos,
         parser.pos
       );
@@ -497,7 +493,7 @@ function parseSwitchStatement(parser: ParserState, context: Context, scope: Scop
 //   `{` CaseClauses? DefaultClause CaseClauses? `}`
 function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState): CaseBlock {
   const pos = parser.curPos;
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace);
+  consume(parser, context, SyntaxKind.LeftBrace);
   scope = createParentScope(scope, ScopeKind.SwitchStatement);
   const clauses = [];
   let hasDefaultCase = false;
@@ -754,7 +750,7 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
       diagnosticMap[DiagnosticCode.A_continue_statement_can_only_be_used_within_an_enclosing_iteration_statement],
-      parser.curPos,
+      pos,
       parser.pos
     );
   }
@@ -967,16 +963,16 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
 //   `return` `;`
 //   `return` [no LineTerminator here] Expression `;`
 function parseReturnStatement(parser: ParserState, context: Context): ReturnStatement {
+  const pos = parser.curPos;
   if ((context & Context.AllowReturn) === 0) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
       diagnosticMap[DiagnosticCode.A_return_statement_can_only_be_used_within_a_function_body],
-      parser.curPos,
+      pos,
       parser.pos
     );
   }
-  const pos = parser.curPos;
   const returnToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
@@ -3074,7 +3070,7 @@ function parsMethodParameters(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
+        diagnosticMap[DiagnosticCode.A_formal_parameter_cannot_be_bound_multiple_times_in_the_same_parameter_list],
         parser.diagnosticStartPos,
         parser.pos
       );
@@ -4217,8 +4213,8 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
-        curPos,
-        parser.curPos
+        parser.curPos,
+        parser.pos
       );
     }
     parser.destructible = destructible;
@@ -5584,7 +5580,7 @@ function parseFunctionStatementList(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
+        diagnosticMap[DiagnosticCode.A_formal_parameter_cannot_be_bound_multiple_times_in_the_same_parameter_list],
         parser.diagnosticStartPos,
         parser.pos
       );
@@ -5628,7 +5624,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Duplicate_formal_parameter],
+          diagnosticMap[DiagnosticCode.A_formal_parameter_cannot_be_bound_multiple_times_in_the_same_parameter_list],
           parser.diagnosticStartPos,
           parser.pos
         );

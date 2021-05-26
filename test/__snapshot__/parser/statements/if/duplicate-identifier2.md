@@ -132,7 +132,7 @@ if (x) x;
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 18, end: 24
+✖ Function declarations cannot be used in a single-statement context - start: 18, end: 24
 
 ```
 

@@ -162,7 +162,7 @@ function f(b, a, b, a = x) {}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate formal parameter - start: 19, end: 26
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 19, end: 26
 
 ```
 

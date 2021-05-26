@@ -6153,13 +6153,13 @@ try {} catch(e) { for(var e of 0); };
 ✖ Invalid hexadecimal escape sequence - start: 4001, end: 4001
 ✖ Expected a `;` - start: 4001, end: 4002
 ✖ Declaration or statement expected - start: 4002, end: 4007
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 4485, end: 4494
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 4522, end: 4531
+✖ Function declarations cannot be used in a single-statement context - start: 4485, end: 4494
+✖ Function declarations cannot be used in a single-statement context - start: 4522, end: 4531
 ✖ Duplicate label - start: 4543, end: 4550
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 4550, end: 4559
+✖ Function declarations cannot be used in a single-statement context - start: 4550, end: 4559
 ✖ Duplicate label - start: 4585, end: 4592
 ✖ Duplicate label - start: 4585, end: 4592
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 4592, end: 4601
+✖ Function declarations cannot be used in a single-statement context - start: 4592, end: 4601
 ✖ Invalid hexadecimal escape sequence - start: 5061, end: 5061
 ✖ Expected a `;` - start: 5061, end: 5062
 ✖ Invalid hexadecimal escape sequence - start: 5073, end: 5073

@@ -261,7 +261,7 @@ do do do async funcion switch!! while while while
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 8, end: 14
+✖ Function declarations cannot be used in a single-statement context - start: 8, end: 14
 ✖ Missing an opening parentheses - '( - start: 29, end: 30
 ✖ Expression expected - start: 31, end: 37
 ✖ Missing an opening parentheses - '( - start: 37, end: 43

@@ -176,7 +176,7 @@ while (false) label1: label2: function f() {}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 29, end: 38
+✖ Function declarations cannot be used in a single-statement context - start: 29, end: 38
 
 ```
 
