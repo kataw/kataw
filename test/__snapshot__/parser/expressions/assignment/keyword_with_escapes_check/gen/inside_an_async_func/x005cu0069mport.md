@@ -102,6 +102,7 @@ async () => {  \u0069mport = x  }
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 26, end: 28
 ✖ Unexpected token. - start: 26, end: 28
 ✖ The `import` keyword can only be used with the module goal - start: 26, end: 28
 ✖ Expected a `;` - start: 26, end: 28

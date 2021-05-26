@@ -106,6 +106,7 @@ async () => {  c\u006fnst = x  }
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 25, end: 27
 ✖ Expected a `;` - start: 25, end: 27
 ✖ Declaration or statement expected - start: 29, end: 32
 

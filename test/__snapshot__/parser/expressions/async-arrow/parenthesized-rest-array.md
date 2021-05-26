@@ -148,7 +148,7 @@ var foo = async ([...(foo)]) => {};
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 28, end: 31
+✖ The left hand side of the arrow is not destructible  - start: 9, end: 31
 
 ```
 

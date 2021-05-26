@@ -70,6 +70,7 @@ c\u006fnst = x;
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 10, end: 12
 ✖ Expected a `;` - start: 10, end: 12
 
 ```

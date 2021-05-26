@@ -69,6 +69,7 @@
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 11
+✖ Keywords cannot contain escape characters - start: 11, end: 13
 ✖ Declaration or statement expected - start: 11, end: 13
 
 ```

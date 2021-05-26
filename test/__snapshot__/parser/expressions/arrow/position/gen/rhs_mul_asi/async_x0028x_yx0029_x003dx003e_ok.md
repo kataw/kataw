@@ -105,12 +105,12 @@ x
 
 ```javascript
 
-x * async (x, y) =>  ok;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 3, end: 19
+
 ```
 

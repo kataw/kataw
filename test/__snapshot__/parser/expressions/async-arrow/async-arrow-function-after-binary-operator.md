@@ -1,14 +1,11 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-21
-- From: d
-- Path: l
-> :: test: rhs mul
-> :: case: async (x) => ok
+# Kataw parser test case
+
 ## Input
 
 `````js
-x * async (x) => ok
+3 + async() => 2
 `````
+
 ## Output
 
 ### CST
@@ -23,15 +20,15 @@ x * async (x) => ok
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
+                    "kind": 201392130,
+                    "text": 3,
+                    "rawText": "3",
                     "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 34098,
                     "flags": 64,
                     "start": 1,
                     "end": 3
@@ -41,20 +38,11 @@ x * async (x) => ok
                     "arrowToken": {
                         "kind": 10,
                         "flags": 0,
-                        "start": 13,
-                        "end": 16
+                        "start": 11,
+                        "end": 14
                     },
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 12
-                        }
-                    ],
+                    "parameters": [],
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
@@ -63,32 +51,32 @@ x * async (x) => ok
                     },
                     "returnType": null,
                     "contents": {
-                        "kind": 134299649,
-                        "text": "ok",
-                        "rawText": "ok",
+                        "kind": 201392130,
+                        "text": 2,
+                        "rawText": "2",
                         "flags": 96,
-                        "start": 16,
-                        "end": 19
+                        "start": 14,
+                        "end": 16
                     },
                     "flags": 288,
                     "start": 3,
-                    "end": 19
+                    "end": 16
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 19
+                "end": 16
             },
             "flags": 16,
             "start": 0,
-            "end": 19
+            "end": 16
         }
     ],
     "isModule": false,
-    "source": "x * async (x) => ok",
+    "source": "3 + async() => 2",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 16
 }
 ```
 
@@ -96,12 +84,12 @@ x * async (x) => ok
 
 ```javascript
 
+3 + async () =>  2;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 3, end: 16
-
+✔ No errors
 ```
 

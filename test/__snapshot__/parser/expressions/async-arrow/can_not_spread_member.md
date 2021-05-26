@@ -113,7 +113,7 @@ async ([...x.y]) => z
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 16, end: 19
+✖ The left hand side of the arrow is not destructible  - start: 0, end: 19
 
 ```
 

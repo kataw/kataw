@@ -422,7 +422,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 56, end: 58
+✖ The left hand side of the arrow is not destructible  - start: 0, end: 58
 
 ```
 

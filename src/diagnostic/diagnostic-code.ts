@@ -213,7 +213,8 @@ export const enum DiagnosticCode {
   Cannot_use_await_as_a_name_on_a_async_function_declaration = 212,
   Line_terminator_not_permitted_before_async_modifier_in_a_class_body = 213,
   _async_modifier_cannot_be_used_here = 214,
-  Parameter_await_for_async_arrow_not_allowed_here = 215
+  Parameter_await_for_async_arrow_not_allowed_here = 215,
+  _super_keyword_must_not_contain_escaped_characters = 216
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -432,5 +433,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [212]: "Cannot use 'await' as a name on a async function declaration",
   [213]: 'Line terminator not permitted before async modifier in a class body',
   [214]: "'async' modifier cannot be used here",
-  [215]: "Parameter 'await' for async arrow not allowed here"
+  [215]: "Parameter 'await' for async arrow not allowed here",
+  [216]: "'super' keyword must not contain escaped characters"
 };

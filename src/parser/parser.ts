@@ -614,6 +614,15 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
 function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState): CatchClause {
   const pos = parser.curPos;
   const catchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.CatchKeyword);
+  if (catchToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
   // Keep shape of node to avoid degrading performance.
   let catchParameter = null;
   let initializer = null;
@@ -742,6 +751,16 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
   }
   let label = null;
   const continueToken = consumeToken(parser, context, SyntaxKind.ContinueKeyword);
+  if (continueToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.previousErrorPos = pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
   if (!canParseSemicolon(parser)) {
     label = parseIdentifier(parser, context);
   }
@@ -1080,6 +1099,16 @@ function parseForStatement(
 ): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
   const forKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ForKeyword);
+  if (forKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   let destructible!: DestructibleKind;
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
@@ -2793,7 +2822,22 @@ function parsePropertyDefinition(
         return key as Identifier;
     }
   } else {
+    let t = parser.token;
     key = parsePropertyName(parser, context);
+    if (
+      t & SyntaxKind.IsKeyword &&
+      parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape) &&
+      parser.token !== SyntaxKind.Colon
+    ) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode._yield_keyword_must_not_contain_escaped_characters],
+        pos,
+        parser.curPos
+      );
+    }
+
     if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
       nodeFlags |= NodeFlags.PrototypeField;
     }
@@ -3449,6 +3493,15 @@ function parseUnaryExpression(
 ): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
+  if (operandToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
   if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -5018,7 +5071,14 @@ function parseFunctionExpression(
       // "async<T>()"
       // "async <T>() => {}"
       if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-        expression = parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, flags, pos);
+        expression = parseCoverCallExpressionAndAsyncArrowHead(
+          parser,
+          context,
+          expression,
+          LeftHandSideContext,
+          flags,
+          pos
+        );
       }
 
       // "async => {}"
@@ -5225,7 +5285,14 @@ function parseFunctionDeclaration(
             parser.pos
           );
         }
-        return parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, flags, pos) as any;
+        return parseCoverCallExpressionAndAsyncArrowHead(
+          parser,
+          context,
+          expression,
+          LeftHandSide.None,
+          flags,
+          pos
+        ) as any;
       }
 
       if (parser.token === SyntaxKind.Colon) {
@@ -5657,7 +5724,15 @@ function parseImportDeclaration(
   let fromClause: FromClause | null = null;
 
   const importToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ImportKeyword);
-
+  if (importToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
   const pos = parser.curPos;
 
   if (parser.token === SyntaxKind.StringLiteral) {
@@ -5862,6 +5937,15 @@ function parseExportDeclaration(
 ): ExportDeclaration | ExportDefault | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const exportToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExportKeyword);
+  if (exportToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
   let declaration: any = null;
   let fromClause: FromClause | null = null;
   let namedExports: NamedExports | null = null;
@@ -6919,6 +7003,15 @@ function parseLexicalDeclaration(
 ): LexicalDeclaration {
   const pos = parser.curPos;
   const lexicalToken = consumeToken(parser, context, token);
+  if (lexicalToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
   const declarationList = parseBindingList(
     parser,
     (context | Context.LexicalContext | Context.InBlock) ^ Context.InBlock,
@@ -8365,13 +8458,19 @@ export function parseImportMetaOrCall(parser: ParserState, context: Context, inN
 
 function parseSuperExpression(parser: ParserState, context: Context): Super | MemberAccessChain {
   const pos = parser.curPos;
-  const expression = createSuper(consumeToken(parser, context, SyntaxKind.SuperKeyword), pos, parser.curPos);
+  const superKeyword = consumeToken(parser, context, SyntaxKind.SuperKeyword);
+  const expression = createSuper(superKeyword, pos, parser.curPos);
+
   switch (parser.token) {
     case SyntaxKind.QuestionMarkPeriod:
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access],
+        diagnosticMap[
+          superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+            ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
+            : DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access
+        ],
         parser.curPos,
         parser.pos
       );
@@ -8381,7 +8480,9 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[
-            DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
+            superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+              ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
+              : DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
           ],
           parser.curPos,
           parser.pos
@@ -8396,7 +8497,9 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[
-            DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
+            superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+              ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
+              : DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
           ],
           parser.curPos,
           parser.pos
@@ -8410,7 +8513,11 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Me
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access],
+        diagnosticMap[
+          superKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+            ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
+            : DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access
+        ],
         parser.curPos,
         parser.pos
       );
@@ -8453,6 +8560,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   parser: ParserState,
   context: Context,
   expr: ExpressionNode,
+  LeftHandSideContext: LeftHandSide,
   flags: NodeFlags,
   start: number
 ): ArrowFunction | ExpressionNode {
@@ -9002,13 +9110,21 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           parser.pos
         );
       }
-
+      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Expected_a],
+          start,
+          parser.pos
+        );
+      }
       if (destructible & (DestructibleKind.Assignable | DestructibleKind.NotDestructible)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.The_left_hand_side_of_the_arrow_is_not_destructible],
-          parser.curPos,
+          start,
           parser.pos
         );
       }
