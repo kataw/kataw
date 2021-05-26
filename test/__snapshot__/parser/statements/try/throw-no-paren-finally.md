@@ -59,15 +59,20 @@ throw {x} finally
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 17,
-                    "end": 17
+                    "start": 9,
+                    "end": 9
                 },
                 "flags": 16,
-                "start": 17,
-                "end": 17
+                "start": 9,
+                "end": 9
             },
             "catchClause": null,
-            "finallyKeyword": null,
+            "finallyKeyword": {
+                "kind": 37757016,
+                "flags": 0,
+                "start": 9,
+                "end": 17
+            },
             "finallyBlock": {
                 "kind": 124,
                 "block": {

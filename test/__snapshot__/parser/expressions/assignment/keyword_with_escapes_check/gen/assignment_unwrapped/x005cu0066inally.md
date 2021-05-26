@@ -27,6 +27,26 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 16,
+                "start": 0,
+                "end": 0
+            },
+            "catchClause": null,
+            "finallyKeyword": {
+                "kind": 37757016,
+                "flags": 16384,
+                "start": 0,
+                "end": 12
+            },
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
                     "start": 12,
                     "end": 12
                 },
@@ -34,24 +54,9 @@
                 "start": 12,
                 "end": 12
             },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 124,
-                "block": {
-                    "kind": 249,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 16,
-                "start": 14,
-                "end": 14
-            },
             "flags": 16,
             "start": 0,
-            "end": 14
+            "end": 12
         },
         {
             "kind": 120,
@@ -87,6 +92,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 0, end: 12
+✖ Declaration or statement expected - start: 12, end: 14
 
 ```
 

@@ -30,8 +30,8 @@ do async try while { catch } while
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 12,
-                "end": 12
+                "start": 8,
+                "end": 8
             },
             "whileKeyword": null,
             "statement": {
@@ -50,6 +50,46 @@ do async try while { catch } while
             },
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 0,
+                "start": 8,
+                "end": 12
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 12,
+                    "end": 12
+                },
+                "flags": 16,
+                "start": 12,
+                "end": 12
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 12,
+                    "end": 12
+                },
+                "flags": 16,
+                "start": 12,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 8,
             "end": 12
         },
         {
@@ -140,7 +180,6 @@ do async try while { catch } while
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Expected a `;` - start: 8, end: 12
-✖ Missing an opening parentheses - '( - start: 12, end: 18
 ✖ Missing an opening parentheses - '( - start: 18, end: 20
 ✖ Property definition expected. Did you mean to use a ':'? - start: 26, end: 28
 ✖ Declaration or statement expected - start: 28, end: 34

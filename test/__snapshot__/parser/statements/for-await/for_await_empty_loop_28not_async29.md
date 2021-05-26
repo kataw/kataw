@@ -25,13 +25,7 @@ for await (;;) {}
             },
             "initializer": null,
             "condition": null,
-            "incrementor": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 13,
-                "end": 13
-            },
+            "incrementor": null,
             "statement": {
                 "kind": 124,
                 "block": {
@@ -69,7 +63,6 @@ for await (;;) {}
 
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 9, end: 11
-✖ Expression expected - start: 13, end: 14
 
 ```
 

@@ -46,6 +46,26 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "start": 1,
+                    "end": 1
+                },
+                "flags": 16,
+                "start": 1,
+                "end": 1
+            },
+            "catchClause": null,
+            "finallyKeyword": {
+                "kind": 37757016,
+                "flags": 16384,
+                "start": 1,
+                "end": 13
+            },
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
@@ -53,24 +73,9 @@
                 "start": 13,
                 "end": 13
             },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 124,
-                "block": {
-                    "kind": 249,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 15,
-                    "end": 15
-                },
-                "flags": 16,
-                "start": 15,
-                "end": 15
-            },
             "flags": 16,
             "start": 1,
-            "end": 15
+            "end": 13
         },
         {
             "kind": 120,
@@ -113,6 +118,7 @@
 ```javascript
 ✖ Expression expected - start: 1, end: 13
 ✖ 'try' expected - start: 1, end: 13
+✖ Declaration or statement expected - start: 13, end: 15
 ✖ Expected a `;` - start: 17, end: 18
 
 ```

@@ -382,12 +382,12 @@ type T = <
                                 "kind": 16637,
                                 "text": "",
                                 "flags": 64,
-                                "start": 179,
-                                "end": 179
+                                "start": 178,
+                                "end": 178
                             },
                             "flags": 32,
                             "start": 150,
-                            "end": 179
+                            "end": 178
                         },
                         "flags": 16,
                         "start": 150,
@@ -783,12 +783,12 @@ type T = <
                                 "kind": 16637,
                                 "text": "",
                                 "flags": 64,
-                                "start": 418,
-                                "end": 418
+                                "start": 417,
+                                "end": 417
                             },
                             "flags": 32,
                             "start": 384,
-                            "end": 418
+                            "end": 417
                         },
                         "flags": 16,
                         "start": 384,
@@ -891,14 +891,14 @@ type T = <
 ✖ Expression expected - start: 98, end: 99
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
-✖ Expression expected - start: 179, end: 182
+✖ Expression expected - start: 178, end: 179
 ✖ Expression expected - start: 259, end: 260
 ✖ Duplicate identifier - start: 267, end: 269
 ✖ Expression expected - start: 310, end: 327
 ✖ Expression expected - start: 329, end: 330
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384
-✖ Expression expected - start: 418, end: 421
+✖ Expression expected - start: 417, end: 418
 
 ```
 

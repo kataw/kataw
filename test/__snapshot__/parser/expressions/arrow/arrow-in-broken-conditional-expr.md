@@ -48,19 +48,32 @@ bar ? (=> 0) : baz;
                 },
                 "colonToken": null,
                 "alternate": {
-                    "kind": 201392130,
-                    "text": 0,
-                    "rawText": "0",
-                    "flags": 96,
-                    "start": 9,
-                    "end": 11
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 7,
+                    "end": 7
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 11
+                "end": 7
             },
             "flags": 16,
             "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392130,
+                "text": 0,
+                "rawText": "0",
+                "flags": 96,
+                "start": 9,
+                "end": 11
+            },
+            "flags": 16,
+            "start": 9,
             "end": 11
         },
         {

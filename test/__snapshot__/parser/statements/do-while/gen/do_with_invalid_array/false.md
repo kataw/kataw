@@ -30,8 +30,8 @@ do while [catch] false
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 22,
-                "end": 22
+                "start": 15,
+                "end": 15
             },
             "whileKeyword": null,
             "statement": {
@@ -65,38 +65,65 @@ do while [catch] false
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "catchClause": {
+                        "kind": 173,
+                        "catchKeyword": {
+                            "kind": 4202575,
+                            "flags": 0,
+                            "start": 10,
+                            "end": 15
+                        },
+                        "catchParameter": null,
+                        "initializer": null,
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 16,
-                        "start": 15,
+                        "start": 10,
                         "end": 15
                     },
-                    "catchClause": null,
                     "finallyKeyword": null,
-                    "finallyBlock": {
-                        "kind": 124,
-                        "block": {
-                            "kind": 249,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 16,
-                            "end": 16
-                        },
-                        "flags": 16,
-                        "start": 16,
-                        "end": 16
-                    },
+                    "finallyBlock": null,
                     "flags": 16,
                     "start": 10,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134,
+                "text": false,
+                "flags": 96,
+                "start": 16,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 16,
             "end": 22
         }
     ],
@@ -121,7 +148,7 @@ do while [catch] false
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Missing an opening parentheses - '( - start: 22, end: 22
+✖ Missing an opening parentheses - '( - start: 15, end: 16
 
 ```
 

@@ -67,28 +67,42 @@ throw {x} catch
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 15,
-                    "end": 15
+                    "start": 9,
+                    "end": 9
                 },
                 "flags": 16,
-                "start": 15,
-                "end": 15
+                "start": 9,
+                "end": 9
             },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 124,
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 0,
+                    "start": 9,
+                    "end": 15
+                },
+                "catchParameter": null,
+                "initializer": null,
                 "block": {
-                    "kind": 249,
-                    "statements": [],
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 15,
+                        "end": 15
+                    },
                     "flags": 16,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 16,
-                "start": 15,
+                "start": 9,
                 "end": 15
             },
+            "finallyKeyword": null,
+            "finallyBlock": null,
             "flags": 16,
             "start": 9,
             "end": 15

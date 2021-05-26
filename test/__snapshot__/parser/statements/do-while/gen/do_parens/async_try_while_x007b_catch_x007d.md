@@ -30,8 +30,8 @@ do( async try while { catch } while
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 13,
-                "end": 13
+                "start": 9,
+                "end": 9
             },
             "whileKeyword": null,
             "statement": {
@@ -54,6 +54,46 @@ do( async try while { catch } while
             },
             "flags": 16,
             "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 0,
+                "start": 9,
+                "end": 13
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 16,
+                "start": 13,
+                "end": 13
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 16,
+                "start": 13,
+                "end": 13
+            },
+            "flags": 16,
+            "start": 9,
             "end": 13
         },
         {
@@ -143,7 +183,6 @@ do( async try while { catch } while
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 9, end: 13
-✖ Missing an opening parentheses - '( - start: 13, end: 19
 ✖ Missing an opening parentheses - '( - start: 19, end: 21
 ✖ Property definition expected. Did you mean to use a ':'? - start: 27, end: 29
 ✖ Declaration or statement expected - start: 29, end: 35

@@ -50,35 +50,47 @@ export *, {bar} from 'bar';
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "bar",
-                                "rawText": "bar",
-                                "flags": 96,
-                                "start": 11,
-                                "end": 14
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 11,
-                        "end": 14
-                    },
-                    "flags": 48,
-                    "start": 9,
-                    "end": 15
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 8,
+                    "end": 8
                 },
                 "flags": 0,
                 "start": 8,
-                "end": 15
+                "end": 8
             },
             "exportKind": 0,
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 11,
+                            "end": 14
+                        },
+                        "flags": 16,
+                        "start": 11,
+                        "end": 14
+                    }
+                ],
+                "flags": 16,
+                "start": 11,
+                "end": 14
+            },
+            "flags": 16,
+            "start": 9,
             "end": 15
         },
         {
@@ -128,7 +140,7 @@ export *, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 15, end: 20
+✖ Expression expected - start: 8, end: 9
 ✖ Expected a `;` - start: 20, end: 26
 
 ```

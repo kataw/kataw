@@ -27,18 +27,11 @@ do[ try { !xxx
                 "end": 2
             },
             "expression": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 9,
-                    "end": 9
-                },
-                "flags": 48,
-                "start": 7,
-                "end": 9
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 3,
+                "end": 3
             },
             "whileKeyword": null,
             "statement": {
@@ -63,32 +56,73 @@ do[ try { !xxx
             },
             "flags": 16,
             "start": 0,
-            "end": 9
+            "end": 3
         },
         {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 64,
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 0,
+                "start": 3,
+                "end": 7
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 65584,
+                                    "flags": 64,
+                                    "start": 9,
+                                    "end": 11
+                                },
+                                "operand": {
+                                    "kind": 134299649,
+                                    "text": "xxx",
+                                    "rawText": "xxx",
+                                    "flags": 96,
+                                    "start": 11,
+                                    "end": 14
+                                },
+                                "flags": 32,
+                                "start": 9,
+                                "end": 14
+                            },
+                            "flags": 16,
+                            "start": 9,
+                            "end": 14
+                        }
+                    ],
+                    "flags": 16,
                     "start": 9,
-                    "end": 11
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "xxx",
-                    "rawText": "xxx",
-                    "flags": 96,
-                    "start": 11,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 9,
+                "flags": 16,
+                "start": 7,
+                "end": 14
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 14,
+                    "end": 14
+                },
+                "flags": 16,
+                "start": 14,
                 "end": 14
             },
             "flags": 16,
-            "start": 9,
+            "start": 3,
             "end": 14
         }
     ],
@@ -111,8 +145,7 @@ do[ try { !xxx
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 7
-✖ Missing an opening parentheses - '( - start: 7, end: 9
-✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
 
 ```
 

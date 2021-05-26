@@ -112,6 +112,7 @@ async () => {  \u0072eturn = x  }
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 13, end: 26
 ✖ Expression expected - start: 26, end: 28
 
 ```

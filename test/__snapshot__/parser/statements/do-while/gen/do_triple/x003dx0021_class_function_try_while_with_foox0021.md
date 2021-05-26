@@ -69,10 +69,22 @@ do do do =! class function try while with foo! while while while
                         "end": 8
                     },
                     "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 46,
+                        "kind": 126,
+                        "operandToken": {
+                            "kind": 65584,
+                            "flags": 64,
+                            "start": 45,
+                            "end": 46
+                        },
+                        "operand": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 46,
+                            "end": 46
+                        },
+                        "flags": 32,
+                        "start": 45,
                         "end": 46
                     },
                     "whileKeyword": null,
@@ -314,7 +326,7 @@ do do do =! class function try while with foo! while while while
 ✖ Expression expected - start: 8, end: 10
 ✖ Missing an opening brace - '{ - start: 17, end: 26
 ✖ Expression expected - start: 45, end: 46
-✖ Missing an opening parentheses - '( - start: 46, end: 52
+✖ Expression expected - start: 46, end: 52
 ✖ Missing an opening parentheses - '( - start: 52, end: 58
 ✖ Missing an opening parentheses - '( - start: 58, end: 64
 

@@ -46,10 +46,24 @@
                                                     "metaIdentifier": null,
                                                     "flags": 12,
                                                     "start": 96,
-                                                    "end": 17
+                                                    "end": 13
                                                 },
                                                 "flags": 16,
                                                 "start": 12,
+                                                "end": 13
+                                            },
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "call",
+                                                    "rawText": "call",
+                                                    "flags": 96,
+                                                    "start": 13,
+                                                    "end": 17
+                                                },
+                                                "flags": 16,
+                                                "start": 13,
                                                 "end": 17
                                             }
                                         ],
@@ -98,7 +112,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' is the only valid meta property for import - start: 17, end: 17
+✖ 'import.meta' is the only valid meta property for import - start: 13, end: 17
 
 ```
 

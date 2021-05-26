@@ -27,10 +27,22 @@ do[ =! class function try while with foo!
                 "end": 2
             },
             "expression": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 41,
+                "kind": 126,
+                "operandToken": {
+                    "kind": 65584,
+                    "flags": 64,
+                    "start": 40,
+                    "end": 41
+                },
+                "operand": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 41,
+                    "end": 41
+                },
+                "flags": 32,
+                "start": 40,
                 "end": 41
             },
             "whileKeyword": null,

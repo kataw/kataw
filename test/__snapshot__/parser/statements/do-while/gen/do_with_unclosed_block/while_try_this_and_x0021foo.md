@@ -106,19 +106,31 @@ do {} while (x) { while try this and !foo
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
-                                    "start": 32,
-                                    "end": 32
+                                    "start": 27,
+                                    "end": 27
                                 },
                                 "flags": 16,
-                                "start": 32,
-                                "end": 32
+                                "start": 27,
+                                "end": 27
                             },
                             "flags": 16,
                             "start": 23,
-                            "end": 32
+                            "end": 27
                         },
                         "flags": 16,
                         "start": 17,
+                        "end": 27
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 135,
+                            "flags": 27,
+                            "start": 96,
+                            "end": 32
+                        },
+                        "flags": 16,
+                        "start": 27,
                         "end": 32
                     },
                     {
@@ -190,6 +202,7 @@ do {} while (x) { while try this and !foo
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 23, end: 27
+✖ Expected a `;` - start: 32, end: 36
 ✖ Expected a `;` - start: 36, end: 38
 ✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
 

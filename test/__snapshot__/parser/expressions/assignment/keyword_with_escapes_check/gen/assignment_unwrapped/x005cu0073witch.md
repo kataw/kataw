@@ -89,6 +89,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 0, end: 11
 ✖ Missing an opening parentheses - '( - start: 11, end: 13
 ✖ Declaration or statement expected - start: 15, end: 16
 

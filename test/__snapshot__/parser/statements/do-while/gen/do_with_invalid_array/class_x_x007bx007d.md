@@ -27,12 +27,11 @@ do while [catch] class x {}
                 "end": 2
             },
             "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 22,
-                "end": 24
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 15,
+                "end": 15
             },
             "whileKeyword": null,
             "statement": {
@@ -66,51 +65,89 @@ do while [catch] class x {}
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "catchClause": {
+                        "kind": 173,
+                        "catchKeyword": {
+                            "kind": 4202575,
+                            "flags": 0,
+                            "start": 10,
+                            "end": 15
+                        },
+                        "catchParameter": null,
+                        "initializer": null,
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 16,
-                        "start": 15,
+                        "start": 10,
                         "end": 15
                     },
-                    "catchClause": null,
                     "finallyKeyword": null,
-                    "finallyBlock": {
-                        "kind": 124,
-                        "block": {
-                            "kind": 249,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 16,
-                            "end": 16
-                        },
-                        "flags": 16,
-                        "start": 16,
-                        "end": 16
-                    },
+                    "finallyBlock": null,
                     "flags": 16,
                     "start": 10,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 24
+            "end": 15
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 26,
-                "end": 26
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37822544,
+                "flags": 0,
+                "start": 16,
+                "end": 22
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 22,
+                "end": 24
+            },
+            "typeParameters": null,
+            "tail": {
+                "kind": 277,
+                "classHeritage": null,
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 26,
+                    "end": 26
+                },
+                "flags": 24,
+                "start": 32,
+                "end": 27
             },
             "flags": 16,
-            "start": 24,
+            "start": 16,
             "end": 27
         }
     ],
@@ -135,8 +172,7 @@ do while [catch] class x {}
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Missing an opening parentheses - '( - start: 22, end: 24
-✖ Declaration or statement expected - start: 24, end: 26
+✖ Missing an opening parentheses - '( - start: 15, end: 16
 
 ```
 

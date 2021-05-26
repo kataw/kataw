@@ -52,107 +52,121 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "start": 3,
+                                "end": 3
+                            },
+                            "flags": 16,
+                            "start": 3,
+                            "end": 3
+                        },
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 3,
+                                "end": 8
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 8,
+                                    "end": 8
+                                },
+                                "flags": 16,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 16,
-                            "start": 8,
+                            "start": 3,
                             "end": 8
                         },
-                        "catchClause": null,
                         "finallyKeyword": null,
-                        "finallyBlock": {
-                            "kind": 124,
-                            "block": {
-                                "kind": 249,
-                                "statements": [],
-                                "flags": 16,
-                                "start": 9,
-                                "end": 9
-                            },
-                            "flags": 16,
-                            "start": 9,
-                            "end": 9
-                        },
+                        "finallyBlock": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 9
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 132,
-                                "flags": 32,
-                                "start": 9,
-                                "end": 12
-                            },
-                            "flags": 32,
-                            "start": 9,
-                            "end": 12
-                        },
-                        "flags": 16,
-                        "start": 9,
-                        "end": 12
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 132,
-                            "expressions": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 12,
-                                    "end": 14
-                                },
-                                {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 96,
-                                        "start": 15,
-                                        "end": 17
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 17,
-                                        "end": 19
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 19,
-                                        "end": 21
-                                    },
-                                    "flags": 32,
-                                    "start": 15,
-                                    "end": 21
-                                }
-                            ],
-                            "flags": 32,
-                            "start": 12,
-                            "end": 21
-                        },
-                        "flags": 16,
-                        "start": 12,
-                        "end": 21
+                        "end": 8
                     }
                 ],
                 "flags": 16,
                 "start": 1,
-                "end": 21
+                "end": 8
             },
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "flags": 32,
+                    "start": 9,
+                    "end": 12
+                },
+                "flags": 32,
+                "start": 9,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 9,
+            "end": 12
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 134299649,
+                        "text": "b",
+                        "rawText": "b",
+                        "flags": 96,
+                        "start": 12,
+                        "end": 14
+                    },
+                    {
+                        "kind": 125,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "c",
+                            "rawText": "c",
+                            "flags": 96,
+                            "start": 15,
+                            "end": 17
+                        },
+                        "operatorToken": {
+                            "kind": 4125,
+                            "flags": 64,
+                            "start": 17,
+                            "end": 19
+                        },
+                        "right": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 19,
+                            "end": 21
+                        },
+                        "flags": 32,
+                        "start": 15,
+                        "end": 21
+                    }
+                ],
+                "flags": 32,
+                "start": 12,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 12,
             "end": 21
         },
         {
@@ -190,6 +204,7 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Expected a ')' to match the '(' token here - start: 12, end: 14
 ✖ Expected a `;` - start: 21, end: 23
 ✖ Expected a `;` - start: 30, end: 31

@@ -8,7 +8,7 @@ new.meta
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -28,10 +28,24 @@ new.meta
                 "targetIdentifier": null,
                 "flags": 96,
                 "start": 0,
-                "end": 8
+                "end": 4
             },
             "flags": 16,
             "start": 0,
+            "end": 4
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "meta",
+                "rawText": "meta",
+                "flags": 96,
+                "start": 4,
+                "end": 8
+            },
+            "flags": 16,
+            "start": 4,
             "end": 8
         }
     ],
@@ -53,8 +67,9 @@ new.meta
 ### Diagnostics
 
 ```javascript
-✖ The only valid meta property for new is 'new.target - start: 8, end: 8
-✖ 'new.target' only allowed within functions - start: 8, end: 8
+✖ The only valid meta property for new is 'new.target - start: 4, end: 8
+✖ 'new.target' only allowed within functions - start: 4, end: 8
+✖ Expected a `;` - start: 4, end: 8
 
 ```
 

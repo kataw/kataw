@@ -427,26 +427,6 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "end": 278
                     },
                     "consequent": {
-                        "kind": 121,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "d",
-                            "rawText": "d",
-                            "flags": 96,
-                            "start": 280,
-                            "end": 281
-                        },
-                        "flags": 32,
-                        "start": 278,
-                        "end": 282
-                    },
-                    "colonToken": {
-                        "kind": 21,
-                        "flags": 0,
-                        "start": 282,
-                        "end": 284
-                    },
-                    "alternate": {
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
@@ -455,16 +435,38 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "end": 289
                         },
                         "typeParameters": null,
-                        "parameters": {
-                            "kind": 134299649,
-                            "text": "e",
-                            "rawText": "e",
-                            "flags": 96,
-                            "start": 284,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "d",
+                                "rawText": "d",
+                                "flags": 96,
+                                "start": 280,
+                                "end": 281
+                            }
+                        ],
+                        "asyncKeyword": null,
+                        "returnType": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "e",
+                                    "rawText": "e",
+                                    "flags": 96,
+                                    "start": 284,
+                                    "end": 286
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 284,
+                                "end": 286
+                            },
+                            "flags": 0,
+                            "start": 282,
                             "end": 286
                         },
-                        "asyncKeyword": null,
-                        "returnType": null,
                         "contents": {
                             "kind": 271,
                             "arrowToken": null,
@@ -502,19 +504,32 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "end": 297
                             },
                             "contents": {
-                                "kind": 134299649,
-                                "text": "h",
-                                "rawText": "h",
-                                "flags": 96,
-                                "start": 299,
-                                "end": 301
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 297,
+                                "end": 297
                             },
                             "flags": 32,
                             "start": 289,
-                            "end": 301
+                            "end": 297
                         },
                         "flags": 32,
-                        "start": 284,
+                        "start": 278,
+                        "end": 297
+                    },
+                    "colonToken": {
+                        "kind": 21,
+                        "flags": 0,
+                        "start": 297,
+                        "end": 299
+                    },
+                    "alternate": {
+                        "kind": 134299649,
+                        "text": "h",
+                        "rawText": "h",
+                        "flags": 96,
+                        "start": 299,
                         "end": 301
                     },
                     "flags": 32,
@@ -523,144 +538,157 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "colonToken": null,
                 "alternate": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 301,
+                    "end": 301
+                },
+                "flags": 32,
+                "start": 233,
+                "end": 301
+            },
+            "flags": 16,
+            "start": 233,
+            "end": 302
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 197,
+                "shortCircuit": {
+                    "kind": 134299649,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 96,
+                    "start": 302,
+                    "end": 418
+                },
+                "questionToken": {
+                    "kind": 134217750,
+                    "flags": 0,
+                    "start": 418,
+                    "end": 420
+                },
+                "consequent": {
                     "kind": 197,
                     "shortCircuit": {
                         "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 96,
-                        "start": 302,
-                        "end": 418
+                        "start": 420,
+                        "end": 422
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 0,
-                        "start": 418,
-                        "end": 420
+                        "start": 422,
+                        "end": 424
                     },
                     "consequent": {
-                        "kind": 197,
-                        "shortCircuit": {
+                        "kind": 121,
+                        "expression": {
                             "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
+                            "text": "c",
+                            "rawText": "c",
                             "flags": 96,
-                            "start": 420,
-                            "end": 422
-                        },
-                        "questionToken": {
-                            "kind": 134217750,
-                            "flags": 0,
-                            "start": 422,
-                            "end": 424
-                        },
-                        "consequent": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "c",
-                                "rawText": "c",
-                                "flags": 96,
-                                "start": 426,
-                                "end": 427
-                            },
-                            "flags": 32,
-                            "start": 424,
-                            "end": 428
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 0,
-                            "start": 428,
-                            "end": 430
-                        },
-                        "alternate": {
-                            "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 0,
-                                "start": 440,
-                                "end": 443
-                            },
-                            "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "d",
-                                    "rawText": "d",
-                                    "flags": 96,
-                                    "start": 432,
-                                    "end": 433
-                                }
-                            ],
-                            "asyncKeyword": null,
-                            "returnType": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 260,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "e",
-                                            "rawText": "e",
-                                            "flags": 96,
-                                            "start": 438,
-                                            "end": 439
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 438,
-                                        "end": 439
-                                    },
-                                    "flags": 0,
-                                    "start": 436,
-                                    "end": 440
-                                },
-                                "flags": 0,
-                                "start": 434,
-                                "end": 440
-                            },
-                            "contents": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 443,
-                                "end": 445
-                            },
-                            "flags": 32,
-                            "start": 430,
-                            "end": 445
+                            "start": 426,
+                            "end": 427
                         },
                         "flags": 32,
-                        "start": 420,
-                        "end": 445
+                        "start": 424,
+                        "end": 428
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 0,
-                        "start": 445,
-                        "end": 447
+                        "start": 428,
+                        "end": 430
                     },
                     "alternate": {
-                        "kind": 134299649,
-                        "text": "g",
-                        "rawText": "g",
-                        "flags": 96,
-                        "start": 447,
-                        "end": 449
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 440,
+                            "end": 443
+                        },
+                        "typeParameters": null,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "d",
+                                "rawText": "d",
+                                "flags": 96,
+                                "start": 432,
+                                "end": 433
+                            }
+                        ],
+                        "asyncKeyword": null,
+                        "returnType": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 260,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "e",
+                                        "rawText": "e",
+                                        "flags": 96,
+                                        "start": 438,
+                                        "end": 439
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 438,
+                                    "end": 439
+                                },
+                                "flags": 0,
+                                "start": 436,
+                                "end": 440
+                            },
+                            "flags": 0,
+                            "start": 434,
+                            "end": 440
+                        },
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "f",
+                            "rawText": "f",
+                            "flags": 96,
+                            "start": 443,
+                            "end": 445
+                        },
+                        "flags": 32,
+                        "start": 430,
+                        "end": 445
                     },
                     "flags": 32,
-                    "start": 302,
+                    "start": 420,
+                    "end": 445
+                },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 445,
+                    "end": 447
+                },
+                "alternate": {
+                    "kind": 134299649,
+                    "text": "g",
+                    "rawText": "g",
+                    "flags": 96,
+                    "start": 447,
                     "end": 449
                 },
                 "flags": 32,
-                "start": 233,
+                "start": 302,
                 "end": 449
             },
             "flags": 16,
-            "start": 233,
+            "start": 302,
             "end": 450
         },
         {
@@ -952,37 +980,14 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
 ### Printed
 
 ```javascript
-//a ? (b) : c => d; // a ? b : (c => d)
-
-a ? (b) =>  d : e; // a ? ((b): c => d) : e
-
-a ? (b) : (c) =>  e; // a ? b : ((c): d => e)
-
-//a ? (b = (c) => d) : e => f; // a ? (b = (c) => d) : (e => f)
-a ? (b = (c) =>  d) =>  f : g; // a ? ((b = (c) => d): e => f) : g
-
-b
-  ? c
-    ? (d)
-    : e =>  (f)  h
-   //a ? b ? c ? (d) : e => (f) : g : h; // a ? (b ? (c ? d : (e => f)) : g) : h
-  a
-    ? b
-      ? (c)
-      : (d) =>  f
-    : g; // a ? (b ? c : ((d): e => f)) : g
-
-// Multiple arrow functions
-a ? (b) =>  d : (e) =>  g; // a ? ((b): c => d) : ((e): f => g)
-
-// Multiple nested arrow functions (<T> is needed to avoid ambiguities)
-a ? (b) =>  (d) =>  f : g; // a ? ((b): c => ((d): e => f)) : g
 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 297, end: 299
+✖ Expression expected - start: 301, end: 302
+
 ```
 

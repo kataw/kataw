@@ -261,15 +261,15 @@ import { type Foo12 } from "bar";
                 "fromKeyword": null,
                 "from": {
                     "kind": 134299649,
-                    "text": "from",
-                    "rawText": "from",
+                    "text": "foo24",
+                    "rawText": "foo24",
                     "flags": 96,
-                    "start": 117,
-                    "end": 122
+                    "start": 111,
+                    "end": 117
                 },
                 "flags": 0,
                 "start": 111,
-                "end": 122
+                "end": 117
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -290,6 +290,20 @@ import { type Foo12 } from "bar";
             },
             "flags": 16,
             "start": 99,
+            "end": 117
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 117,
+                "end": 122
+            },
+            "flags": 16,
+            "start": 117,
             "end": 122
         },
         {
@@ -612,6 +626,7 @@ import { type Foo12 } from "bar";
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 117, end: 122
 ✖ Expected a `;` - start: 122, end: 128
 ✖ Unexpected token. - start: 176, end: 183
 ✖ Expected a `;` - start: 176, end: 183

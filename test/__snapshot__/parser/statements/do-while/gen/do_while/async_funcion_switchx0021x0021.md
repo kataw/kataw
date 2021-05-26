@@ -33,12 +33,7 @@ do async funcion switch!! while
                 "start": 31,
                 "end": 31
             },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 0,
-                "start": 25,
-                "end": 31
-            },
+            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -61,43 +56,109 @@ do async funcion switch!! while
                     },
                     "returnType": null,
                     "contents": {
-                        "kind": 126,
-                        "operandToken": {
-                            "kind": 65584,
-                            "flags": 64,
-                            "start": 23,
-                            "end": 24
-                        },
-                        "operand": {
-                            "kind": 126,
-                            "operandToken": {
-                                "kind": 65584,
-                                "flags": 64,
-                                "start": 24,
-                                "end": 25
-                            },
-                            "operand": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 25,
-                                "end": 25
-                            },
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [
+                                {
+                                    "kind": 160,
+                                    "switchKeyword": {
+                                        "kind": 37757024,
+                                        "flags": 0,
+                                        "start": 16,
+                                        "end": 23
+                                    },
+                                    "expression": {
+                                        "kind": 126,
+                                        "operandToken": {
+                                            "kind": 65584,
+                                            "flags": 64,
+                                            "start": 23,
+                                            "end": 24
+                                        },
+                                        "operand": {
+                                            "kind": 126,
+                                            "operandToken": {
+                                                "kind": 65584,
+                                                "flags": 64,
+                                                "start": 24,
+                                                "end": 25
+                                            },
+                                            "operand": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 25,
+                                                "end": 25
+                                            },
+                                            "flags": 32,
+                                            "start": 24,
+                                            "end": 25
+                                        },
+                                        "flags": 32,
+                                        "start": 23,
+                                        "end": 25
+                                    },
+                                    "caseBlock": {
+                                        "kind": 152,
+                                        "clauses": [],
+                                        "flags": 16,
+                                        "start": 25,
+                                        "end": 25
+                                    },
+                                    "flags": 16,
+                                    "start": 16,
+                                    "end": 25
+                                },
+                                {
+                                    "kind": 154,
+                                    "whileKeyword": {
+                                        "kind": 37757028,
+                                        "flags": 0,
+                                        "start": 25,
+                                        "end": 31
+                                    },
+                                    "expression": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "flags": 64,
+                                        "start": 31,
+                                        "end": 31
+                                    },
+                                    "statement": {
+                                        "kind": 120,
+                                        "expression": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 31,
+                                            "end": 31
+                                        },
+                                        "flags": 16,
+                                        "start": 31,
+                                        "end": 31
+                                    },
+                                    "flags": 16,
+                                    "start": 25,
+                                    "end": 31
+                                }
+                            ],
                             "flags": 32,
-                            "start": 24,
-                            "end": 25
+                            "start": 16,
+                            "end": 31
                         },
                         "flags": 32,
-                        "start": 23,
-                        "end": 25
+                        "start": 16,
+                        "end": 31
                     },
                     "flags": 288,
                     "start": 2,
-                    "end": 25
+                    "end": 31
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 25
+                "end": 31
             },
             "flags": 16,
             "start": 0,
@@ -123,6 +184,7 @@ do async funcion switch!! while
 
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
+✖ Missing an opening parentheses - '( - start: 23, end: 24
 ✖ Expression expected - start: 25, end: 31
 
 ```

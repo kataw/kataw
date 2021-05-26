@@ -27,12 +27,11 @@ do while [catch] async funcion switch!!
                 "end": 2
             },
             "expression": {
-                "kind": 134299649,
-                "text": "funcion",
-                "rawText": "funcion",
-                "flags": 96,
-                "start": 22,
-                "end": 30
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 15,
+                "end": 15
             },
             "whileKeyword": null,
             "statement": {
@@ -66,88 +65,146 @@ do while [catch] async funcion switch!!
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "catchClause": {
+                        "kind": 173,
+                        "catchKeyword": {
+                            "kind": 4202575,
+                            "flags": 0,
+                            "start": 10,
+                            "end": 15
+                        },
+                        "catchParameter": null,
+                        "initializer": null,
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 16,
-                        "start": 15,
+                        "start": 10,
                         "end": 15
                     },
-                    "catchClause": null,
                     "finallyKeyword": null,
-                    "finallyBlock": {
-                        "kind": 124,
-                        "block": {
-                            "kind": 249,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 16,
-                            "end": 16
-                        },
-                        "flags": 16,
-                        "start": 16,
-                        "end": 16
-                    },
+                    "finallyBlock": null,
                     "flags": 16,
                     "start": 10,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 30
+            "end": 15
         },
         {
-            "kind": 160,
-            "switchKeyword": {
-                "kind": 37757024,
-                "flags": 0,
-                "start": 30,
-                "end": 37
-            },
+            "kind": 120,
             "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 64,
-                    "start": 37,
-                    "end": 38
+                "kind": 271,
+                "arrowToken": null,
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "funcion",
+                    "rawText": "funcion",
+                    "flags": 96,
+                    "start": 22,
+                    "end": 30
                 },
-                "operand": {
-                    "kind": 126,
-                    "operandToken": {
-                        "kind": 65584,
-                        "flags": 64,
-                        "start": 38,
-                        "end": 39
-                    },
-                    "operand": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 39,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 16,
+                    "end": 22
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 160,
+                                "switchKeyword": {
+                                    "kind": 37757024,
+                                    "flags": 0,
+                                    "start": 30,
+                                    "end": 37
+                                },
+                                "expression": {
+                                    "kind": 126,
+                                    "operandToken": {
+                                        "kind": 65584,
+                                        "flags": 64,
+                                        "start": 37,
+                                        "end": 38
+                                    },
+                                    "operand": {
+                                        "kind": 126,
+                                        "operandToken": {
+                                            "kind": 65584,
+                                            "flags": 64,
+                                            "start": 38,
+                                            "end": 39
+                                        },
+                                        "operand": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 39,
+                                            "end": 39
+                                        },
+                                        "flags": 32,
+                                        "start": 38,
+                                        "end": 39
+                                    },
+                                    "flags": 32,
+                                    "start": 37,
+                                    "end": 39
+                                },
+                                "caseBlock": {
+                                    "kind": 152,
+                                    "clauses": [],
+                                    "flags": 16,
+                                    "start": 39,
+                                    "end": 39
+                                },
+                                "flags": 16,
+                                "start": 30,
+                                "end": 39
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 30,
                         "end": 39
                     },
                     "flags": 32,
-                    "start": 38,
+                    "start": 30,
                     "end": 39
                 },
-                "flags": 32,
-                "start": 37,
-                "end": 39
-            },
-            "caseBlock": {
-                "kind": 152,
-                "clauses": [],
-                "flags": 16,
-                "start": 39,
+                "flags": 288,
+                "start": 16,
                 "end": 39
             },
             "flags": 16,
-            "start": 30,
+            "start": 16,
             "end": 39
         }
     ],
@@ -172,8 +229,7 @@ do while [catch] async funcion switch!!
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Missing an opening parentheses - '( - start: 22, end: 30
-✖ Declaration or statement expected - start: 30, end: 37
+✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Missing an opening parentheses - '( - start: 37, end: 38
 ✖ Expression expected - start: 39, end: 39
 

@@ -30,8 +30,8 @@ do[ catch try {
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 9,
-                "end": 9
+                "start": 3,
+                "end": 3
             },
             "whileKeyword": null,
             "statement": {
@@ -56,6 +56,55 @@ do[ catch try {
             },
             "flags": 16,
             "start": 0,
+            "end": 3
+        },
+        {
+            "kind": 159,
+            "tryKeyword": null,
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 3,
+                    "end": 3
+                },
+                "flags": 16,
+                "start": 3,
+                "end": 3
+            },
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 0,
+                    "start": 3,
+                    "end": 9
+                },
+                "catchParameter": null,
+                "initializer": null,
+                "block": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 9,
+                        "end": 9
+                    },
+                    "flags": 16,
+                    "start": 9,
+                    "end": 9
+                },
+                "flags": 16,
+                "start": 3,
+                "end": 9
+            },
+            "finallyKeyword": null,
+            "finallyBlock": null,
+            "flags": 16,
+            "start": 3,
             "end": 9
         },
         {
@@ -118,7 +167,7 @@ do[ catch try {
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 9
-✖ Missing an opening parentheses - '( - start: 9, end: 13
+✖ 'try' expected - start: 3, end: 9
 ✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 15
 
 ```

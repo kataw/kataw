@@ -33,11 +33,30 @@ import a, *= from 'f';
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 134299649,
-                    "text": "from",
-                    "rawText": "from",
-                    "flags": 96,
-                    "start": 12,
+                    "kind": 125,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 9,
+                        "end": 9
+                    },
+                    "operatorToken": {
+                        "kind": 4132,
+                        "flags": 64,
+                        "start": 9,
+                        "end": 12
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "from",
+                        "rawText": "from",
+                        "flags": 96,
+                        "start": 12,
+                        "end": 17
+                    },
+                    "flags": 32,
+                    "start": 9,
                     "end": 17
                 },
                 "flags": 0,
@@ -99,6 +118,7 @@ import a, *= from 'f';
 
 ```javascript
 ✖ Unexpected token. - start: 9, end: 12
+✖ Expression expected - start: 9, end: 12
 ✖ Expected a `;` - start: 17, end: 21
 
 ```

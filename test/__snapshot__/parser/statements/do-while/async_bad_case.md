@@ -25,11 +25,26 @@ do async
                 "end": 2
             },
             "expression": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 12,
-                "end": 12
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "f",
+                    "rawText": "f",
+                    "flags": 96,
+                    "start": 8,
+                    "end": 11
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 12,
+                    "end": 12
+                },
+                "flags": 268435488,
+                "start": 8,
+                "end": 13
             },
             "whileKeyword": null,
             "statement": {
@@ -122,7 +137,8 @@ do async
 
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
-✖ Expression expected - start: 12, end: 13
+✖ Missing an opening parentheses - '( - start: 8, end: 11
+✖ Declaration or statement expected - start: 13, end: 14
 ✖ Expression expected - start: 26, end: 26
 
 ```

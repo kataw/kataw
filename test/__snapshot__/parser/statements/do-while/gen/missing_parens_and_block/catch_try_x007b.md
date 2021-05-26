@@ -30,8 +30,8 @@ do catch try { while
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 20,
-                "end": 20
+                "start": 8,
+                "end": 8
             },
             "whileKeyword": null,
             "statement": {
@@ -43,28 +43,80 @@ do catch try { while
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "start": 2,
+                        "end": 2
+                    },
+                    "flags": 16,
+                    "start": 2,
+                    "end": 2
+                },
+                "catchClause": {
+                    "kind": 173,
+                    "catchKeyword": {
+                        "kind": 4202575,
+                        "flags": 0,
+                        "start": 2,
+                        "end": 8
+                    },
+                    "catchParameter": null,
+                    "initializer": null,
+                    "block": {
+                        "kind": 124,
+                        "block": {
+                            "kind": 249,
+                            "statements": [],
+                            "flags": 16,
+                            "start": 8,
+                            "end": 8
+                        },
+                        "flags": 16,
                         "start": 8,
                         "end": 8
                     },
                     "flags": 16,
-                    "start": 8,
+                    "start": 2,
                     "end": 8
                 },
-                "catchClause": null,
                 "finallyKeyword": null,
-                "finallyBlock": {
-                    "kind": 124,
-                    "block": {
-                        "kind": 249,
-                        "statements": [
-                            {
-                                "kind": 154,
-                                "whileKeyword": {
-                                    "kind": 37757028,
-                                    "flags": 0,
-                                    "start": 14,
-                                    "end": 20
-                                },
+                "finallyBlock": null,
+                "flags": 16,
+                "start": 2,
+                "end": 8
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 0,
+                "start": 8,
+                "end": 12
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [
+                        {
+                            "kind": 154,
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 0,
+                                "start": 14,
+                                "end": 20
+                            },
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 20,
+                                "end": 20
+                            },
+                            "statement": {
+                                "kind": 120,
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
@@ -72,38 +124,40 @@ do catch try { while
                                     "start": 20,
                                     "end": 20
                                 },
-                                "statement": {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "flags": 64,
-                                        "start": 20,
-                                        "end": 20
-                                    },
-                                    "flags": 16,
-                                    "start": 20,
-                                    "end": 20
-                                },
                                 "flags": 16,
-                                "start": 14,
+                                "start": 20,
                                 "end": 20
-                            }
-                        ],
-                        "flags": 16,
-                        "start": 14,
-                        "end": 20
-                    },
+                            },
+                            "flags": 16,
+                            "start": 14,
+                            "end": 20
+                        }
+                    ],
                     "flags": 16,
-                    "start": 12,
+                    "start": 14,
                     "end": 20
                 },
                 "flags": 16,
-                "start": 2,
+                "start": 12,
+                "end": 20
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 20,
+                    "end": 20
+                },
+                "flags": 16,
+                "start": 20,
                 "end": 20
             },
             "flags": 16,
-            "start": 0,
+            "start": 8,
             "end": 20
         }
     ],
@@ -126,6 +180,7 @@ do catch try { while
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
+✖ Missing an opening parentheses - '( - start: 8, end: 12
 ✖ Missing an opening parentheses - '( - start: 20, end: 20
 
 ```

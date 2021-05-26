@@ -46,26 +46,41 @@ left@{x2028}@right
                 "end": 5
             },
             "classKeyword": null,
-            "name": {
-                "kind": 134299649,
-                "text": "x2028",
-                "rawText": "x2028",
-                "flags": 96,
-                "start": 6,
-                "end": 11
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [],
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "x2028",
+                                "rawText": "x2028",
+                                "flags": 96,
+                                "start": 6,
+                                "end": 11
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 6,
+                            "end": 11
+                        }
+                    ],
                     "flags": 32,
-                    "start": 11,
+                    "start": 6,
                     "end": 11
                 },
-                "flags": 11,
+                "flags": 5,
                 "start": 32,
                 "end": 12
             },
@@ -144,7 +159,7 @@ left@{x2028}@right
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 11, end: 12
+✖ A class declaration without the 'default' modifier must have a name. - start: 5, end: 6
 ✖ Binding identifier expected - start: 18, end: 18
 
 ```

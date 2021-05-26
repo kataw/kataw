@@ -84,34 +84,68 @@ do {} while (x) { async funcion switch!!
                             },
                             "returnType": null,
                             "contents": {
-                                "kind": 126,
-                                "operandToken": {
-                                    "kind": 65584,
-                                    "flags": 64,
-                                    "start": 38,
-                                    "end": 39
-                                },
-                                "operand": {
-                                    "kind": 126,
-                                    "operandToken": {
-                                        "kind": 65584,
-                                        "flags": 64,
-                                        "start": 39,
-                                        "end": 40
-                                    },
-                                    "operand": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "flags": 64,
-                                        "start": 40,
-                                        "end": 40
-                                    },
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 160,
+                                            "switchKeyword": {
+                                                "kind": 37757024,
+                                                "flags": 0,
+                                                "start": 31,
+                                                "end": 38
+                                            },
+                                            "expression": {
+                                                "kind": 126,
+                                                "operandToken": {
+                                                    "kind": 65584,
+                                                    "flags": 64,
+                                                    "start": 38,
+                                                    "end": 39
+                                                },
+                                                "operand": {
+                                                    "kind": 126,
+                                                    "operandToken": {
+                                                        "kind": 65584,
+                                                        "flags": 64,
+                                                        "start": 39,
+                                                        "end": 40
+                                                    },
+                                                    "operand": {
+                                                        "kind": 16637,
+                                                        "text": "",
+                                                        "flags": 64,
+                                                        "start": 40,
+                                                        "end": 40
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 39,
+                                                    "end": 40
+                                                },
+                                                "flags": 32,
+                                                "start": 38,
+                                                "end": 40
+                                            },
+                                            "caseBlock": {
+                                                "kind": 152,
+                                                "clauses": [],
+                                                "flags": 16,
+                                                "start": 40,
+                                                "end": 40
+                                            },
+                                            "flags": 16,
+                                            "start": 31,
+                                            "end": 40
+                                        }
+                                    ],
                                     "flags": 32,
-                                    "start": 39,
+                                    "start": 31,
                                     "end": 40
                                 },
                                 "flags": 32,
-                                "start": 38,
+                                "start": 31,
                                 "end": 40
                             },
                             "flags": 288,
@@ -150,6 +184,7 @@ do {} while (x) { async funcion switch!!
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 38, end: 39
 ✖ Expression expected - start: 40, end: 40
 
 ```

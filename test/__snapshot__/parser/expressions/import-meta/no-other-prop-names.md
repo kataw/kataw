@@ -34,10 +34,24 @@ import.notMeta;
                 "metaIdentifier": null,
                 "flags": 6,
                 "start": 96,
-                "end": 14
+                "end": 7
             },
             "flags": 16,
             "start": 6,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "notMeta",
+                "rawText": "notMeta",
+                "flags": 96,
+                "start": 7,
+                "end": 14
+            },
+            "flags": 16,
+            "start": 7,
             "end": 15
         }
     ],
@@ -59,7 +73,7 @@ import.notMeta;
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' is the only valid meta property for import - start: 14, end: 15
+✖ 'import.meta' is the only valid meta property for import - start: 7, end: 14
 
 ```
 

@@ -77,19 +77,31 @@
                                                             "kind": 249,
                                                             "statements": [],
                                                             "flags": 16,
-                                                            "start": 20,
-                                                            "end": 20
+                                                            "start": 15,
+                                                            "end": 15
                                                         },
                                                         "flags": 16,
-                                                        "start": 20,
-                                                        "end": 20
+                                                        "start": 15,
+                                                        "end": 15
                                                     },
                                                     "flags": 16,
                                                     "start": 11,
-                                                    "end": 20
+                                                    "end": 15
                                                 },
                                                 "flags": 16,
                                                 "start": 5,
+                                                "end": 15
+                                            },
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 135,
+                                                    "flags": 15,
+                                                    "start": 96,
+                                                    "end": 20
+                                                },
+                                                "flags": 16,
+                                                "start": 15,
                                                 "end": 20
                                             },
                                             {
@@ -179,6 +191,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 11, end: 15
+✖ Expected a `;` - start: 20, end: 24
 ✖ Expected a `;` - start: 24, end: 26
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
 

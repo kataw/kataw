@@ -61,39 +61,53 @@ function failsParse() {
                             "expression": {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 131,
-                                    "expression": {
-                                        "kind": 207,
-                                        "importKeyword": {
-                                            "kind": 37814364,
-                                            "flags": 0,
-                                            "start": 32,
-                                            "end": 39
-                                        },
-                                        "metaIdentifier": null,
-                                        "flags": 39,
-                                        "start": 96,
-                                        "end": 44
+                                    "kind": 207,
+                                    "importKeyword": {
+                                        "kind": 37814364,
+                                        "flags": 0,
+                                        "start": 32,
+                                        "end": 39
                                     },
-                                    "argumentList": {
-                                        "kind": 256,
-                                        "elements": [],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 45,
-                                        "end": 45
-                                    },
-                                    "flags": 268435488,
-                                    "start": 39,
-                                    "end": 46
+                                    "metaIdentifier": null,
+                                    "flags": 39,
+                                    "start": 96,
+                                    "end": 40
                                 },
                                 "flags": 16,
                                 "start": 39,
-                                "end": 47
+                                "end": 40
                             },
                             "flags": 16,
-                            "start": 1,
+                            "start": 0,
                             "end": 23
+                        },
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 131,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "then",
+                                    "rawText": "then",
+                                    "flags": 96,
+                                    "start": 40,
+                                    "end": 44
+                                },
+                                "argumentList": {
+                                    "kind": 256,
+                                    "elements": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 45,
+                                    "end": 45
+                                },
+                                "flags": 268435488,
+                                "start": 40,
+                                "end": 46
+                            },
+                            "flags": 16,
+                            "start": 40,
+                            "end": 47
                         }
                     ],
                     "flags": 33,
@@ -129,7 +143,7 @@ function failsParse() {
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' is the only valid meta property for import - start: 44, end: 45
+✖ 'import.meta' is the only valid meta property for import - start: 40, end: 44
 
 ```
 

@@ -47,28 +47,42 @@
                                                                     "kind": 249,
                                                                     "statements": [],
                                                                     "flags": 16,
-                                                                    "start": 12,
-                                                                    "end": 12
+                                                                    "start": 7,
+                                                                    "end": 7
                                                                 },
                                                                 "flags": 16,
-                                                                "start": 12,
-                                                                "end": 12
+                                                                "start": 7,
+                                                                "end": 7
                                                             },
-                                                            "catchClause": null,
-                                                            "finallyKeyword": null,
-                                                            "finallyBlock": {
-                                                                "kind": 124,
+                                                            "catchClause": {
+                                                                "kind": 173,
+                                                                "catchKeyword": {
+                                                                    "kind": 4202575,
+                                                                    "flags": 0,
+                                                                    "start": 7,
+                                                                    "end": 12
+                                                                },
+                                                                "catchParameter": null,
+                                                                "initializer": null,
                                                                 "block": {
-                                                                    "kind": 249,
-                                                                    "statements": [],
+                                                                    "kind": 124,
+                                                                    "block": {
+                                                                        "kind": 249,
+                                                                        "statements": [],
+                                                                        "flags": 16,
+                                                                        "start": 12,
+                                                                        "end": 12
+                                                                    },
                                                                     "flags": 16,
                                                                     "start": 12,
                                                                     "end": 12
                                                                 },
                                                                 "flags": 16,
-                                                                "start": 12,
+                                                                "start": 7,
                                                                 "end": 12
                                                             },
+                                                            "finallyKeyword": null,
+                                                            "finallyBlock": null,
                                                             "flags": 16,
                                                             "start": 7,
                                                             "end": 12

@@ -56,7 +56,7 @@ async function f() {
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 165,
+                            "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 1,
@@ -88,8 +88,13 @@ async function f() {
                                 "start": 37,
                                 "end": 39
                             },
-                            "condition": null,
-                            "incrementor": {
+                            "inKeyword": {
+                                "kind": 21006388,
+                                "flags": 64,
+                                "start": 39,
+                                "end": 42
+                            },
+                            "expression": {
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
@@ -137,7 +142,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (; ; y);
+  for ( in y);
 }
 ```
 

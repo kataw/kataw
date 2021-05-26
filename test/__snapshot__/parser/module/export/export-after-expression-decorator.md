@@ -85,6 +85,27 @@ let MyClass = @foo export class {}
                                             "asyncKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
+                                                "text": "export",
+                                                "rawText": "export",
+                                                "flags": 96,
+                                                "start": 18,
+                                                "end": 25
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 32,
+                                            "start": 18,
+                                            "end": 25
+                                        },
+                                        {
+                                            "kind": 280,
+                                            "decorators": null,
+                                            "declaredToken": null,
+                                            "staticToken": null,
+                                            "asyncKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
                                                 "text": "class",
                                                 "rawText": "class",
                                                 "flags": 96,
@@ -100,10 +121,10 @@ let MyClass = @foo export class {}
                                         }
                                     ],
                                     "flags": 32,
-                                    "start": 25,
+                                    "start": 18,
                                     "end": 31
                                 },
-                                "flags": 25,
+                                "flags": 18,
                                 "start": 32,
                                 "end": 31
                             },
@@ -166,7 +187,7 @@ let MyClass = @foo export class {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 25, end: 31
+✖ Missing an opening brace - '{ - start: 18, end: 25
 ✖ Expression expected - start: 31, end: 33
 ✖ ',' expected - start: 31, end: 33
 ✖ Missing initializer in destructuring declaration - start: 34, end: 34

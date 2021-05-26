@@ -63,6 +63,7 @@ debugge\u0072 = x;
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 0, end: 13
 ✖ Expected a `;` - start: 13, end: 15
 
 ```

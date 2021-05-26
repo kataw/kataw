@@ -118,6 +118,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 14, end: 30
 ✖ Expected a `;` - start: 30, end: 32
 ✖ Declaration or statement expected - start: 34, end: 36
 

@@ -54,16 +54,35 @@ bar ? (return => {}) : baz;
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 13,
-                    "end": 13
+                    "start": 7,
+                    "end": 7
                 },
                 "flags": 32,
                 "start": 0,
+                "end": 7
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 161,
+            "returnKeyword": {
+                "kind": 37757022,
+                "flags": 0,
+                "start": 7,
+                "end": 13
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 13,
                 "end": 13
             },
             "flags": 16,
             "start": 0,
-            "end": 13
+            "end": 7
         },
         {
             "kind": 124,
@@ -112,6 +131,7 @@ bar ? (return => {}) : baz;
 
 ```javascript
 ✖ Expression expected - start: 7, end: 13
+✖ A return statement can only be used within a function_body - start: 7, end: 13
 ✖ Expression expected - start: 13, end: 16
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22

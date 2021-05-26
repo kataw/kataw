@@ -150,8 +150,8 @@ class C { #@{x29e3d}@ }
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 23,
-                "end": 23
+                "start": 21,
+                "end": 21
             },
             "typeParameters": null,
             "tail": {
@@ -161,10 +161,10 @@ class C { #@{x29e3d}@ }
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 23,
-                    "end": 23
+                    "start": 21,
+                    "end": 21
                 },
-                "flags": 23,
+                "flags": 21,
                 "start": 32,
                 "end": 23
             },
@@ -193,7 +193,7 @@ class C { #@{x29e3d}@ }
 ```javascript
 ✖ Invalid character - start: 10, end: 11
 ✖ Identifier expected - start: 12, end: 13
-✖ Binding identifier expected - start: 23, end: 23
+✖ Binding identifier expected - start: 21, end: 23
 
 ```
 

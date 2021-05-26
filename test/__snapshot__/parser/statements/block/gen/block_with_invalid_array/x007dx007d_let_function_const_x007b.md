@@ -52,40 +52,54 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "start": 3,
+                                "end": 3
+                            },
+                            "flags": 16,
+                            "start": 3,
+                            "end": 3
+                        },
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 3,
+                                "end": 8
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 8,
+                                    "end": 8
+                                },
+                                "flags": 16,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 16,
-                            "start": 8,
+                            "start": 3,
                             "end": 8
                         },
-                        "catchClause": null,
                         "finallyKeyword": null,
-                        "finallyBlock": {
-                            "kind": 124,
-                            "block": {
-                                "kind": 249,
-                                "statements": [],
-                                "flags": 16,
-                                "start": 9,
-                                "end": 9
-                            },
-                            "flags": 16,
-                            "start": 9,
-                            "end": 9
-                        },
+                        "finallyBlock": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 9
+                        "end": 8
                     }
                 ],
                 "flags": 16,
                 "start": 1,
-                "end": 9
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 8
         },
         {
             "kind": 120,
@@ -205,6 +219,8 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
+✖ Declaration or statement expected - start: 9, end: 11
 ✖ Declaration or statement expected - start: 11, end: 12
 ✖ Expected a `;` - start: 16, end: 25
 ✖ Binding identifier expected - start: 25, end: 31

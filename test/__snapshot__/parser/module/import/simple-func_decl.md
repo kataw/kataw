@@ -46,26 +46,41 @@ x@{x9}@+@{x9}@y
                 "end": 2
             },
             "classKeyword": null,
-            "name": {
-                "kind": 134299649,
-                "text": "x9",
-                "rawText": "x9",
-                "flags": 96,
-                "start": 3,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [],
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "x9",
+                                "rawText": "x9",
+                                "flags": 96,
+                                "start": 3,
+                                "end": 5
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 3,
+                            "end": 5
+                        }
+                    ],
                     "flags": 32,
-                    "start": 5,
+                    "start": 3,
                     "end": 5
                 },
-                "flags": 5,
+                "flags": 2,
                 "start": 32,
                 "end": 6
             },
@@ -88,8 +103,8 @@ x@{x9}@+@{x9}@y
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 8,
-                "end": 8
+                "start": 7,
+                "end": 7
             },
             "typeParameters": null,
             "tail": {
@@ -97,72 +112,87 @@ x@{x9}@+@{x9}@y
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": {
-                                "kind": 207,
-                                "decoratorList": [],
-                                "flags": 32,
-                                "start": 9,
-                                "end": 9
-                            },
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 9,
-                                "end": 9
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 8,
-                            "end": 9
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 8,
-                    "end": 9
+                    "start": 7,
+                    "end": 7
                 },
-                "flags": 8,
+                "flags": 7,
                 "start": 32,
-                "end": 9
+                "end": 7
             },
             "flags": 16,
             "start": 6,
-            "end": 9
+            "end": 7
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x9",
-                            "rawText": "x9",
-                            "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 34098,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 8
+                },
+                "operand": {
+                    "kind": 189,
+                    "decorators": {
+                        "kind": 207,
+                        "decoratorList": [],
+                        "flags": 32,
+                        "start": 9,
+                        "end": 9
+                    },
+                    "classKeyword": null,
+                    "name": null,
+                    "typeParameters": null,
+                    "tail": {
+                        "kind": 277,
+                        "classHeritage": null,
+                        "body": {
+                            "kind": 262,
+                            "elements": [
+                                {
+                                    "kind": 280,
+                                    "decorators": null,
+                                    "declaredToken": null,
+                                    "staticToken": null,
+                                    "asyncKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "x9",
+                                        "rawText": "x9",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 12
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 12
+                                }
+                            ],
+                            "flags": 32,
                             "start": 10,
                             "end": 12
                         },
-                        "flags": 16,
-                        "start": 10,
-                        "end": 12
-                    }
-                ],
-                "flags": 16,
-                "start": 10,
-                "end": 12
+                        "flags": 9,
+                        "start": 32,
+                        "end": 13
+                    },
+                    "flags": 32,
+                    "start": 8,
+                    "end": 13
+                },
+                "flags": 32,
+                "start": 7,
+                "end": 13
             },
             "flags": 16,
-            "start": 9,
+            "start": 7,
             "end": 13
         },
         {
@@ -236,9 +266,8 @@ x@{x9}@+@{x9}@y
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 5, end: 6
-✖ Binding identifier expected - start: 8, end: 9
-✖ Identifier expected - start: 9, end: 10
+✖ A class declaration without the 'default' modifier must have a name. - start: 2, end: 3
+✖ Binding identifier expected - start: 7, end: 8
 ✖ Binding identifier expected - start: 15, end: 15
 
 ```

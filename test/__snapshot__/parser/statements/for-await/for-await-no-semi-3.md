@@ -64,58 +64,65 @@ async function f() {
                                 "end": 26
                             },
                             "initializer": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 34,
-                                "end": 35
+                                "kind": 125,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 34,
+                                    "end": 35
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
+                                    "flags": 64,
+                                    "start": 35,
+                                    "end": 37
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 37,
+                                    "end": 39
+                                },
+                                "flags": 32,
+                                "start": 20,
+                                "end": 39
                             },
-                            "condition": {
+                            "condition": null,
+                            "incrementor": {
                                 "kind": 134,
                                 "text": false,
                                 "flags": 96,
                                 "start": 40,
                                 "end": 45
                             },
-                            "incrementor": {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 37,
-                                "end": 39
-                            },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
-                                "start": 45,
-                                "end": 46
+                                "start": 47,
+                                "end": 48
                             },
                             "flags": 16,
                             "start": 20,
-                            "end": 46
+                            "end": 48
                         }
                     ],
                     "flags": 33,
                     "start": 20,
-                    "end": 46
+                    "end": 48
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 46
+                "end": 50
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 46
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 47,
-            "end": 48
+            "end": 50
         }
     ],
     "isModule": false,
@@ -131,14 +138,14 @@ async function f() {
 
 ```javascript
 
+async function f() {
+  for (; ; false);
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 45, end: 46
-✖ The parser expected to find a '}' to match the '{' token here - start: 46, end: 47
-✖ Declaration or statement expected - start: 48, end: 50
-
+✔ No errors
 ```
 

@@ -30,8 +30,8 @@ do while [catch] async try while { catch }
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 22,
-                "end": 22
+                "start": 15,
+                "end": 15
             },
             "whileKeyword": null,
             "statement": {
@@ -65,38 +65,66 @@ do while [catch] async try while { catch }
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "catchClause": {
+                        "kind": 173,
+                        "catchKeyword": {
+                            "kind": 4202575,
+                            "flags": 0,
+                            "start": 10,
+                            "end": 15
+                        },
+                        "catchParameter": null,
+                        "initializer": null,
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 16,
-                        "start": 15,
+                        "start": 10,
                         "end": 15
                     },
-                    "catchClause": null,
                     "finallyKeyword": null,
-                    "finallyBlock": {
-                        "kind": 124,
-                        "block": {
-                            "kind": 249,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 16,
-                            "end": 16
-                        },
-                        "flags": 16,
-                        "start": 16,
-                        "end": 16
-                    },
+                    "finallyBlock": null,
                     "flags": 16,
                     "start": 10,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "async",
+                "rawText": "async",
+                "flags": 96,
+                "start": 16,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 16,
             "end": 22
         },
         {
@@ -126,53 +154,65 @@ do while [catch] async try while { catch }
                 "kind": 124,
                 "block": {
                     "kind": 249,
-                    "statements": [
-                        {
-                            "kind": 159,
-                            "tryKeyword": null,
-                            "block": {
-                                "kind": 124,
-                                "block": {
-                                    "kind": 249,
-                                    "statements": [],
-                                    "flags": 16,
-                                    "start": 40,
-                                    "end": 40
-                                },
-                                "flags": 16,
-                                "start": 40,
-                                "end": 40
-                            },
-                            "catchClause": null,
-                            "finallyKeyword": null,
-                            "finallyBlock": {
-                                "kind": 124,
-                                "block": {
-                                    "kind": 249,
-                                    "statements": [],
-                                    "flags": 16,
-                                    "start": 42,
-                                    "end": 42
-                                },
-                                "flags": 16,
-                                "start": 42,
-                                "end": 42
-                            },
-                            "flags": 16,
-                            "start": 34,
-                            "end": 42
-                        }
-                    ],
+                    "statements": [],
                     "flags": 16,
-                    "start": 34,
-                    "end": 42
+                    "start": 26,
+                    "end": 26
                 },
                 "flags": 16,
-                "start": 32,
-                "end": 42
+                "start": 26,
+                "end": 26
             },
             "flags": 16,
             "start": 22,
+            "end": 26
+        },
+        {
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 0,
+                "start": 26,
+                "end": 32
+            },
+            "expression": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [
+                        {
+                            "kind": 134299649,
+                            "text": "catch",
+                            "rawText": "catch",
+                            "flags": 96,
+                            "start": 34,
+                            "end": 40
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 16,
+                    "start": 34,
+                    "end": 40
+                },
+                "flags": 48,
+                "start": 32,
+                "end": 42
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 42,
+                    "end": 42
+                },
+                "flags": 16,
+                "start": 42,
+                "end": 42
+            },
+            "flags": 16,
+            "start": 26,
             "end": 42
         }
     ],
@@ -197,9 +237,11 @@ do while [catch] async try while { catch }
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Missing an opening parentheses - '( - start: 22, end: 26
-✖ 'try' expected - start: 34, end: 40
-✖ The parser expected to find a '}' to match the '{' token here - start: 42, end: 42
+✖ Missing an opening parentheses - '( - start: 15, end: 16
+✖ Expected a `;` - start: 22, end: 26
+✖ Missing an opening parentheses - '( - start: 32, end: 34
+✖ Property definition expected. Did you mean to use a ':'? - start: 40, end: 42
+✖ Declaration or statement expected - start: 42, end: 42
 
 ```
 

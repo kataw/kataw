@@ -36,12 +36,12 @@ import foo;
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 11,
-                    "end": 11
+                    "start": 10,
+                    "end": 10
                 },
                 "flags": 0,
                 "start": 10,
-                "end": 11
+                "end": 10
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -83,7 +83,7 @@ import foo;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 11, end: 11
+✖ Expression expected - start: 10, end: 11
 
 ```
 

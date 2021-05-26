@@ -71,28 +71,42 @@ do {} while (x) { catch
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
-                                "start": 23,
-                                "end": 23
+                                "start": 17,
+                                "end": 17
                             },
                             "flags": 16,
-                            "start": 23,
-                            "end": 23
+                            "start": 17,
+                            "end": 17
                         },
-                        "catchClause": null,
-                        "finallyKeyword": null,
-                        "finallyBlock": {
-                            "kind": 124,
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 17,
+                                "end": 23
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
                             "block": {
-                                "kind": 249,
-                                "statements": [],
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 23,
+                                    "end": 23
+                                },
                                 "flags": 16,
                                 "start": 23,
                                 "end": 23
                             },
                             "flags": 16,
-                            "start": 23,
+                            "start": 17,
                             "end": 23
                         },
+                        "finallyKeyword": null,
+                        "finallyBlock": null,
                         "flags": 16,
                         "start": 17,
                         "end": 23

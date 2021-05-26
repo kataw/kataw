@@ -138,6 +138,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 14, end: 28
 ✖ Missing an opening parentheses - '( - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 34
 

@@ -30,15 +30,10 @@ do while [catch] while try this and !foo
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 22,
-                "end": 22
+                "start": 15,
+                "end": 15
             },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 0,
-                "start": 16,
-                "end": 22
-            },
+            "whileKeyword": null,
             "statement": {
                 "kind": 154,
                 "whileKeyword": {
@@ -70,78 +65,123 @@ do while [catch] while try this and !foo
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "catchClause": {
+                        "kind": 173,
+                        "catchKeyword": {
+                            "kind": 4202575,
+                            "flags": 0,
+                            "start": 10,
+                            "end": 15
+                        },
+                        "catchParameter": null,
+                        "initializer": null,
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 16,
-                        "start": 15,
+                        "start": 10,
                         "end": 15
                     },
-                    "catchClause": null,
                     "finallyKeyword": null,
-                    "finallyBlock": {
-                        "kind": 124,
-                        "block": {
-                            "kind": 249,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 16,
-                            "end": 16
-                        },
-                        "flags": 16,
-                        "start": 16,
-                        "end": 16
-                    },
+                    "finallyBlock": null,
                     "flags": 16,
                     "start": 10,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 22
+            "end": 15
         },
         {
-            "kind": 159,
-            "tryKeyword": {
-                "kind": 37757027,
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
                 "flags": 0,
-                "start": 22,
-                "end": 26
+                "start": 16,
+                "end": 22
             },
-            "block": {
-                "kind": 124,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 22,
+                "end": 22
+            },
+            "statement": {
+                "kind": 159,
+                "tryKeyword": {
+                    "kind": 37757027,
+                    "flags": 0,
+                    "start": 22,
+                    "end": 26
+                },
                 "block": {
-                    "kind": 249,
-                    "statements": [],
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 26,
+                        "end": 26
+                    },
+                    "flags": 16,
+                    "start": 26,
+                    "end": 26
+                },
+                "catchClause": null,
+                "finallyKeyword": null,
+                "finallyBlock": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 26,
+                        "end": 26
+                    },
                     "flags": 16,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 16,
-                "start": 26,
+                "start": 22,
                 "end": 26
             },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 124,
-                "block": {
-                    "kind": 249,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 31,
-                    "end": 31
-                },
-                "flags": 16,
-                "start": 31,
+            "flags": 16,
+            "start": 16,
+            "end": 26
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 135,
+                "flags": 26,
+                "start": 96,
                 "end": 31
             },
             "flags": 16,
-            "start": 22,
+            "start": 26,
             "end": 31
         },
         {
@@ -206,7 +246,9 @@ do while [catch] while try this and !foo
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Missing an opening parentheses - '( - start: 22, end: 26
+✖ Expected a `;` - start: 31, end: 35
 ✖ Expected a `;` - start: 35, end: 37
 
 ```

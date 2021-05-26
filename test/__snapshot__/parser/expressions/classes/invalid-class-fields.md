@@ -289,8 +289,8 @@
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 47,
-                "end": 47
+                "start": 45,
+                "end": 45
             },
             "typeParameters": null,
             "tail": {
@@ -300,10 +300,10 @@
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 47,
-                    "end": 47
+                    "start": 45,
+                    "end": 45
                 },
-                "flags": 47,
+                "flags": 45,
                 "start": 32,
                 "end": 47
             },
@@ -3554,7 +3554,8 @@
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 34, end: 35
 ✖ Identifier expected - start: 36, end: 37
-✖ Binding identifier expected - start: 47, end: 48
+✖ Binding identifier expected - start: 45, end: 47
+✖ Declaration or statement expected - start: 47, end: 48
 ✖ Invalid character - start: 62, end: 63
 ✖ Missing an opening brace - '{ - start: 106, end: 108
 ✖ Expression expected - start: 106, end: 108

@@ -33,16 +33,15 @@ import {a: b} from "bar";
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 134299649,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 96,
-                    "start": 10,
-                    "end": 12
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 9,
+                    "end": 9
                 },
                 "flags": 0,
                 "start": 9,
-                "end": 12
+                "end": 9
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -86,6 +85,20 @@ import {a: b} from "bar";
             },
             "flags": 16,
             "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "b",
+                "rawText": "b",
+                "flags": 96,
+                "start": 10,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 10,
             "end": 12
         },
         {

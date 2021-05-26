@@ -136,19 +136,26 @@ wrap({async [foo""](){}});
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 22,
-                    "end": 22
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 22,
+                        "end": 22
+                    },
+                    "flags": 32,
+                    "start": 21,
+                    "end": 23
                 },
                 "flags": 32,
                 "start": 19,
-                "end": 22
+                "end": 23
             },
             "flags": 16,
             "start": 19,
-            "end": 22
+            "end": 23
         },
         {
             "kind": 168,
@@ -179,7 +186,6 @@ wrap({async [foo""](){}});
 ✖ Expression expected - start: 16, end: 18
 ✖ Property definition expected. Did you mean to use a ':'? - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
-✖ Expression expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 25
 

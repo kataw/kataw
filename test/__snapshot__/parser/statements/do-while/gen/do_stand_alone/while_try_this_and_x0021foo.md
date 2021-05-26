@@ -27,24 +27,10 @@ do while try this and !foo
                 "end": 2
             },
             "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 64,
-                    "start": 21,
-                    "end": 23
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 23,
-                    "end": 26
-                },
-                "flags": 32,
-                "start": 21,
-                "end": 26
+                "kind": 135,
+                "flags": 12,
+                "start": 96,
+                "end": 17
             },
             "whileKeyword": null,
             "statement": {
@@ -91,23 +77,63 @@ do while try this and !foo
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
-                            "start": 17,
-                            "end": 17
+                            "start": 12,
+                            "end": 12
                         },
                         "flags": 16,
-                        "start": 17,
-                        "end": 17
+                        "start": 12,
+                        "end": 12
                     },
                     "flags": 16,
                     "start": 8,
-                    "end": 17
+                    "end": 12
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 17
+                "end": 12
             },
             "flags": 16,
             "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "and",
+                "rawText": "and",
+                "flags": 96,
+                "start": 17,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 17,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 65584,
+                    "flags": 64,
+                    "start": 21,
+                    "end": 23
+                },
+                "operand": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 23,
+                    "end": 26
+                },
+                "flags": 32,
+                "start": 21,
+                "end": 26
+            },
+            "flags": 16,
+            "start": 21,
             "end": 26
         }
     ],
@@ -130,8 +156,9 @@ do while try this and !foo
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 8, end: 12
-✖ Missing an opening parentheses - '( - start: 21, end: 23
-✖ Declaration or statement expected - start: 26, end: 26
+✖ Missing an opening parentheses - '( - start: 12, end: 17
+✖ Declaration or statement expected - start: 17, end: 21
+✖ Expected a `;` - start: 21, end: 23
 
 ```
 

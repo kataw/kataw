@@ -30,8 +30,8 @@ do( catch try {} while
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 9,
-                "end": 9
+                "start": 3,
+                "end": 3
             },
             "whileKeyword": null,
             "statement": {
@@ -55,6 +55,55 @@ do( catch try {} while
             },
             "flags": 16,
             "start": 0,
+            "end": 3
+        },
+        {
+            "kind": 159,
+            "tryKeyword": null,
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 3,
+                    "end": 3
+                },
+                "flags": 16,
+                "start": 3,
+                "end": 3
+            },
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 0,
+                    "start": 3,
+                    "end": 9
+                },
+                "catchParameter": null,
+                "initializer": null,
+                "block": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 9,
+                        "end": 9
+                    },
+                    "flags": 16,
+                    "start": 9,
+                    "end": 9
+                },
+                "flags": 16,
+                "start": 3,
+                "end": 9
+            },
+            "finallyKeyword": null,
+            "finallyBlock": null,
+            "flags": 16,
+            "start": 3,
             "end": 9
         },
         {
@@ -86,6 +135,38 @@ do( catch try {} while
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "start": 16,
+                    "end": 16
+                },
+                "flags": 16,
+                "start": 16,
+                "end": 16
+            },
+            "flags": 16,
+            "start": 9,
+            "end": 16
+        },
+        {
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 0,
+                "start": 16,
+                "end": 22
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 22,
+                "end": 22
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
                     "start": 22,
                     "end": 22
                 },
@@ -94,7 +175,7 @@ do( catch try {} while
                 "end": 22
             },
             "flags": 16,
-            "start": 9,
+            "start": 16,
             "end": 22
         }
     ],
@@ -117,7 +198,8 @@ do( catch try {} while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 9
-✖ Missing an opening parentheses - '( - start: 9, end: 13
+✖ 'try' expected - start: 3, end: 9
+✖ Missing an opening parentheses - '( - start: 22, end: 22
 
 ```
 

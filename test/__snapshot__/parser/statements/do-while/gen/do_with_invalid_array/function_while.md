@@ -30,8 +30,8 @@ do while [catch] function while
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 25,
-                "end": 25
+                "start": 15,
+                "end": 15
             },
             "whileKeyword": null,
             "statement": {
@@ -65,38 +65,92 @@ do while [catch] function while
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "catchClause": {
+                        "kind": 173,
+                        "catchKeyword": {
+                            "kind": 4202575,
+                            "flags": 0,
+                            "start": 10,
+                            "end": 15
+                        },
+                        "catchParameter": null,
+                        "initializer": null,
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 16,
-                        "start": 15,
+                        "start": 10,
                         "end": 15
                     },
-                    "catchClause": null,
                     "finallyKeyword": null,
-                    "finallyBlock": {
-                        "kind": 124,
-                        "block": {
-                            "kind": 249,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 16,
-                            "end": 16
-                        },
-                        "flags": 16,
-                        "start": 16,
-                        "end": 16
-                    },
+                    "finallyBlock": null,
                     "flags": 16,
                     "start": 10,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37822554,
+                "flags": 0,
+                "start": 16,
+                "end": 25
+            },
+            "generatorToken": null,
+            "name": null,
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 25,
+                "end": 25
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 25,
+                    "end": 25
+                },
+                "flags": 32,
+                "start": 25,
+                "end": 25
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 16,
+            "start": 16,
             "end": 25
         },
         {
@@ -153,7 +207,10 @@ do while [catch] function while
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ Missing an opening parentheses - '( - start: 15, end: 16
+✖ Binding identifier expected - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 25, end: 31
+✖ Expression expected - start: 25, end: 31
 
 ```
 

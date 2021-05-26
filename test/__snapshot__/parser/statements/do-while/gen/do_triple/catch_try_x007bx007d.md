@@ -30,15 +30,10 @@ do do do catch try {} while while while
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 39,
-                "end": 39
+                "start": 14,
+                "end": 14
             },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 0,
-                "start": 33,
-                "end": 39
-            },
+            "whileKeyword": null,
             "statement": {
                 "kind": 169,
                 "doKeyword": {
@@ -51,15 +46,10 @@ do do do catch try {} while while while
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 33,
-                    "end": 33
+                    "start": 14,
+                    "end": 14
                 },
-                "whileKeyword": {
-                    "kind": 37757028,
-                    "flags": 0,
-                    "start": 27,
-                    "end": 33
-                },
+                "whileKeyword": null,
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
@@ -72,15 +62,10 @@ do do do catch try {} while while while
                         "kind": 16637,
                         "text": "",
                         "flags": 64,
-                        "start": 27,
-                        "end": 27
+                        "start": 14,
+                        "end": 14
                     },
-                    "whileKeyword": {
-                        "kind": 37757028,
-                        "flags": 0,
-                        "start": 21,
-                        "end": 27
-                    },
+                    "whileKeyword": null,
                     "statement": {
                         "kind": 159,
                         "tryKeyword": null,
@@ -90,42 +75,166 @@ do do do catch try {} while while while
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "start": 8,
+                                "end": 8
+                            },
+                            "flags": 16,
+                            "start": 8,
+                            "end": 8
+                        },
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 8,
+                                "end": 14
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 14,
+                                    "end": 14
+                                },
+                                "flags": 16,
                                 "start": 14,
                                 "end": 14
                             },
                             "flags": 16,
-                            "start": 14,
+                            "start": 8,
                             "end": 14
                         },
-                        "catchClause": null,
                         "finallyKeyword": null,
-                        "finallyBlock": {
-                            "kind": 124,
-                            "block": {
-                                "kind": 249,
-                                "statements": [],
-                                "flags": 16,
-                                "start": 20,
-                                "end": 20
-                            },
-                            "flags": 16,
-                            "start": 18,
-                            "end": 21
-                        },
+                        "finallyBlock": null,
                         "flags": 16,
                         "start": 8,
-                        "end": 21
+                        "end": 14
                     },
                     "flags": 16,
                     "start": 5,
-                    "end": 27
+                    "end": 14
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 33
+                "end": 14
             },
             "flags": 16,
             "start": 0,
+            "end": 14
+        },
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 0,
+                "start": 14,
+                "end": 18
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 20,
+                    "end": 20
+                },
+                "flags": 16,
+                "start": 18,
+                "end": 21
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 21,
+                    "end": 21
+                },
+                "flags": 16,
+                "start": 21,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 14,
+            "end": 21
+        },
+        {
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 0,
+                "start": 21,
+                "end": 27
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 27,
+                "end": 27
+            },
+            "statement": {
+                "kind": 154,
+                "whileKeyword": {
+                    "kind": 37757028,
+                    "flags": 0,
+                    "start": 27,
+                    "end": 33
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 33,
+                    "end": 33
+                },
+                "statement": {
+                    "kind": 154,
+                    "whileKeyword": {
+                        "kind": 37757028,
+                        "flags": 0,
+                        "start": 33,
+                        "end": 39
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 39,
+                        "end": 39
+                    },
+                    "statement": {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 39,
+                            "end": 39
+                        },
+                        "flags": 16,
+                        "start": 39,
+                        "end": 39
+                    },
+                    "flags": 16,
+                    "start": 33,
+                    "end": 39
+                },
+                "flags": 16,
+                "start": 27,
+                "end": 39
+            },
+            "flags": 16,
+            "start": 21,
             "end": 39
         }
     ],
@@ -148,6 +257,7 @@ do do do catch try {} while while while
 
 ```javascript
 ✖ 'try' expected - start: 8, end: 14
+✖ Missing an opening parentheses - '( - start: 14, end: 18
 ✖ Missing an opening parentheses - '( - start: 27, end: 33
 ✖ Missing an opening parentheses - '( - start: 33, end: 39
 

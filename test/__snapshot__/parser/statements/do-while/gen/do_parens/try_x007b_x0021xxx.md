@@ -27,18 +27,11 @@ do( try { !xxx while
                 "end": 2
             },
             "expression": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 9,
-                    "end": 9
-                },
-                "flags": 48,
-                "start": 7,
-                "end": 9
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 3,
+                "end": 3
             },
             "whileKeyword": null,
             "statement": {
@@ -62,55 +55,96 @@ do( try { !xxx while
             },
             "flags": 16,
             "start": 0,
-            "end": 9
+            "end": 3
         },
         {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 64,
-                    "start": 9,
-                    "end": 11
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "xxx",
-                    "rawText": "xxx",
-                    "flags": 96,
-                    "start": 11,
-                    "end": 14
-                },
-                "flags": 32,
-                "start": 9,
-                "end": 14
-            },
-            "flags": 16,
-            "start": 9,
-            "end": 14
-        },
-        {
-            "kind": 154,
-            "whileKeyword": {
-                "kind": 37757028,
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
                 "flags": 0,
-                "start": 14,
+                "start": 3,
+                "end": 7
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 65584,
+                                    "flags": 64,
+                                    "start": 9,
+                                    "end": 11
+                                },
+                                "operand": {
+                                    "kind": 134299649,
+                                    "text": "xxx",
+                                    "rawText": "xxx",
+                                    "flags": 96,
+                                    "start": 11,
+                                    "end": 14
+                                },
+                                "flags": 32,
+                                "start": 9,
+                                "end": 14
+                            },
+                            "flags": 16,
+                            "start": 9,
+                            "end": 14
+                        },
+                        {
+                            "kind": 154,
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 0,
+                                "start": 14,
+                                "end": 20
+                            },
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 20,
+                                "end": 20
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 20,
+                                    "end": 20
+                                },
+                                "flags": 16,
+                                "start": 20,
+                                "end": 20
+                            },
+                            "flags": 16,
+                            "start": 14,
+                            "end": 20
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 9,
+                    "end": 20
+                },
+                "flags": 16,
+                "start": 7,
                 "end": 20
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 20,
-                "end": 20
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
                     "start": 20,
                     "end": 20
                 },
@@ -119,7 +153,7 @@ do( try { !xxx while
                 "end": 20
             },
             "flags": 16,
-            "start": 14,
+            "start": 3,
             "end": 20
         }
     ],
@@ -142,8 +176,6 @@ do( try { !xxx while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 7
-✖ Missing an opening parentheses - '( - start: 7, end: 9
-✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
 ✖ Expected a `;` - start: 14, end: 20
 
 ```

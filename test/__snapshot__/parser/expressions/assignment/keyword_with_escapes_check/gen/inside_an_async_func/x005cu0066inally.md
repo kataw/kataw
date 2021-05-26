@@ -50,6 +50,26 @@ async () => {  \u0066inally = x  }
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "start": 13,
+                                    "end": 13
+                                },
+                                "flags": 16,
+                                "start": 13,
+                                "end": 13
+                            },
+                            "catchClause": null,
+                            "finallyKeyword": {
+                                "kind": 37757016,
+                                "flags": 16384,
+                                "start": 13,
+                                "end": 27
+                            },
+                            "finallyBlock": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
                                     "start": 27,
                                     "end": 27
                                 },
@@ -57,51 +77,36 @@ async () => {  \u0066inally = x  }
                                 "start": 27,
                                 "end": 27
                             },
-                            "catchClause": null,
-                            "finallyKeyword": null,
-                            "finallyBlock": {
-                                "kind": 124,
-                                "block": {
-                                    "kind": 249,
-                                    "statements": [],
-                                    "flags": 16,
-                                    "start": 29,
-                                    "end": 29
-                                },
-                                "flags": 16,
-                                "start": 29,
-                                "end": 29
-                            },
                             "flags": 16,
                             "start": 13,
-                            "end": 29
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 29,
-                                "end": 31
-                            },
-                            "flags": 16,
-                            "start": 29,
-                            "end": 31
+                            "end": 27
                         }
                     ],
                     "flags": 16416,
                     "start": 13,
-                    "end": 31
+                    "end": 27
                 },
                 "flags": 32,
                 "start": 11,
-                "end": 34
+                "end": 27
             },
             "flags": 288,
             "start": 0,
-            "end": 34
+            "end": 27
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 29,
+                "end": 31
+            },
+            "flags": 16,
+            "start": 29,
+            "end": 31
         }
     ],
     "isModule": false,
@@ -123,6 +128,8 @@ async () => {  \u0066inally = x  }
 
 ```javascript
 ✖ 'try' expected - start: 13, end: 27
+✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 29
+✖ Declaration or statement expected - start: 31, end: 34
 
 ```
 

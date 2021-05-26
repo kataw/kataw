@@ -96,7 +96,7 @@ async function f(){
                                     "directives": [],
                                     "statements": [
                                         {
-                                            "kind": 165,
+                                            "kind": 166,
                                             "forKeyword": {
                                                 "kind": 37757017,
                                                 "flags": 1,
@@ -125,15 +125,13 @@ async function f(){
                                                 "start": 52,
                                                 "end": 59
                                             },
-                                            "condition": {
-                                                "kind": 134299649,
-                                                "text": "of",
-                                                "rawText": "of",
-                                                "flags": 96,
-                                                "start": 64,
-                                                "end": 67
+                                            "inKeyword": {
+                                                "kind": 21006388,
+                                                "flags": 64,
+                                                "start": 59,
+                                                "end": 62
                                             },
-                                            "incrementor": {
+                                            "expression": {
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
@@ -145,18 +143,32 @@ async function f(){
                                                 "kind": 120,
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "text": "z",
-                                                    "rawText": "z",
+                                                    "text": "of",
+                                                    "rawText": "of",
                                                     "flags": 96,
-                                                    "start": 67,
-                                                    "end": 69
+                                                    "start": 64,
+                                                    "end": 67
                                                 },
                                                 "flags": 16,
+                                                "start": 64,
+                                                "end": 67
+                                            },
+                                            "flags": 16,
+                                            "start": 36,
+                                            "end": 67
+                                        },
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "z",
+                                                "rawText": "z",
+                                                "flags": 96,
                                                 "start": 67,
                                                 "end": 69
                                             },
                                             "flags": 16,
-                                            "start": 36,
+                                            "start": 67,
                                             "end": 69
                                         }
                                     ],
@@ -216,7 +228,9 @@ async function f(){
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 50, end: 52
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 52, end: 59
-✖ Expected a ')' to match the '(' token here - start: 67, end: 69
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 62, end: 64
+✖ Expected a ')' to match the '(' token here - start: 64, end: 67
+✖ Expected a `;` - start: 67, end: 69
 ✖ Expected a `;` - start: 69, end: 70
 ✖ Declaration or statement expected - start: 71, end: 75
 ✖ Declaration or statement expected - start: 75, end: 77

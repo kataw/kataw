@@ -119,6 +119,7 @@ async () => {  sw\u0069tch = x  }
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 13, end: 26
 ✖ Missing an opening parentheses - '( - start: 26, end: 28
 ✖ Declaration or statement expected - start: 30, end: 33
 

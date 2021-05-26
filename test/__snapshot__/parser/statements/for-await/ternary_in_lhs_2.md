@@ -64,107 +64,87 @@ async function f(){
                                 "end": 25
                             },
                             "initializer": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 33,
-                                "end": 34
+                                "kind": 197,
+                                "shortCircuit": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 33,
+                                    "end": 34
+                                },
+                                "questionToken": {
+                                    "kind": 134217750,
+                                    "flags": 0,
+                                    "start": 34,
+                                    "end": 36
+                                },
+                                "consequent": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 36,
+                                    "end": 38
+                                },
+                                "colonToken": {
+                                    "kind": 21,
+                                    "flags": 0,
+                                    "start": 38,
+                                    "end": 40
+                                },
+                                "alternate": {
+                                    "kind": 134299649,
+                                    "text": "c",
+                                    "rawText": "c",
+                                    "flags": 96,
+                                    "start": 40,
+                                    "end": 42
+                                },
+                                "flags": 32,
+                                "start": 19,
+                                "end": 42
                             },
                             "condition": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 38,
-                                "end": 38
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 45,
+                                "end": 47
                             },
                             "incrementor": {
                                 "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
+                                "text": "of",
+                                "rawText": "of",
                                 "flags": 96,
-                                "start": 36,
-                                "end": 38
+                                "start": 42,
+                                "end": 45
                             },
                             "statement": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 38,
-                                    "end": 38
-                                },
+                                "kind": 168,
                                 "flags": 16,
-                                "start": 38,
-                                "end": 38
+                                "start": 48,
+                                "end": 49
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 38
+                            "end": 49
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 38
+                    "end": 49
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 38
+                "end": 51
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 38
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "c",
-                "rawText": "c",
-                "flags": 96,
-                "start": 40,
-                "end": 42
-            },
-            "flags": 16,
-            "start": 40,
-            "end": 42
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "of",
-                "rawText": "of",
-                "flags": 96,
-                "start": 42,
-                "end": 45
-            },
-            "flags": 16,
-            "start": 42,
-            "end": 45
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 45,
-                "end": 47
-            },
-            "flags": 16,
-            "start": 45,
-            "end": 47
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 48,
-            "end": 49
+            "end": 51
         }
     ],
     "isModule": false,
@@ -180,16 +160,14 @@ async function f(){
 
 ```javascript
 
+async function f() {
+  for (; x; of);
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 38, end: 40
-✖ Expected a `;` - start: 42, end: 45
-✖ Expected a `;` - start: 45, end: 47
-✖ Expected a `;` - start: 47, end: 48
-✖ Declaration or statement expected - start: 49, end: 51
-
+✔ No errors
 ```
 

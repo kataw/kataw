@@ -261,31 +261,45 @@ async ([a]:string)=>c;
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "start": 53,
+                    "end": 53
+                },
+                "flags": 16,
+                "start": 53,
+                "end": 53
+            },
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 0,
+                    "start": 53,
+                    "end": 58
+                },
+                "catchParameter": null,
+                "initializer": null,
+                "block": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 58,
+                        "end": 58
+                    },
+                    "flags": 16,
                     "start": 58,
                     "end": 58
                 },
                 "flags": 16,
-                "start": 58,
+                "start": 53,
                 "end": 58
             },
-            "catchClause": null,
             "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 124,
-                "block": {
-                    "kind": 249,
-                    "statements": [],
-                    "flags": 16,
-                    "start": 59,
-                    "end": 59
-                },
-                "flags": 16,
-                "start": 59,
-                "end": 59
-            },
+            "finallyBlock": null,
             "flags": 16,
             "start": 53,
-            "end": 59
+            "end": 58
         },
         {
             "kind": 120,
@@ -2235,6 +2249,7 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 32, end: 35
 ✖ Expression expected - start: 53, end: 58
 ✖ 'try' expected - start: 53, end: 58
+✖ Declaration or statement expected - start: 58, end: 59
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ Expected a `;` - start: 71, end: 74
 ✖ Missing an opening parentheses - '( - start: 74, end: 77

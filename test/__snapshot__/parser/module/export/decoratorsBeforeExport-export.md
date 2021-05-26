@@ -52,8 +52,8 @@ export class Foo {}
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 17,
-                "end": 17
+                "start": 10,
+                "end": 10
             },
             "typeParameters": null,
             "tail": {
@@ -62,6 +62,27 @@ export class Foo {}
                 "body": {
                     "kind": 262,
                     "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "export",
+                                "rawText": "export",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 17
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 10,
+                            "end": 17
+                        },
                         {
                             "kind": 280,
                             "decorators": null,
@@ -106,10 +127,10 @@ export class Foo {}
                         }
                     ],
                     "flags": 32,
-                    "start": 17,
+                    "start": 10,
                     "end": 27
                 },
-                "flags": 17,
+                "flags": 10,
                 "start": 32,
                 "end": 27
             },
@@ -149,7 +170,7 @@ export class Foo {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 17, end: 23
+✖ Binding identifier expected - start: 10, end: 17
 ✖ Expression expected - start: 27, end: 29
 
 ```

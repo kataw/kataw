@@ -412,6 +412,31 @@ try {} catch({ x: "str" }) {}
                                                     "kind": 249,
                                                     "statements": [],
                                                     "flags": 16,
+                                                    "start": 106,
+                                                    "end": 106
+                                                },
+                                                "flags": 16,
+                                                "start": 106,
+                                                "end": 106
+                                            },
+                                            "flags": 16,
+                                            "start": 103,
+                                            "end": 106
+                                        },
+                                        {
+                                            "kind": 159,
+                                            "tryKeyword": {
+                                                "kind": 37757027,
+                                                "flags": 1,
+                                                "start": 106,
+                                                "end": 111
+                                            },
+                                            "block": {
+                                                "kind": 124,
+                                                "block": {
+                                                    "kind": 249,
+                                                    "statements": [],
+                                                    "flags": 16,
                                                     "start": 113,
                                                     "end": 113
                                                 },
@@ -419,57 +444,74 @@ try {} catch({ x: "str" }) {}
                                                 "start": 111,
                                                 "end": 114
                                             },
-                                            "flags": 16,
-                                            "start": 103,
-                                            "end": 114
-                                        },
-                                        {
-                                            "kind": 159,
-                                            "tryKeyword": null,
-                                            "block": {
-                                                "kind": 124,
+                                            "catchClause": {
+                                                "kind": 173,
+                                                "catchKeyword": {
+                                                    "kind": 4202575,
+                                                    "flags": 0,
+                                                    "start": 114,
+                                                    "end": 120
+                                                },
+                                                "catchParameter": null,
+                                                "initializer": null,
                                                 "block": {
-                                                    "kind": 249,
-                                                    "statements": [],
+                                                    "kind": 124,
+                                                    "block": {
+                                                        "kind": 249,
+                                                        "statements": [],
+                                                        "flags": 16,
+                                                        "start": 120,
+                                                        "end": 120
+                                                    },
                                                     "flags": 16,
                                                     "start": 120,
                                                     "end": 120
                                                 },
                                                 "flags": 16,
-                                                "start": 120,
+                                                "start": 114,
                                                 "end": 120
                                             },
-                                            "catchClause": null,
                                             "finallyKeyword": null,
-                                            "finallyBlock": {
-                                                "kind": 124,
-                                                "block": {
-                                                    "kind": 249,
-                                                    "statements": [],
-                                                    "flags": 16,
-                                                    "start": 125,
-                                                    "end": 125
-                                                },
-                                                "flags": 16,
-                                                "start": 125,
-                                                "end": 125
-                                            },
+                                            "finallyBlock": null,
                                             "flags": 16,
-                                            "start": 114,
-                                            "end": 125
+                                            "start": 106,
+                                            "end": 120
                                         },
                                         {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 96,
+                                            "kind": 162,
+                                            "lexicalKeyword": {
+                                                "kind": 41951307,
+                                                "flags": 81,
+                                                "start": 120,
+                                                "end": 125
+                                            },
+                                            "binding": {
+                                                "kind": 151,
+                                                "bindingList": [
+                                                    {
+                                                        "kind": 190,
+                                                        "binding": {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "start": 125,
+                                                            "end": 129
+                                                        },
+                                                        "optionalToken": null,
+                                                        "type": null,
+                                                        "initializer": null,
+                                                        "flags": 16,
+                                                        "start": 125,
+                                                        "end": 129
+                                                    }
+                                                ],
+                                                "flags": 17,
                                                 "start": 125,
                                                 "end": 129
                                             },
-                                            "flags": 16,
-                                            "start": 125,
+                                            "flags": 33554448,
+                                            "start": 120,
                                             "end": 130
                                         },
                                         {
@@ -572,15 +614,28 @@ try {} catch({ x: "str" }) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 150,
-                    "end": 150
+                    "start": 147,
+                    "end": 147
                 },
                 "flags": 16,
-                "start": 148,
-                "end": 151
+                "start": 147,
+                "end": 147
             },
             "flags": 16,
             "start": 66,
+            "end": 147
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 150,
+                "end": 150
+            },
+            "flags": 16,
+            "start": 148,
             "end": 151
         },
         {
@@ -1027,16 +1082,16 @@ try {} catch({ x: "str" }) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 289,
-                    "end": 289
+                    "start": 287,
+                    "end": 287
                 },
                 "flags": 16,
-                "start": 289,
-                "end": 289
+                "start": 287,
+                "end": 287
             },
             "flags": 16,
             "start": 282,
-            "end": 289
+            "end": 287
         },
         {
             "kind": 159,
@@ -1047,108 +1102,122 @@ try {} catch({ x: "str" }) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 295,
-                    "end": 295
+                    "start": 289,
+                    "end": 289
                 },
                 "flags": 16,
-                "start": 295,
-                "end": 295
+                "start": 289,
+                "end": 289
             },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 124,
-                "block": {
-                    "kind": 249,
-                    "statements": [
-                        {
-                            "kind": 163,
-                            "label": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 297,
-                                "end": 298
-                            },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "x",
-                                    "iterationStatement": false,
-                                    "flags": 16,
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 0,
+                    "start": 289,
+                    "end": 295
+                },
+                "catchParameter": {
+                    "kind": 212,
+                    "propertyList": {
+                        "kind": 213,
+                        "properties": [
+                            {
+                                "kind": 204,
+                                "ellipsisToken": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
                                     "start": 297,
                                     "end": 298
                                 },
-                                {
-                                    "kind": 256,
-                                    "label": "x",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 398,
-                                    "end": 400
-                                }
-                            ],
-                            "colonToken": {
-                                "kind": 21,
-                                "flags": 0,
-                                "start": 298,
-                                "end": 299
-                            },
-                            "statement": {
-                                "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 0,
-                                    "start": 309,
-                                    "end": 312
-                                },
-                                "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 307,
-                                        "end": 308
-                                    }
-                                ],
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
+                                "value": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
                                     "start": 299,
                                     "end": 305
                                 },
-                                "returnType": null,
-                                "contents": {
-                                    "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
-                                    "flags": 96,
-                                    "start": 312,
-                                    "end": 314
-                                },
-                                "flags": 288,
-                                "start": 299,
-                                "end": 314
-                            },
-                            "flags": 16,
-                            "start": 297,
-                            "end": 314
-                        }
-                    ],
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 297,
+                                "end": 305
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 297,
+                        "end": 305
+                    },
+                    "flags": 32,
+                    "start": 296,
+                    "end": 305
+                },
+                "initializer": null,
+                "block": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 305,
+                        "end": 305
+                    },
                     "flags": 16,
-                    "start": 297,
-                    "end": 314
+                    "start": 305,
+                    "end": 305
                 },
                 "flags": 16,
-                "start": 296,
-                "end": 315
+                "start": 289,
+                "end": 305
             },
+            "finallyKeyword": null,
+            "finallyBlock": null,
             "flags": 16,
             "start": 289,
-            "end": 315
+            "end": 305
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 0,
+                    "start": 309,
+                    "end": 312
+                },
+                "typeParameters": null,
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 307,
+                        "end": 308
+                    }
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "z",
+                    "rawText": "z",
+                    "flags": 96,
+                    "start": 312,
+                    "end": 314
+                },
+                "flags": 32,
+                "start": 305,
+                "end": 314
+            },
+            "flags": 16,
+            "start": 305,
+            "end": 314
         },
         {
             "kind": 124,
@@ -1436,121 +1505,133 @@ try {} catch({ x: "str" }) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 396,
+                    "start": 389,
+                    "end": 389
+                },
+                "flags": 16,
+                "start": 389,
+                "end": 389
+            },
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 1,
+                    "start": 389,
                     "end": 396
                 },
-                "flags": 16,
-                "start": 396,
-                "end": 396
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 124,
-                "block": {
-                    "kind": 249,
-                    "statements": [
-                        {
-                            "kind": 163,
-                            "label": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 398,
-                                "end": 400
-                            },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "x",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 297,
-                                    "end": 298
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "x",
-                                    "iterationStatement": false,
-                                    "flags": 16,
+                "catchParameter": {
+                    "kind": 212,
+                    "propertyList": {
+                        "kind": 213,
+                        "properties": [
+                            {
+                                "kind": 204,
+                                "ellipsisToken": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
                                     "start": 398,
                                     "end": 400
-                                }
-                            ],
-                            "colonToken": {
-                                "kind": 21,
-                                "flags": 0,
-                                "start": 400,
-                                "end": 401
-                            },
-                            "statement": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 121,
-                                    "expression": {
-                                        "kind": 177,
-                                        "asyncKeyword": null,
-                                        "functionKeyword": {
-                                            "kind": 37822554,
-                                            "flags": 0,
-                                            "start": 403,
-                                            "end": 411
-                                        },
-                                        "generatorToken": null,
-                                        "name": null,
-                                        "formalParameters": {
-                                            "kind": 214,
-                                            "formalParameterList": [],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 411,
-                                            "end": 413
-                                        },
-                                        "contents": {
-                                            "kind": 216,
-                                            "functionStatementList": {
-                                                "kind": 217,
-                                                "directives": [],
-                                                "statements": [],
-                                                "flags": 32,
-                                                "start": 415,
-                                                "end": 415
-                                            },
-                                            "flags": 32,
-                                            "start": 413,
-                                            "end": 416
-                                        },
-                                        "typeParameters": null,
-                                        "returnType": null,
-                                        "flags": 32,
-                                        "start": 403,
-                                        "end": 416
-                                    },
-                                    "flags": 32,
-                                    "start": 401,
-                                    "end": 417
                                 },
-                                "flags": 16,
-                                "start": 401,
-                                "end": 417
-                            },
-                            "flags": 16,
-                            "start": 398,
-                            "end": 417
-                        }
-                    ],
+                                "value": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 401,
+                                    "end": 401
+                                },
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 398,
+                                "end": 401
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 398,
+                        "end": 401
+                    },
+                    "flags": 32,
+                    "start": 397,
+                    "end": 401
+                },
+                "initializer": null,
+                "block": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 401,
+                        "end": 401
+                    },
                     "flags": 16,
-                    "start": 398,
-                    "end": 417
+                    "start": 401,
+                    "end": 401
                 },
                 "flags": 16,
-                "start": 397,
-                "end": 419
+                "start": 389,
+                "end": 401
             },
+            "finallyKeyword": null,
+            "finallyBlock": null,
             "flags": 16,
             "start": 389,
-            "end": 419
+            "end": 401
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 177,
+                    "asyncKeyword": null,
+                    "functionKeyword": {
+                        "kind": 37822554,
+                        "flags": 0,
+                        "start": 403,
+                        "end": 411
+                    },
+                    "generatorToken": null,
+                    "name": null,
+                    "formalParameters": {
+                        "kind": 214,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 411,
+                        "end": 413
+                    },
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [],
+                            "flags": 32,
+                            "start": 415,
+                            "end": 415
+                        },
+                        "flags": 32,
+                        "start": 413,
+                        "end": 416
+                    },
+                    "typeParameters": null,
+                    "returnType": null,
+                    "flags": 32,
+                    "start": 403,
+                    "end": 416
+                },
+                "flags": 32,
+                "start": 401,
+                "end": 417
+            },
+            "flags": 16,
+            "start": 401,
+            "end": 417
         },
         {
             "kind": 124,
@@ -2573,28 +2654,35 @@ try {} catch({ x: "str" }) {}
                             "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 735,
-                                "end": 735
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 735,
+                                    "end": 735
+                                },
+                                "flags": 32,
+                                "start": 733,
+                                "end": 736
                             },
                             "flags": 32,
                             "start": 731,
-                            "end": 735
+                            "end": 736
                         },
                         "flags": 16,
                         "start": 731,
-                        "end": 735
+                        "end": 736
                     }
                 ],
                 "flags": 17,
                 "start": 443,
-                "end": 735
+                "end": 736
             },
             "flags": 16,
             "start": 441,
-            "end": 736
+            "end": 738
         },
         {
             "kind": 124,
@@ -3472,7 +3560,6 @@ try {} catch({ x: "str" }) {}
 ```javascript
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 22, end: 24
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 57, end: 59
-✖ 'try' expected - start: 114, end: 120
 ✖ Expected a `;` - start: 147, end: 148
 ✖ Cannot redeclare block-scoped variable - start: 171, end: 175
 ✖ Duplicate identifier - start: 199, end: 203
@@ -3481,8 +3568,11 @@ try {} catch({ x: "str" }) {}
 ✖ ',' expected - start: 275, end: 276
 ✖ Declaration or statement expected - start: 279, end: 281
 ✖ Declaration or statement expected - start: 281, end: 282
+✖ Declaration or statement expected - start: 287, end: 289
 ✖ 'try' expected - start: 289, end: 295
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 299, end: 305
+✖ ',' expected - start: 305, end: 307
+✖ The parser expected to find a '}' to match the '{' token here - start: 305, end: 307
+✖ Declaration or statement expected - start: 314, end: 315
 ✖ Declaration or statement expected - start: 315, end: 316
 ✖ ',' expected - start: 340, end: 342
 ✖ ',' expected - start: 342, end: 345
@@ -3495,7 +3585,9 @@ try {} catch({ x: "str" }) {}
 ✖ Declaration or statement expected - start: 383, end: 385
 ✖ Declaration or statement expected - start: 385, end: 386
 ✖ 'try' expected - start: 389, end: 396
-✖ Duplicate label - start: 398, end: 401
+✖ Object property expected - start: 401, end: 403
+✖ ',' expected - start: 401, end: 403
+✖ Declaration or statement expected - start: 417, end: 419
 ✖ Declaration or statement expected - start: 419, end: 420
 ✖ Private identifiers cannot be used as parameters - start: 438, end: 440
 ✖ Declaration or statement expected - start: 440, end: 441
@@ -3510,8 +3602,6 @@ try {} catch({ x: "str" }) {}
 ✖ A rest element cannot have an initializer - start: 695, end: 697
 ✖ Binding identifier expected - start: 731, end: 732
 ✖ ',' expected - start: 731, end: 732
-✖ Expression expected - start: 735, end: 736
-✖ Declaration or statement expected - start: 736, end: 738
 ✖ Declaration or statement expected - start: 738, end: 739
 ✖ ',' expected - start: 766, end: 768
 ✖ The parser expected to find a '}' to match the '{' token here - start: 766, end: 768

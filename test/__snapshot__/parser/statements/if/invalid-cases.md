@@ -317,42 +317,60 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "start": 80,
+                        "end": 80
+                    },
+                    "flags": 16,
+                    "start": 80,
+                    "end": 80
+                },
+                "catchClause": {
+                    "kind": 173,
+                    "catchKeyword": {
+                        "kind": 4202575,
+                        "flags": 0,
+                        "start": 80,
+                        "end": 86
+                    },
+                    "catchParameter": null,
+                    "initializer": null,
+                    "block": {
+                        "kind": 124,
+                        "block": {
+                            "kind": 249,
+                            "statements": [],
+                            "flags": 16,
+                            "start": 86,
+                            "end": 86
+                        },
+                        "flags": 16,
                         "start": 86,
                         "end": 86
                     },
                     "flags": 16,
-                    "start": 86,
+                    "start": 80,
                     "end": 86
                 },
-                "catchClause": null,
                 "finallyKeyword": null,
-                "finallyBlock": {
-                    "kind": 124,
-                    "block": {
-                        "kind": 249,
-                        "statements": [],
-                        "flags": 16,
-                        "start": 91,
-                        "end": 91
-                    },
-                    "flags": 16,
-                    "start": 91,
-                    "end": 91
-                },
+                "finallyBlock": null,
                 "flags": 16,
                 "start": 80,
+                "end": 86
+            },
+            "elseKeyword": {
+                "kind": 4194389,
+                "flags": 64,
+                "start": 86,
                 "end": 91
             },
-            "elseKeyword": null,
-            "alternate": null,
+            "alternate": {
+                "kind": 168,
+                "flags": 16,
+                "start": 91,
+                "end": 92
+            },
             "flags": 16,
             "start": 76,
-            "end": 91
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 91,
             "end": 92
         },
         {

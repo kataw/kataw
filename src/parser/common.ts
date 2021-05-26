@@ -204,7 +204,6 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
     nextToken(parser, context);
     return createToken(kind, flags, pos, parser.curPos);
   }
-  nextToken(parser, context);
   return null;
 }
 
@@ -222,14 +221,13 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-        parser.curPos,
+        pos,
         parser.pos
       );
     }
     nextToken(parser, context);
     return createToken(kind, flags, pos, parser.curPos);
   }
-  nextToken(parser, context);
   return null;
 }
 

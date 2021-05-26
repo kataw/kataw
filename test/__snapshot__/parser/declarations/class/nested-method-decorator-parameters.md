@@ -163,10 +163,11 @@ class Bar{
                         },
                         "classKeyword": null,
                         "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 73,
+                            "kind": 134299649,
+                            "text": "innerMethod",
+                            "rawText": "innerMethod",
+                            "flags": 96,
+                            "start": 55,
                             "end": 73
                         },
                         "typeParameters": null,
@@ -198,28 +199,35 @@ class Bar{
                             "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 77,
-                                "end": 77
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 77,
+                                    "end": 77
+                                },
+                                "flags": 32,
+                                "start": 75,
+                                "end": 78
                             },
                             "flags": 32,
                             "start": 73,
-                            "end": 77
+                            "end": 78
                         },
                         "flags": 16,
                         "start": 73,
-                        "end": 77
+                        "end": 78
                     }
                 ],
                 "flags": 17,
                 "start": 42,
-                "end": 77
+                "end": 78
             },
             "flags": 16,
             "start": 40,
-            "end": 78
+            "end": 84
         },
         {
             "kind": 120,
@@ -283,9 +291,7 @@ class Bar{
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 20, end: 26
 ✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 42
-✖ Binding identifier expected - start: 73, end: 74
-✖ Expression expected - start: 77, end: 78
-✖ Declaration or statement expected - start: 78, end: 84
+✖ Missing an opening brace - '{ - start: 73, end: 74
 ✖ Declaration or statement expected - start: 84, end: 88
 ✖ Expected a `;` - start: 104, end: 106
 ✖ Declaration or statement expected - start: 107, end: 109

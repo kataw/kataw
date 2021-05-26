@@ -42,16 +42,55 @@
                                                         "kind": 249,
                                                         "statements": [],
                                                         "flags": 16,
+                                                        "start": 5,
+                                                        "end": 5
+                                                    },
+                                                    "flags": 16,
+                                                    "start": 5,
+                                                    "end": 5
+                                                },
+                                                "catchClause": {
+                                                    "kind": 173,
+                                                    "catchKeyword": {
+                                                        "kind": 4202575,
+                                                        "flags": 0,
+                                                        "start": 5,
+                                                        "end": 11
+                                                    },
+                                                    "catchParameter": null,
+                                                    "initializer": null,
+                                                    "block": {
+                                                        "kind": 124,
+                                                        "block": {
+                                                            "kind": 249,
+                                                            "statements": [],
+                                                            "flags": 16,
+                                                            "start": 11,
+                                                            "end": 11
+                                                        },
+                                                        "flags": 16,
                                                         "start": 11,
                                                         "end": 11
                                                     },
                                                     "flags": 16,
-                                                    "start": 11,
+                                                    "start": 5,
                                                     "end": 11
                                                 },
-                                                "catchClause": null,
                                                 "finallyKeyword": null,
-                                                "finallyBlock": {
+                                                "finallyBlock": null,
+                                                "flags": 16,
+                                                "start": 5,
+                                                "end": 11
+                                            },
+                                            {
+                                                "kind": 159,
+                                                "tryKeyword": {
+                                                    "kind": 37757027,
+                                                    "flags": 0,
+                                                    "start": 11,
+                                                    "end": 15
+                                                },
+                                                "block": {
                                                     "kind": 124,
                                                     "block": {
                                                         "kind": 249,
@@ -64,8 +103,23 @@
                                                     "start": 15,
                                                     "end": 18
                                                 },
+                                                "catchClause": null,
+                                                "finallyKeyword": null,
+                                                "finallyBlock": {
+                                                    "kind": 124,
+                                                    "block": {
+                                                        "kind": 249,
+                                                        "statements": [],
+                                                        "flags": 16,
+                                                        "start": 18,
+                                                        "end": 18
+                                                    },
+                                                    "flags": 16,
+                                                    "start": 18,
+                                                    "end": 18
+                                                },
                                                 "flags": 16,
-                                                "start": 5,
+                                                "start": 11,
                                                 "end": 18
                                             }
                                         ],

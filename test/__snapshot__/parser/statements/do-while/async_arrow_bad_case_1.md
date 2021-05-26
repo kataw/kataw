@@ -28,8 +28,8 @@ do async
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 18,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "whileKeyword": null,
             "statement": {
@@ -119,7 +119,7 @@ do async
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Line terminator not permitted before arrow - start: 12, end: 15
-✖ Missing an opening parentheses - '( - start: 18, end: 24
+✖ Missing an opening parentheses - '( - start: 17, end: 18
 ✖ Expression expected - start: 27, end: 27
 
 ```

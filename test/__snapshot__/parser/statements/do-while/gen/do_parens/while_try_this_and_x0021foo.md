@@ -91,15 +91,27 @@ do( while try this and !foo while
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 18,
-                    "end": 18
+                    "start": 13,
+                    "end": 13
                 },
                 "flags": 16,
-                "start": 18,
-                "end": 18
+                "start": 13,
+                "end": 13
             },
             "flags": 16,
             "start": 9,
+            "end": 13
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 135,
+                "flags": 13,
+                "start": 96,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 13,
             "end": 18
         },
         {
@@ -195,6 +207,7 @@ do( while try this and !foo while
 ```javascript
 ✖ Expression expected - start: 3, end: 9
 ✖ Missing an opening parentheses - '( - start: 9, end: 13
+✖ Expected a `;` - start: 18, end: 22
 ✖ Expected a `;` - start: 22, end: 24
 ✖ Expected a `;` - start: 27, end: 33
 

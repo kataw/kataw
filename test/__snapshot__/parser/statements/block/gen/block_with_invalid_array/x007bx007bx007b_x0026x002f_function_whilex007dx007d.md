@@ -52,100 +52,127 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "start": 3,
+                                "end": 3
+                            },
+                            "flags": 16,
+                            "start": 3,
+                            "end": 3
+                        },
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 3,
+                                "end": 8
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 8,
+                                    "end": 8
+                                },
+                                "flags": 16,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 16,
-                            "start": 8,
+                            "start": 3,
                             "end": 8
                         },
-                        "catchClause": null,
                         "finallyKeyword": null,
-                        "finallyBlock": {
-                            "kind": 124,
-                            "block": {
-                                "kind": 249,
-                                "statements": [
-                                    {
-                                        "kind": 124,
-                                        "block": {
-                                            "kind": 249,
-                                            "statements": [
-                                                {
-                                                    "kind": 124,
-                                                    "block": {
-                                                        "kind": 249,
-                                                        "statements": [
-                                                            {
-                                                                "kind": 120,
-                                                                "expression": {
-                                                                    "kind": 198,
-                                                                    "left": {
-                                                                        "kind": 16637,
-                                                                        "text": "",
-                                                                        "flags": 64,
-                                                                        "start": 13,
-                                                                        "end": 13
-                                                                    },
-                                                                    "operatorToken": {
-                                                                        "kind": 134252103,
-                                                                        "flags": 64,
-                                                                        "start": 13,
-                                                                        "end": 15
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 221,
-                                                                        "text": "/ function while}}",
-                                                                        "flags": 96,
-                                                                        "start": 15,
-                                                                        "end": 33
-                                                                    },
-                                                                    "flags": 32,
-                                                                    "start": 13,
-                                                                    "end": 33
-                                                                },
-                                                                "flags": 16,
-                                                                "start": 13,
-                                                                "end": 33
-                                                            }
-                                                        ],
-                                                        "flags": 16,
-                                                        "start": 13,
-                                                        "end": 33
-                                                    },
-                                                    "flags": 16,
-                                                    "start": 12,
-                                                    "end": 33
-                                                }
-                                            ],
-                                            "flags": 16,
-                                            "start": 12,
-                                            "end": 33
-                                        },
-                                        "flags": 16,
-                                        "start": 11,
-                                        "end": 33
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 11,
-                                "end": 33
-                            },
-                            "flags": 16,
-                            "start": 9,
-                            "end": 33
-                        },
+                        "finallyBlock": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 33
+                        "end": 8
                     }
                 ],
                 "flags": 16,
                 "start": 1,
-                "end": 33
+                "end": 8
             },
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 124,
+                        "block": {
+                            "kind": 249,
+                            "statements": [
+                                {
+                                    "kind": 124,
+                                    "block": {
+                                        "kind": 249,
+                                        "statements": [
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 198,
+                                                    "left": {
+                                                        "kind": 16637,
+                                                        "text": "",
+                                                        "flags": 64,
+                                                        "start": 13,
+                                                        "end": 13
+                                                    },
+                                                    "operatorToken": {
+                                                        "kind": 134252103,
+                                                        "flags": 64,
+                                                        "start": 13,
+                                                        "end": 15
+                                                    },
+                                                    "right": {
+                                                        "kind": 221,
+                                                        "text": "/ function while}}",
+                                                        "flags": 96,
+                                                        "start": 15,
+                                                        "end": 33
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 13,
+                                                    "end": 33
+                                                },
+                                                "flags": 16,
+                                                "start": 13,
+                                                "end": 33
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 13,
+                                        "end": 33
+                                    },
+                                    "flags": 16,
+                                    "start": 12,
+                                    "end": 33
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 12,
+                            "end": 33
+                        },
+                        "flags": 16,
+                        "start": 11,
+                        "end": 33
+                    }
+                ],
+                "flags": 16,
+                "start": 11,
+                "end": 33
+            },
+            "flags": 16,
+            "start": 9,
             "end": 33
         }
     ],
@@ -169,6 +196,7 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Expression expected - start: 13, end: 15
 ✖ Unterminated regular expression - start: 15, end: 16
 ✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33

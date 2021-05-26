@@ -71,12 +71,66 @@ do {} while (x) { catch try {
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "start": 17,
+                                "end": 17
+                            },
+                            "flags": 16,
+                            "start": 17,
+                            "end": 17
+                        },
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 17,
+                                "end": 23
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 23,
+                                    "end": 23
+                                },
+                                "flags": 16,
                                 "start": 23,
                                 "end": 23
                             },
                             "flags": 16,
-                            "start": 23,
+                            "start": 17,
                             "end": 23
+                        },
+                        "finallyKeyword": null,
+                        "finallyBlock": null,
+                        "flags": 16,
+                        "start": 17,
+                        "end": 23
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": {
+                            "kind": 37757027,
+                            "flags": 0,
+                            "start": 23,
+                            "end": 27
+                        },
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 29,
+                                "end": 29
+                            },
+                            "flags": 16,
+                            "start": 27,
+                            "end": 29
                         },
                         "catchClause": null,
                         "finallyKeyword": null,
@@ -90,11 +144,11 @@ do {} while (x) { catch try {
                                 "end": 29
                             },
                             "flags": 16,
-                            "start": 27,
+                            "start": 29,
                             "end": 29
                         },
                         "flags": 16,
-                        "start": 17,
+                        "start": 23,
                         "end": 29
                     }
                 ],

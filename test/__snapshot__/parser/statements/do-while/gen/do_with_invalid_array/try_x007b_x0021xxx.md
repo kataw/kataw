@@ -27,18 +27,11 @@ do while [catch] try { !xxx
                 "end": 2
             },
             "expression": {
-                "kind": 220,
-                "propertyList": {
-                    "kind": 218,
-                    "properties": [],
-                    "trailingComma": false,
-                    "flags": 16,
-                    "start": 22,
-                    "end": 22
-                },
-                "flags": 48,
-                "start": 20,
-                "end": 22
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 15,
+                "end": 15
             },
             "whileKeyword": null,
             "statement": {
@@ -72,64 +65,119 @@ do while [catch] try { !xxx
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 16,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "catchClause": {
+                        "kind": 173,
+                        "catchKeyword": {
+                            "kind": 4202575,
+                            "flags": 0,
+                            "start": 10,
+                            "end": 15
+                        },
+                        "catchParameter": null,
+                        "initializer": null,
+                        "block": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 16,
-                        "start": 15,
+                        "start": 10,
                         "end": 15
                     },
-                    "catchClause": null,
                     "finallyKeyword": null,
-                    "finallyBlock": {
-                        "kind": 124,
-                        "block": {
-                            "kind": 249,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 16,
-                            "end": 16
-                        },
-                        "flags": 16,
-                        "start": 16,
-                        "end": 16
-                    },
+                    "finallyBlock": null,
                     "flags": 16,
                     "start": 10,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 22
+            "end": 15
         },
         {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 64,
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 0,
+                "start": 16,
+                "end": 20
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 65584,
+                                    "flags": 64,
+                                    "start": 22,
+                                    "end": 24
+                                },
+                                "operand": {
+                                    "kind": 134299649,
+                                    "text": "xxx",
+                                    "rawText": "xxx",
+                                    "flags": 96,
+                                    "start": 24,
+                                    "end": 27
+                                },
+                                "flags": 32,
+                                "start": 22,
+                                "end": 27
+                            },
+                            "flags": 16,
+                            "start": 22,
+                            "end": 27
+                        }
+                    ],
+                    "flags": 16,
                     "start": 22,
-                    "end": 24
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "xxx",
-                    "rawText": "xxx",
-                    "flags": 96,
-                    "start": 24,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 22,
+                "flags": 16,
+                "start": 20,
+                "end": 27
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 27,
+                    "end": 27
+                },
+                "flags": 16,
+                "start": 27,
                 "end": 27
             },
             "flags": 16,
-            "start": 22,
+            "start": 16,
             "end": 27
         }
     ],
@@ -154,8 +202,8 @@ do while [catch] try { !xxx
 ✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Missing an opening parentheses - '( - start: 20, end: 22
-✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 24
+✖ Missing an opening parentheses - '( - start: 15, end: 16
+✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
 
 ```
 

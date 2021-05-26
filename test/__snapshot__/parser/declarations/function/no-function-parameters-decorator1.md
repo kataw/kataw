@@ -97,10 +97,11 @@ function func(@foo x) {}
             },
             "classKeyword": null,
             "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 20,
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 18,
                 "end": 20
             },
             "typeParameters": null,
@@ -156,7 +157,7 @@ function func(@foo x) {}
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 14, end: 15
 ✖ Expression expected - start: 14, end: 15
-✖ Binding identifier expected - start: 20, end: 21
+✖ Missing an opening brace - '{ - start: 20, end: 21
 
 ```
 

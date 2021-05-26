@@ -67,6 +67,26 @@ function *f(){
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "start": 14,
+                                    "end": 14
+                                },
+                                "flags": 16,
+                                "start": 14,
+                                "end": 14
+                            },
+                            "catchClause": null,
+                            "finallyKeyword": {
+                                "kind": 37757016,
+                                "flags": 16385,
+                                "start": 14,
+                                "end": 29
+                            },
+                            "finallyBlock": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
                                     "start": 29,
                                     "end": 29
                                 },
@@ -74,53 +94,38 @@ function *f(){
                                 "start": 29,
                                 "end": 29
                             },
-                            "catchClause": null,
-                            "finallyKeyword": null,
-                            "finallyBlock": {
-                                "kind": 124,
-                                "block": {
-                                    "kind": 249,
-                                    "statements": [],
-                                    "flags": 16,
-                                    "start": 31,
-                                    "end": 31
-                                },
-                                "flags": 16,
-                                "start": 31,
-                                "end": 31
-                            },
                             "flags": 16,
                             "start": 14,
-                            "end": 31
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 31,
-                                "end": 33
-                            },
-                            "flags": 16,
-                            "start": 31,
-                            "end": 33
+                            "end": 29
                         }
                     ],
                     "flags": 16417,
                     "start": 14,
-                    "end": 33
+                    "end": 29
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 35
+                "end": 29
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 35
+            "end": 29
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 31,
+                "end": 33
+            },
+            "flags": 16,
+            "start": 31,
+            "end": 33
         }
     ],
     "isModule": false,
@@ -142,6 +147,8 @@ function *f(){
 
 ```javascript
 ✖ 'try' expected - start: 14, end: 29
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 31
+✖ Declaration or statement expected - start: 33, end: 35
 
 ```
 

@@ -929,19 +929,26 @@ let x = { foo(){ super(); } };
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 250,
-                    "end": 250
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 250,
+                        "end": 250
+                    },
+                    "flags": 32,
+                    "start": 249,
+                    "end": 251
                 },
                 "flags": 32,
                 "start": 247,
-                "end": 250
+                "end": 251
             },
             "flags": 16,
             "start": 247,
-            "end": 250
+            "end": 251
         },
         {
             "kind": 168,
@@ -2726,7 +2733,6 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 240, end: 241
 ✖ Expected a computed property - start: 244, end: 246
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
-✖ Expression expected - start: 250, end: 251
 ✖ Declaration or statement expected - start: 251, end: 253
 ✖ Binding identifier expected - start: 285, end: 291
 ✖ Expression expected - start: 291, end: 292

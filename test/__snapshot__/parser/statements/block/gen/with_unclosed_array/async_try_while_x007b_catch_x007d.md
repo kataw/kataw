@@ -79,53 +79,65 @@
                             "kind": 124,
                             "block": {
                                 "kind": 249,
-                                "statements": [
-                                    {
-                                        "kind": 159,
-                                        "tryKeyword": null,
-                                        "block": {
-                                            "kind": 124,
-                                            "block": {
-                                                "kind": 249,
-                                                "statements": [],
-                                                "flags": 16,
-                                                "start": 26,
-                                                "end": 26
-                                            },
-                                            "flags": 16,
-                                            "start": 26,
-                                            "end": 26
-                                        },
-                                        "catchClause": null,
-                                        "finallyKeyword": null,
-                                        "finallyBlock": {
-                                            "kind": 124,
-                                            "block": {
-                                                "kind": 249,
-                                                "statements": [],
-                                                "flags": 16,
-                                                "start": 28,
-                                                "end": 28
-                                            },
-                                            "flags": 16,
-                                            "start": 28,
-                                            "end": 28
-                                        },
-                                        "flags": 16,
-                                        "start": 20,
-                                        "end": 28
-                                    }
-                                ],
+                                "statements": [],
                                 "flags": 16,
-                                "start": 20,
-                                "end": 28
+                                "start": 12,
+                                "end": 12
                             },
                             "flags": 16,
-                            "start": 18,
-                            "end": 28
+                            "start": 12,
+                            "end": 12
                         },
                         "flags": 16,
                         "start": 8,
+                        "end": 12
+                    },
+                    {
+                        "kind": 154,
+                        "whileKeyword": {
+                            "kind": 37757028,
+                            "flags": 0,
+                            "start": 12,
+                            "end": 18
+                        },
+                        "expression": {
+                            "kind": 220,
+                            "propertyList": {
+                                "kind": 218,
+                                "properties": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "catch",
+                                        "rawText": "catch",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 26
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 16,
+                                "start": 20,
+                                "end": 26
+                            },
+                            "flags": 48,
+                            "start": 18,
+                            "end": 28
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 28,
+                                "end": 28
+                            },
+                            "flags": 16,
+                            "start": 28,
+                            "end": 28
+                        },
+                        "flags": 16,
+                        "start": 12,
                         "end": 28
                     }
                 ],
@@ -157,8 +169,9 @@
 
 ```javascript
 ✖ ',' expected - start: 8, end: 12
-✖ 'try' expected - start: 20, end: 26
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
+✖ Missing an opening parentheses - '( - start: 18, end: 20
+✖ Property definition expected. Did you mean to use a ':'? - start: 26, end: 28
+✖ Declaration or statement expected - start: 28, end: 28
 
 ```
 

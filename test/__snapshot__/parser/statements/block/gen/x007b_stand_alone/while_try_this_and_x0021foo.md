@@ -67,19 +67,31 @@
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
-                                    "start": 16,
-                                    "end": 16
+                                    "start": 11,
+                                    "end": 11
                                 },
                                 "flags": 16,
-                                "start": 16,
-                                "end": 16
+                                "start": 11,
+                                "end": 11
                             },
                             "flags": 16,
                             "start": 7,
-                            "end": 16
+                            "end": 11
                         },
                         "flags": 16,
                         "start": 1,
+                        "end": 11
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 135,
+                            "flags": 11,
+                            "start": 96,
+                            "end": 16
+                        },
+                        "flags": 16,
+                        "start": 11,
                         "end": 16
                     },
                     {
@@ -151,6 +163,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 7, end: 11
+✖ Expected a `;` - start: 16, end: 20
 ✖ Expected a `;` - start: 20, end: 22
 ✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
 

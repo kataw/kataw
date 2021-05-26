@@ -63,13 +63,7 @@ async function f(){ for await (;;) {} }
                             },
                             "initializer": null,
                             "condition": null,
-                            "incrementor": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 33,
-                                "end": 33
-                            },
+                            "incrementor": null,
                             "statement": {
                                 "kind": 124,
                                 "block": {
@@ -116,12 +110,15 @@ async function f(){ for await (;;) {} }
 
 ```javascript
 
+async function f() {
+  for (;;)
+    {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 33, end: 34
-
+✔ No errors
 ```
 

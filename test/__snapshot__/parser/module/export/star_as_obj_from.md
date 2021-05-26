@@ -62,35 +62,47 @@ export * as foo, {bar} from 'bar';
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "bar",
-                                "rawText": "bar",
-                                "flags": 96,
-                                "start": 18,
-                                "end": 21
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 18,
-                        "end": 21
-                    },
-                    "flags": 48,
-                    "start": 16,
-                    "end": 22
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 15,
+                    "end": 15
                 },
                 "flags": 0,
                 "start": 15,
-                "end": 22
+                "end": 15
             },
             "exportKind": 0,
             "flags": 16,
             "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 18,
+                            "end": 21
+                        },
+                        "flags": 16,
+                        "start": 18,
+                        "end": 21
+                    }
+                ],
+                "flags": 16,
+                "start": 18,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 16,
             "end": 22
         },
         {
@@ -140,7 +152,7 @@ export * as foo, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 22, end: 27
+✖ Expression expected - start: 15, end: 16
 ✖ Expected a `;` - start: 27, end: 33
 
 ```

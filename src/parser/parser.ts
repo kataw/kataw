@@ -462,7 +462,12 @@ function parseStatement(
 //   `switch` `(` Expression `)` CaseBlock
 function parseSwitchStatement(parser: ParserState, context: Context, scope: ScopeState): SwitchStatement {
   const pos = parser.curPos;
-  const switchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.SwitchKeyword);
+  const switchToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.SwitchKeyword,
+    pos
+  );
   const openParenExists = consume(
     parser,
     context | Context.AllowRegExp,
@@ -584,7 +589,12 @@ function parseCaseOrDefaultClause(
 //   BindingPattern
 function parseTryStatement(parser: ParserState, context: Context, scope: ScopeState): TryStatement {
   const pos = parser.curPos;
-  const tryToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.TryKeyword);
+  const tryToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.TryKeyword,
+    pos
+  );
   const block = parseBlockStatement(
     parser,
     context,
@@ -669,7 +679,12 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
 
 function parseDebuggerStatement(parser: ParserState, context: Context): DebuggerStatement {
   const pos = parser.curPos;
-  const debuggerToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DebuggerKeyword);
+  const debuggerToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.DebuggerKeyword,
+    pos
+  );
   parseSemicolon(parser, context);
   return createDebuggerStatement(debuggerToken, pos, parser.curPos);
 }
@@ -686,7 +701,12 @@ function parseEmptyStatement(parser: ParserState, context: Context): EmptyStatem
 function parseBreakStatement(parser: ParserState, context: Context): BreakStatement {
   const pos = parser.curPos;
   let label = null;
-  const breakToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.BreakKeyword);
+  const breakToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.BreakKeyword,
+    pos
+  );
   if (canParseSemicolon(parser)) {
     if ((context & (Context.InSwitch | Context.InIteration)) < 1) {
       parser.onError(
@@ -811,7 +831,12 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context, sco
 // `while` `(` Expression `)` Statement
 function parseWhileStatement(parser: ParserState, context: Context, scope: ScopeState): WhileStatement {
   const pos = parser.curPos;
-  const whileToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
+  const whileToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.WhileKeyword,
+    pos
+  );
   const openParenExists = consume(
     parser,
     context | Context.AllowRegExp,
@@ -884,7 +909,12 @@ function parseWithStatement(parser: ParserState, context: Context, scope: ScopeS
       parser.pos
     );
   }
-  const withKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WithKeyword);
+  const withKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.WithKeyword,
+    pos
+  );
   const openParenExists = consume(
     parser,
     context | Context.AllowRegExp,
@@ -913,7 +943,12 @@ function parseWithStatement(parser: ParserState, context: Context, scope: ScopeS
 //   `throw` [no LineTerminator here] Expression `;`
 function parseThrowStatement(parser: ParserState, context: Context): ThrowStatement {
   const pos = parser.curPos;
-  const throwKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ThrowKeyword);
+  const throwKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.ThrowKeyword,
+    pos
+  );
   if (parser.nodeFlags & NodeFlags.NewLine) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -942,7 +977,12 @@ function parseReturnStatement(parser: ParserState, context: Context): ReturnStat
     );
   }
   const pos = parser.curPos;
-  const returnToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ReturnKeyword);
+  const returnToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.ReturnKeyword,
+    pos
+  );
   const expression = canParseSemicolon(parser) ? null : parseExpression(parser, context);
   parseSemicolon(parser, context);
   return createReturnStatement(returnToken, expression, parser.nodeFlags, pos);
@@ -3223,18 +3263,12 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
 function parseNewExpression(parser: ParserState, context: Context): NewTarget | NewExpression {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
-  const newToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.NewKeyword);
-
-  if (newToken.flags & 0b00000000000000000110000000000000) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
-
+  const newToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.NewKeyword,
+    pos
+  );
   if (consumeOpt(parser, context, SyntaxKind.Period)) {
     const targetKeyword = consumeToken(parser, context, SyntaxKind.Target);
     if (!targetKeyword) {

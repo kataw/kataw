@@ -27,10 +27,11 @@ do let x = 1; while (false)
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 8,
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 6,
                     "end": 8
                 },
                 "operatorToken": {
@@ -48,7 +49,7 @@ do let x = 1; while (false)
                     "end": 12
                 },
                 "flags": 32,
-                "start": 8,
+                "start": 6,
                 "end": 12
             },
             "whileKeyword": null,
@@ -122,7 +123,6 @@ do let x = 1; while (false)
 
 ```javascript
 ✖ Expected a `;` - start: 6, end: 8
-✖ Missing an opening parentheses - '( - start: 8, end: 10
 ✖ Declaration or statement expected - start: 12, end: 13
 ✖ Expression expected - start: 27, end: 27
 

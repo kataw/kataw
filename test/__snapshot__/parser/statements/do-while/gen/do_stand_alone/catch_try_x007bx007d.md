@@ -30,8 +30,8 @@ do catch try {}
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 15,
-                "end": 15
+                "start": 8,
+                "end": 8
             },
             "whileKeyword": null,
             "statement": {
@@ -43,34 +43,88 @@ do catch try {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "start": 2,
+                        "end": 2
+                    },
+                    "flags": 16,
+                    "start": 2,
+                    "end": 2
+                },
+                "catchClause": {
+                    "kind": 173,
+                    "catchKeyword": {
+                        "kind": 4202575,
+                        "flags": 0,
+                        "start": 2,
+                        "end": 8
+                    },
+                    "catchParameter": null,
+                    "initializer": null,
+                    "block": {
+                        "kind": 124,
+                        "block": {
+                            "kind": 249,
+                            "statements": [],
+                            "flags": 16,
+                            "start": 8,
+                            "end": 8
+                        },
+                        "flags": 16,
                         "start": 8,
                         "end": 8
                     },
                     "flags": 16,
-                    "start": 8,
+                    "start": 2,
                     "end": 8
                 },
-                "catchClause": null,
                 "finallyKeyword": null,
-                "finallyBlock": {
-                    "kind": 124,
-                    "block": {
-                        "kind": 249,
-                        "statements": [],
-                        "flags": 16,
-                        "start": 14,
-                        "end": 14
-                    },
-                    "flags": 16,
-                    "start": 12,
-                    "end": 15
-                },
+                "finallyBlock": null,
                 "flags": 16,
                 "start": 2,
-                "end": 15
+                "end": 8
             },
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 0,
+                "start": 8,
+                "end": 12
+            },
+            "block": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 14,
+                    "end": 14
+                },
+                "flags": 16,
+                "start": 12,
+                "end": 15
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 15,
+                    "end": 15
+                },
+                "flags": 16,
+                "start": 15,
+                "end": 15
+            },
+            "flags": 16,
+            "start": 8,
             "end": 15
         }
     ],
@@ -93,7 +147,7 @@ do catch try {}
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
-✖ Missing an opening parentheses - '( - start: 15, end: 15
+✖ Missing an opening parentheses - '( - start: 8, end: 12
 
 ```
 

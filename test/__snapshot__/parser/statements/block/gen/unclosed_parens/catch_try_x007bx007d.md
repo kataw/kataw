@@ -51,16 +51,55 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "start": 2,
+                                "end": 2
+                            },
+                            "flags": 16,
+                            "start": 2,
+                            "end": 2
+                        },
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 2,
+                                "end": 8
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 8,
+                                    "end": 8
+                                },
+                                "flags": 16,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 16,
-                            "start": 8,
+                            "start": 2,
                             "end": 8
                         },
-                        "catchClause": null,
                         "finallyKeyword": null,
-                        "finallyBlock": {
+                        "finallyBlock": null,
+                        "flags": 16,
+                        "start": 2,
+                        "end": 8
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": {
+                            "kind": 37757027,
+                            "flags": 0,
+                            "start": 8,
+                            "end": 12
+                        },
+                        "block": {
                             "kind": 124,
                             "block": {
                                 "kind": 249,
@@ -73,8 +112,23 @@
                             "start": 12,
                             "end": 15
                         },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "flags": 16,
+                            "start": 15,
+                            "end": 15
+                        },
                         "flags": 16,
-                        "start": 2,
+                        "start": 8,
                         "end": 15
                     }
                 ],

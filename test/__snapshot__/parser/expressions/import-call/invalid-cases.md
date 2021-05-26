@@ -958,34 +958,15 @@ new import(x);
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 120,
-                    "expression": {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 1,
-                            "start": 286,
-                            "end": 294
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 295,
-                            "end": 296
-                        },
-                        "flags": 32,
-                        "start": 294,
-                        "end": 296
-                    },
-                    "flags": 16,
-                    "start": 294,
-                    "end": 297
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 285,
+                    "end": 285
                 },
                 "flags": 0,
                 "start": 285,
-                "end": 297
+                "end": 285
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -1011,6 +992,72 @@ new import(x);
             },
             "flags": 16,
             "start": 276,
+            "end": 286
+        },
+        {
+            "kind": 263,
+            "importKeyword": {
+                "kind": 37814364,
+                "flags": 1,
+                "start": 286,
+                "end": 294
+            },
+            "fromClause": {
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 296,
+                    "end": 296
+                },
+                "flags": 0,
+                "start": 296,
+                "end": 296
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 262,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": {
+                    "kind": 267,
+                    "importsList": {
+                        "kind": 265,
+                        "specifiers": [
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "asKeyword": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 295,
+                                    "end": 296
+                                },
+                                "flags": 16,
+                                "start": 295,
+                                "end": 296
+                            }
+                        ],
+                        "flags": 0,
+                        "start": 295,
+                        "end": 296
+                    },
+                    "flags": 16,
+                    "start": 294,
+                    "end": 296
+                },
+                "flags": 16,
+                "start": 286,
+                "end": 296
+            },
+            "flags": 16,
+            "start": 286,
             "end": 297
         },
         {
@@ -1025,50 +1072,15 @@ new import(x);
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 120,
-                    "expression": {
-                        "kind": 132,
-                        "expressions": [
-                            {
-                                "kind": 206,
-                                "importKeyword": {
-                                    "kind": 37814364,
-                                    "flags": 1,
-                                    "start": 309,
-                                    "end": 317
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 318,
-                                    "end": 319
-                                },
-                                "flags": 32,
-                                "start": 317,
-                                "end": 319
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 320,
-                                "end": 322
-                            }
-                        ],
-                        "flags": 32,
-                        "start": 317,
-                        "end": 322
-                    },
-                    "flags": 16,
-                    "start": 317,
-                    "end": 322
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 308,
+                    "end": 308
                 },
                 "flags": 0,
                 "start": 308,
-                "end": 322
+                "end": 308
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -1112,6 +1124,48 @@ new import(x);
             },
             "flags": 16,
             "start": 297,
+            "end": 309
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 206,
+                        "importKeyword": {
+                            "kind": 37814364,
+                            "flags": 1,
+                            "start": 309,
+                            "end": 317
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 318,
+                            "end": 319
+                        },
+                        "flags": 32,
+                        "start": 317,
+                        "end": 319
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 320,
+                        "end": 322
+                    }
+                ],
+                "flags": 32,
+                "start": 317,
+                "end": 322
+            },
+            "flags": 16,
+            "start": 317,
             "end": 322
         },
         {
@@ -1487,10 +1541,24 @@ new import(x);
                 "metaIdentifier": null,
                 "flags": 442,
                 "start": 96,
-                "end": 446
+                "end": 443
             },
             "flags": 16,
             "start": 442,
+            "end": 443
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "wat",
+                "rawText": "wat",
+                "flags": 96,
+                "start": 443,
+                "end": 446
+            },
+            "flags": 16,
+            "start": 443,
             "end": 447
         },
         {
@@ -2046,7 +2114,9 @@ new import(x);
 ✖ Unexpected token. - start: 272, end: 273
 ✖ Expected a `;` - start: 272, end: 273
 ✖ The parser expected to find a '}' to match the '{' token here - start: 285, end: 286
-✖ Expected a ')' to match the '(' token here - start: 296, end: 297
+✖ The parser expected to find a '}' to match the '{' token here - start: 296, end: 297
+✖ Duplicate identifier - start: 307, end: 308
+✖ Expression expected - start: 308, end: 309
 ✖ Dynamic import must have one specifier as an argument. - start: 319, end: 320
 ✖ Expected a `;` - start: 322, end: 323
 ✖ Expression expected - start: 333, end: 336
@@ -2070,7 +2140,7 @@ new import(x);
 ✖ Expression expected - start: 420, end: 421
 ✖ Unexpected token. - start: 429, end: 431
 ✖ Expected a `;` - start: 429, end: 431
-✖ 'import.meta' is the only valid meta property for import - start: 446, end: 447
+✖ 'import.meta' is the only valid meta property for import - start: 443, end: 446
 ✖ Dynamic import must have one specifier as an argument. - start: 457, end: 458
 ✖ Expression expected - start: 458, end: 459
 ✖ Expression expected - start: 459, end: 460

@@ -44,28 +44,54 @@ try/catch/finally/{
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
-                    "start": 17,
-                    "end": 17
+                    "start": 3,
+                    "end": 3
                 },
                 "flags": 16,
-                "start": 17,
-                "end": 17
+                "start": 3,
+                "end": 3
             },
             "flags": 16,
             "start": 0,
-            "end": 17
+            "end": 3
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
-                "text": "/{",
-                "flags": 96,
-                "start": 17,
+                "kind": 198,
+                "left": {
+                    "kind": 221,
+                    "text": "/catch/finally",
+                    "flags": 96,
+                    "start": 3,
+                    "end": 17
+                },
+                "operatorToken": {
+                    "kind": 35640,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 18
+                },
+                "right": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 19,
+                        "end": 19
+                    },
+                    "flags": 48,
+                    "start": 18,
+                    "end": 19
+                },
+                "flags": 32,
+                "start": 3,
                 "end": 19
             },
             "flags": 16,
-            "start": 17,
+            "start": 3,
             "end": 19
         }
     ],
@@ -92,7 +118,7 @@ try/catch/finally/{
 ✖ Unknown regular expression flag - start: 3, end: 4
 ✖ Unknown regular expression flag - start: 3, end: 4
 ✖ Unknown regular expression flag - start: 3, end: 4
-✖ Unterminated regular expression - start: 17, end: 18
+✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
 
 ```
 

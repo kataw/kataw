@@ -52,70 +52,84 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "start": 3,
+                                "end": 3
+                            },
+                            "flags": 16,
+                            "start": 3,
+                            "end": 3
+                        },
+                        "catchClause": {
+                            "kind": 173,
+                            "catchKeyword": {
+                                "kind": 4202575,
+                                "flags": 0,
+                                "start": 3,
+                                "end": 8
+                            },
+                            "catchParameter": null,
+                            "initializer": null,
+                            "block": {
+                                "kind": 124,
+                                "block": {
+                                    "kind": 249,
+                                    "statements": [],
+                                    "flags": 16,
+                                    "start": 8,
+                                    "end": 8
+                                },
+                                "flags": 16,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 16,
-                            "start": 8,
+                            "start": 3,
                             "end": 8
                         },
-                        "catchClause": null,
                         "finallyKeyword": null,
-                        "finallyBlock": {
-                            "kind": 124,
-                            "block": {
-                                "kind": 249,
-                                "statements": [],
-                                "flags": 16,
-                                "start": 9,
-                                "end": 9
-                            },
-                            "flags": 16,
-                            "start": 9,
-                            "end": 9
-                        },
+                        "finallyBlock": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 9
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 203,
-                            "chain": {
-                                "kind": 225,
-                                "superKeyword": {
-                                    "kind": 4259935,
-                                    "flags": 0,
-                                    "start": 9,
-                                    "end": 15
-                                },
-                                "flags": 96,
-                                "start": 9,
-                                "end": 15
-                            },
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 15,
-                                "end": 15
-                            },
-                            "flags": 536870944,
-                            "start": 9,
-                            "end": 15
-                        },
-                        "flags": 16,
-                        "start": 9,
-                        "end": 15
+                        "end": 8
                     }
                 ],
                 "flags": 16,
                 "start": 1,
-                "end": 15
+                "end": 8
             },
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 203,
+                "chain": {
+                    "kind": 225,
+                    "superKeyword": {
+                        "kind": 4259935,
+                        "flags": 0,
+                        "start": 9,
+                        "end": 15
+                    },
+                    "flags": 96,
+                    "start": 9,
+                    "end": 15
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 15,
+                    "end": 15
+                },
+                "flags": 536870944,
+                "start": 9,
+                "end": 15
+            },
+            "flags": 16,
+            "start": 9,
             "end": 15
         }
     ],
@@ -139,9 +153,9 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ 'super' must be followed by an argument list or member access. - start: 15, end: 15
 ✖ Dot property must be an identifier - start: 15, end: 15
-✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 15
 
 ```
 

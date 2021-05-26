@@ -33,12 +33,7 @@ do( async funcion switch!! while
                 "start": 32,
                 "end": 32
             },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 0,
-                "start": 26,
-                "end": 32
-            },
+            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -47,15 +42,15 @@ do( async funcion switch!! while
                         "kind": 132,
                         "flags": 32,
                         "start": 2,
-                        "end": 26
+                        "end": 32
                     },
                     "flags": 32,
                     "start": 2,
-                    "end": 26
+                    "end": 32
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 26
+                "end": 32
             },
             "flags": 16,
             "start": 0,
@@ -80,6 +75,7 @@ do( async funcion switch!! while
 ### Diagnostics
 
 ```javascript
+✖ Missing an opening parentheses - '( - start: 24, end: 25
 ✖ Expression expected - start: 26, end: 32
 
 ```

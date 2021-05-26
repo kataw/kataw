@@ -77,6 +77,7 @@
 
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 11
+✖ Keywords cannot contain escape characters - start: 0, end: 11
 ✖ Expression expected - start: 11, end: 13
 
 ```

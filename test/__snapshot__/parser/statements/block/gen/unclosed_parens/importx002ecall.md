@@ -40,18 +40,32 @@
                                     "metaIdentifier": null,
                                     "flags": 9,
                                     "start": 96,
-                                    "end": 14
+                                    "end": 10
                                 },
                                 "flags": 16,
                                 "start": 9,
-                                "end": 14
+                                "end": 10
                             },
                             "flags": 32,
                             "start": 1,
-                            "end": 14
+                            "end": 10
                         },
                         "flags": 16,
                         "start": 1,
+                        "end": 10
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "call",
+                            "rawText": "call",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 14
+                        },
+                        "flags": 16,
+                        "start": 10,
                         "end": 14
                     }
                 ],
@@ -82,7 +96,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' is the only valid meta property for import - start: 14, end: 14
+✖ 'import.meta' is the only valid meta property for import - start: 10, end: 14
 
 ```
 

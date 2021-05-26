@@ -32,12 +32,11 @@ class Foo {
             },
             "classKeyword": null,
             "name": {
-                "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 2,
-                "end": 5
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 1,
+                "end": 1
             },
             "typeParameters": null,
             "tail": {
@@ -47,43 +46,64 @@ class Foo {
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 5,
-                    "end": 5
+                    "start": 1,
+                    "end": 1
                 },
-                "flags": 5,
+                "flags": 1,
                 "start": 32,
-                "end": 5
+                "end": 1
             },
             "flags": 16,
             "start": 0,
-            "end": 5
+            "end": 1
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 129,
-                "member": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 5,
-                    "end": 5
-                },
+                "kind": 121,
                 "expression": {
-                    "kind": 134299649,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 96,
-                    "start": 8,
+                    "kind": 129,
+                    "member": {
+                        "kind": 131,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 2,
+                            "end": 5
+                        },
+                        "argumentList": {
+                            "kind": 256,
+                            "elements": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 6,
+                            "end": 6
+                        },
+                        "flags": 268435488,
+                        "start": 1,
+                        "end": 7
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 96,
+                        "start": 8,
+                        "end": 11
+                    },
+                    "flags": 536870944,
+                    "start": 1,
                     "end": 11
                 },
-                "flags": 536870944,
-                "start": 5,
-                "end": 11
+                "flags": 32,
+                "start": 1,
+                "end": 12
             },
             "flags": 16,
-            "start": 5,
-            "end": 11
+            "start": 1,
+            "end": 12
         },
         {
             "kind": 178,
@@ -453,9 +473,7 @@ class Foo {
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 5, end: 6
-✖ Expression expected - start: 7, end: 8
-✖ Expected a `;` - start: 11, end: 12
+✖ Binding identifier expected - start: 1, end: 2
 ✖ Identifier expected - start: 28, end: 29
 ✖ ',' expected - start: 35, end: 36
 ✖ Missing an opening brace - '{ - start: 48, end: 55
