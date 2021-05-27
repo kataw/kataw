@@ -424,11 +424,11 @@ function parseStatement(
       return parseWithStatement(parser, context, scope);
     case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
-      // FunctionDeclaration are only allowed as a StatementListItem, not in
-      // in a single-statement context.
+      // FunctionDeclaration are only allowed as a StatementListItem and cannot be used in
+      // a single-statement context.
       parser.onError(
         DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        DiagnosticKind.Error,
         diagnosticMap[
           context & Context.Strict
             ? DiagnosticCode.Function_declarations_can_only_be_declared_at_top_level_or_inside_a_block_in_strict_mode
@@ -442,7 +442,7 @@ function parseStatement(
     case SyntaxKind.ClassKeyword:
       parser.onError(
         DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Class_declarations_cannot_be_used_in_a_single_statement_context],
         parser.curPos,
         parser.pos
@@ -479,13 +479,14 @@ function parseSwitchStatement(parser: ParserState, context: Context, scope: Scop
       ? DiagnosticCode.Expected_a_to_match_the_token_here
       : DiagnosticCode.Declaration_or_statement_expected
   );
-
-  const caseBlock = parseCaseBlock(
-    parser,
-    (context | Context.InSwitch | Context.InBlock | Context.TopLevel) ^ Context.TopLevel,
-    scope
+  return createSwitchStatement(
+    switchToken,
+    expression,
+    // Set the 'Context.InBlock' bit to mark that we are entering a new block scope and unset the 'Context.TopLevel' bit
+    parseCaseBlock(parser, (context | 0b00000000000000000000100000011000) ^ Context.TopLevel, scope),
+    pos,
+    parser.curPos
   );
-  return createSwitchStatement(switchToken, expression, caseBlock, pos, parser.curPos);
 }
 
 // CaseBlock :
@@ -704,7 +705,7 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
     pos
   );
   if (canParseSemicolon(parser)) {
-    if ((context & (Context.InSwitch | Context.InIteration)) < 1) {
+    if ((context & (Context.InsideSwitch | Context.InsideLoop)) < 1) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -745,7 +746,7 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
 //   `continue` [no LineTerminator here] LabelIdentifier `;`
 function parseContinueStatement(parser: ParserState, context: Context): ContinueStatement {
   const pos = parser.curPos;
-  if ((context & Context.InIteration) < 1) {
+  if ((context & Context.InsideLoop) < 1) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -964,7 +965,7 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
 //   `return` [no LineTerminator here] Expression `;`
 function parseReturnStatement(parser: ParserState, context: Context): ReturnStatement {
   const pos = parser.curPos;
-  if ((context & Context.AllowReturn) === 0) {
+  if ((context & Context.IsOutsideFnOrArrow) === 0) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1015,7 +1016,7 @@ export function parseLabelledStatement(
       }
       break;
     case SyntaxKind.YieldKeyword:
-      if (context & (Context.InGeneratorContext | Context.Strict)) {
+      if (context & (Context.YieldContext | Context.Strict)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1117,7 +1118,7 @@ function parseForStatement(
   let destructible!: DestructibleKind;
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
-  if (awaitKeyword && (context & Context.InAwaitContext) === 0) {
+  if (awaitKeyword && (context & Context.AwaitContext) === 0) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1155,7 +1156,7 @@ function parseForStatement(
           scope = createParentScope(scope, ScopeKind.ForStatement);
           initializer = parseBindingList(
             parser,
-            context | Context.DisallowIn | Context.LexicalContext,
+            context | Context.DisallowInContext | Context.LexicalContext,
             NodeFlags.Const,
             /* inForStatement */ true,
             scope,
@@ -1194,7 +1195,7 @@ function parseForStatement(
       scope = createParentScope(scope, ScopeKind.ForStatement);
       initializer = parseBindingList(
         parser,
-        context | Context.DisallowIn | Context.LexicalContext,
+        context | Context.DisallowInContext | Context.LexicalContext,
         NodeFlags.Const,
         /* inForStatement */ true,
         scope,
@@ -1206,7 +1207,7 @@ function parseForStatement(
       scope = createParentScope(scope, ScopeKind.ForStatement);
       initializer = parseVariableDeclarationList(
         parser,
-        context | Context.DisallowIn,
+        context | Context.DisallowInContext,
         /* inForStatement */ true,
         scope,
         BindingType.Var
@@ -1244,7 +1245,7 @@ function parseForStatement(
     } else {
       if (awaitKeyword) context |= Context.InForOfAwait;
 
-      initializer = parseLeftHandSideExpression(parser, context | Context.DisallowIn, LeftHandSide.ForStatement);
+      initializer = parseLeftHandSideExpression(parser, context | Context.DisallowInContext, LeftHandSide.ForStatement);
     }
   }
 
@@ -1289,7 +1290,7 @@ function parseForStatement(
         expression,
         parseStatement(
           parser,
-          ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
+          ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InsideLoop,
           /* allowFunction */ false,
           scope
         ),
@@ -1330,7 +1331,7 @@ function parseForStatement(
         expression,
         parseStatement(
           parser,
-          ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
+          ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InsideLoop,
           /* allowFunction */ false,
           scope
         ),
@@ -1387,7 +1388,7 @@ function parseForStatement(
     condition,
     parseStatement(
       parser,
-      ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
+      ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InsideLoop,
       /* allowFunction */ false,
       scope
     ),
@@ -1438,7 +1439,7 @@ function parseBindingIdentifier(
       ? SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier
       : SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
   ) {
-    if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
+    if (context & (Context.Strict | Context.YieldContext) && token === SyntaxKind.YieldKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1452,7 +1453,7 @@ function parseBindingIdentifier(
         parser.curPos,
         parser.pos
       );
-    } else if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
+    } else if (context & (Context.Module | Context.AwaitContext) && token === SyntaxKind.AwaitKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1698,7 +1699,7 @@ function parseBinaryExpression(
 ): BinaryExpression {
   let t: SyntaxKind;
   let prec: number;
-  const bit = -((context & Context.DisallowIn) > 0) & SyntaxKind.InKeyword;
+  const bit = -((context & Context.DisallowInContext) > 0) & SyntaxKind.InKeyword;
 
   parser.assignable = false;
 
@@ -2081,7 +2082,7 @@ function parseArrowFunction(
     parseConciseOrFunctionBody(
       parser,
       ((context | 0b00000000010000000101111000000000) ^ 0b00000000010000000101111000000000) |
-        (asyncToken ? Context.InAwaitContext : Context.None),
+        (asyncToken ? Context.AwaitContext : Context.None),
       scope,
       (flags & NodeFlags.NoneSimpleParamList) === 0
     ),
@@ -2110,7 +2111,7 @@ function parseConciseOrFunctionBody(
   if (parser.token === SyntaxKind.LeftBrace) {
     const body = parseFunctionBody(
       parser,
-      context | Context.AllowReturn,
+      context | Context.IsOutsideFnOrArrow,
       scope,
       /* isDecl */ true,
       /* isSimpleParameterList */ isSimpleParameterList,
@@ -2331,7 +2332,7 @@ function parsePrimaryExpression(
     if (parser.token === SyntaxKind.ThisKeyword) {
       return parseThisExpression(parser, context);
     }
-    if (context & Context.InAwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
+    if (context & Context.AwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
       return parseAwaitExpression(parser, context, inNewExpression, LeftHandSideContext);
     }
 
@@ -2637,7 +2638,7 @@ function validateIdentifier(parser: ParserState, context: Context, t: SyntaxKind
       parser.pos
     );
   }
-  if (context & (Context.InAwaitContext | Context.Module) && t === SyntaxKind.AwaitKeyword) {
+  if (context & (Context.AwaitContext | Context.Module) && t === SyntaxKind.AwaitKeyword) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -2647,7 +2648,7 @@ function validateIdentifier(parser: ParserState, context: Context, t: SyntaxKind
     );
   }
 
-  if (context & (Context.InGeneratorContext | Context.Strict) && t === SyntaxKind.YieldKeyword) {
+  if (context & (Context.YieldContext | Context.Strict) && t === SyntaxKind.YieldKeyword) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -2941,8 +2942,8 @@ function parseMethodDefinition(
   const scope = createParentScope(createScope(), ScopeKind.FunctionParams);
   context =
     ((context | 0b00000000100000000000011010000000) ^ 0b00000000100000000000011010000000) |
-    (nodeFlags & NodeFlags.Async ? Context.InAwaitContext : Context.None) |
-    (nodeFlags & NodeFlags.Generator ? Context.InGeneratorContext : Context.None);
+    (nodeFlags & NodeFlags.Async ? Context.AwaitContext : Context.None) |
+    (nodeFlags & NodeFlags.Generator ? Context.YieldContext : Context.None);
 
   const methodParameters = parsMethodParameters(parser, context, nodeFlags, scope);
 
@@ -2950,7 +2951,7 @@ function parseMethodDefinition(
 
   const contents = parseFunctionBody(
     parser,
-    context | Context.NewTarget | Context.AllowReturn,
+    context | Context.NewTarget | Context.IsOutsideFnOrArrow,
     scope,
     /* isDecl */ false,
     /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
@@ -3987,7 +3988,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           function () {
             const consequent = parseExpression(
               parser,
-              (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+              (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
             );
             return parser.token === SyntaxKind.Colon ? consequent : undefined;
           },
@@ -4094,7 +4095,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           function () {
             const consequent = parseExpression(
               parser,
-              (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+              (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
             );
             return parser.token === SyntaxKind.Colon ? consequent : undefined;
           },
@@ -4324,7 +4325,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 function () {
                   const consequent = parseExpression(
                     parser,
-                    (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                    (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
                   );
                   return parser.token === SyntaxKind.Colon ? consequent : undefined;
                 },
@@ -4430,7 +4431,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 function () {
                   const consequent = parseExpression(
                     parser,
-                    (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                    (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
                   );
                   return parser.token === SyntaxKind.Colon ? consequent : undefined;
                 },
@@ -5139,8 +5140,8 @@ function parseFunctionExpression(
 
   context =
     ((context | 0b00001001100000110100011010000000) ^ 0b00001001100000110100011010000000) |
-    (asyncToken ? Context.InAwaitContext : Context.None) |
-    (generatorToken ? Context.InGeneratorContext : Context.None);
+    (asyncToken ? Context.AwaitContext : Context.None) |
+    (generatorToken ? Context.YieldContext : Context.None);
   scope = createParentScope(scope, ScopeKind.FunctionParams);
   const formalParameterList = parseFormalParameterList(
     parser,
@@ -5150,7 +5151,7 @@ function parseFunctionExpression(
   const returnType = parseTypeAnnotation(parser, context);
   const contents = parseFunctionBody(
     parser,
-    context | Context.NewTarget | Context.AllowReturn,
+    context | Context.NewTarget | Context.IsOutsideFnOrArrow,
     scope,
     /* isDecl */ false,
     /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
@@ -5355,7 +5356,7 @@ function parseFunctionDeclaration(
       }
     }
 
-    if (context & (Context.InAwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
+    if (context & (Context.AwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
@@ -5370,7 +5371,7 @@ function parseFunctionDeclaration(
       );
     }
 
-    if (context & (Context.InGeneratorContext | Context.Strict) && parser.token === SyntaxKind.YieldKeyword) {
+    if (context & (Context.YieldContext | Context.Strict) && parser.token === SyntaxKind.YieldKeyword) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
@@ -5407,8 +5408,8 @@ function parseFunctionDeclaration(
 
   context =
     ((context | 0b00001001100000110100011010000000) ^ 0b00001001100000110100011010000000) |
-    (asyncToken ? Context.InAwaitContext : Context.None) |
-    (generatorToken ? Context.InGeneratorContext : Context.None);
+    (asyncToken ? Context.AwaitContext : Context.None) |
+    (generatorToken ? Context.YieldContext : Context.None);
 
   innerScope = createParentScope(innerScope, ScopeKind.FunctionParams);
 
@@ -5433,7 +5434,7 @@ function parseFunctionDeclaration(
     parser.token === SyntaxKind.LeftBrace
       ? parseFunctionBody(
           parser,
-          context | Context.NewTarget | Context.AllowReturn,
+          context | Context.NewTarget | Context.IsOutsideFnOrArrow,
           innerScope,
           /* isDecl */ declareKeyword ? true : false,
           /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
@@ -5443,7 +5444,7 @@ function parseFunctionDeclaration(
       : !declareKeyword
       ? parseFunctionBody(
           parser,
-          context | Context.NewTarget | Context.AllowReturn,
+          context | Context.NewTarget | Context.IsOutsideFnOrArrow,
           innerScope,
           /* isDecl */ declareKeyword ? true : false,
           /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
@@ -5486,8 +5487,8 @@ function parseFunctionBody(
   ) {
     const statementList = parseFunctionStatementList(
       parser,
-      (context | Context.InSwitch | Context.InIteration | Context.Parameters) ^
-        (Context.InSwitch | Context.InIteration | Context.Parameters),
+      (context | Context.InsideSwitch | Context.InsideLoop | Context.Parameters) ^
+        (Context.InsideSwitch | Context.InsideLoop | Context.Parameters),
       scope,
       isSimpleParameterList,
       firstRestricted
@@ -7441,7 +7442,7 @@ function parseYieldIdentifierOrExpression(
 ): YieldExpression | ArrowFunction | Identifier | DummyIdentifier {
   const pos = parser.curPos;
 
-  if (context & Context.InGeneratorContext) {
+  if (context & Context.YieldContext) {
     if (parser.nodeFlags & 0b00000000000000000110000000000000) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -8616,7 +8617,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             function () {
               const consequent = parseExpression(
                 parser,
-                (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
               );
               return parser.token === SyntaxKind.Colon ? consequent : undefined;
             },
@@ -8712,7 +8713,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             function () {
               const consequent = parseExpression(
                 parser,
-                (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
               );
               return parser.token === SyntaxKind.Colon ? consequent : undefined;
             },
@@ -8820,7 +8821,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               function () {
                 const consequent = parseExpression(
                   parser,
-                  (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                  (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
                 );
                 return parser.token === SyntaxKind.Colon ? consequent : undefined;
               },
@@ -8915,7 +8916,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               function () {
                 const consequent = parseExpression(
                   parser,
-                  (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                  (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
                 );
                 return parser.token === SyntaxKind.Colon ? consequent : undefined;
               },
