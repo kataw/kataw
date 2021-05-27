@@ -1543,12 +1543,7 @@ function parseBlockStatement(
 ): BlockStatement {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
-    const block = parseBlock(
-      parser,
-      context | Context.InBlock,
-      scope,
-      isCatchScope
-    );
+    const block = parseBlock(parser, context | Context.InBlock, scope, isCatchScope);
     consume(
       parser,
       context | Context.AllowRegExp,
@@ -2076,8 +2071,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context | 0b00000000010000000101111000000000) ^
-        (0b00000000010000000101111000000000)) |
+      ((context | 0b00000000010000000101111000000000) ^ 0b00000000010000000101111000000000) |
         (asyncToken ? Context.AwaitContext : Context.None),
       scope,
       (flags & NodeFlags.NoneSimpleParamList) === 0
@@ -5142,7 +5136,7 @@ function parseFunctionExpression(
   context =
     ((context | Context.TopLevel | 0b00001001100000110100011010000000) ^
       (Context.TopLevel | 0b00001001100000110100011010000000)) |
-    (asyncToken ? (Context.TopLevel | Context.AwaitContext) : Context.None) |
+    (asyncToken ? Context.TopLevel | Context.AwaitContext : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
   scope = createParentScope(scope, ScopeKind.FunctionParams);
   const formalParameterList = parseFormalParameterList(
@@ -5389,7 +5383,7 @@ function parseFunctionDeclaration(
       );
     }
 
-    if (context & (Context.InBlock | Context.Module) ) {
+    if (context & (Context.InBlock | Context.Module)) {
       addBlockName(parser, context, scope, parser.tokenValue, BindingType.FunctionLexical);
     } else {
       addVarName(parser, context, scope, parser.tokenValue, BindingType.Var);
@@ -5412,7 +5406,7 @@ function parseFunctionDeclaration(
   context =
     ((context | Context.TopLevel | 0b00001001100000110100011010000000) ^
       (Context.TopLevel | 0b00001001100000110100011010000000)) |
-    (asyncToken ? (Context.TopLevel | Context.AwaitContext) : Context.None) |
+    (asyncToken ? Context.TopLevel | Context.AwaitContext : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
 
   innerScope = createParentScope(innerScope, ScopeKind.FunctionParams);
@@ -5481,7 +5475,7 @@ function parseFunctionBody(
   parser: ParserState,
   context: Context,
   scope: ScopeState,
-  scopeError: any,
+  scopeError: boolean,
   isDecl: boolean,
   isSimpleParameterList: boolean,
   ignoreMissingOpenBrace: boolean,
@@ -5494,8 +5488,7 @@ function parseFunctionBody(
   ) {
     const statementList = parseFunctionStatementList(
       parser,
-      (context | Context.InsideSwitch | Context.InsideLoop | Context.Parameters) ^
-        (Context.InsideSwitch | Context.InsideLoop | Context.Parameters),
+      (context | 0b00000000000000000101100000000000) ^ 0b00000000000000000101100000000000,
       {
         kind: ScopeKind.FunctionBody,
         scope,
@@ -5530,7 +5523,7 @@ function parseFunctionStatementList(
   parser: ParserState,
   context: Context,
   scope: ScopeState,
-  scopeError: any,
+  scopeError: boolean,
   isSimpleParameterList: boolean,
   firstRestricted: SyntaxKind | null
 ): FunctionStatementList {
@@ -7568,7 +7561,7 @@ export function parseAwaitExpression(
       parser.curPos
     );
   }
-  if (context & Context.Module && (context & Context.TopLevel)==0) {
+  if (context & Context.Module && (context & Context.TopLevel) == 0) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -7824,12 +7817,7 @@ function parseClassDeclaration(
   // "class Foo<T = undefined> {}"
   const typeParameters = parseTypeParameterDeclaration(parser, context);
 
-  const classTail = parseClassTail(
-    parser,
-    context | Context.InClassBody,
-    declareKeyword ? true : false,
-    true
-  );
+  const classTail = parseClassTail(parser, context | Context.InClassBody, declareKeyword ? true : false, true);
 
   parser.assignable = false;
 
