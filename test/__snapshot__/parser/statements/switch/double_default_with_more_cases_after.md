@@ -158,9 +158,7 @@ switch(x) { default: default: case y: break; case z: break; }
 ### Diagnostics
 
 ```javascript
-✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 29, end: 34
-✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 44, end: 49
-✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 59, end: 61
+✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 28, end: 29
 
 ```
 

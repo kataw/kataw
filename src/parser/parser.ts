@@ -500,18 +500,45 @@ function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState
   let hasDefaultCase = false;
 
   while (isCaseOrDefaultClause(parser.token)) {
-    const node = parseCaseOrDefaultClause(parser, context, scope);
-    if (hasDefaultCase) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.A_default_clause_cannot_appear_more_than_once_in_a_switch_statement],
-        parser.curPos,
-        parser.pos
+    const pos = parser.curPos;
+    if (parser.token === SyntaxKind.CaseKeyword) {
+      const caseToken = consumeKeywordAndCheckForEscapeSequence(
+        parser,
+        context | Context.AllowRegExp,
+        SyntaxKind.CaseKeyword,
+        pos
       );
+      const expression = parseExpression(parser, context);
+      consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
+      const statements = [];
+      while (parser.token & 0b00010010100000011100000000000000) {
+        statements.push(parseStatementListItem(parser, context, scope));
+      }
+      clauses.push(createCaseClause(caseToken, expression, statements, pos, parser.curPos));
+    } else {
+      const defaultToken = consumeKeywordAndCheckForEscapeSequence(
+        parser,
+        context | Context.AllowRegExp,
+        SyntaxKind.DefaultKeyword,
+        pos
+      );
+      if (hasDefaultCase) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[DiagnosticCode.A_default_clause_cannot_appear_more_than_once_in_a_switch_statement],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      hasDefaultCase = true;
+      consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
+      const statements = [];
+      while (parser.token & 0b00010010100000011100000000000000) {
+        statements.push(parseStatementListItem(parser, context, scope));
+      }
+      clauses.push(createDefaultClause(defaultToken, statements, pos, parser.curPos));
     }
-    if (node.kind === SyntaxKind.DefaultClause) hasDefaultCase = true;
-    clauses.push(node);
   }
   consume(
     parser,
@@ -524,49 +551,6 @@ function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState
 
 function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
-}
-
-function parseCaseClause(parser: ParserState, context: Context, scope: ScopeState): CaseClause {
-  const pos = parser.curPos;
-  const caseToken = consumeKeywordAndCheckForEscapeSequence(
-    parser,
-    context | Context.AllowRegExp,
-    SyntaxKind.CaseKeyword,
-    pos
-  );
-  const expression = parseExpression(parser, context);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
-  const statements = [];
-  while (parser.token & 0b00010010100000011100000000000000) {
-    statements.push(parseStatementListItem(parser, context, scope));
-  }
-  return createCaseClause(caseToken, expression, statements, pos, parser.curPos);
-}
-
-function parseDefaultClause(parser: ParserState, context: Context, scope: ScopeState): DefaultClause {
-  const pos = parser.curPos;
-  const defaultToken = consumeKeywordAndCheckForEscapeSequence(
-    parser,
-    context | Context.AllowRegExp,
-    SyntaxKind.DefaultKeyword,
-    pos
-  );
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
-  const statements = [];
-  while (parser.token & 0b00010010100000011100000000000000) {
-    statements.push(parseStatementListItem(parser, context, scope));
-  }
-  return createDefaultClause(defaultToken, statements, pos, parser.curPos);
-}
-
-function parseCaseOrDefaultClause(
-  parser: ParserState,
-  context: Context,
-  scope: ScopeState
-): CaseClause | DefaultClause {
-  return parser.token === SyntaxKind.CaseKeyword
-    ? parseCaseClause(parser, context, scope)
-    : parseDefaultClause(parser, context, scope);
 }
 
 // TryStatement :
@@ -5818,7 +5802,7 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
     const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
     const importedBinding = parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected);
     specifiers.push(
-      createImportSpecifier(asKeyword, moduleExportName, null, importedBinding as Identifier, pos, parser.curPos)
+      createImportSpecifier(moduleExportName, null, asKeyword, importedBinding as Identifier, pos, parser.curPos)
     );
   }
 

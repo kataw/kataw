@@ -88,7 +88,7 @@ switch(x) { default: default: }
 ### Diagnostics
 
 ```javascript
-✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 29, end: 31
+✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 28, end: 29
 
 ```
 

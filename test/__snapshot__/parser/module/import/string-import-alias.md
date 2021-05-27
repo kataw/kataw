@@ -68,12 +68,6 @@ import {'' as x} from 'foo';
                             {
                                 "kind": 264,
                                 "moduleExportName": {
-                                    "kind": 16494,
-                                    "flags": 64,
-                                    "start": 12,
-                                    "end": 15
-                                },
-                                "name": {
                                     "kind": 201392131,
                                     "text": "🍕",
                                     "rawText": "'🍕'",
@@ -81,7 +75,13 @@ import {'' as x} from 'foo';
                                     "start": 8,
                                     "end": 12
                                 },
-                                "asKeyword": null,
+                                "name": null,
+                                "asKeyword": {
+                                    "kind": 16494,
+                                    "flags": 64,
+                                    "start": 12,
+                                    "end": 15
+                                },
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -152,12 +152,6 @@ import {'' as x} from 'foo';
                             {
                                 "kind": 264,
                                 "moduleExportName": {
-                                    "kind": 16494,
-                                    "flags": 64,
-                                    "start": 45,
-                                    "end": 48
-                                },
-                                "name": {
                                     "kind": 201392131,
                                     "text": "a b",
                                     "rawText": "'a b'",
@@ -165,7 +159,13 @@ import {'' as x} from 'foo';
                                     "start": 40,
                                     "end": 45
                                 },
-                                "asKeyword": null,
+                                "name": null,
+                                "asKeyword": {
+                                    "kind": 16494,
+                                    "flags": 64,
+                                    "start": 45,
+                                    "end": 48
+                                },
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -236,12 +236,6 @@ import {'' as x} from 'foo';
                             {
                                 "kind": 264,
                                 "moduleExportName": {
-                                    "kind": 16494,
-                                    "flags": 64,
-                                    "start": 87,
-                                    "end": 90
-                                },
-                                "name": {
                                     "kind": 201392131,
                                     "text": "𐀀",
                                     "rawText": "'\\uD800\\uDC00'",
@@ -249,7 +243,13 @@ import {'' as x} from 'foo';
                                     "start": 73,
                                     "end": 87
                                 },
-                                "asKeyword": null,
+                                "name": null,
+                                "asKeyword": {
+                                    "kind": 16494,
+                                    "flags": 64,
+                                    "start": 87,
+                                    "end": 90
+                                },
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -320,12 +320,6 @@ import {'' as x} from 'foo';
                             {
                                 "kind": 264,
                                 "moduleExportName": {
-                                    "kind": 16494,
-                                    "flags": 64,
-                                    "start": 117,
-                                    "end": 120
-                                },
-                                "name": {
                                     "kind": 201392131,
                                     "text": "",
                                     "rawText": "''",
@@ -333,7 +327,13 @@ import {'' as x} from 'foo';
                                     "start": 115,
                                     "end": 117
                                 },
-                                "asKeyword": null,
+                                "name": null,
+                                "asKeyword": {
+                                    "kind": 16494,
+                                    "flags": 64,
+                                    "start": 117,
+                                    "end": 120
+                                },
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -377,10 +377,10 @@ import {'' as x} from 'foo';
 
 ```javascript
 
-  "'🍕'" x }  ;
-  "'a b'" x }  ;
-  "'\uD800\uDC00'" x }  ;
-  "''" x }  ;
+  x }  ;
+  x }  ;
+  x }  ;
+  x }  ;
 ```
 
 ### Diagnostics

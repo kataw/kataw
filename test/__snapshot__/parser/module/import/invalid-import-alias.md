@@ -62,12 +62,6 @@ import {'\uD800' as x} from 'foo'
                             {
                                 "kind": 264,
                                 "moduleExportName": {
-                                    "kind": 16494,
-                                    "flags": 64,
-                                    "start": 16,
-                                    "end": 19
-                                },
-                                "name": {
                                     "kind": 201392131,
                                     "text": "\ud800",
                                     "rawText": "'\\uD800'",
@@ -75,7 +69,13 @@ import {'\uD800' as x} from 'foo'
                                     "start": 8,
                                     "end": 16
                                 },
-                                "asKeyword": null,
+                                "name": null,
+                                "asKeyword": {
+                                    "kind": 16494,
+                                    "flags": 64,
+                                    "start": 16,
+                                    "end": 19
+                                },
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -119,7 +119,7 @@ import {'\uD800' as x} from 'foo'
 
 ```javascript
 
-  "'\uD800'" x }  ;
+  x }  ;
 ```
 
 ### Diagnostics

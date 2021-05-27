@@ -121,12 +121,17 @@ switch (A) {default: D; case B: C; }
 
 ```javascript
 
+switch(A
+  default
+    D;
+  case B:
+    C;
+ 
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A 'default' clause cannot appear more than once in a 'switch' statement. - start: 34, end: 36
-
+✔ No errors
 ```
 

@@ -1,7 +1,7 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
+import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
 import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
-import { TokenSyntaxKind, createToken } from '../ast/token';
 import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 
 export const enum Tristate {
@@ -35,8 +35,8 @@ export const enum Context {
   OptionsNext = 1 << 0,
   OptionsAllowTypes = 1 << 1,
   OptionsDisableWebCompat = 1 << 2,
-  TopLevel = 1 << 3,
-  InBlock = 1 << 4, // If node was parsed in a block like 'BlockStatement' or 'FunctionStatementList'
+  TopLevel = 1 << 3, // If node was parsed at the top level
+  InBlock = 1 << 4, // If node was parsed in either 'BlockStatement' or 'FunctionStatementList'
   InStaticBlock = 1 << 5, // If node was parsed in a static block.
   AllowRegExp = 1 << 6, // Allow parsing an regular expression
   DisallowInContext = 1 << 7, // If node was parsed in a context where 'in-expressions' are not allowed
@@ -185,24 +185,28 @@ export function consume<T extends TokenSyntaxKind>(
   return false;
 }
 
-export function consumeOptToken<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): any {
+export function consumeOptToken<T extends TokenSyntaxKind>(
+  parser: ParserState,
+  context: Context,
+  token: T
+): SyntaxToken<T> | any {
   if (parser.token === token) {
-    const pos = parser.curPos;
-    const kind = parser.token;
-    const flags = parser.nodeFlags;
+    const { curPos, token, nodeFlags } = parser;
     nextToken(parser, context);
-    return createToken(kind, flags | NodeFlags.ChildLess, pos, parser.curPos);
+    return createToken(token, nodeFlags | NodeFlags.ChildLess, curPos, parser.curPos);
   }
   return null;
 }
 
-export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): any {
-  const pos = parser.curPos;
-  const kind = parser.token;
-  const flags = parser.nodeFlags;
+export function consumeToken<T extends TokenSyntaxKind>(
+  parser: ParserState,
+  context: Context,
+  token: T
+): SyntaxToken<T> | any {
   if (parser.token === token) {
+    const { curPos, token, nodeFlags } = parser;
     nextToken(parser, context);
-    return createToken(kind, flags, pos, parser.curPos);
+    return createToken(token, nodeFlags, curPos, parser.curPos);
   }
 
   return null;
@@ -214,10 +218,9 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
   token: T,
   pos: number
 ): any {
-  const kind = parser.token;
-  const flags = parser.nodeFlags;
   if (parser.token === token) {
-    if (flags & 0b00000000000000000110000000000000) {
+    const { token, nodeFlags } = parser;
+    if (nodeFlags & 0b00000000000000000110000000000000) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -227,7 +230,7 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
       );
     }
     nextToken(parser, context);
-    return createToken(kind, flags, pos, parser.curPos);
+    return createToken(token, nodeFlags, pos, parser.curPos);
   }
   return null;
 }
