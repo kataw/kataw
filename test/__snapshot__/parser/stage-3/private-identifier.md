@@ -278,7 +278,7 @@ class C {
 
   constructor() {
     class D {
-      import ;
+       ;
     }
   }
 }

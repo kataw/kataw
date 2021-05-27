@@ -77,7 +77,7 @@ export default () => x
 
 ```javascript
 
- default () =>  x;
+export default () =>  x;
 ```
 
 ### Diagnostics

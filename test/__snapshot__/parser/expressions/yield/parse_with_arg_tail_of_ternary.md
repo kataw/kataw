@@ -145,7 +145,7 @@ function *f() { 1 ? 2 : yield 3; }
 ```javascript
 
 function * f() {
-  1 ? 2 :  3;
+  1 ? 2 : yield 3;
 }
 ```
 

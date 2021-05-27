@@ -123,7 +123,7 @@
 ```javascript
 
 function * a() {
-   2e308;
+  yield 2e308;
 }
 ```
 

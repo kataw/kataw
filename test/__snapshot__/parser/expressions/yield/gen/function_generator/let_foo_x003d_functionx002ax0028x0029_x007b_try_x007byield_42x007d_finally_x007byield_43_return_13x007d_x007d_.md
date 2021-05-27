@@ -341,9 +341,9 @@ function * gen() {
   function not_gen() {
     let foo = function * () {
       try {
-         42;
+        yield 42;
       } try{
-         43;
+        yield 43;
         return  13;
       }
     };

@@ -87,7 +87,7 @@ for (let [] = x;;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

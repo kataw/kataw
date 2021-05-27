@@ -200,7 +200,7 @@ var C = class { static async *gen() {
 
 var C = class  {
   async static static gen() {
-    void  ;
+    void  yield;
   }
 };
 ```

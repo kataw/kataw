@@ -161,7 +161,7 @@ async function f(){
 ```javascript
 
 async function f() {
-  for (; x; of);
+  for (a ? b : c; x; of);
 }
 ```
 

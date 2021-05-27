@@ -182,7 +182,9 @@ for (function(){ if (a in b); }.prop in x);
 
 ```javascript
 
-for ( in x);
+for (function () {
+  if (a in b);
+}.prop in x);
 ```
 
 ### Diagnostics

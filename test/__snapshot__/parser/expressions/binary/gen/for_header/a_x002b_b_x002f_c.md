@@ -100,7 +100,7 @@ for ( a + b / c ;;);
 
 ```javascript
 
-for (; ; );
+for (a + b / c; ; );
 ```
 
 ### Diagnostics

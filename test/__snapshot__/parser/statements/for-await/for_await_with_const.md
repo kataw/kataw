@@ -153,7 +153,7 @@ async function f() { for await (const x of y) {} }
 ```javascript
 
 async function f() {
-  for await ( of y)
+  for await (const of y)
     {
     }
 }

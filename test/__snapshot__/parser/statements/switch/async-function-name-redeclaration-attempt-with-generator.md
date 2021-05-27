@@ -197,12 +197,12 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
 
 ```javascript
 
-switch(0
+switch(0) {
   case 1:
     async function f() {}
   default
     function * f() {}
- 
+}
 ```
 
 ### Diagnostics

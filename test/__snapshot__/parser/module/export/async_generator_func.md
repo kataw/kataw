@@ -124,7 +124,7 @@ export default async function *f(){} foo
 
 ```javascript
 
- default async function * f() {};
+export default async function * f() {};
 foo;
 ```
 

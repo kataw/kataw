@@ -124,7 +124,7 @@ import {bar, baz,} from "foo";
 
 ```javascript
 
-  bar, baz }  ;
+import { bar, baz }  ;
 ```
 
 ### Diagnostics

@@ -82,7 +82,7 @@ for (let a;;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

@@ -116,7 +116,7 @@ for ([].b in c) d;
 
 ```javascript
 
-for ( in c)
+for ([].b in c)
   d;
 ```
 

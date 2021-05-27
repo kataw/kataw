@@ -238,9 +238,9 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 
 let foo = function * () {
   try {
-     42;
+    yield 42;
   } try{
-     43;
+    yield 43;
     return  13;
   }
 };

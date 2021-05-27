@@ -113,7 +113,7 @@ foo: for (x in y) continue foo
 
 ```javascript
 
-foo: for ( in y)
+foo: for (x in y)
   continue foo;
 ```
 

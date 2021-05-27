@@ -117,7 +117,7 @@ function *g() { new yield }
 ```javascript
 
 function * g() {
-  new   ();
+  new   yield();
 }
 ```
 

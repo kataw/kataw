@@ -213,10 +213,10 @@
 ```javascript
 
 var gfe = function * rgfe() {
-  switch(1
-    case  "'foo'":
+  switch(1) {
+    case yield * "'foo'":
       break;
-
+  }
 };
 ```
 

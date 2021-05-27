@@ -105,7 +105,7 @@ export let x, y
 
 ```javascript
 
- let x, y;
+export let x, y;
 ```
 
 ### Diagnostics

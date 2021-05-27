@@ -96,69 +96,51 @@ async function f(){ let y = x => await x; }
                                             "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
-                                                "kind": 216,
-                                                "functionStatementList": {
-                                                    "kind": 217,
-                                                    "directives": [],
-                                                    "statements": [
-                                                        {
-                                                            "kind": 120,
-                                                            "expression": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
-                                                                "start": 32,
-                                                                "end": 38
-                                                            },
-                                                            "flags": 16,
-                                                            "start": 32,
-                                                            "end": 38
-                                                        },
-                                                        {
-                                                            "kind": 120,
-                                                            "expression": {
-                                                                "kind": 134299649,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 96,
-                                                                "start": 38,
-                                                                "end": 40
-                                                            },
-                                                            "flags": 16,
-                                                            "start": 38,
-                                                            "end": 41
-                                                        }
-                                                    ],
-                                                    "flags": 32,
-                                                    "start": 32,
-                                                    "end": 41
-                                                },
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "await",
+                                                "rawText": "await",
+                                                "flags": 96,
                                                 "start": 32,
-                                                "end": 43
+                                                "end": 38
                                             },
                                             "flags": 32,
                                             "start": 27,
-                                            "end": 43
+                                            "end": 38
                                         },
                                         "flags": 16,
                                         "start": 23,
-                                        "end": 43
+                                        "end": 38
+                                    },
+                                    {
+                                        "kind": 190,
+                                        "binding": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 38,
+                                            "end": 40
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 16,
+                                        "start": 38,
+                                        "end": 40
                                     }
                                 ],
                                 "flags": 16,
                                 "start": 23,
-                                "end": 43
+                                "end": 40
                             },
                             "flags": 33554448,
                             "start": 19,
-                            "end": 43
+                            "end": 41
                         }
                     ],
                     "flags": 32,
                     "start": 19,
-                    "end": 43
+                    "end": 41
                 },
                 "flags": 32,
                 "start": 18,
@@ -189,8 +171,7 @@ async function f(){ let y = x => await x; }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 38, end: 40
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
+✖ ',' expected - start: 38, end: 40
 
 ```
 

@@ -134,7 +134,7 @@ for (let {a, [x]: y} = a;;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

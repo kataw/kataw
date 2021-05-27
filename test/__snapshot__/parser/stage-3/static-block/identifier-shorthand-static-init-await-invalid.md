@@ -138,7 +138,7 @@ class C {
 // IdentifierReference may not be `await` within class static blocks
 
 class C {
-  import ;
+   ;
 }
 ```
 

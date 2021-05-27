@@ -107,7 +107,7 @@ for (let a,b,c;;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

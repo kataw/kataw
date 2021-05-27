@@ -139,7 +139,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (; ; false);
+  for (x = 0; ; false);
 }
 ```
 

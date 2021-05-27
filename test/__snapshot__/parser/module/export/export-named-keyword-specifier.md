@@ -82,7 +82,7 @@ export {try};
 
 ```javascript
 
-  try };
+export { try };
 ```
 
 ### Diagnostics

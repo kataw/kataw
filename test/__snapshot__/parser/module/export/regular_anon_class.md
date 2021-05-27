@@ -97,7 +97,7 @@ export default class {} foo
 
 ```javascript
 
- default class  {};
+export default class  {};
 foo;
 ```
 

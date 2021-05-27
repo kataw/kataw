@@ -100,7 +100,7 @@ for ( a instanceof b > c ;;);
 
 ```javascript
 
-for (; ; );
+for (a inctanceof b > c; ; );
 ```
 
 ### Diagnostics

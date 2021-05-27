@@ -94,7 +94,7 @@ for (const a in b);
 
 ```javascript
 
-for ( in b);
+for (const in b);
 ```
 
 ### Diagnostics

@@ -102,7 +102,7 @@ for (yield[g]--;;);
 
 ```javascript
 
-for (; ; );
+for (--; ; );
 ```
 
 ### Diagnostics

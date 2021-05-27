@@ -124,10 +124,10 @@ switch (x) {
 
 ```javascript
 
-switch(x
+switch(x) {
   default
     function f() {}
- 
+}
 ```
 
 ### Diagnostics

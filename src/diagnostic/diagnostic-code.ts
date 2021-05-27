@@ -216,7 +216,8 @@ export const enum DiagnosticCode {
   Function_declarations_inside_if_statements_cannot_be_used_in_strict_mode = 216,
   _super_keyword_must_not_contain_escaped_characters = 217,
   Without_web_compability_enabled_functtion_declarations_are_disallowed_inside_if_statements = 218,
-  Cannot_use_yield_as_a_name_on_a_generator_function_expression = 219
+  Cannot_use_yield_as_a_name_on_a_generator_function_expression = 219,
+  _await_is_only_allowed_within_async_functions_and_at_the_top_levels_of_modules = 220
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -320,8 +321,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [100]: 'A type annotation is required for the `this` parameter.',
   [101]: 'The `this` parameter must be the first function parameter.',
   [102]: '`_` is only allowed as a type argument to call or new',
-  [103]:
-    'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
+  [103]: 'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
   [104]: 'Only declares and type imports are allowed inside declare module',
   [105]: "Class methods cannot have the 'declare' modifier",
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
@@ -362,8 +362,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [141]: 'Function declarations can only be declared at top level or inside a block in strict mode',
   [143]: "'try' expected",
   [144]: 'Expected a `;`',
-  [145]:
-    "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
+  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
   [146]: 'Unicode escapes at the start of labels should not allow keywords',
   [147]: "Identifier expected.  'await' is a reserved word in module goal",
   [148]: 'Duplicate label',
@@ -436,5 +435,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [216]: 'Function declarations inside if statements cannot be used in strict mode',
   [217]: "'super' keyword must not contain escaped characters",
   [218]: 'Without web compability enabled functtion declarations are disallowed inside if statements',
-  [219]: "Cannot use 'yield' as a name on a generator function expression"
+  [219]: "Cannot use 'yield' as a name on a generator function expression",
+  [220]: "'await' is only allowed within async functions and at the top levels of modules."
 };

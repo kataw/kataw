@@ -72,7 +72,7 @@ for (async in x) ;
 
 ```javascript
 
-for ( in x);
+for (async in x);
 ```
 
 ### Diagnostics

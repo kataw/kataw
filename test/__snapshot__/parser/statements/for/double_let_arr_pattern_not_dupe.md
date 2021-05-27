@@ -203,8 +203,8 @@ for (let [a]=x;;);
 
 ```javascript
 
-for (; ; );
-for (; ; );
+for (const; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

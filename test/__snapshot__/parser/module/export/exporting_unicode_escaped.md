@@ -129,7 +129,7 @@ export { abc }
 ```javascript
 
 var abc = 5;
-  abc };
+export { abc };
 ```
 
 ### Diagnostics

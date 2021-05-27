@@ -471,10 +471,10 @@ var gen = async function *g() {
 
 var gen = async function * g() {
   callCount += 1;
-   { ...  , ...(function (arg) {
+  yield { ...yield  yield, ...(function (arg) {
         var yield = arg;
         return  { ...yield };
-      }( )), ...  };
+      }( yield)), ... yield };
 };
 ```
 

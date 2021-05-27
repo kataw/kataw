@@ -143,7 +143,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (; ; false);
+  for (const; ; false);
 }
 ```
 

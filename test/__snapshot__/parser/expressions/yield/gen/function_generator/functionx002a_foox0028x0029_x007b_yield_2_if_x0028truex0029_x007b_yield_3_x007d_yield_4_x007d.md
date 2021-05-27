@@ -314,11 +314,11 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
 function * gen() {
   function not_gen() {
     function * foo() {
-       2;
+      yield 2;
       if (true) {
-           3;
+          yield 3;
         }
-       4;
+      yield 4;
     }
   }
 }

@@ -641,8 +641,8 @@ function *infer_stmt() {
 ```javascript
 
 function * stmt_yield() {
-   0;
-   "\"\"";
+  yield 0;
+  yield "\"\"";
 }
 function * stmt_return_ok() {
   return  0;
@@ -651,7 +651,7 @@ function * stmt_return_err() {
   return  "\"\"";
 }
 function * infer_stmt() {
-  var x =  0;
+  var x = yield 0;
   return  "\"\"";
 }
 ```

@@ -119,7 +119,7 @@ for (let a;;) { let a; }
 
 ```javascript
 
-for (; ; )
+for (const; ; )
   {}
 ```
 

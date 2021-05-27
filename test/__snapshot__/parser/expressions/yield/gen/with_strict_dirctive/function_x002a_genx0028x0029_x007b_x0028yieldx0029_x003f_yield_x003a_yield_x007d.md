@@ -170,7 +170,7 @@
 ```javascript
 
 function * gen() {
-  ( ) ?   :  ;
+  ( yield) ?  yield :  yield;
 }
 ```
 

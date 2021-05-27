@@ -163,7 +163,7 @@ class x { foo(x=super.foo){ }}
 ```javascript
 
 class x {
-  foo(x = .foo) {}
+  foo(x = super.foo) {}
 }
 ```
 

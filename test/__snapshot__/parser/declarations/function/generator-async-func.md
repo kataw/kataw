@@ -164,7 +164,7 @@ function* wrap() {
 ```javascript
 
 function * wrap() {
-  async(a =  b)
+  async(a = yield b)
 }
 
 ```

@@ -159,7 +159,7 @@ function *f() { yield
 ```javascript
 
 function * f() {
-   {} / 1 / g;
+  yield {} / 1 / g;
 }
 ```
 

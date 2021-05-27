@@ -90,7 +90,7 @@ for (true.x in c) d;
 
 ```javascript
 
-for ( in c)
+for (true.x in c)
   d;
 ```
 

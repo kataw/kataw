@@ -151,7 +151,7 @@ for (const x in [1, 2, 3]) { x++ }
 
 ```javascript
 
-for ( in [1, 2, 3])
+for (const in [1, 2, 3])
   {}
 ```
 

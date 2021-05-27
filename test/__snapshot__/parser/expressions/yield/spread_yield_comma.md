@@ -151,7 +151,7 @@ function *g() {x={     ...yield,    };}
 ```javascript
 
 function * g() {
-  x = { ...  };
+  x = { ... yield };
 }
 ```
 

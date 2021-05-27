@@ -116,7 +116,7 @@ function* test () { yield *v }
 ```javascript
 
 function * test() {
-   v;
+  yield * v;
 }
 ```
 

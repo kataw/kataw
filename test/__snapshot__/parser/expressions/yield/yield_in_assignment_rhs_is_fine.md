@@ -141,7 +141,7 @@ function* g() { let x = yield 3; }
 ```javascript
 
 function * g() {
-  let x =  3;
+  let x = yield 3;
 }
 ```
 

@@ -191,7 +191,7 @@ class x { constructor(){ return () => () => super.foo; }}
 
 class x {
   constructor() {
-    return  () =>  () =>  .foo;
+    return  () =>  () =>  super.foo;
   }
 }
 ```

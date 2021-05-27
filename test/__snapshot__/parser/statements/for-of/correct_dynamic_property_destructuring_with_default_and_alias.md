@@ -131,7 +131,7 @@ for (let {[x]: y = z} of obj);
 
 ```javascript
 
-for ( of obj);
+for (const of obj);
 ```
 
 ### Diagnostics

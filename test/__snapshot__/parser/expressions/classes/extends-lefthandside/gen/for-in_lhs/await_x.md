@@ -87,7 +87,7 @@ for (await x in x) ;
 
 ```javascript
 
-for (; ; x in x);
+for (await; ; x in x);
 ```
 
 ### Diagnostics

@@ -205,8 +205,8 @@ class C {
 ```javascript
 
 class C {
-  import ;
-  import ;
+   ;
+   ;
 }
 ```
 

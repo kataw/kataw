@@ -72,7 +72,7 @@ for (yield in x) ;
 
 ```javascript
 
-for ( in x);
+for (yield in x);
 ```
 
 ### Diagnostics

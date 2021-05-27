@@ -131,7 +131,7 @@ function *g() { [...yield]; }
 ```javascript
 
 function * g() {
-  [... ];
+  [... yield];
 }
 ```
 

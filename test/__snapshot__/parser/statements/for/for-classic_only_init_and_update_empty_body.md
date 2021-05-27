@@ -83,7 +83,7 @@ for (a;;c);
 
 ```javascript
 
-for (; c; );
+for (a; c; );
 ```
 
 ### Diagnostics

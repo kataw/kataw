@@ -102,7 +102,7 @@ import * as foo from "foo";
 
 ```javascript
 
- * as   ;
+import * as   ;
 ```
 
 ### Diagnostics

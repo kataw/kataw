@@ -87,7 +87,7 @@ export default (1 + 2);
 
 ```javascript
 
- default (1 + 2);
+export default (1 + 2);
 ```
 
 ### Diagnostics

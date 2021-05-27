@@ -115,7 +115,7 @@ if (x) { "use strict"; with (x) y; }
 
 if (x) {
     "\"use strict\"";
-    with (x y;
+    with (x) y;
   }
 ```
 

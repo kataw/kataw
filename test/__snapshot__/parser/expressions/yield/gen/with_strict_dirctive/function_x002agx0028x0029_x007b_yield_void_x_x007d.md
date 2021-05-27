@@ -135,7 +135,7 @@
 ```javascript
 
 function * g() {
-   void x;
+  yield void x;
 }
 ```
 

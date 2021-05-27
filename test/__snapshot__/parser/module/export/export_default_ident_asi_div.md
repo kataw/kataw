@@ -82,7 +82,7 @@ export default x
 
 ```javascript
 
- default x / y;
+export default x / y;
 ```
 
 ### Diagnostics

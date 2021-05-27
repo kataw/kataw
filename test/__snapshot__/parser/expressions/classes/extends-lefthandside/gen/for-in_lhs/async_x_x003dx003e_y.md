@@ -112,7 +112,7 @@ x => y in x) ;
 
 ```javascript
 
-for (; ; x =>  y in x);
+for (async; ; x =>  y in x);
 ```
 
 ### Diagnostics

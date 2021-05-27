@@ -4619,7 +4619,7 @@ x({ get 1() {} });
 ({ topLeft: { x: x1, y: y1 }, bottomRight: { x: x2, y: y2 } } = rect);
 ({ y });
 ({ set [0](x) {
-    .m("\"1\"", v);
+    super.m("\"1\"", v);
   } });
 x = { async: b }({ set foo(v) {} });
 ({ * set() {} });

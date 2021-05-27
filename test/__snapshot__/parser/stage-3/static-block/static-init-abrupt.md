@@ -376,10 +376,10 @@ try {
 
 try {
   class C {
-    import ;
+     ;
     static x = subsequentField = true;
 
-    import ;
+     ;
   }
 } catch (error) {
   caught = error;

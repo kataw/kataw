@@ -142,7 +142,7 @@ a => {
 ```javascript
 
 a =>  {
-  for ( of b)
+  for (const of b)
     c;
 };
 ```

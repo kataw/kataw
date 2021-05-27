@@ -113,7 +113,7 @@ for ({}.u |= c;;) x;
 
 ```javascript
 
-for (; ; )
+for ({}.u |= c; ; )
   x;
 ```
 

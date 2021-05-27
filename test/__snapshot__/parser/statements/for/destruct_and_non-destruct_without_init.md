@@ -123,7 +123,7 @@ for (let [foo] = arr, bar;;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

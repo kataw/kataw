@@ -213,5 +213,6 @@
   "Function declarations inside if statements cannot be used in strict mode": 216,
   "'super' keyword must not contain escaped characters": 217,
   "Without web compability enabled functtion declarations are disallowed inside if statements": 218,
-  "Cannot use 'yield' as a name on a generator function expression": 219
+  "Cannot use 'yield' as a name on a generator function expression": 219,
+  "'await' is only allowed within async functions and at the top levels of modules.": 220
 }

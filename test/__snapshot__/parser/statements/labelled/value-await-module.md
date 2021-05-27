@@ -22,8 +22,8 @@ await: 1;
     "directives": [],
     "statements": [
         {
-            "kind": 120,
-            "expression": {
+            "kind": 163,
+            "label": {
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 90224,
@@ -42,22 +42,37 @@ await: 1;
                 "start": 0,
                 "end": 5
             },
-            "flags": 16,
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 1,
-                "rawText": "1",
-                "flags": 96,
+            "labels": [
+                {
+                    "kind": 256,
+                    "iterationStatement": false,
+                    "flags": 16,
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 5,
+                "end": 6
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 201392130,
+                    "text": 1,
+                    "rawText": "1",
+                    "flags": 96,
+                    "start": 6,
+                    "end": 8
+                },
+                "flags": 16,
                 "start": 6,
-                "end": 8
+                "end": 9
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 9
         }
     ],
@@ -80,6 +95,7 @@ await: 1;
 
 ```javascript
 ✖ Expression expected - start: 5, end: 6
+✖ Identifier expected.  'await' is a reserved word in module goal - start: 0, end: 6
 
 ```
 

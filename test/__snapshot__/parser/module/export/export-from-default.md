@@ -101,7 +101,7 @@ export {default} from "foo";
 
 ```javascript
 
-  default } from ;
+export { default } from ;
 ```
 
 ### Diagnostics

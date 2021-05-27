@@ -26,8 +26,8 @@ var await;
     "directives": [],
     "statements": [
         {
-            "kind": 120,
-            "expression": {
+            "kind": 163,
+            "label": {
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 90224,
@@ -46,19 +46,41 @@ var await;
                 "start": 0,
                 "end": 6
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "iterationStatement": false,
+                    "flags": 16,
+                    "start": 0,
+                    "end": 6
+                },
+                {
+                    "kind": 256,
+                    "iterationStatement": false,
+                    "flags": 16401,
+                    "start": 9,
+                    "end": 22
+                }
+            ],
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 6,
+                "end": 7
+            },
+            "statement": {
+                "kind": 168,
+                "flags": 16,
+                "start": 7,
+                "end": 9
+            },
             "flags": 16,
             "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 7,
             "end": 9
         },
         {
-            "kind": 120,
-            "expression": {
+            "kind": 163,
+            "label": {
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 90224,
@@ -77,14 +99,36 @@ var await;
                 "start": 9,
                 "end": 22
             },
-            "flags": 16,
+            "labels": [
+                {
+                    "kind": 256,
+                    "iterationStatement": false,
+                    "flags": 16,
+                    "start": 0,
+                    "end": 6
+                },
+                {
+                    "kind": 256,
+                    "iterationStatement": false,
+                    "flags": 16401,
+                    "start": 9,
+                    "end": 22
+                }
+            ],
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 22,
+                "end": 23
+            },
+            "statement": {
+                "kind": 168,
+                "flags": 16,
+                "start": 23,
+                "end": 25
+            },
+            "flags": 16401,
             "start": 9,
-            "end": 22
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 23,
             "end": 25
         },
         {
@@ -145,8 +189,11 @@ var await;
 
 ```javascript
 ✖ Expression expected - start: 6, end: 7
+✖ Identifier expected.  'await' is a reserved word in module goal - start: 0, end: 7
 ✖ 'await' keyword must not contain escaped characters - start: 9, end: 9
 ✖ Expression expected - start: 22, end: 23
+✖ Unicode escapes at the start of labels should not allow keywords - start: 9, end: 23
+✖ Duplicate label - start: 9, end: 23
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 30, end: 36
 
 ```

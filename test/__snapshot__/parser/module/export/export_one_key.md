@@ -120,7 +120,7 @@ export {x}; var x;
 
 ```javascript
 
-  x };
+export { x };
 var x;
 ```
 

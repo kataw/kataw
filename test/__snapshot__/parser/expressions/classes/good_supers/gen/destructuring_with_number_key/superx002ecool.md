@@ -236,7 +236,7 @@ class x extends y {
 
 class x  {
   constructor() {
-    ({ 123: .cool } = x);
+    ({ 123: super.cool } = x);
   }
 }
 ```

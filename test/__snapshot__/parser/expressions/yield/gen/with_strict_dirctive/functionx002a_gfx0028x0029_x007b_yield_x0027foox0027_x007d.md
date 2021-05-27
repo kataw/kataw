@@ -123,7 +123,7 @@
 ```javascript
 
 function * gf() {
-   "'foo'";
+  yield "'foo'";
 }
 ```
 

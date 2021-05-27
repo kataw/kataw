@@ -156,7 +156,7 @@ function *f() {
 ```javascript
 
 function * f() {
-   a inctanceof b + c;
+  yield a inctanceof b + c;
 }
 ```
 

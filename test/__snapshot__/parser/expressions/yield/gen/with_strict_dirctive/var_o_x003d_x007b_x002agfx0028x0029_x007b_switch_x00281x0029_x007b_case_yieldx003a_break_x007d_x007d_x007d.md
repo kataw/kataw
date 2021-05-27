@@ -218,10 +218,10 @@
 ```javascript
 
 var o = { * gf() {
-    switch(1
-      case  :
+    switch(1) {
+      case  yield:
         break;
-
+    }
   } };
 ```
 

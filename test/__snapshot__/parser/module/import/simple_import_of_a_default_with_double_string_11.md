@@ -136,7 +136,7 @@ import {x, z as b} from "y"
 
 ```javascript
 
-  x, z asb }  ;
+import { x, z asb }  ;
 ```
 
 ### Diagnostics

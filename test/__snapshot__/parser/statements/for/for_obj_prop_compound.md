@@ -124,7 +124,7 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for (; ; )
+for ( ^= x; ; )
   x;
 ```
 

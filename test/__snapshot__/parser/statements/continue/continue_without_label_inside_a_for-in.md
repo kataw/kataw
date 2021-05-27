@@ -76,7 +76,7 @@ for (x in y) continue
 
 ```javascript
 
-for ( in y)
+for (x in y)
   continue;
 ```
 

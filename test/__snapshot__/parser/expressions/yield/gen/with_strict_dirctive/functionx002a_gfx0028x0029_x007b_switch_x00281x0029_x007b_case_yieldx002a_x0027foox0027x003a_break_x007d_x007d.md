@@ -177,10 +177,10 @@
 ```javascript
 
 function * gf() {
-  switch(1
-    case  "'foo'":
+  switch(1) {
+    case yield * "'foo'":
       break;
-
+  }
 }
 ```
 

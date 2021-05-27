@@ -82,8 +82,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printExportFromClause(node, printer);
     case SyntaxKind.ExportSpecifier:
       return printExportSpecifier(node, printer);
-    case SyntaxKind.ExportDeclaration:
-      return printExportDeclaration(node, printer);
     case SyntaxKind.ImportSpecifier:
       return printImportSpecifier(node, printer, parentNode);
     case SyntaxKind.ImportClause:
@@ -101,7 +99,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
     case SyntaxKind.ClassTail:
       return printClassTail(node, printer, parentNode);
     case SyntaxKind.ClassBody:
-      console.log(node);
       return printClassBody(node, printer, parentNode);
     case SyntaxKind.ClassDeclaration:
       return printClassDeclarationOrExpression(node, printer);
@@ -160,8 +157,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
     case SyntaxKind.LexicalBinding:
     case SyntaxKind.VariableDeclaration:
       return printVariableDeclarationOrLexicalBinding(node, printer);
-    case SyntaxKind.ExportDefault:
-      return printExportDefault(node, printer);
     case SyntaxKind.ExportFromClause:
       return printExportFromClause(node, printer);
     case SyntaxKind.ExportSpecifier:
@@ -172,8 +167,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printImportSpecifier(node, printer, parentNode);
     case SyntaxKind.ImportClause:
       return printImportClause(node, printer, parentNode);
-    case SyntaxKind.ImportDeclaration:
-      return printImportDeclaration(node, printer);
     case SyntaxKind.FieldDefinition:
       return printFieldDefinition(node, printer);
     case SyntaxKind.ClassElement:
@@ -218,6 +211,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return node.text;
     case SyntaxKind.CoverInitializedName:
       return printCoverInitializedName(node, printer);
+    case SyntaxKind.Super:
+      return printSuper(node, printer);
     case SyntaxKind.PropertyDefinition:
       return printPropertyDefinition(node, printer);
     case SyntaxKind.PropertyMethod:
@@ -312,7 +307,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
 
 function printYieldExpression(node: any, printer: Printer): any {
   return chain([
-    printTokenWithComment(node.delegate ? 'yield*' : 'yield', node.start, printer, node, true),
+    printTokenWithComment(node.yieldKeyword, node.start, printer, node, true),
+    node.asteriskToken ? printTokenWithComment(node.asteriskToken, node.start, printer, node, true) : '',
     node.expression ? printExpressions(node.expression, printer, node) : ''
   ]);
 }
@@ -509,14 +505,14 @@ function printExportSpecifier(node: any, printer: Printer): any {
     ? chain([
         printExpressions(node.name, printer, node),
         printer.space,
-        printTokenWithComment('as', node.name.end, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.name.end, printer, node, true),
         printExpressions(node.moduleExportName, printer, node)
       ])
     : node.binding
     ? chain([
         printExpressions(node.name, printer, node),
         printer.space,
-        printTokenWithComment('as', node.name.end, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.name.end, printer, node, true),
         printExpressions(node.binding, printer, node)
       ])
     : printExpressions(node.name, printer, node);
@@ -524,46 +520,12 @@ function printExportSpecifier(node: any, printer: Printer): any {
 
 function printExportDefault(node: any, printer: Printer): any {
   return chain([
-    printTokenWithComment('export', node.start, printer, node, true),
+    printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
     'default',
     printer.space,
     printStatements(node.declaration, printer, node),
     ';'
   ]);
-}
-
-function printImportEqualsDeclaration(node: any, printer: Printer): any {
-  return chain([
-    printTokenWithComment('import', node.start, printer, node, false),
-    printer.space,
-    printStatements(node.name, printer, node),
-    printer.space,
-    printTokenWithComment('=', node.name.end, printer, node, true),
-    printStatements(node.moduleReference, printer, node),
-    ';'
-  ]);
-}
-
-function printExternalModuleReference(node: any, printer: Printer): any {
-  return chain([
-    printTokenWithComment('require(', node.start, printer, node, false),
-    printExpressions(node.expression, printer, node),
-    ')'
-  ]);
-}
-
-function printExportAssignment(node: any, printer: Printer): any {
-  return chain([
-    printTokenWithComment('export', node.start, printer, node, true),
-    '=',
-    printer.space,
-    printExpressions(node.expression, printer, node),
-    ';'
-  ]);
-}
-
-function printNamespaceExportDeclaration(node: any, printer: Printer): any {
-  return chain(['export as namespace ', printExpressions(node.name, printer, node), ';']);
 }
 
 function printFromClause(node: any, printer: Printer): any {
@@ -574,14 +536,14 @@ function printExportFromClause(node: any, printer: Printer): any {
   return node.namedBinding
     ? chain([
         printer.space,
-        printTokenWithComment('as', node.start, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.start, printer, node, true),
         printExpressions(node.namedBinding, printer, node)
       ])
     : node.moduleExportName
     ? // arbitrary module namespace names
       chain([
         printer.space,
-        printTokenWithComment('as', node.start, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.start, printer, node, true),
         printExpressions(node.moduleExportName, printer, node)
       ])
     : '';
@@ -594,14 +556,14 @@ function printNamedExports(node: any, printer: Printer, parentNode: any): any {
 function printExportDeclaration(node: any, printer: Printer): any {
   if (node.declaration) {
     return chain([
-      printTokenWithComment('export', node.start, printer, node, true),
+      printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
       printStatements(node.declaration, printer, node)
     ]);
   }
 
   if (node.namedExports) {
     return chain([
-      printTokenWithComment('export', node.start, printer, node, true),
+      printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
       printNamedExports(node.namedExports, printer, node),
       printFromClause(node.fromClause, printer),
       ';'
@@ -610,7 +572,7 @@ function printExportDeclaration(node: any, printer: Printer): any {
 
   if (node.exportFromClause) {
     return chain([
-      printTokenWithComment('export', node.start, printer, node, true),
+      printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
       '*',
       printExportFromClause(node.exportFromClause, printer),
       printFromClause(node.fromClause, printer),
@@ -663,14 +625,14 @@ function printImportClause(node: any, printer: Printer, _parentNode: any): any {
 function printImportDeclaration(node: any, printer: Printer): any {
   return node.importClause
     ? chain([
-        printTokenWithComment('import', node.start, printer, node, true),
+        printTokenWithComment(node.importKeyword, node.start, printer, node, true),
         printImportClause(node.importClause, printer, node),
         printer.space,
-        printTokenWithComment('from', node.importClause.end, printer, node, true),
+        printTokenWithComment(node.fromKeyword, node.importClause.end, printer, node, true),
         printExpressions(node.fromClause, printer, node),
         ';'
       ])
-    : chain(['import', printer.space, printExpressions(node.moduleSpecifier, printer, node), ';']);
+    : chain([node.importKeyword, printer.space, printExpressions(node.moduleSpecifier, printer, node), ';']);
 }
 
 function printNamedImports(node: any, printer: Printer): any {
@@ -683,7 +645,7 @@ function printImportsList(node: any, printer: Printer, parentNode: any): any {
   }
   return group(
     chain([
-      printTokenWithComment('{', node.start, printer, node, false),
+      '{',
       indent(
         chain([
           printer.bracketSpacing ? line : softline,
@@ -708,8 +670,8 @@ function printImportSpecifier(node: any, printer: Printer, parentNode: any): any
     : printExpressions(node.binding, printer, parentNode);
 }
 
-function printSuper(_node: any): any {
-  return 'super';
+function printSuper(node: any, printer: Printer): any {
+  return printTokenWithComment(node.superKeyword, node.start, printer, node, false);
 }
 
 function printDoWhileStatement(node: any, printer: Printer): any {
@@ -790,7 +752,7 @@ function printWithStatement(node: any, printer: Printer): any {
     printer.space,
     '(',
     printExpressions(node.expression, printer, node),
-    printTokenWithComment(')', node.expression.end, printer, node, false),
+    ')',
     adjustClause(node.statement, printer, printStatements(node.statement, printer, node))
   ]);
 }
@@ -918,7 +880,7 @@ function printSwitchStatement(node: any, printer: Printer): any {
         printKeyword(node.switchKeyword, printer, node.start, node, /* separator */ false),
         '(',
         group(chain([indent(chain([softline, printExpressions(node.expression, printer, node)])), softline])),
-        printTokenWithComment(')', node.expression.end, printer, node, false),
+        ')',
         printer.space
       ])
     ),
@@ -928,12 +890,12 @@ function printSwitchStatement(node: any, printer: Printer): any {
 
 function printCaseBlock(node: any, printer: Printer): any {
   return chain([
-    printTokenWithComment('{', node.start, printer, node, true),
+    '{',
     node.clauses.length > 0
       ? indent(chain([hardline, chain(printDelimitedList(node.clauses, printer, node, printStatements, ''))]))
       : '',
     hardline,
-    printTokenWithComment('}', node.clauses.end, printer, node, true)
+    '}'
   ]);
 }
 
@@ -1049,9 +1011,7 @@ function printClassBody(node: any, printer: Printer, parentNode: any): any {
     if (node.elements.length === 0) {
       return '{}';
     }
-  } catch (x) {
-    console.log(printer.source);
-  }
+  } catch (x) {}
   return chain([
     '{',
     indent(chain([hardline, printList(node.elements, printer, parentNode, printStatements)])),
@@ -1119,7 +1079,7 @@ function printForInStatement(node: any, printer: Printer): any {
   return chain([
     printKeyword(node.forKeyword, printer, node.start, node, /* separator */ true),
     printPunctuator('(', node.forKeyword.end, node),
-    printForBinding(node.initializer, printer),
+    printForBinding(node.initializer, printer, node),
     printer.space,
     printKeyword(node.inKeyword, printer, node.initializer.end, node, /* separator */ true),
     printExpressions(node.expression, printer, node),
@@ -1133,7 +1093,7 @@ function printForOfStatement(node: any, printer: Printer): any {
     printKeyword(node.forKeyword, printer, node.start, node, /* separator */ true),
     printKeyword(node.awaitKeyword, printer, node.forKeyword.end, node, /* separator */ true),
     printPunctuator('(', node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end, node),
-    printForBinding1(node.initializer, printer, node),
+    printForBinding(node.initializer, printer, node),
     printer.space,
     printKeyword(node.ofKeyword, printer, node.initializer.end, node, /* separator */ true),
     printExpressions(node.expression, printer, node),
@@ -1158,7 +1118,16 @@ function printForStatement(node: any, printer: Printer): any {
     group(
       chain([
         indent(
-          chain([softline, printForBinding(node.initializer, printer), ';', line, condition, ';', line, incrementor])
+          chain([
+            softline,
+            printForBinding(node.initializer, printer, node),
+            ';',
+            line,
+            condition,
+            ';',
+            line,
+            incrementor
+          ])
         ),
         softline
       ])
@@ -1180,24 +1149,12 @@ function adjustClause(node: any, printer: Printer, clause: any, forceSpace?: any
   return indent(chain([line, clause]));
 }
 
-function printForBinding(node: any, printer: Printer): any {
-  if (node != null) {
-    if (node && node.kind === SyntaxKind.VariableDeclaration) {
-      return printVariableStatement(node, printer, /* inForStatement */ true);
-    }
-    if (node && node.kind === SyntaxKind.LexicalDeclaration) {
-      return printLexicalDeclaration(node, printer, /* inForStatement */ true);
-    }
-    printExpressions(node, printer, node);
-  }
-}
-
-function printForBinding1(node: any, printer: Printer, parentNode: any): any {
+function printForBinding(node: any, printer: Printer, parentNode: any): any {
   if (node && node.kind === SyntaxKind.VariableDeclaration) {
     return printVariableStatement(node, printer, /* inForStatement */ true);
   }
-  if (node && node.kind === SyntaxKind.LexicalDeclaration) {
-    return printLexicalDeclaration(node, printer, /* inForStatement */ true);
+  if (node && node.kind === SyntaxKind.BindingList) {
+    return chain([node.flags & NodeFlags.Const ? 'const' : 'let', printBindingList(node.bindingList, printer)]);
   }
   return printStatements(node, printer, parentNode);
 }
@@ -1701,7 +1658,6 @@ function printFunctionDeclarationOrExpression(node: any, printer: Printer): any 
   }
 
   parts.push(
-    //printTypeParameters(node.typeParameters, printer, node),
     group(
       chain([printStatements(node.formalParameters, printer, node) /*printTypeAnnotation(node.type, printer, node)*/])
     ),
@@ -1842,10 +1798,10 @@ function printMemberAccessExpression(node: any, printer: Printer): any {
   return group(
     chain([
       printExpressions(node.member, printer, node),
-      printTokenWithComment('[', node.member.end, printer, node),
+      '[',
       indent(chain([softline, printExpressions(node.expression, printer, node)])),
       softline,
-      printTokenWithComment(']', node.expression.end, printer, node)
+      ']'
     ])
   );
 }

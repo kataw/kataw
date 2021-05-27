@@ -136,7 +136,7 @@ function * x () {
 ```javascript
 
 function * x() {
-  y:  ;
+  y:  yield;
 }
 ```
 
