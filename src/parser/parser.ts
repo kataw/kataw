@@ -1116,7 +1116,7 @@ function parseForStatement(
   let destructible!: DestructibleKind;
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
-  if (awaitKeyword && (context & Context.AwaitContext) === 0) {
+  if (awaitKeyword && (context & (Context.Module | Context.AwaitContext)) === 0) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1546,12 +1546,7 @@ function parseBlockStatement(
 ): BlockStatement {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
-    const block = parseBlock(
-      parser,
-      (context | Context.InBlock | Context.TopLevel) ^ Context.TopLevel,
-      scope,
-      isCatchScope
-    );
+    const block = parseBlock(parser, context | Context.InBlock, scope, isCatchScope);
     consume(
       parser,
       context | Context.AllowRegExp,
@@ -2079,8 +2074,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context | Context.TopLevel | 0b00000000010000000101111000000000) ^
-        (Context.TopLevel | 0b00000000010000000101111000000000)) |
+      ((context | 0b00000000010000000101111000000000) ^ 0b00000000010000000101111000000000) |
         (asyncToken ? Context.AwaitContext : Context.None),
       scope,
       (flags & NodeFlags.NoneSimpleParamList) === 0
@@ -2334,7 +2328,7 @@ function parsePrimaryExpression(
       return parseThisExpression(parser, context);
     }
 
-    if (context & context & Context.AwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
+    if (context & (Context.AwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
       return parseAwaitExpression(parser, context, inNewExpression, LeftHandSideContext);
     }
 
@@ -5145,7 +5139,7 @@ function parseFunctionExpression(
   context =
     ((context | Context.TopLevel | 0b00001001100000110100011010000000) ^
       (Context.TopLevel | 0b00001001100000110100011010000000)) |
-    (asyncToken ? Context.AwaitContext : Context.None) |
+    (asyncToken ? Context.TopLevel | Context.AwaitContext : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
   scope = createParentScope(scope, ScopeKind.FunctionParams);
   const formalParameterList = parseFormalParameterList(
@@ -5415,7 +5409,7 @@ function parseFunctionDeclaration(
   context =
     ((context | Context.TopLevel | 0b00001001100000110100011010000000) ^
       (Context.TopLevel | 0b00001001100000110100011010000000)) |
-    (asyncToken ? Context.AwaitContext : Context.None) |
+    (asyncToken ? Context.TopLevel | Context.AwaitContext : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
 
   innerScope = createParentScope(innerScope, ScopeKind.FunctionParams);
@@ -5497,8 +5491,8 @@ function parseFunctionBody(
   ) {
     const statementList = parseFunctionStatementList(
       parser,
-      (context | Context.InsideSwitch | Context.InsideLoop | Context.Parameters | Context.TopLevel) ^
-        (Context.InsideSwitch | Context.InsideLoop | Context.Parameters | Context.TopLevel),
+      (context | Context.InsideSwitch | Context.InsideLoop | Context.Parameters) ^
+        (Context.InsideSwitch | Context.InsideLoop | Context.Parameters),
       {
         kind: ScopeKind.FunctionBody,
         scope,
@@ -7571,6 +7565,16 @@ export function parseAwaitExpression(
       parser.curPos
     );
   }
+  if (context & Context.Module && (context & Context.TopLevel) == 0) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._await_is_only_allowed_within_async_functions_and_at_the_top_levels_of_modules],
+      pos,
+      parser.pos
+    );
+  }
+
   if (context & Context.Parameters) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -7817,12 +7821,7 @@ function parseClassDeclaration(
   // "class Foo<T = undefined> {}"
   const typeParameters = parseTypeParameterDeclaration(parser, context);
 
-  const classTail = parseClassTail(
-    parser,
-    (context | Context.TopLevel | Context.InClassBody) ^ Context.TopLevel,
-    declareKeyword ? true : false,
-    true
-  );
+  const classTail = parseClassTail(parser, context | Context.InClassBody, declareKeyword ? true : false, true);
 
   parser.assignable = false;
 
@@ -9210,12 +9209,7 @@ function parseTopLevelAwait(parser: ParserState, context: Context): ExpressionSt
   return parseExpressionStatement(
     parser,
     context,
-    parseExpressionRest(
-      parser,
-      context | Context.AwaitContext,
-      parseAwaitExpression(parser, context | Context.AwaitContext, false, LeftHandSide.None),
-      pos
-    ),
+    parseExpressionRest(parser, context, parseAwaitExpression(parser, context, false, LeftHandSide.None), pos),
     pos
   );
 }
