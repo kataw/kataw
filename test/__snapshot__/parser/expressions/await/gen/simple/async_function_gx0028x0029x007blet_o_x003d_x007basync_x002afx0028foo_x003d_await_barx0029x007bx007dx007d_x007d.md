@@ -237,7 +237,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 42, end: 48
+✖ `await` expression cannot be used in function parameters - start: 42, end: 48
 
 ```
 

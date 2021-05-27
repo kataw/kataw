@@ -82,7 +82,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'await' is only allowed within async functions and at the top levels of modules. - start: 5, end: 11
+✖ 'await' is only allowed within async functions and at the top levels of modules - start: 5, end: 11
 
 ```
 

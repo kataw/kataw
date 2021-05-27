@@ -54,8 +54,8 @@
   "Dynamic import must have one specifier as an argument.": 54,
   "Specifier of dynamic import cannot be spread element.": 55,
   "Dynamic import cannot have type arguments.": 56,
-  "`Yield` expression cannot be used in function parameters": 57,
-  "`Await` expression cannot be used in function parameters": 58,
+  "`yield` expression cannot be used in function parameters": 57,
+  "`await` expression cannot be used in function parameters": 58,
   "The `import` keyword can only be used with the module goal": 59,
   "The `export` keyword can only be used with the module goal": 60,
   "`=` can only be used in an object literal property inside a destructuring": 61,
@@ -214,5 +214,6 @@
   "'super' keyword must not contain escaped characters": 217,
   "Without web compability enabled functtion declarations are disallowed inside if statements": 218,
   "Cannot use 'yield' as a name on a generator function expression": 219,
-  "'await' is only allowed within async functions and at the top levels of modules.": 220
+  "'await' is only allowed within async functions and at the top levels of modules": 220,
+  "'of' expected": 221
 }

@@ -159,7 +159,7 @@
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 19, end: 24
+✖ `yield` expression cannot be used in function parameters - start: 19, end: 24
 ✖ ',' expected - start: 24, end: 26
 ✖ Missing an opening brace - '{ - start: 27, end: 29
 ✖ Expression expected - start: 27, end: 29

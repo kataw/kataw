@@ -265,7 +265,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 72, end: 77
+✖ `await` expression cannot be used in function parameters - start: 72, end: 77
 
 ```
 

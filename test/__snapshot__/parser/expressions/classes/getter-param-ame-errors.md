@@ -1065,7 +1065,7 @@ class C { get name(private) {} }
 ✖ Identifier expected. Reserved word in strict mode - start: 137, end: 147
 ✖ Duplicate identifier - start: 174, end: 176
 ✖ A 'get' accessor cannot have parameters. - start: 188, end: 193
-✖ `Yield` expression cannot be used in function parameters - start: 188, end: 193
+✖ `yield` expression cannot be used in function parameters - start: 188, end: 193
 ✖ Duplicate identifier - start: 220, end: 222
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
 ✖ Expected a ')' to match the '(' token here - start: 234, end: 237

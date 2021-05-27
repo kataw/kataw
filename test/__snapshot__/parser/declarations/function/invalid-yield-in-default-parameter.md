@@ -198,7 +198,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 39, end: 44
+✖ `yield` expression cannot be used in function parameters - start: 39, end: 44
 
 ```
 

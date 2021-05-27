@@ -116,7 +116,7 @@ function fn() {
 ### Diagnostics
 
 ```javascript
-✖ 'await' is only allowed within async functions and at the top levels of modules. - start: 15, end: 23
+✖ 'await' is only allowed within async functions and at the top levels of modules - start: 15, end: 23
 
 ```
 

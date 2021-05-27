@@ -300,7 +300,7 @@
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 74, end: 79
+✖ `await` expression cannot be used in function parameters - start: 74, end: 79
 
 ```
 

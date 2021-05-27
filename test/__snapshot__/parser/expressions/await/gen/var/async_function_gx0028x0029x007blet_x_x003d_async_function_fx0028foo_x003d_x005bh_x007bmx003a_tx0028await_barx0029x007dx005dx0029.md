@@ -417,7 +417,7 @@ var await; var f = (async function() { async function g(){let x = async function
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 99, end: 104
+✖ `await` expression cannot be used in function parameters - start: 99, end: 104
 
 ```
 

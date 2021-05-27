@@ -392,7 +392,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 100, end: 105
+✖ `await` expression cannot be used in function parameters - start: 100, end: 105
 
 ```
 
