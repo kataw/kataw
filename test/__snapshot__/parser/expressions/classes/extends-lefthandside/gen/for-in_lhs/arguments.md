@@ -72,7 +72,7 @@ for (arguments in x) ;
 
 ```javascript
 
-for ( in x);
+for (arguments in x);
 ```
 
 ### Diagnostics

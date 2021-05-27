@@ -100,7 +100,7 @@ for ( a + b instanceof c ;;);
 
 ```javascript
 
-for (; ; );
+for (a + b inctanceof c; ; );
 ```
 
 ### Diagnostics

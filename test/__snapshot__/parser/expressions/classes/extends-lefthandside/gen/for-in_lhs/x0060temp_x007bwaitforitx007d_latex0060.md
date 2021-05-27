@@ -72,7 +72,7 @@ for (`temp {waitforit} late` in x) ;
 
 ```javascript
 
-for ( in x);
+for (`temp {waitforit} late` in x);
 ```
 
 ### Diagnostics

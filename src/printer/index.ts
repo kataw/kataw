@@ -1119,7 +1119,7 @@ function printForInStatement(node: any, printer: Printer): any {
   return chain([
     printKeyword(node.forKeyword, printer, node.start, node, /* separator */ true),
     printPunctuator('(', node.forKeyword.end, node),
-    printForBinding(node.initializer, printer),
+    printForBinding(node.initializer, printer, node),
     printer.space,
     printKeyword(node.inKeyword, printer, node.initializer.end, node, /* separator */ true),
     printExpressions(node.expression, printer, node),
@@ -1133,7 +1133,7 @@ function printForOfStatement(node: any, printer: Printer): any {
     printKeyword(node.forKeyword, printer, node.start, node, /* separator */ true),
     printKeyword(node.awaitKeyword, printer, node.forKeyword.end, node, /* separator */ true),
     printPunctuator('(', node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end, node),
-    printForBinding1(node.initializer, printer, node),
+    printForBinding(node.initializer, printer, node),
     printer.space,
     printKeyword(node.ofKeyword, printer, node.initializer.end, node, /* separator */ true),
     printExpressions(node.expression, printer, node),
@@ -1158,7 +1158,16 @@ function printForStatement(node: any, printer: Printer): any {
     group(
       chain([
         indent(
-          chain([softline, printForBinding(node.initializer, printer), ';', line, condition, ';', line, incrementor])
+          chain([
+            softline,
+            printForBinding(node.initializer, printer, node),
+            ';',
+            line,
+            condition,
+            ';',
+            line,
+            incrementor
+          ])
         ),
         softline
       ])
@@ -1180,24 +1189,12 @@ function adjustClause(node: any, printer: Printer, clause: any, forceSpace?: any
   return indent(chain([line, clause]));
 }
 
-function printForBinding(node: any, printer: Printer): any {
-  if (node != null) {
-    if (node && node.kind === SyntaxKind.VariableDeclaration) {
-      return printVariableStatement(node, printer, /* inForStatement */ true);
-    }
-    if (node && node.kind === SyntaxKind.LexicalDeclaration) {
-      return printLexicalDeclaration(node, printer, /* inForStatement */ true);
-    }
-    printExpressions(node, printer, node);
-  }
-}
-
-function printForBinding1(node: any, printer: Printer, parentNode: any): any {
+function printForBinding(node: any, printer: Printer, parentNode: any): any {
   if (node && node.kind === SyntaxKind.VariableDeclaration) {
     return printVariableStatement(node, printer, /* inForStatement */ true);
   }
-  if (node && node.kind === SyntaxKind.LexicalDeclaration) {
-    return printLexicalDeclaration(node, printer, /* inForStatement */ true);
+  if (node && node.kind === SyntaxKind.BindingList) {
+    return chain([node.flags & NodeFlags.Const ? 'const' : 'let', printBindingList(node.bindingList, printer)]);
   }
   return printStatements(node, printer, parentNode);
 }

@@ -92,7 +92,7 @@ for (x in y in x) ;
 
 ```javascript
 
-for ( in y in x);
+for (x in y in x);
 ```
 
 ### Diagnostics

@@ -87,7 +87,7 @@ for ([foo] in x) ;
 
 ```javascript
 
-for ( in x);
+for ([foo] in x);
 ```
 
 ### Diagnostics
