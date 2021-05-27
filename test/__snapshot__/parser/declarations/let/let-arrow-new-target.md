@@ -104,7 +104,7 @@ let y = () => new.target
 ### Diagnostics
 
 ```javascript
-✖ 'new.target' only allowed within functions - start: 24, end: 24
+✖ 'new.target' only allowed within functions - start: 13, end: 24
 
 ```
 

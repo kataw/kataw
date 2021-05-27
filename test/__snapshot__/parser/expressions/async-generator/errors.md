@@ -7760,7 +7760,7 @@ async function * gen() {class C extends await { }}
 ✖ Expression expected - start: 1194, end: 1195
 ✖ Expression expected - start: 1228, end: 1229
 ✖ Expected a `;` - start: 1362, end: 1370
-✖ Identifier expected. Reserved word in strict mode - start: 1397, end: 1403
+✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 1397, end: 1403
 ✖ Expected a `;` - start: 1521, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683

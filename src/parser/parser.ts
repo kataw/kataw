@@ -990,47 +990,33 @@ export function parseLabelledStatement(
   scope: ScopeState,
   pos: number
 ): LabelledStatement {
-  switch (token) {
-    case SyntaxKind.AwaitKeyword:
-      if (flags & 0b00000000000000000110000000000000) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords],
-          pos,
-          parser.pos
-        );
-      } else if (context & Context.Module) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_module_goal],
-          pos,
-          parser.pos
-        );
-      }
-      break;
-    case SyntaxKind.YieldKeyword:
-      if (context & (Context.YieldContext | Context.Strict)) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-          pos,
-          parser.pos
-        );
-      }
-      break;
-    default:
-      if (context & Context.Strict && token & SyntaxKind.IsFutureReserved) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-          pos,
-          parser.pos
-        );
-      }
+  if (token === SyntaxKind.AwaitKeyword) {
+    if (context & (Context.AwaitContext | Context.Module)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[
+          flags & 0b00000000000000000110000000000000
+            ? DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords
+            : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal_and_cannot_be_used_as_an_label
+        ],
+        pos,
+        parser.pos
+      );
+    }
+  }
+  if (context & (Context.YieldContext | Context.Strict) && token === SyntaxKind.YieldKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[
+        flags & 0b00000000000000000110000000000000
+          ? DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords
+          : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode_and_cannot_be_used_as_an_label
+      ],
+      pos,
+      parser.pos
+    );
   }
 
   const labelledIdentfier = expr.text;
@@ -3263,17 +3249,13 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     pos
   );
   if (consumeOpt(parser, context, SyntaxKind.Period)) {
-    const targetKeyword = consumeToken(parser, context, SyntaxKind.Target);
+    const targetKeyword = consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.Target, parser.curPos);
     if (!targetKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[
-          flags & 0b00000000000000000110000000000000
-            ? DiagnosticCode.Keywords_cannot_contain_escape_characters
-            : DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target
-        ],
-        parser.curPos,
+        diagnosticMap[DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target],
+        pos,
         parser.pos
       );
     }
@@ -3283,7 +3265,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode._new_target_only_allowed_within_functions],
-        parser.curPos,
+        pos,
         parser.pos
       );
     }

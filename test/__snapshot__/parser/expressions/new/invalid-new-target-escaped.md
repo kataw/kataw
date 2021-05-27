@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-new.meta
+new.t\u0061rget
 `````
 
 ## Output
@@ -25,36 +25,27 @@ new.meta
                     "start": 0,
                     "end": 3
                 },
-                "targetIdentifier": null,
+                "targetIdentifier": {
+                    "kind": 16594,
+                    "flags": 16384,
+                    "start": 4,
+                    "end": 15
+                },
                 "flags": 96,
                 "start": 0,
-                "end": 4
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "meta",
-                "rawText": "meta",
-                "flags": 96,
-                "start": 4,
-                "end": 8
-            },
-            "flags": 16,
-            "start": 4,
-            "end": 8
+            "end": 15
         }
     ],
     "isModule": false,
-    "source": "new.meta",
+    "source": "new.t\\u0061rget",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 8
+    "end": 15
 }
 ```
 
@@ -67,9 +58,8 @@ new.meta
 ### Diagnostics
 
 ```javascript
-✖ The only valid meta property for new is 'new.target - start: 0, end: 8
-✖ 'new.target' only allowed within functions - start: 0, end: 8
-✖ Expected a `;` - start: 4, end: 8
+✖ Keywords cannot contain escape characters - start: 4, end: 15
+✖ 'new.target' only allowed within functions - start: 0, end: 15
 
 ```
 

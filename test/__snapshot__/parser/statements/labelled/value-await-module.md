@@ -95,7 +95,7 @@ await: 1;
 
 ```javascript
 ✖ Expression expected - start: 5, end: 6
-✖ Identifier expected.  'await' is a reserved word in module goal - start: 0, end: 6
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 0, end: 6
 
 ```
 

@@ -87,7 +87,7 @@ for (new.target in x) ;
 ### Diagnostics
 
 ```javascript
-✖ 'new.target' only allowed within functions - start: 15, end: 18
+✖ 'new.target' only allowed within functions - start: 5, end: 18
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 18, end: 20
 
 ```

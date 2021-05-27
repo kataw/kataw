@@ -115,7 +115,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'new.target' only allowed within functions - start: 27, end: 29
+✖ 'new.target' only allowed within functions - start: 16, end: 29
 
 ```
 

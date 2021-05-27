@@ -79,12 +79,12 @@ aw\u0061it: 1;
 
 ```javascript
 
+await: 1;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Unicode escapes at the start of labels should not allow keywords - start: 0, end: 11
-
+✔ No errors
 ```
 

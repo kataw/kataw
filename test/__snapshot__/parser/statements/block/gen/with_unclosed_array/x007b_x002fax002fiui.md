@@ -93,6 +93,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Duplicate regular expression flag - start: 4, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 11
 
 ```

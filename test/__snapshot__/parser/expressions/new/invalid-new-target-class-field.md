@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-class C { aaa = new.target }
+class Foo { [new.target] }
 `````
 
 ## Output
@@ -27,11 +27,11 @@ class C { aaa = new.target }
             },
             "name": {
                 "kind": 134299649,
-                "text": "C",
-                "rawText": "C",
+                "text": "Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
-                "end": 7
+                "end": 9
             },
             "typeParameters": null,
             "tail": {
@@ -47,57 +47,56 @@ class C { aaa = new.target }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 134299649,
-                                "text": "aaa",
-                                "rawText": "aaa",
-                                "flags": 96,
-                                "start": 9,
-                                "end": 13
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 211,
+                                    "newKeyword": {
+                                        "kind": 138477661,
+                                        "flags": 0,
+                                        "start": 13,
+                                        "end": 16
+                                    },
+                                    "targetIdentifier": {
+                                        "kind": 16594,
+                                        "flags": 0,
+                                        "start": 17,
+                                        "end": 23
+                                    },
+                                    "flags": 96,
+                                    "start": 13,
+                                    "end": 23
+                                },
+                                "flags": 32,
+                                "start": 11,
+                                "end": 24
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": {
-                                "kind": 211,
-                                "newKeyword": {
-                                    "kind": 138477661,
-                                    "flags": 0,
-                                    "start": 15,
-                                    "end": 19
-                                },
-                                "targetIdentifier": {
-                                    "kind": 16594,
-                                    "flags": 0,
-                                    "start": 20,
-                                    "end": 26
-                                },
-                                "flags": 96,
-                                "start": 15,
-                                "end": 26
-                            },
+                            "initializer": null,
                             "flags": 32,
-                            "start": 9,
-                            "end": 26
+                            "start": 11,
+                            "end": 24
                         }
                     ],
                     "flags": 32,
-                    "start": 9,
-                    "end": 26
+                    "start": 11,
+                    "end": 24
                 },
-                "flags": 7,
+                "flags": 9,
                 "start": 32,
-                "end": 28
+                "end": 26
             },
             "flags": 16,
             "start": 0,
-            "end": 28
+            "end": 26
         }
     ],
     "isModule": false,
-    "source": "class C { aaa = new.target }",
+    "source": "class Foo { [new.target] }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 28
+    "end": 26
 }
 ```
 
@@ -110,7 +109,7 @@ class C { aaa = new.target }
 ### Diagnostics
 
 ```javascript
-✖ 'new.target' only allowed within functions - start: 15, end: 28
+✖ 'new.target' only allowed within functions - start: 13, end: 24
 
 ```
 

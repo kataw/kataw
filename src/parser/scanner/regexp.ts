@@ -76,27 +76,22 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
     cp = source.charCodeAt(pos);
   }
 
-  // prettier-ignore
-  const enum RegExpFlags {
-    NoFlags     = 0b000000,
-    IgnoreCase  = 0b000001,
-    Global      = 0b000010,
-    Multiline   = 0b000100,
-    Sticky      = 0b001000,
-    Unicode     = 0b010000,
-    DotAll      = 0b100000
-  }
-
   cp = source.charCodeAt(pos);
 
-  let flag = RegExpFlags.NoFlags;
+  let flags = 0;
 
   if (pos < parser.end) {
     while (isIdentifierPart(cp)) {
       // make sure each supported flag is unique
       switch (cp) {
-        case Char.LowerG: {
-          if (flag & RegExpFlags.Global) {
+        case Char.LowerG:
+        case Char.LowerI:
+        case Char.LowerM:
+        case Char.LowerS:
+        case Char.LowerU:
+        case Char.LowerY:
+          let flag = 1 << (cp - Char.LowerA);
+          if ((flag & flags) !== 0) {
             parser.onError(
               DiagnosticSource.Lexer,
               DiagnosticKind.Error,
@@ -104,75 +99,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
               parser.curPos,
               parser.pos
             );
+          } else {
+            flags |= flag;
           }
-          flag = RegExpFlags.Global;
           break;
-        }
-        case Char.LowerI: {
-          if (flag & RegExpFlags.IgnoreCase) {
-            parser.onError(
-              DiagnosticSource.Lexer,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
-              parser.curPos,
-              parser.pos
-            );
-          }
-          flag = RegExpFlags.IgnoreCase;
-          break;
-        }
-        case Char.LowerM: {
-          if (flag & RegExpFlags.Multiline) {
-            parser.onError(
-              DiagnosticSource.Lexer,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
-              parser.curPos,
-              parser.pos
-            );
-          }
-          flag = RegExpFlags.Multiline;
-          break;
-        }
-        case Char.LowerS: {
-          if (flag & RegExpFlags.DotAll) {
-            parser.onError(
-              DiagnosticSource.Lexer,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
-              parser.curPos,
-              parser.pos
-            );
-          }
-          flag = RegExpFlags.DotAll;
-          break;
-        }
-        case Char.LowerU: {
-          if (flag & RegExpFlags.Unicode) {
-            parser.onError(
-              DiagnosticSource.Lexer,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
-              parser.curPos,
-              parser.pos
-            );
-          }
-          flag = RegExpFlags.Unicode;
-          break;
-        }
-        case Char.LowerY: {
-          if (flag & RegExpFlags.Sticky) {
-            parser.onError(
-              DiagnosticSource.Lexer,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
-              parser.curPos,
-              parser.pos
-            );
-          }
-          flag = RegExpFlags.Sticky;
-          break;
-        }
         default:
           parser.onError(
             DiagnosticSource.Lexer,

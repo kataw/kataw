@@ -215,5 +215,8 @@
   "Without web compability enabled functtion declarations are disallowed inside if statements": 218,
   "Cannot use 'yield' as a name on a generator function expression": 219,
   "'await' is only allowed within async functions and at the top levels of modules": 220,
-  "'of' expected": 221
+  "'of' expected": 221,
+  "Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label": 222,
+  "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label": 223
+
 }

@@ -135,7 +135,7 @@
 ✖ Invalid hexadecimal escape sequence - start: 19, end: 33
 ✖ Expected a `;` - start: 19, end: 34
 ✖ Expected a `;` - start: 35, end: 37
-✖ Identifier expected. Reserved word in strict mode - start: 37, end: 43
+✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 37, end: 43
 
 ```
 

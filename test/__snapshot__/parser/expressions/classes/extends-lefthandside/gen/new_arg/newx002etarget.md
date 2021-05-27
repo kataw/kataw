@@ -74,7 +74,7 @@ new new.target
 ### Diagnostics
 
 ```javascript
-✖ 'new.target' only allowed within functions - start: 14, end: 14
+✖ 'new.target' only allowed within functions - start: 3, end: 14
 
 ```
 

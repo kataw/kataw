@@ -104,7 +104,7 @@ class A extends new.target {}
 ### Diagnostics
 
 ```javascript
-✖ 'new.target' only allowed within functions - start: 26, end: 28
+✖ 'new.target' only allowed within functions - start: 15, end: 28
 
 ```
 

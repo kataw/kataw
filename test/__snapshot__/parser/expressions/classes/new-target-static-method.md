@@ -164,7 +164,7 @@ class A {static a(x=new.target){}}
 ### Diagnostics
 
 ```javascript
-✖ 'new.target' only allowed within functions - start: 30, end: 31
+✖ 'new.target' only allowed within functions - start: 20, end: 31
 
 ```
 
