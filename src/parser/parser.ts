@@ -1130,53 +1130,12 @@ function parseForStatement(
   let initializer = null;
   let isVarOrLexical = false;
 
-  if (parser.token !== SyntaxKind.Semicolon) {
-    if (parser.token === SyntaxKind.LetKeyword) {
-      const { curPos } = parser;
-      initializer = parseIdentifier(parser, context);
-      if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsPatternStart)) {
-        if ((parser.token as SyntaxKind) === SyntaxKind.InKeyword) {
-          if (context & Context.Strict) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error | DiagnosticKind.EarlyError,
-              diagnosticMap[DiagnosticCode.Identifier_expected_let_is_a_reserved_word_in_strict_mode],
-              parser.curPos,
-              parser.pos
-            );
-          }
-        } else {
-          // The initializer contains lexical declarations,
-          // so create an in-between scope.
-          scope = createParentScope(scope, ScopeKind.ForStatement);
-          initializer = parseBindingList(
-            parser,
-            context | Context.DisallowInContext | Context.LexicalContext,
-            NodeFlags.Const,
-            /* inForStatement */ true,
-            scope,
-            BindingType.Let
-          );
-        }
-        isVarOrLexical = true;
-        parser.assignable = true;
-      } else if (context & Context.Strict) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.Identifier_expected_let_is_a_reserved_word_in_strict_mode],
-          parser.curPos,
-          parser.pos
-        );
-      } else {
-        parser.assignable = true;
-
-        initializer = parseMemberExpression(parser, context, initializer, /* allowCalls */ true, curPos);
-
-        // In a for-of loop, 'let' that starts the loop head is a 'let' keyword,
-        // per the [lookahead ≠ let] restriction on the LeftHandSideExpression
-        // variant of such loops, so 'let' are disallowed here.
-        if ((parser.token as SyntaxKind) === SyntaxKind.OfKeyword) {
+  if (parser.token === SyntaxKind.LetKeyword) {
+    const { curPos } = parser;
+    initializer = parseIdentifier(parser, context);
+    if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsPatternStart)) {
+      if ((parser.token as SyntaxKind) === SyntaxKind.InKeyword) {
+        if (context & Context.Strict) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1185,63 +1144,104 @@ function parseForStatement(
             parser.pos
           );
         }
+      } else {
+        // The initializer contains lexical declarations,
+        // so create an in-between scope.
+        scope = createParentScope(scope, ScopeKind.ForStatement);
+        initializer = parseBindingList(
+          parser,
+          context | Context.DisallowInContext | Context.LexicalContext,
+          NodeFlags.Const,
+          /* inForStatement */ true,
+          scope,
+          BindingType.Let
+        );
       }
-    } else if (consumeOpt(parser, context, SyntaxKind.ConstKeyword)) {
-      scope = createParentScope(scope, ScopeKind.ForStatement);
-      initializer = parseBindingList(
-        parser,
-        context | Context.DisallowInContext | Context.LexicalContext,
-        NodeFlags.Const,
-        /* inForStatement */ true,
-        scope,
-        BindingType.Const
-      );
       isVarOrLexical = true;
       parser.assignable = true;
-    } else if (consumeOpt(parser, context, SyntaxKind.VarKeyword)) {
-      scope = createParentScope(scope, ScopeKind.ForStatement);
-      initializer = parseVariableDeclarationList(
-        parser,
-        context | Context.DisallowInContext,
-        /* inForStatement */ true,
-        scope,
-        BindingType.Var
-      );
-      parser.assignable = true;
-      isVarOrLexical = true;
-    } else if (parser.token & SyntaxKind.IsSemicolon) {
+    } else if (context & Context.Strict) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.for_await_of_is_only_valid_in_async_functions_and_async_generators],
+        diagnosticMap[DiagnosticCode.Identifier_expected_let_is_a_reserved_word_in_strict_mode],
         parser.curPos,
         parser.pos
       );
-    } else if (parser.token & SyntaxKind.IsPatternStart) {
-      initializer =
-        parser.token === SyntaxKind.LeftBrace
-          ? parseObjectLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal)
-          : parseArrayLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal);
-      if (initializer.flags & NodeFlags.PrototypeField) {
+    } else {
+      parser.assignable = true;
+
+      initializer = parseMemberExpression(parser, context, initializer, /* allowCalls */ true, curPos);
+
+      // In a for-of loop, 'let' that starts the loop head is a 'let' keyword,
+      // per the [lookahead ≠ let] restriction on the LeftHandSideExpression
+      // variant of such loops, so 'let' are disallowed here.
+      if ((parser.token as SyntaxKind) === SyntaxKind.OfKeyword) {
         parser.onError(
           DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[DiagnosticCode.Identifier_expected_let_is_a_reserved_word_in_strict_mode],
           parser.curPos,
           parser.pos
         );
       }
-
-      destructible = parser.destructible;
-
-      parser.assignable = destructible & DestructibleKind.NotDestructible ? false : true;
-
-      initializer = parseMemberExpression(parser, context, initializer, true, pos);
-    } else {
-      if (awaitKeyword) context |= Context.InForOfAwait;
-
-      initializer = parseLeftHandSideExpression(parser, context | Context.DisallowInContext, LeftHandSide.ForStatement);
     }
+  } else if (consumeOpt(parser, context, SyntaxKind.ConstKeyword)) {
+    scope = createParentScope(scope, ScopeKind.ForStatement);
+    initializer = parseBindingList(
+      parser,
+      context | Context.DisallowInContext | Context.LexicalContext,
+      NodeFlags.Const,
+      /* inForStatement */ true,
+      scope,
+      BindingType.Const
+    );
+    isVarOrLexical = true;
+    parser.assignable = true;
+  } else if (consumeOpt(parser, context, SyntaxKind.VarKeyword)) {
+    scope = createParentScope(scope, ScopeKind.ForStatement);
+    initializer = parseVariableDeclarationList(
+      parser,
+      context | Context.DisallowInContext,
+      /* inForStatement */ true,
+      scope,
+      BindingType.Var
+    );
+    parser.assignable = true;
+    isVarOrLexical = true;
+  } else if (parser.token & SyntaxKind.IsSemicolon) {
+    if (awaitKeyword && context & (Context.Module | Context.AwaitContext)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode._of_expected],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  } else if (parser.token & SyntaxKind.IsPatternStart) {
+    initializer =
+      parser.token === SyntaxKind.LeftBrace
+        ? parseObjectLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal)
+        : parseArrayLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal);
+    if (initializer.flags & NodeFlags.PrototypeField) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    destructible = parser.destructible;
+
+    parser.assignable = destructible & DestructibleKind.NotDestructible ? false : true;
+
+    initializer = parseMemberExpression(parser, context, initializer, true, pos);
+  } else {
+    if (awaitKeyword) context |= Context.InForOfAwait;
+
+    initializer = parseLeftHandSideExpression(parser, context | Context.DisallowInContext, LeftHandSide.ForStatement);
   }
 
   if (parser.token & SyntaxKind.IsInOrOf || awaitKeyword) {
@@ -1440,7 +1440,7 @@ function parseBindingIdentifier(
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
           context & Context.Parameters
-            ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
+            ? DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters
             : context & Context.Strict
             ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
             : DiagnosticCode._yield_cannot_be_used_as_an_identifier_here
@@ -1454,7 +1454,7 @@ function parseBindingIdentifier(
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
           context & Context.Parameters
-            ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
+            ? DiagnosticCode._await_expression_cannot_be_used_in_function_parameters
             : context & Context.Module
             ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
             : parser.nodeFlags & 0b00000000000000000110000000000000
@@ -7463,7 +7463,7 @@ function parseYieldIdentifierOrExpression(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters],
+        diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
         pos,
         parser.pos
       );
@@ -7574,7 +7574,7 @@ export function parseAwaitExpression(
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters],
+      diagnosticMap[DiagnosticCode._await_expression_cannot_be_used_in_function_parameters],
       pos,
       parser.pos
     );

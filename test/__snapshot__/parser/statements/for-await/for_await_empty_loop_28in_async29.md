@@ -110,15 +110,12 @@ async function f(){ for await (;;) {} }
 
 ```javascript
 
-async function f() {
-  for (;;)
-    {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'of' expected - start: 31, end: 32
+
 ```
 

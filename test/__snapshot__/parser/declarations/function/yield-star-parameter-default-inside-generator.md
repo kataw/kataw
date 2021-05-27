@@ -138,8 +138,8 @@ function* fn(x = yield* yield) {}
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 16, end: 22
-✖ `Yield` expression cannot be used in function parameters - start: 23, end: 29
+✖ `yield` expression cannot be used in function parameters - start: 16, end: 22
+✖ `yield` expression cannot be used in function parameters - start: 23, end: 29
 
 ```
 

@@ -340,7 +340,7 @@ async function f(){
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 51, end: 56
+✖ `await` expression cannot be used in function parameters - start: 51, end: 56
 
 ```
 

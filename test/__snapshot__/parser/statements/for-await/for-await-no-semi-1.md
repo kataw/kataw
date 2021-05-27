@@ -111,14 +111,12 @@ async function f() {
 
 ```javascript
 
-async function f() {
-  for (; ; false);
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'of' expected - start: 34, end: 35
+
 ```
 

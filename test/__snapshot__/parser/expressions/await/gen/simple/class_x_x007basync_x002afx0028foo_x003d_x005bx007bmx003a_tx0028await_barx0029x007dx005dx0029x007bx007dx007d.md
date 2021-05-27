@@ -242,7 +242,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 31, end: 36
+✖ `await` expression cannot be used in function parameters - start: 31, end: 36
 
 ```
 

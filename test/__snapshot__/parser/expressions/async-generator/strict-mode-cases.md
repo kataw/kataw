@@ -1762,8 +1762,8 @@ function * x() { "use strict";  yield: 34; }
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 104, end: 109
 ✖ Cannot use 'yield' as a name on a async generator declaration - start: 161, end: 167
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 220, end: 226
-✖ `Yield` expression cannot be used in function parameters - start: 284, end: 289
-✖ `Yield` expression cannot be used in function parameters - start: 349, end: 355
+✖ `yield` expression cannot be used in function parameters - start: 284, end: 289
+✖ `yield` expression cannot be used in function parameters - start: 349, end: 355
 ✖ Cannot use 'yield' as a name on a generator declaration - start: 408, end: 414
 ✖ Cannot use 'yield' as a name on a generator function expression - start: 469, end: 475
 ✖ Identifier expected. Reserved word in strict mode - start: 718, end: 726

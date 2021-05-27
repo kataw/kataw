@@ -211,7 +211,7 @@
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 24, end: 29
+✖ `yield` expression cannot be used in function parameters - start: 24, end: 29
 
 ```
 

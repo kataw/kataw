@@ -133,7 +133,7 @@
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 11, end: 16
+✖ `yield` expression cannot be used in function parameters - start: 11, end: 16
 
 ```
 

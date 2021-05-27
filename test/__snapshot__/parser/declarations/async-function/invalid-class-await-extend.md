@@ -177,7 +177,7 @@ async function foo(a = class extends (await b) {}) {};
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 38, end: 43
+✖ `await` expression cannot be used in function parameters - start: 38, end: 43
 
 ```
 

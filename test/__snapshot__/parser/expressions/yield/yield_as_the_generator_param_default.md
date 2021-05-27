@@ -119,7 +119,7 @@ function *f(x=yield){ }
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 14, end: 19
+✖ `yield` expression cannot be used in function parameters - start: 14, end: 19
 
 ```
 

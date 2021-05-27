@@ -149,7 +149,7 @@ async function f(x=(await)=y){}
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 20, end: 25
+✖ `await` expression cannot be used in function parameters - start: 20, end: 25
 ✖ Expression expected - start: 25, end: 26
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 26, end: 27
 

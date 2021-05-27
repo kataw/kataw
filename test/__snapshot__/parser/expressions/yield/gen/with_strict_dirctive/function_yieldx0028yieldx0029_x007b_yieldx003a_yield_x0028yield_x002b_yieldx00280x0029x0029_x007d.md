@@ -224,7 +224,7 @@
 
 ```javascript
 ✖ Cannot use 'yield' as a name on a async generator declaration - start: 22, end: 28
-✖ `Yield` expression cannot be used in function parameters - start: 29, end: 34
+✖ `yield` expression cannot be used in function parameters - start: 29, end: 34
 ✖ Identifier expected. Reserved word in strict mode - start: 37, end: 44
 
 ```

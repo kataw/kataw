@@ -231,7 +231,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ `Yield` expression cannot be used in function parameters - start: 27, end: 32
+✖ `yield` expression cannot be used in function parameters - start: 27, end: 32
 ✖ ',' expected - start: 32, end: 34
 ✖ Missing an opening brace - '{ - start: 35, end: 37
 ✖ Expression expected - start: 35, end: 37

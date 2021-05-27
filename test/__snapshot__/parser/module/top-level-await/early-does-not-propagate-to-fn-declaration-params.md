@@ -148,8 +148,8 @@ function fn(x = await 1) {
 ### Diagnostics
 
 ```javascript
-✖ 'await' is only allowed within async functions and at the top levels of modules. - start: 15, end: 21
-✖ `Await` expression cannot be used in function parameters - start: 15, end: 21
+✖ 'await' is only allowed within async functions and at the top levels of modules - start: 15, end: 21
+✖ `await` expression cannot be used in function parameters - start: 15, end: 21
 
 ```
 

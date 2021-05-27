@@ -212,7 +212,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 53, end: 58
+✖ `await` expression cannot be used in function parameters - start: 53, end: 58
 ✖ Declaration or statement expected - start: 67, end: 68
 
 ```

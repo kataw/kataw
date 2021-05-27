@@ -111,7 +111,7 @@ async function foo(await) { };
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 19, end: 24
+✖ `await` expression cannot be used in function parameters - start: 19, end: 24
 
 ```
 
