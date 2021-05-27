@@ -136,7 +136,7 @@ import {x as a, z} from "y"
 
 ```javascript
 
-import  x asa, z }  ;
+import { x asa, z }  ;
 ```
 
 ### Diagnostics

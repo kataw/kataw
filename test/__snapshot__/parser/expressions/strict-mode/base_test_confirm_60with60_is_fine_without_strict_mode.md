@@ -69,7 +69,7 @@
 
 ```javascript
 
-with (x
+with (x)
   y;
 ```
 

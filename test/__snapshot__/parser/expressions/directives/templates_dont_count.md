@@ -127,7 +127,7 @@ function f(){ `use strict`; with (x) y; }
 
 function f() {
   `use strict`;
-  with (x
+  with (x)
     y;
 }
 ```

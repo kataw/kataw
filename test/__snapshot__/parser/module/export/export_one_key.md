@@ -120,7 +120,7 @@ export {x}; var x;
 
 ```javascript
 
-eport  x };
+export { x };
 var x;
 ```
 

@@ -114,7 +114,7 @@ export let foo = async () => this
 
 ```javascript
 
-eport let foo = async () =>  this;
+export let foo = async () =>  this;
 ```
 
 ### Diagnostics

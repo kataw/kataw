@@ -131,10 +131,10 @@ switch (x) { case x: const y = x }
 
 ```javascript
 
-switch(x
+switch(x) {
   case x:
     const y = x;
- 
+}
 ```
 
 ### Diagnostics

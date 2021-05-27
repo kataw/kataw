@@ -129,12 +129,12 @@ switch (A) {case B: C; case D: E;}
 
 ```javascript
 
-switch(A
+switch(A) {
   case B:
     C;
   case D:
     E;
- 
+}
 ```
 
 ### Diagnostics

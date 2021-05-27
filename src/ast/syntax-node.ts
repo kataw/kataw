@@ -467,7 +467,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.ExponentiateAssign:
       return '**=';
     case SyntaxKind.ExportKeyword:
-      return 'eport';
+      return 'export';
     case SyntaxKind.ExtendsKeyword:
       return 'extends';
     case SyntaxKind.FalseKeyword:

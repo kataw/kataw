@@ -137,10 +137,10 @@ switch (x) {
 
 ```javascript
 
-switch(x
+switch(x) {
   case foo:
     async function f() {}
- 
+}
 ```
 
 ### Diagnostics

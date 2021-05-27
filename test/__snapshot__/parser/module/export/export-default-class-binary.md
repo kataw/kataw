@@ -116,7 +116,7 @@ export default class Foo {}++x
 
 ```javascript
 
-eport default class Foo {};
+export default class Foo {};
 ++x;
 ```
 

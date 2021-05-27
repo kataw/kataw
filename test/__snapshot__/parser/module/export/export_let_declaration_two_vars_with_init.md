@@ -119,7 +119,7 @@ export let x = 10, y = 20
 
 ```javascript
 
-eport let x = 10, y = 20;
+export let x = 10, y = 20;
 ```
 
 ### Diagnostics

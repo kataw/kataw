@@ -266,8 +266,8 @@ export var { x = await foo } = {};
 ```javascript
 
 var foo = 1;
-eport var name1 = await foo;
-eport var {
+export var name1 = await foo;
+export var {
   x = await foo
 } = {};
 ```

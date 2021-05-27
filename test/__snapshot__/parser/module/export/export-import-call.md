@@ -107,7 +107,7 @@ import(y);
 
 ```javascript
 
-eport default import(y);;
+export default import(y);;
 import(y);
 ```
 

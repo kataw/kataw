@@ -179,7 +179,7 @@ var x,y; export {x as a, y as b}
 ```javascript
 
 var x, y;
-eport  x as a, y as b };
+export { x as a, y as b };
 ```
 
 ### Diagnostics

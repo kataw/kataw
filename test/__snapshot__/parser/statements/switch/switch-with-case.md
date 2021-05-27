@@ -100,10 +100,10 @@ switch (x) { case y: break; }
 
 ```javascript
 
-switch(x
+switch(x) {
   case y:
     break;
- 
+}
 ```
 
 ### Diagnostics

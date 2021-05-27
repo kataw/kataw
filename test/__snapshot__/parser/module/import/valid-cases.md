@@ -543,13 +543,13 @@ import { q as o } from 'm.js';
 
 ```javascript
 
-import  x asd }  ;
+import { x asd }  ;
 import n  ;
-import  y asa }  ;
+import { y asa }  ;
 import w  ;
-eport  z as h } from ;
+export { z as h } from ;
 import * as   ;
-import  q aso }  ;
+import { q aso }  ;
 ```
 
 ### Diagnostics

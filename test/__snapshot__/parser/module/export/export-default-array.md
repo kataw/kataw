@@ -67,7 +67,7 @@ export default [];
 
 ```javascript
 
-eport default [];
+export default [];
 ```
 
 ### Diagnostics

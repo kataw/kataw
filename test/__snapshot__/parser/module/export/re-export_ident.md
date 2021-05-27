@@ -85,7 +85,7 @@ export * from x
 
 ```javascript
 
-eport * from ;
+export * from ;
 ```
 
 ### Diagnostics

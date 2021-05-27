@@ -102,7 +102,7 @@ export class x {} foo
 
 ```javascript
 
-eport class x {}
+export class x {}
 foo;
 ```
 

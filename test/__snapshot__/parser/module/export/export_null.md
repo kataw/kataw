@@ -60,7 +60,7 @@ export default null;
 
 ```javascript
 
-eport default null;
+export default null;
 ```
 
 ### Diagnostics

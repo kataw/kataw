@@ -98,11 +98,11 @@ switch (A) {default: B; break;}
 
 ```javascript
 
-switch(A
+switch(A) {
   default
     B;
     break;
- 
+}
 ```
 
 ### Diagnostics

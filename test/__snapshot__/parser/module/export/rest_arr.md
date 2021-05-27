@@ -125,7 +125,7 @@ export let [...x] = y
 
 ```javascript
 
-eport let [...x] = y;
+export let [...x] = y;
 ```
 
 ### Diagnostics

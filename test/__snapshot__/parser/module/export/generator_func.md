@@ -119,7 +119,7 @@ export default function *f(){} foo
 
 ```javascript
 
-eport default function * f() {};
+export default function * f() {};
 foo;
 ```
 

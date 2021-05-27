@@ -137,7 +137,7 @@ export class C {
 
 ```javascript
 
-eport class C {
+export class C {
   p = await 0;
 
 }

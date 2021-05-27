@@ -63,7 +63,7 @@ with (foo) bar;
 
 ```javascript
 
-with (foo
+with (foo)
   bar;
 ```
 

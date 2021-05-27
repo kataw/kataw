@@ -89,7 +89,7 @@ export var bar;
 
 ```javascript
 
-eport var bar;
+export var bar;
 ```
 
 ### Diagnostics

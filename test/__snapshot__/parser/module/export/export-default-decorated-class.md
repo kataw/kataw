@@ -112,7 +112,7 @@ export default
 
 ```javascript
 
-eport default @bar
+export default @bar
 class Foo {};
 ```
 
