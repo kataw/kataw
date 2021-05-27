@@ -57,7 +57,7 @@ for(let;;);
 
 ```javascript
 
-for (; ; );
+for (let; ; );
 ```
 
 ### Diagnostics

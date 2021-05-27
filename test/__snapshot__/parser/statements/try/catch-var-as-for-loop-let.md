@@ -151,7 +151,7 @@ try {} catch (e) { for (let e;;) {} }
 
 try {
 } catch (e) {
-  for (; ; )
+  for (const; ; )
     {}
 }
 ```

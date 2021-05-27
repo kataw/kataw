@@ -110,7 +110,7 @@ for (let {x,} of obj);
 
 ```javascript
 
-for ( of obj);
+for (const of obj);
 ```
 
 ### Diagnostics

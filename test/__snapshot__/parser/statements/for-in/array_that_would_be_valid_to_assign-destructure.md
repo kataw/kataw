@@ -117,7 +117,7 @@ for ([x.y] in obj);
 
 ```javascript
 
-for ( in obj);
+for ([x.y] in obj);
 ```
 
 ### Diagnostics

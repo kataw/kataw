@@ -98,7 +98,7 @@ for await (const a of b);
 
 ```javascript
 
-for await ( of b);
+for await (const of b);
 ```
 
 ### Diagnostics

@@ -118,7 +118,7 @@ for (let {[x]: y = z};;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

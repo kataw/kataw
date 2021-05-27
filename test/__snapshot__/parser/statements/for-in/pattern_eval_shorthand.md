@@ -138,7 +138,7 @@ for ({ eval = 0 } in [{}]) ;
 
 ```javascript
 
-for ( in [{}]);
+for ({ eval = 0 } in [{}]);
 ```
 
 ### Diagnostics

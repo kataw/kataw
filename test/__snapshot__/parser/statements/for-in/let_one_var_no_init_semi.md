@@ -86,7 +86,7 @@ for (let foo in x);
 
 ```javascript
 
-for ( in x);
+for (const in x);
 ```
 
 ### Diagnostics

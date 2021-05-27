@@ -200,7 +200,7 @@ for ((async) of x);
 ```javascript
 
 for (async.x of y);
-for (; ; );
+for (async of =>  {}; ; );
 for ((async) of x);
 ```
 

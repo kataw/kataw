@@ -110,7 +110,7 @@ for (a.b in c) d;
 
 ```javascript
 
-for ( in c)
+for (a.b in c)
   d;
 ```
 

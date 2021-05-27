@@ -164,7 +164,7 @@ try {} catch (e) { for (let e of y) {} }
 
 try {
 } catch (e) {
-  for ( of y)
+  for (const of y)
     {
     }
 }

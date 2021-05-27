@@ -685,7 +685,7 @@ for await ( of [await function () {}])
     break;
   }
 // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await ( of [await function () {}])
+for await (const of [await function () {}])
   {
     await function () {};
     break;

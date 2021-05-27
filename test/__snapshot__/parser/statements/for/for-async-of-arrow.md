@@ -91,7 +91,7 @@ for (async of => {};;);
 
 ```javascript
 
-for (; ; );
+for (async of =>  {}; ; );
 ```
 
 ### Diagnostics

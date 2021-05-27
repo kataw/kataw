@@ -117,7 +117,7 @@ for (let [...foo] of obj);
 
 ```javascript
 
-for ( of obj);
+for (const of obj);
 ```
 
 ### Diagnostics

@@ -121,7 +121,7 @@ for (const {...x} in y){}
 
 ```javascript
 
-for ( in y)
+for (const in y)
   {}
 ```
 

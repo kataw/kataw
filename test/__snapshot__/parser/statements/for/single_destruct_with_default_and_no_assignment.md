@@ -104,7 +104,7 @@ for (let {x=y};;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

@@ -154,7 +154,7 @@ for ({a: b.c}.foo in d) e
 
 ```javascript
 
-for ( in d)
+for ({ a: b.c }.foo in d)
   e;
 ```
 

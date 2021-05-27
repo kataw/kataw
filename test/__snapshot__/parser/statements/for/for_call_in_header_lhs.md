@@ -127,7 +127,7 @@ for (x(x in t);;) x
 
 ```javascript
 
-for (; ; )
+for (x(x in t); ; )
   x;
 ```
 

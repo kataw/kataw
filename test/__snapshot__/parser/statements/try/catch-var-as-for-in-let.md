@@ -163,7 +163,7 @@ try {} catch (e) { for (let e in y) {} }
 
 try {
 } catch (e) {
-  for ( in y)
+  for (const in y)
     {}
 }
 ```

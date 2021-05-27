@@ -106,7 +106,7 @@ for (let a of b);
 
 ```javascript
 
-for ( of b);
+for (const of b);
 ```
 
 ### Diagnostics

@@ -102,7 +102,7 @@ for ("foo".bar in obj);
 
 ```javascript
 
-for ( in obj);
+for ("\"foo\"".bar in obj);
 ```
 
 ### Diagnostics

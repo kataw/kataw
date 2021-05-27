@@ -132,7 +132,7 @@ for ({x: a.b} in obj);
 
 ```javascript
 
-for ( in obj);
+for ({ x: a.b } in obj);
 ```
 
 ### Diagnostics

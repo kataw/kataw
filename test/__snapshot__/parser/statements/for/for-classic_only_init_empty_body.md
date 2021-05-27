@@ -76,7 +76,7 @@ for (a;;);
 
 ```javascript
 
-for (; ; );
+for (a; ; );
 ```
 
 ### Diagnostics

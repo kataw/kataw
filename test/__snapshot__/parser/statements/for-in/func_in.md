@@ -168,7 +168,9 @@ for (function(){ a in b; }.prop in x);
 
 ```javascript
 
-for ( in x);
+for (function () {
+  a in b;
+}.prop in x);
 ```
 
 ### Diagnostics

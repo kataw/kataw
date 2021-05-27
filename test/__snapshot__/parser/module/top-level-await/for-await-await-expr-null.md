@@ -493,7 +493,7 @@ for await ( of [await null])
     break;
   }
 // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await ( of [await null])
+for await (const of [await null])
   {
     await null;
     break;

@@ -108,7 +108,7 @@ for ([].bar in obj);
 
 ```javascript
 
-for ( in obj);
+for ([].bar in obj);
 ```
 
 ### Diagnostics

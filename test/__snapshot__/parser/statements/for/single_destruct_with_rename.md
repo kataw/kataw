@@ -112,7 +112,7 @@ for (let {x : y} = obj;;);
 
 ```javascript
 
-for (; ; );
+for (const; ; );
 ```
 
 ### Diagnostics

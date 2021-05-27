@@ -115,7 +115,7 @@ for(function(){};;)x
 
 ```javascript
 
-for (; ; )
+for (function () {}; ; )
   x;
 ```
 

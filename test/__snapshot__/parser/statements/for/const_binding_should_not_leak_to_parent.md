@@ -327,9 +327,9 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
 
 ```javascript
 
-for (; ; a  < 1)
+for (const; ; a  < 1)
   {}
-for (; ; a  < 1)
+for (const; ; a  < 1)
   {}
 
 ```
