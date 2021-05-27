@@ -70,7 +70,7 @@
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 33,
                                     "end": 39

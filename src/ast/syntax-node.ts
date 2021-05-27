@@ -68,7 +68,7 @@ export const enum SyntaxKind {
   AssignmentExpression = 125,
   AsyncKeyword = 82031,
   AwaitExpression = 208,
-  AwaitKeyword = 82032,
+  AwaitKeyword = 90224,
   BinaryExpression = 198,
   BindingElement = 203,
   BindingElementList = 202,

@@ -220,7 +220,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                         {
                                                                                                                             "kind": 208,
                                                                                                                             "awaitKeyword": {
-                                                                                                                                "kind": 82032,
+                                                                                                                                "kind": 90224,
                                                                                                                                 "flags": 0,
                                                                                                                                 "start": 70,
                                                                                                                                 "end": 75

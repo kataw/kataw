@@ -374,7 +374,7 @@ for ({a: b.c}-- of d) e;
                 "end": 63
             },
             "awaitKeyword": {
-                "kind": 82032,
+                "kind": 90224,
                 "flags": 64,
                 "start": 63,
                 "end": 69

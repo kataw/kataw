@@ -71,19 +71,40 @@ let y = typeof async x => await x
                                 },
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 208,
-                                    "awaitKeyword": {
-                                        "kind": 82032,
-                                        "flags": 0,
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 208,
+                                                    "awaitKeyword": {
+                                                        "kind": 90224,
+                                                        "flags": 0,
+                                                        "start": 25,
+                                                        "end": 31
+                                                    },
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 31,
+                                                        "end": 33
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 25,
+                                                    "end": 33
+                                                },
+                                                "flags": 16,
+                                                "start": 25,
+                                                "end": 33
+                                            }
+                                        ],
+                                        "flags": 32,
                                         "start": 25,
-                                        "end": 31
-                                    },
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 31,
                                         "end": 33
                                     },
                                     "flags": 32,
@@ -125,12 +146,12 @@ let y = typeof async x => await x
 
 ```javascript
 
-let y = typeof async x =>  await x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
+
 ```
 

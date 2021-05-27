@@ -61,7 +61,7 @@ async function f(){ await foo\n/foo/g }
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 19,
                                     "end": 25

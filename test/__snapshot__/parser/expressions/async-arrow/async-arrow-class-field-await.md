@@ -77,7 +77,7 @@ async( x = class { x = await });
                                 "initializer": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 82032,
+                                        "kind": 90224,
                                         "flags": 0,
                                         "start": 27,
                                         "end": 33

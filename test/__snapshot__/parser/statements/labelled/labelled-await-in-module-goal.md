@@ -26,91 +26,65 @@ var await;
     "directives": [],
     "statements": [
         {
-            "kind": 163,
-            "label": {
-                "kind": 134299649,
-                "text": "await",
-                "rawText": "await",
-                "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 208,
+                "awaitKeyword": {
+                    "kind": 90224,
+                    "flags": 0,
+                    "start": 0,
+                    "end": 6
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 6,
+                    "end": 6
+                },
+                "flags": 32,
                 "start": 0,
                 "end": 6
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "await",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 6
-                },
-                {
-                    "kind": 256,
-                    "label": "await",
-                    "iterationStatement": false,
-                    "flags": 16401,
-                    "start": 9,
-                    "end": 22
-                }
-            ],
-            "colonToken": {
-                "kind": 21,
-                "flags": 0,
-                "start": 6,
-                "end": 7
-            },
-            "statement": {
-                "kind": 168,
-                "flags": 16,
-                "start": 7,
-                "end": 9
-            },
             "flags": 16,
             "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 7,
             "end": 9
         },
         {
-            "kind": 163,
-            "label": {
-                "kind": 134299649,
-                "text": "await",
-                "rawText": "\\u0061wait",
-                "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 208,
+                "awaitKeyword": {
+                    "kind": 90224,
+                    "flags": 16385,
+                    "start": 9,
+                    "end": 22
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 22,
+                    "end": 22
+                },
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "await",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 6
-                },
-                {
-                    "kind": 256,
-                    "label": "await",
-                    "iterationStatement": false,
-                    "flags": 16401,
-                    "start": 9,
-                    "end": 22
-                }
-            ],
-            "colonToken": {
-                "kind": 21,
-                "flags": 0,
-                "start": 22,
-                "end": 23
-            },
-            "statement": {
-                "kind": 168,
-                "flags": 16,
-                "start": 23,
-                "end": 25
-            },
-            "flags": 16401,
+            "flags": 16,
             "start": 9,
+            "end": 22
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 23,
             "end": 25
         },
         {
@@ -170,9 +144,9 @@ var await;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected.  'await' is a reserved word in module goal - start: 0, end: 7
-✖ Unicode escapes at the start of labels should not allow keywords - start: 9, end: 23
-✖ Duplicate label - start: 9, end: 23
+✖ Expression expected - start: 6, end: 7
+✖ 'await' keyword must not contain escaped characters - start: 9, end: 9
+✖ Expression expected - start: 22, end: 23
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 30, end: 36
 
 ```

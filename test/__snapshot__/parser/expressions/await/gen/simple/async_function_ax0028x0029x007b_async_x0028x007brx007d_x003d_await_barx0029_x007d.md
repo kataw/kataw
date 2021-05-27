@@ -103,7 +103,7 @@ async function a(){     async ({r} = await bar);     }
                                         "right": {
                                             "kind": 208,
                                             "awaitKeyword": {
-                                                "kind": 82032,
+                                                "kind": 90224,
                                                 "flags": 0,
                                                 "start": 36,
                                                 "end": 42

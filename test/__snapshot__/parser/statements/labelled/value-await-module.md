@@ -22,47 +22,42 @@ await: 1;
     "directives": [],
     "statements": [
         {
-            "kind": 163,
-            "label": {
-                "kind": 134299649,
-                "text": "await",
-                "rawText": "await",
-                "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 208,
+                "awaitKeyword": {
+                    "kind": 90224,
+                    "flags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 5,
+                    "end": 5
+                },
+                "flags": 32,
                 "start": 0,
                 "end": 5
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "await",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 5
-                }
-            ],
-            "colonToken": {
-                "kind": 21,
-                "flags": 0,
-                "start": 5,
-                "end": 6
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 201392130,
-                    "text": 1,
-                    "rawText": "1",
-                    "flags": 96,
-                    "start": 6,
-                    "end": 8
-                },
-                "flags": 16,
-                "start": 6,
-                "end": 9
-            },
             "flags": 16,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392130,
+                "text": 1,
+                "rawText": "1",
+                "flags": 96,
+                "start": 6,
+                "end": 8
+            },
+            "flags": 16,
+            "start": 6,
             "end": 9
         }
     ],
@@ -84,7 +79,7 @@ await: 1;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected.  'await' is a reserved word in module goal - start: 0, end: 6
+✖ Expression expected - start: 5, end: 6
 
 ```
 

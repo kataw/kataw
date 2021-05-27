@@ -1841,7 +1841,7 @@ async function * gen() {class C extends await { }}
                                 "left": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 82032,
+                                        "kind": 90224,
                                         "flags": 0,
                                         "start": 923,
                                         "end": 928
@@ -2096,7 +2096,7 @@ async function * gen() {class C extends await { }}
                                             "left": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 82032,
+                                                    "kind": 90224,
                                                     "flags": 0,
                                                     "start": 1014,
                                                     "end": 1020
@@ -2305,7 +2305,7 @@ async function * gen() {class C extends await { }}
                                 "operand": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 82032,
+                                        "kind": 90224,
                                         "flags": 0,
                                         "start": 1087,
                                         "end": 1092
@@ -2489,7 +2489,7 @@ async function * gen() {class C extends await { }}
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 1153,
                                     "end": 1158
@@ -4679,7 +4679,7 @@ async function * gen() {class C extends await { }}
                                                             {
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
-                                                                    "kind": 82032,
+                                                                    "kind": 90224,
                                                                     "flags": 0,
                                                                     "start": 2309,
                                                                     "end": 2314
@@ -4990,7 +4990,7 @@ async function * gen() {class C extends await { }}
                                                                     "right": {
                                                                         "kind": 208,
                                                                         "awaitKeyword": {
-                                                                            "kind": 82032,
+                                                                            "kind": 90224,
                                                                             "flags": 0,
                                                                             "start": 2402,
                                                                             "end": 2408
@@ -5999,7 +5999,7 @@ async function * gen() {class C extends await { }}
                                             {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 82032,
+                                                    "kind": 90224,
                                                     "flags": 0,
                                                     "start": 2757,
                                                     "end": 2762
@@ -6318,7 +6318,7 @@ async function * gen() {class C extends await { }}
                                                     "right": {
                                                         "kind": 208,
                                                         "awaitKeyword": {
-                                                            "kind": 82032,
+                                                            "kind": 90224,
                                                             "flags": 0,
                                                             "start": 2856,
                                                             "end": 2862
@@ -6592,7 +6592,7 @@ async function * gen() {class C extends await { }}
                             "initializer": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 2957,
                                     "end": 2962
@@ -6828,7 +6828,7 @@ async function * gen() {class C extends await { }}
                             "initializer": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 3053,
                                     "end": 3058
@@ -7088,7 +7088,7 @@ async function * gen() {class C extends await { }}
                             "initializer": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 3155,
                                     "end": 3160
@@ -7375,7 +7375,7 @@ async function * gen() {class C extends await { }}
                             "initializer": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 3263,
                                     "end": 3268

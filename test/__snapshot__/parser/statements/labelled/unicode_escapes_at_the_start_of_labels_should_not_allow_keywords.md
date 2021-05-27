@@ -43,7 +43,7 @@ async () => { \u{61}wait: x }
                             "label": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 8192,
                                     "start": 13,
                                     "end": 24

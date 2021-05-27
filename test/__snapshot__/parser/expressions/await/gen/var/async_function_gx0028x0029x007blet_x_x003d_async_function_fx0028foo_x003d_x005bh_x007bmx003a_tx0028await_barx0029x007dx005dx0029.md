@@ -257,7 +257,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                     {
                                                                                                                                         "kind": 208,
                                                                                                                                         "awaitKeyword": {
-                                                                                                                                            "kind": 82032,
+                                                                                                                                            "kind": 90224,
                                                                                                                                             "flags": 0,
                                                                                                                                             "start": 99,
                                                                                                                                             "end": 104

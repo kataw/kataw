@@ -113,7 +113,7 @@ var C = class { static async *gen() {
                                                                 "label": {
                                                                     "kind": 208,
                                                                     "awaitKeyword": {
-                                                                        "kind": 82032,
+                                                                        "kind": 90224,
                                                                         "flags": 1,
                                                                         "start": 37,
                                                                         "end": 47

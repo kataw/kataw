@@ -137,7 +137,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "expression": {
                                                                                     "kind": 208,
                                                                                     "awaitKeyword": {
-                                                                                        "kind": 82032,
+                                                                                        "kind": 90224,
                                                                                         "flags": 0,
                                                                                         "start": 51,
                                                                                         "end": 56

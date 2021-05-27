@@ -119,7 +119,7 @@ var await; var f = (async function() { await = 1 });
                                                     "left": {
                                                         "kind": 208,
                                                         "awaitKeyword": {
-                                                            "kind": 82032,
+                                                            "kind": 90224,
                                                             "flags": 0,
                                                             "start": 38,
                                                             "end": 44

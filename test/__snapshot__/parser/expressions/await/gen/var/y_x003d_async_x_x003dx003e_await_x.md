@@ -155,41 +155,62 @@ var await; var f = (async function() { y = async x => await x });
                                                         },
                                                         "returnType": null,
                                                         "contents": {
-                                                            "kind": 208,
-                                                            "awaitKeyword": {
-                                                                "kind": 82032,
-                                                                "flags": 0,
+                                                            "kind": 216,
+                                                            "functionStatementList": {
+                                                                "kind": 217,
+                                                                "directives": [],
+                                                                "statements": [
+                                                                    {
+                                                                        "kind": 120,
+                                                                        "expression": {
+                                                                            "kind": 208,
+                                                                            "awaitKeyword": {
+                                                                                "kind": 90224,
+                                                                                "flags": 0,
+                                                                                "start": 53,
+                                                                                "end": 59
+                                                                            },
+                                                                            "expression": {
+                                                                                "kind": 134299649,
+                                                                                "text": "x",
+                                                                                "rawText": "x",
+                                                                                "flags": 96,
+                                                                                "start": 59,
+                                                                                "end": 61
+                                                                            },
+                                                                            "flags": 32,
+                                                                            "start": 53,
+                                                                            "end": 61
+                                                                        },
+                                                                        "flags": 16,
+                                                                        "start": 53,
+                                                                        "end": 61
+                                                                    }
+                                                                ],
+                                                                "flags": 32,
                                                                 "start": 53,
-                                                                "end": 59
-                                                            },
-                                                            "expression": {
-                                                                "kind": 134299649,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 96,
-                                                                "start": 59,
                                                                 "end": 61
                                                             },
                                                             "flags": 32,
                                                             "start": 53,
-                                                            "end": 61
+                                                            "end": 63
                                                         },
                                                         "flags": 288,
                                                         "start": 42,
-                                                        "end": 61
+                                                        "end": 63
                                                     },
                                                     "flags": 32,
                                                     "start": 38,
-                                                    "end": 61
+                                                    "end": 63
                                                 },
                                                 "flags": 16,
                                                 "start": 38,
-                                                "end": 61
+                                                "end": 63
                                             }
                                         ],
                                         "flags": 32,
                                         "start": 38,
-                                        "end": 61
+                                        "end": 63
                                     },
                                     "flags": 32,
                                     "start": 36,
@@ -232,15 +253,12 @@ var await; var f = (async function() { y = async x => await x });
 
 ```javascript
 
-var await;
-var f = (async function () {
-    y = async x =>  await x;
-  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 63, end: 64
+
 ```
 

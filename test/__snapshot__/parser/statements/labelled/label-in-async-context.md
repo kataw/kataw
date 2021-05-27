@@ -60,7 +60,7 @@ async function x() {
                             "label": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 1,
                                     "start": 20,
                                     "end": 28

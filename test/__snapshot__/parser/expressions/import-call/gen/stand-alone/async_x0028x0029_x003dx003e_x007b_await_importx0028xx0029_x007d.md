@@ -46,7 +46,7 @@ async () => { await import(x) }
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 82032,
+                                    "kind": 90224,
                                     "flags": 0,
                                     "start": 13,
                                     "end": 19

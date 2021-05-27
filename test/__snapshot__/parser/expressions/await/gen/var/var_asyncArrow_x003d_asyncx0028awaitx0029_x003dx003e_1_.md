@@ -161,7 +161,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                             {
                                                                                 "kind": 208,
                                                                                 "awaitKeyword": {
-                                                                                    "kind": 82032,
+                                                                                    "kind": 90224,
                                                                                     "flags": 0,
                                                                                     "start": 62,
                                                                                     "end": 67

@@ -58,7 +58,7 @@ async function f(foo = await){}
                         "initializer": {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 82032,
+                                "kind": 90224,
                                 "flags": 0,
                                 "start": 22,
                                 "end": 28

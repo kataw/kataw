@@ -234,7 +234,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                                 {
                                                                                                                                     "kind": 208,
                                                                                                                                     "awaitKeyword": {
-                                                                                                                                        "kind": 82032,
+                                                                                                                                        "kind": 90224,
                                                                                                                                         "flags": 0,
                                                                                                                                         "start": 100,
                                                                                                                                         "end": 105

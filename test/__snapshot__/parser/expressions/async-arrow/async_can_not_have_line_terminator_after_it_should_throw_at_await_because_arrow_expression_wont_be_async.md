@@ -82,33 +82,54 @@ g => await g
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 134299649,
-                    "text": "await",
-                    "rawText": "await",
-                    "flags": 96,
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 96,
+                                    "start": 18,
+                                    "end": 24
+                                },
+                                "flags": 16,
+                                "start": 18,
+                                "end": 24
+                            },
+                            {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "g",
+                                    "rawText": "g",
+                                    "flags": 96,
+                                    "start": 24,
+                                    "end": 26
+                                },
+                                "flags": 16,
+                                "start": 24,
+                                "end": 26
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 18,
+                        "end": 26
+                    },
+                    "flags": 32,
                     "start": 18,
-                    "end": 24
+                    "end": 26
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 24
-            },
-            "flags": 16,
-            "start": 13,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "g",
-                "rawText": "g",
-                "flags": 96,
-                "start": 24,
                 "end": 26
             },
             "flags": 16,
-            "start": 24,
+            "start": 13,
             "end": 26
         }
     ],

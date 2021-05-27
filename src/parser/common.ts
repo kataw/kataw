@@ -127,9 +127,14 @@ export type OnError = (
  * The scope interface.
  */
 export interface ScopeState {
-  parent: ScopeState | null;
+  scope: ScopeState | null;
   kind: ScopeKind;
-  hasError: boolean;
+  flags: ScopeFlags;
+}
+
+export const enum ScopeFlags {
+  None = 0,
+  Error = 1 << 0
 }
 
 /**
@@ -441,16 +446,16 @@ export function isMemberExpression(node: SyntaxNode): boolean {
 export function createScope(): ScopeState {
   return {
     kind: ScopeKind.Block,
-    parent: null,
-    hasError: false
+    scope: null,
+    flags: ScopeFlags.None
   };
 }
 
-export function createParentScope(parent: ScopeState | null, kind: ScopeKind): ScopeState {
+export function createParentScope(scope: ScopeState | null, kind: ScopeKind): ScopeState {
   return {
     kind,
-    parent,
-    hasError: false
+    scope,
+    flags: ScopeFlags.None
   };
 }
 
@@ -503,7 +508,7 @@ export function addVarName(
       }
 
       currentScope['#' + name] = kind;
-      currentScope = currentScope.parent;
+      currentScope = currentScope.scope;
     }
   }
 }
@@ -516,7 +521,7 @@ export function addBlockName(parser: ParserState, context: Context, scope: any, 
       if ((value & BindingType.Empty) === 0) {
         if (type & BindingType.ArgumentList) {
           parser.diagnosticStartPos = parser.curPos;
-          scope.hasError = true;
+          scope.flags = ScopeFlags.Error;
         } else if (
           context & Context.OptionsDisableWebCompat ||
           (value & BindingType.FunctionLexical) === 0 ||
@@ -532,7 +537,7 @@ export function addBlockName(parser: ParserState, context: Context, scope: any, 
         }
       }
     } else {
-      const parent = scope.parent;
+      const parent = scope.scope;
       if (scope.kind & ScopeKind.FunctionBody && parent['#' + name] && (parent['#' + name] & BindingType.Empty) === 0) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -550,7 +555,7 @@ export function addBlockName(parser: ParserState, context: Context, scope: any, 
         type & BindingType.ArgumentList
       ) {
         parser.diagnosticStartPos = parser.curPos;
-        scope.hasError = true;
+        scope.flags = ScopeFlags.Error;
       }
 
       if (

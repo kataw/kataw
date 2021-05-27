@@ -65,7 +65,7 @@ async function f() {
                                 "end": 26
                             },
                             "awaitKeyword": {
-                                "kind": 82032,
+                                "kind": 90224,
                                 "flags": 64,
                                 "start": 26,
                                 "end": 32

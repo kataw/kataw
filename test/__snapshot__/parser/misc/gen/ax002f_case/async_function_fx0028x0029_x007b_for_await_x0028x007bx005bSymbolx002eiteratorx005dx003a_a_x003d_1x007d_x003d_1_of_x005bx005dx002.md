@@ -65,7 +65,7 @@ async function f() { for await ({[Symbol.iterator]: a = 1} = 1 of []) ; }
                                 "end": 24
                             },
                             "awaitKeyword": {
-                                "kind": 82032,
+                                "kind": 90224,
                                 "flags": 64,
                                 "start": 24,
                                 "end": 30
