@@ -5134,9 +5134,8 @@ function parseFunctionExpression(
   const typeParameters = parseTypeParameterDeclaration(parser, context);
 
   context =
-    ((context | Context.TopLevel | 0b00001001100000110100011010000000) ^
-      (Context.TopLevel | 0b00001001100000110100011010000000)) |
-    (asyncToken ? Context.TopLevel | Context.AwaitContext : Context.None) |
+    ((context | 0b00001001100000110100011010001000) ^ 0b00001001100000110100011010001000) |
+    (asyncToken ? 0b00000000000000000000010000001000 : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
   scope = createParentScope(scope, ScopeKind.FunctionParams);
   const formalParameterList = parseFormalParameterList(
@@ -5404,9 +5403,8 @@ function parseFunctionDeclaration(
   const typeParameters = parseTypeParameterDeclaration(parser, context);
 
   context =
-    ((context | Context.TopLevel | 0b00001001100000110100011010000000) ^
-      (Context.TopLevel | 0b00001001100000110100011010000000)) |
-    (asyncToken ? Context.TopLevel | Context.AwaitContext : Context.None) |
+    ((context | 0b00001001100000110100011010001000) ^ 0b00001001100000110100011010001000) |
+    (asyncToken ? 0b00000000000000000000010000001000 : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
 
   innerScope = createParentScope(innerScope, ScopeKind.FunctionParams);
