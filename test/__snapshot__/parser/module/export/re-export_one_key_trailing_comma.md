@@ -101,7 +101,7 @@ export {x,} from "foo"
 
 ```javascript
 
-  x } from ;
+eport  x } from ;
 ```
 
 ### Diagnostics

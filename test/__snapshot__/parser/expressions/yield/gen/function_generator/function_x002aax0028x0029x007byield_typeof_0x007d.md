@@ -229,7 +229,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
 function * gen() {
   function not_gen() {
     function * a() {
-       typeof 0;
+      yield typeof 0;
     }
   }
 }

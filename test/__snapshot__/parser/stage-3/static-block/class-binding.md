@@ -203,7 +203,7 @@ class Foo {
 class Foo {
   static bar = 42;
 
-  import ;
+   ;
 }
 ```
 

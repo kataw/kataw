@@ -96,7 +96,7 @@ export default [x] = y
 
 ```javascript
 
- default [x] = y;
+eport default [x] = y;
 ```
 
 ### Diagnostics

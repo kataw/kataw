@@ -272,7 +272,7 @@ function * gen() {
   function not_gen() {
     function * gf() {
       switch(1
-        case  "'foo'":
+        case yield * "'foo'":
           break;
 
     }

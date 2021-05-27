@@ -89,7 +89,7 @@ import {} from "foo";
 
 ```javascript
 
- {}  ;
+import {}  ;
 ```
 
 ### Diagnostics

@@ -139,7 +139,7 @@ function *f() {
 ```javascript
 
 function * f() {
-   x =>  ok;
+  yield x =>  ok;
 }
 ```
 

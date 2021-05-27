@@ -218,7 +218,7 @@ function *f(){  class x{*[yield](a){}}  }
 
 function * f() {
   class x {
-    [ ](a) {}
+    [ yield](a) {}
   }
 }
 ```

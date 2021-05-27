@@ -84,7 +84,7 @@ import foo from "foo";
 
 ```javascript
 
- foo  ;
+import foo  ;
 ```
 
 ### Diagnostics

@@ -141,7 +141,7 @@ function* g(){ x ? yield : y }
 ```javascript
 
 function * g() {
-  x ?   : y;
+  x ?  yield : y;
 }
 ```
 

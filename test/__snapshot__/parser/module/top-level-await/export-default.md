@@ -73,7 +73,7 @@ export default await 0;
 
 ```javascript
 
- default await 0;
+eport default await 0;
 ```
 
 ### Diagnostics

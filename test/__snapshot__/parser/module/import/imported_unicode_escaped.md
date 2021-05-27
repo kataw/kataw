@@ -113,7 +113,7 @@ export {a \u0061s b} from "x";
 
 ```javascript
 
-  a  b } from ;
+eport  a as b } from ;
 ```
 
 ### Diagnostics

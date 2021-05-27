@@ -151,7 +151,7 @@ function* bar() { yield class {} }
 ```javascript
 
 function * bar() {
-   class  {};
+  yield class  {};
 }
 ```
 

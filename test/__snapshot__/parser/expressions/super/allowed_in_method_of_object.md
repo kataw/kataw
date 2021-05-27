@@ -152,7 +152,7 @@ x={ foo(){ super.foo; }}
 ```javascript
 
 x = { foo() {
-    .foo;
+    super.foo;
   } };
 ```
 

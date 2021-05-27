@@ -450,10 +450,10 @@ function* g() {
 var yieldSet, C, iter;
 function * g() {
   class C_ {
-    get [ ]() {
+    get [ yield]() {
       return  "'get yield'";
     }
-    set [ ](param) {
+    set [ yield](param) {
       yieldSet = param;
     }
   }

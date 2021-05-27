@@ -150,7 +150,7 @@
 ```javascript
 
 function * g() {
-  x ?   : y;
+  x ?  yield : y;
 }
 ```
 

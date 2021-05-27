@@ -90,7 +90,7 @@ export default class x {}
 
 ```javascript
 
- default class x {};
+eport default class x {};
 ```
 
 ### Diagnostics

@@ -170,7 +170,7 @@ function *f(){ ({x} = yield) => {} }
 ```javascript
 
 function * f() {
-  ({ x } =  ) =>  {};
+  ({ x } =  yield) =>  {};
 }
 ```
 

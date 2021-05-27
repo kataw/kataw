@@ -228,8 +228,8 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 
 class x  {
   constructor() {
-    log(.foo);
-    .mom;
+    log(super.foo);
+    super.mom;
   }
 }
 ```

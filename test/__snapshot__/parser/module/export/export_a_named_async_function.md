@@ -103,7 +103,7 @@ export async function f(){}
 
 ```javascript
 
- async function f() {}
+eport async function f() {}
 ```
 
 ### Diagnostics

@@ -217,7 +217,7 @@ class C {
 
 class C {
   static static foo() {}
-  import ;
+   ;
 }
 ```
 

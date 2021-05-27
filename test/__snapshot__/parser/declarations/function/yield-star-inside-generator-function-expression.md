@@ -120,7 +120,7 @@
 ```javascript
 
 (function * () {
-     v;
+    yield * v;
   });
 ```
 

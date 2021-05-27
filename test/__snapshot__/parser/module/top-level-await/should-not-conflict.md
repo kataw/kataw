@@ -122,7 +122,7 @@ await x;
 
 ```javascript
 
- const x = 1;
+eport const x = 1;
 await x;
 ```
 

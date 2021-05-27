@@ -109,7 +109,7 @@ import x, * as a from "y"
 
 ```javascript
 
- x, * as   ;
+import x, * as   ;
 ```
 
 ### Diagnostics

@@ -84,7 +84,7 @@ import x from "y"
 
 ```javascript
 
- x  ;
+import x  ;
 ```
 
 ### Diagnostics

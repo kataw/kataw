@@ -106,7 +106,7 @@ export var x, y
 
 ```javascript
 
- var x, y;
+eport var x, y;
 ```
 
 ### Diagnostics

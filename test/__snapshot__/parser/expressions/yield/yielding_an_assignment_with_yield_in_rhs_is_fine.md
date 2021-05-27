@@ -164,7 +164,7 @@ function* g(x) { yield x = yield 3; }
 ```javascript
 
 function * g(x) {
-   x =  3;
+  yield x = yield 3;
 }
 ```
 

@@ -189,7 +189,7 @@ function* foo() {
 function * foo() {
   class C {
     // here yield is an identifier reference
-    p =   + 42;
+    p =  yield + 42;
 
   }
 }

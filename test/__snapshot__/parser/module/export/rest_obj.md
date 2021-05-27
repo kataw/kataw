@@ -123,7 +123,7 @@ export let {...x} = y
 
 ```javascript
 
- let {
+eport let {
   ...x
 } = y;
 ```

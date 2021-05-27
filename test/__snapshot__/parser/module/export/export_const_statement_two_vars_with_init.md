@@ -119,7 +119,7 @@ export const x = 10, y = 20
 
 ```javascript
 
- const x = 10, y = 20;
+eport const x = 10, y = 20;
 ```
 
 ### Diagnostics

@@ -171,7 +171,7 @@ function * g() {
 
 function * g() {
   class C {
-    import ;
+     ;
   }
 }
 ```

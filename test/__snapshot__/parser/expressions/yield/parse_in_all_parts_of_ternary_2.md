@@ -152,7 +152,7 @@ function *f() { yield ? yield : yield ; }
 ```javascript
 
 function * f() {
-    ?   :  ;
+   yield ?  yield :  yield;
 }
 ```
 

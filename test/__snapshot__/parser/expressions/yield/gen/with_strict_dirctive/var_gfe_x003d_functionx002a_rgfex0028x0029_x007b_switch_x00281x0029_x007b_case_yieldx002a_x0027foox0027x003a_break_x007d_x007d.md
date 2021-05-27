@@ -214,7 +214,7 @@
 
 var gfe = function * rgfe() {
   switch(1
-    case  "'foo'":
+    case yield * "'foo'":
       break;
 
 };

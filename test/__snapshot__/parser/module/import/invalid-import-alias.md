@@ -119,7 +119,7 @@ import {'\uD800' as x} from 'foo'
 
 ```javascript
 
-  x }  ;
+import  x }  ;
 ```
 
 ### Diagnostics

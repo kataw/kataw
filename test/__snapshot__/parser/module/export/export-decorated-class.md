@@ -109,7 +109,7 @@ export @bar class Foo { }
 
 ```javascript
 
- @bar
+eport @bar
 class Foo {}
 ```
 

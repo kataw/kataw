@@ -101,7 +101,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
     case SyntaxKind.ClassTail:
       return printClassTail(node, printer, parentNode);
     case SyntaxKind.ClassBody:
-      console.log(node);
       return printClassBody(node, printer, parentNode);
     case SyntaxKind.ClassDeclaration:
       return printClassDeclarationOrExpression(node, printer);
@@ -160,8 +159,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
     case SyntaxKind.LexicalBinding:
     case SyntaxKind.VariableDeclaration:
       return printVariableDeclarationOrLexicalBinding(node, printer);
-    case SyntaxKind.ExportDefault:
-      return printExportDefault(node, printer);
     case SyntaxKind.ExportFromClause:
       return printExportFromClause(node, printer);
     case SyntaxKind.ExportSpecifier:
@@ -172,8 +169,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printImportSpecifier(node, printer, parentNode);
     case SyntaxKind.ImportClause:
       return printImportClause(node, printer, parentNode);
-    case SyntaxKind.ImportDeclaration:
-      return printImportDeclaration(node, printer);
     case SyntaxKind.FieldDefinition:
       return printFieldDefinition(node, printer);
     case SyntaxKind.ClassElement:
@@ -218,6 +213,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return node.text;
     case SyntaxKind.CoverInitializedName:
       return printCoverInitializedName(node, printer);
+    case SyntaxKind.Super:
+      return printSuper(node);
     case SyntaxKind.PropertyDefinition:
       return printPropertyDefinition(node, printer);
     case SyntaxKind.PropertyMethod:
@@ -312,7 +309,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
 
 function printYieldExpression(node: any, printer: Printer): any {
   return chain([
-    printTokenWithComment(node.delegate ? 'yield*' : 'yield', node.start, printer, node, true),
+    printTokenWithComment(node.yieldKeyword, node.start, printer, node, true),
+    node.asteriskToken ? printTokenWithComment(node.asteriskToken, node.start, printer, node, true) : '',
     node.expression ? printExpressions(node.expression, printer, node) : ''
   ]);
 }
@@ -509,14 +507,14 @@ function printExportSpecifier(node: any, printer: Printer): any {
     ? chain([
         printExpressions(node.name, printer, node),
         printer.space,
-        printTokenWithComment('as', node.name.end, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.name.end, printer, node, true),
         printExpressions(node.moduleExportName, printer, node)
       ])
     : node.binding
     ? chain([
         printExpressions(node.name, printer, node),
         printer.space,
-        printTokenWithComment('as', node.name.end, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.name.end, printer, node, true),
         printExpressions(node.binding, printer, node)
       ])
     : printExpressions(node.name, printer, node);
@@ -524,46 +522,12 @@ function printExportSpecifier(node: any, printer: Printer): any {
 
 function printExportDefault(node: any, printer: Printer): any {
   return chain([
-    printTokenWithComment('export', node.start, printer, node, true),
+    printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
     'default',
     printer.space,
     printStatements(node.declaration, printer, node),
     ';'
   ]);
-}
-
-function printImportEqualsDeclaration(node: any, printer: Printer): any {
-  return chain([
-    printTokenWithComment('import', node.start, printer, node, false),
-    printer.space,
-    printStatements(node.name, printer, node),
-    printer.space,
-    printTokenWithComment('=', node.name.end, printer, node, true),
-    printStatements(node.moduleReference, printer, node),
-    ';'
-  ]);
-}
-
-function printExternalModuleReference(node: any, printer: Printer): any {
-  return chain([
-    printTokenWithComment('require(', node.start, printer, node, false),
-    printExpressions(node.expression, printer, node),
-    ')'
-  ]);
-}
-
-function printExportAssignment(node: any, printer: Printer): any {
-  return chain([
-    printTokenWithComment('export', node.start, printer, node, true),
-    '=',
-    printer.space,
-    printExpressions(node.expression, printer, node),
-    ';'
-  ]);
-}
-
-function printNamespaceExportDeclaration(node: any, printer: Printer): any {
-  return chain(['export as namespace ', printExpressions(node.name, printer, node), ';']);
 }
 
 function printFromClause(node: any, printer: Printer): any {
@@ -574,14 +538,14 @@ function printExportFromClause(node: any, printer: Printer): any {
   return node.namedBinding
     ? chain([
         printer.space,
-        printTokenWithComment('as', node.start, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.start, printer, node, true),
         printExpressions(node.namedBinding, printer, node)
       ])
     : node.moduleExportName
     ? // arbitrary module namespace names
       chain([
         printer.space,
-        printTokenWithComment('as', node.start, printer, node, true),
+        printTokenWithComment(node.asKeyword, node.start, printer, node, true),
         printExpressions(node.moduleExportName, printer, node)
       ])
     : '';
@@ -594,14 +558,14 @@ function printNamedExports(node: any, printer: Printer, parentNode: any): any {
 function printExportDeclaration(node: any, printer: Printer): any {
   if (node.declaration) {
     return chain([
-      printTokenWithComment('export', node.start, printer, node, true),
+      printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
       printStatements(node.declaration, printer, node)
     ]);
   }
 
   if (node.namedExports) {
     return chain([
-      printTokenWithComment('export', node.start, printer, node, true),
+      printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
       printNamedExports(node.namedExports, printer, node),
       printFromClause(node.fromClause, printer),
       ';'
@@ -610,7 +574,7 @@ function printExportDeclaration(node: any, printer: Printer): any {
 
   if (node.exportFromClause) {
     return chain([
-      printTokenWithComment('export', node.start, printer, node, true),
+      printTokenWithComment(node.exportKeyword, node.start, printer, node, true),
       '*',
       printExportFromClause(node.exportFromClause, printer),
       printFromClause(node.fromClause, printer),
@@ -663,14 +627,14 @@ function printImportClause(node: any, printer: Printer, _parentNode: any): any {
 function printImportDeclaration(node: any, printer: Printer): any {
   return node.importClause
     ? chain([
-        printTokenWithComment('import', node.start, printer, node, true),
+        printTokenWithComment(node.importKeyword, node.start, printer, node, true),
         printImportClause(node.importClause, printer, node),
         printer.space,
-        printTokenWithComment('from', node.importClause.end, printer, node, true),
+        printTokenWithComment(node.fromKeyword, node.importClause.end, printer, node, true),
         printExpressions(node.fromClause, printer, node),
         ';'
       ])
-    : chain(['import', printer.space, printExpressions(node.moduleSpecifier, printer, node), ';']);
+    : chain([node.importKeyword, printer.space, printExpressions(node.moduleSpecifier, printer, node), ';']);
 }
 
 function printNamedImports(node: any, printer: Printer): any {
@@ -1049,9 +1013,7 @@ function printClassBody(node: any, printer: Printer, parentNode: any): any {
     if (node.elements.length === 0) {
       return '{}';
     }
-  } catch (x) {
-    console.log(printer.source);
-  }
+  } catch (x) {}
   return chain([
     '{',
     indent(chain([hardline, printList(node.elements, printer, parentNode, printStatements)])),

@@ -119,7 +119,7 @@ import {default as foo} from "foo";
 
 ```javascript
 
-  default asfoo }  ;
+import  default asfoo }  ;
 ```
 
 ### Diagnostics

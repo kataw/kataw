@@ -119,7 +119,7 @@ export default async function f(){} foo
 
 ```javascript
 
- default async function f() {};
+eport default async function f() {};
 foo;
 ```
 

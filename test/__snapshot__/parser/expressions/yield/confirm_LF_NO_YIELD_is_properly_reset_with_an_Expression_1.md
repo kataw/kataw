@@ -160,7 +160,7 @@ function *g(){ return x + f(yield f); }
 ```javascript
 
 function * g() {
-  return  x + f( f);
+  return  x + f(yield f);
 }
 ```
 

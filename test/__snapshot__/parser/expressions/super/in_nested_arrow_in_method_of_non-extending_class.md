@@ -211,7 +211,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
 
 class x  {
   foo() {
-    return  () =>  () =>  .foo;
+    return  () =>  () =>  super.foo;
   }
 }
 ```

@@ -135,7 +135,7 @@
 ```javascript
 
 function * a() {
-   typeof 0;
+  yield typeof 0;
 }
 ```
 

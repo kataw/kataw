@@ -197,7 +197,7 @@ function* foo(a = {*bar() { yield b }}) {}
 ```javascript
 
 function * foo(a = { * bar() {
-     b;
+    yield b;
   } }) {}
 ```
 

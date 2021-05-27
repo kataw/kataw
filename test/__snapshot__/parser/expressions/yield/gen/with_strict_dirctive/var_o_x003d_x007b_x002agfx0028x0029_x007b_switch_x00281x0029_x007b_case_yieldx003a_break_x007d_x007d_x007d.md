@@ -219,7 +219,7 @@
 
 var o = { * gf() {
     switch(1
-      case  :
+      case  yield:
         break;
 
   } };

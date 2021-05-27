@@ -129,7 +129,7 @@
 ```javascript
 
 (function * () {
-      10;
+    yield yield 10;
   });
 ```
 

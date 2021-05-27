@@ -262,7 +262,7 @@ function fn() {
   return  function () {};
 }
 // extends CallExpression with arguments
- class C  {}
+eport class C  {}
 
 ```
 

@@ -99,7 +99,7 @@ export {foo, bar};
 
 ```javascript
 
-  foo, bar };
+eport  foo, bar };
 ```
 
 ### Diagnostics

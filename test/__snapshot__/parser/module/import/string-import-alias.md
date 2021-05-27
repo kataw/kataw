@@ -377,10 +377,10 @@ import {'' as x} from 'foo';
 
 ```javascript
 
-  x }  ;
-  x }  ;
-  x }  ;
-  x }  ;
+import  x }  ;
+import  x }  ;
+import  x }  ;
+import  x }  ;
 ```
 
 ### Diagnostics

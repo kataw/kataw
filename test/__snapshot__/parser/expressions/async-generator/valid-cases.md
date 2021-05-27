@@ -3311,83 +3311,83 @@ for (;;) {}});
 ```javascript
 
 (function * gen() {
-     2;
+    yield 2;
   })(function * gen() {
-   2;
+  yield * 2;
 });
 (function * gen() {
-     2;
+    yield * 2;
   });
 (function * gen() {
-      1;
+    yield yield 1;
   });
 (function * gen() {
-      1;
+    yield * yield * 1;
   });
 (function * gen() {
-     3 + ( 4);
+    yield 3 + (yield 4);
   });
 (function * gen() {
-     3 + ( 4);
+    yield * 3 + (yield * 4);
   });
 (function * gen() {
-     1;
+    yield * 1;
     return ;
   });
 (function * gen() {
-     1;
+    yield 1;
     return  37;
   });
 (function * gen() {
-     1;
+    yield * 1;
     return  37;
   });
 (function * gen() {
-     1;
+    yield 1;
     return  37;
-     "'dead'";
+    yield "'dead'";
   });
 (function * gen() {
-     1;
+    yield * 1;
     return  37;
-     "'dead'";
+    yield * "'dead'";
   });
 (function * gen() {
-     ;
+     yield;
   });
 (function * gen() {
-     ;
+     yield;
   });
 (function * gen() {
-     ;
+     yield;
   });
 (function * gen() {
-    ( );
+    ( yield);
   });
 (function * gen() {
-    [ ];
+    [ yield];
   });
 (function * gen() {
     {
-       ;
+       yield;
     }
   });
 (function * gen() {
-     ,  ;
+     yield,  yield;
   });
 (function * gen() {
-     ;
-     ;
+     yield;
+     yield;
   });
 (function * gen() {
-    ( ) ?   :  ;
+    ( yield) ?  yield :  yield;
   });
 (function * gen() {
-    ( ) ?   :  ;
+    ( yield) ?  yield :  yield;
   });
 // If there is a newline before the next token, we don't look for RHS.
 (function * gen() {
-     ;
+     yield;
     for (;;) {}
   });
 (function * gen() {

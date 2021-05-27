@@ -133,7 +133,7 @@ var x; export {x as a,}
 ```javascript
 
 var x;
-  x  a };
+eport  x as a };
 ```
 
 ### Diagnostics

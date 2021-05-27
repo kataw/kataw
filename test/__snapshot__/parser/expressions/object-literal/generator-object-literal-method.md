@@ -169,7 +169,7 @@ var x = { *test () { yield *v } };
 ```javascript
 
 var x = { * test() {
-     v;
+    yield * v;
   } };
 ```
 

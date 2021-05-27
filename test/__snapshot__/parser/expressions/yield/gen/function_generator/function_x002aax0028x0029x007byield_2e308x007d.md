@@ -217,7 +217,7 @@ function * gen() { function not_gen() { function *a(){yield 2e308} }}
 function * gen() {
   function not_gen() {
     function * a() {
-       2e308;
+      yield 2e308;
     }
   }
 }

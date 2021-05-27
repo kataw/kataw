@@ -157,7 +157,7 @@ function* fn() {
 ```javascript
 
 function * fn() {
-  (x =  ) =>  {};
+  (x =  yield) =>  {};
 }
 ```
 

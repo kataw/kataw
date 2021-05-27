@@ -119,7 +119,7 @@ import {x as z,} from "y"
 
 ```javascript
 
-  x asz }  ;
+import  x asz }  ;
 ```
 
 ### Diagnostics
