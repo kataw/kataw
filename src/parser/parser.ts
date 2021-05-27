@@ -2071,7 +2071,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context | 0b00000000010000000101111000000000) ^ 0b00000000010000000101111000000000) |
+      ((context | 0b00000000010000000101111000001000) ^ 0b00000000010000000101111000001000) |
         (asyncToken ? Context.AwaitContext : Context.None),
       scope,
       (flags & NodeFlags.NoneSimpleParamList) === 0
@@ -2103,7 +2103,7 @@ function parseConciseOrFunctionBody(
       parser,
       context | Context.IsOutsideFnOrArrow,
       scope,
-      /* kuvos*/ (scope.flags & ScopeFlags.Error) !== 0,
+      /* scopeError*/ (scope.flags & ScopeFlags.Error) !== 0,
       /* isDecl */ true,
       /* isSimpleParameterList */ isSimpleParameterList,
       /* ignoreMissingOpenBrace */ false,
@@ -2193,13 +2193,14 @@ function parseConciseOrFunctionBody(
     parser.token & SyntaxKind.IsStatementStart &&
     parser.token !== SyntaxKind.Semicolon &&
     parser.token !== SyntaxKind.FunctionKeyword &&
+    parser.token !== SyntaxKind.AwaitKeyword &&
     parser.token !== SyntaxKind.ClassKeyword
   ) {
     return parseFunctionBody(
       parser,
       context,
       scope,
-      /* kuvos*/ (scope.flags & ScopeFlags.Error) !== 0,
+      /* scopeError */ (scope.flags & ScopeFlags.Error) !== 0,
       /* isDecl */ true,
       /* isSimpleParameterList */ true,
       /* ignoreMissingOpenBrace */ true,
@@ -2947,7 +2948,7 @@ function parseMethodDefinition(
     parser,
     context | Context.NewTarget | Context.IsOutsideFnOrArrow,
     scope,
-    /* kuvos*/ (scope.flags & ScopeFlags.Error) !== 0,
+    /* scopeError*/ (scope.flags & ScopeFlags.Error) !== 0,
     /* isDecl */ false,
     /* isSimpleParameterList */ (methodParameters.flags & NodeFlags.NoneSimpleParamList) === 0,
     /* ignoreMissingOpenBrace */ false,
@@ -5148,7 +5149,7 @@ function parseFunctionExpression(
     parser,
     context | Context.NewTarget | Context.IsOutsideFnOrArrow,
     scope,
-    /* kuvos*/ (scope.flags & ScopeFlags.Error) !== 0,
+    /* scopeError*/ (scope.flags & ScopeFlags.Error) !== 0,
     /* isDecl */ false,
     /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
     /* ignoreMissingOpenBrace */ false,
@@ -5432,7 +5433,7 @@ function parseFunctionDeclaration(
           parser,
           context | Context.NewTarget | Context.IsOutsideFnOrArrow,
           innerScope,
-          /* kuvos*/ (innerScope.flags & ScopeFlags.Error) !== 0,
+          /* scopeError*/ (innerScope.flags & ScopeFlags.Error) !== 0,
           /* isDecl */ declareKeyword ? true : false,
           /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
           /* ignoreMissingOpenBrace */ false,
@@ -5443,7 +5444,7 @@ function parseFunctionDeclaration(
           parser,
           context | Context.NewTarget | Context.IsOutsideFnOrArrow,
           innerScope,
-          /* kuvos*/ (innerScope.flags & ScopeFlags.Error) !== 0,
+          /* scopeError*/ (innerScope.flags & ScopeFlags.Error) !== 0,
           /* isDecl */ declareKeyword ? true : false,
           /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
           /* ignoreMissingOpenBrace */ false,

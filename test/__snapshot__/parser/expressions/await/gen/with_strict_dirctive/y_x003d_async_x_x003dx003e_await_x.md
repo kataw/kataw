@@ -70,40 +70,19 @@
                     },
                     "returnType": null,
                     "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [
-                                {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 208,
-                                        "awaitKeyword": {
-                                            "kind": 90224,
-                                            "flags": 0,
-                                            "start": 28,
-                                            "end": 34
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 34,
-                                            "end": 36
-                                        },
-                                        "flags": 32,
-                                        "start": 28,
-                                        "end": 36
-                                    },
-                                    "flags": 16,
-                                    "start": 28,
-                                    "end": 36
-                                }
-                            ],
-                            "flags": 32,
+                        "kind": 208,
+                        "awaitKeyword": {
+                            "kind": 90224,
+                            "flags": 0,
                             "start": 28,
+                            "end": 34
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 34,
                             "end": 36
                         },
                         "flags": 32,
@@ -136,12 +115,12 @@
 
 ```javascript
 
+y = async x =>  await x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 36
-
+✔ No errors
 ```
 
