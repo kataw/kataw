@@ -9,11 +9,11 @@ import { createBreakStatement, BreakStatement } from '../ast/statements/break-st
 import { createContinueStatement, ContinueStatement } from '../ast/statements/continue-stmt';
 import { createLabels } from '../ast/statements/labels';
 import { createCaseBlock, CaseBlock } from '../ast/statements/case-block';
-import { createCaseClause, CaseClause } from '../ast/statements/case-clause';
+import { createCaseClause } from '../ast/statements/case-clause';
 import { createCatch, CatchClause } from '../ast/statements/catch-stmt';
 import { createDebuggerStatement, DebuggerStatement } from '../ast/statements/debugger-stmt';
 import { createTryStatement, TryStatement } from '../ast/statements/try-stmt';
-import { createDefaultClause, DefaultClause } from '../ast/statements/default-clause';
+import { createDefaultClause } from '../ast/statements/default-clause';
 import { createDoWhileStatement, DoWhileStatement } from '../ast/statements/do-stmt';
 import { createEmptyStatement, EmptyStatement } from '../ast/statements/empty-stmt';
 import { createForInStatement, ForInStatement } from '../ast/statements/for-in-stmt';
@@ -657,7 +657,7 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
   }
   return createCatch(
     catchToken,
-    catchParameter as any,
+    catchParameter,
     initializer,
     parseBlockStatement(parser, context, catchScope, /* isCatchScope */ true),
     pos,
@@ -1943,24 +1943,6 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         pos,
         parser.curPos
       );
-      if (parser.token & SyntaxKind.IsAssignOp) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[
-            DiagnosticCode.The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access
-          ],
-          pos,
-          parser.pos
-        );
-      }
-    } else if (parser.token === SyntaxKind.PrivateIdentifier) {
-      chain = createIndexExpressionChain(
-        chain,
-        parsePropertyOrPrivatePropertyName(parser, context),
-        pos,
-        parser.curPos
-      );
     } else if (parser.token === SyntaxKind.TemplateCont || parser.token === SyntaxKind.TemplateTail) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -2302,7 +2284,7 @@ function parsePrimaryExpression(
   context: Context,
   inNewExpression: boolean,
   LeftHandSideContext: LeftHandSide
-): any {
+): ExpressionNode {
   if (parser.token & SyntaxKind.IsIdentifier) {
     if (parser.token === SyntaxKind.AsyncKeyword) {
       return parseFunctionExpression(parser, context, inNewExpression, LeftHandSideContext);
@@ -2805,7 +2787,7 @@ function parsePropertyDefinition(
   }
 
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)) {
-    let left: any;
+    let left;
 
     if (parser.token & 0b00000000110000000100000000000000) {
       const colonValue = parser.tokenValue;
@@ -3737,11 +3719,16 @@ function parseArrayLiteralElement(
   return left;
 }
 
-function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Context): any {
+function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Context): ExpressionNode {
   return parser.token === SyntaxKind.Ellipsis ? parseSpreadElement(parser, context) : parseExpression(parser, context);
 }
 
-function parseArraySpreadArgument(parser: ParserState, context: Context, scope: ScopeState, type: BindingType): any {
+function parseArraySpreadArgument(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  type: BindingType
+): ExpressionNode {
   const pos = parser.curPos;
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -3871,7 +3858,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   LeftHandSideContext: LeftHandSide
 ): ParenthesizedExpression | any {
   const curPos = parser.curPos;
-  let typeParameters: any = null;
+  let typeParameters = null;
   let state = Tristate.False;
   let flags = NodeFlags.None;
 
@@ -3894,16 +3881,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
     let isType = false;
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
-      isType =
-        context & Context.InConditionalExpr
-          ? isValidReturnType(
-              parser,
-              context,
-              parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None),
-              curPos,
-              false
-            )
-          : true;
+      isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, curPos) : true;
     }
 
     switch (parser.token) {
@@ -3948,7 +3926,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     }
   }
 
-  let expression: any = [];
+  let expression: any;
   let destructible = DestructibleKind.None;
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -4216,8 +4194,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     if (state) {
       let isType = false;
       if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
-        isType =
-          context & Context.InConditionalExpr ? isValidReturnType(parser, context, expression, curPos, true) : true;
+        isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, curPos) : true;
       }
 
       if (parser.token === SyntaxKind.Arrow || isType) {
@@ -4563,8 +4540,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   if (state) {
     let isType = false;
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
-      isType =
-        context & Context.InConditionalExpr ? isValidReturnType(parser, context, expression, curPos, true) : true;
+      isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, curPos) : true;
     }
     if (parser.token === SyntaxKind.Arrow || isType) {
       if (destructible & (DestructibleKind.Assignable | DestructibleKind.NotDestructible)) {
@@ -4628,7 +4604,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   return createParenthesizedExpression(expression, curPos, parser.curPos);
 }
 
-function isValidReturnType(parser: ParserState, context: Context, _expression1: any, pos: number, _fromp: boolean) {
+function isValidReturnType(parser: ParserState, context: Context, pos: number) {
   return speculate(
     parser,
     context,
@@ -8546,16 +8522,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     let isType = false;
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
-      isType =
-        context & Context.InConditionalExpr
-          ? isValidReturnType(
-              parser,
-              context,
-              parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None),
-              1,
-              true
-            )
-          : true;
+      isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, 1) : true;
     }
 
     if (
@@ -9047,7 +9014,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   if (state) {
     let isType = false;
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
-      isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, expression, start, true) : true;
+      isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, start) : true;
     }
 
     if (parser.token === SyntaxKind.Arrow || isType) {

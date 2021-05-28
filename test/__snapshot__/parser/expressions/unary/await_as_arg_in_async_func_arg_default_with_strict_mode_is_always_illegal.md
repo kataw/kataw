@@ -104,7 +104,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                             "operand": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 90224,
+                                                    "kind": 82196,
                                                     "flags": 0,
                                                     "start": 44,
                                                     "end": 50

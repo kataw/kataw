@@ -130,7 +130,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                         "initializer": {
                                                                             "kind": 208,
                                                                             "awaitKeyword": {
-                                                                                "kind": 90224,
+                                                                                "kind": 82196,
                                                                                 "flags": 0,
                                                                                 "start": 42,
                                                                                 "end": 48

@@ -38,6 +38,14 @@ import { ClassBody } from '../expressions/class-body';
 import { ClassTail } from '../expressions/class-tail';
 import { ArrowFunction } from '../expressions/arrow-function';
 
+import { FunctionExpression } from '../expressions/function-expr';
+import { ClassExpression } from '../expressions/class-expr';
+import { YieldExpression } from '../expressions/yield-expr';
+import { NewExpression } from '../expressions/new-expr';
+import { NewTarget } from '../expressions/new-target';
+import { Super } from '../expressions/super';
+import { SpreadElement } from '../expressions/spread-element';
+
 /**
  * The set of all syntax items which are expressions.
  */
@@ -54,6 +62,13 @@ export type ExpressionNode =
   | UnaryExpression
   | PostfixUpdateExpression
   | PrefixUpdateExpression
+  | FunctionExpression
+  | ClassExpression
+  | YieldExpression
+  | NewExpression
+  | SpreadElement
+  | Super
+  | NewTarget
   | CommaOperator
   | ObjectLiteral
   | IndexExpression

@@ -177,7 +177,7 @@ export class C extends fn(await []) {};
                                     {
                                         "kind": 208,
                                         "awaitKeyword": {
-                                            "kind": 90224,
+                                            "kind": 82196,
                                             "flags": 0,
                                             "start": 109,
                                             "end": 114

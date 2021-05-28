@@ -26,7 +26,7 @@ await 0;
             "expression": {
                 "kind": 208,
                 "awaitKeyword": {
-                    "kind": 90224,
+                    "kind": 82196,
                     "flags": 0,
                     "start": 0,
                     "end": 5

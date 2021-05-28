@@ -84,7 +84,7 @@ a = async function() { g(await) }
                                                 {
                                                     "kind": 208,
                                                     "awaitKeyword": {
-                                                        "kind": 90224,
+                                                        "kind": 82196,
                                                         "flags": 0,
                                                         "start": 25,
                                                         "end": 30

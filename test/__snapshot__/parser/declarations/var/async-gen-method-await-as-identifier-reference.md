@@ -124,7 +124,7 @@ var C = class { async *gen() {
                                                                     "operand": {
                                                                         "kind": 208,
                                                                         "awaitKeyword": {
-                                                                            "kind": 90224,
+                                                                            "kind": 82196,
                                                                             "flags": 0,
                                                                             "start": 39,
                                                                             "end": 45

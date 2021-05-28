@@ -63,7 +63,7 @@ y = async x => await x
                     "contents": {
                         "kind": 208,
                         "awaitKeyword": {
-                            "kind": 90224,
+                            "kind": 82196,
                             "flags": 0,
                             "start": 14,
                             "end": 20

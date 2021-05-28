@@ -32,7 +32,7 @@ await(x);
             "expression": {
                 "kind": 208,
                 "awaitKeyword": {
-                    "kind": 90224,
+                    "kind": 82196,
                     "flags": 1,
                     "start": 0,
                     "end": 26
@@ -59,7 +59,7 @@ await(x);
                 "left": {
                     "kind": 208,
                     "awaitKeyword": {
-                        "kind": 90224,
+                        "kind": 82196,
                         "flags": 1,
                         "start": 27,
                         "end": 34
@@ -102,7 +102,7 @@ await(x);
             "expression": {
                 "kind": 208,
                 "awaitKeyword": {
-                    "kind": 90224,
+                    "kind": 82196,
                     "flags": 1,
                     "start": 43,
                     "end": 50

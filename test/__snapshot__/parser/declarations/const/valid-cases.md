@@ -381,7 +381,7 @@ const { async = true } = x;
                                             "expression": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 90224,
+                                                    "kind": 82196,
                                                     "flags": 1,
                                                     "start": 119,
                                                     "end": 127
@@ -517,7 +517,7 @@ const { async = true } = x;
                                             "expression": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 90224,
+                                                    "kind": 82196,
                                                     "flags": 1,
                                                     "start": 175,
                                                     "end": 183
@@ -672,7 +672,7 @@ const { async = true } = x;
                                             "expression": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 90224,
+                                                    "kind": 82196,
                                                     "flags": 1,
                                                     "start": 235,
                                                     "end": 243
@@ -828,7 +828,7 @@ const { async = true } = x;
                                             "expression": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 90224,
+                                                    "kind": 82196,
                                                     "flags": 1,
                                                     "start": 296,
                                                     "end": 304

@@ -94,7 +94,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         "left": {
                                                             "kind": 208,
                                                             "awaitKeyword": {
-                                                                "kind": 90224,
+                                                                "kind": 82196,
                                                                 "flags": 0,
                                                                 "start": 34,
                                                                 "end": 40

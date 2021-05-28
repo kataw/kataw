@@ -32,7 +32,7 @@ for await (const item of arr) {
                 "end": 3
             },
             "awaitKeyword": {
-                "kind": 90224,
+                "kind": 82196,
                 "flags": 64,
                 "start": 3,
                 "end": 9

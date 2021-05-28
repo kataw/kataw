@@ -45,7 +45,7 @@ try {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 5,
                                     "end": 13
@@ -157,7 +157,7 @@ try {
                                 "expression": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 1,
                                         "start": 45,
                                         "end": 53
@@ -262,7 +262,7 @@ try {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 84,
                                     "end": 92

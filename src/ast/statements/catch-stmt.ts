@@ -5,13 +5,14 @@ import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
 import { ObjectBindingPattern } from '../expressions/object-binding-pattern';
 import { Identifier } from '../expressions/identifier-expr';
 import { ExpressionNode } from '../expressions';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 
 /**
  * CatchClause.
  */
 export interface CatchClause extends SyntaxNode {
   readonly catchKeyword: SyntaxToken<TokenSyntaxKind>;
-  readonly catchParameter: ArrayBindingPattern | ObjectBindingPattern | Identifier | null;
+  readonly catchParameter: ArrayBindingPattern | ObjectBindingPattern | Identifier | DummyIdentifier | null;
   /* error recovery */
   readonly initializer: ExpressionNode | null;
   readonly block: BlockStatement;
@@ -19,7 +20,7 @@ export interface CatchClause extends SyntaxNode {
 
 export function createCatch(
   catchKeyword: SyntaxToken<TokenSyntaxKind>,
-  catchParameter: ArrayBindingPattern | ObjectBindingPattern | Identifier | null,
+  catchParameter: ArrayBindingPattern | ObjectBindingPattern | Identifier | DummyIdentifier | null,
   initializer: ExpressionNode | null,
   block: BlockStatement,
   start: number,

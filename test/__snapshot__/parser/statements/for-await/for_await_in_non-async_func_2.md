@@ -57,7 +57,7 @@ function f() { for await (x of y) {} }
                                 "end": 18
                             },
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 64,
                                 "start": 18,
                                 "end": 24

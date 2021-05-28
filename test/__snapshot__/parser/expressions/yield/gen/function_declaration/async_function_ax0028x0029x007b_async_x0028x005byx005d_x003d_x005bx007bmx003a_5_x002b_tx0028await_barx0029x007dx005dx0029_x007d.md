@@ -186,7 +186,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                     {
                                                                                                         "kind": 208,
                                                                                                         "awaitKeyword": {
-                                                                                                            "kind": 90224,
+                                                                                                            "kind": 82196,
                                                                                                             "flags": 0,
                                                                                                             "start": 69,
                                                                                                             "end": 74

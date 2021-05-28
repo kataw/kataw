@@ -100,7 +100,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                 "expression": {
                                                     "kind": 208,
                                                     "awaitKeyword": {
-                                                        "kind": 90224,
+                                                        "kind": 82196,
                                                         "flags": 0,
                                                         "start": 43,
                                                         "end": 48

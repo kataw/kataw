@@ -104,7 +104,7 @@ export var { x = await foo } = {};
                             "initializer": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 0,
                                     "start": 32,
                                     "end": 38
@@ -183,7 +183,7 @@ export var { x = await foo } = {};
                                             "right": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 90224,
+                                                    "kind": 82196,
                                                     "flags": 0,
                                                     "start": 60,
                                                     "end": 66

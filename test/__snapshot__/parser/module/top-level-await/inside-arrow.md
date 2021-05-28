@@ -38,7 +38,7 @@
                 "contents": {
                     "kind": 208,
                     "awaitKeyword": {
-                        "kind": 90224,
+                        "kind": 82196,
                         "flags": 0,
                         "start": 5,
                         "end": 11

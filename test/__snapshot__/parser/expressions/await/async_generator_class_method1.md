@@ -169,7 +169,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                     {
                                                                                                         "kind": 208,
                                                                                                         "awaitKeyword": {
-                                                                                                            "kind": 90224,
+                                                                                                            "kind": 82196,
                                                                                                             "flags": 0,
                                                                                                             "start": 53,
                                                                                                             "end": 58

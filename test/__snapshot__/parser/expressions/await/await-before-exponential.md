@@ -37,7 +37,7 @@ async () => await 5 ** 6;
                 "left": {
                     "kind": 208,
                     "awaitKeyword": {
-                        "kind": 90224,
+                        "kind": 82196,
                         "flags": 0,
                         "start": 11,
                         "end": 17

@@ -70,7 +70,7 @@ async function f(){
                                 "end": 25
                             },
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 64,
                                 "start": 25,
                                 "end": 31
@@ -178,7 +178,7 @@ async function f(){
                                 "end": 90
                             },
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 64,
                                 "start": 90,
                                 "end": 96

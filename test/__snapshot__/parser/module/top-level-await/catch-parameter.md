@@ -71,7 +71,7 @@ try {} catch ([ x = await 42 ]) {}
                                 "right": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 19,
                                         "end": 25
@@ -182,7 +182,7 @@ try {} catch ([ x = await 42 ]) {}
                                 "initializer": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 72,
                                         "end": 78
@@ -287,7 +287,7 @@ try {} catch ([ x = await 42 ]) {}
                                 "initializer": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 137,
                                         "end": 143

@@ -132,7 +132,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                             "expression": {
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
-                                                                    "kind": 90224,
+                                                                    "kind": 82196,
                                                                     "flags": 0,
                                                                     "start": 59,
                                                                     "end": 65
@@ -140,7 +140,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                                 "expression": {
                                                                     "kind": 208,
                                                                     "awaitKeyword": {
-                                                                        "kind": 90224,
+                                                                        "kind": 82196,
                                                                         "flags": 0,
                                                                         "start": 65,
                                                                         "end": 71

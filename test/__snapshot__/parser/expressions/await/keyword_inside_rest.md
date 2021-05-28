@@ -90,7 +90,7 @@ async r => result = [...{ x = await x }] = y;
                                                         "right": {
                                                             "kind": 208,
                                                             "awaitKeyword": {
-                                                                "kind": 90224,
+                                                                "kind": 82196,
                                                                 "flags": 0,
                                                                 "start": 29,
                                                                 "end": 35

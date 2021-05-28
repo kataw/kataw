@@ -32,7 +32,7 @@ while (await await await await await await await await await await await await a
             "expression": {
                 "kind": 208,
                 "awaitKeyword": {
-                    "kind": 90224,
+                    "kind": 82196,
                     "flags": 0,
                     "start": 7,
                     "end": 12
@@ -40,7 +40,7 @@ while (await await await await await await await await await await await await a
                 "expression": {
                     "kind": 208,
                     "awaitKeyword": {
-                        "kind": 90224,
+                        "kind": 82196,
                         "flags": 0,
                         "start": 12,
                         "end": 18
@@ -48,7 +48,7 @@ while (await await await await await await await await await await await await a
                     "expression": {
                         "kind": 208,
                         "awaitKeyword": {
-                            "kind": 90224,
+                            "kind": 82196,
                             "flags": 0,
                             "start": 18,
                             "end": 24
@@ -56,7 +56,7 @@ while (await await await await await await await await await await await await a
                         "expression": {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 0,
                                 "start": 24,
                                 "end": 30
@@ -64,7 +64,7 @@ while (await await await await await await await await await await await await a
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 0,
                                     "start": 30,
                                     "end": 36
@@ -72,7 +72,7 @@ while (await await await await await await await await await await await await a
                                 "expression": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 36,
                                         "end": 42
@@ -80,7 +80,7 @@ while (await await await await await await await await await await await await a
                                     "expression": {
                                         "kind": 208,
                                         "awaitKeyword": {
-                                            "kind": 90224,
+                                            "kind": 82196,
                                             "flags": 0,
                                             "start": 42,
                                             "end": 48
@@ -88,7 +88,7 @@ while (await await await await await await await await await await await await a
                                         "expression": {
                                             "kind": 208,
                                             "awaitKeyword": {
-                                                "kind": 90224,
+                                                "kind": 82196,
                                                 "flags": 0,
                                                 "start": 48,
                                                 "end": 54
@@ -96,7 +96,7 @@ while (await await await await await await await await await await await await a
                                             "expression": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
-                                                    "kind": 90224,
+                                                    "kind": 82196,
                                                     "flags": 0,
                                                     "start": 54,
                                                     "end": 60
@@ -104,7 +104,7 @@ while (await await await await await await await await await await await await a
                                                 "expression": {
                                                     "kind": 208,
                                                     "awaitKeyword": {
-                                                        "kind": 90224,
+                                                        "kind": 82196,
                                                         "flags": 0,
                                                         "start": 60,
                                                         "end": 66
@@ -112,7 +112,7 @@ while (await await await await await await await await await await await await a
                                                     "expression": {
                                                         "kind": 208,
                                                         "awaitKeyword": {
-                                                            "kind": 90224,
+                                                            "kind": 82196,
                                                             "flags": 0,
                                                             "start": 66,
                                                             "end": 72
@@ -120,7 +120,7 @@ while (await await await await await await await await await await await await a
                                                         "expression": {
                                                             "kind": 208,
                                                             "awaitKeyword": {
-                                                                "kind": 90224,
+                                                                "kind": 82196,
                                                                 "flags": 0,
                                                                 "start": 72,
                                                                 "end": 78
@@ -128,7 +128,7 @@ while (await await await await await await await await await await await await a
                                                             "expression": {
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
-                                                                    "kind": 90224,
+                                                                    "kind": 82196,
                                                                     "flags": 0,
                                                                     "start": 78,
                                                                     "end": 84
@@ -136,7 +136,7 @@ while (await await await await await await await await await await await await a
                                                                 "expression": {
                                                                     "kind": 208,
                                                                     "awaitKeyword": {
-                                                                        "kind": 90224,
+                                                                        "kind": 82196,
                                                                         "flags": 0,
                                                                         "start": 84,
                                                                         "end": 90
@@ -144,7 +144,7 @@ while (await await await await await await await await await await await await a
                                                                     "expression": {
                                                                         "kind": 208,
                                                                         "awaitKeyword": {
-                                                                            "kind": 90224,
+                                                                            "kind": 82196,
                                                                             "flags": 0,
                                                                             "start": 90,
                                                                             "end": 96

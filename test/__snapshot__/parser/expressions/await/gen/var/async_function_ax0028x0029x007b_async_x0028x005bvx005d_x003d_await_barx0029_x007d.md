@@ -197,7 +197,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                             "right": {
                                                                                 "kind": 208,
                                                                                 "awaitKeyword": {
-                                                                                    "kind": 90224,
+                                                                                    "kind": 82196,
                                                                                     "flags": 0,
                                                                                     "start": 75,
                                                                                     "end": 81

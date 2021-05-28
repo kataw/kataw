@@ -86,7 +86,7 @@ for await (let binding of [await null]) {
                 "end": 179
             },
             "awaitKeyword": {
-                "kind": 90224,
+                "kind": 82196,
                 "flags": 64,
                 "start": 179,
                 "end": 185
@@ -113,7 +113,7 @@ for await (let binding of [await null]) {
                         {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 0,
                                 "start": 199,
                                 "end": 204
@@ -149,7 +149,7 @@ for await (let binding of [await null]) {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 213,
                                     "end": 221
@@ -204,7 +204,7 @@ for await (let binding of [await null]) {
                 "end": 379
             },
             "awaitKeyword": {
-                "kind": 90224,
+                "kind": 82196,
                 "flags": 64,
                 "start": 379,
                 "end": 385
@@ -248,7 +248,7 @@ for await (let binding of [await null]) {
                         {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 0,
                                 "start": 403,
                                 "end": 408
@@ -284,7 +284,7 @@ for await (let binding of [await null]) {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 417,
                                     "end": 425
@@ -339,7 +339,7 @@ for await (let binding of [await null]) {
                 "end": 583
             },
             "awaitKeyword": {
-                "kind": 90224,
+                "kind": 82196,
                 "flags": 64,
                 "start": 583,
                 "end": 589
@@ -383,7 +383,7 @@ for await (let binding of [await null]) {
                         {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 0,
                                 "start": 607,
                                 "end": 612
@@ -419,7 +419,7 @@ for await (let binding of [await null]) {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 621,
                                     "end": 629

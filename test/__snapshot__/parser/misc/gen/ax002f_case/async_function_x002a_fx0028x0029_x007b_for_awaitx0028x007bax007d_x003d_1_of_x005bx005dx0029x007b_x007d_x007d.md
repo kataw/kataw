@@ -70,7 +70,7 @@ async function * f() { for await({a} = 1 of []){ } }
                                 "end": 26
                             },
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 64,
                                 "start": 26,
                                 "end": 32

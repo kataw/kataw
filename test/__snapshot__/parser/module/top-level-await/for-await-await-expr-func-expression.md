@@ -86,7 +86,7 @@ for await (let binding of [await function() {}]) {
                 "end": 179
             },
             "awaitKeyword": {
-                "kind": 90224,
+                "kind": 82196,
                 "flags": 64,
                 "start": 179,
                 "end": 185
@@ -113,7 +113,7 @@ for await (let binding of [await function() {}]) {
                         {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 0,
                                 "start": 199,
                                 "end": 204
@@ -181,7 +181,7 @@ for await (let binding of [await function() {}]) {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 222,
                                     "end": 230
@@ -268,7 +268,7 @@ for await (let binding of [await function() {}]) {
                 "end": 397
             },
             "awaitKeyword": {
-                "kind": 90224,
+                "kind": 82196,
                 "flags": 64,
                 "start": 397,
                 "end": 403
@@ -312,7 +312,7 @@ for await (let binding of [await function() {}]) {
                         {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 0,
                                 "start": 421,
                                 "end": 426
@@ -380,7 +380,7 @@ for await (let binding of [await function() {}]) {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 444,
                                     "end": 452
@@ -467,7 +467,7 @@ for await (let binding of [await function() {}]) {
                 "end": 619
             },
             "awaitKeyword": {
-                "kind": 90224,
+                "kind": 82196,
                 "flags": 64,
                 "start": 619,
                 "end": 625
@@ -511,7 +511,7 @@ for await (let binding of [await function() {}]) {
                         {
                             "kind": 208,
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 0,
                                 "start": 643,
                                 "end": 648
@@ -579,7 +579,7 @@ for await (let binding of [await function() {}]) {
                             "expression": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 1,
                                     "start": 666,
                                     "end": 674

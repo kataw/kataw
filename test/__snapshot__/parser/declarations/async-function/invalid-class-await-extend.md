@@ -81,7 +81,7 @@ async function foo(a = class extends (await b) {}) {};
                                         "expression": {
                                             "kind": 208,
                                             "awaitKeyword": {
-                                                "kind": 90224,
+                                                "kind": 82196,
                                                 "flags": 0,
                                                 "start": 38,
                                                 "end": 43

@@ -62,7 +62,7 @@ async function f() { for await (const x of y) {} }
                                 "end": 24
                             },
                             "awaitKeyword": {
-                                "kind": 90224,
+                                "kind": 82196,
                                 "flags": 64,
                                 "start": 24,
                                 "end": 30

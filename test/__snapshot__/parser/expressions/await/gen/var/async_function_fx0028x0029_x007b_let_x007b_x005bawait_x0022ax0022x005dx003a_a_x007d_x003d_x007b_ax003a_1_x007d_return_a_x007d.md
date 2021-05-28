@@ -182,7 +182,7 @@ var await; var f = (async function() { async function f() {
                                                                                                 "expression": {
                                                                                                     "kind": 208,
                                                                                                     "awaitKeyword": {
-                                                                                                        "kind": 90224,
+                                                                                                        "kind": 82196,
                                                                                                         "flags": 0,
                                                                                                         "start": 69,
                                                                                                         "end": 74

@@ -106,7 +106,7 @@
                                     "expression": {
                                         "kind": 208,
                                         "awaitKeyword": {
-                                            "kind": 90224,
+                                            "kind": 82196,
                                             "flags": 0,
                                             "start": 37,
                                             "end": 43
@@ -217,7 +217,7 @@
                                 "left": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 81,
                                         "end": 87
@@ -382,7 +382,7 @@
                                                     "left": {
                                                         "kind": 208,
                                                         "awaitKeyword": {
-                                                            "kind": 90224,
+                                                            "kind": 82196,
                                                             "flags": 0,
                                                             "start": 138,
                                                             "end": 144
@@ -408,7 +408,7 @@
                                                     "right": {
                                                         "kind": 208,
                                                         "awaitKeyword": {
-                                                            "kind": 90224,
+                                                            "kind": 82196,
                                                             "flags": 0,
                                                             "start": 148,
                                                             "end": 154
@@ -586,7 +586,7 @@
                             "contents": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 0,
                                     "start": 198,
                                     "end": 204
@@ -658,7 +658,7 @@
                                 "expression": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 226,
                                         "end": 232
@@ -756,7 +756,7 @@
                             "contents": {
                                 "kind": 208,
                                 "awaitKeyword": {
-                                    "kind": 90224,
+                                    "kind": 82196,
                                     "flags": 0,
                                     "start": 277,
                                     "end": 283
@@ -842,7 +842,7 @@
                 "contents": {
                     "kind": 208,
                     "awaitKeyword": {
-                        "kind": 90224,
+                        "kind": 82196,
                         "flags": 0,
                         "start": 305,
                         "end": 311

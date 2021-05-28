@@ -173,7 +173,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                             "initializer": {
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
-                                                                    "kind": 90224,
+                                                                    "kind": 82196,
                                                                     "flags": 0,
                                                                     "start": 63,
                                                                     "end": 69

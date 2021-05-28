@@ -34,7 +34,7 @@ typeof await function() {};
                 "operand": {
                     "kind": 208,
                     "awaitKeyword": {
-                        "kind": 90224,
+                        "kind": 82196,
                         "flags": 0,
                         "start": 6,
                         "end": 12

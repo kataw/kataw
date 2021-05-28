@@ -105,7 +105,7 @@ async function foo(a, b) { await a + await b };
                                 "left": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 26,
                                         "end": 32
@@ -131,7 +131,7 @@ async function foo(a, b) { await a + await b };
                                 "right": {
                                     "kind": 208,
                                     "awaitKeyword": {
-                                        "kind": 90224,
+                                        "kind": 82196,
                                         "flags": 0,
                                         "start": 36,
                                         "end": 42

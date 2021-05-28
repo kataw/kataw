@@ -67,7 +67,7 @@ async g => (x = [await y])
                                     {
                                         "kind": 208,
                                         "awaitKeyword": {
-                                            "kind": 90224,
+                                            "kind": 82196,
                                             "flags": 0,
                                             "start": 17,
                                             "end": 22

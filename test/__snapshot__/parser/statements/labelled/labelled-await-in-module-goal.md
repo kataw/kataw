@@ -30,7 +30,7 @@ var await;
             "label": {
                 "kind": 208,
                 "awaitKeyword": {
-                    "kind": 90224,
+                    "kind": 82196,
                     "flags": 0,
                     "start": 0,
                     "end": 6
@@ -83,7 +83,7 @@ var await;
             "label": {
                 "kind": 208,
                 "awaitKeyword": {
-                    "kind": 90224,
+                    "kind": 82196,
                     "flags": 16385,
                     "start": 9,
                     "end": 22

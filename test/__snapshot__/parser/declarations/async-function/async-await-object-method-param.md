@@ -110,7 +110,7 @@ async function foo(a = {async bar() { await b }}) {};
                                                             "expression": {
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
-                                                                    "kind": 90224,
+                                                                    "kind": 82196,
                                                                     "flags": 0,
                                                                     "start": 37,
                                                                     "end": 43
