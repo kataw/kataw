@@ -277,16 +277,16 @@ x = /x/xxx;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate regular expression flag - start: 3, end: 5
-✖ Duplicate regular expression flag - start: 19, end: 21
-✖ Duplicate regular expression flag - start: 33, end: 35
-✖ Duplicate regular expression flag - start: 46, end: 48
-✖ Duplicate regular expression flag - start: 46, end: 48
-✖ Duplicate regular expression flag - start: 62, end: 64
-✖ Duplicate regular expression flag - start: 77, end: 79
-✖ Unknown regular expression flag - start: 124, end: 126
-✖ Unknown regular expression flag - start: 124, end: 126
-✖ Unknown regular expression flag - start: 124, end: 126
+✖ Duplicate regular expression flag - start: 12, end: 13
+✖ Duplicate regular expression flag - start: 23, end: 24
+✖ Duplicate regular expression flag - start: 37, end: 38
+✖ Duplicate regular expression flag - start: 51, end: 52
+✖ Duplicate regular expression flag - start: 55, end: 56
+✖ Duplicate regular expression flag - start: 68, end: 69
+✖ Duplicate regular expression flag - start: 83, end: 84
+✖ Unknown regular expression flag - start: 127, end: 128
+✖ Unknown regular expression flag - start: 128, end: 129
+✖ Unknown regular expression flag - start: 129, end: 130
 
 ```
 

@@ -154,7 +154,7 @@
 
 ```javascript
 ✖ Expression expected - start: 9, end: 11
-✖ Unterminated regular expression - start: 11, end: 12
+✖ Unterminated regular expression - start: 11, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
 
 ```

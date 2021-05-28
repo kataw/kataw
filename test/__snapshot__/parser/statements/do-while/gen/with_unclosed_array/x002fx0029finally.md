@@ -85,7 +85,7 @@ do[ /)finally
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 3, end: 5
+✖ Unterminated regular expression - start: 3, end: 13
 ✖ ',' expected - start: 13, end: 13
 
 ```

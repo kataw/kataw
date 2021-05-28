@@ -60,7 +60,7 @@ debugger
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 8, end: 10
+✖ Unterminated regular expression - start: 8, end: 13
 
 ```
 

@@ -76,7 +76,7 @@ do( /)finally while
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 3, end: 5
+✖ Unterminated regular expression - start: 3, end: 19
 ✖ Expected a ')' to match the '(' token here - start: 19, end: 19
 
 ```

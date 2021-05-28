@@ -70,7 +70,7 @@ do /)finally while
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 2, end: 4
+✖ Unterminated regular expression - start: 2, end: 18
 ✖ Missing an opening parentheses - '( - start: 18, end: 18
 
 ```

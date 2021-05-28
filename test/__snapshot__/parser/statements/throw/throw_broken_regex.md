@@ -53,7 +53,7 @@ throw/("
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 5, end: 6
+✖ Unterminated regular expression - start: 5, end: 8
 
 ```
 

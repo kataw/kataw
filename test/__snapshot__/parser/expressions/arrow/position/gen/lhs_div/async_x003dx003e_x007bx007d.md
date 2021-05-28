@@ -98,7 +98,7 @@ async => {} / x
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 11, end: 13
+✖ Unterminated regular expression - start: 11, end: 15
 ✖ Expected a `;` - start: 11, end: 15
 
 ```

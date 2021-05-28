@@ -103,7 +103,7 @@ do {} while (x) { /)finally
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 17, end: 19
+✖ Unterminated regular expression - start: 17, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
 
 ```

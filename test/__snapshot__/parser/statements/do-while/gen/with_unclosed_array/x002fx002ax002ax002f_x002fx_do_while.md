@@ -85,7 +85,7 @@ do[ /**/ /x do while
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 3, end: 10
+✖ Unterminated regular expression - start: 3, end: 20
 ✖ ',' expected - start: 20, end: 20
 
 ```

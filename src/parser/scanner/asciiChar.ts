@@ -14,7 +14,8 @@ export const enum AsciiCharFlags {
   Period = 1 << 10,
   LeftBraceOrLessThan = 1 << 10,
   GreaterThanOrRightBrace = 1 << 11,
-  BigInt = 1 << 12
+  BigInt = 1 << 12,
+  RegExpFlags = 1 << 13
 }
 
 /**
@@ -136,25 +137,25 @@ export const AsciiCharTypes = [
     AsciiCharFlags.Hex |
     AsciiCharFlags.Exponent /* 0x65 e */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.Hex /* 0x66 f */,
-  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x67 g */,
+  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.RegExpFlags /* 0x67 g */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x68 h */,
-  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x69 i */,
+  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.RegExpFlags /* 0x69 i */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x6A j */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x6B k */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x6C l */,
-  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x6D m */,
+  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.RegExpFlags /* 0x6D m */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.OctHexBin /* 0x6E n */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.OctHexBin /* 0x6F o */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x70 p */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x71 q */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x72 r */,
-  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x73 s */,
+  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.RegExpFlags /* 0x73 s */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x74 t */,
-  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x75 u */,
+  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.RegExpFlags /* 0x75 u */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x76 v */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x77 w */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.OctHexBin /* 0x78 x */,
-  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x79 y */,
+  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.RegExpFlags /* 0x79 y */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x7A z */,
   AsciiCharFlags.LeftBraceOrLessThan /* 0x7B */,
   AsciiCharFlags.Unknown /* 0x7C */,

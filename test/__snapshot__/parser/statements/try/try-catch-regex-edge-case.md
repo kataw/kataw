@@ -113,11 +113,11 @@ try/catch/finally/{
 ### Diagnostics
 
 ```javascript
-✖ Unknown regular expression flag - start: 3, end: 4
-✖ Unknown regular expression flag - start: 3, end: 4
-✖ Unknown regular expression flag - start: 3, end: 4
-✖ Unknown regular expression flag - start: 3, end: 4
-✖ Unknown regular expression flag - start: 3, end: 4
+✖ Unknown regular expression flag - start: 9, end: 10
+✖ Unknown regular expression flag - start: 11, end: 12
+✖ Unknown regular expression flag - start: 12, end: 13
+✖ Unknown regular expression flag - start: 13, end: 14
+✖ Unknown regular expression flag - start: 14, end: 15
 ✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
 
 ```
