@@ -155,7 +155,7 @@ function f(){
 
 ```javascript
 ✖ Expression expected - start: 39, end: 41
-✖ Unterminated regular expression - start: 41, end: 49
+✖ Unterminated regular expression - start: 41, end: 50
 
 ```
 

@@ -65,6 +65,7 @@
 
 ```javascript
 ✖ Unterminated regular expression - start: 1, end: 5
+✖ Unknown regular expression flag - start: 3, end: 4
 ✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 5
 
 ```

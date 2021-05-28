@@ -86,6 +86,7 @@ do[ /**/ /x do while
 
 ```javascript
 ✖ Unterminated regular expression - start: 3, end: 20
+✖ Unknown regular expression flag - start: 18, end: 19
 ✖ ',' expected - start: 20, end: 20
 
 ```

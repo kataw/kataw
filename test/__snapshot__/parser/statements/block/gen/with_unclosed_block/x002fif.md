@@ -154,6 +154,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
 ✖ Unterminated regular expression - start: 17, end: 21
+✖ Unknown regular expression flag - start: 19, end: 20
 ✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
 
 ```

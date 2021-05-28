@@ -104,6 +104,7 @@ do {} while (x) { /**/ /x do while
 
 ```javascript
 ✖ Unterminated regular expression - start: 17, end: 34
+✖ Unknown regular expression flag - start: 32, end: 33
 ✖ The parser expected to find a '}' to match the '{' token here - start: 34, end: 34
 
 ```

@@ -92,6 +92,7 @@ _ => {}
 
 ```javascript
 ✖ Unterminated regular expression - start: 7, end: 12
+✖ Unknown regular expression flag - start: 10, end: 11
 
 ```
 

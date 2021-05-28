@@ -76,11 +76,11 @@ for(x of 3)break/
                 "text": "/",
                 "flags": 96,
                 "start": 16,
-                "end": 18
+                "end": 17
             },
             "flags": 16,
             "start": 16,
-            "end": 18
+            "end": 17
         }
     ],
     "isModule": false,
@@ -102,8 +102,8 @@ for(x of 3)break/
 
 ```javascript
 ✖ Unterminated regular expression - start: 16, end: 18
-✖ Expression expected - start: 16, end: 18
-✖ Missing label - start: 16, end: 18
+✖ Expression expected - start: 16, end: 17
+✖ Missing label - start: 16, end: 17
 
 ```
 

@@ -80,6 +80,7 @@
 
 ```javascript
 ✖ Unterminated regular expression - start: 2, end: 6
+✖ Unknown regular expression flag - start: 4, end: 5
 ✖ ',' expected - start: 6, end: 6
 
 ```

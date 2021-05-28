@@ -99,6 +99,7 @@ async => {} / x
 
 ```javascript
 ✖ Unterminated regular expression - start: 11, end: 15
+✖ Unknown regular expression flag - start: 13, end: 14
 ✖ Expected a `;` - start: 11, end: 15
 
 ```

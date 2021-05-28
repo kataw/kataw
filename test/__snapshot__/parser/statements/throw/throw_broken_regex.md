@@ -25,14 +25,28 @@ throw/("
             },
             "expression": {
                 "kind": 221,
-                "text": "/(\"",
+                "text": "/(",
                 "flags": 96,
                 "start": 5,
-                "end": 8
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 8
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "",
+                "rawText": "\"",
+                "flags": 2097248,
+                "start": 7,
+                "end": 9
+            },
+            "flags": 16,
+            "start": 7,
+            "end": 9
         }
     ],
     "isModule": false,
@@ -54,6 +68,8 @@ throw/("
 
 ```javascript
 ✖ Unterminated regular expression - start: 5, end: 8
+✖ Unterminated string literal - start: 7, end: 9
+✖ Expected a `;` - start: 7, end: 9
 
 ```
 

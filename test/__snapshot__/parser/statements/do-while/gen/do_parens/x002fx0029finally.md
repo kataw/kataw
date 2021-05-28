@@ -77,6 +77,7 @@ do( /)finally while
 
 ```javascript
 ✖ Unterminated regular expression - start: 3, end: 19
+✖ Unknown regular expression flag - start: 17, end: 18
 ✖ Expected a ')' to match the '(' token here - start: 19, end: 19
 
 ```

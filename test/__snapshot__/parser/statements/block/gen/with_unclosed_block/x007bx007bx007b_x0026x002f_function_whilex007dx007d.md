@@ -135,23 +135,23 @@
                                                                             },
                                                                             "right": {
                                                                                 "kind": 221,
-                                                                                "text": "/ function while}}",
+                                                                                "text": "/ function while}",
                                                                                 "flags": 96,
                                                                                 "start": 23,
-                                                                                "end": 41
+                                                                                "end": 40
                                                                             },
                                                                             "flags": 32,
                                                                             "start": 21,
-                                                                            "end": 41
+                                                                            "end": 40
                                                                         },
                                                                         "flags": 16,
                                                                         "start": 21,
-                                                                        "end": 41
+                                                                        "end": 40
                                                                     }
                                                                 ],
                                                                 "flags": 16,
                                                                 "start": 21,
-                                                                "end": 41
+                                                                "end": 40
                                                             },
                                                             "flags": 16,
                                                             "start": 20,

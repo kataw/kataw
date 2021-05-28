@@ -135,23 +135,23 @@
                                                     },
                                                     "right": {
                                                         "kind": 221,
-                                                        "text": "/ function while}}",
+                                                        "text": "/ function while}",
                                                         "flags": 96,
                                                         "start": 15,
-                                                        "end": 33
+                                                        "end": 32
                                                     },
                                                     "flags": 32,
                                                     "start": 13,
-                                                    "end": 33
+                                                    "end": 32
                                                 },
                                                 "flags": 16,
                                                 "start": 13,
-                                                "end": 33
+                                                "end": 32
                                             }
                                         ],
                                         "flags": 16,
                                         "start": 13,
-                                        "end": 33
+                                        "end": 32
                                     },
                                     "flags": 16,
                                     "start": 12,

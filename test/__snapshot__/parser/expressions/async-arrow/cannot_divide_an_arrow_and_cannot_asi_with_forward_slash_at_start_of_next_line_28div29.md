@@ -97,6 +97,7 @@ async _ => {}
 
 ```javascript
 ✖ Unterminated regular expression - start: 13, end: 18
+✖ Unknown regular expression flag - start: 16, end: 17
 
 ```
 
