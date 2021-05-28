@@ -57,23 +57,23 @@
                                                                 },
                                                                 "right": {
                                                                     "kind": 221,
-                                                                    "text": "/ function while}",
+                                                                    "text": "/ function while}}",
                                                                     "flags": 96,
                                                                     "start": 7,
-                                                                    "end": 24
+                                                                    "end": 25
                                                                 },
                                                                 "flags": 32,
                                                                 "start": 5,
-                                                                "end": 24
+                                                                "end": 25
                                                             },
                                                             "flags": 16,
                                                             "start": 5,
-                                                            "end": 24
+                                                            "end": 25
                                                         }
                                                     ],
                                                     "flags": 16,
                                                     "start": 5,
-                                                    "end": 24
+                                                    "end": 25
                                                 },
                                                 "flags": 16,
                                                 "start": 4,

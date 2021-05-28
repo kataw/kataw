@@ -92,23 +92,23 @@
                             },
                             "right": {
                                 "kind": 221,
-                                "text": "/ function while}",
+                                "text": "/ function while}}",
                                 "flags": 96,
                                 "start": 8,
-                                "end": 25
+                                "end": 26
                             },
                             "flags": 32,
                             "start": 1,
-                            "end": 25
+                            "end": 26
                         },
                         "flags": 16,
                         "start": 1,
-                        "end": 25
+                        "end": 26
                     }
                 ],
                 "flags": 16,
                 "start": 1,
-                "end": 25
+                "end": 26
             },
             "flags": 16,
             "start": 0,
@@ -137,6 +137,7 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 8
 ✖ Unterminated regular expression - start: 8, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 26
 
 ```
 

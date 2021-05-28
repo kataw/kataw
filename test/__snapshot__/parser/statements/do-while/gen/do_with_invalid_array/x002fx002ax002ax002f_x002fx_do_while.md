@@ -150,7 +150,6 @@ do while [catch] /**/ /x do while
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Unterminated regular expression - start: 16, end: 33
-✖ Unknown regular expression flag - start: 31, end: 32
 
 ```
 

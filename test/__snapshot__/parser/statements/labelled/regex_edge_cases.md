@@ -61,7 +61,6 @@ debugger
 
 ```javascript
 ✖ Unterminated regular expression - start: 8, end: 13
-✖ Unknown regular expression flag - start: 11, end: 12
 
 ```
 

@@ -10552,7 +10552,7 @@ a++ => {};
 ✖ Expression expected - start: 59, end: 62
 ✖ Expected a `;` - start: 81, end: 82
 ✖ Declaration or statement expected - start: 85, end: 86
-✖ Unterminated regular expression - start: 95, end: 99
+✖ Unterminated regular expression - start: 95, end: 98
 ✖ Expected a `;` - start: 95, end: 98
 ✖ Expected a `;` - start: 101, end: 103
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 107, end: 109

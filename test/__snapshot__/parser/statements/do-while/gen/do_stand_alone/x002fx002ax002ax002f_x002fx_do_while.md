@@ -71,7 +71,6 @@ do /**/ /x do while
 
 ```javascript
 ✖ Unterminated regular expression - start: 2, end: 19
-✖ Unknown regular expression flag - start: 17, end: 18
 ✖ Missing an opening parentheses - '( - start: 19, end: 19
 
 ```
