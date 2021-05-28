@@ -217,6 +217,6 @@
   "'await' is only allowed within async functions and at the top levels of modules": 220,
   "'of' expected": 221,
   "Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label": 222,
-  "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label": 223
-
+  "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label": 223,
+  "'#!' can only be used at the start of a file.":224
 }

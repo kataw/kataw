@@ -295,19 +295,18 @@ export function parse(
   while (parser.token !== SyntaxKind.EndOfFileToken) {
     if (parser.token & 0b00010000100000011110000000000000) {
       statements.push(moduleOrScript(parser, context, scope));
-      continue;
+    } else {
+      if (parser.previousErrorPos !== parser.pos) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Declaration_or_statement_expected],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      nextToken(parser, context | Context.AllowRegExp);
     }
-
-    if (parser.previousErrorPos !== parser.pos) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Declaration_or_statement_expected],
-        parser.curPos,
-        parser.pos
-      );
-    }
-    nextToken(parser, context | Context.AllowRegExp);
   }
   return createRootNode(directives, statements, isModule, source, filename);
 }
@@ -2916,7 +2915,7 @@ function parseMethodDefinition(
   } else {
     context = (context | Context.InConstructor | Context.SuperCall) ^ (Context.InConstructor | Context.SuperCall);
   }
-  let scope = createParentScope(createScope(), ScopeKind.FunctionParams);
+  const scope = createParentScope(createScope(), ScopeKind.FunctionParams);
   context |= Context.SuperProperty;
 
   context =
@@ -5921,7 +5920,7 @@ function parseExportDeclaration(
   let fromClause: FromClause | null = null;
   let namedExports: NamedExports | null = null;
   let exportFromClause: any | null = null;
-  let exportKind = ExportKind.Type;
+  const exportKind = ExportKind.Type;
 
   switch (parser.token) {
     case SyntaxKind.DefaultKeyword:
@@ -6606,7 +6605,7 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
   const start = parser.curPos;
-  let name = parseIdentifier(parser, context);
+  const name = parseIdentifier(parser, context);
   const type = parseTypeAnnotation(parser, context);
   const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
     ? parseType(parser, context | Context.InTypes)
@@ -7682,7 +7681,7 @@ export function parseImportMeta(
       parser.pos
     );
   }
-  let expression: any = createImportMeta(
+  const expression: any = createImportMeta(
     importKeyword,
     metaKeyword,
     pos,
@@ -8105,7 +8104,7 @@ export function parseClassElement(
         token &
         (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsProperty)
       ) {
-        let t = parser.token;
+        const t = parser.token;
         key = parsePropertyName(parser, inheritedContext) as Identifier;
         if (
           asyncKeyword &&

@@ -2,7 +2,7 @@ import { ParserState } from '../common';
 import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
-import { isIdentifierPart, toHex, fromCodePoint } from './common';
+import { isIdentifierStart, isIdentifierPart, toHex, fromCodePoint } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
@@ -252,4 +252,53 @@ export function scanIdentifierEscape(parser: ParserState): number {
   parser.pos = pos;
 
   return code;
+}
+
+export function scanPrivateIdentifier(parser: ParserState, cp: number, source: string): SyntaxKind {
+  parser.pos++;
+
+  // '!'
+  if (source.charCodeAt(parser.pos) === Char.Exclamation) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._can_only_be_used_at_the_start_of_a_file],
+      parser.tokenPos,
+      parser.pos
+    );
+    return SyntaxKind.UnknownToken;
+  }
+
+  if (isIdentifierStart(source.charCodeAt(parser.pos))) {
+    let pos = parser.pos;
+    while (pos < parser.end && isIdentifierPart((cp = source.charCodeAt(pos)))) ++pos;
+    let tokenValue = source.slice(parser.tokenPos, pos);
+    if (tokenValue === '#constructor') {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode._constructor_is_a_reserved_word],
+        parser.pos,
+        pos + tokenValue.length
+      );
+    }
+
+    if (cp === Char.Backslash) tokenValue += scanIdentifierParts(parser, source);
+
+    parser.tokenRaw = source.substring(parser.tokenPos, pos);
+    parser.pos = pos;
+    parser.tokenValue = tokenValue;
+    return SyntaxKind.PrivateIdentifier;
+  }
+
+  parser.onError(
+    DiagnosticSource.Parser,
+    DiagnosticKind.Error,
+    diagnosticMap[DiagnosticCode.Invalid_character],
+    parser.tokenPos,
+    parser.pos
+  );
+
+  parser.tokenValue = '#';
+  return SyntaxKind.PrivateIdentifier;
 }

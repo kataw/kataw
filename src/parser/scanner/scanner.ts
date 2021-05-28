@@ -6,7 +6,6 @@ import { scanString } from './string';
 import { scanTemplate } from './template';
 import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
-import { scanPrivateIdentifier } from './private-identifier';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import {
@@ -14,7 +13,8 @@ import {
   descKeywordTable,
   scanIdentifierEscape,
   scanIdentifierOrKeyword,
-  scanIdentifierParts
+  scanIdentifierParts,
+  scanPrivateIdentifier
 } from './identifiers';
 
 export const firstCharKinds = [
