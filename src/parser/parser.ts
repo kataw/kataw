@@ -233,8 +233,8 @@ export function parse(
   filename: string,
   context: Context,
   isModule: boolean,
-  options?: Options,
-  onError?: OnError
+  onError: OnError,
+  options?: Options
 ): RootNode {
   if (options != null) {
     if (options.next) context |= Context.OptionsNext;
@@ -244,31 +244,29 @@ export function parse(
   }
   let pos = 0;
 
-  // Hashbang Grammar
-  // https://github.com/tc39/proposal-hashbang
-  if (source.charCodeAt(0) === Char.Hash) {
-    if (source.charCodeAt(1) === Char.Exclamation) {
-      pos = 2; // '#!...'
-      while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
-        pos++;
-      }
+  // "#!/usr/bin/env node"
+  if (source.charCodeAt(0) === Char.Hash && source.charCodeAt(1) === Char.Exclamation) {
+    pos = 2; // skips: '#!...'
+    while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
+      pos++;
     }
   }
 
   // HTML close
   // https://tc39.es/ecma262/#sec-html-like-comments
-  if (!isModule && source.charCodeAt(pos) === Char.Hyphen) {
-    if (source.charCodeAt(pos + 2) === Char.GreaterThan && source.charCodeAt(pos + 1) === Char.Hyphen) {
-      pos = 3;
-      while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
-        pos++;
-      }
+  if (
+    !isModule &&
+    source.charCodeAt(pos) === Char.Hyphen &&
+    source.charCodeAt(pos + 2) === Char.GreaterThan &&
+    source.charCodeAt(pos + 1) === Char.Hyphen
+  ) {
+    pos += 3;
+    while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
+      pos++;
     }
   }
 
-  /*eslint-disable */
-  const parser = create(source, pos, onError ? onError : function () {});
-  /*eslint-enable */
+  const parser = create(source, pos, onError);
 
   // Prime the scanner
   nextToken(parser, context | Context.AllowRegExp);

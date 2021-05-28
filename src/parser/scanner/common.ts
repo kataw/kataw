@@ -4,18 +4,18 @@ import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 
 // ES#sec-white-space White Space
 // gC=Zs, U+0009, U+000B, U+000C, U+FEFF
-export function isWhiteSpaceSlow(cp: number): boolean {
+export function isWhiteSpaceSlow(codePoint: number): boolean {
   // Note: nextLine is in the Zs space, and should be considered to be a whitespace.
   // It is explicitly not a line-break as it isn't in the exact set specified by EcmaScript.
   return (
-    cp == Char.NonBreakingSpace ||
-    cp == Char.NextLine ||
-    cp == Char.Ogham ||
-    (cp >= Char.EnQuad && cp <= Char.ZeroWidthSpace) ||
-    cp == Char.NarrowNoBreakSpace ||
-    cp == Char.MathematicalSpace ||
-    cp == Char.IdeographicSpace ||
-    cp == Char.ByteOrderMark
+    codePoint == Char.NextLine ||
+    codePoint == Char.ByteOrderMark ||
+    codePoint == Char.NonBreakingSpace ||
+    codePoint == Char.Ogham ||
+    (codePoint >= Char.EnQuad && codePoint <= Char.ZeroWidthSpace) ||
+    codePoint == Char.NarrowNoBreakSpace ||
+    codePoint == Char.MathematicalSpace ||
+    codePoint == Char.IdeographicSpace
   );
 }
 
@@ -35,20 +35,20 @@ export function isIdentifierPart(ch: number): boolean {
   );
 }
 
-export function isLineTerminator(cp: number): boolean {
-  return cp === Char.LineFeed || cp === Char.CarriageReturn || (cp & ~1) === Char.LineSeparator;
+export function isLineTerminator(codePoint: number): boolean {
+  return codePoint === Char.LineFeed || codePoint === Char.CarriageReturn || (codePoint & ~1) === Char.LineSeparator;
 }
 
-export function fromCodePoint(cp: number): string {
-  if (cp <= 0xffff) return String.fromCharCode(cp);
-  return String.fromCharCode(cp >>> 10) + String.fromCharCode(cp & 0x3ff);
+export function fromCodePoint(codePoint: number): string {
+  if (codePoint <= 0xffff) return String.fromCharCode(codePoint);
+  return String.fromCharCode(codePoint >>> 10) + String.fromCharCode(codePoint & 0x3ff);
 }
 
 // Converts an ASCII alphanumeric digit [0-9a-zA-Z] to number as if in base-36.
-export function toHex(cp: number): number {
-  if (cp <= Char.Nine) return cp - Char.Zero;
-  cp = cp | 32; // lower case code point
-  if (cp < Char.LowerA) return -1;
-  if (cp <= Char.LowerF) return cp - Char.LowerA + 10;
+export function toHex(codePoint: number): number {
+  if (codePoint <= Char.Nine) return codePoint - Char.Zero;
+  codePoint = codePoint | 32; // lower case code point
+  if (codePoint < Char.LowerA) return -1;
+  if (codePoint <= Char.LowerF) return codePoint - Char.LowerA + 10;
   return -1;
 }

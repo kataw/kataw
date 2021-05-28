@@ -45,7 +45,14 @@ export {
  * Parse a script, optionally with various options.
  */
 export function parseScript(source: string, options?: Options, onError?: OnError): RootNode {
-  return parse(source, /* filename */ '__root__', Context.TopLevel, /* isModule */ false, options, onError);
+  return parse(
+    source,
+    /* filename */ '__root__',
+    Context.TopLevel,
+    /* isModule */ false,
+    onError || function () {},
+    options
+  );
 }
 
 /**
@@ -56,9 +63,9 @@ export function parseModule(source: string, options?: Options, onError?: OnError
     source,
     '__root__',
     Context.Module | Context.TopLevel | Context.Strict | Context.AllowImportMeta,
-    true,
-    options,
-    onError
+    /* isModule */ true,
+    onError || function () {},
+    options
   );
 }
 
