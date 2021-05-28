@@ -157,9 +157,9 @@ class C { static #constructor }
 ### Diagnostics
 
 ```javascript
-✖ '#constructor' is a reserved word. - start: 9, end: 11
+✖ '#constructor' is a reserved word. - start: 11, end: 34
 ✖ Duplicate identifier - start: 31, end: 33
-✖ '#constructor' is a reserved word. - start: 42, end: 44
+✖ '#constructor' is a reserved word. - start: 44, end: 67
 
 ```
 
