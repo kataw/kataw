@@ -64,45 +64,31 @@ x; {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 21,
-                                "end": 23
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 21,
-                            "end": 23
-                        },
-                        {
-                            "kind": 281,
-                            "flags": 96,
-                            "start": 23,
-                            "end": 24
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 21,
-                    "end": 24
+                    "start": 7,
+                    "end": 21
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 24
+                "end": 7
             },
             "flags": 16,
             "start": 0,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 21,
+                "end": 23
+            },
+            "flags": 16,
+            "start": 21,
             "end": 24
         },
         {
@@ -138,7 +124,6 @@ x; {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 21, end: 23
-✖ Expression expected - start: 24, end: 26
 
 ```
 

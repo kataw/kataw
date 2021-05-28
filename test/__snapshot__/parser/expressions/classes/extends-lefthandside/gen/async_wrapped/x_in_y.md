@@ -102,60 +102,50 @@ async function p(){
                                 },
                                 "body": {
                                     "kind": 262,
-                                    "elements": [
-                                        {
-                                            "kind": 280,
-                                            "decorators": null,
-                                            "declaredToken": null,
-                                            "staticToken": null,
-                                            "asyncKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "in",
-                                                "rawText": "in",
-                                                "flags": 96,
-                                                "start": 39,
-                                                "end": 42
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 39,
-                                            "end": 42
-                                        },
-                                        {
-                                            "kind": 280,
-                                            "decorators": null,
-                                            "declaredToken": null,
-                                            "staticToken": null,
-                                            "asyncKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 42,
-                                                "end": 44
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 42,
-                                            "end": 44
-                                        }
-                                    ],
+                                    "elements": [],
                                     "flags": 32,
-                                    "start": 39,
-                                    "end": 44
+                                    "start": 29,
+                                    "end": 39
                                 },
                                 "flags": 29,
                                 "start": 32,
-                                "end": 44
+                                "end": 29
                             },
                             "flags": 16,
                             "start": 19,
+                            "end": 39
+                        },
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 39,
+                                    "end": 39
+                                },
+                                "operatorToken": {
+                                    "kind": 21006388,
+                                    "flags": 64,
+                                    "start": 39,
+                                    "end": 42
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 42,
+                                    "end": 44
+                                },
+                                "flags": 32,
+                                "start": 39,
+                                "end": 44
+                            },
+                            "flags": 16,
+                            "start": 39,
                             "end": 44
                         },
                         {
@@ -206,7 +196,7 @@ async function p(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 39, end: 42
-✖ Expression expected - start: 44, end: 46
+✖ Expected a `;` - start: 44, end: 46
 
 ```
 

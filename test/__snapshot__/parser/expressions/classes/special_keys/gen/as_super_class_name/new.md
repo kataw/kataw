@@ -83,12 +83,12 @@ class x extends new {}
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 22,
+                    "start": 7,
                     "end": 22
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 22
+                "end": 7
             },
             "flags": 16,
             "start": 0,

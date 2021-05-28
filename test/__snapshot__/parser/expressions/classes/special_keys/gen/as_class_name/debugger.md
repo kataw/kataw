@@ -41,39 +41,29 @@ class debugger {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "debugger",
-                                "rawText": "debugger",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 14
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 14
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 14
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 14
+                "end": 5
             },
             "flags": 16,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 171,
+            "debuggerKeyword": {
+                "kind": 37757010,
+                "flags": 0,
+                "start": 5,
+                "end": 14
+            },
+            "flags": 16,
+            "start": 5,
             "end": 14
         },
         {
@@ -109,7 +99,7 @@ class debugger {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 14
-✖ Expression expected - start: 14, end: 16
+✖ Expected a `;` - start: 14, end: 16
 
 ```
 

@@ -65,47 +65,39 @@
                         },
                         "body": {
                             "kind": 262,
-                            "elements": [
-                                {
-                                    "kind": 280,
-                                    "decorators": null,
-                                    "declaredToken": null,
-                                    "staticToken": null,
-                                    "asyncKeyword": null,
-                                    "key": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 24
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 22,
-                                    "end": 24
-                                }
-                            ],
+                            "elements": [],
                             "flags": 32,
-                            "start": 22,
-                            "end": 24
+                            "start": 8,
+                            "end": 22
                         },
                         "flags": 8,
                         "start": 32,
-                        "end": 24
+                        "end": 8
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 24
+                    "end": 22
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 24
+                "end": 22
             },
             "flags": 16,
             "start": 0,
+            "end": 22
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 22,
+                "end": 24
+            },
+            "flags": 16,
+            "start": 22,
             "end": 24
         },
         {
@@ -141,7 +133,7 @@
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 22, end: 24
-✖ Expression expected - start: 24, end: 26
+✖ Expected a `;` - start: 24, end: 26
 ✖ Declaration or statement expected - start: 27, end: 28
 
 ```

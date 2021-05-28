@@ -7573,145 +7573,145 @@ async function * gen() {class C extends await { }}
                                     "kind": 262,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 3337,
+                                    "start": 3319,
                                     "end": 3337
                                 },
                                 "flags": 3319,
                                 "start": 32,
-                                "end": 3338
+                                "end": 3319
                             },
                             "flags": 16,
                             "start": 3312,
-                            "end": 3338
-                        },
-                        {
-                            "kind": 176,
-                            "declareKeyword": null,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 65,
-                                "start": 3338,
-                                "end": 3344
-                            },
-                            "functionKeyword": {
-                                "kind": 37822554,
-                                "flags": 0,
-                                "start": 3344,
-                                "end": 3353
-                            },
-                            "generatorToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 3353,
-                                "end": 3355
-                            },
-                            "name": {
-                                "kind": 134299649,
-                                "text": "gen",
-                                "rawText": "gen",
-                                "flags": 96,
-                                "start": 3355,
-                                "end": 3359
-                            },
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 3359,
-                                "end": 3361
-                            },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 178,
-                                            "declareKeyword": null,
-                                            "decorators": null,
-                                            "classKeyword": {
-                                                "kind": 37822544,
-                                                "flags": 0,
-                                                "start": 3363,
-                                                "end": 3368
-                                            },
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "C",
-                                                "rawText": "C",
-                                                "flags": 96,
-                                                "start": 3368,
-                                                "end": 3370
-                                            },
-                                            "typeParameters": null,
-                                            "tail": {
-                                                "kind": 277,
-                                                "classHeritage": {
-                                                    "kind": 279,
-                                                    "extendsKeyword": {
-                                                        "kind": 4194391,
-                                                        "flags": 0,
-                                                        "start": 3370,
-                                                        "end": 3378
-                                                    },
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "await",
-                                                        "rawText": "await",
-                                                        "flags": 96,
-                                                        "start": 3378,
-                                                        "end": 3384
-                                                    },
-                                                    "typeParameter": null,
-                                                    "flags": 16,
-                                                    "start": 3378,
-                                                    "end": 3384
-                                                },
-                                                "body": {
-                                                    "kind": 262,
-                                                    "elements": [],
-                                                    "flags": 32,
-                                                    "start": 3386,
-                                                    "end": 3386
-                                                },
-                                                "flags": 3370,
-                                                "start": 32,
-                                                "end": 3388
-                                            },
-                                            "flags": 16,
-                                            "start": 3363,
-                                            "end": 3388
-                                        }
-                                    ],
-                                    "flags": 32,
-                                    "start": 3363,
-                                    "end": 3388
-                                },
-                                "flags": 32,
-                                "start": 3361,
-                                "end": 3389
-                            },
-                            "typeParameters": null,
-                            "returnType": null,
-                            "flags": 400,
-                            "start": 3338,
-                            "end": 3389
+                            "end": 3337
                         }
                     ],
                     "flags": 32,
                     "start": 3312,
-                    "end": 3389
+                    "end": 3337
                 },
                 "flags": 32,
                 "start": 3310,
-                "end": 3389
+                "end": 3338
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 3287,
+            "end": 3338
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
+            "asyncKeyword": {
+                "kind": 82031,
+                "flags": 65,
+                "start": 3338,
+                "end": 3344
+            },
+            "functionKeyword": {
+                "kind": 37822554,
+                "flags": 0,
+                "start": 3344,
+                "end": 3353
+            },
+            "generatorToken": {
+                "kind": 67143222,
+                "flags": 64,
+                "start": 3353,
+                "end": 3355
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "gen",
+                "rawText": "gen",
+                "flags": 96,
+                "start": 3355,
+                "end": 3359
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 3359,
+                "end": 3361
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [
+                        {
+                            "kind": 178,
+                            "declareKeyword": null,
+                            "decorators": null,
+                            "classKeyword": {
+                                "kind": 37822544,
+                                "flags": 0,
+                                "start": 3363,
+                                "end": 3368
+                            },
+                            "name": {
+                                "kind": 134299649,
+                                "text": "C",
+                                "rawText": "C",
+                                "flags": 96,
+                                "start": 3368,
+                                "end": 3370
+                            },
+                            "typeParameters": null,
+                            "tail": {
+                                "kind": 277,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 3370,
+                                        "end": 3378
+                                    },
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 3378,
+                                        "end": 3384
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 3378,
+                                    "end": 3384
+                                },
+                                "body": {
+                                    "kind": 262,
+                                    "elements": [],
+                                    "flags": 32,
+                                    "start": 3386,
+                                    "end": 3386
+                                },
+                                "flags": 3370,
+                                "start": 32,
+                                "end": 3388
+                            },
+                            "flags": 16,
+                            "start": 3363,
+                            "end": 3388
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 3363,
+                    "end": 3388
+                },
+                "flags": 32,
+                "start": 3361,
+                "end": 3389
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 400,
+            "start": 3338,
             "end": 3389
         }
     ],
@@ -7834,7 +7834,6 @@ async function * gen() {class C extends await { }}
 ✖ Declaration or statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3327, end: 3335
 ✖ Missing an opening brace - '{ - start: 3337, end: 3338
-✖ The parser expected to find a '}' to match the '{' token here - start: 3389, end: 3389
 
 ```
 

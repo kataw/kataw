@@ -69,12 +69,12 @@
                                 "kind": 262,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 18,
+                                "start": 8,
                                 "end": 18
                             },
                             "flags": 8,
                             "start": 32,
-                            "end": 18
+                            "end": 8
                         },
                         "flags": 32,
                         "start": 1,

@@ -41,52 +41,49 @@ class delete {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "delete",
-                                "rawText": "delete",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 12
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 12
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 12
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 12
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 12
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 14,
-                "end": 14
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 4259886,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 12
+                },
+                "operand": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 14,
+                        "end": 14
+                    },
+                    "flags": 48,
+                    "start": 12,
+                    "end": 15
+                },
+                "flags": 32,
+                "start": 5,
+                "end": 15
             },
             "flags": 16,
-            "start": 12,
+            "start": 5,
             "end": 15
         }
     ],
@@ -109,7 +106,6 @@ class delete {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
-✖ Expression expected - start: 12, end: 14
 
 ```
 

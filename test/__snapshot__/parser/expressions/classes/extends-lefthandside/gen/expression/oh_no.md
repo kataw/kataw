@@ -70,12 +70,12 @@
                                     "kind": 262,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 19,
+                                    "start": 8,
                                     "end": 19
                                 },
                                 "flags": 8,
                                 "start": 32,
-                                "end": 19
+                                "end": 8
                             },
                             "flags": 32,
                             "start": 1,

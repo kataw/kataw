@@ -61,52 +61,60 @@ class x extends const {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "const",
-                                "rawText": "const",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 21
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 21
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 21
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 21
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 21
+            "end": 15
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 23,
-                "end": 23
+            "kind": 162,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 0,
+                "start": 15,
+                "end": 21
             },
-            "flags": 16,
-            "start": 21,
+            "binding": {
+                "kind": 151,
+                "bindingList": [
+                    {
+                        "kind": 190,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 23,
+                                "end": 23
+                            },
+                            "flags": 32,
+                            "start": 21,
+                            "end": 24
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 16,
+                        "start": 21,
+                        "end": 24
+                    }
+                ],
+                "flags": 16777232,
+                "start": 21,
+                "end": 24
+            },
+            "flags": 33554448,
+            "start": 15,
             "end": 24
         }
     ],
@@ -129,7 +137,7 @@ class x extends const {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 21
-✖ Expression expected - start: 21, end: 23
+✖ Missing initializer in const declaration - start: 24, end: 24
 
 ```
 

@@ -61,40 +61,18 @@ class x extends extends {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "extends",
-                                "rawText": "extends",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 23
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 23
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 23
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 23
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 15
         },
         {
             "kind": 124,
@@ -129,7 +107,6 @@ class x extends extends {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 23
-✖ Expression expected - start: 23, end: 25
 
 ```
 

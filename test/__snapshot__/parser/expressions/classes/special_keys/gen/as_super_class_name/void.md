@@ -82,12 +82,12 @@ class x extends void {}
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 23,
+                    "start": 7,
                     "end": 23
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 23
+                "end": 7
             },
             "flags": 16,
             "start": 0,

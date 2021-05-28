@@ -177,39 +177,31 @@ let x = { foo(){ super(); } };
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 56,
-                                "end": 58
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 56,
-                            "end": 58
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 56,
-                    "end": 58
+                    "start": 38,
+                    "end": 56
                 },
                 "flags": 38,
                 "start": 32,
-                "end": 58
+                "end": 38
             },
             "flags": 16,
             "start": 30,
+            "end": 56
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 56,
+                "end": 58
+            },
+            "flags": 16,
+            "start": 56,
             "end": 58
         },
         {
@@ -1039,97 +1031,93 @@ let x = { foo(){ super(); } };
                                                     "classHeritage": null,
                                                     "body": {
                                                         "kind": 262,
-                                                        "elements": [
-                                                            {
-                                                                "kind": 280,
-                                                                "decorators": null,
-                                                                "declaredToken": null,
-                                                                "staticToken": null,
-                                                                "asyncKeyword": null,
-                                                                "key": {
-                                                                    "kind": 134299649,
-                                                                    "text": "super",
-                                                                    "rawText": "super",
-                                                                    "flags": 96,
-                                                                    "start": 285,
-                                                                    "end": 291
-                                                                },
-                                                                "optionalToken": null,
-                                                                "type": null,
-                                                                "initializer": null,
-                                                                "flags": 32,
-                                                                "start": 285,
-                                                                "end": 291
-                                                            }
-                                                        ],
+                                                        "elements": [],
                                                         "flags": 32,
                                                         "start": 285,
-                                                        "end": 291
+                                                        "end": 285
                                                     },
                                                     "flags": 285,
                                                     "start": 32,
-                                                    "end": 291
+                                                    "end": 285
                                                 },
                                                 "flags": 16,
                                                 "start": 279,
-                                                "end": 291
+                                                "end": 285
+                                            },
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 129,
+                                                    "member": {
+                                                        "kind": 225,
+                                                        "superKeyword": {
+                                                            "kind": 4259935,
+                                                            "flags": 0,
+                                                            "start": 285,
+                                                            "end": 291
+                                                        },
+                                                        "flags": 96,
+                                                        "start": 285,
+                                                        "end": 291
+                                                    },
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "foo",
+                                                        "rawText": "foo",
+                                                        "flags": 96,
+                                                        "start": 292,
+                                                        "end": 295
+                                                    },
+                                                    "flags": 536870944,
+                                                    "start": 285,
+                                                    "end": 295
+                                                },
+                                                "flags": 16,
+                                                "start": 285,
+                                                "end": 295
+                                            },
+                                            {
+                                                "kind": 124,
+                                                "block": {
+                                                    "kind": 249,
+                                                    "statements": [],
+                                                    "flags": 16,
+                                                    "start": 297,
+                                                    "end": 297
+                                                },
+                                                "flags": 16,
+                                                "start": 295,
+                                                "end": 299
                                             }
                                         ],
                                         "flags": 32,
                                         "start": 279,
-                                        "end": 291
+                                        "end": 299
                                     },
                                     "flags": 32,
                                     "start": 278,
-                                    "end": 291
+                                    "end": 302
                                 },
                                 "flags": 2048,
                                 "start": 276,
-                                "end": 291
+                                "end": 302
                             },
                             "flags": 2048,
                             "start": 264,
-                            "end": 291
+                            "end": 302
                         }
                     ],
                     "flags": 32,
                     "start": 264,
-                    "end": 291
+                    "end": 302
                 },
                 "flags": 262,
                 "start": 32,
-                "end": 291
+                "end": 303
             },
             "flags": 16,
             "start": 254,
-            "end": 291
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 292,
-                "end": 295
-            },
-            "flags": 16,
-            "start": 292,
-            "end": 295
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 297,
-                "end": 297
-            },
-            "flags": 16,
-            "start": 295,
-            "end": 299
+            "end": 303
         },
         {
             "kind": 168,
@@ -1259,39 +1247,31 @@ let x = { foo(){ super(); } };
                                                     },
                                                     "body": {
                                                         "kind": 262,
-                                                        "elements": [
-                                                            {
-                                                                "kind": 280,
-                                                                "decorators": null,
-                                                                "declaredToken": null,
-                                                                "staticToken": null,
-                                                                "asyncKeyword": null,
-                                                                "key": {
-                                                                    "kind": 134299649,
-                                                                    "text": "y",
-                                                                    "rawText": "y",
-                                                                    "flags": 96,
-                                                                    "start": 355,
-                                                                    "end": 357
-                                                                },
-                                                                "optionalToken": null,
-                                                                "type": null,
-                                                                "initializer": null,
-                                                                "flags": 32,
-                                                                "start": 355,
-                                                                "end": 357
-                                                            }
-                                                        ],
+                                                        "elements": [],
                                                         "flags": 32,
-                                                        "start": 355,
-                                                        "end": 357
+                                                        "start": 337,
+                                                        "end": 355
                                                     },
                                                     "flags": 337,
                                                     "start": 32,
-                                                    "end": 357
+                                                    "end": 337
                                                 },
                                                 "flags": 16,
                                                 "start": 329,
+                                                "end": 355
+                                            },
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "y",
+                                                    "rawText": "y",
+                                                    "flags": 96,
+                                                    "start": 355,
+                                                    "end": 357
+                                                },
+                                                "flags": 16,
+                                                "start": 355,
                                                 "end": 357
                                             },
                                             {
@@ -2711,7 +2691,7 @@ let x = { foo(){ super(); } };
 ✖ Duplicate identifier - start: 36, end: 38
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
 ✖ Missing an opening brace - '{ - start: 56, end: 58
-✖ Expression expected - start: 58, end: 60
+✖ Expected a `;` - start: 58, end: 60
 ✖ Duplicate identifier - start: 69, end: 71
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 89, end: 90
 ✖ Duplicate identifier - start: 105, end: 107
@@ -2735,13 +2715,10 @@ let x = { foo(){ super(); } };
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
 ✖ Declaration or statement expected - start: 251, end: 253
 ✖ Binding identifier expected - start: 285, end: 291
-✖ Expression expected - start: 291, end: 292
 ✖ Expected a `;` - start: 295, end: 297
-✖ Declaration or statement expected - start: 299, end: 302
-✖ Declaration or statement expected - start: 302, end: 303
 ✖ Duplicate identifier - start: 310, end: 312
 ✖ Missing an opening brace - '{ - start: 355, end: 357
-✖ Expression expected - start: 357, end: 359
+✖ Expected a `;` - start: 357, end: 359
 ✖ Duplicate identifier - start: 372, end: 374
 ✖ ',' expected - start: 421, end: 423
 ✖ Duplicate identifier - start: 439, end: 441

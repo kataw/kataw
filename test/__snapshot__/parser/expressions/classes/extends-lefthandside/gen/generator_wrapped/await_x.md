@@ -102,39 +102,31 @@ function *P(){
                                 },
                                 "body": {
                                     "kind": 262,
-                                    "elements": [
-                                        {
-                                            "kind": 280,
-                                            "decorators": null,
-                                            "declaredToken": null,
-                                            "staticToken": null,
-                                            "asyncKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 38,
-                                                "end": 40
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 38,
-                                            "end": 40
-                                        }
-                                    ],
+                                    "elements": [],
                                     "flags": 32,
-                                    "start": 38,
-                                    "end": 40
+                                    "start": 24,
+                                    "end": 38
                                 },
                                 "flags": 24,
                                 "start": 32,
-                                "end": 40
+                                "end": 24
                             },
                             "flags": 16,
                             "start": 14,
+                            "end": 38
+                        },
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 38,
+                                "end": 40
+                            },
+                            "flags": 16,
+                            "start": 38,
                             "end": 40
                         },
                         {
@@ -185,7 +177,7 @@ function *P(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 38, end: 40
-✖ Expression expected - start: 40, end: 42
+✖ Expected a `;` - start: 40, end: 42
 
 ```
 

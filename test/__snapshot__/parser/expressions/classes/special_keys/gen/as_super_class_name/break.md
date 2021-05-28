@@ -61,39 +61,36 @@ class x extends break {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "break",
-                                "rawText": "break",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 21
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 21
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 21
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 21
+                "end": 7
             },
             "flags": 16,
             "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 150,
+            "breakKeyword": {
+                "kind": 37757005,
+                "flags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "label": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 21,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 15,
             "end": 21
         },
         {
@@ -130,6 +127,7 @@ class x extends break {}
 ```javascript
 ✖ Expression expected - start: 15, end: 21
 ✖ Expression expected - start: 21, end: 23
+✖ Missing label - start: 21, end: 23
 
 ```
 

@@ -41,40 +41,18 @@ class else {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "else",
-                                "rawText": "else",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 10
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 10
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 10
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 10
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 10
+            "end": 5
         },
         {
             "kind": 124,
@@ -109,7 +87,6 @@ class else {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ Expression expected - start: 10, end: 12
 
 ```
 

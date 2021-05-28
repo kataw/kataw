@@ -61,52 +61,46 @@ class x extends export {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "export",
-                                "rawText": "export",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 22
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 22
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 22
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 22
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 22
+            "end": 15
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 24,
-                "end": 24
+            "kind": 257,
+            "exportKeyword": {
+                "kind": 4202582,
+                "flags": 0,
+                "start": 15,
+                "end": 22
             },
+            "declaration": null,
+            "namedExports": {
+                "kind": 266,
+                "exportsList": {
+                    "kind": 261,
+                    "specifiers": [],
+                    "flags": 16,
+                    "start": 24,
+                    "end": 24
+                },
+                "flags": 0,
+                "start": 22,
+                "end": 25
+            },
+            "exportFromClause": null,
+            "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
-            "start": 22,
+            "start": 15,
             "end": 25
         }
     ],
@@ -129,7 +123,7 @@ class x extends export {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 22
-✖ Expression expected - start: 22, end: 24
+✖ The `export` keyword can only be used with the module goal - start: 15, end: 22
 
 ```
 

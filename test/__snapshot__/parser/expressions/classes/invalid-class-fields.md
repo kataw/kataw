@@ -305,11 +305,11 @@
                 },
                 "flags": 45,
                 "start": 32,
-                "end": 47
+                "end": 45
             },
             "flags": 16,
             "start": 44,
-            "end": 47
+            "end": 45
         },
         {
             "kind": 168,

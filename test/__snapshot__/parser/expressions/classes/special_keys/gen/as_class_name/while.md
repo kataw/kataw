@@ -41,52 +41,56 @@ class while {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "while",
-                                "rawText": "while",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 11
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 11
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 11
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 0,
+                "start": 5,
+                "end": 11
+            },
+            "expression": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [],
+                    "trailingComma": false,
+                    "flags": 16,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 48,
+                "start": 11,
+                "end": 14
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 14,
+                    "end": 14
+                },
                 "flags": 16,
-                "start": 13,
-                "end": 13
+                "start": 14,
+                "end": 14
             },
             "flags": 16,
-            "start": 11,
+            "start": 5,
             "end": 14
         }
     ],
@@ -109,7 +113,8 @@ class while {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 11, end: 13
+✖ Missing an opening parentheses - '( - start: 11, end: 13
+✖ Declaration or statement expected - start: 14, end: 14
 
 ```
 

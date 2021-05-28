@@ -41,52 +41,43 @@ class throw {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "throw",
-                                "rawText": "throw",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 11
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 11
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 11
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 13,
-                "end": 13
+            "kind": 158,
+            "throwKeyword": {
+                "kind": 37757026,
+                "flags": 0,
+                "start": 5,
+                "end": 11
+            },
+            "expression": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [],
+                    "trailingComma": false,
+                    "flags": 16,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 48,
+                "start": 11,
+                "end": 14
             },
             "flags": 16,
-            "start": 11,
+            "start": 5,
             "end": 14
         }
     ],
@@ -109,7 +100,6 @@ class throw {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 11, end: 13
 
 ```
 

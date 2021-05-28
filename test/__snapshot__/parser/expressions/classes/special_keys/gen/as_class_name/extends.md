@@ -63,12 +63,12 @@ class extends {}
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 16,
+                    "start": 5,
                     "end": 16
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 16
+                "end": 5
             },
             "flags": 16,
             "start": 0,

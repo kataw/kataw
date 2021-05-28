@@ -61,52 +61,70 @@ class x extends for {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "for",
-                                "rawText": "for",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 19
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 19
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 19
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 19
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 19
+            "end": 15
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
+            "kind": 165,
+            "forKeyword": {
+                "kind": 37757017,
+                "flags": 0,
+                "start": 15,
+                "end": 19
+            },
+            "initializer": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [],
+                    "trailingComma": false,
+                    "flags": 16,
+                    "start": 21,
+                    "end": 21
+                },
+                "flags": 48,
+                "start": 19,
+                "end": 22
+            },
+            "condition": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 22,
+                "end": 22
+            },
+            "incrementor": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 22,
+                "end": 22
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 22,
+                    "end": 22
+                },
                 "flags": 16,
-                "start": 21,
-                "end": 21
+                "start": 22,
+                "end": 22
             },
             "flags": 16,
-            "start": 19,
+            "start": 15,
             "end": 22
         }
     ],
@@ -129,7 +147,8 @@ class x extends for {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 19
-✖ Expression expected - start: 19, end: 21
+✖ Missing an opening parentheses - '( - start: 19, end: 21
+✖ Expression expected - start: 22, end: 22
 
 ```
 

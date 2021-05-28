@@ -104,12 +104,12 @@ function *P(){
                                     "kind": 262,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 35,
+                                    "start": 24,
                                     "end": 35
                                 },
                                 "flags": 24,
                                 "start": 32,
-                                "end": 35
+                                "end": 24
                             },
                             "flags": 16,
                             "start": 14,

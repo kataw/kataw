@@ -41,52 +41,47 @@ class class {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "class",
-                                "rawText": "class",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 11
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 11
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 11
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 13,
-                "end": 13
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37822544,
+                "flags": 0,
+                "start": 5,
+                "end": 11
+            },
+            "name": null,
+            "typeParameters": null,
+            "tail": {
+                "kind": 277,
+                "classHeritage": null,
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 11,
+                "start": 32,
+                "end": 14
             },
             "flags": 16,
-            "start": 11,
+            "start": 5,
             "end": 14
         }
     ],
@@ -109,7 +104,7 @@ class class {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 11, end: 13
+✖ A class declaration without the 'default' modifier must have a name. - start: 11, end: 13
 
 ```
 

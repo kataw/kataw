@@ -41,39 +41,36 @@ class continue {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "continue",
-                                "rawText": "continue",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 14
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 14
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 14
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 14
+                "end": 5
             },
             "flags": 16,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 172,
+            "continueKeyword": {
+                "kind": 37757009,
+                "flags": 0,
+                "start": 5,
+                "end": 14
+            },
+            "label": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 14,
+                "end": 14
+            },
+            "flags": 16,
+            "start": 5,
             "end": 14
         },
         {
@@ -109,6 +106,7 @@ class continue {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 14
+✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 5, end: 14
 ✖ Expression expected - start: 14, end: 16
 
 ```

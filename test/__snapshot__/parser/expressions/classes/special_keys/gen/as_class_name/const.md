@@ -41,52 +41,60 @@ class const {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "const",
-                                "rawText": "const",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 11
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 11
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 11
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 13,
-                "end": 13
+            "kind": 162,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 0,
+                "start": 5,
+                "end": 11
             },
-            "flags": 16,
-            "start": 11,
+            "binding": {
+                "kind": 151,
+                "bindingList": [
+                    {
+                        "kind": 190,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 13,
+                                "end": 13
+                            },
+                            "flags": 32,
+                            "start": 11,
+                            "end": 14
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 16,
+                        "start": 11,
+                        "end": 14
+                    }
+                ],
+                "flags": 16777232,
+                "start": 11,
+                "end": 14
+            },
+            "flags": 33554448,
+            "start": 5,
             "end": 14
         }
     ],
@@ -109,7 +117,7 @@ class const {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 11, end: 13
+✖ Missing initializer in const declaration - start: 14, end: 14
 
 ```
 

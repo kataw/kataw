@@ -104,82 +104,83 @@ x => y {}
                                 },
                                 "body": {
                                     "kind": 262,
-                                    "elements": [
-                                        {
-                                            "kind": 280,
-                                            "decorators": null,
-                                            "declaredToken": null,
-                                            "staticToken": null,
-                                            "asyncKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 38,
-                                                "end": 40
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 38,
-                                            "end": 40
-                                        }
-                                    ],
+                                    "elements": [],
                                     "flags": 32,
-                                    "start": 38,
-                                    "end": 40
+                                    "start": 24,
+                                    "end": 38
                                 },
                                 "flags": 24,
                                 "start": 32,
-                                "end": 40
+                                "end": 24
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 40
+                            "end": 38
+                        },
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 271,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 0,
+                                    "start": 40,
+                                    "end": 43
+                                },
+                                "typeParameters": null,
+                                "parameters": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 38,
+                                    "end": 40
+                                },
+                                "asyncKeyword": null,
+                                "returnType": null,
+                                "contents": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 43,
+                                    "end": 45
+                                },
+                                "flags": 32,
+                                "start": 38,
+                                "end": 45
+                            },
+                            "flags": 16,
+                            "start": 38,
+                            "end": 45
+                        },
+                        {
+                            "kind": 124,
+                            "block": {
+                                "kind": 249,
+                                "statements": [],
+                                "flags": 16,
+                                "start": 47,
+                                "end": 47
+                            },
+                            "flags": 16,
+                            "start": 45,
+                            "end": 48
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 40
+                    "end": 48
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 40
+                "end": 50
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 40
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 43,
-                "end": 45
-            },
-            "flags": 16,
-            "start": 43,
-            "end": 45
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 47,
-                "end": 47
-            },
-            "flags": 16,
-            "start": 45,
-            "end": 48
+            "end": 50
         }
     ],
     "isModule": false,
@@ -201,9 +202,7 @@ x => y {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 38, end: 40
-✖ Expression expected - start: 40, end: 43
 ✖ Expected a `;` - start: 45, end: 47
-✖ Declaration or statement expected - start: 48, end: 50
 
 ```
 

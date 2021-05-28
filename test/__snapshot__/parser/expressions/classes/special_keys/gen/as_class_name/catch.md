@@ -41,52 +41,66 @@ class catch {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "catch",
-                                "rawText": "catch",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 11
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 11
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 11
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 5
         },
         {
-            "kind": 124,
+            "kind": 159,
+            "tryKeyword": null,
             "block": {
-                "kind": 249,
-                "statements": [],
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 5,
+                    "end": 5
+                },
                 "flags": 16,
-                "start": 13,
-                "end": 13
+                "start": 5,
+                "end": 5
             },
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 0,
+                    "start": 5,
+                    "end": 11
+                },
+                "catchParameter": null,
+                "initializer": null,
+                "block": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 13,
+                        "end": 13
+                    },
+                    "flags": 16,
+                    "start": 11,
+                    "end": 14
+                },
+                "flags": 16,
+                "start": 5,
+                "end": 14
+            },
+            "finallyKeyword": null,
+            "finallyBlock": null,
             "flags": 16,
-            "start": 11,
+            "start": 5,
             "end": 14
         }
     ],
@@ -109,7 +123,7 @@ class catch {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 11, end: 13
+✖ 'try' expected - start: 5, end: 11
 
 ```
 

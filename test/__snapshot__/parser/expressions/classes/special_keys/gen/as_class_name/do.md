@@ -41,52 +41,50 @@ class do {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "do",
-                                "rawText": "do",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 8
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 8
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 8
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 8
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 8
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
+            "kind": 169,
+            "doKeyword": {
+                "kind": 4202580,
+                "flags": 0,
+                "start": 5,
+                "end": 8
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 11,
+                "end": 11
+            },
+            "whileKeyword": null,
+            "statement": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 10,
+                    "end": 10
+                },
                 "flags": 16,
-                "start": 10,
-                "end": 10
+                "start": 8,
+                "end": 11
             },
             "flags": 16,
-            "start": 8,
+            "start": 5,
             "end": 11
         }
     ],
@@ -109,7 +107,7 @@ class do {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 8
-✖ Expression expected - start: 8, end: 10
+✖ Missing an opening parentheses - '( - start: 11, end: 11
 
 ```
 

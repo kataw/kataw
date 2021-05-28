@@ -95,12 +95,12 @@ class x extends function {}
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 27,
+                    "start": 7,
                     "end": 27
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 27
+                "end": 7
             },
             "flags": 16,
             "start": 0,

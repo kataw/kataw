@@ -62,60 +62,50 @@ class A extends x in y {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "in",
-                                "rawText": "in",
-                                "flags": 96,
-                                "start": 17,
-                                "end": 20
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 17,
-                            "end": 20
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 20,
-                                "end": 22
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 20,
-                            "end": 22
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 17,
-                    "end": 22
+                    "start": 7,
+                    "end": 17
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 22
+                "end": 7
             },
             "flags": 16,
             "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 17,
+                    "end": 17
+                },
+                "operatorToken": {
+                    "kind": 21006388,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 20
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 96,
+                    "start": 20,
+                    "end": 22
+                },
+                "flags": 32,
+                "start": 17,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 17,
             "end": 22
         },
         {
@@ -151,7 +141,7 @@ class A extends x in y {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 17, end: 20
-✖ Expression expected - start: 22, end: 24
+✖ Expected a `;` - start: 22, end: 24
 
 ```
 

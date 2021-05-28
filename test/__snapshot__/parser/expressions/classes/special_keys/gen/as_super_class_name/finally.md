@@ -61,52 +61,57 @@ class x extends finally {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "finally",
-                                "rawText": "finally",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 23
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 23
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 23
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 23
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 15
         },
         {
-            "kind": 124,
+            "kind": 159,
+            "tryKeyword": null,
             "block": {
-                "kind": 249,
-                "statements": [],
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 15,
+                    "end": 15
+                },
                 "flags": 16,
-                "start": 25,
-                "end": 25
+                "start": 15,
+                "end": 15
+            },
+            "catchClause": null,
+            "finallyKeyword": {
+                "kind": 37757016,
+                "flags": 0,
+                "start": 15,
+                "end": 23
+            },
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 25,
+                    "end": 25
+                },
+                "flags": 16,
+                "start": 23,
+                "end": 26
             },
             "flags": 16,
-            "start": 23,
+            "start": 15,
             "end": 26
         }
     ],
@@ -129,7 +134,7 @@ class x extends finally {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 23
-✖ Expression expected - start: 23, end: 25
+✖ 'try' expected - start: 15, end: 23
 
 ```
 

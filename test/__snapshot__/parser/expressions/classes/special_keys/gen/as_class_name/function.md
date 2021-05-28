@@ -41,52 +41,57 @@ class function {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "function",
-                                "rawText": "function",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 14
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 14
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 14
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 14
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 14
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 16,
-                "end": 16
+            "kind": 176,
+            "declareKeyword": null,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37822554,
+                "flags": 0,
+                "start": 5,
+                "end": 14
             },
+            "generatorToken": null,
+            "name": null,
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 14,
+                "end": 14
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 16,
+                    "end": 16
+                },
+                "flags": 32,
+                "start": 14,
+                "end": 17
+            },
+            "typeParameters": null,
+            "returnType": null,
             "flags": 16,
-            "start": 14,
+            "start": 5,
             "end": 17
         }
     ],
@@ -109,7 +114,8 @@ class function {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 14
-✖ Expression expected - start: 14, end: 16
+✖ Binding identifier expected - start: 14, end: 16
+✖ Missing an opening parentheses - '( - start: 14, end: 16
 
 ```
 

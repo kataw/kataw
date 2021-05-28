@@ -81,16 +81,16 @@ class x extends import {}
                     "kind": 262,
                     "elements": [],
                     "flags": 32,
-                    "start": 24,
+                    "start": 7,
                     "end": 24
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 25
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 25
+            "end": 24
         }
     ],
     "isModule": false,

@@ -69,12 +69,12 @@ new class extends{}
                             "kind": 262,
                             "elements": [],
                             "flags": 32,
-                            "start": 19,
+                            "start": 9,
                             "end": 19
                         },
                         "flags": 9,
                         "start": 32,
-                        "end": 19
+                        "end": 9
                     },
                     "flags": 32,
                     "start": 3,

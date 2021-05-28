@@ -41,52 +41,58 @@ class if {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "if",
-                                "rawText": "if",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 8
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 8
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 8
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 8
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 8
+            "end": 5
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 10,
-                "end": 10
+            "kind": 164,
+            "ifKeyword": {
+                "kind": 37757019,
+                "flags": 0,
+                "start": 5,
+                "end": 8
             },
+            "expression": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [],
+                    "trailingComma": false,
+                    "flags": 16,
+                    "start": 10,
+                    "end": 10
+                },
+                "flags": 48,
+                "start": 8,
+                "end": 11
+            },
+            "consequent": {
+                "kind": 120,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 11,
+                    "end": 11
+                },
+                "flags": 16,
+                "start": 11,
+                "end": 11
+            },
+            "elseKeyword": null,
+            "alternate": null,
             "flags": 16,
-            "start": 8,
+            "start": 5,
             "end": 11
         }
     ],
@@ -109,7 +115,8 @@ class if {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 8
-✖ Expression expected - start: 8, end: 10
+✖ Missing an opening parentheses - '( - start: 8, end: 10
+✖ Declaration or statement expected - start: 11, end: 11
 
 ```
 

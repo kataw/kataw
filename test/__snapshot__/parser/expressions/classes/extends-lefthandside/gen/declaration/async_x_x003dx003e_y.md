@@ -64,53 +64,54 @@ x => y {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 21,
-                                "end": 23
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 21,
-                            "end": 23
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 21,
-                    "end": 23
+                    "start": 7,
+                    "end": 21
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 23
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 21
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 26,
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 0,
+                    "start": 23,
+                    "end": 26
+                },
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 21,
+                    "end": 23
+                },
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 96,
+                    "start": 26,
+                    "end": 28
+                },
+                "flags": 32,
+                "start": 21,
                 "end": 28
             },
             "flags": 16,
-            "start": 26,
+            "start": 21,
             "end": 28
         },
         {
@@ -146,7 +147,6 @@ x => y {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 21, end: 23
-✖ Expression expected - start: 23, end: 26
 ✖ Expected a `;` - start: 28, end: 30
 
 ```

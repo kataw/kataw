@@ -61,94 +61,70 @@ export class Foo {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "export",
-                                "rawText": "export",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 17
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 10,
-                            "end": 17
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "class",
-                                "rawText": "class",
-                                "flags": 96,
-                                "start": 17,
-                                "end": 23
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 17,
-                            "end": 23
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "Foo",
-                                "rawText": "Foo",
-                                "flags": 96,
-                                "start": 23,
-                                "end": 27
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 23,
-                            "end": 27
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 10,
-                    "end": 27
+                    "end": 10
                 },
                 "flags": 10,
                 "start": 32,
-                "end": 27
+                "end": 10
             },
             "flags": 16,
             "start": 0,
-            "end": 27
+            "end": 10
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 29,
-                "end": 29
+            "kind": 257,
+            "exportKeyword": {
+                "kind": 4202582,
+                "flags": 1,
+                "start": 10,
+                "end": 17
             },
+            "declaration": {
+                "kind": 178,
+                "declareKeyword": null,
+                "decorators": null,
+                "classKeyword": {
+                    "kind": 37822544,
+                    "flags": 0,
+                    "start": 17,
+                    "end": 23
+                },
+                "name": {
+                    "kind": 134299649,
+                    "text": "Foo",
+                    "rawText": "Foo",
+                    "flags": 96,
+                    "start": 23,
+                    "end": 27
+                },
+                "typeParameters": null,
+                "tail": {
+                    "kind": 277,
+                    "classHeritage": null,
+                    "body": {
+                        "kind": 262,
+                        "elements": [],
+                        "flags": 32,
+                        "start": 29,
+                        "end": 29
+                    },
+                    "flags": 27,
+                    "start": 32,
+                    "end": 30
+                },
+                "flags": 16,
+                "start": 17,
+                "end": 30
+            },
+            "namedExports": null,
+            "exportFromClause": null,
+            "fromClause": null,
+            "exportKind": 0,
             "flags": 16,
-            "start": 27,
+            "start": 10,
             "end": 30
         }
     ],
@@ -171,7 +147,6 @@ export class Foo {}
 
 ```javascript
 ✖ Binding identifier expected - start: 10, end: 17
-✖ Expression expected - start: 27, end: 29
 
 ```
 

@@ -76,96 +76,76 @@ let MyClass = @foo export class {}
                                 "classHeritage": null,
                                 "body": {
                                     "kind": 262,
-                                    "elements": [
-                                        {
-                                            "kind": 280,
-                                            "decorators": null,
-                                            "declaredToken": null,
-                                            "staticToken": null,
-                                            "asyncKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "export",
-                                                "rawText": "export",
-                                                "flags": 96,
-                                                "start": 18,
-                                                "end": 25
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 18,
-                                            "end": 25
-                                        },
-                                        {
-                                            "kind": 280,
-                                            "decorators": null,
-                                            "declaredToken": null,
-                                            "staticToken": null,
-                                            "asyncKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "class",
-                                                "rawText": "class",
-                                                "flags": 96,
-                                                "start": 25,
-                                                "end": 31
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 25,
-                                            "end": 31
-                                        }
-                                    ],
+                                    "elements": [],
                                     "flags": 32,
                                     "start": 18,
-                                    "end": 31
+                                    "end": 18
                                 },
                                 "flags": 18,
                                 "start": 32,
-                                "end": 31
+                                "end": 18
                             },
                             "flags": 32,
                             "start": 13,
-                            "end": 31
+                            "end": 18
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 31
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 33,
-                                "end": 33
-                            },
-                            "flags": 32,
-                            "start": 31,
-                            "end": 34
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 31,
-                        "end": 34
+                        "end": 18
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 34
+                "end": 18
             },
             "flags": 33554448,
             "start": 0,
+            "end": 18
+        },
+        {
+            "kind": 257,
+            "exportKeyword": {
+                "kind": 4202582,
+                "flags": 0,
+                "start": 18,
+                "end": 25
+            },
+            "declaration": {
+                "kind": 178,
+                "declareKeyword": null,
+                "decorators": null,
+                "classKeyword": {
+                    "kind": 37822544,
+                    "flags": 0,
+                    "start": 25,
+                    "end": 31
+                },
+                "name": null,
+                "typeParameters": null,
+                "tail": {
+                    "kind": 277,
+                    "classHeritage": null,
+                    "body": {
+                        "kind": 262,
+                        "elements": [],
+                        "flags": 32,
+                        "start": 33,
+                        "end": 33
+                    },
+                    "flags": 31,
+                    "start": 32,
+                    "end": 34
+                },
+                "flags": 16,
+                "start": 25,
+                "end": 34
+            },
+            "namedExports": null,
+            "exportFromClause": null,
+            "fromClause": null,
+            "exportKind": 0,
+            "flags": 16,
+            "start": 18,
             "end": 34
         }
     ],
@@ -188,9 +168,8 @@ let MyClass = @foo export class {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 18, end: 25
-✖ Expression expected - start: 31, end: 33
-✖ ',' expected - start: 31, end: 33
-✖ Missing initializer in destructuring declaration - start: 34, end: 34
+✖ Lexical declaration expected - start: 18, end: 25
+✖ A class declaration without the 'default' modifier must have a name. - start: 31, end: 33
 
 ```
 

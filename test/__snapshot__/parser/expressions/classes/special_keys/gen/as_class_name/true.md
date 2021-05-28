@@ -41,39 +41,30 @@ class true {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "true",
-                                "rawText": "true",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 10
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 10
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 10
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 10
+                "end": 5
             },
             "flags": 16,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134,
+                "text": true,
+                "flags": 96,
+                "start": 5,
+                "end": 10
+            },
+            "flags": 16,
+            "start": 5,
             "end": 10
         },
         {
@@ -109,7 +100,7 @@ class true {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ Expression expected - start: 10, end: 12
+✖ Expected a `;` - start: 10, end: 12
 
 ```
 

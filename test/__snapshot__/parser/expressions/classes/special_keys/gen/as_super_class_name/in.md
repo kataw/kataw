@@ -61,52 +61,56 @@ class x extends in {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "in",
-                                "rawText": "in",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 18
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 18
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 18
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 18
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 18
+            "end": 15
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 20,
-                "end": 20
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 15,
+                    "end": 15
+                },
+                "operatorToken": {
+                    "kind": 21006388,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 18
+                },
+                "right": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 20,
+                        "end": 20
+                    },
+                    "flags": 48,
+                    "start": 18,
+                    "end": 21
+                },
+                "flags": 32,
+                "start": 15,
+                "end": 21
             },
             "flags": 16,
-            "start": 18,
+            "start": 15,
             "end": 21
         }
     ],
@@ -129,7 +133,6 @@ class x extends in {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 18
-✖ Expression expected - start: 18, end: 20
 
 ```
 

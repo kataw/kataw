@@ -61,14 +61,28 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                     "kind": 132,
                                     "flags": 32,
                                     "start": 19,
-                                    "end": 56
+                                    "end": 52
                                 },
                                 "flags": 32,
                                 "start": 19,
-                                "end": 56
+                                "end": 52
                             },
                             "flags": 16,
                             "start": 19,
+                            "end": 52
+                        },
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 52,
+                                "end": 56
+                            },
+                            "flags": 16,
+                            "start": 52,
                             "end": 56
                         },
                         {
@@ -133,7 +147,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 52, end: 56
-✖ Expression expected - start: 56, end: 58
+✖ Expected a `;` - start: 56, end: 58
 ✖ The parser expected to find a '}' to match the '{' token here - start: 59, end: 60
 ✖ Declaration or statement expected - start: 60, end: 63
 ✖ Declaration or statement expected - start: 68, end: 73

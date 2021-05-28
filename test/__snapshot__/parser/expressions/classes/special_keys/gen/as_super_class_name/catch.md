@@ -61,52 +61,66 @@ class x extends catch {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "catch",
-                                "rawText": "catch",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 21
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 21
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 21
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 21
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 21
+            "end": 15
         },
         {
-            "kind": 124,
+            "kind": 159,
+            "tryKeyword": null,
             "block": {
-                "kind": 249,
-                "statements": [],
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 15,
+                    "end": 15
+                },
                 "flags": 16,
-                "start": 23,
-                "end": 23
+                "start": 15,
+                "end": 15
             },
+            "catchClause": {
+                "kind": 173,
+                "catchKeyword": {
+                    "kind": 4202575,
+                    "flags": 0,
+                    "start": 15,
+                    "end": 21
+                },
+                "catchParameter": null,
+                "initializer": null,
+                "block": {
+                    "kind": 124,
+                    "block": {
+                        "kind": 249,
+                        "statements": [],
+                        "flags": 16,
+                        "start": 23,
+                        "end": 23
+                    },
+                    "flags": 16,
+                    "start": 21,
+                    "end": 24
+                },
+                "flags": 16,
+                "start": 15,
+                "end": 24
+            },
+            "finallyKeyword": null,
+            "finallyBlock": null,
             "flags": 16,
-            "start": 21,
+            "start": 15,
             "end": 24
         }
     ],
@@ -129,7 +143,7 @@ class x extends catch {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 21
-✖ Expression expected - start: 21, end: 23
+✖ 'try' expected - start: 15, end: 21
 
 ```
 

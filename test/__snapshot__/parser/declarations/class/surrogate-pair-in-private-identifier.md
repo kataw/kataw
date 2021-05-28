@@ -166,11 +166,11 @@ class C { #@{x29e3d}@ }
                 },
                 "flags": 21,
                 "start": 32,
-                "end": 23
+                "end": 21
             },
             "flags": 16,
             "start": 20,
-            "end": 23
+            "end": 21
         }
     ],
     "isModule": false,

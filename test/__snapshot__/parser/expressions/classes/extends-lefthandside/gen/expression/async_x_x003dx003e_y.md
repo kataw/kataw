@@ -67,61 +67,62 @@ x => y {})
                         },
                         "body": {
                             "kind": 262,
-                            "elements": [
-                                {
-                                    "kind": 280,
-                                    "decorators": null,
-                                    "declaredToken": null,
-                                    "staticToken": null,
-                                    "asyncKeyword": null,
-                                    "key": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 24
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 22,
-                                    "end": 24
-                                }
-                            ],
+                            "elements": [],
                             "flags": 32,
-                            "start": 22,
-                            "end": 24
+                            "start": 8,
+                            "end": 22
                         },
                         "flags": 8,
                         "start": 32,
-                        "end": 24
+                        "end": 8
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 24
+                    "end": 22
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 24
+                "end": 22
             },
             "flags": 16,
             "start": 0,
-            "end": 24
+            "end": 22
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 27,
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 0,
+                    "start": 24,
+                    "end": 27
+                },
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 22,
+                    "end": 24
+                },
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 96,
+                    "start": 27,
+                    "end": 29
+                },
+                "flags": 32,
+                "start": 22,
                 "end": 29
             },
             "flags": 16,
-            "start": 27,
+            "start": 22,
             "end": 29
         },
         {
@@ -157,8 +158,6 @@ x => y {})
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 22, end: 24
-✖ Expression expected - start: 24, end: 27
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 24, end: 27
 ✖ Expected a `;` - start: 29, end: 31
 ✖ Declaration or statement expected - start: 32, end: 33
 

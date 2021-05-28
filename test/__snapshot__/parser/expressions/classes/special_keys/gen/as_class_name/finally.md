@@ -41,52 +41,57 @@ class finally {}
                 "classHeritage": null,
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "finally",
-                                "rawText": "finally",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 13
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 5,
-                            "end": 13
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
                     "start": 5,
-                    "end": 13
+                    "end": 5
                 },
                 "flags": 5,
                 "start": 32,
-                "end": 13
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 13
+            "end": 5
         },
         {
-            "kind": 124,
+            "kind": 159,
+            "tryKeyword": null,
             "block": {
-                "kind": 249,
-                "statements": [],
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 5,
+                    "end": 5
+                },
                 "flags": 16,
-                "start": 15,
-                "end": 15
+                "start": 5,
+                "end": 5
+            },
+            "catchClause": null,
+            "finallyKeyword": {
+                "kind": 37757016,
+                "flags": 0,
+                "start": 5,
+                "end": 13
+            },
+            "finallyBlock": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 15,
+                    "end": 15
+                },
+                "flags": 16,
+                "start": 13,
+                "end": 16
             },
             "flags": 16,
-            "start": 13,
+            "start": 5,
             "end": 16
         }
     ],
@@ -109,7 +114,7 @@ class finally {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 13
-✖ Expression expected - start: 13, end: 15
+✖ 'try' expected - start: 5, end: 13
 
 ```
 

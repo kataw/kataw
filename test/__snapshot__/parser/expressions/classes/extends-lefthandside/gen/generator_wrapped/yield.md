@@ -124,21 +124,21 @@ function *P(){
                                     "kind": 262,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 41,
+                                    "start": 24,
                                     "end": 41
                                 },
                                 "flags": 24,
                                 "start": 32,
-                                "end": 43
+                                "end": 24
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 43
+                            "end": 41
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 43
+                    "end": 41
                 },
                 "flags": 32,
                 "start": 13,

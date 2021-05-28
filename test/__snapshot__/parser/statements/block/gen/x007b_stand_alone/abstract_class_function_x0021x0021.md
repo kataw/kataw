@@ -60,39 +60,57 @@
                             "classHeritage": null,
                             "body": {
                                 "kind": 262,
-                                "elements": [
-                                    {
-                                        "kind": 280,
-                                        "decorators": null,
-                                        "declaredToken": null,
-                                        "staticToken": null,
-                                        "asyncKeyword": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "function",
-                                            "rawText": "function",
-                                            "flags": 96,
-                                            "start": 16,
-                                            "end": 25
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 16,
-                                        "end": 25
-                                    }
-                                ],
+                                "elements": [],
                                 "flags": 32,
                                 "start": 16,
-                                "end": 25
+                                "end": 16
                             },
                             "flags": 16,
                             "start": 32,
-                            "end": 25
+                            "end": 16
                         },
                         "flags": 16,
                         "start": 10,
+                        "end": 16
+                    },
+                    {
+                        "kind": 176,
+                        "declareKeyword": null,
+                        "asyncKeyword": null,
+                        "functionKeyword": {
+                            "kind": 37822554,
+                            "flags": 0,
+                            "start": 16,
+                            "end": 25
+                        },
+                        "generatorToken": null,
+                        "name": null,
+                        "formalParameters": {
+                            "kind": 214,
+                            "formalParameterList": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 25,
+                            "end": 25
+                        },
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 25,
+                                "end": 25
+                            },
+                            "flags": 32,
+                            "start": 25,
+                            "end": 25
+                        },
+                        "typeParameters": null,
+                        "returnType": null,
+                        "flags": 16,
+                        "start": 16,
                         "end": 25
                     },
                     {
@@ -162,6 +180,8 @@
 ```javascript
 ✖ Expected a `;` - start: 10, end: 16
 ✖ Binding identifier expected - start: 16, end: 25
+✖ Binding identifier expected - start: 25, end: 27
+✖ Missing an opening parentheses - '( - start: 25, end: 27
 ✖ Expression expected - start: 25, end: 27
 ✖ Expression expected - start: 28, end: 28
 

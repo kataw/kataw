@@ -61,52 +61,56 @@ class x extends while {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "while",
-                                "rawText": "while",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 21
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 21
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 21
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 21
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 21
+            "end": 15
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "expression": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [],
+                    "trailingComma": false,
+                    "flags": 16,
+                    "start": 23,
+                    "end": 23
+                },
+                "flags": 48,
+                "start": 21,
+                "end": 24
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 24,
+                    "end": 24
+                },
                 "flags": 16,
-                "start": 23,
-                "end": 23
+                "start": 24,
+                "end": 24
             },
             "flags": 16,
-            "start": 21,
+            "start": 15,
             "end": 24
         }
     ],
@@ -129,7 +133,8 @@ class x extends while {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 21
-✖ Expression expected - start: 21, end: 23
+✖ Missing an opening parentheses - '( - start: 21, end: 23
+✖ Declaration or statement expected - start: 24, end: 24
 
 ```
 

@@ -809,7 +809,11 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context, sco
     return parseFunctionDeclaration(
       parser,
       context,
-      createParentScope(scope, ScopeKind.Block),
+      {
+        kind: ScopeKind.Block,
+        scope,
+        flags: ScopeFlags.None
+      },
       /* declareKeyword */ null,
       ParseFunctionFlag.DisallowGenerator
     );
@@ -1130,7 +1134,12 @@ function parseForStatement(
       } else {
         // The initializer contains lexical declarations,
         // so create an in-between scope.
-        scope = createParentScope(scope, ScopeKind.ForStatement);
+        scope = {
+          kind: ScopeKind.ForStatement,
+          scope,
+          flags: ScopeFlags.None
+        };
+
         initializer = parseBindingList(
           parser,
           context | Context.DisallowInContext | Context.LexicalContext,
@@ -7890,18 +7899,18 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     );
   }
 
-  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace);
-  body = parseClassBody(parser, inheritedContext, context);
-  if (isDecl) context | Context.AllowRegExp;
-  consume(
-    parser,
-    context,
-    SyntaxKind.RightBrace,
-    openBraceExists
-      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-      : DiagnosticCode.Expression_expected
-  );
-  return createClassTail(classHeritage, body, pos, NodeFlags.ExpressionNode, parser.curPos);
+  if (consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)) {
+    body = parseClassBody(parser, inheritedContext, context);
+    if (isDecl) context | Context.AllowRegExp;
+    consume(
+      parser,
+      context,
+      SyntaxKind.RightBrace,
+      DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+    );
+    return createClassTail(classHeritage, body, pos, NodeFlags.ExpressionNode, parser.curPos);
+  }
+  return createClassTail(classHeritage, createClassBody([], pos, parser.curPos), pos, NodeFlags.ExpressionNode, pos);
 }
 
 export function parseClassBody(parser: ParserState, context: Context, inheritedContext: Context): ClassBody {

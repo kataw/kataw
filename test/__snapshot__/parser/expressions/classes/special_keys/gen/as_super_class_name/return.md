@@ -61,53 +61,44 @@ class x extends return {}
                 },
                 "body": {
                     "kind": 262,
-                    "elements": [
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "return",
-                                "rawText": "return",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 22
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 15,
-                            "end": 22
-                        }
-                    ],
+                    "elements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 22
+                    "start": 7,
+                    "end": 15
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 22
+                "end": 7
             },
             "flags": 16,
             "start": 0,
-            "end": 22
+            "end": 15
         },
         {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 24,
-                "end": 24
+            "kind": 161,
+            "returnKeyword": {
+                "kind": 37757022,
+                "flags": 0,
+                "start": 15,
+                "end": 22
+            },
+            "expression": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [],
+                    "trailingComma": false,
+                    "flags": 16,
+                    "start": 24,
+                    "end": 24
+                },
+                "flags": 48,
+                "start": 22,
+                "end": 25
             },
             "flags": 16,
-            "start": 22,
-            "end": 25
+            "start": 0,
+            "end": 15
         }
     ],
     "isModule": false,
@@ -129,7 +120,7 @@ class x extends return {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 22
-✖ Expression expected - start: 22, end: 24
+✖ A return statement can only be used within a function_body - start: 15, end: 22
 
 ```
 
