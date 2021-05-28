@@ -18,50 +18,45 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
 
   let preparseState = Preparse.Empty;
 
-  let cp = source.charCodeAt(pos);
-
-  while (true) {
-    cp = source.charCodeAt(pos);
-    pos++;
+  loop: while (true) {
     if (preparseState & Preparse.Escape) {
       // Parsing an escape character;
       // reset the flag and just advance to the next char.
       preparseState = (preparseState | Preparse.Escape) ^ Preparse.Escape;
     } else {
-      if (cp <= 0x5e) {
-        if (cp === Char.Slash) {
-          if (!preparseState) break;
-           // A slash within a character class is permissible,
+      switch (source.charCodeAt(pos)) {
+        case Char.Slash:
+          if (preparseState) break;
+          // A slash within a character class is permissible,
           // but in general it signals the end of the regexp literal.
-        } else if (cp === Char.Backslash) {
-          preparseState |= Preparse.Escape;
-        } else if (cp === Char.LeftBracket) {
+          pos++;
+          break loop;
+        case Char.LeftBracket:
           preparseState |= Preparse.InCharClass;
-        } else if (cp === Char.RightBracket) {
-          preparseState &= Preparse.Escape;
-        } else if ((AsciiCharTypes[cp] & AsciiCharFlags.LineTerminator) === AsciiCharFlags.LineTerminator) {
+          break;
+        case Char.Backslash:
+          preparseState |= Preparse.Escape;
+          break;
+        case Char.RightBracket:
+          preparseState = (preparseState | Preparse.InCharClass) ^ Preparse.InCharClass;
+          break;
+        case Char.CarriageReturn:
+        case Char.LineFeed:
+        case Char.LineSeparator:
+        case Char.ParagraphSeparator:
           parser.nodeFlags |= NodeFlags.Unterminated;
           parser.onError(
             DiagnosticSource.Lexer,
             DiagnosticKind.Error,
             diagnosticMap[DiagnosticCode.Unterminated_regular_expression],
             parser.curPos,
-            pos--
+            pos
           );
-          break;
-        }
-      } else if ((cp & ~1) === Char.LineSeparator) {
-        parser.nodeFlags |= NodeFlags.Unterminated;
-          parser.onError(
-            DiagnosticSource.Lexer,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Unterminated_regular_expression],
-            parser.curPos,
-            pos--
-          );
-          break;
+          break loop;
       }
     }
+    pos++;
+
     // If we reach the end of a file, or hit a newline, then this is an unterminated
     // regex.
     if (pos >= parser.end) {
@@ -71,13 +66,13 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Unterminated_regular_expression],
         parser.curPos,
-        pos--
+        pos
       );
-      break;
+      break loop;
     }
   }
 
-   cp = source.charCodeAt(pos);
+  let cp = source.charCodeAt(pos);
   let flags = 0;
   let flag = 0;
 
