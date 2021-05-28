@@ -70,7 +70,7 @@ do /)finally
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 2, end: 4
+✖ Unterminated regular expression - start: 2, end: 12
 ✖ Missing an opening parentheses - '( - start: 12, end: 12
 
 ```

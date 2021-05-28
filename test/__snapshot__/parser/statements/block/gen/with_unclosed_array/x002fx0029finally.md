@@ -79,7 +79,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 2, end: 4
+✖ Unterminated regular expression - start: 2, end: 12
 ✖ ',' expected - start: 12, end: 12
 
 ```

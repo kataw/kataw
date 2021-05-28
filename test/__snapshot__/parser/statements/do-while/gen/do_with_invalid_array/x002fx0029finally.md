@@ -149,7 +149,7 @@ do while [catch] /)finally
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
-✖ Unterminated regular expression - start: 16, end: 18
+✖ Unterminated regular expression - start: 16, end: 26
 
 ```
 

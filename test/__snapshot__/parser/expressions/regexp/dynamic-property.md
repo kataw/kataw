@@ -49,7 +49,7 @@
 ```javascript
 ✖ Declaration or statement expected - start: 0, end: 1
 ✖ Declaration or statement expected - start: 1, end: 2
-✖ Unterminated regular expression - start: 2, end: 3
+✖ Unterminated regular expression - start: 2, end: 12
 
 ```
 

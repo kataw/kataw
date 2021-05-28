@@ -70,7 +70,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Unterminated regular expression - start: 2, end: 4
+✖ Unterminated regular expression - start: 2, end: 12
 ✖ Expected a ')' to match the '(' token here - start: 12, end: 12
 
 ```
