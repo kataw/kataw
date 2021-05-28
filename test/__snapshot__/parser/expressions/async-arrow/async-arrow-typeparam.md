@@ -172,12 +172,13 @@ async (): string => {}
 
 ```javascript
 
+a ? async () =>  {} : b;
+async () =>  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 12, end: 13
-
+✔ No errors
 ```
 
