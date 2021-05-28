@@ -142,13 +142,14 @@
     },
     onModuleChange: function(event) {
       this._options.module = this.$module.prop('checked');
-      this.parse();
+      this.parse(this.$module.prop('checked'));
     },
     onLocChange: function(event) {
       this._options.loc = this.$loc.prop('checked');
       this.parse();
     },
-    parse: function() {
+    parse: function(isModule) {
+      this.isModule=isModule;
       if (this._timerId) {
         clearTimeout(this._timerId);
       }
@@ -157,7 +158,10 @@
     _parse: function() {
       var result;
       try {
-        result = kataw.parseScript(this.$input.val(), { allowTypes: false}, function (a, b, c, d, e) {
+        result = this.isModule ? kataw.parseModule(this.$input.val(), { allowTypes: false}, function (a, b, c, d, e) {
+          throw c + '(' + d + ', ' + e + ')';
+
+        }) : kataw.parseScript(this.$input.val(), { allowTypes: false}, function (a, b, c, d, e) {
           throw c + '(' + d + ', ' + e + ')';
 
         });
