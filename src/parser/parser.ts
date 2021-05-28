@@ -256,11 +256,11 @@ export function parse(
   // https://tc39.es/ecma262/#sec-html-like-comments
   if (
     !isModule &&
-    source.charCodeAt(pos) === Char.Hyphen &&
+    source.charCodeAt(0) === Char.Hyphen &&
     source.charCodeAt(pos + 2) === Char.GreaterThan &&
     source.charCodeAt(pos + 1) === Char.Hyphen
   ) {
-    pos += 3;
+    pos = 3;
     while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
       pos++;
     }
