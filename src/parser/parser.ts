@@ -1494,11 +1494,7 @@ function parseIdentifierReference(
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     parser.assignable = true;
 
-    if (
-      context & Context.Strict &&
-      parser.token & SyntaxKind.IsFutureReserved &&
-      parser.previousErrorPos !== pos
-    ) {
+    if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved && parser.previousErrorPos !== pos) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -1517,13 +1513,7 @@ function parseIdentifierReference(
 
   if (diagnosticMessage && parser.previousErrorPos !== pos) {
     parser.previousErrorPos = pos;
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[diagnosticMessage],
-      parser.curPos,
-      pos
-    );
+    parser.onError(DiagnosticSource.Parser, DiagnosticKind.Error, diagnosticMap[diagnosticMessage], parser.curPos, pos);
   }
 
   return createDummyIdentifier(curPos, curPos);
@@ -2030,6 +2020,15 @@ function parseIndexExpression(
   pos: number
 ): ExpressionNode {
   nextToken(parser, context);
+  if (member.kind === SyntaxKind.Super && parser.token === SyntaxKind.PrivateIdentifier) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[DiagnosticCode.Private_fields_can_t_be_accessed_on_super],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createIndexExpression(member, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
 }
 
@@ -6363,7 +6362,6 @@ function parseFunctionTypeParameters(parser: ParserState, context: Context): Fun
   ) {
     functionTypeParameterList.push(parseFunctionTypeParameter(parser, context));
     if (parser.token === SyntaxKind.RightParen) break;
-    if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
       if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
         trailingComma = true;
@@ -9014,23 +9012,11 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       while (parser.token & 0b00000000101010111100000000000000) {
         params.push(parseArgumentOrArrayLiteralElement(parser, context));
         if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
-        if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-          if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
-            trailingComma = true;
-            break;
-          }
-          continue;
+        consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+        if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+          trailingComma = true;
+          break;
         }
-        // We didn't get a comma, and the list wasn't terminated, explicitly so give
-        // a good error message instead
-
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode._expected],
-          parser.curPos,
-          parser.pos
-        );
       }
 
       const argumentList = createArgumentList(params, trailingComma, start, parser.curPos);

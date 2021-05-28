@@ -283,7 +283,16 @@ export function scanPrivateIdentifier(parser: ParserState, cp: number, source: s
       );
     }
 
-    if (cp === Char.Backslash) tokenValue += scanIdentifierParts(parser, source);
+    if (cp === Char.Backslash) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Private_identifier_cannot_contain_escape_characters],
+        parser.tokenPos,
+        pos
+      );
+      tokenValue += scanIdentifierParts(parser, source);
+    }
 
     parser.tokenRaw = source.substring(parser.tokenPos, pos);
     parser.pos = pos;

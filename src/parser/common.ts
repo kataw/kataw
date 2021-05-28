@@ -57,7 +57,7 @@ export const enum Context {
   InConditionalExpr = 1 << 22, // If node was parsed as part of 'ConditionalExpression'
   InTypes = 1 << 23, // If node was parsed in the type system context
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
-  LexicalContext = 1 << 26 // If node was parsed in a lexical context
+  LexicalContext = 1 << 26 // If node was parsed in a lexical context,
 }
 
 export const enum DestructibleKind {

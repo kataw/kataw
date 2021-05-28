@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-21
+- Regenerated: 2021-05-28
 - From: d
 - Path: y
 > :: test: dynamic property

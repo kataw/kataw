@@ -5,26 +5,6 @@
 `````js
 class x {[x]z){}}
 `````
-
-## Options
-
-### Parser Options
-
-`````js
-{}
-`````
-
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
-`````
-
 ## Output
 
 ### CST

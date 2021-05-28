@@ -217,5 +217,7 @@
   "'of' expected": 221,
   "Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label": 222,
   "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label": 223,
-  "'#!' can only be used at the start of a file.":224
+  "'#!' can only be used at the start of a file.":224,
+  "Private identifier cannot contain escape characters": 225,
+  "Private fields can't be accessed on super ": 226
 }

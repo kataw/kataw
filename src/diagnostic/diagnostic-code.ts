@@ -220,7 +220,9 @@ export const enum DiagnosticCode {
   _of_expected = 221,
   Identifier_expected_yield_is_a_reserved_word_in_strict_mode_and_cannot_be_used_as_an_label = 222,
   Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal_and_cannot_be_used_as_an_label = 223,
-  _can_only_be_used_at_the_start_of_a_file = 224
+  _can_only_be_used_at_the_start_of_a_file = 224,
+  Private_identifier_cannot_contain_escape_characters = 225,
+  Private_fields_can_t_be_accessed_on_super = 226
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -324,8 +326,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [100]: 'A type annotation is required for the `this` parameter.',
   [101]: 'The `this` parameter must be the first function parameter.',
   [102]: '`_` is only allowed as a type argument to call or new',
-  [103]:
-    'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
+  [103]: 'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
   [104]: 'Only declares and type imports are allowed inside declare module',
   [105]: "Class methods cannot have the 'declare' modifier",
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
@@ -366,8 +367,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [141]: 'Function declarations can only be declared at top level or inside a block in strict mode',
   [143]: "'try' expected",
   [144]: 'Expected a `;`',
-  [145]:
-    "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
+  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
   [146]: 'Unicode escapes at the start of labels should not allow keywords',
   [148]: 'Duplicate label',
   [149]: 'Missing label',
@@ -443,7 +443,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [220]: "'await' is only allowed within async functions and at the top levels of modules",
   [221]: "'of' expected",
   [222]: "Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label",
-  [223]:
-    "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label",
-  [224]: "'#!' can only be used at the start of a file."
+  [223]: "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label",
+  [224]: "'#!' can only be used at the start of a file.",
+  [225]: 'Private identifier cannot contain escape characters',
+  [226]: "Private fields can't be accessed on super "
 };
