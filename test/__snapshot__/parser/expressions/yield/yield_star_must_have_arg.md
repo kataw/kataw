@@ -119,7 +119,7 @@ function* f() { yield*; }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 22, end: 23
+✖ Identifier expected - start: 22, end: 23
 
 ```
 

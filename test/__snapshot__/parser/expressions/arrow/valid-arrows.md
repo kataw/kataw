@@ -986,8 +986,8 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 297, end: 299
-✖ Expression expected - start: 301, end: 302
+✖ Identifier expected - start: 297, end: 299
+✖ Identifier expected - start: 301, end: 302
 
 ```
 

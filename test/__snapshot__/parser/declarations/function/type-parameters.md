@@ -887,18 +887,18 @@ type T = <
 
 ```javascript
 ✖ Expression expected - start: 34, end: 35
-✖ Expression expected - start: 82, end: 96
+✖ Identifier expected - start: 82, end: 96
 ✖ Expression expected - start: 98, end: 99
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
-✖ Expression expected - start: 178, end: 179
+✖ Identifier expected - start: 178, end: 179
 ✖ Expression expected - start: 259, end: 260
 ✖ Duplicate identifier - start: 267, end: 269
-✖ Expression expected - start: 310, end: 327
+✖ Identifier expected - start: 310, end: 327
 ✖ Expression expected - start: 329, end: 330
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384
-✖ Expression expected - start: 417, end: 418
+✖ Identifier expected - start: 417, end: 418
 
 ```
 

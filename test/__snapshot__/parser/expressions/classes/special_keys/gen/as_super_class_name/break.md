@@ -64,7 +64,7 @@ class x extends break {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -125,7 +125,7 @@ class x extends break {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 21
+✖ Identifier expected - start: 15, end: 21
 ✖ Expression expected - start: 21, end: 23
 ✖ Missing label - start: 21, end: 23
 

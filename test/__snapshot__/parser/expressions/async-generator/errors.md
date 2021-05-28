@@ -7574,7 +7574,7 @@ async function * gen() {class C extends await { }}
                                     "elements": [],
                                     "flags": 32,
                                     "start": 3319,
-                                    "end": 3337
+                                    "end": 3319
                                 },
                                 "flags": 3319,
                                 "start": 32,
@@ -7747,18 +7747,19 @@ async function * gen() {class C extends await { }}
 ✖ `await` expression cannot be used in function parameters - start: 792, end: 797
 ✖ `await` expression cannot be used in function parameters - start: 850, end: 855
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 892, end: 894
-✖ Expression expected - start: 928, end: 930
+✖ Identifier expected - start: 928, end: 930
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 928, end: 930
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 974, end: 976
-✖ Expression expected - start: 1020, end: 1022
+✖ Identifier expected - start: 1020, end: 1022
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1020, end: 1022
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1058, end: 1059
-✖ Expression expected - start: 1092, end: 1093
+✖ Identifier expected - start: 1092, end: 1093
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1092, end: 1093
-✖ Expression expected - start: 1126, end: 1127
-✖ Expression expected - start: 1160, end: 1161
-✖ Expression expected - start: 1194, end: 1195
-✖ Expression expected - start: 1228, end: 1229
+✖ Identifier expected - start: 1126, end: 1127
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1126, end: 1127
+✖ Identifier expected - start: 1160, end: 1161
+✖ Identifier expected - start: 1194, end: 1195
+✖ Identifier expected - start: 1228, end: 1229
 ✖ Expected a `;` - start: 1362, end: 1370
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 1397, end: 1403
 ✖ Expected a `;` - start: 1521, end: 1528
@@ -7781,10 +7782,10 @@ async function * gen() {class C extends await { }}
 ✖ 'yield' cannot be used as an identifier here - start: 2170, end: 2176
 ✖ 'await' cannot be used as an identifier here - start: 2223, end: 2229
 ✖ The left-hand side must be a variable or a property access. - start: 2274, end: 2276
-✖ Expression expected - start: 2314, end: 2315
+✖ Identifier expected - start: 2314, end: 2315
 ✖ The left-hand side must be a variable or a property access. - start: 2315, end: 2317
 ✖ The left-hand side must be a variable or a property access. - start: 2360, end: 2362
-✖ Expression expected - start: 2408, end: 2409
+✖ Identifier expected - start: 2408, end: 2409
 ✖ The left-hand side must be a variable or a property access. - start: 2409, end: 2411
 ✖ 'yield' cannot be used as an identifier here - start: 2509, end: 2514
 ✖ ',' expected - start: 2514, end: 2517

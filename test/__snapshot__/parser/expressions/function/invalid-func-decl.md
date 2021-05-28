@@ -989,7 +989,7 @@ async function f(){}
 ✖ Declaration or statement expected - start: 155, end: 159
 ✖ Missing an opening parentheses - '( - start: 172, end: 173
 ✖ The parser expected to find a '}' to match the '{' token here - start: 174, end: 175
-✖ Expression expected - start: 175, end: 176
+✖ Identifier expected - start: 175, end: 176
 ✖ Duplicate identifier - start: 186, end: 188
 ✖ Missing an opening brace - '{ - start: 222, end: 228
 ✖ Expression expected - start: 222, end: 228

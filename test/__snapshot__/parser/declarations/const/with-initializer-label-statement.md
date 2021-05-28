@@ -121,7 +121,7 @@ label: const x = 1;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 6, end: 12
+✖ Identifier expected - start: 6, end: 12
 
 ```
 

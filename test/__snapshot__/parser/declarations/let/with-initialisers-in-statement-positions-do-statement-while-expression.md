@@ -124,7 +124,7 @@ do let x = 1; while (false)
 ```javascript
 ✖ Expected a `;` - start: 6, end: 8
 ✖ Declaration or statement expected - start: 12, end: 13
-✖ Expression expected - start: 27, end: 27
+✖ Identifier expected - start: 27, end: 27
 
 ```
 

@@ -109,7 +109,7 @@ while (false) const x = null;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 13, end: 19
+✖ Identifier expected - start: 13, end: 19
 
 ```
 

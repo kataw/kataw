@@ -231,7 +231,7 @@ do while [catch] async funcion switch!!
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Missing an opening parentheses - '( - start: 37, end: 38
-✖ Expression expected - start: 39, end: 39
+✖ Identifier expected - start: 39, end: 39
 
 ```
 

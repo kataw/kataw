@@ -126,7 +126,7 @@ const [...] = obj;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 10, end: 11
+✖ Binding identifier expected - start: 10, end: 11
 
 ```
 

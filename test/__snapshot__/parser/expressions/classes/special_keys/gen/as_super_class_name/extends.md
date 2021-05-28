@@ -64,7 +64,7 @@ class x extends extends {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -106,7 +106,7 @@ class x extends extends {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 23
+✖ Identifier expected - start: 15, end: 23
 
 ```
 

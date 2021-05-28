@@ -130,7 +130,7 @@ for (let {[x]} = z);
 ```javascript
 ✖ Object property expected - start: 13, end: 14
 ✖ ',' expected - start: 18, end: 19
-✖ Expression expected - start: 18, end: 19
+✖ Identifier expected - start: 18, end: 19
 
 ```
 

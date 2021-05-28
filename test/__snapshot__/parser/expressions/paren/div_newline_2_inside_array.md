@@ -94,7 +94,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 6, end: 7
+✖ Identifier expected - start: 6, end: 7
 
 ```
 

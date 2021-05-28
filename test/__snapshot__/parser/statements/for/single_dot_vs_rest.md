@@ -140,7 +140,7 @@ for (let [.x] = obj);
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 11
 ✖ ',' expected - start: 10, end: 11
-✖ Expression expected - start: 12, end: 13
+✖ Identifier expected - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 15
 ✖ Expected a `;` - start: 19, end: 20
 

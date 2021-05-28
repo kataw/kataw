@@ -72,7 +72,7 @@ new delete
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 10, end: 10
+✖ Identifier expected - start: 10, end: 10
 
 ```
 

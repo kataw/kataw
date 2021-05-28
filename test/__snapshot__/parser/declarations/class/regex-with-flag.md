@@ -144,7 +144,7 @@ class x{}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 11
+✖ Identifier expected - start: 9, end: 11
 
 ```
 

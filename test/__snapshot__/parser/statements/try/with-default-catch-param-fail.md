@@ -152,7 +152,7 @@ try { } catch ([a] = []) { }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 18, end: 20
+✖ Identifier expected - start: 18, end: 20
 ✖ Catch clause variable cannot have an initializer - start: 23, end: 24
 
 ```

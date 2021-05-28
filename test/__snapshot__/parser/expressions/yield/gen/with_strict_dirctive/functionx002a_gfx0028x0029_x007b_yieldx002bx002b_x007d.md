@@ -138,7 +138,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 38, end: 39
+✖ Identifier expected - start: 38, end: 39
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 38, end: 39
 
 ```
 

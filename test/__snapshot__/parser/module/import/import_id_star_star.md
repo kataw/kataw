@@ -118,7 +118,7 @@ import a, ** from 'f';
 
 ```javascript
 ✖ Unexpected token. - start: 9, end: 12
-✖ Expression expected - start: 9, end: 12
+✖ Identifier expected - start: 9, end: 12
 ✖ Expected a `;` - start: 17, end: 21
 
 ```

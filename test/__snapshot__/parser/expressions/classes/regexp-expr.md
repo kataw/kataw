@@ -121,7 +121,7 @@ typeof class{}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 20
+✖ Identifier expected - start: 20, end: 20
 
 ```
 

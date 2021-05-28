@@ -369,14 +369,14 @@ do do do =! class function try while with foo! while while while
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 10
+✖ Identifier expected - start: 8, end: 10
 ✖ Missing an opening brace - '{ - start: 17, end: 26
 ✖ Missing an opening parentheses - '( - start: 26, end: 30
 ✖ Expression expected - start: 26, end: 30
 ✖ Missing an opening parentheses - '( - start: 36, end: 41
 ✖ Missing an opening parentheses - '( - start: 41, end: 45
 ✖ Declaration or statement expected - start: 45, end: 46
-✖ Expression expected - start: 46, end: 52
+✖ Identifier expected - start: 46, end: 52
 ✖ Missing an opening parentheses - '( - start: 52, end: 58
 ✖ Missing an opening parentheses - '( - start: 58, end: 64
 

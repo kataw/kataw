@@ -272,7 +272,7 @@
 ✖ Binding identifier expected - start: 41, end: 43
 ✖ Missing an opening parentheses - '( - start: 41, end: 43
 ✖ Expression expected - start: 41, end: 43
-✖ Expression expected - start: 44, end: 44
+✖ Identifier expected - start: 44, end: 44
 
 ```
 

@@ -205,7 +205,7 @@ do( while try this and !foo while
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 3, end: 9
+✖ Identifier expected - start: 3, end: 9
 ✖ Missing an opening parentheses - '( - start: 9, end: 13
 ✖ Expected a `;` - start: 18, end: 22
 ✖ Expected a `;` - start: 22, end: 24

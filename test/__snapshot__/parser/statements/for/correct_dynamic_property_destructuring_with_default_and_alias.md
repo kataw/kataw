@@ -137,7 +137,7 @@ for (let {[x]: y = z} = a);
 
 ```javascript
 ✖ ',' expected - start: 25, end: 26
-✖ Expression expected - start: 25, end: 26
+✖ Identifier expected - start: 25, end: 26
 
 ```
 

@@ -405,9 +405,10 @@ x?.y = 0;
 ✖ An member access expression should take an argument. - start: 17, end: 18
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 16, end: 20
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
-✖ Expression expected - start: 32, end: 34
+✖ Identifier expected - start: 32, end: 34
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 45, end: 46
-✖ Expression expected - start: 45, end: 46
+✖ Identifier expected - start: 45, end: 46
 ✖ Unterminated template literal - start: 45, end: 353
 
 ```

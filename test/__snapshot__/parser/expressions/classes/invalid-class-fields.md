@@ -3564,7 +3564,7 @@
 ✖ Missing an opening brace - '{ - start: 126, end: 128
 ✖ Expression expected - start: 126, end: 128
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 126, end: 128
-✖ Expression expected - start: 128, end: 129
+✖ Identifier expected - start: 128, end: 129
 ✖ Declaration or statement expected - start: 129, end: 130
 ✖ Missing an opening brace - '{ - start: 144, end: 147
 ✖ Expression expected - start: 144, end: 147
@@ -3592,10 +3592,10 @@
 ✖ Declaration or statement expected - start: 237, end: 238
 ✖ Missing an opening brace - '{ - start: 256, end: 257
 ✖ Expression expected - start: 256, end: 257
-✖ Expression expected - start: 257, end: 258
+✖ Identifier expected - start: 257, end: 258
 ✖ Missing an opening brace - '{ - start: 280, end: 281
 ✖ Expression expected - start: 280, end: 281
-✖ Expression expected - start: 281, end: 282
+✖ Identifier expected - start: 281, end: 282
 ✖ The parser expected to find a '}' to match the '{' token here - start: 302, end: 305
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 302, end: 305
 ✖ Declaration or statement expected - start: 308, end: 309

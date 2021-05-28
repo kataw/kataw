@@ -210,7 +210,7 @@ var C = class { async *gen() {
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 45, end: 46
+✖ Identifier expected - start: 45, end: 46
 
 ```
 

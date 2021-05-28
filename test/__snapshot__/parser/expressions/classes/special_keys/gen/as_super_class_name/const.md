@@ -64,7 +64,7 @@ class x extends const {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -136,7 +136,7 @@ class x extends const {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 21
+✖ Identifier expected - start: 15, end: 21
 ✖ Missing initializer in const declaration - start: 24, end: 24
 
 ```

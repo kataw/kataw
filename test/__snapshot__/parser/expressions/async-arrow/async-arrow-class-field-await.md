@@ -246,7 +246,7 @@ async( x = class { x = await });
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 33, end: 35
+✖ Identifier expected - start: 33, end: 35
 
 ```
 

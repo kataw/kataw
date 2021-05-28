@@ -116,7 +116,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 6, end: 7
+✖ Identifier expected - start: 6, end: 7
 ✖ Expected a ')' to match the '(' token here - start: 8, end: 9
 ✖ Declaration or statement expected - start: 11, end: 12
 

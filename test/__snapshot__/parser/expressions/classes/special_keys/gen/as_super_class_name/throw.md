@@ -64,7 +64,7 @@ class x extends throw {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -119,7 +119,7 @@ class x extends throw {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 21
+✖ Identifier expected - start: 15, end: 21
 
 ```
 

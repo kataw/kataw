@@ -133,7 +133,7 @@ for ([] + b in obj);
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 18, end: 19
+✖ Identifier expected - start: 18, end: 19
 
 ```
 

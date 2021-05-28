@@ -112,7 +112,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 12, end: 12
+✖ Identifier expected - start: 12, end: 12
 
 ```
 

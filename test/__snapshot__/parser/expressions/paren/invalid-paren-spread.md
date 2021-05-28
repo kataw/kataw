@@ -695,37 +695,38 @@
 ✖ A rest parameter must be last in a parameter list - start: 30, end: 31
 ✖ Expected '=>' - start: 32, end: 33
 ✖ A rest element cannot have an initializer - start: 42, end: 43
-✖ Expression expected - start: 42, end: 43
+✖ Identifier expected - start: 42, end: 43
 ✖ Expected '=>' - start: 44, end: 45
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
 ✖ Expected a ')' to match the '(' token here - start: 54, end: 55
 ✖ Expected '=>' - start: 54, end: 55
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 54, end: 55
-✖ Expression expected - start: 55, end: 56
+✖ Identifier expected - start: 55, end: 56
 ✖ A rest parameter must be last in a parameter list - start: 65, end: 66
-✖ Expression expected - start: 66, end: 67
-✖ Expression expected - start: 67, end: 68
-✖ Expression expected - start: 68, end: 69
-✖ Expression expected - start: 69, end: 70
-✖ Expression expected - start: 70, end: 71
-✖ Expression expected - start: 71, end: 72
-✖ Expression expected - start: 72, end: 73
-✖ Expression expected - start: 73, end: 74
+✖ Identifier expected - start: 66, end: 67
+✖ Identifier expected - start: 67, end: 68
+✖ Identifier expected - start: 68, end: 69
+✖ Identifier expected - start: 69, end: 70
+✖ Identifier expected - start: 70, end: 71
+✖ Identifier expected - start: 71, end: 72
+✖ Identifier expected - start: 72, end: 73
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 72, end: 73
+✖ Identifier expected - start: 73, end: 74
 ✖ A rest parameter must be last in a parameter list - start: 83, end: 84
-✖ Expression expected - start: 84, end: 85
-✖ Expression expected - start: 85, end: 86
-✖ Expression expected - start: 86, end: 87
-✖ Expression expected - start: 87, end: 88
-✖ Expression expected - start: 88, end: 89
-✖ Expression expected - start: 89, end: 90
-✖ Expression expected - start: 90, end: 93
-✖ Expression expected - start: 93, end: 95
-✖ Expression expected - start: 95, end: 96
+✖ Identifier expected - start: 84, end: 85
+✖ Identifier expected - start: 85, end: 86
+✖ Identifier expected - start: 86, end: 87
+✖ Identifier expected - start: 87, end: 88
+✖ Identifier expected - start: 88, end: 89
+✖ Identifier expected - start: 89, end: 90
+✖ Identifier expected - start: 90, end: 93
+✖ Identifier expected - start: 93, end: 95
+✖ Identifier expected - start: 95, end: 96
 ✖ A rest element cannot have an initializer - start: 104, end: 105
 ✖ Expected '=>' - start: 108, end: 109
 ✖ A rest parameter must be last in a parameter list - start: 117, end: 118
 ✖ Expected '=>' - start: 119, end: 120
-✖ Expression expected - start: 125, end: 126
+✖ Binding identifier expected - start: 125, end: 126
 ✖ Expected '=>' - start: 126, end: 127
 
 ```

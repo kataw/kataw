@@ -122,7 +122,7 @@ async _ => _
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 18, end: 18
+✖ Identifier expected - start: 18, end: 18
 
 ```
 

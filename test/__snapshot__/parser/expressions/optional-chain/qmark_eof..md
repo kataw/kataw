@@ -75,7 +75,7 @@ a?
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 2
+✖ Identifier expected - start: 2, end: 2
 
 ```
 

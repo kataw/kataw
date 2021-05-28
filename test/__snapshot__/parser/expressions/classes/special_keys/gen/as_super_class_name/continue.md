@@ -64,7 +64,7 @@ class x extends continue {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -125,7 +125,7 @@ class x extends continue {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 24
+✖ Identifier expected - start: 15, end: 24
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 15, end: 24
 ✖ Expression expected - start: 24, end: 26
 

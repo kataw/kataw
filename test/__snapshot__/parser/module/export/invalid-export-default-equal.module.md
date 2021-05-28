@@ -85,7 +85,7 @@ export default = 42
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 14, end: 16
+✖ Identifier expected - start: 14, end: 16
 
 ```
 

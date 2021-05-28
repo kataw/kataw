@@ -110,7 +110,7 @@ s = {s: new}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 11, end: 12
+✖ Identifier expected - start: 11, end: 12
 
 ```
 

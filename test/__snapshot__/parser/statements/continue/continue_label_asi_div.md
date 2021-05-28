@@ -133,7 +133,7 @@ x: for(;;) continue x
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 21, end: 23
+✖ Identifier expected - start: 21, end: 23
 
 ```
 

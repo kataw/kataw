@@ -153,7 +153,7 @@ throw {x} catch (x = y) {}
 ```javascript
 ✖ Expected a `;` - start: 9, end: 15
 ✖ 'try' expected - start: 9, end: 15
-✖ Expression expected - start: 18, end: 20
+✖ Identifier expected - start: 18, end: 20
 ✖ Catch clause variable cannot have an initializer - start: 22, end: 23
 
 ```

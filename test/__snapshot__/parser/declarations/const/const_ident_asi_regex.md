@@ -144,8 +144,8 @@ const q
 
 ```javascript
 ✖ Missing initializer in const declaration - start: 7, end: 9
-✖ Expression expected - start: 7, end: 9
-✖ Expression expected - start: 11, end: 11
+✖ Identifier expected - start: 7, end: 9
+✖ Identifier expected - start: 11, end: 11
 
 ```
 

@@ -119,8 +119,8 @@ async () => {  \u0069nstanceof = x  }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 13, end: 30
-✖ Expression expected - start: 30, end: 32
+✖ Identifier expected - start: 13, end: 30
+✖ Identifier expected - start: 30, end: 32
 ✖ Declaration or statement expected - start: 34, end: 37
 
 ```

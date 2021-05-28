@@ -124,7 +124,7 @@ for (let {x:y=z});
 
 ```javascript
 ✖ ',' expected - start: 16, end: 17
-✖ Expression expected - start: 16, end: 17
+✖ Identifier expected - start: 16, end: 17
 
 ```
 

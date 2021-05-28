@@ -197,7 +197,7 @@ do( catch try {} while
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 3, end: 9
+✖ Identifier expected - start: 3, end: 9
 ✖ 'try' expected - start: 3, end: 9
 ✖ Missing an opening parentheses - '( - start: 22, end: 22
 

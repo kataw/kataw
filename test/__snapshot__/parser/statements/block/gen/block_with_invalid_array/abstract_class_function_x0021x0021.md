@@ -255,7 +255,7 @@
 ✖ Binding identifier expected - start: 33, end: 35
 ✖ Missing an opening parentheses - '( - start: 33, end: 35
 ✖ Expression expected - start: 33, end: 35
-✖ Expression expected - start: 36, end: 36
+✖ Identifier expected - start: 36, end: 36
 
 ```
 

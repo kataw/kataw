@@ -122,8 +122,8 @@ export {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 11
-✖ Expression expected - start: 15, end: 15
+✖ Identifier expected - start: 9, end: 11
+✖ Identifier expected - start: 15, end: 15
 
 ```
 

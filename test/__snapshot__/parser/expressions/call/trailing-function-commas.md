@@ -70,7 +70,7 @@ log(,);
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 4, end: 5
+✖ Identifier expected - start: 4, end: 5
 
 ```
 

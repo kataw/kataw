@@ -84,7 +84,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 8
+✖ Identifier expected - start: 8, end: 8
 
 ```
 

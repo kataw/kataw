@@ -136,7 +136,7 @@ z(z(z(a&&=)));
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 10, end: 11
+✖ Identifier expected - start: 10, end: 11
 
 ```
 

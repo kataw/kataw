@@ -115,7 +115,7 @@ var af = ...x => x;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 12
+✖ Identifier expected - start: 8, end: 12
 ✖ ',' expected - start: 8, end: 12
 
 ```

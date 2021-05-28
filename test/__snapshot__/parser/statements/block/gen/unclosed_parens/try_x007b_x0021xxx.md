@@ -137,7 +137,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 6
+✖ Identifier expected - start: 2, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 13
 
 ```

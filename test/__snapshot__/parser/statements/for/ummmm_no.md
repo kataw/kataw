@@ -146,7 +146,7 @@ for (const ...x in y){}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 10, end: 14
+✖ Identifier expected - start: 10, end: 14
 ✖ Expected a `;` - start: 20, end: 21
 
 ```

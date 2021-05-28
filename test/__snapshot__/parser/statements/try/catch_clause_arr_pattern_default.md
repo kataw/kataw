@@ -147,7 +147,7 @@ catch ([v] = b) {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 17, end: 19
+✖ Identifier expected - start: 17, end: 19
 ✖ Catch clause variable cannot have an initializer - start: 21, end: 22
 
 ```

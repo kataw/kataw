@@ -251,7 +251,7 @@ var await; var f = (async function() { return async (await) => {}; });
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 58, end: 59
+✖ Identifier expected - start: 58, end: 59
 
 ```
 

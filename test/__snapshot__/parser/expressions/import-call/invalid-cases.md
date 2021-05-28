@@ -2073,7 +2073,7 @@ new import(x);
 ✖ Unexpected token. - start: 7, end: 8
 ✖ Expected a `;` - start: 7, end: 8
 ✖ Import Call should take at least one argument - start: 18, end: 19
-✖ Expression expected - start: 29, end: 30
+✖ Identifier expected - start: 29, end: 30
 ✖ Unexpected token. - start: 38, end: 39
 ✖ Expected a `;` - start: 38, end: 39
 ✖ Import Call should take at least one argument - start: 49, end: 50
@@ -2086,22 +2086,22 @@ new import(x);
 ✖ Unexpected token. - start: 99, end: 101
 ✖ Expected a `;` - start: 99, end: 101
 ✖ Dynamic import must have one specifier as an argument. - start: 114, end: 115
-✖ Expression expected - start: 115, end: 116
-✖ Expression expected - start: 116, end: 117
+✖ Identifier expected - start: 115, end: 116
+✖ Identifier expected - start: 116, end: 117
 ✖ Expected a `;` - start: 129, end: 130
 ✖ Dynamic import must have one specifier as an argument. - start: 141, end: 142
-✖ Expression expected - start: 142, end: 143
+✖ Identifier expected - start: 142, end: 143
 ✖ Declaration or statement expected - start: 143, end: 144
 ✖ Dynamic import must have one specifier as an argument. - start: 155, end: 156
 ✖ Expression expected - start: 158, end: 159
 ✖ Dynamic import must have one specifier as an argument. - start: 170, end: 171
-✖ Expression expected - start: 173, end: 174
-✖ Expression expected - start: 174, end: 175
+✖ Identifier expected - start: 173, end: 174
+✖ Identifier expected - start: 174, end: 175
 ✖ Dynamic import must have one specifier as an argument. - start: 186, end: 187
 ✖ Expected a `;` - start: 190, end: 191
 ✖ Dynamic import must have one specifier as an argument. - start: 202, end: 203
 ✖ Dynamic import must have one specifier as an argument. - start: 215, end: 216
-✖ Expression expected - start: 218, end: 219
+✖ Identifier expected - start: 218, end: 219
 ✖ Dynamic import must have one specifier as an argument. - start: 229, end: 230
 ✖ Expected a ')' to match the '(' token here - start: 232, end: 233
 ✖ Unexpected token. - start: 241, end: 242
@@ -2116,48 +2116,48 @@ new import(x);
 ✖ The parser expected to find a '}' to match the '{' token here - start: 285, end: 286
 ✖ The parser expected to find a '}' to match the '{' token here - start: 296, end: 297
 ✖ Duplicate identifier - start: 307, end: 308
-✖ Expression expected - start: 308, end: 309
+✖ Identifier expected - start: 308, end: 309
 ✖ Dynamic import must have one specifier as an argument. - start: 319, end: 320
 ✖ Expected a `;` - start: 322, end: 323
-✖ Expression expected - start: 333, end: 336
+✖ Identifier expected - start: 333, end: 336
 ✖ Expected a `;` - start: 337, end: 338
 ✖ Dynamic import must have one specifier as an argument. - start: 349, end: 350
-✖ Expression expected - start: 350, end: 351
-✖ Expression expected - start: 361, end: 362
+✖ Identifier expected - start: 350, end: 351
+✖ Identifier expected - start: 361, end: 362
 ✖ Dynamic import must have one specifier as an argument. - start: 361, end: 362
-✖ Expression expected - start: 362, end: 363
-✖ Expression expected - start: 373, end: 374
+✖ Identifier expected - start: 362, end: 363
+✖ Identifier expected - start: 373, end: 374
 ✖ Dynamic import must have one specifier as an argument. - start: 373, end: 374
 ✖ Expected a `;` - start: 375, end: 376
-✖ Expression expected - start: 386, end: 387
+✖ Identifier expected - start: 386, end: 387
 ✖ Declaration or statement expected - start: 387, end: 388
-✖ Expression expected - start: 399, end: 400
+✖ Identifier expected - start: 399, end: 400
 ✖ ',' expected - start: 400, end: 403
 ✖ Property definition expected. Did you mean to use a ':'? - start: 409, end: 410
 ✖ ',' expected - start: 410, end: 411
 ✖ Unexpected token. - start: 419, end: 420
 ✖ Expected a `;` - start: 419, end: 420
-✖ Expression expected - start: 420, end: 421
+✖ Identifier expected - start: 420, end: 421
 ✖ Unexpected token. - start: 429, end: 431
 ✖ Expected a `;` - start: 429, end: 431
 ✖ 'import.meta' is the only valid meta property for import - start: 443, end: 446
 ✖ Dynamic import must have one specifier as an argument. - start: 457, end: 458
-✖ Expression expected - start: 458, end: 459
-✖ Expression expected - start: 459, end: 460
+✖ Identifier expected - start: 458, end: 459
+✖ Identifier expected - start: 459, end: 460
 ✖ Expected a `;` - start: 472, end: 473
 ✖ Dynamic import must have one specifier as an argument. - start: 484, end: 485
-✖ Expression expected - start: 485, end: 486
+✖ Identifier expected - start: 485, end: 486
 ✖ Declaration or statement expected - start: 486, end: 487
 ✖ Dynamic import must have one specifier as an argument. - start: 498, end: 499
 ✖ Expression expected - start: 501, end: 502
 ✖ Dynamic import must have one specifier as an argument. - start: 513, end: 514
-✖ Expression expected - start: 516, end: 517
-✖ Expression expected - start: 517, end: 518
+✖ Identifier expected - start: 516, end: 517
+✖ Identifier expected - start: 517, end: 518
 ✖ Dynamic import must have one specifier as an argument. - start: 529, end: 530
 ✖ Expected a `;` - start: 533, end: 534
 ✖ Dynamic import must have one specifier as an argument. - start: 545, end: 546
 ✖ Dynamic import must have one specifier as an argument. - start: 558, end: 559
-✖ Expression expected - start: 561, end: 562
+✖ Identifier expected - start: 561, end: 562
 ✖ Dynamic import must have one specifier as an argument. - start: 572, end: 573
 ✖ Expected a ')' to match the '(' token here - start: 575, end: 576
 ✖ Cannot use new with import(...) - start: 581, end: 588

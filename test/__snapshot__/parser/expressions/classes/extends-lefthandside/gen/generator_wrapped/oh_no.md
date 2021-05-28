@@ -105,7 +105,7 @@ function *P(){
                                     "elements": [],
                                     "flags": 32,
                                     "start": 24,
-                                    "end": 35
+                                    "end": 24
                                 },
                                 "flags": 24,
                                 "start": 32,

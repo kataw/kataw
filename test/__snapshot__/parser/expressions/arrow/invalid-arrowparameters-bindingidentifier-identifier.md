@@ -118,7 +118,7 @@ var af = switch => 1;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 15
+✖ Identifier expected - start: 8, end: 15
 ✖ Variable declaration expected. - start: 8, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 18
 

@@ -64,7 +64,7 @@ class x extends return {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -119,7 +119,7 @@ class x extends return {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 22
+✖ Identifier expected - start: 15, end: 22
 ✖ A return statement can only be used within a function_body - start: 15, end: 22
 
 ```

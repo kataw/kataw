@@ -64,7 +64,7 @@ class x extends switch {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -126,7 +126,7 @@ class x extends switch {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 22
+✖ Identifier expected - start: 15, end: 22
 ✖ Missing an opening parentheses - '( - start: 22, end: 24
 ✖ Declaration or statement expected - start: 25, end: 25
 

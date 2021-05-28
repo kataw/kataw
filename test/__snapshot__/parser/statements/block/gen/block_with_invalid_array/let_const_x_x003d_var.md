@@ -201,7 +201,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Expected a `;` - start: 13, end: 19
-✖ Expression expected - start: 23, end: 27
+✖ Identifier expected - start: 23, end: 27
 ✖ Lexical declaration expected - start: 23, end: 27
 
 ```

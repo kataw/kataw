@@ -373,10 +373,10 @@ new package => x
 
 ```javascript
 ✖ Expected a `;` - start: 7, end: 8
-✖ Expression expected - start: 8, end: 11
+✖ Identifier expected - start: 8, end: 11
 ✖ Expected a `;` - start: 25, end: 26
-✖ Expression expected - start: 26, end: 29
-✖ Expression expected - start: 34, end: 35
+✖ Identifier expected - start: 26, end: 29
+✖ Identifier expected - start: 34, end: 35
 ✖ Expected a `;` - start: 35, end: 45
 ✖ Expected a `;` - start: 52, end: 63
 ✖ Expected a `;` - start: 68, end: 78

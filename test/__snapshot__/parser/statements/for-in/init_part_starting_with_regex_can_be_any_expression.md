@@ -126,7 +126,7 @@ for (/x/g + b in obj);
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 21
+✖ Identifier expected - start: 20, end: 21
 
 ```
 

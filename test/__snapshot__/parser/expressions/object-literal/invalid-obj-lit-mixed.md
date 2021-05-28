@@ -1694,7 +1694,7 @@
 ✖ Declaration or statement expected - start: 172, end: 173
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 230, end: 232
 ✖ The left hand side of the arrow is not destructible  - start: 230, end: 232
-✖ Expression expected - start: 232, end: 233
+✖ Identifier expected - start: 232, end: 233
 ✖ Declaration or statement expected - start: 233, end: 235
 ✖ Declaration or statement expected - start: 235, end: 236
 ✖ Expected a ')' to match the '(' token here - start: 275, end: 278

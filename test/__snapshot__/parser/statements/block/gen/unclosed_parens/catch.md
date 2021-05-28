@@ -119,7 +119,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 8
+✖ Identifier expected - start: 2, end: 8
 ✖ 'try' expected - start: 2, end: 8
 
 ```

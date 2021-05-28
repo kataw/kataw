@@ -188,13 +188,13 @@ var await;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 6, end: 7
+✖ Identifier expected - start: 6, end: 7
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 0, end: 7
 ✖ 'await' keyword must not contain escaped characters - start: 9, end: 9
-✖ Expression expected - start: 22, end: 23
+✖ Identifier expected - start: 22, end: 23
 ✖ Unicode escapes at the start of labels should not allow keywords - start: 9, end: 23
 ✖ Duplicate label - start: 9, end: 23
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 30, end: 36
+✖ Identifier expected. 'await' is a reserved word in module goal - start: 30, end: 36
 
 ```
 

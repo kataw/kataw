@@ -130,9 +130,9 @@ bar ? (return => {}) : baz;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 7, end: 13
+✖ Identifier expected - start: 7, end: 13
 ✖ A return statement can only be used within a function_body - start: 7, end: 13
-✖ Expression expected - start: 13, end: 16
+✖ Identifier expected - start: 13, end: 16
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
 

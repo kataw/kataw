@@ -180,7 +180,7 @@ let x = { foo(){ super(); } };
                     "elements": [],
                     "flags": 32,
                     "start": 38,
-                    "end": 56
+                    "end": 38
                 },
                 "flags": 38,
                 "start": 32,
@@ -1250,7 +1250,7 @@ let x = { foo(){ super(); } };
                                                         "elements": [],
                                                         "flags": 32,
                                                         "start": 337,
-                                                        "end": 355
+                                                        "end": 337
                                                     },
                                                     "flags": 337,
                                                     "start": 32,

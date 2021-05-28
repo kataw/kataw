@@ -118,7 +118,7 @@ function not_gen() { yield * }}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 28, end: 30
+✖ Identifier expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 30, end: 31
 
 ```

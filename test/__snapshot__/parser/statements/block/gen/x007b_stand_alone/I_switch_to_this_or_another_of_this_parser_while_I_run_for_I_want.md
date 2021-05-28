@@ -267,7 +267,7 @@
 ✖ Declaration or statement expected - start: 52, end: 56
 ✖ Expected a `;` - start: 56, end: 60
 ✖ Missing an opening parentheses - '( - start: 60, end: 62
-✖ Expression expected - start: 67, end: 67
+✖ Identifier expected - start: 67, end: 67
 
 ```
 

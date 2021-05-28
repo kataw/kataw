@@ -167,7 +167,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 4
+✖ Identifier expected - start: 2, end: 4
 ✖ Declaration or statement expected - start: 4, end: 5
 ✖ Expected a `;` - start: 9, end: 18
 ✖ Binding identifier expected - start: 18, end: 24

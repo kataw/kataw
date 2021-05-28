@@ -152,7 +152,7 @@ export * as foo, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 16
+✖ Identifier expected - start: 15, end: 16
 ✖ Expected a `;` - start: 27, end: 33
 
 ```

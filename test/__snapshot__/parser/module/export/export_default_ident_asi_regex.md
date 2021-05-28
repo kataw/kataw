@@ -106,7 +106,7 @@ export default x
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 20
+✖ Identifier expected - start: 20, end: 20
 
 ```
 

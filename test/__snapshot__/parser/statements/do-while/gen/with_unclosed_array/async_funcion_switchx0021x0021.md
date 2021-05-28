@@ -167,7 +167,7 @@ do[ async funcion switch!!
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 24, end: 25
-✖ Expression expected - start: 26, end: 26
+✖ Identifier expected - start: 26, end: 26
 
 ```
 

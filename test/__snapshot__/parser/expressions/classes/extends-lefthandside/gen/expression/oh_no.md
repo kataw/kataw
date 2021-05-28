@@ -71,7 +71,7 @@
                                     "elements": [],
                                     "flags": 32,
                                     "start": 8,
-                                    "end": 19
+                                    "end": 8
                                 },
                                 "flags": 8,
                                 "start": 32,

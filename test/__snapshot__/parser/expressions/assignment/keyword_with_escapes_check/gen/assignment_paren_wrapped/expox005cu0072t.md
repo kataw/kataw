@@ -93,7 +93,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 1, end: 12
+✖ Identifier expected - start: 1, end: 12
 ✖ The `export` keyword can only be used with the module goal - start: 1, end: 12
 ✖ Keywords cannot contain escape characters - start: 1, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14

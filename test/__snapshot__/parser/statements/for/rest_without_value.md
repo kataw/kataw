@@ -121,9 +121,9 @@ for (let [...] = obj);
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 13, end: 14
+✖ Binding identifier expected - start: 13, end: 14
 ✖ ',' expected - start: 20, end: 21
-✖ Expression expected - start: 20, end: 21
+✖ Identifier expected - start: 20, end: 21
 
 ```
 

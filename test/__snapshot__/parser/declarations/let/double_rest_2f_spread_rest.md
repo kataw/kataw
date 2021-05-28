@@ -138,7 +138,7 @@ let [... ...foo] = obj;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 12
+✖ Binding identifier expected - start: 8, end: 12
 ✖ ',' expected - start: 8, end: 12
 
 ```

@@ -119,7 +119,7 @@ async => ok
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 15
+✖ Identifier expected - start: 15, end: 15
 
 ```
 

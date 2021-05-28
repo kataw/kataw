@@ -64,7 +64,7 @@ class x extends case {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -106,7 +106,7 @@ class x extends case {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 20
+✖ Identifier expected - start: 15, end: 20
 
 ```
 

@@ -76,7 +76,7 @@ do( async funcion switch!! while
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 24, end: 25
-✖ Expression expected - start: 26, end: 32
+✖ Identifier expected - start: 26, end: 32
 
 ```
 

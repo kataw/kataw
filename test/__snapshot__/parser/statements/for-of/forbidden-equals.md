@@ -95,7 +95,7 @@ for (async of = x);
 
 ```javascript
 ✖ The left-hand side of a for...of loop cannot contain an 'async' identifier - start: 10, end: 13
-✖ Expression expected - start: 13, end: 15
+✖ Identifier expected - start: 13, end: 15
 
 ```
 

@@ -120,7 +120,7 @@ do async ()
 ✖ Function declarations cannot be used in a single-statement context - start: 2, end: 8
 ✖ Line terminator not permitted before arrow - start: 11, end: 15
 ✖ Missing an opening parentheses - '( - start: 17, end: 18
-✖ Expression expected - start: 27, end: 27
+✖ Identifier expected - start: 27, end: 27
 
 ```
 

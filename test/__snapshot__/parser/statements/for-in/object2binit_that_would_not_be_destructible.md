@@ -167,7 +167,7 @@ for ({a: x + y} = z in obj);
 
 ```javascript
 ✖ The left-hand side must be a variable or a property access. - start: 15, end: 17
-✖ Expression expected - start: 26, end: 27
+✖ Identifier expected - start: 26, end: 27
 
 ```
 

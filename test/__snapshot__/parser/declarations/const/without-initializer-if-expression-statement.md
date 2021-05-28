@@ -105,7 +105,7 @@ if (true) const x;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 15
+✖ Identifier expected - start: 9, end: 15
 ✖ Missing initializer in const declaration - start: 17, end: 18
 
 ```

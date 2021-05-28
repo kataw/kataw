@@ -128,7 +128,7 @@ class for {}
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 9
 ✖ Missing an opening parentheses - '( - start: 9, end: 11
-✖ Expression expected - start: 12, end: 12
+✖ Identifier expected - start: 12, end: 12
 
 ```
 

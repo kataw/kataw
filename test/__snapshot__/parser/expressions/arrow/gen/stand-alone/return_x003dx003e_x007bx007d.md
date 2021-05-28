@@ -76,7 +76,7 @@ return => {} ;
 
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
-✖ Expression expected - start: 6, end: 9
+✖ Identifier expected - start: 6, end: 9
 
 ```
 

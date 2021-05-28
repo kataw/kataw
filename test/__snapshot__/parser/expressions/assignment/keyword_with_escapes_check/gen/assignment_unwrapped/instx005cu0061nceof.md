@@ -83,8 +83,8 @@ inst\u0061nceof = x;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 0, end: 15
-✖ Expression expected - start: 15, end: 17
+✖ Identifier expected - start: 0, end: 15
+✖ Identifier expected - start: 15, end: 17
 
 ```
 

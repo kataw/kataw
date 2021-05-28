@@ -145,7 +145,7 @@ for ({x=y}=x in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 17, end: 18
+✖ Identifier expected - start: 17, end: 18
 
 ```
 

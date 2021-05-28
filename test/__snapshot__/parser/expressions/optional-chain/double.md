@@ -138,7 +138,7 @@ a?.?.b
 
 ```javascript
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 3, end: 5
-✖ Expression expected - start: 3, end: 5
+✖ Identifier expected - start: 3, end: 5
 ✖ Unterminated template literal - start: 6, end: 6
 
 ```

@@ -153,7 +153,7 @@
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 39, end: 40
-✖ Expression expected - start: 39, end: 41
+✖ Identifier expected - start: 39, end: 41
 ✖ Expected a `;` - start: 42, end: 44
 ✖ Declaration or statement expected - start: 45, end: 47
 

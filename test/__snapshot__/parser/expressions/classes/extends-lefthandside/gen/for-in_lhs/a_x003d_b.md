@@ -111,7 +111,7 @@ for (a = b in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 16
+✖ Identifier expected - start: 15, end: 16
 
 ```
 

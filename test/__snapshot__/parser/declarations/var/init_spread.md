@@ -111,7 +111,7 @@ var x = ...y;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 7, end: 11
+✖ Identifier expected - start: 7, end: 11
 ✖ ',' expected - start: 7, end: 11
 
 ```

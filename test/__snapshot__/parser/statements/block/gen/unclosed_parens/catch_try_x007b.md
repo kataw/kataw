@@ -159,7 +159,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 8
+✖ Identifier expected - start: 2, end: 8
 ✖ 'try' expected - start: 2, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
 

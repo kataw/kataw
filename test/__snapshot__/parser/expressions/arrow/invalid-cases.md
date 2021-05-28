@@ -10539,17 +10539,17 @@ a++ => {};
 ```javascript
 ✖ Declaration or statement expected - start: 0, end: 2
 ✖ Declaration or statement expected - start: 5, end: 8
-✖ Expression expected - start: 15, end: 16
+✖ Identifier expected - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 19
 ✖ Declaration or statement expected - start: 23, end: 25
 ✖ Declaration or statement expected - start: 25, end: 28
 ✖ Declaration or statement expected - start: 32, end: 34
 ✖ Declaration or statement expected - start: 34, end: 37
-✖ Expression expected - start: 43, end: 44
-✖ Expression expected - start: 44, end: 45
+✖ Identifier expected - start: 43, end: 44
+✖ Identifier expected - start: 44, end: 45
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 45, end: 48
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
-✖ Expression expected - start: 59, end: 62
+✖ Identifier expected - start: 59, end: 62
 ✖ Expected a `;` - start: 81, end: 82
 ✖ Declaration or statement expected - start: 85, end: 86
 ✖ Unterminated regular expression - start: 95, end: 98
@@ -10608,12 +10608,12 @@ a++ => {};
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2870, end: 2873
 ✖ Expected a `;` - start: 2885, end: 2888
 ✖ Missing an opening parentheses - '( - start: 2895, end: 2898
-✖ Expression expected - start: 2904, end: 2906
+✖ Identifier expected - start: 2904, end: 2906
 ✖ Missing an opening parentheses - '( - start: 2906, end: 2907
-✖ Expression expected - start: 2907, end: 2910
+✖ Identifier expected - start: 2907, end: 2910
 ✖ Expected a ')' to match the '(' token here - start: 2918, end: 2921
 ✖ Missing an opening parentheses - '( - start: 2921, end: 2922
-✖ Expression expected - start: 2922, end: 2925
+✖ Identifier expected - start: 2922, end: 2925
 ✖ Expected a `;` - start: 2935, end: 2938
 ✖ Expected a `;` - start: 2950, end: 2953
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2957, end: 2971

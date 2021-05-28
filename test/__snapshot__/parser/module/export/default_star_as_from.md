@@ -149,7 +149,7 @@ export bar, * as foo from 'bar';
 
 ```javascript
 ✖ Declaration or statement expected - start: 6, end: 10
-✖ Expression expected - start: 11, end: 13
+✖ Identifier expected - start: 11, end: 13
 ✖ Expected a `;` - start: 16, end: 20
 ✖ Expected a `;` - start: 20, end: 25
 ✖ Expected a `;` - start: 25, end: 31

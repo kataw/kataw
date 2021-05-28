@@ -65,7 +65,7 @@ class A extends oh,no {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 18
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,

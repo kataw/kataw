@@ -1767,7 +1767,8 @@ function * x() { "use strict";  yield: 34; }
 ✖ Cannot use 'yield' as a name on a generator declaration - start: 408, end: 414
 ✖ Cannot use 'yield' as a name on a generator function expression - start: 469, end: 475
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 718, end: 726
-✖ Expression expected - start: 772, end: 773
+✖ Identifier expected - start: 772, end: 773
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 772, end: 773
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 806, end: 814
 
 ```

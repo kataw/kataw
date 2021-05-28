@@ -177,7 +177,7 @@ async (): string => {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 12, end: 13
+✖ Identifier expected - start: 12, end: 13
 
 ```
 

@@ -2122,7 +2122,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ A return statement can only be used within a function_body - start: 197, end: 204
 ✖ Expected a `;` - start: 206, end: 211
 ✖ Class declarations cannot be used in a single-statement context - start: 226, end: 232
-✖ Expression expected - start: 249, end: 255
+✖ Identifier expected - start: 249, end: 255
 ✖ Function declarations cannot be used in a single-statement context - start: 277, end: 283
 ✖ Function declarations cannot be used in a single-statement context - start: 306, end: 312
 ✖ Expected a `;` - start: 353, end: 355

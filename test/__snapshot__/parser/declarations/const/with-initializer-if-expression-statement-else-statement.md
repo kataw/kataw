@@ -129,7 +129,7 @@ if (true) {} else const x = 1;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 17, end: 23
+✖ Identifier expected - start: 17, end: 23
 
 ```
 

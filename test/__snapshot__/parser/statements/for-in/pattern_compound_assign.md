@@ -142,7 +142,7 @@ for({}/=y in y)x
 
 ```javascript
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 6, end: 8
-✖ Expression expected - start: 14, end: 15
+✖ Identifier expected - start: 14, end: 15
 
 ```
 

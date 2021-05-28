@@ -177,7 +177,8 @@ function not_gen() { function* gf() { yield++; } }}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 45, end: 46
+✖ Identifier expected - start: 45, end: 46
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 45, end: 46
 ✖ Declaration or statement expected - start: 50, end: 51
 
 ```

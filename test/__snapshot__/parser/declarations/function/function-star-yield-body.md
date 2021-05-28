@@ -147,7 +147,7 @@ function* bar() { yield /re/ }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 28, end: 30
+✖ Identifier expected - start: 28, end: 30
 
 ```
 

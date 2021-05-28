@@ -152,7 +152,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 5
+✖ Identifier expected - start: 2, end: 5
 ✖ Missing an opening parentheses - '( - start: 5, end: 7
 ✖ Declaration or statement expected - start: 7, end: 14
 ✖ Missing an opening parentheses - '( - start: 14, end: 20

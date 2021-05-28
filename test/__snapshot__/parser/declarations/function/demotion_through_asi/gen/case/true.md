@@ -122,7 +122,7 @@ function f(){
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 35
-✖ Expression expected - start: 35, end: 37
+✖ Identifier expected - start: 35, end: 37
 
 ```
 

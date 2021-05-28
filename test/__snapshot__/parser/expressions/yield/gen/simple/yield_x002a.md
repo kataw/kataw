@@ -70,7 +70,7 @@ yield *
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 7, end: 7
+✖ Identifier expected - start: 7, end: 7
 
 ```
 

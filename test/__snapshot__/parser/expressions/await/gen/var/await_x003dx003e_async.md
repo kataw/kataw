@@ -144,7 +144,7 @@ var await; var f = (async function() { await => async });
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 44, end: 47
+✖ Identifier expected - start: 44, end: 47
 ✖ ',' expected - start: 44, end: 47
 ✖ Declaration or statement expected - start: 53, end: 55
 ✖ Declaration or statement expected - start: 55, end: 56

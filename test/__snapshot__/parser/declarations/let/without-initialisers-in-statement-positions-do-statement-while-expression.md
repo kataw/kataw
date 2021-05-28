@@ -103,7 +103,7 @@ do let x; while (false)
 ```javascript
 ✖ Expected a `;` - start: 6, end: 8
 ✖ Declaration or statement expected - start: 8, end: 9
-✖ Expression expected - start: 23, end: 23
+✖ Identifier expected - start: 23, end: 23
 
 ```
 

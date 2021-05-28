@@ -162,7 +162,7 @@ for ({x,...x}=x in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 21
+✖ Identifier expected - start: 20, end: 21
 
 ```
 

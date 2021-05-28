@@ -139,7 +139,7 @@ do async
 ✖ Function declarations cannot be used in a single-statement context - start: 2, end: 8
 ✖ Missing an opening parentheses - '( - start: 8, end: 11
 ✖ Declaration or statement expected - start: 13, end: 14
-✖ Expression expected - start: 26, end: 26
+✖ Identifier expected - start: 26, end: 26
 
 ```
 

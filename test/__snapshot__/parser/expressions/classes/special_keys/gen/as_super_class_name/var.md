@@ -64,7 +64,7 @@ class x extends var {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -137,7 +137,7 @@ class x extends var {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 19
+✖ Identifier expected - start: 15, end: 19
 ✖ Missing initializer in destructuring declaration - start: 22, end: 22
 
 ```

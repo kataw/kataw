@@ -100,7 +100,7 @@ x; in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 13, end: 16
+✖ Identifier expected - start: 13, end: 16
 
 ```
 

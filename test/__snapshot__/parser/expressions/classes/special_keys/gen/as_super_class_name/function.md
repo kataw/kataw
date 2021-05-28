@@ -96,7 +96,7 @@ class x extends function {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 27
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,

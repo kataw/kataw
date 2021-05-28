@@ -144,7 +144,7 @@ try {} catch({e}=x){}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 16, end: 17
+✖ Identifier expected - start: 16, end: 17
 ✖ Catch clause variable cannot have an initializer - start: 18, end: 19
 
 ```

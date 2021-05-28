@@ -110,7 +110,7 @@ const x = ...y;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 13
+✖ Identifier expected - start: 9, end: 13
 ✖ ',' expected - start: 9, end: 13
 
 ```

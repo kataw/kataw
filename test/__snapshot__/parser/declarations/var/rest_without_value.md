@@ -127,7 +127,7 @@ var [...] = obj;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 9
+✖ Binding identifier expected - start: 8, end: 9
 
 ```
 

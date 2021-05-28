@@ -148,8 +148,8 @@ await(x);
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 26, end: 27
-✖ Expression expected - start: 34, end: 36
+✖ Identifier expected - start: 26, end: 27
+✖ Identifier expected - start: 34, end: 36
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 34, end: 36
 
 ```

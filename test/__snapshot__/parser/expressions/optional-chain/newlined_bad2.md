@@ -90,8 +90,8 @@ a?
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 4
-✖ Expression expected - start: 5, end: 5
+✖ Identifier expected - start: 2, end: 4
+✖ Identifier expected - start: 5, end: 5
 
 ```
 

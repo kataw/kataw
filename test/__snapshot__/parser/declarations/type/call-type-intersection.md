@@ -277,8 +277,8 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 22, end: 25
 ✖ Expected a `;` - start: 27, end: 28
-✖ Expression expected - start: 28, end: 30
-✖ Expression expected - start: 52, end: 53
+✖ Identifier expected - start: 28, end: 30
+✖ Identifier expected - start: 52, end: 53
 
 ```
 

@@ -153,7 +153,7 @@ do async funcion switch!!
 ```javascript
 ✖ Function declarations cannot be used in a single-statement context - start: 2, end: 8
 ✖ Missing an opening parentheses - '( - start: 23, end: 24
-✖ Expression expected - start: 25, end: 25
+✖ Identifier expected - start: 25, end: 25
 
 ```
 

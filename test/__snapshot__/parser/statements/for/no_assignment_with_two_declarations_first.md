@@ -128,7 +128,7 @@ for (let [foo], bar);
 
 ```javascript
 ✖ ',' expected - start: 19, end: 20
-✖ Expression expected - start: 19, end: 20
+✖ Identifier expected - start: 19, end: 20
 
 ```
 

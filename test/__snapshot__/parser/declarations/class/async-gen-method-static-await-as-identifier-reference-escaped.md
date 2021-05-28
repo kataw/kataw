@@ -208,7 +208,7 @@ var C = class { static async *gen() {
 
 ```javascript
 ✖ 'await' keyword must not contain escaped characters - start: 46, end: 46
-✖ Expression expected - start: 57, end: 58
+✖ Identifier expected - start: 57, end: 58
 
 ```
 

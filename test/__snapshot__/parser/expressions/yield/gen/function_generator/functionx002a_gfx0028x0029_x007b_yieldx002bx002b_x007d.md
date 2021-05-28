@@ -230,7 +230,8 @@ function * gen() { function not_gen() { function* gf() { yield++; } }}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 64, end: 65
+✖ Identifier expected - start: 64, end: 65
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 64, end: 65
 
 ```
 

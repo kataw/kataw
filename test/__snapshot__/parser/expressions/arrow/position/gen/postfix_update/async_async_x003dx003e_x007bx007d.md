@@ -111,6 +111,7 @@ async async => {}++
 
 ```javascript
 ✖ Expected a `;` - start: 17, end: 19
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 19, end: 19
 
 ```
 

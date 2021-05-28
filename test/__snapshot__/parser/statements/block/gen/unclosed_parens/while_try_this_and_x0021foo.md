@@ -181,7 +181,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 8
+✖ Identifier expected - start: 2, end: 8
 ✖ Missing an opening parentheses - '( - start: 8, end: 12
 ✖ Expected a `;` - start: 17, end: 21
 ✖ Expected a `;` - start: 21, end: 23

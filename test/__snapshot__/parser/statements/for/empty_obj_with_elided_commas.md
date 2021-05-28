@@ -147,7 +147,7 @@ for (let {,,} = obj;;);
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 11
 ✖ Trailing comma not allowed. - start: 11, end: 12
-✖ Expression expected - start: 12, end: 13
+✖ Identifier expected - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 15
 ✖ Declaration or statement expected - start: 21, end: 22
 

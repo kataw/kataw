@@ -103,9 +103,9 @@ throw /**/\n x;
 
 ```javascript
 ✖ Linebreak ermitted after throw - start: 5, end: 20
-✖ Expression expected - start: 5, end: 20
+✖ Identifier expected - start: 5, end: 20
 ✖ Invalid hexadecimal escape sequence - start: 20, end: 25
-✖ Expression expected - start: 20, end: 26
+✖ Identifier expected - start: 20, end: 26
 ✖ Expected a `;` - start: 27, end: 29
 
 ```

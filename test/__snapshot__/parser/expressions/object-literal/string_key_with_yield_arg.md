@@ -137,7 +137,7 @@ s = {"foo": yield /x/}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 21, end: 22
+✖ Identifier expected - start: 21, end: 22
 
 ```
 

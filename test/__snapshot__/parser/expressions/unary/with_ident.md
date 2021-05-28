@@ -72,7 +72,7 @@ new +
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 5, end: 5
+✖ Identifier expected - start: 5, end: 5
 
 ```
 

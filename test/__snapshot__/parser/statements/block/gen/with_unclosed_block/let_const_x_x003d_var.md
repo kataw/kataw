@@ -218,7 +218,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
 ✖ Expected a `;` - start: 21, end: 27
-✖ Expression expected - start: 31, end: 35
+✖ Identifier expected - start: 31, end: 35
 ✖ Lexical declaration expected - start: 31, end: 35
 
 ```

@@ -267,7 +267,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 2, end: 4
+✖ Identifier expected - start: 2, end: 4
 ✖ Missing an opening brace - '{ - start: 11, end: 20
 ✖ Binding identifier expected - start: 20, end: 24
 ✖ Missing an opening parentheses - '( - start: 20, end: 24

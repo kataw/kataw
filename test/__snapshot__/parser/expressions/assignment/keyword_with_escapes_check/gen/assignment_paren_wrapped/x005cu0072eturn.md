@@ -101,10 +101,11 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 1, end: 12
+✖ Identifier expected - start: 1, end: 12
 ✖ A return statement can only be used within a function_body - start: 1, end: 12
 ✖ Keywords cannot contain escape characters - start: 1, end: 12
-✖ Expression expected - start: 12, end: 14
+✖ Identifier expected - start: 12, end: 14
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 12, end: 14
 ✖ Expected a `;` - start: 16, end: 17
 
 ```

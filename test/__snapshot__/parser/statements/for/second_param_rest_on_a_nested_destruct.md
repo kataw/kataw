@@ -184,7 +184,7 @@ for (let [x, ...[foo, bar]] = obj);
 
 ```javascript
 ✖ ',' expected - start: 33, end: 34
-✖ Expression expected - start: 33, end: 34
+✖ Identifier expected - start: 33, end: 34
 
 ```
 

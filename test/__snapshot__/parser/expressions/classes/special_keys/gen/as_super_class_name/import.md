@@ -82,7 +82,7 @@ class x extends import {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 24
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -111,7 +111,7 @@ class x extends import {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 24, end: 25
+✖ Identifier expected - start: 24, end: 25
 
 ```
 

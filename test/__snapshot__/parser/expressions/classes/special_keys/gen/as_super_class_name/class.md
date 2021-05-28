@@ -86,7 +86,7 @@ class x extends class {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 24
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,

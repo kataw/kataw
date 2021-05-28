@@ -197,7 +197,7 @@ var C = class { async method() {
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 47, end: 48
+✖ Identifier expected - start: 47, end: 48
 
 ```
 

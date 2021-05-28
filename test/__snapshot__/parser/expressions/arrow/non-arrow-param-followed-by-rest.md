@@ -103,7 +103,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 5, end: 8
+✖ Identifier expected - start: 5, end: 8
 ✖ Expected a `;` - start: 9, end: 10
 ✖ Declaration or statement expected - start: 10, end: 13
 

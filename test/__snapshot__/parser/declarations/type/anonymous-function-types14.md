@@ -138,7 +138,7 @@ type T = Array<(string) => number>
 
 ```javascript
 ✖ Expected to find a '>' to match the '<' token here. - start: 23, end: 26
-✖ Expression expected - start: 34, end: 34
+✖ Identifier expected - start: 34, end: 34
 
 ```
 

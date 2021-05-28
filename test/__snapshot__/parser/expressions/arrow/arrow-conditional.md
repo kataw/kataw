@@ -571,14 +571,14 @@ a ? b : (): string => {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 7, end: 8
+✖ Identifier expected - start: 7, end: 8
 ✖ Expected a `;` - start: 21, end: 24
 ✖ Expected a `;` - start: 56, end: 59
-✖ Expression expected - start: 71, end: 72
+✖ Identifier expected - start: 71, end: 72
 ✖ Expected a `;` - start: 85, end: 88
-✖ Expression expected - start: 92, end: 93
-✖ Expression expected - start: 111, end: 112
-✖ Expression expected - start: 138, end: 139
+✖ Identifier expected - start: 92, end: 93
+✖ Identifier expected - start: 111, end: 112
+✖ Identifier expected - start: 138, end: 139
 
 ```
 

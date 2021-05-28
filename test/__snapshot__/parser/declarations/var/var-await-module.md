@@ -85,7 +85,7 @@ var await = 0
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 3, end: 9
+✖ Identifier expected. 'await' is a reserved word in module goal - start: 3, end: 9
 
 ```
 

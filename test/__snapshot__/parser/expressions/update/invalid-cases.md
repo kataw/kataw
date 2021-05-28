@@ -591,7 +591,8 @@ new new foo().bar++;
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 47, end: 49
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 87, end: 89
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 101, end: 103
-✖ Expression expected - start: 136, end: 137
+✖ Identifier expected - start: 136, end: 137
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 136, end: 137
 
 ```
 

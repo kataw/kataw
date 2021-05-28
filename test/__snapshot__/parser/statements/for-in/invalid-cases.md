@@ -7112,19 +7112,19 @@ for ({}.bar = x in obj);
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 19, end: 20
-✖ Expression expected - start: 37, end: 38
+✖ Identifier expected - start: 19, end: 20
+✖ Identifier expected - start: 37, end: 38
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 52, end: 54
 ✖ An object literal cannot have multiple properties with the name '__proto__' - start: 132, end: 133
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 153, end: 157
-✖ Expression expected - start: 182, end: 183
+✖ Identifier expected - start: 182, end: 183
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 201, end: 203
-✖ Expression expected - start: 219, end: 220
+✖ Identifier expected - start: 219, end: 220
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 241, end: 243
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 277, end: 279
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 307, end: 309
-✖ Expression expected - start: 331, end: 332
-✖ Expression expected - start: 351, end: 352
+✖ Identifier expected - start: 331, end: 332
+✖ Identifier expected - start: 351, end: 352
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 362, end: 366
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 428, end: 430
 ✖ Expected a ')' to match the '(' token here - start: 450, end: 451
@@ -7137,27 +7137,27 @@ for ({}.bar = x in obj);
 ✖ Cannot redeclare block-scoped variable - start: 559, end: 561
 ✖ Cannot redeclare block-scoped variable - start: 589, end: 591
 ✖ Duplicate identifier - start: 611, end: 612
-✖ Expression expected - start: 661, end: 664
+✖ Identifier expected - start: 661, end: 664
 ✖ Expected a `;` - start: 670, end: 671
-✖ Expression expected - start: 685, end: 689
+✖ Identifier expected - start: 685, end: 689
 ✖ Expected a `;` - start: 695, end: 696
-✖ Expression expected - start: 717, end: 718
-✖ Expression expected - start: 734, end: 735
+✖ Identifier expected - start: 717, end: 718
+✖ Identifier expected - start: 734, end: 735
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 754, end: 756
 ✖ Function declarations cannot be used in a single-statement context - start: 798, end: 807
-✖ Expression expected - start: 835, end: 836
+✖ Identifier expected - start: 835, end: 836
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 855, end: 857
-✖ Expression expected - start: 877, end: 878
-✖ Expression expected - start: 901, end: 902
-✖ Expression expected - start: 923, end: 924
-✖ Expression expected - start: 945, end: 946
-✖ Expression expected - start: 965, end: 966
+✖ Identifier expected - start: 877, end: 878
+✖ Identifier expected - start: 901, end: 902
+✖ Identifier expected - start: 923, end: 924
+✖ Identifier expected - start: 945, end: 946
+✖ Identifier expected - start: 965, end: 966
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 983, end: 985
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 1000, end: 1001
-✖ Expression expected - start: 1029, end: 1030
+✖ Identifier expected - start: 1029, end: 1030
 ✖ The parser expected to find a '}' to match the '{' token here - start: 1044, end: 1046
-✖ Expression expected - start: 1051, end: 1052
-✖ Expression expected - start: 1052, end: 1055
+✖ Identifier expected - start: 1051, end: 1052
+✖ Identifier expected - start: 1052, end: 1055
 ✖ Expected a `;` - start: 1059, end: 1060
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 1085, end: 1092
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1095, end: 1097
@@ -7181,18 +7181,18 @@ for ({}.bar = x in obj);
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1596, end: 1599
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1623, end: 1625
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1657, end: 1659
-✖ Expression expected - start: 1679, end: 1680
-✖ Expression expected - start: 1698, end: 1699
+✖ Identifier expected - start: 1679, end: 1680
+✖ Identifier expected - start: 1698, end: 1699
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1718, end: 1720
-✖ Expression expected - start: 1743, end: 1744
-✖ Expression expected - start: 1771, end: 1772
+✖ Identifier expected - start: 1743, end: 1744
+✖ Identifier expected - start: 1771, end: 1772
 ✖ The left-hand side must be a variable or a property access. - start: 1790, end: 1792
-✖ Expression expected - start: 1801, end: 1802
+✖ Identifier expected - start: 1801, end: 1802
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 1815, end: 1818
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 1842, end: 1845
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1875, end: 1879
-✖ Expression expected - start: 1905, end: 1906
-✖ Expression expected - start: 1931, end: 1932
+✖ Identifier expected - start: 1905, end: 1906
+✖ Identifier expected - start: 1931, end: 1932
 
 ```
 

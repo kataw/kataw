@@ -5404,12 +5404,12 @@ for ({a: b.c}-- of d) e;
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 76, end: 79
 ✖ ',' expected - start: 101, end: 103
 ✖ ',' expected - start: 104, end: 106
-✖ Expression expected - start: 104, end: 106
-✖ Expression expected - start: 126, end: 127
+✖ Identifier expected - start: 104, end: 106
+✖ Binding identifier expected - start: 126, end: 127
 ✖ A rest element must be last in a destructuring pattern - start: 127, end: 128
 ✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 148, end: 156
-✖ Expression expected - start: 178, end: 179
-✖ Expression expected - start: 191, end: 192
+✖ Identifier expected - start: 178, end: 179
+✖ Identifier expected - start: 191, end: 192
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 214, end: 217
 ✖ Function declarations cannot be used in a single-statement context - start: 258, end: 267
 ✖ Function declarations cannot be used in a single-statement context - start: 294, end: 303
@@ -5425,8 +5425,8 @@ for ({a: b.c}-- of d) e;
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 555, end: 558
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 595, end: 598
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 598, end: 600
-✖ Expression expected - start: 614, end: 617
-✖ Expression expected - start: 619, end: 620
+✖ Identifier expected - start: 614, end: 617
+✖ Identifier expected - start: 619, end: 620
 ✖ Expected a ')' to match the '(' token here - start: 634, end: 635
 ✖ Expected a `;` - start: 636, end: 637
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 675, end: 677
@@ -5440,7 +5440,7 @@ for ({a: b.c}-- of d) e;
 ✖ Object property expected - start: 793, end: 795
 ✖ ',' expected - start: 793, end: 795
 ✖ ',' expected - start: 793, end: 795
-✖ Expression expected - start: 805, end: 807
+✖ Identifier expected - start: 805, end: 807
 ✖ Expected a `;` - start: 815, end: 816
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 840, end: 842
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 892, end: 894
@@ -5457,7 +5457,7 @@ for ({a: b.c}-- of d) e;
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1171, end: 1174
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1197, end: 1200
 ✖ Expected a ')' to match the '(' token here - start: 1202, end: 1203
-✖ Expression expected - start: 1203, end: 1208
+✖ Identifier expected - start: 1203, end: 1208
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1216, end: 1222
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1222, end: 1225
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1242, end: 1253

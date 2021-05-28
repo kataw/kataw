@@ -129,7 +129,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 5, end: 11
-✖ Expression expected - start: 15, end: 19
+✖ Identifier expected - start: 15, end: 19
 ✖ Lexical declaration expected - start: 15, end: 19
 
 ```

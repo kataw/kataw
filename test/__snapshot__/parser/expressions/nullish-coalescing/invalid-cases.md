@@ -711,8 +711,8 @@ a+1 ?? b+1 && c;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 0, end: 3
-✖ Expression expected - start: 12, end: 13
+✖ Identifier expected - start: 0, end: 3
+✖ Identifier expected - start: 12, end: 13
 ✖ '&&' and '??' operations cannot be mixed without parentheses - start: 21, end: 24
 ✖ '&&' and '??' operations cannot be mixed without parentheses - start: 35, end: 38
 ✖ '&&' and '??' operations cannot be mixed without parentheses - start: 49, end: 52

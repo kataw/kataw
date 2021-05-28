@@ -163,7 +163,7 @@ export {bar}, * as foo from 'bar';
 
 ```javascript
 ✖ Expected a `;` - start: 12, end: 13
-✖ Expression expected - start: 13, end: 15
+✖ Identifier expected - start: 13, end: 15
 ✖ Expected a `;` - start: 18, end: 22
 ✖ Expected a `;` - start: 22, end: 27
 ✖ Expected a `;` - start: 27, end: 33

@@ -2156,12 +2156,12 @@ y = (x => {}(0));
 ✖ Expected a ')' to match the '(' token here - start: 221, end: 224
 ✖ The left hand side of the arrow is not destructible  - start: 221, end: 224
 ✖ Expected a `;` - start: 227, end: 228
-✖ Expression expected - start: 232, end: 234
+✖ Identifier expected - start: 232, end: 234
 ✖ Missing an opening parentheses - '( - start: 234, end: 235
-✖ Expression expected - start: 235, end: 238
+✖ Identifier expected - start: 235, end: 238
 ✖ Expected a ')' to match the '(' token here - start: 247, end: 250
 ✖ Missing an opening parentheses - '( - start: 250, end: 251
-✖ Expression expected - start: 251, end: 254
+✖ Identifier expected - start: 251, end: 254
 ✖ Expected a `;` - start: 270, end: 273
 ✖ The left hand side of the arrow is not destructible  - start: 292, end: 295
 ✖ Expected a ')' to match the '(' token here - start: 306, end: 309

@@ -173,7 +173,7 @@ for (let {x,, y} of obj);
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 13
-✖ Expression expected - start: 15, end: 16
+✖ Identifier expected - start: 15, end: 16
 ✖ Expected a `;` - start: 19, end: 23
 ✖ Expected a `;` - start: 23, end: 24
 

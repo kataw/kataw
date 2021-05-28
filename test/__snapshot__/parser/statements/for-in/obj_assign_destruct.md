@@ -171,7 +171,7 @@ for ({x:a.b}=x in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 19, end: 20
+✖ Identifier expected - start: 19, end: 20
 
 ```
 

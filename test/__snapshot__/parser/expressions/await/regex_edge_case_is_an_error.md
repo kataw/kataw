@@ -153,7 +153,7 @@ async function f(){ await foo
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 35, end: 37
+✖ Identifier expected - start: 35, end: 37
 
 ```
 

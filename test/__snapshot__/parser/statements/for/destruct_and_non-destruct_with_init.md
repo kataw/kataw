@@ -142,7 +142,7 @@ for (let [foo] = arr, bar = arr2);
 
 ```javascript
 ✖ ',' expected - start: 32, end: 33
-✖ Expression expected - start: 32, end: 33
+✖ Identifier expected - start: 32, end: 33
 
 ```
 

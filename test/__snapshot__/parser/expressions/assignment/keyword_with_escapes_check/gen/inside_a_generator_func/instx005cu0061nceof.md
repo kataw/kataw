@@ -138,8 +138,8 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 14, end: 32
-✖ Expression expected - start: 32, end: 34
+✖ Identifier expected - start: 14, end: 32
+✖ Identifier expected - start: 32, end: 34
 ✖ Declaration or statement expected - start: 36, end: 38
 
 ```

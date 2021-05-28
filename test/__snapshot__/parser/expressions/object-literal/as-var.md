@@ -125,7 +125,7 @@ var {...[]} = {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 10
+✖ Identifier expected - start: 9, end: 10
 ✖ Binding identifier expected - start: 10, end: 11
 
 ```

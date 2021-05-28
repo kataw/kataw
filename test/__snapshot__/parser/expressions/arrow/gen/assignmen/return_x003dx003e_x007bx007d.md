@@ -108,9 +108,9 @@ x = return => {} ;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 3, end: 10
+✖ Identifier expected - start: 3, end: 10
 ✖ A return statement can only be used within a function_body - start: 3, end: 10
-✖ Expression expected - start: 10, end: 13
+✖ Identifier expected - start: 10, end: 13
 
 ```
 

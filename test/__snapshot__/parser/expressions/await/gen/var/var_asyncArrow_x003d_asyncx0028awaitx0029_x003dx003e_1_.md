@@ -270,7 +270,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 67, end: 68
+✖ Identifier expected - start: 67, end: 68
 
 ```
 

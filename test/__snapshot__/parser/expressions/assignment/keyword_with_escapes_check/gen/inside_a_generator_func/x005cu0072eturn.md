@@ -132,7 +132,7 @@ function *f(){
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 14, end: 28
-✖ Expression expected - start: 28, end: 30
+✖ Identifier expected - start: 28, end: 30
 
 ```
 

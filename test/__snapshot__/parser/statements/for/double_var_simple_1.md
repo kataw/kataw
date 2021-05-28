@@ -132,7 +132,7 @@ for (let {x, y} = obj);
 
 ```javascript
 ✖ ',' expected - start: 21, end: 22
-✖ Expression expected - start: 21, end: 22
+✖ Identifier expected - start: 21, end: 22
 
 ```
 

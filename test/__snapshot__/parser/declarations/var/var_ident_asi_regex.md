@@ -144,8 +144,8 @@ var q
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 5, end: 7
-✖ Expression expected - start: 9, end: 9
+✖ Identifier expected - start: 5, end: 7
+✖ Identifier expected - start: 9, end: 9
 
 ```
 

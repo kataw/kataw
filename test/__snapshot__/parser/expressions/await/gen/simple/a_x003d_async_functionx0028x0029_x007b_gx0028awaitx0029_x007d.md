@@ -156,7 +156,7 @@ a = async function() { g(await) }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 30, end: 31
+✖ Identifier expected - start: 30, end: 31
 
 ```
 

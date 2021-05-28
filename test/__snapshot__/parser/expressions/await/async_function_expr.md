@@ -159,7 +159,7 @@ let x = async function f(foo = await){}
 
 ```javascript
 ✖ `await` expression cannot be used in function parameters - start: 30, end: 36
-✖ Expression expected - start: 36, end: 37
+✖ Identifier expected - start: 36, end: 37
 
 ```
 

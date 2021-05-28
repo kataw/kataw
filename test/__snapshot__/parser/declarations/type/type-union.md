@@ -581,7 +581,7 @@ type overloads2 = {
 ✖ Expected a `;` - start: 78, end: 79
 ✖ Declaration or statement expected - start: 79, end: 82
 ✖ Expected a `;` - start: 89, end: 90
-✖ Expression expected - start: 90, end: 94
+✖ Identifier expected - start: 90, end: 94
 
 ```
 

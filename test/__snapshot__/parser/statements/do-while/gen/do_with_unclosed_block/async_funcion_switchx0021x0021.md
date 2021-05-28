@@ -185,7 +185,7 @@ do {} while (x) { async funcion switch!!
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 38, end: 39
-✖ Expression expected - start: 40, end: 40
+✖ Identifier expected - start: 40, end: 40
 
 ```
 

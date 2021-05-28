@@ -2247,7 +2247,7 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 17, end: 19
 ✖ Expected a `;` - start: 29, end: 32
 ✖ Expected a `;` - start: 32, end: 35
-✖ Expression expected - start: 53, end: 58
+✖ Identifier expected - start: 53, end: 58
 ✖ 'try' expected - start: 53, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59
 ✖ Declaration or statement expected - start: 59, end: 61
@@ -2256,7 +2256,7 @@ async ([a]:string)=>c;
 ✖ Declaration or statement expected - start: 106, end: 109
 ✖ Expected a `;` - start: 138, end: 140
 ✖ Declaration or statement expected - start: 140, end: 143
-✖ Expression expected - start: 177, end: 179
+✖ Identifier expected - start: 177, end: 179
 ✖ Expected a ')' to match the '(' token here - start: 205, end: 208
 ✖ Expected a `;` - start: 210, end: 211
 ✖ Declaration or statement expected - start: 250, end: 251
@@ -2288,7 +2288,7 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 484, end: 485
 ✖ Expected a `;` - start: 492, end: 495
 ✖ Declaration or statement expected - start: 524, end: 527
-✖ Expression expected - start: 551, end: 554
+✖ Identifier expected - start: 551, end: 554
 ✖ Declaration or statement expected - start: 559, end: 561
 ✖ Declaration or statement expected - start: 585, end: 588
 ✖ Binding identifier expected - start: 601, end: 603

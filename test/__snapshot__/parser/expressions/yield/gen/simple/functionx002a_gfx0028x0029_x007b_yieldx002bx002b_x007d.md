@@ -129,7 +129,8 @@ function* gf() { yield++; }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 24, end: 25
+✖ Identifier expected - start: 24, end: 25
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 24, end: 25
 
 ```
 

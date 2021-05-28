@@ -630,7 +630,7 @@ import { type Foo12 } from "bar";
 ✖ Expected a `;` - start: 122, end: 128
 ✖ Unexpected token. - start: 176, end: 183
 ✖ Expected a `;` - start: 176, end: 183
-✖ Expression expected - start: 183, end: 185
+✖ Identifier expected - start: 183, end: 185
 ✖ Expected a `;` - start: 188, end: 198
 ✖ Expected a `;` - start: 198, end: 203
 ✖ Expected a `;` - start: 203, end: 209

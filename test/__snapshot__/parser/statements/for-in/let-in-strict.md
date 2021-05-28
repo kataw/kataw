@@ -143,7 +143,7 @@ for (let in in x);
 ```javascript
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 8, end: 11
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 25, end: 28
-✖ Expression expected - start: 28, end: 31
+✖ Identifier expected - start: 28, end: 31
 
 ```
 

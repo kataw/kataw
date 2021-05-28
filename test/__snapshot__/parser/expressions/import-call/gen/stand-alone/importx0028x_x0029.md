@@ -79,7 +79,7 @@ import(x,)
 
 ```javascript
 ✖ Dynamic import must have one specifier as an argument. - start: 8, end: 9
-✖ Expression expected - start: 9, end: 10
+✖ Identifier expected - start: 9, end: 10
 
 ```
 

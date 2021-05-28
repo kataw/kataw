@@ -145,7 +145,7 @@ for (var r == y in x );
 
 ```javascript
 ✖ ',' expected - start: 10, end: 13
-✖ Expression expected - start: 10, end: 13
+✖ Identifier expected - start: 10, end: 13
 
 ```
 

@@ -114,7 +114,7 @@ x => ok
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 11, end: 11
+✖ Identifier expected - start: 11, end: 11
 
 ```
 

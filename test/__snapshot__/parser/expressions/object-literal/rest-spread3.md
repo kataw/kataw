@@ -140,7 +140,7 @@ function test({...[]}) {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 19, end: 20
+✖ Identifier expected - start: 19, end: 20
 ✖ Binding identifier expected - start: 20, end: 21
 
 ```

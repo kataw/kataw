@@ -127,7 +127,7 @@ for (let ...a = 1;;);
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 12
+✖ Identifier expected - start: 8, end: 12
 ✖ Declaration or statement expected - start: 19, end: 20
 
 ```

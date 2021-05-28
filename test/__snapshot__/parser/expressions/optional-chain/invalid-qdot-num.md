@@ -76,7 +76,7 @@ obj?.0
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 6, end: 6
+✖ Identifier expected - start: 6, end: 6
 
 ```
 

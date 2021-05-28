@@ -64,7 +64,7 @@ class x extends while {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -132,7 +132,7 @@ class x extends while {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 21
+✖ Identifier expected - start: 15, end: 21
 ✖ Missing an opening parentheses - '( - start: 21, end: 23
 ✖ Declaration or statement expected - start: 24, end: 24
 

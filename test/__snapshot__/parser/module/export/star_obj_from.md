@@ -140,7 +140,7 @@ export *, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 9
+✖ Identifier expected - start: 8, end: 9
 ✖ Expected a `;` - start: 20, end: 26
 
 ```

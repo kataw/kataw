@@ -187,7 +187,7 @@ let x = (): Array<(string) => number> => []
 
 ```javascript
 ✖ Expected to find a '>' to match the '<' token here. - start: 26, end: 29
-✖ Expression expected - start: 37, end: 40
+✖ Identifier expected - start: 37, end: 40
 ✖ ',' expected - start: 37, end: 40
 
 ```

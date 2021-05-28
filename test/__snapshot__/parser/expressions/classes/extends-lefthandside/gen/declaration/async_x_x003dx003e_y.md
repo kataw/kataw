@@ -67,7 +67,7 @@ x => y {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 21
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,

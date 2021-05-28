@@ -152,7 +152,7 @@
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 21, end: 22
-✖ Expression expected - start: 21, end: 23
+✖ Identifier expected - start: 21, end: 23
 ✖ Expected a `;` - start: 24, end: 26
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 26, end: 33
 

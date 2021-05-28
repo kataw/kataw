@@ -68,8 +68,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 1, end: 2
-✖ Expression expected - start: 2, end: 3
+✖ Identifier expected - start: 1, end: 2
+✖ Identifier expected - start: 2, end: 3
 
 ```
 

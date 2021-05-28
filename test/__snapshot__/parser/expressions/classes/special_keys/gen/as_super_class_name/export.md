@@ -64,7 +64,7 @@ class x extends export {}
                     "elements": [],
                     "flags": 32,
                     "start": 7,
-                    "end": 15
+                    "end": 7
                 },
                 "flags": 7,
                 "start": 32,
@@ -122,7 +122,7 @@ class x extends export {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 22
+✖ Identifier expected - start: 15, end: 22
 ✖ The `export` keyword can only be used with the module goal - start: 15, end: 22
 
 ```

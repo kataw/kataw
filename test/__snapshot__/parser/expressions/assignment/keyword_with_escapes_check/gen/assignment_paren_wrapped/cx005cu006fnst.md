@@ -95,7 +95,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 1, end: 11
+✖ Identifier expected - start: 1, end: 11
 ✖ Keywords cannot contain escape characters - start: 11, end: 13
 ✖ Expected a `;` - start: 11, end: 13
 ✖ Expected a `;` - start: 15, end: 16

@@ -154,7 +154,7 @@ function f(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 39, end: 41
+✖ Identifier expected - start: 39, end: 41
 ✖ Unterminated regular expression - start: 41, end: 49
 
 ```

@@ -124,7 +124,7 @@ async function f(foo = await){}
 
 ```javascript
 ✖ `await` expression cannot be used in function parameters - start: 22, end: 28
-✖ Expression expected - start: 28, end: 29
+✖ Identifier expected - start: 28, end: 29
 
 ```
 

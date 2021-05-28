@@ -87,7 +87,7 @@ foo[...x];
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 4, end: 7
+✖ Identifier expected - start: 4, end: 7
 ✖ Expected a `;` - start: 8, end: 9
 
 ```

@@ -104,9 +104,9 @@ bar, return => {};
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 4, end: 11
+✖ Identifier expected - start: 4, end: 11
 ✖ A return statement can only be used within a function_body - start: 4, end: 11
-✖ Expression expected - start: 11, end: 14
+✖ Identifier expected - start: 11, end: 14
 
 ```
 

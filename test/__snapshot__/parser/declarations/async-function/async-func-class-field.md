@@ -183,7 +183,7 @@ async function f() { class C { aaa = await } }
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 42, end: 44
+✖ Identifier expected - start: 42, end: 44
 
 ```
 

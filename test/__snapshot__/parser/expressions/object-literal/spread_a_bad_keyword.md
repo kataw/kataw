@@ -107,7 +107,7 @@ x={...new}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 10
+✖ Identifier expected - start: 9, end: 10
 
 ```
 

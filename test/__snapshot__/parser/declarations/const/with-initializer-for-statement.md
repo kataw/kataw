@@ -112,7 +112,7 @@ for (;false;) const x = 1;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 13, end: 19
+✖ Identifier expected - start: 13, end: 19
 
 ```
 

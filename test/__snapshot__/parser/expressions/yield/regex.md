@@ -148,7 +148,7 @@ function* f(){ yield
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 26, end: 28
+✖ Identifier expected - start: 26, end: 28
 
 ```
 
