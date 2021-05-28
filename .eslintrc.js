@@ -11,14 +11,14 @@ module.exports = {
       files: ['**/*.ts'],
       extends: [
         'plugin:@typescript-eslint/recommended',
-        'plugin:import/errors',
-        'plugin:import/warnings',
+        'plugin:import/recommended',
         'plugin:import/typescript'
       ],
       rules: {
         '@typescript-eslint/no-use-before-define': 0,
         '@typescript-eslint/indent': 0,
         'prefer-const': ['error', { destructuring: 'all' }],
+        '@typescript-eslint/no-empty-function': 0,
 
         // TODO: enable it when all problems addressed
         '@typescript-eslint/explicit-function-return-type': 0,
