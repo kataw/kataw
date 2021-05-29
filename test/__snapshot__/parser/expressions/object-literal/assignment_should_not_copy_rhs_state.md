@@ -54,8 +54,7 @@
                                             "end": 8
                                         },
                                         "right": {
-                                            "kind": 134,
-                                            "text": true,
+                                            "kind": 24752947,
                                             "flags": 96,
                                             "start": 8,
                                             "end": 13

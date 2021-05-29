@@ -21,7 +21,7 @@ function fn() { (() => this)().#x }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -60,7 +60,7 @@ function fn() { (() => this)().#x }
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 19,
                                                 "end": 22
                                             },
@@ -69,9 +69,9 @@ function fn() { (() => this)().#x }
                                             "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
-                                                "kind": 135,
-                                                "flags": 22,
-                                                "start": 96,
+                                                "kind": 4276321,
+                                                "flags": 96,
+                                                "start": 22,
                                                 "end": 27
                                             },
                                             "flags": 32,

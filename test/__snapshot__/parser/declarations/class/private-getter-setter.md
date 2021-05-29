@@ -56,7 +56,7 @@ class Foo {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -118,16 +118,16 @@ class Foo {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 25,
                                                     "end": 32
                                                 },
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 32,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 32,
                                                         "end": 37
                                                     },
                                                     "expression": {
@@ -228,9 +228,9 @@ class Foo {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 60,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 96,
+                                                            "start": 60,
                                                             "end": 65
                                                         },
                                                         "expression": {
@@ -327,16 +327,16 @@ class Foo {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 92,
                                                     "end": 99
                                                 },
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 99,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 99,
                                                         "end": 104
                                                     },
                                                     "expression": {
@@ -437,9 +437,9 @@ class Foo {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 129,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 96,
+                                                            "start": 129,
                                                             "end": 134
                                                         },
                                                         "expression": {

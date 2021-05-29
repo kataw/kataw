@@ -39,7 +39,7 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -94,7 +94,7 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 16,
                 "end": 21
             },
@@ -169,7 +169,7 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 42,
                 "end": 47
             },
@@ -245,7 +245,7 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 66,
                 "end": 71
             },
@@ -306,7 +306,7 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 86,
                 "end": 91
             },
@@ -375,7 +375,7 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 105,
                 "end": 110
             },

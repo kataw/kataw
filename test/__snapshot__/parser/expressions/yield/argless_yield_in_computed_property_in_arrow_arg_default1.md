@@ -21,7 +21,7 @@ function *g(){ (x = {[yield]: 1}) => z }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 33,
                                     "end": 36
                                 },
@@ -95,7 +95,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 22,
                                                                     "end": 27
                                                                 },

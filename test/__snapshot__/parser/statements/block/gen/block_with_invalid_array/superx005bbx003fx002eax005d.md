@@ -63,7 +63,7 @@
                             "kind": 173,
                             "catchKeyword": {
                                 "kind": 4202575,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3,
                                 "end": 8
                             },
@@ -109,7 +109,7 @@
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 9,
                         "end": 15
                     },
@@ -121,7 +121,7 @@
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 17,
                         "end": 19
                     },
@@ -188,7 +188,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 16
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 9, end: 16
 
 ```
 

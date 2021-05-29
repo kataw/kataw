@@ -19,7 +19,7 @@ try {} c\u0061tch  (x) {}sss
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -40,7 +40,7 @@ try {} c\u0061tch  (x) {}sss
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 16384,
+                    "flags": 16464,
                     "start": 6,
                     "end": 17
                 },

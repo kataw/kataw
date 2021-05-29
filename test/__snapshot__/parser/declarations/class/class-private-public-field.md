@@ -50,7 +50,7 @@ class C { f(){ this.#a } #a; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -114,9 +114,9 @@ class C { f(){ this.#a } #a; }
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 135,
-                                    "flags": 17,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 96,
+                                    "start": 17,
                                     "end": 22
                                 },
                                 "expression": {
@@ -159,7 +159,7 @@ class C { f(){ this.#a } #a; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 28,
                 "end": 35
             },
@@ -197,9 +197,9 @@ class C { f(){ this.#a } #a; }
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 135,
-                                    "flags": 43,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 96,
+                                    "start": 43,
                                     "end": 48
                                 },
                                 "expression": {
@@ -268,7 +268,7 @@ class C { f(){ this.#a } #a; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 58,
                 "end": 65
             },
@@ -324,9 +324,9 @@ class C { f(){ this.#a } #a; }
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 135,
-                                        "flags": 75,
-                                        "start": 96,
+                                        "kind": 4276321,
+                                        "flags": 96,
+                                        "start": 75,
                                         "end": 79
                                     },
                                     "expression": {
@@ -376,7 +376,7 @@ class C { f(){ this.#a } #a; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 86,
                 "end": 93
             },
@@ -406,9 +406,9 @@ class C { f(){ this.#a } #a; }
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 135,
-                                        "flags": 99,
-                                        "start": 96,
+                                        "kind": 4276321,
+                                        "flags": 96,
+                                        "start": 99,
                                         "end": 103
                                     },
                                     "expression": {
@@ -484,7 +484,7 @@ class C { f(){ this.#a } #a; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 114,
                 "end": 121
             },
@@ -569,9 +569,9 @@ class C { f(){ this.#a } #a; }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 134,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 134,
                                                         "end": 139
                                                     },
                                                     "expression": {
@@ -625,7 +625,7 @@ class C { f(){ this.#a } #a; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 146,
                 "end": 153
             },
@@ -684,9 +684,9 @@ class C { f(){ this.#a } #a; }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 162,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 162,
                                                         "end": 167
                                                     },
                                                     "expression": {

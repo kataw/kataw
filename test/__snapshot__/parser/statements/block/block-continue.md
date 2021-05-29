@@ -24,7 +24,7 @@
                         "kind": 172,
                         "continueKeyword": {
                             "kind": 37757009,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1,
                             "end": 10
                         },

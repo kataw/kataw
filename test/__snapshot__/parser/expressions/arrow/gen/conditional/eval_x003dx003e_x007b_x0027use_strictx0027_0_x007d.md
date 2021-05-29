@@ -27,7 +27,7 @@ eval => { 'use strict'; 0 } , bar;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 7
                         },

@@ -21,7 +21,7 @@ function fn(x = async function () { await 1 }) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -60,7 +60,7 @@ function fn(x = async function () { await 1 }) {}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 21,
                                 "end": 30
                             },
@@ -86,7 +86,7 @@ function fn(x = async function () { await 1 }) {}
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 35,
                                                     "end": 41
                                                 },

@@ -24,7 +24,7 @@ function not_gen() { (yield) ? yield : yield }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -71,7 +71,7 @@ function not_gen() { (yield) ? yield : yield }}
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 28,
                                     "end": 30
                                 },
@@ -85,7 +85,7 @@ function not_gen() { (yield) ? yield : yield }}
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 36,
                                     "end": 38
                                 },

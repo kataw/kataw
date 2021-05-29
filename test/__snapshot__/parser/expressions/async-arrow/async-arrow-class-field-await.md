@@ -21,7 +21,7 @@ async( x = class { x = await });
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -39,7 +39,7 @@ async( x = class { x = await });
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 11,
                     "end": 17
                 },
@@ -78,7 +78,7 @@ async( x = class { x = await });
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 27,
                                         "end": 33
                                     },
@@ -154,7 +154,7 @@ async( x = class { x = await });
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 48,
                                 "end": 54
                             },

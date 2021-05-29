@@ -42,7 +42,7 @@
                                                             "kind": 160,
                                                             "switchKeyword": {
                                                                 "kind": 37757024,
-                                                                "flags": 0,
+                                                                "flags": 80,
                                                                 "start": 7,
                                                                 "end": 13
                                                             },

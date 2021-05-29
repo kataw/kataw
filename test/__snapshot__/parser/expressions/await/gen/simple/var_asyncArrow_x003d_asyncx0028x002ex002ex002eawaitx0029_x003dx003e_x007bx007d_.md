@@ -23,7 +23,7 @@ var asyncArrow = async(...await) => {};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -46,7 +46,7 @@ var asyncArrow = async(...await) => {};
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 32,
                                 "end": 35
                             },
@@ -56,7 +56,7 @@ var asyncArrow = async(...await) => {};
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 23,
                                         "end": 26
                                     },

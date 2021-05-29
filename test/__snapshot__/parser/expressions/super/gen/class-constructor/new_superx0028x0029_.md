@@ -24,7 +24,7 @@ class C { constructor() { new super(); } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -84,7 +84,7 @@ class C { constructor() { new super(); } }
                                                     "kind": 210,
                                                     "newKeyword": {
                                                         "kind": 138477661,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 25,
                                                         "end": 29
                                                     },
@@ -92,7 +92,7 @@ class C { constructor() { new super(); } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 29,
                                                             "end": 35
                                                         },
@@ -165,7 +165,7 @@ class C { constructor() { new super(); } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 35, end: 36
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 29, end: 36
 
 ```
 

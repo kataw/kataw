@@ -140,7 +140,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 38,
                                     "end": 41
                                 },

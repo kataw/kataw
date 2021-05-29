@@ -27,7 +27,7 @@ for await (const item of arr) {
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -64,7 +64,7 @@ for await (const item of arr) {
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 0,
+                "flags": 64,
                 "start": 21,
                 "end": 24
             },

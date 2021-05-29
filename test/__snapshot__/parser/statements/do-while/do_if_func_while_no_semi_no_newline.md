@@ -19,7 +19,7 @@ do if(8)function s(){}while(y)
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -33,7 +33,7 @@ do if(8)function s(){}while(y)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 22,
                 "end": 27
             },
@@ -41,7 +41,7 @@ do if(8)function s(){}while(y)
                 "kind": 164,
                 "ifKeyword": {
                     "kind": 37757019,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 5
                 },
@@ -59,7 +59,7 @@ do if(8)function s(){}while(y)
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 8,
                         "end": 16
                     },

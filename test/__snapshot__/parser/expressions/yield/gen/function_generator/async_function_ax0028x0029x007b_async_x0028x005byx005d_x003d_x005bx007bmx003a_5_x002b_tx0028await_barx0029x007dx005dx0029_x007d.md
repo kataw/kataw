@@ -24,7 +24,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -100,7 +100,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 45,
                                                 "end": 54
                                             },
@@ -225,7 +225,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                         "kind": 208,
                                                                                                                         "awaitKeyword": {
                                                                                                                             "kind": 82196,
-                                                                                                                            "flags": 0,
+                                                                                                                            "flags": 64,
                                                                                                                             "start": 88,
                                                                                                                             "end": 93
                                                                                                                         },

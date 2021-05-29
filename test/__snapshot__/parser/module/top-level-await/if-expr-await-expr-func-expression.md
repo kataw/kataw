@@ -25,7 +25,7 @@ if (await function() {}) {}
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -33,7 +33,7 @@ if (await function() {}) {}
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4,
                     "end": 9
                 },
@@ -42,7 +42,7 @@ if (await function() {}) {}
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 9,
                         "end": 18
                     },

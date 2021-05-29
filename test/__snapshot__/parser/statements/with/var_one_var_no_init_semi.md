@@ -19,7 +19,7 @@ with (foo) bar;
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 4
             },

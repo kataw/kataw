@@ -28,7 +28,7 @@ var a : typeof A.B<T>
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -52,7 +52,7 @@ var a : typeof A.B<T>
                                 "kind": 134299891,
                                 "typeOfKeyword": {
                                     "kind": 138477613,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 7,
                                     "end": 14
                                 },

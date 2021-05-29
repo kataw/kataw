@@ -19,7 +19,7 @@ async (x = async([(f) = []])) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 29,
                 "end": 32
             },

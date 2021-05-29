@@ -46,7 +46,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 4,
                         "end": 10
                     },
@@ -84,7 +84,7 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 10,
                 "end": 19
             },
@@ -122,7 +122,7 @@
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 19,
                 "end": 23
             },
@@ -162,7 +162,7 @@
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 23,
                 "end": 29
             },
@@ -177,7 +177,7 @@
                 "kind": 153,
                 "withKeyword": {
                     "kind": 37757029,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 29,
                     "end": 34
                 },

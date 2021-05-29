@@ -31,7 +31,7 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 1,
+                            "flags": 65,
                             "start": 1,
                             "end": 12
                         },

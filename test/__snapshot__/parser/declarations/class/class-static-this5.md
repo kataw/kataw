@@ -46,7 +46,7 @@ x = class Foo { static x = class extends this {} }
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3,
                         "end": 9
                     },
@@ -91,7 +91,7 @@ x = class Foo { static x = class extends this {} }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 26,
                                             "end": 32
                                         },
@@ -103,14 +103,14 @@ x = class Foo { static x = class extends this {} }
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 32,
                                                     "end": 40
                                                 },
                                                 "expression": {
-                                                    "kind": 135,
-                                                    "flags": 40,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 96,
+                                                    "start": 40,
                                                     "end": 45
                                                 },
                                                 "typeParameter": null,

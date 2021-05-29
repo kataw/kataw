@@ -19,7 +19,7 @@ try {} catch (e) { const e = x; }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -40,7 +40,7 @@ try {} catch (e) { const e = x; }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 12
                 },
@@ -62,7 +62,7 @@ try {} catch (e) { const e = x; }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 18,
                                     "end": 24
                                 },

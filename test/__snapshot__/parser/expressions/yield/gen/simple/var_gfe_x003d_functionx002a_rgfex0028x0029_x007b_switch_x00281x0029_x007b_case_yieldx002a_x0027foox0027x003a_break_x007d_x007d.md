@@ -23,7 +23,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -47,7 +47,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 9,
                                 "end": 18
                             },
@@ -83,7 +83,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                             "kind": 160,
                                             "switchKeyword": {
                                                 "kind": 37757024,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 28,
                                                 "end": 35
                                             },
@@ -102,7 +102,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                         "kind": 175,
                                                         "caseKeyword": {
                                                             "kind": 4194382,
-                                                            "flags": 0,
+                                                            "flags": 80,
                                                             "start": 41,
                                                             "end": 46
                                                         },
@@ -110,7 +110,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 46,
                                                                 "end": 52
                                                             },
@@ -138,7 +138,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 150,
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
-                                                                    "flags": 0,
+                                                                    "flags": 80,
                                                                     "start": 60,
                                                                     "end": 66
                                                                 },

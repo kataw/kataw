@@ -70,7 +70,7 @@
                                                         "kind": 210,
                                                         "newKeyword": {
                                                             "kind": 138477661,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 14,
                                                             "end": 18
                                                         },
@@ -78,7 +78,7 @@
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 18,
                                                                 "end": 24
                                                             },
@@ -156,7 +156,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 24, end: 25
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 18, end: 25
 
 ```
 

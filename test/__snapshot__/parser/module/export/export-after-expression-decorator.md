@@ -106,7 +106,7 @@ let MyClass = @foo export class {}
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 18,
                 "end": 25
             },
@@ -116,7 +116,7 @@ let MyClass = @foo export class {}
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 25,
                     "end": 31
                 },

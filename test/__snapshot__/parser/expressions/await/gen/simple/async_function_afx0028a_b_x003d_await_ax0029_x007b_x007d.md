@@ -29,7 +29,7 @@ async function af(a, b = await a) { }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -80,7 +80,7 @@ async function af(a, b = await a) { }
                             "kind": 208,
                             "awaitKeyword": {
                                 "kind": 82196,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 24,
                                 "end": 30
                             },

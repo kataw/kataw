@@ -31,7 +31,7 @@ async function p(){
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -64,7 +64,7 @@ async function p(){
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 19,
                                 "end": 27
                             },
@@ -83,7 +83,7 @@ async function p(){
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 29,
                                         "end": 37
                                     },
@@ -91,13 +91,13 @@ async function p(){
                                         "kind": 211,
                                         "newKeyword": {
                                             "kind": 138477661,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 37,
                                             "end": 41
                                         },
                                         "targetIdentifier": {
                                             "kind": 16594,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 42,
                                             "end": 48
                                         },

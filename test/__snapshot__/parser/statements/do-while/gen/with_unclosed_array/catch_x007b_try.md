@@ -22,7 +22,7 @@ do[ catch { try
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -78,7 +78,7 @@ do[ catch { try
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 3,
                     "end": 9
                 },
@@ -93,7 +93,7 @@ do[ catch { try
                                 "kind": 159,
                                 "tryKeyword": {
                                     "kind": 37757027,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 11,
                                     "end": 15
                                 },

@@ -251,9 +251,9 @@ new new foo().bar++;
                                         "member": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 135,
-                                                "flags": 50,
-                                                "start": 97,
+                                                "kind": 4276321,
+                                                "flags": 97,
+                                                "start": 50,
                                                 "end": 56
                                             },
                                             "expression": {
@@ -296,9 +296,9 @@ new new foo().bar++;
                                     "kind": 256,
                                     "elements": [
                                         {
-                                            "kind": 135,
-                                            "flags": 70,
-                                            "start": 96,
+                                            "kind": 4276321,
+                                            "flags": 96,
+                                            "start": 70,
                                             "end": 74
                                         }
                                     ],
@@ -378,7 +378,7 @@ new new foo().bar++;
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 1,
+                        "flags": 97,
                         "start": 90,
                         "end": 95
                     },
@@ -426,7 +426,7 @@ new new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 1,
+                            "flags": 97,
                             "start": 104,
                             "end": 109
                         },
@@ -434,7 +434,7 @@ new new foo().bar++;
                             "kind": 210,
                             "newKeyword": {
                                 "kind": 138477661,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 109,
                                 "end": 113
                             },
@@ -510,7 +510,7 @@ new new foo().bar++;
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 130,
                             "end": 131
                         },

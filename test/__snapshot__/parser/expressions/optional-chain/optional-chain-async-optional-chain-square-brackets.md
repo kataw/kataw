@@ -28,7 +28,7 @@ async function x() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -61,7 +61,7 @@ async function x() {
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 20,
                                     "end": 28
                                 },
@@ -69,7 +69,7 @@ async function x() {
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 38,
                                         "end": 40
                                     },

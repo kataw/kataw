@@ -19,7 +19,7 @@ for (async of => {};;);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -27,7 +27,7 @@ for (async of => {};;);
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 13,
                     "end": 16
                 },

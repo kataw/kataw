@@ -22,7 +22,7 @@ var _𐒦 = 10;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -67,7 +67,7 @@ var _𐒦 = 10;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 13,
                 "end": 18
             },

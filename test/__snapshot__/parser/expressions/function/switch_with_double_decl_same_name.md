@@ -24,7 +24,7 @@ switch (0) {
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -43,7 +43,7 @@ switch (0) {
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 12,
                             "end": 19
                         },
@@ -62,7 +62,7 @@ switch (0) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 22,
                                     "end": 35
                                 },
@@ -112,7 +112,7 @@ switch (0) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 42,
                             "end": 52
                         },
@@ -123,7 +123,7 @@ switch (0) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 53,
                                     "end": 66
                                 },

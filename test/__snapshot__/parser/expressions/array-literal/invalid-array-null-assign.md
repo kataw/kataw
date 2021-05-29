@@ -44,8 +44,7 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 269,
-                                "text": null,
+                                "kind": 138477575,
                                 "flags": 96,
                                 "start": 1,
                                 "end": 5

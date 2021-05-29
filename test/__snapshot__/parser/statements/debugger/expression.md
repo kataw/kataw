@@ -38,7 +38,7 @@
             "kind": 171,
             "debuggerKeyword": {
                 "kind": 37757010,
-                "flags": 0,
+                "flags": 80,
                 "start": 1,
                 "end": 9
             },

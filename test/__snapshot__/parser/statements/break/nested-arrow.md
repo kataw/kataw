@@ -21,7 +21,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2,
                     "end": 5
                 },
@@ -44,7 +44,7 @@
                                             "kind": 150,
                                             "breakKeyword": {
                                                 "kind": 37757005,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 11,
                                                 "end": 17
                                             },

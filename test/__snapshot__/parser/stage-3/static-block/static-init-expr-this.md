@@ -31,7 +31,7 @@ class C {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -79,9 +79,9 @@ class C {
                                                     "end": 32
                                                 },
                                                 "right": {
-                                                    "kind": 135,
-                                                    "flags": 32,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 96,
+                                                    "start": 32,
                                                     "end": 37
                                                 },
                                                 "flags": 32,

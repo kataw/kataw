@@ -85,7 +85,7 @@
                         "declareKeyword": null,
                         "varKeyword": {
                             "kind": 37757002,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 29,
                             "end": 33
                         },

@@ -211,7 +211,7 @@ export function consumeToken<T extends TokenSyntaxKind>(
   if (parser.token === token) {
     const { curPos, token, nodeFlags } = parser;
     nextToken(parser, context);
-    return createToken(token, nodeFlags, curPos, parser.curPos);
+    return createToken(token, nodeFlags | NodeFlags.ChildLess, curPos, parser.curPos);
   }
 
   return null;
@@ -221,6 +221,7 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
   parser: ParserState,
   context: Context,
   token: T,
+  flag: NodeFlags,
   pos: number
 ): any {
   if (parser.token === token) {
@@ -234,8 +235,9 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
         parser.pos
       );
     }
+    parser.assignable = false;
     nextToken(parser, context);
-    return createToken(token, nodeFlags, pos, parser.curPos);
+    return createToken(token, flag | NodeFlags.ChildLess | nodeFlags, pos, parser.curPos);
   }
   return null;
 }

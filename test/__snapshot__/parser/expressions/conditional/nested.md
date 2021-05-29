@@ -68,7 +68,7 @@ z(z(z(a ? b : c++)));
                                                     },
                                                     "questionToken": {
                                                         "kind": 134217750,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 7,
                                                         "end": 9
                                                     },
@@ -82,7 +82,7 @@ z(z(z(a ? b : c++)));
                                                     },
                                                     "colonToken": {
                                                         "kind": 21,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 11,
                                                         "end": 13
                                                     },

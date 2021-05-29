@@ -32,7 +32,7 @@ var a: typeof A[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -87,7 +87,7 @@ var a: typeof A[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 16,
                 "end": 20
             },
@@ -154,7 +154,7 @@ var a: typeof A[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 34,
                 "end": 38
             },
@@ -227,7 +227,7 @@ var a: typeof A[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 54,
                 "end": 58
             },
@@ -303,7 +303,7 @@ var a: typeof A[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 77,
                 "end": 81
             },
@@ -329,7 +329,7 @@ var a: typeof A[];
                                     "kind": 134299891,
                                     "typeOfKeyword": {
                                         "kind": 138477613,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 84,
                                         "end": 91
                                     },

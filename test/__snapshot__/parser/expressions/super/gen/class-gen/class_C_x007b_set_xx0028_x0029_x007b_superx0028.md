@@ -24,7 +24,7 @@ class C { *method() { class C { set x(_) { super( } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -89,7 +89,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 21,
                                                     "end": 27
                                                 },
@@ -175,7 +175,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                                                             "kind": 225,
                                                                                             "superKeyword": {
                                                                                                 "kind": 4259935,
-                                                                                                "flags": 0,
+                                                                                                "flags": 96,
                                                                                                 "start": 42,
                                                                                                 "end": 48
                                                                                             },
@@ -278,7 +278,7 @@ class C { *method() { class C { set x(_) { super( } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 48, end: 49
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 42, end: 49
 ✖ Expected a ')' to match the '(' token here - start: 49, end: 51
 ✖ The parser expected to find a '}' to match the '{' token here - start: 53, end: 53
 

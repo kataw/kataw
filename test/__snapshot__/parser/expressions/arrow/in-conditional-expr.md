@@ -32,7 +32,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -42,7 +42,7 @@ x ? ( (a, {}) => {} ) : baz;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 12,
                             "end": 15
                         },
@@ -73,7 +73,7 @@ x ? ( (a, {}) => {} ) : baz;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 22,
                                 "end": 25
                             },
@@ -182,7 +182,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 37,
                     "end": 39
                 },
@@ -216,7 +216,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 46,
                     "end": 48
                 },
@@ -229,7 +229,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 57,
                                     "end": 60
                                 },
@@ -272,7 +272,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 70,
                                     "end": 73
                                 },
@@ -322,7 +322,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 77,
                     "end": 79
                 },
@@ -356,7 +356,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 86,
                     "end": 88
                 },
@@ -392,7 +392,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 105,
                                                     "end": 108
                                                 },
@@ -455,7 +455,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 114,
                     "end": 116
                 },
@@ -489,7 +489,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 123,
                     "end": 125
                 },
@@ -499,7 +499,7 @@ x ? ( (a, {}) => {} ) : baz;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 135,
                             "end": 138
                         },
@@ -556,7 +556,7 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 143,
                     "end": 145
                 },

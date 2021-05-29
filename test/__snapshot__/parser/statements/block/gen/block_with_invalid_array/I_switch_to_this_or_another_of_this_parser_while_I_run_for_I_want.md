@@ -63,7 +63,7 @@
                             "kind": 173,
                             "catchKeyword": {
                                 "kind": 4202575,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3,
                                 "end": 8
                             },
@@ -119,7 +119,7 @@
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 11,
                 "end": 18
             },
@@ -145,9 +145,9 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 21,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 96,
+                "start": 21,
                 "end": 26
             },
             "flags": 16,
@@ -199,9 +199,9 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 40,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 96,
+                "start": 40,
                 "end": 45
             },
             "flags": 16,
@@ -226,7 +226,7 @@
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 52,
                 "end": 58
             },
@@ -260,7 +260,7 @@
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 64,
                 "end": 68
             },

@@ -74,7 +74,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                     "kind": 161,
                                                     "returnKeyword": {
                                                         "kind": 37757022,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 11,
                                                         "end": 18
                                                     },
@@ -88,7 +88,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                         },
                                                         "functionKeyword": {
                                                             "kind": 37822554,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 24,
                                                             "end": 33
                                                         },
@@ -116,7 +116,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                             "kind": 225,
                                                                             "superKeyword": {
                                                                                 "kind": 4259935,
-                                                                                "flags": 0,
+                                                                                "flags": 96,
                                                                                 "start": 36,
                                                                                 "end": 41
                                                                             },
@@ -224,7 +224,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 41, end: 42
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 36, end: 42
 
 ```
 

@@ -21,7 +21,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -40,7 +40,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -101,7 +101,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 53,
                                                         "end": 56
                                                     },
@@ -124,12 +124,12 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                             "end": 44
                                                                         },
                                                                         "right": {
-                                                                            "kind": 203,
-                                                                            "chain": {
+                                                                            "kind": 129,
+                                                                            "member": {
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
                                                                                     "kind": 4259935,
-                                                                                    "flags": 0,
+                                                                                    "flags": 96,
                                                                                     "start": 45,
                                                                                     "end": 51
                                                                                 },
@@ -230,7 +230,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 51, end: 52
+✖ 'super' must be followed by an argument list or member access. - start: 45, end: 52
 ✖ Dot property must be an identifier - start: 51, end: 52
 ✖ The left hand side of the arrow is not destructible  - start: 53, end: 56
 

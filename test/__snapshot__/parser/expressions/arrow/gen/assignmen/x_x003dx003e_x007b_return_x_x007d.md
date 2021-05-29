@@ -40,7 +40,7 @@ x = x => { return x; } ;
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 5,
                         "end": 8
                     },
@@ -65,7 +65,7 @@ x = x => { return x; } ;
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 10,
                                         "end": 17
                                     },

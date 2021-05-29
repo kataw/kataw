@@ -43,7 +43,7 @@
                             "kind": 173,
                             "catchKeyword": {
                                 "kind": 4202575,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 1,
                                 "end": 7
                             },
@@ -58,7 +58,7 @@
                                             "kind": 159,
                                             "tryKeyword": {
                                                 "kind": 37757027,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 9,
                                                 "end": 13
                                             },

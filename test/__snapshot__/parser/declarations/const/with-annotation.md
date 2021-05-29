@@ -33,7 +33,7 @@ const {q}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 0,
                 "end": 6
             },
@@ -113,7 +113,7 @@ const {q}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 23,
                 "end": 30
             },
@@ -204,7 +204,7 @@ const {q}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 54,
                 "end": 61
             },

@@ -32,7 +32,7 @@ function *foo() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -68,7 +68,7 @@ function *foo() {
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 1,
+                                "flags": 65,
                                 "start": 17,
                                 "end": 25
                             },
@@ -96,7 +96,7 @@ function *foo() {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 31,
                                                         "end": 36
                                                     },
@@ -163,7 +163,7 @@ function *foo() {
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 49,
                                     "end": 51
                                 },
@@ -171,7 +171,7 @@ function *foo() {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 51,
                                         "end": 57
                                     },
@@ -191,7 +191,7 @@ function *foo() {
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 59,
                                     "end": 61
                                 },

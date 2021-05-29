@@ -22,7 +22,7 @@ do {} while (x) { function while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -36,7 +36,7 @@ do {} while (x) { function while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 11
             },
@@ -68,7 +68,7 @@ do {} while (x) { function while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 17,
                             "end": 26
                         },
@@ -106,7 +106,7 @@ do {} while (x) { function while
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 26,
                             "end": 32
                         },

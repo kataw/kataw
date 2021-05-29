@@ -37,7 +37,7 @@ label: class x {}
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 6
             },
@@ -47,7 +47,7 @@ label: class x {}
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 12
                 },

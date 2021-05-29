@@ -24,7 +24,7 @@ class C { constructor() { class C { get x) { super; } } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -84,7 +84,7 @@ class C { constructor() { class C { get x) { super; } } } }
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 25,
                                                     "end": 31
                                                 },
@@ -175,12 +175,12 @@ class C { constructor() { class C { get x) { super; } } } }
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 203,
-                            "chain": {
+                            "kind": 129,
+                            "member": {
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 44,
                                     "end": 50
                                 },
@@ -232,7 +232,7 @@ class C { constructor() { class C { get x) { super; } } } }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 42
-✖ 'super' must be followed by an argument list or member access. - start: 50, end: 51
+✖ 'super' must be followed by an argument list or member access. - start: 44, end: 51
 ✖ Dot property must be an identifier - start: 50, end: 51
 ✖ Declaration or statement expected - start: 53, end: 55
 ✖ Declaration or statement expected - start: 55, end: 57

@@ -24,7 +24,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -94,7 +94,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 39,
                                                 "end": 43
                                             },
@@ -159,7 +159,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                             "kind": 160,
                                                                                             "switchKeyword": {
                                                                                                 "kind": 37757024,
-                                                                                                "flags": 0,
+                                                                                                "flags": 80,
                                                                                                 "start": 57,
                                                                                                 "end": 64
                                                                                             },
@@ -178,7 +178,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                         "kind": 175,
                                                                                                         "caseKeyword": {
                                                                                                             "kind": 4194382,
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 80,
                                                                                                             "start": 70,
                                                                                                             "end": 75
                                                                                                         },
@@ -186,7 +186,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                             "kind": 229,
                                                                                                             "yieldKeyword": {
                                                                                                                 "kind": 8454253,
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 64,
                                                                                                                 "start": 75,
                                                                                                                 "end": 81
                                                                                                             },
@@ -202,7 +202,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                                 "kind": 150,
                                                                                                                 "breakKeyword": {
                                                                                                                     "kind": 37757005,
-                                                                                                                    "flags": 0,
+                                                                                                                    "flags": 80,
                                                                                                                     "start": 82,
                                                                                                                     "end": 88
                                                                                                                 },

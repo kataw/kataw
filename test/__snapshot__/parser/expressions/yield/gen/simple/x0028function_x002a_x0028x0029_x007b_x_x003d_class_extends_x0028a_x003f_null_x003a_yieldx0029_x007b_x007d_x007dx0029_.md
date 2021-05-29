@@ -27,7 +27,7 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1,
                         "end": 9
                     },
@@ -75,7 +75,7 @@
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 20,
                                                 "end": 26
                                             },
@@ -87,7 +87,7 @@
                                                     "kind": 279,
                                                     "extendsKeyword": {
                                                         "kind": 4194391,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 26,
                                                         "end": 34
                                                     },
@@ -110,15 +110,14 @@
                                                                 "end": 39
                                                             },
                                                             "consequent": {
-                                                                "kind": 269,
-                                                                "text": null,
+                                                                "kind": 138477575,
                                                                 "flags": 96,
                                                                 "start": 39,
                                                                 "end": 44
                                                             },
                                                             "colonToken": {
                                                                 "kind": 21,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 44,
                                                                 "end": 46
                                                             },
@@ -126,7 +125,7 @@
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 46,
                                                                     "end": 52
                                                                 },

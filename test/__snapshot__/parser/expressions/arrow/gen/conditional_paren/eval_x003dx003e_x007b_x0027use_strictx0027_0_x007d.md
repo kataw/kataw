@@ -32,7 +32,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 3,
                     "end": 5
                 },
@@ -46,7 +46,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 9,
                     "end": 11
                 },
@@ -56,7 +56,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 18,
                             "end": 21
                         },

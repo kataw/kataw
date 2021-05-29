@@ -50,7 +50,7 @@
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 5,
                             "end": 6
                         },
@@ -84,7 +84,7 @@
                             ],
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 10,
                                 "end": 11
                             },
@@ -94,7 +94,7 @@
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 11,
                                     "end": 20
                                 },

@@ -37,7 +37,7 @@
                                                 "kind": 164,
                                                 "ifKeyword": {
                                                     "kind": 37757019,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 5,
                                                     "end": 8
                                                 },
@@ -53,7 +53,7 @@
                                                     "kind": 160,
                                                     "switchKeyword": {
                                                         "kind": 37757024,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 10,
                                                         "end": 17
                                                     },
@@ -85,7 +85,7 @@
                                                 "kind": 154,
                                                 "whileKeyword": {
                                                     "kind": 37757028,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 17,
                                                     "end": 23
                                                 },

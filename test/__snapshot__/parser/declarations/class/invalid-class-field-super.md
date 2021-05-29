@@ -36,7 +36,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -77,7 +77,7 @@ class C { [super.bbb] = 0 };
                                     "kind": 225,
                                     "superKeyword": {
                                         "kind": 4259935,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 21
                                     },
@@ -126,7 +126,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 28,
                 "end": 35
             },
@@ -165,7 +165,7 @@ class C { [super.bbb] = 0 };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 48,
                                     "end": 51
                                 },
@@ -179,7 +179,7 @@ class C { [super.bbb] = 0 };
                                         "kind": 225,
                                         "superKeyword": {
                                             "kind": 4259935,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 51,
                                             "end": 57
                                         },
@@ -232,7 +232,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 64,
                 "end": 71
             },
@@ -271,7 +271,7 @@ class C { [super.bbb] = 0 };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 84,
                                     "end": 87
                                 },
@@ -283,7 +283,7 @@ class C { [super.bbb] = 0 };
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 90,
                                         "end": 93
                                     },
@@ -297,7 +297,7 @@ class C { [super.bbb] = 0 };
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 93,
                                                 "end": 99
                                             },
@@ -354,7 +354,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 106,
                 "end": 113
             },
@@ -387,7 +387,7 @@ class C { [super.bbb] = 0 };
                                         "kind": 225,
                                         "superKeyword": {
                                             "kind": 4259935,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 119,
                                             "end": 124
                                         },
@@ -463,13 +463,13 @@ class C { [super.bbb] = 0 };
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 22
 ✖ Duplicate identifier - start: 35, end: 37
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 57, end: 58
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 51, end: 58
 ✖ Duplicate identifier - start: 71, end: 73
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 99, end: 100
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 93, end: 100
 ✖ Duplicate identifier - start: 113, end: 115
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 124, end: 125
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 119, end: 125
 
 ```
 

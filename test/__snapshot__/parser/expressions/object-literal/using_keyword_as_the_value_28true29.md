@@ -50,8 +50,7 @@ s = {s: true}
                                     "end": 6
                                 },
                                 "right": {
-                                    "kind": 134,
-                                    "text": true,
+                                    "kind": 24752947,
                                     "flags": 96,
                                     "start": 7,
                                     "end": 12

@@ -67,6 +67,7 @@ function printStatements(node: any, printer: Printer, parentNode: any): any {
 
 function printStatementsWorker(node: any, printer: Printer, parentNode: any): any {
   const kind = node.kind;
+
   switch (kind) {
     case SyntaxKind.RootNode:
       return printRootNode(node.statements, printer, node);
@@ -189,6 +190,14 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printImportMeta(node, printer);
     case SyntaxKind.NewTarget:
       return printNewTarget(node, printer);
+    case SyntaxKind.ThisKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
+    case SyntaxKind.NullKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
+    case SyntaxKind.TrueKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
+    case SyntaxKind.FalseKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
     default:
       if (node.flags & NodeFlags.ExpressionNode) {
         return printExpressions(node, printer, parentNode);
@@ -207,6 +216,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printMethodDefinition(node, printer);
     case SyntaxKind.Identifier:
       return node.text;
+    case SyntaxKind.ThisKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
     case SyntaxKind.PrivateIdentifier:
       return node.text;
     case SyntaxKind.CoverInitializedName:
@@ -282,18 +293,18 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printClassDeclarationOrExpression(node, printer);
     case SyntaxKind.Elison:
       return '';
-    case SyntaxKind.BooleanLiteral:
-      return node.text ? 'true' : 'false';
+    case SyntaxKind.TrueKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
+    case SyntaxKind.FalseKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
     case SyntaxKind.StringLiteral:
       return printStringLiteral(node, { singleQuote: false });
     case SyntaxKind.NumericLiteral:
       return printNumericLiteral(node);
     case SyntaxKind.BigIntLiteral:
       return `${node.rawText}n`;
-    case SyntaxKind.ThisExpression:
-      return 'this';
-    case SyntaxKind.NullLiteral:
-      return 'null';
+    case SyntaxKind.NullKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
     case SyntaxKind.RegularExpressionLiteral:
       return node.text;
     case SyntaxKind.CommaOperator:

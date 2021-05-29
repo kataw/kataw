@@ -26,7 +26,7 @@ async function f(){ let y = x => await x; }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -80,7 +80,7 @@ async function f(){ let y = x => await x; }
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 29,
                                                 "end": 32
                                             },

@@ -45,7 +45,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 3,
                 "end": 4
             },
@@ -79,7 +79,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 8,
                     "end": 9
                 },
@@ -87,7 +87,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 9,
                         "end": 12
                     },
@@ -101,7 +101,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 43,
                         "end": 49
                     },
@@ -114,7 +114,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                     "kind": 169,
                                     "doKeyword": {
                                         "kind": 4202580,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 14,
                                         "end": 17
                                     },
@@ -128,7 +128,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                     },
                                     "whileKeyword": {
                                         "kind": 37757028,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 31,
                                         "end": 37
                                     },
@@ -136,7 +136,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                         "kind": 172,
                                         "continueKeyword": {
                                             "kind": 37757009,
-                                            "flags": 0,
+                                            "flags": 80,
                                             "start": 17,
                                             "end": 26
                                         },

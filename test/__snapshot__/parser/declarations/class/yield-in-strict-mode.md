@@ -30,7 +30,7 @@ function* f() { class C { aaa = yield } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -68,7 +68,7 @@ function* f() { class C { aaa = yield } }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 15,
                                 "end": 21
                             },
@@ -107,7 +107,7 @@ function* f() { class C { aaa = yield } }
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 31,
                                                     "end": 37
                                                 },

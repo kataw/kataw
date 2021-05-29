@@ -36,8 +36,7 @@
                                     "end": 5
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 6,
                                     "end": 11

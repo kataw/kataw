@@ -64,7 +64,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 10,
                     "end": 12
                 },
@@ -145,7 +145,7 @@ a = b => { let b; };
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 20,
                         "end": 23
                     },
@@ -252,7 +252,7 @@ a = b => { let b; };
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 43,
                             "end": 49
                         },
@@ -307,7 +307,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 68,
                     "end": 71
                 },
@@ -370,7 +370,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 78,
                     "end": 81
                 },
@@ -395,7 +395,7 @@ a = b => { let b; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 81,
                                     "end": 87
                                 },
@@ -457,7 +457,7 @@ a = b => { let b; };
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 99,
                                         "end": 102
                                     },
@@ -521,7 +521,7 @@ a = b => { let b; };
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 116,
                                                             "end": 119
                                                         },
@@ -546,7 +546,7 @@ a = b => { let b; };
                                                                         "kind": 162,
                                                                         "lexicalKeyword": {
                                                                             "kind": 37757004,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 121,
                                                                             "end": 127
                                                                         },
@@ -602,7 +602,7 @@ a = b => { let b; };
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 140,
                                                             "end": 143
                                                         },
@@ -632,7 +632,7 @@ a = b => { let b; };
                                                                         "kind": 162,
                                                                         "lexicalKeyword": {
                                                                             "kind": 37757004,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 145,
                                                                             "end": 151
                                                                         },
@@ -688,7 +688,7 @@ a = b => { let b; };
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 158,
                                                             "end": 161
                                                         },
@@ -801,7 +801,7 @@ a = b => { let b; };
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 181,
                                                             "end": 184
                                                         },
@@ -914,7 +914,7 @@ a = b => { let b; };
                                                             "kind": 271,
                                                             "arrowToken": {
                                                                 "kind": 10,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 203,
                                                                 "end": 206
                                                             },
@@ -1124,7 +1124,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 256,
                     "end": 259
                 },
@@ -1209,7 +1209,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 273,
                     "end": 276
                 },
@@ -1277,7 +1277,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 293,
                     "end": 296
                 },
@@ -1353,7 +1353,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 313,
                     "end": 316
                 },
@@ -1431,7 +1431,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 336,
                     "end": 339
                 },
@@ -1515,7 +1515,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 356,
                     "end": 359
                 },
@@ -1594,7 +1594,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 373,
                     "end": 376
                 },
@@ -1652,7 +1652,7 @@ a = b => { let b; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 378,
                                     "end": 384
                                 },
@@ -1731,7 +1731,7 @@ a = b => { let b; };
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 401,
                         "end": 404
                     },
@@ -1816,7 +1816,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 432,
                     "end": 435
                 },
@@ -1910,7 +1910,7 @@ a = b => { let b; };
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 460,
                     "end": 463
                 },

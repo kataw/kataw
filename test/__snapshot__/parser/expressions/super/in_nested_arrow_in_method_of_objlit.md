@@ -74,7 +74,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                     "kind": 161,
                                                     "returnKeyword": {
                                                         "kind": 37757022,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 10,
                                                         "end": 17
                                                     },
@@ -82,7 +82,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 20,
                                                             "end": 23
                                                         },
@@ -95,7 +95,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 23,
                                                                 "end": 32
                                                             },
@@ -123,7 +123,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 0,
+                                                                                        "flags": 96,
                                                                                         "start": 36,
                                                                                         "end": 42
                                                                                     },
@@ -224,7 +224,7 @@ x={ foo(){ return () => function() { super.foo; } }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 42, end: 43
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 36, end: 43
 
 ```
 

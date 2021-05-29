@@ -29,7 +29,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 0,
                     "end": 6
                 },
@@ -41,7 +41,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 16,
                                 "end": 19
                             },

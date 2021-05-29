@@ -25,7 +25,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -33,7 +33,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 7,
                     "end": 12
                 },
@@ -41,7 +41,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 12,
                         "end": 16
                     },
@@ -61,7 +61,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 25,
                                     "end": 33
                                 },
@@ -193,7 +193,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 59,
                                 "end": 65
                             },

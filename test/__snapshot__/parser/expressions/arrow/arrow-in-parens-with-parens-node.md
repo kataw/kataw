@@ -20,7 +20,7 @@ var asserted1 = <any>((n) => { return n; });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -100,7 +100,7 @@ var asserted1 = <any>((n) => { return n; });
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 25,
                             "end": 28
                         },
@@ -127,7 +127,7 @@ var asserted1 = <any>((n) => { return n; });
                                         "kind": 161,
                                         "returnKeyword": {
                                             "kind": 37757022,
-                                            "flags": 0,
+                                            "flags": 80,
                                             "start": 30,
                                             "end": 37
                                         },

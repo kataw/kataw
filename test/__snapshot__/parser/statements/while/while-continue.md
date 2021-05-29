@@ -19,13 +19,12 @@ while (true) { continue /* Multiline\nComment */there; }
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
             "expression": {
-                "kind": 134,
-                "text": true,
+                "kind": 24752947,
                 "flags": 96,
                 "start": 7,
                 "end": 11
@@ -39,7 +38,7 @@ while (true) { continue /* Multiline\nComment */there; }
                             "kind": 172,
                             "continueKeyword": {
                                 "kind": 37757009,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 14,
                                 "end": 23
                             },

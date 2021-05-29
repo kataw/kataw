@@ -29,7 +29,7 @@
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3,
                                     "end": 6
                                 },
@@ -45,7 +45,7 @@
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 7,
                                         "end": 9
                                     },
@@ -59,7 +59,7 @@
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 11,
                                         "end": 13
                                     },
@@ -121,7 +121,7 @@
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 25,
                                             "end": 28
                                         },
@@ -137,7 +137,7 @@
                                             },
                                             "questionToken": {
                                                 "kind": 134217750,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 29,
                                                 "end": 31
                                             },
@@ -151,7 +151,7 @@
                                             },
                                             "colonToken": {
                                                 "kind": 21,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 33,
                                                 "end": 35
                                             },

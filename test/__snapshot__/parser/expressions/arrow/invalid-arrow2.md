@@ -187,7 +187,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 50,
                     "end": 53
                 },
@@ -300,7 +300,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 90,
                     "end": 94
                 },
@@ -323,9 +323,9 @@
                                         "end": 82
                                     },
                                     "right": {
-                                        "kind": 135,
-                                        "flags": 83,
-                                        "start": 96,
+                                        "kind": 4276321,
+                                        "flags": 96,
+                                        "start": 83,
                                         "end": 88
                                     },
                                     "flags": 32,
@@ -373,7 +373,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 114,
                     "end": 117
                 },
@@ -914,7 +914,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 268,
                     "end": 271
                 },
@@ -1070,7 +1070,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 308,
                     "end": 311
                 },
@@ -1125,8 +1125,7 @@
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 269,
-                    "text": null,
+                    "kind": 138477575,
                     "flags": 96,
                     "start": 311,
                     "end": 316

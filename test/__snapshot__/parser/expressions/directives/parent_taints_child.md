@@ -21,7 +21,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -77,7 +77,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 32,
                                 "end": 41
                             },
@@ -108,7 +108,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                             "kind": 153,
                                             "withKeyword": {
                                                 "kind": 37757029,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 47,
                                                 "end": 52
                                             },

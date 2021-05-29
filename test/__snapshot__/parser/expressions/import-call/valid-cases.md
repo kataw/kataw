@@ -33,7 +33,7 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 0,
                     "end": 7
                 },
@@ -59,7 +59,7 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 11,
                     "end": 19
                 },
@@ -85,7 +85,7 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 25,
                     "end": 33
                 },
@@ -111,7 +111,7 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 37,
                     "end": 45
                 },
@@ -157,7 +157,7 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 51,
                     "end": 59
                 },
@@ -167,7 +167,7 @@ import(x).then();
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 60,
                             "end": 66
                         },
@@ -205,7 +205,7 @@ import(x).then();
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 71,
                             "end": 79
                         },

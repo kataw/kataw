@@ -20,7 +20,7 @@ for (a?.b of c);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -28,7 +28,7 @@ for (a?.b of c);
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },

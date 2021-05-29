@@ -22,7 +22,7 @@ a?.b?.c?.(d)?.[e].f?.g
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 19,
                     "end": 21
                 },
@@ -30,7 +30,7 @@ a?.b?.c?.(d)?.[e].f?.g
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 12,
                         "end": 14
                     },
@@ -38,7 +38,7 @@ a?.b?.c?.(d)?.[e].f?.g
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 7,
                             "end": 9
                         },
@@ -46,7 +46,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 4,
                                 "end": 6
                             },
@@ -54,7 +54,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1,
                                     "end": 3
                                 },

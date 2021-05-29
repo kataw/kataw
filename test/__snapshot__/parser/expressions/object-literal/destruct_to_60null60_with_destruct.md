@@ -54,8 +54,7 @@ s = {"foo": null = x} = x
                                     "right": {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 269,
-                                            "text": null,
+                                            "kind": 138477575,
                                             "flags": 96,
                                             "start": 11,
                                             "end": 16

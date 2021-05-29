@@ -28,7 +28,7 @@ class x extends y {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -47,7 +47,7 @@ class x extends y {
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -108,7 +108,7 @@ class x extends y {
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 56,
                                                         "end": 59
                                                     },
@@ -131,12 +131,12 @@ class x extends y {
                                                                             "end": 47
                                                                         },
                                                                         "right": {
-                                                                            "kind": 203,
-                                                                            "chain": {
+                                                                            "kind": 129,
+                                                                            "member": {
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
                                                                                     "kind": 4259935,
-                                                                                    "flags": 0,
+                                                                                    "flags": 96,
                                                                                     "start": 48,
                                                                                     "end": 54
                                                                                 },
@@ -237,7 +237,7 @@ class x extends y {
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 54, end: 55
+✖ 'super' must be followed by an argument list or member access. - start: 48, end: 55
 ✖ Dot property must be an identifier - start: 54, end: 55
 ✖ The left hand side of the arrow is not destructible  - start: 56, end: 59
 

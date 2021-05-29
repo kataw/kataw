@@ -22,7 +22,7 @@ function f(x=super.foo){ }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -57,7 +57,7 @@ function f(x=super.foo){ }
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -126,7 +126,7 @@ function f(x=super.foo){ }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 18, end: 19
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 13, end: 19
 
 ```
 

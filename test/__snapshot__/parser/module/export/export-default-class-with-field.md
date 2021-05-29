@@ -31,13 +31,13 @@ export default class {
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 14
             },
@@ -47,7 +47,7 @@ export default class {
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 14,
                     "end": 20
                 },
@@ -151,9 +151,9 @@ export default class {
                             "left": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 135,
-                                    "flags": 49,
-                                    "start": 97,
+                                    "kind": 4276321,
+                                    "flags": 97,
+                                    "start": 49,
                                     "end": 58
                                 },
                                 "expression": {

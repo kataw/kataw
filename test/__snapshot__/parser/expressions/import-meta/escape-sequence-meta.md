@@ -27,13 +27,13 @@ import.m\u0065ta;
                 "kind": 207,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 0,
                     "end": 6
                 },
                 "metaIdentifier": {
                     "kind": 16595,
-                    "flags": 16384,
+                    "flags": 16448,
                     "start": 7,
                     "end": 16
                 },

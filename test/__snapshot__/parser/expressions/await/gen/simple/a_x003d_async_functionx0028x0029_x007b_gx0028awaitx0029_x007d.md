@@ -46,7 +46,7 @@ a = async function() { g(await) }
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 9,
                         "end": 18
                     },
@@ -85,7 +85,7 @@ a = async function() { g(await) }
                                                     "kind": 208,
                                                     "awaitKeyword": {
                                                         "kind": 82196,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 25,
                                                         "end": 30
                                                     },

@@ -22,7 +22,7 @@ async () => {  impo\u0072t = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -45,7 +45,7 @@ async () => {  impo\u0072t = x  }
                             "kind": 263,
                             "importKeyword": {
                                 "kind": 37814364,
-                                "flags": 16384,
+                                "flags": 16464,
                                 "start": 13,
                                 "end": 26
                             },

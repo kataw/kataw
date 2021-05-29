@@ -67,8 +67,7 @@
                                                     "end": 5
                                                 },
                                                 "right": {
-                                                    "kind": 134,
-                                                    "text": true,
+                                                    "kind": 24752947,
                                                     "flags": 96,
                                                     "start": 5,
                                                     "end": 10
@@ -94,8 +93,7 @@
                                     "end": 13
                                 },
                                 "right": {
-                                    "kind": 134,
-                                    "text": true,
+                                    "kind": 24752947,
                                     "flags": 96,
                                     "start": 13,
                                     "end": 18

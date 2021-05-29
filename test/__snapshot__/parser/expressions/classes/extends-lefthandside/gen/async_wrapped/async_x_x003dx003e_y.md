@@ -33,7 +33,7 @@ x => y {}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -66,7 +66,7 @@ x => y {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 19,
                                 "end": 27
                             },
@@ -85,7 +85,7 @@ x => y {}
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 29,
                                         "end": 37
                                     },
@@ -123,7 +123,7 @@ x => y {}
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 45,
                                     "end": 48
                                 },

@@ -29,7 +29,7 @@ function fn(x = await 1) {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function fn(x = await 1) {
                             "kind": 208,
                             "awaitKeyword": {
                                 "kind": 82196,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 15,
                                 "end": 21
                             },
@@ -98,7 +98,7 @@ function fn(x = await 1) {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 26,
                                 "end": 35
                             },

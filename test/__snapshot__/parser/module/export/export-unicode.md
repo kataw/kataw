@@ -25,7 +25,7 @@ export {𐀀 as x} from 'path'
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -78,7 +78,7 @@ export {𐀀 as x} from 'path'
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 16,
                     "end": 21
                 },

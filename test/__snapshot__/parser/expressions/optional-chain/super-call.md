@@ -25,7 +25,7 @@ class x extends y {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -44,7 +44,7 @@ class x extends y {
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -105,19 +105,32 @@ class x extends y {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 47,
                                                         "end": 49
                                                     },
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 1,
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 225,
+                                                            "superKeyword": {
+                                                                "kind": 4259935,
+                                                                "flags": 97,
+                                                                "start": 37,
+                                                                "end": 47
+                                                            },
+                                                            "flags": 96,
                                                             "start": 37,
                                                             "end": 47
                                                         },
-                                                        "flags": 96,
+                                                        "expression": {
+                                                            "kind": 16637,
+                                                            "text": "",
+                                                            "flags": 64,
+                                                            "start": 47,
+                                                            "end": 47
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 37,
                                                         "end": 47
                                                     },
@@ -208,8 +221,8 @@ class x extends y {
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 47, end: 49
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 47, end: 49
+✖ 'super' must be followed by an argument list or member access. - start: 37, end: 49
+✖ Dot property must be an identifier - start: 47, end: 49
 
 ```
 

@@ -31,7 +31,7 @@ import {'' as x} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -39,7 +39,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 18,
                     "end": 23
                 },
@@ -115,7 +115,7 @@ import {'' as x} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 30,
                 "end": 38
             },
@@ -123,7 +123,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 51,
                     "end": 56
                 },
@@ -199,7 +199,7 @@ import {'' as x} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 63,
                 "end": 71
             },
@@ -207,7 +207,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 93,
                     "end": 98
                 },
@@ -283,7 +283,7 @@ import {'' as x} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 105,
                 "end": 113
             },
@@ -291,7 +291,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 123,
                     "end": 128
                 },

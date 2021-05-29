@@ -55,7 +55,7 @@
                         "catchClause": null,
                         "finallyKeyword": {
                             "kind": 37757016,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 12
                         },
@@ -104,12 +104,12 @@
                                 {
                                     "kind": 120,
                                     "expression": {
-                                        "kind": 203,
-                                        "chain": {
+                                        "kind": 129,
+                                        "member": {
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 17,
                                                 "end": 23
                                             },
@@ -171,7 +171,7 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
-✖ 'super' must be followed by an argument list or member access. - start: 23, end: 23
+✖ 'super' must be followed by an argument list or member access. - start: 17, end: 23
 ✖ Dot property must be an identifier - start: 23, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 23
 

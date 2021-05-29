@@ -20,7 +20,7 @@ var foo = async ([...(foo)]);
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -61,7 +61,7 @@ var foo = async ([...(foo)]);
                                                     "kind": 223,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 18,
                                                         "end": 21
                                                     },

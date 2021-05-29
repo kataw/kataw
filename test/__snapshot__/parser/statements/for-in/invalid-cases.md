@@ -159,7 +159,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -233,7 +233,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 22,
                 "end": 27
             },
@@ -307,7 +307,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 39,
                 "end": 44
             },
@@ -359,7 +359,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 56,
                 "end": 61
             },
@@ -455,7 +455,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 97,
                 "end": 102
             },
@@ -536,7 +536,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 136,
                 "end": 141
             },
@@ -611,7 +611,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 159,
                 "end": 164
             },
@@ -714,7 +714,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 184,
                 "end": 189
             },
@@ -727,7 +727,7 @@ for ({}.bar = x in obj);
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 192,
                                 "end": 195
                             },
@@ -802,7 +802,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 208,
                 "end": 213
             },
@@ -856,7 +856,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 221,
                 "end": 226
             },
@@ -984,7 +984,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 251,
                 "end": 256
             },
@@ -1135,7 +1135,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 287,
                 "end": 292
             },
@@ -1148,7 +1148,7 @@ for ({}.bar = x in obj);
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 295,
                                 "end": 298
                             },
@@ -1243,7 +1243,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 315,
                 "end": 320
             },
@@ -1313,7 +1313,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 333,
                 "end": 338
             },
@@ -1393,7 +1393,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 353,
                 "end": 358
             },
@@ -1510,7 +1510,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 395,
                 "end": 399
             },
@@ -1557,7 +1557,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 413,
                 "end": 418
             },
@@ -1624,7 +1624,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 435,
                 "end": 440
             },
@@ -1704,7 +1704,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 455,
                 "end": 460
             },
@@ -1785,7 +1785,7 @@ for ({}.bar = x in obj);
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 480,
                     "end": 481
                 },
@@ -1795,7 +1795,7 @@ for ({}.bar = x in obj);
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 481,
                         "end": 490
                     },
@@ -1848,7 +1848,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 496,
                 "end": 501
             },
@@ -1905,7 +1905,7 @@ for ({}.bar = x in obj);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 516,
                 "end": 521
             },
@@ -1963,7 +1963,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 536,
                 "end": 541
             },
@@ -2016,7 +2016,7 @@ for ({}.bar = x in obj);
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 555,
                                 "end": 559
                             },
@@ -2066,7 +2066,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 564,
                 "end": 569
             },
@@ -2119,7 +2119,7 @@ for ({}.bar = x in obj);
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 585,
                                 "end": 589
                             },
@@ -2169,7 +2169,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 594,
                 "end": 599
             },
@@ -2265,22 +2265,21 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 619,
                 "end": 624
             },
             "initializer": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 134,
-                    "text": true,
+                    "kind": 24752947,
                     "flags": 96,
                     "start": 626,
                     "end": 630
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 630,
                     "end": 632
                 },
@@ -2294,7 +2293,7 @@ for ({}.bar = x in obj);
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 634,
                     "end": 636
                 },
@@ -2338,8 +2337,7 @@ for ({}.bar = x in obj);
             },
             "condition": null,
             "incrementor": {
-                "kind": 134,
-                "text": false,
+                "kind": 205586437,
                 "flags": 96,
                 "start": 645,
                 "end": 651
@@ -2348,7 +2346,7 @@ for ({}.bar = x in obj);
                 "kind": 165,
                 "forKeyword": {
                     "kind": 37757017,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 654,
                     "end": 659
                 },
@@ -2445,7 +2443,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 673,
                 "end": 678
             },
@@ -2538,7 +2536,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 698,
                 "end": 703
             },
@@ -2641,7 +2639,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 720,
                 "end": 725
             },
@@ -2710,7 +2708,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 736,
                 "end": 741
             },
@@ -2800,7 +2798,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 761,
                 "end": 766
             },
@@ -2887,7 +2885,7 @@ for ({}.bar = x in obj);
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 789,
                     "end": 790
                 },
@@ -2929,7 +2927,7 @@ for ({}.bar = x in obj);
                     ],
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 797,
                         "end": 798
                     },
@@ -2939,7 +2937,7 @@ for ({}.bar = x in obj);
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 798,
                             "end": 807
                         },
@@ -2996,7 +2994,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 814,
                 "end": 819
             },
@@ -3114,7 +3112,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 838,
                 "end": 843
             },
@@ -3180,7 +3178,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 860,
                 "end": 865
             },
@@ -3254,7 +3252,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 880,
                 "end": 885
             },
@@ -3357,7 +3355,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 904,
                 "end": 909
             },
@@ -3460,7 +3458,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 926,
                 "end": 931
             },
@@ -3549,7 +3547,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 947,
                 "end": 952
             },
@@ -3629,7 +3627,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 967,
                 "end": 972
             },
@@ -3701,7 +3699,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 988,
                 "end": 993
             },
@@ -3758,7 +3756,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1004,
                 "end": 1009
             },
@@ -3773,7 +3771,7 @@ for ({}.bar = x in obj);
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1012,
                                     "end": 1015
                                 },
@@ -3880,7 +3878,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1031,
                 "end": 1036
             },
@@ -4029,7 +4027,7 @@ for ({}.bar = x in obj);
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1061,
                 "end": 1071
             },
@@ -4065,7 +4063,7 @@ for ({}.bar = x in obj);
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 1077,
                                 "end": 1083
                             },
@@ -4073,7 +4071,7 @@ for ({}.bar = x in obj);
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1085,
                                     "end": 1090
                                 },
@@ -4154,7 +4152,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1108,
                 "end": 1113
             },
@@ -4180,7 +4178,7 @@ for ({}.bar = x in obj);
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1137,
                                         "end": 1139
                                     },
@@ -4401,7 +4399,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1162,
                 "end": 1167
             },
@@ -4425,7 +4423,7 @@ for ({}.bar = x in obj);
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1191,
                                     "end": 1193
                                 },
@@ -4628,7 +4626,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1211,
                 "end": 1216
             },
@@ -4714,7 +4712,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1238,
                 "end": 1243
             },
@@ -4782,7 +4780,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1259,
                 "end": 1264
             },
@@ -4858,7 +4856,7 @@ for ({}.bar = x in obj);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 1293,
                 "end": 1297
             },
@@ -4978,7 +4976,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1327,
                 "end": 1332
             },
@@ -5054,7 +5052,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1354,
                 "end": 1359
             },
@@ -5156,7 +5154,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1386,
                 "end": 1391
             },
@@ -5275,7 +5273,7 @@ for ({}.bar = x in obj);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1421,
                 "end": 1426
             },
@@ -5378,7 +5376,7 @@ for ({}.bar = x in obj);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1453,
                 "end": 1458
             },
@@ -5498,7 +5496,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1488,
                 "end": 1493
             },
@@ -5599,7 +5597,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1522,
                 "end": 1527
             },
@@ -5686,7 +5684,7 @@ for ({}.bar = x in obj);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1547,
                 "end": 1552
             },
@@ -5788,7 +5786,7 @@ for ({}.bar = x in obj);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1581,
                 "end": 1586
             },
@@ -5876,7 +5874,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1606,
                 "end": 1611
             },
@@ -5908,7 +5906,7 @@ for ({}.bar = x in obj);
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1617,
                         "end": 1618
                     },
@@ -5964,7 +5962,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1628,
                 "end": 1633
             },
@@ -5996,7 +5994,7 @@ for ({}.bar = x in obj);
                         },
                         "questionToken": {
                             "kind": 134217750,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 1644,
                             "end": 1645
                         },
@@ -6010,7 +6008,7 @@ for ({}.bar = x in obj);
                         },
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 1646,
                             "end": 1647
                         },
@@ -6090,7 +6088,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1661,
                 "end": 1666
             },
@@ -6170,7 +6168,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1681,
                 "end": 1686
             },
@@ -6244,7 +6242,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1701,
                 "end": 1706
             },
@@ -6324,7 +6322,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1722,
                 "end": 1727
             },
@@ -6413,7 +6411,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1745,
                 "end": 1750
             },
@@ -6531,7 +6529,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1773,
                 "end": 1778
             },
@@ -6655,7 +6653,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1803,
                 "end": 1808
             },
@@ -6737,7 +6735,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1828,
                 "end": 1833
             },
@@ -6819,7 +6817,7 @@ for ({}.bar = x in obj);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1855,
                 "end": 1860
             },
@@ -6909,7 +6907,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1881,
                 "end": 1886
             },
@@ -7003,7 +7001,7 @@ for ({}.bar = x in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1907,
                 "end": 1912
             },

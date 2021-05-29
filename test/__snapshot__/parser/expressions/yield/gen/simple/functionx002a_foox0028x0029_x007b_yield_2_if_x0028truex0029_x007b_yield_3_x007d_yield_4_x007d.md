@@ -24,7 +24,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 17,
                                     "end": 23
                                 },
@@ -88,13 +88,12 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             "kind": 164,
                             "ifKeyword": {
                                 "kind": 37757019,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 26,
                                 "end": 29
                             },
                             "expression": {
-                                "kind": 134,
-                                "text": true,
+                                "kind": 24752947,
                                 "flags": 96,
                                 "start": 31,
                                 "end": 35
@@ -110,7 +109,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 38,
                                                     "end": 44
                                                 },
@@ -159,7 +158,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 49,
                                     "end": 55
                                 },

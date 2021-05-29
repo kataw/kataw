@@ -28,7 +28,7 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -92,7 +92,7 @@ class A {
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 1,
+                                                                "flags": 97,
                                                                 "start": 27,
                                                                 "end": 37
                                                             },
@@ -190,7 +190,7 @@ class A {
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 1,
+                                                                "flags": 97,
                                                                 "start": 70,
                                                                 "end": 80
                                                             },

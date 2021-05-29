@@ -26,8 +26,7 @@ null = 42;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 269,
-                    "text": null,
+                    "kind": 138477575,
                     "flags": 96,
                     "start": 0,
                     "end": 4

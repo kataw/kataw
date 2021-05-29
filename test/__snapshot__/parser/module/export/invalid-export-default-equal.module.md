@@ -25,13 +25,13 @@ export default = 42
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 14
             },
@@ -86,6 +86,7 @@ export default = 42
 
 ```javascript
 ✖ Identifier expected - start: 14, end: 16
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 14, end: 16
 
 ```
 

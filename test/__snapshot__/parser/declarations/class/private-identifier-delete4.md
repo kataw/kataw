@@ -24,7 +24,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 6
             },
@@ -117,9 +117,9 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                     "operand": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 33,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 96,
+                                                            "start": 33,
                                                             "end": 38
                                                         },
                                                         "expression": {
@@ -177,7 +177,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 47,
                 "end": 54
             },
@@ -271,14 +271,14 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "kind": 205,
                                                         "chainToken": {
                                                             "kind": 393240,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 86,
                                                             "end": 88
                                                         },
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 81,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 96,
+                                                            "start": 81,
                                                             "end": 86
                                                         },
                                                         "chain": {

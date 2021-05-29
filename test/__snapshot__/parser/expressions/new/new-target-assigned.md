@@ -21,7 +21,7 @@ function f(){ foo = new.target }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -70,13 +70,13 @@ function f(){ foo = new.target }
                                     "kind": 211,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 19,
                                         "end": 23
                                     },
                                     "targetIdentifier": {
                                         "kind": 16594,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 24,
                                         "end": 30
                                     },

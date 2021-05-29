@@ -25,7 +25,7 @@ export * from "foo";
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -35,7 +35,7 @@ export * from "foo";
                 "kind": 259,
                 "asteriskToken": {
                     "kind": 67143222,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -50,7 +50,7 @@ export * from "foo";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 8,
                     "end": 13
                 },

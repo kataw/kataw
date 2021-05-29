@@ -24,7 +24,7 @@
                         "kind": 150,
                         "breakKeyword": {
                             "kind": 37757005,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1,
                             "end": 7
                         },

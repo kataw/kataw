@@ -37,7 +37,7 @@ x: y;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 1,
                 "end": 2
             },

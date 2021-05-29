@@ -21,7 +21,7 @@ function *g(){ (x = [yield y]) }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -82,7 +82,7 @@ function *g(){ (x = [yield y]) }
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 21,
                                                         "end": 26
                                                     },

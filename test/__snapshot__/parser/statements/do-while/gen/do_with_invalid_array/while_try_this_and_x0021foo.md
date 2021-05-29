@@ -22,7 +22,7 @@ do while [catch] while try this and !foo
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -38,7 +38,7 @@ do while [catch] while try this and !foo
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 8
                 },
@@ -76,7 +76,7 @@ do while [catch] while try this and !foo
                         "kind": 173,
                         "catchKeyword": {
                             "kind": 4202575,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 10,
                             "end": 15
                         },
@@ -117,7 +117,7 @@ do while [catch] while try this and !foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 16,
                 "end": 22
             },
@@ -132,7 +132,7 @@ do while [catch] while try this and !foo
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 22,
                     "end": 26
                 },
@@ -175,9 +175,9 @@ do while [catch] while try this and !foo
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 26,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 96,
+                "start": 26,
                 "end": 31
             },
             "flags": 16,

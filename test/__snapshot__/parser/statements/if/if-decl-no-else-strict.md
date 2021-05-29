@@ -25,13 +25,12 @@ if (true) function f() {  }
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
             "expression": {
-                "kind": 134,
-                "text": true,
+                "kind": 24752947,
                 "flags": 96,
                 "start": 4,
                 "end": 8
@@ -42,7 +41,7 @@ if (true) function f() {  }
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 9,
                     "end": 18
                 },

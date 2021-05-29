@@ -29,7 +29,7 @@ class x extends super.foo {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -48,7 +48,7 @@ class x extends super.foo {}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -58,7 +58,7 @@ class x extends super.foo {}
                             "kind": 225,
                             "superKeyword": {
                                 "kind": 4259935,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 21
                             },
@@ -117,7 +117,7 @@ class x extends super.foo {}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 22
 
 ```
 

@@ -31,7 +31,7 @@ var await;
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 0,
                     "end": 6
                 },
@@ -64,7 +64,7 @@ var await;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 6,
                 "end": 7
             },
@@ -84,7 +84,7 @@ var await;
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 16385,
+                    "flags": 16449,
                     "start": 9,
                     "end": 22
                 },
@@ -117,7 +117,7 @@ var await;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 22,
                 "end": 23
             },
@@ -136,7 +136,7 @@ var await;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 25,
                 "end": 30
             },

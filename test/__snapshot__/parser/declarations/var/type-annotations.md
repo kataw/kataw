@@ -37,7 +37,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -138,7 +138,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 25,
                 "end": 29
             },
@@ -272,7 +272,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 55,
                 "end": 59
             },
@@ -448,7 +448,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 95,
                 "end": 99
             },
@@ -503,7 +503,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 113,
                 "end": 117
             },
@@ -570,7 +570,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 132,
                 "end": 136
             },
@@ -662,7 +662,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 157,
                 "end": 161
             },
@@ -774,7 +774,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 199,
                 "end": 203
             },
@@ -798,7 +798,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "kind": 134299891,
                                 "typeOfKeyword": {
                                     "kind": 138477613,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 207,
                                     "end": 214
                                 },
@@ -851,7 +851,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 221,
                 "end": 225
             },
@@ -878,7 +878,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "kind": 134299891,
                                         "typeOfKeyword": {
                                             "kind": 138477613,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 229,
                                             "end": 236
                                         },
@@ -942,7 +942,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 252,
                 "end": 256
             },

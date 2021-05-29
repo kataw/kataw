@@ -30,7 +30,7 @@
                                     "declareKeyword": null,
                                     "varKeyword": {
                                         "kind": 37757002,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 3,
                                         "end": 7
                                     },
@@ -83,7 +83,7 @@
                         },
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 17,
                             "end": 26
                         },

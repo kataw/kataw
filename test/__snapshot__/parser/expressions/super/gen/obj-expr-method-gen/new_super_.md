@@ -70,17 +70,17 @@
                                                         "kind": 210,
                                                         "newKeyword": {
                                                             "kind": 138477661,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 14,
                                                             "end": 18
                                                         },
                                                         "expression": {
-                                                            "kind": 203,
-                                                            "chain": {
+                                                            "kind": 129,
+                                                            "member": {
                                                                 "kind": 225,
                                                                 "superKeyword": {
                                                                     "kind": 4259935,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 18,
                                                                     "end": 24
                                                                 },
@@ -162,7 +162,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 24, end: 25
+✖ 'super' must be followed by an argument list or member access. - start: 18, end: 25
 ✖ Dot property must be an identifier - start: 24, end: 25
 
 ```

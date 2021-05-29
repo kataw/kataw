@@ -38,7 +38,7 @@ for (const x in obj) { var x = 13 }
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -91,7 +91,7 @@ for (const x in obj) { var x = 13 }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 22,
                                 "end": 26
                             },

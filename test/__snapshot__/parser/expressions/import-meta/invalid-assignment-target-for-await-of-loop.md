@@ -34,7 +34,7 @@ async function* f() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -70,7 +70,7 @@ async function* f() {
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 21,
                                 "end": 29
                             },
@@ -86,13 +86,13 @@ async function* f() {
                                     "kind": 207,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 37,
                                         "end": 43
                                     },
                                     "metaIdentifier": {
                                         "kind": 16595,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 44,
                                         "end": 48
                                     },
@@ -106,13 +106,12 @@ async function* f() {
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 48,
                                 "end": 51
                             },
                             "expression": {
-                                "kind": 269,
-                                "text": null,
+                                "kind": 138477575,
                                 "flags": 96,
                                 "start": 51,
                                 "end": 56

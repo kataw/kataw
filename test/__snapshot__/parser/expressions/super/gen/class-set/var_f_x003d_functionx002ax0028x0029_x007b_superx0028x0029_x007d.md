@@ -24,7 +24,7 @@ class C { set x(_) { var f = function*() { super(); } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -107,7 +107,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 20,
                                                     "end": 24
                                                 },
@@ -131,7 +131,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                 "asyncKeyword": null,
                                                                 "functionKeyword": {
                                                                     "kind": 37822554,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 28,
                                                                     "end": 37
                                                                 },
@@ -164,7 +164,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                                         "kind": 225,
                                                                                         "superKeyword": {
                                                                                             "kind": 4259935,
-                                                                                            "flags": 0,
+                                                                                            "flags": 96,
                                                                                             "start": 42,
                                                                                             "end": 48
                                                                                         },
@@ -265,7 +265,7 @@ class C { set x(_) { var f = function*() { super(); } } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 48, end: 49
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 42, end: 49
 
 ```
 

@@ -250,9 +250,9 @@ new foo().bar++;
                 "operand": {
                     "kind": 129,
                     "member": {
-                        "kind": 135,
-                        "flags": 56,
-                        "start": 97,
+                        "kind": 4276321,
+                        "flags": 97,
+                        "start": 56,
                         "end": 61
                     },
                     "expression": {
@@ -288,9 +288,9 @@ new foo().bar++;
                 "operand": {
                     "kind": 536871042,
                     "member": {
-                        "kind": 135,
-                        "flags": 68,
-                        "start": 97,
+                        "kind": 4276321,
+                        "flags": 97,
+                        "start": 68,
                         "end": 73
                     },
                     "expression": {
@@ -329,7 +329,7 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 1,
+                            "flags": 97,
                             "start": 81,
                             "end": 85
                         },
@@ -389,7 +389,7 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 1,
+                            "flags": 97,
                             "start": 99,
                             "end": 103
                         },

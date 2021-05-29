@@ -27,7 +27,7 @@ await await await await await await await await await await await await await aw
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
@@ -35,7 +35,7 @@ await await await await await await await await await await await await await aw
                     "kind": 208,
                     "awaitKeyword": {
                         "kind": 82196,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 5,
                         "end": 11
                     },
@@ -43,7 +43,7 @@ await await await await await await await await await await await await await aw
                         "kind": 208,
                         "awaitKeyword": {
                             "kind": 82196,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 11,
                             "end": 17
                         },
@@ -51,7 +51,7 @@ await await await await await await await await await await await await await aw
                             "kind": 208,
                             "awaitKeyword": {
                                 "kind": 82196,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 17,
                                 "end": 23
                             },
@@ -59,7 +59,7 @@ await await await await await await await await await await await await await aw
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 23,
                                     "end": 29
                                 },
@@ -67,7 +67,7 @@ await await await await await await await await await await await await await aw
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 29,
                                         "end": 35
                                     },
@@ -75,7 +75,7 @@ await await await await await await await await await await await await await aw
                                         "kind": 208,
                                         "awaitKeyword": {
                                             "kind": 82196,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 35,
                                             "end": 41
                                         },
@@ -83,7 +83,7 @@ await await await await await await await await await await await await await aw
                                             "kind": 208,
                                             "awaitKeyword": {
                                                 "kind": 82196,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 41,
                                                 "end": 47
                                             },
@@ -91,7 +91,7 @@ await await await await await await await await await await await await await aw
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 47,
                                                     "end": 53
                                                 },
@@ -99,7 +99,7 @@ await await await await await await await await await await await await await aw
                                                     "kind": 208,
                                                     "awaitKeyword": {
                                                         "kind": 82196,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 53,
                                                         "end": 59
                                                     },
@@ -107,7 +107,7 @@ await await await await await await await await await await await await await aw
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 59,
                                                             "end": 65
                                                         },
@@ -115,7 +115,7 @@ await await await await await await await await await await await await await aw
                                                             "kind": 208,
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 65,
                                                                 "end": 71
                                                             },
@@ -123,7 +123,7 @@ await await await await await await await await await await await await await aw
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 71,
                                                                     "end": 77
                                                                 },
@@ -131,7 +131,7 @@ await await await await await await await await await await await await await aw
                                                                     "kind": 208,
                                                                     "awaitKeyword": {
                                                                         "kind": 82196,
-                                                                        "flags": 0,
+                                                                        "flags": 64,
                                                                         "start": 77,
                                                                         "end": 83
                                                                     },
@@ -139,7 +139,7 @@ await await await await await await await await await await await await await aw
                                                                         "kind": 208,
                                                                         "awaitKeyword": {
                                                                             "kind": 82196,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 83,
                                                                             "end": 89
                                                                         },

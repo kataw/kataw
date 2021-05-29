@@ -44,13 +44,12 @@ x={...true} = x
                                     "kind": 224,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 3,
                                         "end": 6
                                     },
                                     "argument": {
-                                        "kind": 134,
-                                        "text": true,
+                                        "kind": 24752947,
                                         "flags": 96,
                                         "start": 6,
                                         "end": 10

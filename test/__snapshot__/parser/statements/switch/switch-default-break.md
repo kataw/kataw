@@ -27,7 +27,7 @@ switch(0) { default: function f(){ break; } }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -46,7 +46,7 @@ switch(0) { default: function f(){ break; } }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 11,
                             "end": 19
                         },
@@ -57,7 +57,7 @@ switch(0) { default: function f(){ break; } }
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 29
                                 },
@@ -88,7 +88,7 @@ switch(0) { default: function f(){ break; } }
                                                 "kind": 150,
                                                 "breakKeyword": {
                                                     "kind": 37757005,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 34,
                                                     "end": 40
                                                 },

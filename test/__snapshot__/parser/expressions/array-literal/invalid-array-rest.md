@@ -68,7 +68,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 5,
                                 "end": 8
                             },
@@ -131,7 +131,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 22,
                                 "end": 25
                             },
@@ -180,7 +180,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 36,
                                 "end": 39
                             },
@@ -237,7 +237,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 52,
                                 "end": 55
                             },
@@ -292,7 +292,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 67,
                                 "end": 70
                             },
@@ -333,7 +333,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 79,
                                 "end": 82
                             },
@@ -353,7 +353,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 87,
                                 "end": 90
                             },
@@ -410,7 +410,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 103,
                                 "end": 106
                             },
@@ -430,7 +430,7 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 111,
                                 "end": 114
                             },

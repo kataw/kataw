@@ -33,7 +33,7 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 13,
                 "end": 22
             },
@@ -79,7 +79,7 @@
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 30,
                                     "end": 32
                                 },
@@ -87,7 +87,7 @@
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 32,
                                         "end": 38
                                     },
@@ -100,7 +100,7 @@
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 38,
                                     "end": 40
                                 },

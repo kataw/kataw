@@ -19,7 +19,7 @@ switch(x) { default: default: case y: break; case z: break; }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -38,7 +38,7 @@ switch(x) { default: default: case y: break; case z: break; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 11,
                             "end": 19
                         },
@@ -51,7 +51,7 @@ switch(x) { default: default: case y: break; case z: break; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 20,
                             "end": 28
                         },
@@ -64,7 +64,7 @@ switch(x) { default: default: case y: break; case z: break; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 29,
                             "end": 34
                         },
@@ -81,7 +81,7 @@ switch(x) { default: default: case y: break; case z: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 37,
                                     "end": 43
                                 },
@@ -99,7 +99,7 @@ switch(x) { default: default: case y: break; case z: break; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 44,
                             "end": 49
                         },
@@ -116,7 +116,7 @@ switch(x) { default: default: case y: break; case z: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 52,
                                     "end": 58
                                 },

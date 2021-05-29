@@ -19,7 +19,7 @@ throw {x} catch finally
             "kind": 158,
             "throwKeyword": {
                 "kind": 37757026,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -70,7 +70,7 @@ throw {x} catch finally
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 9,
                     "end": 15
                 },
@@ -95,7 +95,7 @@ throw {x} catch finally
             },
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 0,
+                "flags": 64,
                 "start": 15,
                 "end": 23
             },

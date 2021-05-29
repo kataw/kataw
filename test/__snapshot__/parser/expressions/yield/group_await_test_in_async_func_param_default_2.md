@@ -26,7 +26,7 @@ async function f(){    async function g(x=(await z)=y){}   }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -64,7 +64,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 28,
                                 "end": 37
                             },
@@ -101,7 +101,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                     "kind": 208,
                                                     "awaitKeyword": {
                                                         "kind": 82196,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 43,
                                                         "end": 48
                                                     },

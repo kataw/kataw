@@ -24,7 +24,7 @@ class C { constructor() { y = super } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -97,12 +97,12 @@ class C { constructor() { y = super } }
                                                         "end": 29
                                                     },
                                                     "right": {
-                                                        "kind": 203,
-                                                        "chain": {
+                                                        "kind": 129,
+                                                        "member": {
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 29,
                                                                 "end": 35
                                                             },
@@ -178,7 +178,7 @@ class C { constructor() { y = super } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 35, end: 37
+✖ 'super' must be followed by an argument list or member access. - start: 29, end: 37
 ✖ Dot property must be an identifier - start: 35, end: 37
 
 ```

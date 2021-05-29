@@ -19,7 +19,7 @@ async ({await = x}) => x
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 19,
                 "end": 22
             },

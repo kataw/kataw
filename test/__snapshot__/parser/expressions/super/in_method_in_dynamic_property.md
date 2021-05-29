@@ -74,7 +74,7 @@ x = { foo(){ return x[super.foo]; }}
                                                     "kind": 161,
                                                     "returnKeyword": {
                                                         "kind": 37757022,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -94,7 +94,7 @@ x = { foo(){ return x[super.foo]; }}
                                                                 "kind": 225,
                                                                 "superKeyword": {
                                                                     "kind": 4259935,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 22,
                                                                     "end": 27
                                                                 },

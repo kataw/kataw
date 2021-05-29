@@ -69,7 +69,7 @@
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 12,
                                                         "end": 16
                                                     },
@@ -93,7 +93,7 @@
                                                                     "asyncKeyword": null,
                                                                     "functionKeyword": {
                                                                         "kind": 37822554,
-                                                                        "flags": 0,
+                                                                        "flags": 64,
                                                                         "start": 20,
                                                                         "end": 29
                                                                     },
@@ -121,7 +121,7 @@
                                                                                             "kind": 225,
                                                                                             "superKeyword": {
                                                                                                 "kind": 4259935,
-                                                                                                "flags": 0,
+                                                                                                "flags": 96,
                                                                                                 "start": 31,
                                                                                                 "end": 37
                                                                                             },
@@ -228,7 +228,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 29, end: 31
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 37, end: 38
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 31, end: 38
 
 ```
 

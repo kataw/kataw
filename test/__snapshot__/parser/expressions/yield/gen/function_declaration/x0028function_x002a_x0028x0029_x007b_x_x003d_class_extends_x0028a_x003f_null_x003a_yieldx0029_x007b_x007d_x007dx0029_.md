@@ -24,7 +24,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -60,7 +60,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 22,
                                         "end": 30
                                     },
@@ -108,7 +108,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                             "decorators": null,
                                                             "classKeyword": {
                                                                 "kind": 37822544,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 41,
                                                                 "end": 47
                                                             },
@@ -120,7 +120,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                     "kind": 279,
                                                                     "extendsKeyword": {
                                                                         "kind": 4194391,
-                                                                        "flags": 0,
+                                                                        "flags": 80,
                                                                         "start": 47,
                                                                         "end": 55
                                                                     },
@@ -143,15 +143,14 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                                 "end": 60
                                                                             },
                                                                             "consequent": {
-                                                                                "kind": 269,
-                                                                                "text": null,
+                                                                                "kind": 138477575,
                                                                                 "flags": 96,
                                                                                 "start": 60,
                                                                                 "end": 65
                                                                             },
                                                                             "colonToken": {
                                                                                 "kind": 21,
-                                                                                "flags": 0,
+                                                                                "flags": 64,
                                                                                 "start": 65,
                                                                                 "end": 67
                                                                             },
@@ -159,7 +158,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                                 "kind": 229,
                                                                                 "yieldKeyword": {
                                                                                     "kind": 8454253,
-                                                                                    "flags": 0,
+                                                                                    "flags": 64,
                                                                                     "start": 67,
                                                                                     "end": 73
                                                                                 },

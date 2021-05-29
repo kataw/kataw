@@ -40,7 +40,7 @@ function *f(){ for (yield of obj); }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -76,7 +76,7 @@ function *f(){ for (yield of obj); }
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 14,
                                 "end": 18
                             },
@@ -85,7 +85,7 @@ function *f(){ for (yield of obj); }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 25
                                 },

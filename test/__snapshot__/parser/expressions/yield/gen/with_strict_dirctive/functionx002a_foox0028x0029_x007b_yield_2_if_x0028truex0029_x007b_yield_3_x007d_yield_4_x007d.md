@@ -33,7 +33,7 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 13,
                 "end": 22
             },
@@ -71,7 +71,7 @@
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 31,
                                     "end": 37
                                 },
@@ -97,13 +97,12 @@
                             "kind": 164,
                             "ifKeyword": {
                                 "kind": 37757019,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 40,
                                 "end": 43
                             },
                             "expression": {
-                                "kind": 134,
-                                "text": true,
+                                "kind": 24752947,
                                 "flags": 96,
                                 "start": 45,
                                 "end": 49
@@ -119,7 +118,7 @@
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 52,
                                                     "end": 58
                                                 },
@@ -168,7 +167,7 @@
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 63,
                                     "end": 69
                                 },

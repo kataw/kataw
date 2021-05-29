@@ -45,7 +45,7 @@ y = async (x) => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 5,
                         "end": 8
                     },
@@ -108,7 +108,7 @@ y = async (x) => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 19,
                         "end": 22
                     },
@@ -164,7 +164,7 @@ y = async (x) => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 34,
                         "end": 37
                     },
@@ -229,7 +229,7 @@ y = async (x) => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 54,
                         "end": 57
                     },
@@ -290,7 +290,7 @@ y = async (x) => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 75,
                         "end": 78
                     },

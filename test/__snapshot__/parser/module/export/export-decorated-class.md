@@ -25,7 +25,7 @@ export @bar class Foo { }
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -56,7 +56,7 @@ export @bar class Foo { }
                 },
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 17
                 },

@@ -25,8 +25,7 @@
                         {
                             "kind": 125,
                             "left": {
-                                "kind": 134,
-                                "text": true,
+                                "kind": 24752947,
                                 "flags": 96,
                                 "start": 1,
                                 "end": 5

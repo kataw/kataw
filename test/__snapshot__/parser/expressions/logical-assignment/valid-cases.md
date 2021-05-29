@@ -531,7 +531,7 @@ x((y ?? z) ?? 1);
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 93,
                                         "end": 96
                                     },
@@ -615,7 +615,7 @@ x((y ?? z) ?? 1);
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 110,
                                     "end": 115
                                 },
@@ -693,7 +693,7 @@ x((y ?? z) ?? 1);
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 128,
                                     "end": 136
                                 },
@@ -777,8 +777,7 @@ x((y ?? z) ?? 1);
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 269,
-                                "text": null,
+                                "kind": 138477575,
                                 "flags": 96,
                                 "start": 152,
                                 "end": 156
@@ -1832,8 +1831,7 @@ x((y ?? z) ?? 1);
                                             "end": 374
                                         },
                                         {
-                                            "kind": 269,
-                                            "text": null,
+                                            "kind": 138477575,
                                             "flags": 96,
                                             "start": 375,
                                             "end": 380

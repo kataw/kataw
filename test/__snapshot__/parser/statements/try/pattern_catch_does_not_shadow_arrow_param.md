@@ -24,7 +24,7 @@ g => {
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1,
                     "end": 4
                 },
@@ -49,7 +49,7 @@ g => {
                                 "kind": 159,
                                 "tryKeyword": {
                                     "kind": 37757027,
-                                    "flags": 1,
+                                    "flags": 81,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -70,7 +70,7 @@ g => {
                                     "kind": 173,
                                     "catchKeyword": {
                                         "kind": 4202575,
-                                        "flags": 1,
+                                        "flags": 81,
                                         "start": 15,
                                         "end": 23
                                     },

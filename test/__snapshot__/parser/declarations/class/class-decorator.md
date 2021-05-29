@@ -45,7 +45,7 @@ class Foo {
             },
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 10
             },

@@ -41,7 +41,7 @@
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 5,
                                                             "end": 11
                                                         },
@@ -53,7 +53,7 @@
                                                         "kind": 205,
                                                         "chainToken": {
                                                             "kind": 393240,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 13,
                                                             "end": 15
                                                         },
@@ -144,7 +144,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 11, end: 12
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 5, end: 12
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 17
 
 ```

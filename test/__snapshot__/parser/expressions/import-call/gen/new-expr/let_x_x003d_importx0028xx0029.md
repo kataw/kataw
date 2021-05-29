@@ -47,7 +47,7 @@ let x = import(x)
                                 "kind": 206,
                                 "importKeyword": {
                                     "kind": 37814364,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 7,
                                     "end": 14
                                 },

@@ -86,7 +86,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2,
                     "end": 5
                 },
@@ -122,7 +122,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 12,
                     "end": 15
                 },
@@ -140,7 +140,7 @@ foo ? bar : baz => {};
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 17,
                                     "end": 24
                                 },
@@ -197,7 +197,7 @@ foo ? bar : baz => {};
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 38,
                             "end": 41
                         },
@@ -241,7 +241,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 48,
                     "end": 51
                 },
@@ -266,7 +266,7 @@ foo ? bar : baz => {};
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 53,
                                     "end": 60
                                 },
@@ -305,7 +305,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 70,
                     "end": 73
                 },
@@ -332,7 +332,7 @@ foo ? bar : baz => {};
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 75,
                                     "end": 82
                                 },
@@ -371,7 +371,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 95,
                     "end": 98
                 },
@@ -408,7 +408,7 @@ foo ? bar : baz => {};
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 100,
                                     "end": 107
                                 },
@@ -467,7 +467,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 127,
                     "end": 130
                 },
@@ -512,7 +512,7 @@ foo ? bar : baz => {};
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 132,
                                     "end": 139
                                 },
@@ -591,7 +591,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 160,
                     "end": 163
                 },
@@ -695,7 +695,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 180,
                     "end": 183
                 },
@@ -725,7 +725,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 189,
                     "end": 192
                 },
@@ -762,7 +762,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 197,
                     "end": 200
                 },
@@ -819,7 +819,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 211,
                     "end": 214
                 },
@@ -858,7 +858,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 221,
                     "end": 224
                 },
@@ -917,7 +917,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 238,
                     "end": 241
                 },
@@ -989,7 +989,7 @@ foo ? bar : baz => {};
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 258,
                             "end": 261
                         },
@@ -1067,7 +1067,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 277,
                     "end": 280
                 },
@@ -1150,7 +1150,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 292,
                     "end": 295
                 },
@@ -1216,7 +1216,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 314,
                     "end": 317
                 },
@@ -1235,7 +1235,7 @@ foo ? bar : baz => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 319,
                         "end": 322
                     },
@@ -1296,7 +1296,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 336,
                     "end": 339
                 },
@@ -1327,7 +1327,7 @@ foo ? bar : baz => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 346,
                         "end": 349
                     },
@@ -1440,7 +1440,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 367,
                     "end": 370
                 },
@@ -1471,7 +1471,7 @@ foo ? bar : baz => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 372,
                         "end": 375
                     },
@@ -1558,7 +1558,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 390,
                     "end": 393
                 },
@@ -1577,7 +1577,7 @@ foo ? bar : baz => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 400,
                         "end": 403
                     },
@@ -1681,7 +1681,7 @@ foo ? bar : baz => {};
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 421,
                                 "end": 424
                             },
@@ -1755,7 +1755,7 @@ foo ? bar : baz => {};
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 441,
                                     "end": 444
                                 },
@@ -1823,7 +1823,7 @@ foo ? bar : baz => {};
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 602,
                             "end": 605
                         },
@@ -1884,7 +1884,7 @@ foo ? bar : baz => {};
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 621,
                             "end": 624
                         },
@@ -1959,7 +1959,7 @@ foo ? bar : baz => {};
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 641,
                                 "end": 644
                             },
@@ -2020,7 +2020,7 @@ foo ? bar : baz => {};
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 655,
                             "end": 658
                         },
@@ -2063,7 +2063,7 @@ foo ? bar : baz => {};
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 668,
                             "end": 671
                         },
@@ -2130,7 +2130,7 @@ foo ? bar : baz => {};
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 680,
                                 "end": 683
                             },
@@ -2167,7 +2167,7 @@ foo ? bar : baz => {};
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 689,
                                 "end": 692
                             },
@@ -2238,7 +2238,7 @@ foo ? bar : baz => {};
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 708,
                                 "end": 711
                             },
@@ -2289,7 +2289,7 @@ foo ? bar : baz => {};
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 718,
                                     "end": 721
                                 },
@@ -2385,7 +2385,7 @@ foo ? bar : baz => {};
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 745,
                                             "end": 748
                                         },
@@ -2460,7 +2460,7 @@ foo ? bar : baz => {};
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 832,
                     "end": 834
                 },
@@ -2474,7 +2474,7 @@ foo ? bar : baz => {};
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 838,
                     "end": 840
                 },
@@ -2482,7 +2482,7 @@ foo ? bar : baz => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 844,
                         "end": 847
                     },
@@ -2529,7 +2529,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 895,
                     "end": 898
                 },
@@ -2580,7 +2580,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 910,
                     "end": 913
                 },
@@ -2641,7 +2641,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 925,
                     "end": 928
                 },
@@ -2702,7 +2702,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 937,
                     "end": 940
                 },
@@ -2753,7 +2753,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 952,
                     "end": 955
                 },
@@ -2814,7 +2814,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 967,
                     "end": 970
                 },
@@ -2875,7 +2875,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 982,
                     "end": 985
                 },
@@ -2940,7 +2940,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1000,
                     "end": 1003
                 },
@@ -3015,7 +3015,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1018,
                     "end": 1021
                 },
@@ -3090,7 +3090,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1031,
                     "end": 1034
                 },
@@ -3150,7 +3150,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1046,
                     "end": 1049
                 },
@@ -3215,7 +3215,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1064,
                     "end": 1067
                 },
@@ -3290,7 +3290,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1082,
                     "end": 1085
                 },
@@ -3365,7 +3365,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1103,
                     "end": 1106
                 },
@@ -3448,7 +3448,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1128,
                     "end": 1131
                 },
@@ -3551,7 +3551,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1142,
                     "end": 1145
                 },
@@ -3611,7 +3611,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1159,
                     "end": 1162
                 },
@@ -3681,7 +3681,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1180,
                     "end": 1183
                 },
@@ -3771,7 +3771,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1204,
                     "end": 1207
                 },
@@ -3869,7 +3869,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1240,
                     "end": 1243
                 },
@@ -4018,7 +4018,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1258,
                     "end": 1261
                 },
@@ -4104,7 +4104,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1276,
                     "end": 1279
                 },
@@ -4190,7 +4190,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1294,
                     "end": 1297
                 },
@@ -4264,7 +4264,7 @@ foo ? bar : baz => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1311,
                     "end": 1314
                 },

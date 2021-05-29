@@ -22,7 +22,7 @@ do do do =! class function try while with foo! while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -38,7 +38,7 @@ do do do =! class function try while with foo! while while while
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 5
                 },
@@ -54,7 +54,7 @@ do do do =! class function try while with foo! while while while
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 5,
                         "end": 8
                     },
@@ -63,7 +63,7 @@ do do do =! class function try while with foo! while while while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 17,
                             "end": 26
                         },
@@ -128,7 +128,7 @@ do do do =! class function try while with foo! while while while
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 11,
                                         "end": 17
                                     },
@@ -180,7 +180,7 @@ do do do =! class function try while with foo! while while while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 26,
                 "end": 30
             },
@@ -220,7 +220,7 @@ do do do =! class function try while with foo! while while while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 30,
                 "end": 36
             },
@@ -235,7 +235,7 @@ do do do =! class function try while with foo! while while while
                 "kind": 153,
                 "withKeyword": {
                     "kind": 37757029,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 36,
                     "end": 41
                 },
@@ -284,7 +284,7 @@ do do do =! class function try while with foo! while while while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 46,
                 "end": 52
             },
@@ -299,7 +299,7 @@ do do do =! class function try while with foo! while while while
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 52,
                     "end": 58
                 },
@@ -314,7 +314,7 @@ do do do =! class function try while with foo! while while while
                     "kind": 154,
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 58,
                         "end": 64
                     },
@@ -370,6 +370,7 @@ do do do =! class function try while with foo! while while while
 
 ```javascript
 ✖ Identifier expected - start: 8, end: 10
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 10
 ✖ Missing an opening brace - '{ - start: 17, end: 26
 ✖ Missing an opening parentheses - '( - start: 26, end: 30
 ✖ Expression expected - start: 26, end: 30

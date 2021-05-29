@@ -25,7 +25,7 @@ var x = {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -85,7 +85,7 @@ var x = {
                                                             "kind": 161,
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
-                                                                "flags": 1,
+                                                                "flags": 81,
                                                                 "start": 23,
                                                                 "end": 38
                                                             },

@@ -24,7 +24,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -108,7 +108,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 20,
                                                     "end": 26
                                                 },
@@ -170,7 +170,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                                             "kind": 225,
                                                                                             "superKeyword": {
                                                                                                 "kind": 4259935,
-                                                                                                "flags": 0,
+                                                                                                "flags": 96,
                                                                                                 "start": 46,
                                                                                                 "end": 52
                                                                                             },
@@ -273,7 +273,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 46, end: 53
 
 ```
 

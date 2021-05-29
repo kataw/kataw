@@ -49,7 +49,7 @@ function baz(x: boolean) {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -111,7 +111,7 @@ function baz(x: boolean) {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 26,
                                 "end": 32
                             },
@@ -208,7 +208,7 @@ function baz(x: boolean) {
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 53,
                                 "end": 59
                             },
@@ -260,7 +260,7 @@ function baz(x: boolean) {
                                             "kind": 164,
                                             "ifKeyword": {
                                                 "kind": 37757019,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 79,
                                                 "end": 86
                                             },
@@ -281,7 +281,7 @@ function baz(x: boolean) {
                                                             "kind": 172,
                                                             "continueKeyword": {
                                                                 "kind": 37757009,
-                                                                "flags": 1,
+                                                                "flags": 81,
                                                                 "start": 92,
                                                                 "end": 107
                                                             },
@@ -309,7 +309,7 @@ function baz(x: boolean) {
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 114,
                                                 "end": 125
                                             },
@@ -352,7 +352,7 @@ function baz(x: boolean) {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 132,
                 "end": 142
             },
@@ -413,7 +413,7 @@ function baz(x: boolean) {
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 160,
                                 "end": 166
                             },
@@ -471,7 +471,7 @@ function baz(x: boolean) {
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 185,
                                                 "end": 196
                                             },
@@ -514,7 +514,7 @@ function baz(x: boolean) {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 203,
                 "end": 213
             },
@@ -575,7 +575,7 @@ function baz(x: boolean) {
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 231,
                                 "end": 237
                             },
@@ -633,7 +633,7 @@ function baz(x: boolean) {
                                             "kind": 172,
                                             "continueKeyword": {
                                                 "kind": 37757009,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 256,
                                                 "end": 269
                                             },

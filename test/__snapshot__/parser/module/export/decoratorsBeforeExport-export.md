@@ -78,7 +78,7 @@ export class Foo {}
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 1,
+                "flags": 81,
                 "start": 10,
                 "end": 17
             },
@@ -88,7 +88,7 @@ export class Foo {}
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 17,
                     "end": 23
                 },

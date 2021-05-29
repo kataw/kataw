@@ -44,7 +44,7 @@ result = [...x[yield]] = vals;
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 10,
                                         "end": 13
                                     },

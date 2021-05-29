@@ -25,19 +25,18 @@ export default null;
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 14
             },
             "declaration": {
-                "kind": 269,
-                "text": null,
+                "kind": 138477575,
                 "flags": 96,
                 "start": 14,
                 "end": 19

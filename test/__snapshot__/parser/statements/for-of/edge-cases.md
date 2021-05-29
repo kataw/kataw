@@ -25,7 +25,7 @@ for ((async) of x);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 4
             },
@@ -80,7 +80,7 @@ for ((async) of x);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 20,
                 "end": 25
             },
@@ -88,7 +88,7 @@ for ((async) of x);
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 35,
                     "end": 38
                 },
@@ -142,7 +142,7 @@ for ((async) of x);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 45,
                 "end": 50
             },

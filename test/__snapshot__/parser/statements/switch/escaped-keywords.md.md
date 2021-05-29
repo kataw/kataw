@@ -21,16 +21,16 @@ switch (this.a) { c\u0061se 6: break; }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 135,
-                    "flags": 8,
-                    "start": 96,
+                    "kind": 4276321,
+                    "flags": 96,
+                    "start": 8,
                     "end": 12
                 },
                 "expression": {
@@ -52,7 +52,7 @@ switch (this.a) { c\u0061se 6: break; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 16384,
+                            "flags": 16464,
                             "start": 17,
                             "end": 30
                         },
@@ -61,7 +61,7 @@ switch (this.a) { c\u0061se 6: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 31,
                                     "end": 37
                                 },
@@ -88,16 +88,16 @@ switch (this.a) { c\u0061se 6: break; }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 40,
                 "end": 48
             },
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 135,
-                    "flags": 50,
-                    "start": 96,
+                    "kind": 4276321,
+                    "flags": 96,
+                    "start": 50,
                     "end": 54
                 },
                 "expression": {
@@ -119,7 +119,7 @@ switch (this.a) { c\u0061se 6: break; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 16384,
+                            "flags": 16464,
                             "start": 59,
                             "end": 69
                         },
@@ -136,7 +136,7 @@ switch (this.a) { c\u0061se 6: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 72,
                                     "end": 78
                                 },

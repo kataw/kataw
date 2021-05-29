@@ -44,7 +44,7 @@ for await (let binding of [await function() {}]) {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -81,7 +81,7 @@ for await (let binding of [await function() {}]) {
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 12,
                 "end": 179
             },
@@ -101,7 +101,7 @@ for await (let binding of [await function() {}]) {
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 0,
+                "flags": 64,
                 "start": 194,
                 "end": 197
             },
@@ -114,7 +114,7 @@ for await (let binding of [await function() {}]) {
                             "kind": 208,
                             "awaitKeyword": {
                                 "kind": 82196,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 199,
                                 "end": 204
                             },
@@ -123,7 +123,7 @@ for await (let binding of [await function() {}]) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 204,
                                     "end": 213
                                 },
@@ -182,7 +182,7 @@ for await (let binding of [await function() {}]) {
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 222,
                                     "end": 230
                                 },
@@ -191,7 +191,7 @@ for await (let binding of [await function() {}]) {
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 230,
                                         "end": 239
                                     },
@@ -237,7 +237,7 @@ for await (let binding of [await function() {}]) {
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 245,
                                 "end": 253
                             },
@@ -263,7 +263,7 @@ for await (let binding of [await function() {}]) {
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 256,
                 "end": 397
             },
@@ -300,7 +300,7 @@ for await (let binding of [await function() {}]) {
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 0,
+                "flags": 64,
                 "start": 416,
                 "end": 419
             },
@@ -313,7 +313,7 @@ for await (let binding of [await function() {}]) {
                             "kind": 208,
                             "awaitKeyword": {
                                 "kind": 82196,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 421,
                                 "end": 426
                             },
@@ -322,7 +322,7 @@ for await (let binding of [await function() {}]) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 426,
                                     "end": 435
                                 },
@@ -381,7 +381,7 @@ for await (let binding of [await function() {}]) {
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 444,
                                     "end": 452
                                 },
@@ -390,7 +390,7 @@ for await (let binding of [await function() {}]) {
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 452,
                                         "end": 461
                                     },
@@ -436,7 +436,7 @@ for await (let binding of [await function() {}]) {
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 467,
                                 "end": 475
                             },
@@ -462,7 +462,7 @@ for await (let binding of [await function() {}]) {
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 478,
                 "end": 619
             },
@@ -499,7 +499,7 @@ for await (let binding of [await function() {}]) {
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 0,
+                "flags": 64,
                 "start": 638,
                 "end": 641
             },
@@ -512,7 +512,7 @@ for await (let binding of [await function() {}]) {
                             "kind": 208,
                             "awaitKeyword": {
                                 "kind": 82196,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 643,
                                 "end": 648
                             },
@@ -521,7 +521,7 @@ for await (let binding of [await function() {}]) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 648,
                                     "end": 657
                                 },
@@ -580,7 +580,7 @@ for await (let binding of [await function() {}]) {
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 666,
                                     "end": 674
                                 },
@@ -589,7 +589,7 @@ for await (let binding of [await function() {}]) {
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 674,
                                         "end": 683
                                     },
@@ -635,7 +635,7 @@ for await (let binding of [await function() {}]) {
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 689,
                                 "end": 697
                             },

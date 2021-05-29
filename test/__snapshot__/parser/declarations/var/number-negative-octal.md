@@ -28,7 +28,7 @@ var a: -0x7B
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -52,7 +52,7 @@ var a: -0x7B
                                 "kind": 271,
                                 "subtractionToken": {
                                     "kind": 35379,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 6,
                                     "end": 8
                                 },

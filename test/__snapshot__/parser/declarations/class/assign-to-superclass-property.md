@@ -26,7 +26,7 @@ class B extends A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -45,7 +45,7 @@ class B extends A {
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -108,7 +108,7 @@ class B extends A {
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 1,
+                                                            "flags": 97,
                                                             "start": 39,
                                                             "end": 53
                                                         },
@@ -139,9 +139,9 @@ class B extends A {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 56,
-                                                            "start": 97,
+                                                            "kind": 4276321,
+                                                            "flags": 97,
+                                                            "start": 56,
                                                             "end": 69
                                                         },
                                                         "expression": {
@@ -167,9 +167,9 @@ class B extends A {
                                                         "left": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 135,
-                                                                "flags": 83,
-                                                                "start": 96,
+                                                                "kind": 4276321,
+                                                                "flags": 96,
+                                                                "start": 83,
                                                                 "end": 88
                                                             },
                                                             "expression": {
@@ -259,7 +259,7 @@ class B extends A {
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 53, end: 54
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 39, end: 54
 
 ```
 

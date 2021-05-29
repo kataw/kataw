@@ -22,7 +22,7 @@ do[ =! class function try while with foo!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -31,7 +31,7 @@ do[ =! class function try while with foo!
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 12,
                     "end": 21
                 },
@@ -103,7 +103,7 @@ do[ =! class function try while with foo!
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 6,
                                 "end": 12
                             },
@@ -147,7 +147,7 @@ do[ =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 21,
                 "end": 25
             },
@@ -187,7 +187,7 @@ do[ =! class function try while with foo!
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 25,
                 "end": 31
             },
@@ -202,7 +202,7 @@ do[ =! class function try while with foo!
                 "kind": 153,
                 "withKeyword": {
                     "kind": 37757029,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 31,
                     "end": 36
                 },

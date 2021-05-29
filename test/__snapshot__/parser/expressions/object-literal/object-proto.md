@@ -420,7 +420,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 146,
                     "end": 149
                 },

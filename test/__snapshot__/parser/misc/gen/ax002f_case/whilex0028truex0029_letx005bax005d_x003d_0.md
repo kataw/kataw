@@ -22,13 +22,12 @@ while(true) let[a] = 0
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
             "expression": {
-                "kind": 134,
-                "text": true,
+                "kind": 24752947,
                 "flags": 96,
                 "start": 6,
                 "end": 10

@@ -22,7 +22,7 @@ with (x) y; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ with (x) y; }
                             "kind": 153,
                             "withKeyword": {
                                 "kind": 37757029,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 27,
                                 "end": 32
                             },

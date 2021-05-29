@@ -21,7 +21,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -40,7 +40,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -99,7 +99,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 26,
                                                     "end": 33
                                                 },
@@ -107,7 +107,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 36,
                                                         "end": 39
                                                     },
@@ -119,7 +119,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 42,
                                                             "end": 45
                                                         },
@@ -133,7 +133,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                                 "kind": 225,
                                                                 "superKeyword": {
                                                                     "kind": 4259935,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 45,
                                                                     "end": 51
                                                                 },

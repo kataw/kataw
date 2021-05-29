@@ -29,7 +29,7 @@ async function f() { for await ({0: a = 1} = 1 of []) ; }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -60,7 +60,7 @@ async function f() { for await ({0: a = 1} = 1 of []) ; }
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 20,
                                 "end": 24
                             },
@@ -150,7 +150,7 @@ async function f() { for await ({0: a = 1} = 1 of []) ; }
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 46,
                                 "end": 49
                             },

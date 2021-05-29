@@ -34,7 +34,7 @@ switch (0) {
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -53,7 +53,7 @@ switch (0) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 12,
                             "end": 22
                         },
@@ -69,7 +69,7 @@ switch (0) {
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 25,
                                                 "end": 35
                                             },
@@ -158,7 +158,7 @@ switch (0) {
                                                                             "kind": 150,
                                                                             "breakKeyword": {
                                                                                 "kind": 37757005,
-                                                                                "flags": 1,
+                                                                                "flags": 81,
                                                                                 "start": 76,
                                                                                 "end": 90
                                                                             },

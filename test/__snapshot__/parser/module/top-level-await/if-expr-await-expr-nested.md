@@ -25,7 +25,7 @@ if (await await await await await await await await await await await await awai
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -33,7 +33,7 @@ if (await await await await await await await await await await await await awai
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4,
                     "end": 9
                 },
@@ -41,7 +41,7 @@ if (await await await await await await await await await await await await awai
                     "kind": 208,
                     "awaitKeyword": {
                         "kind": 82196,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 9,
                         "end": 15
                     },
@@ -49,7 +49,7 @@ if (await await await await await await await await await await await await awai
                         "kind": 208,
                         "awaitKeyword": {
                             "kind": 82196,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 15,
                             "end": 21
                         },
@@ -57,7 +57,7 @@ if (await await await await await await await await await await await await awai
                             "kind": 208,
                             "awaitKeyword": {
                                 "kind": 82196,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 21,
                                 "end": 27
                             },
@@ -65,7 +65,7 @@ if (await await await await await await await await await await await await awai
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 27,
                                     "end": 33
                                 },
@@ -73,7 +73,7 @@ if (await await await await await await await await await await await await awai
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 33,
                                         "end": 39
                                     },
@@ -81,7 +81,7 @@ if (await await await await await await await await await await await await awai
                                         "kind": 208,
                                         "awaitKeyword": {
                                             "kind": 82196,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 39,
                                             "end": 45
                                         },
@@ -89,7 +89,7 @@ if (await await await await await await await await await await await await awai
                                             "kind": 208,
                                             "awaitKeyword": {
                                                 "kind": 82196,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 45,
                                                 "end": 51
                                             },
@@ -97,7 +97,7 @@ if (await await await await await await await await await await await await awai
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 51,
                                                     "end": 57
                                                 },
@@ -105,7 +105,7 @@ if (await await await await await await await await await await await await awai
                                                     "kind": 208,
                                                     "awaitKeyword": {
                                                         "kind": 82196,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 57,
                                                         "end": 63
                                                     },
@@ -113,7 +113,7 @@ if (await await await await await await await await await await await await awai
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 63,
                                                             "end": 69
                                                         },
@@ -121,7 +121,7 @@ if (await await await await await await await await await await await await awai
                                                             "kind": 208,
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 69,
                                                                 "end": 75
                                                             },
@@ -129,7 +129,7 @@ if (await await await await await await await await await await await await awai
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 75,
                                                                     "end": 81
                                                                 },
@@ -137,7 +137,7 @@ if (await await await await await await await await await await await await awai
                                                                     "kind": 208,
                                                                     "awaitKeyword": {
                                                                         "kind": 82196,
-                                                                        "flags": 0,
+                                                                        "flags": 64,
                                                                         "start": 81,
                                                                         "end": 87
                                                                     },
@@ -145,7 +145,7 @@ if (await await await await await await await await await await await await awai
                                                                         "kind": 208,
                                                                         "awaitKeyword": {
                                                                             "kind": 82196,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 87,
                                                                             "end": 93
                                                                         },

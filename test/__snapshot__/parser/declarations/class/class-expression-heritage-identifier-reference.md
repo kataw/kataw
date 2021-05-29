@@ -22,7 +22,7 @@ var B = class extends A {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -58,7 +58,7 @@ var B = class extends A {}
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 10,
                 "end": 14
             },
@@ -82,7 +82,7 @@ var B = class extends A {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 24
                             },
@@ -94,7 +94,7 @@ var B = class extends A {}
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 24,
                                         "end": 32
                                     },

@@ -22,13 +22,12 @@ for (null in x) ;
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
             "initializer": {
-                "kind": 269,
-                "text": null,
+                "kind": 138477575,
                 "flags": 96,
                 "start": 5,
                 "end": 9

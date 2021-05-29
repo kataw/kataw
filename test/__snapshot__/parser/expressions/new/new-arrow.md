@@ -21,7 +21,7 @@ new (x)=>{}
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -29,7 +29,7 @@ new (x)=>{}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 7,
                         "end": 9
                     },

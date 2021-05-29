@@ -27,7 +27,7 @@ function *foo() { let x = {yield} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -130,7 +130,7 @@ function *foo() { let x = {yield} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 32,
                 "end": 42
             },
@@ -237,7 +237,7 @@ function *foo() { let x = {yield} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 68,
                 "end": 78
             },
@@ -345,7 +345,7 @@ function *foo() { let x = {yield} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 103,
                 "end": 113
             },

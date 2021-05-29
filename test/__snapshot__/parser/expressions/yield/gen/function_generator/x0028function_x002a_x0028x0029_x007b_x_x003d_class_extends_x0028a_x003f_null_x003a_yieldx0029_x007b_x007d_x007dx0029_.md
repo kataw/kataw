@@ -24,7 +24,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -98,7 +98,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 41,
                                                         "end": 49
                                                     },
@@ -146,7 +146,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                             "decorators": null,
                                                                             "classKeyword": {
                                                                                 "kind": 37822544,
-                                                                                "flags": 0,
+                                                                                "flags": 64,
                                                                                 "start": 60,
                                                                                 "end": 66
                                                                             },
@@ -158,7 +158,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                     "kind": 279,
                                                                                     "extendsKeyword": {
                                                                                         "kind": 4194391,
-                                                                                        "flags": 0,
+                                                                                        "flags": 80,
                                                                                         "start": 66,
                                                                                         "end": 74
                                                                                     },
@@ -181,15 +181,14 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                                 "end": 79
                                                                                             },
                                                                                             "consequent": {
-                                                                                                "kind": 269,
-                                                                                                "text": null,
+                                                                                                "kind": 138477575,
                                                                                                 "flags": 96,
                                                                                                 "start": 79,
                                                                                                 "end": 84
                                                                                             },
                                                                                             "colonToken": {
                                                                                                 "kind": 21,
-                                                                                                "flags": 0,
+                                                                                                "flags": 64,
                                                                                                 "start": 84,
                                                                                                 "end": 86
                                                                                             },
@@ -197,7 +196,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                                 "kind": 229,
                                                                                                 "yieldKeyword": {
                                                                                                     "kind": 8454253,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 64,
                                                                                                     "start": 86,
                                                                                                     "end": 92
                                                                                                 },

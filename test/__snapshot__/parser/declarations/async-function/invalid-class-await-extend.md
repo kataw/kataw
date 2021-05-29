@@ -26,7 +26,7 @@ async function foo(a = class extends (await b) {}) {};
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -60,7 +60,7 @@ async function foo(a = class extends (await b) {}) {};
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 22,
                                 "end": 28
                             },
@@ -72,7 +72,7 @@ async function foo(a = class extends (await b) {}) {};
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 28,
                                         "end": 36
                                     },
@@ -82,7 +82,7 @@ async function foo(a = class extends (await b) {}) {};
                                             "kind": 208,
                                             "awaitKeyword": {
                                                 "kind": 82196,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 38,
                                                 "end": 43
                                             },

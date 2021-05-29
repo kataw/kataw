@@ -24,7 +24,7 @@ var obj = {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -91,7 +91,7 @@ var obj = {
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
-                                                                    "flags": 16385,
+                                                                    "flags": 16449,
                                                                     "start": 30,
                                                                     "end": 45
                                                                 },
@@ -117,7 +117,7 @@ var obj = {
                                                             ],
                                                             "colonToken": {
                                                                 "kind": 21,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 45,
                                                                 "end": 46
                                                             },

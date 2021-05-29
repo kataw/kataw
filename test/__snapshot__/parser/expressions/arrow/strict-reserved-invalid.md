@@ -174,7 +174,7 @@ new package => x
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 42,
                             "end": 45
                         },
@@ -201,7 +201,7 @@ new package => x
                                 "kind": 210,
                                 "newKeyword": {
                                     "kind": 138477661,
-                                    "flags": 1,
+                                    "flags": 97,
                                     "start": 47,
                                     "end": 52
                                 },
@@ -209,7 +209,7 @@ new package => x
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 60,
                                         "end": 63
                                     },
@@ -244,7 +244,7 @@ new package => x
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 75,
                                                 "end": 78
                                             },
@@ -318,7 +318,7 @@ new package => x
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 90,
                         "end": 93
                     },

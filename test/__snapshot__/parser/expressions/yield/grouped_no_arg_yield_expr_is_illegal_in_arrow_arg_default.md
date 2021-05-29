@@ -21,7 +21,7 @@ function *f(){ async (x = (yield)) => {} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -57,7 +57,7 @@ function *f(){ async (x = (yield)) => {} }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 34,
                                 "end": 37
                             },
@@ -85,7 +85,7 @@ function *f(){ async (x = (yield)) => {} }
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 27,
                                                 "end": 32
                                             },

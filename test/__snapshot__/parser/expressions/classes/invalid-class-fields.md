@@ -67,7 +67,7 @@
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 2,
                             "end": 7
                         },
@@ -160,7 +160,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 24,
                         "end": 29
                     },
@@ -326,7 +326,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 52,
                         "end": 57
                     },
@@ -416,7 +416,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 74,
                         "end": 79
                     },
@@ -508,7 +508,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 95,
                         "end": 100
                     },
@@ -622,7 +622,7 @@
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 115,
                             "end": 120
                         },
@@ -737,7 +737,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 133,
                         "end": 138
                     },
@@ -848,7 +848,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 155,
                         "end": 160
                     },
@@ -931,7 +931,7 @@
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 175,
                             "end": 180
                         },
@@ -1052,7 +1052,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 196,
                         "end": 201
                     },
@@ -1169,7 +1169,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 218,
                         "end": 223
                     },
@@ -1285,7 +1285,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 241,
                         "end": 246
                     },
@@ -1408,7 +1408,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 263,
                         "end": 268
                     },
@@ -1547,7 +1547,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 287,
                         "end": 292
                     },
@@ -1651,7 +1651,7 @@
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 313,
                             "end": 318
                         },
@@ -1772,7 +1772,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 339,
                         "end": 344
                     },
@@ -1858,7 +1858,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 365,
                         "end": 370
                     },
@@ -1969,7 +1969,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 393,
                         "end": 398
                     },
@@ -2085,7 +2085,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 426,
                         "end": 431
                     },
@@ -2204,7 +2204,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 450,
                         "end": 455
                     },
@@ -2323,7 +2323,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 478,
                         "end": 483
                     },
@@ -2461,7 +2461,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 509,
                         "end": 514
                     },
@@ -2580,7 +2580,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 534,
                         "end": 539
                     },
@@ -2706,7 +2706,7 @@
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 564,
                             "end": 569
                         },
@@ -2769,7 +2769,7 @@
                                                             "decorators": null,
                                                             "classKeyword": {
                                                                 "kind": 37822544,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 595,
                                                                 "end": 600
                                                             },
@@ -2952,7 +2952,7 @@
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 630,
                                     "end": 635
                                 },
@@ -3136,7 +3136,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 669,
                         "end": 674
                     },
@@ -3326,7 +3326,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 710,
                         "end": 715
                     },

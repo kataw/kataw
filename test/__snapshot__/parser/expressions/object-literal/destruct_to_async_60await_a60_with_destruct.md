@@ -26,7 +26,7 @@ async function g() {   s = {"foo": await a = x} = x   }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -95,7 +95,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "kind": 208,
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 34,
                                                                 "end": 40
                                                             },

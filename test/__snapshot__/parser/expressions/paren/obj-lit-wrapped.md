@@ -218,8 +218,7 @@
                                         "end": 37
                                     },
                                     "right": {
-                                        "kind": 269,
-                                        "text": null,
+                                        "kind": 138477575,
                                         "flags": 96,
                                         "start": 38,
                                         "end": 43
@@ -332,8 +331,7 @@
                                         "end": 67
                                     },
                                     "right": {
-                                        "kind": 269,
-                                        "text": null,
+                                        "kind": 138477575,
                                         "flags": 96,
                                         "start": 68,
                                         "end": 73
@@ -3298,7 +3296,7 @@
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 731,
                                     "end": 735
                                 },

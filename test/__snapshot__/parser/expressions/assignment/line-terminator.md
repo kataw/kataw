@@ -25,7 +25,7 @@ true;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 4
             },
@@ -77,8 +77,7 @@ true;
                     "end": 12
                 },
                 "right": {
-                    "kind": 134,
-                    "text": true,
+                    "kind": 24752947,
                     "flags": 97,
                     "start": 12,
                     "end": 17

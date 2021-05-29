@@ -24,7 +24,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -117,7 +117,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 49,
                                                                 "end": 58
                                                             },
@@ -146,7 +146,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                             "kind": 159,
                                                                             "tryKeyword": {
                                                                                 "kind": 37757027,
-                                                                                "flags": 0,
+                                                                                "flags": 80,
                                                                                 "start": 63,
                                                                                 "end": 67
                                                                             },
@@ -161,7 +161,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                 "kind": 229,
                                                                                                 "yieldKeyword": {
                                                                                                     "kind": 8454253,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 64,
                                                                                                     "start": 69,
                                                                                                     "end": 74
                                                                                                 },
@@ -195,7 +195,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                             "catchClause": null,
                                                                             "finallyKeyword": {
                                                                                 "kind": 37757016,
-                                                                                "flags": 0,
+                                                                                "flags": 64,
                                                                                 "start": 78,
                                                                                 "end": 86
                                                                             },
@@ -210,7 +210,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                 "kind": 229,
                                                                                                 "yieldKeyword": {
                                                                                                     "kind": 8454253,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 64,
                                                                                                     "start": 88,
                                                                                                     "end": 93
                                                                                                 },
@@ -236,7 +236,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                             "kind": 161,
                                                                                             "returnKeyword": {
                                                                                                 "kind": 37757022,
-                                                                                                "flags": 0,
+                                                                                                "flags": 80,
                                                                                                 "start": 97,
                                                                                                 "end": 104
                                                                                             },

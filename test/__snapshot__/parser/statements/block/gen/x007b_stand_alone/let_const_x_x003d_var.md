@@ -41,7 +41,7 @@
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 5,
                             "end": 11
                         },
@@ -85,7 +85,7 @@
                         "declareKeyword": null,
                         "varKeyword": {
                             "kind": 37757002,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 15,
                             "end": 19
                         },

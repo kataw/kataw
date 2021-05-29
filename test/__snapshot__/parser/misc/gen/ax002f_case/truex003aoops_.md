@@ -21,8 +21,7 @@ true:oops;
         {
             "kind": 120,
             "expression": {
-                "kind": 134,
-                "text": true,
+                "kind": 24752947,
                 "flags": 96,
                 "start": 0,
                 "end": 4

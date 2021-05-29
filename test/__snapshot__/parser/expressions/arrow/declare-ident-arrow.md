@@ -29,7 +29,7 @@ declare => x, declare(y);
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 7,
                     "end": 10
                 },
@@ -69,7 +69,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 22,
                             "end": 25
                         },
@@ -100,7 +100,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 36,
                             "end": 39
                         },
@@ -142,7 +142,7 @@ declare => x, declare(y);
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 50,
                     "end": 53
                 },
@@ -182,7 +182,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 64,
                             "end": 67
                         },
@@ -213,7 +213,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 77,
                             "end": 80
                         },
@@ -258,7 +258,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 92,
                             "end": 95
                         },

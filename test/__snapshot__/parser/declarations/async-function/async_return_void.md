@@ -45,7 +45,7 @@ async function foo3(): Promise<string> {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -76,7 +76,7 @@ async function foo3(): Promise<string> {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 40,
                                 "end": 49
                             },
@@ -150,7 +150,7 @@ async function foo3(): Promise<string> {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 59,
                 "end": 68
             },
@@ -181,7 +181,7 @@ async function foo3(): Promise<string> {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 94,
                                 "end": 103
                             },
@@ -262,7 +262,7 @@ async function foo3(): Promise<string> {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 123,
                 "end": 132
             },
@@ -295,7 +295,7 @@ async function foo3(): Promise<string> {
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 1,
+                                "flags": 65,
                                 "start": 158,
                                 "end": 169
                             },
@@ -340,7 +340,7 @@ async function foo3(): Promise<string> {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 179,
                                 "end": 188
                             },

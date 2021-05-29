@@ -50,7 +50,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -127,7 +127,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 29,
                 "end": 38
             },
@@ -204,7 +204,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 62,
                 "end": 71
             },
@@ -310,7 +310,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 111,
                 "end": 120
             },
@@ -405,7 +405,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 156,
                 "end": 165
             },
@@ -500,7 +500,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 201,
                 "end": 210
             },
@@ -589,7 +589,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 240,
                 "end": 249
             },
@@ -687,7 +687,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 279,
                 "end": 288
             },
@@ -785,7 +785,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 320,
                 "end": 329
             },
@@ -915,7 +915,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 368,
                 "end": 377
             },
@@ -1067,7 +1067,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 430,
                 "end": 439
             },
@@ -1252,7 +1252,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 503,
                 "end": 512
             },
@@ -1310,7 +1310,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 530,
                 "end": 539
             },
@@ -1389,7 +1389,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 561,
                 "end": 570
             },
@@ -1500,7 +1500,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 599,
                 "end": 608
             },
@@ -1616,7 +1616,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 638,
                 "end": 647
             },
@@ -1678,7 +1678,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 662,
                 "end": 671
             },
@@ -1748,7 +1748,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 685,
                 "end": 694
             },
@@ -1875,7 +1875,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 724,
                 "end": 733
             },
@@ -2005,7 +2005,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 762,
                 "end": 771
             },
@@ -2115,7 +2115,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 804,
                 "end": 813
             },
@@ -2199,7 +2199,7 @@ function foo28(numVal?: number = 2) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 842,
                 "end": 851
             },

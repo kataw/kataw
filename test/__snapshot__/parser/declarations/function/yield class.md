@@ -21,7 +21,7 @@ function* bar() { yield class {} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ function* bar() { yield class {} }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 17,
                                     "end": 23
                                 },
@@ -70,7 +70,7 @@ function* bar() { yield class {} }
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 23,
                                         "end": 29
                                     },

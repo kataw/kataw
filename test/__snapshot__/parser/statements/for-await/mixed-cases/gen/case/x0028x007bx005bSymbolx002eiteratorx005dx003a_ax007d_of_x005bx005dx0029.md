@@ -29,7 +29,7 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -97,7 +97,7 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 27,
                                 "end": 31
                             },
@@ -167,7 +167,7 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 61,
                                 "end": 64
                             },

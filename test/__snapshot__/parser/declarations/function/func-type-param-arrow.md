@@ -26,7 +26,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -137,7 +137,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 35,
                 "end": 45
             },
@@ -302,7 +302,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 93,
                 "end": 103
             },

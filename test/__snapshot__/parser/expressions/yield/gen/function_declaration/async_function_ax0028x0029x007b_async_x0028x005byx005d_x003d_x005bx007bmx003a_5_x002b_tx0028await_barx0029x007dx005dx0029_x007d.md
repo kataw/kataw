@@ -24,7 +24,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 26,
                                 "end": 35
                             },
@@ -187,7 +187,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                         "kind": 208,
                                                                                                         "awaitKeyword": {
                                                                                                             "kind": 82196,
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 64,
                                                                                                             "start": 69,
                                                                                                             "end": 74
                                                                                                         },

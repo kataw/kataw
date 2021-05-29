@@ -47,7 +47,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -71,7 +71,7 @@ const { async = true } = x;
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 9,
                                 "end": 18
                             },
@@ -100,8 +100,7 @@ const { async = true } = x;
                                                             "end": 26
                                                         },
                                                         "right": {
-                                                            "kind": 134,
-                                                            "text": true,
+                                                            "kind": 24752947,
                                                             "flags": 96,
                                                             "start": 28,
                                                             "end": 33
@@ -170,7 +169,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 40,
                 "end": 47
             },
@@ -194,7 +193,7 @@ const { async = true } = x;
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 51,
                                 "end": 60
                             },
@@ -295,7 +294,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 80,
                 "end": 87
             },
@@ -318,7 +317,7 @@ const { async = true } = x;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 114,
                                 "end": 117
                             },
@@ -382,7 +381,7 @@ const { async = true } = x;
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 1,
+                                                    "flags": 65,
                                                     "start": 119,
                                                     "end": 127
                                                 },
@@ -432,7 +431,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 135,
                 "end": 142
             },
@@ -455,7 +454,7 @@ const { async = true } = x;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 170,
                                 "end": 173
                             },
@@ -518,7 +517,7 @@ const { async = true } = x;
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 1,
+                                                    "flags": 65,
                                                     "start": 175,
                                                     "end": 183
                                                 },
@@ -568,7 +567,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 191,
                 "end": 198
             },
@@ -597,7 +596,7 @@ const { async = true } = x;
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 208,
                                 "end": 217
                             },
@@ -673,7 +672,7 @@ const { async = true } = x;
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 1,
+                                                    "flags": 65,
                                                     "start": 235,
                                                     "end": 243
                                                 },
@@ -725,7 +724,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 251,
                 "end": 258
             },
@@ -754,7 +753,7 @@ const { async = true } = x;
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 268,
                                 "end": 277
                             },
@@ -829,7 +828,7 @@ const { async = true } = x;
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 1,
+                                                    "flags": 65,
                                                     "start": 296,
                                                     "end": 304
                                                 },
@@ -881,7 +880,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 312,
                 "end": 319
             },
@@ -907,8 +906,7 @@ const { async = true } = x;
                                             "end": 327
                                         },
                                         "right": {
-                                            "kind": 134,
-                                            "text": true,
+                                            "kind": 24752947,
                                             "flags": 96,
                                             "start": 329,
                                             "end": 334

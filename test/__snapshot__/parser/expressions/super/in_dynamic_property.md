@@ -33,7 +33,7 @@ x[super.foo]
                         "kind": 225,
                         "superKeyword": {
                             "kind": 4259935,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 2,
                             "end": 7
                         },
@@ -80,7 +80,7 @@ x[super.foo]
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 7, end: 8
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 2, end: 8
 
 ```
 

@@ -34,7 +34,7 @@ class C extends B {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -128,7 +128,7 @@ class C extends B {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 29,
                 "end": 35
             },
@@ -147,7 +147,7 @@ class C extends B {
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 37,
                         "end": 45
                     },
@@ -184,9 +184,9 @@ class C extends B {
                                                 "left": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 60,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 97,
+                                                        "start": 60,
                                                         "end": 69
                                                     },
                                                     "expression": {
@@ -213,7 +213,7 @@ class C extends B {
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 75,
                                                             "end": 81
                                                         },
@@ -286,7 +286,7 @@ class C extends B {
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 81, end: 82
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 75, end: 82
 
 ```
 

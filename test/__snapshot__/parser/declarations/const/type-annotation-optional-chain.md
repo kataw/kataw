@@ -30,7 +30,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -99,7 +99,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 27,
                 "end": 33
             },
@@ -147,7 +147,7 @@ const d: string | null = c?.c;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 54,
                                 "end": 56
                             },
@@ -201,7 +201,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 58,
                 "end": 64
             },
@@ -268,7 +268,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 80,
                 "end": 86
             },
@@ -316,7 +316,7 @@ const d: string | null = c?.c;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 107,
                                 "end": 109
                             },

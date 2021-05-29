@@ -42,7 +42,7 @@ x={...new}
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3,
                                     "end": 6
                                 },
@@ -50,7 +50,7 @@ x={...new}
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 6,
                                         "end": 9
                                     },

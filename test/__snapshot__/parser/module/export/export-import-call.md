@@ -27,13 +27,13 @@ import(y);
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 14
             },
@@ -43,7 +43,7 @@ import(y);
                     "kind": 206,
                     "importKeyword": {
                         "kind": 37814364,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 14,
                         "end": 21
                     },
@@ -73,7 +73,7 @@ import(y);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 25,
                     "end": 33
                 },

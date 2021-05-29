@@ -70,7 +70,7 @@
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 14,
                                                         "end": 20
                                                     },
@@ -166,12 +166,12 @@
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 203,
-                            "chain": {
+                            "kind": 129,
+                            "member": {
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 33,
                                     "end": 39
                                 },
@@ -224,7 +224,7 @@
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 31
 ✖ Expected a `;` - start: 31, end: 33
-✖ 'super' must be followed by an argument list or member access. - start: 39, end: 40
+✖ 'super' must be followed by an argument list or member access. - start: 33, end: 40
 ✖ Dot property must be an identifier - start: 39, end: 40
 ✖ Declaration or statement expected - start: 42, end: 44
 ✖ Declaration or statement expected - start: 44, end: 46

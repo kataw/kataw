@@ -26,7 +26,7 @@ var foo; export {[foo]}
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -63,7 +63,7 @@ var foo; export {[foo]}
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 8,
                 "end": 15
             },

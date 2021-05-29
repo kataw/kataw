@@ -74,7 +74,7 @@ let [a=[...b], ...c] = obj;
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 8,
                                                             "end": 11
                                                         },

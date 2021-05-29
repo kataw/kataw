@@ -22,7 +22,7 @@ return   }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -53,7 +53,7 @@ return   }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 13,
                                 "end": 22
                             },
@@ -66,7 +66,7 @@ return   }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 22,
                                 "end": 29
                             },

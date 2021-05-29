@@ -58,7 +58,7 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -96,7 +96,7 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 8,
                 "end": 13
             },
@@ -150,7 +150,7 @@ L: let
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 23,
                 "end": 28
             },
@@ -171,7 +171,7 @@ L: let
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 32,
                     "end": 38
                 },
@@ -213,7 +213,7 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 48,
                 "end": 58
             },
@@ -263,7 +263,7 @@ L: let
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 71,
                         "end": 79
                     },
@@ -318,7 +318,7 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 90,
                 "end": 100
             },
@@ -384,7 +384,7 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 113,
                 "end": 123
             },
@@ -501,7 +501,7 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 151,
                 "end": 156
             },
@@ -656,7 +656,7 @@ L: let
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 200,
                         "end": 208
                     },
@@ -729,7 +729,7 @@ L: let
                                     ],
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 218,
                                         "end": 219
                                     },
@@ -780,7 +780,7 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 226,
                 "end": 236
             },
@@ -872,7 +872,7 @@ L: let
                             ],
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 251,
                                 "end": 252
                             },
@@ -1206,7 +1206,7 @@ L: let
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 323,
                 "end": 324
             },
@@ -1288,7 +1288,7 @@ L: let
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 333,
                 "end": 334
             },

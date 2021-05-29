@@ -24,7 +24,7 @@ class x extends super {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -43,17 +43,17 @@ class x extends super {}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
                     "expression": {
-                        "kind": 203,
-                        "chain": {
+                        "kind": 129,
+                        "member": {
                             "kind": 225,
                             "superKeyword": {
                                 "kind": 4259935,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 21
                             },
@@ -111,7 +111,7 @@ class x extends super {}
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 21, end: 23
+✖ 'super' must be followed by an argument list or member access. - start: 15, end: 23
 ✖ Dot property must be an identifier - start: 21, end: 23
 
 ```

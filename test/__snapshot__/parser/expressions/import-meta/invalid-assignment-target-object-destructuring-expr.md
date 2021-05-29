@@ -49,13 +49,13 @@
                                             "kind": 207,
                                             "importKeyword": {
                                                 "kind": 37814364,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 4,
                                                 "end": 11
                                             },
                                             "metaIdentifier": {
                                                 "kind": 16595,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 12,
                                                 "end": 16
                                             },

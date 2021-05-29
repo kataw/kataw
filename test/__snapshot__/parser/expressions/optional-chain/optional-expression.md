@@ -21,7 +21,7 @@ obj?.a?.b
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -29,7 +29,7 @@ obj?.a?.b
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3,
                         "end": 5
                     },

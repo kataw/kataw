@@ -20,7 +20,7 @@ catch ([v] = b) {}
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -41,7 +41,7 @@ catch ([v] = b) {}
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 6,
                     "end": 12
                 },

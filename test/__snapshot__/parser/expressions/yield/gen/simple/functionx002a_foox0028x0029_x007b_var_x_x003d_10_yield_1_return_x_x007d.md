@@ -24,7 +24,7 @@ function* foo() { var x = 10; yield 1; return x; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -61,7 +61,7 @@ function* foo() { var x = 10; yield 1; return x; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 17,
                                 "end": 21
                             },
@@ -107,7 +107,7 @@ function* foo() { var x = 10; yield 1; return x; }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 29,
                                     "end": 35
                                 },
@@ -133,7 +133,7 @@ function* foo() { var x = 10; yield 1; return x; }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 38,
                                 "end": 45
                             },

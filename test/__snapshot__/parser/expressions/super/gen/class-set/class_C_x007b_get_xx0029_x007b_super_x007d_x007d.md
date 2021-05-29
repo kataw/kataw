@@ -24,7 +24,7 @@ class C { set x(_) { class C { get x) { super; } } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -108,7 +108,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 20,
                                                     "end": 26
                                                 },
@@ -199,12 +199,12 @@ class C { set x(_) { class C { get x) { super; } } } }
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 203,
-                            "chain": {
+                            "kind": 129,
+                            "member": {
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 39,
                                     "end": 45
                                 },
@@ -256,7 +256,7 @@ class C { set x(_) { class C { get x) { super; } } } }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 37
-✖ 'super' must be followed by an argument list or member access. - start: 45, end: 46
+✖ 'super' must be followed by an argument list or member access. - start: 39, end: 46
 ✖ Dot property must be an identifier - start: 45, end: 46
 ✖ Declaration or statement expected - start: 48, end: 50
 ✖ Declaration or statement expected - start: 50, end: 52

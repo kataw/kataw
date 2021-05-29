@@ -374,7 +374,7 @@ type T27 = ArgumentType<never>;  // any
                                 "kind": 134299891,
                                 "typeOfKeyword": {
                                     "kind": 138477613,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 168,
                                     "end": 174
                                 },
@@ -451,7 +451,7 @@ type T27 = ArgumentType<never>;  // any
                                 "kind": 134299891,
                                 "typeOfKeyword": {
                                     "kind": 138477613,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 232,
                                     "end": 238
                                 },

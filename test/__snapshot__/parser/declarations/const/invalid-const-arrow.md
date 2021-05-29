@@ -27,7 +27,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -139,7 +139,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 57,
                                 "end": 60
                             },

@@ -21,7 +21,7 @@ for(;;)x
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -35,7 +35,7 @@ for(;;)x
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 1,
+                "flags": 65,
                 "start": 21,
                 "end": 27
             },
@@ -43,7 +43,7 @@ for(;;)x
                 "kind": 158,
                 "throwKeyword": {
                     "kind": 37757026,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 8
                 },
@@ -52,7 +52,7 @@ for(;;)x
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 8,
                         "end": 17
                     },
@@ -98,7 +98,7 @@ for(;;)x
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 30,
                 "end": 34
             },

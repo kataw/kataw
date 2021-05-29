@@ -40,7 +40,7 @@ a[{...()=>{}}.m()]
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 3,
                                             "end": 6
                                         },
@@ -48,7 +48,7 @@ a[{...()=>{}}.m()]
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 8,
                                                 "end": 10
                                             },

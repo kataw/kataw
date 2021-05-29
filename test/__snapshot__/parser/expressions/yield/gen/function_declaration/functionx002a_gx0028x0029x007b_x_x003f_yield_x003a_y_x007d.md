@@ -24,7 +24,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -57,7 +57,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 29
                             },
@@ -103,7 +103,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 },
                                                 "questionToken": {
                                                     "kind": 134217750,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 37,
                                                     "end": 39
                                                 },
@@ -111,7 +111,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 39,
                                                         "end": 45
                                                     },
@@ -124,7 +124,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 45,
                                                     "end": 47
                                                 },

@@ -23,7 +23,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -61,7 +61,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 10,
                 "end": 14
             },
@@ -153,7 +153,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 76,
                                 "end": 79
                             },

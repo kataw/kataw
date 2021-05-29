@@ -22,7 +22,7 @@ async () => {  \u006eull = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -46,9 +46,8 @@ async () => {  \u006eull = x  }
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
+                                    "kind": 138477575,
+                                    "flags": 16480,
                                     "start": 13,
                                     "end": 24
                                 },
@@ -106,6 +105,7 @@ async () => {  \u006eull = x  }
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 13, end: 24
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 24, end: 26
 
 ```

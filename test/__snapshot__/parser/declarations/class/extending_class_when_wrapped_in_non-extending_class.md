@@ -40,7 +40,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -100,7 +100,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 24,
                                                     "end": 32
                                                 },
@@ -119,7 +119,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                         "kind": 279,
                                                         "extendsKeyword": {
                                                             "kind": 4194391,
-                                                            "flags": 0,
+                                                            "flags": 80,
                                                             "start": 34,
                                                             "end": 42
                                                         },
@@ -158,7 +158,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
                                                                                     "kind": 4259935,
-                                                                                    "flags": 0,
+                                                                                    "flags": 96,
                                                                                     "start": 48,
                                                                                     "end": 53
                                                                                 },
@@ -276,7 +276,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 53, end: 54
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 48, end: 54
 
 ```
 

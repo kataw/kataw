@@ -20,8 +20,7 @@ true ** a
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 134,
-                    "text": true,
+                    "kind": 24752947,
                     "flags": 96,
                     "start": 0,
                     "end": 4

@@ -25,9 +25,8 @@
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
+                        "kind": 138477575,
+                        "flags": 16480,
                         "start": 1,
                         "end": 10
                     },
@@ -76,6 +75,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 1, end: 10
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 12
 
 ```

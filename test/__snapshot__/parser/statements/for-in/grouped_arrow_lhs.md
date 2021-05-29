@@ -38,7 +38,7 @@ for (((x)=>{}) in y);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -48,7 +48,7 @@ for (((x)=>{}) in y);
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 9,
                         "end": 11
                     },

@@ -98,7 +98,7 @@ class Annotations {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -221,9 +221,9 @@ class Annotations {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 53,
-                                                            "start": 97,
+                                                            "kind": 4276321,
+                                                            "flags": 97,
+                                                            "start": 53,
                                                             "end": 62
                                                         },
                                                         "expression": {
@@ -264,9 +264,9 @@ class Annotations {
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 70,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 97,
+                                                        "start": 70,
                                                         "end": 91
                                                     },
                                                     "expression": {
@@ -438,7 +438,7 @@ class Annotations {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 196,
                 "end": 203
             },
@@ -528,7 +528,7 @@ class Annotations {
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 244,
                                                     "end": 251
                                                 },
@@ -552,7 +552,7 @@ class Annotations {
                                                                 "decorators": null,
                                                                 "classKeyword": {
                                                                     "kind": 37822544,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 259,
                                                                     "end": 265
                                                                 },
@@ -653,9 +653,9 @@ class Annotations {
                                                                                                         "left": {
                                                                                                             "kind": 129,
                                                                                                             "member": {
-                                                                                                                "kind": 135,
-                                                                                                                "flags": 311,
-                                                                                                                "start": 97,
+                                                                                                                "kind": 4276321,
+                                                                                                                "flags": 97,
+                                                                                                                "start": 311,
                                                                                                                 "end": 324
                                                                                                             },
                                                                                                             "expression": {
@@ -679,7 +679,7 @@ class Annotations {
                                                                                                             "kind": 210,
                                                                                                             "newKeyword": {
                                                                                                                 "kind": 138477661,
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 333,
                                                                                                                 "end": 337
                                                                                                             },
@@ -716,7 +716,7 @@ class Annotations {
                                                                                                     "declareKeyword": null,
                                                                                                     "varKeyword": {
                                                                                                         "kind": 37757002,
-                                                                                                        "flags": 1,
+                                                                                                        "flags": 81,
                                                                                                         "start": 346,
                                                                                                         "end": 358
                                                                                                     },
@@ -739,7 +739,7 @@ class Annotations {
                                                                                                                     "kind": 210,
                                                                                                                     "newKeyword": {
                                                                                                                         "kind": 138477661,
-                                                                                                                        "flags": 0,
+                                                                                                                        "flags": 96,
                                                                                                                         "start": 362,
                                                                                                                         "end": 366
                                                                                                                     },
@@ -858,7 +858,7 @@ class Annotations {
                                                                                                             "kind": 210,
                                                                                                             "newKeyword": {
                                                                                                                 "kind": 138477661,
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 464,
                                                                                                                 "end": 468
                                                                                                             },
@@ -969,7 +969,7 @@ class Annotations {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 545,
                 "end": 552
             },
@@ -1431,16 +1431,16 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 896,
                                                     "end": 907
                                                 },
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 907,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 907,
                                                         "end": 912
                                                     },
                                                     "expression": {
@@ -1525,16 +1525,16 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 940,
                                                     "end": 951
                                                 },
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 951,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 951,
                                                         "end": 956
                                                     },
                                                     "expression": {
@@ -1619,7 +1619,7 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 1011,
                                                     "end": 1022
                                                 },
@@ -1715,7 +1715,7 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 1063,
                                                     "end": 1074
                                                 },
@@ -1811,16 +1811,16 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 1142,
                                                     "end": 1153
                                                 },
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 1153,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 1153,
                                                         "end": 1158
                                                     },
                                                     "expression": {
@@ -1905,16 +1905,16 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 1186,
                                                     "end": 1197
                                                 },
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 1197,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 1197,
                                                         "end": 1202
                                                     },
                                                     "expression": {
@@ -1991,9 +1991,9 @@ class Annotations {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 1259,
-                                                            "start": 97,
+                                                            "kind": 4276321,
+                                                            "flags": 97,
+                                                            "start": 1259,
                                                             "end": 1268
                                                         },
                                                         "expression": {
@@ -2096,7 +2096,7 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 1300,
                                                     "end": 1311
                                                 },
@@ -2192,7 +2192,7 @@ class Annotations {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 1352,
                                                     "end": 1363
                                                 },

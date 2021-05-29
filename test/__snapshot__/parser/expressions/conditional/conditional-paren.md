@@ -37,7 +37,7 @@ a ? (1 + 2) : (3 + 4)
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -77,7 +77,7 @@ a ? (1 + 2) : (3 + 4)
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 11,
                     "end": 13
                 },

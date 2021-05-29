@@ -22,7 +22,7 @@ for (`temp {waitforit} late` in x) ;
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -72,12 +72,12 @@ for (`temp {waitforit} late` in x) ;
 
 ```javascript
 
-for (`temp {waitforit} late` in x);
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 31, end: 33
+
 ```
 

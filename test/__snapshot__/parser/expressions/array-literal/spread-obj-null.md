@@ -29,7 +29,7 @@
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 1,
                                 "end": 9
                             },
@@ -98,8 +98,7 @@
                         "kind": 256,
                         "elements": [
                             {
-                                "kind": 269,
-                                "text": null,
+                                "kind": 138477575,
                                 "flags": 96,
                                 "start": 25,
                                 "end": 29
@@ -118,13 +117,12 @@
                                                         "kind": 224,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 33,
                                                             "end": 36
                                                         },
                                                         "argument": {
-                                                            "kind": 269,
-                                                            "text": null,
+                                                            "kind": 138477575,
                                                             "flags": 96,
                                                             "start": 36,
                                                             "end": 40

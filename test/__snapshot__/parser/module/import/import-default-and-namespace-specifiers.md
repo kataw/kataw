@@ -25,7 +25,7 @@ import foo, * as bar from "foo";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -33,7 +33,7 @@ import foo, * as bar from "foo";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 20,
                     "end": 25
                 },
@@ -64,13 +64,13 @@ import foo, * as bar from "foo";
                     "kind": 255,
                     "asteriskToken": {
                         "kind": 67143222,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 11,
                         "end": 13
                     },
                     "asKeyword": {
                         "kind": 16494,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 13,
                         "end": 16
                     },

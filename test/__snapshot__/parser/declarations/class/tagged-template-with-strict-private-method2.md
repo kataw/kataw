@@ -36,7 +36,7 @@ new Foo();
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -93,14 +93,14 @@ new Foo();
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 22,
                                                     "end": 33
                                                 },
                                                 "expression": {
-                                                    "kind": 135,
-                                                    "flags": 33,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 96,
+                                                    "start": 33,
                                                     "end": 38
                                                 },
                                                 "flags": 16,
@@ -142,9 +142,9 @@ new Foo();
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 135,
-                                    "flags": 54,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 96,
+                                    "start": 54,
                                     "end": 59
                                 },
                                 "expression": {
@@ -207,7 +207,7 @@ new Foo();
                                                 "kind": 162,
                                                 "lexicalKeyword": {
                                                     "kind": 37757004,
-                                                    "flags": 1,
+                                                    "flags": 65,
                                                     "start": 84,
                                                     "end": 94
                                                 },
@@ -231,9 +231,9 @@ new Foo();
                                                                 "member": {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 135,
-                                                                        "flags": 105,
-                                                                        "start": 96,
+                                                                        "kind": 4276321,
+                                                                        "flags": 96,
+                                                                        "start": 105,
                                                                         "end": 110
                                                                     },
                                                                     "expression": {
@@ -318,9 +318,9 @@ new Foo();
                                                                     "end": 165
                                                                 },
                                                                 "right": {
-                                                                    "kind": 135,
-                                                                    "flags": 165,
-                                                                    "start": 96,
+                                                                    "kind": 4276321,
+                                                                    "flags": 96,
+                                                                    "start": 165,
                                                                     "end": 170
                                                                 },
                                                                 "flags": 32,
@@ -345,7 +345,7 @@ new Foo();
                                                 "kind": 162,
                                                 "lexicalKeyword": {
                                                     "kind": 37757004,
-                                                    "flags": 1,
+                                                    "flags": 65,
                                                     "start": 172,
                                                     "end": 183
                                                 },
@@ -369,9 +369,9 @@ new Foo();
                                                                 "member": {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 135,
-                                                                        "flags": 195,
-                                                                        "start": 96,
+                                                                        "kind": 4276321,
+                                                                        "flags": 96,
+                                                                        "start": 195,
                                                                         "end": 200
                                                                     },
                                                                     "expression": {
@@ -456,9 +456,9 @@ new Foo();
                                                                     "end": 257
                                                                 },
                                                                 "right": {
-                                                                    "kind": 135,
-                                                                    "flags": 257,
-                                                                    "start": 96,
+                                                                    "kind": 4276321,
+                                                                    "flags": 96,
+                                                                    "start": 257,
                                                                     "end": 262
                                                                 },
                                                                 "flags": 32,
@@ -515,7 +515,7 @@ new Foo();
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 1,
+                    "flags": 97,
                     "start": 270,
                     "end": 274
                 },

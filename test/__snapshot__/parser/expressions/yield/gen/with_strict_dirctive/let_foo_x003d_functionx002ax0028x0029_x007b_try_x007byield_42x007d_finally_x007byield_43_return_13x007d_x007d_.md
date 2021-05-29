@@ -55,7 +55,7 @@
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 23,
                                 "end": 32
                             },
@@ -84,7 +84,7 @@
                                             "kind": 159,
                                             "tryKeyword": {
                                                 "kind": 37757027,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 37,
                                                 "end": 41
                                             },
@@ -99,7 +99,7 @@
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 43,
                                                                     "end": 48
                                                                 },
@@ -133,7 +133,7 @@
                                             "catchClause": null,
                                             "finallyKeyword": {
                                                 "kind": 37757016,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 52,
                                                 "end": 60
                                             },
@@ -148,7 +148,7 @@
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 62,
                                                                     "end": 67
                                                                 },
@@ -174,7 +174,7 @@
                                                             "kind": 161,
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
-                                                                "flags": 0,
+                                                                "flags": 80,
                                                                 "start": 71,
                                                                 "end": 78
                                                             },

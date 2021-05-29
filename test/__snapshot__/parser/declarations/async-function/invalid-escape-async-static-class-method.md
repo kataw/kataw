@@ -21,7 +21,7 @@ class X { static \u0061sync x() { await x } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -91,7 +91,7 @@ class X { static \u0061sync x() { await x } }
                                                     "kind": 208,
                                                     "awaitKeyword": {
                                                         "kind": 82196,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 33,
                                                         "end": 39
                                                     },

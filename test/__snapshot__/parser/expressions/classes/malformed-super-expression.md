@@ -25,7 +25,7 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -84,12 +84,12 @@ class A {
                                                 "expression": {
                                                     "kind": 198,
                                                     "left": {
-                                                        "kind": 203,
-                                                        "chain": {
+                                                        "kind": 129,
+                                                        "member": {
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 1,
+                                                                "flags": 97,
                                                                 "start": 18,
                                                                 "end": 28
                                                             },
@@ -179,7 +179,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 28, end: 30
+✖ 'super' must be followed by an argument list or member access. - start: 18, end: 30
 ✖ Dot property must be an identifier - start: 28, end: 30
 
 ```

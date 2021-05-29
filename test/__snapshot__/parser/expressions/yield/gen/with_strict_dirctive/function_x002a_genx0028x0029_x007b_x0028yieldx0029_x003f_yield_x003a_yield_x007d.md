@@ -33,7 +33,7 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 13,
                 "end": 22
             },
@@ -75,7 +75,7 @@
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 34,
                                             "end": 39
                                         },
@@ -92,7 +92,7 @@
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 40,
                                     "end": 42
                                 },
@@ -100,7 +100,7 @@
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 42,
                                         "end": 48
                                     },
@@ -113,7 +113,7 @@
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 48,
                                     "end": 50
                                 },
@@ -121,7 +121,7 @@
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 50,
                                         "end": 56
                                     },

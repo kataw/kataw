@@ -27,7 +27,7 @@ class Foo { static ['constructor'] = 1 }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -92,7 +92,7 @@ class Foo { static ['constructor'] = 1 }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 29,
                 "end": 36
             },
@@ -164,7 +164,7 @@ class Foo { static ['constructor'] = 1 }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 64,
                 "end": 71
             },
@@ -234,7 +234,7 @@ class Foo { static ['constructor'] = 1 }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 102,
                 "end": 109
             },

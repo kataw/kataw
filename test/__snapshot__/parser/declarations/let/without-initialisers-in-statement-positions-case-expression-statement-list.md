@@ -19,13 +19,12 @@ switch (true) { case true: let x; }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "expression": {
-                "kind": 134,
-                "text": true,
+                "kind": 24752947,
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -37,13 +36,12 @@ switch (true) { case true: let x; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 15,
                             "end": 20
                         },
                         "expression": {
-                            "kind": 134,
-                            "text": true,
+                            "kind": 24752947,
                             "flags": 96,
                             "start": 20,
                             "end": 25

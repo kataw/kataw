@@ -29,7 +29,7 @@ class Foo { static x = class { y = this } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -74,7 +74,7 @@ class Foo { static x = class { y = this } }
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 22,
                                     "end": 28
                                 },
@@ -103,9 +103,9 @@ class Foo { static x = class { y = this } }
                                                 "optionalToken": null,
                                                 "type": null,
                                                 "initializer": {
-                                                    "kind": 135,
-                                                    "flags": 34,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 96,
+                                                    "start": 34,
                                                     "end": 39
                                                 },
                                                 "flags": 32,

@@ -40,7 +40,7 @@ function *f(){ return [...yield x]; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -76,7 +76,7 @@ function *f(){ return [...yield x]; }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 14,
                                 "end": 21
                             },
@@ -89,7 +89,7 @@ function *f(){ return [...yield x]; }
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 23,
                                                 "end": 26
                                             },
@@ -97,7 +97,7 @@ function *f(){ return [...yield x]; }
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 26,
                                                     "end": 31
                                                 },

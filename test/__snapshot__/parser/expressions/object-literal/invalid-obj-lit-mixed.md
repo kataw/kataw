@@ -313,7 +313,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 160,
                     "end": 162
                 },
@@ -351,7 +351,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 230,
                     "end": 232
                 },
@@ -388,7 +388,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 275,
                     "end": 278
                 },
@@ -481,7 +481,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 336,
                     "end": 339
                 },
@@ -588,7 +588,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 404,
                     "end": 407
                 },
@@ -695,7 +695,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 472,
                     "end": 475
                 },
@@ -900,7 +900,7 @@
                                                                                         "kind": 271,
                                                                                         "arrowToken": {
                                                                                             "kind": 10,
-                                                                                            "flags": 0,
+                                                                                            "flags": 64,
                                                                                             "start": 538,
                                                                                             "end": 541
                                                                                         },

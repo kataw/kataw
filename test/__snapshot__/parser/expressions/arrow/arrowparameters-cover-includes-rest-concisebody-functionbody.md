@@ -20,7 +20,7 @@ var af = (x, ...y) => { return [x, y.length]; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -43,7 +43,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 21
                             },
@@ -95,7 +95,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 23,
                                                 "end": 30
                                             },

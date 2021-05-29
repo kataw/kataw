@@ -31,7 +31,7 @@ async function p(){
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -64,7 +64,7 @@ async function p(){
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 19,
                                 "end": 27
                             },
@@ -83,7 +83,7 @@ async function p(){
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 29,
                                         "end": 37
                                     },
@@ -93,7 +93,7 @@ async function p(){
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 37,
                                                 "end": 43
                                             },
@@ -167,7 +167,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 43, end: 44
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 37, end: 44
 
 ```
 

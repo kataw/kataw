@@ -22,14 +22,14 @@ for (this in x) ;
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
             "initializer": {
-                "kind": 135,
-                "flags": 5,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 96,
+                "start": 5,
                 "end": 9
             },
             "inKeyword": {

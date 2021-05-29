@@ -22,7 +22,7 @@ do do do function while while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -35,7 +35,7 @@ do do do function while while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 29,
                 "end": 35
             },
@@ -43,7 +43,7 @@ do do do function while while while while
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 5
                 },
@@ -56,7 +56,7 @@ do do do function while while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 23,
                     "end": 29
                 },
@@ -64,7 +64,7 @@ do do do function while while while while
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 5,
                         "end": 8
                     },
@@ -77,7 +77,7 @@ do do do function while while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 17,
                         "end": 23
                     },
@@ -87,7 +87,7 @@ do do do function while while while while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 8,
                             "end": 17
                         },
@@ -137,7 +137,7 @@ do do do function while while while while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 35,
                 "end": 41
             },

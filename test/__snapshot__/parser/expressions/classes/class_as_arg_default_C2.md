@@ -37,7 +37,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 42,
                         "end": 45
                     },
@@ -69,7 +69,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 13,
                                                 "end": 19
                                             },

@@ -35,7 +35,7 @@ async function f() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -89,7 +89,7 @@ async function f() {
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 30,
                                                                     "end": 35
                                                                 },
@@ -189,7 +189,7 @@ async function f() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 57,
                                 "end": 66
                             },

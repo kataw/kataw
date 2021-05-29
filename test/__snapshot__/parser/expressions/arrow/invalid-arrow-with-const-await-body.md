@@ -42,7 +42,7 @@ let f = () => { const [...await f] = []; }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 10,
                                 "end": 13
                             },
@@ -60,7 +60,7 @@ let f = () => { const [...await f] = []; }
                                             "kind": 162,
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 15,
                                                 "end": 21
                                             },

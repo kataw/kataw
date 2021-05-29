@@ -24,7 +24,7 @@ class C { set x(_) { super; } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -105,12 +105,12 @@ class C { set x(_) { super; } }
                                             {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 203,
-                                                    "chain": {
+                                                    "kind": 129,
+                                                    "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 20,
                                                             "end": 26
                                                         },
@@ -182,7 +182,7 @@ class C { set x(_) { super; } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 26, end: 27
+✖ 'super' must be followed by an argument list or member access. - start: 20, end: 27
 ✖ Dot property must be an identifier - start: 26, end: 27
 
 ```

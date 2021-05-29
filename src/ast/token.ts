@@ -60,7 +60,6 @@ export type TokenSyntaxKind =
   | SyntaxKind.ImportKeyword
   | SyntaxKind.ThisKeyword
   | SyntaxKind.NullKeyword
-  | SyntaxKind.BooleanLiteral
   | SyntaxKind.BigIntLiteral
   | SyntaxKind.TrueKeyword
   | SyntaxKind.QuestionMark

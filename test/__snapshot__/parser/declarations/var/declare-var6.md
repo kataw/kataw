@@ -38,7 +38,7 @@ declare var union: Foo | null | void;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 7,
                 "end": 11
             },
@@ -101,7 +101,7 @@ declare var union: Foo | null | void;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 27,
                 "end": 31
             },
@@ -164,7 +164,7 @@ declare var union: Foo | null | void;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 53,
                 "end": 57
             },
@@ -218,7 +218,7 @@ declare var union: Foo | null | void;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 75,
                 "end": 79
             },
@@ -281,7 +281,7 @@ declare var union: Foo | null | void;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 101,
                 "end": 105
             },
@@ -356,7 +356,7 @@ declare var union: Foo | null | void;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 126,
                 "end": 130
             },

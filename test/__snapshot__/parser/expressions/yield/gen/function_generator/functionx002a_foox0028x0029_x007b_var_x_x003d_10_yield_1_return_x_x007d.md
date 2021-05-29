@@ -24,7 +24,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -95,7 +95,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 39,
                                                 "end": 48
                                             },
@@ -132,7 +132,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                             "declareKeyword": null,
                                                             "varKeyword": {
                                                                 "kind": 37757002,
-                                                                "flags": 0,
+                                                                "flags": 80,
                                                                 "start": 57,
                                                                 "end": 61
                                                             },
@@ -178,7 +178,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 69,
                                                                     "end": 75
                                                                 },
@@ -204,7 +204,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                             "kind": 161,
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
-                                                                "flags": 0,
+                                                                "flags": 80,
                                                                 "start": 78,
                                                                 "end": 85
                                                             },

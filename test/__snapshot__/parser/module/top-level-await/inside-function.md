@@ -29,7 +29,7 @@ function fn() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function fn() {
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 15,
                                     "end": 23
                                 },

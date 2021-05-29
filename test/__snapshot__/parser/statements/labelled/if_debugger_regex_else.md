@@ -26,7 +26,7 @@ function x(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -57,7 +57,7 @@ function x(){
                             "kind": 164,
                             "ifKeyword": {
                                 "kind": 37757019,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 13,
                                 "end": 18
                             },
@@ -73,7 +73,7 @@ function x(){
                                 "kind": 171,
                                 "debuggerKeyword": {
                                     "kind": 37757010,
-                                    "flags": 1,
+                                    "flags": 81,
                                     "start": 22,
                                     "end": 35
                                 },

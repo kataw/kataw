@@ -22,7 +22,7 @@ do do do class x {} while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -35,7 +35,7 @@ do do do class x {} while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 31,
                 "end": 37
             },
@@ -43,7 +43,7 @@ do do do class x {} while while while
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 5
                 },
@@ -56,7 +56,7 @@ do do do class x {} while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 25,
                     "end": 31
                 },
@@ -64,7 +64,7 @@ do do do class x {} while while while
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 5,
                         "end": 8
                     },
@@ -77,7 +77,7 @@ do do do class x {} while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 19,
                         "end": 25
                     },
@@ -87,7 +87,7 @@ do do do class x {} while while while
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 8,
                             "end": 14
                         },

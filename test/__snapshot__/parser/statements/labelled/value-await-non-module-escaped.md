@@ -43,7 +43,7 @@ aw\u0061it: 1;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 10,
                 "end": 11
             },

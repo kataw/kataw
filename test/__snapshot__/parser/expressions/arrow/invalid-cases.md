@@ -157,7 +157,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 12,
                     "end": 15
                 },
@@ -294,7 +294,7 @@ a++ => {};
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 1,
+                "flags": 81,
                 "start": 52,
                 "end": 59
             },
@@ -334,7 +334,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 69,
                     "end": 72
                 },
@@ -405,7 +405,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 91,
                     "end": 93
                 },
@@ -497,7 +497,7 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 113,
                         "end": 115
                     },
@@ -553,7 +553,7 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 125,
                         "end": 127
                     },
@@ -609,7 +609,7 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 137,
                         "end": 140
                     },
@@ -659,7 +659,7 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 153,
                         "end": 156
                     },
@@ -728,7 +728,7 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 165,
                         "end": 168
                     },
@@ -776,7 +776,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 215,
                     "end": 218
                 },
@@ -792,7 +792,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 178,
                                             "end": 181
                                         },
@@ -843,8 +843,7 @@ a++ => {};
                                         "left": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 134,
-                                                "text": true,
+                                                "kind": 24752947,
                                                 "flags": 96,
                                                 "start": 189,
                                                 "end": 193
@@ -893,7 +892,7 @@ a++ => {};
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 205,
                                                             "end": 208
                                                         },
@@ -973,7 +972,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 336,
                     "end": 339
                 },
@@ -989,7 +988,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 226,
                                             "end": 229
                                         },
@@ -1024,7 +1023,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 233,
                                             "end": 236
                                         },
@@ -1067,7 +1066,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 242,
                                             "end": 245
                                         },
@@ -1310,7 +1309,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 296,
                                             "end": 299
                                         },
@@ -1353,7 +1352,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 307,
                                             "end": 310
                                         },
@@ -1388,7 +1387,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 315,
                                             "end": 318
                                         },
@@ -1428,7 +1427,7 @@ a++ => {};
                                                     "kind": 223,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 323,
                                                         "end": 326
                                                     },
@@ -1458,7 +1457,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 329,
                                             "end": 332
                                         },
@@ -1516,7 +1515,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 399,
                     "end": 402
                 },
@@ -1540,7 +1539,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 349,
                                             "end": 352
                                         },
@@ -1575,7 +1574,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 356,
                                             "end": 359
                                         },
@@ -1610,7 +1609,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 363,
                                             "end": 366
                                         },
@@ -1670,7 +1669,7 @@ a++ => {};
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 377,
                                                 "end": 380
                                             },
@@ -1741,7 +1740,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 392,
                                             "end": 395
                                         },
@@ -1799,7 +1798,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 496,
                     "end": 499
                 },
@@ -1815,7 +1814,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 410,
                                             "end": 413
                                         },
@@ -1866,7 +1865,7 @@ a++ => {};
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 420,
                                                             "end": 423
                                                         },
@@ -1947,7 +1946,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 446,
                                             "end": 449
                                         },
@@ -1982,7 +1981,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 453,
                                             "end": 456
                                         },
@@ -2048,7 +2047,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 471,
                                             "end": 474
                                         },
@@ -2091,7 +2090,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 482,
                                             "end": 485
                                         },
@@ -2126,7 +2125,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 490,
                                             "end": 493
                                         },
@@ -2184,7 +2183,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 625,
                     "end": 628
                 },
@@ -2220,7 +2219,7 @@ a++ => {};
                                                                 "kind": 223,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 515,
                                                                     "end": 518
                                                                 },
@@ -2287,7 +2286,7 @@ a++ => {};
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 530,
                                                             "end": 533
                                                         },
@@ -2357,8 +2356,7 @@ a++ => {};
                                                                 "right": {
                                                                     "kind": 198,
                                                                     "left": {
-                                                                        "kind": 134,
-                                                                        "text": true,
+                                                                        "kind": 24752947,
                                                                         "flags": 96,
                                                                         "start": 544,
                                                                         "end": 548
@@ -2386,7 +2384,7 @@ a++ => {};
                                                                                     "kind": 223,
                                                                                     "ellipsisToken": {
                                                                                         "kind": 524302,
-                                                                                        "flags": 0,
+                                                                                        "flags": 64,
                                                                                         "start": 555,
                                                                                         "end": 558
                                                                                     },
@@ -2425,7 +2423,7 @@ a++ => {};
                                                                         "kind": 223,
                                                                         "ellipsisToken": {
                                                                             "kind": 524302,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 563,
                                                                             "end": 566
                                                                         },
@@ -2571,7 +2569,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 597,
                                             "end": 600
                                         },
@@ -2614,7 +2612,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 608,
                                             "end": 611
                                         },
@@ -2649,7 +2647,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 615,
                                             "end": 618
                                         },
@@ -2715,7 +2713,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 816,
                     "end": 819
                 },
@@ -2733,7 +2731,7 @@ a++ => {};
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 637,
                                                 "end": 640
                                             },
@@ -2795,7 +2793,7 @@ a++ => {};
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 650,
                                     "end": 651
                                 },
@@ -2841,7 +2839,7 @@ a++ => {};
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 660,
                                     "end": 661
                                 },
@@ -2978,7 +2976,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 685,
                                             "end": 688
                                         },
@@ -3013,7 +3011,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 692,
                                             "end": 695
                                         },
@@ -3077,7 +3075,7 @@ a++ => {};
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 712,
                                                         "end": 715
                                                     },
@@ -3107,7 +3105,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 718,
                                             "end": 721
                                         },
@@ -3173,7 +3171,7 @@ a++ => {};
                                                 },
                                                 "questionToken": {
                                                     "kind": 134217750,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 732,
                                                     "end": 733
                                                 },
@@ -3211,7 +3209,7 @@ a++ => {};
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 740,
                                                     "end": 741
                                                 },
@@ -3247,7 +3245,7 @@ a++ => {};
                                                         },
                                                         "questionToken": {
                                                             "kind": 134217750,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 746,
                                                             "end": 747
                                                         },
@@ -3267,7 +3265,7 @@ a++ => {};
                                                         },
                                                         "colonToken": {
                                                             "kind": 21,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 751,
                                                             "end": 752
                                                         },
@@ -3344,7 +3342,7 @@ a++ => {};
                                                         "kind": 224,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 770,
                                                             "end": 773
                                                         },
@@ -3393,7 +3391,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 779,
                                             "end": 782
                                         },
@@ -3428,7 +3426,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 786,
                                             "end": 789
                                         },
@@ -3501,7 +3499,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 803,
                                             "end": 806
                                         },
@@ -3536,7 +3534,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 810,
                                             "end": 813
                                         },
@@ -3594,7 +3592,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 866,
                     "end": 869
                 },
@@ -3610,7 +3608,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 828,
                                             "end": 831
                                         },
@@ -3653,7 +3651,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 837,
                                             "end": 840
                                         },
@@ -3711,7 +3709,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 852,
                                             "end": 855
                                         },
@@ -3746,7 +3744,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 860,
                                             "end": 863
                                         },
@@ -3804,7 +3802,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1044,
                     "end": 1047
                 },
@@ -3820,7 +3818,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 878,
                                             "end": 881
                                         },
@@ -3910,7 +3908,7 @@ a++ => {};
                                                 },
                                                 "questionToken": {
                                                     "kind": 134217750,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 900,
                                                     "end": 901
                                                 },
@@ -3948,7 +3946,7 @@ a++ => {};
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 908,
                                                     "end": 909
                                                 },
@@ -4034,7 +4032,7 @@ a++ => {};
                                                     },
                                                     "questionToken": {
                                                         "kind": 134217750,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 924,
                                                         "end": 925
                                                     },
@@ -4070,7 +4068,7 @@ a++ => {};
                                                             },
                                                             "questionToken": {
                                                                 "kind": 134217750,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 931,
                                                                 "end": 932
                                                             },
@@ -4081,8 +4079,7 @@ a++ => {};
                                                                     "expression": {
                                                                         "kind": 198,
                                                                         "left": {
-                                                                            "kind": 134,
-                                                                            "text": false,
+                                                                            "kind": 205586437,
                                                                             "flags": 96,
                                                                             "start": 934,
                                                                             "end": 939
@@ -4110,7 +4107,7 @@ a++ => {};
                                                                                         "kind": 223,
                                                                                         "ellipsisToken": {
                                                                                             "kind": 524302,
-                                                                                            "flags": 0,
+                                                                                            "flags": 64,
                                                                                             "start": 946,
                                                                                             "end": 949
                                                                                         },
@@ -4142,7 +4139,7 @@ a++ => {};
                                                             },
                                                             "colonToken": {
                                                                 "kind": 21,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 953,
                                                                 "end": 954
                                                             },
@@ -4188,7 +4185,7 @@ a++ => {};
                                                     },
                                                     "colonToken": {
                                                         "kind": 21,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 962,
                                                         "end": 963
                                                     },
@@ -4227,7 +4224,7 @@ a++ => {};
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 969,
                                                             "end": 972
                                                         },
@@ -4292,7 +4289,7 @@ a++ => {};
                                                 },
                                                 "questionToken": {
                                                     "kind": 134217750,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 982,
                                                     "end": 983
                                                 },
@@ -4315,7 +4312,7 @@ a++ => {};
                                                                     "kind": 223,
                                                                     "ellipsisToken": {
                                                                         "kind": 524302,
-                                                                        "flags": 0,
+                                                                        "flags": 64,
                                                                         "start": 990,
                                                                         "end": 993
                                                                     },
@@ -4339,7 +4336,7 @@ a++ => {};
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 996,
                                                     "end": 997
                                                 },
@@ -4362,7 +4359,7 @@ a++ => {};
                                                                     "kind": 223,
                                                                     "ellipsisToken": {
                                                                         "kind": 524302,
-                                                                        "flags": 0,
+                                                                        "flags": 64,
                                                                         "start": 1004,
                                                                         "end": 1007
                                                                     },
@@ -4401,7 +4398,7 @@ a++ => {};
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 1013,
                                                             "end": 1016
                                                         },
@@ -4450,7 +4447,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1021,
                                             "end": 1024
                                         },
@@ -4485,7 +4482,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1029,
                                             "end": 1032
                                         },
@@ -4520,7 +4517,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1037,
                                             "end": 1040
                                         },
@@ -4578,7 +4575,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1145,
                     "end": 1148
                 },
@@ -4622,7 +4619,7 @@ a++ => {};
                                                                 "kind": 223,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 1068,
                                                                     "end": 1071
                                                                 },
@@ -4798,7 +4795,7 @@ a++ => {};
                                                                         "kind": 223,
                                                                         "ellipsisToken": {
                                                                             "kind": 524302,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 1106,
                                                                             "end": 1109
                                                                         },
@@ -4885,7 +4882,7 @@ a++ => {};
                                                         "kind": 224,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 1122,
                                                             "end": 1125
                                                         },
@@ -4942,7 +4939,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1135,
                                             "end": 1138
                                         },
@@ -5008,7 +5005,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1212,
                     "end": 1215
                 },
@@ -5024,7 +5021,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1157,
                                             "end": 1160
                                         },
@@ -5059,7 +5056,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1164,
                                             "end": 1167
                                         },
@@ -5102,7 +5099,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1173,
                                             "end": 1176
                                         },
@@ -5176,7 +5173,7 @@ a++ => {};
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1194,
                                             "end": 1197
                                         },
@@ -5225,7 +5222,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1205,
                                             "end": 1208
                                         },
@@ -5283,7 +5280,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1582,
                     "end": 1585
                 },
@@ -5466,7 +5463,7 @@ a++ => {};
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 1258,
                                                             "end": 1261
                                                         },
@@ -5631,7 +5628,7 @@ a++ => {};
                                                 },
                                                 "questionToken": {
                                                     "kind": 134217750,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 1288,
                                                     "end": 1289
                                                 },
@@ -5654,7 +5651,7 @@ a++ => {};
                                                                     "kind": 223,
                                                                     "ellipsisToken": {
                                                                         "kind": 524302,
-                                                                        "flags": 0,
+                                                                        "flags": 64,
                                                                         "start": 1296,
                                                                         "end": 1299
                                                                     },
@@ -5678,7 +5675,7 @@ a++ => {};
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 1302,
                                                     "end": 1303
                                                 },
@@ -5720,7 +5717,7 @@ a++ => {};
                                                     },
                                                     "questionToken": {
                                                         "kind": 134217750,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 1308,
                                                         "end": 1309
                                                     },
@@ -5758,7 +5755,7 @@ a++ => {};
                                                             },
                                                             "questionToken": {
                                                                 "kind": 134217750,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 1314,
                                                                 "end": 1315
                                                             },
@@ -5804,7 +5801,7 @@ a++ => {};
                                                             },
                                                             "colonToken": {
                                                                 "kind": 21,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 1324,
                                                                 "end": 1325
                                                             },
@@ -5850,7 +5847,7 @@ a++ => {};
                                                     },
                                                     "colonToken": {
                                                         "kind": 21,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 1333,
                                                         "end": 1334
                                                     },
@@ -5894,8 +5891,7 @@ a++ => {};
                                                                     "end": 1344
                                                                 },
                                                                 "right": {
-                                                                    "kind": 134,
-                                                                    "text": true,
+                                                                    "kind": 24752947,
                                                                     "flags": 96,
                                                                     "start": 1344,
                                                                     "end": 1348
@@ -5910,15 +5906,14 @@ a++ => {};
                                                         },
                                                         "questionToken": {
                                                             "kind": 134217750,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 1348,
                                                             "end": 1349
                                                         },
                                                         "consequent": {
                                                             "kind": 121,
                                                             "expression": {
-                                                                "kind": 134,
-                                                                "text": false,
+                                                                "kind": 205586437,
                                                                 "flags": 96,
                                                                 "start": 1350,
                                                                 "end": 1355
@@ -5929,7 +5924,7 @@ a++ => {};
                                                         },
                                                         "colonToken": {
                                                             "kind": 21,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 1356,
                                                             "end": 1357
                                                         },
@@ -5952,7 +5947,7 @@ a++ => {};
                                                                             "kind": 223,
                                                                             "ellipsisToken": {
                                                                                 "kind": 524302,
-                                                                                "flags": 0,
+                                                                                "flags": 64,
                                                                                 "start": 1364,
                                                                                 "end": 1367
                                                                             },
@@ -6015,7 +6010,7 @@ a++ => {};
                                                                         "kind": 223,
                                                                         "ellipsisToken": {
                                                                             "kind": 524302,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 1377,
                                                                             "end": 1380
                                                                         },
@@ -6137,7 +6132,7 @@ a++ => {};
                                                                                 },
                                                                                 "questionToken": {
                                                                                     "kind": 134217750,
-                                                                                    "flags": 0,
+                                                                                    "flags": 64,
                                                                                     "start": 1407,
                                                                                     "end": 1408
                                                                                 },
@@ -6155,7 +6150,7 @@ a++ => {};
                                                                                         },
                                                                                         "questionToken": {
                                                                                             "kind": 134217750,
-                                                                                            "flags": 0,
+                                                                                            "flags": 64,
                                                                                             "start": 1410,
                                                                                             "end": 1411
                                                                                         },
@@ -6175,7 +6170,7 @@ a++ => {};
                                                                                         },
                                                                                         "colonToken": {
                                                                                             "kind": 21,
-                                                                                            "flags": 0,
+                                                                                            "flags": 64,
                                                                                             "start": 1414,
                                                                                             "end": 1415
                                                                                         },
@@ -6203,7 +6198,7 @@ a++ => {};
                                                                                 },
                                                                                 "colonToken": {
                                                                                     "kind": 21,
-                                                                                    "flags": 0,
+                                                                                    "flags": 64,
                                                                                     "start": 1419,
                                                                                     "end": 1420
                                                                                 },
@@ -6346,7 +6341,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1449,
                                             "end": 1452
                                         },
@@ -6467,7 +6462,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1481,
                                             "end": 1484
                                         },
@@ -6510,7 +6505,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1494,
                                             "end": 1497
                                         },
@@ -6571,7 +6566,7 @@ a++ => {};
                                                             "kind": 223,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 1509,
                                                                 "end": 1512
                                                             },
@@ -6789,7 +6784,7 @@ a++ => {};
                                                                         "kind": 224,
                                                                         "ellipsisToken": {
                                                                             "kind": 524302,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 1561,
                                                                             "end": 1564
                                                                         },
@@ -6823,7 +6818,7 @@ a++ => {};
                                                         "kind": 224,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 1568,
                                                             "end": 1571
                                                         },
@@ -6903,7 +6898,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1631,
                     "end": 1634
                 },
@@ -6966,7 +6961,7 @@ a++ => {};
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 1605,
                                                             "end": 1608
                                                         },
@@ -7061,7 +7056,7 @@ a++ => {};
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1624,
                                             "end": 1627
                                         },
@@ -7572,7 +7567,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2193,
                     "end": 2196
                 },
@@ -7639,7 +7634,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2227,
                     "end": 2230
                 },
@@ -7706,7 +7701,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2257,
                     "end": 2260
                 },
@@ -7773,7 +7768,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2291,
                     "end": 2294
                 },
@@ -7840,7 +7835,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2322,
                     "end": 2325
                 },
@@ -7909,7 +7904,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2358,
                     "end": 2361
                 },
@@ -7978,7 +7973,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2390,
                     "end": 2393
                 },
@@ -8047,7 +8042,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2426,
                     "end": 2429
                 },
@@ -8116,7 +8111,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2462,
                     "end": 2465
                 },
@@ -8195,7 +8190,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2498,
                     "end": 2501
                 },
@@ -8274,7 +8269,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2539,
                     "end": 2542
                 },
@@ -8353,7 +8348,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2576,
                     "end": 2579
                 },
@@ -8432,7 +8427,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2617,
                     "end": 2620
                 },
@@ -8636,7 +8631,7 @@ a++ => {};
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 2892,
                 "end": 2895
             },
@@ -8708,7 +8703,7 @@ a++ => {};
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 2904,
                 "end": 2906
             },
@@ -8789,7 +8784,7 @@ a++ => {};
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 2918,
                 "end": 2921
             },
@@ -8860,7 +8855,7 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2935,
                         "end": 2938
                     },
@@ -9266,7 +9261,7 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3051,
                         "end": 3054
                     },
@@ -9823,7 +9818,7 @@ a++ => {};
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3187,
                         "end": 3189
                     },
@@ -9893,7 +9888,7 @@ a++ => {};
                             },
                             "questionToken": {
                                 "kind": 134217750,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 3209,
                                 "end": 3211
                             },
@@ -9907,7 +9902,7 @@ a++ => {};
                             },
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 3215,
                                 "end": 3217
                             },
@@ -9988,7 +9983,7 @@ a++ => {};
                             },
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 3240,
                                 "end": 3242
                             },
@@ -10326,7 +10321,7 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 3338,
                     "end": 3341
                 },

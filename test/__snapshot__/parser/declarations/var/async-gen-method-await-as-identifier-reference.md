@@ -30,7 +30,7 @@ var C = class { async *gen() {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -54,7 +54,7 @@ var C = class { async *gen() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 7,
                                 "end": 13
                             },
@@ -125,7 +125,7 @@ var C = class { async *gen() {
                                                                         "kind": 208,
                                                                         "awaitKeyword": {
                                                                             "kind": 82196,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 39,
                                                                             "end": 45
                                                                         },

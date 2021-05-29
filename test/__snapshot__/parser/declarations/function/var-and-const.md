@@ -21,7 +21,7 @@ function f(){ var x; const x = y; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -53,7 +53,7 @@ function f(){ var x; const x = y; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 13,
                                 "end": 17
                             },
@@ -90,7 +90,7 @@ function f(){ var x; const x = y; }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 26
                             },

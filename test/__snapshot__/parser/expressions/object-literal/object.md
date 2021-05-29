@@ -36,9 +36,9 @@
                                     "end": 5
                                 },
                                 "right": {
-                                    "kind": 135,
-                                    "flags": 6,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 96,
+                                    "start": 6,
                                     "end": 11
                                 },
                                 "flags": 32,

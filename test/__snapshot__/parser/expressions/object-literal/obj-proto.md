@@ -43,8 +43,7 @@
                                     "end": 12
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 13,
                                     "end": 18
@@ -145,8 +144,7 @@
                                     "end": 54
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 55,
                                     "end": 60
@@ -242,8 +240,7 @@
                                     "end": 93
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 94,
                                     "end": 99
@@ -363,8 +360,7 @@
                                     "end": 138
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 139,
                                     "end": 144
@@ -537,8 +533,7 @@
                                     "end": 202
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 203,
                                     "end": 208
@@ -634,8 +629,7 @@
                                     "end": 243
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 244,
                                     "end": 249
@@ -755,8 +749,7 @@
                                     "end": 288
                                 },
                                 "right": {
-                                    "kind": 269,
-                                    "text": null,
+                                    "kind": 138477575,
                                     "flags": 96,
                                     "start": 289,
                                     "end": 294

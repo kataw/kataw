@@ -29,7 +29,7 @@ export type * from "foo";
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -93,7 +93,7 @@ export type * from "foo";
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 1,
+                "flags": 81,
                 "start": 21,
                 "end": 28
             },
@@ -179,7 +179,7 @@ export type * from "foo";
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 1,
+                "flags": 81,
                 "start": 53,
                 "end": 60
             },

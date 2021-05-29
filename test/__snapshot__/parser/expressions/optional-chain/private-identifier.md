@@ -51,7 +51,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 3,
                     "end": 5
                 },
@@ -97,7 +97,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 18,
                     "end": 20
                 },
@@ -105,7 +105,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 15,
                         "end": 17
                     },
@@ -176,7 +176,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 33,
                     "end": 35
                 },
@@ -184,7 +184,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 30,
                         "end": 32
                     },
@@ -255,7 +255,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 48,
                     "end": 50
                 },
@@ -263,7 +263,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 45,
                         "end": 47
                     },
@@ -334,7 +334,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 63,
                     "end": 65
                 },
@@ -342,7 +342,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 60,
                         "end": 62
                     },
@@ -413,7 +413,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 78,
                     "end": 80
                 },
@@ -421,7 +421,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 75,
                         "end": 77
                     },
@@ -492,7 +492,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 120,
                     "end": 122
                 },
@@ -500,7 +500,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 117,
                         "end": 119
                     },
@@ -508,7 +508,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 114,
                             "end": 116
                         },
@@ -516,7 +516,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 111,
                                 "end": 113
                             },
@@ -524,7 +524,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 108,
                                     "end": 110
                                 },
@@ -532,7 +532,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 105,
                                         "end": 107
                                     },
@@ -540,7 +540,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 102,
                                             "end": 104
                                         },
@@ -548,7 +548,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "kind": 205,
                                             "chainToken": {
                                                 "kind": 393240,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 99,
                                                 "end": 101
                                             },
@@ -556,7 +556,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 96,
                                                     "end": 98
                                                 },
@@ -564,7 +564,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 93,
                                                         "end": 95
                                                     },
@@ -572,7 +572,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "kind": 205,
                                                         "chainToken": {
                                                             "kind": 393240,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 90,
                                                             "end": 92
                                                         },
@@ -868,7 +868,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 156,
                     "end": 158
                 },
@@ -876,7 +876,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 152,
                         "end": 154
                     },
@@ -884,7 +884,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 148,
                             "end": 150
                         },
@@ -892,7 +892,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 144,
                                 "end": 146
                             },
@@ -900,7 +900,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 140,
                                     "end": 142
                                 },
@@ -908,7 +908,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 136,
                                         "end": 138
                                     },
@@ -916,7 +916,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 132,
                                             "end": 134
                                         },
@@ -1106,7 +1106,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 188,
                     "end": 190
                 },
@@ -1114,7 +1114,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 185,
                         "end": 187
                     },
@@ -1122,7 +1122,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 182,
                             "end": 184
                         },
@@ -1130,7 +1130,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 177,
                                 "end": 179
                             },
@@ -1138,7 +1138,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 174,
                                     "end": 176
                                 },
@@ -1146,7 +1146,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 171,
                                         "end": 173
                                     },
@@ -1154,7 +1154,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 168,
                                             "end": 170
                                         },
@@ -1350,7 +1350,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 235,
                     "end": 237
                 },
@@ -1358,7 +1358,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 232,
                         "end": 234
                     },
@@ -1366,7 +1366,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 229,
                             "end": 231
                         },
@@ -1374,7 +1374,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 225,
                                 "end": 227
                             },
@@ -1382,7 +1382,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 220,
                                     "end": 222
                                 },
@@ -1390,7 +1390,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 217,
                                         "end": 219
                                     },
@@ -1398,7 +1398,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 213,
                                             "end": 215
                                         },
@@ -1406,7 +1406,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "kind": 205,
                                             "chainToken": {
                                                 "kind": 393240,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 210,
                                                 "end": 212
                                             },
@@ -1414,7 +1414,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 206,
                                                     "end": 208
                                                 },
@@ -1422,7 +1422,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 203,
                                                         "end": 205
                                                     },
@@ -1430,7 +1430,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "kind": 205,
                                                         "chainToken": {
                                                             "kind": 393240,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 200,
                                                             "end": 202
                                                         },
@@ -1723,7 +1723,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 270,
                     "end": 272
                 },
@@ -1731,7 +1731,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 267,
                         "end": 269
                     },
@@ -1739,7 +1739,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 262,
                             "end": 264
                         },
@@ -1747,7 +1747,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 257,
                                 "end": 259
                             },
@@ -1755,7 +1755,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 253,
                                     "end": 255
                                 },
@@ -1763,7 +1763,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 250,
                                         "end": 252
                                     },
@@ -1771,7 +1771,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 247,
                                             "end": 249
                                         },
@@ -1966,7 +1966,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 301,
                     "end": 303
                 },
@@ -1974,7 +1974,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 298,
                         "end": 300
                     },
@@ -1982,7 +1982,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 295,
                             "end": 297
                         },
@@ -1990,7 +1990,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 292,
                                 "end": 294
                             },
@@ -1998,7 +1998,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 289,
                                     "end": 291
                                 },
@@ -2006,7 +2006,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 286,
                                         "end": 288
                                     },
@@ -2014,7 +2014,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 283,
                                             "end": 285
                                         },
@@ -2209,7 +2209,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 332,
                     "end": 334
                 },
@@ -2217,7 +2217,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 329,
                         "end": 331
                     },
@@ -2225,7 +2225,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 326,
                             "end": 328
                         },
@@ -2233,7 +2233,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 323,
                                 "end": 325
                             },
@@ -2241,7 +2241,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 320,
                                     "end": 322
                                 },
@@ -2249,7 +2249,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 317,
                                         "end": 319
                                     },
@@ -2257,7 +2257,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 314,
                                             "end": 316
                                         },
@@ -2454,7 +2454,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 360,
                         "end": 362
                     },
@@ -2462,7 +2462,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 357,
                             "end": 359
                         },
@@ -2470,7 +2470,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 354,
                                 "end": 356
                             },
@@ -2478,7 +2478,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 351,
                                     "end": 353
                                 },
@@ -2486,7 +2486,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 348,
                                         "end": 350
                                     },
@@ -2494,7 +2494,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 345,
                                             "end": 347
                                         },
@@ -2665,7 +2665,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 372,
                         "end": 374
                     },
@@ -2717,7 +2717,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 394,
                         "end": 396
                     },
@@ -2725,7 +2725,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 391,
                             "end": 393
                         },
@@ -2733,7 +2733,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 388,
                                 "end": 390
                             },
@@ -2741,7 +2741,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 385,
                                     "end": 387
                                 },
@@ -2862,7 +2862,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 405,
                         "end": 407
                     },
@@ -2870,7 +2870,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 402,
                             "end": 404
                         },
@@ -2878,7 +2878,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 399,
                                 "end": 401
                             },
@@ -2980,7 +2980,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 427,
                         "end": 429
                     },
@@ -2988,7 +2988,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 424,
                             "end": 426
                         },
@@ -2996,7 +2996,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 421,
                                 "end": 423
                             },
@@ -3004,7 +3004,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 418,
                                     "end": 420
                                 },
@@ -3143,7 +3143,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 441,
                     "end": 443
                 },
@@ -3151,7 +3151,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 438,
                         "end": 440
                     },

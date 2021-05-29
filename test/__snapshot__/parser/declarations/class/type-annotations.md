@@ -52,7 +52,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -112,7 +112,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 16,
                 "end": 22
             },
@@ -154,7 +154,7 @@ class Array { concat(items:number | string) {}; }
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 30,
                         "end": 38
                     },
@@ -220,7 +220,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 48,
                 "end": 54
             },
@@ -262,7 +262,7 @@ class Array { concat(items:number | string) {}; }
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 62,
                         "end": 70
                     },
@@ -323,7 +323,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 84,
                 "end": 90
             },
@@ -447,7 +447,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 131,
                 "end": 137
             },
@@ -582,7 +582,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 184,
                 "end": 190
             },
@@ -687,7 +687,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 226,
                 "end": 232
             },
@@ -799,7 +799,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 257,
                 "end": 263
             },
@@ -918,7 +918,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 314,
                 "end": 320
             },
@@ -1031,7 +1031,7 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 365,
                 "end": 371
             },

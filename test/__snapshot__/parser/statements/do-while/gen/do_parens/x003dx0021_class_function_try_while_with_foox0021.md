@@ -22,7 +22,7 @@ do( =! class function try while with foo! while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -31,7 +31,7 @@ do( =! class function try while with foo! while
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 12,
                     "end": 21
                 },
@@ -98,7 +98,7 @@ do( =! class function try while with foo! while
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -146,7 +146,7 @@ do( =! class function try while with foo! while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 21,
                 "end": 25
             },
@@ -186,7 +186,7 @@ do( =! class function try while with foo! while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 25,
                 "end": 31
             },
@@ -201,7 +201,7 @@ do( =! class function try while with foo! while
                 "kind": 153,
                 "withKeyword": {
                     "kind": 37757029,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 31,
                     "end": 36
                 },
@@ -250,7 +250,7 @@ do( =! class function try while with foo! while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 41,
                 "end": 47
             },
@@ -298,6 +298,7 @@ do( =! class function try while with foo! while
 
 ```javascript
 ✖ Identifier expected - start: 3, end: 5
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 3, end: 5
 ✖ Missing an opening brace - '{ - start: 12, end: 21
 ✖ Missing an opening parentheses - '( - start: 21, end: 25
 ✖ Expression expected - start: 21, end: 25

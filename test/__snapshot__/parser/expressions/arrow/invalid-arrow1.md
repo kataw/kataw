@@ -71,7 +71,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 10,
                     "end": 13
                 },
@@ -154,7 +154,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 34,
                     "end": 37
                 },
@@ -272,7 +272,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 54,
                     "end": 57
                 },
@@ -370,7 +370,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 78,
                     "end": 81
                 },
@@ -488,7 +488,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 106,
                     "end": 109
                 },
@@ -606,7 +606,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 132,
                     "end": 135
                 },
@@ -709,7 +709,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 156,
                     "end": 159
                 },
@@ -807,7 +807,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 184,
                     "end": 187
                 },
@@ -925,7 +925,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 199,
                     "end": 202
                 },
@@ -963,7 +963,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 221,
                     "end": 224
                 },
@@ -1018,7 +1018,7 @@ y = (x => {}(0));
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 232,
                 "end": 234
             },
@@ -1099,7 +1099,7 @@ y = (x => {}(0));
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 247,
                 "end": 250
             },
@@ -1229,7 +1229,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 292,
                     "end": 295
                 },
@@ -1312,7 +1312,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 306,
                     "end": 309
                 },
@@ -1352,7 +1352,7 @@ y = (x => {}(0));
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 318,
                         "end": 321
                     },
@@ -1411,7 +1411,7 @@ y = (x => {}(0));
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 331,
                         "end": 334
                     },
@@ -1475,7 +1475,7 @@ y = (x => {}(0));
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 350,
                     "end": 353
                 },
@@ -1561,7 +1561,7 @@ y = (x => {}(0));
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 368,
                             "end": 371
                         },
@@ -1626,7 +1626,7 @@ y = (x => {}(0));
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 389,
                             "end": 392
                         },
@@ -1696,7 +1696,7 @@ y = (x => {}(0));
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 405,
                             "end": 408
                         },
@@ -1777,7 +1777,7 @@ y = (x => {}(0));
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 424,
                                 "end": 427
                             },
@@ -1853,7 +1853,7 @@ y = (x => {}(0));
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 446,
                             "end": 449
                         },
@@ -1923,7 +1923,7 @@ y = (x => {}(0));
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 468,
                             "end": 471
                         },
@@ -1993,7 +1993,7 @@ y = (x => {}(0));
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 490,
                             "end": 493
                         },
@@ -2063,7 +2063,7 @@ y = (x => {}(0));
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 512,
                             "end": 515
                         },

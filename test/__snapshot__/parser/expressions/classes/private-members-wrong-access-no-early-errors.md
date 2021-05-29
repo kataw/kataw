@@ -37,7 +37,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1,
                         "end": 6
                     },
@@ -162,16 +162,16 @@
                                                         "kind": 161,
                                                         "returnKeyword": {
                                                             "kind": 37757022,
-                                                            "flags": 0,
+                                                            "flags": 80,
                                                             "start": 30,
                                                             "end": 37
                                                         },
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 135,
-                                                                "flags": 37,
-                                                                "start": 96,
+                                                                "kind": 4276321,
+                                                                "flags": 96,
+                                                                "start": 37,
                                                                 "end": 42
                                                             },
                                                             "expression": {
@@ -236,7 +236,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 55,
                         "end": 60
                     },
@@ -351,9 +351,9 @@
                                                             "operand": {
                                                                 "kind": 129,
                                                                 "member": {
-                                                                    "kind": 135,
-                                                                    "flags": 82,
-                                                                    "start": 96,
+                                                                    "kind": 4276321,
+                                                                    "flags": 96,
+                                                                    "start": 82,
                                                                     "end": 87
                                                                 },
                                                                 "expression": {
@@ -422,7 +422,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 102,
                         "end": 107
                     },
@@ -568,9 +568,9 @@
                                                                                 "right": {
                                                                                     "kind": 129,
                                                                                     "member": {
-                                                                                        "kind": 135,
-                                                                                        "flags": 138,
-                                                                                        "start": 96,
+                                                                                        "kind": 4276321,
+                                                                                        "flags": 96,
+                                                                                        "start": 138,
                                                                                         "end": 143
                                                                                     },
                                                                                     "expression": {
@@ -671,7 +671,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 165,
                         "end": 170
                     },
@@ -781,9 +781,9 @@
                                                             "operand": {
                                                                 "kind": 129,
                                                                 "member": {
-                                                                    "kind": 135,
-                                                                    "flags": 188,
-                                                                    "start": 96,
+                                                                    "kind": 4276321,
+                                                                    "flags": 96,
+                                                                    "start": 188,
                                                                     "end": 193
                                                                 },
                                                                 "expression": {

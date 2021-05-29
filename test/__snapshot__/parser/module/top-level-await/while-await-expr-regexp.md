@@ -25,7 +25,7 @@ while (await /1/) { break; }
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -33,7 +33,7 @@ while (await /1/) { break; }
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 7,
                     "end": 12
                 },
@@ -57,7 +57,7 @@ while (await /1/) { break; }
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 19,
                                 "end": 25
                             },

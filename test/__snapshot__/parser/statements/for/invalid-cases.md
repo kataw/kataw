@@ -24,7 +24,7 @@ for ({x = y} ;;) {}
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -81,7 +81,7 @@ for ({x = y} ;;) {}
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 14,
                 "end": 19
             },
@@ -159,7 +159,7 @@ for ({x = y} ;;) {}
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 38,
                 "end": 43
             },

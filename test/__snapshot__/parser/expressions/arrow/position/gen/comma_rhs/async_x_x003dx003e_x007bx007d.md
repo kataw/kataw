@@ -35,7 +35,7 @@ a, async x => {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 10,
                             "end": 13
                         },

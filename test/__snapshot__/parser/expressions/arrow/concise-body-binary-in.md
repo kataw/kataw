@@ -21,7 +21,7 @@ const t = () => ({
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -44,7 +44,7 @@ const t = () => ({
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 12,
                                 "end": 15
                             },
@@ -74,7 +74,7 @@ const t = () => ({
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 27,
                                                         "end": 30
                                                     },

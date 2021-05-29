@@ -33,7 +33,7 @@ class C {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -146,9 +146,9 @@ class C {
                                                 "left": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 45,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 97,
+                                                        "start": 45,
                                                         "end": 54
                                                     },
                                                     "expression": {
@@ -172,9 +172,9 @@ class C {
                                                 "right": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 60,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 96,
+                                                        "start": 60,
                                                         "end": 65
                                                     },
                                                     "expression": {

@@ -27,7 +27,7 @@ for ({a: b.c}-- of d) e
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },

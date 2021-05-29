@@ -21,7 +21,7 @@ class C { aaa = new.target }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -60,13 +60,13 @@ class C { aaa = new.target }
                                 "kind": 211,
                                 "newKeyword": {
                                     "kind": 138477661,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 19
                                 },
                                 "targetIdentifier": {
                                     "kind": 16594,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 26
                                 },

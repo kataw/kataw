@@ -21,7 +21,7 @@ function *f() { 1 ? 2 : yield 3; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -67,7 +67,7 @@ function *f() { 1 ? 2 : yield 3; }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -81,7 +81,7 @@ function *f() { 1 ? 2 : yield 3; }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 21,
                                     "end": 23
                                 },
@@ -89,7 +89,7 @@ function *f() { 1 ? 2 : yield 3; }
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 23,
                                         "end": 29
                                     },

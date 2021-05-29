@@ -24,7 +24,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -92,7 +92,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                         ],
                                         "colonToken": {
                                             "kind": 21,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 48,
                                             "end": 49
                                         },

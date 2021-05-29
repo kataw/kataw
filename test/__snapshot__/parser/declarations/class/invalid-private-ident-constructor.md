@@ -37,7 +37,7 @@ class w { static #\u0063onstructor }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -95,7 +95,7 @@ class w { static #\u0063onstructor }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 24,
                 "end": 31
             },
@@ -183,7 +183,7 @@ class w { static #\u0063onstructor }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 55,
                 "end": 62
             },
@@ -246,7 +246,7 @@ class w { static #\u0063onstructor }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 88,
                 "end": 95
             },
@@ -339,7 +339,7 @@ class w { static #\u0063onstructor }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 126,
                 "end": 133
             },

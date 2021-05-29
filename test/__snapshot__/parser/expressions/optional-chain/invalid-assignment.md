@@ -25,7 +25,7 @@ x?.y = 0;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1,
                         "end": 3
                     },
@@ -92,7 +92,7 @@ x?.y = 0;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 14,
                         "end": 16
                     },

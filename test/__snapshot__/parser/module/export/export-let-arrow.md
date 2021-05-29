@@ -25,7 +25,7 @@ export let foo = async () => this
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -56,7 +56,7 @@ export let foo = async () => this
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 25,
                                     "end": 28
                                 },
@@ -70,9 +70,9 @@ export let foo = async () => this
                                 },
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 135,
-                                    "flags": 28,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 96,
+                                    "start": 28,
                                     "end": 33
                                 },
                                 "flags": 288,

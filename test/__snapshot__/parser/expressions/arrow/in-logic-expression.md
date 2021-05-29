@@ -26,7 +26,7 @@
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 3,
                             "end": 6
                         },
@@ -63,8 +63,7 @@
                     "end": 13
                 },
                 "right": {
-                    "kind": 134,
-                    "text": true,
+                    "kind": 24752947,
                     "flags": 96,
                     "start": 13,
                     "end": 18
@@ -87,7 +86,7 @@
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 23,
                             "end": 26
                         },
@@ -119,7 +118,7 @@
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 30,
                     "end": 32
                 },
@@ -133,7 +132,7 @@
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 34,
                     "end": 36
                 },

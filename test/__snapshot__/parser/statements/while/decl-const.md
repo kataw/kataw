@@ -19,13 +19,12 @@ while (false) const x = null;
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
             "expression": {
-                "kind": 134,
-                "text": false,
+                "kind": 205586437,
                 "flags": 96,
                 "start": 7,
                 "end": 12
@@ -51,7 +50,7 @@ while (false) const x = null;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 13,
                 "end": 19
             },
@@ -71,8 +70,7 @@ while (false) const x = null;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 269,
-                            "text": null,
+                            "kind": 138477575,
                             "flags": 96,
                             "start": 23,
                             "end": 28

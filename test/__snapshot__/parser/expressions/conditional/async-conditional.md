@@ -28,15 +28,14 @@ true ? async.waterfall() : null;
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 134,
-                    "text": true,
+                    "kind": 24752947,
                     "flags": 96,
                     "start": 0,
                     "end": 4
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4,
                     "end": 6
                 },
@@ -78,13 +77,12 @@ true ? async.waterfall() : null;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 24,
                     "end": 26
                 },
                 "alternate": {
-                    "kind": 269,
-                    "text": null,
+                    "kind": 138477575,
                     "flags": 96,
                     "start": 26,
                     "end": 31

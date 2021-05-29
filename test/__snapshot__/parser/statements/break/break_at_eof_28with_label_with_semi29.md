@@ -37,7 +37,7 @@ foo: break foo;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 3,
                 "end": 4
             },
@@ -45,7 +45,7 @@ foo: break foo;
                 "kind": 150,
                 "breakKeyword": {
                     "kind": 37757005,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 4,
                     "end": 10
                 },

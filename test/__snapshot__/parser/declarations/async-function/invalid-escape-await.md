@@ -29,7 +29,7 @@
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 6,
                         "end": 15
                     },
@@ -55,7 +55,7 @@
                                         "kind": 208,
                                         "awaitKeyword": {
                                             "kind": 82196,
-                                            "flags": 16384,
+                                            "flags": 16448,
                                             "start": 19,
                                             "end": 30
                                         },

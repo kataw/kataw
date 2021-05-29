@@ -146,7 +146,7 @@ x = (a,b)+c=>{};
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 36,
                     "end": 37
                 },
@@ -160,7 +160,7 @@ x = (a,b)+c=>{};
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 38,
                     "end": 39
                 },
@@ -168,7 +168,7 @@ x = (a,b)+c=>{};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 40,
                         "end": 42
                     },
@@ -725,7 +725,7 @@ x = (a,b)+c=>{};
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 211,
                     "end": 212
                 },
@@ -739,7 +739,7 @@ x = (a,b)+c=>{};
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 213,
                     "end": 214
                 },
@@ -747,7 +747,7 @@ x = (a,b)+c=>{};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 215,
                         "end": 217
                     },
@@ -993,7 +993,7 @@ x = (a,b)+c=>{};
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 265,
                             "end": 267
                         },

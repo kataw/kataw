@@ -23,7 +23,7 @@ switch (/a/i {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -49,7 +49,7 @@ switch (/a/i {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 15,
                 "end": 23
             },
@@ -75,7 +75,7 @@ switch (/a/i {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 31,
                 "end": 39
             },

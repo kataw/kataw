@@ -713,8 +713,7 @@
                                             "end": 178
                                         },
                                         "expression": {
-                                            "kind": 134,
-                                            "text": false,
+                                            "kind": 205586437,
                                             "flags": 96,
                                             "start": 179,
                                             "end": 184
@@ -769,8 +768,7 @@
                                             "end": 199
                                         },
                                         "expression": {
-                                            "kind": 269,
-                                            "text": null,
+                                            "kind": 138477575,
                                             "flags": 96,
                                             "start": 200,
                                             "end": 204
@@ -951,9 +949,9 @@
                                             "end": 261
                                         },
                                         "expression": {
-                                            "kind": 135,
-                                            "flags": 262,
-                                            "start": 96,
+                                            "kind": 4276321,
+                                            "flags": 96,
+                                            "start": 262,
                                             "end": 266
                                         },
                                         "flags": 32,
@@ -1191,7 +1189,7 @@
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 339,
                                                 "end": 342
                                             },
@@ -1271,7 +1269,7 @@
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 361,
                                                 "end": 369
                                             },

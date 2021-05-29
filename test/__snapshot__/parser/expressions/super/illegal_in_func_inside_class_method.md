@@ -21,7 +21,7 @@ class x { foo(){ function f(){ super.foo; } }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -81,7 +81,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 16,
                                                     "end": 25
                                                 },
@@ -116,7 +116,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                         "kind": 225,
                                                                         "superKeyword": {
                                                                             "kind": 4259935,
-                                                                            "flags": 0,
+                                                                            "flags": 96,
                                                                             "start": 30,
                                                                             "end": 36
                                                                         },
@@ -204,7 +204,7 @@ class x { foo(){ function f(){ super.foo; } }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 36, end: 37
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 30, end: 37
 
 ```
 

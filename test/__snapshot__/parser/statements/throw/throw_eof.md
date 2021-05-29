@@ -19,7 +19,7 @@ throw foo
             "kind": 158,
             "throwKeyword": {
                 "kind": 37757026,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },

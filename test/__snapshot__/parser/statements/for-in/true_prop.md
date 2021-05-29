@@ -19,15 +19,14 @@ for (true.x in c) d;
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
             "initializer": {
                 "kind": 129,
                 "member": {
-                    "kind": 134,
-                    "text": true,
+                    "kind": 24752947,
                     "flags": 96,
                     "start": 5,
                     "end": 9

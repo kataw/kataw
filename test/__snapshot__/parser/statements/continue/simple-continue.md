@@ -37,7 +37,7 @@ loop: while (x) { break loop; }
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 4,
                 "end": 5
             },
@@ -45,7 +45,7 @@ loop: while (x) { break loop; }
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 5,
                     "end": 11
                 },
@@ -66,7 +66,7 @@ loop: while (x) { break loop; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 17,
                                     "end": 23
                                 },

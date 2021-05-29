@@ -24,7 +24,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -74,7 +74,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 24,
                                         "end": 30
                                     },
@@ -86,7 +86,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                             "kind": 279,
                                             "extendsKeyword": {
                                                 "kind": 4194391,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 30,
                                                 "end": 38
                                             },
@@ -109,15 +109,14 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                         "end": 43
                                                     },
                                                     "consequent": {
-                                                        "kind": 269,
-                                                        "text": null,
+                                                        "kind": 138477575,
                                                         "flags": 96,
                                                         "start": 43,
                                                         "end": 48
                                                     },
                                                     "colonToken": {
                                                         "kind": 21,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 48,
                                                         "end": 50
                                                     },

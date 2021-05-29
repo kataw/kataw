@@ -124,7 +124,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 16,
                                                         "end": 20
                                                     },
@@ -252,7 +252,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 38,
                                                         "end": 42
                                                     },
@@ -417,7 +417,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 67,
                                                         "end": 71
                                                     },
@@ -454,7 +454,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 74,
                                                         "end": 80
                                                     },
@@ -627,7 +627,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 109,
                                                         "end": 118
                                                     },
@@ -762,7 +762,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 139,
                                                         "end": 145
                                                     },
@@ -808,7 +808,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 152,
                                                         "end": 161
                                                     },
@@ -945,7 +945,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 182,
                                                         "end": 191
                                                     },
@@ -990,7 +990,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 197,
                                                         "end": 203
                                                     },
@@ -1126,7 +1126,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 225,
                                                         "end": 234
                                                     },
@@ -1172,7 +1172,7 @@ o = {f(){ function x(){} var x = y; }};
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 240,
                                                         "end": 244
                                                     },

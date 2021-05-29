@@ -79,7 +79,7 @@ yield: label;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 7,
                 "end": 8
             },
@@ -155,7 +155,7 @@ yield: label;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 24,
                 "end": 25
             },
@@ -231,7 +231,7 @@ yield: label;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 38,
                 "end": 39
             },
@@ -307,7 +307,7 @@ yield: label;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 53,
                 "end": 54
             },
@@ -383,7 +383,7 @@ yield: label;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 68,
                 "end": 69
             },

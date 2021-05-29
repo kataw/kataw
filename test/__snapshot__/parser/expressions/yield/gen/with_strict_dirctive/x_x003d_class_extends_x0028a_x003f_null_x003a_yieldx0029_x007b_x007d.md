@@ -50,7 +50,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 17,
                         "end": 23
                     },
@@ -62,7 +62,7 @@
                             "kind": 279,
                             "extendsKeyword": {
                                 "kind": 4194391,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 23,
                                 "end": 31
                             },
@@ -85,15 +85,14 @@
                                         "end": 36
                                     },
                                     "consequent": {
-                                        "kind": 269,
-                                        "text": null,
+                                        "kind": 138477575,
                                         "flags": 96,
                                         "start": 36,
                                         "end": 41
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 41,
                                         "end": 43
                                     },

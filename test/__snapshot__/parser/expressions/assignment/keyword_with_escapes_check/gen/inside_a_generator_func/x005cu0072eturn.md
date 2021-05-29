@@ -26,7 +26,7 @@ function *f(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function *f(){
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 16385,
+                                "flags": 16465,
                                 "start": 14,
                                 "end": 28
                             },
@@ -133,6 +133,7 @@ function *f(){
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 14, end: 28
 ✖ Identifier expected - start: 28, end: 30
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 30
 
 ```
 

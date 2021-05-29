@@ -55,7 +55,7 @@
                         "catchClause": null,
                         "finallyKeyword": {
                             "kind": 37757016,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 12
                         },
@@ -109,7 +109,7 @@
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 17,
                                                 "end": 23
                                             },
@@ -121,7 +121,7 @@
                                             "kind": 205,
                                             "chainToken": {
                                                 "kind": 393240,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 25,
                                                 "end": 27
                                             },
@@ -205,7 +205,7 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 23, end: 24
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 17, end: 24
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
 
 ```

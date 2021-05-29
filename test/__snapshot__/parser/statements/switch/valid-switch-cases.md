@@ -73,7 +73,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -92,7 +92,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 12,
                             "end": 17
                         },
@@ -109,7 +109,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 160,
                                 "switchKeyword": {
                                     "kind": 37757024,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 22,
                                     "end": 29
                                 },
@@ -128,7 +128,7 @@ switch (answer) { case 0: let a; };
                                             "kind": 170,
                                             "defaultKeyword": {
                                                 "kind": 4194387,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 35,
                                                 "end": 43
                                             },
@@ -170,7 +170,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 49,
                             "end": 57
                         },
@@ -213,7 +213,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 63,
                 "end": 70
             },
@@ -246,7 +246,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 79,
                             "end": 84
                         },
@@ -309,7 +309,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 93,
                 "end": 100
             },
@@ -328,7 +328,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 105,
                             "end": 110
                         },
@@ -413,7 +413,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 124,
                 "end": 131
             },
@@ -432,7 +432,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 136,
                             "end": 141
                         },
@@ -518,7 +518,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 155,
                 "end": 162
             },
@@ -537,7 +537,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 168,
                             "end": 173
                         },
@@ -582,7 +582,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 182,
                                     "end": 188
                                 },
@@ -600,7 +600,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 189,
                             "end": 197
                         },
@@ -609,7 +609,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 198,
                                     "end": 204
                                 },
@@ -642,7 +642,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 207,
                 "end": 214
             },
@@ -661,7 +661,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 225,
                             "end": 230
                         },
@@ -722,7 +722,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 246,
                                     "end": 252
                                 },
@@ -755,7 +755,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 256,
                 "end": 263
             },
@@ -774,7 +774,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 268,
                             "end": 273
                         },
@@ -882,7 +882,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 295,
                 "end": 302
             },
@@ -901,7 +901,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 307,
                             "end": 312
                         },
@@ -952,7 +952,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 320,
                 "end": 327
             },
@@ -971,7 +971,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 332,
                             "end": 337
                         },
@@ -1045,7 +1045,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 350,
                 "end": 357
             },
@@ -1064,7 +1064,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 362,
                             "end": 367
                         },
@@ -1135,7 +1135,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 380,
                 "end": 388
             },
@@ -1188,7 +1188,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 398,
                             "end": 403
                         },
@@ -1239,7 +1239,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 413,
                 "end": 420
             },
@@ -1298,7 +1298,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 432,
                             "end": 437
                         },
@@ -1349,7 +1349,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 447,
                 "end": 454
             },
@@ -1368,7 +1368,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 460,
                             "end": 465
                         },
@@ -1387,7 +1387,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 470,
                                     "end": 479
                                 },
@@ -1457,7 +1457,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 489,
                 "end": 497
             },
@@ -1476,7 +1476,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 502,
                             "end": 507
                         },
@@ -1533,7 +1533,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 519,
                 "end": 526
             },
@@ -1552,7 +1552,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 531,
                             "end": 536
                         },
@@ -1625,7 +1625,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 553,
                 "end": 560
             },
@@ -1644,7 +1644,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 565,
                             "end": 570
                         },
@@ -1747,7 +1747,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 608,
                 "end": 615
             },
@@ -1766,7 +1766,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 620,
                             "end": 625
                         },
@@ -1811,7 +1811,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 634,
                 "end": 703
             },
@@ -1850,7 +1850,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 710,
                             "end": 715
                         },
@@ -1901,7 +1901,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 725,
                 "end": 732
             },
@@ -1940,7 +1940,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 739,
                             "end": 744
                         },
@@ -1991,7 +1991,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 754,
                 "end": 762
             },
@@ -2010,7 +2010,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 767,
                             "end": 772
                         },
@@ -2060,7 +2060,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 782,
                 "end": 789
             },
@@ -2079,7 +2079,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 794,
                             "end": 799
                         },
@@ -2144,7 +2144,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 809,
                 "end": 816
             },
@@ -2163,7 +2163,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 821,
                             "end": 826
                         },
@@ -2203,7 +2203,7 @@ switch (answer) { case 0: let a; };
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 835,
                                                         "end": 838
                                                     },
@@ -2261,7 +2261,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 843,
                 "end": 850
             },
@@ -2280,7 +2280,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 855,
                             "end": 860
                         },
@@ -2327,7 +2327,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 873,
                                         "end": 875
                                     },
@@ -2341,7 +2341,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 877,
                                         "end": 879
                                     },
@@ -2391,7 +2391,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 886,
                 "end": 893
             },
@@ -2410,7 +2410,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 898,
                             "end": 903
                         },
@@ -2457,7 +2457,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 916,
                                         "end": 918
                                     },
@@ -2471,7 +2471,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 920,
                                         "end": 922
                                     },
@@ -2479,7 +2479,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 926,
                                             "end": 929
                                         },
@@ -2546,7 +2546,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 934,
                 "end": 941
             },
@@ -2565,7 +2565,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 947,
                             "end": 952
                         },
@@ -2589,7 +2589,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 961,
                                     "end": 970
                                 },
@@ -2639,7 +2639,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 977,
                             "end": 985
                         },
@@ -2655,7 +2655,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 992,
                                     "end": 1001
                                 },
@@ -2720,7 +2720,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1011,
                 "end": 1018
             },
@@ -2739,7 +2739,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1023,
                             "end": 1028
                         },
@@ -2766,7 +2766,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1035,
                                         "end": 1037
                                     },
@@ -2780,7 +2780,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1039,
                                         "end": 1041
                                     },
@@ -2788,7 +2788,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1045,
                                             "end": 1048
                                         },
@@ -2855,7 +2855,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1053,
                 "end": 1060
             },
@@ -2904,7 +2904,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1069,
                             "end": 1074
                         },
@@ -2928,7 +2928,7 @@ switch (answer) { case 0: let a; };
                                                 "kind": 223,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 1079,
                                                     "end": 1082
                                                 },
@@ -2982,7 +2982,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1087,
                 "end": 1094
             },
@@ -3031,7 +3031,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1103,
                             "end": 1108
                         },
@@ -3057,7 +3057,7 @@ switch (answer) { case 0: let a; };
                                                     "kind": 223,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 1113,
                                                         "end": 1116
                                                     },
@@ -3129,7 +3129,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1125,
                 "end": 1132
             },
@@ -3191,7 +3191,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1142,
                             "end": 1147
                         },
@@ -3242,7 +3242,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1157,
                 "end": 1165
             },
@@ -3261,7 +3261,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1171,
                             "end": 1176
                         },
@@ -3280,7 +3280,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1179,
                                     "end": 1188
                                 },
@@ -3327,7 +3327,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1194,
                                     "end": 1203
                                 },
@@ -3392,7 +3392,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1212,
                 "end": 1219
             },
@@ -3411,7 +3411,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1225,
                             "end": 1230
                         },
@@ -3435,7 +3435,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1239,
                                     "end": 1248
                                 },
@@ -3492,7 +3492,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1261,
                                     "end": 1270
                                 },
@@ -3562,7 +3562,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1280,
                 "end": 1287
             },
@@ -3581,7 +3581,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1293,
                             "end": 1298
                         },
@@ -3599,7 +3599,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1301,
                                     "end": 1305
                                 },
@@ -3641,7 +3641,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1308,
                             "end": 1316
                         },
@@ -3651,7 +3651,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1317,
                                     "end": 1321
                                 },
@@ -3702,7 +3702,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1326,
                 "end": 1333
             },
@@ -3721,7 +3721,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1339,
                             "end": 1344
                         },
@@ -3739,7 +3739,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1347,
                                     "end": 1351
                                 },
@@ -3781,7 +3781,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1354,
                             "end": 1362
                         },
@@ -3791,7 +3791,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1363,
                                     "end": 1367
                                 },
@@ -3848,7 +3848,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1373,
                 "end": 1380
             },
@@ -3867,7 +3867,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1386,
                             "end": 1391
                         },
@@ -3886,7 +3886,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1394,
                                     "end": 1403
                                 },
@@ -3956,7 +3956,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1415,
                 "end": 1422
             },
@@ -3975,7 +3975,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1428,
                             "end": 1433
                         },
@@ -3994,7 +3994,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1436,
                                     "end": 1445
                                 },
@@ -4078,7 +4078,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 1472,
                 "end": 1479
             },
@@ -4097,7 +4097,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1484,
                             "end": 1489
                         },
@@ -4118,7 +4118,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1492,
                             "end": 1500
                         },
@@ -4129,7 +4129,7 @@ switch (answer) { case 0: let a; };
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1501,
                                     "end": 1507
                                 },
@@ -4184,7 +4184,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1515,
                 "end": 1523
             },
@@ -4238,7 +4238,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 1549,
                 "end": 1556
             },
@@ -4257,7 +4257,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1561,
                             "end": 1566
                         },
@@ -4278,7 +4278,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1569,
                             "end": 1577
                         },
@@ -4289,7 +4289,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1578,
                                     "end": 1586
                                 },
@@ -4342,7 +4342,7 @@ switch (answer) { case 0: let a; };
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1595,
                                     "end": 1601
                                 },
@@ -4411,7 +4411,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 1622,
                 "end": 1629
             },
@@ -4430,7 +4430,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1634,
                             "end": 1639
                         },
@@ -4451,7 +4451,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1642,
                             "end": 1650
                         },
@@ -4462,7 +4462,7 @@ switch (answer) { case 0: let a; };
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1651,
                                     "end": 1656
                                 },
@@ -4505,7 +4505,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1662,
                                     "end": 1671
                                 },
@@ -4584,7 +4584,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 1694,
                 "end": 1701
             },
@@ -4603,7 +4603,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1706,
                             "end": 1711
                         },
@@ -4624,7 +4624,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1714,
                             "end": 1722
                         },
@@ -4635,7 +4635,7 @@ switch (answer) { case 0: let a; };
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1723,
                                     "end": 1728
                                 },
@@ -4654,7 +4654,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 279,
                                         "extendsKeyword": {
                                             "kind": 4194391,
-                                            "flags": 0,
+                                            "flags": 80,
                                             "start": 1730,
                                             "end": 1738
                                         },
@@ -4724,7 +4724,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 1759,
                 "end": 1766
             },
@@ -4743,7 +4743,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1771,
                             "end": 1776
                         },
@@ -4764,7 +4764,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1779,
                             "end": 1787
                         },
@@ -4775,7 +4775,7 @@ switch (answer) { case 0: let a; };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1788,
                                     "end": 1796
                                 },
@@ -4822,7 +4822,7 @@ switch (answer) { case 0: let a; };
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1804,
                                     "end": 1810
                                 },
@@ -4891,7 +4891,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 1831,
                 "end": 1838
             },
@@ -4910,7 +4910,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1843,
                             "end": 1848
                         },
@@ -4931,7 +4931,7 @@ switch (answer) { case 0: let a; };
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1851,
                             "end": 1859
                         },
@@ -4942,7 +4942,7 @@ switch (answer) { case 0: let a; };
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 1860,
                                     "end": 1865
                                 },
@@ -4997,7 +4997,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1873,
                 "end": 1881
             },
@@ -5016,7 +5016,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1885,
                             "end": 1889
                         },
@@ -5052,7 +5052,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1894,
                 "end": 1901
             },
@@ -5071,7 +5071,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1907,
                             "end": 1912
                         },
@@ -5177,7 +5177,7 @@ switch (answer) { case 0: let a; };
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 1,
+                "flags": 81,
                 "start": 1930,
                 "end": 1937
             },
@@ -5196,7 +5196,7 @@ switch (answer) { case 0: let a; };
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1948,
                             "end": 1953
                         },

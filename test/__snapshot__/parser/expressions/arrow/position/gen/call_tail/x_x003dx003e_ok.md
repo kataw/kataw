@@ -39,7 +39,7 @@ foo(x => ok).bar
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 5,
                                     "end": 8
                                 },

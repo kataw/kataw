@@ -22,7 +22,7 @@ async () => {  c\u006fnst = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -45,7 +45,7 @@ async () => {  c\u006fnst = x  }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 16384,
+                                "flags": 16448,
                                 "start": 13,
                                 "end": 25
                             },

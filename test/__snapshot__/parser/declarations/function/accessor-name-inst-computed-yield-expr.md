@@ -28,7 +28,7 @@ function* g() {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -101,7 +101,7 @@ function* g() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 22,
                 "end": 31
             },
@@ -139,7 +139,7 @@ function* g() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 38,
                                 "end": 46
                             },
@@ -180,7 +180,7 @@ function* g() {
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 61,
                                                             "end": 66
                                                         },
@@ -215,7 +215,7 @@ function* g() {
                                                                 "kind": 161,
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
-                                                                    "flags": 0,
+                                                                    "flags": 80,
                                                                     "start": 71,
                                                                     "end": 78
                                                                 },
@@ -270,7 +270,7 @@ function* g() {
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 103,
                                                             "end": 108
                                                         },

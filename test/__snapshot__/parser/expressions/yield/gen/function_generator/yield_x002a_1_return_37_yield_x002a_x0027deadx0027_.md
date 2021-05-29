@@ -24,7 +24,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -127,7 +127,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 50,
                                                 "end": 57
                                             },

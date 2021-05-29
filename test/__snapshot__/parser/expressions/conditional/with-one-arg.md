@@ -59,7 +59,7 @@ z(x)?x:y;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4,
                     "end": 5
                 },
@@ -73,7 +73,7 @@ z(x)?x:y;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 6,
                     "end": 7
                 },

@@ -24,7 +24,7 @@ class C { *method() { var f = function { super(); } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -88,7 +88,7 @@ class C { *method() { var f = function { super(); } } }
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 21,
                                                     "end": 25
                                                 },
@@ -112,7 +112,7 @@ class C { *method() { var f = function { super(); } } }
                                                                 "asyncKeyword": null,
                                                                 "functionKeyword": {
                                                                     "kind": 37822554,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 29,
                                                                     "end": 38
                                                                 },
@@ -140,7 +140,7 @@ class C { *method() { var f = function { super(); } } }
                                                                                         "kind": 225,
                                                                                         "superKeyword": {
                                                                                             "kind": 4259935,
-                                                                                            "flags": 0,
+                                                                                            "flags": 96,
                                                                                             "start": 40,
                                                                                             "end": 46
                                                                                         },
@@ -242,7 +242,7 @@ class C { *method() { var f = function { super(); } } }
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 38, end: 40
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 46, end: 47
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 40, end: 47
 
 ```
 

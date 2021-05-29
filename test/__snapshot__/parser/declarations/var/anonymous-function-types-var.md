@@ -30,7 +30,7 @@ var f = (): (number) => 123;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -53,7 +53,7 @@ var f = (): (number) => 123;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 23
                             },
@@ -127,7 +127,7 @@ var f = (): (number) => 123;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 26,
                 "end": 31
             },
@@ -150,7 +150,7 @@ var f = (): (number) => 123;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 48,
                                 "end": 51
                             },

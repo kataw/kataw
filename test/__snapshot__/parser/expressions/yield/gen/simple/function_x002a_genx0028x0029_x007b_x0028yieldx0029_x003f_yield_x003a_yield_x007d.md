@@ -24,7 +24,7 @@ function * gen() { (yield) ? yield : yield }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -66,7 +66,7 @@ function * gen() { (yield) ? yield : yield }
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 20,
                                             "end": 25
                                         },
@@ -83,7 +83,7 @@ function * gen() { (yield) ? yield : yield }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -91,7 +91,7 @@ function * gen() { (yield) ? yield : yield }
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 28,
                                         "end": 34
                                     },
@@ -104,7 +104,7 @@ function * gen() { (yield) ? yield : yield }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -112,7 +112,7 @@ function * gen() { (yield) ? yield : yield }
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 36,
                                         "end": 42
                                     },

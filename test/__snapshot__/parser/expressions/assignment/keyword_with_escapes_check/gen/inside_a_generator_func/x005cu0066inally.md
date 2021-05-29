@@ -26,7 +26,7 @@ function *f(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -77,7 +77,7 @@ function *f(){
                             "catchClause": null,
                             "finallyKeyword": {
                                 "kind": 37757016,
-                                "flags": 16385,
+                                "flags": 16449,
                                 "start": 14,
                                 "end": 29
                             },

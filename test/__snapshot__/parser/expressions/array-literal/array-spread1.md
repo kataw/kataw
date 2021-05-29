@@ -35,7 +35,7 @@ var y: Array<string> = ['3', ...x];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -111,7 +111,7 @@ var y: Array<string> = ['3', ...x];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 16,
                 "end": 20
             },
@@ -139,7 +139,7 @@ var y: Array<string> = ['3', ...x];
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 26,
                                             "end": 29
                                         },
@@ -183,7 +183,7 @@ var y: Array<string> = ['3', ...x];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 32,
                 "end": 36
             },
@@ -287,7 +287,7 @@ var y: Array<string> = ['3', ...x];
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 63,
                                 "end": 66
                             },
@@ -393,7 +393,7 @@ var y: Array<string> = ['3', ...x];
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 88,
                                 "end": 91
                             },
@@ -471,7 +471,7 @@ var y: Array<string> = ['3', ...x];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 99,
                 "end": 104
             },
@@ -578,7 +578,7 @@ var y: Array<string> = ['3', ...x];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 135,
                 "end": 139
             },
@@ -653,7 +653,7 @@ var y: Array<string> = ['3', ...x];
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 164,
                                             "end": 168
                                         },

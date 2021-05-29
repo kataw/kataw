@@ -23,7 +23,7 @@ function loadImport(file) {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -73,7 +73,7 @@ function loadImport(file) {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 27,
                                 "end": 36
                             },
@@ -83,7 +83,7 @@ function loadImport(file) {
                                     "kind": 206,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 36,
                                         "end": 43
                                     },

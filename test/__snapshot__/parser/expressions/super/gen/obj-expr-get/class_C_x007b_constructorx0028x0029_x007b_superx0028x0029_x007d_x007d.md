@@ -70,7 +70,7 @@
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 12,
                                                         "end": 18
                                                     },
@@ -132,7 +132,7 @@
                                                                                                 "kind": 225,
                                                                                                 "superKeyword": {
                                                                                                     "kind": 4259935,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 96,
                                                                                                     "start": 38,
                                                                                                     "end": 44
                                                                                                 },
@@ -240,7 +240,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 44, end: 45
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 38, end: 45
 
 ```
 

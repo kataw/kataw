@@ -50,7 +50,7 @@ let y = typeof async x => await x
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 22,
                                     "end": 25
                                 },
@@ -74,7 +74,7 @@ let y = typeof async x => await x
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 25,
                                         "end": 31
                                     },

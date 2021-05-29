@@ -126,7 +126,7 @@ type T9 = { [param: string]: U };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 37,
                             "end": 41
                         },
@@ -187,7 +187,7 @@ type T9 = { [param: string]: U };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 58,
                             "end": 62
                         },
@@ -215,7 +215,7 @@ type T9 = { [param: string]: U };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 64,
                             "end": 68
                         },
@@ -307,7 +307,7 @@ type T9 = { [param: string]: U };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 90,
                             "end": 94
                         },
@@ -368,7 +368,7 @@ type T9 = { [param: string]: U };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 110,
                             "end": 114
                         },
@@ -460,7 +460,7 @@ type T9 = { [param: string]: U };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 137,
                             "end": 141
                         },

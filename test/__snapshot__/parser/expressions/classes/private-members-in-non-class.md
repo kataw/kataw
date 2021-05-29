@@ -76,7 +76,7 @@ class C { test() {get #a() { }}}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 8,
                 "end": 18
             },
@@ -117,7 +117,7 @@ class C { test() {get #a() { }}}
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 30,
                                         "end": 33
                                     },
@@ -172,7 +172,7 @@ class C { test() {get #a() { }}}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 37,
                 "end": 47
             },
@@ -226,7 +226,7 @@ class C { test() {get #a() { }}}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 59,
                     "end": 62
                 },
@@ -303,7 +303,7 @@ class C { test() {get #a() { }}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 74,
                 "end": 81
             },

@@ -19,15 +19,14 @@ for (;false;) const x = 1;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
             "initializer": null,
             "condition": null,
             "incrementor": {
-                "kind": 134,
-                "text": false,
+                "kind": 205586437,
                 "flags": 96,
                 "start": 6,
                 "end": 11
@@ -53,7 +52,7 @@ for (;false;) const x = 1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 13,
                 "end": 19
             },

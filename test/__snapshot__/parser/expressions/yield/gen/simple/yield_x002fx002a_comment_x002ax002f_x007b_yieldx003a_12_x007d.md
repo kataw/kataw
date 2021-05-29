@@ -59,7 +59,7 @@ yield /* comment */ { yield: 12 }
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 27,
                             "end": 28
                         },

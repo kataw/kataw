@@ -44,15 +44,6 @@ interface BigIntLiteral <: ExpressionNode {
 }
 ```
 
-### BooleanLiteral
-
-```js
-interface BooleanLiteral <: ExpressionNode {
-  kind: NodeKind.BooleanLiteral;
-  value: boolean;
-}
-```
-
 ### TemplateLiteral
 
 ```js
@@ -60,15 +51,6 @@ interface TemplateLiteral <: ExpressionNode {
   kind: NodeKind.TemplateLiteral;
   raw: string;
   value: string;
-}
-```
-
-### NullLiteral
-
-```js
-interface NullLiteral <: ExpressionNode {
-  kind: NodeKind.NullLiteral;
-  value: null;
 }
 ```
 
@@ -103,16 +85,6 @@ interface CommaOperator  <: ExpressionNode {
 A sequence expression, i.e., a comma-separated sequence of expressions.
 
 See [13.16](https://tc39.es/ecma262/#sec-comma-operator)
-
-
-### ThisExpression
-
-```js
-interface ThisExpression <: ExpressionNode {
-  kind: NodeKind.ThisExpression;
-  thisKeyword: SyntaxToken<TokenSyntaxKind>;
-}
-```
 
 ### ArrayLiteral
 

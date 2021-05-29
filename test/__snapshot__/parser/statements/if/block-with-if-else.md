@@ -24,13 +24,12 @@
                         "kind": 164,
                         "ifKeyword": {
                             "kind": 37757019,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 2,
                             "end": 4
                         },
                         "expression": {
-                            "kind": 134,
-                            "text": false,
+                            "kind": 205586437,
                             "flags": 96,
                             "start": 6,
                             "end": 11

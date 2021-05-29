@@ -50,7 +50,7 @@ class x{[yield](a){}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 13,
                 "end": 19
             },
