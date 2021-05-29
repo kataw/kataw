@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: kataw7/test\__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\arrow\position\gen\dynamic_property
+- From: d
+- Path: y
 > :: test: dynamic property
 > :: case: x => ok
 ## Input

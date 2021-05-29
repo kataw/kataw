@@ -4029,41 +4029,20 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
+
     expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
+    // "(a?) => {}"
+    // "(a?: string) => {}"
+    // "(a?b:c)
     if (parser.token === SyntaxKind.QuestionMark) {
       const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
-      if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType)) {
-        // If we have "(a?b:" then this is part of an conditional expression in an argument list
-        const consequent = speculate(
-          parser,
-          context,
-          function () {
-            const consequent = parseExpression(
-              parser,
-              (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
-            );
-            return parser.token === SyntaxKind.Colon ? consequent : undefined;
-          },
-          false
-        );
-
-        if (consequent) {
-          expression = createConditionalExpression(
-            expression,
-            questionMarkToken,
-            consequent,
-            consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
-            parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
-            curPos,
-            parser.curPos
-          );
-          parser.assignable = false;
-        }
-      } else {
-        // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+      if (
+        (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
+        (parser.token as SyntaxKind) === SyntaxKind.Colon ||
+        (parser.token as SyntaxKind) === SyntaxKind.Comma
+      ) {
         state = Tristate.True;
-
         expression = createFormalParameter(
           /* ellipsisToken */ null,
           /* binding */ expression,
@@ -4074,8 +4053,20 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           curPos,
           parser.curPos
         );
+      } else {
+        state = Tristate.False;
+        expression = createConditionalExpression(
+          expression,
+          questionMarkToken,
+          parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
+          consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+          parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+          curPos,
+          parser.curPos
+        );
+        parser.assignable = false;
       }
-      // If we have "(a:", then we must have a type-annotated parameter in an arrow function expression
+      // "(a: string) => {}"
     } else if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
 
@@ -4151,37 +4142,12 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
     if (parser.token === SyntaxKind.QuestionMark) {
       const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
-      if (parser.token & SyntaxKind.IsIdentifier) {
-        // If we have "([a]?b:" then this is part of an conditional expression in an argument list
-        const consequent = speculate(
-          parser,
-          context,
-          function () {
-            const consequent = parseExpression(
-              parser,
-              (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
-            );
-            return parser.token === SyntaxKind.Colon ? consequent : undefined;
-          },
-          false
-        );
-
-        if (consequent) {
-          expression = createConditionalExpression(
-            expression,
-            questionMarkToken,
-            consequent,
-            consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
-            parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
-            curPos,
-            parser.curPos
-          );
-          parser.assignable = false;
-        }
-      } else {
-        // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+      if (
+        (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
+        (parser.token as SyntaxKind) === SyntaxKind.Colon ||
+        (parser.token as SyntaxKind) === SyntaxKind.Comma
+      ) {
         state = Tristate.True;
-
         expression = createFormalParameter(
           /* ellipsisToken */ null,
           /* binding */ expression,
@@ -4192,7 +4158,20 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           curPos,
           parser.curPos
         );
+      } else {
+        state = Tristate.False;
+        expression = createConditionalExpression(
+          expression,
+          questionMarkToken,
+          parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
+          consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+          parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+          curPos,
+          parser.curPos
+        );
+        parser.assignable = false;
       }
+      // "(a: string) => {}"
     } else if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
 
@@ -4266,12 +4245,15 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     // If we have something like "(32" then this is definitely not an arrow function
   } else {
     state = Tristate.False;
+
     destructible |= DestructibleKind.NotDestructible;
 
-    expression = parseExpression(parser, context);
+    expression = parseCommaOperator(parser, context, parseExpression(parser, context), curPos);
 
-    expression = parseCommaOperator(parser, context, expression, curPos);
+    parser.assignable = false;
+
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+
     if (parser.token === SyntaxKind.Arrow) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
@@ -4380,37 +4362,12 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
           if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
             const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
-            if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-              // If we have "(a?b:" then this is part of an conditional expression in an argument list
-              const consequent = speculate(
-                parser,
-                context,
-                function () {
-                  const consequent = parseExpression(
-                    parser,
-                    (context | Context.InConditionalExpr | Context.DisallowInContext) ^ Context.DisallowInContext
-                  );
-                  return parser.token === SyntaxKind.Colon ? consequent : undefined;
-                },
-                false
-              );
-
-              if (consequent) {
-                expression = createConditionalExpression(
-                  expression,
-                  questionMarkToken,
-                  consequent,
-                  consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
-                  parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
-                  curPos,
-                  parser.curPos
-                );
-                parser.assignable = false;
-              }
-            } else {
-              // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+            if (
+              (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
+              (parser.token as SyntaxKind) === SyntaxKind.Colon ||
+              (parser.token as SyntaxKind) === SyntaxKind.Comma
+            ) {
               state = Tristate.True;
-
               expression = createFormalParameter(
                 /* ellipsisToken */ null,
                 /* binding */ expression,
@@ -4421,6 +4378,21 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 curPos,
                 parser.curPos
               );
+            } else {
+              state = Tristate.False;
+              expression = createConditionalExpression(
+                expression,
+                questionMarkToken,
+                parseExpression(
+                  parser,
+                  (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000
+                ),
+                consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+                parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+                curPos,
+                parser.curPos
+              );
+              parser.assignable = false;
             }
           } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
             state = Tristate.True;
