@@ -73,6 +73,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 4, end: 4
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 4, end: 4
 
 ```
 

@@ -137,8 +137,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 28, end: 30
-✖ Keywords cannot contain escape characters - start: 28, end: 30
+✖ Keywords cannot contain escape characters - start: 14, end: 30
 ✖ Identifier expected - start: 28, end: 30
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 30
 

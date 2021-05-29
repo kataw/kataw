@@ -112,7 +112,7 @@ class x extends void {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 22
+✖ Expression expected - start: 15, end: 22
 ✖ Missing an opening brace - '{ - start: 23, end: 23
 
 ```

@@ -161,7 +161,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 44, end: 46
+✖ Expression expected - start: 37, end: 46
 
 ```
 

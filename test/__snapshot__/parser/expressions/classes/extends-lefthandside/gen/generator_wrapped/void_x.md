@@ -161,7 +161,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 37, end: 39
+✖ Expression expected - start: 32, end: 39
 
 ```
 

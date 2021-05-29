@@ -117,7 +117,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 23, end: 25
+✖ Expression expected - start: 16, end: 25
 
 ```
 

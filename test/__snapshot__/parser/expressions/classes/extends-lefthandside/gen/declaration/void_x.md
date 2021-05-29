@@ -106,7 +106,7 @@ class A extends void x {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 22
+✖ Expression expected - start: 15, end: 22
 
 ```
 

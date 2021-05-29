@@ -106,7 +106,7 @@ class A extends typeof x {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 22, end: 24
+✖ Expression expected - start: 15, end: 24
 
 ```
 

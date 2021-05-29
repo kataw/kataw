@@ -7758,6 +7758,7 @@ async function * gen() {class C extends await { }}
 ✖ Identifier expected - start: 1126, end: 1127
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1126, end: 1127
 ✖ Identifier expected - start: 1160, end: 1161
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1160, end: 1161
 ✖ Identifier expected - start: 1194, end: 1195
 ✖ Identifier expected - start: 1228, end: 1229
 ✖ Expected a `;` - start: 1362, end: 1370
