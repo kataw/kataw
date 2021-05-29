@@ -333,7 +333,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "end": 86
                     },
                     "catchParameter": null,
-                    "initializer": null,
                     "block": {
                         "kind": 124,
                         "block": {

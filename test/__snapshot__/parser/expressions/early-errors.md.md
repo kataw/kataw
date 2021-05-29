@@ -5752,7 +5752,6 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5251,
                     "end": 5252
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -5857,7 +5856,6 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5279,
                     "end": 5280
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -5972,7 +5970,6 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5595,
                     "end": 5596
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

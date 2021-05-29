@@ -81,7 +81,6 @@ do while [catch] catch try {}
                             "end": 15
                         },
                         "catchParameter": null,
-                        "initializer": null,
                         "block": {
                             "kind": 124,
                             "block": {
@@ -138,7 +137,6 @@ do while [catch] catch try {}
                     "end": 22
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

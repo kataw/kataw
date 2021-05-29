@@ -81,7 +81,6 @@ do while [catch] async try while { catch }
                             "end": 15
                         },
                         "catchParameter": null,
-                        "initializer": null,
                         "block": {
                             "kind": 124,
                             "block": {

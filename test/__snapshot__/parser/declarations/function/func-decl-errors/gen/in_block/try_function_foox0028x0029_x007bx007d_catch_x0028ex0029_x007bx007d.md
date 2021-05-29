@@ -142,7 +142,6 @@
                                 "start": 30,
                                 "end": 31
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {

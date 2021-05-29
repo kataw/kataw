@@ -113,7 +113,6 @@ try {} catch ([a,b,c]) { }
                     "start": 14,
                     "end": 21
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

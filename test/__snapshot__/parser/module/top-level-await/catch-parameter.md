@@ -102,7 +102,6 @@ try {} catch ([ x = await 42 ]) {}
                     "start": 14,
                     "end": 30
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -213,7 +212,6 @@ try {} catch ([ x = await 42 ]) {}
                     "start": 64,
                     "end": 83
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -318,7 +316,6 @@ try {} catch ([ x = await 42 ]) {}
                     "start": 132,
                     "end": 148
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

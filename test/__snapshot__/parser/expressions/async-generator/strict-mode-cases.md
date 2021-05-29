@@ -235,7 +235,6 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 104,
                                     "end": 109
                                 },
-                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {

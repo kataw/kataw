@@ -62,7 +62,6 @@ try { var e } catch (e) {}
                     "start": 14,
                     "end": 15
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -203,7 +202,6 @@ try { var e } catch (e) {}
                     "start": 66,
                     "end": 67
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -334,7 +332,6 @@ try { var e } catch (e) {}
                     "start": 111,
                     "end": 112
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -465,7 +462,6 @@ try { var e } catch (e) {}
                     "start": 156,
                     "end": 157
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -588,7 +584,6 @@ try { var e } catch (e) {}
                     "start": 198,
                     "end": 199
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -750,7 +745,6 @@ try { var e } catch (e) {}
                     "start": 247,
                     "end": 248
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

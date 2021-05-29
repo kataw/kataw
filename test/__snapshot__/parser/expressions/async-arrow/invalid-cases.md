@@ -277,7 +277,6 @@ async ([a]:string)=>c;
                     "end": 58
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

@@ -52,7 +52,6 @@ try {} catch(e) {}
                     "start": 13,
                     "end": 14
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

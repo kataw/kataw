@@ -626,7 +626,6 @@ async function f(){}
                                                     "end": 165
                                                 },
                                                 "catchParameter": null,
-                                                "initializer": null,
                                                 "block": {
                                                     "kind": 124,
                                                     "block": {

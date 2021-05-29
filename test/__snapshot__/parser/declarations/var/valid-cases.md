@@ -695,7 +695,6 @@ var {get} = obj;
                     "start": 166,
                     "end": 167
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

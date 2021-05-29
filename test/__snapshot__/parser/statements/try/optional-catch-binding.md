@@ -61,7 +61,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 12
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -115,7 +114,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 30
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -224,7 +222,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 68
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -354,7 +351,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 101
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -515,7 +511,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 160
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -582,7 +577,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "end": 185
                                 },
                                 "catchParameter": null,
-                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {
@@ -648,7 +642,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "start": 211,
                     "end": 212
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -740,7 +733,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "end": 239
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -862,7 +854,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "start": 266,
                     "end": 269
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -936,7 +927,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "end": 293
                                     },
                                     "catchParameter": null,
-                                    "initializer": null,
                                     "block": {
                                         "kind": 124,
                                         "block": {
@@ -1173,7 +1163,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "end": 362
                                 },
                                 "catchParameter": null,
-                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {

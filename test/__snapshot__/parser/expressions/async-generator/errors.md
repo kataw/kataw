@@ -514,7 +514,6 @@ async function * gen() {class C extends await { }}
                                     "start": 173,
                                     "end": 178
                                 },
-                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {
@@ -633,7 +632,6 @@ async function * gen() {class C extends await { }}
                                     "start": 224,
                                     "end": 229
                                 },
-                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {

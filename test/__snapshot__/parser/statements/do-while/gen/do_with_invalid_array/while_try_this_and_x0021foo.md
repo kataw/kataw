@@ -81,7 +81,6 @@ do while [catch] while try this and !foo
                             "end": 15
                         },
                         "catchParameter": null,
-                        "initializer": null,
                         "block": {
                             "kind": 124,
                             "block": {

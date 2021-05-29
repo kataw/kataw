@@ -77,7 +77,6 @@ try {} catch([e]){}
                     "start": 13,
                     "end": 16
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

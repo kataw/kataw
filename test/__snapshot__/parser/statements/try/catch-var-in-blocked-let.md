@@ -52,7 +52,6 @@ try {} catch (e) { { let e = x; } }
                     "start": 14,
                     "end": 15
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

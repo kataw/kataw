@@ -620,7 +620,6 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
   );
   // Keep shape of node to avoid degrading performance.
   let catchParameter = null;
-  let initializer = null;
   let catchScope = scope;
   if (consumeOpt(parser, context, SyntaxKind.LeftParen)) {
     // Create a lexical scope node around the whole catch clause, including the head
@@ -643,22 +642,16 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
         DiagnosticCode.Private_identifiers_cannot_be_used_as_parameters
       );
     }
-    if (parser.token === SyntaxKind.Assign) {
-      /* error recovery */
-      initializer = parseExpression(parser, context);
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.Catch_clause_variable_cannot_have_an_initializer],
-        parser.curPos,
-        parser.pos
-      );
-    }
+
     consume(
       parser,
       context | Context.AllowRegExp,
       SyntaxKind.RightParen,
-      DiagnosticCode.Expected_a_to_match_the_token_here
+      context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon
+        ? DiagnosticCode.Catch_clause_variable_cannot_have_an_type_annotation
+        : parser.token === SyntaxKind.Assign
+        ? DiagnosticCode.Catch_clause_variable_cannot_have_an_initializer
+        : DiagnosticCode.Expected_a_to_match_the_token_here
     );
     // https://tc39.es/ecma262/#sec-runtime-semantics-catchclauseevaluation
     //
@@ -670,14 +663,7 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
       flags: ScopeFlags.None
     };
   }
-  return createCatch(
-    catchToken,
-    catchParameter,
-    initializer,
-    parseBlockStatement(parser, context, catchScope),
-    pos,
-    parser.curPos
-  );
+  return createCatch(catchToken, catchParameter, parseBlockStatement(parser, context, catchScope), pos, parser.curPos);
 }
 
 function parseDebuggerStatement(parser: ParserState, context: Context): DebuggerStatement {

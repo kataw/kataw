@@ -99,7 +99,6 @@ class x extends catch {}
                     "end": 21
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

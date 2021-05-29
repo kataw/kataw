@@ -54,7 +54,6 @@ try {} catch (x) { { var x } }
                     "start": 14,
                     "end": 15
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -167,7 +166,6 @@ try {} catch (x) { { var x } }
                     "start": 46,
                     "end": 47
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

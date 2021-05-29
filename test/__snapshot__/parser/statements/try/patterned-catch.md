@@ -227,7 +227,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                     "start": 14,
                     "end": 45
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

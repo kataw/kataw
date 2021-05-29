@@ -77,60 +77,60 @@ try { } catch ([a] = []) { }
                     "start": 15,
                     "end": 18
                 },
-                "initializer": {
-                    "kind": 125,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 18,
-                        "end": 18
-                    },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 18,
-                        "end": 20
-                    },
-                    "right": {
-                        "kind": 119,
-                        "elementList": {
-                            "kind": 270,
-                            "elements": [],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 22,
-                            "end": 22
-                        },
-                        "flags": 32,
-                        "start": 20,
-                        "end": 23
-                    },
-                    "flags": 32,
-                    "start": 18,
-                    "end": 23
-                },
                 "block": {
                     "kind": 124,
                     "block": {
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
-                        "start": 26,
-                        "end": 26
+                        "start": 18,
+                        "end": 18
                     },
                     "flags": 16,
-                    "start": 24,
-                    "end": 28
+                    "start": 18,
+                    "end": 18
                 },
                 "flags": 16,
                 "start": 7,
-                "end": 28
+                "end": 18
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
             "start": 0,
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 119,
+                "elementList": {
+                    "kind": 270,
+                    "elements": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 22,
+                    "end": 22
+                },
+                "flags": 32,
+                "start": 20,
+                "end": 23
+            },
+            "flags": 16,
+            "start": 20,
+            "end": 23
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 26,
+                "end": 26
+            },
+            "flags": 16,
+            "start": 24,
             "end": 28
         }
     ],
@@ -152,8 +152,8 @@ try { } catch ([a] = []) { }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 18, end: 20
-✖ Catch clause variable cannot have an initializer - start: 23, end: 24
+✖ Catch clause variable cannot have an initializer - start: 18, end: 20
+✖ Expected a `;` - start: 23, end: 24
 
 ```
 

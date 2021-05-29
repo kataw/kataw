@@ -183,7 +183,6 @@ L: let
                     "start": 40,
                     "end": 43
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

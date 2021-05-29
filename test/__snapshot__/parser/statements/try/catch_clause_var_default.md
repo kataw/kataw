@@ -53,54 +53,54 @@ catch (v = b) {}
                     "start": 14,
                     "end": 15
                 },
-                "initializer": {
-                    "kind": 125,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 15,
-                        "end": 15
-                    },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 17
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "b",
-                        "rawText": "b",
-                        "flags": 96,
-                        "start": 17,
-                        "end": 19
-                    },
-                    "flags": 32,
-                    "start": 15,
-                    "end": 19
-                },
                 "block": {
                     "kind": 124,
                     "block": {
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
-                        "start": 22,
-                        "end": 22
+                        "start": 15,
+                        "end": 15
                     },
                     "flags": 16,
-                    "start": 20,
-                    "end": 23
+                    "start": 15,
+                    "end": 15
                 },
                 "flags": 16,
                 "start": 6,
-                "end": 23
+                "end": 15
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
             "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "b",
+                "rawText": "b",
+                "flags": 96,
+                "start": 17,
+                "end": 19
+            },
+            "flags": 16,
+            "start": 17,
+            "end": 19
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 22,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 20,
             "end": 23
         }
     ],
@@ -122,8 +122,8 @@ catch (v = b) {}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 15, end: 17
-✖ Catch clause variable cannot have an initializer - start: 19, end: 20
+✖ Catch clause variable cannot have an initializer - start: 15, end: 17
+✖ Expected a `;` - start: 19, end: 20
 
 ```
 

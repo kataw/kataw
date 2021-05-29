@@ -68,7 +68,6 @@
                                 "end": 8
                             },
                             "catchParameter": null,
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -126,7 +125,6 @@
                     "end": 15
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

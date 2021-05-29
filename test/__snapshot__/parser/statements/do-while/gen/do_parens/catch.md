@@ -82,7 +82,6 @@ do( catch while
                     "end": 9
                 },
                 "catchParameter": null,
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

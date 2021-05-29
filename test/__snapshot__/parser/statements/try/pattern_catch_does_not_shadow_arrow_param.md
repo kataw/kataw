@@ -107,7 +107,6 @@ g => {
                                         "start": 25,
                                         "end": 28
                                     },
-                                    "initializer": null,
                                     "block": {
                                         "kind": 124,
                                         "block": {

@@ -52,7 +52,6 @@ try {} c\u0061tch  (x) {}sss
                     "start": 20,
                     "end": 21
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

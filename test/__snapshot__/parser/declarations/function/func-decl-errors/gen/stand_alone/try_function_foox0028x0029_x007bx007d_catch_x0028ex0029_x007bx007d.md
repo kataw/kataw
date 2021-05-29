@@ -137,7 +137,6 @@ try function foo() {} catch (e) {}
                     "start": 29,
                     "end": 30
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

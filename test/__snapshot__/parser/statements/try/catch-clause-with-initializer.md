@@ -82,54 +82,54 @@ throw {x} catch (x = y) {}
                     "start": 17,
                     "end": 18
                 },
-                "initializer": {
-                    "kind": 125,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 18,
-                        "end": 18
-                    },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 18,
-                        "end": 20
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 20,
-                        "end": 22
-                    },
-                    "flags": 32,
-                    "start": 18,
-                    "end": 22
-                },
                 "block": {
                     "kind": 124,
                     "block": {
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
-                        "start": 25,
-                        "end": 25
+                        "start": 18,
+                        "end": 18
                     },
                     "flags": 16,
-                    "start": 23,
-                    "end": 26
+                    "start": 18,
+                    "end": 18
                 },
                 "flags": 16,
                 "start": 9,
-                "end": 26
+                "end": 18
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
             "start": 9,
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 20,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 20,
+            "end": 22
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 25,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 23,
             "end": 26
         }
     ],
@@ -153,8 +153,8 @@ throw {x} catch (x = y) {}
 ```javascript
 ✖ Expected a `;` - start: 9, end: 15
 ✖ 'try' expected - start: 9, end: 15
-✖ Identifier expected - start: 18, end: 20
-✖ Catch clause variable cannot have an initializer - start: 22, end: 23
+✖ Catch clause variable cannot have an initializer - start: 18, end: 20
+✖ Expected a `;` - start: 22, end: 23
 
 ```
 

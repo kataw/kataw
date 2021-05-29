@@ -108,7 +108,6 @@ try {} catch({ x: "str" }) {}
                     "start": 14,
                     "end": 15
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -214,7 +213,6 @@ try {} catch({ x: "str" }) {}
                     "start": 47,
                     "end": 48
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -326,7 +324,6 @@ try {} catch({ x: "str" }) {}
                                     "end": 87
                                 },
                                 "catchParameter": null,
-                                "initializer": null,
                                 "block": {
                                     "kind": 124,
                                     "block": {
@@ -453,7 +450,6 @@ try {} catch({ x: "str" }) {}
                                                     "end": 120
                                                 },
                                                 "catchParameter": null,
-                                                "initializer": null,
                                                 "block": {
                                                     "kind": 124,
                                                     "block": {
@@ -544,7 +540,6 @@ try {} catch({ x: "str" }) {}
                                                     "end": 143
                                                 },
                                                 "catchParameter": null,
-                                                "initializer": null,
                                                 "block": {
                                                     "kind": 124,
                                                     "block": {
@@ -758,7 +753,6 @@ try {} catch({ x: "str" }) {}
                     "start": 190,
                     "end": 191
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -933,7 +927,6 @@ try {} catch({ x: "str" }) {}
                     "start": 235,
                     "end": 246
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -1029,7 +1022,6 @@ try {} catch({ x: "str" }) {}
                     "start": 262,
                     "end": 275
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -1156,7 +1148,6 @@ try {} catch({ x: "str" }) {}
                     "start": 296,
                     "end": 305
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -1312,7 +1303,6 @@ try {} catch({ x: "str" }) {}
                     "start": 334,
                     "end": 342
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -1403,7 +1393,6 @@ try {} catch({ x: "str" }) {}
                     "start": 362,
                     "end": 366
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -1558,7 +1547,6 @@ try {} catch({ x: "str" }) {}
                     "start": 397,
                     "end": 401
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -1682,7 +1670,6 @@ try {} catch({ x: "str" }) {}
                     "start": 438,
                     "end": 438
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -1791,7 +1778,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 460,
                                 "end": 466
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -1851,7 +1837,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 486,
                                 "end": 486
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -1945,7 +1930,6 @@ try {} catch({ x: "str" }) {}
                                                 "start": 522,
                                                 "end": 523
                                             },
-                                            "initializer": null,
                                             "block": {
                                                 "kind": 124,
                                                 "block": {
@@ -2069,7 +2053,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 560,
                                 "end": 561
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -2205,7 +2188,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 597,
                                 "end": 600
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -2349,7 +2331,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 643,
                                 "end": 644
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -2524,7 +2505,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 688,
                                 "end": 699
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -2620,7 +2600,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 718,
                                 "end": 731
                             },
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -2765,7 +2744,6 @@ try {} catch({ x: "str" }) {}
                     "start": 757,
                     "end": 766
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -2921,7 +2899,6 @@ try {} catch({ x: "str" }) {}
                     "start": 795,
                     "end": 803
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -3039,7 +3016,6 @@ try {} catch({ x: "str" }) {}
                     "start": 828,
                     "end": 832
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -3199,7 +3175,6 @@ try {} catch({ x: "str" }) {}
                     "start": 870,
                     "end": 874
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -3354,7 +3329,6 @@ try {} catch({ x: "str" }) {}
                     "start": 911,
                     "end": 915
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {
@@ -3515,7 +3489,6 @@ try {} catch({ x: "str" }) {}
                     "start": 944,
                     "end": 956
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

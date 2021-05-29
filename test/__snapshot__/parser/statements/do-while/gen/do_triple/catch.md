@@ -106,7 +106,6 @@ do do do catch while while while
                                 "end": 14
                             },
                             "catchParameter": null,
-                            "initializer": null,
                             "block": {
                                 "kind": 124,
                                 "block": {

@@ -58,7 +58,6 @@ try {} catch (e) { for (let e of y) {} }
                     "start": 14,
                     "end": 15
                 },
-                "initializer": null,
                 "block": {
                     "kind": 124,
                     "block": {

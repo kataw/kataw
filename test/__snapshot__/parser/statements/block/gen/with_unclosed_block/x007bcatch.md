@@ -131,7 +131,6 @@
                                                         "end": 24
                                                     },
                                                     "catchParameter": null,
-                                                    "initializer": null,
                                                     "block": {
                                                         "kind": 124,
                                                         "block": {

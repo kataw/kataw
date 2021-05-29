@@ -75,54 +75,54 @@ try {} catch({e}=x){}
                     "start": 13,
                     "end": 16
                 },
-                "initializer": {
-                    "kind": 125,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 16,
-                        "end": 16
-                    },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 16,
-                        "end": 17
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 17,
-                        "end": 18
-                    },
-                    "flags": 32,
-                    "start": 16,
-                    "end": 18
-                },
                 "block": {
                     "kind": 124,
                     "block": {
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
-                        "start": 20,
-                        "end": 20
+                        "start": 16,
+                        "end": 16
                     },
                     "flags": 16,
-                    "start": 19,
-                    "end": 21
+                    "start": 16,
+                    "end": 16
                 },
                 "flags": 16,
                 "start": 6,
-                "end": 21
+                "end": 16
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
             "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 17,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 20,
+                "end": 20
+            },
+            "flags": 16,
+            "start": 19,
             "end": 21
         }
     ],
@@ -144,8 +144,8 @@ try {} catch({e}=x){}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 16, end: 17
-✖ Catch clause variable cannot have an initializer - start: 18, end: 19
+✖ Catch clause variable cannot have an initializer - start: 16, end: 17
+✖ Expected a `;` - start: 18, end: 19
 
 ```
 
