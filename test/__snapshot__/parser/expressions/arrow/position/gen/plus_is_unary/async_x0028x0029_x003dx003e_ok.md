@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-28
+- Regenerated: 2021-05-29
 - From: d
 - Path: y
 > :: test: plus is unary
