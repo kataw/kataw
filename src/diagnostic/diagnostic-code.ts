@@ -223,7 +223,7 @@ export const enum DiagnosticCode {
   _can_only_be_used_at_the_start_of_a_file = 224,
   Private_identifier_cannot_contain_escape_characters = 225,
   Private_fields_can_t_be_accessed_on_super = 226,
-  An_optional_parameter_not_allowed_in_an_formal_parameter_list = 227
+  An_optional_parameter_cannot_be_used_within_an_array_pattern = 227
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -451,5 +451,5 @@ export const diagnosticMap: { [key: number]: string } = {
   [224]: "'#!' can only be used at the start of a file.",
   [225]: 'Private identifier cannot contain escape characters',
   [226]: "Private fields can't be accessed on super ",
-  [227]: 'An optional parameter not allowed in an formal parameter list.'
+  [227]: 'An optional parameter cannot be used within an array pattern'
 };

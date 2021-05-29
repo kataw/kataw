@@ -136,7 +136,7 @@
 ### Diagnostics
 
 ```javascript
-✖ An optional parameter not allowed in an formal parameter list. - start: 5, end: 6
+✖ An optional parameter cannot be used within an array pattern - start: 5, end: 6
 
 ```
 

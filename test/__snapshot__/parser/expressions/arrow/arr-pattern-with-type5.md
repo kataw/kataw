@@ -157,7 +157,7 @@
 ### Diagnostics
 
 ```javascript
-✖ An optional parameter not allowed in an formal parameter list. - start: 4, end: 5
+✖ An optional parameter cannot be used within an array pattern - start: 4, end: 5
 
 ```
 

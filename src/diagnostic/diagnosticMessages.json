@@ -220,5 +220,5 @@
   "'#!' can only be used at the start of a file.":224,
   "Private identifier cannot contain escape characters": 225,
   "Private fields can't be accessed on super ": 226,
-  "An optional parameter not allowed in an formal parameter list.": 227
+  "An optional parameter cannot be used within an array pattern": 227
 }

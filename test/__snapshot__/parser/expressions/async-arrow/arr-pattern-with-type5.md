@@ -162,7 +162,7 @@ async ([x?: string, y: number]) =>  {};
 ### Diagnostics
 
 ```javascript
-✖ An optional parameter not allowed in an formal parameter list. - start: 10, end: 11
+✖ An optional parameter cannot be used within an array pattern - start: 10, end: 11
 
 ```
 

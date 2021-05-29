@@ -3626,13 +3626,13 @@ function parseArrayLiteralElement(
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.An_optional_parameter_not_allowed_in_an_formal_parameter_list],
+          diagnosticMap[DiagnosticCode.An_optional_parameter_cannot_be_used_within_an_array_pattern],
           parser.curPos,
           parser.pos
         );
       }
 
-      if (parser.token === SyntaxKind.Colon) {
+      if (optionalToken || parser.token === SyntaxKind.Colon) {
         return createArrayBindingElement(
           null,
           left as Identifier,
@@ -3709,17 +3709,32 @@ function parseArrayLiteralElement(
         : parseObjectLiteralOrAssignmentExpression(parser, context, scope, type);
 
     // '[a?]', '[a?:]', '[a?]'
-    if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
-      return createArrayBindingElement(
-        null,
-        left as any,
-        /* questionMarkToken */ null,
-        parseTypeAnnotation(parser, context),
-        parseInitializer(parser, context, false),
-        pos,
-        parser.curPos
-      );
+    if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      if (optionalToken) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[DiagnosticCode.An_optional_parameter_cannot_be_used_within_an_array_pattern],
+          parser.curPos,
+          parser.pos
+        );
+      }
+
+      if (optionalToken || parser.token === SyntaxKind.Colon) {
+        return createArrayBindingElement(
+          null,
+          left as any,
+          /* error recovery */
+          optionalToken,
+          parseTypeAnnotation(parser, context),
+          parseInitializer(parser, context, false),
+          pos,
+          parser.curPos
+        );
+      }
     }
+
     let destructible = parser.destructible;
 
     parser.assignable = destructible & DestructibleKind.NotDestructible ? false : true;
@@ -3761,7 +3776,7 @@ function parseArrayLiteralElement(
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.An_optional_parameter_not_allowed_in_an_formal_parameter_list],
+          diagnosticMap[DiagnosticCode.An_optional_parameter_cannot_be_used_within_an_array_pattern],
           parser.curPos,
           parser.pos
         );
