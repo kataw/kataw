@@ -2454,12 +2454,6 @@ function parsePrimaryExpression(
       return parseObjectLiteral(parser, context);
     case SyntaxKind.LeftParen:
       return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, LeftHandSideContext);
-    case SyntaxKind.LessThan:
-      if (context & Context.OptionsAllowTypes && !speculate(parser, context, nextTokenIsLeftParen, true)) {
-        return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, LeftHandSideContext);
-      }
-    case SyntaxKind.BigIntLiteral:
-      return parseBigIntLiteral(parser, context);
     case SyntaxKind.YieldKeyword:
       return parseYieldIdentifierOrExpression(parser, context, LeftHandSideContext);
     case SyntaxKind.NewKeyword:
@@ -2468,6 +2462,8 @@ function parsePrimaryExpression(
       return parseSuperExpression(parser, context);
     case SyntaxKind.RegularExpression:
       return parseRegularExpression(parser, context);
+    case SyntaxKind.BigIntLiteral:
+      return parseBigIntLiteral(parser, context);
     case SyntaxKind.PrivateIdentifier:
       return parsePrivateIdentifier(parser, context);
     case SyntaxKind.TemplateTail:
@@ -2480,6 +2476,11 @@ function parsePrimaryExpression(
       return parseTemplateExpression(parser, context, /*isTaggedTemplate*/ false);
     case SyntaxKind.ImportKeyword:
       return parseImportMetaOrCall(parser, context, inNewExpression);
+      case SyntaxKind.LessThan:
+        if (context & Context.OptionsAllowTypes && !speculate(parser, context, nextTokenIsLeftParen, true)) {
+          return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, LeftHandSideContext);
+        }
+  
   }
 
   const { curPos, tokenValue, token } = parser;
