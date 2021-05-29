@@ -59,118 +59,112 @@ var v = a => <any><any>{}
                             "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 201392400,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
+                                "kind": 198,
+                                "left": {
+                                    "kind": 198,
+                                    "left": {
+                                        "kind": 198,
+                                        "left": {
+                                            "kind": 198,
+                                            "left": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 12,
+                                                "end": 12
+                                            },
+                                            "operatorToken": {
+                                                "kind": 536971330,
+                                                "flags": 64,
+                                                "start": 12,
+                                                "end": 14
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "any",
+                                                "rawText": "any",
+                                                "flags": 96,
+                                                "start": 14,
+                                                "end": 17
+                                            },
+                                            "flags": 32,
+                                            "start": 12,
+                                            "end": 17
+                                        },
+                                        "operatorToken": {
+                                            "kind": 34883,
+                                            "flags": 64,
+                                            "start": 17,
+                                            "end": 18
+                                        },
+                                        "right": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 18,
+                                            "end": 18
+                                        },
+                                        "flags": 32,
+                                        "start": 12,
+                                        "end": 18
+                                    },
+                                    "operatorToken": {
+                                        "kind": 536971330,
+                                        "flags": 64,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "any",
+                                        "rawText": "any",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 22
+                                    },
+                                    "flags": 32,
+                                    "start": 12,
+                                    "end": 22
+                                },
+                                "operatorToken": {
+                                    "kind": 34883,
+                                    "flags": 64,
+                                    "start": 22,
+                                    "end": 23
+                                },
+                                "right": {
+                                    "kind": 220,
+                                    "propertyList": {
+                                        "kind": 218,
+                                        "properties": [],
+                                        "trailingComma": false,
+                                        "flags": 16,
+                                        "start": 24,
+                                        "end": 24
+                                    },
+                                    "flags": 48,
+                                    "start": 23,
+                                    "end": 25
+                                },
+                                "flags": 32,
                                 "start": 12,
-                                "end": 14
+                                "end": 25
                             },
                             "flags": 32,
                             "start": 7,
-                            "end": 14
+                            "end": 25
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 14
-                    },
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "any",
-                            "rawText": "any",
-                            "flags": 96,
-                            "start": 14,
-                            "end": 17
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 14,
-                        "end": 17
+                        "end": 25
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 17
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 17,
-                    "end": 17
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 18
-                },
-                "right": {
-                    "kind": 201392400,
-                    "text": "any",
-                    "rawText": "any",
-                    "flags": 96,
-                    "start": 18,
-                    "end": 19
-                },
-                "flags": 32,
-                "start": 17,
-                "end": 19
-            },
-            "flags": 16,
-            "start": 17,
-            "end": 19
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 134299649,
-                    "text": "any",
-                    "rawText": "any",
-                    "flags": 96,
-                    "start": 19,
-                    "end": 22
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 22,
-                    "end": 23
-                },
-                "right": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 24,
-                        "end": 24
-                    },
-                    "flags": 48,
-                    "start": 23,
-                    "end": 25
-                },
-                "flags": 32,
-                "start": 19,
                 "end": 25
             },
             "flags": 16,
-            "start": 19,
+            "start": 0,
             "end": 25
         }
     ],
@@ -192,10 +186,8 @@ var v = a => <any><any>{}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 14, end: 17
-✖ ',' expected - start: 17, end: 18
-✖ Expected a `;` - start: 17, end: 18
-✖ Expected a `;` - start: 19, end: 22
+✖ Identifier expected - start: 12, end: 14
+✖ Identifier expected - start: 18, end: 19
 
 ```
 

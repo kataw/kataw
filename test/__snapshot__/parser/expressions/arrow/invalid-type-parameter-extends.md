@@ -26,28 +26,34 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 201392400,
-                "rawText": "",
-                "flags": 96,
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 0,
+                    "end": 0
+                },
+                "operatorToken": {
+                    "kind": 536971330,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 1
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "A",
+                    "rawText": "A",
+                    "flags": 96,
+                    "start": 1,
+                    "end": 2
+                },
+                "flags": 32,
                 "start": 0,
-                "end": 1
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 1
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "A",
-                "rawText": "A",
-                "flags": 96,
-                "start": 1,
                 "end": 2
             },
             "flags": 16,
-            "start": 1,
+            "start": 0,
             "end": 2
         },
         {
@@ -135,7 +141,7 @@
 
 ```javascript
 ✖ Expected to find a '>' to match the '<' token here. - start: 2, end: 10
-✖ Expected a `;` - start: 1, end: 2
+✖ Identifier expected - start: 0, end: 1
 ✖ Expected a `;` - start: 2, end: 10
 ✖ Expected a `;` - start: 16, end: 19
 

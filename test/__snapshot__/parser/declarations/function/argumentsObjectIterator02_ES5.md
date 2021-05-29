@@ -508,46 +508,58 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         "expression": {
                             "kind": 198,
                             "left": {
-                                "kind": 536871042,
-                                "member": {
-                                    "kind": 201392400,
-                                    "text": "return",
-                                    "rawText": "return",
-                                    "flags": 96,
+                                "kind": 198,
+                                "left": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 236,
+                                    "end": 236
+                                },
+                                "operatorToken": {
+                                    "kind": 536971330,
+                                    "flags": 64,
                                     "start": 236,
                                     "end": 238
                                 },
-                                "expression": {
-                                    "kind": 132,
-                                    "expressions": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "any",
-                                            "rawText": "any",
-                                            "flags": 96,
-                                            "start": 239,
-                                            "end": 242
-                                        },
-                                        {
-                                            "kind": 134299649,
-                                            "text": "any",
-                                            "rawText": "any",
-                                            "flags": 96,
-                                            "start": 243,
-                                            "end": 247
-                                        },
-                                        {
-                                            "kind": 134299649,
-                                            "text": "any",
-                                            "rawText": "any",
-                                            "flags": 96,
-                                            "start": 248,
-                                            "end": 252
-                                        }
-                                    ],
+                                "right": {
+                                    "kind": 119,
+                                    "elementList": {
+                                        "kind": 270,
+                                        "elements": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "any",
+                                                "rawText": "any",
+                                                "flags": 96,
+                                                "start": 239,
+                                                "end": 242
+                                            },
+                                            {
+                                                "kind": 134299649,
+                                                "text": "any",
+                                                "rawText": "any",
+                                                "flags": 96,
+                                                "start": 243,
+                                                "end": 247
+                                            },
+                                            {
+                                                "kind": 134299649,
+                                                "text": "any",
+                                                "rawText": "any",
+                                                "flags": 96,
+                                                "start": 248,
+                                                "end": 252
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 239,
+                                        "end": 252
+                                    },
                                     "flags": 32,
-                                    "start": 239,
-                                    "end": 252
+                                    "start": 238,
+                                    "end": 253
                                 },
                                 "flags": 32,
                                 "start": 236,
@@ -611,6 +623,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ✖ Declaration or statement expected - start: 64, end: 65
 ✖ Expected a `;` - start: 90, end: 92
 ✖ A return statement can only be used within a function_body - start: 225, end: 236
+✖ Identifier expected - start: 236, end: 238
 
 ```
 
