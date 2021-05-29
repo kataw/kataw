@@ -88,8 +88,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 10, end: 12
-✖ Keywords cannot contain escape characters - start: 10, end: 12
+✖ Keywords cannot contain escape characters - start: 1, end: 12
 ✖ Identifier expected - start: 10, end: 12
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 12
 

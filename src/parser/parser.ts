@@ -1695,6 +1695,7 @@ function parseTokenNode(parser: ParserState, context: Context): SyntaxToken<Toke
   const pos = parser.curPos;
   const kind = parser.token;
   const flags = parser.nodeFlags;
+  parser.assignable = false;
   nextToken(parser, context);
   return createToken(kind, flags | NodeFlags.ChildLess, pos, parser.curPos);
 }
@@ -3385,9 +3386,7 @@ function parsePostfixUpdateExpression(
       parser.pos
     );
   }
-  const operandToken = parseTokenNode(parser, context);
-  parser.assignable = false;
-  return createPostfixUpdateExpression(operandToken, expr, start, parser.curPos);
+  return createPostfixUpdateExpression(parseTokenNode(parser, context), expr, start, parser.curPos);
 }
 
 // UpdateExpression :
@@ -3467,7 +3466,7 @@ function parseUnaryExpression(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
+      curPos,
       parser.pos
     );
   }
@@ -3476,16 +3475,7 @@ function parseUnaryExpression(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Expression_expected],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  if (operandToken.flags & 0b00000000000000000110000000000000) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
+      curPos,
       parser.pos
     );
   }
