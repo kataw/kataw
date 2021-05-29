@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: y
+- From: kataw7/test\__snapshot__/parser/statements/do-while/autogen.md
+- Path: kataw7/test\__snapshot__\parser\statements\do-while\gen\with_unclosed_array
 > :: test: with unclosed array
 > :: case: while try this and !foo
 ## Input

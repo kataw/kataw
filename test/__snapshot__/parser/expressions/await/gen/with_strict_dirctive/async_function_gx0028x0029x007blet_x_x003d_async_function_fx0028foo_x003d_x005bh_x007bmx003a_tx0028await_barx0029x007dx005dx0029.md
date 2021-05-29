@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/await/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\await\gen\with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
 ## Input

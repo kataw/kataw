@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: s
+- From: kataw7/test\__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\classes\extends-lefthandside\gen\for-in_lhs
 > :: test: for-in lhs
 > :: case: x in y
 ## Input

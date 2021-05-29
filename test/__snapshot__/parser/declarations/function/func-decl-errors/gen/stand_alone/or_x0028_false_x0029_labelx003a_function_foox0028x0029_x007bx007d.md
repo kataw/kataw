@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
+- Path: kataw7/test\__snapshot__\parser\declarations\function\func-decl-errors\gen\stand_alone
 > :: test: stand alone
 > :: case: or (;false;) label: function foo() {}
 ## Input

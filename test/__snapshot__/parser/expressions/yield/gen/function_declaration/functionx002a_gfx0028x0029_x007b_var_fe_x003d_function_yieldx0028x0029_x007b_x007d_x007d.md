@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: n
+- From: kataw7/test\__snapshot__/parser/expressions/yield/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\yield\gen\function_declaration
 > :: test: function declaration
 > :: case: function* gf() { var fe = function yield() { } }
 ## Input

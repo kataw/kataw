@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/unicode-escape/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\unicode-escape\gen\with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: var foob\\u123r = 0;
 ## Input

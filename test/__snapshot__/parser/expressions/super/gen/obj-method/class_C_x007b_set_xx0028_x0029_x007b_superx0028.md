@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: d
+- From: kataw7/test\__snapshot__/parser/expressions/super/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\super\gen\obj-method
 > :: test: obj-method
 > :: case: class C { set x(_) { super(
 ## Input

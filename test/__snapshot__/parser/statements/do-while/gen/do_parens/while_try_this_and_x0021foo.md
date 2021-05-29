@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: s
+- From: kataw7/test\__snapshot__/parser/statements/do-while/autogen.md
+- Path: kataw7/test\__snapshot__\parser\statements\do-while\gen\do_parens
 > :: test: do parens
 > :: case: while try this and !foo
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: y
+- From: kataw7/test\__snapshot__/parser/expressions/binary/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\binary\gen\dynamic_property
 > :: test: dynamic property
 > :: case: a + b instanceof c
 ## Input

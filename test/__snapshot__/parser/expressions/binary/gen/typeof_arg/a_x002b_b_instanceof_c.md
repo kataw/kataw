@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: g
+- From: kataw7/test\__snapshot__/parser/expressions/binary/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\binary\gen\typeof_arg
 > :: test: typeof arg
 > :: case: a + b instanceof c
 ## Input

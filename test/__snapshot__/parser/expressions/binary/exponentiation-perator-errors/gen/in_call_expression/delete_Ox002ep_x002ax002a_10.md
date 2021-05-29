@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: n
+- From: kataw7/test\__snapshot__/parser/expressions/binary/exponentiation-perator-errors/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\binary\exponentiation-perator-errors\gen\in_call_expression
 > :: test: in call expression
 > :: case: delete O.p ** 10
 ## Input

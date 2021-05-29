@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: y
+- From: kataw7/test\__snapshot__/parser/expressions/classes/good_supers/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\classes\good_supers\gen\destructuring_with_number_key
 > :: test: destructuring with number key
 > :: case: super[cool]
 ## Input

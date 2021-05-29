@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/import-call/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\import-call\gen\stand-alone
 > :: test: stand-alone
 > :: case: import(x,y=z)
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_class_name
 > :: test: as class name
 > :: case: yield
 ## Input

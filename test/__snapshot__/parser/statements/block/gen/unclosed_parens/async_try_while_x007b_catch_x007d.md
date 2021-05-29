@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: s
+- From: kataw7/test\__snapshot__/parser/statements/block/autogen.md
+- Path: kataw7/test\__snapshot__\parser\statements\block\gen\unclosed_parens
 > :: test: unclosed parens
 > :: case: async try while { catch }
 ## Input

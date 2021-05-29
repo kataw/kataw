@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/module/export/async-await-module-errors/autogen.md
+- Path: kataw7/test\__snapshot__\parser\module\export\async-await-module-errors\gen\stand-alone
 > :: test: stand-alone
 > :: case: export async function() {}
 ## Input

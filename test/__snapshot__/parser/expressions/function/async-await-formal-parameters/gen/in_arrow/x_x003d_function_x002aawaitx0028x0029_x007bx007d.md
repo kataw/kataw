@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: w
+- From: kataw7/test\__snapshot__/parser/expressions/function/async-await-formal-parameters/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\function\async-await-formal-parameters\gen\in_arrow
 > :: test: in arrow
 > :: case: x = function *await() {}
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: y
+- From: kataw7/test\__snapshot__/parser/statements/block/autogen.md
+- Path: kataw7/test\__snapshot__\parser\statements\block\gen\with_unclosed_array
 > :: test: with unclosed array
 > :: case: I switch to this or another of this parser while I run for I want
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: r
+- From: kataw7/test\__snapshot__/parser/expressions/binary/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\binary\gen\for_header
 > :: test: for header
 > :: case: a / b + c
 ## Input

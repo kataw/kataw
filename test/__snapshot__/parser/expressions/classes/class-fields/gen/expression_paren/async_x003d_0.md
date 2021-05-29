@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: n
+- From: kataw7/test\__snapshot__/parser/expressions/classes/class-fields/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\classes\class-fields\gen\expression_paren
 > :: test: expression_paren
 > :: case: async = 0
 ## Input

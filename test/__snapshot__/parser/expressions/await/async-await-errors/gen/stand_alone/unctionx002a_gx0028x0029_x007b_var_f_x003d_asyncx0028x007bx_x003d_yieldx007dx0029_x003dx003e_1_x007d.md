@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/await/async-await-errors/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\await\async-await-errors\gen\stand_alone
 > :: test: stand alone
 > :: case: unction* g() { var f = async({x = yield}) => 1; }
 ## Input

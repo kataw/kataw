@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: s
+- From: kataw7/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_generator_in_class
 > :: test: as generator in class
 > :: case: eval
 ## Input
