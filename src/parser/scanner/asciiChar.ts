@@ -131,7 +131,10 @@ export const AsciiCharTypes = [
     AsciiCharFlags.Hex |
     AsciiCharFlags.OctHexBin /* 0x62 b */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.Hex /* 0x63 c */,
-  AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.Hex /* 0x64 d */,
+  AsciiCharFlags.IdentifierStart |
+    AsciiCharFlags.IdentifierPart |
+    AsciiCharFlags.Hex |
+    AsciiCharFlags.RegExpFlags /* 0x64 d */,
   AsciiCharFlags.IdentifierStart |
     AsciiCharFlags.IdentifierPart |
     AsciiCharFlags.Hex |

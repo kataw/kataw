@@ -3619,7 +3619,32 @@ function parseArrayLiteralElement(
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const tokenValue = parser.tokenValue;
     let left = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+    // '[a?]', '[a?:]', '[a?]'
+    if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      if (optionalToken) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[DiagnosticCode.An_optional_parameter_not_allowed_in_an_formal_parameter_list],
+          parser.curPos,
+          parser.pos
+        );
+      }
 
+      if (parser.token === SyntaxKind.Colon) {
+        return createArrayBindingElement(
+          null,
+          left as Identifier,
+          /* error recovery */
+          optionalToken,
+          parseTypeAnnotation(parser, context),
+          parseInitializer(parser, context, false),
+          pos,
+          parser.curPos
+        );
+      }
+    }
     // Array with only one identifier followed by an assignment, '[a = ', are destructible unless this is a keyword.
     if (parser.token === SyntaxKind.Assign) {
       if (!parser.assignable) {
@@ -3627,18 +3652,14 @@ function parseArrayLiteralElement(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
           diagnosticMap[
-            parser.destructible & DestructibleKind.EvalOrArguments
-              ? DiagnosticCode.Cannot_assign_to_eval_and_arguments_because_they_are_not_a_variable
-              : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+            DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
           ],
           parser.curPos,
           parser.pos
         );
       }
       const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp);
-      if (type & BindingType.InArrow) {
-        addVarOrBlock(parser, context, scope, tokenValue, type);
-      }
+      if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
       const right = parseExpression(parser, context);
       parser.assignable = false;
       return createAssignmentExpression(left, operatorToken, right, pos, parser.curPos);
@@ -3648,10 +3669,7 @@ function parseArrayLiteralElement(
     // that can't be assigned to. For example `true` and `typeof`.
     if (parser.token === SyntaxKind.RightBracket || parser.token === SyntaxKind.Comma) {
       if (parser.assignable) {
-        if (type & BindingType.InArrow) {
-          addVarOrBlock(parser, context, scope, tokenValue, type);
-        }
-
+        if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
         parser.destructible = DestructibleKind.None;
       } else {
         parser.destructible = DestructibleKind.NotDestructible;
@@ -3668,18 +3686,15 @@ function parseArrayLiteralElement(
 
     left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
 
-    if (
-      !parser.assignable ||
-      ((parser.token as SyntaxKind) !== SyntaxKind.Assign &&
-        (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
-        (parser.token as SyntaxKind) !== SyntaxKind.RightBracket)
-    ) {
-      destructible |= DestructibleKind.NotDestructible;
-    }
-
     // For complex cases like - '[x()]', '[x[y]]', '[x.y]', '[x.y = z]' - the identifier / keyword must be
     // followed by a 'tail' - 'MemberExpression'.
-    left = parseAssignmentExpression(parser, context, left, pos);
+
+    if ((parser.token as SyntaxKind) !== SyntaxKind.Comma && (parser.token as SyntaxKind) !== SyntaxKind.RightBracket) {
+      if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
+      left = parseAssignmentExpression(parser, context, left, pos);
+    } else if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) {
+      destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+    }
 
     parser.destructible = destructible;
 
@@ -3693,30 +3708,37 @@ function parseArrayLiteralElement(
         ? parseArrayLiteralOrAssignmentExpression(parser, context, scope, type)
         : parseObjectLiteralOrAssignmentExpression(parser, context, scope, type);
 
+    // '[a?]', '[a?:]', '[a?]'
+    if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
+      return createArrayBindingElement(
+        null,
+        left as any,
+        /* questionMarkToken */ null,
+        parseTypeAnnotation(parser, context),
+        parseInitializer(parser, context, false),
+        pos,
+        parser.curPos
+      );
+    }
     let destructible = parser.destructible;
 
-    if (parser.token & (SyntaxKind.IsPropertyOrCall | SyntaxKind.IsExpressionStart)) {
-      // '=' can only be used in an object literal property inside a destructuring assignment
-      if (destructible & DestructibleKind.MustDestruct) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode._expected],
-          parser.curPos,
-          parser.pos
-        );
+    parser.assignable = destructible & DestructibleKind.NotDestructible ? false : true;
+
+    if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightBracket) {
+      if (!parser.assignable) {
+        destructible |= DestructibleKind.NotDestructible;
       }
-
+    } else if ((parser.destructible & DestructibleKind.MustDestruct) === 0) {
       left = parseMemberExpression(parser, context, left as any, SyntaxKind.IsPropertyOrCall, pos);
-
       destructible = parser.assignable ? DestructibleKind.None : DestructibleKind.NotDestructible;
-
-      left = parseAssignmentExpression(parser, context, left, pos);
-
-      // ObjectLiteral or ArrayLiteral followed by ConditionalExpression
-    } else if (parser.token === SyntaxKind.QuestionMark) {
-      left = parseConditionalExpression(parser, context, left as any, pos);
-      destructible = DestructibleKind.NotDestructible;
+      if (
+        (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
+        (parser.token as SyntaxKind) !== SyntaxKind.RightBracket
+      ) {
+        left = parseAssignmentExpression(parser, context, left, pos);
+      } else if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) {
+        destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+      }
     }
 
     parser.destructible = destructible;
@@ -3726,17 +3748,44 @@ function parseArrayLiteralElement(
 
   if (parser.token === SyntaxKind.Ellipsis) {
     const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-    return createSpreadElement(
+    let fitte = createSpreadElement(
       ellipsisToken,
       parseArraySpreadArgument(parser, context, scope, type),
       pos,
       parser.curPos
     );
+
+    if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      if (optionalToken) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[DiagnosticCode.An_optional_parameter_not_allowed_in_an_formal_parameter_list],
+          parser.curPos,
+          parser.pos
+        );
+      }
+
+      if ((parser.token as SyntaxKind) === SyntaxKind.Colon) {
+        parser.destructible = DestructibleKind.None;
+
+        return createArrayBindingElement(
+          null,
+          fitte as any,
+          /* error recovery */
+          optionalToken,
+          parseTypeAnnotation(parser, context),
+          parseInitializer(parser, context, false),
+          pos,
+          parser.curPos
+        );
+      }
+    }
+    return fitte;
   }
 
-  if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
-    return createElison(pos, pos);
-  }
+  if ((parser.token as SyntaxKind) === SyntaxKind.Comma) return createElison(pos, pos);
 
   const token = parser.token;
 
@@ -4086,6 +4135,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             scope,
             BindingType.ArgumentList | BindingType.InArrow
           );
+
     if (expression.flags & NodeFlags.PrototypeField) {
       parser.onError(
         DiagnosticSource.Parser,

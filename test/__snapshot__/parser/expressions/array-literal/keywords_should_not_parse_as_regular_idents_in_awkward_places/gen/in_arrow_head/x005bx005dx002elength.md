@@ -112,12 +112,12 @@
 
 ```javascript
 
-([[].length]) =>  {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left hand side of the arrow is not destructible  - start: 15, end: 18
+
 ```
 

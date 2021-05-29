@@ -222,7 +222,8 @@ export const enum DiagnosticCode {
   Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal_and_cannot_be_used_as_an_label = 223,
   _can_only_be_used_at_the_start_of_a_file = 224,
   Private_identifier_cannot_contain_escape_characters = 225,
-  Private_fields_can_t_be_accessed_on_super = 226
+  Private_fields_can_t_be_accessed_on_super = 226,
+  An_optional_parameter_not_allowed_in_an_formal_parameter_list = 227
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -449,5 +450,6 @@ export const diagnosticMap: { [key: number]: string } = {
     "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label",
   [224]: "'#!' can only be used at the start of a file.",
   [225]: 'Private identifier cannot contain escape characters',
-  [226]: "Private fields can't be accessed on super "
+  [226]: "Private fields can't be accessed on super ",
+  [227]: 'An optional parameter not allowed in an formal parameter list.'
 };

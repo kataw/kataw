@@ -26,41 +26,41 @@
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 198,
-                            "left": {
-                                "kind": 119,
-                                "elementList": {
-                                    "kind": 270,
-                                    "elements": [
-                                        {
-                                            "kind": 220,
-                                            "propertyList": {
-                                                "kind": 218,
-                                                "properties": [],
-                                                "trailingComma": false,
-                                                "flags": 16,
-                                                "start": 4,
-                                                "end": 4
-                                            },
-                                            "flags": 48,
-                                            "start": 2,
+                            "kind": 119,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 220,
+                                        "propertyList": {
+                                            "kind": 218,
+                                            "properties": [],
+                                            "trailingComma": false,
+                                            "flags": 16,
+                                            "start": 4,
                                             "end": 4
                                         },
-                                        {
-                                            "kind": 220,
-                                            "propertyList": {
-                                                "kind": 218,
-                                                "properties": [],
-                                                "trailingComma": false,
-                                                "flags": 16,
-                                                "start": 5,
-                                                "end": 5
-                                            },
-                                            "flags": 48,
-                                            "start": 4,
+                                        "flags": 48,
+                                        "start": 2,
+                                        "end": 4
+                                    },
+                                    {
+                                        "kind": 220,
+                                        "propertyList": {
+                                            "kind": 218,
+                                            "properties": [],
+                                            "trailingComma": false,
+                                            "flags": 16,
+                                            "start": 5,
                                             "end": 5
                                         },
-                                        {
+                                        "flags": 48,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    {
+                                        "kind": 198,
+                                        "left": {
                                             "kind": 220,
                                             "propertyList": {
                                                 "kind": 218,
@@ -73,28 +73,28 @@
                                             "flags": 48,
                                             "start": 5,
                                             "end": 6
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 6
-                                },
+                                        },
+                                        "operatorToken": {
+                                            "kind": 134252103,
+                                            "flags": 64,
+                                            "start": 6,
+                                            "end": 8
+                                        },
+                                        "right": {
+                                            "kind": 221,
+                                            "text": "/ function while}}",
+                                            "flags": 96,
+                                            "start": 8,
+                                            "end": 26
+                                        },
+                                        "flags": 32,
+                                        "start": 5,
+                                        "end": 26
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 32,
-                                "start": 1,
-                                "end": 6
-                            },
-                            "operatorToken": {
-                                "kind": 134252103,
-                                "flags": 64,
-                                "start": 6,
-                                "end": 8
-                            },
-                            "right": {
-                                "kind": 221,
-                                "text": "/ function while}}",
-                                "flags": 96,
-                                "start": 8,
+                                "start": 2,
                                 "end": 26
                             },
                             "flags": 32,
@@ -137,7 +137,7 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 8
 ✖ Unterminated regular expression - start: 8, end: 26
-✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 26
+✖ ',' expected - start: 26, end: 26
 
 ```
 

@@ -20,78 +20,18 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 119,
-                    "elementList": {
-                        "kind": 270,
-                        "elements": [
-                            {
-                                "kind": 129,
-                                "member": {
-                                    "kind": 220,
-                                    "propertyList": {
-                                        "kind": 218,
-                                        "properties": [
-                                            {
-                                                "kind": 205,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 3,
-                                                    "end": 4
-                                                },
-                                                "right": {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 6,
-                                                    "end": 8
-                                                },
-                                                "flags": 32,
-                                                "start": 3,
-                                                "end": 8
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 16,
-                                        "start": 3,
-                                        "end": 8
-                                    },
-                                    "flags": 48,
-                                    "start": 2,
-                                    "end": 9
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
-                                    "flags": 96,
-                                    "start": 10,
-                                    "end": 11
-                                },
-                                "flags": 536870944,
-                                "start": 2,
-                                "end": 11
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 2,
-                        "end": 11
-                    },
+                    "kind": 132,
                     "flags": 32,
-                    "start": 1,
-                    "end": 12
+                    "start": 0,
+                    "end": 11
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 13
+                "end": 11
             },
             "flags": 16,
             "start": 0,
-            "end": 13
+            "end": 11
         }
     ],
     "isModule": false,
@@ -113,6 +53,11 @@
 
 ```javascript
 ✖ ',' expected - start: 9, end: 10
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 9, end: 10
+✖ Expected a ')' to match the '(' token here - start: 11, end: 12
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 12
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 12
+✖ Declaration or statement expected - start: 12, end: 13
 
 ```
 

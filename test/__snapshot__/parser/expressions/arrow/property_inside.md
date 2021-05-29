@@ -18,93 +18,87 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 125,
-                "left": {
+                "kind": 129,
+                "member": {
                     "kind": 119,
                     "elementList": {
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 129,
-                                "member": {
-                                    "kind": 220,
-                                    "propertyList": {
-                                        "kind": 218,
-                                        "properties": [
-                                            {
-                                                "kind": 205,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 2,
-                                                    "end": 3
-                                                },
-                                                "right": {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 5,
-                                                    "end": 7
-                                                },
-                                                "flags": 32,
+                                "kind": 220,
+                                "propertyList": {
+                                    "kind": 218,
+                                    "properties": [
+                                        {
+                                            "kind": 205,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
                                                 "start": 2,
+                                                "end": 3
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 5,
                                                 "end": 7
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 16,
-                                        "start": 2,
-                                        "end": 7
-                                    },
-                                    "flags": 48,
-                                    "start": 1,
-                                    "end": 8
+                                            },
+                                            "flags": 32,
+                                            "start": 2,
+                                            "end": 7
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 16,
+                                    "start": 2,
+                                    "end": 7
                                 },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 10
-                                },
-                                "flags": 536870944,
+                                "flags": 48,
                                 "start": 1,
-                                "end": 10
+                                "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 1,
-                        "end": 10
+                        "end": 8
                     },
                     "flags": 32,
                     "start": 0,
-                    "end": 11
+                    "end": 8
                 },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 64,
-                    "start": 11,
-                    "end": 13
-                },
-                "right": {
+                "expression": {
                     "kind": 134299649,
-                    "text": "obj",
-                    "rawText": "obj",
+                    "text": "z",
+                    "rawText": "z",
                     "flags": 96,
-                    "start": 13,
-                    "end": 17
+                    "start": 9,
+                    "end": 10
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
-                "end": 17
+                "end": 10
             },
             "flags": 16,
             "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "obj",
+                "rawText": "obj",
+                "flags": 96,
+                "start": 13,
+                "end": 17
+            },
+            "flags": 16,
+            "start": 13,
             "end": 17
         }
     ],
@@ -127,6 +121,9 @@
 
 ```javascript
 ✖ ',' expected - start: 8, end: 9
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 9
+✖ Expected a `;` - start: 10, end: 11
+✖ Declaration or statement expected - start: 11, end: 13
 
 ```
 
