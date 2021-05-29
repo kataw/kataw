@@ -21,7 +21,7 @@ try {} catch (x) { var x }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -42,7 +42,7 @@ try {} catch (x) { var x }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 12
                 },
@@ -120,7 +120,7 @@ try {} catch (x) { var x }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 26,
                 "end": 31
             },
@@ -141,7 +141,7 @@ try {} catch (x) { var x }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 34,
                     "end": 40
                 },
@@ -164,7 +164,7 @@ try {} catch (x) { var x }
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 46,
                                     "end": 50
                                 },

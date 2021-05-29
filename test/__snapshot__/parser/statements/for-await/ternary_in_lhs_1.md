@@ -28,7 +28,7 @@ async function f(){
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -59,7 +59,7 @@ async function f(){
                             "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 19,
                                 "end": 25
                             },
@@ -75,7 +75,7 @@ async function f(){
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -89,7 +89,7 @@ async function f(){
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 38,
                                     "end": 40
                                 },

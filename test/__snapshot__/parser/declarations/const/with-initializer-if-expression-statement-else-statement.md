@@ -19,13 +19,13 @@ if (true) {} else const x = 1;
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 4,
                 "end": 8
             },
@@ -69,7 +69,7 @@ if (true) {} else const x = 1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 17,
                 "end": 23
             },

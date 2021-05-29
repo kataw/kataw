@@ -21,7 +21,7 @@ true ** a
                 "kind": 198,
                 "left": {
                     "kind": 24752947,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },

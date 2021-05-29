@@ -23,7 +23,7 @@ obj?.foo.bar = 0
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3,
                         "end": 5
                     },

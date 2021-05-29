@@ -29,7 +29,7 @@
                             "kind": 121,
                             "expression": {
                                 "kind": 205586437,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 8
                             },

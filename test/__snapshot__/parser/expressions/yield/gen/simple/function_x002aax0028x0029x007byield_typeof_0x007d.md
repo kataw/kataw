@@ -24,7 +24,7 @@ function *a(){yield typeof 0}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function *a(){yield typeof 0}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 14,
                                     "end": 19
                                 },

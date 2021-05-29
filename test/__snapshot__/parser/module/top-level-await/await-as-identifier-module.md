@@ -33,7 +33,7 @@ await(x);
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 0,
                     "end": 26
                 },
@@ -60,7 +60,7 @@ await(x);
                     "kind": 208,
                     "awaitKeyword": {
                         "kind": 82196,
-                        "flags": 1,
+                        "flags": 65,
                         "start": 27,
                         "end": 34
                     },
@@ -103,7 +103,7 @@ await(x);
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 43,
                     "end": 50
                 },

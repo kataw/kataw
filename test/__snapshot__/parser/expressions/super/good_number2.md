@@ -47,7 +47,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -61,7 +61,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4,
                     "end": 5
                 },
@@ -95,7 +95,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 9,
                     "end": 11
                 },
@@ -109,7 +109,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 12,
                     "end": 13
                 },
@@ -143,7 +143,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 17,
                     "end": 19
                 },
@@ -157,7 +157,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 20,
                     "end": 21
                 },
@@ -191,7 +191,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 25,
                     "end": 27
                 },
@@ -205,7 +205,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 28,
                     "end": 29
                 },
@@ -239,7 +239,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 33,
                     "end": 35
                 },
@@ -253,7 +253,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 36,
                     "end": 37
                 },
@@ -287,7 +287,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 41,
                     "end": 43
                 },
@@ -301,7 +301,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 44,
                     "end": 45
                 },
@@ -335,7 +335,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 49,
                     "end": 51
                 },
@@ -349,7 +349,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 52,
                     "end": 53
                 },
@@ -383,7 +383,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 57,
                     "end": 59
                 },
@@ -397,7 +397,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 60,
                     "end": 61
                 },
@@ -431,7 +431,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 65,
                     "end": 67
                 },
@@ -445,7 +445,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 68,
                     "end": 69
                 },
@@ -479,7 +479,7 @@ a?.9:b
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 73,
                     "end": 75
                 },
@@ -493,7 +493,7 @@ a?.9:b
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 76,
                     "end": 77
                 },

@@ -33,7 +33,7 @@ import { type Foo12 } from "bar";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -41,7 +41,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 27,
                     "end": 32
                 },
@@ -124,7 +124,7 @@ import { type Foo12 } from "bar";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 39,
                 "end": 46
             },
@@ -132,7 +132,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 51,
                     "end": 56
                 },
@@ -173,7 +173,7 @@ import { type Foo12 } from "bar";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 63,
                 "end": 70
             },
@@ -181,7 +181,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 87,
                     "end": 92
                 },
@@ -252,7 +252,7 @@ import { type Foo12 } from "bar";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 99,
                 "end": 106
             },
@@ -324,7 +324,7 @@ import { type Foo12 } from "bar";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 129,
                 "end": 136
             },
@@ -332,7 +332,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 157,
                     "end": 162
                 },
@@ -420,7 +420,7 @@ import { type Foo12 } from "bar";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 169,
                 "end": 176
             },
@@ -522,7 +522,7 @@ import { type Foo12 } from "bar";
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 210,
                 "end": 217
             },
@@ -530,7 +530,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 232,
                     "end": 237
                 },

@@ -36,7 +36,7 @@ class Foo extends async x => {} {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -55,7 +55,7 @@ class Foo extends async x => {} {}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 9,
                         "end": 17
                     },
@@ -63,7 +63,7 @@ class Foo extends async x => {} {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 19,
                             "end": 22
                         },
@@ -122,7 +122,7 @@ class Foo extends async x => {} {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 28,
                 "end": 35
             },
@@ -141,7 +141,7 @@ class Foo extends async x => {} {}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 39,
                         "end": 47
                     },
@@ -149,7 +149,7 @@ class Foo extends async x => {} {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 50,
                             "end": 53
                         },
@@ -201,7 +201,7 @@ class Foo extends async x => {} {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 59,
                 "end": 66
             },
@@ -220,7 +220,7 @@ class Foo extends async x => {} {}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 70,
                         "end": 78
                     },
@@ -228,7 +228,7 @@ class Foo extends async x => {} {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 86,
                             "end": 89
                         },
@@ -303,7 +303,7 @@ class Foo extends async x => {} {}
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 98,
                                         "end": 103
                                     },
@@ -315,7 +315,7 @@ class Foo extends async x => {} {}
                                             "kind": 279,
                                             "extendsKeyword": {
                                                 "kind": 4194391,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 103,
                                                 "end": 111
                                             },
@@ -323,7 +323,7 @@ class Foo extends async x => {} {}
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 113,
                                                     "end": 116
                                                 },
@@ -388,7 +388,7 @@ class Foo extends async x => {} {}
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 126,
                                             "end": 131
                                         },
@@ -400,7 +400,7 @@ class Foo extends async x => {} {}
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 131,
                                                     "end": 139
                                                 },
@@ -408,7 +408,7 @@ class Foo extends async x => {} {}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 143,
                                                         "end": 146
                                                     },
@@ -481,7 +481,7 @@ class Foo extends async x => {} {}
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 156,
                                         "end": 161
                                     },
@@ -493,7 +493,7 @@ class Foo extends async x => {} {}
                                             "kind": 279,
                                             "extendsKeyword": {
                                                 "kind": 4194391,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 161,
                                                 "end": 169
                                             },
@@ -501,7 +501,7 @@ class Foo extends async x => {} {}
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 177,
                                                     "end": 180
                                                 },
@@ -577,7 +577,7 @@ class Foo extends async x => {} {}
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 190,
                                     "end": 195
                                 },
@@ -589,7 +589,7 @@ class Foo extends async x => {} {}
                                         "kind": 279,
                                         "extendsKeyword": {
                                             "kind": 4194391,
-                                            "flags": 0,
+                                            "flags": 80,
                                             "start": 195,
                                             "end": 203
                                         },
@@ -597,7 +597,7 @@ class Foo extends async x => {} {}
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 212,
                                                 "end": 215
                                             },
@@ -666,7 +666,7 @@ class Foo extends async x => {} {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 225,
                                 "end": 230
                             },
@@ -678,7 +678,7 @@ class Foo extends async x => {} {}
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 230,
                                         "end": 238
                                     },
@@ -686,7 +686,7 @@ class Foo extends async x => {} {}
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 248,
                                             "end": 251
                                         },

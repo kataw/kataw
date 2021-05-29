@@ -38,7 +38,7 @@ class B<X> {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -166,7 +166,7 @@ class B<X> {
                                                 "kind": 164,
                                                 "ifKeyword": {
                                                     "kind": 37757019,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 28,
                                                     "end": 35
                                                 },
@@ -174,7 +174,7 @@ class B<X> {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 4276321,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 37,
                                                         "end": 41
                                                     },
@@ -217,7 +217,7 @@ class B<X> {
                                                                         "kind": 129,
                                                                         "member": {
                                                                             "kind": 4276321,
-                                                                            "flags": 0,
+                                                                            "flags": 96,
                                                                             "start": 56,
                                                                             "end": 61
                                                                         },
@@ -264,7 +264,7 @@ class B<X> {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 4276321,
-                                                            "flags": 1,
+                                                            "flags": 97,
                                                             "start": 70,
                                                             "end": 79
                                                         },

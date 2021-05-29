@@ -21,7 +21,7 @@ function* fn(x = yield* yield) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ function* fn(x = yield* yield) {}
                             "kind": 229,
                             "yieldKeyword": {
                                 "kind": 8454253,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 16,
                                 "end": 22
                             },
@@ -74,7 +74,7 @@ function* fn(x = yield* yield) {}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 23,
                                     "end": 29
                                 },

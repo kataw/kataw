@@ -33,7 +33,7 @@ await / 0 /u
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
@@ -59,7 +59,7 @@ await / 0 /u
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 7,
                     "end": 14
                 },
@@ -97,7 +97,7 @@ await / 0 /u
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 18,
                     "end": 24
                 },
@@ -135,7 +135,7 @@ await / 0 /u
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 28,
                     "end": 34
                 },
@@ -167,7 +167,7 @@ await / 0 /u
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 40,
                     "end": 46
                 },
@@ -208,7 +208,7 @@ await / 0 /u
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 52,
                     "end": 58
                 },

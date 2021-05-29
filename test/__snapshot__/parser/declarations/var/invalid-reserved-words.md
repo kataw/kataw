@@ -55,7 +55,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 14,
                 "end": 18
             },
@@ -107,7 +107,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 45,
                 "end": 49
             },
@@ -128,7 +128,7 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 49,
                 "end": 58
             },
@@ -187,7 +187,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 74,
                 "end": 78
             },
@@ -228,7 +228,7 @@
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 83,
                         "end": 89
                     },
@@ -270,7 +270,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 105,
                 "end": 109
             },
@@ -297,7 +297,7 @@
                                     "kind": 225,
                                     "superKeyword": {
                                         "kind": 4259935,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 115,
                                         "end": 121
                                     },

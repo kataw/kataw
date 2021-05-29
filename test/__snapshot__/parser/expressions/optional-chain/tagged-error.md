@@ -25,7 +25,7 @@ a?.()``;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -86,7 +86,7 @@ a?.()``;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 10,
                     "end": 12
                 },
@@ -147,7 +147,7 @@ a?.()``;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 23,
                     "end": 25
                 },

@@ -22,7 +22,7 @@ for (new.target in x) ;
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -30,13 +30,13 @@ for (new.target in x) ;
                 "kind": 211,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 5,
                     "end": 8
                 },
                 "targetIdentifier": {
                     "kind": 16594,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 9,
                     "end": 15
                 },

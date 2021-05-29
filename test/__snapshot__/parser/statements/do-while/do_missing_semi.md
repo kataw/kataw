@@ -19,7 +19,7 @@ do;while(j)try{}finally{}
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -33,7 +33,7 @@ do;while(j)try{}finally{}
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 3,
                 "end": 8
             },
@@ -51,7 +51,7 @@ do;while(j)try{}finally{}
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 11,
                 "end": 14
             },
@@ -71,7 +71,7 @@ do;while(j)try{}finally{}
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 0,
+                "flags": 64,
                 "start": 16,
                 "end": 23
             },

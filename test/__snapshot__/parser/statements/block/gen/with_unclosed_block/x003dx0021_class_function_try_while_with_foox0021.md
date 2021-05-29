@@ -55,7 +55,7 @@
                         "catchClause": null,
                         "finallyKeyword": {
                             "kind": 37757016,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 12
                         },
@@ -124,7 +124,7 @@
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 26
                                 },
@@ -162,7 +162,7 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 26,
                             "end": 35
                         },
@@ -200,7 +200,7 @@
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 35,
                             "end": 39
                         },
@@ -240,7 +240,7 @@
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 39,
                             "end": 45
                         },
@@ -255,7 +255,7 @@
                             "kind": 153,
                             "withKeyword": {
                                 "kind": 37757029,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 45,
                                 "end": 50
                             },

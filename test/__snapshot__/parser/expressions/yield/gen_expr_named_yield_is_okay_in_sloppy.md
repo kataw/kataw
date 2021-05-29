@@ -20,7 +20,7 @@ var g = function* yield() {};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -44,7 +44,7 @@ var g = function* yield() {};
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 7,
                                 "end": 16
                             },

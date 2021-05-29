@@ -1309,7 +1309,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1752,
                                     "end": 1755
                                 },
@@ -1406,7 +1406,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1770,
                                     "end": 1773
                                 },
@@ -1488,7 +1488,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1955,
                                     "end": 1958
                                 },
@@ -1555,7 +1555,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1968,
                                     "end": 1971
                                 },
@@ -1563,7 +1563,7 @@ try {} catch(e) { for(var e of 0); };
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 1971,
                                         "end": 1974
                                     },
@@ -1626,7 +1626,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1983,
                 "end": 2257
             },
@@ -1696,7 +1696,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2271,
                 "end": 2275
             },
@@ -1751,7 +1751,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2286,
                 "end": 2290
             },
@@ -1822,7 +1822,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2304,
                 "end": 2308
             },
@@ -1878,7 +1878,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2319,
                 "end": 2417
             },
@@ -1918,7 +1918,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2426,
                 "end": 2430
             },
@@ -1959,7 +1959,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2439,
                 "end": 2765
             },
@@ -2035,7 +2035,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2781,
                 "end": 2785
             },
@@ -2096,7 +2096,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2798,
                 "end": 2802
             },
@@ -2173,7 +2173,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2818,
                 "end": 2822
             },
@@ -2235,7 +2235,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2835,
                 "end": 2839
             },
@@ -2281,7 +2281,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 2850,
                 "end": 2854
             },
@@ -2523,7 +2523,7 @@ try {} catch(e) { for(var e of 0); };
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 3170,
                                                                 "end": 3176
                                                             },
@@ -2637,7 +2637,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "kind": 164,
                                                                             "ifKeyword": {
                                                                                 "kind": 37757019,
-                                                                                "flags": 0,
+                                                                                "flags": 80,
                                                                                 "start": 3196,
                                                                                 "end": 3199
                                                                             },
@@ -2661,7 +2661,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "kind": 225,
                                                                                                 "superKeyword": {
                                                                                                     "kind": 4259935,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 96,
                                                                                                     "start": 3205,
                                                                                                     "end": 3211
                                                                                                 },
@@ -2758,7 +2758,7 @@ try {} catch(e) { for(var e of 0); };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 3226,
                 "end": 3232
             },
@@ -2777,7 +2777,7 @@ try {} catch(e) { for(var e of 0); };
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 3234,
                         "end": 3242
                     },
@@ -2887,7 +2887,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "kind": 225,
                                                                                                 "superKeyword": {
                                                                                                     "kind": 4259935,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 96,
                                                                                                     "start": 3280,
                                                                                                     "end": 3286
                                                                                                 },
@@ -2982,7 +2982,7 @@ try {} catch(e) { for(var e of 0); };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 3297,
                 "end": 3303
             },
@@ -3001,7 +3001,7 @@ try {} catch(e) { for(var e of 0); };
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 3305,
                         "end": 3313
                     },
@@ -3116,7 +3116,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "kind": 225,
                                                                                                 "superKeyword": {
                                                                                                     "kind": 4259935,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 96,
                                                                                                     "start": 3352,
                                                                                                     "end": 3358
                                                                                                 },
@@ -3211,7 +3211,7 @@ try {} catch(e) { for(var e of 0); };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 3369,
                 "end": 3375
             },
@@ -3230,7 +3230,7 @@ try {} catch(e) { for(var e of 0); };
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 3377,
                         "end": 3385
                     },
@@ -3345,7 +3345,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "kind": 225,
                                                                                                 "superKeyword": {
                                                                                                     "kind": 4259935,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 96,
                                                                                                     "start": 3427,
                                                                                                     "end": 3433
                                                                                                 },
@@ -3440,7 +3440,7 @@ try {} catch(e) { for(var e of 0); };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 3444,
                 "end": 3450
             },
@@ -3459,7 +3459,7 @@ try {} catch(e) { for(var e of 0); };
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 3452,
                         "end": 3460
                     },
@@ -3593,7 +3593,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "kind": 225,
                                                                                                 "superKeyword": {
                                                                                                     "kind": 4259935,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 96,
                                                                                                     "start": 3503,
                                                                                                     "end": 3509
                                                                                                 },
@@ -4082,7 +4082,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 4348,
                 "end": 4475
             },
@@ -4148,7 +4148,7 @@ try {} catch(e) { for(var e of 0); };
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4484,
                     "end": 4485
                 },
@@ -4158,7 +4158,7 @@ try {} catch(e) { for(var e of 0); };
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 4485,
                         "end": 4494
                     },
@@ -4213,7 +4213,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 4500,
                 "end": 4503
             },
@@ -4279,7 +4279,7 @@ try {} catch(e) { for(var e of 0); };
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4513,
                     "end": 4514
                 },
@@ -4337,7 +4337,7 @@ try {} catch(e) { for(var e of 0); };
                     ],
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 4521,
                         "end": 4522
                     },
@@ -4347,7 +4347,7 @@ try {} catch(e) { for(var e of 0); };
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4522,
                             "end": 4531
                         },
@@ -4406,7 +4406,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 4537,
                 "end": 4540
             },
@@ -4472,7 +4472,7 @@ try {} catch(e) { for(var e of 0); };
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4549,
                     "end": 4550
                 },
@@ -4482,7 +4482,7 @@ try {} catch(e) { for(var e of 0); };
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 4550,
                         "end": 4559
                     },
@@ -4547,7 +4547,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 4572,
                 "end": 4575
             },
@@ -4625,7 +4625,7 @@ try {} catch(e) { for(var e of 0); };
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4591,
                     "end": 4592
                 },
@@ -4635,7 +4635,7 @@ try {} catch(e) { for(var e of 0); };
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 4592,
                         "end": 4601
                     },
@@ -4690,7 +4690,7 @@ try {} catch(e) { for(var e of 0); };
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4607,
                 "end": 4704
             },
@@ -4728,7 +4728,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 4722,
                                     "end": 4725
                                 },
@@ -4754,7 +4754,7 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 4715,
                                                 "end": 4721
                                             },
@@ -4815,7 +4815,7 @@ try {} catch(e) { for(var e of 0); };
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4731,
                 "end": 4740
             },
@@ -4853,7 +4853,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 4760,
                                     "end": 4763
                                 },
@@ -4879,7 +4879,7 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 4751,
                                                 "end": 4757
                                             },
@@ -4947,7 +4947,7 @@ try {} catch(e) { for(var e of 0); };
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4769,
                 "end": 4778
             },
@@ -4985,7 +4985,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 4799,
                                     "end": 4802
                                 },
@@ -5011,7 +5011,7 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 4789,
                                                 "end": 4795
                                             },
@@ -5084,7 +5084,7 @@ try {} catch(e) { for(var e of 0); };
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4808,
                 "end": 4817
             },
@@ -5122,7 +5122,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 4842,
                                     "end": 4845
                                 },
@@ -5177,7 +5177,7 @@ try {} catch(e) { for(var e of 0); };
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 4835,
                                                                 "end": 4840
                                                             },
@@ -5252,7 +5252,7 @@ try {} catch(e) { for(var e of 0); };
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4851,
                 "end": 4860
             },
@@ -5290,7 +5290,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 4881,
                                     "end": 4884
                                 },
@@ -5310,7 +5310,7 @@ try {} catch(e) { for(var e of 0); };
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 4870,
                                                                 "end": 4875
                                                             },
@@ -5393,7 +5393,7 @@ try {} catch(e) { for(var e of 0); };
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4890,
                 "end": 4899
             },
@@ -5431,7 +5431,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 4919,
                                     "end": 4922
                                 },
@@ -5456,7 +5456,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 4911,
                                                             "end": 4917
                                                         },
@@ -5527,7 +5527,7 @@ try {} catch(e) { for(var e of 0); };
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4928,
                 "end": 4937
             },
@@ -5565,7 +5565,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 4957,
                                     "end": 4960
                                 },
@@ -5596,7 +5596,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 4949,
                                                             "end": 4955
                                                         },
@@ -5719,7 +5719,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 5081,
                 "end": 5241
             },
@@ -5740,7 +5740,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 5244,
                     "end": 5250
                 },
@@ -5824,7 +5824,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 5265,
                 "end": 5269
             },
@@ -5845,7 +5845,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 5272,
                     "end": 5278
                 },
@@ -5869,7 +5869,7 @@ try {} catch(e) { for(var e of 0); };
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 5283,
                                     "end": 5292
                                 },
@@ -5939,7 +5939,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 5301,
                 "end": 5585
             },
@@ -5960,7 +5960,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 5588,
                     "end": 5594
                 },
@@ -5982,7 +5982,7 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 167,
                                 "forKeyword": {
                                     "kind": 37757017,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 5599,
                                     "end": 5603
                                 },

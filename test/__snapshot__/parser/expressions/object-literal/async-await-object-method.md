@@ -86,7 +86,7 @@
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 16,
                                                             "end": 22
                                                         },

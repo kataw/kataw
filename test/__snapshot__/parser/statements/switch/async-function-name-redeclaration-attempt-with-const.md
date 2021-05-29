@@ -19,7 +19,7 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -38,7 +38,7 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 12,
                             "end": 17
                         },
@@ -62,7 +62,7 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 26,
                                     "end": 35
                                 },
@@ -112,7 +112,7 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 42,
                             "end": 50
                         },
@@ -121,7 +121,7 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 51,
                                     "end": 57
                                 },

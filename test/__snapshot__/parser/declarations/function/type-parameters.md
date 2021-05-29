@@ -139,7 +139,7 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 35,
                 "end": 42
             },
@@ -263,7 +263,7 @@ type T = <
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 99,
                 "end": 109
             },
@@ -523,7 +523,7 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 260,
                 "end": 267
             },
@@ -647,7 +647,7 @@ type T = <
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 330,
                 "end": 340
             },

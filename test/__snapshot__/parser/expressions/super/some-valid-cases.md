@@ -52,7 +52,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -71,7 +71,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -109,7 +109,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 21,
                 "end": 28
             },
@@ -128,7 +128,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 30,
                         "end": 38
                     },
@@ -218,7 +218,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 50,
                 "end": 57
             },
@@ -237,7 +237,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 59,
                         "end": 67
                     },
@@ -300,7 +300,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 87,
                                                             "end": 93
                                                         },
@@ -360,7 +360,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 100,
                 "end": 107
             },
@@ -422,7 +422,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 126,
                                                             "end": 132
                                                         },
@@ -482,7 +482,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 140,
                 "end": 147
             },
@@ -544,7 +544,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 158,
                                                             "end": 164
                                                         },
@@ -604,7 +604,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 172,
                 "end": 179
             },
@@ -665,7 +665,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 190,
                                                         "end": 195
                                                     },
@@ -793,7 +793,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 217,
                                                             "end": 223
                                                         },
@@ -870,7 +870,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 232,
                 "end": 239
             },
@@ -932,7 +932,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 258,
                                                             "end": 264
                                                         },
@@ -992,7 +992,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 273,
                 "end": 280
             },
@@ -1054,7 +1054,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 291,
                                                             "end": 297
                                                         },
@@ -1114,7 +1114,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 306,
                 "end": 313
             },
@@ -1175,7 +1175,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 324,
                                                         "end": 329
                                                     },
@@ -1304,7 +1304,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 351,
                                                                 "end": 357
                                                             },
@@ -1425,7 +1425,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 379,
                                                             "end": 385
                                                         },
@@ -1502,7 +1502,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 395,
                 "end": 402
             },
@@ -1521,7 +1521,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 404,
                         "end": 412
                     },
@@ -1580,7 +1580,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 431,
                                                     "end": 438
                                                 },
@@ -1588,7 +1588,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 450,
                                                         "end": 453
                                                     },
@@ -1616,7 +1616,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                     "kind": 225,
                                                                     "superKeyword": {
                                                                         "kind": 4259935,
-                                                                        "flags": 0,
+                                                                        "flags": 96,
                                                                         "start": 442,
                                                                         "end": 447
                                                                     },
@@ -1695,7 +1695,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 459,
                 "end": 466
             },
@@ -1714,7 +1714,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 468,
                         "end": 476
                     },
@@ -1773,7 +1773,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 495,
                                                     "end": 502
                                                 },
@@ -1781,7 +1781,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 505,
                                                         "end": 508
                                                     },
@@ -1795,7 +1795,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 508,
                                                                 "end": 514
                                                             },
@@ -1859,7 +1859,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 523,
                 "end": 530
             },
@@ -1917,7 +1917,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 540,
                                                     "end": 547
                                                 },
@@ -1925,7 +1925,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 550,
                                                         "end": 553
                                                     },
@@ -1939,7 +1939,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 553,
                                                                 "end": 559
                                                             },
@@ -2003,7 +2003,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 567,
                 "end": 574
             },
@@ -2061,7 +2061,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 586,
                                                     "end": 593
                                                 },
@@ -2069,7 +2069,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 607,
                                                         "end": 610
                                                     },
@@ -2097,7 +2097,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                     "kind": 225,
                                                                     "superKeyword": {
                                                                         "kind": 4259935,
-                                                                        "flags": 0,
+                                                                        "flags": 96,
                                                                         "start": 597,
                                                                         "end": 602
                                                                     },

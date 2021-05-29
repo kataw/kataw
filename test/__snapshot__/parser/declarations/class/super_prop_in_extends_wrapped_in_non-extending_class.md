@@ -40,7 +40,7 @@ class a { foo(){      class x extends super.foo {}    }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -100,7 +100,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 16,
                                                     "end": 27
                                                 },
@@ -119,7 +119,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "kind": 279,
                                                         "extendsKeyword": {
                                                             "kind": 4194391,
-                                                            "flags": 0,
+                                                            "flags": 80,
                                                             "start": 29,
                                                             "end": 37
                                                         },
@@ -129,7 +129,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                                 "kind": 225,
                                                                 "superKeyword": {
                                                                     "kind": 4259935,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 37,
                                                                     "end": 43
                                                                 },

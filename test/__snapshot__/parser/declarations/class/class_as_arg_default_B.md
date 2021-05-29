@@ -56,7 +56,7 @@ f = ([xCls = class X {}]) => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 25,
                         "end": 28
                     },
@@ -88,7 +88,7 @@ f = ([xCls = class X {}]) => {}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 12,
                                                 "end": 18
                                             },

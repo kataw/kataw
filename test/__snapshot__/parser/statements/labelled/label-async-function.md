@@ -37,7 +37,7 @@ label: async function () {}
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 6
             },
@@ -52,7 +52,7 @@ label: async function () {}
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 12,
                     "end": 21
                 },

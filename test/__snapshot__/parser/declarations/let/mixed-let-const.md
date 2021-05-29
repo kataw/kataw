@@ -65,7 +65,7 @@ const a = 1; let a = 2;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 10,
                 "end": 16
             },
@@ -109,7 +109,7 @@ const a = 1; let a = 2;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 23,
                 "end": 30
             },

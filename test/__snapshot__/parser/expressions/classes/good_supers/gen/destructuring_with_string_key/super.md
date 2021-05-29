@@ -28,7 +28,7 @@ class x extends y {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -47,7 +47,7 @@ class x extends y {
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -130,7 +130,7 @@ class x extends y {
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
                                                                                     "kind": 4259935,
-                                                                                    "flags": 0,
+                                                                                    "flags": 96,
                                                                                     "start": 50,
                                                                                     "end": 56
                                                                                 },

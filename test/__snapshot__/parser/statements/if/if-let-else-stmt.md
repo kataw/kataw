@@ -19,13 +19,13 @@ if (true) let x; else ;
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 4,
                 "end": 8
             },

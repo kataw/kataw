@@ -21,7 +21,7 @@ class x { fo(){ return function() { super.foo; } }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -79,7 +79,7 @@ class x { fo(){ return function() { super.foo; } }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 15,
                                                     "end": 22
                                                 },
@@ -88,7 +88,7 @@ class x { fo(){ return function() { super.foo; } }}
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 22,
                                                         "end": 31
                                                     },
@@ -116,7 +116,7 @@ class x { fo(){ return function() { super.foo; } }}
                                                                             "kind": 225,
                                                                             "superKeyword": {
                                                                                 "kind": 4259935,
-                                                                                "flags": 0,
+                                                                                "flags": 96,
                                                                                 "start": 35,
                                                                                 "end": 41
                                                                             },

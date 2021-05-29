@@ -51,7 +51,7 @@ type T4 = { foo: number, bar: string, ... };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 11,
                             "end": 15
                         },
@@ -150,7 +150,7 @@ type T4 = { foo: number, bar: string, ... };
                                                             "kind": 247,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 45,
                                                                 "end": 48
                                                             },
@@ -191,7 +191,7 @@ type T4 = { foo: number, bar: string, ... };
                                                 "kind": 247,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 50,
                                                     "end": 54
                                                 },
@@ -232,7 +232,7 @@ type T4 = { foo: number, bar: string, ... };
                                     "kind": 247,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 57,
                                         "end": 61
                                     },
@@ -328,7 +328,7 @@ type T4 = { foo: number, bar: string, ... };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 90,
                             "end": 94
                         },
@@ -432,7 +432,7 @@ type T4 = { foo: number, bar: string, ... };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 135,
                             "end": 139
                         },

@@ -21,7 +21,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -40,7 +40,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -99,7 +99,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 34,
                                                     "end": 41
                                                 },
@@ -108,7 +108,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 41,
                                                         "end": 50
                                                     },
@@ -132,7 +132,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                     "kind": 161,
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
-                                                                        "flags": 0,
+                                                                        "flags": 80,
                                                                         "start": 54,
                                                                         "end": 61
                                                                     },
@@ -140,7 +140,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                         "kind": 271,
                                                                         "arrowToken": {
                                                                             "kind": 10,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 64,
                                                                             "end": 67
                                                                         },
@@ -154,7 +154,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
                                                                                     "kind": 4259935,
-                                                                                    "flags": 0,
+                                                                                    "flags": 96,
                                                                                     "start": 67,
                                                                                     "end": 73
                                                                                 },

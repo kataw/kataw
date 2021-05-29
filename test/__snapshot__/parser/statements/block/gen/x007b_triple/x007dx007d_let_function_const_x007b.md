@@ -70,7 +70,7 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 12,
                             "end": 21
                         },
@@ -108,7 +108,7 @@
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 21,
                             "end": 27
                         },

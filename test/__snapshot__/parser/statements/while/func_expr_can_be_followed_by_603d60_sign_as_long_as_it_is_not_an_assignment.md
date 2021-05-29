@@ -19,7 +19,7 @@ while (function* () {} === x);
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -30,7 +30,7 @@ while (function* () {} === x);
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 7,
                         "end": 15
                     },

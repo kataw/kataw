@@ -19,13 +19,13 @@ if (false) ; else async function* f() {  }
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 205586437,
-                "flags": 0,
+                "flags": 96,
                 "start": 4,
                 "end": 9
             },
@@ -52,7 +52,7 @@ if (false) ; else async function* f() {  }
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 23,
                     "end": 32
                 },

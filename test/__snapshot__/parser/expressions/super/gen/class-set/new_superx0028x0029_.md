@@ -24,7 +24,7 @@ class C { set x(_) { new super(); } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -108,7 +108,7 @@ class C { set x(_) { new super(); } }
                                                     "kind": 210,
                                                     "newKeyword": {
                                                         "kind": 138477661,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 20,
                                                         "end": 24
                                                     },
@@ -116,7 +116,7 @@ class C { set x(_) { new super(); } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 24,
                                                             "end": 30
                                                         },

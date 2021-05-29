@@ -29,7 +29,7 @@ class o {f([b, a], ...b) {}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -106,7 +106,7 @@ class o {f([b, a], ...b) {}}
                                                 "kind": 162,
                                                 "lexicalKeyword": {
                                                     "kind": 37757004,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 15,
                                                     "end": 21
                                                 },
@@ -271,7 +271,7 @@ class o {f([b, a], ...b) {}}
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 46,
                                         "end": 55
                                     },
@@ -336,7 +336,7 @@ class o {f([b, a], ...b) {}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 65,
                 "end": 72
             },
@@ -414,7 +414,7 @@ class o {f([b, a], ...b) {}}
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 82,
                                                     "end": 86
                                                 },
@@ -483,7 +483,7 @@ class o {f([b, a], ...b) {}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 92,
                 "end": 99
             },
@@ -675,7 +675,7 @@ class o {f([b, a], ...b) {}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 121,
                 "end": 128
             },

@@ -44,7 +44,7 @@ x({[new A()]:y})
                                                 "kind": 210,
                                                 "newKeyword": {
                                                     "kind": 138477661,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 4,
                                                     "end": 7
                                                 },

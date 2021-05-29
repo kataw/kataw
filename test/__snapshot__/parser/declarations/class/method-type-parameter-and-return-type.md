@@ -32,7 +32,7 @@ class Foo7<T> {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -147,7 +147,7 @@ class Foo7<T> {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 35,
                                                     "end": 42
                                                 },

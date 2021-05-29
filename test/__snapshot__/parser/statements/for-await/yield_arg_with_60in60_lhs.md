@@ -30,7 +30,7 @@ async function f(){
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -63,7 +63,7 @@ async function f(){
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 1,
+                                "flags": 65,
                                 "start": 19,
                                 "end": 30
                             },
@@ -99,7 +99,7 @@ async function f(){
                                             "kind": 166,
                                             "forKeyword": {
                                                 "kind": 37757017,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 36,
                                                 "end": 44
                                             },
@@ -107,7 +107,7 @@ async function f(){
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 52,
                                                     "end": 57
                                                 },

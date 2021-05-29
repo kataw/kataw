@@ -22,7 +22,7 @@ async () => {  \u0066inally = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -60,7 +60,7 @@ async () => {  \u0066inally = x  }
                             "catchClause": null,
                             "finallyKeyword": {
                                 "kind": 37757016,
-                                "flags": 16384,
+                                "flags": 16448,
                                 "start": 13,
                                 "end": 27
                             },

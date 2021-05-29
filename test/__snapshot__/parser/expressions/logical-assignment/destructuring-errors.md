@@ -343,7 +343,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 88,
                             "end": 89
                         },
@@ -686,7 +686,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 185,
                             "end": 186
                         },
@@ -853,7 +853,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 216,
                             "end": 217
                         },

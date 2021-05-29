@@ -43,7 +43,7 @@ class C { get name(private) {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 6
             },
@@ -156,7 +156,7 @@ class C { get name(private) {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 35,
                 "end": 42
             },
@@ -269,7 +269,7 @@ class C { get name(private) {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 68,
                 "end": 75
             },
@@ -396,7 +396,7 @@ class C { get name(private) {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 117,
                 "end": 123
             },
@@ -523,7 +523,7 @@ class C { get name(private) {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 168,
                 "end": 174
             },
@@ -650,7 +650,7 @@ class C { get name(private) {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 214,
                 "end": 220
             },
@@ -795,7 +795,7 @@ class C { get name(private) {} }
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 260,
                         "end": 265
                     },
@@ -926,7 +926,7 @@ class C { get name(private) {} }
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 308,
                         "end": 313
                     },

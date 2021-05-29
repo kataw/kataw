@@ -19,7 +19,7 @@ do {} while ((""));
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -39,7 +39,7 @@ do {} while ((""));
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 11
             },

@@ -27,7 +27,7 @@ try {} catch ([ x = await 42 ]) {}
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -48,7 +48,7 @@ try {} catch ([ x = await 42 ]) {}
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 12
                 },
@@ -72,7 +72,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 19,
                                         "end": 25
                                     },
@@ -130,7 +130,7 @@ try {} catch ([ x = await 42 ]) {}
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 34,
                 "end": 53
             },
@@ -151,7 +151,7 @@ try {} catch ([ x = await 42 ]) {}
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 56,
                     "end": 62
                 },
@@ -183,7 +183,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 72,
                                         "end": 78
                                     },
@@ -241,7 +241,7 @@ try {} catch ([ x = await 42 ]) {}
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 87,
                 "end": 121
             },
@@ -262,7 +262,7 @@ try {} catch ([ x = await 42 ]) {}
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 124,
                     "end": 130
                 },
@@ -288,7 +288,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 137,
                                         "end": 143
                                     },

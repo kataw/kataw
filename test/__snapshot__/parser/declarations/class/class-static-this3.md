@@ -29,7 +29,7 @@ class Foo { static x = function() { return this } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -74,7 +74,7 @@ class Foo { static x = function() { return this } }
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 22,
                                     "end": 31
                                 },
@@ -98,13 +98,13 @@ class Foo { static x = function() { return this } }
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 35,
                                                     "end": 42
                                                 },
                                                 "expression": {
                                                     "kind": 4276321,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 42,
                                                     "end": 47
                                                 },

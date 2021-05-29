@@ -246,7 +246,7 @@ type overloads2 = {
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 107,
                             "end": 110
                         },

@@ -21,7 +21,7 @@ function* foo(a = function* foo() { yield b }) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -60,7 +60,7 @@ function* foo(a = function* foo() { yield b }) {}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 17,
                                 "end": 26
                             },
@@ -98,7 +98,7 @@ function* foo(a = function* foo() { yield b }) {}
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 35,
                                                     "end": 41
                                                 },

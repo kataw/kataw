@@ -33,7 +33,7 @@ const f = async <T, R, S>(
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -56,7 +56,7 @@ const f = async <T, R, S>(
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 52,
                                 "end": 55
                             },
@@ -249,13 +249,13 @@ const f = async <T, R, S>(
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 57,
                                                 "end": 66
                                             },
                                             "expression": {
                                                 "kind": 138477575,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 66,
                                                 "end": 71
                                             },

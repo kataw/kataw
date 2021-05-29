@@ -40,7 +40,7 @@ class Foo { bar():this { return this; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -109,13 +109,13 @@ class Foo { bar():this { return this; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 24,
                                                     "end": 31
                                                 },
                                                 "expression": {
                                                     "kind": 4276321,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 31,
                                                     "end": 36
                                                 },

@@ -37,7 +37,7 @@ class Foo {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -122,7 +122,7 @@ class Foo {
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 49,
                                             "end": 52
                                         },
@@ -144,7 +144,7 @@ class Foo {
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 4276321,
-                                                                    "flags": 1,
+                                                                    "flags": 97,
                                                                     "start": 54,
                                                                     "end": 63
                                                                 },
@@ -170,7 +170,7 @@ class Foo {
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 4276321,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 69,
                                                                     "end": 74
                                                                 },
@@ -201,7 +201,7 @@ class Foo {
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 4276321,
-                                                                    "flags": 1,
+                                                                    "flags": 97,
                                                                     "start": 80,
                                                                     "end": 89
                                                                 },
@@ -227,7 +227,7 @@ class Foo {
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 4276321,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 96,
                                                                     "end": 101
                                                                 },
@@ -357,7 +357,7 @@ class Foo {
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 152,
                                             "end": 155
                                         },
@@ -379,7 +379,7 @@ class Foo {
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 4276321,
-                                                                    "flags": 1,
+                                                                    "flags": 97,
                                                                     "start": 157,
                                                                     "end": 166
                                                                 },
@@ -405,7 +405,7 @@ class Foo {
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 4276321,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 173,
                                                                     "end": 178
                                                                 },

@@ -29,7 +29,7 @@ gen = function*() {};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -102,7 +102,7 @@ gen = function*() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 22,
                         "end": 31
                     },
@@ -179,7 +179,7 @@ gen = function*() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 46,
                         "end": 55
                     },

@@ -21,7 +21,7 @@ function f() { { async function x() {} { var x } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -64,7 +64,7 @@ function f() { { async function x() {} { var x } }
                                         },
                                         "functionKeyword": {
                                             "kind": 37822554,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -115,7 +115,7 @@ function f() { { async function x() {} { var x } }
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 40,
                                                         "end": 44
                                                     },

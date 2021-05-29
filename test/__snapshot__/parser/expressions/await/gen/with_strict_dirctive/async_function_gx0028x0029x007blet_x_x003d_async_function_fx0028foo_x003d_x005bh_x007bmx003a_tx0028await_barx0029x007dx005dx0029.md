@@ -38,7 +38,7 @@
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 19,
                 "end": 28
             },
@@ -98,7 +98,7 @@
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 46,
                                                 "end": 55
                                             },
@@ -173,7 +173,7 @@
                                                                                                     "kind": 208,
                                                                                                     "awaitKeyword": {
                                                                                                         "kind": 82196,
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 64,
                                                                                                         "start": 74,
                                                                                                         "end": 79
                                                                                                     },

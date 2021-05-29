@@ -22,7 +22,7 @@ var a = async (options = {}) => {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -45,7 +45,7 @@ var a = async (options = {}) => {
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 28,
                                 "end": 31
                             },

@@ -147,7 +147,7 @@
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 45,
                                         "end": 47
                                     },
@@ -161,7 +161,7 @@
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 53,
                                         "end": 55
                                     },
@@ -221,7 +221,7 @@
                                 },
                                 "right": {
                                     "kind": 24752947,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 71,
                                     "end": 76
                                 },

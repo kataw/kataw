@@ -27,7 +27,7 @@ await (async () => {})()
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
@@ -39,7 +39,7 @@ await (async () => {})()
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 15,
                                 "end": 18
                             },

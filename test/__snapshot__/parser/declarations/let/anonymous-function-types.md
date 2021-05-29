@@ -50,7 +50,7 @@ let x = (): Array<(string) => number> => []
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 26,
                                 "end": 29
                             },

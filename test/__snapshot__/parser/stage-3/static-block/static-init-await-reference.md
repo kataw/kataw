@@ -33,7 +33,7 @@ class C {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -73,7 +73,7 @@ class C {
                                                         "asyncKeyword": null,
                                                         "functionKeyword": {
                                                             "kind": 37822554,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 26,
                                                             "end": 34
                                                         },

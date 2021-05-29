@@ -23,7 +23,7 @@ function* g() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ function* g() {
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 15,
                                 "end": 21
                             },
@@ -67,7 +67,7 @@ function* g() {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 23,
                                     "end": 28
                                 },

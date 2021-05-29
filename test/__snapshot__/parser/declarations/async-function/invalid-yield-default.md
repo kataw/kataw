@@ -23,7 +23,7 @@ function* wrap() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ function* wrap() {
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 39,
                                 "end": 42
                             },
@@ -85,7 +85,7 @@ function* wrap() {
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 30,
                                             "end": 36
                                         },

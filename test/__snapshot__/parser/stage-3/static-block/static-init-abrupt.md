@@ -39,7 +39,7 @@ try {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 4
             },
@@ -54,7 +54,7 @@ try {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6,
                                 "end": 14
                             },
@@ -87,7 +87,7 @@ try {
                                                             "kind": 158,
                                                             "throwKeyword": {
                                                                 "kind": 37757026,
-                                                                "flags": 1,
+                                                                "flags": 81,
                                                                 "start": 31,
                                                                 "end": 43
                                                             },
@@ -123,7 +123,7 @@ try {
                                                                 },
                                                                 "right": {
                                                                     "kind": 24752947,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 69,
                                                                     "end": 74
                                                                 },
@@ -187,7 +187,7 @@ try {
                                                 },
                                                 "right": {
                                                     "kind": 24752947,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 114,
                                                     "end": 119
                                                 },
@@ -235,7 +235,7 @@ try {
                                                                 },
                                                                 "right": {
                                                                     "kind": 24752947,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 157,
                                                                     "end": 162
                                                                 },
@@ -286,7 +286,7 @@ try {
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 175,
                     "end": 181
                 },

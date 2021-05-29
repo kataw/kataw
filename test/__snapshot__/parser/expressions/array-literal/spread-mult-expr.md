@@ -34,7 +34,7 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -110,7 +110,7 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 23,
                 "end": 27
             },
@@ -148,7 +148,7 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 35,
                 "end": 40
             },
@@ -201,7 +201,7 @@ var callCount = 0;
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 58,
                                 "end": 66
                             },
@@ -784,7 +784,7 @@ var callCount = 0;
                         "elements": [
                             {
                                 "kind": 138477575,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 359,
                                 "end": 363
                             },
@@ -813,7 +813,7 @@ var callCount = 0;
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 371,
                                                 "end": 375
                                             },

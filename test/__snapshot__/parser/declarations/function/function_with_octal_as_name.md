@@ -21,7 +21,7 @@ function 00004() { "use strict"; 00004; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },

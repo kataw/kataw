@@ -25,13 +25,13 @@ export default await 0;
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 14
             },
@@ -39,7 +39,7 @@ export default await 0;
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 14,
                     "end": 20
                 },

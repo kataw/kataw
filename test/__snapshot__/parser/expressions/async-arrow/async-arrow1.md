@@ -28,7 +28,7 @@ async <T>(fn: () => T) => fn;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 22,
                 "end": 25
             },

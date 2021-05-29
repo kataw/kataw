@@ -25,7 +25,7 @@ class Foo { prototype = 1 }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -84,7 +84,7 @@ class Foo { prototype = 1 }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 23,
                 "end": 30
             },
@@ -143,7 +143,7 @@ class Foo { prototype = 1 }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 50,
                 "end": 57
             },

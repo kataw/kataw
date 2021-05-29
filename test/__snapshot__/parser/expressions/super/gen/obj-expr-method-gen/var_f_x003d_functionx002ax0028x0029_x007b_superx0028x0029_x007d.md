@@ -69,7 +69,7 @@
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 14,
                                                         "end": 18
                                                     },
@@ -93,7 +93,7 @@
                                                                     "asyncKeyword": null,
                                                                     "functionKeyword": {
                                                                         "kind": 37822554,
-                                                                        "flags": 0,
+                                                                        "flags": 64,
                                                                         "start": 22,
                                                                         "end": 31
                                                                     },
@@ -126,7 +126,7 @@
                                                                                             "kind": 225,
                                                                                             "superKeyword": {
                                                                                                 "kind": 4259935,
-                                                                                                "flags": 0,
+                                                                                                "flags": 96,
                                                                                                 "start": 36,
                                                                                                 "end": 42
                                                                                             },

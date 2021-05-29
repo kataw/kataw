@@ -34,7 +34,7 @@ foo(...a)
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 4,
                                 "end": 7
                             },

@@ -23,7 +23,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -61,7 +61,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 10,
                 "end": 14
             },
@@ -92,7 +92,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 25,
                                     "end": 34
                                 },
@@ -117,7 +117,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 38,
                                                     "end": 42
                                                 },
@@ -140,7 +140,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                                                                 "kind": 271,
                                                                 "arrowToken": {
                                                                     "kind": 10,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 71,
                                                                     "end": 74
                                                                 },
@@ -162,7 +162,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                                                                                 "kind": 223,
                                                                                 "ellipsisToken": {
                                                                                     "kind": 524302,
-                                                                                    "flags": 0,
+                                                                                    "flags": 64,
                                                                                     "start": 62,
                                                                                     "end": 65
                                                                                 },

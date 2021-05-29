@@ -21,7 +21,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -59,7 +59,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -77,7 +77,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                 "kind": 166,
                                                 "forKeyword": {
                                                     "kind": 37757017,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 26,
                                                     "end": 30
                                                 },
@@ -96,7 +96,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                 },
                                                 "expression": {
                                                     "kind": 4276321,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 39,
                                                     "end": 44
                                                 },

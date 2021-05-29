@@ -34,7 +34,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -180,7 +180,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 66,
                 "end": 71
             },
@@ -263,7 +263,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 133,
                 "end": 138
             },
@@ -313,7 +313,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                         },
                         "initializer": {
                             "kind": 138477575,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 166,
                             "end": 171
                         },
@@ -335,7 +335,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 172,
                 "end": 177
             },

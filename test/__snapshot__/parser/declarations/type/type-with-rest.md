@@ -48,7 +48,7 @@ type C = { ...A&B };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 10,
                             "end": 14
                         },

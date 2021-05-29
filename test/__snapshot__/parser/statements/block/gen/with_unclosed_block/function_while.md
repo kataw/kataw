@@ -55,7 +55,7 @@
                         "catchClause": null,
                         "finallyKeyword": {
                             "kind": 37757016,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 12
                         },
@@ -107,7 +107,7 @@
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 17,
                                         "end": 26
                                     },
@@ -145,7 +145,7 @@
                                     "kind": 154,
                                     "whileKeyword": {
                                         "kind": 37757028,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 26,
                                         "end": 32
                                     },

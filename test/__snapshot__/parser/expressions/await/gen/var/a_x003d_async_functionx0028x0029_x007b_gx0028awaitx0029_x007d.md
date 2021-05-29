@@ -23,7 +23,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -61,7 +61,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 10,
                 "end": 14
             },
@@ -92,7 +92,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 25,
                                     "end": 34
                                 },
@@ -140,7 +140,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                                         },
                                                         "functionKeyword": {
                                                             "kind": 37822554,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 48,
                                                             "end": 57
                                                         },
@@ -179,7 +179,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                                                                         "kind": 208,
                                                                                         "awaitKeyword": {
                                                                                             "kind": 82196,
-                                                                                            "flags": 0,
+                                                                                            "flags": 64,
                                                                                             "start": 64,
                                                                                             "end": 69
                                                                                         },

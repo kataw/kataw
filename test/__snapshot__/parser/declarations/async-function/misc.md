@@ -39,7 +39,7 @@ function test1() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -77,7 +77,7 @@ function test1() {
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 26,
                                 "end": 35
                             },
@@ -108,7 +108,7 @@ function test1() {
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 43,
                                                 "end": 54
                                             },
@@ -150,7 +150,7 @@ function test1() {
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 71,
                                 "end": 80
                             },
@@ -182,7 +182,7 @@ function test1() {
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 88,
                                                 "end": 96
                                             },
@@ -205,7 +205,7 @@ function test1() {
                                                             "kind": 208,
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 100,
                                                                 "end": 106
                                                             },
@@ -253,7 +253,7 @@ function test1() {
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 113,
                                                 "end": 121
                                             },
@@ -309,7 +309,7 @@ function test1() {
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 136,
                                                 "end": 153
                                             },

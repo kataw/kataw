@@ -45,7 +45,7 @@ function *infer_stmt() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -83,7 +83,7 @@ function *infer_stmt() {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 55,
                                     "end": 63
                                 },
@@ -111,7 +111,7 @@ function *infer_stmt() {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 66,
                                     "end": 74
                                 },
@@ -217,7 +217,7 @@ function *infer_stmt() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 80,
                 "end": 90
             },
@@ -253,7 +253,7 @@ function *infer_stmt() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 141,
                                 "end": 150
                             },
@@ -353,7 +353,7 @@ function *infer_stmt() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 155,
                 "end": 165
             },
@@ -389,7 +389,7 @@ function *infer_stmt() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 217,
                                 "end": 226
                             },
@@ -489,7 +489,7 @@ function *infer_stmt() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 232,
                 "end": 242
             },
@@ -526,7 +526,7 @@ function *infer_stmt() {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 258,
                                 "end": 264
                             },
@@ -560,7 +560,7 @@ function *infer_stmt() {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 277,
                                                 "end": 283
                                             },
@@ -595,7 +595,7 @@ function *infer_stmt() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 286,
                                 "end": 295
                             },

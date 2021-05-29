@@ -25,13 +25,13 @@ export default async function *f(){} foo
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 14
             },
@@ -46,7 +46,7 @@ export default async function *f(){} foo
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 20,
                     "end": 29
                 },

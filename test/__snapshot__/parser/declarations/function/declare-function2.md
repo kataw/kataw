@@ -39,7 +39,7 @@ declare function foo(): void
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 7,
                 "end": 16
             },
@@ -118,7 +118,7 @@ declare function foo(): void
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 41,
                 "end": 50
             },
@@ -233,7 +233,7 @@ declare function foo(): void
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 92,
                 "end": 101
             },

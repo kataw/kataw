@@ -24,7 +24,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -56,7 +56,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 20,
                                 "end": 24
                             },
@@ -121,7 +121,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                             "kind": 160,
                                                                             "switchKeyword": {
                                                                                 "kind": 37757024,
-                                                                                "flags": 0,
+                                                                                "flags": 80,
                                                                                 "start": 38,
                                                                                 "end": 45
                                                                             },
@@ -140,7 +140,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                         "kind": 175,
                                                                                         "caseKeyword": {
                                                                                             "kind": 4194382,
-                                                                                            "flags": 0,
+                                                                                            "flags": 80,
                                                                                             "start": 51,
                                                                                             "end": 56
                                                                                         },
@@ -148,7 +148,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                             "kind": 229,
                                                                                             "yieldKeyword": {
                                                                                                 "kind": 8454253,
-                                                                                                "flags": 0,
+                                                                                                "flags": 64,
                                                                                                 "start": 56,
                                                                                                 "end": 62
                                                                                             },
@@ -164,7 +164,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                                 "kind": 150,
                                                                                                 "breakKeyword": {
                                                                                                     "kind": 37757005,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 80,
                                                                                                     "start": 63,
                                                                                                     "end": 69
                                                                                                 },

@@ -19,7 +19,7 @@ switch (x) { case x: if (foo) continue foo; }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -38,7 +38,7 @@ switch (x) { case x: if (foo) continue foo; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 12,
                             "end": 17
                         },
@@ -55,7 +55,7 @@ switch (x) { case x: if (foo) continue foo; }
                                 "kind": 164,
                                 "ifKeyword": {
                                     "kind": 37757019,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 20,
                                     "end": 23
                                 },
@@ -71,7 +71,7 @@ switch (x) { case x: if (foo) continue foo; }
                                     "kind": 172,
                                     "continueKeyword": {
                                         "kind": 37757009,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 29,
                                         "end": 38
                                     },

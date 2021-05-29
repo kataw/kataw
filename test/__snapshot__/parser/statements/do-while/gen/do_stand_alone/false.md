@@ -22,7 +22,7 @@ do false
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -38,7 +38,7 @@ do false
                 "kind": 120,
                 "expression": {
                     "kind": 205586437,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 2,
                     "end": 8
                 },

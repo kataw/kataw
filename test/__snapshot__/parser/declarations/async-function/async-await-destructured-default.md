@@ -36,7 +36,7 @@ async function wrap() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -88,7 +88,7 @@ async function wrap() {
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 33,
                                                             "end": 39
                                                         },

@@ -24,7 +24,7 @@ class x extends continue {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -43,7 +43,7 @@ class x extends continue {}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -78,7 +78,7 @@ class x extends continue {}
             "kind": 172,
             "continueKeyword": {
                 "kind": 37757009,
-                "flags": 0,
+                "flags": 80,
                 "start": 15,
                 "end": 24
             },

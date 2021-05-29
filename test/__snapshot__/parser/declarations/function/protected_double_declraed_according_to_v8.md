@@ -28,7 +28,7 @@ const protected = x, function arguments(){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ const protected = x, function arguments(){}
                             "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 21,
                                 "end": 27
                             },
@@ -70,7 +70,7 @@ const protected = x, function arguments(){}
                                 "kind": 160,
                                 "switchKeyword": {
                                     "kind": 37757024,
-                                    "flags": 1,
+                                    "flags": 81,
                                     "start": 31,
                                     "end": 42
                                 },
@@ -89,7 +89,7 @@ const protected = x, function arguments(){}
                                             "kind": 170,
                                             "defaultKeyword": {
                                                 "kind": 4194387,
-                                                "flags": 1,
+                                                "flags": 81,
                                                 "start": 46,
                                                 "end": 60
                                             },
@@ -130,7 +130,7 @@ const protected = x, function arguments(){}
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 69,
                 "end": 76
             },
@@ -176,7 +176,7 @@ const protected = x, function arguments(){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 91,
                 "end": 100
             },

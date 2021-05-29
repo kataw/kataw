@@ -23,7 +23,7 @@ function f() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -54,7 +54,7 @@ function f() {
                             "kind": 169,
                             "doKeyword": {
                                 "kind": 4202580,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 14,
                                 "end": 19
                             },
@@ -68,7 +68,7 @@ function f() {
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 30,
                                 "end": 36
                             },
@@ -76,7 +76,7 @@ function f() {
                                 "kind": 158,
                                 "throwKeyword": {
                                     "kind": 37757026,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 19,
                                     "end": 25
                                 },

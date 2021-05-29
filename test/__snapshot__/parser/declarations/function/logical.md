@@ -542,7 +542,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 0,
                 "end": 60
             },
@@ -574,7 +574,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 82,
                                 "end": 114
                             },
@@ -595,7 +595,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 118,
                                             "end": 124
                                         },
@@ -616,7 +616,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 125,
                                 "end": 136
                             },
@@ -684,7 +684,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 150,
                 "end": 212
             },
@@ -716,7 +716,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 234,
                                 "end": 242
                             },
@@ -737,7 +737,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 246,
                                             "end": 251
                                         },
@@ -758,7 +758,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 252,
                                 "end": 263
                             },
@@ -826,7 +826,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 277,
                 "end": 331
             },
@@ -857,7 +857,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 353,
                                 "end": 388
                             },
@@ -865,7 +865,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "kind": 198,
                                 "left": {
                                     "kind": 205586437,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 388,
                                     "end": 394
                                 },
@@ -923,7 +923,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 406,
                 "end": 460
             },
@@ -954,7 +954,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 482,
                                 "end": 493
                             },
@@ -1022,7 +1022,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 507,
                 "end": 561
             },
@@ -1053,7 +1053,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 583,
                                 "end": 594
                             },
@@ -1121,7 +1121,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 607,
                 "end": 661
             },
@@ -1152,7 +1152,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 683,
                                 "end": 694
                             },
@@ -1167,7 +1167,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "kind": 198,
                                 "left": {
                                     "kind": 24752947,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 694,
                                     "end": 699
                                 },
@@ -1225,7 +1225,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 711,
                 "end": 765
             },
@@ -1256,7 +1256,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 787,
                                 "end": 798
                             },
@@ -1324,7 +1324,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 814,
                 "end": 868
             },
@@ -1355,7 +1355,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 890,
                                 "end": 901
                             },
@@ -1423,7 +1423,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 917,
                 "end": 971
             },
@@ -1454,7 +1454,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 993,
                                 "end": 1004
                             },
@@ -1553,7 +1553,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1024,
                 "end": 1078
             },
@@ -1641,7 +1641,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1114,
                                 "end": 1125
                             },
@@ -1709,7 +1709,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1139,
                 "end": 1193
             },
@@ -1779,7 +1779,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1224,
                                 "end": 1235
                             },
@@ -1847,7 +1847,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1249,
                 "end": 1303
             },
@@ -1952,7 +1952,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1349,
                                 "end": 1360
                             },
@@ -2020,7 +2020,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1374,
                 "end": 1428
             },
@@ -2090,7 +2090,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1461,
                                 "end": 1472
                             },
@@ -2158,7 +2158,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1486,
                 "end": 1544
             },
@@ -2190,7 +2190,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1566,
                                 "end": 1598
                             },
@@ -2234,7 +2234,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "initializer": {
                                             "kind": 138477575,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 1611,
                                             "end": 1616
                                         },
@@ -2255,7 +2255,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1617,
                                 "end": 1628
                             },
@@ -2279,7 +2279,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     },
                                     "right": {
                                         "kind": 138477575,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 1633,
                                         "end": 1638
                                     },
@@ -2361,7 +2361,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1651,
                 "end": 1709
             },
@@ -2393,7 +2393,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1731,
                                 "end": 1772
                             },
@@ -2437,7 +2437,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "initializer": {
                                             "kind": 138477575,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 1785,
                                             "end": 1790
                                         },
@@ -2458,7 +2458,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1791,
                                 "end": 1802
                             },
@@ -2482,7 +2482,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     },
                                     "right": {
                                         "kind": 138477575,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 1807,
                                         "end": 1812
                                     },
@@ -2544,7 +2544,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1820,
                 "end": 1878
             },
@@ -2576,7 +2576,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1901,
                                 "end": 1943
                             },
@@ -2620,7 +2620,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "initializer": {
                                             "kind": 138477575,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 1956,
                                             "end": 1961
                                         },
@@ -2641,7 +2641,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 1962,
                                 "end": 1973
                             },
@@ -2741,7 +2741,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 1996,
                 "end": 2049
             },
@@ -2802,7 +2802,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2080,
                                 "end": 2124
                             },
@@ -2870,7 +2870,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2138,
                 "end": 2199
             },
@@ -2902,7 +2902,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2221,
                                 "end": 2229
                             },
@@ -2923,7 +2923,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 2233,
                                             "end": 2239
                                         },
@@ -2944,7 +2944,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2240,
                                 "end": 2251
                             },
@@ -3012,7 +3012,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2261,
                 "end": 2322
             },
@@ -3044,7 +3044,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2344,
                                 "end": 2352
                             },
@@ -3088,7 +3088,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "initializer": {
                                             "kind": 138477575,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 2365,
                                             "end": 2370
                                         },
@@ -3109,7 +3109,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2371,
                                 "end": 2382
                             },
@@ -3177,7 +3177,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2392,
                 "end": 2454
             },
@@ -3209,7 +3209,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2476,
                                 "end": 2508
                             },
@@ -3230,7 +3230,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 2512,
                                             "end": 2517
                                         },
@@ -3251,7 +3251,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2518,
                                 "end": 2529
                             },
@@ -3319,7 +3319,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2539,
                 "end": 2593
             },
@@ -3350,7 +3350,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2615,
                                 "end": 2626
                             },
@@ -3358,7 +3358,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "kind": 198,
                                 "left": {
                                     "kind": 205586437,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 2626,
                                     "end": 2632
                                 },
@@ -3416,7 +3416,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2644,
                 "end": 2698
             },
@@ -3447,7 +3447,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2720,
                                 "end": 2731
                             },
@@ -3515,7 +3515,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2745,
                 "end": 2799
             },
@@ -3546,7 +3546,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2821,
                                 "end": 2832
                             },
@@ -3614,7 +3614,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2845,
                 "end": 2899
             },
@@ -3645,7 +3645,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 2921,
                                 "end": 2956
                             },
@@ -3660,7 +3660,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "kind": 198,
                                 "left": {
                                     "kind": 24752947,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 2956,
                                     "end": 2961
                                 },
@@ -3718,7 +3718,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 2973,
                 "end": 3027
             },
@@ -3749,7 +3749,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3049,
                                 "end": 3060
                             },
@@ -3817,7 +3817,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 3076,
                 "end": 3130
             },
@@ -3848,7 +3848,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3152,
                                 "end": 3163
                             },
@@ -3916,7 +3916,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 3179,
                 "end": 3222
             },
@@ -3948,7 +3948,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3244,
                                 "end": 3252
                             },
@@ -3992,7 +3992,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "initializer": {
                                             "kind": 138477575,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 3265,
                                             "end": 3270
                                         },
@@ -4013,7 +4013,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3271,
                                 "end": 3282
                             },
@@ -4039,7 +4039,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "right": {
                                             "kind": 138477575,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 3287,
                                             "end": 3292
                                         },
@@ -4119,7 +4119,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 3305,
                 "end": 3380
             },
@@ -4209,7 +4209,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3423,
                                 "end": 3434
                             },
@@ -4297,7 +4297,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 3449,
                 "end": 3492
             },
@@ -4358,7 +4358,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3523,
                                 "end": 3534
                             },
@@ -4446,7 +4446,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 3549,
                 "end": 3592
             },
@@ -4507,7 +4507,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3623,
                                 "end": 3634
                             },
@@ -4595,7 +4595,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 3657,
                 "end": 3700
             },
@@ -4656,7 +4656,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3731,
                                 "end": 3742
                             },
@@ -4666,7 +4666,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "kind": 198,
                                     "left": {
                                         "kind": 205586437,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 3742,
                                         "end": 3748
                                     },
@@ -4742,7 +4742,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 3765,
                 "end": 3954
             },
@@ -4774,7 +4774,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3976,
                                 "end": 3984
                             },
@@ -4795,7 +4795,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 3988,
                                             "end": 3994
                                         },
@@ -4816,7 +4816,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 3995,
                                 "end": 4006
                             },
@@ -4910,7 +4910,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4027,
                 "end": 4143
             },
@@ -4942,7 +4942,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4165,
                                 "end": 4173
                             },
@@ -4963,7 +4963,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 4177,
                                             "end": 4183
                                         },
@@ -4984,7 +4984,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4184,
                                 "end": 4195
                             },
@@ -5078,7 +5078,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4216,
                 "end": 4312
             },
@@ -5110,7 +5110,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4334,
                                 "end": 4342
                             },
@@ -5131,7 +5131,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 4346,
                                             "end": 4351
                                         },
@@ -5152,7 +5152,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4352,
                                 "end": 4363
                             },
@@ -5246,7 +5246,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4384,
                 "end": 4427
             },
@@ -5278,7 +5278,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4449,
                                 "end": 4457
                             },
@@ -5299,7 +5299,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 4461,
                                             "end": 4467
                                         },
@@ -5320,7 +5320,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4468,
                                 "end": 4479
                             },
@@ -5414,7 +5414,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4500,
                 "end": 4543
             },
@@ -5446,7 +5446,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4565,
                                 "end": 4573
                             },
@@ -5467,7 +5467,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 4577,
                                             "end": 4583
                                         },
@@ -5488,7 +5488,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4584,
                                 "end": 4595
                             },
@@ -5582,7 +5582,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4616,
                 "end": 4659
             },
@@ -5614,7 +5614,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4681,
                                 "end": 4713
                             },
@@ -5635,7 +5635,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 4717,
                                             "end": 4722
                                         },
@@ -5656,7 +5656,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4723,
                                 "end": 4734
                             },
@@ -5750,7 +5750,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4755,
                 "end": 4798
             },
@@ -5840,7 +5840,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 4859,
                                 "end": 4912
                             },
@@ -5882,7 +5882,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 },
                                 "right": {
                                     "kind": 205586437,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 4922,
                                     "end": 4928
                                 },
@@ -5940,7 +5940,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 4931,
                 "end": 4974
             },
@@ -6030,7 +6030,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5025,
                                 "end": 5036
                             },
@@ -6040,7 +6040,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "kind": 198,
                                     "left": {
                                         "kind": 205586437,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 5036,
                                         "end": 5042
                                     },
@@ -6130,7 +6130,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 5055,
                 "end": 5098
             },
@@ -6220,7 +6220,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5141,
                                 "end": 5152
                             },
@@ -6308,7 +6308,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 5169,
                 "end": 5212
             },
@@ -6398,7 +6398,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5274,
                                 "end": 5327
                             },
@@ -6440,7 +6440,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 },
                                 "right": {
                                     "kind": 205586437,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 5337,
                                     "end": 5343
                                 },
@@ -6498,7 +6498,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 5346,
                 "end": 5389
             },
@@ -6588,7 +6588,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5436,
                                 "end": 5471
                             },
@@ -6598,7 +6598,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "kind": 198,
                                     "left": {
                                         "kind": 205586437,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 5471,
                                         "end": 5477
                                     },
@@ -6702,7 +6702,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 5490,
                 "end": 5533
             },
@@ -6792,7 +6792,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5580,
                                 "end": 5622
                             },
@@ -6816,7 +6816,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     },
                                     "right": {
                                         "kind": 205586437,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 5627,
                                         "end": 5633
                                     },
@@ -6906,7 +6906,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 5641,
                 "end": 5675
             },
@@ -6938,7 +6938,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5698,
                                 "end": 5706
                             },
@@ -6982,7 +6982,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5713,
                                 "end": 5721
                             },
@@ -7107,7 +7107,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                     },
                                                     "right": {
                                                         "kind": 24752947,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 5764,
                                                         "end": 5769
                                                     },
@@ -7140,7 +7140,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5776,
                                 "end": 5787
                             },
@@ -7188,7 +7188,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 5792,
                 "end": 5826
             },
@@ -7249,7 +7249,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5858,
                                 "end": 5866
                             },
@@ -7374,7 +7374,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                     },
                                                     "right": {
                                                         "kind": 24752947,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 5909,
                                                         "end": 5914
                                                     },
@@ -7407,7 +7407,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 5942,
                                 "end": 5953
                             },
@@ -7455,7 +7455,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 5958,
                 "end": 5992
             },
@@ -7487,7 +7487,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6015,
                                 "end": 6023
                             },
@@ -7532,7 +7532,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6030,
                                 "end": 6038
                             },
@@ -7553,7 +7553,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 6042,
                                             "end": 6047
                                         },
@@ -7574,7 +7574,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6048,
                                 "end": 6056
                             },
@@ -7737,7 +7737,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 },
                                                 "right": {
                                                     "kind": 205586437,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 6114,
                                                     "end": 6120
                                                 },
@@ -7766,7 +7766,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6127,
                                 "end": 6138
                             },
@@ -7814,7 +7814,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 6143,
                 "end": 6177
             },
@@ -7875,7 +7875,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6209,
                                 "end": 6217
                             },
@@ -8000,7 +8000,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                     },
                                                     "right": {
                                                         "kind": 24752947,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 6260,
                                                         "end": 6265
                                                     },
@@ -8033,7 +8033,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6293,
                                 "end": 6304
                             },
@@ -8081,7 +8081,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 6309,
                 "end": 6341
             },
@@ -8142,7 +8142,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6384,
                                 "end": 6395
                             },
@@ -8229,7 +8229,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             "kind": 198,
                                                             "left": {
                                                                 "kind": 24752947,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6434,
                                                                 "end": 6439
                                                             },
@@ -8285,7 +8285,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             "kind": 198,
                                                             "left": {
                                                                 "kind": 24752947,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6462,
                                                                 "end": 6467
                                                             },
@@ -8297,7 +8297,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             },
                                                             "right": {
                                                                 "kind": 205586437,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6470,
                                                                 "end": 6476
                                                             },
@@ -8339,7 +8339,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             "kind": 198,
                                                             "left": {
                                                                 "kind": 205586437,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6490,
                                                                 "end": 6496
                                                             },
@@ -8351,7 +8351,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             },
                                                             "right": {
                                                                 "kind": 205586437,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6499,
                                                                 "end": 6505
                                                             },
@@ -8706,7 +8706,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 6628,
                 "end": 6660
             },
@@ -8767,7 +8767,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 6703,
                                 "end": 6714
                             },
@@ -8854,7 +8854,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             "kind": 198,
                                                             "left": {
                                                                 "kind": 205586437,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6753,
                                                                 "end": 6759
                                                             },
@@ -8910,7 +8910,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             "kind": 198,
                                                             "left": {
                                                                 "kind": 205586437,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6782,
                                                                 "end": 6788
                                                             },
@@ -8922,7 +8922,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             },
                                                             "right": {
                                                                 "kind": 24752947,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6791,
                                                                 "end": 6796
                                                             },
@@ -8964,7 +8964,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             "kind": 198,
                                                             "left": {
                                                                 "kind": 24752947,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6810,
                                                                 "end": 6815
                                                             },
@@ -8976,7 +8976,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                             },
                                                             "right": {
                                                                 "kind": 205586437,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 6818,
                                                                 "end": 6824
                                                             },
@@ -9331,7 +9331,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 6947,
                 "end": 6986
             },
@@ -9392,7 +9392,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7018,
                                 "end": 7029
                             },
@@ -9486,7 +9486,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7045,
                 "end": 7084
             },
@@ -9547,7 +9547,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7116,
                                 "end": 7127
                             },
@@ -9641,7 +9641,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7143,
                 "end": 7182
             },
@@ -9702,7 +9702,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7214,
                                 "end": 7225
                             },
@@ -9796,7 +9796,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7241,
                 "end": 7280
             },
@@ -9857,7 +9857,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7312,
                                 "end": 7323
                             },
@@ -9951,7 +9951,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7339,
                 "end": 7379
             },
@@ -10012,7 +10012,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7412,
                                 "end": 7423
                             },
@@ -10106,7 +10106,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7439,
                 "end": 7479
             },
@@ -10167,7 +10167,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7512,
                                 "end": 7523
                             },
@@ -10261,7 +10261,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7539,
                 "end": 7579
             },
@@ -10322,7 +10322,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7612,
                                 "end": 7623
                             },
@@ -10416,7 +10416,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7639,
                 "end": 7679
             },
@@ -10477,7 +10477,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7712,
                                 "end": 7723
                             },
@@ -10571,7 +10571,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7739,
                 "end": 7778
             },
@@ -10632,7 +10632,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7811,
                                 "end": 7822
                             },
@@ -10726,7 +10726,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7839,
                 "end": 7878
             },
@@ -10787,7 +10787,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 7911,
                                 "end": 7922
                             },
@@ -10881,7 +10881,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 7939,
                 "end": 7978
             },
@@ -10942,7 +10942,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 8011,
                                 "end": 8022
                             },
@@ -11036,7 +11036,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 8039,
                 "end": 8078
             },
@@ -11097,7 +11097,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 8111,
                                 "end": 8122
                             },
@@ -11191,7 +11191,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 8139,
                 "end": 8211
             },
@@ -11281,7 +11281,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 8254,
                                 "end": 8265
                             },
@@ -11389,7 +11389,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 8283,
                 "end": 8345
             },
@@ -11533,7 +11533,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 8398,
                                 "end": 8409
                             },
@@ -11669,7 +11669,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 8431,
                 "end": 8495
             },
@@ -11779,7 +11779,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 8547,
                                 "end": 8556
                             },
@@ -11881,7 +11881,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 8598,
                 "end": 8607
             },
@@ -11991,7 +11991,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 8659,
                                 "end": 8668
                             },

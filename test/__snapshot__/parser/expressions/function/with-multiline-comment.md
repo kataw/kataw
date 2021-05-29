@@ -27,7 +27,7 @@ x; })
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1,
                         "end": 9
                     },
@@ -51,7 +51,7 @@ x; })
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 12,
                                         "end": 19
                                     },
@@ -99,7 +99,7 @@ x; })
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 52,
                         "end": 60
                     },
@@ -123,7 +123,7 @@ x; })
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 63,
                                         "end": 70
                                     },

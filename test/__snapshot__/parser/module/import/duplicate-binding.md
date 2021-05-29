@@ -25,7 +25,7 @@ import 'x' assert {x: 'y', x: 'y'}
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -84,7 +84,7 @@ import 'x' assert {x: 'y', x: 'y'}
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 20,
                             "end": 21
                         },

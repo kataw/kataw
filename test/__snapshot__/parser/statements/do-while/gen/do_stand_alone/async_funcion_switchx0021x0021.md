@@ -22,7 +22,7 @@ do async funcion switch!!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -65,7 +65,7 @@ do async funcion switch!!
                                     "kind": 160,
                                     "switchKeyword": {
                                         "kind": 37757024,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 16,
                                         "end": 23
                                     },

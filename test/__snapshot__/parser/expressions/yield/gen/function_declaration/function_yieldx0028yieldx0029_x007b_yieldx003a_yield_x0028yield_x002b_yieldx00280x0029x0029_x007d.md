@@ -24,7 +24,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -57,7 +57,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 29
                             },
@@ -125,7 +125,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                             ],
                                             "colonToken": {
                                                 "kind": 21,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 50,
                                                 "end": 51
                                             },

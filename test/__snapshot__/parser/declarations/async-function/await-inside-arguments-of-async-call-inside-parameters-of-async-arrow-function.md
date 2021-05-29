@@ -36,7 +36,7 @@ async function fn() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -67,7 +67,7 @@ async function fn() {
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 54,
                                 "end": 57
                             },
@@ -122,7 +122,7 @@ async function fn() {
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 44,
                                                             "end": 50
                                                         },

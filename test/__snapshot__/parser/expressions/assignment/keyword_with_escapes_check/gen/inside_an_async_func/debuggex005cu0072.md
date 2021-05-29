@@ -22,7 +22,7 @@ async () => {  debugge\u0072 = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -45,7 +45,7 @@ async () => {  debugge\u0072 = x  }
                             "kind": 171,
                             "debuggerKeyword": {
                                 "kind": 37757010,
-                                "flags": 16384,
+                                "flags": 16464,
                                 "start": 13,
                                 "end": 28
                             },

@@ -25,7 +25,7 @@ import { for } from "iteration"
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -33,7 +33,7 @@ import { for } from "iteration"
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 14,
                     "end": 19
                 },

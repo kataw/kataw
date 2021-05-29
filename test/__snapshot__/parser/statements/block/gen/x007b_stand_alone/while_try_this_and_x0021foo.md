@@ -27,7 +27,7 @@
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 1,
                             "end": 7
                         },
@@ -42,7 +42,7 @@
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 7,
                                 "end": 11
                             },
@@ -86,7 +86,7 @@
                         "kind": 120,
                         "expression": {
                             "kind": 4276321,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 11,
                             "end": 16
                         },

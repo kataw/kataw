@@ -63,7 +63,7 @@
                             "kind": 173,
                             "catchKeyword": {
                                 "kind": 4202575,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3,
                                 "end": 8
                             },
@@ -105,7 +105,7 @@
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 9,
                 "end": 12
             },
@@ -121,7 +121,7 @@
                 "kind": 160,
                 "switchKeyword": {
                     "kind": 37757024,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 14,
                     "end": 21
                 },
@@ -153,7 +153,7 @@
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 21,
                 "end": 27
             },

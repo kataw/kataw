@@ -61,7 +61,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 17,
                                             "end": 23
                                         },
@@ -117,7 +117,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 35,
                                             "end": 41
                                         },
@@ -166,7 +166,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 53,
                                             "end": 59
                                         },

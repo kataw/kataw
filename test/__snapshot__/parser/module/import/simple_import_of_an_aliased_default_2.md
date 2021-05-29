@@ -25,7 +25,7 @@ import x, * as a from "y"
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -33,7 +33,7 @@ import x, * as a from "y"
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 16,
                     "end": 21
                 },
@@ -64,13 +64,13 @@ import x, * as a from "y"
                     "kind": 255,
                     "asteriskToken": {
                         "kind": 67143222,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 9,
                         "end": 11
                     },
                     "asKeyword": {
                         "kind": 16494,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 11,
                         "end": 14
                     },

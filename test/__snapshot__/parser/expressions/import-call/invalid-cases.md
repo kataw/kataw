@@ -116,7 +116,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 7
             },
@@ -139,7 +139,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 9,
                     "end": 17
                 },
@@ -164,7 +164,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 20,
                     "end": 28
                 },
@@ -187,7 +187,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 30,
                 "end": 38
             },
@@ -210,7 +210,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 40,
                     "end": 48
                 },
@@ -235,7 +235,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 51,
                     "end": 59
                 },
@@ -261,7 +261,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 63,
                     "end": 71
                 },
@@ -291,7 +291,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 77,
                 "end": 85
             },
@@ -341,7 +341,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 91,
                 "end": 99
             },
@@ -375,7 +375,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 104,
                             "end": 112
                         },
@@ -426,7 +426,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 118,
                     "end": 126
                 },
@@ -461,7 +461,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 131,
                             "end": 139
                         },
@@ -508,7 +508,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 145,
                             "end": 153
                         },
@@ -555,7 +555,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 160,
                             "end": 168
                         },
@@ -617,7 +617,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 176,
                             "end": 184
                         },
@@ -673,7 +673,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 192,
                             "end": 200
                         },
@@ -715,7 +715,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 205,
                             "end": 213
                         },
@@ -764,7 +764,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 219,
                             "end": 227
                         },
@@ -815,7 +815,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 233,
                 "end": 241
             },
@@ -850,7 +850,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 243,
                 "end": 251
             },
@@ -885,7 +885,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 254,
                 "end": 262
             },
@@ -906,7 +906,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 264,
                 "end": 272
             },
@@ -950,7 +950,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 276,
                 "end": 284
             },
@@ -998,7 +998,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 286,
                 "end": 294
             },
@@ -1064,7 +1064,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 297,
                 "end": 305
             },
@@ -1135,7 +1135,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 309,
                             "end": 317
                         },
@@ -1180,7 +1180,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 324,
                     "end": 332
                 },
@@ -1228,7 +1228,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 339,
                             "end": 347
                         },
@@ -1275,7 +1275,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 352,
                             "end": 360
                         },
@@ -1321,7 +1321,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 364,
                             "end": 372
                         },
@@ -1365,7 +1365,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 377,
                     "end": 385
                 },
@@ -1403,7 +1403,7 @@ new import(x);
                                 "kind": 206,
                                 "importKeyword": {
                                     "kind": 37814364,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 392,
                                     "end": 398
                                 },
@@ -1463,7 +1463,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 411,
                 "end": 419
             },
@@ -1503,7 +1503,7 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 421,
                 "end": 429
             },
@@ -1534,7 +1534,7 @@ new import(x);
                 "kind": 207,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 434,
                     "end": 442
                 },
@@ -1570,7 +1570,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 447,
                             "end": 455
                         },
@@ -1621,7 +1621,7 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 461,
                     "end": 469
                 },
@@ -1656,7 +1656,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 474,
                             "end": 482
                         },
@@ -1703,7 +1703,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 488,
                             "end": 496
                         },
@@ -1750,7 +1750,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 503,
                             "end": 511
                         },
@@ -1812,7 +1812,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 519,
                             "end": 527
                         },
@@ -1868,7 +1868,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 535,
                             "end": 543
                         },
@@ -1910,7 +1910,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 548,
                             "end": 556
                         },
@@ -1959,7 +1959,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 562,
                             "end": 570
                         },
@@ -2012,7 +2012,7 @@ new import(x);
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 1,
+                    "flags": 97,
                     "start": 576,
                     "end": 581
                 },
@@ -2022,7 +2022,7 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 581,
                             "end": 588
                         },

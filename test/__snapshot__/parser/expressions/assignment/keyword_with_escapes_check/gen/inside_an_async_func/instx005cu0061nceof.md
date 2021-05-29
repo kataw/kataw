@@ -22,7 +22,7 @@ async () => {  inst\u0061nceof = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },

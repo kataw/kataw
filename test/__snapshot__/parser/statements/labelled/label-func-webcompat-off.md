@@ -43,7 +43,7 @@ foo: function x() {}
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 3,
                 "end": 4
             },
@@ -53,7 +53,7 @@ foo: function x() {}
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 4,
                     "end": 13
                 },

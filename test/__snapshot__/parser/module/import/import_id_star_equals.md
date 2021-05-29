@@ -25,7 +25,7 @@ import a, *= from 'f';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },

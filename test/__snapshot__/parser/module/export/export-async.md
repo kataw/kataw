@@ -25,7 +25,7 @@ export async function foo() { };
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -40,7 +40,7 @@ export async function foo() { };
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 12,
                     "end": 21
                 },

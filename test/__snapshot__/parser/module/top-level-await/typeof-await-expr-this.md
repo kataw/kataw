@@ -35,13 +35,13 @@ typeof await this;
                     "kind": 208,
                     "awaitKeyword": {
                         "kind": 82196,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 6,
                         "end": 12
                     },
                     "expression": {
                         "kind": 4276321,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 12,
                         "end": 17
                     },

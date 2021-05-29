@@ -25,7 +25,7 @@ f2`hello world`?.a;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 7,
                     "end": 9
                 },
@@ -72,7 +72,7 @@ f2`hello world`?.a;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 18,
                     "end": 20
                 },
@@ -133,7 +133,7 @@ f2`hello world`?.a;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 39,
                     "end": 41
                 },

@@ -22,7 +22,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 2,
                     "end": 5
                 },

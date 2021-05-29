@@ -21,7 +21,7 @@ async r => result = [...{ x = await x }] = y;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 7,
                     "end": 10
                 },
@@ -68,7 +68,7 @@ async r => result = [...{ x = await x }] = y;
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 21,
                                             "end": 24
                                         },
@@ -91,7 +91,7 @@ async r => result = [...{ x = await x }] = y;
                                                             "kind": 208,
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 29,
                                                                 "end": 35
                                                             },

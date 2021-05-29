@@ -21,7 +21,7 @@ function f() { for await (x of y) {} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -52,7 +52,7 @@ function f() { for await (x of y) {} }
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 14,
                                 "end": 18
                             },
@@ -72,7 +72,7 @@ function f() { for await (x of y) {} }
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 27,
                                 "end": 30
                             },

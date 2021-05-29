@@ -24,7 +24,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -94,7 +94,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 39,
                                                 "end": 43
                                             },
@@ -118,7 +118,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 49,
                                                                 "end": 58
                                                             },
@@ -154,7 +154,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                             "kind": 160,
                                                                             "switchKeyword": {
                                                                                 "kind": 37757024,
-                                                                                "flags": 0,
+                                                                                "flags": 80,
                                                                                 "start": 68,
                                                                                 "end": 75
                                                                             },
@@ -173,7 +173,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                         "kind": 175,
                                                                                         "caseKeyword": {
                                                                                             "kind": 4194382,
-                                                                                            "flags": 0,
+                                                                                            "flags": 80,
                                                                                             "start": 81,
                                                                                             "end": 86
                                                                                         },
@@ -181,7 +181,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                             "kind": 229,
                                                                                             "yieldKeyword": {
                                                                                                 "kind": 8454253,
-                                                                                                "flags": 0,
+                                                                                                "flags": 64,
                                                                                                 "start": 86,
                                                                                                 "end": 92
                                                                                             },
@@ -209,7 +209,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                                 "kind": 150,
                                                                                                 "breakKeyword": {
                                                                                                     "kind": 37757005,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 80,
                                                                                                     "start": 100,
                                                                                                     "end": 106
                                                                                                 },

@@ -22,7 +22,7 @@ c\u006fntinue = x;
             "kind": 172,
             "continueKeyword": {
                 "kind": 37757009,
-                "flags": 16384,
+                "flags": 16464,
                 "start": 0,
                 "end": 13
             },

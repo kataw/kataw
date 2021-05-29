@@ -19,7 +19,7 @@ switch (0) { case 1: const f = 0; default: let f }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -38,7 +38,7 @@ switch (0) { case 1: const f = 0; default: let f }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 12,
                             "end": 17
                         },
@@ -55,7 +55,7 @@ switch (0) { case 1: const f = 0; default: let f }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 26
                                 },
@@ -104,7 +104,7 @@ switch (0) { case 1: const f = 0; default: let f }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 33,
                             "end": 41
                         },

@@ -46,7 +46,7 @@ x = class { static x = class { [this.y] } }
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3,
                         "end": 9
                     },
@@ -84,7 +84,7 @@ x = class { static x = class { [this.y] } }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -108,7 +108,7 @@ x = class { static x = class { [this.y] } }
                                                                 "kind": 129,
                                                                 "member": {
                                                                     "kind": 4276321,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 32,
                                                                     "end": 36
                                                                 },

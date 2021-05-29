@@ -31,7 +31,7 @@ try {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -46,7 +46,7 @@ try {
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 5,
                                     "end": 13
                                 },
@@ -134,7 +134,7 @@ try {
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 34,
                     "end": 40
                 },
@@ -158,7 +158,7 @@ try {
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 1,
+                                        "flags": 65,
                                         "start": 45,
                                         "end": 53
                                     },
@@ -248,7 +248,7 @@ try {
             },
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 0,
+                "flags": 64,
                 "start": 74,
                 "end": 82
             },
@@ -263,7 +263,7 @@ try {
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 84,
                                     "end": 92
                                 },

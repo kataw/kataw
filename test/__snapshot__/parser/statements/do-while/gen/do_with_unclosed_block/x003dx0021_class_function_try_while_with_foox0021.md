@@ -22,7 +22,7 @@ do {} while (x) { =! class function try while with foo!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -36,7 +36,7 @@ do {} while (x) { =! class function try while with foo!
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 11
             },
@@ -85,7 +85,7 @@ do {} while (x) { =! class function try while with foo!
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 20,
                         "end": 26
                     },
@@ -123,7 +123,7 @@ do {} while (x) { =! class function try while with foo!
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 26,
                 "end": 35
             },
@@ -161,7 +161,7 @@ do {} while (x) { =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 35,
                 "end": 39
             },
@@ -201,7 +201,7 @@ do {} while (x) { =! class function try while with foo!
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 39,
                 "end": 45
             },
@@ -216,7 +216,7 @@ do {} while (x) { =! class function try while with foo!
                 "kind": 153,
                 "withKeyword": {
                     "kind": 37757029,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 45,
                     "end": 50
                 },

@@ -27,7 +27,7 @@ export async x => x;
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -35,7 +35,7 @@ export async x => x;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 15,
                     "end": 18
                 },
@@ -78,7 +78,7 @@ export async x => x;
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 1,
+                "flags": 81,
                 "start": 21,
                 "end": 29
             },
@@ -88,7 +88,7 @@ export async x => x;
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 37,
                         "end": 40
                     },

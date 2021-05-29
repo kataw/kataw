@@ -23,7 +23,7 @@ function failsParse() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -54,7 +54,7 @@ function failsParse() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 23,
                                 "end": 32
                             },
@@ -64,7 +64,7 @@ function failsParse() {
                                     "kind": 207,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 32,
                                         "end": 39
                                     },

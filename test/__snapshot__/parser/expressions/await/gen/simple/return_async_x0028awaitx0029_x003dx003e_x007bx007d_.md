@@ -22,7 +22,7 @@ return async (await) => {};
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -30,7 +30,7 @@ return async (await) => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 20,
                     "end": 23
                 },

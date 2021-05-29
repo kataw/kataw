@@ -38,7 +38,7 @@ class C { foo() { this.#a = 1; }}
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 1,
                             "end": 6
                         },
@@ -116,7 +116,7 @@ class C { foo() { this.#a = 1; }}
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 4276321,
-                                                                        "flags": 0,
+                                                                        "flags": 96,
                                                                         "start": 22,
                                                                         "end": 27
                                                                     },
@@ -195,7 +195,7 @@ class C { foo() { this.#a = 1; }}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 44,
                                 "end": 49
                             },
@@ -250,7 +250,7 @@ class C { foo() { this.#a = 1; }}
                                                                 "kind": 161,
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
-                                                                    "flags": 0,
+                                                                    "flags": 80,
                                                                     "start": 62,
                                                                     "end": 69
                                                                 },
@@ -258,7 +258,7 @@ class C { foo() { this.#a = 1; }}
                                                                     "kind": 129,
                                                                     "member": {
                                                                         "kind": 4276321,
-                                                                        "flags": 0,
+                                                                        "flags": 96,
                                                                         "start": 69,
                                                                         "end": 74
                                                                     },
@@ -327,7 +327,7 @@ class C { foo() { this.#a = 1; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 82,
                 "end": 89
             },
@@ -346,7 +346,7 @@ class C { foo() { this.#a = 1; }}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 91,
                         "end": 99
                     },
@@ -405,7 +405,7 @@ class C { foo() { this.#a = 1; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 113,
                                                     "end": 120
                                                 },
@@ -413,7 +413,7 @@ class C { foo() { this.#a = 1; }}
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 4276321,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 120,
                                                         "end": 125
                                                     },
@@ -468,7 +468,7 @@ class C { foo() { this.#a = 1; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 132,
                 "end": 139
             },
@@ -530,7 +530,7 @@ class C { foo() { this.#a = 1; }}
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 4276321,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 151,
                                                             "end": 156
                                                         },

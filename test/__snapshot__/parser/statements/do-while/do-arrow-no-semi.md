@@ -20,7 +20,7 @@ while(y)
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -34,7 +34,7 @@ while(y)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 1,
+                "flags": 65,
                 "start": 8,
                 "end": 14
             },
@@ -44,7 +44,7 @@ while(y)
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 4,
                         "end": 6
                     },

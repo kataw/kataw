@@ -26,7 +26,7 @@ function *P(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -64,7 +64,7 @@ function *P(){
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 14,
                                 "end": 22
                             },
@@ -83,13 +83,13 @@ function *P(){
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 24,
                                         "end": 32
                                     },
                                     "expression": {
                                         "kind": 205586437,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 32,
                                         "end": 38
                                     },

@@ -19,7 +19,7 @@ switch (x) { case y: break; default: return; }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -38,7 +38,7 @@ switch (x) { case y: break; default: return; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 12,
                             "end": 17
                         },
@@ -55,7 +55,7 @@ switch (x) { case y: break; default: return; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 20,
                                     "end": 26
                                 },
@@ -73,7 +73,7 @@ switch (x) { case y: break; default: return; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 27,
                             "end": 35
                         },
@@ -82,7 +82,7 @@ switch (x) { case y: break; default: return; }
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 36,
                                     "end": 43
                                 },

@@ -21,7 +21,7 @@ class x { constructor(){ return () => () => super.foo; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -79,7 +79,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 24,
                                                     "end": 31
                                                 },
@@ -87,7 +87,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 34,
                                                         "end": 37
                                                     },
@@ -99,7 +99,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 40,
                                                             "end": 43
                                                         },
@@ -113,7 +113,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                                 "kind": 225,
                                                                 "superKeyword": {
                                                                     "kind": 4259935,
-                                                                    "flags": 0,
+                                                                    "flags": 96,
                                                                     "start": 43,
                                                                     "end": 49
                                                                 },

@@ -33,7 +33,7 @@ class A9<S = number, T: ?string = string> {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -98,7 +98,7 @@ class A9<S = number, T: ?string = string> {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 23,
                 "end": 29
             },
@@ -186,7 +186,7 @@ class A9<S = number, T: ?string = string> {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 56,
                 "end": 62
             },
@@ -290,7 +290,7 @@ class A9<S = number, T: ?string = string> {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 92,
                 "end": 98
             },
@@ -402,7 +402,7 @@ class A9<S = number, T: ?string = string> {}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 139,
                         "end": 144
                     },

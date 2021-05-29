@@ -29,7 +29,7 @@ class Foo { static x = () => this }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -73,7 +73,7 @@ class Foo { static x = () => this }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 25,
                                     "end": 28
                                 },
@@ -83,7 +83,7 @@ class Foo { static x = () => this }
                                 "returnType": null,
                                 "contents": {
                                     "kind": 4276321,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 28,
                                     "end": 33
                                 },

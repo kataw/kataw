@@ -19,7 +19,7 @@ switch(x) { case y: break; case z: break; default: default: }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -38,7 +38,7 @@ switch(x) { case y: break; case z: break; default: default: }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 11,
                             "end": 16
                         },
@@ -55,7 +55,7 @@ switch(x) { case y: break; case z: break; default: default: }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 19,
                                     "end": 25
                                 },
@@ -73,7 +73,7 @@ switch(x) { case y: break; case z: break; default: default: }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 26,
                             "end": 31
                         },
@@ -90,7 +90,7 @@ switch(x) { case y: break; case z: break; default: default: }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 34,
                                     "end": 40
                                 },
@@ -108,7 +108,7 @@ switch(x) { case y: break; case z: break; default: default: }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 41,
                             "end": 49
                         },
@@ -121,7 +121,7 @@ switch(x) { case y: break; case z: break; default: default: }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 50,
                             "end": 58
                         },

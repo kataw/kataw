@@ -56,7 +56,7 @@ class Foo {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -118,7 +118,7 @@ class Foo {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 25,
                                                     "end": 32
                                                 },
@@ -126,7 +126,7 @@ class Foo {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 4276321,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 32,
                                                         "end": 37
                                                     },
@@ -229,7 +229,7 @@ class Foo {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 4276321,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 60,
                                                             "end": 65
                                                         },
@@ -327,7 +327,7 @@ class Foo {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 92,
                                                     "end": 99
                                                 },
@@ -335,7 +335,7 @@ class Foo {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 4276321,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 99,
                                                         "end": 104
                                                     },
@@ -438,7 +438,7 @@ class Foo {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 4276321,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 129,
                                                             "end": 134
                                                         },

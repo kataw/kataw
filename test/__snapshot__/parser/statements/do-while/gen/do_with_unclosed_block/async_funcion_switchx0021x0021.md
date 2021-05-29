@@ -22,7 +22,7 @@ do {} while (x) { async funcion switch!!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -36,7 +36,7 @@ do {} while (x) { async funcion switch!!
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 11
             },
@@ -93,7 +93,7 @@ do {} while (x) { async funcion switch!!
                                             "kind": 160,
                                             "switchKeyword": {
                                                 "kind": 37757024,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 31,
                                                 "end": 38
                                             },

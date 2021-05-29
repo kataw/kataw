@@ -65,7 +65,7 @@ x?.y = 0;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1,
                         "end": 3
                     },
@@ -131,7 +131,7 @@ x?.y = 0;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 14,
                         "end": 16
                     },
@@ -182,7 +182,7 @@ x?.y = 0;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 29,
                     "end": 31
                 },
@@ -190,7 +190,7 @@ x?.y = 0;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 26,
                         "end": 28
                     },
@@ -281,7 +281,7 @@ x?.y = 0;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 43,
                     "end": 45
                 },
@@ -289,7 +289,7 @@ x?.y = 0;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 40,
                         "end": 42
                     },

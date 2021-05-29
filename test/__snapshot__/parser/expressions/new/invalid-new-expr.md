@@ -28,7 +28,7 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 1,
+                    "flags": 97,
                     "start": 0,
                     "end": 4
                 },
@@ -69,7 +69,7 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 1,
+                    "flags": 97,
                     "start": 13,
                     "end": 18
                 },
@@ -109,7 +109,7 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 1,
+                    "flags": 97,
                     "start": 25,
                     "end": 30
                 },
@@ -156,7 +156,7 @@ new foo ++;
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 1,
+                        "flags": 97,
                         "start": 37,
                         "end": 42
                     },

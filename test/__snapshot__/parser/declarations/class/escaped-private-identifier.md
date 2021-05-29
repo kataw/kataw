@@ -34,7 +34,7 @@ class z { #\u0020oo }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -120,7 +120,7 @@ class z { #\u0020oo }
                                 "kind": 129,
                                 "member": {
                                     "kind": 4276321,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 26,
                                     "end": 31
                                 },
@@ -158,7 +158,7 @@ class z { #\u0020oo }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 38,
                 "end": 45
             },
@@ -237,7 +237,7 @@ class z { #\u0020oo }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 61,
                 "end": 68
             },

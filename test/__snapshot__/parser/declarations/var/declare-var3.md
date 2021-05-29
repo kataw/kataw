@@ -35,7 +35,7 @@ declare var tup: [{foo: string}, {bar: number}];
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 7,
                 "end": 11
             },
@@ -144,7 +144,7 @@ declare var tup: [{foo: string}, {bar: number}];
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 54,
                 "end": 58
             },
@@ -253,7 +253,7 @@ declare var tup: [{foo: string}, {bar: number}];
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 110,
                 "end": 114
             },

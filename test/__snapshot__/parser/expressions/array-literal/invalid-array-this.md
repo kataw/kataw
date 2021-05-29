@@ -47,7 +47,7 @@
                             "kind": 125,
                             "left": {
                                 "kind": 4276321,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 1,
                                 "end": 5
                             },
@@ -94,7 +94,7 @@
                         "elements": [
                             {
                                 "kind": 4276321,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 16
                             }

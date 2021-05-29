@@ -76,7 +76,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 41,
                     "end": 43
                 },
@@ -84,7 +84,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 51,
                         "end": 54
                     },
@@ -135,7 +135,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 56,
                     "end": 58
                 },
@@ -169,7 +169,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 88,
                     "end": 90
                 },
@@ -189,7 +189,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 94,
                     "end": 96
                 },
@@ -197,7 +197,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 104,
                         "end": 107
                     },
@@ -268,7 +268,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 202,
                     "end": 204
                 },
@@ -276,7 +276,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 223,
                         "end": 226
                     },
@@ -302,7 +302,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 213,
                                     "end": 216
                                 },
@@ -372,7 +372,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 228,
                     "end": 230
                 },
@@ -406,7 +406,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 272,
                     "end": 274
                 },
@@ -422,7 +422,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 276,
                         "end": 278
                     },
@@ -430,7 +430,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 286,
                             "end": 289
                         },
@@ -520,7 +520,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 297,
                         "end": 299
                     },
@@ -566,7 +566,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 418,
                     "end": 420
                 },
@@ -582,7 +582,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 422,
                         "end": 424
                     },
@@ -602,7 +602,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 428,
                         "end": 430
                     },
@@ -610,7 +610,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 440,
                             "end": 443
                         },
@@ -671,7 +671,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 445,
                     "end": 447
                 },
@@ -705,7 +705,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 516,
                     "end": 518
                 },
@@ -713,7 +713,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 526,
                         "end": 529
                     },
@@ -764,7 +764,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 531,
                     "end": 533
                 },
@@ -772,7 +772,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 541,
                         "end": 544
                     },
@@ -843,7 +843,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 659,
                     "end": 661
                 },
@@ -851,7 +851,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 669,
                         "end": 672
                     },
@@ -892,7 +892,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 680,
                             "end": 683
                         },
@@ -947,7 +947,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 685,
                     "end": 687
                 },

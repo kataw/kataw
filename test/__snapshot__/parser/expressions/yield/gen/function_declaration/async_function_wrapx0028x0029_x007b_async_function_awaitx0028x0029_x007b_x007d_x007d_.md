@@ -24,7 +24,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 26,
                                 "end": 35
                             },
@@ -100,7 +100,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 50,
                                                 "end": 59
                                             },

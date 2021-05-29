@@ -28,7 +28,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -193,7 +193,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         },
                                         "right": {
                                             "kind": 205586437,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 70,
                                             "end": 76
                                         },

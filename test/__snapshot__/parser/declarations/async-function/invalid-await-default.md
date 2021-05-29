@@ -28,7 +28,7 @@ async function wrap() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -61,7 +61,7 @@ async function wrap() {
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 39,
                                     "end": 42
                                 },
@@ -87,7 +87,7 @@ async function wrap() {
                                             "kind": 208,
                                             "awaitKeyword": {
                                                 "kind": 82196,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 30,
                                                 "end": 36
                                             },

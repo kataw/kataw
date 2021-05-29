@@ -28,7 +28,7 @@ try {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -49,7 +49,7 @@ try {
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 7,
                     "end": 13
                 },
@@ -73,7 +73,7 @@ try {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 19,
                                     "end": 30
                                 },

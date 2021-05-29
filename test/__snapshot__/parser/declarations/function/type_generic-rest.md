@@ -33,7 +33,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -103,7 +103,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 1,
+                                "flags": 65,
                                 "start": 52,
                                 "end": 60
                             },
@@ -191,7 +191,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 75,
                                 "end": 84
                             },

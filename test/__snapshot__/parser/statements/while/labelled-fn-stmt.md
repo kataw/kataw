@@ -19,13 +19,13 @@ while (false) label1: label2: function f() {}
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 205586437,
-                "flags": 0,
+                "flags": 96,
                 "start": 7,
                 "end": 12
             },
@@ -59,7 +59,7 @@ while (false) label1: label2: function f() {}
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 20,
                     "end": 21
                 },
@@ -93,7 +93,7 @@ while (false) label1: label2: function f() {}
                     ],
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 28,
                         "end": 29
                     },
@@ -103,7 +103,7 @@ while (false) label1: label2: function f() {}
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 29,
                             "end": 38
                         },

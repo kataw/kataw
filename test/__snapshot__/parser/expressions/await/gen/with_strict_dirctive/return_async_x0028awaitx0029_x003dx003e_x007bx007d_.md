@@ -31,7 +31,7 @@
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 0,
+                "flags": 80,
                 "start": 13,
                 "end": 20
             },
@@ -39,7 +39,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 34,
                     "end": 37
                 },

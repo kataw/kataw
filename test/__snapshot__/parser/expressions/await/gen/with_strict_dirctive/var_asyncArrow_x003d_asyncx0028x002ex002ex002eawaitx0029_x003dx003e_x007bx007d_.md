@@ -32,7 +32,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 13,
                 "end": 17
             },
@@ -55,7 +55,7 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 46,
                                 "end": 49
                             },
@@ -65,7 +65,7 @@
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 37,
                                         "end": 40
                                     },

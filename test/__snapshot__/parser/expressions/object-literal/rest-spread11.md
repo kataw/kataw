@@ -19,7 +19,7 @@ for ({...a,} in []);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -32,7 +32,7 @@ for ({...a,} in []);
                             "kind": 224,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 6,
                                 "end": 9
                             },

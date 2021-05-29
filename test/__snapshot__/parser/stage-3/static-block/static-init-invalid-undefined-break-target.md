@@ -33,7 +33,7 @@ class C {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -84,7 +84,7 @@ class C {
                                             ],
                                             "colonToken": {
                                                 "kind": 21,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 26,
                                                 "end": 27
                                             },
@@ -92,13 +92,13 @@ class C {
                                                 "kind": 154,
                                                 "whileKeyword": {
                                                     "kind": 37757028,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 27,
                                                     "end": 33
                                                 },
                                                 "expression": {
                                                     "kind": 205586437,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 35,
                                                     "end": 40
                                                 },
@@ -111,7 +111,7 @@ class C {
                                                                 "kind": 150,
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
-                                                                    "flags": 1,
+                                                                    "flags": 81,
                                                                     "start": 43,
                                                                     "end": 55
                                                                 },

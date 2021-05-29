@@ -23,7 +23,7 @@ function arguments() { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -79,7 +79,7 @@ function arguments() { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 33,
                 "end": 43
             },

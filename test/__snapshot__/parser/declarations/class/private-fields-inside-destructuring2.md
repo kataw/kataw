@@ -53,7 +53,7 @@ this.#f,
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -256,7 +256,7 @@ this.#f,
                                                                                     "kind": 129,
                                                                                     "member": {
                                                                                         "kind": 4276321,
-                                                                                        "flags": 0,
+                                                                                        "flags": 96,
                                                                                         "start": 70,
                                                                                         "end": 75
                                                                                     },
@@ -305,7 +305,7 @@ this.#f,
                                                                                             "kind": 129,
                                                                                             "member": {
                                                                                                 "kind": 4276321,
-                                                                                                "flags": 0,
+                                                                                                "flags": 96,
                                                                                                 "start": 84,
                                                                                                 "end": 89
                                                                                             },
@@ -368,7 +368,7 @@ this.#f,
                                                                                         "kind": 129,
                                                                                         "member": {
                                                                                             "kind": 4276321,
-                                                                                            "flags": 0,
+                                                                                            "flags": 96,
                                                                                             "start": 102,
                                                                                             "end": 107
                                                                                         },
@@ -435,7 +435,7 @@ this.#f,
                                                                                     "kind": 129,
                                                                                     "member": {
                                                                                         "kind": 4276321,
-                                                                                        "flags": 0,
+                                                                                        "flags": 96,
                                                                                         "start": 120,
                                                                                         "end": 125
                                                                                     },
@@ -470,7 +470,7 @@ this.#f,
                                                                                     "kind": 129,
                                                                                     "member": {
                                                                                         "kind": 4276321,
-                                                                                        "flags": 0,
+                                                                                        "flags": 96,
                                                                                         "start": 131,
                                                                                         "end": 136
                                                                                     },
@@ -494,7 +494,7 @@ this.#f,
                                                                                 "kind": 224,
                                                                                 "ellipsisToken": {
                                                                                     "kind": 524302,
-                                                                                    "flags": 0,
+                                                                                    "flags": 64,
                                                                                     "start": 139,
                                                                                     "end": 143
                                                                                 },
@@ -502,7 +502,7 @@ this.#f,
                                                                                     "kind": 129,
                                                                                     "member": {
                                                                                         "kind": 4276321,
-                                                                                        "flags": 0,
+                                                                                        "flags": 96,
                                                                                         "start": 143,
                                                                                         "end": 147
                                                                                     },
@@ -552,7 +552,7 @@ this.#f,
                                                                                 "kind": 223,
                                                                                 "ellipsisToken": {
                                                                                     "kind": 524302,
-                                                                                    "flags": 0,
+                                                                                    "flags": 64,
                                                                                     "start": 157,
                                                                                     "end": 161
                                                                                 },
@@ -560,7 +560,7 @@ this.#f,
                                                                                     "kind": 129,
                                                                                     "member": {
                                                                                         "kind": 4276321,
-                                                                                        "flags": 0,
+                                                                                        "flags": 96,
                                                                                         "start": 161,
                                                                                         "end": 165
                                                                                     },
@@ -640,7 +640,7 @@ this.#f,
                                                                                                                                         "kind": 129,
                                                                                                                                         "member": {
                                                                                                                                             "kind": 4276321,
-                                                                                                                                            "flags": 0,
+                                                                                                                                            "flags": 96,
                                                                                                                                             "start": 182,
                                                                                                                                             "end": 186
                                                                                                                                         },
@@ -1137,7 +1137,7 @@ this.#f,
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 300,
                                                     "end": 312
                                                 },
@@ -1177,7 +1177,7 @@ this.#f,
                                                                             "kind": 129,
                                                                             "member": {
                                                                                 "kind": 4276321,
-                                                                                "flags": 1,
+                                                                                "flags": 97,
                                                                                 "start": 329,
                                                                                 "end": 334
                                                                             },
@@ -1196,7 +1196,7 @@ this.#f,
                                                                             "kind": 129,
                                                                             "member": {
                                                                                 "kind": 4276321,
-                                                                                "flags": 1,
+                                                                                "flags": 97,
                                                                                 "start": 338,
                                                                                 "end": 343
                                                                             },
@@ -1215,7 +1215,7 @@ this.#f,
                                                                             "kind": 129,
                                                                             "member": {
                                                                                 "kind": 4276321,
-                                                                                "flags": 1,
+                                                                                "flags": 97,
                                                                                 "start": 347,
                                                                                 "end": 352
                                                                             },
@@ -1234,7 +1234,7 @@ this.#f,
                                                                             "kind": 129,
                                                                             "member": {
                                                                                 "kind": 4276321,
-                                                                                "flags": 1,
+                                                                                "flags": 97,
                                                                                 "start": 356,
                                                                                 "end": 361
                                                                             },
@@ -1253,7 +1253,7 @@ this.#f,
                                                                             "kind": 129,
                                                                             "member": {
                                                                                 "kind": 4276321,
-                                                                                "flags": 1,
+                                                                                "flags": 97,
                                                                                 "start": 365,
                                                                                 "end": 370
                                                                             },
@@ -1272,7 +1272,7 @@ this.#f,
                                                                             "kind": 129,
                                                                             "member": {
                                                                                 "kind": 4276321,
-                                                                                "flags": 1,
+                                                                                "flags": 97,
                                                                                 "start": 374,
                                                                                 "end": 379
                                                                             },

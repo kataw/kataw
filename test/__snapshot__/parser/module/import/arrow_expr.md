@@ -48,7 +48,7 @@ let x = () => import {x} from "y"
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 10,
                                 "end": 13
                             },
@@ -62,7 +62,7 @@ let x = () => import {x} from "y"
                                     "kind": 206,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 13,
                                         "end": 20
                                     },

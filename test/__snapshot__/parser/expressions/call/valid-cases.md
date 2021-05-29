@@ -116,7 +116,7 @@ x(class {} ?? 1);
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 19,
                                         "end": 22
                                     },
@@ -197,7 +197,7 @@ x(class {} ?? 1);
                             "kind": 198,
                             "left": {
                                 "kind": 138477575,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 37,
                                 "end": 41
                             },
@@ -873,7 +873,7 @@ x(class {} ?? 1);
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 190,
                                     "end": 195
                                 },

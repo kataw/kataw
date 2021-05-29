@@ -37,7 +37,7 @@
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 16384,
+                "flags": 16448,
                 "start": 0,
                 "end": 12
             },

@@ -19,7 +19,7 @@ for ((2935) instanceof ((2e308));;) debugger
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -75,7 +75,7 @@ for ((2935) instanceof ((2e308));;) debugger
                 "kind": 171,
                 "debuggerKeyword": {
                     "kind": 37757010,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 35,
                     "end": 44
                 },

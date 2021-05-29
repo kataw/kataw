@@ -23,7 +23,7 @@
                 "kind": 121,
                 "expression": {
                     "kind": 205586437,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 1,
                     "end": 6
                 },
@@ -44,13 +44,13 @@
                     "expressions": [
                         {
                             "kind": 205586437,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 11,
                             "end": 16
                         },
                         {
                             "kind": 24752947,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 17,
                             "end": 22
                         }

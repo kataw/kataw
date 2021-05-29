@@ -32,7 +32,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 13,
                 "end": 17
             },
@@ -97,7 +97,7 @@
                                                             "kind": 160,
                                                             "switchKeyword": {
                                                                 "kind": 37757024,
-                                                                "flags": 0,
+                                                                "flags": 80,
                                                                 "start": 31,
                                                                 "end": 38
                                                             },
@@ -116,7 +116,7 @@
                                                                         "kind": 175,
                                                                         "caseKeyword": {
                                                                             "kind": 4194382,
-                                                                            "flags": 0,
+                                                                            "flags": 80,
                                                                             "start": 44,
                                                                             "end": 49
                                                                         },
@@ -124,7 +124,7 @@
                                                                             "kind": 229,
                                                                             "yieldKeyword": {
                                                                                 "kind": 8454253,
-                                                                                "flags": 0,
+                                                                                "flags": 64,
                                                                                 "start": 49,
                                                                                 "end": 55
                                                                             },
@@ -140,7 +140,7 @@
                                                                                 "kind": 150,
                                                                                 "breakKeyword": {
                                                                                     "kind": 37757005,
-                                                                                    "flags": 0,
+                                                                                    "flags": 80,
                                                                                     "start": 56,
                                                                                     "end": 62
                                                                                 },

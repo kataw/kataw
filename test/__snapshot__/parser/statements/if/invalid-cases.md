@@ -62,7 +62,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -142,7 +142,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 23,
                 "end": 27
             },
@@ -172,7 +172,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 37,
                     "end": 46
                 },
@@ -232,7 +232,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 56,
                 "end": 60
             },
@@ -250,7 +250,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 64,
                     "end": 70
                 },
@@ -297,7 +297,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 76,
                 "end": 80
             },
@@ -328,7 +328,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "kind": 173,
                     "catchKeyword": {
                         "kind": 4202575,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 80,
                         "end": 86
                     },
@@ -377,7 +377,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 92,
                 "end": 96
             },
@@ -393,7 +393,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "kind": 150,
                 "breakKeyword": {
                     "kind": 37757005,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 100,
                     "end": 106
                 },
@@ -412,7 +412,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 107,
                 "end": 111
             },
@@ -440,13 +440,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "kind": 161,
                 "returnKeyword": {
                     "kind": 37757022,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 116,
                     "end": 123
                 },
                 "expression": {
                     "kind": 205586437,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 123,
                     "end": 129
                 },
@@ -470,7 +470,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 131,
                 "end": 135
             },
@@ -493,7 +493,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 145,
                     "end": 154
                 },
@@ -550,7 +550,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 161,
                 "end": 165
             },
@@ -568,7 +568,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 169,
                     "end": 178
                 },
@@ -630,13 +630,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 186,
                 "end": 190
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 192,
                 "end": 196
             },
@@ -644,7 +644,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "kind": 161,
                 "returnKeyword": {
                     "kind": 37757022,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 197,
                     "end": 204
                 },
@@ -696,13 +696,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 215,
                 "end": 219
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 221,
                 "end": 225
             },
@@ -712,7 +712,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 226,
                     "end": 232
                 },
@@ -759,13 +759,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 238,
                 "end": 242
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 244,
                 "end": 248
             },
@@ -792,7 +792,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 249,
                 "end": 255
             },
@@ -813,7 +813,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "type": null,
                         "initializer": {
                             "kind": 138477575,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 259,
                             "end": 264
                         },
@@ -840,13 +840,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 266,
                 "end": 270
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 272,
                 "end": 276
             },
@@ -861,7 +861,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 283,
                     "end": 292
                 },
@@ -919,7 +919,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 312,
                     "end": 321
                 },
@@ -974,13 +974,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 330,
                 "end": 334
             },
             "expression": {
                 "kind": 205586437,
-                "flags": 0,
+                "flags": 96,
                 "start": 336,
                 "end": 341
             },
@@ -1038,13 +1038,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 357,
                 "end": 361
             },
             "expression": {
                 "kind": 205586437,
-                "flags": 0,
+                "flags": 96,
                 "start": 363,
                 "end": 368
             },
@@ -1106,7 +1106,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 386,
                 "end": 390
             },
@@ -1226,7 +1226,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 420,
                 "end": 424
             },
@@ -1366,7 +1366,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 458,
                 "end": 462
             },
@@ -1501,7 +1501,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 495,
                 "end": 499
             },
@@ -1609,7 +1609,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 521,
                             "end": 522
                         },
@@ -1692,7 +1692,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 539,
                 "end": 543
             },
@@ -1812,7 +1812,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 573,
                 "end": 577
             },
@@ -1952,7 +1952,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1,
+                "flags": 81,
                 "start": 611,
                 "end": 615
             },

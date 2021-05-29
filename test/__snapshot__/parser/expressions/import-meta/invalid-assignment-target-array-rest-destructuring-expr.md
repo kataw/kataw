@@ -34,7 +34,7 @@
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -44,13 +44,13 @@
                                         "kind": 207,
                                         "importKeyword": {
                                             "kind": 37814364,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 4,
                                             "end": 10
                                         },
                                         "metaIdentifier": {
                                             "kind": 16595,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 11,
                                             "end": 15
                                         },

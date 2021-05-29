@@ -21,7 +21,7 @@ function f(){ [...new.target] }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ function f(){ [...new.target] }
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 15,
                                                 "end": 18
                                             },
@@ -67,13 +67,13 @@ function f(){ [...new.target] }
                                                 "kind": 211,
                                                 "newKeyword": {
                                                     "kind": 138477661,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 18,
                                                     "end": 21
                                                 },
                                                 "targetIdentifier": {
                                                     "kind": 16594,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 22,
                                                     "end": 28
                                                 },

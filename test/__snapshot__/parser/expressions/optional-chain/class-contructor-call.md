@@ -21,7 +21,7 @@ new C?.b.d()
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -29,7 +29,7 @@ new C?.b.d()
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 5,
                         "end": 7
                     },

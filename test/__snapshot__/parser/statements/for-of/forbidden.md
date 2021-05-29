@@ -23,7 +23,7 @@ async () => {
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -64,7 +64,7 @@ async () => {
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 27,
                 "end": 30
             },
@@ -87,7 +87,7 @@ async () => {
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 32,
                                 "end": 38
                             },

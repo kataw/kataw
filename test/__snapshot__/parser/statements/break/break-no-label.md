@@ -19,7 +19,7 @@
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -40,7 +40,7 @@
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 12,
                                 "end": 18
                             },

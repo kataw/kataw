@@ -24,7 +24,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 0,
                 "end": 4
             },
@@ -43,7 +43,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
             "kind": 150,
             "breakKeyword": {
                 "kind": 37757005,
-                "flags": 16384,
+                "flags": 16464,
                 "start": 4,
                 "end": 35
             },

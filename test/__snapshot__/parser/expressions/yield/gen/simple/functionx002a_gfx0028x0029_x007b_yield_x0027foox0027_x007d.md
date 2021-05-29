@@ -24,7 +24,7 @@ function* gf() { yield 'foo' }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function* gf() { yield 'foo' }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 16,
                                     "end": 22
                                 },

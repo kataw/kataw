@@ -31,7 +31,7 @@
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 1,
                                     "end": 7
                                 },
@@ -43,7 +43,7 @@
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 9,
                                     "end": 11
                                 },

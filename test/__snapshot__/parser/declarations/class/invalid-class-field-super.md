@@ -36,7 +36,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -77,7 +77,7 @@ class C { [super.bbb] = 0 };
                                     "kind": 225,
                                     "superKeyword": {
                                         "kind": 4259935,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 21
                                     },
@@ -126,7 +126,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 28,
                 "end": 35
             },
@@ -165,7 +165,7 @@ class C { [super.bbb] = 0 };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 48,
                                     "end": 51
                                 },
@@ -179,7 +179,7 @@ class C { [super.bbb] = 0 };
                                         "kind": 225,
                                         "superKeyword": {
                                             "kind": 4259935,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 51,
                                             "end": 57
                                         },
@@ -232,7 +232,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 64,
                 "end": 71
             },
@@ -271,7 +271,7 @@ class C { [super.bbb] = 0 };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 84,
                                     "end": 87
                                 },
@@ -283,7 +283,7 @@ class C { [super.bbb] = 0 };
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 90,
                                         "end": 93
                                     },
@@ -297,7 +297,7 @@ class C { [super.bbb] = 0 };
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 93,
                                                 "end": 99
                                             },
@@ -354,7 +354,7 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 106,
                 "end": 113
             },
@@ -387,7 +387,7 @@ class C { [super.bbb] = 0 };
                                         "kind": 225,
                                         "superKeyword": {
                                             "kind": 4259935,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 119,
                                             "end": 124
                                         },

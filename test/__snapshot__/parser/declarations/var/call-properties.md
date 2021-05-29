@@ -33,7 +33,7 @@ var a: { <T>(x: T): number; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -109,7 +109,7 @@ var a: { <T>(x: T): number; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 23,
                 "end": 27
             },
@@ -240,7 +240,7 @@ var a: { <T>(x: T): number; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 54,
                 "end": 58
             },
@@ -316,7 +316,7 @@ var a: { <T>(x: T): number; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 77,
                 "end": 81
             },
@@ -392,7 +392,7 @@ var a: { <T>(x: T): number; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 101,
                 "end": 105
             },
@@ -536,7 +536,7 @@ var a: { <T>(x: T): number; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 156,
                 "end": 160
             },

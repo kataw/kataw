@@ -24,7 +24,7 @@ class x extends finally {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -43,7 +43,7 @@ class x extends finally {}
                     "kind": 279,
                     "extendsKeyword": {
                         "kind": 4194391,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 15
                     },
@@ -93,7 +93,7 @@ class x extends finally {}
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 0,
+                "flags": 64,
                 "start": 15,
                 "end": 23
             },

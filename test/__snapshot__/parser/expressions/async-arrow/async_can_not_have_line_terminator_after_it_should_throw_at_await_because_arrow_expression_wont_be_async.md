@@ -66,7 +66,7 @@ g => await g
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 15,
                     "end": 18
                 },

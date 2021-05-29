@@ -19,7 +19,7 @@ switch (A) {default: B; break;}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -38,7 +38,7 @@ switch (A) {default: B; break;}
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 12,
                             "end": 19
                         },
@@ -61,7 +61,7 @@ switch (A) {default: B; break;}
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 23,
                                     "end": 29
                                 },

@@ -27,13 +27,13 @@ await this;
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
                 "expression": {
                     "kind": 4276321,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 5,
                     "end": 10
                 },

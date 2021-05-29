@@ -21,7 +21,7 @@ function* foo(a = class {*bar() { yield b }}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -60,7 +60,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 17,
                                 "end": 23
                             },

@@ -22,7 +22,7 @@ do catch try {} while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -54,7 +54,7 @@ do catch try {} while
                     "kind": 173,
                     "catchKeyword": {
                         "kind": 4202575,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 2,
                         "end": 8
                     },
@@ -91,7 +91,7 @@ do catch try {} while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 8,
                 "end": 12
             },
@@ -131,7 +131,7 @@ do catch try {} while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 15,
                 "end": 21
             },

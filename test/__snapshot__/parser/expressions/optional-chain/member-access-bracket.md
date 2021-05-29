@@ -31,7 +31,7 @@ obj.a?.[true]
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 89,
                     "end": 91
                 },
@@ -41,7 +41,7 @@ obj.a?.[true]
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 74,
                             "end": 76
                         },
@@ -51,7 +51,7 @@ obj.a?.[true]
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 59,
                                     "end": 61
                                 },
@@ -59,7 +59,7 @@ obj.a?.[true]
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 51,
                                         "end": 53
                                     },
@@ -67,7 +67,7 @@ obj.a?.[true]
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 38,
                                             "end": 40
                                         },
@@ -75,7 +75,7 @@ obj.a?.[true]
                                             "kind": 205,
                                             "chainToken": {
                                                 "kind": 393240,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 24,
                                                 "end": 26
                                             },
@@ -83,7 +83,7 @@ obj.a?.[true]
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 16,
                                                     "end": 18
                                                 },
@@ -91,7 +91,7 @@ obj.a?.[true]
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 3,
                                                         "end": 5
                                                     },
@@ -215,7 +215,7 @@ obj.a?.[true]
                                                     "chain": null,
                                                     "expression": {
                                                         "kind": 24752947,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 41,
                                                         "end": 45
                                                     },
@@ -250,7 +250,7 @@ obj.a?.[true]
                                             "chain": null,
                                             "expression": {
                                                 "kind": 24752947,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 54,
                                                 "end": 58
                                             },
@@ -275,7 +275,7 @@ obj.a?.[true]
                                             "chain": null,
                                             "expression": {
                                                 "kind": 24752947,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 62,
                                                 "end": 66
                                             },
@@ -373,7 +373,7 @@ obj.a?.[true]
                         "chain": null,
                         "expression": {
                             "kind": 24752947,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 92,
                             "end": 96
                         },

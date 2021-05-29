@@ -39,7 +39,7 @@ class I<X> {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -212,7 +212,7 @@ class I<X> {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 37,
                                                     "end": 48
                                                 },
@@ -327,7 +327,7 @@ class I<X> {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 4276321,
-                                                            "flags": 1,
+                                                            "flags": 97,
                                                             "start": 67,
                                                             "end": 76
                                                         },
@@ -372,7 +372,7 @@ class I<X> {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 4276321,
-                                                            "flags": 1,
+                                                            "flags": 97,
                                                             "start": 84,
                                                             "end": 93
                                                         },

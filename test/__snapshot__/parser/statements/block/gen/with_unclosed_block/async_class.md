@@ -55,7 +55,7 @@
                         "catchClause": null,
                         "finallyKeyword": {
                             "kind": 37757016,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 12
                         },
@@ -121,7 +121,7 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 23,
                                         "end": 29
                                     },

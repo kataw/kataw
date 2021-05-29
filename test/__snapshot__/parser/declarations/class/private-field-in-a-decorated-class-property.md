@@ -28,7 +28,7 @@ class Example {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -114,7 +114,7 @@ class Example {
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 55,
                                     "end": 58
                                 },
@@ -132,7 +132,7 @@ class Example {
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 1,
+                                                    "flags": 81,
                                                     "start": 60,
                                                     "end": 71
                                                 },
@@ -140,7 +140,7 @@ class Example {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 4276321,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 71,
                                                         "end": 76
                                                     },

@@ -26,7 +26,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -64,7 +64,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 28,
                                 "end": 37
                             },
@@ -97,7 +97,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 77,
                                                     "end": 80
                                                 },
@@ -138,7 +138,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                     "kind": 208,
                                                                                     "awaitKeyword": {
                                                                                         "kind": 82196,
-                                                                                        "flags": 0,
+                                                                                        "flags": 64,
                                                                                         "start": 51,
                                                                                         "end": 56
                                                                                     },

@@ -22,7 +22,7 @@ do try { !xxx
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -38,7 +38,7 @@ do try { !xxx
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 6
                 },

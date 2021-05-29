@@ -89,7 +89,7 @@
                                                         "kind": 210,
                                                         "newKeyword": {
                                                             "kind": 138477661,
-                                                            "flags": 0,
+                                                            "flags": 96,
                                                             "start": 13,
                                                             "end": 17
                                                         },
@@ -97,7 +97,7 @@
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 0,
+                                                                "flags": 96,
                                                                 "start": 17,
                                                                 "end": 23
                                                             },

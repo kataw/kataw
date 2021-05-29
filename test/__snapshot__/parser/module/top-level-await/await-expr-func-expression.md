@@ -27,7 +27,7 @@ await function() {}
                 "kind": 208,
                 "awaitKeyword": {
                     "kind": 82196,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
@@ -36,7 +36,7 @@ await function() {}
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 5,
                         "end": 14
                     },

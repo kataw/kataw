@@ -27,7 +27,7 @@ export class C {
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -37,7 +37,7 @@ export class C {
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 12
                 },
@@ -76,7 +76,7 @@ export class C {
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 22,
                                         "end": 28
                                     },

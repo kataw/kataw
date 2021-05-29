@@ -31,7 +31,7 @@ typeof x;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -45,7 +45,7 @@ typeof x;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
@@ -61,7 +61,7 @@ typeof x;
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 9,
                         "end": 11
                     },
@@ -75,7 +75,7 @@ typeof x;
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 13,
                         "end": 15
                     },

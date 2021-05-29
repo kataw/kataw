@@ -41,7 +41,7 @@ x = class extends (a ? null : yield) { }
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3,
                         "end": 9
                     },
@@ -53,7 +53,7 @@ x = class extends (a ? null : yield) { }
                             "kind": 279,
                             "extendsKeyword": {
                                 "kind": 4194391,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 9,
                                 "end": 17
                             },
@@ -77,13 +77,13 @@ x = class extends (a ? null : yield) { }
                                     },
                                     "consequent": {
                                         "kind": 138477575,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 22,
                                         "end": 27
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 27,
                                         "end": 29
                                     },

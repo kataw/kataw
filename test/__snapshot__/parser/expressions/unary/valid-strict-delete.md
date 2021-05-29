@@ -56,7 +56,7 @@
                 },
                 "operand": {
                     "kind": 4276321,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 21,
                     "end": 26
                 },
@@ -462,7 +462,7 @@
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 253,
                         "end": 257
                     },
@@ -522,7 +522,7 @@
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 286,
                         "end": 290
                     },

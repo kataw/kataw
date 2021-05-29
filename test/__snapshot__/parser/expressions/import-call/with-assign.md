@@ -23,7 +23,7 @@ import(source = "foo.js")
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 0,
                     "end": 7
                 },

@@ -24,7 +24,7 @@ function* g(){ x ? yield : y }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -70,7 +70,7 @@ function* g(){ x ? yield : y }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -78,7 +78,7 @@ function* g(){ x ? yield : y }
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 18,
                                         "end": 24
                                     },
@@ -91,7 +91,7 @@ function* g(){ x ? yield : y }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 24,
                                     "end": 26
                                 },

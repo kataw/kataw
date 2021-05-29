@@ -22,7 +22,7 @@ var foo = ( { title, ...other } ) => {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -45,7 +45,7 @@ var foo = ( { title, ...other } ) => {
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 33,
                                 "end": 36
                             },
@@ -68,7 +68,7 @@ var foo = ( { title, ...other } ) => {
                                                 "kind": 224,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 20,
                                                     "end": 24
                                                 },

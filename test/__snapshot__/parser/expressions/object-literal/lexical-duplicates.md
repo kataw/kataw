@@ -1469,7 +1469,7 @@
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 191,
                                                         "end": 195
                                                     },
@@ -1589,7 +1589,7 @@
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 210,
                                                         "end": 214
                                                     },
@@ -1745,7 +1745,7 @@
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 236,
                                                         "end": 242
                                                     },
@@ -1790,7 +1790,7 @@
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 249,
                                                         "end": 253
                                                     },
@@ -1910,7 +1910,7 @@
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 268,
                                                         "end": 272
                                                     },
@@ -1947,7 +1947,7 @@
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 275,
                                                         "end": 281
                                                     },

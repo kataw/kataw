@@ -19,7 +19,7 @@ async () => (await 5) ** 6;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -40,7 +40,7 @@ async () => (await 5) ** 6;
                         "kind": 208,
                         "awaitKeyword": {
                             "kind": 82196,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 13,
                             "end": 18
                         },

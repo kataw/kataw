@@ -25,7 +25,7 @@ export const x, y
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -33,7 +33,7 @@ export const x, y
                 "kind": 162,
                 "lexicalKeyword": {
                     "kind": 37757004,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 6,
                     "end": 12
                 },

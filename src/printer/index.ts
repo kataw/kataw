@@ -194,10 +194,10 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printKeyword(node, printer, node.start, node, /* separator */ false);
     case SyntaxKind.NullKeyword:
       return printKeyword(node, printer, node.start, node, /* separator */ false);
-      case SyntaxKind.TrueKeyword:
-        return printKeyword(node, printer, node.start, node, /* separator */ false);
-      case SyntaxKind.FalseKeyword:
-        return printKeyword(node, printer, node.start, node, /* separator */ false);
+    case SyntaxKind.TrueKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
+    case SyntaxKind.FalseKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
     default:
       if (node.flags & NodeFlags.ExpressionNode) {
         return printExpressions(node, printer, parentNode);
@@ -216,8 +216,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printMethodDefinition(node, printer);
     case SyntaxKind.Identifier:
       return node.text;
-      case SyntaxKind.ThisKeyword:
-        return printKeyword(node, printer, node.start, node, /* separator */ false);
+    case SyntaxKind.ThisKeyword:
+      return printKeyword(node, printer, node.start, node, /* separator */ false);
     case SyntaxKind.PrivateIdentifier:
       return node.text;
     case SyntaxKind.CoverInitializedName:

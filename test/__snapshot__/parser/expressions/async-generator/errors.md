@@ -114,7 +114,7 @@ async function * gen() {class C extends await { }}
                         },
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 21,
                             "end": 30
                         },
@@ -151,7 +151,7 @@ async function * gen() {class C extends await { }}
                                         "declareKeyword": null,
                                         "varKeyword": {
                                             "kind": 37757002,
-                                            "flags": 0,
+                                            "flags": 80,
                                             "start": 40,
                                             "end": 43
                                         },
@@ -219,7 +219,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 57,
                 "end": 66
             },
@@ -256,7 +256,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 76,
                                 "end": 79
                             },
@@ -332,7 +332,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 98,
                 "end": 107
             },
@@ -369,7 +369,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 117,
                                 "end": 120
                             },
@@ -445,7 +445,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 139,
                 "end": 148
             },
@@ -481,7 +481,7 @@ async function * gen() {class C extends await { }}
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 158,
                                 "end": 161
                             },
@@ -502,7 +502,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 173,
                                 "catchKeyword": {
                                     "kind": 4202575,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 165,
                                     "end": 171
                                 },
@@ -564,7 +564,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 190,
                 "end": 199
             },
@@ -600,7 +600,7 @@ async function * gen() {class C extends await { }}
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 209,
                                 "end": 212
                             },
@@ -621,7 +621,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 173,
                                 "catchKeyword": {
                                     "kind": 4202575,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 216,
                                     "end": 222
                                 },
@@ -683,7 +683,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 241,
                 "end": 250
             },
@@ -721,7 +721,7 @@ async function * gen() {class C extends await { }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 260,
                                 "end": 268
                             },
@@ -788,7 +788,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 287,
                 "end": 296
             },
@@ -826,7 +826,7 @@ async function * gen() {class C extends await { }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 306,
                                 "end": 314
                             },
@@ -893,7 +893,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 450,
                 "end": 459
             },
@@ -939,7 +939,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 475,
                                         "end": 484
                                     },
@@ -1019,7 +1019,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 506,
                 "end": 515
             },
@@ -1065,7 +1065,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 531,
                                         "end": 540
                                     },
@@ -1145,7 +1145,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 636,
                 "end": 645
             },
@@ -1188,7 +1188,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 660,
                                 "end": 669
                             },
@@ -1279,7 +1279,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 693,
                 "end": 702
             },
@@ -1325,7 +1325,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 718,
                                         "end": 727
                                     },
@@ -1424,7 +1424,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 752,
                 "end": 761
             },
@@ -1467,7 +1467,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 776,
                                 "end": 785
                             },
@@ -1558,7 +1558,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 809,
                 "end": 818
             },
@@ -1604,7 +1604,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 834,
                                         "end": 843
                                     },
@@ -1703,7 +1703,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 868,
                 "end": 877
             },
@@ -1743,7 +1743,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 887,
                                         "end": 892
                                     },
@@ -1802,7 +1802,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 904,
                 "end": 913
             },
@@ -1842,7 +1842,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 923,
                                         "end": 928
                                     },
@@ -1905,7 +1905,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 940,
                 "end": 949
             },
@@ -1942,7 +1942,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 959,
                                 "end": 962
                             },
@@ -1967,7 +1967,7 @@ async function * gen() {class C extends await { }}
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 968,
                                                     "end": 974
                                                 },
@@ -2035,7 +2035,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 986,
                 "end": 995
             },
@@ -2072,7 +2072,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 1005,
                                 "end": 1008
                             },
@@ -2097,7 +2097,7 @@ async function * gen() {class C extends await { }}
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 1014,
                                                     "end": 1020
                                                 },
@@ -2169,7 +2169,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1032,
                 "end": 1041
             },
@@ -2215,7 +2215,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1053,
                                         "end": 1058
                                     },
@@ -2260,7 +2260,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1066,
                 "end": 1075
             },
@@ -2306,7 +2306,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1087,
                                         "end": 1092
                                     },
@@ -2355,7 +2355,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1100,
                 "end": 1109
             },
@@ -2393,7 +2393,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1119,
                                     "end": 1124
                                 },
@@ -2452,7 +2452,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1134,
                 "end": 1143
             },
@@ -2490,7 +2490,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1153,
                                     "end": 1158
                                 },
@@ -2547,7 +2547,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1168,
                 "end": 1177
             },
@@ -2585,7 +2585,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1187,
                                     "end": 1192
                                 },
@@ -2637,7 +2637,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1201,
                 "end": 1210
             },
@@ -2677,7 +2677,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1221,
                                         "end": 1226
                                     },
@@ -2733,7 +2733,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1334,
                 "end": 1343
             },
@@ -2771,7 +2771,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1353,
                                     "end": 1358
                                 },
@@ -2797,7 +2797,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 1362,
                                             "end": 1368
                                         },
@@ -2853,7 +2853,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1378,
                 "end": 1387
             },
@@ -2891,7 +2891,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1397,
                                     "end": 1402
                                 },
@@ -2929,7 +2929,7 @@ async function * gen() {class C extends await { }}
                             ],
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 1402,
                                 "end": 1403
                             },
@@ -2977,7 +2977,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1413,
                 "end": 1422
             },
@@ -3017,7 +3017,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1432,
                                         "end": 1437
                                     },
@@ -3030,7 +3030,7 @@ async function * gen() {class C extends await { }}
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1437,
                                     "end": 1439
                                 },
@@ -3044,7 +3044,7 @@ async function * gen() {class C extends await { }}
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1441,
                                     "end": 1443
                                 },
@@ -3090,7 +3090,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1495,
                 "end": 1504
             },
@@ -3130,7 +3130,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1514,
                                         "end": 1519
                                     },
@@ -3151,7 +3151,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1521,
                                         "end": 1527
                                     },
@@ -3196,7 +3196,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1534,
                 "end": 1543
             },
@@ -3242,7 +3242,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1554,
                                         "end": 1560
                                     },
@@ -3287,7 +3287,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1567,
                 "end": 1576
             },
@@ -3333,7 +3333,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 1587,
                                         "end": 1593
                                     },
@@ -3385,7 +3385,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1659,
                 "end": 1668
             },
@@ -3423,7 +3423,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1678,
                                     "end": 1683
                                 },
@@ -3498,7 +3498,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1830,
                 "end": 1839
             },
@@ -3536,7 +3536,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1849,
                                     "end": 1854
                                 },
@@ -3622,7 +3622,7 @@ async function * gen() {class C extends await { }}
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 1862,
                             "end": 1863
                         },
@@ -3664,7 +3664,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1874,
                 "end": 1883
             },
@@ -3702,7 +3702,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1893,
                                     "end": 1898
                                 },
@@ -3788,7 +3788,7 @@ async function * gen() {class C extends await { }}
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 1921,
                             "end": 1922
                         },
@@ -3830,7 +3830,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 1933,
                 "end": 1942
             },
@@ -3868,7 +3868,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1952,
                                     "end": 1957
                                 },
@@ -3884,7 +3884,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 2052,
                                         "end": 2061
                                     },
@@ -3921,7 +3921,7 @@ async function * gen() {class C extends await { }}
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 0,
+                                                        "flags": 80,
                                                         "start": 2071,
                                                         "end": 2074
                                                     },
@@ -4035,7 +4035,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2097,
                                 "end": 2106
                             },
@@ -4072,7 +4072,7 @@ async function * gen() {class C extends await { }}
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 2116,
                                                 "end": 2119
                                             },
@@ -4178,7 +4178,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2142,
                                 "end": 2151
                             },
@@ -4215,7 +4215,7 @@ async function * gen() {class C extends await { }}
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 2161,
                                                 "end": 2164
                                             },
@@ -4342,7 +4342,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2195,
                                 "end": 2204
                             },
@@ -4379,7 +4379,7 @@ async function * gen() {class C extends await { }}
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 2214,
                                                 "end": 2217
                                             },
@@ -4506,7 +4506,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2248,
                                 "end": 2257
                             },
@@ -4551,7 +4551,7 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 2268,
                                                                     "end": 2273
                                                                 },
@@ -4635,7 +4635,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2289,
                                 "end": 2298
                             },
@@ -4680,7 +4680,7 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 208,
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 2309,
                                                                     "end": 2314
                                                                 },
@@ -4768,7 +4768,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2330,
                                 "end": 2339
                             },
@@ -4826,7 +4826,7 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 229,
                                                                         "yieldKeyword": {
                                                                             "kind": 8454253,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 2353,
                                                                             "end": 2359
                                                                         },
@@ -4933,7 +4933,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2379,
                                 "end": 2388
                             },
@@ -4991,7 +4991,7 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 208,
                                                                         "awaitKeyword": {
                                                                             "kind": 82196,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 2402,
                                                                             "end": 2408
                                                                         },
@@ -5102,7 +5102,7 @@ async function * gen() {class C extends await { }}
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 2485,
                                 "end": 2494
                             },
@@ -5139,7 +5139,7 @@ async function * gen() {class C extends await { }}
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 2504,
                                                 "end": 2507
                                             },
@@ -5281,7 +5281,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2533,
                 "end": 2542
             },
@@ -5318,7 +5318,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 2552,
                                 "end": 2555
                             },
@@ -5445,7 +5445,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2581,
                 "end": 2590
             },
@@ -5482,7 +5482,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 2600,
                                 "end": 2603
                             },
@@ -5632,7 +5632,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2637,
                 "end": 2646
             },
@@ -5669,7 +5669,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 2656,
                                 "end": 2659
                             },
@@ -5819,7 +5819,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2693,
                 "end": 2702
             },
@@ -5864,7 +5864,7 @@ async function * gen() {class C extends await { }}
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 2713,
                                                     "end": 2718
                                                 },
@@ -5955,7 +5955,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2737,
                 "end": 2746
             },
@@ -6000,7 +6000,7 @@ async function * gen() {class C extends await { }}
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 2757,
                                                     "end": 2762
                                                 },
@@ -6089,7 +6089,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2781,
                 "end": 2790
             },
@@ -6147,7 +6147,7 @@ async function * gen() {class C extends await { }}
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 2804,
                                                             "end": 2810
                                                         },
@@ -6261,7 +6261,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2833,
                 "end": 2842
             },
@@ -6319,7 +6319,7 @@ async function * gen() {class C extends await { }}
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 2856,
                                                             "end": 2862
                                                         },
@@ -6431,7 +6431,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2885,
                 "end": 2894
             },
@@ -6467,7 +6467,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 2904,
                                 "end": 2907
                             },
@@ -6475,7 +6475,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 2909,
                                     "end": 2914
                                 },
@@ -6549,7 +6549,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2933,
                 "end": 2942
             },
@@ -6585,7 +6585,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 2952,
                                 "end": 2955
                             },
@@ -6593,7 +6593,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 2957,
                                     "end": 2962
                                 },
@@ -6665,7 +6665,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 2981,
                 "end": 2990
             },
@@ -6701,7 +6701,7 @@ async function * gen() {class C extends await { }}
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3000,
                                 "end": 3003
                             },
@@ -6710,7 +6710,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3005,
                                     "end": 3010
                                 },
@@ -6784,7 +6784,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 3029,
                 "end": 3038
             },
@@ -6820,7 +6820,7 @@ async function * gen() {class C extends await { }}
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3048,
                                 "end": 3051
                             },
@@ -6829,7 +6829,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3053,
                                     "end": 3058
                                 },
@@ -6901,7 +6901,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 3077,
                 "end": 3086
             },
@@ -6937,7 +6937,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3096,
                                 "end": 3099
                             },
@@ -6945,7 +6945,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3101,
                                     "end": 3106
                                 },
@@ -7045,7 +7045,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 3131,
                 "end": 3140
             },
@@ -7081,7 +7081,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3150,
                                 "end": 3153
                             },
@@ -7089,7 +7089,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3155,
                                     "end": 3160
                                 },
@@ -7187,7 +7187,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 3185,
                 "end": 3194
             },
@@ -7223,7 +7223,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3204,
                                 "end": 3207
                             },
@@ -7231,7 +7231,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3209,
                                     "end": 3214
                                 },
@@ -7332,7 +7332,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 3239,
                 "end": 3248
             },
@@ -7368,7 +7368,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3258,
                                 "end": 3261
                             },
@@ -7376,7 +7376,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3263,
                                     "end": 3268
                                 },
@@ -7475,7 +7475,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 3293,
                 "end": 3302
             },
@@ -7513,7 +7513,7 @@ async function * gen() {class C extends await { }}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3312,
                                 "end": 3317
                             },
@@ -7532,7 +7532,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 3319,
                                         "end": 3327
                                     },
@@ -7540,7 +7540,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 3327,
                                             "end": 3333
                                         },
@@ -7610,7 +7610,7 @@ async function * gen() {class C extends await { }}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 3344,
                 "end": 3353
             },
@@ -7648,7 +7648,7 @@ async function * gen() {class C extends await { }}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3363,
                                 "end": 3368
                             },
@@ -7667,7 +7667,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 279,
                                     "extendsKeyword": {
                                         "kind": 4194391,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 3370,
                                         "end": 3378
                                     },

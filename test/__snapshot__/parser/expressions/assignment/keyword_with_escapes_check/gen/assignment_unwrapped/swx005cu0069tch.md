@@ -22,7 +22,7 @@ sw\u0069tch = x;
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 16384,
+                "flags": 16464,
                 "start": 0,
                 "end": 11
             },

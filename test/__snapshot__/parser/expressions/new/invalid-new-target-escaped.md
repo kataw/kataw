@@ -21,13 +21,13 @@ new.t\u0061rget
                 "kind": 211,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
                 "targetIdentifier": {
                     "kind": 16594,
-                    "flags": 16384,
+                    "flags": 16480,
                     "start": 4,
                     "end": 15
                 },

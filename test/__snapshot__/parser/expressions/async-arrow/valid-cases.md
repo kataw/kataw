@@ -43,7 +43,7 @@
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 32,
                         "end": 35
                     },
@@ -107,7 +107,7 @@
                                         "kind": 208,
                                         "awaitKeyword": {
                                             "kind": 82196,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 37,
                                             "end": 43
                                         },
@@ -159,7 +159,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 52,
                 "end": 61
             },
@@ -182,7 +182,7 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 78,
                                 "end": 81
                             },
@@ -218,7 +218,7 @@
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 81,
                                         "end": 87
                                     },
@@ -274,7 +274,7 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 94,
                 "end": 103
             },
@@ -297,7 +297,7 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 135,
                                 "end": 138
                             },
@@ -383,7 +383,7 @@
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 138,
                                                             "end": 144
                                                         },
@@ -409,7 +409,7 @@
                                                         "kind": 208,
                                                         "awaitKeyword": {
                                                             "kind": 82196,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 148,
                                                             "end": 154
                                                         },
@@ -563,7 +563,7 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 195,
                                 "end": 198
                             },
@@ -587,7 +587,7 @@
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 198,
                                     "end": 204
                                 },
@@ -627,7 +627,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 221,
                     "end": 224
                 },
@@ -659,7 +659,7 @@
                                     "kind": 208,
                                     "awaitKeyword": {
                                         "kind": 82196,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 226,
                                         "end": 232
                                     },
@@ -707,7 +707,7 @@
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 248,
                 "end": 257
             },
@@ -740,7 +740,7 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 274,
                                 "end": 277
                             },
@@ -757,7 +757,7 @@
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 277,
                                     "end": 283
                                 },
@@ -819,7 +819,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 302,
                     "end": 305
                 },
@@ -843,7 +843,7 @@
                     "kind": 208,
                     "awaitKeyword": {
                         "kind": 82196,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 305,
                         "end": 311
                     },

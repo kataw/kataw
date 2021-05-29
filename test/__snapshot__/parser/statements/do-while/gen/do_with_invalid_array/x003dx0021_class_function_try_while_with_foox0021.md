@@ -22,7 +22,7 @@ do while [catch] =! class function try while with foo!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -38,7 +38,7 @@ do while [catch] =! class function try while with foo!
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 2,
                     "end": 8
                 },
@@ -76,7 +76,7 @@ do while [catch] =! class function try while with foo!
                         "kind": 173,
                         "catchKeyword": {
                             "kind": 4202575,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 10,
                             "end": 15
                         },
@@ -128,7 +128,7 @@ do while [catch] =! class function try while with foo!
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 19,
                         "end": 25
                     },
@@ -166,7 +166,7 @@ do while [catch] =! class function try while with foo!
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 25,
                 "end": 34
             },
@@ -204,7 +204,7 @@ do while [catch] =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 34,
                 "end": 38
             },
@@ -244,7 +244,7 @@ do while [catch] =! class function try while with foo!
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 38,
                 "end": 44
             },
@@ -259,7 +259,7 @@ do while [catch] =! class function try while with foo!
                 "kind": 153,
                 "withKeyword": {
                     "kind": 37757029,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 44,
                     "end": 49
                 },

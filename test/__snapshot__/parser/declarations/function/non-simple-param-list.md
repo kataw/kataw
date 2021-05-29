@@ -35,7 +35,7 @@ function f(x, ...y) { 'use strict' }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -110,7 +110,7 @@ function f(x, ...y) { 'use strict' }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 30,
                 "end": 40
             },
@@ -210,7 +210,7 @@ function f(x, ...y) { 'use strict' }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 64,
                 "end": 74
             },
@@ -308,7 +308,7 @@ function f(x, ...y) { 'use strict' }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 98,
                 "end": 108
             },
@@ -390,7 +390,7 @@ function f(x, ...y) { 'use strict' }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 134,
                 "end": 144
             },
@@ -491,7 +491,7 @@ function f(x, ...y) { 'use strict' }
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 175,
                         "end": 183
                     },
@@ -595,7 +595,7 @@ function f(x, ...y) { 'use strict' }
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 210,
                         "end": 218
                     },
@@ -681,7 +681,7 @@ function f(x, ...y) { 'use strict' }
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 247,
                         "end": 255
                     },

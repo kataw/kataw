@@ -23,7 +23,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -61,7 +61,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 10,
                 "end": 14
             },
@@ -92,7 +92,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 25,
                                     "end": 34
                                 },
@@ -118,7 +118,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 38,
                                                     "end": 44
                                                 },

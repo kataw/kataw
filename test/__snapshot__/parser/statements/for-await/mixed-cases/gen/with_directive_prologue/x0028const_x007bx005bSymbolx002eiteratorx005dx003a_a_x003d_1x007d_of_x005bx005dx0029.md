@@ -29,7 +29,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -106,7 +106,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 41,
                                 "end": 45
                             },
@@ -201,7 +201,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 85,
                                 "end": 88
                             },

@@ -19,7 +19,7 @@ if (x) var foo = 1; let foo = 1;
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -36,7 +36,7 @@ if (x) var foo = 1; let foo = 1;
                 "declareKeyword": null,
                 "varKeyword": {
                     "kind": 37757002,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 10
                 },

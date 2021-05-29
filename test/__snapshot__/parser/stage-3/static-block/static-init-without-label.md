@@ -49,7 +49,7 @@ label: while(false) {
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 6
             },
@@ -57,13 +57,13 @@ label: while(false) {
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 12
                 },
                 "expression": {
                     "kind": 205586437,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 13,
                     "end": 18
                 },
@@ -78,7 +78,7 @@ label: while(false) {
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 1,
+                                    "flags": 81,
                                     "start": 21,
                                     "end": 29
                                 },
@@ -111,7 +111,7 @@ label: while(false) {
                                                                 "kind": 150,
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
-                                                                    "flags": 1,
+                                                                    "flags": 81,
                                                                     "start": 46,
                                                                     "end": 58
                                                                 },

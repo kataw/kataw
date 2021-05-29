@@ -49,7 +49,7 @@ a * x ? b : c ? d : e
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
@@ -63,7 +63,7 @@ a * x ? b : c ? d : e
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 9,
                     "end": 11
                 },
@@ -79,7 +79,7 @@ a * x ? b : c ? d : e
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 13,
                         "end": 15
                     },
@@ -93,7 +93,7 @@ a * x ? b : c ? d : e
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 17,
                         "end": 19
                     },

@@ -42,7 +42,7 @@ function *f() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 13,
                 "end": 22
             },
@@ -75,7 +75,7 @@ function *f() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 28,
                                 "end": 36
                             },
@@ -193,7 +193,7 @@ function *f() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 76,
                 "end": 85
             },
@@ -231,7 +231,7 @@ function *f() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 92,
                                 "end": 100
                             },

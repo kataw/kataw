@@ -19,7 +19,7 @@ for (obj?.foo.bar in {}) ;
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -27,7 +27,7 @@ for (obj?.foo.bar in {}) ;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 8,
                     "end": 10
                 },

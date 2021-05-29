@@ -37,7 +37,7 @@
                                 },
                                 "right": {
                                     "kind": 205586437,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 4,
                                     "end": 10
                                 },

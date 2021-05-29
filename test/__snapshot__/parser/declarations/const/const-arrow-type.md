@@ -27,7 +27,7 @@ const fn = async (a?: any): Promise<void> => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -50,7 +50,7 @@ const fn = async (a?: any): Promise<void> => {};
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 41,
                                 "end": 44
                             },

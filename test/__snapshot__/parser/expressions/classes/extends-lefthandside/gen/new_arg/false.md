@@ -24,13 +24,13 @@ new false
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
                 "expression": {
                     "kind": 205586437,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 3,
                     "end": 9
                 },

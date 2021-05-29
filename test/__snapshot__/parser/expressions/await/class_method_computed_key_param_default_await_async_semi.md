@@ -32,7 +32,7 @@ async function f(){
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -65,7 +65,7 @@ async function f(){
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 76,
                                     "end": 79
                                 },
@@ -92,7 +92,7 @@ async function f(){
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 29,
                                                 "end": 35
                                             },

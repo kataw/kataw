@@ -68,7 +68,7 @@
                                                 },
                                                 "right": {
                                                     "kind": 24752947,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 5,
                                                     "end": 10
                                                 },
@@ -94,7 +94,7 @@
                                 },
                                 "right": {
                                     "kind": 24752947,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 18
                                 },

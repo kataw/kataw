@@ -30,7 +30,7 @@ c.m = n => n * 3;
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -69,7 +69,7 @@ c.m = n => n * 3;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 84,
                                     "end": 87
                                 },
@@ -143,7 +143,7 @@ c.m = n => n * 3;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 1,
+                "flags": 65,
                 "start": 96,
                 "end": 103
             },
@@ -166,7 +166,7 @@ c.m = n => n * 3;
                             "kind": 210,
                             "newKeyword": {
                                 "kind": 138477661,
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 107,
                                 "end": 111
                             },
@@ -239,7 +239,7 @@ c.m = n => n * 3;
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 124,
                         "end": 127
                     },

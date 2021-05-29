@@ -43,7 +43,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 1,
                                     "end": 3
                                 },
@@ -154,7 +154,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 27,
                         "end": 29
                     },
@@ -162,7 +162,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 24,
                             "end": 26
                         },
@@ -170,7 +170,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 21,
                                 "end": 23
                             },
@@ -178,7 +178,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -328,7 +328,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 51,
                         "end": 53
                     },
@@ -336,7 +336,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 48,
                             "end": 50
                         },
@@ -344,7 +344,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 45,
                                 "end": 47
                             },
@@ -352,7 +352,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 42,
                                     "end": 44
                                 },
@@ -530,7 +530,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 78,
                         "end": 80
                     },
@@ -538,7 +538,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 75,
                             "end": 77
                         },
@@ -546,7 +546,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 72,
                                 "end": 74
                             },
@@ -554,7 +554,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 69,
                                     "end": 71
                                 },
@@ -562,7 +562,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 64,
                                         "end": 66
                                     },
@@ -768,7 +768,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 90,
                                         "end": 92
                                     },
@@ -883,7 +883,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 119,
                         "end": 121
                     },
@@ -891,7 +891,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 116,
                             "end": 118
                         },
@@ -901,7 +901,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 112,
                                     "end": 114
                                 },
@@ -909,7 +909,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 109,
                                         "end": 111
                                     },
@@ -1063,7 +1063,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 145,
                         "end": 147
                     },
@@ -1071,7 +1071,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 142,
                             "end": 144
                         },
@@ -1079,7 +1079,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 139,
                                 "end": 141
                             },
@@ -1087,7 +1087,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 136,
                                     "end": 138
                                 },
@@ -1271,7 +1271,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 174,
                         "end": 176
                     },
@@ -1279,7 +1279,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 171,
                             "end": 173
                         },
@@ -1287,7 +1287,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 168,
                                 "end": 170
                             },
@@ -1297,7 +1297,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 164,
                                         "end": 166
                                     },
@@ -1305,7 +1305,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 159,
                                             "end": 161
                                         },

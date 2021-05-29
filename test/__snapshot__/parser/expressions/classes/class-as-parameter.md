@@ -34,7 +34,7 @@ class A {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -73,7 +73,7 @@ class A {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 6,
                 "end": 16
             },
@@ -123,7 +123,7 @@ class A {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 32,
                                 "end": 41
                             },
@@ -314,7 +314,7 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 1,
+                "flags": 81,
                 "start": 115,
                 "end": 122
             },

@@ -55,7 +55,7 @@
                         "catchClause": null,
                         "finallyKeyword": {
                             "kind": 37757016,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 12
                         },
@@ -109,7 +109,7 @@
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 17,
                                                 "end": 23
                                             },

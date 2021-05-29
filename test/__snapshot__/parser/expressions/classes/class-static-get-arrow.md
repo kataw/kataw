@@ -26,7 +26,7 @@
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 1,
                             "end": 6
                         },
@@ -65,7 +65,7 @@
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 20,
                                                         "end": 22
                                                     },
@@ -75,7 +75,7 @@
                                                     "returnType": null,
                                                     "contents": {
                                                         "kind": 138477575,
-                                                        "flags": 0,
+                                                        "flags": 96,
                                                         "start": 22,
                                                         "end": 26
                                                     },

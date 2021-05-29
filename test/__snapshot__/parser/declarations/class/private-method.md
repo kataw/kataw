@@ -47,7 +47,7 @@ class Foo {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -284,7 +284,7 @@ class Foo {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 76,
                                                         "end": 78
                                                     },
@@ -368,7 +368,7 @@ class Foo {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 110,
                                                         "end": 112
                                                     },
@@ -376,7 +376,7 @@ class Foo {
                                                         "kind": 205,
                                                         "chainToken": {
                                                             "kind": 393240,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 105,
                                                             "end": 107
                                                         },
@@ -386,7 +386,7 @@ class Foo {
                                                                 "kind": 205,
                                                                 "chainToken": {
                                                                     "kind": 393240,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 94,
                                                                     "end": 96
                                                                 },
@@ -712,7 +712,7 @@ class Foo {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 171,
                                                         "end": 173
                                                     },
@@ -801,7 +801,7 @@ class Foo {
                                                                 "kind": 205,
                                                                 "chainToken": {
                                                                     "kind": 393240,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 225,
                                                                     "end": 227
                                                                 },
@@ -811,7 +811,7 @@ class Foo {
                                                                         "kind": 205,
                                                                         "chainToken": {
                                                                             "kind": 393240,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 214,
                                                                             "end": 216
                                                                         },
@@ -819,7 +819,7 @@ class Foo {
                                                                             "kind": 205,
                                                                             "chainToken": {
                                                                                 "kind": 393240,
-                                                                                "flags": 0,
+                                                                                "flags": 64,
                                                                                 "start": 206,
                                                                                 "end": 208
                                                                             },
@@ -829,7 +829,7 @@ class Foo {
                                                                                     "kind": 205,
                                                                                     "chainToken": {
                                                                                         "kind": 393240,
-                                                                                        "flags": 0,
+                                                                                        "flags": 64,
                                                                                         "start": 195,
                                                                                         "end": 197
                                                                                     },
@@ -1262,7 +1262,7 @@ class Foo {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 305,
                                                         "end": 307
                                                     },
@@ -1351,7 +1351,7 @@ class Foo {
                                                                 "kind": 205,
                                                                 "chainToken": {
                                                                     "kind": 393240,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 362,
                                                                     "end": 364
                                                                 },
@@ -1361,7 +1361,7 @@ class Foo {
                                                                         "kind": 205,
                                                                         "chainToken": {
                                                                             "kind": 393240,
-                                                                            "flags": 0,
+                                                                            "flags": 64,
                                                                             "start": 351,
                                                                             "end": 353
                                                                         },
@@ -1369,7 +1369,7 @@ class Foo {
                                                                             "kind": 205,
                                                                             "chainToken": {
                                                                                 "kind": 393240,
-                                                                                "flags": 0,
+                                                                                "flags": 64,
                                                                                 "start": 342,
                                                                                 "end": 344
                                                                             },
@@ -1379,7 +1379,7 @@ class Foo {
                                                                                     "kind": 205,
                                                                                     "chainToken": {
                                                                                         "kind": 393240,
-                                                                                        "flags": 0,
+                                                                                        "flags": 64,
                                                                                         "start": 331,
                                                                                         "end": 333
                                                                                     },

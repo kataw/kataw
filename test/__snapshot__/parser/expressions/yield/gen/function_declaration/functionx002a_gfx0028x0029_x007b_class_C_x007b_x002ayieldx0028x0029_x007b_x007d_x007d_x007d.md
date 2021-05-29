@@ -24,7 +24,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -57,7 +57,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 29
                             },
@@ -95,7 +95,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 37,
                                                 "end": 43
                                             },

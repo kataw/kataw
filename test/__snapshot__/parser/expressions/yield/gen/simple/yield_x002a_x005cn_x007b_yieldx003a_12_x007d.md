@@ -92,7 +92,7 @@ yield * \n { yield: 12 }
                         ],
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 18,
                             "end": 19
                         },

@@ -24,7 +24,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1,
                         "end": 6
                     },
@@ -82,7 +82,7 @@
                                                             "kind": 208,
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 21,
                                                                 "end": 27
                                                             },

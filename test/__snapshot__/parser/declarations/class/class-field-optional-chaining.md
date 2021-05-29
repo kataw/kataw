@@ -40,7 +40,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -145,7 +145,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 26,
                                                         "end": 28
                                                     },

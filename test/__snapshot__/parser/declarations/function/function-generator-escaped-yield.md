@@ -21,7 +21,7 @@ function *foo() { (x = \u0079ield) }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -77,7 +77,7 @@ function *foo() { (x = \u0079ield) }
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 16384,
+                                            "flags": 16448,
                                             "start": 22,
                                             "end": 33
                                         },

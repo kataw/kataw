@@ -38,7 +38,7 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2,
                     "end": 4
                 },
@@ -62,7 +62,7 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 7,
                     "end": 8
                 },
@@ -70,7 +70,7 @@ a ? b : (): string => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 15,
                         "end": 18
                     },
@@ -139,7 +139,7 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 31,
                     "end": 33
                 },
@@ -167,7 +167,7 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 42,
                     "end": 43
                 },
@@ -175,7 +175,7 @@ a ? b : (): string => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 50,
                         "end": 53
                     },
@@ -244,7 +244,7 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 66,
                     "end": 68
                 },
@@ -268,7 +268,7 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 71,
                     "end": 72
                 },
@@ -276,7 +276,7 @@ a ? b : (): string => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 79,
                         "end": 82
                     },
@@ -347,7 +347,7 @@ a ? b : (): string => {}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 100,
                     "end": 103
                 },
@@ -414,7 +414,7 @@ a ? b : (): string => {}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 119,
                     "end": 122
                 },
@@ -465,7 +465,7 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 129,
                     "end": 131
                 },
@@ -479,7 +479,7 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 133,
                     "end": 135
                 },
@@ -515,7 +515,7 @@ a ? b : (): string => {}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 146,
                     "end": 149
                 },

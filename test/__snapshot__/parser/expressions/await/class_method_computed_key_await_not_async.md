@@ -21,7 +21,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 39,
                     "end": 42
                 },
@@ -48,7 +48,7 @@
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 7,
                                 "end": 13
                             },

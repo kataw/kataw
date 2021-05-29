@@ -24,7 +24,7 @@ class C { constructor() { var f = function*() { super(); } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -83,7 +83,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 25,
                                                     "end": 29
                                                 },
@@ -107,7 +107,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                 "asyncKeyword": null,
                                                                 "functionKeyword": {
                                                                     "kind": 37822554,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 33,
                                                                     "end": 42
                                                                 },
@@ -140,7 +140,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                                         "kind": 225,
                                                                                         "superKeyword": {
                                                                                             "kind": 4259935,
-                                                                                            "flags": 0,
+                                                                                            "flags": 96,
                                                                                             "start": 47,
                                                                                             "end": 53
                                                                                         },

@@ -27,7 +27,7 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1,
                         "end": 6
                     },
@@ -46,7 +46,7 @@
                             "kind": 279,
                             "extendsKeyword": {
                                 "kind": 4194391,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 8,
                                 "end": 16
                             },

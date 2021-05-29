@@ -28,7 +28,7 @@ async function f() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -61,7 +61,7 @@ async function f() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 20,
                                 "end": 28
                             },

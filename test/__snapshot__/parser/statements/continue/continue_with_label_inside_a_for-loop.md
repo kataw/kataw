@@ -37,7 +37,7 @@ foo: for (;;) continue foo
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 3,
                 "end": 4
             },
@@ -45,7 +45,7 @@ foo: for (;;) continue foo
                 "kind": 165,
                 "forKeyword": {
                     "kind": 37757017,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 4,
                     "end": 8
                 },
@@ -56,7 +56,7 @@ foo: for (;;) continue foo
                     "kind": 172,
                     "continueKeyword": {
                         "kind": 37757009,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 13,
                         "end": 22
                     },

@@ -29,7 +29,7 @@
                     "kind": 129,
                     "member": {
                         "kind": 4276321,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 2,
                         "end": 6
                     },

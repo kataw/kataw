@@ -31,7 +31,7 @@ function yield() {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 13,
                 "end": 22
             },

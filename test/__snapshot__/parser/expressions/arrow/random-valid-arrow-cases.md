@@ -77,7 +77,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 14,
                     "end": 17
                 },
@@ -108,7 +108,7 @@ foo((x, y) => {});
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 6,
                                             "end": 9
                                         },
@@ -177,7 +177,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 29,
                     "end": 32
                 },
@@ -280,7 +280,7 @@ foo((x, y) => {});
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 50,
                                             "end": 53
                                         },
@@ -347,7 +347,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 61,
                     "end": 64
                 },
@@ -359,7 +359,7 @@ foo((x, y) => {});
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 67,
                         "end": 70
                     },
@@ -396,7 +396,7 @@ foo((x, y) => {});
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 76,
                             "end": 79
                         },
@@ -439,7 +439,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 89,
                     "end": 92
                 },
@@ -530,7 +530,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 113,
                     "end": 116
                 },
@@ -569,7 +569,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 132,
                     "end": 135
                 },
@@ -600,7 +600,7 @@ foo((x, y) => {});
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 142,
                         "end": 145
                     },
@@ -713,7 +713,7 @@ foo((x, y) => {});
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 1,
+                    "flags": 97,
                     "start": 156,
                     "end": 161
                 },
@@ -723,7 +723,7 @@ foo((x, y) => {});
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 165,
                             "end": 168
                         },
@@ -768,7 +768,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 180,
                     "end": 183
                 },
@@ -828,7 +828,7 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 191,
                                 "end": 194
                             },
@@ -905,7 +905,7 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 219,
                                 "end": 222
                             },
@@ -977,7 +977,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 238,
                     "end": 241
                 },
@@ -1083,7 +1083,7 @@ foo((x, y) => {});
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 261,
                                             "end": 264
                                         },
@@ -1166,7 +1166,7 @@ foo((x, y) => {});
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 280,
                         "end": 283
                     },
@@ -1225,7 +1225,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 294,
                     "end": 297
                 },
@@ -1308,7 +1308,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 322,
                     "end": 325
                 },
@@ -1405,7 +1405,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 344,
                     "end": 347
                 },
@@ -1507,7 +1507,7 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 367,
                                 "end": 370
                             },
@@ -1617,7 +1617,7 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 395,
                                 "end": 398
                             },
@@ -1741,7 +1741,7 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 418,
                                 "end": 421
                             },
@@ -1845,7 +1845,7 @@ foo((x, y) => {});
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 437,
                             "end": 440
                         },
@@ -1883,7 +1883,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 449,
                     "end": 452
                 },
@@ -1957,7 +1957,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 480,
                     "end": 483
                 },
@@ -2062,7 +2062,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 491,
                     "end": 494
                 },
@@ -2113,7 +2113,7 @@ foo((x, y) => {});
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 509,
                                     "end": 512
                                 },
@@ -2150,7 +2150,7 @@ foo((x, y) => {});
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 514,
                                                     "end": 521
                                                 },
@@ -2268,7 +2268,7 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 553,
                                 "end": 556
                             },
@@ -2333,7 +2333,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 567,
                     "end": 570
                 },
@@ -2380,7 +2380,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 584,
                     "end": 587
                 },
@@ -2443,7 +2443,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 604,
                     "end": 607
                 },
@@ -2526,7 +2526,7 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 633,
                     "end": 635
                 },

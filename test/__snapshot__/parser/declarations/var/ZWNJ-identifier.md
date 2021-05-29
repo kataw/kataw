@@ -23,7 +23,7 @@ var $\u200C = 3;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -68,7 +68,7 @@ var $\u200C = 3;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 10,
                 "end": 14
             },
@@ -113,7 +113,7 @@ var $\u200C = 3;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 27,
                 "end": 31
             },

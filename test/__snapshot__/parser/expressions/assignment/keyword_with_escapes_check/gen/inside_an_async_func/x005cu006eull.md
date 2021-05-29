@@ -22,7 +22,7 @@ async () => {  \u006eull = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -47,7 +47,7 @@ async () => {  \u006eull = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 138477575,
-                                    "flags": 16384,
+                                    "flags": 16480,
                                     "start": 13,
                                     "end": 24
                                 },

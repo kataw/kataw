@@ -27,7 +27,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -50,7 +50,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 44,
                                 "end": 47
                             },
@@ -80,7 +80,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 71,
                                                         "end": 74
                                                     },

@@ -24,7 +24,7 @@ x => ok x => ok
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 1,
                     "end": 4
                 },
@@ -61,7 +61,7 @@ x => ok x => ok
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 9,
                     "end": 12
                 },

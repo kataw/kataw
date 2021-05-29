@@ -55,7 +55,7 @@
                         "catchClause": null,
                         "finallyKeyword": {
                             "kind": 37757016,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 12
                         },
@@ -105,7 +105,7 @@
                                     "kind": 154,
                                     "whileKeyword": {
                                         "kind": 37757028,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 17,
                                         "end": 23
                                     },
@@ -120,7 +120,7 @@
                                         "kind": 159,
                                         "tryKeyword": {
                                             "kind": 37757027,
-                                            "flags": 0,
+                                            "flags": 80,
                                             "start": 23,
                                             "end": 27
                                         },
@@ -164,7 +164,7 @@
                                     "kind": 120,
                                     "expression": {
                                         "kind": 4276321,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 27,
                                         "end": 32
                                     },

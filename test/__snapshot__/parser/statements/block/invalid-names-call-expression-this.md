@@ -32,7 +32,7 @@
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -42,7 +42,7 @@
                                         "returnType": null,
                                         "contents": {
                                             "kind": 4276321,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 8,
                                             "end": 13
                                         },

@@ -24,7 +24,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -57,7 +57,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 29
                             },
@@ -93,7 +93,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "kind": 160,
                                             "switchKeyword": {
                                                 "kind": 37757024,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 37,
                                                 "end": 44
                                             },
@@ -112,7 +112,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                         "kind": 175,
                                                         "caseKeyword": {
                                                             "kind": 4194382,
-                                                            "flags": 0,
+                                                            "flags": 80,
                                                             "start": 50,
                                                             "end": 55
                                                         },
@@ -120,7 +120,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 55,
                                                                 "end": 61
                                                             },
@@ -148,7 +148,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 150,
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
-                                                                    "flags": 0,
+                                                                    "flags": 80,
                                                                     "start": 69,
                                                                     "end": 75
                                                                 },

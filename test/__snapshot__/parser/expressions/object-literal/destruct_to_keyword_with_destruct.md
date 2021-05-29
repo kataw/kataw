@@ -55,7 +55,7 @@ s = {s: true = x} = x
                                         "kind": 125,
                                         "left": {
                                             "kind": 24752947,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 12
                                         },

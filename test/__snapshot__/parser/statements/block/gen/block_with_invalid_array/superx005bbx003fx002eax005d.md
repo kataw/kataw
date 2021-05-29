@@ -63,7 +63,7 @@
                             "kind": 173,
                             "catchKeyword": {
                                 "kind": 4202575,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 3,
                                 "end": 8
                             },
@@ -109,7 +109,7 @@
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 9,
                         "end": 15
                     },
@@ -121,7 +121,7 @@
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 17,
                         "end": 19
                     },

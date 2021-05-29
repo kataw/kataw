@@ -28,7 +28,7 @@ switch (x) {
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -47,7 +47,7 @@ switch (x) {
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 12,
                             "end": 19
                         },
@@ -71,7 +71,7 @@ switch (x) {
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 34,
                                     "end": 43
                                 },

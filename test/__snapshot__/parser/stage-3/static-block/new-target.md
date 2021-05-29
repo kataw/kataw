@@ -36,7 +36,7 @@ class Base {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -98,7 +98,7 @@ class Base {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 4276321,
-                                                            "flags": 1,
+                                                            "flags": 97,
                                                             "start": 30,
                                                             "end": 39
                                                         },
@@ -125,7 +125,7 @@ class Base {
                                                         "decorators": null,
                                                         "classKeyword": {
                                                             "kind": 37822544,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 45,
                                                             "end": 51
                                                         },
@@ -165,7 +165,7 @@ class Base {
                                                                                     "kind": 271,
                                                                                     "arrowToken": {
                                                                                         "kind": 10,
-                                                                                        "flags": 0,
+                                                                                        "flags": 64,
                                                                                         "start": 75,
                                                                                         "end": 78
                                                                                     },
@@ -187,7 +187,7 @@ class Base {
                                                                                                             "kind": 129,
                                                                                                             "member": {
                                                                                                                 "kind": 4276321,
-                                                                                                                "flags": 1,
+                                                                                                                "flags": 97,
                                                                                                                 "start": 80,
                                                                                                                 "end": 93
                                                                                                             },
@@ -213,13 +213,13 @@ class Base {
                                                                                                             "kind": 211,
                                                                                                             "newKeyword": {
                                                                                                                 "kind": 138477661,
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 99,
                                                                                                                 "end": 103
                                                                                                             },
                                                                                                             "targetIdentifier": {
                                                                                                                 "kind": 16594,
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 104,
                                                                                                                 "end": 110
                                                                                                             },

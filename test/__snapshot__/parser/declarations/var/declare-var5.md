@@ -33,7 +33,7 @@ declare var x3: ?(() => (() => number));
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 7,
                 "end": 11
             },

@@ -22,7 +22,7 @@ for (let x in {}) { var x; }
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -81,7 +81,7 @@ for (let x in {}) { var x; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 19,
                                 "end": 23
                             },

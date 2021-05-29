@@ -19,7 +19,7 @@ for(delete((1)?y:x in y) in z)x
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -51,7 +51,7 @@ for(delete((1)?y:x in y) in z)x
                         },
                         "questionToken": {
                             "kind": 134217750,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 14,
                             "end": 15
                         },
@@ -65,7 +65,7 @@ for(delete((1)?y:x in y) in z)x
                         },
                         "colonToken": {
                             "kind": 21,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 16,
                             "end": 17
                         },

@@ -32,7 +32,7 @@ class Foo {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -108,7 +108,7 @@ class Foo {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 4276321,
-                                                        "flags": 1,
+                                                        "flags": 97,
                                                         "start": 41,
                                                         "end": 50
                                                     },

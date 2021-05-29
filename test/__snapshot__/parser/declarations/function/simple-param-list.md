@@ -47,7 +47,7 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -129,7 +129,7 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 35,
                 "end": 45
             },
@@ -209,7 +209,7 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 71,
                 "end": 81
             },
@@ -309,7 +309,7 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 1,
+                "flags": 65,
                 "start": 106,
                 "end": 116
             },

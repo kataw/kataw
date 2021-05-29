@@ -45,7 +45,7 @@ async function f() { class C { aaa = await } }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -78,7 +78,7 @@ async function f() { class C { aaa = await } }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 20,
                                 "end": 26
                             },
@@ -117,7 +117,7 @@ async function f() { class C { aaa = await } }
                                                 "kind": 208,
                                                 "awaitKeyword": {
                                                     "kind": 82196,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 36,
                                                     "end": 42
                                                 },

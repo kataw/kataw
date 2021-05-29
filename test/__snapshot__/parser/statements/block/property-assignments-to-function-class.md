@@ -35,7 +35,7 @@ FooBar.bar = 1;
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 1,
                             "end": 7
                         },
@@ -118,7 +118,7 @@ FooBar.bar = 1;
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 1,
+                            "flags": 65,
                             "start": 27,
                             "end": 34
                         },
@@ -141,7 +141,7 @@ FooBar.bar = 1;
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 44,
                                             "end": 47
                                         },
@@ -234,7 +234,7 @@ FooBar.bar = 1;
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 1,
+                            "flags": 65,
                             "start": 65,
                             "end": 75
                         },

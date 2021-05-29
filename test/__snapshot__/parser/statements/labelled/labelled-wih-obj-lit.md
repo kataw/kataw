@@ -45,7 +45,7 @@ a: { a: x }
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 1,
                 "end": 2
             },
@@ -84,7 +84,7 @@ a: { a: x }
                             ],
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 6,
                                 "end": 7
                             },

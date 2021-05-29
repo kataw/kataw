@@ -21,7 +21,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -59,7 +59,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 41,
                                     "end": 44
                                 },
@@ -122,7 +122,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 31,
                                                                 "end": 37
                                                             },

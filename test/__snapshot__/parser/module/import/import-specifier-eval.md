@@ -35,7 +35,7 @@ import {eval as o} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -43,7 +43,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 13,
                     "end": 18
                 },
@@ -107,7 +107,7 @@ import {eval as o} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 25,
                 "end": 33
             },
@@ -115,7 +115,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 45,
                     "end": 50
                 },
@@ -179,7 +179,7 @@ import {eval as o} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 57,
                 "end": 65
             },
@@ -187,7 +187,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 77,
                     "end": 82
                 },
@@ -263,7 +263,7 @@ import {eval as o} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 89,
                 "end": 97
             },
@@ -271,7 +271,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 115,
                     "end": 120
                 },
@@ -347,7 +347,7 @@ import {eval as o} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 127,
                 "end": 135
             },
@@ -355,7 +355,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 152,
                     "end": 157
                 },
@@ -419,7 +419,7 @@ import {eval as o} from 'foo';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 1,
+                "flags": 81,
                 "start": 164,
                 "end": 172
             },
@@ -427,7 +427,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 184,
                     "end": 189
                 },

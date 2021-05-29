@@ -37,7 +37,7 @@ label: const x = 1;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 6
             },
@@ -62,7 +62,7 @@ label: const x = 1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 6,
                 "end": 12
             },

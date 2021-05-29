@@ -27,7 +27,7 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 2,
                     "end": 5
                 },
@@ -39,7 +39,7 @@
                     "kind": 208,
                     "awaitKeyword": {
                         "kind": 82196,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 5,
                         "end": 11
                     },

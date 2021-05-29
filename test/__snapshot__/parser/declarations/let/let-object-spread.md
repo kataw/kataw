@@ -58,7 +58,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 17,
                                                         "end": 20
                                                     },
@@ -78,7 +78,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 22,
                                                         "end": 26
                                                     },
@@ -129,7 +129,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 37,
                                                         "end": 41
                                                     },
@@ -164,7 +164,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 47,
                                                         "end": 50
                                                     },
@@ -223,7 +223,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 64,
                                                         "end": 68
                                                     },
@@ -282,7 +282,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 82,
                                                         "end": 86
                                                     },
@@ -302,7 +302,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 88,
                                                         "end": 92
                                                     },
@@ -338,7 +338,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 100,
                                                         "end": 104
                                                     },
@@ -358,7 +358,7 @@ let tests = [
                                                     "kind": 224,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 106,
                                                         "end": 110
                                                     },

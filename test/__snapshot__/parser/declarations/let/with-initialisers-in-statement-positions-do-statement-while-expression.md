@@ -20,7 +20,7 @@ do let x = 1; while (false)
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -75,13 +75,13 @@ do let x = 1; while (false)
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 13,
                 "end": 19
             },
             "expression": {
                 "kind": 205586437,
-                "flags": 0,
+                "flags": 96,
                 "start": 21,
                 "end": 26
             },

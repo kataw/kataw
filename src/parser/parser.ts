@@ -463,6 +463,7 @@ function parseSwitchStatement(parser: ParserState, context: Context, scope: Scop
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.SwitchKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const openParenExists = consume(
@@ -509,6 +510,7 @@ function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState
         parser,
         context | Context.AllowRegExp,
         SyntaxKind.CaseKeyword,
+        NodeFlags.IsStatement,
         pos
       );
       const expression = parseExpression(parser, context);
@@ -523,6 +525,7 @@ function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState
         parser,
         context | Context.AllowRegExp,
         SyntaxKind.DefaultKeyword,
+        NodeFlags.IsStatement,
         pos
       );
       if (hasDefaultCase) {
@@ -577,6 +580,7 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.TryKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const block = parseBlockStatement(parser, context, {
@@ -611,6 +615,7 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.CatchKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   // Keep shape of node to avoid degrading performance.
@@ -681,6 +686,7 @@ function parseDebuggerStatement(parser: ParserState, context: Context): Debugger
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.DebuggerKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   parseSemicolon(parser, context);
@@ -703,6 +709,7 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.BreakKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   if (canParseSemicolon(parser)) {
@@ -757,7 +764,13 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
     );
   }
   let label = null;
-  const continueToken = consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.ContinueKeyword, pos);
+  const continueToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context,
+    SyntaxKind.ContinueKeyword,
+    NodeFlags.IsStatement,
+    pos
+  );
   if (!canParseSemicolon(parser)) {
     label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
   }
@@ -774,6 +787,7 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.IfKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const openParenExists = consume(
@@ -844,6 +858,7 @@ function parseWhileStatement(parser: ParserState, context: Context, scope: Scope
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.WhileKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const openParenExists = consume(
@@ -882,6 +897,7 @@ function parseDoWhileStatement(parser: ParserState, context: Context, scope: Sco
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.DoKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const statement = parseStatement(
@@ -927,6 +943,7 @@ function parseWithStatement(parser: ParserState, context: Context, scope: ScopeS
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.WithKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const openParenExists = consume(
@@ -967,6 +984,7 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.ThrowKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   if (parser.nodeFlags & NodeFlags.NewLine) {
@@ -1001,6 +1019,7 @@ function parseReturnStatement(parser: ParserState, context: Context): ReturnStat
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.ReturnKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const expression = canParseSemicolon(parser) ? null : parseExpression(parser, context);
@@ -1122,6 +1141,7 @@ function parseForStatement(
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.ForKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   let destructible!: DestructibleKind;
@@ -2308,7 +2328,13 @@ function parsePrimaryExpression(
       return parseFunctionExpression(parser, context, inNewExpression, LeftHandSideContext);
     }
     if (parser.token === SyntaxKind.ThisKeyword) {
-      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.ThisKeyword, parser.curPos);
+      return consumeKeywordAndCheckForEscapeSequence(
+        parser,
+        context,
+        SyntaxKind.ThisKeyword,
+        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        parser.curPos
+      );
     }
 
     if (context & (Context.AwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
@@ -2399,11 +2425,29 @@ function parsePrimaryExpression(
     case SyntaxKind.ClassKeyword:
       return parseClassExpression(parser, context);
     case SyntaxKind.NullKeyword:
-      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.NullKeyword, parser.curPos);
+      return consumeKeywordAndCheckForEscapeSequence(
+        parser,
+        context,
+        SyntaxKind.NullKeyword,
+        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        parser.curPos
+      );
     case SyntaxKind.TrueKeyword:
-      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.TrueKeyword, parser.curPos);
+      return consumeKeywordAndCheckForEscapeSequence(
+        parser,
+        context,
+        SyntaxKind.TrueKeyword,
+        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        parser.curPos
+      );
     case SyntaxKind.FalseKeyword:
-      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.FalseKeyword, parser.curPos);
+      return consumeKeywordAndCheckForEscapeSequence(
+        parser,
+        context,
+        SyntaxKind.FalseKeyword,
+        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        parser.curPos
+      );
     case SyntaxKind.LeftBracket:
       return parseArrayLiteral(parser, context);
     case SyntaxKind.LeftBrace:
@@ -3263,10 +3307,17 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.NewKeyword,
+    NodeFlags.ExpressionNode,
     pos
   );
   if (consumeOpt(parser, context, SyntaxKind.Period)) {
-    const targetKeyword = consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.Target, parser.curPos);
+    const targetKeyword = consumeKeywordAndCheckForEscapeSequence(
+      parser,
+      context,
+      SyntaxKind.Target,
+      NodeFlags.ExpressionNode,
+      parser.curPos
+    );
     if (!targetKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -5713,6 +5764,7 @@ function parseImportDeclaration(
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.ImportKeyword,
+    NodeFlags.IsStatement,
     pos
   );
 
@@ -5929,6 +5981,7 @@ function parseExportDeclaration(
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.ExportKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   let declaration: any = null;
@@ -6133,6 +6186,7 @@ function parseExportDefault(
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.DefaultKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   let declaration!: StatementNode | ExpressionNode | any;
@@ -6664,6 +6718,7 @@ function parseVariableStatement(
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.VarKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   const declarationList = parseVariableDeclarationList(parser, context, /* inForStatement */ false, scope, type);
@@ -7789,6 +7844,7 @@ function parseClassDeclaration(
     parser,
     context | Context.AllowRegExp,
     SyntaxKind.ClassKeyword,
+    NodeFlags.IsStatement,
     pos
   );
   context = (context | Context.InConstructor | Context.Strict) ^ Context.InConstructor;
@@ -7894,6 +7950,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
       parser,
       context | Context.AllowRegExp,
       SyntaxKind.ExtendsKeyword,
+      NodeFlags.IsStatement,
       pos
     );
 
@@ -8467,7 +8524,13 @@ export function parseImportMetaOrCall(parser: ParserState, context: Context, inN
 
 function parseSuperExpression(parser: ParserState, context: Context): Super | any {
   const pos = parser.curPos;
-  const superKeyword = consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.SuperKeyword, pos);
+  const superKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context,
+    SyntaxKind.SuperKeyword,
+    NodeFlags.ExpressionNode,
+    pos
+  );
 
   if (parser.token === SyntaxKind.LeftParen) {
     if ((context & Context.SuperCall) === 0) {

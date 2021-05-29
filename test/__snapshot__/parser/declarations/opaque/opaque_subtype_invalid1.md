@@ -70,7 +70,7 @@ opaque Ident: Type = SuperType;
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 12,
                 "end": 13
             },

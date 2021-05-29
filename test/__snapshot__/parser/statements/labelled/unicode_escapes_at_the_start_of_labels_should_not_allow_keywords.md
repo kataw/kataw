@@ -19,7 +19,7 @@ async () => { \u{61}wait: x }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -44,7 +44,7 @@ async () => { \u{61}wait: x }
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 8192,
+                                    "flags": 8256,
                                     "start": 13,
                                     "end": 24
                                 },
@@ -70,7 +70,7 @@ async () => { \u{61}wait: x }
                             ],
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 24,
                                 "end": 25
                             },

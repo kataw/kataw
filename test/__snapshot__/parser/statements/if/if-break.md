@@ -19,7 +19,7 @@ if(0) break;
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -35,7 +35,7 @@ if(0) break;
                 "kind": 150,
                 "breakKeyword": {
                     "kind": 37757005,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 5,
                     "end": 11
                 },

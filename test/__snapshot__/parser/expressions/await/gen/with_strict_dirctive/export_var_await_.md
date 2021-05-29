@@ -31,7 +31,7 @@
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 0,
+                "flags": 80,
                 "start": 13,
                 "end": 20
             },
@@ -40,7 +40,7 @@
                 "declareKeyword": null,
                 "varKeyword": {
                     "kind": 37757002,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 20,
                     "end": 24
                 },

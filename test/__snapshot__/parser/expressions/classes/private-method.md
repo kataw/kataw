@@ -119,7 +119,7 @@ class x { #foo() {}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -210,7 +210,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 23,
                         "end": 28
                     },
@@ -302,7 +302,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 43,
                         "end": 48
                     },
@@ -399,7 +399,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 67,
                         "end": 72
                     },
@@ -515,7 +515,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 94,
                         "end": 99
                     },
@@ -612,7 +612,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 115,
                         "end": 120
                     },
@@ -709,7 +709,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 141,
                         "end": 146
                     },
@@ -811,7 +811,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 169,
                         "end": 174
                     },
@@ -953,7 +953,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 197,
                         "end": 202
                     },
@@ -1124,7 +1124,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 236,
                         "end": 241
                     },
@@ -1350,7 +1350,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 287,
                         "end": 292
                     },
@@ -1650,7 +1650,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 353,
                         "end": 358
                     },
@@ -1840,7 +1840,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 395,
                         "end": 400
                     },
@@ -1992,7 +1992,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 432,
                         "end": 437
                     },
@@ -2140,7 +2140,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 466,
                         "end": 471
                     },
@@ -2283,7 +2283,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 493,
                         "end": 498
                     },
@@ -2482,7 +2482,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 534,
                         "end": 539
                     },
@@ -2696,7 +2696,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 587,
                         "end": 592
                     },
@@ -2967,7 +2967,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 650,
                         "end": 655
                     },
@@ -3114,7 +3114,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 682,
                         "end": 687
                     },
@@ -3261,7 +3261,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 716,
                         "end": 721
                     },
@@ -3413,7 +3413,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 752,
                         "end": 757
                     },
@@ -3505,7 +3505,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 773,
                         "end": 778
                     },
@@ -3597,7 +3597,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 795,
                         "end": 800
                     },
@@ -3689,7 +3689,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 819,
                         "end": 824
                     },
@@ -3781,7 +3781,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 843,
                         "end": 848
                     },
@@ -3873,7 +3873,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 867,
                         "end": 872
                     },
@@ -3965,7 +3965,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 892,
                         "end": 897
                     },
@@ -4057,7 +4057,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 920,
                         "end": 925
                     },
@@ -4154,7 +4154,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 948,
                         "end": 953
                     },
@@ -4251,7 +4251,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 976,
                         "end": 981
                     },
@@ -4348,7 +4348,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1004,
                         "end": 1009
                     },
@@ -4445,7 +4445,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1030,
                         "end": 1035
                     },
@@ -4542,7 +4542,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1059,
                         "end": 1064
                     },
@@ -4639,7 +4639,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1091,
                         "end": 1096
                     },
@@ -4755,7 +4755,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1123,
                         "end": 1128
                     },
@@ -4871,7 +4871,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1155,
                         "end": 1160
                     },
@@ -4987,7 +4987,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1187,
                         "end": 1192
                     },
@@ -5103,7 +5103,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1217,
                         "end": 1222
                     },
@@ -5219,7 +5219,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1250,
                         "end": 1255
                     },
@@ -5335,7 +5335,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1286,
                         "end": 1291
                     },
@@ -5432,7 +5432,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1316,
                         "end": 1321
                     },
@@ -5529,7 +5529,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1346,
                         "end": 1351
                     },
@@ -5626,7 +5626,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1376,
                         "end": 1381
                     },
@@ -5723,7 +5723,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1404,
                         "end": 1409
                     },
@@ -5820,7 +5820,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1432,
                         "end": 1437
                     },
@@ -5917,7 +5917,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1463,
                         "end": 1468
                     },
@@ -6014,7 +6014,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1497,
                         "end": 1502
                     },
@@ -6111,7 +6111,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1522,
                         "end": 1527
                     },
@@ -6208,7 +6208,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1547,
                         "end": 1552
                     },
@@ -6305,7 +6305,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1572,
                         "end": 1577
                     },
@@ -6402,7 +6402,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1595,
                         "end": 1600
                     },
@@ -6499,7 +6499,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1618,
                         "end": 1623
                     },
@@ -6596,7 +6596,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1644,
                         "end": 1649
                     },
@@ -6693,7 +6693,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1673,
                         "end": 1678
                     },
@@ -6795,7 +6795,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1704,
                         "end": 1709
                     },
@@ -6897,7 +6897,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1735,
                         "end": 1740
                     },
@@ -6999,7 +6999,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1766,
                         "end": 1771
                     },
@@ -7101,7 +7101,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1795,
                         "end": 1800
                     },
@@ -7203,7 +7203,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1824,
                         "end": 1829
                     },
@@ -7305,7 +7305,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1856,
                         "end": 1861
                     },
@@ -7407,7 +7407,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1892,
                         "end": 1897
                     },
@@ -7525,7 +7525,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1916,
                         "end": 1921
                     },
@@ -7648,7 +7648,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1944,
                         "end": 1949
                     },
@@ -7790,7 +7790,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1975,
                         "end": 1980
                     },
@@ -7913,7 +7913,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2000,
                         "end": 2005
                     },
@@ -8036,7 +8036,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2030,
                         "end": 2035
                     },
@@ -8164,7 +8164,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2061,
                         "end": 2066
                     },
@@ -8289,7 +8289,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2089,
                         "end": 2094
                     },
@@ -8419,7 +8419,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2121,
                         "end": 2126
                     },
@@ -8568,7 +8568,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2156,
                         "end": 2161
                     },
@@ -8698,7 +8698,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2185,
                         "end": 2190
                     },
@@ -8828,7 +8828,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2219,
                         "end": 2224
                     },
@@ -8963,7 +8963,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2254,
                         "end": 2259
                     },
@@ -9082,7 +9082,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2277,
                         "end": 2282
                     },
@@ -9206,7 +9206,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2304,
                         "end": 2309
                     },
@@ -9349,7 +9349,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2334,
                         "end": 2339
                     },
@@ -9473,7 +9473,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2358,
                         "end": 2363
                     },
@@ -9597,7 +9597,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2387,
                         "end": 2392
                     },
@@ -9726,7 +9726,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2417,
                         "end": 2422
                     },
@@ -9852,7 +9852,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2444,
                         "end": 2449
                     },
@@ -9983,7 +9983,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2475,
                         "end": 2480
                     },
@@ -10133,7 +10133,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2509,
                         "end": 2514
                     },
@@ -10264,7 +10264,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2537,
                         "end": 2542
                     },
@@ -10395,7 +10395,7 @@ class x { #foo() {}}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 2570,
                         "end": 2575
                     },

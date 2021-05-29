@@ -25,7 +25,7 @@ try {} catch (e) { var e = x; }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -46,7 +46,7 @@ try {} catch (e) { var e = x; }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 6,
                     "end": 12
                 },
@@ -69,7 +69,7 @@ try {} catch (e) { var e = x; }
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 18,
                                     "end": 22
                                 },

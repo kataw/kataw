@@ -57,7 +57,7 @@ let[{}=class{}]=null
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 7,
                                                 "end": 12
                                             },
@@ -99,7 +99,7 @@ let[{}=class{}]=null
                         "type": null,
                         "initializer": {
                             "kind": 138477575,
-                            "flags": 0,
+                            "flags": 96,
                             "start": 16,
                             "end": 20
                         },

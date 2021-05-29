@@ -24,7 +24,7 @@ foo?.function?.bar
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 3,
                     "end": 5
                 },
@@ -85,7 +85,7 @@ foo?.function?.bar
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 18,
                     "end": 20
                 },
@@ -146,7 +146,7 @@ foo?.function?.bar
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 41,
                     "end": 43
                 },
@@ -154,7 +154,7 @@ foo?.function?.bar
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 36,
                         "end": 38
                     },
@@ -240,7 +240,7 @@ foo?.function?.bar
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 66,
                     "end": 68
                 },
@@ -248,7 +248,7 @@ foo?.function?.bar
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 56,
                         "end": 58
                     },

@@ -51,7 +51,7 @@
                                                 "kind": 159,
                                                 "tryKeyword": {
                                                     "kind": 37757027,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 11,
                                                     "end": 15
                                                 },
@@ -91,7 +91,7 @@
                                                 "kind": 154,
                                                 "whileKeyword": {
                                                     "kind": 37757028,
-                                                    "flags": 0,
+                                                    "flags": 80,
                                                     "start": 15,
                                                     "end": 21
                                                 },

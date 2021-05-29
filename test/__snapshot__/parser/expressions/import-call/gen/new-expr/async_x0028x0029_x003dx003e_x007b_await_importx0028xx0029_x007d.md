@@ -22,7 +22,7 @@ async () => { await import(x) }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -47,7 +47,7 @@ async () => { await import(x) }
                                 "kind": 208,
                                 "awaitKeyword": {
                                     "kind": 82196,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 13,
                                     "end": 19
                                 },
@@ -57,7 +57,7 @@ async () => { await import(x) }
                                         "kind": 206,
                                         "importKeyword": {
                                             "kind": 37814364,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 19,
                                             "end": 26
                                         },

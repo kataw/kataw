@@ -44,7 +44,7 @@
                                 },
                                 "right": {
                                     "kind": 138477575,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -145,7 +145,7 @@
                                 },
                                 "right": {
                                     "kind": 138477575,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 55,
                                     "end": 60
                                 },
@@ -241,7 +241,7 @@
                                 },
                                 "right": {
                                     "kind": 138477575,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 94,
                                     "end": 99
                                 },
@@ -361,7 +361,7 @@
                                 },
                                 "right": {
                                     "kind": 138477575,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 139,
                                     "end": 144
                                 },
@@ -534,7 +534,7 @@
                                 },
                                 "right": {
                                     "kind": 138477575,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 203,
                                     "end": 208
                                 },
@@ -630,7 +630,7 @@
                                 },
                                 "right": {
                                     "kind": 138477575,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 244,
                                     "end": 249
                                 },
@@ -750,7 +750,7 @@
                                 },
                                 "right": {
                                     "kind": 138477575,
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 289,
                                     "end": 294
                                 },

@@ -26,7 +26,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -123,7 +123,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                             "kind": 208,
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 50,
                                                                 "end": 55
                                                             },

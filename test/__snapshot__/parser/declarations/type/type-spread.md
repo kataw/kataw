@@ -133,7 +133,7 @@ type D32 = {p?: number};
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 50,
                             "end": 54
                         },
@@ -194,7 +194,7 @@ type D32 = {p?: number};
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 69,
                             "end": 72
                         },
@@ -222,7 +222,7 @@ type D32 = {p?: number};
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 75,
                             "end": 79
                         },
@@ -338,7 +338,7 @@ type D32 = {p?: number};
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 118,
                             "end": 121
                         },
@@ -366,7 +366,7 @@ type D32 = {p?: number};
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 124,
                             "end": 128
                         },
@@ -501,7 +501,7 @@ type D32 = {p?: number};
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 178,
                             "end": 181
                         },
@@ -529,7 +529,7 @@ type D32 = {p?: number};
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 185,
                             "end": 189
                         },

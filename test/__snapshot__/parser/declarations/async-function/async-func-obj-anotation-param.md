@@ -34,7 +34,7 @@ async function foo({x}: { x: string; }) {}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },

@@ -20,7 +20,7 @@ var af = switch => 1;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -63,7 +63,7 @@ var af = switch => 1;
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 8,
                 "end": 15
             },

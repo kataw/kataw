@@ -23,13 +23,13 @@ there; }
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 7,
                 "end": 11
             },
@@ -42,7 +42,7 @@ there; }
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 14,
                                 "end": 20
                             },
@@ -82,13 +82,13 @@ there; }
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 1,
+                "flags": 81,
                 "start": 52,
                 "end": 59
             },
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 61,
                 "end": 65
             },
@@ -101,7 +101,7 @@ there; }
                             "kind": 150,
                             "breakKeyword": {
                                 "kind": 37757005,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 68,
                                 "end": 74
                             },

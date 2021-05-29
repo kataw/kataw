@@ -87,7 +87,7 @@ let tuple2: [number, boolean] = [1, true];
                                     },
                                     {
                                         "kind": 24752947,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 35,
                                         "end": 40
                                     }

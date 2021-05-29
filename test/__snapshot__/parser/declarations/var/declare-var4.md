@@ -35,7 +35,7 @@ declare var x2: X;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 7,
                 "end": 11
             },
@@ -110,7 +110,7 @@ declare var x2: X;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 27,
                 "end": 31
             },
@@ -178,7 +178,7 @@ declare var x2: X;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 47,
                 "end": 51
             },

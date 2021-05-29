@@ -27,7 +27,7 @@ for (true ? 0 : 0 in {}; false; ) ;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -35,13 +35,13 @@ for (true ? 0 : 0 in {}; false; ) ;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 24752947,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 5,
                     "end": 9
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 9,
                     "end": 11
                 },
@@ -55,7 +55,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 13,
                     "end": 15
                 },
@@ -100,7 +100,7 @@ for (true ? 0 : 0 in {}; false; ) ;
             "condition": null,
             "incrementor": {
                 "kind": 205586437,
-                "flags": 0,
+                "flags": 96,
                 "start": 24,
                 "end": 30
             },

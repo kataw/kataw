@@ -755,7 +755,7 @@ q = {"foo": super = x} = x;
                     },
                     "right": {
                         "kind": 138477575,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 157,
                         "end": 162
                     },
@@ -995,7 +995,7 @@ q = {"foo": super = x} = x;
                     },
                     "right": {
                         "kind": 205586437,
-                        "flags": 0,
+                        "flags": 96,
                         "start": 211,
                         "end": 217
                     },
@@ -1251,7 +1251,7 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 138477575,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 270,
                                         "end": 275
                                     },
@@ -1701,7 +1701,7 @@ q = {"foo": super = x} = x;
                                         "kind": 125,
                                         "left": {
                                             "kind": 138477575,
-                                            "flags": 0,
+                                            "flags": 96,
                                             "start": 379,
                                             "end": 384
                                         },
@@ -1807,7 +1807,7 @@ q = {"foo": super = x} = x;
                                                 "kind": 225,
                                                 "superKeyword": {
                                                     "kind": 4259935,
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 406,
                                                     "end": 412
                                                 },

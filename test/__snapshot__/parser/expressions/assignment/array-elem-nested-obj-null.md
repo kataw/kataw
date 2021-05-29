@@ -81,7 +81,7 @@
                                 "elements": [
                                     {
                                         "kind": 138477575,
-                                        "flags": 0,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 19
                                     }

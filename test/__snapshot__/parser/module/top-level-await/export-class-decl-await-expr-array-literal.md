@@ -31,7 +31,7 @@ export class C extends fn(await []) {};
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ export class C extends fn(await []) {};
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 15,
                                 "end": 24
                             },
@@ -71,7 +71,7 @@ export class C extends fn(await []) {};
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 24,
                                     "end": 33
                                 },
@@ -128,7 +128,7 @@ export class C extends fn(await []) {};
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 1,
+                "flags": 81,
                 "start": 41,
                 "end": 89
             },
@@ -138,7 +138,7 @@ export class C extends fn(await []) {};
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 89,
                     "end": 95
                 },
@@ -157,7 +157,7 @@ export class C extends fn(await []) {};
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 97,
                             "end": 105
                         },
@@ -178,7 +178,7 @@ export class C extends fn(await []) {};
                                         "kind": 208,
                                         "awaitKeyword": {
                                             "kind": 82196,
-                                            "flags": 0,
+                                            "flags": 64,
                                             "start": 109,
                                             "end": 114
                                         },

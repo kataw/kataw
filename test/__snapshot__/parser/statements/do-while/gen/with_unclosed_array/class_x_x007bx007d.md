@@ -22,7 +22,7 @@ do[ class x {}
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -46,7 +46,7 @@ do[ class x {}
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 3,
                                     "end": 9
                                 },

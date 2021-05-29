@@ -43,7 +43,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 18,
                 "end": 21
             },
@@ -119,7 +119,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 49,
                 "end": 52
             },
@@ -213,7 +213,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 80,
                 "end": 83
             },
@@ -307,7 +307,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 119,
                 "end": 122
             },
@@ -422,7 +422,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 151,
                 "end": 154
             },
@@ -521,7 +521,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 184,
                 "end": 187
             },
@@ -635,7 +635,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 213,
                 "end": 216
             },
@@ -645,7 +645,7 @@ async (...[x]?: string, a?) => {};
                     "kind": 223,
                     "ellipsisToken": {
                         "kind": 524302,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 200,
                         "end": 203
                     },
@@ -689,7 +689,7 @@ async (...[x]?: string, a?) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 0,
+                "flags": 64,
                 "start": 243,
                 "end": 246
             },
@@ -699,7 +699,7 @@ async (...[x]?: string, a?) => {};
                     "kind": 223,
                     "ellipsisToken": {
                         "kind": 524302,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 229,
                         "end": 232
                     },
@@ -756,7 +756,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 223,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 259,
                             "end": 262
                         },

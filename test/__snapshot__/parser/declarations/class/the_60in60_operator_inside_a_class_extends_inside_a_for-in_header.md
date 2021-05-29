@@ -38,7 +38,7 @@ for (class x extends a in b {} in c);
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -47,7 +47,7 @@ for (class x extends a in b {} in c);
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 5,
                     "end": 10
                 },
@@ -66,7 +66,7 @@ for (class x extends a in b {} in c);
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 12,
                             "end": 20
                         },

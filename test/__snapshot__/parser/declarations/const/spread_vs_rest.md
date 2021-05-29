@@ -38,7 +38,7 @@ const [a=[...b], ...c] = obj;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -74,7 +74,7 @@ const [a=[...b], ...c] = obj;
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 0,
+                                                            "flags": 64,
                                                             "start": 10,
                                                             "end": 13
                                                         },

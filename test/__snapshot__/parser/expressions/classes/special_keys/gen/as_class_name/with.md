@@ -24,7 +24,7 @@ class with {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -58,7 +58,7 @@ class with {}
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 0,
+                "flags": 80,
                 "start": 5,
                 "end": 10
             },

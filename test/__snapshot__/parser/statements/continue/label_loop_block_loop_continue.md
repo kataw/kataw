@@ -37,7 +37,7 @@ foo: while(z) { while(z) continue foo }
             ],
             "colonToken": {
                 "kind": 21,
-                "flags": 0,
+                "flags": 64,
                 "start": 3,
                 "end": 4
             },
@@ -45,7 +45,7 @@ foo: while(z) { while(z) continue foo }
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 0,
+                    "flags": 80,
                     "start": 4,
                     "end": 10
                 },
@@ -66,7 +66,7 @@ foo: while(z) { while(z) continue foo }
                                 "kind": 154,
                                 "whileKeyword": {
                                     "kind": 37757028,
-                                    "flags": 0,
+                                    "flags": 80,
                                     "start": 15,
                                     "end": 21
                                 },
@@ -82,7 +82,7 @@ foo: while(z) { while(z) continue foo }
                                     "kind": 172,
                                     "continueKeyword": {
                                         "kind": 37757009,
-                                        "flags": 0,
+                                        "flags": 80,
                                         "start": 24,
                                         "end": 33
                                     },

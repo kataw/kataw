@@ -19,7 +19,7 @@ break
             "kind": 150,
             "breakKeyword": {
                 "kind": 37757005,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },

@@ -27,7 +27,7 @@ async async => ok, async async => ok
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 11,
                             "end": 14
                         },
@@ -63,7 +63,7 @@ async async => ok, async async => ok
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 30,
                             "end": 33
                         },

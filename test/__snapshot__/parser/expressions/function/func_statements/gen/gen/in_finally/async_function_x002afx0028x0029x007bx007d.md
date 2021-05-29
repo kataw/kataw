@@ -25,7 +25,7 @@ try {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -45,7 +45,7 @@ try {
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 0,
+                "flags": 64,
                 "start": 7,
                 "end": 15
             },
@@ -65,7 +65,7 @@ try {
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 25,
                                 "end": 34
                             },

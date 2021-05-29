@@ -28,7 +28,7 @@ var a: (typeof A)
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -54,7 +54,7 @@ var a: (typeof A)
                                     "kind": 134299891,
                                     "typeOfKeyword": {
                                         "kind": 138477613,
-                                        "flags": 0,
+                                        "flags": 64,
                                         "start": 8,
                                         "end": 14
                                     },

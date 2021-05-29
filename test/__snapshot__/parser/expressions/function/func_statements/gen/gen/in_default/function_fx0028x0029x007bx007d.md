@@ -25,7 +25,7 @@ switch (x) {
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 6
             },
@@ -44,7 +44,7 @@ switch (x) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 1,
+                            "flags": 81,
                             "start": 12,
                             "end": 22
                         },
@@ -55,7 +55,7 @@ switch (x) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 1,
+                                    "flags": 65,
                                     "start": 23,
                                     "end": 36
                                 },

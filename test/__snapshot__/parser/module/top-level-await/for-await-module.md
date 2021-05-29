@@ -25,7 +25,7 @@ for await (const a of b);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -62,7 +62,7 @@ for await (const a of b);
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 0,
+                "flags": 64,
                 "start": 18,
                 "end": 21
             },

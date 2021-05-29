@@ -130,7 +130,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -250,7 +250,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 26,
                 "end": 31
             },
@@ -369,7 +369,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 58,
                 "end": 63
             },
@@ -403,7 +403,7 @@ for ({a: b.c}-- of d) e;
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 0,
+                "flags": 64,
                 "start": 76,
                 "end": 79
             },
@@ -448,7 +448,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 87,
                 "end": 92
             },
@@ -528,7 +528,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 109,
                 "end": 114
             },
@@ -609,7 +609,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 138,
                 "end": 143
             },
@@ -716,7 +716,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 167,
                 "end": 172
             },
@@ -770,7 +770,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 180,
                 "end": 185
             },
@@ -824,7 +824,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 193,
                 "end": 198
             },
@@ -899,7 +899,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 221,
                 "end": 226
             },
@@ -957,7 +957,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 239,
                 "end": 244
             },
@@ -1013,7 +1013,7 @@ for ({a: b.c}-- of d) e;
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 258,
                     "end": 267
                 },
@@ -1068,7 +1068,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 275,
                 "end": 280
             },
@@ -1124,7 +1124,7 @@ for ({a: b.c}-- of d) e;
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 294,
                     "end": 303
                 },
@@ -1184,7 +1184,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 312,
                 "end": 317
             },
@@ -1276,7 +1276,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 339,
                 "end": 344
             },
@@ -1389,7 +1389,7 @@ for ({a: b.c}-- of d) e;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 1,
+                "flags": 81,
                 "start": 366,
                 "end": 371
             },
@@ -1426,7 +1426,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 374,
                 "end": 378
             },
@@ -1521,7 +1521,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 396,
                 "end": 401
             },
@@ -1586,7 +1586,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 425,
                 "end": 430
             },
@@ -1690,7 +1690,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 453,
                 "end": 458
             },
@@ -1794,7 +1794,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 481,
                 "end": 486
             },
@@ -1870,7 +1870,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 502,
                 "end": 507
             },
@@ -1928,7 +1928,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 520,
                 "end": 525
             },
@@ -2002,7 +2002,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 543,
                 "end": 548
             },
@@ -2057,7 +2057,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 562,
                 "end": 567
             },
@@ -2133,7 +2133,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 583,
                 "end": 588
             },
@@ -2188,7 +2188,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 602,
                 "end": 607
             },
@@ -2261,7 +2261,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 621,
                 "end": 626
             },
@@ -2345,7 +2345,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 641,
                 "end": 646
             },
@@ -2417,7 +2417,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 661,
                 "end": 666
             },
@@ -2479,7 +2479,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 679,
                 "end": 684
             },
@@ -2556,7 +2556,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 700,
                 "end": 705
             },
@@ -2597,7 +2597,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 714,
                 "end": 719
             },
@@ -2718,7 +2718,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 739,
                 "end": 744
             },
@@ -2839,7 +2839,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 778,
                 "end": 783
             },
@@ -3027,7 +3027,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 820,
                 "end": 825
             },
@@ -3128,7 +3128,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 846,
                 "end": 851
             },
@@ -3220,7 +3220,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 872,
                 "end": 877
             },
@@ -3327,7 +3327,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 898,
                 "end": 903
             },
@@ -3434,7 +3434,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 925,
                 "end": 930
             },
@@ -3539,7 +3539,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 955,
                 "end": 960
             },
@@ -3644,7 +3644,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 988,
                 "end": 993
             },
@@ -3763,7 +3763,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1021,
                 "end": 1026
             },
@@ -3864,7 +3864,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1051,
                 "end": 1056
             },
@@ -4002,7 +4002,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1093,
                 "end": 1098
             },
@@ -4096,7 +4096,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1119,
                 "end": 1124
             },
@@ -4215,7 +4215,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1152,
                 "end": 1157
             },
@@ -4316,7 +4316,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1182,
                 "end": 1187
             },
@@ -4413,7 +4413,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1203,
                 "end": 1208
             },
@@ -4491,7 +4491,7 @@ for ({a: b.c}-- of d) e;
                 "kind": 167,
                 "forKeyword": {
                     "kind": 37757017,
-                    "flags": 1,
+                    "flags": 81,
                     "start": 1229,
                     "end": 1234
                 },
@@ -4633,7 +4633,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1271,
                 "end": 1276
             },
@@ -4727,7 +4727,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1299,
                 "end": 1304
             },
@@ -4846,7 +4846,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1334,
                 "end": 1339
             },
@@ -4947,7 +4947,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1366,
                 "end": 1371
             },
@@ -5099,7 +5099,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 1425,
                 "end": 1429
             },
@@ -5183,7 +5183,7 @@ for ({a: b.c}-- of d) e;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 1456,
                 "end": 1460
             },
@@ -5225,7 +5225,7 @@ for ({a: b.c}-- of d) e;
             "kind": 166,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 0,
+                "flags": 80,
                 "start": 1484,
                 "end": 1488
             },
@@ -5279,7 +5279,7 @@ for ({a: b.c}-- of d) e;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 1,
+                "flags": 81,
                 "start": 1502,
                 "end": 1507
             },

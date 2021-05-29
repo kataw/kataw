@@ -38,7 +38,7 @@ test
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 1,
+                    "flags": 65,
                     "start": 4,
                     "end": 8
                 },
@@ -88,7 +88,7 @@ test
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 15,
                     "end": 16
                 },
@@ -96,7 +96,7 @@ test
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 18,
                         "end": 21
                     },

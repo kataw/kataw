@@ -38,7 +38,7 @@ x = function(){ super.foo; }
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3,
                         "end": 12
                     },
@@ -66,7 +66,7 @@ x = function(){ super.foo; }
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 15,
                                                 "end": 21
                                             },

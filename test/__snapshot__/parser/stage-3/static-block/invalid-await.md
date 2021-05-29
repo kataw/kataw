@@ -39,7 +39,7 @@ async function foo() {
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -72,7 +72,7 @@ async function foo() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 1,
+                                "flags": 81,
                                 "start": 22,
                                 "end": 30
                             },

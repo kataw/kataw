@@ -31,7 +31,7 @@ class C {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -68,7 +68,7 @@ class C {
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 0,
+                                                        "flags": 64,
                                                         "start": 28,
                                                         "end": 31
                                                     },
@@ -87,7 +87,7 @@ class C {
                                                                     "declareKeyword": null,
                                                                     "varKeyword": {
                                                                         "kind": 37757002,
-                                                                        "flags": 0,
+                                                                        "flags": 80,
                                                                         "start": 33,
                                                                         "end": 37
                                                                     },

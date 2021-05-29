@@ -22,7 +22,7 @@ true:oops;
             "kind": 120,
             "expression": {
                 "kind": 24752947,
-                "flags": 0,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },

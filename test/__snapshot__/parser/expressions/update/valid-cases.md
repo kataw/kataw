@@ -251,7 +251,7 @@ new foo().bar++;
                     "kind": 129,
                     "member": {
                         "kind": 4276321,
-                        "flags": 1,
+                        "flags": 97,
                         "start": 56,
                         "end": 61
                     },
@@ -289,7 +289,7 @@ new foo().bar++;
                     "kind": 536871042,
                     "member": {
                         "kind": 4276321,
-                        "flags": 1,
+                        "flags": 97,
                         "start": 68,
                         "end": 73
                     },
@@ -329,7 +329,7 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 1,
+                            "flags": 97,
                             "start": 81,
                             "end": 85
                         },
@@ -389,7 +389,7 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 1,
+                            "flags": 97,
                             "start": 99,
                             "end": 103
                         },

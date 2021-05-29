@@ -29,7 +29,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 5,
                 "end": 14
             },
@@ -62,7 +62,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 25,
                                 "end": 28
                             },
@@ -89,7 +89,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 0,
+                                                "flags": 80,
                                                 "start": 44,
                                                 "end": 51
                                             },
@@ -97,7 +97,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 0,
+                                                    "flags": 64,
                                                     "start": 56,
                                                     "end": 59
                                                 },

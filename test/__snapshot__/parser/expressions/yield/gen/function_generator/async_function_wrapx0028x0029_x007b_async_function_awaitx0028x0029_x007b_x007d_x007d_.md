@@ -24,7 +24,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 0,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -62,7 +62,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 27
                             },
@@ -100,7 +100,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 0,
+                                                "flags": 64,
                                                 "start": 45,
                                                 "end": 54
                                             },
@@ -138,7 +138,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                             },
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 0,
+                                                                "flags": 64,
                                                                 "start": 69,
                                                                 "end": 78
                                                             },

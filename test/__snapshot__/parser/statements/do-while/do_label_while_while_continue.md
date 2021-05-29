@@ -19,7 +19,7 @@ do wow: while (x) while (x) continue wow;
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 0,
+                "flags": 80,
                 "start": 0,
                 "end": 2
             },
@@ -53,7 +53,7 @@ do wow: while (x) while (x) continue wow;
                 ],
                 "colonToken": {
                     "kind": 21,
-                    "flags": 0,
+                    "flags": 64,
                     "start": 6,
                     "end": 7
                 },
@@ -61,7 +61,7 @@ do wow: while (x) while (x) continue wow;
                     "kind": 154,
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 0,
+                        "flags": 80,
                         "start": 7,
                         "end": 13
                     },
@@ -77,7 +77,7 @@ do wow: while (x) while (x) continue wow;
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 0,
+                            "flags": 80,
                             "start": 17,
                             "end": 23
                         },
@@ -93,7 +93,7 @@ do wow: while (x) while (x) continue wow;
                             "kind": 172,
                             "continueKeyword": {
                                 "kind": 37757009,
-                                "flags": 0,
+                                "flags": 80,
                                 "start": 27,
                                 "end": 36
                             },

@@ -21,7 +21,7 @@ new class{}
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 0,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -30,7 +30,7 @@ new class{}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 3,
                         "end": 9
                     },

@@ -51,7 +51,7 @@ x = (a)?c:d=>{}=>{}
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 7,
                         "end": 8
                     },
@@ -65,7 +65,7 @@ x = (a)?c:d=>{}=>{}
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 9,
                         "end": 10
                     },
@@ -73,7 +73,7 @@ x = (a)?c:d=>{}=>{}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 11,
                             "end": 13
                         },
