@@ -31,7 +31,7 @@ import { createSuper, Super } from '../ast/expressions/super';
 import { createIndexExpressionChain } from '../ast/expressions/index-expr-chain';
 import { createDecoratorList, DecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator, Decorator } from '../ast/expressions/decorators';
-import { createMemberAccessChain, MemberAccessChain } from '../ast/expressions/member-access-chain';
+import { createMemberAccessChain } from '../ast/expressions/member-access-chain';
 import { createCallChain } from '../ast/expressions/call-chain';
 import { createOptionalExpression } from '../ast/expressions/optional-expr';
 import { createOptionalChain } from '../ast/expressions/optional-chain';
@@ -2332,7 +2332,7 @@ function parsePrimaryExpression(
         parser,
         context,
         SyntaxKind.ThisKeyword,
-        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        NodeFlags.ExpressionNode,
         parser.curPos
       );
     }
@@ -2429,7 +2429,7 @@ function parsePrimaryExpression(
         parser,
         context,
         SyntaxKind.NullKeyword,
-        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        NodeFlags.ExpressionNode,
         parser.curPos
       );
     case SyntaxKind.TrueKeyword:
@@ -2437,7 +2437,7 @@ function parsePrimaryExpression(
         parser,
         context,
         SyntaxKind.TrueKeyword,
-        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        NodeFlags.ExpressionNode,
         parser.curPos
       );
     case SyntaxKind.FalseKeyword:
@@ -2445,7 +2445,7 @@ function parsePrimaryExpression(
         parser,
         context,
         SyntaxKind.FalseKeyword,
-        NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+        NodeFlags.ExpressionNode,
         parser.curPos
       );
     case SyntaxKind.LeftBracket:
