@@ -443,22 +443,6 @@ export function isMemberExpression(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.IsMemberExpression) === NodeFlags.IsMemberExpression;
 }
 
-export function createScope(): ScopeState {
-  return {
-    kind: ScopeKind.Block,
-    scope: null,
-    flags: ScopeFlags.None
-  };
-}
-
-export function createParentScope(scope: ScopeState | null, kind: ScopeKind): ScopeState {
-  return {
-    kind,
-    scope,
-    flags: ScopeFlags.None
-  };
-}
-
 export function addVarOrBlock(
   parser: ParserState,
   context: Context,

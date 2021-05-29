@@ -182,11 +182,9 @@ import {
   BindingType,
   speculate,
   isIterationStatement,
-  createParentScope,
   ScopeKind,
   canParseSemicolon,
   isValidDirective,
-  createScope,
   ScopeState,
   addVarOrBlock,
   addVarName,
@@ -276,7 +274,11 @@ export function parse(
   const statements = [];
   const directives = [];
 
-  const scope: ScopeState = createScope();
+  const scope: ScopeState = {
+    kind: ScopeKind.Block,
+    scope: null,
+    flags: ScopeFlags.None
+  };
 
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
@@ -323,7 +325,7 @@ function parseModuleItem(parser: ParserState, context: Context, scope: ScopeStat
   }
 
   if (next === SyntaxKind.ImportKeyword) {
-    //  dynamic import expression and import.meta expressions are parsed as part
+    // dynamic import expression and import.meta expressions are parsed as part
     // of the import declaration to avoid any lookaheads
     return parseImportDeclaration(parser, context, scope, /* isScript*/ false);
   }
@@ -383,7 +385,11 @@ function parseStatement(
     case SyntaxKind.VarKeyword:
       return parseVariableStatement(parser, context, /* declareKeyword */ null, scope, BindingType.Var);
     case SyntaxKind.LeftBrace:
-      return parseBlockStatement(parser, context, scope, /**/ false);
+      return parseBlockStatement(parser, context, {
+        kind: ScopeKind.Block,
+        scope,
+        flags: ScopeFlags.None
+      });
     case SyntaxKind.Semicolon:
       return parseEmptyStatement(parser, context);
     case SyntaxKind.IfKeyword:
@@ -576,16 +582,15 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
     SyntaxKind.TryKeyword,
     pos
   );
-  const block = parseBlockStatement(
-    parser,
-    context,
-    {
+  const block = parseBlockStatement(parser, context, {
+    kind: ScopeKind.Block,
+    scope: {
       kind: ScopeKind.Block,
       scope,
       flags: ScopeFlags.None
     },
-    /* isCatchScope */ false
-  );
+    flags: ScopeFlags.None
+  });
   const catchClause = parser.token === SyntaxKind.CatchKeyword ? parseCatchClause(parser, context, scope) : null;
 
   // If we don't have a catch clause, then we must have a finally clause. Try to parse
@@ -594,7 +599,11 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
   let finallyKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   if (!catchClause || parser.token === SyntaxKind.FinallyKeyword) {
     finallyKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.FinallyKeyword);
-    finallyBlock = parseBlockStatement(parser, context, scope, /* isCatchScope */ false);
+    finallyBlock = parseBlockStatement(parser, context, {
+      kind: ScopeKind.Block,
+      scope,
+      flags: ScopeFlags.None
+    });
   }
   return createTryStatement(tryToken, block, catchClause, finallyKeyword, finallyBlock, pos, parser.curPos);
 }
@@ -613,7 +622,11 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
   let catchScope = scope;
   if (consumeOpt(parser, context, SyntaxKind.LeftParen)) {
     // Create a lexical scope node around the whole catch clause, including the head
-    scope = createParentScope(scope, ScopeKind.Block);
+    scope = {
+      kind: ScopeKind.Block,
+      scope,
+      flags: ScopeFlags.None
+    };
 
     if (parser.token === SyntaxKind.LeftBracket) {
       catchParameter = parseArrayBindingPattern(parser, context, scope, BindingType.CatchPattern);
@@ -659,7 +672,7 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
     catchToken,
     catchParameter,
     initializer,
-    parseBlockStatement(parser, context, catchScope, /* isCatchScope */ true),
+    parseBlockStatement(parser, context, catchScope),
     pos,
     parser.curPos
   );
@@ -708,7 +721,7 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
       );
     }
   } else {
-    label = parseIdentifier(parser, context, /* allowKeywords */ false);
+    label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
     const labelledIdentfier = label.text;
     let hasNoLabel = parser.labels.length === 0;
 
@@ -749,7 +762,7 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
   let label = null;
   const continueToken = consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.ContinueKeyword, pos);
   if (!canParseSemicolon(parser)) {
-    label = parseIdentifier(parser, context, /* allowKeywords */ false);
+    label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
   }
   parseSemicolon(parser, context);
   return createContinueStatement(continueToken, label as Identifier, pos, parser.curPos);
@@ -783,8 +796,15 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
   );
   const consequent = parseConsequentOrAlternative(parser, context, scope);
   const elseKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.ElseKeyword);
-  const alternate = elseKeyword ? parseConsequentOrAlternative(parser, context, scope) : null;
-  return createIfStatement(ifKeyword, expression, consequent, elseKeyword, alternate, pos, parser.curPos);
+  return createIfStatement(
+    ifKeyword,
+    expression,
+    consequent,
+    elseKeyword,
+    elseKeyword ? parseConsequentOrAlternative(parser, context, scope) : null,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseConsequentOrAlternative(parser: ParserState, context: Context, scope: ScopeState): StatementNode {
@@ -844,13 +864,18 @@ function parseWhileStatement(parser: ParserState, context: Context, scope: Scope
       ? DiagnosticCode.Expected_a_to_match_the_token_here
       : DiagnosticCode.Declaration_or_statement_expected
   );
-  const statement = parseStatement(
-    parser,
-    (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
-    /* allowFunction */ false,
-    scope
+  return createWhileStatement(
+    whileToken,
+    expression,
+    parseStatement(
+      parser,
+      (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
+      /* allowFunction */ false,
+      scope
+    ),
+    pos,
+    parser.curPos
   );
-  return createWhileStatement(whileToken, expression, statement, pos, parser.curPos);
 }
 
 // `do` Statement `while` `(` Expression `)` `;`
@@ -922,13 +947,19 @@ function parseWithStatement(parser: ParserState, context: Context, scope: ScopeS
       ? DiagnosticCode.Expected_a_to_match_the_token_here
       : DiagnosticCode.Declaration_or_statement_expected
   );
-  const statement = parseStatement(
-    parser,
-    (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
-    /* allowFunction */ false,
-    scope
+
+  return createWithStatement(
+    withKeyword,
+    expression,
+    parseStatement(
+      parser,
+      (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
+      /* allowFunction */ false,
+      scope
+    ),
+    pos,
+    parser.curPos
   );
-  return createWithStatement(withKeyword, expression, statement, pos, parser.curPos);
 }
 
 // ThrowStatement :
@@ -1118,7 +1149,7 @@ function parseForStatement(
 
   if (parser.token === SyntaxKind.LetKeyword) {
     const { curPos } = parser;
-    initializer = parseIdentifier(parser, context, /* allowKeywords */ false);
+    initializer = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsPatternStart)) {
       if ((parser.token as SyntaxKind) === SyntaxKind.InKeyword) {
         if (context & Context.Strict) {
@@ -1161,7 +1192,7 @@ function parseForStatement(
     } else {
       parser.assignable = true;
 
-      initializer = parseMemberExpression(parser, context, initializer, /* allowCalls */ true, curPos);
+      initializer = parseMemberExpression(parser, context, initializer, SyntaxKind.IsPropertyOrCall, curPos);
 
       // In a for-of loop, 'let' that starts the loop head is a 'let' keyword,
       // per the [lookahead ≠ let] restriction on the LeftHandSideExpression
@@ -1177,7 +1208,12 @@ function parseForStatement(
       }
     }
   } else if (consumeOpt(parser, context, SyntaxKind.ConstKeyword)) {
-    scope = createParentScope(scope, ScopeKind.ForStatement);
+    scope = {
+      kind: ScopeKind.ForStatement,
+      scope,
+      flags: ScopeFlags.None
+    };
+
     initializer = parseBindingList(
       parser,
       context | Context.DisallowInContext | Context.LexicalContext,
@@ -1189,7 +1225,11 @@ function parseForStatement(
     isVarOrLexical = true;
     parser.assignable = true;
   } else if (consumeOpt(parser, context, SyntaxKind.VarKeyword)) {
-    scope = createParentScope(scope, ScopeKind.ForStatement);
+    scope = {
+      kind: ScopeKind.ForStatement,
+      scope,
+      flags: ScopeFlags.None
+    };
     initializer = parseVariableDeclarationList(
       parser,
       context | Context.DisallowInContext,
@@ -1228,7 +1268,7 @@ function parseForStatement(
 
     parser.assignable = destructible & DestructibleKind.NotDestructible ? false : true;
 
-    initializer = parseMemberExpression(parser, context, initializer, true, pos);
+    initializer = parseMemberExpression(parser, context, initializer, SyntaxKind.IsPropertyOrCall, pos);
   } else {
     if (awaitKeyword) context |= Context.InForOfAwait;
 
@@ -1518,22 +1558,18 @@ function parseIdentifierReference(
 
   return createDummyIdentifier(curPos, curPos);
 }
+
 // IdentifierName
 function parseIdentifier(
   parser: ParserState,
   context: Context,
-  allowKeywords: boolean,
+  check: number,
   diagnosticMessage?: DiagnosticCode
 ): Identifier | DummyIdentifier {
   const { curPos, tokenValue, tokenRaw, pos } = parser;
   parser.assignable = true;
 
-  if (
-    parser.token &
-    (allowKeywords
-      ? SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier
-      : SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
-  ) {
+  if (parser.token & check) {
     nextToken(parser, context);
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }
@@ -1553,15 +1589,10 @@ function parseIdentifier(
 }
 
 // BlockStatement : Block
-function parseBlockStatement(
-  parser: ParserState,
-  context: Context,
-  scope: ScopeState,
-  isCatchScope: boolean
-): BlockStatement {
+function parseBlockStatement(parser: ParserState, context: Context, scope: ScopeState): BlockStatement {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
-    const block = parseBlock(parser, context | Context.InBlock, scope, isCatchScope);
+    const block = parseBlock(parser, context | Context.InBlock, scope);
     consume(
       parser,
       context | Context.AllowRegExp,
@@ -1587,19 +1618,14 @@ function parseBlockStatement(
 }
 
 // Block : `{` StatementList `}`
-function parseBlock(parser: ParserState, context: Context, scope: ScopeState, isCatchScope: boolean): Block {
+function parseBlock(parser: ParserState, context: Context, scope: ScopeState): Block {
   const curPos = parser.curPos;
   const statements: StatementNode[] = [];
   const flags = parser.nodeFlags;
   // We avoid making a a new 'catch scope' while parsing out a "TryStatement" for
   // cases like 'try {} catch(x) {}'. Instead we continue with current scope.
-  if (!isCatchScope) scope = createParentScope(scope, ScopeKind.Block);
   while (parser.token & 0b00010000100000011110000000000000) {
-    const statement = parseStatementListItem(parser, context, scope);
-
-    if (statement) {
-      statements.push(statement);
-    }
+    statements.push(parseStatementListItem(parser, context, scope));
   }
   return createBlock(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
 }
@@ -1762,13 +1788,13 @@ function parseLeftHandSideExpression(
 ): ExpressionNode {
   const pos = parser.curPos;
   const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSideContext);
-  return parseMemberExpression(parser, context, expression, /* allowCalls */ true, pos);
+  return parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
 }
 
 function parseExpression(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
   let expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
-  expr = parseMemberExpression(parser, context, expr, /* allowCalls */ true, curPos);
+  expr = parseMemberExpression(parser, context, expr, SyntaxKind.IsPropertyOrCall, curPos);
   expr = parseAssignmentExpression(parser, context, expr, curPos);
   return expr;
 }
@@ -1783,10 +1809,9 @@ function parseMemberExpression(
   parser: ParserState,
   context: Context,
   expr: ExpressionNode,
-  allowCalls: boolean,
+  check: number,
   pos: number
 ): ExpressionNode {
-  const check = allowCalls ? SyntaxKind.IsPropertyOrCall : SyntaxKind.IsMember;
   while (parser.token & check) {
     switch (parser.token) {
       case SyntaxKind.Increment:
@@ -1974,7 +1999,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Context): Identifier | PrivateIdentifier {
   const pos = parser.curPos;
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved)) {
-    return parseIdentifier(parser, context, /* allowKeywords */ true, DiagnosticCode.Identifier_expected);
+    return parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
   }
 
   if (parser.token === SyntaxKind.PrivateIdentifier) {
@@ -2272,7 +2297,7 @@ function parseCommaOperator(
 }
 
 function parseExpressionRest(parser: ParserState, context: Context, expr: ExpressionNode, pos: number): ExpressionNode {
-  expr = parseMemberExpression(parser, context, expr, /* allowCalls */ true, pos);
+  expr = parseMemberExpression(parser, context, expr, SyntaxKind.IsPropertyOrCall, pos);
   expr = parseAssignmentExpression(parser, context, expr, pos);
   return parseCommaOperator(parser, context, expr, pos);
 }
@@ -2329,7 +2354,11 @@ function parsePrimaryExpression(
         );
       }
 
-      const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+      const scope = {
+        kind: ScopeKind.ArrowParams,
+        scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+        flags: ScopeFlags.None
+      };
 
       addBlockName(parser, context, scope, tokenValue, BindingType.ArgumentList);
 
@@ -2442,7 +2471,11 @@ function parsePrimaryExpression(
         );
       }
 
-      const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+      const scope = {
+        kind: ScopeKind.ArrowParams,
+        scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+        flags: ScopeFlags.None
+      };
 
       addBlockName(parser, context, scope, tokenValue, BindingType.ArgumentList);
 
@@ -2654,7 +2687,7 @@ function parsePropertyDefinition(
     if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
       nodeFlags |= NodeFlags.PrototypeField;
     }
-    key = parseIdentifier(parser, context, true, DiagnosticCode.Identifier_expected);
+    key = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
 
     // Check for a modifier keyword
     if (parser.token & 0b00000100110000000100000000000000) {
@@ -2795,7 +2828,7 @@ function parsePropertyDefinition(
 
       const token = parser.token;
 
-      left = parseMemberExpression(parser, context, left, /* allowCalls */ true, pos);
+      left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
 
       if (parser.token === SyntaxKind.RightBrace || parser.token === SyntaxKind.Comma) {
         // '({x : y =', '({x : y,' or '({x : y}'
@@ -2834,7 +2867,7 @@ function parsePropertyDefinition(
             parser.pos
           );
         }
-        left = parseMemberExpression(parser, context, left, /* allowCalls */ true, pos);
+        left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
 
         destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
 
@@ -2899,7 +2932,17 @@ function parseMethodDefinition(
   } else {
     context = (context | Context.InConstructor | Context.SuperCall) ^ (Context.InConstructor | Context.SuperCall);
   }
-  const scope = createParentScope(createScope(), ScopeKind.FunctionParams);
+
+  const scope = {
+    kind: ScopeKind.FunctionParams,
+    scope: {
+      kind: ScopeKind.Block,
+      scope: null,
+      flags: ScopeFlags.None
+    },
+    flags: ScopeFlags.None
+  };
+
   context |= Context.SuperProperty;
 
   context =
@@ -3077,7 +3120,7 @@ function paresSpreadPropertyArgument(
     }
 
     // This is the slow path. We shouldn't care too much about performance
-    argument = parseMemberExpression(parser, context, argument, /*allowCalls */ true, pos);
+    argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
     let destructible = DestructibleKind.None;
 
@@ -3135,7 +3178,7 @@ function paresSpreadPropertyArgument(
       );
     }
 
-    argument = parseMemberExpression(parser, context, argument, true, pos);
+    argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
     argument = parseAssignmentExpression(parser, context, argument, pos);
 
@@ -3268,7 +3311,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
   parser.assignable = false;
   return createNewExpression(
     newToken,
-    parseMemberExpression(parser, context, expression, /* allowCalls */ false, pos),
+    parseMemberExpression(parser, context, expression, SyntaxKind.IsMember, pos),
     (parser.token as SyntaxKind) === SyntaxKind.LeftParen ? parseArguments(parser, context) : null,
     pos,
     parser.curPos
@@ -3622,7 +3665,7 @@ function parseArrayLiteralElement(
         ? DestructibleKind.NotDestructible
         : DestructibleKind.None;
 
-    left = parseMemberExpression(parser, context, left, /* allowCalls */ true, pos);
+    left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
 
     if (
       !parser.assignable ||
@@ -3663,7 +3706,7 @@ function parseArrayLiteralElement(
         );
       }
 
-      left = parseMemberExpression(parser, context, left as any, /* allowCalls */ true, pos);
+      left = parseMemberExpression(parser, context, left as any, SyntaxKind.IsPropertyOrCall, pos);
 
       destructible = parser.assignable ? DestructibleKind.None : DestructibleKind.NotDestructible;
 
@@ -3749,7 +3792,7 @@ function parseArraySpreadArgument(
     }
 
     // This is the slow path. We shouldn't care too much about performance
-    argument = parseMemberExpression(parser, context, argument, /*allowCalls */ true, pos);
+    argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
     let destructible = DestructibleKind.None;
 
@@ -3801,7 +3844,7 @@ function parseArraySpreadArgument(
       );
     }
 
-    argument = parseMemberExpression(parser, context, argument, true, pos);
+    argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
     argument = parseAssignmentExpression(parser, context, argument, pos);
 
@@ -3867,7 +3910,11 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     typeParameters = parseTypeParameterDeclaration(parser, context);
   }
 
-  const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+  const scope = {
+    kind: ScopeKind.ArrowParams,
+    scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+    flags: ScopeFlags.None
+  };
   // Allow "in" inside parentheses
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
@@ -4012,7 +4059,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         // If we have " (a[x]" then this is definitely not an arrow function
         if (parser.token & SyntaxKind.IsPropertyOrCall) {
           state = Tristate.False;
-          expression = parseMemberExpression(parser, context, expression, true, curPos);
+          expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
         }
 
         if (
@@ -4121,7 +4168,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
         if (parser.token & SyntaxKind.IsPropertyOrCall) {
           state = Tristate.False;
-          expression = parseMemberExpression(parser, context, expression, true, curPos);
+          expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
         }
 
         destructible |= DestructibleKind.NotDestructible;
@@ -4346,7 +4393,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
               if (parser.token & SyntaxKind.IsPropertyOrCall) {
                 state = Tristate.False;
-                expression = parseMemberExpression(parser, context, expression, true, curPos);
+                expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
               }
 
               if (
@@ -4453,7 +4500,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
               if (parser.token & SyntaxKind.IsPropertyOrCall) {
                 state = Tristate.False;
-                expression = parseMemberExpression(parser, context, expression, true, curPos);
+                expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
               }
 
               destructible |= DestructibleKind.NotDestructible;
@@ -4618,7 +4665,7 @@ function isValidReturnType(parser: ParserState, context: Context, pos: number) {
         (parser.token as SyntaxKind) === SyntaxKind.Colon
       )
         return true;
-      expression = parseMemberExpression(parser, context, expression, /* allowCalls */ true, pos);
+      expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
       expression = parseAssignmentExpression(parser, context, expression, pos);
       return parser.token === SyntaxKind.Arrow;
     },
@@ -4651,7 +4698,7 @@ function parsePropertyName(
     case SyntaxKind.PrivateIdentifier:
       return parsePrivateIdentifier(parser, context);
     default:
-      return parseIdentifier(parser, context, true, DiagnosticCode.Identifier_expected);
+      return parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
   }
 }
 
@@ -4966,7 +5013,11 @@ function parseFunctionExpression(
             );
           }
 
-          const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+          const scope = {
+            kind: ScopeKind.ArrowParams,
+            scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+            flags: ScopeFlags.None
+          };
 
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
@@ -5006,7 +5057,11 @@ function parseFunctionExpression(
 
       // "async => {}"
       if (parser.token === SyntaxKind.Arrow) {
-        const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+        const scope = {
+          kind: ScopeKind.ArrowParams,
+          scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+          flags: ScopeFlags.None
+        };
 
         addBlockName(parser, context, scope, 'async', BindingType.ArgumentList);
 
@@ -5042,7 +5097,11 @@ function parseFunctionExpression(
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   let name = null;
-  let scope = createScope();
+  let scope: any = {
+    kind: ScopeKind.Block,
+    scope: null,
+    flags: ScopeFlags.None
+  };
   let firstRestricted!: SyntaxKind;
 
   // The name is optional
@@ -5095,7 +5154,12 @@ function parseFunctionExpression(
     ((context | 0b00001001100000110100011010001000) ^ 0b00001001100000110100011010001000) |
     (asyncToken ? 0b00000000000000000000010000001000 : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
-  scope = createParentScope(scope, ScopeKind.FunctionParams);
+  scope = {
+    kind: ScopeKind.FunctionParams,
+    scope,
+    flags: ScopeFlags.None
+  };
+
   const formalParameterList = parseFormalParameterList(
     parser,
     context | Context.Parameters | Context.Parameters,
@@ -5183,7 +5247,11 @@ function parseFunctionDeclaration(
             );
           }
 
-          scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+          scope = {
+            kind: ScopeKind.ArrowParams,
+            scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+            flags: ScopeFlags.None
+          };
 
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
@@ -5193,7 +5261,7 @@ function parseFunctionDeclaration(
             scope,
             /* typeParameters */ null,
             /* returnType */ null,
-            /* params */ parseIdentifier(parser, context, /* allowKeywords */ false),
+            /* params */ parseIdentifier(parser, context, 0b00000000100000000100000000000000),
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -5289,7 +5357,11 @@ function parseFunctionDeclaration(
 
   let name = null;
   // Create a new function scope
-  let innerScope = createScope();
+  let innerScope: any = {
+    kind: ScopeKind.Block,
+    scope: null,
+    flags: ScopeFlags.None
+  };
   const firstRestricted = parser.token;
 
   parser.diagnosticStartPos = parser.curPos;
@@ -5346,7 +5418,12 @@ function parseFunctionDeclaration(
       addVarName(parser, context, scope, parser.tokenValue, BindingType.Var);
     }
 
-    innerScope = createParentScope(innerScope, ScopeKind.FunctionRoot);
+    innerScope = {
+      kind: ScopeKind.FunctionRoot,
+      scope: innerScope,
+      flags: ScopeFlags.None
+    };
+
     name = parseIdentifierReference(parser, context);
   } else if ((functionFlags & ParseFunctionFlag.IsDefaultModifier) === 0) {
     parser.onError(
@@ -5365,8 +5442,11 @@ function parseFunctionDeclaration(
     (asyncToken ? 0b00000000000000000000010000001000 : Context.None) |
     (generatorToken ? Context.YieldContext : Context.None);
 
-  innerScope = createParentScope(innerScope, ScopeKind.FunctionParams);
-
+  innerScope = {
+    kind: ScopeKind.FunctionParams,
+    scope: innerScope,
+    flags: ScopeFlags.None
+  };
   const formalParameterList = parseFormalParameterList(parser, context | Context.Parameters, innerScope);
 
   let returnType = null;
@@ -5703,7 +5783,7 @@ function parseImportDeclaration(
       defaultBinding = parseIdentifier(
         parser,
         context,
-        /* allowKeywords */ false,
+        0b00000000100000000100000000000000,
         DiagnosticCode.Binding_identifier_expected
       ) as Identifier;
       isCommaSeparated = !consumeOpt(parser, context, SyntaxKind.Comma);
@@ -5787,7 +5867,7 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
     const importedBinding = parseIdentifier(
       parser,
       context,
-      /* allowKeywords */ false,
+      0b00000000100000000100000000000000,
       DiagnosticCode.Binding_identifier_expected
     );
     specifiers.push(
@@ -5811,7 +5891,12 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
   const token = parser.token;
   const tokenValue = parser.tokenValue;
   const flags = parser.nodeFlags;
-  const Identifier = parseIdentifier(parser, context, /* allowKeywords */ true, DiagnosticCode.Identifier_expected);
+  const Identifier = parseIdentifier(
+    parser,
+    context,
+    0b00000000110000000100000000000000,
+    DiagnosticCode.Identifier_expected
+  );
   const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
 
   if (asKeyword) {
@@ -6011,7 +6096,12 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
     } else {
-      namedBinding = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+      namedBinding = parseIdentifier(
+        parser,
+        context,
+        0b00000000100000000100000000000000,
+        DiagnosticCode.Identifier_expected
+      );
     }
   }
   return createExportFromClause(
@@ -6063,7 +6153,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
   const localName =
     parser.token === SyntaxKind.StringLiteral
       ? parseModuleExportName(parser, context)
-      : parseIdentifier(parser, context, /* allowKeywords */ true, DiagnosticCode.Identifier_expected);
+      : parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
 
   let exportedName = null;
 
@@ -6073,7 +6163,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
     } else {
-      exportedName = parseIdentifier(parser, context, /* allowKeywords */ false);
+      exportedName = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
     }
   }
   return createExportSpecifier(moduleExportName, localName, asKeyword, exportedName, pos, parser.curPos);
@@ -6254,7 +6344,13 @@ function parseSubtractionType(parser: ParserState, context: Context): Subtractio
   );
 
   return createTypeReference(
-    parseEntityName(parser, context, createDummyIdentifier(pos, parser.curPos), /*allowKeywords*/ true, pos),
+    parseEntityName(
+      parser,
+      context,
+      createDummyIdentifier(pos, parser.curPos),
+      0b00000000110000000100000000000000,
+      pos
+    ),
     null,
     pos,
     parser.curPos
@@ -6368,7 +6464,7 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
     )
   ) {
     const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-    const name = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Type_expected);
+    const name = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Type_expected);
     const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
     consume(parser, context, SyntaxKind.Colon, DiagnosticCode.Type_expected);
     const type = parseType(parser, context);
@@ -6516,8 +6612,8 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
     parseEntityName(
       parser,
       context,
-      parseIdentifier(parser, context, /* allowKeywords */ true, DiagnosticCode.Type_expected),
-      /*allowKeywords*/ true,
+      parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Type_expected),
+      0b00000000110000000100000000000000,
       pos
     ),
     parseTypeParameterInstantiationList(parser, context | Context.InTypes),
@@ -6526,12 +6622,12 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
   );
 }
 
-function parseEntityName(parser: ParserState, context: Context, entity: any, allowKeywords: boolean, pos: number): any {
+function parseEntityName(parser: ParserState, context: Context, entity: any, check: number, pos: number): any {
   while (consumeOpt(parser, context, SyntaxKind.Period)) {
     if (parser.token === SyntaxKind.LessThan) break;
     entity = createQualifiedType(
       entity,
-      parseIdentifier(parser, context, allowKeywords, DiagnosticCode.Type_expected),
+      parseIdentifier(parser, context, check, DiagnosticCode.Type_expected),
       pos,
       parser.curPos
     ) as any;
@@ -6585,7 +6681,7 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
   const start = parser.curPos;
-  const name = parseIdentifier(parser, context, /* allowKeywords */ false);
+  const name = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
   const type = parseTypeAnnotation(parser, context);
   const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
     ? parseType(parser, context | Context.InTypes)
@@ -6755,7 +6851,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
   scope: ScopeState
 ): TypeAlias | LabelledStatement | ExpressionStatement | StatementNode {
   const pos = parser.curPos;
-  let expr = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
   if (context & Context.OptionsAllowTypes && parser.token & SyntaxKind.IsStatementStart) {
     const declareKeyword = createToken(SyntaxKind.DeclareKeyword, NodeFlags.ChildLess, expr.start, expr.end);
     switch (parser.token) {
@@ -6807,9 +6903,9 @@ function parseTypeAsIdentifierOrTypeAlias(
   scope: ScopeState
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
-  let expr = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
   if (context & Context.OptionsAllowTypes && parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    expr = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+    expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
 
     let type = null;
@@ -6876,7 +6972,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
 ): LexicalDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.IsStatement;
-  let expr = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
   if (
     parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) &&
     (flags & 0b00000000000000000110000000000000) === 0
@@ -7224,11 +7320,16 @@ function parseObjectTypeProperty(
   if (parser.token & SyntaxKind.IsIdentifier) {
     const token = parser.token;
 
-    key = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+    key = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
 
     if (token === SyntaxKind.GetKeyword) {
       return createObjectTypeProperty(
-        /* key */ parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected),
+        /* key */ parseIdentifier(
+          parser,
+          context,
+          0b00000000100000000100000000000000,
+          DiagnosticCode.Identifier_expected
+        ),
         /* value */ parseFunctionType(parser, context),
         /* optionalToken */ null,
         /* staticKeyword */ null,
@@ -7238,7 +7339,12 @@ function parseObjectTypeProperty(
     }
     if (token === SyntaxKind.SetKeyword) {
       return createObjectTypeProperty(
-        /* key */ parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected),
+        /* key */ parseIdentifier(
+          parser,
+          context,
+          0b00000000100000000100000000000000,
+          DiagnosticCode.Identifier_expected
+        ),
         /* value */ parseFunctionType(parser, context),
         /* optionalToken */ null,
         /* staticKeyword */ null,
@@ -7478,10 +7584,19 @@ function parseYieldIdentifierOrExpression(
       parser.curPos
     );
   }
-  const expression = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+  const expression = parseIdentifier(
+    parser,
+    context,
+    0b00000000100000000100000000000000,
+    DiagnosticCode.Identifier_expected
+  );
 
   if (parser.token === SyntaxKind.Arrow) {
-    const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+    const scope = {
+      kind: ScopeKind.ArrowParams,
+      scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+      flags: ScopeFlags.None
+    };
 
     addBlockName(parser, context, scope, 'yield', BindingType.ArgumentList);
 
@@ -7938,7 +8053,7 @@ export function parseClassElement(
   const token = parser.token;
   const flags = parser.nodeFlags;
   if (token & 0b00000000100000000100000000000000) {
-    let key = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+    let key = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
 
     if (
       (parser.token & 0b00000100110000000100000000000000 || parser.token === SyntaxKind.Decorator) &&
@@ -8282,8 +8397,15 @@ export function parseStaticBlock(
       // The "await" and 'yield' parsing context does not apply to the block's statement list in a static block
       // so we unset the bit to trigger an error message
       0b01000000000000000101111100000000,
-    createScope(),
-    false
+    {
+      kind: ScopeKind.Block,
+      scope: {
+        kind: ScopeKind.Block,
+        scope: null,
+        flags: ScopeFlags.None
+      },
+      flags: ScopeFlags.None
+    }
   );
   consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
   if (consumeOpt(parser, context, SyntaxKind.Assign)) {
@@ -8507,7 +8629,11 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   let state = Tristate.False;
   let trailingComma = false;
   const asyncToken = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, parser.curPos);
-  const scope = createParentScope(createScope(), ScopeKind.ArrowParams);
+  const scope = {
+    kind: ScopeKind.ArrowParams,
+    scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
+    flags: ScopeFlags.None
+  };
   if (parser.token === SyntaxKind.LessThan) {
     if ((context & Context.OptionsAllowTypes) === 0) return expr;
     if (speculate(parser, context, nextTokenIsLeftParen, true)) {
@@ -8643,7 +8769,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           if (parser.token & SyntaxKind.IsPropertyOrCall) {
             state = Tristate.False;
-            expression = parseMemberExpression(parser, context, expression, true, pos);
+            expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
           }
 
           if (
@@ -8740,7 +8866,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           if (parser.token & SyntaxKind.IsPropertyOrCall) {
             state = Tristate.False;
-            expression = parseMemberExpression(parser, context, expression, true, pos);
+            expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
           }
 
           destructible |= DestructibleKind.NotDestructible;
@@ -8838,7 +8964,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             destructible = DestructibleKind.NotDestructible;
           } else {
             // This is the slow path. We shouldn't care too much about performance
-            argument = parseMemberExpression(parser, context, argument, /*allowCalls */ true, pos);
+            argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
             destructible = DestructibleKind.None;
 
@@ -8942,7 +9068,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               );
             }
 
-            argument = parseMemberExpression(parser, context, argument, true, pos);
+            argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
             argument = parseAssignmentExpression(parser, context, argument, pos);
 
@@ -9083,11 +9209,16 @@ function parseOpaqueType(
   scope: ScopeState
 ) {
   const pos = parser.curPos;
-  let expr = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
   const typeToken = consumeOptToken(parser, context, SyntaxKind.TypeKeyword);
   if (typeToken) {
     const opaqueToken = createToken(SyntaxKind.OpaqueKeyword, NodeFlags.ChildLess, pos, parser.curPos);
-    const name = parseIdentifier(parser, context, /* allowKeywords */ false, DiagnosticCode.Identifier_expected);
+    const name = parseIdentifier(
+      parser,
+      context,
+      0b00000000100000000100000000000000,
+      DiagnosticCode.Identifier_expected
+    );
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const superType = consumeOpt(parser, context, SyntaxKind.Colon) ? parseType(parser, context) : null;
     const impltype = !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseType(parser, context) : null;
