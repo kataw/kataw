@@ -2426,26 +2426,12 @@ function parsePrimaryExpression(
     case SyntaxKind.ClassKeyword:
       return parseClassExpression(parser, context);
     case SyntaxKind.NullKeyword:
-      return consumeKeywordAndCheckForEscapeSequence(
-        parser,
-        context,
-        SyntaxKind.NullKeyword,
-        NodeFlags.ExpressionNode,
-        parser.curPos
-      );
     case SyntaxKind.TrueKeyword:
-      return consumeKeywordAndCheckForEscapeSequence(
-        parser,
-        context,
-        SyntaxKind.TrueKeyword,
-        NodeFlags.ExpressionNode,
-        parser.curPos
-      );
     case SyntaxKind.FalseKeyword:
       return consumeKeywordAndCheckForEscapeSequence(
         parser,
         context,
-        SyntaxKind.FalseKeyword,
+        parser.token,
         NodeFlags.ExpressionNode,
         parser.curPos
       );
@@ -2481,7 +2467,7 @@ function parsePrimaryExpression(
         if (context & Context.OptionsAllowTypes && !speculate(parser, context, nextTokenIsLeftParen, true)) {
           return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, LeftHandSideContext);
         }
-  
+
   }
 
   const { curPos, tokenValue, token } = parser;
