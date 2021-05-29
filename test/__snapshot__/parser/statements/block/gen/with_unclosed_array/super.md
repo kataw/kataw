@@ -31,8 +31,8 @@
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 203,
-                                        "chain": {
+                                        "kind": 129,
+                                        "member": {
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
@@ -97,7 +97,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 8, end: 8
+✖ 'super' must be followed by an argument list or member access. - start: 2, end: 8
 ✖ Dot property must be an identifier - start: 8, end: 8
 ✖ ',' expected - start: 8, end: 8
 

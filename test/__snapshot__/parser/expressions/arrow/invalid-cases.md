@@ -843,9 +843,8 @@ a++ => {};
                                         "left": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 134,
-                                                "text": true,
-                                                "flags": 96,
+                                                "kind": 24752947,
+                                                "flags": 0,
                                                 "start": 189,
                                                 "end": 193
                                             },
@@ -2357,9 +2356,8 @@ a++ => {};
                                                                 "right": {
                                                                     "kind": 198,
                                                                     "left": {
-                                                                        "kind": 134,
-                                                                        "text": true,
-                                                                        "flags": 96,
+                                                                        "kind": 24752947,
+                                                                        "flags": 0,
                                                                         "start": 544,
                                                                         "end": 548
                                                                     },
@@ -4081,9 +4079,8 @@ a++ => {};
                                                                     "expression": {
                                                                         "kind": 198,
                                                                         "left": {
-                                                                            "kind": 134,
-                                                                            "text": false,
-                                                                            "flags": 96,
+                                                                            "kind": 205586437,
+                                                                            "flags": 0,
                                                                             "start": 934,
                                                                             "end": 939
                                                                         },
@@ -5894,9 +5891,8 @@ a++ => {};
                                                                     "end": 1344
                                                                 },
                                                                 "right": {
-                                                                    "kind": 134,
-                                                                    "text": true,
-                                                                    "flags": 96,
+                                                                    "kind": 24752947,
+                                                                    "flags": 0,
                                                                     "start": 1344,
                                                                     "end": 1348
                                                                 },
@@ -5917,9 +5913,8 @@ a++ => {};
                                                         "consequent": {
                                                             "kind": 121,
                                                             "expression": {
-                                                                "kind": 134,
-                                                                "text": false,
-                                                                "flags": 96,
+                                                                "kind": 205586437,
+                                                                "flags": 0,
                                                                 "start": 1350,
                                                                 "end": 1355
                                                             },

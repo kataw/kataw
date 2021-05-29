@@ -24,9 +24,8 @@ if (false) ; else async function* f() {  }
                 "end": 2
             },
             "expression": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 4,
                 "end": 9
             },

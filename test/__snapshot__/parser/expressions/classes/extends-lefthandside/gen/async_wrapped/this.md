@@ -88,9 +88,9 @@ async function p(){
                                         "end": 37
                                     },
                                     "expression": {
-                                        "kind": 135,
-                                        "flags": 37,
-                                        "start": 96,
+                                        "kind": 4276321,
+                                        "flags": 0,
+                                        "start": 37,
                                         "end": 42
                                     },
                                     "typeParameter": null,

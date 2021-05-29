@@ -48,9 +48,8 @@ class x extends false {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 134,
-                        "text": false,
-                        "flags": 96,
+                        "kind": 205586437,
+                        "flags": 0,
                         "start": 15,
                         "end": 21
                     },

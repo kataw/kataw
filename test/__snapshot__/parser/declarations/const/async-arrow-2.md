@@ -254,9 +254,8 @@ const f = async <T, R, S>(
                                                 "end": 66
                                             },
                                             "expression": {
-                                                "kind": 269,
-                                                "text": null,
-                                                "flags": 96,
+                                                "kind": 138477575,
+                                                "flags": 0,
                                                 "start": 66,
                                                 "end": 71
                                             },

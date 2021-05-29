@@ -95,9 +95,9 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                     "end": 39
                                                 },
                                                 "expression": {
-                                                    "kind": 135,
-                                                    "flags": 39,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 0,
+                                                    "start": 39,
                                                     "end": 44
                                                 },
                                                 "statement": {

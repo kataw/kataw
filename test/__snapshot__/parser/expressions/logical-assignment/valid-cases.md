@@ -777,9 +777,8 @@ x((y ?? z) ?? 1);
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 269,
-                                "text": null,
-                                "flags": 96,
+                                "kind": 138477575,
+                                "flags": 0,
                                 "start": 152,
                                 "end": 156
                             },
@@ -1832,9 +1831,8 @@ x((y ?? z) ?? 1);
                                             "end": 374
                                         },
                                         {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 375,
                                             "end": 380
                                         }

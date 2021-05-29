@@ -170,7 +170,7 @@ class C { *method() { new super(); } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 31, end: 32
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 25, end: 32
 
 ```
 

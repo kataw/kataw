@@ -228,7 +228,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 31, end: 33
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 39, end: 40
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 33, end: 40
 
 ```
 

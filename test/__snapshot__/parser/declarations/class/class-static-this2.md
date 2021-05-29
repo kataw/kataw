@@ -82,9 +82,9 @@ class Foo { static x = () => this }
                                 "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 135,
-                                    "flags": 28,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 0,
+                                    "start": 28,
                                     "end": 33
                                 },
                                 "flags": 32,

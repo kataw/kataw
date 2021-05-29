@@ -24,9 +24,9 @@ this
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
+                "kind": 4276321,
                 "flags": 0,
-                "start": 96,
+                "start": 0,
                 "end": 4
             },
             "flags": 16,
@@ -47,7 +47,7 @@ this
 
 ```javascript
 
-;
+this;
 ```
 
 ### Diagnostics

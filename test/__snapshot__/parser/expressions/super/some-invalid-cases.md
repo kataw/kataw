@@ -2687,15 +2687,15 @@ let x = { foo(){ super(); } };
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 22
 ✖ Duplicate identifier - start: 36, end: 38
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 46, end: 53
 ✖ Missing an opening brace - '{ - start: 56, end: 58
 ✖ Expected a `;` - start: 58, end: 60
 ✖ Duplicate identifier - start: 69, end: 71
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 89, end: 90
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 84, end: 90
 ✖ Duplicate identifier - start: 105, end: 107
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 125, end: 126
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 120, end: 126
 ✖ ',' expected - start: 129, end: 131
 ✖ Duplicate identifier - start: 143, end: 145
 ✖ Expected a ')' to match the '(' token here - start: 152, end: 157
@@ -2708,9 +2708,9 @@ let x = { foo(){ super(); } };
 ✖ Expected a `;` - start: 189, end: 190
 ✖ Declaration or statement expected - start: 191, end: 193
 ✖ Duplicate identifier - start: 200, end: 202
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 211, end: 212
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 206, end: 212
 ✖ Duplicate identifier - start: 229, end: 231
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 240, end: 241
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 235, end: 241
 ✖ Expected a computed property - start: 244, end: 246
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
 ✖ Declaration or statement expected - start: 251, end: 253
@@ -2729,18 +2729,18 @@ let x = { foo(){ super(); } };
 ✖ Declaration or statement expected - start: 485, end: 487
 ✖ Declaration or statement expected - start: 487, end: 490
 ✖ Declaration or statement expected - start: 490, end: 491
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 519, end: 520
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 551, end: 552
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 584, end: 585
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 513, end: 520
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 545, end: 552
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 578, end: 585
 ✖ ',' expected - start: 588, end: 589
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 614, end: 615
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 608, end: 615
 ✖ Cannot redeclare block-scoped variable - start: 630, end: 632
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 642, end: 643
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 669, end: 670
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 636, end: 643
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 663, end: 670
 ✖ Duplicate identifier - start: 681, end: 683
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 695, end: 696
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 689, end: 696
 ✖ Duplicate identifier - start: 703, end: 705
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 722, end: 723
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 716, end: 723
 
 ```
 

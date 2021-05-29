@@ -62,9 +62,8 @@ label: while(false) {
                     "end": 12
                 },
                 "expression": {
-                    "kind": 134,
-                    "text": false,
-                    "flags": 96,
+                    "kind": 205586437,
+                    "flags": 0,
                     "start": 13,
                     "end": 18
                 },

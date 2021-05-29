@@ -32,9 +32,8 @@ await null;
                     "end": 5
                 },
                 "expression": {
-                    "kind": 269,
-                    "text": null,
-                    "flags": 96,
+                    "kind": 138477575,
+                    "flags": 0,
                     "start": 5,
                     "end": 10
                 },

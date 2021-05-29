@@ -204,7 +204,7 @@ class x { foo(){ function f(){ super.foo; } }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 36, end: 37
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 30, end: 37
 
 ```
 

@@ -26,9 +26,9 @@ this.#x
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 135,
+                    "kind": 4276321,
                     "flags": 0,
-                    "start": 96,
+                    "start": 0,
                     "end": 4
                 },
                 "expression": {

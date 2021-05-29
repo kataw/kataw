@@ -184,9 +184,9 @@ class C extends B {
                                                 "left": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 60,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 1,
+                                                        "start": 60,
                                                         "end": 69
                                                     },
                                                     "expression": {
@@ -286,7 +286,7 @@ class C extends B {
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 81, end: 82
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 75, end: 82
 
 ```
 

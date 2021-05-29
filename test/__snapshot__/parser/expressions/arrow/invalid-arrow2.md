@@ -323,9 +323,9 @@
                                         "end": 82
                                     },
                                     "right": {
-                                        "kind": 135,
-                                        "flags": 83,
-                                        "start": 96,
+                                        "kind": 4276321,
+                                        "flags": 0,
+                                        "start": 83,
                                         "end": 88
                                     },
                                     "flags": 32,
@@ -1125,9 +1125,8 @@
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 269,
-                    "text": null,
-                    "flags": 96,
+                    "kind": 138477575,
+                    "flags": 0,
                     "start": 311,
                     "end": 316
                 },

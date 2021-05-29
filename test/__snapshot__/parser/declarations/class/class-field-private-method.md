@@ -106,9 +106,9 @@ class C { #aaa; f() { this.#aaa } }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 21,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 21,
                                                         "end": 26
                                                     },
                                                     "expression": {

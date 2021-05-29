@@ -276,7 +276,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 53, end: 54
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 48, end: 54
 
 ```
 

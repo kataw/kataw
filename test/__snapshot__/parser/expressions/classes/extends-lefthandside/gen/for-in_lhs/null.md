@@ -27,9 +27,8 @@ for (null in x) ;
                 "end": 3
             },
             "initializer": {
-                "kind": 269,
-                "text": null,
-                "flags": 96,
+                "kind": 138477575,
+                "flags": 0,
                 "start": 5,
                 "end": 9
             },

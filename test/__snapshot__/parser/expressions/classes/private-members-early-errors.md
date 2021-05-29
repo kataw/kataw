@@ -115,9 +115,9 @@ class C { foo() { this.#a = 1; }}
                                                                 "left": {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 135,
-                                                                        "flags": 22,
-                                                                        "start": 96,
+                                                                        "kind": 4276321,
+                                                                        "flags": 0,
+                                                                        "start": 22,
                                                                         "end": 27
                                                                     },
                                                                     "expression": {
@@ -257,9 +257,9 @@ class C { foo() { this.#a = 1; }}
                                                                 "expression": {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 135,
-                                                                        "flags": 69,
-                                                                        "start": 96,
+                                                                        "kind": 4276321,
+                                                                        "flags": 0,
+                                                                        "start": 69,
                                                                         "end": 74
                                                                     },
                                                                     "expression": {
@@ -412,9 +412,9 @@ class C { foo() { this.#a = 1; }}
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 120,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 120,
                                                         "end": 125
                                                     },
                                                     "expression": {
@@ -529,9 +529,9 @@ class C { foo() { this.#a = 1; }}
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 151,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 0,
+                                                            "start": 151,
                                                             "end": 156
                                                         },
                                                         "expression": {

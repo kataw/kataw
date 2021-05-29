@@ -30,9 +30,9 @@
                     "operand": {
                         "kind": 129,
                         "member": {
-                            "kind": 135,
-                            "flags": 3,
-                            "start": 96,
+                            "kind": 4276321,
+                            "flags": 0,
+                            "start": 3,
                             "end": 7
                         },
                         "expression": {

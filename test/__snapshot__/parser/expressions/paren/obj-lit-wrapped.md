@@ -218,9 +218,8 @@
                                         "end": 37
                                     },
                                     "right": {
-                                        "kind": 269,
-                                        "text": null,
-                                        "flags": 96,
+                                        "kind": 138477575,
+                                        "flags": 0,
                                         "start": 38,
                                         "end": 43
                                     },
@@ -332,9 +331,8 @@
                                         "end": 67
                                     },
                                     "right": {
-                                        "kind": 269,
-                                        "text": null,
-                                        "flags": 96,
+                                        "kind": 138477575,
+                                        "flags": 0,
                                         "start": 68,
                                         "end": 73
                                     },

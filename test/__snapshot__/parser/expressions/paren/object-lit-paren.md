@@ -1051,9 +1051,8 @@
                         "end": 217
                     },
                     "right": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
+                        "kind": 138477575,
+                        "flags": 0,
                         "start": 217,
                         "end": 221
                     },
@@ -1240,9 +1239,8 @@
                         "end": 254
                     },
                     "right": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
+                        "kind": 138477575,
+                        "flags": 0,
                         "start": 254,
                         "end": 258
                     },
@@ -1309,9 +1307,8 @@
                         "end": 269
                     },
                     "right": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
+                        "kind": 138477575,
+                        "flags": 0,
                         "start": 269,
                         "end": 273
                     },
@@ -1671,9 +1668,8 @@
                                     "end": 342
                                 },
                                 "right": {
-                                    "kind": 134,
-                                    "text": false,
-                                    "flags": 96,
+                                    "kind": 205586437,
+                                    "flags": 0,
                                     "start": 343,
                                     "end": 349
                                 },

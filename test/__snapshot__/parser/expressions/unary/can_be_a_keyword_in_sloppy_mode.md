@@ -26,9 +26,8 @@ delete true
                     "end": 6
                 },
                 "operand": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 96,
+                    "kind": 24752947,
+                    "flags": 0,
                     "start": 6,
                     "end": 11
                 },

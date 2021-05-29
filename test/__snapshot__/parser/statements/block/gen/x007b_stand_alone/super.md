@@ -26,8 +26,8 @@
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 203,
-                            "chain": {
+                            "kind": 129,
+                            "member": {
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
@@ -82,7 +82,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 7, end: 7
+✖ 'super' must be followed by an argument list or member access. - start: 1, end: 7
 ✖ Dot property must be an identifier - start: 7, end: 7
 ✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 7
 

@@ -114,9 +114,9 @@ class C { f(){ this.#a } #a; }
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 135,
-                                    "flags": 17,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 0,
+                                    "start": 17,
                                     "end": 22
                                 },
                                 "expression": {
@@ -197,9 +197,9 @@ class C { f(){ this.#a } #a; }
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 135,
-                                    "flags": 43,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 0,
+                                    "start": 43,
                                     "end": 48
                                 },
                                 "expression": {
@@ -324,9 +324,9 @@ class C { f(){ this.#a } #a; }
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 135,
-                                        "flags": 75,
-                                        "start": 96,
+                                        "kind": 4276321,
+                                        "flags": 0,
+                                        "start": 75,
                                         "end": 79
                                     },
                                     "expression": {
@@ -406,9 +406,9 @@ class C { f(){ this.#a } #a; }
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 135,
-                                        "flags": 99,
-                                        "start": 96,
+                                        "kind": 4276321,
+                                        "flags": 0,
+                                        "start": 99,
                                         "end": 103
                                     },
                                     "expression": {
@@ -569,9 +569,9 @@ class C { f(){ this.#a } #a; }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 134,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 134,
                                                         "end": 139
                                                     },
                                                     "expression": {
@@ -684,9 +684,9 @@ class C { f(){ this.#a } #a; }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 162,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 162,
                                                         "end": 167
                                                     },
                                                     "expression": {

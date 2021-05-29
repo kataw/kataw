@@ -156,7 +156,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 24, end: 25
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 18, end: 25
 
 ```
 

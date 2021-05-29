@@ -144,9 +144,9 @@ class Foo {
                                                             "end": 53
                                                         },
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 46,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 0,
+                                                            "start": 46,
                                                             "end": 51
                                                         },
                                                         "chain": {

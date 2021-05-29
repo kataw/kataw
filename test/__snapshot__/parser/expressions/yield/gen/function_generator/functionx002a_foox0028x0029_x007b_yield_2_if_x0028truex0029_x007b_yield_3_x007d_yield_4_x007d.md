@@ -164,9 +164,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                 "end": 69
                                                             },
                                                             "expression": {
-                                                                "kind": 134,
-                                                                "text": true,
-                                                                "flags": 96,
+                                                                "kind": 24752947,
+                                                                "flags": 0,
                                                                 "start": 71,
                                                                 "end": 75
                                                             },

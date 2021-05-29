@@ -122,9 +122,8 @@ try {
                                                                     "end": 69
                                                                 },
                                                                 "right": {
-                                                                    "kind": 134,
-                                                                    "text": true,
-                                                                    "flags": 96,
+                                                                    "kind": 24752947,
+                                                                    "flags": 0,
                                                                     "start": 69,
                                                                     "end": 74
                                                                 },
@@ -187,9 +186,8 @@ try {
                                                     "end": 114
                                                 },
                                                 "right": {
-                                                    "kind": 134,
-                                                    "text": true,
-                                                    "flags": 96,
+                                                    "kind": 24752947,
+                                                    "flags": 0,
                                                     "start": 114,
                                                     "end": 119
                                                 },
@@ -236,9 +234,8 @@ try {
                                                                     "end": 157
                                                                 },
                                                                 "right": {
-                                                                    "kind": 134,
-                                                                    "text": true,
-                                                                    "flags": 96,
+                                                                    "kind": 24752947,
+                                                                    "flags": 0,
                                                                     "start": 157,
                                                                     "end": 162
                                                                 },

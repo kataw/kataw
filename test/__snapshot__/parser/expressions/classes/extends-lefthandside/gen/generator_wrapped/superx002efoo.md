@@ -167,7 +167,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 38, end: 39
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 32, end: 39
 
 ```
 

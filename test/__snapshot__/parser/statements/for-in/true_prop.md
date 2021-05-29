@@ -26,9 +26,8 @@ for (true.x in c) d;
             "initializer": {
                 "kind": 129,
                 "member": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 96,
+                    "kind": 24752947,
+                    "flags": 0,
                     "start": 5,
                     "end": 9
                 },

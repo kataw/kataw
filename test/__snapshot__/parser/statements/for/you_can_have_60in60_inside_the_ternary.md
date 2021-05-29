@@ -45,9 +45,8 @@ for (true ? a in b : {}; false; ) ;
             "initializer": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 96,
+                    "kind": 24752947,
+                    "flags": 0,
                     "start": 5,
                     "end": 9
                 },
@@ -111,9 +110,8 @@ for (true ? a in b : {}; false; ) ;
             },
             "condition": null,
             "incrementor": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 24,
                 "end": 30
             },

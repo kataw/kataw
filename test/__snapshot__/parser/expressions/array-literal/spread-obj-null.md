@@ -98,9 +98,8 @@
                         "kind": 256,
                         "elements": [
                             {
-                                "kind": 269,
-                                "text": null,
-                                "flags": 96,
+                                "kind": 138477575,
+                                "flags": 0,
                                 "start": 25,
                                 "end": 29
                             },
@@ -123,9 +122,8 @@
                                                             "end": 36
                                                         },
                                                         "argument": {
-                                                            "kind": 269,
-                                                            "text": null,
-                                                            "flags": 96,
+                                                            "kind": 138477575,
+                                                            "flags": 0,
                                                             "start": 36,
                                                             "end": 40
                                                         },

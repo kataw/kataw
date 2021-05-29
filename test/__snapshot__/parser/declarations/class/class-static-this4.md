@@ -103,9 +103,9 @@ class Foo { static x = class { y = this } }
                                                 "optionalToken": null,
                                                 "type": null,
                                                 "initializer": {
-                                                    "kind": 135,
-                                                    "flags": 34,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 0,
+                                                    "start": 34,
                                                     "end": 39
                                                 },
                                                 "flags": 32,

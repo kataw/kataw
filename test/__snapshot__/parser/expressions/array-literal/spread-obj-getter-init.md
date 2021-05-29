@@ -143,9 +143,8 @@ var callCount = 0;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134,
-                            "text": false,
-                            "flags": 96,
+                            "kind": 205586437,
+                            "flags": 0,
                             "start": 42,
                             "end": 48
                         },
@@ -289,9 +288,8 @@ var callCount = 0;
                         "kind": 256,
                         "elements": [
                             {
-                                "kind": 269,
-                                "text": null,
-                                "flags": 96,
+                                "kind": 138477575,
+                                "flags": 0,
                                 "start": 97,
                                 "end": 101
                             },

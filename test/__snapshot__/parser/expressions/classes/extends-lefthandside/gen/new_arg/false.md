@@ -29,9 +29,8 @@ new false
                     "end": 3
                 },
                 "expression": {
-                    "kind": 134,
-                    "text": false,
-                    "flags": 96,
+                    "kind": 205586437,
+                    "flags": 0,
                     "start": 3,
                     "end": 9
                 },

@@ -28,9 +28,8 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 269,
-                                "text": null,
-                                "flags": 96,
+                                "kind": 138477575,
+                                "flags": 0,
                                 "start": 1,
                                 "end": 6
                             }

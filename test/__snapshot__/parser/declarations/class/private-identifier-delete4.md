@@ -117,9 +117,9 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                     "operand": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 33,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 0,
+                                                            "start": 33,
                                                             "end": 38
                                                         },
                                                         "expression": {
@@ -276,9 +276,9 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                             "end": 88
                                                         },
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 81,
-                                                            "start": 96,
+                                                            "kind": 4276321,
+                                                            "flags": 0,
+                                                            "start": 81,
                                                             "end": 86
                                                         },
                                                         "chain": {

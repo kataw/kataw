@@ -145,9 +145,9 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 21,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 0,
+                "start": 21,
                 "end": 26
             },
             "flags": 16,
@@ -199,9 +199,9 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 40,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 0,
+                "start": 40,
                 "end": 45
             },
             "flags": 16,

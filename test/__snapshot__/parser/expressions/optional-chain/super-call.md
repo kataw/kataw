@@ -110,14 +110,27 @@ class x extends y {
                                                         "end": 49
                                                     },
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 1,
+                                                        "kind": 129,
+                                                        "member": {
+                                                            "kind": 225,
+                                                            "superKeyword": {
+                                                                "kind": 4259935,
+                                                                "flags": 1,
+                                                                "start": 37,
+                                                                "end": 47
+                                                            },
+                                                            "flags": 96,
                                                             "start": 37,
                                                             "end": 47
                                                         },
-                                                        "flags": 96,
+                                                        "expression": {
+                                                            "kind": 16637,
+                                                            "text": "",
+                                                            "flags": 64,
+                                                            "start": 47,
+                                                            "end": 47
+                                                        },
+                                                        "flags": 536870944,
                                                         "start": 37,
                                                         "end": 47
                                                     },
@@ -208,8 +221,8 @@ class x extends y {
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 47, end: 49
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 47, end: 49
+✖ 'super' must be followed by an argument list or member access. - start: 37, end: 49
+✖ Dot property must be an identifier - start: 47, end: 49
 
 ```
 

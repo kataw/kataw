@@ -97,9 +97,9 @@ class Base {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 30,
-                                                            "start": 97,
+                                                            "kind": 4276321,
+                                                            "flags": 1,
+                                                            "start": 30,
                                                             "end": 39
                                                         },
                                                         "expression": {
@@ -186,9 +186,9 @@ class Base {
                                                                                                         "left": {
                                                                                                             "kind": 129,
                                                                                                             "member": {
-                                                                                                                "kind": 135,
-                                                                                                                "flags": 80,
-                                                                                                                "start": 97,
+                                                                                                                "kind": 4276321,
+                                                                                                                "flags": 1,
+                                                                                                                "start": 80,
                                                                                                                 "end": 93
                                                                                                             },
                                                                                                             "expression": {

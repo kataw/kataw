@@ -36,9 +36,9 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 135,
-                                    "flags": 2,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 0,
+                                    "start": 2,
                                     "end": 7
                                 }
                             ],

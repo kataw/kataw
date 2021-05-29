@@ -80,7 +80,7 @@ x[super.foo]
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 7, end: 8
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 2, end: 8
 
 ```
 

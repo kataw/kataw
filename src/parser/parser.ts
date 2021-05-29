@@ -106,11 +106,8 @@ import { createMemberAccessExpression, MemberAccessExpression } from '../ast/exp
 import { createCallExpression, CallExpression } from '../ast/expressions/call-expr';
 import { createCommaOperator } from '../ast/expressions/comma-operator';
 import { createNumericLiteral, NumericLiteral } from '../ast/expressions/numeric-literal';
-import { createNullLiteral, NullLiteral } from '../ast/expressions/null-literal';
 import { createStringLiteral, StringLiteral } from '../ast/expressions/string-literal';
-import { createBooleanLiteral, BooleanLiteral } from '../ast/expressions/boolean-literal';
 import { createBigIntLiteral, BigIntLiteral } from '../ast/expressions/big-int-literal';
-import { createThisExpression, ThisExpression } from '../ast/expressions/this-expr';
 import { createConditionalExpression } from '../ast/expressions/conditional-expr';
 import { createBinaryExpression, BinaryExpression } from '../ast/expressions/binary-expr';
 import { createSubtractionType, SubtractionType } from '../ast/types/subtraction-type';
@@ -1998,7 +1995,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 
 function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Context): Identifier | PrivateIdentifier {
   const pos = parser.curPos;
-  if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved)) {
+  if (parser.token & 0b00000000110000000100000000000000) {
     return parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
   }
 
@@ -2006,15 +2003,11 @@ function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Contex
     return parsePrivateIdentifier(parser, context);
   }
 
-  // For cases like `(foo.)` where we will hit the ')' instead of discovering a property.
-  // To avoid consuming the ')' - which will cause the parse of the parentheses to fail - we
-  // return an dummy identifier without priming the scanner.
-
   parser.onError(
     DiagnosticSource.Parser,
     DiagnosticKind.Error | DiagnosticKind.EarlyError,
     diagnosticMap[DiagnosticCode.Dot_property_must_be_an_identifier],
-    parser.curPos,
+    pos,
     parser.pos
   );
   return createDummyIdentifier(pos, pos);
@@ -2315,7 +2308,7 @@ function parsePrimaryExpression(
       return parseFunctionExpression(parser, context, inNewExpression, LeftHandSideContext);
     }
     if (parser.token === SyntaxKind.ThisKeyword) {
-      return parseThisExpression(parser, context);
+      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.ThisKeyword, parser.curPos);
     }
 
     if (context & (Context.AwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
@@ -2406,11 +2399,11 @@ function parsePrimaryExpression(
     case SyntaxKind.ClassKeyword:
       return parseClassExpression(parser, context);
     case SyntaxKind.NullKeyword:
-      return parseNullLiteral(parser, context);
+      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.NullKeyword, parser.curPos);
     case SyntaxKind.TrueKeyword:
-      return parseBooleanLiteral(parser, context, /* isTruthy */ true);
+      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.TrueKeyword, parser.curPos);
     case SyntaxKind.FalseKeyword:
-      return parseBooleanLiteral(parser, context, /* isTruthy */ false);
+      return consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.FalseKeyword, parser.curPos);
     case SyntaxKind.LeftBracket:
       return parseArrayLiteral(parser, context);
     case SyntaxKind.LeftBrace:
@@ -3316,50 +3309,6 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     pos,
     parser.curPos
   );
-}
-
-function parseNullLiteral(parser: ParserState, context: Context): NullLiteral {
-  const curPos = parser.curPos;
-  nextToken(parser, context);
-  parser.assignable = false;
-  return createNullLiteral(curPos, parser.curPos);
-}
-
-function parseThisExpression(parser: ParserState, context: Context): ThisExpression {
-  const nodeFlags = parser.nodeFlags;
-  const curPos = parser.curPos;
-  if (nodeFlags & 0b00000000000000000110000000000000) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      curPos,
-      parser.pos
-    );
-  }
-  nextToken(parser, context);
-  parser.assignable = false;
-  return createThisExpression(curPos, nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess, parser.curPos);
-}
-
-// BooleanLiteral :
-//   `true`
-//   `false`
-function parseBooleanLiteral(parser: ParserState, context: Context, isTruthy: boolean): BooleanLiteral {
-  const curPos = parser.curPos;
-  const flags = parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess;
-  if (parser.nodeFlags & 0b00000000000000000110000000000000) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  nextToken(parser, context);
-  parser.assignable = false;
-  return createBooleanLiteral(isTruthy ? true : false, flags, curPos, parser.curPos);
 }
 
 // UpdateExpression :
@@ -8516,75 +8465,59 @@ export function parseImportMetaOrCall(parser: ParserState, context: Context, inN
     : parseImportCall(parser, context, importToken);
 }
 
-function parseSuperExpression(parser: ParserState, context: Context): Super | MemberAccessChain {
+function parseSuperExpression(parser: ParserState, context: Context): Super | any {
   const pos = parser.curPos;
-  const superKeyword = consumeToken(parser, context, SyntaxKind.SuperKeyword);
-  const expression = createSuper(superKeyword, pos, parser.curPos);
+  const superKeyword = consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.SuperKeyword, pos);
 
-  switch (parser.token) {
-    case SyntaxKind.QuestionMarkPeriod:
+  if (parser.token === SyntaxKind.LeftParen) {
+    if ((context & Context.SuperCall) === 0) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
-          superKeyword.flags & 0b00000000000000000110000000000000
-            ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
-            : DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access
+          DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
         ],
-        parser.curPos,
+        pos,
         parser.pos
       );
-    case SyntaxKind.LeftParen:
-      if ((context & Context.SuperCall) === 0) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[
-            superKeyword.flags & 0b00000000000000000110000000000000
-              ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
-              : DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
-          ],
-          parser.curPos,
-          parser.pos
-        );
-      }
-      parser.assignable = false;
-      return expression;
-    case SyntaxKind.LeftBracket:
-    case SyntaxKind.Period:
-      if ((context & Context.SuperProperty) === 0) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[
-            superKeyword.flags & 0b00000000000000000110000000000000
-              ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
-              : DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
-          ],
-          parser.curPos,
-          parser.pos
-        );
-      }
-      parser.assignable = true;
-      return expression;
-    default:
-      // If we have seen "super" it must be followed by '(' or '.'.
-      // If it wasn't then just try to parse out a '.' and report an error.
+    }
+    parser.assignable = false;
+    return createSuper(superKeyword, pos, parser.curPos);
+  }
+  if (parser.token === SyntaxKind.LeftBracket || parser.token === SyntaxKind.Period) {
+    if ((context & Context.SuperProperty) === 0) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
-          superKeyword.flags & 0b00000000000000000110000000000000
-            ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
-            : DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access
+          DiagnosticCode._super_can_only_be_referenced_in_members_of_derived_classes_or_object_literal_expressions
         ],
-        parser.curPos,
+        pos,
         parser.pos
       );
+    }
+    parser.assignable = true;
+    return createSuper(superKeyword, pos, parser.curPos);
   }
 
-  return createMemberAccessChain(
-    expression as any,
+  // If we have seen "super" it must be followed by '(' or '.'.
+  // If it wasn't then just try to parse out a '.' and report an error.
+  parser.onError(
+    DiagnosticSource.Parser,
+    DiagnosticKind.Error,
+    diagnosticMap[
+      superKeyword.flags & 0b00000000000000000110000000000000
+        ? DiagnosticCode._super_keyword_must_not_contain_escaped_characters
+        : DiagnosticCode._super_must_be_followed_by_an_argument_list_or_member_access
+    ],
+    pos,
+    parser.pos
+  );
+
+  // If we have seen "super" it must be followed by '(' or '.'.
+  // If it wasn't then just try to parse out a '.' and report an error.
+  return createIndexExpression(
+    createSuper(superKeyword, pos, parser.curPos),
     parsePropertyOrPrivatePropertyName(parser, context),
     pos,
     parser.curPos

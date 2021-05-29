@@ -146,9 +146,9 @@ class C {
                                                 "left": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 45,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 1,
+                                                        "start": 45,
                                                         "end": 54
                                                     },
                                                     "expression": {
@@ -172,9 +172,9 @@ class C {
                                                 "right": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 60,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 60,
                                                         "end": 65
                                                     },
                                                     "expression": {

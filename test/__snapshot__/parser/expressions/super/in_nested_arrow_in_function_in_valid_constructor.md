@@ -250,7 +250,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 73, end: 74
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 67, end: 74
 
 ```
 

@@ -261,7 +261,7 @@ class C { set x(_) { var f = function { super(); } } }
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 37, end: 39
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 45, end: 46
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 39, end: 46
 
 ```
 

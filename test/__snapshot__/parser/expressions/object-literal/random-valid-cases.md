@@ -1932,9 +1932,8 @@ a = { y: x = 1 } = b;
                         "end": 413
                     },
                     "right": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
+                        "kind": 138477575,
+                        "flags": 0,
                         "start": 413,
                         "end": 418
                     },
@@ -1985,9 +1984,9 @@ a = { y: x = 1 } = b;
                                     "end": 432
                                 },
                                 "right": {
-                                    "kind": 135,
-                                    "flags": 433,
-                                    "start": 96,
+                                    "kind": 4276321,
+                                    "flags": 0,
+                                    "start": 433,
                                     "end": 438
                                 },
                                 "flags": 32,

@@ -27,9 +27,9 @@ for (this in x) ;
                 "end": 3
             },
             "initializer": {
-                "kind": 135,
-                "flags": 5,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 0,
+                "start": 5,
                 "end": 9
             },
             "inKeyword": {

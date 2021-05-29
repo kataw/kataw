@@ -25,9 +25,8 @@ x = 1;
                 "end": 5
             },
             "expression": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 7,
                 "end": 12
             },

@@ -95,7 +95,7 @@ for (super.foo in x) ;
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 10, end: 11
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 5, end: 11
 
 ```
 

@@ -28,9 +28,9 @@ switch (this.a) { c\u0061se 6: break; }
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 135,
-                    "flags": 8,
-                    "start": 96,
+                    "kind": 4276321,
+                    "flags": 0,
+                    "start": 8,
                     "end": 12
                 },
                 "expression": {
@@ -95,9 +95,9 @@ switch (this.a) { c\u0061se 6: break; }
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 135,
-                    "flags": 50,
-                    "start": 96,
+                    "kind": 4276321,
+                    "flags": 0,
+                    "start": 50,
                     "end": 54
                 },
                 "expression": {

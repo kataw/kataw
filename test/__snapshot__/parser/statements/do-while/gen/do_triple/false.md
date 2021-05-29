@@ -84,9 +84,8 @@ do do do false while while while
                     "statement": {
                         "kind": 120,
                         "expression": {
-                            "kind": 134,
-                            "text": false,
-                            "flags": 96,
+                            "kind": 205586437,
+                            "flags": 0,
                             "start": 8,
                             "end": 14
                         },

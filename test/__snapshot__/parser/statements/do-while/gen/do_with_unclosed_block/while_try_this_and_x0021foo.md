@@ -124,9 +124,9 @@ do {} while (x) { while try this and !foo
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 135,
-                            "flags": 27,
-                            "start": 96,
+                            "kind": 4276321,
+                            "flags": 0,
+                            "start": 27,
                             "end": 32
                         },
                         "flags": 16,

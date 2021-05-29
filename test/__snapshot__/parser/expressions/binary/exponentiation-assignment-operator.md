@@ -713,9 +713,8 @@
                                             "end": 178
                                         },
                                         "expression": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 179,
                                             "end": 184
                                         },
@@ -769,9 +768,8 @@
                                             "end": 199
                                         },
                                         "expression": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 200,
                                             "end": 204
                                         },
@@ -951,9 +949,9 @@
                                             "end": 261
                                         },
                                         "expression": {
-                                            "kind": 135,
-                                            "flags": 262,
-                                            "start": 96,
+                                            "kind": 4276321,
+                                            "flags": 0,
+                                            "start": 262,
                                             "end": 266
                                         },
                                         "flags": 32,

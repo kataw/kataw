@@ -6130,15 +6130,15 @@ try {} catch(e) { for(var e of 0); };
 ✖ Expected a `;` - start: 3058, end: 3059
 ✖ Invalid hexadecimal escape sequence - start: 3070, end: 3070
 ✖ Expected a `;` - start: 3070, end: 3071
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3176, end: 3177
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3211, end: 3212
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3286, end: 3287
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3170, end: 3177
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3205, end: 3212
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3280, end: 3287
 ✖ Duplicate identifier - start: 3303, end: 3305
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3358, end: 3359
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3352, end: 3359
 ✖ Duplicate identifier - start: 3375, end: 3377
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3433, end: 3434
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3427, end: 3434
 ✖ Duplicate identifier - start: 3450, end: 3452
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3509, end: 3510
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3503, end: 3510
 ✖ Invalid hexadecimal escape sequence - start: 3520, end: 3728
 ✖ Declaration or statement expected - start: 3520, end: 3729
 ✖ Declaration or statement expected - start: 3729, end: 3735

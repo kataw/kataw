@@ -66,7 +66,7 @@ super.foo;
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 5, end: 6
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 0, end: 6
 
 ```
 

@@ -107,9 +107,9 @@ class Foo {
                                                 "left": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 41,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 1,
+                                                        "start": 41,
                                                         "end": 50
                                                     },
                                                     "expression": {

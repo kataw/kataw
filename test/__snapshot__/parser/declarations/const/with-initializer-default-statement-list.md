@@ -24,9 +24,8 @@ switch (true) { default: const x = 1; }
                 "end": 6
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 8,
                 "end": 12
             },

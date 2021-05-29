@@ -100,9 +100,8 @@ const { async = true } = x;
                                                             "end": 26
                                                         },
                                                         "right": {
-                                                            "kind": 134,
-                                                            "text": true,
-                                                            "flags": 96,
+                                                            "kind": 24752947,
+                                                            "flags": 0,
                                                             "start": 28,
                                                             "end": 33
                                                         },
@@ -907,9 +906,8 @@ const { async = true } = x;
                                             "end": 327
                                         },
                                         "right": {
-                                            "kind": 134,
-                                            "text": true,
-                                            "flags": 96,
+                                            "kind": 24752947,
+                                            "flags": 0,
                                             "start": 329,
                                             "end": 334
                                         },

@@ -218,7 +218,7 @@ class B extends A {
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 58, end: 59
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 48, end: 59
 
 ```
 

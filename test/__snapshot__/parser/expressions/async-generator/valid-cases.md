@@ -3030,9 +3030,8 @@ for (;;) {}});
                                                             "kind": 132,
                                                             "expressions": [
                                                                 {
-                                                                    "kind": 269,
-                                                                    "text": null,
-                                                                    "flags": 96,
+                                                                    "kind": 138477575,
+                                                                    "flags": 0,
                                                                     "start": 1107,
                                                                     "end": 1111
                                                                 },
@@ -3210,9 +3209,8 @@ for (;;) {}});
                                                                 "end": 1168
                                                             },
                                                             "consequent": {
-                                                                "kind": 269,
-                                                                "text": null,
-                                                                "flags": 96,
+                                                                "kind": 138477575,
+                                                                "flags": 0,
                                                                 "start": 1168,
                                                                 "end": 1173
                                                             },

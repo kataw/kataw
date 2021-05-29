@@ -80,9 +80,8 @@ do let x = 1; while (false)
                 "end": 19
             },
             "expression": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 21,
                 "end": 26
             },

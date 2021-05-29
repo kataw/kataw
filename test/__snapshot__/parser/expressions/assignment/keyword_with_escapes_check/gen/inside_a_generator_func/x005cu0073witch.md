@@ -140,6 +140,7 @@ function *f(){
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 14, end: 28
 ✖ Missing an opening parentheses - '( - start: 28, end: 30
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 34
 
 ```

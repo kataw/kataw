@@ -10,11 +10,8 @@ import { PostfixUpdateExpression } from './postfix-update-expr';
 import { PrefixUpdateExpression } from './prefix-update-expr';
 import { CommaOperator } from './comma-operator';
 import { BigIntLiteral } from './big-int-literal';
-import { BooleanLiteral } from './boolean-literal';
-import { NullLiteral } from './null-literal';
 import { NumericLiteral } from './numeric-literal';
 import { StringLiteral } from './string-literal';
-import { ThisExpression } from './this-expr';
 import { BinaryExpression } from './binary-expr';
 import { ConditionalExpression } from './conditional-expr';
 import { ComputedPropertyName } from './computed-property-name';
@@ -37,7 +34,6 @@ import { OptionalExpression } from '../expressions/optional-expr';
 import { ClassBody } from '../expressions/class-body';
 import { ClassTail } from '../expressions/class-tail';
 import { ArrowFunction } from '../expressions/arrow-function';
-
 import { FunctionExpression } from '../expressions/function-expr';
 import { ClassExpression } from '../expressions/class-expr';
 import { YieldExpression } from '../expressions/yield-expr';
@@ -74,15 +70,12 @@ export type ExpressionNode =
   | IndexExpression
   | CallExpression
   | BigIntLiteral
-  | BooleanLiteral
-  | NullLiteral
   | ArrowFunction
   | ClassBody
   | ClassTail
   | ArgumentList
   | NumericLiteral
   | StringLiteral
-  | ThisExpression
   | ConditionalExpression
   | BinaryExpression
   | ComputedPropertyName

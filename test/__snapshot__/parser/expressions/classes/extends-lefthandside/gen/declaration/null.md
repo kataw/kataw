@@ -48,9 +48,8 @@ class A extends null {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
+                        "kind": 138477575,
+                        "flags": 0,
                         "start": 15,
                         "end": 20
                     },

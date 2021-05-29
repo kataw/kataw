@@ -312,9 +312,8 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                             "end": 164
                         },
                         "initializer": {
-                            "kind": 269,
-                            "text": null,
-                            "flags": 96,
+                            "kind": 138477575,
+                            "flags": 0,
                             "start": 166,
                             "end": 171
                         },

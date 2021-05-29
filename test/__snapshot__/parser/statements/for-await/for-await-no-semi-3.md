@@ -93,9 +93,8 @@ async function f() {
                             },
                             "condition": null,
                             "incrementor": {
-                                "kind": 134,
-                                "text": false,
-                                "flags": 96,
+                                "kind": 205586437,
+                                "flags": 0,
                                 "start": 40,
                                 "end": 45
                             },

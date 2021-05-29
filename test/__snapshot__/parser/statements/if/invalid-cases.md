@@ -445,9 +445,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 123
                 },
                 "expression": {
-                    "kind": 134,
-                    "text": false,
-                    "flags": 96,
+                    "kind": 205586437,
+                    "flags": 0,
                     "start": 123,
                     "end": 129
                 },
@@ -636,9 +635,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 190
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 192,
                 "end": 196
             },
@@ -703,9 +701,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 219
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 221,
                 "end": 225
             },
@@ -767,9 +764,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 242
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 244,
                 "end": 248
             },
@@ -816,9 +812,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 269,
-                            "text": null,
-                            "flags": 96,
+                            "kind": 138477575,
+                            "flags": 0,
                             "start": 259,
                             "end": 264
                         },
@@ -850,9 +845,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 270
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 272,
                 "end": 276
             },
@@ -985,9 +979,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 334
             },
             "expression": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 336,
                 "end": 341
             },
@@ -1050,9 +1043,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 361
             },
             "expression": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 363,
                 "end": 368
             },

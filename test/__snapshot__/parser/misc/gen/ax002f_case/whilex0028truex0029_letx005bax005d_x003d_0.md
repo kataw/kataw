@@ -27,9 +27,8 @@ while(true) let[a] = 0
                 "end": 5
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 6,
                 "end": 10
             },

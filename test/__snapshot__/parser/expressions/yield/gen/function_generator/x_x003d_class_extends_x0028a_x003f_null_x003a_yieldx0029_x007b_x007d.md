@@ -147,9 +147,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                         "end": 62
                                                                     },
                                                                     "consequent": {
-                                                                        "kind": 269,
-                                                                        "text": null,
-                                                                        "flags": 96,
+                                                                        "kind": 138477575,
+                                                                        "flags": 0,
                                                                         "start": 62,
                                                                         "end": 67
                                                                     },

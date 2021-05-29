@@ -175,9 +175,9 @@ do while [catch] while try this and !foo
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 26,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 0,
+                "start": 26,
                 "end": 31
             },
             "flags": 16,

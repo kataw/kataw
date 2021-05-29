@@ -93,9 +93,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "end": 29
                             },
                             "expression": {
-                                "kind": 134,
-                                "text": true,
-                                "flags": 96,
+                                "kind": 24752947,
+                                "flags": 0,
                                 "start": 31,
                                 "end": 35
                             },

@@ -173,9 +173,9 @@ class B<X> {
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 37,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 37,
                                                         "end": 41
                                                     },
                                                     "expression": {
@@ -216,9 +216,9 @@ class B<X> {
                                                                     "right": {
                                                                         "kind": 129,
                                                                         "member": {
-                                                                            "kind": 135,
-                                                                            "flags": 56,
-                                                                            "start": 96,
+                                                                            "kind": 4276321,
+                                                                            "flags": 0,
+                                                                            "start": 56,
                                                                             "end": 61
                                                                         },
                                                                         "expression": {
@@ -263,9 +263,9 @@ class B<X> {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 70,
-                                                            "start": 97,
+                                                            "kind": 4276321,
+                                                            "flags": 1,
+                                                            "start": 70,
                                                             "end": 79
                                                         },
                                                         "expression": {

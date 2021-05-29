@@ -77,9 +77,8 @@ true;
                     "end": 12
                 },
                 "right": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 97,
+                    "kind": 24752947,
+                    "flags": 1,
                     "start": 12,
                     "end": 17
                 },

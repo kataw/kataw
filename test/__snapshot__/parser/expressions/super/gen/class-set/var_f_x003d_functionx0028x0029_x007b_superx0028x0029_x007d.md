@@ -260,7 +260,7 @@ class C { set x(_) { var f = function() { super(); } } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 47, end: 48
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 41, end: 48
 
 ```
 

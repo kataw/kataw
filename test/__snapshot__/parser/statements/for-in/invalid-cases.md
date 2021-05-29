@@ -2272,9 +2272,8 @@ for ({}.bar = x in obj);
             "initializer": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 96,
+                    "kind": 24752947,
+                    "flags": 0,
                     "start": 626,
                     "end": 630
                 },
@@ -2338,9 +2337,8 @@ for ({}.bar = x in obj);
             },
             "condition": null,
             "incrementor": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 645,
                 "end": 651
             },

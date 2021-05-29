@@ -169,9 +169,9 @@
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 135,
-                                                                "flags": 37,
-                                                                "start": 96,
+                                                                "kind": 4276321,
+                                                                "flags": 0,
+                                                                "start": 37,
                                                                 "end": 42
                                                             },
                                                             "expression": {
@@ -351,9 +351,9 @@
                                                             "operand": {
                                                                 "kind": 129,
                                                                 "member": {
-                                                                    "kind": 135,
-                                                                    "flags": 82,
-                                                                    "start": 96,
+                                                                    "kind": 4276321,
+                                                                    "flags": 0,
+                                                                    "start": 82,
                                                                     "end": 87
                                                                 },
                                                                 "expression": {
@@ -568,9 +568,9 @@
                                                                                 "right": {
                                                                                     "kind": 129,
                                                                                     "member": {
-                                                                                        "kind": 135,
-                                                                                        "flags": 138,
-                                                                                        "start": 96,
+                                                                                        "kind": 4276321,
+                                                                                        "flags": 0,
+                                                                                        "start": 138,
                                                                                         "end": 143
                                                                                     },
                                                                                     "expression": {
@@ -781,9 +781,9 @@
                                                             "operand": {
                                                                 "kind": 129,
                                                                 "member": {
-                                                                    "kind": 135,
-                                                                    "flags": 188,
-                                                                    "start": 96,
+                                                                    "kind": 4276321,
+                                                                    "flags": 0,
+                                                                    "start": 188,
                                                                     "end": 193
                                                                 },
                                                                 "expression": {

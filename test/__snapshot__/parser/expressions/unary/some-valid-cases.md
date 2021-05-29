@@ -90,9 +90,8 @@ typeof (0 ? 1 : x);
                     "expression": {
                         "kind": 198,
                         "left": {
-                            "kind": 134,
-                            "text": true,
-                            "flags": 96,
+                            "kind": 24752947,
+                            "flags": 0,
                             "start": 21,
                             "end": 25
                         },

@@ -163,9 +163,9 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 19,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 0,
+                "start": 19,
                 "end": 24
             },
             "flags": 16,

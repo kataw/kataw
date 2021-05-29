@@ -251,9 +251,9 @@ new new foo().bar++;
                                         "member": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 135,
-                                                "flags": 50,
-                                                "start": 97,
+                                                "kind": 4276321,
+                                                "flags": 1,
+                                                "start": 50,
                                                 "end": 56
                                             },
                                             "expression": {
@@ -296,9 +296,9 @@ new new foo().bar++;
                                     "kind": 256,
                                     "elements": [
                                         {
-                                            "kind": 135,
-                                            "flags": 70,
-                                            "start": 96,
+                                            "kind": 4276321,
+                                            "flags": 0,
+                                            "start": 70,
                                             "end": 74
                                         }
                                     ],

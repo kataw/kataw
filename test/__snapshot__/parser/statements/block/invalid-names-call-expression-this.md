@@ -41,9 +41,9 @@
                                         "asyncKeyword": null,
                                         "returnType": null,
                                         "contents": {
-                                            "kind": 135,
-                                            "flags": 8,
-                                            "start": 96,
+                                            "kind": 4276321,
+                                            "flags": 0,
+                                            "start": 8,
                                             "end": 13
                                         },
                                         "flags": 32,

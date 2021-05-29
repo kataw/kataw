@@ -106,9 +106,9 @@
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 23,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 23,
                                                         "end": 28
                                                     },
                                                     "expression": {

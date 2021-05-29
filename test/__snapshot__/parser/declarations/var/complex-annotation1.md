@@ -192,9 +192,8 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "end": 69
                                         },
                                         "right": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 70,
                                             "end": 76
                                         },

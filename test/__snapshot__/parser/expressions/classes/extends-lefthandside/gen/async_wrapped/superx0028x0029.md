@@ -167,7 +167,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 43, end: 44
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 37, end: 44
 
 ```
 

@@ -27,9 +27,9 @@ do while try this and !foo
                 "end": 2
             },
             "expression": {
-                "kind": 135,
-                "flags": 12,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 0,
+                "start": 12,
                 "end": 17
             },
             "whileKeyword": null,

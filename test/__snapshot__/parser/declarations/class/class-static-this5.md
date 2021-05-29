@@ -108,9 +108,9 @@ x = class Foo { static x = class extends this {} }
                                                     "end": 40
                                                 },
                                                 "expression": {
-                                                    "kind": 135,
-                                                    "flags": 40,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 0,
+                                                    "start": 40,
                                                     "end": 45
                                                 },
                                                 "typeParameter": null,

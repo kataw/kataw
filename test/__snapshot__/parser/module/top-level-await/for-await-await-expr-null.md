@@ -119,9 +119,8 @@ for await (let binding of [await null]) {
                                 "end": 204
                             },
                             "expression": {
-                                "kind": 269,
-                                "text": null,
-                                "flags": 96,
+                                "kind": 138477575,
+                                "flags": 0,
                                 "start": 204,
                                 "end": 209
                             },
@@ -155,9 +154,8 @@ for await (let binding of [await null]) {
                                     "end": 221
                                 },
                                 "expression": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
+                                    "kind": 138477575,
+                                    "flags": 0,
                                     "start": 221,
                                     "end": 226
                                 },
@@ -254,9 +252,8 @@ for await (let binding of [await null]) {
                                 "end": 408
                             },
                             "expression": {
-                                "kind": 269,
-                                "text": null,
-                                "flags": 96,
+                                "kind": 138477575,
+                                "flags": 0,
                                 "start": 408,
                                 "end": 413
                             },
@@ -290,9 +287,8 @@ for await (let binding of [await null]) {
                                     "end": 425
                                 },
                                 "expression": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
+                                    "kind": 138477575,
+                                    "flags": 0,
                                     "start": 425,
                                     "end": 430
                                 },
@@ -389,9 +385,8 @@ for await (let binding of [await null]) {
                                 "end": 612
                             },
                             "expression": {
-                                "kind": 269,
-                                "text": null,
-                                "flags": 96,
+                                "kind": 138477575,
+                                "flags": 0,
                                 "start": 612,
                                 "end": 617
                             },
@@ -425,9 +420,8 @@ for await (let binding of [await null]) {
                                     "end": 629
                                 },
                                 "expression": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
+                                    "kind": 138477575,
+                                    "flags": 0,
                                     "start": 629,
                                     "end": 634
                                 },

@@ -24,9 +24,8 @@ if (true) {} else const x = 1;
                 "end": 2
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 4,
                 "end": 8
             },

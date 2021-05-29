@@ -72,12 +72,12 @@ for (`temp {waitforit} late` in x) ;
 
 ```javascript
 
-for (`temp {waitforit} late` in x);
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 31, end: 33
+
 ```
 

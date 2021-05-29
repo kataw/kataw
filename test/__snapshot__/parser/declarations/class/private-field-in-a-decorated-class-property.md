@@ -139,9 +139,9 @@ class Example {
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 71,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 71,
                                                         "end": 76
                                                     },
                                                     "expression": {

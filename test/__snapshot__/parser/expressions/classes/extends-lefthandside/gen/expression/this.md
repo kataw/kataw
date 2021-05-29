@@ -51,9 +51,9 @@
                                 "end": 16
                             },
                             "expression": {
-                                "kind": 135,
-                                "flags": 16,
-                                "start": 96,
+                                "kind": 4276321,
+                                "flags": 0,
+                                "start": 16,
                                 "end": 21
                             },
                             "typeParameter": null,

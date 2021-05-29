@@ -36,9 +36,8 @@ export default null;
                 "end": 14
             },
             "declaration": {
-                "kind": 269,
-                "text": null,
-                "flags": 96,
+                "kind": 138477575,
+                "flags": 0,
                 "start": 14,
                 "end": 19
             },

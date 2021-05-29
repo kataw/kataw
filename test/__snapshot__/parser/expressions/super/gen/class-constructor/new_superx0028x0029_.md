@@ -165,7 +165,7 @@ class C { constructor() { new super(); } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 35, end: 36
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 29, end: 36
 
 ```
 

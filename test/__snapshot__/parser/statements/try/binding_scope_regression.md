@@ -96,9 +96,8 @@
                                                 "end": 64
                                             },
                                             "right": {
-                                                "kind": 134,
-                                                "text": false,
-                                                "flags": 96,
+                                                "kind": 205586437,
+                                                "flags": 0,
                                                 "start": 64,
                                                 "end": 70
                                             },
@@ -153,9 +152,8 @@
                                                     "end": 110
                                                 },
                                                 "right": {
-                                                    "kind": 134,
-                                                    "text": false,
-                                                    "flags": 96,
+                                                    "kind": 205586437,
+                                                    "flags": 0,
                                                     "start": 110,
                                                     "end": 116
                                                 },

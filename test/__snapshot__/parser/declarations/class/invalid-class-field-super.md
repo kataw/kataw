@@ -463,13 +463,13 @@ class C { [super.bbb] = 0 };
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 22
 ✖ Duplicate identifier - start: 35, end: 37
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 57, end: 58
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 51, end: 58
 ✖ Duplicate identifier - start: 71, end: 73
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 99, end: 100
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 93, end: 100
 ✖ Duplicate identifier - start: 113, end: 115
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 124, end: 125
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 119, end: 125
 
 ```
 

@@ -92,9 +92,8 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                         "end": 42
                                     },
                                     {
-                                        "kind": 134,
-                                        "text": true,
-                                        "flags": 96,
+                                        "kind": 24752947,
+                                        "flags": 0,
                                         "start": 43,
                                         "end": 48
                                     },

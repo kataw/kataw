@@ -151,9 +151,9 @@ export default class {
                             "left": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 135,
-                                    "flags": 49,
-                                    "start": 97,
+                                    "kind": 4276321,
+                                    "flags": 1,
+                                    "start": 49,
                                     "end": 58
                                 },
                                 "expression": {

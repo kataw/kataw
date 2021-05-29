@@ -234,6 +234,7 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
         parser.pos
       );
     }
+    parser.assignable = false;
     nextToken(parser, context);
     return createToken(token, nodeFlags, pos, parser.curPos);
   }

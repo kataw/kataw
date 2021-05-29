@@ -137,7 +137,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 30, end: 31
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 20, end: 31
 
 ```
 

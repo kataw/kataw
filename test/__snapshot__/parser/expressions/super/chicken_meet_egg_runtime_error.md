@@ -115,9 +115,9 @@ class x extends y { constructor() { super(this); } }
                                                         "kind": 256,
                                                         "elements": [
                                                             {
-                                                                "kind": 135,
-                                                                "flags": 42,
-                                                                "start": 96,
+                                                                "kind": 4276321,
+                                                                "flags": 0,
+                                                                "start": 42,
                                                                 "end": 46
                                                             }
                                                         ],
@@ -183,7 +183,7 @@ class x extends y { constructor() { super(this); } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 41, end: 42
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 35, end: 42
 
 ```
 

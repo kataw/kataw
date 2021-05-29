@@ -209,9 +209,9 @@ class Test {
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 65,
-                                                        "start": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
+                                                        "start": 65,
                                                         "end": 70
                                                     },
                                                     "expression": {
@@ -297,8 +297,8 @@ class Test {
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 96,
+                                                        "kind": 4276321,
+                                                        "flags": 0,
                                                         "start": 96,
                                                         "end": 101
                                                     },
@@ -507,9 +507,9 @@ class Test {
                                                                 {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 135,
-                                                                        "flags": 172,
-                                                                        "start": 96,
+                                                                        "kind": 4276321,
+                                                                        "flags": 0,
+                                                                        "start": 172,
                                                                         "end": 176
                                                                     },
                                                                     "expression": {
@@ -526,9 +526,9 @@ class Test {
                                                                 {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 135,
-                                                                        "flags": 180,
-                                                                        "start": 96,
+                                                                        "kind": 4276321,
+                                                                        "flags": 0,
+                                                                        "start": 180,
                                                                         "end": 184
                                                                     },
                                                                     "expression": {
@@ -545,9 +545,9 @@ class Test {
                                                                 {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 135,
-                                                                        "flags": 188,
-                                                                        "start": 96,
+                                                                        "kind": 4276321,
+                                                                        "flags": 0,
+                                                                        "start": 188,
                                                                         "end": 192
                                                                     },
                                                                     "expression": {
@@ -583,9 +583,9 @@ class Test {
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 135,
-                                                                "flags": 197,
-                                                                "start": 96,
+                                                                "kind": 4276321,
+                                                                "flags": 0,
+                                                                "start": 197,
                                                                 "end": 202
                                                             },
                                                             "expression": {

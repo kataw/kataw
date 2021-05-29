@@ -102,8 +102,8 @@ class C { *method() { y = super } }
                                                         "end": 25
                                                     },
                                                     "right": {
-                                                        "kind": 203,
-                                                        "chain": {
+                                                        "kind": 129,
+                                                        "member": {
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
@@ -183,7 +183,7 @@ class C { *method() { y = super } }
 ### Diagnostics
 
 ```javascript
-✖ 'super' must be followed by an argument list or member access. - start: 31, end: 33
+✖ 'super' must be followed by an argument list or member access. - start: 25, end: 33
 ✖ Dot property must be an identifier - start: 31, end: 33
 
 ```

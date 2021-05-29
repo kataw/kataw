@@ -106,9 +106,9 @@ do[ while try this and !foo
         {
             "kind": 120,
             "expression": {
-                "kind": 135,
-                "flags": 13,
-                "start": 96,
+                "kind": 4276321,
+                "flags": 0,
+                "start": 13,
                 "end": 18
             },
             "flags": 16,

@@ -28,9 +28,8 @@ there; }
                 "end": 5
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -88,9 +87,8 @@ there; }
                 "end": 59
             },
             "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
+                "kind": 24752947,
+                "flags": 0,
                 "start": 61,
                 "end": 65
             },

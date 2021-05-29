@@ -947,9 +947,8 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "end": 210
                         },
                         "right": {
-                            "kind": 269,
-                            "text": null,
-                            "flags": 96,
+                            "kind": 138477575,
+                            "flags": 0,
                             "start": 210,
                             "end": 215
                         },
@@ -1034,9 +1033,8 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "end": 233
                         },
                         "right": {
-                            "kind": 269,
-                            "text": null,
-                            "flags": 96,
+                            "kind": 138477575,
+                            "flags": 0,
                             "start": 233,
                             "end": 238
                         },

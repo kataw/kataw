@@ -594,9 +594,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 118,
                                             "end": 124
                                         },
@@ -737,9 +736,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": true,
-                                            "flags": 96,
+                                            "kind": 24752947,
+                                            "flags": 0,
                                             "start": 246,
                                             "end": 251
                                         },
@@ -866,9 +864,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "expression": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 134,
-                                    "text": false,
-                                    "flags": 96,
+                                    "kind": 205586437,
+                                    "flags": 0,
                                     "start": 388,
                                     "end": 394
                                 },
@@ -1169,9 +1166,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "expression": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 134,
-                                    "text": true,
-                                    "flags": 96,
+                                    "kind": 24752947,
+                                    "flags": 0,
                                     "start": 694,
                                     "end": 699
                                 },
@@ -2237,9 +2233,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 1609
                                         },
                                         "initializer": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 1611,
                                             "end": 1616
                                         },
@@ -2283,9 +2278,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 1633
                                     },
                                     "right": {
-                                        "kind": 269,
-                                        "text": null,
-                                        "flags": 96,
+                                        "kind": 138477575,
+                                        "flags": 0,
                                         "start": 1633,
                                         "end": 1638
                                     },
@@ -2442,9 +2436,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 1783
                                         },
                                         "initializer": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 1785,
                                             "end": 1790
                                         },
@@ -2488,9 +2481,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 1807
                                     },
                                     "right": {
-                                        "kind": 269,
-                                        "text": null,
-                                        "flags": 96,
+                                        "kind": 138477575,
+                                        "flags": 0,
                                         "start": 1807,
                                         "end": 1812
                                     },
@@ -2627,9 +2619,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 1954
                                         },
                                         "initializer": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 1956,
                                             "end": 1961
                                         },
@@ -2931,9 +2922,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 2233,
                                             "end": 2239
                                         },
@@ -3097,9 +3087,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 2363
                                         },
                                         "initializer": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 2365,
                                             "end": 2370
                                         },
@@ -3240,9 +3229,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": true,
-                                            "flags": 96,
+                                            "kind": 24752947,
+                                            "flags": 0,
                                             "start": 2512,
                                             "end": 2517
                                         },
@@ -3369,9 +3357,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "expression": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 134,
-                                    "text": false,
-                                    "flags": 96,
+                                    "kind": 205586437,
+                                    "flags": 0,
                                     "start": 2626,
                                     "end": 2632
                                 },
@@ -3672,9 +3659,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "expression": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 134,
-                                    "text": true,
-                                    "flags": 96,
+                                    "kind": 24752947,
+                                    "flags": 0,
                                     "start": 2956,
                                     "end": 2961
                                 },
@@ -4005,9 +3991,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 3263
                                         },
                                         "initializer": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 3265,
                                             "end": 3270
                                         },
@@ -4053,9 +4038,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 3287
                                         },
                                         "right": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 3287,
                                             "end": 3292
                                         },
@@ -4681,9 +4665,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "left": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 134,
-                                        "text": false,
-                                        "flags": 96,
+                                        "kind": 205586437,
+                                        "flags": 0,
                                         "start": 3742,
                                         "end": 3748
                                     },
@@ -4811,9 +4794,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 3988,
                                             "end": 3994
                                         },
@@ -4980,9 +4962,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 4177,
                                             "end": 4183
                                         },
@@ -5149,9 +5130,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": true,
-                                            "flags": 96,
+                                            "kind": 24752947,
+                                            "flags": 0,
                                             "start": 4346,
                                             "end": 4351
                                         },
@@ -5318,9 +5298,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 4461,
                                             "end": 4467
                                         },
@@ -5487,9 +5466,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": false,
-                                            "flags": 96,
+                                            "kind": 205586437,
+                                            "flags": 0,
                                             "start": 4577,
                                             "end": 4583
                                         },
@@ -5656,9 +5634,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": true,
-                                            "flags": 96,
+                                            "kind": 24752947,
+                                            "flags": 0,
                                             "start": 4717,
                                             "end": 4722
                                         },
@@ -5904,9 +5881,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "end": 4922
                                 },
                                 "right": {
-                                    "kind": 134,
-                                    "text": false,
-                                    "flags": 96,
+                                    "kind": 205586437,
+                                    "flags": 0,
                                     "start": 4922,
                                     "end": 4928
                                 },
@@ -6063,9 +6039,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "left": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 134,
-                                        "text": false,
-                                        "flags": 96,
+                                        "kind": 205586437,
+                                        "flags": 0,
                                         "start": 5036,
                                         "end": 5042
                                     },
@@ -6464,9 +6439,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "end": 5337
                                 },
                                 "right": {
-                                    "kind": 134,
-                                    "text": false,
-                                    "flags": 96,
+                                    "kind": 205586437,
+                                    "flags": 0,
                                     "start": 5337,
                                     "end": 5343
                                 },
@@ -6623,9 +6597,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "left": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 134,
-                                        "text": false,
-                                        "flags": 96,
+                                        "kind": 205586437,
+                                        "flags": 0,
                                         "start": 5471,
                                         "end": 5477
                                     },
@@ -6842,9 +6815,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 5627
                                     },
                                     "right": {
-                                        "kind": 134,
-                                        "text": false,
-                                        "flags": 96,
+                                        "kind": 205586437,
+                                        "flags": 0,
                                         "start": 5627,
                                         "end": 5633
                                     },
@@ -7134,9 +7106,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "end": 5764
                                                     },
                                                     "right": {
-                                                        "kind": 134,
-                                                        "text": true,
-                                                        "flags": 96,
+                                                        "kind": 24752947,
+                                                        "flags": 0,
                                                         "start": 5764,
                                                         "end": 5769
                                                     },
@@ -7402,9 +7373,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "end": 5909
                                                     },
                                                     "right": {
-                                                        "kind": 134,
-                                                        "text": true,
-                                                        "flags": 96,
+                                                        "kind": 24752947,
+                                                        "flags": 0,
                                                         "start": 5909,
                                                         "end": 5914
                                                     },
@@ -7582,9 +7552,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134,
-                                            "text": true,
-                                            "flags": 96,
+                                            "kind": 24752947,
+                                            "flags": 0,
                                             "start": 6042,
                                             "end": 6047
                                         },
@@ -7767,9 +7736,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                     "end": 6114
                                                 },
                                                 "right": {
-                                                    "kind": 134,
-                                                    "text": false,
-                                                    "flags": 96,
+                                                    "kind": 205586437,
+                                                    "flags": 0,
                                                     "start": 6114,
                                                     "end": 6120
                                                 },
@@ -8031,9 +7999,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "end": 6260
                                                     },
                                                     "right": {
-                                                        "kind": 134,
-                                                        "text": true,
-                                                        "flags": 96,
+                                                        "kind": 24752947,
+                                                        "flags": 0,
                                                         "start": 6260,
                                                         "end": 6265
                                                     },
@@ -8261,9 +8228,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "right": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 134,
-                                                                "text": true,
-                                                                "flags": 96,
+                                                                "kind": 24752947,
+                                                                "flags": 0,
                                                                 "start": 6434,
                                                                 "end": 6439
                                                             },
@@ -8318,9 +8284,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "right": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 134,
-                                                                "text": true,
-                                                                "flags": 96,
+                                                                "kind": 24752947,
+                                                                "flags": 0,
                                                                 "start": 6462,
                                                                 "end": 6467
                                                             },
@@ -8331,9 +8296,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                                 "end": 6470
                                                             },
                                                             "right": {
-                                                                "kind": 134,
-                                                                "text": false,
-                                                                "flags": 96,
+                                                                "kind": 205586437,
+                                                                "flags": 0,
                                                                 "start": 6470,
                                                                 "end": 6476
                                                             },
@@ -8374,9 +8338,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "right": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 134,
-                                                                "text": false,
-                                                                "flags": 96,
+                                                                "kind": 205586437,
+                                                                "flags": 0,
                                                                 "start": 6490,
                                                                 "end": 6496
                                                             },
@@ -8387,9 +8350,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                                 "end": 6499
                                                             },
                                                             "right": {
-                                                                "kind": 134,
-                                                                "text": false,
-                                                                "flags": 96,
+                                                                "kind": 205586437,
+                                                                "flags": 0,
                                                                 "start": 6499,
                                                                 "end": 6505
                                                             },
@@ -8891,9 +8853,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "right": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 134,
-                                                                "text": false,
-                                                                "flags": 96,
+                                                                "kind": 205586437,
+                                                                "flags": 0,
                                                                 "start": 6753,
                                                                 "end": 6759
                                                             },
@@ -8948,9 +8909,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "right": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 134,
-                                                                "text": false,
-                                                                "flags": 96,
+                                                                "kind": 205586437,
+                                                                "flags": 0,
                                                                 "start": 6782,
                                                                 "end": 6788
                                                             },
@@ -8961,9 +8921,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                                 "end": 6791
                                                             },
                                                             "right": {
-                                                                "kind": 134,
-                                                                "text": true,
-                                                                "flags": 96,
+                                                                "kind": 24752947,
+                                                                "flags": 0,
                                                                 "start": 6791,
                                                                 "end": 6796
                                                             },
@@ -9004,9 +8963,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                         "right": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 134,
-                                                                "text": true,
-                                                                "flags": 96,
+                                                                "kind": 24752947,
+                                                                "flags": 0,
                                                                 "start": 6810,
                                                                 "end": 6815
                                                             },
@@ -9017,9 +8975,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                                 "end": 6818
                                                             },
                                                             "right": {
-                                                                "kind": 134,
-                                                                "text": false,
-                                                                "flags": 96,
+                                                                "kind": 205586437,
+                                                                "flags": 0,
                                                                 "start": 6818,
                                                                 "end": 6824
                                                             },

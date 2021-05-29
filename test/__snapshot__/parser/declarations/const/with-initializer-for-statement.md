@@ -26,9 +26,8 @@ for (;false;) const x = 1;
             "initializer": null,
             "condition": null,
             "incrementor": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 6,
                 "end": 11
             },

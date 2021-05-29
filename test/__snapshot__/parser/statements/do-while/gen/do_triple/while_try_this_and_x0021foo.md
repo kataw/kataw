@@ -73,9 +73,9 @@ do do do while try this and !foo while while while
                         "end": 8
                     },
                     "expression": {
-                        "kind": 135,
-                        "flags": 18,
-                        "start": 96,
+                        "kind": 4276321,
+                        "flags": 0,
+                        "start": 18,
                         "end": 23
                     },
                     "whileKeyword": null,

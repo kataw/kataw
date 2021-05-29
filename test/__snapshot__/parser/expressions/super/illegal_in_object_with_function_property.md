@@ -162,7 +162,7 @@ x={ foo: function(){ super.foo; }}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 26, end: 27
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 20, end: 27
 
 ```
 

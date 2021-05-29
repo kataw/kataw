@@ -214,9 +214,8 @@ obj.a?.[true]
                                                     "kind": 203,
                                                     "chain": null,
                                                     "expression": {
-                                                        "kind": 134,
-                                                        "text": true,
-                                                        "flags": 96,
+                                                        "kind": 24752947,
+                                                        "flags": 0,
                                                         "start": 41,
                                                         "end": 45
                                                     },
@@ -250,9 +249,8 @@ obj.a?.[true]
                                             "kind": 203,
                                             "chain": null,
                                             "expression": {
-                                                "kind": 134,
-                                                "text": true,
-                                                "flags": 96,
+                                                "kind": 24752947,
+                                                "flags": 0,
                                                 "start": 54,
                                                 "end": 58
                                             },
@@ -276,9 +274,8 @@ obj.a?.[true]
                                             "kind": 203,
                                             "chain": null,
                                             "expression": {
-                                                "kind": 134,
-                                                "text": true,
-                                                "flags": 96,
+                                                "kind": 24752947,
+                                                "flags": 0,
                                                 "start": 62,
                                                 "end": 66
                                             },
@@ -375,9 +372,8 @@ obj.a?.[true]
                         "kind": 203,
                         "chain": null,
                         "expression": {
-                            "kind": 134,
-                            "text": true,
-                            "flags": 96,
+                            "kind": 24752947,
+                            "flags": 0,
                             "start": 92,
                             "end": 96
                         },

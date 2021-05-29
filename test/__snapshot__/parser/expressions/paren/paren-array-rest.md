@@ -154,9 +154,9 @@
                                     "right": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 135,
-                                            "flags": 26,
-                                            "start": 96,
+                                            "kind": 4276321,
+                                            "flags": 0,
+                                            "start": 26,
                                             "end": 31
                                         },
                                         "expression": {
@@ -1311,9 +1311,9 @@
                                             "right": {
                                                 "kind": 129,
                                                 "member": {
-                                                    "kind": 135,
-                                                    "flags": 265,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 0,
+                                                    "start": 265,
                                                     "end": 270
                                                 },
                                                 "expression": {

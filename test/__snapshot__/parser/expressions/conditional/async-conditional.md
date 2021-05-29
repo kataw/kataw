@@ -28,9 +28,8 @@ true ? async.waterfall() : null;
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 96,
+                    "kind": 24752947,
+                    "flags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -83,9 +82,8 @@ true ? async.waterfall() : null;
                     "end": 26
                 },
                 "alternate": {
-                    "kind": 269,
-                    "text": null,
-                    "flags": 96,
+                    "kind": 138477575,
+                    "flags": 0,
                     "start": 26,
                     "end": 31
                 },

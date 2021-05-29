@@ -57,9 +57,8 @@ class false {}
         {
             "kind": 120,
             "expression": {
-                "kind": 134,
-                "text": false,
-                "flags": 96,
+                "kind": 205586437,
+                "flags": 0,
                 "start": 5,
                 "end": 11
             },

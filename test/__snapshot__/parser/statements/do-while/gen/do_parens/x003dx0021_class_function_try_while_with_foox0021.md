@@ -298,6 +298,7 @@ do( =! class function try while with foo! while
 
 ```javascript
 ✖ Identifier expected - start: 3, end: 5
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 3, end: 5
 ✖ Missing an opening brace - '{ - start: 12, end: 21
 ✖ Missing an opening parentheses - '( - start: 21, end: 25
 ✖ Expression expected - start: 21, end: 25

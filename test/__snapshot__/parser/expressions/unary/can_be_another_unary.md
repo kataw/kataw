@@ -34,9 +34,8 @@ delete typeof true
                         "end": 13
                     },
                     "operand": {
-                        "kind": 134,
-                        "text": true,
-                        "flags": 96,
+                        "kind": 24752947,
+                        "flags": 0,
                         "start": 13,
                         "end": 18
                     },

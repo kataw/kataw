@@ -180,8 +180,8 @@ class C { *method() { class C { get x) { super; } } } }
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 203,
-                            "chain": {
+                            "kind": 129,
+                            "member": {
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
@@ -237,7 +237,7 @@ class C { *method() { class C { get x) { super; } } } }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 37, end: 38
-✖ 'super' must be followed by an argument list or member access. - start: 46, end: 47
+✖ 'super' must be followed by an argument list or member access. - start: 40, end: 47
 ✖ Dot property must be an identifier - start: 46, end: 47
 ✖ Declaration or statement expected - start: 49, end: 51
 ✖ Declaration or statement expected - start: 51, end: 53

@@ -223,8 +223,8 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 203,
-                "chain": {
+                "kind": 129,
+                "member": {
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
@@ -292,8 +292,8 @@
                         "initializer": {
                             "kind": 125,
                             "left": {
-                                "kind": 203,
-                                "chain": {
+                                "kind": 129,
+                                "member": {
                                     "kind": 225,
                                     "superKeyword": {
                                         "kind": 4259935,
@@ -372,10 +372,11 @@
 ✖ Missing an opening parentheses - '( - start: 58, end: 59
 ✖ Expression expected - start: 58, end: 59
 ✖ Trailing comma not allowed. - start: 83, end: 89
-✖ 'super' must be followed by an argument list or member access. - start: 89, end: 90
+✖ 'super' must be followed by an argument list or member access. - start: 83, end: 90
 ✖ Dot property must be an identifier - start: 89, end: 90
-✖ 'super' must be followed by an argument list or member access. - start: 121, end: 123
+✖ 'super' must be followed by an argument list or member access. - start: 115, end: 123
 ✖ Dot property must be an identifier - start: 121, end: 123
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 121, end: 123
 
 ```
 

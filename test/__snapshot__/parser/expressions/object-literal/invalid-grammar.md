@@ -754,9 +754,8 @@ q = {"foo": super = x} = x;
                         "end": 157
                     },
                     "right": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
+                        "kind": 138477575,
+                        "flags": 0,
                         "start": 157,
                         "end": 162
                     },
@@ -995,9 +994,8 @@ q = {"foo": super = x} = x;
                         "end": 211
                     },
                     "right": {
-                        "kind": 134,
-                        "text": false,
-                        "flags": 96,
+                        "kind": 205586437,
+                        "flags": 0,
                         "start": 211,
                         "end": 217
                     },
@@ -1252,9 +1250,8 @@ q = {"foo": super = x} = x;
                                         "end": 269
                                     },
                                     "right": {
-                                        "kind": 269,
-                                        "text": null,
-                                        "flags": 96,
+                                        "kind": 138477575,
+                                        "flags": 0,
                                         "start": 270,
                                         "end": 275
                                     },
@@ -1703,9 +1700,8 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 269,
-                                            "text": null,
-                                            "flags": 96,
+                                            "kind": 138477575,
+                                            "flags": 0,
                                             "start": 379,
                                             "end": 384
                                         },
@@ -1806,8 +1802,8 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 203,
-                                            "chain": {
+                                            "kind": 129,
+                                            "member": {
                                                 "kind": 225,
                                                 "superKeyword": {
                                                     "kind": 4259935,
@@ -1921,7 +1917,7 @@ q = {"foo": super = x} = x;
 ✖ ',' expected - start: 335, end: 336
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 384, end: 386
 ✖ The left-hand side must be a variable or a property access. - start: 389, end: 391
-✖ 'super' must be followed by an argument list or member access. - start: 412, end: 414
+✖ 'super' must be followed by an argument list or member access. - start: 406, end: 414
 ✖ Dot property must be an identifier - start: 412, end: 414
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 412, end: 414
 ✖ The left-hand side must be a variable or a property access. - start: 417, end: 419

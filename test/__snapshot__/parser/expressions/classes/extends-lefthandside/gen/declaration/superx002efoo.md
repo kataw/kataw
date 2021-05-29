@@ -112,7 +112,7 @@ class A extends super.foo {}
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 22
 
 ```
 

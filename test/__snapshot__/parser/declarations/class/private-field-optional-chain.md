@@ -113,9 +113,9 @@ class Foo {
                                                         "end": 33
                                                     },
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 24,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 1,
+                                                        "start": 24,
                                                         "end": 31
                                                     },
                                                     "chain": {
@@ -171,9 +171,9 @@ class Foo {
                                                         "end": 46
                                                     },
                                                     "member": {
-                                                        "kind": 135,
-                                                        "flags": 37,
-                                                        "start": 97,
+                                                        "kind": 4276321,
+                                                        "flags": 1,
+                                                        "start": 37,
                                                         "end": 44
                                                     },
                                                     "chain": {
@@ -231,9 +231,9 @@ class Foo {
                                                     "member": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 50,
-                                                            "start": 97,
+                                                            "kind": 4276321,
+                                                            "flags": 1,
+                                                            "start": 50,
                                                             "end": 57
                                                         },
                                                         "expression": {

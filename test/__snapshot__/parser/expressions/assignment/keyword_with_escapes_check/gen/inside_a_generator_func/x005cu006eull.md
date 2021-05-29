@@ -63,9 +63,8 @@ function *f(){
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
+                                    "kind": 138477575,
+                                    "flags": 16385,
                                     "start": 14,
                                     "end": 26
                                 },
@@ -125,6 +124,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
+✖ Keywords cannot contain escape characters - start: 14, end: 26
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 26, end: 28
 
 ```

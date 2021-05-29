@@ -69,9 +69,9 @@ function fn() { (() => this)().#x }
                                             "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
-                                                "kind": 135,
-                                                "flags": 22,
-                                                "start": 96,
+                                                "kind": 4276321,
+                                                "flags": 0,
+                                                "start": 22,
                                                 "end": 27
                                             },
                                             "flags": 32,

@@ -103,9 +103,9 @@ class Foo { static x = function() { return this } }
                                                     "end": 42
                                                 },
                                                 "expression": {
-                                                    "kind": 135,
-                                                    "flags": 42,
-                                                    "start": 96,
+                                                    "kind": 4276321,
+                                                    "flags": 0,
+                                                    "start": 42,
                                                     "end": 47
                                                 },
                                                 "flags": 16,

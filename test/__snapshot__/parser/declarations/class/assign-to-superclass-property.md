@@ -139,9 +139,9 @@ class B extends A {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 135,
-                                                            "flags": 56,
-                                                            "start": 97,
+                                                            "kind": 4276321,
+                                                            "flags": 1,
+                                                            "start": 56,
                                                             "end": 69
                                                         },
                                                         "expression": {
@@ -167,9 +167,9 @@ class B extends A {
                                                         "left": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 135,
-                                                                "flags": 83,
-                                                                "start": 96,
+                                                                "kind": 4276321,
+                                                                "flags": 0,
+                                                                "start": 83,
                                                                 "end": 88
                                                             },
                                                             "expression": {
@@ -259,7 +259,7 @@ class B extends A {
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 53, end: 54
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 39, end: 54
 
 ```
 
