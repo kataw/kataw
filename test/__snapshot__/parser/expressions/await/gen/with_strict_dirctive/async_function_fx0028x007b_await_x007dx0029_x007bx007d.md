@@ -55,49 +55,39 @@
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "await",
-                                            "rawText": "await",
-                                            "flags": 96,
-                                            "start": 32,
-                                            "end": 38
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 222,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
                                         "start": 32,
                                         "end": 38
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 32,
-                                "end": 38
-                            },
+                                    },
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 32,
+                                    "end": 38
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 32,
-                            "start": 31,
-                            "end": 40
+                            "start": 32,
+                            "end": 38
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 31,
                         "end": 40
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 30,
                 "end": 41
             },

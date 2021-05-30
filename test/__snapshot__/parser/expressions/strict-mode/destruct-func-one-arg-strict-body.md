@@ -47,51 +47,41 @@
                         "kind": 214,
                         "formalParameterList": [
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 201,
-                                    "elementList": {
-                                        "kind": 202,
-                                        "elements": [
-                                            {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 13,
-                                                    "end": 14
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 202,
+                                    "elements": [
+                                        {
+                                            "kind": 203,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
                                                 "start": 13,
                                                 "end": 14
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 13,
-                                        "end": 14
-                                    },
-                                    "flags": 32,
-                                    "start": 12,
-                                    "end": 15
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": null,
+                                            "flags": 32,
+                                            "start": 13,
+                                            "end": 14
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 13,
+                                    "end": 14
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 11,
                         "end": 16
                     },
@@ -146,12 +136,12 @@
 
 ```javascript
 
++function f([x]) {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 12, end: 30
-
+✔ No errors
 ```
 

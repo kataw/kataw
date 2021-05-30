@@ -994,44 +994,24 @@ a = { y: x = 1 } = b;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 222,
-                                                    "end": 223
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
                                                 "start": 222,
                                                 "end": 223
                                             },
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 224,
-                                                    "end": 226
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
                                                 "start": 224,
                                                 "end": 226
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 222,
                                         "end": 227
                                     },
@@ -2057,26 +2037,16 @@ a = { y: x = 1 } = b;
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 455,
-                                                            "end": 456
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
                                                         "start": 455,
                                                         "end": 456
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 544,
+                                                "flags": 608,
                                                 "start": 455,
                                                 "end": 457
                                             },
@@ -3154,26 +3124,16 @@ a = { y: x = 1 } = b;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 720,
-                                                    "end": 721
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
                                                 "start": 720,
                                                 "end": 721
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 720,
                                         "end": 722
                                     },
@@ -3374,26 +3334,16 @@ a = { y: x = 1 } = b;
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "v",
-                                                                "rawText": "v",
-                                                                "flags": 96,
-                                                                "start": 773,
-                                                                "end": 774
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "v",
+                                                            "rawText": "v",
+                                                            "flags": 96,
                                                             "start": 773,
                                                             "end": 774
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 544,
+                                                    "flags": 608,
                                                     "start": 773,
                                                     "end": 775
                                                 },
@@ -4011,26 +3961,16 @@ a = { y: x = 1 } = b;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "a",
-                                                    "rawText": "a",
-                                                    "flags": 96,
-                                                    "start": 911,
-                                                    "end": 912
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 96,
                                                 "start": 911,
                                                 "end": 912
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 911,
                                         "end": 913
                                     },

@@ -56,80 +56,40 @@
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "async",
-                                                                "rawText": "async",
-                                                                "flags": 96,
-                                                                "start": 17,
-                                                                "end": 22
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "async",
+                                                            "rawText": "async",
+                                                            "flags": 96,
                                                             "start": 17,
                                                             "end": 22
                                                         },
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 96,
-                                                                "start": 22,
-                                                                "end": 24
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "x",
+                                                            "rawText": "x",
+                                                            "flags": 96,
                                                             "start": 22,
                                                             "end": 24
                                                         },
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
-                                                                "start": 25,
-                                                                "end": 31
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "await",
+                                                            "rawText": "await",
+                                                            "flags": 96,
                                                             "start": 25,
                                                             "end": 31
                                                         },
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "y",
-                                                                "rawText": "y",
-                                                                "flags": 96,
-                                                                "start": 31,
-                                                                "end": 33
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "y",
+                                                            "rawText": "y",
+                                                            "flags": 96,
                                                             "start": 31,
                                                             "end": 33
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 16,
                                                     "end": 34
                                                 },

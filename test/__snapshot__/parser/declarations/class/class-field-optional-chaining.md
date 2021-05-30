@@ -109,26 +109,16 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "f",
-                                                "rawText": "f",
-                                                "flags": 96,
-                                                "start": 18,
-                                                "end": 19
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 18,
                                     "end": 20
                                 },

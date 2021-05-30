@@ -74,26 +74,16 @@ class x {async *f(await){}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
-                                                "start": 18,
-                                                "end": 23
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 23
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 416,
+                                    "flags": 480,
                                     "start": 18,
                                     "end": 24
                                 },

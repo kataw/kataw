@@ -77,26 +77,16 @@ class A {
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "arg",
-                                                "rawText": "arg",
-                                                "flags": 96,
-                                                "start": 22,
-                                                "end": 25
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "arg",
+                                            "rawText": "arg",
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 1056,
+                                    "flags": 1120,
                                     "start": 22,
                                     "end": 26
                                 },

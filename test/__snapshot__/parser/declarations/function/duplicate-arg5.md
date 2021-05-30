@@ -47,44 +47,24 @@
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 25,
-                            "end": 26
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
                         "start": 25,
                         "end": 26
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 27,
-                            "end": 29
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
                         "start": 27,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 24,
                 "end": 30
             },

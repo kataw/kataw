@@ -44,69 +44,59 @@ async function a(options = {}) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 202,
-                                "elements": [
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "option1",
-                                            "rawText": "option1",
-                                            "flags": 96,
-                                            "start": 12,
-                                            "end": 20
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                        "kind": 201,
+                        "elementList": {
+                            "kind": 202,
+                            "elements": [
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "option1",
+                                        "rawText": "option1",
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 20
                                     },
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "option2",
-                                            "rawText": "option2",
-                                            "flags": 96,
-                                            "start": 21,
-                                            "end": 29
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 12,
+                                    "end": 20
+                                },
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "option2",
+                                        "rawText": "option2",
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 29
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 12,
-                                "end": 29
-                            },
-                            "flags": 32,
-                            "start": 11,
-                            "end": 31
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 21,
+                                    "end": 29
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 12,
+                            "end": 29
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 11,
                         "end": 31
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 32
             },
@@ -251,7 +241,6 @@ async function a(options = {}) {
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 11, end: 50
 ✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 71, end: 102
 
 ```

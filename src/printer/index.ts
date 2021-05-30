@@ -91,8 +91,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printImportDeclaration(node, printer);
     case SyntaxKind.FormalParameterList:
       return printFormalParameterList(node, printer);
-    case SyntaxKind.FormalParameter:
-      return printFormalParameter(node, printer);
     case SyntaxKind.SingleNameBinding:
       return printSingleNameBinding(node, printer);
     case SyntaxKind.BindingProperty:
@@ -762,20 +760,6 @@ function printWithStatement(node: any, printer: Printer): any {
   ]);
 }
 
-function printParametersForArrow(parameters: any, printer: Printer, parentNode: any): any {
-  const { parameterList } = parameters;
-  if (
-    parameterList &&
-    parameterList.length === 1 &&
-    !parameterList[0].type &&
-    parameterList[0].start === parentNode.start
-  ) {
-    return printFormalParameter(parameterList[0], printer);
-  } else {
-    return chain(['(', chain(printDelimitedList(parameterList, printer, parentNode, printStatements, ',')), ')']);
-  }
-}
-
 function printDecorators(node: any, printer: Printer): any {
   if (node.decoratorList) {
     const children = node.decoratorList;
@@ -1277,30 +1261,6 @@ function printBindingList(node: any, printer: Printer): any {
 
 function printVariableDeclarationList(node: any, printer: Printer): any {
   return printDelimitedList(node.declarations, printer, node, printStatements, ',');
-}
-
-function printFormalParameter(node: any, printer: Printer): any {
-  if (node.initializer) {
-    const { initializer } = node;
-    return group(
-      chain([
-        printKeyword(node.ellipsisToken, printer, node.start, node, /* separator */ false),
-        printStatements(node.binding, printer, node),
-        printKeyword(node.optionalToken, printer, node.binding.end, node, /* separator */ false),
-        printer.space,
-        '=',
-        initializer.kind === SyntaxKind.Identifier
-          ? group(indent(chain([line, printExpressions(initializer, printer, node)])))
-          : chain([printer.space, printExpressions(initializer, printer, node)])
-      ])
-    );
-  }
-
-  return chain([
-    printKeyword(node.ellipsisToken, printer, node.start, node, /* separator */ false),
-    printStatements(node.binding, printer, node),
-    printKeyword(node.optionalToken, printer, node.binding.end, node, /* separator */ false)
-  ]);
 }
 
 function printVariableStatement(node: any, printer: Printer, inForStatement: boolean): any {

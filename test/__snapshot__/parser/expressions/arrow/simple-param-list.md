@@ -119,32 +119,22 @@
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 201,
-                                                                "elementList": {
-                                                                    "kind": 202,
-                                                                    "elements": [],
-                                                                    "trailingComma": false,
-                                                                    "flags": 0,
-                                                                    "start": 36,
-                                                                    "end": 36
-                                                                },
-                                                                "flags": 32,
-                                                                "start": 35,
-                                                                "end": 37
+                                                            "kind": 201,
+                                                            "elementList": {
+                                                                "kind": 202,
+                                                                "elements": [],
+                                                                "trailingComma": false,
+                                                                "flags": 0,
+                                                                "start": 36,
+                                                                "end": 36
                                                             },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 34,
+                                                            "flags": 32,
                                                             "start": 35,
                                                             "end": 37
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 546,
+                                                    "flags": 544,
                                                     "start": 35,
                                                     "end": 38
                                                 },
@@ -229,32 +219,22 @@
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 201,
-                                                            "elementList": {
-                                                                "kind": 202,
-                                                                "elements": [],
-                                                                "trailingComma": false,
-                                                                "flags": 0,
-                                                                "start": 63,
-                                                                "end": 63
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 62,
-                                                            "end": 64
+                                                        "kind": 201,
+                                                        "elementList": {
+                                                            "kind": 202,
+                                                            "elements": [],
+                                                            "trailingComma": false,
+                                                            "flags": 0,
+                                                            "start": 63,
+                                                            "end": 63
                                                         },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 34,
+                                                        "flags": 32,
                                                         "start": 62,
                                                         "end": 64
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 34,
+                                                "flags": 32,
                                                 "start": 62,
                                                 "end": 65
                                             },
@@ -334,8 +314,6 @@
 
 ```javascript
 ✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 0, end: 23
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 35, end: 52
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 62, end: 79
 
 ```
 

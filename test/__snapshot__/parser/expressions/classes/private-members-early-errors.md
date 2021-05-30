@@ -78,26 +78,16 @@ class C { foo() { this.#a = 1; }}
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "val",
-                                                            "rawText": "val",
-                                                            "flags": 96,
-                                                            "start": 16,
-                                                            "end": 19
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "val",
+                                                        "rawText": "val",
+                                                        "flags": 96,
                                                         "start": 16,
                                                         "end": 19
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 544,
+                                                "flags": 608,
                                                 "start": 16,
                                                 "end": 20
                                             },

@@ -46,80 +46,40 @@
                             "kind": 214,
                             "formalParameterList": [
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 13,
-                                        "end": 18
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 18
                                 },
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 18,
-                                        "end": 20
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
                                     "start": 18,
                                     "end": 20
                                 },
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
-                                        "start": 21,
-                                        "end": 27
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 96,
                                     "start": 21,
                                     "end": 27
                                 },
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 27,
-                                        "end": 29
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
                                     "start": 27,
                                     "end": 29
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 96,
                             "start": 12,
                             "end": 30
                         },

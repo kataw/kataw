@@ -87,26 +87,16 @@ function call(foo= 5 + (await bar())){}
                         "end": 29
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 29,
-                            "end": 33
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 96,
                         "start": 29,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 98,
                 "start": 13,
                 "end": 34
             },

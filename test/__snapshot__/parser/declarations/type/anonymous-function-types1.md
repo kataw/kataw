@@ -80,26 +80,16 @@ declare function foo(x: number, string): void;
                         "end": 30
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "string",
-                            "rawText": "string",
-                            "flags": 96,
-                            "start": 31,
-                            "end": 38
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "string",
+                        "rawText": "string",
+                        "flags": 96,
                         "start": 31,
                         "end": 38
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 20,
                 "end": 39
             },

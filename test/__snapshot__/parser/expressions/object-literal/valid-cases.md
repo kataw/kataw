@@ -234,26 +234,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
-                                                    "start": 47,
-                                                    "end": 48
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "v",
+                                                "rawText": "v",
+                                                "flags": 96,
                                                 "start": 47,
                                                 "end": 48
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 47,
                                         "end": 49
                                     },
@@ -459,26 +449,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
-                                                    "start": 111,
-                                                    "end": 112
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "v",
+                                                "rawText": "v",
+                                                "flags": 96,
                                                 "start": 111,
                                                 "end": 112
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 111,
                                         "end": 113
                                     },
@@ -684,26 +664,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
-                                                    "start": 158,
-                                                    "end": 159
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "v",
+                                                "rawText": "v",
+                                                "flags": 96,
                                                 "start": 158,
                                                 "end": 159
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 158,
                                         "end": 160
                                     },
@@ -916,26 +886,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "_",
-                                                    "rawText": "_",
-                                                    "flags": 96,
-                                                    "start": 211,
-                                                    "end": 212
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "_",
+                                                "rawText": "_",
+                                                "flags": 96,
                                                 "start": 211,
                                                 "end": 212
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 211,
                                         "end": 213
                                     },
@@ -988,26 +948,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
-                                                    "start": 226,
-                                                    "end": 227
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "v",
+                                                "rawText": "v",
+                                                "flags": 96,
                                                 "start": 226,
                                                 "end": 227
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 226,
                                         "end": 228
                                     },
@@ -2055,26 +2005,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
-                                                    "start": 455,
-                                                    "end": 456
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "v",
+                                                "rawText": "v",
+                                                "flags": 96,
                                                 "start": 455,
                                                 "end": 456
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 455,
                                         "end": 457
                                     },
@@ -2814,26 +2754,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
-                                                    "start": 689,
-                                                    "end": 690
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "v",
+                                                "rawText": "v",
+                                                "flags": 96,
                                                 "start": 689,
                                                 "end": 690
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 689,
                                         "end": 691
                                     },
@@ -2936,26 +2866,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "v",
-                                                    "rawText": "v",
-                                                    "flags": 96,
-                                                    "start": 715,
-                                                    "end": 716
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "v",
+                                                "rawText": "v",
+                                                "flags": 96,
                                                 "start": 715,
                                                 "end": 716
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 715,
                                         "end": 717
                                     },
@@ -3161,26 +3081,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "_",
-                                                    "rawText": "_",
-                                                    "flags": 96,
-                                                    "start": 774,
-                                                    "end": 775
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "_",
+                                                "rawText": "_",
+                                                "flags": 96,
                                                 "start": 774,
                                                 "end": 775
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 544,
+                                        "flags": 608,
                                         "start": 774,
                                         "end": 776
                                     },

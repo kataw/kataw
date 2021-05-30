@@ -73,44 +73,24 @@ var O = { async method(a, a) {} }
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 23,
-                                                            "end": 24
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
                                                         "start": 23,
                                                         "end": 24
                                                     },
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 25,
-                                                            "end": 27
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
                                                         "start": 25,
                                                         "end": 27
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 288,
+                                                "flags": 352,
                                                 "start": 23,
                                                 "end": 28
                                             },

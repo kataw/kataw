@@ -572,26 +572,16 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "yield",
-                                            "rawText": "yield",
-                                            "flags": 96,
-                                            "start": 284,
-                                            "end": 289
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
                                         "start": 284,
                                         "end": 289
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 283,
                                 "end": 290
                             },
@@ -700,44 +690,24 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "bar",
-                                            "rawText": "bar",
-                                            "flags": 96,
-                                            "start": 345,
-                                            "end": 348
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "bar",
+                                        "rawText": "bar",
+                                        "flags": 96,
                                         "start": 345,
                                         "end": 348
                                     },
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "yield",
-                                            "rawText": "yield",
-                                            "flags": 96,
-                                            "start": 349,
-                                            "end": 355
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
                                         "start": 349,
                                         "end": 355
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 344,
                                 "end": 356
                             },

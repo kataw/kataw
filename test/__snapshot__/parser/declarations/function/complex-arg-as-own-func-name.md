@@ -38,51 +38,41 @@ function f([f]) { }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 202,
-                                "elements": [
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "f",
-                                            "rawText": "f",
-                                            "flags": 96,
-                                            "start": 12,
-                                            "end": 13
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                        "kind": 201,
+                        "elementList": {
+                            "kind": 202,
+                            "elements": [
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 13
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 12,
-                                "end": 13
-                            },
-                            "flags": 32,
-                            "start": 11,
-                            "end": 14
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 12,
+                                    "end": 13
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 12,
+                            "end": 13
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 11,
                         "end": 14
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 15
             },

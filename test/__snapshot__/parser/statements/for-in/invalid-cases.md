@@ -4213,26 +4213,16 @@ for ({}.bar = x in obj);
                                                             "kind": 214,
                                                             "formalParameterList": [
                                                                 {
-                                                                    "kind": 203,
-                                                                    "ellipsisToken": null,
-                                                                    "left": {
-                                                                        "kind": 134299649,
-                                                                        "text": "val",
-                                                                        "rawText": "val",
-                                                                        "flags": 96,
-                                                                        "start": 1128,
-                                                                        "end": 1131
-                                                                    },
-                                                                    "optionalToken": null,
-                                                                    "type": null,
-                                                                    "right": null,
-                                                                    "flags": 32,
+                                                                    "kind": 134299649,
+                                                                    "text": "val",
+                                                                    "rawText": "val",
+                                                                    "flags": 96,
                                                                     "start": 1128,
                                                                     "end": 1131
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 544,
+                                                            "flags": 608,
                                                             "start": 1128,
                                                             "end": 1132
                                                         },
@@ -4458,26 +4448,16 @@ for ({}.bar = x in obj);
                                                         "kind": 214,
                                                         "formalParameterList": [
                                                             {
-                                                                "kind": 203,
-                                                                "ellipsisToken": null,
-                                                                "left": {
-                                                                    "kind": 134299649,
-                                                                    "text": "val",
-                                                                    "rawText": "val",
-                                                                    "flags": 96,
-                                                                    "start": 1182,
-                                                                    "end": 1185
-                                                                },
-                                                                "optionalToken": null,
-                                                                "type": null,
-                                                                "right": null,
-                                                                "flags": 32,
+                                                                "kind": 134299649,
+                                                                "text": "val",
+                                                                "rawText": "val",
+                                                                "flags": 96,
                                                                 "start": 1182,
                                                                 "end": 1185
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 544,
+                                                        "flags": 608,
                                                         "start": 1182,
                                                         "end": 1186
                                                     },

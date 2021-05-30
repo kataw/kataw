@@ -75,26 +75,16 @@ class A {set 9(x){}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 15,
-                                                "end": 16
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 16
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 544,
+                                    "flags": 608,
                                     "start": 15,
                                     "end": 17
                                 },

@@ -162,26 +162,16 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                                                                                 "kind": 214,
                                                                                 "formalParameterList": [
                                                                                     {
-                                                                                        "kind": 203,
-                                                                                        "ellipsisToken": null,
-                                                                                        "left": {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "await",
-                                                                                            "rawText": "await",
-                                                                                            "flags": 96,
-                                                                                            "start": 61,
-                                                                                            "end": 66
-                                                                                        },
-                                                                                        "optionalToken": null,
-                                                                                        "type": null,
-                                                                                        "right": null,
-                                                                                        "flags": 32,
+                                                                                        "kind": 134299649,
+                                                                                        "text": "await",
+                                                                                        "rawText": "await",
+                                                                                        "flags": 96,
                                                                                         "start": 61,
                                                                                         "end": 66
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 288,
+                                                                                "flags": 352,
                                                                                 "start": 61,
                                                                                 "end": 67
                                                                             },

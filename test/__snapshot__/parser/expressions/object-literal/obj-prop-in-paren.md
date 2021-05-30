@@ -34,70 +34,60 @@
                         "kind": 214,
                         "formalParameterList": [
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 222,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 11,
-                                                    "end": 12
-                                                },
-                                                "right": null,
-                                                "flags": 32,
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 222,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
                                                 "start": 11,
                                                 "end": 12
                                             },
-                                            {
-                                                "kind": 222,
-                                                "ellipsisToken": {
-                                                    "kind": 524302,
-                                                    "flags": 64,
-                                                    "start": 13,
-                                                    "end": 17
-                                                },
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 17,
-                                                    "end": 18
-                                                },
-                                                "right": null,
-                                                "flags": 32,
+                                            "right": null,
+                                            "flags": 32,
+                                            "start": 11,
+                                            "end": 12
+                                        },
+                                        {
+                                            "kind": 222,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 64,
                                                 "start": 13,
+                                                "end": 17
+                                            },
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 17,
                                                 "end": 18
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 11,
-                                        "end": 18
-                                    },
+                                            },
+                                            "right": null,
+                                            "flags": 32,
+                                            "start": 13,
+                                            "end": 18
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 32,
-                                    "start": 10,
-                                    "end": 19
+                                    "start": 11,
+                                    "end": 18
                                 },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 19
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 9,
                         "end": 20
                     },

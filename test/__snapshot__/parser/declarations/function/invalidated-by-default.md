@@ -39,56 +39,26 @@ function f(b, a, b, a = x) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 12
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "b",
+                        "rawText": "b",
+                        "flags": 96,
                         "start": 11,
                         "end": 12
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 13,
-                            "end": 15
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
                         "start": 13,
                         "end": 15
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 96,
-                            "start": 16,
-                            "end": 18
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "b",
+                        "rawText": "b",
+                        "flags": 96,
                         "start": 16,
                         "end": 18
                     },
@@ -119,7 +89,7 @@ function f(b, a, b, a = x) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 98,
                 "start": 10,
                 "end": 26
             },

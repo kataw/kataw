@@ -210,26 +210,16 @@ var gen = async function *g() {
                                                                                 "kind": 214,
                                                                                 "formalParameterList": [
                                                                                     {
-                                                                                        "kind": 203,
-                                                                                        "ellipsisToken": null,
-                                                                                        "left": {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "arg",
-                                                                                            "rawText": "arg",
-                                                                                            "flags": 96,
-                                                                                            "start": 103,
-                                                                                            "end": 106
-                                                                                        },
-                                                                                        "optionalToken": null,
-                                                                                        "type": null,
-                                                                                        "right": null,
-                                                                                        "flags": 32,
+                                                                                        "kind": 134299649,
+                                                                                        "text": "arg",
+                                                                                        "rawText": "arg",
+                                                                                        "flags": 96,
                                                                                         "start": 103,
                                                                                         "end": 106
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 32,
+                                                                                "flags": 96,
                                                                                 "start": 102,
                                                                                 "end": 107
                                                                             },

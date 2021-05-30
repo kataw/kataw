@@ -1208,26 +1208,16 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "yield",
-                                            "rawText": "yield",
-                                            "flags": 96,
-                                            "start": 676,
-                                            "end": 681
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
                                         "start": 676,
                                         "end": 681
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 675,
                                 "end": 682
                             },
@@ -1345,26 +1335,16 @@ async function * gen() {class C extends await { }}
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "yield",
-                                                    "rawText": "yield",
-                                                    "flags": 96,
-                                                    "start": 734,
-                                                    "end": 739
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "yield",
+                                                "rawText": "yield",
+                                                "flags": 96,
                                                 "start": 734,
                                                 "end": 739
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 733,
                                         "end": 740
                                     },
@@ -1487,26 +1467,16 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "await",
-                                            "rawText": "await",
-                                            "flags": 96,
-                                            "start": 792,
-                                            "end": 797
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
                                         "start": 792,
                                         "end": 797
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 791,
                                 "end": 798
                             },
@@ -1624,26 +1594,16 @@ async function * gen() {class C extends await { }}
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "await",
-                                                    "rawText": "await",
-                                                    "flags": 96,
-                                                    "start": 850,
-                                                    "end": 855
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "await",
+                                                "rawText": "await",
+                                                "flags": 96,
                                                 "start": 850,
                                                 "end": 855
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 849,
                                         "end": 856
                                     },

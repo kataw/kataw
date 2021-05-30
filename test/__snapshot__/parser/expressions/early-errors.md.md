@@ -727,26 +727,16 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 203,
-                                                    "ellipsisToken": null,
-                                                    "left": {
-                                                        "kind": 134299649,
-                                                        "text": "b",
-                                                        "rawText": "b",
-                                                        "flags": 96,
-                                                        "start": 1091,
-                                                        "end": 1092
-                                                    },
-                                                    "optionalToken": null,
-                                                    "type": null,
-                                                    "right": null,
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "b",
+                                                    "rawText": "b",
+                                                    "flags": 96,
                                                     "start": 1091,
                                                     "end": 1092
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 544,
+                                            "flags": 608,
                                             "start": 1091,
                                             "end": 1093
                                         },
@@ -841,26 +831,16 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 203,
-                                                    "ellipsisToken": null,
-                                                    "left": {
-                                                        "kind": 134299649,
-                                                        "text": "b",
-                                                        "rawText": "b",
-                                                        "flags": 96,
-                                                        "start": 1107,
-                                                        "end": 1108
-                                                    },
-                                                    "optionalToken": null,
-                                                    "type": null,
-                                                    "right": null,
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "b",
+                                                    "rawText": "b",
+                                                    "flags": 96,
                                                     "start": 1107,
                                                     "end": 1108
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 1107,
                                             "end": 1109
                                         },
@@ -3555,26 +3535,16 @@ try {} catch(e) { for(var e of 0); };
                                                                             "kind": 214,
                                                                             "formalParameterList": [
                                                                                 {
-                                                                                    "kind": 203,
-                                                                                    "ellipsisToken": null,
-                                                                                    "left": {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "a",
-                                                                                        "rawText": "a",
-                                                                                        "flags": 96,
-                                                                                        "start": 3499,
-                                                                                        "end": 3500
-                                                                                    },
-                                                                                    "optionalToken": null,
-                                                                                    "type": null,
-                                                                                    "right": null,
-                                                                                    "flags": 32,
+                                                                                    "kind": 134299649,
+                                                                                    "text": "a",
+                                                                                    "rawText": "a",
+                                                                                    "flags": 96,
                                                                                     "start": 3499,
                                                                                     "end": 3500
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
-                                                                            "flags": 544,
+                                                                            "flags": 608,
                                                                             "start": 3499,
                                                                             "end": 3501
                                                                         },

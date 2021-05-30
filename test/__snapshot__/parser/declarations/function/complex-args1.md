@@ -38,87 +38,77 @@ function f([b, a, a]) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 202,
-                                "elements": [
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 12,
-                                            "end": 13
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                        "kind": 201,
+                        "elementList": {
+                            "kind": 202,
+                            "elements": [
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 13
                                     },
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 14,
-                                            "end": 16
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 12,
+                                    "end": 13
+                                },
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 16
                                     },
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 19
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 14,
+                                    "end": 16
+                                },
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 19
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 12,
-                                "end": 19
-                            },
-                            "flags": 32,
-                            "start": 11,
-                            "end": 20
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 17,
+                                    "end": 19
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 12,
+                            "end": 19
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 11,
                         "end": 20
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 21
             },
@@ -156,12 +146,12 @@ function f([b, a, a]) {}
 
 ```javascript
 
+function f([b, a, a]) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 11, end: 21
-
+✔ No errors
 ```
 

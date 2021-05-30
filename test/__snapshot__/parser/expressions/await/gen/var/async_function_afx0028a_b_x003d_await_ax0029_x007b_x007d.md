@@ -140,20 +140,10 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 57,
-                                                                "end": 58
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
                                                             "start": 57,
                                                             "end": 58
                                                         },
@@ -196,7 +186,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 34,
+                                                    "flags": 98,
                                                     "start": 56,
                                                     "end": 72
                                                 },

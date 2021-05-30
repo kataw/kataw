@@ -97,26 +97,16 @@ class x {*f(foo = await bar){}}
                                             "end": 23
                                         },
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "bar",
-                                                "rawText": "bar",
-                                                "flags": 96,
-                                                "start": 23,
-                                                "end": 27
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "bar",
+                                            "rawText": "bar",
+                                            "flags": 96,
                                             "start": 23,
                                             "end": 27
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 34,
+                                    "flags": 98,
                                     "start": 12,
                                     "end": 28
                                 },

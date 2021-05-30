@@ -290,26 +290,16 @@ function* g() {
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "param",
-                                                                "rawText": "param",
-                                                                "flags": 96,
-                                                                "start": 110,
-                                                                "end": 115
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "param",
+                                                            "rawText": "param",
+                                                            "flags": 96,
                                                             "start": 110,
                                                             "end": 115
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 544,
+                                                    "flags": 608,
                                                     "start": 110,
                                                     "end": 116
                                                 },

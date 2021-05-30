@@ -64,44 +64,24 @@ class A { foo(a, b,) {} };
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
-                                                "start": 14,
-                                                "end": 15
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 15
                                         },
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "b",
-                                                "rawText": "b",
-                                                "flags": 96,
-                                                "start": 16,
-                                                "end": 18
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 18
                                         }
                                     ],
                                     "trailingComma": true,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 14,
                                     "end": 20
                                 },

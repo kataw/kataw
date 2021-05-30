@@ -159,69 +159,49 @@ class Foo {
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "member",
-                                                "rawText": "member",
-                                                "flags": 96,
-                                                "start": 29,
-                                                "end": 35
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "member",
+                                            "rawText": "member",
+                                            "flags": 96,
                                             "start": 29,
                                             "end": 35
                                         },
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 201,
-                                                "elementList": {
-                                                    "kind": 202,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "expression",
-                                                                "rawText": "expression",
-                                                                "flags": 96,
-                                                                "start": 36,
-                                                                "end": 46
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                            "kind": 201,
+                                            "elementList": {
+                                                "kind": 202,
+                                                "elements": [
+                                                    {
+                                                        "kind": 203,
+                                                        "ellipsisToken": null,
+                                                        "left": {
+                                                            "kind": 134299649,
+                                                            "text": "expression",
+                                                            "rawText": "expression",
+                                                            "flags": 96,
                                                             "start": 36,
                                                             "end": 46
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 0,
-                                                    "start": 36,
-                                                    "end": 46
-                                                },
-                                                "flags": 32,
-                                                "start": 35,
-                                                "end": 47
+                                                        },
+                                                        "optionalToken": null,
+                                                        "type": null,
+                                                        "right": null,
+                                                        "flags": 32,
+                                                        "start": 36,
+                                                        "end": 46
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 36,
+                                                "end": 46
                                             },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 34,
+                                            "flags": 32,
                                             "start": 35,
                                             "end": 47
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 34,
+                                    "flags": 96,
                                     "start": 29,
                                     "end": 48
                                 },
@@ -328,26 +308,16 @@ class Foo {
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 96,
-                                                "start": 66,
-                                                "end": 69
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
                                             "start": 66,
                                             "end": 69
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 66,
                                     "end": 71
                                 },

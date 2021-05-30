@@ -4133,10 +4133,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         state = Tristate.True;
         expression = createBindingElement(
           /* ellipsisToken */ null,
-          /* binding */ expression,
+          /* left */ expression,
           /* optionalToken */ questionMarkToken,
           /* type */ parseTypeAnnotation(parser, context),
-          /* initializer */ parseInitializer(parser, context, false),
+          /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           curPos,
           parser.curPos
@@ -4160,10 +4160,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
       expression = createBindingElement(
         /* ellipsisToken */ null,
-        /* binding */ expression,
+        /* left */ expression,
         /* optionalToken */ null,
         /* type */ parseTypeAnnotation(parser, context),
-        /* initializer */ parseInitializer(parser, context, false),
+        /* right */ parseInitializer(parser, context, false),
         NodeFlags.ExpressionNode,
         curPos,
         parser.curPos
@@ -4285,10 +4285,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         state = Tristate.True;
         expression = createBindingElement(
           /* ellipsisToken */ null,
-          /* binding */ expression,
+          /* left */ expression,
           /* optionalToken */ questionMarkToken,
           /* type */ parseTypeAnnotation(parser, context),
-          /* initializer */ parseInitializer(parser, context, false),
+          /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           curPos,
           parser.curPos
@@ -4313,10 +4313,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
       expression = createBindingElement(
         /* ellipsisToken */ null,
-        /* binding */ expression as any,
+        /* left */ expression as any,
         /* optionalToken */ null,
         /* type */ parseTypeAnnotation(parser, context),
-        /* initializer */ parseInitializer(parser, context, false),
+        /* right */ parseInitializer(parser, context, false),
         NodeFlags.ExpressionNode,
         curPos,
         parser.curPos
@@ -4528,10 +4528,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             state = Tristate.True;
             expression = createBindingElement(
               /* ellipsisToken */ null,
-              /* binding */ expression,
+              /* left */ expression,
               /* optionalToken */ questionMarkToken,
               /* type */ parseTypeAnnotation(parser, context),
-              /* initializer */ parseInitializer(parser, context, false),
+              /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               curPos,
               parser.curPos
@@ -4558,10 +4558,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
           expression = createBindingElement(
             /* ellipsisToken */ null,
-            /* binding */ expression,
+            /* left */ expression,
             /* optionalToken */ null,
             /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context, false),
+            /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             curPos,
             parser.curPos
@@ -4658,10 +4658,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             state = Tristate.True;
             expression = createBindingElement(
               /* ellipsisToken */ null,
-              /* binding */ expression,
+              /* left */ expression,
               /* optionalToken */ questionMarkToken,
               /* type */ parseTypeAnnotation(parser, context),
-              /* initializer */ parseInitializer(parser, context, false),
+              /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               curPos,
               parser.curPos
@@ -4689,10 +4689,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
           expression = createBindingElement(
             /* ellipsisToken */ null,
-            /* binding */ expression as any,
+            /* left */ expression as any,
             /* optionalToken */ null,
             /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context, false),
+            /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             curPos,
             parser.curPos
@@ -5903,63 +5903,113 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   return createFormalParameterList([], /* trailingComma*/ false, nodeFlags, curpPos, curpPos);
 }
 
-function parseFormalParameter(parser: ParserState, context: Context, scope: ScopeState): BindingElement {
+/**
+ * FormalParameter :
+ *    BindingElement
+ *
+ * FormalParameterList :
+ *    [empty]
+ *       FunctionRestParameter
+ *      FormalsList
+ *     FormalsList , FunctionRestParameter
+ *
+ *     FunctionRestParameter :
+ *      ... BindingIdentifier
+ *
+ *     FormalsList :
+ *      FormalParameter
+ *     FormalsList , FormalParameter
+ *
+ *     FormalParameter :
+ *      BindingElement
+ *
+ *     BindingElement :
+ *      SingleNameBinding
+ *   BindingPattern Initializeropt
+ */
+function parseFormalParameter(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState
+): BindingElement | DummyIdentifier | Identifier | ArrayBindingPattern | ObjectBindingPattern {
   const pos = parser.curPos;
   let nodeflags = NodeFlags.ExpressionNode;
-  const token = parser.token;
+
+  if (parser.token === SyntaxKind.ThisKeyword) {
+    const left = parseBindingIdentifier(parser, context, scope, BindingType.ArgumentList);
+    if (context & Context.OptionsAllowTypes) {
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      if (optionalToken) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
+          parser.curPos,
+          parser.pos
+        );
+      }
+    }
+
+    return createBindingElement(
+      /* ellipsisToken */ null,
+      left,
+      /* optionalToken */ null,
+      parseTypeAnnotation(parser, context),
+      /* right */ null,
+      nodeflags,
+      pos,
+      parser.curPos
+    );
+  }
+
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-  const binding = parseIdentifierOrPattern(
+  const left = parseIdentifierOrPattern(
     parser,
     context,
     scope,
     ellipsisToken ? BindingType.None : BindingType.ArgumentList
   );
 
-  if (ellipsisToken) {
-    nodeflags |= NodeFlags.NoneSimpleParamList;
-    parser.diagnosticStartPos = pos;
-    if (parser.token === SyntaxKind.Comma) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.A_rest_parameter_must_be_last_in_a_parameter_list],
-        parser.curPos,
-        parser.pos
-      );
+  if (
+    ellipsisToken ||
+    parser.token === SyntaxKind.QuestionMark ||
+    parser.token === SyntaxKind.Colon ||
+    parser.token === SyntaxKind.Assign
+  ) {
+    if (ellipsisToken) {
+      nodeflags |= NodeFlags.NoneSimpleParamList;
+      parser.diagnosticStartPos = pos;
+      if (parser.token === SyntaxKind.Comma) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.A_rest_parameter_must_be_last_in_a_parameter_list],
+          parser.curPos,
+          parser.pos
+        );
+      }
     }
-  }
-  const optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+    const optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+    const type = parseTypeAnnotation(parser, context);
+    const right = parseInitializer(parser, context, ellipsisToken ? true : false);
 
-  if (context & Context.OptionsAllowTypes && token === SyntaxKind.ThisKeyword) {
-    if (optionalToken) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
-        parser.curPos,
-        parser.pos
-      );
+    if (left.kind !== SyntaxKind.Identifier || right) {
+      nodeflags |= NodeFlags.NoneSimpleParamList;
+      parser.diagnosticStartPos = pos;
     }
-    if (parser.token !== SyntaxKind.Colon) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
-        parser.curPos,
-        parser.pos
-      );
-    }
+    return createBindingElement(ellipsisToken, left, optionalToken, type, right, nodeflags, pos, parser.curPos);
   }
 
-  const type = parseTypeAnnotation(parser, context);
-  const initializer = parseInitializer(parser, context, ellipsisToken ? true : false);
-
-  if (binding.kind !== SyntaxKind.Identifier || initializer) {
-    nodeflags |= NodeFlags.NoneSimpleParamList;
-    parser.diagnosticStartPos = pos;
-  }
-
-  return createBindingElement(ellipsisToken, binding, optionalToken, type, initializer, nodeflags, pos, parser.curPos);
+  return left;
 }
 
 // ImportDeclaration :
@@ -8940,10 +8990,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           expression = createBindingElement(
             /* ellipsisToken */ null,
-            /* binding */ expression,
+            /* left */ expression,
             /* optionalToken */ questionMarkToken,
             /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context, false),
+            /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
             parser.curPos
@@ -8954,10 +9004,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
         expression = createBindingElement(
           /* ellipsisToken */ null,
-          /* binding */ expression,
+          /* left */ expression,
           /* optionalToken */ null,
           /* type */ parseTypeAnnotation(parser, context),
-          /* initializer */ parseInitializer(parser, context, false),
+          /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           pos,
           parser.curPos
@@ -9046,10 +9096,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           expression = createBindingElement(
             /* ellipsisToken */ null,
-            /* binding */ expression,
+            /* left */ expression,
             /* optionalToken */ questionMarkToken,
             /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context, false),
+            /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
             parser.curPos
@@ -9059,10 +9109,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         state = Tristate.True;
         expression = createBindingElement(
           /* ellipsisToken */ null,
-          /* binding */ expression as any,
+          /* left */ expression as any,
           /* optionalToken */ null,
           /* type */ parseTypeAnnotation(parser, context),
-          /* initializer */ parseInitializer(parser, context, false),
+          /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           pos,
           parser.curPos
@@ -9154,10 +9204,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
             expression = createBindingElement(
               /* ellipsisToken */ ellipsisToken,
-              /* binding */ expression,
+              /* left */ expression,
               /* optionalToken */ questionMarkToken,
               /* type */ parseTypeAnnotation(parser, context),
-              /* initializer */ parseInitializer(parser, context, false),
+              /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               pos,
               parser.curPos
@@ -9169,10 +9219,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           expression = createBindingElement(
             /* ellipsisToken */ ellipsisToken,
-            /* binding */ expression,
+            /* left */ expression,
             /* optionalToken */ null,
             /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context, false),
+            /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
             parser.curPos
@@ -9259,10 +9309,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
             expression = createBindingElement(
               /* ellipsisToken */ ellipsisToken,
-              /* binding */ expression,
+              /* left */ expression,
               /* optionalToken */ null,
               /* type */ parseTypeAnnotation(parser, context),
-              /* initializer */ parseInitializer(parser, context, false),
+              /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               pos,
               parser.curPos
@@ -9274,10 +9324,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           expression = createBindingElement(
             /* ellipsisToken */ ellipsisToken,
-            /* binding */ expression,
+            /* left */ expression,
             /* optionalToken */ null,
             /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context, false),
+            /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
             parser.curPos

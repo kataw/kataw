@@ -41,75 +41,65 @@ function fn3([a,, b,]) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 202,
-                                "elements": [
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 14,
-                                            "end": 15
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                        "kind": 201,
+                        "elementList": {
+                            "kind": 202,
+                            "elements": [
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 15
                                     },
-                                    {
-                                        "kind": 230,
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 14,
+                                    "end": 15
+                                },
+                                {
+                                    "kind": 230,
+                                    "flags": 96,
+                                    "start": 16,
+                                    "end": 16
+                                },
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
                                         "flags": 96,
-                                        "start": 16,
-                                        "end": 16
-                                    },
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 19
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
                                         "start": 17,
                                         "end": 19
-                                    }
-                                ],
-                                "trailingComma": true,
-                                "flags": 0,
-                                "start": 14,
-                                "end": 20
-                            },
-                            "flags": 32,
-                            "start": 13,
-                            "end": 21
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 17,
+                                    "end": 19
+                                }
+                            ],
+                            "trailingComma": true,
+                            "flags": 0,
+                            "start": 14,
+                            "end": 20
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 13,
                         "end": 21
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 12,
                 "end": 22
             },

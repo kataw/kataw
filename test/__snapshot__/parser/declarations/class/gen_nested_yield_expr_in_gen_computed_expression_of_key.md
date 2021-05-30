@@ -128,26 +128,16 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 33,
-                                                                "end": 34
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
                                                             "start": 33,
                                                             "end": 34
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 33,
                                                     "end": 35
                                                 },

@@ -75,26 +75,16 @@ function f([]?, {}) {}
                         "end": 14
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 17,
-                                "end": 17
-                            },
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [],
+                            "trailingComma": false,
                             "flags": 32,
-                            "start": 15,
-                            "end": 18
+                            "start": 17,
+                            "end": 17
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 15,
                         "end": 18
                     }

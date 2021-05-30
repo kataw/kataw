@@ -153,7 +153,6 @@ export const enum SyntaxKind {
   ForKeyword = 37757017,
   ForOfStatement = 167,
   ForStatement = 165,
-  FormalParameter = 215,
   FormalParameterList = 214,
   FromClause = 256,
   FromKeyword = 16500,

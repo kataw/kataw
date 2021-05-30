@@ -48,17 +48,9 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
     case SyntaxKind.PropertyDefinitionList:
       return visitNodes(node.properties, node, visitor);
     case SyntaxKind.PropertyDefinition:
-      return (
-        visitNode(node.accessModifier, node, visitor) ||
-        visitNodes(node.left, node, visitor) ||
-        visitNodes(node.right, node, visitor)
-      );
+      return visitNodes(node.left, node, visitor) || visitNodes(node.right, node, visitor);
     case SyntaxKind.CoverInitializedName:
-      return (
-        visitNode(node.left, node, visitor) ||
-        visitNode(node.right, node, visitor) ||
-        visitNode(node.accessModifier, node, visitor)
-      );
+      return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
     case SyntaxKind.BinaryExpression:
       return (
         visitNode(node.left, node, visitor) ||
@@ -73,15 +65,6 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       );
     case SyntaxKind.ArgumentList:
       return visitNodes(node.elements, node, visitor);
-    case SyntaxKind.FormalParameter:
-      return (
-        visitNode(node.ellipsisToken, node, visitor) ||
-        visitNode(node.binding, node, visitor) ||
-        visitNode(node.type, node, visitor) ||
-        visitNode(node.optionalToken, node, visitor) ||
-        visitNode(node.initializer, node, visitor) ||
-        visitNode(node.accessModifier, node, visitor)
-      );
     case SyntaxKind.SingleNameBinding:
       return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
     case SyntaxKind.ObjectBindingPattern:

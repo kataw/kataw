@@ -65,44 +65,24 @@ await new Promise(function(res, rej) { res(1); });
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "res",
-                                                "rawText": "res",
-                                                "flags": 96,
-                                                "start": 27,
-                                                "end": 30
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "res",
+                                            "rawText": "res",
+                                            "flags": 96,
                                             "start": 27,
                                             "end": 30
                                         },
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "rej",
-                                                "rawText": "rej",
-                                                "flags": 96,
-                                                "start": 31,
-                                                "end": 35
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "rej",
+                                            "rawText": "rej",
+                                            "flags": 96,
                                             "start": 31,
                                             "end": 35
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 26,
                                     "end": 36
                                 },

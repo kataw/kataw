@@ -121,26 +121,16 @@ function *g() { function f(x = x + yield y) {}; }
                                         "end": 40
                                     },
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 40,
-                                            "end": 42
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
                                         "start": 40,
                                         "end": 42
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 98,
                                 "start": 26,
                                 "end": 43
                             },

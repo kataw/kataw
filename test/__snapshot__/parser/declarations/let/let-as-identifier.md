@@ -334,26 +334,16 @@ L: let
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
-                            "start": 105,
-                            "end": 108
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "let",
+                        "rawText": "let",
+                        "flags": 96,
                         "start": 105,
                         "end": 108
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 104,
                 "end": 109
             },
@@ -400,44 +390,24 @@ L: let
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 128,
-                            "end": 131
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 96,
                         "start": 128,
                         "end": 131
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
-                            "start": 132,
-                            "end": 136
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "let",
+                        "rawText": "let",
+                        "flags": 96,
                         "start": 132,
                         "end": 136
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 127,
                 "end": 137
             },
@@ -796,26 +766,16 @@ L: let
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
-                            "start": 241,
-                            "end": 244
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "let",
+                        "rawText": "let",
+                        "flags": 96,
                         "start": 241,
                         "end": 244
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 240,
                 "end": 245
             },

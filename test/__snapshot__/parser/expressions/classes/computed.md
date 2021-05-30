@@ -90,26 +90,16 @@ class A { [x=y](foo) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 96,
-                                                "start": 16,
-                                                "end": 19
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 20
                                 },

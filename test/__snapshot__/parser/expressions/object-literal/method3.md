@@ -59,26 +59,16 @@ x = { method(test) { } }
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "test",
-                                                    "rawText": "test",
-                                                    "flags": 96,
-                                                    "start": 13,
-                                                    "end": 17
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
+                                                "kind": 134299649,
+                                                "text": "test",
+                                                "rawText": "test",
+                                                "flags": 96,
                                                 "start": 13,
                                                 "end": 17
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 13,
                                         "end": 18
                                     },

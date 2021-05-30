@@ -453,26 +453,16 @@
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 203,
-                                                    "ellipsisToken": null,
-                                                    "left": {
-                                                        "kind": 134299649,
-                                                        "text": "val",
-                                                        "rawText": "val",
-                                                        "flags": 96,
-                                                        "start": 110,
-                                                        "end": 113
-                                                    },
-                                                    "optionalToken": null,
-                                                    "type": null,
-                                                    "right": null,
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "val",
+                                                    "rawText": "val",
+                                                    "flags": 96,
                                                     "start": 110,
                                                     "end": 113
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 544,
+                                            "flags": 608,
                                             "start": 110,
                                             "end": 114
                                         },
@@ -646,26 +636,16 @@
                                                                                 "kind": 214,
                                                                                 "formalParameterList": [
                                                                                     {
-                                                                                        "kind": 203,
-                                                                                        "ellipsisToken": null,
-                                                                                        "left": {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "val",
-                                                                                            "rawText": "val",
-                                                                                            "flags": 96,
-                                                                                            "start": 158,
-                                                                                            "end": 161
-                                                                                        },
-                                                                                        "optionalToken": null,
-                                                                                        "type": null,
-                                                                                        "right": null,
-                                                                                        "flags": 32,
+                                                                                        "kind": 134299649,
+                                                                                        "text": "val",
+                                                                                        "rawText": "val",
+                                                                                        "flags": 96,
                                                                                         "start": 158,
                                                                                         "end": 161
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 544,
+                                                                                "flags": 608,
                                                                                 "start": 158,
                                                                                 "end": 162
                                                                             },
@@ -851,26 +831,16 @@
                                                                                 "kind": 214,
                                                                                 "formalParameterList": [
                                                                                     {
-                                                                                        "kind": 203,
-                                                                                        "ellipsisToken": null,
-                                                                                        "left": {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "val",
-                                                                                            "rawText": "val",
-                                                                                            "flags": 96,
-                                                                                            "start": 207,
-                                                                                            "end": 210
-                                                                                        },
-                                                                                        "optionalToken": null,
-                                                                                        "type": null,
-                                                                                        "right": null,
-                                                                                        "flags": 32,
+                                                                                        "kind": 134299649,
+                                                                                        "text": "val",
+                                                                                        "rawText": "val",
+                                                                                        "flags": 96,
                                                                                         "start": 207,
                                                                                         "end": 210
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 544,
+                                                                                "flags": 608,
                                                                                 "start": 207,
                                                                                 "end": 211
                                                                             },

@@ -176,32 +176,22 @@ async function f(){}
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 212,
-                                                            "propertyList": {
-                                                                "kind": 213,
-                                                                "properties": [],
-                                                                "trailingComma": false,
-                                                                "flags": 32,
-                                                                "start": 55,
-                                                                "end": 55
-                                                            },
+                                                        "kind": 212,
+                                                        "propertyList": {
+                                                            "kind": 213,
+                                                            "properties": [],
+                                                            "trailingComma": false,
                                                             "flags": 32,
-                                                            "start": 54,
-                                                            "end": 56
+                                                            "start": 55,
+                                                            "end": 55
                                                         },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 34,
+                                                        "flags": 32,
                                                         "start": 54,
                                                         "end": 56
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 34,
+                                                "flags": 32,
                                                 "start": 53,
                                                 "end": 65
                                             },

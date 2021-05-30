@@ -76,32 +76,22 @@ async function f(){   function fh([+ await x]) { }   }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 201,
-                                            "elementList": {
-                                                "kind": 202,
-                                                "elements": [],
-                                                "trailingComma": false,
-                                                "flags": 0,
-                                                "start": 35,
-                                                "end": 35
-                                            },
-                                            "flags": 32,
-                                            "start": 34,
+                                        "kind": 201,
+                                        "elementList": {
+                                            "kind": 202,
+                                            "elements": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 35,
                                             "end": 35
                                         },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 34,
+                                        "flags": 32,
                                         "start": 34,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 36
                             },

@@ -123,80 +123,40 @@
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
-                            "flags": 96,
-                            "start": 21,
-                            "end": 26
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "async",
+                        "rawText": "async",
+                        "flags": 96,
                         "start": 21,
                         "end": 26
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 26,
-                            "end": 28
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
                         "start": 26,
                         "end": 28
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "await",
-                            "rawText": "await",
-                            "flags": 96,
-                            "start": 29,
-                            "end": 35
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "await",
+                        "rawText": "await",
+                        "flags": 96,
                         "start": 29,
                         "end": 35
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 35,
-                            "end": 37
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
                         "start": 35,
                         "end": 37
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 20,
                 "end": 38
             },

@@ -90,26 +90,16 @@ class A {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "el",
-                            "rawText": "el",
-                            "flags": 96,
-                            "start": 27,
-                            "end": 29
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "el",
+                        "rawText": "el",
+                        "flags": 96,
                         "start": 27,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 26,
                 "end": 30
             },
@@ -188,26 +178,16 @@ class A {
                                                                 "kind": 214,
                                                                 "formalParameterList": [
                                                                     {
-                                                                        "kind": 203,
-                                                                        "ellipsisToken": null,
-                                                                        "left": {
-                                                                            "kind": 134299649,
-                                                                            "text": "Class",
-                                                                            "rawText": "Class",
-                                                                            "flags": 96,
-                                                                            "start": 75,
-                                                                            "end": 80
-                                                                        },
-                                                                        "optionalToken": null,
-                                                                        "type": null,
-                                                                        "right": null,
-                                                                        "flags": 32,
+                                                                        "kind": 134299649,
+                                                                        "text": "Class",
+                                                                        "rawText": "Class",
+                                                                        "flags": 96,
                                                                         "start": 75,
                                                                         "end": 80
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 75,
                                                                 "end": 81
                                                             },

@@ -46,20 +46,10 @@ async function af(a, b = await a) { }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 18,
-                            "end": 19
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
                         "start": 18,
                         "end": 19
                     },
@@ -102,7 +92,7 @@ async function af(a, b = await a) { }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 98,
                 "start": 17,
                 "end": 33
             },

@@ -38,26 +38,16 @@ function d(public){ "use strict"; }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "public",
-                            "rawText": "public",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 17
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "public",
+                        "rawText": "public",
+                        "flags": 96,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 10,
                 "end": 18
             },

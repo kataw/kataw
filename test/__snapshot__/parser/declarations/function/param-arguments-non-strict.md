@@ -38,26 +38,16 @@ function foo(arguments){}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "arguments",
-                            "rawText": "arguments",
-                            "flags": 96,
-                            "start": 13,
-                            "end": 22
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "arguments",
+                        "rawText": "arguments",
+                        "flags": 96,
                         "start": 13,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 12,
                 "end": 23
             },

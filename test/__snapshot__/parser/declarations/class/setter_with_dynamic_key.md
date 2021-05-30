@@ -99,26 +99,16 @@ class x { static set [y](z){}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "z",
-                                                "rawText": "z",
-                                                "flags": 96,
-                                                "start": 25,
-                                                "end": 26
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "z",
+                                            "rawText": "z",
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 544,
+                                    "flags": 608,
                                     "start": 25,
                                     "end": 27
                                 },

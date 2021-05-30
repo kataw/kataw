@@ -356,26 +356,16 @@ function foo28(numVal?: number = 2) {}
                         "end": 140
                     },
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "untypedVal",
-                            "rawText": "untypedVal",
-                            "flags": 96,
-                            "start": 141,
-                            "end": 152
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "untypedVal",
+                        "rawText": "untypedVal",
+                        "flags": 96,
                         "start": 141,
                         "end": 152
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 125,
                 "end": 153
             },
@@ -422,20 +412,10 @@ function foo28(numVal?: number = 2) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "untypedVal",
-                            "rawText": "untypedVal",
-                            "flags": 96,
-                            "start": 171,
-                            "end": 181
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
+                        "kind": 134299649,
+                        "text": "untypedVal",
+                        "rawText": "untypedVal",
+                        "flags": 96,
                         "start": 171,
                         "end": 181
                     },
@@ -470,7 +450,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 96,
                 "start": 170,
                 "end": 198
             },

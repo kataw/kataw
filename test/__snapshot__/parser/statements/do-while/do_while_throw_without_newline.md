@@ -68,44 +68,24 @@ do throw function (v, h) {
                         "kind": 214,
                         "formalParameterList": [
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "v",
-                                    "rawText": "v",
-                                    "flags": 96,
-                                    "start": 19,
-                                    "end": 20
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "v",
+                                "rawText": "v",
+                                "flags": 96,
                                 "start": 19,
                                 "end": 20
                             },
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "h",
-                                    "rawText": "h",
-                                    "flags": 96,
-                                    "start": 21,
-                                    "end": 23
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "h",
+                                "rawText": "h",
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 96,
                         "start": 17,
                         "end": 24
                     },

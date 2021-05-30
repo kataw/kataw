@@ -41,56 +41,46 @@ function x({ x: import.meta }) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 204,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 12,
-                                            "end": 14
-                                        },
-                                        "value": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 15,
-                                            "end": 15
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 12,
+                                        "end": 14
+                                    },
+                                    "value": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "flags": 64,
+                                        "start": 15,
                                         "end": 15
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 12,
-                                "end": 15
-                            },
+                                    },
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 12,
+                                    "end": 15
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 32,
-                            "start": 11,
+                            "start": 12,
                             "end": 15
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 11,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 22
             },

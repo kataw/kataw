@@ -41,102 +41,92 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 204,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "__proto__",
-                                            "rawText": "__proto__",
-                                            "flags": 96,
-                                            "start": 13,
-                                            "end": 23
-                                        },
-                                        "value": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 24,
-                                            "end": 26
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
                                         "start": 13,
+                                        "end": 23
+                                    },
+                                    "value": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 24,
                                         "end": 26
                                     },
-                                    {
-                                        "kind": 204,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "__proto__",
-                                            "rawText": "__proto__",
-                                            "flags": 96,
-                                            "start": 27,
-                                            "end": 37
-                                        },
-                                        "value": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 38,
-                                            "end": 40
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 13,
+                                    "end": 26
+                                },
+                                {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
                                         "start": 27,
+                                        "end": 37
+                                    },
+                                    "value": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 38,
                                         "end": 40
                                     },
-                                    {
-                                        "kind": 222,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 41,
-                                            "end": 45
-                                        },
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "z",
-                                            "rawText": "z",
-                                            "flags": 96,
-                                            "start": 45,
-                                            "end": 46
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 27,
+                                    "end": 40
+                                },
+                                {
+                                    "kind": 222,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 64,
                                         "start": 41,
+                                        "end": 45
+                                    },
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "z",
+                                        "rawText": "z",
+                                        "flags": 96,
+                                        "start": 45,
                                         "end": 46
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 13,
-                                "end": 46
-                            },
+                                    },
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 41,
+                                    "end": 46
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 32,
-                            "start": 11,
-                            "end": 47
+                            "start": 13,
+                            "end": 46
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 11,
                         "end": 47
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 49
             },

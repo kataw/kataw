@@ -226,51 +226,41 @@ function x({x}) { "use strict"; }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 202,
-                                "elements": [
-                                    {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 85,
-                                            "end": 86
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                        "kind": 201,
+                        "elementList": {
+                            "kind": 202,
+                            "elements": [
+                                {
+                                    "kind": 203,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 85,
                                         "end": 86
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 85,
-                                "end": 86
-                            },
-                            "flags": 32,
-                            "start": 84,
-                            "end": 87
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 85,
+                                    "end": 86
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 85,
+                            "end": 86
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 84,
                         "end": 87
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 83,
                 "end": 88
             },
@@ -326,49 +316,39 @@ function x({x}) { "use strict"; }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 120,
-                                            "end": 121
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 222,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 120,
                                         "end": 121
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 120,
-                                "end": 121
-                            },
+                                    },
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 120,
+                                    "end": 121
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 32,
-                            "start": 119,
-                            "end": 122
+                            "start": 120,
+                            "end": 121
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
+                        "flags": 32,
                         "start": 119,
                         "end": 122
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 118,
                 "end": 123
             },
@@ -422,8 +402,6 @@ function x({x}) { "use strict"; }
 ```javascript
 ✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 11, end: 33
 ✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 48, end: 69
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 84, end: 104
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 119, end: 139
 
 ```
 

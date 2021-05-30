@@ -140,49 +140,39 @@ var await; var f = (async function() { async function f({ await }) {} });
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 203,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 212,
-                                                                "propertyList": {
-                                                                    "kind": 213,
-                                                                    "properties": [
-                                                                        {
-                                                                            "kind": 222,
-                                                                            "ellipsisToken": null,
-                                                                            "left": {
-                                                                                "kind": 134299649,
-                                                                                "text": "await",
-                                                                                "rawText": "await",
-                                                                                "flags": 96,
-                                                                                "start": 57,
-                                                                                "end": 63
-                                                                            },
-                                                                            "right": null,
-                                                                            "flags": 32,
+                                                            "kind": 212,
+                                                            "propertyList": {
+                                                                "kind": 213,
+                                                                "properties": [
+                                                                    {
+                                                                        "kind": 222,
+                                                                        "ellipsisToken": null,
+                                                                        "left": {
+                                                                            "kind": 134299649,
+                                                                            "text": "await",
+                                                                            "rawText": "await",
+                                                                            "flags": 96,
                                                                             "start": 57,
                                                                             "end": 63
-                                                                        }
-                                                                    ],
-                                                                    "trailingComma": false,
-                                                                    "flags": 32,
-                                                                    "start": 57,
-                                                                    "end": 63
-                                                                },
+                                                                        },
+                                                                        "right": null,
+                                                                        "flags": 32,
+                                                                        "start": 57,
+                                                                        "end": 63
+                                                                    }
+                                                                ],
+                                                                "trailingComma": false,
                                                                 "flags": 32,
-                                                                "start": 56,
-                                                                "end": 65
+                                                                "start": 57,
+                                                                "end": 63
                                                             },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": null,
-                                                            "flags": 34,
+                                                            "flags": 32,
                                                             "start": 56,
                                                             "end": 65
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 34,
+                                                    "flags": 32,
                                                     "start": 55,
                                                     "end": 66
                                                 },
