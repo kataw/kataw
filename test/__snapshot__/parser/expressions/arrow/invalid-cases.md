@@ -10559,7 +10559,6 @@ a++ => {};
 ✖ Property definition expected. Did you mean to use a ':'? - start: 201, end: 202
 ✖ Property definition expected. Did you mean to use a ':'? - start: 265, end: 266
 ✖ Property definition expected. Did you mean to use a ':'? - start: 374, end: 375
-✖ The left hand side of the arrow is not destructible  - start: 399, end: 402
 ✖ Property definition expected. Did you mean to use a ':'? - start: 430, end: 431
 ✖ Property definition expected. Did you mean to use a ':'? - start: 435, end: 436
 ✖ Property definition expected. Did you mean to use a ':'? - start: 440, end: 441
@@ -10570,7 +10569,6 @@ a++ => {};
 ✖ Property definition expected. Did you mean to use a ':'? - start: 706, end: 707
 ✖ Property definition expected. Did you mean to use a ':'? - start: 711, end: 712
 ✖ Property definition expected. Did you mean to use a ':'? - start: 769, end: 770
-✖ The left hand side of the arrow is not destructible  - start: 816, end: 819
 ✖ Property definition expected. Did you mean to use a ':'? - start: 849, end: 850
 ✖ Property definition expected. Did you mean to use a ':'? - start: 894, end: 895
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1060, end: 1061
@@ -10584,7 +10582,6 @@ a++ => {};
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1436, end: 1437
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1493, end: 1494
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1579, end: 1580
-✖ The left hand side of the arrow is not destructible  - start: 1582, end: 1585
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1601, end: 1602
 ✖ Declaration or statement expected - start: 1638, end: 1756
 ✖ Declaration or statement expected - start: 1757, end: 1759
