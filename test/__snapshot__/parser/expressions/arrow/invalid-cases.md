@@ -10542,7 +10542,7 @@ a++ => {};
 ✖ Declaration or statement expected - start: 34, end: 37
 ✖ Identifier expected - start: 43, end: 44
 ✖ Identifier expected - start: 44, end: 45
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 45, end: 48
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 41, end: 48
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
 ✖ Identifier expected - start: 59, end: 62
 ✖ Expected a `;` - start: 81, end: 82
@@ -10589,15 +10589,15 @@ a++ => {};
 ✖ Expression expected - start: 1772, end: 1773
 ✖ Expression expected - start: 1777, end: 1778
 ✖ Expression expected - start: 1852, end: 1853
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1853, end: 1856
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1865, end: 1868
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1880, end: 1883
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1778, end: 1856
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1859, end: 1868
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1871, end: 1883
 ✖ Expected a `;` - start: 1895, end: 1898
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1913, end: 1916
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1901, end: 1916
 ✖ Expected a `;` - start: 1931, end: 1934
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1949, end: 1952
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1937, end: 1952
 ✖ Expected a `;` - start: 2858, end: 2861
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2870, end: 2873
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2865, end: 2873
 ✖ Expected a `;` - start: 2885, end: 2888
 ✖ Missing an opening parentheses - '( - start: 2895, end: 2898
 ✖ Identifier expected - start: 2904, end: 2906
@@ -10611,12 +10611,12 @@ a++ => {};
 ✖ The left hand side of the arrow is not destructible  - start: 2968, end: 2971
 ✖ Expected a `;` - start: 2986, end: 2989
 ✖ Expected a `;` - start: 2997, end: 3000
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3010, end: 3013
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3004, end: 3013
 ✖ Unterminated string literal - start: 3019, end: 3032
 ✖ Expected a ')' to match the '(' token here - start: 3041, end: 3044
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3041, end: 3044
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3063, end: 3066
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3078, end: 3081
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3017, end: 3044
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3058, end: 3066
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3070, end: 3081
 ✖ Expected a ')' to match the '(' token here - start: 3089, end: 3091
 ✖ Expected a `;` - start: 3092, end: 3093
 ✖ Declaration or statement expected - start: 3093, end: 3096

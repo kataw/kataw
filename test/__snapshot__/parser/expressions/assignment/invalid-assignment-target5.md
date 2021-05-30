@@ -106,7 +106,7 @@
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 11, end: 14
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 14
 
 ```
 

@@ -3578,9 +3578,13 @@ function parseArrayLiteralOrAssignmentExpression(
 function parseElementList(parser: ParserState, context: Context, scope: ScopeState, type: BindingType): ElementList {
   const curPos = parser.curPos;
   const elements: ExpressionNode[] = [];
+
   let trailingComma = false;
+
   const flags = parser.nodeFlags;
+
   let destructible = DestructibleKind.None;
+
   while (parser.token & 0b00010000101011010100000000000000) {
     elements.push(parseArrayLiteralElement(parser, context, scope, type) as any);
     destructible |= parser.destructible;
@@ -3604,13 +3608,21 @@ function parseArrayLiteralElement(
 ): Elison | SpreadElement | ExpressionNode {
   const pos = parser.curPos;
 
-  // Simple cases: "[a]", "[a,]", "[a = b]", "[a.[b] ...]",  "[a.b ... ]" and "[a.(b) ...]"'
+  // - `[x]`
+  // - `[x, y]`
+  // - `[x = y]`
+  // - `[x.y]`
+  // - `[x.y = z]`
+  // - `[x + y]`
+  // - `[this]`
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const tokenValue = parser.tokenValue;
     let left = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
-    // '[a?]', '[a?:]', '[a?]'
+
+    // - `([a:b]) => x`
     if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
       const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+
       if (optionalToken) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -3634,8 +3646,14 @@ function parseArrayLiteralElement(
         );
       }
     }
-    // Array with only one identifier followed by an assignment, '[a = ', are destructible unless this is a keyword.
+    // - `[x = y]`
+    // - `[x = y, z]`
+    // - `[true = x]`
+    // - `[await = x]`
+    // - `[x = true]`
     if (parser.token === SyntaxKind.Assign) {
+      // - `[true = x] = x`
+      // - `[true = x]`
       if (!parser.assignable) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -3647,42 +3665,73 @@ function parseArrayLiteralElement(
           parser.pos
         );
       }
+
       const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp);
-      if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
+
+      if (type & BindingType.InArrow) {
+        addVarOrBlock(parser, context, scope, tokenValue, type);
+      }
+
       const right = parseExpression(parser, context);
       parser.assignable = false;
       return createAssignmentExpression(left, operatorToken, right, pos, parser.curPos);
     }
 
-    // Array with only one identifier, should be 'destructible' except for a few valid identifiers / keywords
-    // that can't be assigned to. For example `true` and `typeof`.
+    // - `[x]`
+    // - `[x, z]`
+    // - `[this]`
     if (parser.token === SyntaxKind.RightBracket || parser.token === SyntaxKind.Comma) {
-      if (parser.assignable) {
-        if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
-        parser.destructible = DestructibleKind.None;
-      } else {
+      if (!parser.assignable) {
         parser.destructible = DestructibleKind.NotDestructible;
+      } else {
+        // - `[x] = obj`
+        if (type & BindingType.InArrow) {
+          addVarOrBlock(parser, context, scope, tokenValue, type);
+        }
+        parser.destructible = DestructibleKind.None;
       }
       return left;
     }
 
-    let destructible =
-      type & BindingType.ArgumentList
-        ? DestructibleKind.Assignable
-        : (type & BindingType.Literal) !== BindingType.Literal
-        ? DestructibleKind.NotDestructible
-        : DestructibleKind.None;
+    let destructible = DestructibleKind.None;
 
-    left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
+    if (type & BindingType.ArgumentList) {
+      // - `([x[y]] = z)`
+      destructible |= DestructibleKind.Assignable;
+    } else if ((type & BindingType.Literal) !== BindingType.Literal) {
+      destructible = DestructibleKind.NotDestructible;
+    }
 
-    // For complex cases like - '[x()]', '[x[y]]', '[x.y]', '[x.y = z]' - the identifier / keyword must be
-    // followed by a 'tail' - 'MemberExpression'.
+    if ((parser.token as SyntaxKind) === SyntaxKind.Comma || (parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
+      if (!parser.assignable) {
+        destructible |= DestructibleKind.NotDestructible;
+      }
+    } else {
+      left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
 
-    if ((parser.token as SyntaxKind) !== SyntaxKind.Comma && (parser.token as SyntaxKind) !== SyntaxKind.RightBracket) {
-      if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
-      left = parseAssignmentExpression(parser, context, left, pos);
-    } else if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) {
-      destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+      // - `[x.y = a] = z`
+      if (
+        (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
+        (parser.token as SyntaxKind) !== SyntaxKind.RightBracket
+      ) {
+        if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
+        left = parseAssignmentExpression(parser, context, left, pos);
+      } else if (parser.destructible & DestructibleKind.MustDestruct) {
+      } else if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) {
+        // - `[...{a: b.b}.d] = c`
+        // - `[...{a: b}.c] = []`
+        // - `[...[{a: b}.c]] = [];`
+        // - `[...[{prop: 1}.prop]] = []`
+        if (parser.assignable) {
+          destructible |= DestructibleKind.Assignable;
+          // - `({"x": [y].slice(0)} = x)`
+          // - `({"x": [y].slice(0)}) => x`
+          // - `[...[x].map(y, z)] = a;`
+          // - `({ident: {x}.join("")}) => x`
+        } else {
+          destructible |= DestructibleKind.NotDestructible;
+        }
+      }
     }
 
     parser.destructible = destructible;
@@ -3690,14 +3739,34 @@ function parseArrayLiteralElement(
     return left;
   }
 
-  // '[[', '[{'
+  // - `[{}]`
+  // - `[[]]`
+  // - `[{..}]`
+  // - `[{..}, x]`
+  // - `[{..}.x]`
+  // - `[{..}=x]`
+  // - `[{}.foo] = x`
+  // - `[{}[foo]] = x`
+  // - `[{a}] = x`
+  // - `[{a:b}] = x`
+  // - `[{a:1}.foo] = x`
+  // - `[{}.foo] = x`
+  // - `[[..]]`
+  // - `[[..], x]`
+  // - `[[..].x]`
+  // - `[[..]=x]`
+  // - `[[..].foo] = x`
+  // - `[[..][foo]] = x`
+  // - `[[foo].length] = x`
+  // - `[[foo].length = x] = x`
   if (parser.token & SyntaxKind.IsPatternStart) {
     let left: ArrayLiteral | ObjectLiteral | ExpressionNode =
       parser.token === SyntaxKind.LeftBracket
         ? parseArrayLiteralOrAssignmentExpression(parser, context, scope, type)
         : parseObjectLiteralOrAssignmentExpression(parser, context, scope, type);
 
-    // '[a?]', '[a?:]', '[a?]'
+    // - `([{a}:b]) => x`
+    // - `([[a]:b]) => x`
     if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
       const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
       if (optionalToken) {
@@ -3750,9 +3819,11 @@ function parseArrayLiteralElement(
     return left;
   }
 
+  // - `([...{a}:b]) => x`
+  // - `([...[a]:b]) => x`
   if (parser.token === SyntaxKind.Ellipsis) {
     const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-    let fitte = createSpreadElement(
+    let spreadElement = createSpreadElement(
       ellipsisToken,
       parseArraySpreadArgument(parser, context, scope, type),
       pos,
@@ -3776,7 +3847,7 @@ function parseArrayLiteralElement(
 
         return createArrayBindingElement(
           null,
-          fitte as any,
+          spreadElement as any,
           /* error recovery */
           optionalToken,
           parseTypeAnnotation(parser, context),
@@ -3786,7 +3857,7 @@ function parseArrayLiteralElement(
         );
       }
     }
-    return fitte;
+    return spreadElement;
   }
 
   if ((parser.token as SyntaxKind) === SyntaxKind.Comma) return createElison(pos, pos);
@@ -3802,6 +3873,8 @@ function parseArrayLiteralElement(
     if ((BindingType.Literal | BindingType.ArgumentList) === 0 && token === SyntaxKind.LeftParen) {
       destructible |= DestructibleKind.NotDestructible;
     }
+    // - `[x()] = obj`
+    // - `[(x())] = obj`
   } else if (!parser.assignable) {
     destructible |= DestructibleKind.NotDestructible;
   } else if (token === SyntaxKind.LeftParen) {
@@ -4332,7 +4405,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
-        parser.curPos,
+        curPos,
         parser.pos
       );
     }
@@ -4423,7 +4496,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
   // 12.16 Comma Operator
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
-
     expressions = [expression];
 
     while (parser.token & 0b00010000101010010100000000000000) {

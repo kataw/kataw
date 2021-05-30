@@ -84,7 +84,7 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 2
 ✖ Identifier expected - start: 2, end: 3
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3, end: 5
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 5
 
 ```
 
