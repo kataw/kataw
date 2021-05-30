@@ -129,12 +129,14 @@ function f() {
 
 ```javascript
 
+function f() {
+  () = 1;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 29, end: 31
-
+✔ No errors
 ```
 

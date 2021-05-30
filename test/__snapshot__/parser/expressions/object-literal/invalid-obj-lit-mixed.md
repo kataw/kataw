@@ -1754,7 +1754,6 @@
 ✖ Declaration or statement expected - start: 499, end: 500
 ✖ The left-hand side must be a variable or a property access. - start: 544, end: 546
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 630, end: 632
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 699, end: 701
 ✖ Expected a ')' to match the '(' token here - start: 703, end: 704
 
 ```

@@ -125,12 +125,12 @@ for (((x)=>{}) in y);
 
 ```javascript
 
+for (((x) =>  {}) in y);
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 17, end: 19
-
+✔ No errors
 ```
 

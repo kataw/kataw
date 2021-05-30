@@ -18,10 +18,16 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "expressions": [
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
+                "typeParameters": null,
+                "parameters": [
+                    [
                         {
                             "kind": 127,
                             "operandToken": {
@@ -50,31 +56,24 @@
                             "start": 5,
                             "end": 7
                         }
-                    ],
-                    "flags": 32,
-                    "start": 0,
-                    "end": 7
+                    ]
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 11,
+                    "end": 13
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 8
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 11,
                 "end": 13
             },
             "flags": 16,
-            "start": 11,
+            "start": 0,
             "end": 14
         }
     ],
@@ -96,7 +95,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 11
+✖ The left hand side of the arrow is not destructible  - start: 8, end: 11
 
 ```
 

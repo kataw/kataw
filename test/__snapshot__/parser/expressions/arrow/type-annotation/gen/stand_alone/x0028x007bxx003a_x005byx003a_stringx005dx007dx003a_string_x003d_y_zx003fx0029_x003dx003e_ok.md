@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/arrow/type-annotation/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\arrow\type-annotation\gen\stand_alone
 > :: test: stand alone
 > :: case: ({x: [y: string]}: string = y, z?) => ok
 ## Input
@@ -161,7 +161,6 @@
 
 ```javascript
 ✖ ',' expected - start: 7, end: 8
-✖ Expected '=>' - start: 7, end: 8
 ✖ Expected a `;` - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 17
 ✖ Declaration or statement expected - start: 17, end: 18

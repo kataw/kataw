@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/arrow/type-annotation/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\arrow\type-annotation\gen\strict_directive
 > :: test: strict directive
 > :: case: ({x: [y: string]}: string = y, z?) => ok
 ## Input
@@ -170,7 +170,6 @@
 
 ```javascript
 ✖ ',' expected - start: 21, end: 22
-✖ Expected '=>' - start: 21, end: 22
 ✖ Expected a `;` - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 32

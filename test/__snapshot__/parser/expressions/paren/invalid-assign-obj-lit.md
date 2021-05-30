@@ -2319,12 +2319,10 @@
 ✖ The left-hand side must be a variable or a property access. - start: 104, end: 106
 ✖ The left-hand side must be a variable or a property access. - start: 142, end: 144
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 158, end: 160
-✖ The left-hand side must be a variable or a property access. - start: 163, end: 165
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 177, end: 178
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 177, end: 178
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 186, end: 188
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 197, end: 199
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 236, end: 238
 ✖ An member access expression should take an argument. - start: 258, end: 259
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 283, end: 284
 ✖ The parser expected to find a '}' to match the '{' token here - start: 287, end: 288

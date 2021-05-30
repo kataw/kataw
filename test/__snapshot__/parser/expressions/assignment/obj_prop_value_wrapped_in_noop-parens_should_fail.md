@@ -105,12 +105,12 @@
 
 ```javascript
 
+({ a: (1) = x });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 10
-
+✔ No errors
 ```
 

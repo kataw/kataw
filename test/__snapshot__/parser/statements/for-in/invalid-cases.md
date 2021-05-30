@@ -7164,7 +7164,6 @@ for ({}.bar = x in obj);
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1149, end: 1151
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1198, end: 1200
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1234, end: 1236
-✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1255, end: 1257
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1274, end: 1276
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1312, end: 1315
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1365, end: 1371

@@ -6079,9 +6079,7 @@ try {} catch(e) { for(var e of 0); };
 ```javascript
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 88, end: 89
 ✖ Expected '=>' - start: 319, end: 320
-✖ Expected '=>' - start: 330, end: 331
 ✖ Expected '=>' - start: 525, end: 526
-✖ Expected '=>' - start: 540, end: 541
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 659, end: 661
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779
@@ -6111,8 +6109,6 @@ try {} catch(e) { for(var e of 0); };
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2794, end: 2796
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2814, end: 2816
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2831, end: 2833
-✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2846, end: 2848
-✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2861, end: 2863
 ✖ Invalid hexadecimal escape sequence - start: 2865, end: 2937
 ✖ Declaration or statement expected - start: 2865, end: 2938
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938

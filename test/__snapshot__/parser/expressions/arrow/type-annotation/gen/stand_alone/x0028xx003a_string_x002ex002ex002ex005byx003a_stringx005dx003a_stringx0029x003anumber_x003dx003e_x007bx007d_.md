@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-05-29
-- From: d
-- Path: e
+- From: kataw7/test\__snapshot__/parser/expressions/arrow/type-annotation/autogen.md
+- Path: kataw7/test\__snapshot__\parser\expressions\arrow\type-annotation\gen\stand_alone
 > :: test: stand alone
 > :: case: (x: string, ...[y: string]: string):number =>  {};
 ## Input
@@ -185,7 +185,6 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 2, end: 3
-✖ Expected '=>' - start: 2, end: 3
 ✖ Identifier expected - start: 11, end: 15
 ✖ ',' expected - start: 17, end: 18
 ✖ Expected a `;` - start: 25, end: 26

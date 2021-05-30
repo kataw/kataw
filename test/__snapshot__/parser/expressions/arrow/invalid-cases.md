@@ -8958,10 +8958,16 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "expressions": [
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 2968,
+                    "end": 2971
+                },
+                "typeParameters": null,
+                "parameters": [
+                    [
                         {
                             "kind": 198,
                             "left": {
@@ -8998,36 +9004,30 @@ a++ => {};
                             "start": 2965,
                             "end": 2967
                         }
-                    ],
+                    ]
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 2973,
+                        "end": 2973
+                    },
                     "flags": 32,
-                    "start": 2957,
-                    "end": 2967
+                    "start": 2971,
+                    "end": 2974
                 },
                 "flags": 32,
                 "start": 2957,
-                "end": 2968
+                "end": 2974
             },
             "flags": 16,
             "start": 2957,
-            "end": 2968
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 2973,
-                "end": 2973
-            },
-            "flags": 16,
-            "start": 2971,
-            "end": 2974
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 2974,
             "end": 2975
         },
         {
@@ -9618,10 +9618,16 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "expressions": [
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 3143,
+                    "end": 3146
+                },
+                "typeParameters": null,
+                "parameters": [
+                    [
                         {
                             "kind": 127,
                             "operandToken": {
@@ -9650,36 +9656,30 @@ a++ => {};
                             "start": 3140,
                             "end": 3142
                         }
-                    ],
+                    ]
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 3148,
+                        "end": 3148
+                    },
                     "flags": 32,
-                    "start": 3134,
-                    "end": 3142
+                    "start": 3146,
+                    "end": 3149
                 },
                 "flags": 32,
                 "start": 3134,
-                "end": 3143
+                "end": 3149
             },
             "flags": 16,
             "start": 3134,
-            "end": 3143
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 3148,
-                "end": 3148
-            },
-            "flags": 16,
-            "start": 3146,
-            "end": 3149
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 3149,
             "end": 3150
         },
         {
@@ -9953,10 +9953,16 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "expressions": [
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 3250,
+                    "end": 3253
+                },
+                "typeParameters": null,
+                "parameters": [
+                    [
                         {
                             "kind": 197,
                             "shortCircuit": {
@@ -10007,45 +10013,45 @@ a++ => {};
                             "start": 3247,
                             "end": 3249
                         }
-                    ],
+                    ]
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 3255,
+                        "end": 3255
+                    },
                     "flags": 32,
-                    "start": 3229,
-                    "end": 3249
+                    "start": 3253,
+                    "end": 3256
                 },
                 "flags": 32,
                 "start": 3229,
-                "end": 3250
+                "end": 3256
             },
             "flags": 16,
             "start": 3229,
-            "end": 3250
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 3255,
-                "end": 3255
-            },
-            "flags": 16,
-            "start": 3253,
-            "end": 3256
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 3256,
             "end": 3257
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "expressions": [
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 3266,
+                    "end": 3269
+                },
+                "typeParameters": null,
+                "parameters": [
+                    [
                         {
                             "kind": 129,
                             "member": {
@@ -10076,36 +10082,30 @@ a++ => {};
                             "start": 3263,
                             "end": 3265
                         }
-                    ],
+                    ]
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 3271,
+                        "end": 3271
+                    },
                     "flags": 32,
-                    "start": 3257,
-                    "end": 3265
+                    "start": 3269,
+                    "end": 3272
                 },
                 "flags": 32,
                 "start": 3257,
-                "end": 3266
+                "end": 3272
             },
             "flags": 16,
             "start": 3257,
-            "end": 3266
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 3271,
-                "end": 3271
-            },
-            "flags": 16,
-            "start": 3269,
-            "end": 3272
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 3272,
             "end": 3273
         },
         {
@@ -10180,10 +10180,16 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "expressions": [
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 3301,
+                    "end": 3304
+                },
+                "typeParameters": null,
+                "parameters": [
+                    [
                         {
                             "kind": 536871042,
                             "member": {
@@ -10214,36 +10220,30 @@ a++ => {};
                             "start": 3298,
                             "end": 3300
                         }
-                    ],
+                    ]
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 3306,
+                        "end": 3306
+                    },
                     "flags": 32,
-                    "start": 3289,
-                    "end": 3300
+                    "start": 3304,
+                    "end": 3307
                 },
                 "flags": 32,
                 "start": 3289,
-                "end": 3301
+                "end": 3307
             },
             "flags": 16,
             "start": 3289,
-            "end": 3301
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 3306,
-                "end": 3306
-            },
-            "flags": 16,
-            "start": 3304,
-            "end": 3307
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 3307,
             "end": 3308
         },
         {
@@ -10559,7 +10559,6 @@ a++ => {};
 ✖ Property definition expected. Did you mean to use a ':'? - start: 201, end: 202
 ✖ Property definition expected. Did you mean to use a ':'? - start: 265, end: 266
 ✖ Property definition expected. Did you mean to use a ':'? - start: 374, end: 375
-✖ The left hand side of the arrow is not destructible  - start: 399, end: 402
 ✖ Property definition expected. Did you mean to use a ':'? - start: 430, end: 431
 ✖ Property definition expected. Did you mean to use a ':'? - start: 435, end: 436
 ✖ Property definition expected. Did you mean to use a ':'? - start: 440, end: 441
@@ -10570,7 +10569,6 @@ a++ => {};
 ✖ Property definition expected. Did you mean to use a ':'? - start: 706, end: 707
 ✖ Property definition expected. Did you mean to use a ':'? - start: 711, end: 712
 ✖ Property definition expected. Did you mean to use a ':'? - start: 769, end: 770
-✖ The left hand side of the arrow is not destructible  - start: 816, end: 819
 ✖ Property definition expected. Did you mean to use a ':'? - start: 849, end: 850
 ✖ Property definition expected. Did you mean to use a ':'? - start: 894, end: 895
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1060, end: 1061
@@ -10584,7 +10582,6 @@ a++ => {};
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1436, end: 1437
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1493, end: 1494
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1579, end: 1580
-✖ The left hand side of the arrow is not destructible  - start: 1582, end: 1585
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1601, end: 1602
 ✖ Declaration or statement expected - start: 1638, end: 1756
 ✖ Declaration or statement expected - start: 1757, end: 1759
@@ -10611,7 +10608,7 @@ a++ => {};
 ✖ Identifier expected - start: 2922, end: 2925
 ✖ Expected a `;` - start: 2935, end: 2938
 ✖ Expected a `;` - start: 2950, end: 2953
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2957, end: 2971
+✖ The left hand side of the arrow is not destructible  - start: 2968, end: 2971
 ✖ Expected a `;` - start: 2986, end: 2989
 ✖ Expected a `;` - start: 2997, end: 3000
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3010, end: 3013
@@ -10626,23 +10623,20 @@ a++ => {};
 ✖ Declaration or statement expected - start: 3103, end: 3106
 ✖ Expected a `;` - start: 3114, end: 3117
 ✖ Expected a `;` - start: 3127, end: 3130
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3134, end: 3146
+✖ The left hand side of the arrow is not destructible  - start: 3143, end: 3146
 ✖ Expected a `;` - start: 3159, end: 3162
 ✖ Expected a `;` - start: 3169, end: 3172
 ✖ Expected a `;` - start: 3194, end: 3197
 ✖ Expected a `;` - start: 3222, end: 3225
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3229, end: 3253
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3257, end: 3269
+✖ The left hand side of the arrow is not destructible  - start: 3266, end: 3269
 ✖ Expected a `;` - start: 3282, end: 3285
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3289, end: 3304
+✖ The left hand side of the arrow is not destructible  - start: 3301, end: 3304
 ✖ Expected a `;` - start: 3320, end: 3323
 ✖ A rest element cannot have an initializer - start: 3335, end: 3337
 ✖ Expected a ')' to match the '(' token here - start: 3354, end: 3356
-✖ Expected '=>' - start: 3354, end: 3356
 ✖ Expected a `;` - start: 3358, end: 3359
 ✖ Declaration or statement expected - start: 3359, end: 3362
 ✖ Expected a ')' to match the '(' token here - start: 3374, end: 3376
-✖ Expected '=>' - start: 3374, end: 3376
 ✖ Expected a `;` - start: 3379, end: 3380
 ✖ Declaration or statement expected - start: 3380, end: 3383
 

@@ -3674,16 +3674,50 @@
 
 ```javascript
 
+({ x = y } = {});
+({ x: [x] } = { x: null });
+({ x: { x } } = { x: null });
+({ x: { x } } = { x: undefined });
+({ x: { x } } = {});
+({ a: x } = {});
+({ x: [x] } = { x: undefined });
+({ [(a)(x = (y))]: {} });
+({ a = [b] } = 1 * (c = d));
+({ a = [b] } = 1 * (d = (e)));
+({ 1: [b.c = x] } = 1 / (d = (a) = a));
+({ 1: [b.c = x] } = 2 / (dd = (a) = 3));
+({ 1: [b.c = x] } = 2 ** (dd = (a) = 3));
+({ 1: [b.c = x] } = 1 * (d = (a) = a));
+({ a, a });
+({ a, a: 1 });
+({ a: 1, a });
+({ a: 1, a });
+({ a: b = x } = d);
+({ a: b = x } / d);
+({ a: b * x });
+(x, { a, a });
+(x, { a, a: 1 });
+(x, { a: 1, a });
+(x, { a: 1, a });
+(x, { a: b = x } = d);
+(x, { a: b = x } / d);
+(x, { a: b * x });
+({ test = 1 } = {});
+({ x = 0 } = 1);
+({ x = 0 } = 1);
+({ var: x } = 0);
+({ b, c, d, ...{ a } });
+(a) = b;
+({}.length);
+({}.x);
+([].x);
+([x].foo) = x;
+({ * 15() {} });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 298, end: 300
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 339, end: 341
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 381, end: 383
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 421, end: 423
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 748, end: 750
-
+✔ No errors
 ```
 
