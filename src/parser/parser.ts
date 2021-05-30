@@ -2888,7 +2888,6 @@ function parsePropertyDefinition(
         left = parseAssignmentExpression(parser, context, left, pos);
       }
     } else {
-
       // Check for '__proto__' property and eventually set the 'Destructible.HasProto' bit
       if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
         nodeFlags |= NodeFlags.PrototypeField;
@@ -2906,7 +2905,10 @@ function parsePropertyDefinition(
 
         destructible = DestructibleKind.None;
 
-        if ((parser.token as SyntaxKind) !== SyntaxKind.Comma && (parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
+        if (
+          (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
+          (parser.token as SyntaxKind) !== SyntaxKind.RightBrace
+        ) {
           left = parseAssignmentExpression(parser, context, left, pos);
         }
       }
@@ -4322,7 +4324,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       parser.assignable = false;
     }
 
-   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+    consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
     if (parser.token === SyntaxKind.Arrow) {
       parser.previousErrorPos = parser.pos;
@@ -4421,57 +4423,28 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
   // 12.16 Comma Operator
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+
     expressions = [expression];
-    if (state) {
-      while (parser.token & 0b00010000101010010100000000000000) {
-        if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-          addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
-          expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
-          state = Tristate.Unknown;
+    while (parser.token & 0b00010000101010010100000000000000) {
+      if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+        addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
+        expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
-          if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
-            const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
-            if (
-              (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
-              (parser.token as SyntaxKind) === SyntaxKind.Colon ||
-              (parser.token as SyntaxKind) === SyntaxKind.Comma
-            ) {
-              state = Tristate.True;
-              expression = createFormalParameter(
-                /* ellipsisToken */ null,
-                /* binding */ expression,
-                /* optionalToken */ questionMarkToken,
-                /* type */ parseTypeAnnotation(parser, context),
-                /* initializer */ parseInitializer(parser, context, false),
-                NodeFlags.ExpressionNode,
-                curPos,
-                parser.curPos
-              );
-            } else {
-              state = Tristate.False;
-              expression = createConditionalExpression(
-                expression,
-                questionMarkToken,
-                parseExpression(
-                  parser,
-                  (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000
-                ),
-                consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
-                parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
-                curPos,
-                parser.curPos
-              );
-              parser.assignable = false;
-            }
-            // - `(a, b: string) => {}"
-          } else if (parser.token === SyntaxKind.Colon) {
+        state = Tristate.Unknown;
+
+        if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
+          const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+          if (
+            (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
+            (parser.token as SyntaxKind) === SyntaxKind.Colon ||
+            (parser.token as SyntaxKind) === SyntaxKind.Comma
+          ) {
             state = Tristate.True;
-
             expression = createFormalParameter(
               /* ellipsisToken */ null,
               /* binding */ expression,
-              /* optionalToken */ null,
+              /* optionalToken */ questionMarkToken,
               /* type */ parseTypeAnnotation(parser, context),
               /* initializer */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
@@ -4479,256 +4452,259 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               parser.curPos
             );
           } else {
-            // At this point, we do not know if this is an valid arrow function or an parenthese expression
-            if (!state) state = Tristate.Unknown;
+            state = Tristate.False;
+            expression = createConditionalExpression(
+              expression,
+              questionMarkToken,
+              parseExpression(
+                parser,
+                (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000
+              ),
+              consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+              parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              curPos,
+              parser.curPos
+            );
+            parser.assignable = false;
+          }
+          // - `(a, b: string) => {}"
+        } else if (parser.token === SyntaxKind.Colon) {
+          state = Tristate.True;
 
-            // `(a, b)`
-            // `(a, true)`
-            // `(a,b)`
-            // `(a,b) => {}`
-            if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
-              if (!parser.assignable) {
-                // - `(a, true) => {}`
-                // - `(a, eval) => {}`
-                // - `(a, arguments) => {}`
-                destructible |= DestructibleKind.NotDestructible;
-                parser.diagnosticStartPos = curPos;
-              }
+          expression = createFormalParameter(
+            /* ellipsisToken */ null,
+            /* binding */ expression,
+            /* optionalToken */ null,
+            /* type */ parseTypeAnnotation(parser, context),
+            /* initializer */ parseInitializer(parser, context, false),
+            NodeFlags.ExpressionNode,
+            curPos,
+            parser.curPos
+          );
+        } else {
+          // At this point, we do not know if this is an valid arrow function or an parenthese expression
+          if (!state) state = Tristate.Unknown;
+
+          // `(a, b)`
+          // `(a, true)`
+          // `(a,b)`
+          // `(a,b) => {}`
+          if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
+            if (!parser.assignable) {
+              // - `(a, true) => {}`
+              // - `(a, eval) => {}`
+              // - `(a, arguments) => {}`
+              destructible |= DestructibleKind.NotDestructible;
+              parser.diagnosticStartPos = curPos;
+            }
+          } else {
+            // - `(a, b=c)`
+            // - `(a, b=b) => {}`
+            // - `(a, b=c):d => {}`
+            // - `(a, b=c,d)`
+            // - `(a, b=c,d) => {}`
+            // - `(a, b=c,d):e => {}`
+            if (parser.token === SyntaxKind.Assign) {
+              // - `(a, b = x) => {}`
+              flags |= NodeFlags.NoneSimpleParamList;
             } else {
-              // - `(a, b=c)`
-              // - `(a, b=b) => {}`
-              // - `(a, b=c):d => {}`
-              // - `(a, b=c,d)`
-              // - `(a, b=c,d) => {}`
-              // - `(a, b=c,d):e => {}`
-              if (parser.token === SyntaxKind.Assign) {
-                // - `(a, b = x) => {}`
-                flags |= NodeFlags.NoneSimpleParamList;
-              } else {
-                // - `(a, b /= x) => {}`
-                // - `(a, b *= x) => {}`
-                state = Tristate.False;
-                destructible |= DestructibleKind.NotDestructible;
-              }
+              // - `(a, b /= x) => {}`
+              // - `(a, b *= x) => {}`
+              state = Tristate.False;
+              destructible |= DestructibleKind.NotDestructible;
+            }
 
-              // If we have "(x[y])" then this is definitely not an arrow function
-              if (parser.token & SyntaxKind.IsPropertyOrCall) {
-                state = Tristate.False;
-                // - `(a, b.[c])`
-                // - `(a, b(c))`
-                // - `(a, b.c)`
-                expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
-              }
+            // If we have "(x[y])" then this is definitely not an arrow function
+            if (parser.token & SyntaxKind.IsPropertyOrCall) {
+              state = Tristate.False;
+              // - `(a, b.[c])`
+              // - `(a, b(c))`
+              // - `(a, b.c)`
+              expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
+            }
 
-              // - `(a, b=c)`
-              // - `(a, b.[c] = d)`
-              // - `(a, b=c) => {}`
-              if (
-                (parser.token as SyntaxKind) !== SyntaxKind.RightParen &&
-                (parser.token as SyntaxKind) !== SyntaxKind.Comma
-              ) {
-                expression = parseAssignmentExpression(parser, context, expression, curPos);
-              }
+            // - `(a, b=c)`
+            // - `(a, b.[c] = d)`
+            // - `(a, b=c) => {}`
+            if (
+              (parser.token as SyntaxKind) !== SyntaxKind.RightParen &&
+              (parser.token as SyntaxKind) !== SyntaxKind.Comma
+            ) {
+              expression = parseAssignmentExpression(parser, context, expression, curPos);
             }
           }
-        } else if (parser.token & SyntaxKind.IsPatternStart) {
-          expression =
-            parser.token === SyntaxKind.LeftBracket
-              ? parseArrayLiteralOrAssignmentExpression(
-                  parser,
-                  context,
-                  scope,
-                  BindingType.ArgumentList | BindingType.InArrow
-                )
-              : parseObjectLiteralOrAssignmentExpression(
-                  parser,
-                  context,
-                  scope,
-                  BindingType.ArgumentList | BindingType.InArrow
-                );
-
-          flags |= NodeFlags.NoneSimpleParamList;
-
-          // - `(a, [a]?) => {}`
-          // - `(a, [a]?: string) => {}`
-          // - `(a, [a]?b:c)`
-          // - `(a, {a}?) => {}`
-          // - `(a, {a}?:string) => {}`
-          // - `(a, {a}?b:c)`
-          if (parser.token === SyntaxKind.QuestionMark) {
-            // - `(a, [b]?)`
-            // - `(a, [b]?c:d)`
-            // - `(a, [b]?:c) => {}`
-            // - `({a}?b:c, {a}?b:c)`
-            // - `(a, {a}?:b) => {}`
-            const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
-            if (
-              (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
-              (parser.token as SyntaxKind) === SyntaxKind.Colon ||
-              (parser.token as SyntaxKind) === SyntaxKind.Comma
-            ) {
-              state = Tristate.True;
-              expression = createFormalParameter(
-                /* ellipsisToken */ null,
-                /* binding */ expression,
-                /* optionalToken */ questionMarkToken,
-                /* type */ parseTypeAnnotation(parser, context),
-                /* initializer */ parseInitializer(parser, context, false),
-                NodeFlags.ExpressionNode,
-                curPos,
-                parser.curPos
+        }
+      } else if (parser.token & SyntaxKind.IsPatternStart) {
+        expression =
+          parser.token === SyntaxKind.LeftBracket
+            ? parseArrayLiteralOrAssignmentExpression(
+                parser,
+                context,
+                scope,
+                BindingType.ArgumentList | BindingType.InArrow
+              )
+            : parseObjectLiteralOrAssignmentExpression(
+                parser,
+                context,
+                scope,
+                BindingType.ArgumentList | BindingType.InArrow
               );
-            } else {
-              state = Tristate.False;
-              expression = createConditionalExpression(
-                expression,
-                questionMarkToken,
-                parseExpression(
-                  parser,
-                  (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000
-                ),
-                consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
-                parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
-                curPos,
-                parser.curPos
-              );
-              parser.assignable = false;
-            }
-            // - `(a, [b]: string) => {}`
-            // - `(a, {b}: string) => {}`
-          } else if (parser.token === SyntaxKind.Colon) {
+
+        flags |= NodeFlags.NoneSimpleParamList;
+
+        // - `(a, [a]?) => {}`
+        // - `(a, [a]?: string) => {}`
+        // - `(a, [a]?b:c)`
+        // - `(a, {a}?) => {}`
+        // - `(a, {a}?:string) => {}`
+        // - `(a, {a}?b:c)`
+        if (parser.token === SyntaxKind.QuestionMark) {
+          // - `(a, [b]?)`
+          // - `(a, [b]?c:d)`
+          // - `(a, [b]?:c) => {}`
+          // - `({a}?b:c, {a}?b:c)`
+          // - `(a, {a}?:b) => {}`
+          const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+          if (
+            (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
+            (parser.token as SyntaxKind) === SyntaxKind.Colon ||
+            (parser.token as SyntaxKind) === SyntaxKind.Comma
+          ) {
             state = Tristate.True;
-
             expression = createFormalParameter(
               /* ellipsisToken */ null,
-              /* binding */ expression as any,
-              /* optionalToken */ null,
+              /* binding */ expression,
+              /* optionalToken */ questionMarkToken,
               /* type */ parseTypeAnnotation(parser, context),
               /* initializer */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               curPos,
               parser.curPos
             );
-            // - `(a, [b])`
-            // - `(a, {b})`
-            // - `(a, [b]) => {}`
-            // - `(a, {b}) => {}`
-            // - `(a, [b]):c => {}`
-            // - `(a, {b}):c => {}`
-            // - `(a, [b])`
-            // - `(a, [b].c)`
-            // - `(a, [b]?.c)`
-            // - `(a, {b}.c)`
-            // - `(a, {b}?.c)`
-            // - `(a, b+c)`
           } else {
-            state = Tristate.Unknown;
+            state = Tristate.False;
+            expression = createConditionalExpression(
+              expression,
+              questionMarkToken,
+              parseExpression(
+                parser,
+                (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000
+              ),
+              consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+              parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              curPos,
+              parser.curPos
+            );
+            parser.assignable = false;
+          }
+          // - `(a, [b]: string) => {}`
+          // - `(a, {b}: string) => {}`
+        } else if (parser.token === SyntaxKind.Colon) {
+          state = Tristate.True;
 
-            // - `({web: true,  __proto__: x, __proto__: y});`
-            if (expression.flags & NodeFlags.PrototypeField) {
-              parser.diagnosticStartPos = curPos;
+          expression = createFormalParameter(
+            /* ellipsisToken */ null,
+            /* binding */ expression as any,
+            /* optionalToken */ null,
+            /* type */ parseTypeAnnotation(parser, context),
+            /* initializer */ parseInitializer(parser, context, false),
+            NodeFlags.ExpressionNode,
+            curPos,
+            parser.curPos
+          );
+          // - `(a, [b])`
+          // - `(a, {b})`
+          // - `(a, [b]) => {}`
+          // - `(a, {b}) => {}`
+          // - `(a, [b]):c => {}`
+          // - `(a, {b}):c => {}`
+          // - `(a, [b])`
+          // - `(a, [b].c)`
+          // - `(a, [b]?.c)`
+          // - `(a, {b}.c)`
+          // - `(a, {b}?.c)`
+          // - `(a, b+c)`
+        } else {
+          state = Tristate.Unknown;
+
+          // - `({web: true,  __proto__: x, __proto__: y});`
+          if (expression.flags & NodeFlags.PrototypeField) {
+            parser.diagnosticStartPos = curPos;
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+              parser.curPos,
+              parser.pos
+            );
+          }
+
+          destructible = parser.destructible;
+
+          parser.assignable = false;
+
+          if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightParen) {
+            if (destructible & DestructibleKind.MustDestruct) {
               parser.onError(
                 DiagnosticSource.Parser,
                 DiagnosticKind.Error,
-                diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+                diagnosticMap[
+                  destructible & DestructibleKind.CoverInitializedName
+                    ? DiagnosticCode.Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring
+                    : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+                ],
                 parser.curPos,
                 parser.pos
               );
             }
 
-            destructible = parser.destructible;
+            // - `([a].b)`
+            // - `([a]?.b)`
+            // - `({a}.b)`
+            // - `({a}?.b)`
+            if (parser.token & SyntaxKind.IsPropertyOrCall) {
+              state = Tristate.False;
+              expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
+            }
 
-            parser.assignable = false;
+            destructible |= DestructibleKind.NotDestructible;
 
-            if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightParen) {
-              if (destructible & DestructibleKind.MustDestruct) {
-                parser.onError(
-                  DiagnosticSource.Parser,
-                  DiagnosticKind.Error,
-                  diagnosticMap[
-                    destructible & DestructibleKind.CoverInitializedName
-                      ? DiagnosticCode.Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring
-                      : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
-                  ],
-                  parser.curPos,
-                  parser.pos
-                );
-              }
-
-              // - `([a].b)`
-              // - `([a]?.b)`
-              // - `({a}.b)`
-              // - `({a}?.b)`
-              if (parser.token & SyntaxKind.IsPropertyOrCall) {
-                state = Tristate.False;
-                expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
-              }
-
-              destructible |= DestructibleKind.NotDestructible;
-
-              if (
-                (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
-                (parser.token as SyntaxKind) !== SyntaxKind.RightParen
-              ) {
-                expression = parseAssignmentExpression(parser, context, expression, curPos);
-              }
+            if (
+              (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
+              (parser.token as SyntaxKind) !== SyntaxKind.RightParen
+            ) {
+              expression = parseAssignmentExpression(parser, context, expression, curPos);
             }
           }
-        } else if (parser.token === SyntaxKind.Ellipsis) {
-          state = Tristate.True;
-          expression = parseFormalParameter(parser, context | Context.Parameters, scope);
-          if ((parser.token as SyntaxKind) !== SyntaxKind.RightParen) {
-            destructible |= DestructibleKind.NotDestructible;
-          }
-        } else {
-          state = Tristate.False;
-          destructible |= DestructibleKind.NotDestructible;
-
-          expressions.push(parseExpression(parser, context));
-
-          while (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
-            expressions.push(parseExpression(parser, context));
-          }
-
-          expression = createCommaOperator(expressions, curPos, parser.curPos);
-
-          consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
-
-          parser.destructible = destructible;
-
-          return createParenthesizedExpression(expression, curPos, parser.curPos);
         }
-        expressions.push(expression);
+      } else if (parser.token === SyntaxKind.Ellipsis) {
+        state = Tristate.True;
+        expression = parseFormalParameter(parser, context | Context.Parameters, scope);
+      } else {
+        state = Tristate.False;
 
-        if (consumeOpt(parser, context, SyntaxKind.Comma)) continue;
-        if (parser.token === SyntaxKind.RightParen) break;
-      }
-    } else {
-      state = Tristate.False;
-      destructible |= DestructibleKind.NotDestructible;
+        destructible |= DestructibleKind.NotDestructible;
 
-      expressions.push(parseExpression(parser, context));
-
-      while (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
         expressions.push(parseExpression(parser, context));
+
+        while (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+          expressions.push(parseExpression(parser, context));
+        }
+
+        expression = createCommaOperator(expressions, curPos, parser.curPos);
+
+        consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+
+        parser.destructible = destructible;
+
+        return createParenthesizedExpression(expression, curPos, parser.curPos);
       }
+      expressions.push(expression);
 
-      expression = createCommaOperator(expressions, curPos, parser.curPos);
+      if (consumeOpt(parser, context, SyntaxKind.Comma)) continue;
+      if (parser.token === SyntaxKind.RightParen) break;
 
-      consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
-      if (parser.token === SyntaxKind.Arrow) {
-        parser.previousErrorPos = parser.pos;
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
-          curPos,
-          parser.pos
-        );
-      }
-      parser.destructible = destructible;
-
-      return createParenthesizedExpression(expression, curPos, parser.curPos);
+      parser.assignable = false;
     }
     parser.assignable = false;
   }

@@ -53,7 +53,7 @@
                     ],
                     "flags": 32,
                     "start": 0,
-                    "end": 7
+                    "end": 8
                 },
                 "flags": 32,
                 "start": 0,

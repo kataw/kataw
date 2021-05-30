@@ -2198,13 +2198,13 @@ function f({x:arg = (arg = 2)}) {}
                                                             "end": 577
                                                         },
                                                         "flags": 32,
-                                                        "start": 570,
+                                                        "start": 562,
                                                         "end": 577
                                                     }
                                                 ],
                                                 "flags": 32,
                                                 "start": 562,
-                                                "end": 577
+                                                "end": 578
                                             },
                                             "flags": 32,
                                             "start": 562,
