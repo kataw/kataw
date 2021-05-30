@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-29
+- Regenerated: 2021-05-30
 - From: kataw7/test\__snapshot__/parser/expressions/assignment/destructuring-assignment-negative-tests/autogen.md
 - Path: kataw7/test\__snapshot__\parser\expressions\assignment\destructuring-assignment-negative-tests\gen\lexical_let_in_for_in_statement
 > :: test: lexical let in for in statement

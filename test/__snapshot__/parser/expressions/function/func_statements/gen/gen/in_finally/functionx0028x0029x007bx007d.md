@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-29
+- Regenerated: 2021-05-30
 - From: kataw7/test\__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
 - Path: kataw7/test\__snapshot__\parser\expressions\function\func_statements\gen\gen\in_finally
 > :: test: in finally

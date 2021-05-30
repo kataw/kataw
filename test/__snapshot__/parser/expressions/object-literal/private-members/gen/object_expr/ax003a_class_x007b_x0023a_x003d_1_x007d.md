@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-29
+- Regenerated: 2021-05-30
 - From: kataw7/test\__snapshot__/parser/expressions/object-literal/private-members/autogen.md
 - Path: kataw7/test\__snapshot__\parser\expressions\object-literal\private-members\gen\object_expr
 > :: test: object_expr

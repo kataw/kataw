@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-29
+- Regenerated: 2021-05-30
 - From: kataw7/test\__snapshot__/parser/expressions/classes/good_supers/autogen.md
 - Path: kataw7/test\__snapshot__\parser\expressions\classes\good_supers\gen\object_with_string_key
 > :: test: object with string key
