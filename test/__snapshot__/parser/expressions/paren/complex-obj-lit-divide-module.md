@@ -703,15 +703,14 @@
 
 ```javascript
 
+({ "\"a\"": [b] } = 1 / (d = (a) = a));
+({ "\"a\"": [b] } = 1 / (d = (a) = a), ({ "\"a\"": [b] } = 1 / (d = (a) = a)));
+(x, { "\"a\"": [b] } = 1 / (d = (a) = a));
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 30
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 65, end: 67
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 100, end: 102
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 141, end: 143
-
+✔ No errors
 ```
 

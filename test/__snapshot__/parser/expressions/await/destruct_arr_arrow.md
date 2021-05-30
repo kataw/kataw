@@ -262,12 +262,14 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
 
 ```javascript
 
+async function a() {
+  ([y] = [{ m: 5 + t(await bar) }]) =>  {};
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 55, end: 58
-
+✔ No errors
 ```
 

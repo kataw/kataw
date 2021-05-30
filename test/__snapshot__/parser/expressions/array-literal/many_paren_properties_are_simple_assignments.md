@@ -134,12 +134,12 @@
 
 ```javascript
 
+[(x.y)] = obj;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 17, end: 19
-
+✔ No errors
 ```
 

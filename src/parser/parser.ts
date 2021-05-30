@@ -2036,6 +2036,7 @@ function parseIndexExpression(
       parser.pos
     );
   }
+  parser.assignable = true;
   return createIndexExpression(member, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
 }
 
@@ -2887,27 +2888,27 @@ function parsePropertyDefinition(
         left = parseAssignmentExpression(parser, context, left, pos);
       }
     } else {
-      const token = parser.token;
+
       // Check for '__proto__' property and eventually set the 'Destructible.HasProto' bit
       if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
         nodeFlags |= NodeFlags.PrototypeField;
       }
       left = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
+      destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+
       if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightBrace) {
-        if (token === SyntaxKind.Assign || token === SyntaxKind.RightBrace || token === SyntaxKind.Comma) {
-          if (!parser.assignable) {
-            destructible |= DestructibleKind.NotDestructible;
-          }
-        } else {
-          destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+        if (!parser.assignable) {
+          destructible |= DestructibleKind.NotDestructible;
         }
-      } else if (parser.token === SyntaxKind.Assign) {
-        if (!parser.assignable) destructible |= DestructibleKind.NotDestructible;
-        left = parseAssignmentExpression(parser, context, left, pos);
       } else {
-        destructible |= DestructibleKind.NotDestructible;
-        left = parseAssignmentExpression(parser, context, left, pos);
+        left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
+
+        destructible = DestructibleKind.None;
+
+        if ((parser.token as SyntaxKind) !== SyntaxKind.Comma && (parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
+          left = parseAssignmentExpression(parser, context, left, pos);
+        }
       }
     }
     parser.destructible = destructible;
@@ -4307,11 +4308,21 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
     destructible |= DestructibleKind.NotDestructible;
 
-    expression = parseCommaOperator(parser, context, parseExpression(parser, context), curPos);
+    expression = parseExpression(parser, context);
 
-    parser.assignable = false;
+    parser.assignable = true;
 
-    consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+    if (parser.token === SyntaxKind.Comma) {
+      const expressions: ExpressionNode[] = [expression];
+      do {
+        nextToken(parser, context | Context.AllowRegExp);
+        expressions.push(parseExpression(parser, context));
+      } while (parser.token === SyntaxKind.Comma);
+      expression = createCommaOperator(expressions, curPos, parser.curPos);
+      parser.assignable = false;
+    }
+
+   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
     if (parser.token === SyntaxKind.Arrow) {
       parser.previousErrorPos = parser.pos;
@@ -4666,6 +4677,9 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         } else if (parser.token === SyntaxKind.Ellipsis) {
           state = Tristate.True;
           expression = parseFormalParameter(parser, context | Context.Parameters, scope);
+          if ((parser.token as SyntaxKind) !== SyntaxKind.RightParen) {
+            destructible |= DestructibleKind.NotDestructible;
+          }
         } else {
           state = Tristate.False;
           destructible |= DestructibleKind.NotDestructible;

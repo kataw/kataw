@@ -103,7 +103,6 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 16
 ✖ Identifier expected - start: 16, end: 18
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
 ✖ Expected a `;` - start: 20, end: 21
 
 ```

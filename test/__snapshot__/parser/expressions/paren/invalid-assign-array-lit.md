@@ -1561,7 +1561,6 @@
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
 ✖ Invalid optional chain from new expression - start: 44, end: 45
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 79, end: 80
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 82, end: 84
@@ -1582,14 +1581,11 @@
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 159, end: 160
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 168, end: 169
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 168, end: 169
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 173, end: 175
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 192, end: 194
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 211, end: 212
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 214, end: 217
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 214, end: 217
 ✖ Expected a `;` - start: 214, end: 217
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 229, end: 231
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 247, end: 249
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 282, end: 284
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 293, end: 295
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 304, end: 306
