@@ -4290,35 +4290,11 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
         destructible |= DestructibleKind.NotDestructible;
 
-        // - `([a]=b)`
-        // - `({a}=b)`
-        // - `([a]=b)=> {}`
-        // - `({a}=b)=> {}`
-        if ((parser.token & SyntaxKind.IsAssignOp) > 0) {
-          if (!parser.assignable) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode._expected],
-              parser.curPos,
-              parser.pos
-            );
-          }
+        if (
+          (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
+          (parser.token as SyntaxKind) !== SyntaxKind.RightParen
+        ) {
           expression = parseAssignmentExpression(parser, context, expression, curPos);
-          // - `(a+b)`
-        } else if ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
-          expression = parseBinaryExpression(parser, context, expression, 4, parser.token, curPos);
-          // - `(a+b?c:d)`
-          if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
-            expression = parseConditionalExpression(parser, context, expression, curPos);
-          }
-        } else {
-          // - `(b?c:d)`
-          if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
-            expression = parseConditionalExpression(parser, context, expression, curPos);
-          } else {
-            destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
-          }
         }
       }
     }
@@ -4668,10 +4644,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 );
               }
 
-              // - `(a, [b].c)`
-              // - `(a, [b]?.c)`
-              // - `(a, {b}.c)`
-              // - `(a, {b}?.c)`
+              // - `([a].b)`
+              // - `([a]?.b)`
+              // - `({a}.b)`
+              // - `({a}?.b)`
               if (parser.token & SyntaxKind.IsPropertyOrCall) {
                 state = Tristate.False;
                 expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, curPos);
@@ -4679,35 +4655,11 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
               destructible |= DestructibleKind.NotDestructible;
 
-              // - `(a, [b]=c)`
-              // - `(a, {b}=c)`
-              // - `(a, [b]=c)=> {}`
-              // - `(a, {b}=c)=> {}`
-              if ((parser.token & SyntaxKind.IsAssignOp) > 0) {
-                if (!parser.assignable) {
-                  parser.onError(
-                    DiagnosticSource.Parser,
-                    DiagnosticKind.Error,
-                    diagnosticMap[DiagnosticCode._expected],
-                    parser.curPos,
-                    parser.pos
-                  );
-                }
+              if (
+                (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
+                (parser.token as SyntaxKind) !== SyntaxKind.RightParen
+              ) {
                 expression = parseAssignmentExpression(parser, context, expression, curPos);
-                // - `(a+b)`
-              } else if ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
-                expression = parseBinaryExpression(parser, context, expression, 4, parser.token, curPos);
-                // - `(a, b+c?d:e)`
-                if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
-                  expression = parseConditionalExpression(parser, context, expression, curPos);
-                }
-              } else {
-                // - `(a, b?c:d)`
-                if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
-                  expression = parseConditionalExpression(parser, context, expression, curPos);
-                } else {
-                  destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
-                }
               }
             }
           }
