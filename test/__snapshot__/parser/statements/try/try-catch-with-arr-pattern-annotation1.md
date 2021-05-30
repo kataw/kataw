@@ -56,9 +56,9 @@ try {} catch([a:string]) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
@@ -79,7 +79,7 @@ try {} catch([a:string]) {}
                                     "start": 15,
                                     "end": 22
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 14,
                                 "end": 22

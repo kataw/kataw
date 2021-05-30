@@ -177,9 +177,9 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                 "kind": 214,
                                                                                 "formalParameterList": [
                                                                                     {
-                                                                                        "kind": 215,
+                                                                                        "kind": 203,
                                                                                         "ellipsisToken": null,
-                                                                                        "binding": {
+                                                                                        "left": {
                                                                                             "kind": 134299649,
                                                                                             "text": "foo",
                                                                                             "rawText": "foo",
@@ -189,7 +189,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                         },
                                                                                         "optionalToken": null,
                                                                                         "type": null,
-                                                                                        "initializer": {
+                                                                                        "right": {
                                                                                             "kind": 119,
                                                                                             "elementList": {
                                                                                                 "kind": 270,

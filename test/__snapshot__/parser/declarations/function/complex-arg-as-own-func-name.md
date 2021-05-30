@@ -38,17 +38,17 @@ function f([f]) { }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 201,
                             "elementList": {
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
@@ -58,7 +58,7 @@ function f([f]) { }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 13
@@ -75,7 +75,7 @@ function f([f]) { }
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 11,
                         "end": 14

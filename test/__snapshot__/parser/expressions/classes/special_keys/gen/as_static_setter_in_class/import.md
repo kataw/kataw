@@ -77,9 +77,9 @@ class x {static set import(x){}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -89,7 +89,7 @@ class x {static set import(x){}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 27,
                                             "end": 28

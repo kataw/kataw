@@ -38,9 +38,9 @@ function fn(x = async function () { await 1 }) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -50,7 +50,7 @@ function fn(x = async function () { await 1 }) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 177,
                             "asyncKeyword": {
                                 "kind": 82031,

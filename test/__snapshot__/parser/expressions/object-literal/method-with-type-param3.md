@@ -90,9 +90,9 @@ a={123<T>(x: T): T {}}
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -122,7 +122,7 @@ a={123<T>(x: T): T {}}
                                                     "start": 11,
                                                     "end": 14
                                                 },
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 10,
                                                 "end": 14

@@ -43,9 +43,9 @@ function* g( x = function() { async(yield) }) {};
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -55,7 +55,7 @@ function* g( x = function() { async(yield) }) {};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 177,
                             "asyncKeyword": null,
                             "functionKeyword": {

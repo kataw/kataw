@@ -20,14 +20,14 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 1,
                         "end": 4
                     },
-                    "binding": {
+                    "left": {
                         "kind": 16637,
                         "text": "",
                         "flags": 64,
@@ -36,7 +36,7 @@
                     },
                     "optionalToken": null,
                     "type": null,
-                    "initializer": null,
+                    "right": null,
                     "flags": 34,
                     "start": 1,
                     "end": 4

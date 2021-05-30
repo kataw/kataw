@@ -76,9 +76,9 @@ async function f(){   function fh([+ await x]) { }   }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 201,
                                             "elementList": {
                                                 "kind": 202,
@@ -94,7 +94,7 @@ async function f(){   function fh([+ await x]) { }   }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 34,
                                         "start": 34,
                                         "end": 35

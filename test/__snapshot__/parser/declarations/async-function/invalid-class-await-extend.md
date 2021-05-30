@@ -43,9 +43,9 @@ async function foo(a = class extends (await b) {}) {};
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -55,7 +55,7 @@ async function foo(a = class extends (await b) {}) {};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 189,
                             "decorators": null,
                             "classKeyword": {

@@ -5103,9 +5103,9 @@ switch (answer) { case 0: let a; };
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
@@ -5115,7 +5115,7 @@ switch (answer) { case 0: let a; };
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 1921,
                                                             "end": 1922

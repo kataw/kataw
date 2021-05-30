@@ -57,9 +57,9 @@ function foo(callback: (_1:bool, _2:string) => number){}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "callback",
                             "rawText": "callback",
@@ -155,7 +155,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                             "start": 21,
                             "end": 53
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 13,
                         "end": 53

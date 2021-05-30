@@ -38,17 +38,17 @@ function f([b, a], b=x) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 201,
                             "elementList": {
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
@@ -58,15 +58,15 @@ function f([b, a], b=x) {}
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 13
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -76,7 +76,7 @@ function f([b, a], b=x) {}
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 14,
                                         "end": 16
@@ -93,15 +93,15 @@ function f([b, a], b=x) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 11,
                         "end": 17
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
@@ -111,7 +111,7 @@ function f([b, a], b=x) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",

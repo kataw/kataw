@@ -42,9 +42,9 @@ const [foo=a, bar=b] = arr;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
@@ -54,7 +54,7 @@ const [foo=a, bar=b] = arr;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -67,9 +67,9 @@ const [foo=a, bar=b] = arr;
                                         "end": 12
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
@@ -79,7 +79,7 @@ const [foo=a, bar=b] = arr;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",

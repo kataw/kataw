@@ -37,9 +37,9 @@
                 "parameters": [
                     [
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": null,
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -54,15 +54,15 @@
                                 "end": 3
                             },
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 32,
                             "start": 0,
                             "end": 3
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": null,
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -77,7 +77,7 @@
                                 "end": 7
                             },
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 32,
                             "start": 0,
                             "end": 7

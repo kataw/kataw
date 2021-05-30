@@ -34,9 +34,9 @@ for (let [foo] = arr, bar = arr2);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
@@ -46,7 +46,7 @@ for (let [foo] = arr, bar = arr2);
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 10,
                                         "end": 13

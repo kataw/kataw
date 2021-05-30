@@ -40,9 +40,9 @@ function a(options = {}) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "options",
                             "rawText": "options",
@@ -52,7 +52,7 @@ function a(options = {}) {
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 220,
                             "propertyList": {
                                 "kind": 218,

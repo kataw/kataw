@@ -57,9 +57,9 @@ const foo = (foo?: bar) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
@@ -94,7 +94,7 @@ const foo = (foo?: bar) => {};
                                         "start": 17,
                                         "end": 22
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 11,
                                     "end": 22

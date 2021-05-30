@@ -100,9 +100,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -112,7 +112,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 11,
                         "end": 14
@@ -286,9 +286,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -298,7 +298,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
@@ -397,9 +397,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -409,15 +409,15 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 87,
                         "end": 90
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arguments",
                             "rawText": "arguments",
@@ -427,7 +427,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 91,
                         "end": 101
@@ -604,14 +604,14 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 151,
                             "end": 154
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -621,7 +621,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 151,
                         "end": 157
@@ -798,9 +798,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -810,7 +810,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 207,
                         "end": 210
@@ -973,9 +973,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -985,7 +985,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 251,
                         "end": 254
@@ -1151,9 +1151,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -1163,7 +1163,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 303,
                         "end": 306
@@ -1337,9 +1337,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -1349,15 +1349,15 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 351,
                         "end": 354
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -1367,7 +1367,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
@@ -1537,9 +1537,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -1549,20 +1549,20 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 400,
                         "end": 403
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 404,
                             "end": 408
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -1572,7 +1572,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 404,
                         "end": 409
@@ -1735,9 +1735,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -1747,7 +1747,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
@@ -1917,9 +1917,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -1929,7 +1929,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 496,
                         "end": 499
@@ -2101,9 +2101,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -2113,15 +2113,15 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 554,
                         "end": 557
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 212,
                             "propertyList": {
                                 "kind": 213,
@@ -2226,7 +2226,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 558,
                         "end": 579
@@ -2318,9 +2318,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -2330,7 +2330,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 602,
                         "end": 605
@@ -2562,9 +2562,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -2574,7 +2574,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 662,
                         "end": 665
@@ -2776,9 +2776,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -2788,7 +2788,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 715,
                         "end": 718
@@ -2993,14 +2993,14 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 776,
                             "end": 779
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -3010,7 +3010,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 776,
                         "end": 782
@@ -3176,9 +3176,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -3188,7 +3188,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 831,
                         "end": 834
@@ -3365,9 +3365,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -3377,7 +3377,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 884,
                         "end": 887
@@ -3543,9 +3543,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -3555,7 +3555,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 932,
                         "end": 935
@@ -3721,9 +3721,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "arg",
                             "rawText": "arg",
@@ -3733,7 +3733,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 993,
                         "end": 996
@@ -3949,9 +3949,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 212,
                             "propertyList": {
                                 "kind": 213,
@@ -3999,15 +3999,15 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 1055,
                         "end": 1066
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 212,
                             "propertyList": {
                                 "kind": 213,
@@ -4081,7 +4081,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 1067,
                         "end": 1081
@@ -4135,9 +4135,9 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 212,
                             "propertyList": {
                                 "kind": 213,
@@ -4211,7 +4211,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 1098,
                         "end": 1117

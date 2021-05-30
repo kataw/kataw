@@ -65,9 +65,9 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -88,7 +88,7 @@ const bar9 = <T>(x) => {};
                                         "start": 15,
                                         "end": 23
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 12,
                                     "end": 23
@@ -172,9 +172,9 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -189,7 +189,7 @@ const bar9 = <T>(x) => {};
                                         "end": 56
                                     },
                                     "type": null,
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 52,
                                     "end": 56
@@ -262,9 +262,9 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -290,7 +290,7 @@ const bar9 = <T>(x) => {};
                                         "start": 81,
                                         "end": 89
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 77,
                                     "end": 89
@@ -372,9 +372,9 @@ const bar9 = <T>(x) => {};
                                         "end": 113
                                     },
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
@@ -400,7 +400,7 @@ const bar9 = <T>(x) => {};
                                             "start": 117,
                                             "end": 125
                                         },
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 110,
                                         "end": 125
@@ -483,14 +483,14 @@ const bar9 = <T>(x) => {};
                                         "end": 149
                                     },
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 150,
                                             "end": 154
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
@@ -516,7 +516,7 @@ const bar9 = <T>(x) => {};
                                             "start": 156,
                                             "end": 164
                                         },
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 34,
                                         "start": 150,
                                         "end": 164
@@ -749,9 +749,9 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -772,7 +772,7 @@ const bar9 = <T>(x) => {};
                                         "start": 242,
                                         "end": 250
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 239,
                                     "end": 250

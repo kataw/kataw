@@ -44,17 +44,17 @@ async function a(options = {}) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 201,
                             "elementList": {
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "option1",
                                             "rawText": "option1",
@@ -64,15 +64,15 @@ async function a(options = {}) {
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 20
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "option2",
                                             "rawText": "option2",
@@ -82,7 +82,7 @@ async function a(options = {}) {
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 21,
                                         "end": 29
@@ -99,7 +99,7 @@ async function a(options = {}) {
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 11,
                         "end": 31
@@ -167,9 +167,9 @@ async function a(options = {}) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "options",
                             "rawText": "options",
@@ -179,7 +179,7 @@ async function a(options = {}) {
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 220,
                             "propertyList": {
                                 "kind": 218,

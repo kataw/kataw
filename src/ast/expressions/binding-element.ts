@@ -10,31 +10,32 @@ import { TypeNode } from '../types';
  * Formal parameter
  */
 
-export interface ArrayBindingElement extends SyntaxNode {
+export interface BindingElement extends SyntaxNode {
   readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly binding: ObjectBindingPattern | ArrayBindingPattern | Identifier;
+  readonly left: ObjectBindingPattern | ArrayBindingPattern | Identifier;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly type: TypeNode | null;
-  readonly initializer: ExpressionNode | null;
+  readonly right: ExpressionNode | null;
 }
 
-export function createArrayBindingElement(
+export function createBindingElement(
   ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
-  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier,
+  left: ObjectBindingPattern | ArrayBindingPattern | Identifier,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   type: TypeNode | null,
-  initializer: ExpressionNode | null,
+  right: ExpressionNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
-): ArrayBindingElement {
+): BindingElement {
   return {
-    kind: SyntaxKind.ArrayBindingElement,
+    kind: SyntaxKind.BindingElement,
     ellipsisToken,
-    binding,
+    left,
     optionalToken,
     type,
-    initializer,
-    flags: NodeFlags.ExpressionNode,
+    right,
+    flags,
     start,
     end
   };

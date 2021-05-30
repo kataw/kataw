@@ -55,14 +55,14 @@ async (a = (...await) => {});
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 12,
                                         "end": 15
                                     },
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
@@ -72,7 +72,7 @@ async (a = (...await) => {});
                                     },
                                     "optionalToken": null,
                                     "type": null,
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 34,
                                     "start": 12,
                                     "end": 20

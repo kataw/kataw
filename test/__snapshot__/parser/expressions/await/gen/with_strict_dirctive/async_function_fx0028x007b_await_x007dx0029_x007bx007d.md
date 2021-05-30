@@ -55,9 +55,9 @@
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 212,
                             "propertyList": {
                                 "kind": 213,
@@ -90,7 +90,7 @@
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 31,
                         "end": 40

@@ -121,9 +121,9 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 215,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "e",
                                                             "rawText": "e",
@@ -133,7 +133,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 27,
                                                         "end": 28

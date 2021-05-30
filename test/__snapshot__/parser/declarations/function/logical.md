@@ -1570,9 +1570,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -1620,7 +1620,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 1090,
                             "end": 1103
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 1089,
                         "end": 1103
@@ -1726,9 +1726,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -1758,7 +1758,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 1205,
                             "end": 1213
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 1204,
                         "end": 1213
@@ -1864,9 +1864,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -1931,7 +1931,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 1315,
                             "end": 1338
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 1314,
                         "end": 1338
@@ -2037,9 +2037,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -2069,7 +2069,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 1440,
                             "end": 1450
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 1439,
                         "end": 1450
@@ -2758,9 +2758,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -2781,7 +2781,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 2060,
                             "end": 2069
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 2059,
                         "end": 2069
@@ -4136,9 +4136,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -4159,15 +4159,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 3392,
                             "end": 3401
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 3391,
                         "end": 3401
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -4188,7 +4188,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 3404,
                             "end": 3412
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 3402,
                         "end": 3412
@@ -4314,9 +4314,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -4337,7 +4337,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 3504,
                             "end": 3512
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 3503,
                         "end": 3512
@@ -4463,9 +4463,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -4486,7 +4486,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 3604,
                             "end": 3612
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 3603,
                         "end": 3612
@@ -4612,9 +4612,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -4635,7 +4635,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 3712,
                             "end": 3720
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 3711,
                         "end": 3720
@@ -5767,9 +5767,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -5790,15 +5790,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 4815,
                             "end": 4823
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 4809,
                         "end": 4823
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -5819,7 +5819,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 4830,
                             "end": 4838
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 4824,
                         "end": 4838
@@ -5957,9 +5957,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -5980,15 +5980,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 4986,
                             "end": 4994
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 4985,
                         "end": 4994
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -6009,7 +6009,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 4997,
                             "end": 5005
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 4995,
                         "end": 5005
@@ -6147,9 +6147,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -6170,15 +6170,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5110,
                             "end": 5118
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5109,
                         "end": 5118
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -6199,7 +6199,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5121,
                             "end": 5130
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5119,
                         "end": 5130
@@ -6325,9 +6325,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -6348,15 +6348,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5230,
                             "end": 5238
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5224,
                         "end": 5238
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -6377,7 +6377,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5245,
                             "end": 5253
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5239,
                         "end": 5253
@@ -6515,9 +6515,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -6538,15 +6538,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5402,
                             "end": 5410
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5401,
                         "end": 5410
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -6567,7 +6567,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5413,
                             "end": 5421
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5411,
                         "end": 5421
@@ -6719,9 +6719,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -6742,15 +6742,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5546,
                             "end": 5554
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5545,
                         "end": 5554
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -6771,7 +6771,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5557,
                             "end": 5565
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5555,
                         "end": 5565
@@ -7205,9 +7205,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -7228,7 +7228,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 5839,
                             "end": 5847
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 5838,
                         "end": 5847
@@ -7831,9 +7831,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -7854,7 +7854,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 6190,
                             "end": 6198
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 6189,
                         "end": 6198
@@ -8098,9 +8098,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -8121,7 +8121,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 6353,
                             "end": 6361
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 6352,
                         "end": 6361
@@ -8723,9 +8723,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -8746,7 +8746,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 6672,
                             "end": 6680
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 6671,
                         "end": 6680
@@ -9348,9 +9348,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -9371,7 +9371,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 6999,
                             "end": 7007
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 6998,
                         "end": 7007
@@ -9503,9 +9503,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -9526,7 +9526,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7097,
                             "end": 7105
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7096,
                         "end": 7105
@@ -9658,9 +9658,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -9681,7 +9681,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7195,
                             "end": 7203
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7194,
                         "end": 7203
@@ -9813,9 +9813,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -9836,7 +9836,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7293,
                             "end": 7301
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7292,
                         "end": 7301
@@ -9968,9 +9968,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -9991,7 +9991,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7392,
                             "end": 7400
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7391,
                         "end": 7400
@@ -10123,9 +10123,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -10146,7 +10146,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7492,
                             "end": 7500
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7491,
                         "end": 7500
@@ -10278,9 +10278,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -10301,7 +10301,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7592,
                             "end": 7600
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7591,
                         "end": 7600
@@ -10433,9 +10433,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -10456,7 +10456,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7692,
                             "end": 7700
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7691,
                         "end": 7700
@@ -10588,9 +10588,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -10611,7 +10611,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7791,
                             "end": 7799
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7790,
                         "end": 7799
@@ -10743,9 +10743,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -10766,7 +10766,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7891,
                             "end": 7899
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7890,
                         "end": 7899
@@ -10898,9 +10898,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -10921,7 +10921,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 7991,
                             "end": 7999
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 7990,
                         "end": 7999
@@ -11053,9 +11053,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -11076,7 +11076,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 8091,
                             "end": 8099
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 8090,
                         "end": 8099
@@ -11208,9 +11208,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -11231,15 +11231,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 8224,
                             "end": 8232
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 8223,
                         "end": 8232
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -11260,7 +11260,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 8235,
                             "end": 8243
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 8233,
                         "end": 8243
@@ -11406,9 +11406,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -11456,15 +11456,15 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 8358,
                             "end": 8371
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 8357,
                         "end": 8371
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -11512,7 +11512,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 8374,
                             "end": 8387
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 8372,
                         "end": 8387
@@ -11686,9 +11686,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -11758,7 +11758,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 8508,
                             "end": 8535
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 8507,
                         "end": 8535
@@ -11898,9 +11898,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -11970,7 +11970,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "start": 8620,
                             "end": 8647
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 8619,
                         "end": 8647

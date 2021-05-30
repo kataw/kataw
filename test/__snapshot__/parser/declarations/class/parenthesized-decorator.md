@@ -159,9 +159,9 @@ class Foo {
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "member",
                                                 "rawText": "member",
@@ -171,23 +171,23 @@ class Foo {
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 29,
                                             "end": 35
                                         },
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 201,
                                                 "elementList": {
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "expression",
                                                                 "rawText": "expression",
@@ -197,7 +197,7 @@ class Foo {
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 36,
                                                             "end": 46
@@ -214,7 +214,7 @@ class Foo {
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 34,
                                             "start": 35,
                                             "end": 47
@@ -328,9 +328,9 @@ class Foo {
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
@@ -340,7 +340,7 @@ class Foo {
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 66,
                                             "end": 69

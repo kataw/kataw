@@ -58,9 +58,9 @@ const f = (x?, y?:Object = {}) => {}
                             "parameters": [
                                 [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -75,15 +75,15 @@ const f = (x?, y?:Object = {}) => {}
                                             "end": 13
                                         },
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 9,
                                         "end": 13
                                     },
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
@@ -118,7 +118,7 @@ const f = (x?, y?:Object = {}) => {}
                                             "start": 17,
                                             "end": 24
                                         },
-                                        "initializer": {
+                                        "right": {
                                             "kind": 220,
                                             "propertyList": {
                                                 "kind": 218,

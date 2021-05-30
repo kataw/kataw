@@ -59,9 +59,9 @@
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -71,7 +71,7 @@
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 12,
                                                 "end": 13
@@ -164,9 +164,9 @@
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -176,7 +176,7 @@
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 31,
                                                 "end": 32
@@ -269,9 +269,9 @@
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -281,7 +281,7 @@
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 50,
                                                 "end": 51
@@ -438,9 +438,9 @@
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -450,7 +450,7 @@
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 87,
                                                 "end": 88

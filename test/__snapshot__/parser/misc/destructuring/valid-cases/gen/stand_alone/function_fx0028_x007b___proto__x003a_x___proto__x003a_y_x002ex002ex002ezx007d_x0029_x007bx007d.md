@@ -41,9 +41,9 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 212,
                             "propertyList": {
                                 "kind": 213,
@@ -129,7 +129,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 11,
                         "end": 47

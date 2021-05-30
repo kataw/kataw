@@ -53,9 +53,9 @@ const [foo, bar=b] = arr;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
@@ -65,15 +65,15 @@ const [foo, bar=b] = arr;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 7,
                                         "end": 10
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
@@ -83,7 +83,7 @@ const [foo, bar=b] = arr;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",

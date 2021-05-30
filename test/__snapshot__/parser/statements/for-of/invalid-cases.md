@@ -543,14 +543,14 @@ for ({a: b.c}-- of d) e;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 123,
                                             "end": 126
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 16637,
                                             "text": "",
                                             "flags": 64,
@@ -559,7 +559,7 @@ for ({a: b.c}-- of d) e;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 123,
                                         "end": 126
@@ -5114,9 +5114,9 @@ for ({a: b.c}-- of d) e;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -5126,7 +5126,7 @@ for ({a: b.c}-- of d) e;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 1435,
                                         "end": 1436

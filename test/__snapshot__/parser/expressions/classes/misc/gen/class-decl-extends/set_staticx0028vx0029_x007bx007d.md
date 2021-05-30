@@ -92,9 +92,9 @@ class C extends Base { set static(v) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "v",
                                                 "rawText": "v",
@@ -104,7 +104,7 @@ class C extends Base { set static(v) {} }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 34,
                                             "end": 35

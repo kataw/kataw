@@ -53,9 +53,9 @@ const [x, ...[foo, bar]] = obj;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -65,28 +65,28 @@ const [x, ...[foo, bar]] = obj;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 7,
                                         "end": 8
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 9,
                                             "end": 13
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 201,
                                             "elementList": {
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
@@ -96,15 +96,15 @@ const [x, ...[foo, bar]] = obj;
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 14,
                                                         "end": 17
                                                     },
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "bar",
                                                             "rawText": "bar",
@@ -114,7 +114,7 @@ const [x, ...[foo, bar]] = obj;
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 18,
                                                         "end": 22
@@ -131,7 +131,7 @@ const [x, ...[foo, bar]] = obj;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 9,
                                         "end": 23

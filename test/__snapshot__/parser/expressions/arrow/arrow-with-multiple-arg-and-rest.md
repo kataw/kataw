@@ -45,14 +45,14 @@
                             "end": 4
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 5,
                                 "end": 8
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
@@ -62,7 +62,7 @@
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 5,
                             "end": 9

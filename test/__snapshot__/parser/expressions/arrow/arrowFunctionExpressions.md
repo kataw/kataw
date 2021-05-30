@@ -80,9 +80,9 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "p",
                                         "rawText": "p",
@@ -103,7 +103,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 10,
                                         "end": 18
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 7,
                                     "end": 18
@@ -185,9 +185,9 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "p",
                                         "rawText": "p",
@@ -208,7 +208,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 43,
                                         "end": 51
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 40,
                                     "end": 51

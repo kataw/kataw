@@ -88,9 +88,9 @@ function *f(){  ({*g(x=yield){}})  }
                                                         "kind": 214,
                                                         "formalParameterList": [
                                                             {
-                                                                "kind": 215,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "x",
                                                                     "rawText": "x",
@@ -100,7 +100,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": {
+                                                                "right": {
                                                                     "kind": 229,
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,

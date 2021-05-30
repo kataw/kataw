@@ -81,9 +81,9 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -93,7 +93,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 198,
                                             "left": {
                                                 "kind": 201392130,

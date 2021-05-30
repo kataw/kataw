@@ -80,11 +80,10 @@ import { createArgumentList, ArgumentList } from '../ast/expressions/argument-li
 import { createFunctionBody, FunctionBody } from '../ast/expressions/function-body';
 import { createFunctionExpression, FunctionExpression } from '../ast/expressions/function-expr';
 import { createFunctionStatementList, FunctionStatementList } from '../ast/expressions/function-stmt-list';
-import { createFormalParameter, FormalParameter } from '../ast/expressions/formal-parameter';
 import { createFormalParameterList, FormalParameterList } from '../ast/expressions/formal-parameter-list';
 import { createElison, Elison } from '../ast/expressions/elison';
 import { createBindingElementList, BindingElementList } from '../ast/expressions/binding-element-list';
-import { createArrayBindingElement, ArrayBindingElement } from '../ast/expressions/array-binding-element';
+import { createBindingElement, BindingElement } from '../ast/expressions/binding-element';
 import { createArrayBindingPattern, ArrayBindingPattern } from '../ast/expressions/array-binding-pattern';
 import { createElementList, ElementList } from '../ast/expressions/element-list';
 import { createBindingProperty, BindingProperty } from '../ast/expressions/binding-property';
@@ -1257,6 +1256,7 @@ function parseForStatement(
       parser.token === SyntaxKind.LeftBrace
         ? parseObjectLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal)
         : parseArrayLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal);
+
     if (initializer.flags & NodeFlags.PrototypeField) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -3621,31 +3621,36 @@ function parseArrayLiteralElement(
 
     // - `([a:b]) => x`
     if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
-      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
+        let optionalToken = null;
+        // An optional parameter cannot be used within an array pattern in an arrow head, but we parse it
+        // out as part of the error recovery
+        optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
 
-      if (optionalToken) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.An_optional_parameter_cannot_be_used_within_an_array_pattern],
-          parser.curPos,
-          parser.pos
-        );
-      }
+        if (optionalToken) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error | DiagnosticKind.EarlyError,
+            diagnosticMap[DiagnosticCode.An_optional_parameter_cannot_be_used_within_an_array_pattern],
+            parser.curPos,
+            parser.pos
+          );
+        }
 
-      if (optionalToken || parser.token === SyntaxKind.Colon) {
-        return createArrayBindingElement(
+        return createBindingElement(
           null,
           left as Identifier,
           /* error recovery */
           optionalToken,
           parseTypeAnnotation(parser, context),
           parseInitializer(parser, context, false),
+          NodeFlags.ExpressionNode,
           pos,
           parser.curPos
         );
       }
     }
+
     // - `[x = y]`
     // - `[x = y, z]`
     // - `[true = x]`
@@ -3657,11 +3662,11 @@ function parseArrayLiteralElement(
       if (!parser.assignable) {
         parser.onError(
           DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          DiagnosticKind.Error,
           diagnosticMap[
             DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
           ],
-          parser.curPos,
+          pos,
           parser.pos
         );
       }
@@ -3681,14 +3686,12 @@ function parseArrayLiteralElement(
     // - `[x, z]`
     // - `[this]`
     if (parser.token === SyntaxKind.RightBracket || parser.token === SyntaxKind.Comma) {
-      if (!parser.assignable) {
-        parser.destructible = DestructibleKind.NotDestructible;
-      } else {
+      if (parser.assignable) {
         // - `[x] = obj`
-        if (type & BindingType.InArrow) {
-          addVarOrBlock(parser, context, scope, tokenValue, type);
-        }
+        if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
         parser.destructible = DestructibleKind.None;
+      } else {
+        parser.destructible = DestructibleKind.NotDestructible;
       }
       return left;
     }
@@ -3703,35 +3706,34 @@ function parseArrayLiteralElement(
     }
 
     if ((parser.token as SyntaxKind) === SyntaxKind.Comma || (parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
-      if (!parser.assignable) {
-        destructible |= DestructibleKind.NotDestructible;
-      }
+      if (!parser.assignable) destructible |= DestructibleKind.NotDestructible;
     } else {
       left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
-
-      // - `[x.y = a] = z`
+      if (!parser.assignable) destructible = DestructibleKind.NotDestructible;
       if (
-        (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
-        (parser.token as SyntaxKind) !== SyntaxKind.RightBracket
+        (parser.token as SyntaxKind) === SyntaxKind.Comma ||
+        (parser.token as SyntaxKind) === SyntaxKind.RightBracket
       ) {
-        if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
-        left = parseAssignmentExpression(parser, context, left, pos);
-      } else if (parser.destructible & DestructibleKind.MustDestruct) {
-      } else if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) {
-        // - `[...{a: b.b}.d] = c`
-        // - `[...{a: b}.c] = []`
-        // - `[...[{a: b}.c]] = [];`
-        // - `[...[{prop: 1}.prop]] = []`
-        if (parser.assignable) {
-          destructible |= DestructibleKind.Assignable;
+        if ((parser.token & SyntaxKind.IsAssignOp) === 0) {
+          // - `[...{a: b.b}.d] = c`
+          // - `[...{a: b}.c] = []`
+          // - `[...[{a: b}.c]] = [];`
+          // - `[...[{prop: 1}.prop]] = []`
           // - `({"x": [y].slice(0)} = x)`
           // - `({"x": [y].slice(0)}) => x`
           // - `[...[x].map(y, z)] = a;`
           // - `({ident: {x}.join("")}) => x`
-        } else {
-          destructible |= DestructibleKind.NotDestructible;
+          destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
         }
+        parser.destructible = destructible;
+
+        return left;
       }
+      // - `[x.y = a] = z`
+      // - `({ a: [a + 1] = [] });`
+      // - `let({ a: [a + 1] = [] });`
+      if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
+      left = parseAssignmentExpression(parser, context, left, pos);
     }
 
     parser.destructible = destructible;
@@ -3780,13 +3782,14 @@ function parseArrayLiteralElement(
       }
 
       if (optionalToken || parser.token === SyntaxKind.Colon) {
-        return createArrayBindingElement(
+        return createBindingElement(
           null,
           left as any,
           /* error recovery */
           optionalToken,
           parseTypeAnnotation(parser, context),
           parseInitializer(parser, context, false),
+          NodeFlags.ExpressionNode,
           pos,
           parser.curPos
         );
@@ -3798,20 +3801,34 @@ function parseArrayLiteralElement(
     parser.assignable = destructible & DestructibleKind.NotDestructible ? false : true;
 
     if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightBracket) {
-      if (!parser.assignable) {
-        destructible |= DestructibleKind.NotDestructible;
-      }
+      if (!parser.assignable) destructible |= DestructibleKind.NotDestructible;
     } else if ((parser.destructible & DestructibleKind.MustDestruct) === 0) {
       left = parseMemberExpression(parser, context, left as any, SyntaxKind.IsPropertyOrCall, pos);
-      destructible = parser.assignable ? DestructibleKind.None : DestructibleKind.NotDestructible;
+      destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
       if (
-        (parser.token as SyntaxKind) !== SyntaxKind.Comma &&
-        (parser.token as SyntaxKind) !== SyntaxKind.RightBracket
+        (parser.token as SyntaxKind) === SyntaxKind.Comma ||
+        (parser.token as SyntaxKind) === SyntaxKind.RightBracket
       ) {
-        left = parseAssignmentExpression(parser, context, left, pos);
-      } else if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) {
-        destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+        if ((parser.token & SyntaxKind.IsAssignOp) === 0) {
+          // - `[...{a: b.b}.d] = c`
+          // - `[...{a: b}.c] = []`
+          // - `[...[{a: b}.c]] = [];`
+          // - `[...[{prop: 1}.prop]] = []`
+          // - `({"x": [y].slice(0)} = x)`
+          // - `({"x": [y].slice(0)}) => x`
+          // - `[...[x].map(y, z)] = a;`
+          // - `({ident: {x}.join("")}) => x`
+          destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+        }
+        parser.destructible = destructible;
+
+        return left;
       }
+      // - `[x.y = a] = z`
+      // - `({ a: [a + 1] = [] });`
+      // - `let({ a: [a + 1] = [] });`
+      if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
+      left = parseAssignmentExpression(parser, context, left, pos);
     }
 
     parser.destructible = destructible;
@@ -3823,13 +3840,7 @@ function parseArrayLiteralElement(
   // - `([...[a]:b]) => x`
   if (parser.token === SyntaxKind.Ellipsis) {
     const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-    let spreadElement = createSpreadElement(
-      ellipsisToken,
-      parseArraySpreadArgument(parser, context, scope, type),
-      pos,
-      parser.curPos
-    );
-
+    const left = parseArraySpreadArgument(parser, context, scope, type);
     if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
       const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
       if (optionalToken) {
@@ -3845,19 +3856,20 @@ function parseArrayLiteralElement(
       if ((parser.token as SyntaxKind) === SyntaxKind.Colon) {
         parser.destructible = DestructibleKind.None;
 
-        return createArrayBindingElement(
-          null,
-          spreadElement as any,
+        return createBindingElement(
+          ellipsisToken,
+          left as any,
           /* error recovery */
           optionalToken,
           parseTypeAnnotation(parser, context),
           parseInitializer(parser, context, false),
+          NodeFlags.ExpressionNode,
           pos,
           parser.curPos
         );
       }
     }
-    return spreadElement;
+    return createSpreadElement(ellipsisToken, left, pos, parser.curPos);
   }
 
   if ((parser.token as SyntaxKind) === SyntaxKind.Comma) return createElison(pos, pos);
@@ -4119,7 +4131,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         (parser.token as SyntaxKind) === SyntaxKind.Comma
       ) {
         state = Tristate.True;
-        expression = createFormalParameter(
+        expression = createBindingElement(
           /* ellipsisToken */ null,
           /* binding */ expression,
           /* optionalToken */ questionMarkToken,
@@ -4146,7 +4158,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     } else if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
 
-      expression = createFormalParameter(
+      expression = createBindingElement(
         /* ellipsisToken */ null,
         /* binding */ expression,
         /* optionalToken */ null,
@@ -4271,7 +4283,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         (parser.token as SyntaxKind) === SyntaxKind.Comma
       ) {
         state = Tristate.True;
-        expression = createFormalParameter(
+        expression = createBindingElement(
           /* ellipsisToken */ null,
           /* binding */ expression,
           /* optionalToken */ questionMarkToken,
@@ -4299,7 +4311,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     } else if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
 
-      expression = createFormalParameter(
+      expression = createBindingElement(
         /* ellipsisToken */ null,
         /* binding */ expression as any,
         /* optionalToken */ null,
@@ -4452,6 +4464,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parser.pos
           );
         }
+
         return parseArrowFunction(
           parser,
           context,
@@ -4513,7 +4526,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             (parser.token as SyntaxKind) === SyntaxKind.Comma
           ) {
             state = Tristate.True;
-            expression = createFormalParameter(
+            expression = createBindingElement(
               /* ellipsisToken */ null,
               /* binding */ expression,
               /* optionalToken */ questionMarkToken,
@@ -4543,7 +4556,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         } else if (parser.token === SyntaxKind.Colon) {
           state = Tristate.True;
 
-          expression = createFormalParameter(
+          expression = createBindingElement(
             /* ellipsisToken */ null,
             /* binding */ expression,
             /* optionalToken */ null,
@@ -4643,7 +4656,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             (parser.token as SyntaxKind) === SyntaxKind.Comma
           ) {
             state = Tristate.True;
-            expression = createFormalParameter(
+            expression = createBindingElement(
               /* ellipsisToken */ null,
               /* binding */ expression,
               /* optionalToken */ questionMarkToken,
@@ -4674,7 +4687,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         } else if (parser.token === SyntaxKind.Colon) {
           state = Tristate.True;
 
-          expression = createFormalParameter(
+          expression = createBindingElement(
             /* ellipsisToken */ null,
             /* binding */ expression as any,
             /* optionalToken */ null,
@@ -4955,12 +4968,12 @@ function parseBindingElementList(
   let trailingComma = false;
 
   while (parser.token & 0b00010000101010000100000000000000) {
-    const arrayBindingElement: any = parseArrayBindingElement(parser, context, scope, type);
-    elements.push(arrayBindingElement);
+    const BindingElement: any = parseBindingElement(parser, context, scope, type);
+    elements.push(BindingElement);
 
     if (parser.token === SyntaxKind.RightBracket) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if (arrayBindingElement.ellipsisToken) {
+      if (BindingElement.ellipsisToken) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -4991,22 +5004,23 @@ function parseBindingElementList(
   return createBindingElementList(elements, trailingComma, flags, pos, parser.curPos);
 }
 
-function parseArrayBindingElement(
+function parseBindingElement(
   parser: ParserState,
   context: Context,
   scope: ScopeState,
   type: BindingType
-): Elison | ArrayBindingElement {
+): Elison | BindingElement {
   const pos = parser.curPos;
   if (parser.token === SyntaxKind.Comma) return createElison(pos, pos);
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
 
-  return createArrayBindingElement(
+  return createBindingElement(
     ellipsisToken,
     parseIdentifierOrPattern(parser, context, scope, type),
     consumeOptToken(parser, context, SyntaxKind.QuestionMark),
     parseTypeAnnotation(parser, context),
     parseInitializer(parser, context, ellipsisToken ? true : false),
+    NodeFlags.ExpressionNode,
     pos,
     parser.curPos
   );
@@ -5889,7 +5903,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   return createFormalParameterList([], /* trailingComma*/ false, nodeFlags, curpPos, curpPos);
 }
 
-function parseFormalParameter(parser: ParserState, context: Context, scope: ScopeState): FormalParameter {
+function parseFormalParameter(parser: ParserState, context: Context, scope: ScopeState): BindingElement {
   const pos = parser.curPos;
   let nodeflags = NodeFlags.ExpressionNode;
   const token = parser.token;
@@ -5945,7 +5959,7 @@ function parseFormalParameter(parser: ParserState, context: Context, scope: Scop
     parser.diagnosticStartPos = pos;
   }
 
-  return createFormalParameter(ellipsisToken, binding, optionalToken, type, initializer, nodeflags, pos, parser.curPos);
+  return createBindingElement(ellipsisToken, binding, optionalToken, type, initializer, nodeflags, pos, parser.curPos);
 }
 
 // ImportDeclaration :
@@ -8924,7 +8938,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
           state = Tristate.True;
 
-          expression = createFormalParameter(
+          expression = createBindingElement(
             /* ellipsisToken */ null,
             /* binding */ expression,
             /* optionalToken */ questionMarkToken,
@@ -8938,7 +8952,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
 
-        expression = createFormalParameter(
+        expression = createBindingElement(
           /* ellipsisToken */ null,
           /* binding */ expression,
           /* optionalToken */ null,
@@ -9030,7 +9044,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
           state = Tristate.True;
 
-          expression = createFormalParameter(
+          expression = createBindingElement(
             /* ellipsisToken */ null,
             /* binding */ expression,
             /* optionalToken */ questionMarkToken,
@@ -9043,7 +9057,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         }
       } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
-        expression = createFormalParameter(
+        expression = createBindingElement(
           /* ellipsisToken */ null,
           /* binding */ expression as any,
           /* optionalToken */ null,
@@ -9138,7 +9152,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
             state = Tristate.True;
 
-            expression = createFormalParameter(
+            expression = createBindingElement(
               /* ellipsisToken */ ellipsisToken,
               /* binding */ expression,
               /* optionalToken */ questionMarkToken,
@@ -9153,7 +9167,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         } else if (context & Context.OptionsAllowTypes && (parser.token as SyntaxKind) === SyntaxKind.Colon) {
           state = Tristate.True;
 
-          expression = createFormalParameter(
+          expression = createBindingElement(
             /* ellipsisToken */ ellipsisToken,
             /* binding */ expression,
             /* optionalToken */ null,
@@ -9243,7 +9257,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
             state = Tristate.True;
 
-            expression = createFormalParameter(
+            expression = createBindingElement(
               /* ellipsisToken */ ellipsisToken,
               /* binding */ expression,
               /* optionalToken */ null,
@@ -9258,7 +9272,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         } else if (context & Context.OptionsAllowTypes && (parser.token as SyntaxKind) === SyntaxKind.Colon) {
           state = Tristate.True;
 
-          expression = createFormalParameter(
+          expression = createBindingElement(
             /* ellipsisToken */ ellipsisToken,
             /* binding */ expression,
             /* optionalToken */ null,

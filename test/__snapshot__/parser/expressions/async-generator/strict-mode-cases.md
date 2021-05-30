@@ -572,9 +572,9 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
@@ -584,7 +584,7 @@ function * x() { "use strict";  yield: 34; }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 284,
                                         "end": 289
@@ -700,9 +700,9 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
@@ -712,15 +712,15 @@ function * x() { "use strict";  yield: 34; }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 345,
                                         "end": 348
                                     },
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
@@ -730,7 +730,7 @@ function * x() { "use strict";  yield: 34; }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 349,
                                         "end": 355

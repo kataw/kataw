@@ -54,9 +54,9 @@
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
@@ -66,15 +66,15 @@
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 20,
                                             "end": 25
                                         },
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -84,7 +84,7 @@
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 25,
                                             "end": 27

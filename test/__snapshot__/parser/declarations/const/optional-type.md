@@ -49,14 +49,14 @@ const f = (...x?) => {}
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 11,
                                         "end": 14
                                     },
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -71,7 +71,7 @@ const f = (...x?) => {}
                                         "end": 16
                                     },
                                     "type": null,
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 34,
                                     "start": 11,
                                     "end": 16

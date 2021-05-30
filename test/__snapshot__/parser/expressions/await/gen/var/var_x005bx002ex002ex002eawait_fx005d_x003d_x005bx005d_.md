@@ -132,14 +132,14 @@ var await; var f = (async function() { var [...await f] = []; });
                                                                     "kind": 202,
                                                                     "elements": [
                                                                         {
-                                                                            "kind": 244,
+                                                                            "kind": 203,
                                                                             "ellipsisToken": {
                                                                                 "kind": 524302,
                                                                                 "flags": 64,
                                                                                 "start": 44,
                                                                                 "end": 47
                                                                             },
-                                                                            "binding": {
+                                                                            "left": {
                                                                                 "kind": 134299649,
                                                                                 "text": "await",
                                                                                 "rawText": "await",
@@ -149,15 +149,15 @@ var await; var f = (async function() { var [...await f] = []; });
                                                                             },
                                                                             "optionalToken": null,
                                                                             "type": null,
-                                                                            "initializer": null,
+                                                                            "right": null,
                                                                             "flags": 32,
                                                                             "start": 44,
                                                                             "end": 52
                                                                         },
                                                                         {
-                                                                            "kind": 244,
+                                                                            "kind": 203,
                                                                             "ellipsisToken": null,
-                                                                            "binding": {
+                                                                            "left": {
                                                                                 "kind": 134299649,
                                                                                 "text": "f",
                                                                                 "rawText": "f",
@@ -167,7 +167,7 @@ var await; var f = (async function() { var [...await f] = []; });
                                                                             },
                                                                             "optionalToken": null,
                                                                             "type": null,
-                                                                            "initializer": null,
+                                                                            "right": null,
                                                                             "flags": 32,
                                                                             "start": 52,
                                                                             "end": 54

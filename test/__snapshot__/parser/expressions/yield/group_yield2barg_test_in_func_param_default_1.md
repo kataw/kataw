@@ -38,9 +38,9 @@ function f(x=(yield z)=y){}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -50,7 +50,7 @@ function f(x=(yield z)=y){}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
@@ -67,9 +67,9 @@ function f(x=(yield z)=y){}
                         "end": 19
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
@@ -79,7 +79,7 @@ function f(x=(yield z)=y){}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 19,
                         "end": 21

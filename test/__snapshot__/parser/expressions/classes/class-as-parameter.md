@@ -90,9 +90,9 @@ class A {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "el",
                             "rawText": "el",
@@ -102,7 +102,7 @@ class A {
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 27,
                         "end": 29
@@ -188,9 +188,9 @@ class A {
                                                                 "kind": 214,
                                                                 "formalParameterList": [
                                                                     {
-                                                                        "kind": 215,
+                                                                        "kind": 203,
                                                                         "ellipsisToken": null,
-                                                                        "binding": {
+                                                                        "left": {
                                                                             "kind": 134299649,
                                                                             "text": "Class",
                                                                             "rawText": "Class",
@@ -200,7 +200,7 @@ class A {
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
-                                                                        "initializer": null,
+                                                                        "right": null,
                                                                         "flags": 32,
                                                                         "start": 75,
                                                                         "end": 80

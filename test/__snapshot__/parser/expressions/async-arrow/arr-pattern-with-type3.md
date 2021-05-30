@@ -47,9 +47,9 @@
                                 "end": 10
                             },
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -70,7 +70,7 @@
                                     "start": 13,
                                     "end": 21
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 11,
                                 "end": 21
@@ -131,7 +131,7 @@
 
 ```javascript
 
-async ([x, ]) =>  {}
+async ([x, []]) =>  {}
 
 ```
 

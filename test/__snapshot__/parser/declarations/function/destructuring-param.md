@@ -38,17 +38,17 @@ function a([a, b, ...[ok]]) {};
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 201,
                             "elementList": {
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -58,15 +58,15 @@ function a([a, b, ...[ok]]) {};
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 13
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
@@ -76,28 +76,28 @@ function a([a, b, ...[ok]]) {};
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 14,
                                         "end": 16
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 17,
                                             "end": 21
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 201,
                                             "elementList": {
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "ok",
                                                             "rawText": "ok",
@@ -107,7 +107,7 @@ function a([a, b, ...[ok]]) {};
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 22,
                                                         "end": 24
@@ -124,7 +124,7 @@ function a([a, b, ...[ok]]) {};
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 17,
                                         "end": 25
@@ -141,7 +141,7 @@ function a([a, b, ...[ok]]) {};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 11,
                         "end": 26

@@ -57,9 +57,9 @@ const fn = async (a?: any): Promise<void> => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -85,7 +85,7 @@ const fn = async (a?: any): Promise<void> => {};
                                         "start": 20,
                                         "end": 25
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 18,
                                     "end": 25

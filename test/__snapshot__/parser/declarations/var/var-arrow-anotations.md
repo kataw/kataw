@@ -1188,9 +1188,9 @@ class Array { concat(items:number | string) {}; }
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
@@ -1220,15 +1220,15 @@ class Array { concat(items:number | string) {}; }
                                         "start": 423,
                                         "end": 428
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 420,
                                     "end": 428
                                 },
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
@@ -1258,7 +1258,7 @@ class Array { concat(items:number | string) {}; }
                                         "start": 433,
                                         "end": 438
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 429,
                                     "end": 438
@@ -1497,9 +1497,9 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -1509,7 +1509,7 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 524,
                                         "end": 525
@@ -2204,9 +2204,9 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "items",
                                                 "rawText": "items",
@@ -2241,7 +2241,7 @@ class Array { concat(items:number | string) {}; }
                                                 "start": 760,
                                                 "end": 776
                                             },
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 755,
                                             "end": 776

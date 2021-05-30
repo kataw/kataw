@@ -42,9 +42,9 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -54,7 +54,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 25,
                         "end": 26
@@ -239,9 +239,9 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                             "kind": 202,
                                             "elements": [
                                                 {
-                                                    "kind": 244,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -251,15 +251,15 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 97,
                                                     "end": 98
                                                 },
                                                 {
-                                                    "kind": 244,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
@@ -269,15 +269,15 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 99,
                                                     "end": 101
                                                 },
                                                 {
-                                                    "kind": 244,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "z",
                                                         "rawText": "z",
@@ -287,7 +287,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 102,
                                                     "end": 104

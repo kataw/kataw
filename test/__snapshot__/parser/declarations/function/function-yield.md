@@ -90,9 +90,9 @@ function *foo() {
                                         "initializer": {
                                             "kind": 121,
                                             "expression": {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
@@ -127,7 +127,7 @@ function *foo() {
                                                     "start": 38,
                                                     "end": 43
                                                 },
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 29,
                                                 "end": 43

@@ -34,9 +34,9 @@ let[{}=class{}]=null
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 212,
                                             "propertyList": {
                                                 "kind": 213,
@@ -52,7 +52,7 @@ let[{}=class{}]=null
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 189,
                                             "decorators": null,
                                             "classKeyword": {

@@ -54,9 +54,9 @@ var [foo:bar] = obj;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
@@ -86,7 +86,7 @@ var [foo:bar] = obj;
                                             "start": 8,
                                             "end": 12
                                         },
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 12

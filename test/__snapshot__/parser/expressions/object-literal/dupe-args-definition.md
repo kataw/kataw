@@ -79,9 +79,9 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -91,15 +91,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 7,
                                                 "end": 8
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -109,7 +109,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 9,
                                                 "end": 11
@@ -205,9 +205,9 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -217,15 +217,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 26,
                                                 "end": 27
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -235,15 +235,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 28,
                                                 "end": 30
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -253,7 +253,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 31,
                                                 "end": 33
@@ -349,9 +349,9 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -361,15 +361,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 48,
                                                 "end": 49
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -379,15 +379,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 50,
                                                 "end": 52
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -397,7 +397,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 53,
                                                 "end": 55
@@ -493,9 +493,9 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -505,15 +505,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 70,
                                                 "end": 71
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -523,15 +523,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 72,
                                                 "end": 74
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -541,7 +541,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 75,
                                                 "end": 77
@@ -637,9 +637,9 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -649,15 +649,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 92,
                                                 "end": 93
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -667,15 +667,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 94,
                                                 "end": 96
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -685,15 +685,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 97,
                                                 "end": 99
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -703,23 +703,23 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 100,
                                                 "end": 102
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 201,
                                                     "elementList": {
                                                         "kind": 202,
                                                         "elements": [
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "fine",
                                                                     "rawText": "fine",
@@ -729,7 +729,7 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 105,
                                                                 "end": 109
@@ -746,7 +746,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 34,
                                                 "start": 103,
                                                 "end": 110
@@ -842,9 +842,9 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -854,15 +854,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 125,
                                                 "end": 126
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -872,15 +872,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 127,
                                                 "end": 129
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -890,15 +890,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 130,
                                                 "end": 132
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -908,7 +908,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": {
+                                                "right": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -1011,9 +1011,9 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -1023,15 +1023,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 154,
                                                 "end": 155
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -1041,15 +1041,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 156,
                                                 "end": 158
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -1059,20 +1059,20 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 159,
                                                 "end": 161
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 162,
                                                     "end": 166
                                                 },
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -1082,7 +1082,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 34,
                                                 "start": 162,
                                                 "end": 167
@@ -1178,17 +1178,17 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 201,
                                                     "elementList": {
                                                         "kind": 202,
                                                         "elements": [
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
                                                                     "rawText": "b",
@@ -1198,15 +1198,15 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 183,
                                                                 "end": 184
                                                             },
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "a",
                                                                     "rawText": "a",
@@ -1216,7 +1216,7 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 185,
                                                                 "end": 187
@@ -1233,15 +1233,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 34,
                                                 "start": 182,
                                                 "end": 188
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -1251,7 +1251,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 189,
                                                 "end": 191
@@ -1347,17 +1347,17 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 201,
                                                     "elementList": {
                                                         "kind": 202,
                                                         "elements": [
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
                                                                     "rawText": "b",
@@ -1367,15 +1367,15 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 207,
                                                                 "end": 208
                                                             },
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "a",
                                                                     "rawText": "a",
@@ -1385,7 +1385,7 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 209,
                                                                 "end": 211
@@ -1402,15 +1402,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 34,
                                                 "start": 206,
                                                 "end": 212
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -1420,7 +1420,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": {
+                                                "right": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -1523,17 +1523,17 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 201,
                                                     "elementList": {
                                                         "kind": 202,
                                                         "elements": [
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
                                                                     "rawText": "b",
@@ -1543,15 +1543,15 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 233,
                                                                 "end": 234
                                                             },
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "a",
                                                                     "rawText": "a",
@@ -1561,7 +1561,7 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 235,
                                                                 "end": 237
@@ -1578,20 +1578,20 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 34,
                                                 "start": 232,
                                                 "end": 238
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 239,
                                                     "end": 243
                                                 },
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -1601,7 +1601,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 34,
                                                 "start": 239,
                                                 "end": 244
@@ -1697,17 +1697,17 @@ o = {f([b, a], b=x) {}};
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 201,
                                                     "elementList": {
                                                         "kind": 202,
                                                         "elements": [
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
                                                                     "rawText": "b",
@@ -1717,15 +1717,15 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 260,
                                                                 "end": 261
                                                             },
                                                             {
-                                                                "kind": 244,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "a",
                                                                     "rawText": "a",
@@ -1735,7 +1735,7 @@ o = {f([b, a], b=x) {}};
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 262,
                                                                 "end": 264
@@ -1752,15 +1752,15 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 34,
                                                 "start": 259,
                                                 "end": 265
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -1770,7 +1770,7 @@ o = {f([b, a], b=x) {}};
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": {
+                                                "right": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",

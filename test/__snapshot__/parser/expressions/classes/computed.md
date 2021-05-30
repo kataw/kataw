@@ -90,9 +90,9 @@ class A { [x=y](foo) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
@@ -102,7 +102,7 @@ class A { [x=y](foo) {} }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 16,
                                             "end": 19

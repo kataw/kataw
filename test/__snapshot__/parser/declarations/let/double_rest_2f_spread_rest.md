@@ -42,14 +42,14 @@ let [... ...foo] = obj;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 16637,
                                             "text": "",
                                             "flags": 64,
@@ -58,20 +58,20 @@ let [... ...foo] = obj;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 8
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 8,
                                             "end": 12
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
@@ -81,7 +81,7 @@ let [... ...foo] = obj;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 8,
                                         "end": 15

@@ -371,9 +371,9 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "value",
                                                 "rawText": "value",
@@ -394,7 +394,7 @@ class Array { concat(items:number | string) {}; }
                                                 "start": 117,
                                                 "end": 125
                                             },
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 112,
                                             "end": 125
@@ -495,9 +495,9 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "value",
                                                 "rawText": "value",
@@ -518,7 +518,7 @@ class Array { concat(items:number | string) {}; }
                                                 "start": 164,
                                                 "end": 172
                                             },
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 159,
                                             "end": 172
@@ -1074,9 +1074,9 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "items",
                                                 "rawText": "items",
@@ -1111,7 +1111,7 @@ class Array { concat(items:number | string) {}; }
                                                 "start": 392,
                                                 "end": 408
                                             },
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 387,
                                             "end": 408

@@ -95,14 +95,14 @@ a = b => { let b; };
                             "end": 4
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 5,
                                 "end": 8
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -112,7 +112,7 @@ a = b => { let b; };
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 5,
                             "end": 9
@@ -728,9 +728,9 @@ a = b => { let b; };
                                                                                             "kind": 202,
                                                                                             "elements": [
                                                                                                 {
-                                                                                                    "kind": 244,
+                                                                                                    "kind": 203,
                                                                                                     "ellipsisToken": null,
-                                                                                                    "binding": {
+                                                                                                    "left": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "a",
                                                                                                         "rawText": "a",
@@ -740,7 +740,7 @@ a = b => { let b; };
                                                                                                     },
                                                                                                     "optionalToken": null,
                                                                                                     "type": null,
-                                                                                                    "initializer": null,
+                                                                                                    "right": null,
                                                                                                     "flags": 32,
                                                                                                     "start": 169,
                                                                                                     "end": 170
@@ -954,9 +954,9 @@ a = b => { let b; };
                                                                                                 "kind": 202,
                                                                                                 "elements": [
                                                                                                     {
-                                                                                                        "kind": 244,
+                                                                                                        "kind": 203,
                                                                                                         "ellipsisToken": null,
-                                                                                                        "binding": {
+                                                                                                        "left": {
                                                                                                             "kind": 134299649,
                                                                                                             "text": "a",
                                                                                                             "rawText": "a",
@@ -966,7 +966,7 @@ a = b => { let b; };
                                                                                                         },
                                                                                                         "optionalToken": null,
                                                                                                         "type": null,
-                                                                                                        "initializer": null,
+                                                                                                        "right": null,
                                                                                                         "flags": 32,
                                                                                                         "start": 214,
                                                                                                         "end": 215
@@ -1862,14 +1862,14 @@ a = b => { let b; };
                             "end": 425
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 426,
                                 "end": 430
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
@@ -1879,7 +1879,7 @@ a = b => { let b; };
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 426,
                             "end": 431

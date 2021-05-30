@@ -46,9 +46,9 @@ function foo(numVal: any, otherVal: mixed){}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "numVal",
                             "rawText": "numVal",
@@ -69,15 +69,15 @@ function foo(numVal: any, otherVal: mixed){}
                             "start": 19,
                             "end": 24
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 13,
                         "end": 24
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "otherVal",
                             "rawText": "otherVal",
@@ -107,7 +107,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "start": 34,
                             "end": 41
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 25,
                         "end": 41

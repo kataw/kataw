@@ -67,9 +67,9 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 215,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
@@ -79,7 +79,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 13,
                                                         "end": 14
@@ -145,9 +145,9 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 215,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "d",
                                                             "rawText": "d",
@@ -157,7 +157,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 29,
                                                         "end": 30

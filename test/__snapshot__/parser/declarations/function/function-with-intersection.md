@@ -46,9 +46,9 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -85,15 +85,15 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "start": 12,
                             "end": 21
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 11,
                         "end": 21
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
@@ -130,7 +130,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "start": 24,
                             "end": 33
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 22,
                         "end": 33

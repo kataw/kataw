@@ -82,14 +82,14 @@
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
                                                         "start": 43,
                                                         "end": 46
                                                     },
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "await",
                                                         "rawText": "await",
@@ -99,7 +99,7 @@
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 34,
                                                     "start": 43,
                                                     "end": 51

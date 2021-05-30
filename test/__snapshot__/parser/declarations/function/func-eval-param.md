@@ -38,9 +38,9 @@ function c(eval){ }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "eval",
                             "rawText": "eval",
@@ -50,7 +50,7 @@ function c(eval){ }
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 11,
                         "end": 15

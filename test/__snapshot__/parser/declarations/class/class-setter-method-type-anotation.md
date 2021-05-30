@@ -77,9 +77,9 @@ class Foo {set fooProp(value:number){}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "value",
                                                 "rawText": "value",
@@ -100,7 +100,7 @@ class Foo {set fooProp(value:number){}}
                                                 "start": 28,
                                                 "end": 35
                                             },
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 23,
                                             "end": 35

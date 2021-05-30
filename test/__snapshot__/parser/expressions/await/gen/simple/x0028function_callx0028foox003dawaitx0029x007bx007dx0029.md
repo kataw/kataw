@@ -44,9 +44,9 @@
                         "kind": 214,
                         "formalParameterList": [
                             {
-                                "kind": 215,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
@@ -56,7 +56,7 @@
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": {
+                                "right": {
                                     "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",

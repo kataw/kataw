@@ -42,9 +42,9 @@
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 220,
                                             "propertyList": {
                                                 "kind": 218,
@@ -80,7 +80,7 @@
                                             "start": 5,
                                             "end": 13
                                         },
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 2,
                                         "end": 13
@@ -104,9 +104,9 @@
                             "end": 17
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": null,
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "z",
                                 "rawText": "z",
@@ -127,7 +127,7 @@
                                 "start": 20,
                                 "end": 28
                             },
-                            "initializer": null,
+                            "right": null,
                             "flags": 32,
                             "start": 0,
                             "end": 28

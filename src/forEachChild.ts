@@ -33,6 +33,8 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
         visitNode(node.operatorToken, node, visitor) ||
         visitNode(node.right, node, visitor)
       );
+    case SyntaxKind.BindingElement:
+      return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
     case SyntaxKind.ExpressionStatement:
       return visitNode(node.expression, node, visitor);
     case SyntaxKind.ElementList:
@@ -84,8 +86,6 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
     case SyntaxKind.ObjectBindingPattern:
       return visitNode(node.propertyList, node, visitor);
-    case SyntaxKind.BindingElement:
-      return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
     case SyntaxKind.NewExpression:
     case SyntaxKind.CallExpression:
       return visitNode(node.expression, node, visitor) || visitNode(node.argumentList, node, visitor);
@@ -93,13 +93,11 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       return visitNode(node.member, node, visitor) || visitNode(node.template, node, visitor);
     case SyntaxKind.BindingElementList:
       return visitNodes(node.elements, node, visitor);
-    case SyntaxKind.ArrayBindingElement:
+    case SyntaxKind.BindingElement:
       return (
-        visitNode(node.ellipsisToken, node, visitor) ||
-        visitNode(node.binding, node, visitor) ||
-        visitNode(node.optionalToken, node, visitor) ||
+        visitNode(node.left, node, visitor) ||
         visitNode(node.type, node, visitor) ||
-        visitNode(node.initializer, node, visitor)
+        visitNode(node.right, node, visitor)
       );
     case SyntaxKind.VariableStatement:
       return visitNode(node.declarationList, node, visitor);

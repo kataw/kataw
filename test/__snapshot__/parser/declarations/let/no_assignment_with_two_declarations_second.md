@@ -70,9 +70,9 @@ let foo, [bar];
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
@@ -82,7 +82,7 @@ let foo, [bar];
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 10,
                                         "end": 13

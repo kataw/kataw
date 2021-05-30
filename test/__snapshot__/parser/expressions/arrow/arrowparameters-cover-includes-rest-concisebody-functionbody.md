@@ -59,14 +59,14 @@ var af = (x, ...y) => { return [x, y.length]; };
                                         "end": 11
                                     },
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 12,
                                             "end": 16
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
@@ -76,7 +76,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 34,
                                         "start": 12,
                                         "end": 17

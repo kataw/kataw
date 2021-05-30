@@ -3558,14 +3558,14 @@ foo ? bar : baz => {};
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 1137,
                             "end": 1140
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -3575,7 +3575,7 @@ foo ? bar : baz => {};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 1137,
                         "end": 1141
@@ -3627,14 +3627,14 @@ foo ? bar : baz => {};
                             "end": 1152
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 1153,
                                 "end": 1157
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -3644,7 +3644,7 @@ foo ? bar : baz => {};
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 1153,
                             "end": 1158
@@ -3717,14 +3717,14 @@ foo ? bar : baz => {};
                             "end": 1173
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 1174,
                                 "end": 1178
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -3734,7 +3734,7 @@ foo ? bar : baz => {};
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 1174,
                             "end": 1179
@@ -3815,14 +3815,14 @@ foo ? bar : baz => {};
                             "end": 1197
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 1198,
                                 "end": 1202
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -3832,7 +3832,7 @@ foo ? bar : baz => {};
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 1198,
                             "end": 1203
@@ -3964,14 +3964,14 @@ foo ? bar : baz => {};
                             "end": 1233
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 1234,
                                 "end": 1238
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -3981,7 +3981,7 @@ foo ? bar : baz => {};
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 1234,
                             "end": 1239

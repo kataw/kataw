@@ -109,8 +109,8 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printBindingPropertyList(node.properties, printer, node);
     case SyntaxKind.ArrayBindingPattern:
       return printArrayBindingPattern(node, printer);
-    case SyntaxKind.ArrayBindingElement:
-      return printArrayBindingElement(node, printer);
+    case SyntaxKind.BindingElement:
+      return printBindingElement(node, printer);
     case SyntaxKind.BindingElementList:
       return printBindingElementList(node, printer);
     case SyntaxKind.BlockStatement:
@@ -180,8 +180,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printDefaultClause(node, printer);
     case SyntaxKind.Catch:
       return printCatchClause(node, printer);
-    case SyntaxKind.BindingElement:
-      return printBindingElement(node, printer);
     case SyntaxKind.ExpressionStatement:
       return printExpressionStatement(node, printer);
     case SyntaxKind.ImportCall:
@@ -408,10 +406,6 @@ function printList(
 
 function printExpressionStatement(node: any, printer: Printer): any {
   return chain([printStatements(node.expression, printer, node), ';']);
-}
-
-function printBindingElement(node: any, printer: Printer): any {
-  return chain([printStatements(node.binding, printer, node), printInitializer(node.initializer, printer, node)]);
 }
 
 function printInitializer(node: any, printer: Printer, parentNode: any): any {
@@ -1179,13 +1173,13 @@ function printSingleNameBinding(node: any, printer: Printer): any {
   ]);
 }
 
-function printArrayBindingElement(node: any, printer: Printer): any {
+function printBindingElement(node: any, printer: Printer): any {
   return chain([
     printKeyword(node.ellipsisToken, printer, node.start, node, /* separator */ false),
     ,
-    printStatements(node.binding, printer, node),
-    printKeyword(node.optionalToken, printer, node.binding.end, node, /* separator */ false),
-    printInitializer(node.initializer, printer, node)
+    printStatements(node.left, printer, node),
+    printKeyword(node.optionalToken, printer, node.left.end, node, /* separator */ false),
+    printInitializer(node.right, printer, node)
   ]);
 }
 
@@ -1957,7 +1951,7 @@ function printMethodDefinition(node: any, printer: Printer): any {
 function printOptionalExpression(node: any, printer: Printer): any {
   return chain([
     printExpressions(node.member, printer, node),
-    printKeyword(node.chainToken, printer, node.chainToken.start, node, /* separator */ false),
+    node.chainToken ? printKeyword(node.chainToken, printer, node.chainToken.start, node, /* separator */ false) : '',
     printExpressions(node.chain, printer, node)
   ]);
 }

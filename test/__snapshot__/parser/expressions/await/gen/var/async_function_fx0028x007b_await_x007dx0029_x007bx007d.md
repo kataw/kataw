@@ -140,9 +140,9 @@ var await; var f = (async function() { async function f({ await }) {} });
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 215,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 212,
                                                                 "propertyList": {
                                                                     "kind": 213,
@@ -175,7 +175,7 @@ var await; var f = (async function() { async function f({ await }) {} });
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 34,
                                                             "start": 56,
                                                             "end": 65

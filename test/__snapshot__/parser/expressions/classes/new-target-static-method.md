@@ -69,9 +69,9 @@ class A {static a(x=new.target){}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -81,7 +81,7 @@ class A {static a(x=new.target){}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": {
+                                            "right": {
                                                 "kind": 211,
                                                 "newKeyword": {
                                                     "kind": 138477661,

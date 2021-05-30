@@ -54,9 +54,9 @@ var [x = 10, [ z ]] = a;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -66,7 +66,7 @@ var [x = 10, [ z ]] = a;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 201392130,
                                             "text": 10,
                                             "rawText": "10",
@@ -79,17 +79,17 @@ var [x = 10, [ z ]] = a;
                                         "end": 11
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 201,
                                             "elementList": {
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "z",
                                                             "rawText": "z",
@@ -99,7 +99,7 @@ var [x = 10, [ z ]] = a;
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 14,
                                                         "end": 16
@@ -116,7 +116,7 @@ var [x = 10, [ z ]] = a;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 18

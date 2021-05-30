@@ -50,9 +50,9 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
@@ -62,15 +62,15 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 15,
                                 "end": 16
                             },
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
@@ -80,15 +80,15 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 17,
                                 "end": 18
                             },
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 212,
                                     "propertyList": {
                                         "kind": 213,
@@ -212,7 +212,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 19,
                                 "end": 44

@@ -166,9 +166,9 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
                                                                         "kind": 214,
                                                                         "formalParameterList": [
                                                                             {
-                                                                                "kind": 215,
+                                                                                "kind": 203,
                                                                                 "ellipsisToken": null,
-                                                                                "binding": {
+                                                                                "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "foo",
                                                                                     "rawText": "foo",
@@ -178,7 +178,7 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
                                                                                 },
                                                                                 "optionalToken": null,
                                                                                 "type": null,
-                                                                                "initializer": {
+                                                                                "right": {
                                                                                     "kind": 208,
                                                                                     "awaitKeyword": {
                                                                                         "kind": 82196,

@@ -647,9 +647,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -659,7 +659,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": {
+                                            "right": {
                                                 "kind": 129,
                                                 "member": {
                                                     "kind": 225,
@@ -775,9 +775,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -787,7 +787,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": {
+                                                "right": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 225,
@@ -1157,9 +1157,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -1169,7 +1169,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": {
+                                            "right": {
                                                 "kind": 536871042,
                                                 "member": {
                                                     "kind": 225,
@@ -1407,9 +1407,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -1419,7 +1419,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": {
+                                                "right": {
                                                     "kind": 536871042,
                                                     "member": {
                                                         "kind": 225,

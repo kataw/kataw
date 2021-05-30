@@ -90,9 +90,9 @@ class A {async set foo(value) { }};
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "value",
                                                 "rawText": "value",
@@ -102,7 +102,7 @@ class A {async set foo(value) { }};
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 23,
                                             "end": 28

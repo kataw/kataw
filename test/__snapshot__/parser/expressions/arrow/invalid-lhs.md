@@ -32,14 +32,14 @@ x = (a,b)+c=>{};
                 "member": {
                     "kind": 121,
                     "expression": {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 1,
                             "end": 4
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -49,7 +49,7 @@ x = (a,b)+c=>{};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 1,
                         "end": 5
@@ -118,14 +118,14 @@ x = (a,b)+c=>{};
                 "shortCircuit": {
                     "kind": 121,
                     "expression": {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 31,
                             "end": 34
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -135,7 +135,7 @@ x = (a,b)+c=>{};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 31,
                         "end": 35
@@ -251,14 +251,14 @@ x = (a,b)+c=>{};
                     "member": {
                         "kind": 121,
                         "expression": {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 55,
                                 "end": 58
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -268,7 +268,7 @@ x = (a,b)+c=>{};
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 55,
                             "end": 59
@@ -334,14 +334,14 @@ x = (a,b)+c=>{};
                                 "end": 71
                             },
                             {
-                                "kind": 215,
+                                "kind": 203,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
                                     "start": 72,
                                     "end": 75
                                 },
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
@@ -351,7 +351,7 @@ x = (a,b)+c=>{};
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 34,
                                 "start": 72,
                                 "end": 76
@@ -436,14 +436,14 @@ x = (a,b)+c=>{};
                                 "end": 103
                             },
                             {
-                                "kind": 215,
+                                "kind": 203,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
                                     "start": 104,
                                     "end": 107
                                 },
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
@@ -453,7 +453,7 @@ x = (a,b)+c=>{};
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 34,
                                 "start": 104,
                                 "end": 108
@@ -560,14 +560,14 @@ x = (a,b)+c=>{};
                                     "end": 140
                                 },
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 141,
                                         "end": 144
                                     },
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
@@ -577,7 +577,7 @@ x = (a,b)+c=>{};
                                     },
                                     "optionalToken": null,
                                     "type": null,
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 34,
                                     "start": 141,
                                     "end": 145

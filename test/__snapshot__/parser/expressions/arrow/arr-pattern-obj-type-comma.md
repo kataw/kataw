@@ -59,9 +59,9 @@ x = (x, {}:string) => {} ;
                                 "end": 6
                             },
                             {
-                                "kind": 215,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 220,
                                     "propertyList": {
                                         "kind": 218,
@@ -88,7 +88,7 @@ x = (x, {}:string) => {} ;
                                     "start": 10,
                                     "end": 17
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 3,
                                 "end": 17

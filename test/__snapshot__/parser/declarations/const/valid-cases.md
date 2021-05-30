@@ -81,9 +81,9 @@ const { async = true } = x;
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 212,
                                             "propertyList": {
                                                 "kind": 213,
@@ -121,7 +121,7 @@ const { async = true } = x;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 34,
                                         "start": 19,
                                         "end": 35
@@ -203,9 +203,9 @@ const { async = true } = x;
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 212,
                                             "propertyList": {
                                                 "kind": 213,
@@ -246,7 +246,7 @@ const { async = true } = x;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 34,
                                         "start": 61,
                                         "end": 75
@@ -606,9 +606,9 @@ const { async = true } = x;
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 212,
                                             "propertyList": {
                                                 "kind": 213,
@@ -649,7 +649,7 @@ const { async = true } = x;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 34,
                                         "start": 218,
                                         "end": 232
@@ -763,9 +763,9 @@ const { async = true } = x;
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 212,
                                             "propertyList": {
                                                 "kind": 213,
@@ -805,7 +805,7 @@ const { async = true } = x;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 34,
                                         "start": 278,
                                         "end": 293

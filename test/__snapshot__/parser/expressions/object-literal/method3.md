@@ -59,9 +59,9 @@ x = { method(test) { } }
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "test",
                                                     "rawText": "test",
@@ -71,7 +71,7 @@ x = { method(test) { } }
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 13,
                                                 "end": 17

@@ -10328,14 +10328,14 @@ a++ => {};
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 3329,
                             "end": 3332
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -10345,7 +10345,7 @@ a++ => {};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
@@ -10446,14 +10446,14 @@ a++ => {};
                                 "end": 3368
                             },
                             {
-                                "kind": 215,
+                                "kind": 203,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
                                     "start": 3369,
                                     "end": 3373
                                 },
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
@@ -10463,7 +10463,7 @@ a++ => {};
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 34,
                                 "start": 3369,
                                 "end": 3374

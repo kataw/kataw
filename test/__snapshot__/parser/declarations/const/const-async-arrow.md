@@ -57,9 +57,9 @@ const a = async (foo: string = "") => {}
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
@@ -80,7 +80,7 @@ const a = async (foo: string = "") => {}
                                         "start": 20,
                                         "end": 28
                                     },
-                                    "initializer": {
+                                    "right": {
                                         "kind": 201392131,
                                         "text": "",
                                         "rawText": "\"\"",

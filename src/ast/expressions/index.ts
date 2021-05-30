@@ -15,10 +15,9 @@ import { StringLiteral } from './string-literal';
 import { BinaryExpression } from './binary-expr';
 import { ConditionalExpression } from './conditional-expr';
 import { ComputedPropertyName } from './computed-property-name';
-import { ArrayBindingElement } from './array-binding-element';
+import { BindingElement } from './binding-element';
 import { ArgumentList } from './argument-list';
 import { ObjectLiteral } from './object-literal';
-import { FormalParameter } from './formal-parameter';
 import { FormalParameterList } from './formal-parameter-list';
 import { TaggedTemplate } from './tagged-template';
 import { TemplateTail } from './template-tail';
@@ -51,7 +50,6 @@ export type ExpressionNode =
   | TemplateTail
   | ArrayLiteral
   | Identifier
-  | FormalParameter
   | FormalParameterList
   | AssignmentExpression
   | ParenthesizedExpression
@@ -79,7 +77,7 @@ export type ExpressionNode =
   | ConditionalExpression
   | BinaryExpression
   | ComputedPropertyName
-  | ArrayBindingElement
+  | BindingElement
   | DummyIdentifier
   | PropertyDefinition
   | PropertyDefinitionList

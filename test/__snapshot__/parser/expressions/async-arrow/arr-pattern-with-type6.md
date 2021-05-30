@@ -39,9 +39,9 @@ async ([{x}: string], y, z: string) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 220,
                                     "propertyList": {
                                         "kind": 218,
@@ -77,7 +77,7 @@ async ([{x}: string], y, z: string) =>  {};
                                     "start": 11,
                                     "end": 19
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 8,
                                 "end": 19
@@ -101,9 +101,9 @@ async ([{x}: string], y, z: string) =>  {};
                     "end": 23
                 },
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
@@ -124,7 +124,7 @@ async ([{x}: string], y, z: string) =>  {};
                         "start": 26,
                         "end": 34
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 24,
                     "end": 34
@@ -175,7 +175,7 @@ async ([{x}: string], y, z: string) =>  {};
 
 ```javascript
 
-async ([], y, z) =>  {}
+async ([[]], y, z) =>  {}
 
 ```
 

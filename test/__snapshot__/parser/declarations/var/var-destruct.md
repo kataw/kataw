@@ -57,9 +57,9 @@ var {[a]: [b]} = c
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
@@ -69,7 +69,7 @@ var {[a]: [b]} = c
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 11,
                                                         "end": 12

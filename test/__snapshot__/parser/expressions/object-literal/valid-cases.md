@@ -234,9 +234,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
@@ -246,7 +246,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 47,
                                                 "end": 48
@@ -459,9 +459,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
@@ -471,7 +471,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 111,
                                                 "end": 112
@@ -684,9 +684,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
@@ -696,7 +696,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 158,
                                                 "end": 159
@@ -916,9 +916,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "_",
                                                     "rawText": "_",
@@ -928,7 +928,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 211,
                                                 "end": 212
@@ -988,9 +988,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
@@ -1000,7 +1000,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 226,
                                                 "end": 227
@@ -2055,9 +2055,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
@@ -2067,7 +2067,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 455,
                                                 "end": 456
@@ -2814,9 +2814,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
@@ -2826,7 +2826,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 689,
                                                 "end": 690
@@ -2936,9 +2936,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
@@ -2948,7 +2948,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 715,
                                                 "end": 716
@@ -3161,9 +3161,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "_",
                                                     "rawText": "_",
@@ -3173,7 +3173,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 774,
                                                 "end": 775

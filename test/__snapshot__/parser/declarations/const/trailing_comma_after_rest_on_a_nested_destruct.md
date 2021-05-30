@@ -53,22 +53,22 @@ const [...[foo, bar],] = obj;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 7,
                                             "end": 10
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 201,
                                             "elementList": {
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
@@ -78,15 +78,15 @@ const [...[foo, bar],] = obj;
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 11,
                                                         "end": 14
                                                     },
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "bar",
                                                             "rawText": "bar",
@@ -96,7 +96,7 @@ const [...[foo, bar],] = obj;
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 15,
                                                         "end": 19
@@ -113,7 +113,7 @@ const [...[foo, bar],] = obj;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 7,
                                         "end": 20

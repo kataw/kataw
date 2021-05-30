@@ -36,9 +36,9 @@ async ([a]:string)=>c;
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -59,7 +59,7 @@ async ([a]:string)=>c;
                         "start": 8,
                         "end": 15
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 7,
                     "end": 15
@@ -101,9 +101,9 @@ async ([a]:string)=>c;
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
@@ -139,7 +139,7 @@ async ([a]:string)=>c;
                         "start": 32,
                         "end": 39
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 29,
                     "end": 39

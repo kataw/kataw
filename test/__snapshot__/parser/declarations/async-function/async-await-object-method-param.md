@@ -51,9 +51,9 @@ async function foo(a = {async bar() { await b }}) {};
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -63,7 +63,7 @@ async function foo(a = {async bar() { await b }}) {};
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 220,
                             "propertyList": {
                                 "kind": 218,

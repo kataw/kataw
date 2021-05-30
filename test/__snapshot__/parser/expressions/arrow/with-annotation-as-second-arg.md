@@ -45,9 +45,9 @@
                             "end": 2
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": null,
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
@@ -68,7 +68,7 @@
                                 "start": 5,
                                 "end": 13
                             },
-                            "initializer": null,
+                            "right": null,
                             "flags": 32,
                             "start": 0,
                             "end": 13

@@ -64,9 +64,9 @@ class c {foo(x=eval=y){ "use strict"; }}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -76,7 +76,7 @@ class c {foo(x=eval=y){ "use strict"; }}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": {
+                                            "right": {
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,

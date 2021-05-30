@@ -39,9 +39,9 @@ async ([x: string = y, z: number]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -62,7 +62,7 @@ async ([x: string = y, z: number]) =>  {};
                                     "start": 9,
                                     "end": 17
                                 },
-                                "initializer": {
+                                "right": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -75,9 +75,9 @@ async ([x: string = y, z: number]) =>  {};
                                 "end": 21
                             },
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
@@ -98,7 +98,7 @@ async ([x: string = y, z: number]) =>  {};
                                     "start": 24,
                                     "end": 32
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 22,
                                 "end": 32
@@ -159,7 +159,7 @@ async ([x: string = y, z: number]) =>  {};
 
 ```javascript
 
-async ([, ]) =>  {}
+async ([[], []]) =>  {}
 
 ```
 

@@ -439,9 +439,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -451,7 +451,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 81,
                                                     "end": 84
@@ -1048,9 +1048,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -1060,7 +1060,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 224,
                                                     "end": 227
@@ -1274,9 +1274,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -1286,7 +1286,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 275,
                                                     "end": 278
@@ -1500,9 +1500,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -1512,7 +1512,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 326,
                                                     "end": 329
@@ -1574,9 +1574,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -1586,7 +1586,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 341,
                                                     "end": 344
@@ -1690,9 +1690,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -1702,7 +1702,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 367,
                                                     "end": 370
@@ -1764,9 +1764,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -1776,7 +1776,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 383,
                                                     "end": 386
@@ -2736,9 +2736,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -2748,7 +2748,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 601,
                                                     "end": 604
@@ -2811,9 +2811,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -2823,7 +2823,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 616,
                                                     "end": 619
@@ -2891,9 +2891,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -2903,7 +2903,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 637,
                                                     "end": 640
@@ -4679,9 +4679,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "test",
                                                         "rawText": "test",
@@ -4691,7 +4691,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1110,
                                                     "end": 1114
@@ -4795,9 +4795,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "test",
                                                         "rawText": "test",
@@ -4807,7 +4807,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1142,
                                                     "end": 1146
@@ -4911,9 +4911,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "test",
                                                         "rawText": "test",
@@ -4923,7 +4923,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1174,
                                                     "end": 1178
@@ -5027,9 +5027,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "test",
                                                         "rawText": "test",
@@ -5039,7 +5039,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1204,
                                                     "end": 1208
@@ -5143,9 +5143,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "test",
                                                         "rawText": "test",
@@ -5155,7 +5155,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1237,
                                                     "end": 1241
@@ -5259,9 +5259,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "test",
                                                         "rawText": "test",
@@ -5271,7 +5271,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1273,
                                                     "end": 1277
@@ -7714,9 +7714,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -7726,7 +7726,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1962,
                                                     "end": 1965
@@ -8492,9 +8492,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -8504,7 +8504,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 2143,
                                                     "end": 2146
@@ -9273,9 +9273,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -9285,7 +9285,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 2321,
                                                     "end": 2324
@@ -10057,9 +10057,9 @@ class x { #foo() {}}
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
@@ -10069,7 +10069,7 @@ class x { #foo() {}}
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 2496,
                                                     "end": 2499

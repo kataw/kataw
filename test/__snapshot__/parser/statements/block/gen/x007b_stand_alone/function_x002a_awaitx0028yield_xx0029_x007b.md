@@ -51,9 +51,9 @@
                             "kind": 214,
                             "formalParameterList": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
@@ -63,15 +63,15 @@
                                     },
                                     "optionalToken": null,
                                     "type": null,
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 19,
                                     "end": 24
                                 },
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -81,7 +81,7 @@
                                     },
                                     "optionalToken": null,
                                     "type": null,
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 26

@@ -53,9 +53,9 @@ let [foo=a, bar] = arr;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
@@ -65,7 +65,7 @@ let [foo=a, bar] = arr;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -78,9 +78,9 @@ let [foo=a, bar] = arr;
                                         "end": 10
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
@@ -90,7 +90,7 @@ let [foo=a, bar] = arr;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 11,
                                         "end": 15

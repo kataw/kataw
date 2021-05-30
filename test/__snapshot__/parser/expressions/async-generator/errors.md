@@ -1208,9 +1208,9 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
@@ -1220,7 +1220,7 @@ async function * gen() {class C extends await { }}
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 676,
                                         "end": 681
@@ -1345,9 +1345,9 @@ async function * gen() {class C extends await { }}
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
@@ -1357,7 +1357,7 @@ async function * gen() {class C extends await { }}
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 734,
                                                 "end": 739
@@ -1487,9 +1487,9 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
@@ -1499,7 +1499,7 @@ async function * gen() {class C extends await { }}
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 792,
                                         "end": 797
@@ -1624,9 +1624,9 @@ async function * gen() {class C extends await { }}
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "await",
                                                     "rawText": "await",
@@ -1636,7 +1636,7 @@ async function * gen() {class C extends await { }}
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 850,
                                                 "end": 855
@@ -3934,9 +3934,9 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 202,
                                                                         "elements": [
                                                                             {
-                                                                                "kind": 244,
+                                                                                "kind": 203,
                                                                                 "ellipsisToken": null,
-                                                                                "binding": {
+                                                                                "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "yield",
                                                                                     "rawText": "yield",
@@ -3946,7 +3946,7 @@ async function * gen() {class C extends await { }}
                                                                                 },
                                                                                 "optionalToken": null,
                                                                                 "type": null,
-                                                                                "initializer": null,
+                                                                                "right": null,
                                                                                 "flags": 32,
                                                                                 "start": 2076,
                                                                                 "end": 2081
@@ -4085,9 +4085,9 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 202,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 244,
+                                                                        "kind": 203,
                                                                         "ellipsisToken": null,
-                                                                        "binding": {
+                                                                        "left": {
                                                                             "kind": 134299649,
                                                                             "text": "await",
                                                                             "rawText": "await",
@@ -4097,7 +4097,7 @@ async function * gen() {class C extends await { }}
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
-                                                                        "initializer": null,
+                                                                        "right": null,
                                                                         "flags": 32,
                                                                         "start": 2121,
                                                                         "end": 2126
@@ -5152,9 +5152,9 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 202,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 244,
+                                                                        "kind": 203,
                                                                         "ellipsisToken": null,
-                                                                        "binding": {
+                                                                        "left": {
                                                                             "kind": 134299649,
                                                                             "text": "yield",
                                                                             "rawText": "yield",
@@ -5164,7 +5164,7 @@ async function * gen() {class C extends await { }}
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
-                                                                        "initializer": null,
+                                                                        "right": null,
                                                                         "flags": 32,
                                                                         "start": 2509,
                                                                         "end": 2514
@@ -5331,9 +5331,9 @@ async function * gen() {class C extends await { }}
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 244,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "await",
                                                             "rawText": "await",
@@ -5343,7 +5343,7 @@ async function * gen() {class C extends await { }}
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 2557,
                                                         "end": 2562

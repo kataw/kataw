@@ -36,9 +36,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 119,
                             "elementList": {
                                 "kind": 270,
@@ -68,7 +68,7 @@
                             "end": 5
                         },
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 0,
                         "end": 5

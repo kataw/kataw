@@ -132,9 +132,9 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                         "kind": 214,
                                                                         "formalParameterList": [
                                                                             {
-                                                                                "kind": 215,
+                                                                                "kind": 203,
                                                                                 "ellipsisToken": null,
-                                                                                "binding": {
+                                                                                "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "_",
                                                                                     "rawText": "_",
@@ -144,7 +144,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                                 },
                                                                                 "optionalToken": null,
                                                                                 "type": null,
-                                                                                "initializer": null,
+                                                                                "right": null,
                                                                                 "flags": 32,
                                                                                 "start": 42,
                                                                                 "end": 43

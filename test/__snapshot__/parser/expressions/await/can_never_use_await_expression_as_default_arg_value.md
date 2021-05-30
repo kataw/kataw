@@ -38,9 +38,9 @@ function call(foo=await bar){}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
@@ -50,7 +50,7 @@ function call(foo=await bar){}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": {
+                        "right": {
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
@@ -63,9 +63,9 @@ function call(foo=await bar){}
                         "end": 23
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
@@ -75,7 +75,7 @@ function call(foo=await bar){}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 23,
                         "end": 27

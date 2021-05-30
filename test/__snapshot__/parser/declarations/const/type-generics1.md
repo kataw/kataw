@@ -110,9 +110,9 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                     },
                                                     "parameters": [
                                                         {
-                                                            "kind": 215,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "value",
                                                                 "rawText": "value",
@@ -142,7 +142,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                 "start": 64,
                                                                 "end": 67
                                                             },
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 54,
                                                             "end": 67

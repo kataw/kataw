@@ -41,17 +41,17 @@ function fn3([a,, b,]) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 201,
                             "elementList": {
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -61,7 +61,7 @@ function fn3([a,, b,]) {}
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 14,
                                         "end": 15
@@ -73,9 +73,9 @@ function fn3([a,, b,]) {}
                                         "end": 16
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
@@ -85,7 +85,7 @@ function fn3([a,, b,]) {}
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 17,
                                         "end": 19
@@ -102,7 +102,7 @@ function fn3([a,, b,]) {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 13,
                         "end": 21

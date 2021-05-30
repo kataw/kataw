@@ -35,14 +35,14 @@ for (let [...bar = foo] of obj);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 10,
                                             "end": 13
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
@@ -52,7 +52,7 @@ for (let [...bar = foo] of obj);
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",

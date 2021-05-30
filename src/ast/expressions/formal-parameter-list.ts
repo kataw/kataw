@@ -1,13 +1,13 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { FormalParameter } from './formal-parameter';
+import { BindingElement } from './binding-element';
 
 export interface FormalParameterList extends SyntaxNode {
-  readonly formalParameterList: readonly FormalParameter[];
+  readonly formalParameterList: readonly BindingElement[];
   readonly trailingComma: boolean;
 }
 
 export function createFormalParameterList(
-  formalParameterList: readonly FormalParameter[],
+  formalParameterList: readonly BindingElement[],
   trailingComma: boolean,
   flags: NodeFlags,
   start: number,

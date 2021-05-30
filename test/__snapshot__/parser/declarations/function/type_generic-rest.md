@@ -50,9 +50,9 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -82,7 +82,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "start": 23,
                             "end": 26
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 22,
                         "end": 26

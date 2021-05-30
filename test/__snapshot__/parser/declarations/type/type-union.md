@@ -253,9 +253,9 @@ type overloads2 = {
                         "typeParameters": null,
                         "parameters": [
                             {
-                                "kind": 215,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -276,7 +276,7 @@ type overloads2 = {
                                     "start": 98,
                                     "end": 106
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 96,
                                 "end": 106

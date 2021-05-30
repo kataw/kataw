@@ -44,9 +44,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -67,7 +67,7 @@
                             "start": 2,
                             "end": 10
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 0,
                         "end": 10
@@ -113,9 +113,9 @@
                             "end": 21
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": null,
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
@@ -136,7 +136,7 @@
                                 "start": 24,
                                 "end": 32
                             },
-                            "initializer": null,
+                            "right": null,
                             "flags": 32,
                             "start": 17,
                             "end": 32
@@ -174,9 +174,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 119,
                             "elementList": {
                                 "kind": 270,
@@ -212,7 +212,7 @@
                             "start": 45,
                             "end": 53
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 39,
                         "end": 53
@@ -249,9 +249,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 220,
                             "propertyList": {
                                 "kind": 218,
@@ -287,7 +287,7 @@
                             "start": 66,
                             "end": 74
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 60,
                         "end": 74

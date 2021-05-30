@@ -37,9 +37,9 @@ async <T>(fn: () => T);
                 "kind": 256,
                 "elements": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "fn",
                             "rawText": "fn",
@@ -90,7 +90,7 @@ async <T>(fn: () => T);
                             "start": 12,
                             "end": 21
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 10,
                         "end": 21
@@ -125,7 +125,7 @@ async <T>(fn: () => T);
 
 ```javascript
 
-async()
+async([])
 
 ```
 

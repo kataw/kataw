@@ -32,14 +32,14 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 1,
                                 "end": 4
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
@@ -49,7 +49,7 @@
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 1,
                             "end": 7
@@ -72,14 +72,14 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 12,
                         "end": 15
                     },
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -89,7 +89,7 @@
                     },
                     "optionalToken": null,
                     "type": null,
-                    "initializer": {
+                    "right": {
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
@@ -137,14 +137,14 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 24,
                                 "end": 27
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
@@ -154,7 +154,7 @@
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 24,
                             "end": 30
@@ -180,14 +180,14 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 35,
                                 "end": 38
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
@@ -197,7 +197,7 @@
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": {
+                            "right": {
                                 "kind": 16637,
                                 "text": "",
                                 "flags": 64,
@@ -231,14 +231,14 @@
                         "kind": 132,
                         "expressions": [
                             {
-                                "kind": 215,
+                                "kind": 203,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
                                     "start": 47,
                                     "end": 50
                                 },
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "abc",
                                     "rawText": "abc",
@@ -248,7 +248,7 @@
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 34,
                                 "start": 47,
                                 "end": 53
@@ -297,14 +297,14 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 59,
                                 "end": 62
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
@@ -314,7 +314,7 @@
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 59,
                             "end": 65
@@ -408,14 +408,14 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 77,
                                 "end": 80
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
@@ -425,7 +425,7 @@
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 77,
                             "end": 83
@@ -535,14 +535,14 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 99,
                         "end": 102
                     },
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -552,7 +552,7 @@
                     },
                     "optionalToken": null,
                     "type": null,
-                    "initializer": {
+                    "right": {
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
@@ -600,14 +600,14 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 111,
                                 "end": 114
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
@@ -617,7 +617,7 @@
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 111,
                             "end": 117
@@ -640,14 +640,14 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 122,
                         "end": 125
                     },
-                    "binding": {
+                    "left": {
                         "kind": 16637,
                         "text": "",
                         "flags": 64,
@@ -656,7 +656,7 @@
                     },
                     "optionalToken": null,
                     "type": null,
-                    "initializer": null,
+                    "right": null,
                     "flags": 34,
                     "start": 122,
                     "end": 125

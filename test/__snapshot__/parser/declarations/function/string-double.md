@@ -38,9 +38,9 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "tagName",
                             "rawText": "tagName",
@@ -50,7 +50,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                         },
                         "optionalToken": null,
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 23,
                         "end": 30

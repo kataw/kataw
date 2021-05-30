@@ -118,9 +118,9 @@ const f = async <T, R, S>(
                             },
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -150,15 +150,15 @@ const f = async <T, R, S>(
                                         "start": 30,
                                         "end": 33
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 26,
                                     "end": 33
                                 },
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
@@ -188,15 +188,15 @@ const f = async <T, R, S>(
                                         "start": 38,
                                         "end": 41
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 34,
                                     "end": 41
                                 },
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
@@ -226,7 +226,7 @@ const f = async <T, R, S>(
                                         "start": 46,
                                         "end": 49
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 42,
                                     "end": 49

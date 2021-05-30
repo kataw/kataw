@@ -71,9 +71,9 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "res",
                                                 "rawText": "res",
@@ -83,15 +83,15 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 34,
                                             "end": 37
                                         },
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "rej",
                                                 "rawText": "rej",
@@ -101,7 +101,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 38,
                                             "end": 42

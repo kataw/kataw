@@ -28,17 +28,17 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -59,7 +59,7 @@
                                         "start": 3,
                                         "end": 11
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 11
@@ -87,7 +87,7 @@
                         "start": 12,
                         "end": 20
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 0,
                     "end": 20

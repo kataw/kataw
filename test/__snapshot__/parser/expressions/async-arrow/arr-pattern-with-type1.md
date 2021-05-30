@@ -45,9 +45,9 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -68,7 +68,7 @@ async ([{x}: string]) =>  {};
                                     "start": 9,
                                     "end": 17
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 8,
                                 "end": 17
@@ -131,9 +131,9 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 119,
                                     "elementList": {
                                         "kind": 270,
@@ -169,7 +169,7 @@ async ([{x}: string]) =>  {};
                                     "start": 40,
                                     "end": 48
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 37,
                                 "end": 48
@@ -232,17 +232,17 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 119,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 244,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -263,7 +263,7 @@ async ([{x}: string]) =>  {};
                                                     "start": 70,
                                                     "end": 78
                                                 },
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 69,
                                                 "end": 78
@@ -291,7 +291,7 @@ async ([{x}: string]) =>  {};
                                     "start": 79,
                                     "end": 87
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 68,
                                 "end": 87
@@ -354,9 +354,9 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 220,
                                     "propertyList": {
                                         "kind": 218,
@@ -392,7 +392,7 @@ async ([{x}: string]) =>  {};
                                     "start": 110,
                                     "end": 118
                                 },
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 107,
                                 "end": 118
@@ -453,10 +453,10 @@ async ([{x}: string]) =>  {};
 
 ```javascript
 
-async ([]) =>  {}
-async ([]) =>  {}
-async ([]) =>  {}
-async ([]) =>  {}
+async ([[]]) =>  {}
+async ([[]]) =>  {}
+async ([[]]) =>  {}
+async ([[]]) =>  {}
 
 ```
 

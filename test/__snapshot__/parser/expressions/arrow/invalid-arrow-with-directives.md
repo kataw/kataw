@@ -1536,9 +1536,9 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
@@ -1548,7 +1548,7 @@
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 607,
                                                             "end": 612
@@ -1663,9 +1663,9 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
@@ -1675,7 +1675,7 @@
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": {
+                                                            "right": {
                                                                 "kind": 201392130,
                                                                 "text": 0,
                                                                 "rawText": "0",
@@ -1797,14 +1797,14 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
                                                                 "start": 697,
                                                                 "end": 700
                                                             },
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
@@ -1814,7 +1814,7 @@
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 697,
                                                             "end": 705
@@ -2501,9 +2501,9 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
@@ -2513,7 +2513,7 @@
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 955,
                                                             "end": 960
@@ -2627,9 +2627,9 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
@@ -2639,7 +2639,7 @@
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": {
+                                                            "right": {
                                                                 "kind": 201392130,
                                                                 "text": 0,
                                                                 "rawText": "0",
@@ -2760,14 +2760,14 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
                                                                 "start": 1045,
                                                                 "end": 1048
                                                             },
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
@@ -2777,7 +2777,7 @@
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 1045,
                                                             "end": 1053

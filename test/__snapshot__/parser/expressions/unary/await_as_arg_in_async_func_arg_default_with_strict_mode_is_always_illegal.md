@@ -81,9 +81,9 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -93,7 +93,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 34098,

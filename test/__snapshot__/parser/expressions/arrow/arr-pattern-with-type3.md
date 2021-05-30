@@ -49,9 +49,9 @@
                                     "end": 4
                                 },
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
@@ -72,7 +72,7 @@
                                         "start": 7,
                                         "end": 15
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 5,
                                     "end": 15
@@ -126,7 +126,7 @@
 
 ```javascript
 
-([x, ]) =>  {};
+([x, []]) =>  {};
 ```
 
 ### Diagnostics

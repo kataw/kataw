@@ -2155,9 +2155,9 @@ async ([a]:string)=>c;
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
@@ -2193,7 +2193,7 @@ async ([a]:string)=>c;
                         "start": 760,
                         "end": 767
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 757,
                     "end": 767

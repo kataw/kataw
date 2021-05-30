@@ -51,9 +51,9 @@ declare function foo(x: number, y: string): void;
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -74,15 +74,15 @@ declare function foo(x: number, y: string): void;
                             "start": 22,
                             "end": 30
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 21,
                         "end": 30
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -103,7 +103,7 @@ declare function foo(x: number, y: string): void;
                             "start": 33,
                             "end": 41
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 31,
                         "end": 41

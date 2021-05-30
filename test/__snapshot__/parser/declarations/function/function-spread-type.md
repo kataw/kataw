@@ -46,14 +46,14 @@ function foo(...args: any) { }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
                             "start": 13,
                             "end": 16
                         },
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "args",
                             "rawText": "args",
@@ -74,7 +74,7 @@ function foo(...args: any) { }
                             "start": 20,
                             "end": 25
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 13,
                         "end": 25

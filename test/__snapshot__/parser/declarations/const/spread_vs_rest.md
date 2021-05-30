@@ -53,9 +53,9 @@ const [a=[...b], ...c] = obj;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -65,7 +65,7 @@ const [a=[...b], ...c] = obj;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 119,
                                             "elementList": {
                                                 "kind": 270,
@@ -105,14 +105,14 @@ const [a=[...b], ...c] = obj;
                                         "end": 15
                                     },
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 16,
                                             "end": 20
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
@@ -122,7 +122,7 @@ const [a=[...b], ...c] = obj;
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 16,
                                         "end": 21

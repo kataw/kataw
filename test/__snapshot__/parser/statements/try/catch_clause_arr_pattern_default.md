@@ -51,9 +51,9 @@ catch ([v] = b) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "v",
                                     "rawText": "v",
@@ -63,7 +63,7 @@ catch ([v] = b) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 15,
                                 "end": 16

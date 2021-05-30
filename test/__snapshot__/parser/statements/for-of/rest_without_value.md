@@ -35,14 +35,14 @@ for (let [...] of obj);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 10,
                                             "end": 13
                                         },
-                                        "binding": {
+                                        "left": {
                                             "kind": 16637,
                                             "text": "",
                                             "flags": 64,
@@ -51,7 +51,7 @@ for (let [...] of obj);
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 10,
                                         "end": 13

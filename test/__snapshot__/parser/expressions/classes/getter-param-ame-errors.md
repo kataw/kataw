@@ -91,9 +91,9 @@ class C { get name(private) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "interface",
                                                 "rawText": "interface",
@@ -103,7 +103,7 @@ class C { get name(private) {} }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 20,
                                             "end": 29
@@ -204,9 +204,9 @@ class C { get name(private) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "public",
                                                 "rawText": "public",
@@ -216,7 +216,7 @@ class C { get name(private) {} }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 56,
                                             "end": 62
@@ -317,9 +317,9 @@ class C { get name(private) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "private",
                                                 "rawText": "private",
@@ -329,7 +329,7 @@ class C { get name(private) {} }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 89,
                                             "end": 96
@@ -444,9 +444,9 @@ class C { get name(private) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "implements",
                                                 "rawText": "implements",
@@ -456,7 +456,7 @@ class C { get name(private) {} }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 137,
                                             "end": 147
@@ -571,9 +571,9 @@ class C { get name(private) {} }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
@@ -583,7 +583,7 @@ class C { get name(private) {} }
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 188,
                                             "end": 193
@@ -836,9 +836,9 @@ class C { get name(private) {} }
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "package",
                                                         "rawText": "package",
@@ -848,7 +848,7 @@ class C { get name(private) {} }
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 277,
                                                     "end": 284
@@ -967,9 +967,9 @@ class C { get name(private) {} }
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "static",
                                                         "rawText": "static",
@@ -979,7 +979,7 @@ class C { get name(private) {} }
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 325,
                                                     "end": 331

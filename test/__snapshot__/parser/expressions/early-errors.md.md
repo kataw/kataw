@@ -225,14 +225,14 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 314,
                         "end": 317
                     },
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -242,7 +242,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "optionalToken": null,
                     "type": null,
-                    "initializer": null,
+                    "right": null,
                     "flags": 34,
                     "start": 314,
                     "end": 318
@@ -271,14 +271,14 @@ try {} catch(e) { for(var e of 0); };
                             "end": 323
                         },
                         {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 324,
                                 "end": 328
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -288,7 +288,7 @@ try {} catch(e) { for(var e of 0); };
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 324,
                             "end": 329
@@ -315,14 +315,14 @@ try {} catch(e) { for(var e of 0); };
                     "expression": {
                         "kind": 121,
                         "expression": {
-                            "kind": 215,
+                            "kind": 203,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
                                 "start": 520,
                                 "end": 523
                             },
-                            "binding": {
+                            "left": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -332,7 +332,7 @@ try {} catch(e) { for(var e of 0); };
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "right": null,
                             "flags": 34,
                             "start": 520,
                             "end": 524
@@ -373,14 +373,14 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 533
                                 },
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 534,
                                         "end": 538
                                     },
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
@@ -390,7 +390,7 @@ try {} catch(e) { for(var e of 0); };
                                     },
                                     "optionalToken": null,
                                     "type": null,
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 34,
                                     "start": 534,
                                     "end": 539
@@ -727,9 +727,9 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "b",
                                                         "rawText": "b",
@@ -739,7 +739,7 @@ try {} catch(e) { for(var e of 0); };
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1091,
                                                     "end": 1092
@@ -841,9 +841,9 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 214,
                                             "formalParameterList": [
                                                 {
-                                                    "kind": 215,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "b",
                                                         "rawText": "b",
@@ -853,7 +853,7 @@ try {} catch(e) { for(var e of 0); };
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 1107,
                                                     "end": 1108
@@ -3555,9 +3555,9 @@ try {} catch(e) { for(var e of 0); };
                                                                             "kind": 214,
                                                                             "formalParameterList": [
                                                                                 {
-                                                                                    "kind": 215,
+                                                                                    "kind": 203,
                                                                                     "ellipsisToken": null,
-                                                                                    "binding": {
+                                                                                    "left": {
                                                                                         "kind": 134299649,
                                                                                         "text": "a",
                                                                                         "rawText": "a",
@@ -3567,7 +3567,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                     },
                                                                                     "optionalToken": null,
                                                                                     "type": null,
-                                                                                    "initializer": null,
+                                                                                    "right": null,
                                                                                     "flags": 32,
                                                                                     "start": 3499,
                                                                                     "end": 3500

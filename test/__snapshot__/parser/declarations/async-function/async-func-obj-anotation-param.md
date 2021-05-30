@@ -51,9 +51,9 @@ async function foo({x}: { x: string; }) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 212,
                             "propertyList": {
                                 "kind": 213,
@@ -124,7 +124,7 @@ async function foo({x}: { x: string; }) {}
                             "start": 22,
                             "end": 38
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 34,
                         "start": 19,
                         "end": 38

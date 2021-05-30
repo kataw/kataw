@@ -34,9 +34,9 @@ let [{a}] = 0
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 212,
                                             "propertyList": {
                                                 "kind": 213,
@@ -69,7 +69,7 @@ let [{a}] = 0
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 8

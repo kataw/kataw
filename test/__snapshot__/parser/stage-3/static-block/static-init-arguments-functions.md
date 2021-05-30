@@ -91,9 +91,9 @@ class C {
                                                             "kind": 214,
                                                             "formalParameterList": [
                                                                 {
-                                                                    "kind": 215,
+                                                                    "kind": 203,
                                                                     "ellipsisToken": null,
-                                                                    "binding": {
+                                                                    "left": {
                                                                         "kind": 212,
                                                                         "propertyList": {
                                                                             "kind": 213,
@@ -153,7 +153,7 @@ class C {
                                                                     },
                                                                     "optionalToken": null,
                                                                     "type": null,
-                                                                    "initializer": null,
+                                                                    "right": null,
                                                                     "flags": 34,
                                                                     "start": 35,
                                                                     "end": 66
@@ -278,9 +278,9 @@ class C {
                                                                     "kind": 214,
                                                                     "formalParameterList": [
                                                                         {
-                                                                            "kind": 215,
+                                                                            "kind": 203,
                                                                             "ellipsisToken": null,
-                                                                            "binding": {
+                                                                            "left": {
                                                                                 "kind": 212,
                                                                                 "propertyList": {
                                                                                     "kind": 213,
@@ -340,7 +340,7 @@ class C {
                                                                             },
                                                                             "optionalToken": null,
                                                                             "type": null,
-                                                                            "initializer": null,
+                                                                            "right": null,
                                                                             "flags": 34,
                                                                             "start": 130,
                                                                             "end": 162
@@ -485,9 +485,9 @@ class C {
                                                             "kind": 214,
                                                             "formalParameterList": [
                                                                 {
-                                                                    "kind": 215,
+                                                                    "kind": 203,
                                                                     "ellipsisToken": null,
-                                                                    "binding": {
+                                                                    "left": {
                                                                         "kind": 212,
                                                                         "propertyList": {
                                                                             "kind": 213,
@@ -547,7 +547,7 @@ class C {
                                                                     },
                                                                     "optionalToken": null,
                                                                     "type": null,
-                                                                    "initializer": null,
+                                                                    "right": null,
                                                                     "flags": 34,
                                                                     "start": 248,
                                                                     "end": 284

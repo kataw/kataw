@@ -72,9 +72,9 @@ class o {f([b, a], ...b) {}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -84,7 +84,7 @@ class o {f([b, a], ...b) {}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 11,
                                             "end": 12
@@ -379,9 +379,9 @@ class o {f([b, a], ...b) {}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -391,7 +391,7 @@ class o {f([b, a], ...b) {}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 78,
                                             "end": 79
@@ -526,17 +526,17 @@ class o {f([b, a], ...b) {}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 201,
                                                 "elementList": {
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "b",
                                                                 "rawText": "b",
@@ -546,15 +546,15 @@ class o {f([b, a], ...b) {}}
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 106,
                                                             "end": 107
                                                         },
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
@@ -564,7 +564,7 @@ class o {f([b, a], ...b) {}}
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 108,
                                                             "end": 110
@@ -581,15 +581,15 @@ class o {f([b, a], ...b) {}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 34,
                                             "start": 105,
                                             "end": 111
                                         },
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 212,
                                                 "propertyList": {
                                                     "kind": 213,
@@ -622,7 +622,7 @@ class o {f([b, a], ...b) {}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 34,
                                             "start": 112,
                                             "end": 116
@@ -718,17 +718,17 @@ class o {f([b, a], ...b) {}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 201,
                                                 "elementList": {
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "b",
                                                                 "rawText": "b",
@@ -738,15 +738,15 @@ class o {f([b, a], ...b) {}}
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 135,
                                                             "end": 136
                                                         },
                                                         {
-                                                            "kind": 244,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
@@ -756,7 +756,7 @@ class o {f([b, a], ...b) {}}
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 137,
                                                             "end": 139
@@ -773,20 +773,20 @@ class o {f([b, a], ...b) {}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 34,
                                             "start": 134,
                                             "end": 140
                                         },
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
                                                 "start": 141,
                                                 "end": 145
                                             },
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
@@ -796,7 +796,7 @@ class o {f([b, a], ...b) {}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 34,
                                             "start": 141,
                                             "end": 146

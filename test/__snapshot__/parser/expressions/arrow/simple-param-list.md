@@ -119,9 +119,9 @@
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 215,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 201,
                                                                 "elementList": {
                                                                     "kind": 202,
@@ -137,7 +137,7 @@
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 34,
                                                             "start": 35,
                                                             "end": 37
@@ -229,9 +229,9 @@
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 215,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 201,
                                                             "elementList": {
                                                                 "kind": 202,
@@ -247,7 +247,7 @@
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 34,
                                                         "start": 62,
                                                         "end": 64

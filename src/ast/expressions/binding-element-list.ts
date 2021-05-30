@@ -1,12 +1,12 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { ArrayBindingElement } from './array-binding-element';
+import { BindingElement } from './binding-element';
 import { Elison } from './elison';
 
 /**
  * BindingElementList
  */
 
-export type BindingListElements = Elison | ArrayBindingElement;
+export type BindingListElements = Elison | BindingElement;
 
 export interface BindingElementList extends SyntaxNode {
   readonly elements: BindingListElements[];

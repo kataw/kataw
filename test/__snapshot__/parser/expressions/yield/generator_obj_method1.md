@@ -107,9 +107,9 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                 "kind": 214,
                                                                 "formalParameterList": [
                                                                     {
-                                                                        "kind": 215,
+                                                                        "kind": 203,
                                                                         "ellipsisToken": null,
-                                                                        "binding": {
+                                                                        "left": {
                                                                             "kind": 134299649,
                                                                             "text": "foo",
                                                                             "rawText": "foo",
@@ -119,7 +119,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
-                                                                        "initializer": {
+                                                                        "right": {
                                                                             "kind": 119,
                                                                             "elementList": {
                                                                                 "kind": 270,

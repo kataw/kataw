@@ -46,9 +46,9 @@ function g(a:number=1, e:number=1) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -69,7 +69,7 @@ function g(a:number=1, e:number=1) {}
                             "start": 12,
                             "end": 19
                         },
-                        "initializer": {
+                        "right": {
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
@@ -82,9 +82,9 @@ function g(a:number=1, e:number=1) {}
                         "end": 21
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
@@ -105,7 +105,7 @@ function g(a:number=1, e:number=1) {}
                             "start": 24,
                             "end": 31
                         },
-                        "initializer": {
+                        "right": {
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",

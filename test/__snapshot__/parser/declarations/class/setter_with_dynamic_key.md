@@ -99,9 +99,9 @@ class x { static set [y](z){}}
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",
@@ -111,7 +111,7 @@ class x { static set [y](z){}}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 25,
                                             "end": 26

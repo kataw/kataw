@@ -76,9 +76,9 @@ function *g() { function f(x = x + yield y) {}; }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -88,7 +88,7 @@ function *g() { function f(x = x + yield y) {}; }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": {
+                                        "right": {
                                             "kind": 198,
                                             "left": {
                                                 "kind": 134299649,
@@ -121,9 +121,9 @@ function *g() { function f(x = x + yield y) {}; }
                                         "end": 40
                                     },
                                     {
-                                        "kind": 215,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
@@ -133,7 +133,7 @@ function *g() { function f(x = x + yield y) {}; }
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 40,
                                         "end": 42

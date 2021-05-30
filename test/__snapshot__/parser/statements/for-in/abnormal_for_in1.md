@@ -66,9 +66,9 @@ function baz(x: boolean) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -89,7 +89,7 @@ function baz(x: boolean) {
                             "start": 14,
                             "end": 23
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 13,
                         "end": 23
@@ -369,9 +369,9 @@ function baz(x: boolean) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -392,7 +392,7 @@ function baz(x: boolean) {
                             "start": 148,
                             "end": 157
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 147,
                         "end": 157
@@ -531,9 +531,9 @@ function baz(x: boolean) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -554,7 +554,7 @@ function baz(x: boolean) {
                             "start": 219,
                             "end": 228
                         },
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 218,
                         "end": 228

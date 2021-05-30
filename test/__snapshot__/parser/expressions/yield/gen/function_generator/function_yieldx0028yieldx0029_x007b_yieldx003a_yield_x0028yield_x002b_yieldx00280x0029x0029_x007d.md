@@ -112,9 +112,9 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 215,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "yield",
                                                             "rawText": "yield",
@@ -124,7 +124,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 55,
                                                         "end": 60

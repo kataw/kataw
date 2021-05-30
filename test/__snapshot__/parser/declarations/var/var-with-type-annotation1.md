@@ -59,9 +59,9 @@ var x = ({ a } : any = 'foo') => {}
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -97,7 +97,7 @@ var x = ({ a } : any = 'foo') => {}
                                         "start": 14,
                                         "end": 20
                                     },
-                                    "initializer": {
+                                    "right": {
                                         "kind": 201392131,
                                         "text": "foo",
                                         "rawText": "'foo'",

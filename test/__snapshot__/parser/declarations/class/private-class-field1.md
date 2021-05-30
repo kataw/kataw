@@ -325,9 +325,9 @@ class Annotations {
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "other",
                                                 "rawText": "other",
@@ -357,7 +357,7 @@ class Annotations {
                                                 "start": 124,
                                                 "end": 127
                                             },
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 119,
                                             "end": 127

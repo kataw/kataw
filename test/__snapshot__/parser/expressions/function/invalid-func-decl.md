@@ -176,9 +176,9 @@ async function f(){}
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 215,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 212,
                                                             "propertyList": {
                                                                 "kind": 213,
@@ -194,7 +194,7 @@ async function f(){}
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 34,
                                                         "start": 54,
                                                         "end": 56

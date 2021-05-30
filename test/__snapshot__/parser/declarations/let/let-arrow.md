@@ -61,9 +61,9 @@ hello();
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "greeting",
                                         "rawText": "greeting",
@@ -84,7 +84,7 @@ hello();
                                         "start": 21,
                                         "end": 28
                                     },
-                                    "initializer": {
+                                    "right": {
                                         "kind": 201392131,
                                         "text": " world",
                                         "rawText": "' world'",

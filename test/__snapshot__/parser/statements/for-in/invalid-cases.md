@@ -4213,9 +4213,9 @@ for ({}.bar = x in obj);
                                                             "kind": 214,
                                                             "formalParameterList": [
                                                                 {
-                                                                    "kind": 215,
+                                                                    "kind": 203,
                                                                     "ellipsisToken": null,
-                                                                    "binding": {
+                                                                    "left": {
                                                                         "kind": 134299649,
                                                                         "text": "val",
                                                                         "rawText": "val",
@@ -4225,7 +4225,7 @@ for ({}.bar = x in obj);
                                                                     },
                                                                     "optionalToken": null,
                                                                     "type": null,
-                                                                    "initializer": null,
+                                                                    "right": null,
                                                                     "flags": 32,
                                                                     "start": 1128,
                                                                     "end": 1131
@@ -4458,9 +4458,9 @@ for ({}.bar = x in obj);
                                                         "kind": 214,
                                                         "formalParameterList": [
                                                             {
-                                                                "kind": 215,
+                                                                "kind": 203,
                                                                 "ellipsisToken": null,
-                                                                "binding": {
+                                                                "left": {
                                                                     "kind": 134299649,
                                                                     "text": "val",
                                                                     "rawText": "val",
@@ -4470,7 +4470,7 @@ for ({}.bar = x in obj);
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
-                                                                "initializer": null,
+                                                                "right": null,
                                                                 "flags": 32,
                                                                 "start": 1182,
                                                                 "end": 1185
@@ -6668,9 +6668,9 @@ for ({}.bar = x in obj);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "let",
                                             "rawText": "let",
@@ -6680,7 +6680,7 @@ for ({}.bar = x in obj);
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 1815,
                                         "end": 1818
@@ -6750,9 +6750,9 @@ for ({}.bar = x in obj);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 244,
+                                        "kind": 203,
                                         "ellipsisToken": null,
-                                        "binding": {
+                                        "left": {
                                             "kind": 134299649,
                                             "text": "let",
                                             "rawText": "let",
@@ -6762,7 +6762,7 @@ for ({}.bar = x in obj);
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "right": null,
                                         "flags": 32,
                                         "start": 1842,
                                         "end": 1845

@@ -882,14 +882,14 @@ try {} catch({ x: "str" }) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
                                     "start": 236,
                                     "end": 239
                                 },
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -899,7 +899,7 @@ try {} catch({ x: "str" }) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": {
+                                "right": {
                                     "kind": 119,
                                     "elementList": {
                                         "kind": 270,
@@ -1258,9 +1258,9 @@ try {} catch({ x: "str" }) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
@@ -1270,15 +1270,15 @@ try {} catch({ x: "str" }) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 335,
                                 "end": 340
                             },
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -1288,7 +1288,7 @@ try {} catch({ x: "str" }) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 340,
                                 "end": 342
@@ -1733,9 +1733,9 @@ try {} catch({ x: "str" }) {}
                                     "kind": 202,
                                     "elements": [
                                         {
-                                            "kind": 244,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -1745,15 +1745,15 @@ try {} catch({ x: "str" }) {}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 461,
                                             "end": 462
                                         },
                                         {
-                                            "kind": 244,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -1763,7 +1763,7 @@ try {} catch({ x: "str" }) {}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 463,
                                             "end": 465
@@ -2460,14 +2460,14 @@ try {} catch({ x: "str" }) {}
                                     "kind": 202,
                                     "elements": [
                                         {
-                                            "kind": 244,
+                                            "kind": 203,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
                                                 "start": 689,
                                                 "end": 692
                                             },
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -2477,7 +2477,7 @@ try {} catch({ x: "str" }) {}
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": {
+                                            "right": {
                                                 "kind": 119,
                                                 "elementList": {
                                                     "kind": 270,
@@ -2854,9 +2854,9 @@ try {} catch({ x: "str" }) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
@@ -2866,15 +2866,15 @@ try {} catch({ x: "str" }) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 796,
                                 "end": 801
                             },
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -2884,7 +2884,7 @@ try {} catch({ x: "str" }) {}
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 801,
                                 "end": 803

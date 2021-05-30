@@ -58,9 +58,9 @@ async <T>(fn: () => T) => fn;
             },
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "fn",
                         "rawText": "fn",
@@ -111,7 +111,7 @@ async <T>(fn: () => T) => fn;
                         "start": 12,
                         "end": 21
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 10,
                     "end": 21

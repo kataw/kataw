@@ -81,9 +81,9 @@ ar O = { async method(x = await 1) { return x; } };
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -93,7 +93,7 @@ ar O = { async method(x = await 1) { return x; } };
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": {
+                                                "right": {
                                                     "kind": 208,
                                                     "awaitKeyword": {
                                                         "kind": 82196,

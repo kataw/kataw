@@ -41,9 +41,9 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -64,7 +64,7 @@
                                         "start": 3,
                                         "end": 11
                                     },
-                                    "initializer": {
+                                    "right": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
@@ -77,9 +77,9 @@
                                     "end": 15
                                 },
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
@@ -100,7 +100,7 @@
                                         "start": 18,
                                         "end": 26
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 16,
                                     "end": 26
@@ -154,7 +154,7 @@
 
 ```javascript
 
-([, ]) =>  {};
+([[], []]) =>  {};
 ```
 
 ### Diagnostics

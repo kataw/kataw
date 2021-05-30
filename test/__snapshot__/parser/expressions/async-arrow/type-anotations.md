@@ -50,9 +50,9 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
@@ -78,7 +78,7 @@ async (...[x]?: string, a?) => {};
                         "start": 9,
                         "end": 17
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 7,
                     "end": 17
@@ -126,9 +126,9 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
@@ -164,7 +164,7 @@ async (...[x]?: string, a?) => {};
                         "start": 37,
                         "end": 45
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 34,
                     "end": 45
@@ -220,9 +220,9 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
@@ -258,7 +258,7 @@ async (...[x]?: string, a?) => {};
                         "start": 68,
                         "end": 76
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 65,
                     "end": 76
@@ -314,9 +314,9 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
@@ -352,15 +352,15 @@ async (...[x]?: string, a?) => {};
                         "start": 99,
                         "end": 107
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 96,
                     "end": 107
                 },
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -381,7 +381,7 @@ async (...[x]?: string, a?) => {};
                         "start": 110,
                         "end": 118
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 108,
                     "end": 118
@@ -429,9 +429,9 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
@@ -472,7 +472,7 @@ async (...[x]?: string, a?) => {};
                         "start": 139,
                         "end": 147
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 135,
                     "end": 147
@@ -528,9 +528,9 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 119,
                         "elementList": {
                             "kind": 270,
@@ -571,15 +571,15 @@ async (...[x]?: string, a?) => {};
                         "start": 171,
                         "end": 179
                     },
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 167,
                     "end": 179
                 },
                 {
-                    "kind": 215,
+                    "kind": 203,
                     "ellipsisToken": null,
-                    "binding": {
+                    "left": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -594,7 +594,7 @@ async (...[x]?: string, a?) => {};
                         "end": 183
                     },
                     "type": null,
-                    "initializer": null,
+                    "right": null,
                     "flags": 32,
                     "start": 180,
                     "end": 183
@@ -788,9 +788,9 @@ async (...[x]?: string, a?) => {};
                         "end": 274
                     },
                     {
-                        "kind": 215,
+                        "kind": 203,
                         "ellipsisToken": null,
-                        "binding": {
+                        "left": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -805,7 +805,7 @@ async (...[x]?: string, a?) => {};
                             "end": 278
                         },
                         "type": null,
-                        "initializer": null,
+                        "right": null,
                         "flags": 32,
                         "start": 275,
                         "end": 278

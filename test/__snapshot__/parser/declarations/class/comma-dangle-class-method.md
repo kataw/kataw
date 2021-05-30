@@ -64,9 +64,9 @@ class A { foo(a, b,) {} };
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
@@ -76,15 +76,15 @@ class A { foo(a, b,) {} };
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 14,
                                             "end": 15
                                         },
                                         {
-                                            "kind": 215,
+                                            "kind": 203,
                                             "ellipsisToken": null,
-                                            "binding": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
@@ -94,7 +94,7 @@ class A { foo(a, b,) {} };
                                             },
                                             "optionalToken": null,
                                             "type": null,
-                                            "initializer": null,
+                                            "right": null,
                                             "flags": 32,
                                             "start": 16,
                                             "end": 18

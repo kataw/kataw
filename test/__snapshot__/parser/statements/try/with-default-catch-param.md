@@ -58,9 +58,9 @@ try { } catch ([a = 0]) { }
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 244,
+                                "kind": 203,
                                 "ellipsisToken": null,
-                                "binding": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
@@ -70,7 +70,7 @@ try { } catch ([a = 0]) { }
                                 },
                                 "optionalToken": null,
                                 "type": null,
-                                "initializer": {
+                                "right": {
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",

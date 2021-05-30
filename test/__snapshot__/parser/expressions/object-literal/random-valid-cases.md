@@ -994,9 +994,9 @@ a = { y: x = 1 } = b;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -1006,15 +1006,15 @@ a = { y: x = 1 } = b;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 222,
                                                 "end": 223
                                             },
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
@@ -1024,7 +1024,7 @@ a = { y: x = 1 } = b;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 224,
                                                 "end": 226
@@ -2057,9 +2057,9 @@ a = { y: x = 1 } = b;
                                                 "kind": 214,
                                                 "formalParameterList": [
                                                     {
-                                                        "kind": 215,
+                                                        "kind": 203,
                                                         "ellipsisToken": null,
-                                                        "binding": {
+                                                        "left": {
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
@@ -2069,7 +2069,7 @@ a = { y: x = 1 } = b;
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
-                                                        "initializer": null,
+                                                        "right": null,
                                                         "flags": 32,
                                                         "start": 455,
                                                         "end": 456
@@ -3154,9 +3154,9 @@ a = { y: x = 1 } = b;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -3166,7 +3166,7 @@ a = { y: x = 1 } = b;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 720,
                                                 "end": 721
@@ -3374,9 +3374,9 @@ a = { y: x = 1 } = b;
                                                     "kind": 214,
                                                     "formalParameterList": [
                                                         {
-                                                            "kind": 215,
+                                                            "kind": 203,
                                                             "ellipsisToken": null,
-                                                            "binding": {
+                                                            "left": {
                                                                 "kind": 134299649,
                                                                 "text": "v",
                                                                 "rawText": "v",
@@ -3386,7 +3386,7 @@ a = { y: x = 1 } = b;
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
-                                                            "initializer": null,
+                                                            "right": null,
                                                             "flags": 32,
                                                             "start": 773,
                                                             "end": 774
@@ -4011,9 +4011,9 @@ a = { y: x = 1 } = b;
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 215,
+                                                "kind": 203,
                                                 "ellipsisToken": null,
-                                                "binding": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -4023,7 +4023,7 @@ a = { y: x = 1 } = b;
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
-                                                "initializer": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 911,
                                                 "end": 912

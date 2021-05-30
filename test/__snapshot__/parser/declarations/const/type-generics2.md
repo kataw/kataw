@@ -80,9 +80,9 @@ const identity = <T>(t: T): T => t;
                             },
                             "parameters": [
                                 {
-                                    "kind": 215,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "t",
                                         "rawText": "t",
@@ -112,7 +112,7 @@ const identity = <T>(t: T): T => t;
                                         "start": 22,
                                         "end": 25
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 16,
                                     "end": 25

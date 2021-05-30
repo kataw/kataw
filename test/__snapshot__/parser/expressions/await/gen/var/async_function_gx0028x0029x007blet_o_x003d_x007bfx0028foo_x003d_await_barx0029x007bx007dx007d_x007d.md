@@ -199,9 +199,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                     "kind": 214,
                                                                                                     "formalParameterList": [
                                                                                                         {
-                                                                                                            "kind": 215,
+                                                                                                            "kind": 203,
                                                                                                             "ellipsisToken": null,
-                                                                                                            "binding": {
+                                                                                                            "left": {
                                                                                                                 "kind": 134299649,
                                                                                                                 "text": "foo",
                                                                                                                 "rawText": "foo",
@@ -211,7 +211,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                             },
                                                                                                             "optionalToken": null,
                                                                                                             "type": null,
-                                                                                                            "initializer": {
+                                                                                                            "right": {
                                                                                                                 "kind": 134299649,
                                                                                                                 "text": "await",
                                                                                                                 "rawText": "await",
@@ -224,9 +224,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                             "end": 80
                                                                                                         },
                                                                                                         {
-                                                                                                            "kind": 215,
+                                                                                                            "kind": 203,
                                                                                                             "ellipsisToken": null,
-                                                                                                            "binding": {
+                                                                                                            "left": {
                                                                                                                 "kind": 134299649,
                                                                                                                 "text": "bar",
                                                                                                                 "rawText": "bar",
@@ -236,7 +236,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                             },
                                                                                                             "optionalToken": null,
                                                                                                             "type": null,
-                                                                                                            "initializer": null,
+                                                                                                            "right": null,
                                                                                                             "flags": 32,
                                                                                                             "start": 80,
                                                                                                             "end": 84

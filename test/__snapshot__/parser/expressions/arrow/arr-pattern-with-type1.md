@@ -47,9 +47,9 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -70,7 +70,7 @@
                                         "start": 3,
                                         "end": 11
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 11
@@ -128,9 +128,9 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -166,7 +166,7 @@
                                         "start": 28,
                                         "end": 36
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 25,
                                     "end": 36
@@ -224,17 +224,17 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 244,
+                                                    "kind": 203,
                                                     "ellipsisToken": null,
-                                                    "binding": {
+                                                    "left": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -255,7 +255,7 @@
                                                         "start": 52,
                                                         "end": 60
                                                     },
-                                                    "initializer": null,
+                                                    "right": null,
                                                     "flags": 32,
                                                     "start": 51,
                                                     "end": 60
@@ -283,7 +283,7 @@
                                         "start": 61,
                                         "end": 69
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 50,
                                     "end": 69
@@ -341,9 +341,9 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 244,
+                                    "kind": 203,
                                     "ellipsisToken": null,
-                                    "binding": {
+                                    "left": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -379,7 +379,7 @@
                                         "start": 86,
                                         "end": 94
                                     },
-                                    "initializer": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 83,
                                     "end": 94
@@ -433,10 +433,10 @@
 
 ```javascript
 
-([]) =>  {};
-([]) =>  {};
-([]) =>  {};
-([]) =>  {};
+([[]]) =>  {};
+([[]]) =>  {};
+([[]]) =>  {};
+([[]]) =>  {};
 ```
 
 ### Diagnostics
