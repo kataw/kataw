@@ -100,12 +100,12 @@
 
 ```javascript
 
+(b, ) + 1;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected '=>' - start: 9, end: 11
-
+✔ No errors
 ```
 

@@ -129,7 +129,6 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 16, end: 17
-✖ Expected '=>' - start: 16, end: 17
 ✖ Expected a `;` - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 35
 

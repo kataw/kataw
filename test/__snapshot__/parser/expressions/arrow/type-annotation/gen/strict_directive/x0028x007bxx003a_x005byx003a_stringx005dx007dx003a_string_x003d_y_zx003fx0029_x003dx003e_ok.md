@@ -170,7 +170,6 @@
 
 ```javascript
 ✖ ',' expected - start: 21, end: 22
-✖ Expected '=>' - start: 21, end: 22
 ✖ Expected a `;` - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 32

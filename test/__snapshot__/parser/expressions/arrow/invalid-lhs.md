@@ -1063,11 +1063,8 @@ x = (a,b)+c=>{};
 ✖ Expected a `;` - start: 44, end: 46
 ✖ Expected '=>' - start: 60, end: 61
 ✖ Expected a `;` - start: 63, end: 65
-✖ Expected '=>' - start: 77, end: 93
 ✖ Expected a `;` - start: 96, end: 98
-✖ Expected '=>' - start: 109, end: 112
 ✖ Expected a `;` - start: 128, end: 130
-✖ Expected '=>' - start: 146, end: 149
 ✖ Expected a `;` - start: 165, end: 167
 ✖ Expression expected - start: 172, end: 188
 ✖ Expected a `;` - start: 204, end: 206

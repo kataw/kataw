@@ -6079,9 +6079,7 @@ try {} catch(e) { for(var e of 0); };
 ```javascript
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 88, end: 89
 ✖ Expected '=>' - start: 319, end: 320
-✖ Expected '=>' - start: 330, end: 331
 ✖ Expected '=>' - start: 525, end: 526
-✖ Expected '=>' - start: 540, end: 541
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 659, end: 661
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779

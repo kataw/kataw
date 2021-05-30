@@ -230,7 +230,6 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 16, end: 17
-✖ Expected '=>' - start: 16, end: 17
 ✖ Expected a `;` - start: 28, end: 29
 ✖ Identifier expected - start: 37, end: 41
 ✖ ',' expected - start: 43, end: 44

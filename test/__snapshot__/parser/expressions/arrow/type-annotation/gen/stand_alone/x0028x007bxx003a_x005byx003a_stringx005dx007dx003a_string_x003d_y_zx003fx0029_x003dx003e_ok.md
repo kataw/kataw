@@ -161,7 +161,6 @@
 
 ```javascript
 ✖ ',' expected - start: 7, end: 8
-✖ Expected '=>' - start: 7, end: 8
 ✖ Expected a `;` - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 17
 ✖ Declaration or statement expected - start: 17, end: 18

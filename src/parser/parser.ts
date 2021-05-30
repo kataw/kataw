@@ -4761,16 +4761,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     }
   }
 
-  if (state === Tristate.True) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Expected],
-      parser.curPos,
-      parser.pos
-    );
-  }
-
   expression = createCommaOperator(expressions, curPos, parser.curPos);
 
   if (destructible & DestructibleKind.MustDestruct) {
