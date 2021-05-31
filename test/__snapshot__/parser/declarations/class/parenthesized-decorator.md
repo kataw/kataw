@@ -172,20 +172,10 @@ class Foo {
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "expression",
-                                                            "rawText": "expression",
-                                                            "flags": 96,
-                                                            "start": 36,
-                                                            "end": 46
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "expression",
+                                                        "rawText": "expression",
+                                                        "flags": 96,
                                                         "start": 36,
                                                         "end": 46
                                                     }

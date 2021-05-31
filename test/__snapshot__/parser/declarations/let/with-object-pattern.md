@@ -34,42 +34,32 @@ let [{a}] = 0
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 212,
-                                            "propertyList": {
-                                                "kind": 213,
-                                                "properties": [
-                                                    {
-                                                        "kind": 222,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 6,
-                                                            "end": 7
-                                                        },
-                                                        "right": null,
-                                                        "flags": 32,
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 222,
+                                                    "ellipsisToken": null,
+                                                    "left": {
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
                                                         "start": 6,
                                                         "end": 7
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "start": 6,
-                                                "end": 7
-                                            },
+                                                    },
+                                                    "right": null,
+                                                    "flags": 32,
+                                                    "start": 6,
+                                                    "end": 7
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 32,
-                                            "start": 5,
-                                            "end": 8
+                                            "start": 6,
+                                            "end": 7
                                         },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 8

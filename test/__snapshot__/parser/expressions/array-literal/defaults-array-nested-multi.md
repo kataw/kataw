@@ -79,44 +79,24 @@ var [x = 10, [ z ]] = a;
                                         "end": 11
                                     },
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 201,
-                                            "elementList": {
-                                                "kind": 202,
-                                                "elements": [
-                                                    {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "z",
-                                                            "rawText": "z",
-                                                            "flags": 96,
-                                                            "start": 14,
-                                                            "end": 16
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 32,
-                                                        "start": 14,
-                                                        "end": 16
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 0,
-                                                "start": 14,
-                                                "end": 16
-                                            },
-                                            "flags": 32,
-                                            "start": 12,
-                                            "end": 18
+                                        "kind": 201,
+                                        "elementList": {
+                                            "kind": 202,
+                                            "elements": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "z",
+                                                    "rawText": "z",
+                                                    "flags": 96,
+                                                    "start": 14,
+                                                    "end": 16
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 14,
+                                            "end": 16
                                         },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 18

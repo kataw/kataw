@@ -1258,38 +1258,18 @@ try {} catch({ x: "str" }) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
-                                    "start": 335,
-                                    "end": 340
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
                                 "start": 335,
                                 "end": 340
                             },
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 340,
-                                    "end": 342
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
                                 "start": 340,
                                 "end": 342
                             }
@@ -1733,38 +1713,18 @@ try {} catch({ x: "str" }) {}
                                     "kind": 202,
                                     "elements": [
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 461,
-                                                "end": 462
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
                                             "start": 461,
                                             "end": 462
                                         },
                                         {
-                                            "kind": 203,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 463,
-                                                "end": 465
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
                                             "start": 463,
                                             "end": 465
                                         }
@@ -2854,38 +2814,18 @@ try {} catch({ x: "str" }) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
-                                    "start": 796,
-                                    "end": 801
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
                                 "start": 796,
                                 "end": 801
                             },
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 801,
-                                    "end": 803
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
                                 "start": 801,
                                 "end": 803
                             }

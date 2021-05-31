@@ -3894,20 +3894,10 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 202,
                                                                         "elements": [
                                                                             {
-                                                                                "kind": 203,
-                                                                                "ellipsisToken": null,
-                                                                                "left": {
-                                                                                    "kind": 134299649,
-                                                                                    "text": "yield",
-                                                                                    "rawText": "yield",
-                                                                                    "flags": 96,
-                                                                                    "start": 2076,
-                                                                                    "end": 2081
-                                                                                },
-                                                                                "optionalToken": null,
-                                                                                "type": null,
-                                                                                "right": null,
-                                                                                "flags": 32,
+                                                                                "kind": 134299649,
+                                                                                "text": "yield",
+                                                                                "rawText": "yield",
+                                                                                "flags": 96,
                                                                                 "start": 2076,
                                                                                 "end": 2081
                                                                             }
@@ -4045,20 +4035,10 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 202,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 203,
-                                                                        "ellipsisToken": null,
-                                                                        "left": {
-                                                                            "kind": 134299649,
-                                                                            "text": "await",
-                                                                            "rawText": "await",
-                                                                            "flags": 96,
-                                                                            "start": 2121,
-                                                                            "end": 2126
-                                                                        },
-                                                                        "optionalToken": null,
-                                                                        "type": null,
-                                                                        "right": null,
-                                                                        "flags": 32,
+                                                                        "kind": 134299649,
+                                                                        "text": "await",
+                                                                        "rawText": "await",
+                                                                        "flags": 96,
                                                                         "start": 2121,
                                                                         "end": 2126
                                                                     }
@@ -5112,20 +5092,10 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 202,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 203,
-                                                                        "ellipsisToken": null,
-                                                                        "left": {
-                                                                            "kind": 134299649,
-                                                                            "text": "yield",
-                                                                            "rawText": "yield",
-                                                                            "flags": 96,
-                                                                            "start": 2509,
-                                                                            "end": 2514
-                                                                        },
-                                                                        "optionalToken": null,
-                                                                        "type": null,
-                                                                        "right": null,
-                                                                        "flags": 32,
+                                                                        "kind": 134299649,
+                                                                        "text": "yield",
+                                                                        "rawText": "yield",
+                                                                        "flags": 96,
                                                                         "start": 2509,
                                                                         "end": 2514
                                                                     }
@@ -5291,20 +5261,10 @@ async function * gen() {class C extends await { }}
                                                 "kind": 202,
                                                 "elements": [
                                                     {
-                                                        "kind": 203,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "await",
-                                                            "rawText": "await",
-                                                            "flags": 96,
-                                                            "start": 2557,
-                                                            "end": 2562
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "await",
+                                                        "rawText": "await",
+                                                        "flags": 96,
                                                         "start": 2557,
                                                         "end": 2562
                                                     }

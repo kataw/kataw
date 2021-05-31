@@ -5013,17 +5013,25 @@ function parseBindingElement(
   const pos = parser.curPos;
   if (parser.token === SyntaxKind.Comma) return createElison(pos, pos);
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-
-  return createBindingElement(
-    ellipsisToken,
-    parseIdentifierOrPattern(parser, context, scope, type),
-    consumeOptToken(parser, context, SyntaxKind.QuestionMark),
-    parseTypeAnnotation(parser, context),
-    parseInitializer(parser, context, ellipsisToken ? true : false),
-    NodeFlags.ExpressionNode,
-    pos,
-    parser.curPos
-  );
+  const left = parseIdentifierOrPattern(parser, context, scope, type);
+  if (
+    ellipsisToken ||
+    parser.token === SyntaxKind.QuestionMark ||
+    parser.token === SyntaxKind.Colon ||
+    parser.token === SyntaxKind.Assign
+  ) {
+    return createBindingElement(
+      ellipsisToken,
+      left,
+      consumeOptToken(parser, context, SyntaxKind.QuestionMark),
+      parseTypeAnnotation(parser, context),
+      parseInitializer(parser, context, ellipsisToken ? true : false),
+      NodeFlags.ExpressionNode,
+      pos,
+      parser.curPos
+    );
+  }
+  return left;
 }
 
 // ObjectBindingPattern :

@@ -53,25 +53,15 @@ let [[]]=0
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 201,
-                                            "elementList": {
-                                                "kind": 202,
-                                                "elements": [],
-                                                "trailingComma": false,
-                                                "flags": 0,
-                                                "start": 6,
-                                                "end": 6
-                                            },
-                                            "flags": 32,
-                                            "start": 5,
-                                            "end": 7
+                                        "kind": 201,
+                                        "elementList": {
+                                            "kind": 202,
+                                            "elements": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 6,
+                                            "end": 6
                                         },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 7

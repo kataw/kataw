@@ -49,38 +49,18 @@ async function a(options = {}) {
                             "kind": 202,
                             "elements": [
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "option1",
-                                        "rawText": "option1",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 20
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "option1",
+                                    "rawText": "option1",
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 20
                                 },
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "option2",
-                                        "rawText": "option2",
-                                        "flags": 96,
-                                        "start": 21,
-                                        "end": 29
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "option2",
+                                    "rawText": "option2",
+                                    "flags": 96,
                                     "start": 21,
                                     "end": 29
                                 }

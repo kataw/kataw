@@ -38,74 +38,64 @@ var [{__proto__:a, __proto__:b}] = 0;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 212,
-                                            "propertyList": {
-                                                "kind": 213,
-                                                "properties": [
-                                                    {
-                                                        "kind": 204,
-                                                        "ellipsisToken": null,
-                                                        "key": {
-                                                            "kind": 134299649,
-                                                            "text": "__proto__",
-                                                            "rawText": "__proto__",
-                                                            "flags": 96,
-                                                            "start": 6,
-                                                            "end": 15
-                                                        },
-                                                        "value": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 16,
-                                                            "end": 17
-                                                        },
-                                                        "initializer": null,
-                                                        "flags": 32,
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 204,
+                                                    "ellipsisToken": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "__proto__",
+                                                        "rawText": "__proto__",
+                                                        "flags": 96,
                                                         "start": 6,
+                                                        "end": 15
+                                                    },
+                                                    "value": {
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
+                                                        "start": 16,
                                                         "end": 17
                                                     },
-                                                    {
-                                                        "kind": 204,
-                                                        "ellipsisToken": null,
-                                                        "key": {
-                                                            "kind": 134299649,
-                                                            "text": "__proto__",
-                                                            "rawText": "__proto__",
-                                                            "flags": 96,
-                                                            "start": 18,
-                                                            "end": 28
-                                                        },
-                                                        "value": {
-                                                            "kind": 134299649,
-                                                            "text": "b",
-                                                            "rawText": "b",
-                                                            "flags": 96,
-                                                            "start": 29,
-                                                            "end": 30
-                                                        },
-                                                        "initializer": null,
-                                                        "flags": 32,
+                                                    "initializer": null,
+                                                    "flags": 32,
+                                                    "start": 6,
+                                                    "end": 17
+                                                },
+                                                {
+                                                    "kind": 204,
+                                                    "ellipsisToken": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "__proto__",
+                                                        "rawText": "__proto__",
+                                                        "flags": 96,
                                                         "start": 18,
+                                                        "end": 28
+                                                    },
+                                                    "value": {
+                                                        "kind": 134299649,
+                                                        "text": "b",
+                                                        "rawText": "b",
+                                                        "flags": 96,
+                                                        "start": 29,
                                                         "end": 30
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "start": 6,
-                                                "end": 30
-                                            },
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
+                                                    "start": 18,
+                                                    "end": 30
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 32,
-                                            "start": 5,
-                                            "end": 31
+                                            "start": 6,
+                                            "end": 30
                                         },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
                                         "flags": 32,
                                         "start": 5,
                                         "end": 31

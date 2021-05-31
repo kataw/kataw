@@ -6648,20 +6648,10 @@ for ({}.bar = x in obj);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "let",
-                                            "rawText": "let",
-                                            "flags": 96,
-                                            "start": 1815,
-                                            "end": 1818
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "let",
+                                        "rawText": "let",
+                                        "flags": 96,
                                         "start": 1815,
                                         "end": 1818
                                     }
@@ -6730,20 +6720,10 @@ for ({}.bar = x in obj);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "let",
-                                            "rawText": "let",
-                                            "flags": 96,
-                                            "start": 1842,
-                                            "end": 1845
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "let",
+                                        "rawText": "let",
+                                        "flags": 96,
                                         "start": 1842,
                                         "end": 1845
                                     }

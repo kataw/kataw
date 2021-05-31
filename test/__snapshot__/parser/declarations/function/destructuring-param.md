@@ -43,38 +43,18 @@ function a([a, b, ...[ok]]) {};
                             "kind": 202,
                             "elements": [
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 13
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 13
                                 },
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 14,
-                                        "end": 16
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -92,20 +72,10 @@ function a([a, b, ...[ok]]) {};
                                             "kind": 202,
                                             "elements": [
                                                 {
-                                                    "kind": 203,
-                                                    "ellipsisToken": null,
-                                                    "left": {
-                                                        "kind": 134299649,
-                                                        "text": "ok",
-                                                        "rawText": "ok",
-                                                        "flags": 96,
-                                                        "start": 22,
-                                                        "end": 24
-                                                    },
-                                                    "optionalToken": null,
-                                                    "type": null,
-                                                    "right": null,
-                                                    "flags": 32,
+                                                    "kind": 134299649,
+                                                    "text": "ok",
+                                                    "rawText": "ok",
+                                                    "flags": 96,
                                                     "start": 22,
                                                     "end": 24
                                                 }

@@ -728,20 +728,10 @@ a = b => { let b; };
                                                                                             "kind": 202,
                                                                                             "elements": [
                                                                                                 {
-                                                                                                    "kind": 203,
-                                                                                                    "ellipsisToken": null,
-                                                                                                    "left": {
-                                                                                                        "kind": 134299649,
-                                                                                                        "text": "a",
-                                                                                                        "rawText": "a",
-                                                                                                        "flags": 96,
-                                                                                                        "start": 169,
-                                                                                                        "end": 170
-                                                                                                    },
-                                                                                                    "optionalToken": null,
-                                                                                                    "type": null,
-                                                                                                    "right": null,
-                                                                                                    "flags": 32,
+                                                                                                    "kind": 134299649,
+                                                                                                    "text": "a",
+                                                                                                    "rawText": "a",
+                                                                                                    "flags": 96,
                                                                                                     "start": 169,
                                                                                                     "end": 170
                                                                                                 }
@@ -954,20 +944,10 @@ a = b => { let b; };
                                                                                                 "kind": 202,
                                                                                                 "elements": [
                                                                                                     {
-                                                                                                        "kind": 203,
-                                                                                                        "ellipsisToken": null,
-                                                                                                        "left": {
-                                                                                                            "kind": 134299649,
-                                                                                                            "text": "a",
-                                                                                                            "rawText": "a",
-                                                                                                            "flags": 96,
-                                                                                                            "start": 214,
-                                                                                                            "end": 215
-                                                                                                        },
-                                                                                                        "optionalToken": null,
-                                                                                                        "type": null,
-                                                                                                        "right": null,
-                                                                                                        "flags": 32,
+                                                                                                        "kind": 134299649,
+                                                                                                        "text": "a",
+                                                                                                        "rawText": "a",
+                                                                                                        "flags": 96,
                                                                                                         "start": 214,
                                                                                                         "end": 215
                                                                                                     }

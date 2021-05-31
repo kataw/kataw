@@ -51,20 +51,10 @@ catch ([v] = b) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 203,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "v",
-                                    "rawText": "v",
-                                    "flags": 96,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "v",
+                                "rawText": "v",
+                                "flags": 96,
                                 "start": 15,
                                 "end": 16
                             }

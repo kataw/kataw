@@ -46,20 +46,10 @@ function fn3([a,, b,]) {}
                             "kind": 202,
                             "elements": [
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 14,
-                                        "end": 15
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -70,20 +60,10 @@ function fn3([a,, b,]) {}
                                     "end": 16
                                 },
                                 {
-                                    "kind": 203,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 17,
-                                        "end": 19
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
                                     "start": 17,
                                     "end": 19
                                 }
