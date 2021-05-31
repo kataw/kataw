@@ -34,6 +34,7 @@
                                         "kind": 121,
                                         "expression": {
                                             "kind": 132,
+                                            "expressions": [],
                                             "flags": 32,
                                             "start": 2,
                                             "end": 5

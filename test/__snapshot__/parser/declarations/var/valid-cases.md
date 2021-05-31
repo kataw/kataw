@@ -785,9 +785,9 @@ var {get} = obj;
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -795,7 +795,7 @@ var {get} = obj;
                                                     "start": 191,
                                                     "end": 192
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
@@ -823,6 +823,7 @@ var {get} = obj;
                                                     "start": 191,
                                                     "end": 200
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 191,
                                                 "end": 200
@@ -843,9 +844,9 @@ var {get} = obj;
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
@@ -853,7 +854,7 @@ var {get} = obj;
                                                     "start": 204,
                                                     "end": 205
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
@@ -907,6 +908,7 @@ var {get} = obj;
                                                     "start": 204,
                                                     "end": 215
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 204,
                                                 "end": 215
@@ -995,9 +997,9 @@ var {get} = obj;
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -1005,7 +1007,7 @@ var {get} = obj;
                                                     "start": 235,
                                                     "end": 236
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
@@ -1059,6 +1061,7 @@ var {get} = obj;
                                                     "start": 235,
                                                     "end": 252
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 235,
                                                 "end": 252

@@ -1484,9 +1484,9 @@ a = b => { let b; };
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
@@ -1494,7 +1494,7 @@ a = b => { let b; };
                                         "start": 350,
                                         "end": 351
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -1502,6 +1502,7 @@ a = b => { let b; };
                                         "start": 352,
                                         "end": 354
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 350,
                                     "end": 354
@@ -1774,9 +1775,9 @@ a = b => { let b; };
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
@@ -1784,7 +1785,7 @@ a = b => { let b; };
                                         "start": 420,
                                         "end": 421
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -1792,6 +1793,7 @@ a = b => { let b; };
                                         "start": 422,
                                         "end": 424
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 420,
                                     "end": 424
@@ -1866,9 +1868,9 @@ a = b => { let b; };
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 201392131,
                                         "text": "x",
                                         "rawText": "\"x\"",
@@ -1876,7 +1878,7 @@ a = b => { let b; };
                                         "start": 442,
                                         "end": 445
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
@@ -1884,14 +1886,15 @@ a = b => { let b; };
                                         "start": 446,
                                         "end": 448
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 442,
                                     "end": 448
                                 },
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -1899,7 +1902,7 @@ a = b => { let b; };
                                         "start": 449,
                                         "end": 451
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
@@ -1927,6 +1930,7 @@ a = b => { let b; };
                                         "start": 449,
                                         "end": 458
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 449,
                                     "end": 458

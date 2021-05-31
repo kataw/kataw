@@ -65,14 +65,14 @@ var foo = ( { title, ...other } ) => {
                                                 "end": 19
                                             },
                                             {
-                                                "kind": 224,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 20,
                                                     "end": 24
                                                 },
-                                                "argument": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "other",
                                                     "rawText": "other",
@@ -80,6 +80,9 @@ var foo = ( { title, ...other } ) => {
                                                     "start": 24,
                                                     "end": 29
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 20,
                                                 "end": 29

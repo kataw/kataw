@@ -1434,9 +1434,9 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -1444,7 +1444,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 386,
                                                     "end": 388
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 220,
                                                     "propertyList": {
                                                         "kind": 218,
@@ -1467,6 +1467,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 389,
                                                     "end": 395
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 386,
                                                 "end": 395

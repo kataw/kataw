@@ -60,9 +60,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "e",
                                         "rawText": "e",
@@ -70,7 +70,7 @@
                                         "start": 2,
                                         "end": 3
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 129,
                                         "member": {
                                             "kind": 134299649,
@@ -92,6 +92,7 @@
                                         "start": 2,
                                         "end": 8
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 8
@@ -210,19 +211,22 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 224,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 35,
                                         "end": 38
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 4276321,
                                         "flags": 96,
                                         "start": 38,
                                         "end": 42
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 42
@@ -348,19 +352,22 @@
                                     "end": 74
                                 },
                                 {
-                                    "kind": 224,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 75,
                                         "end": 79
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 4276321,
                                         "flags": 96,
                                         "start": 79,
                                         "end": 83
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 75,
                                     "end": 83
@@ -486,9 +493,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -496,7 +503,7 @@
                                         "start": 117,
                                         "end": 118
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
@@ -518,6 +525,7 @@
                                         "start": 117,
                                         "end": 123
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 117,
                                     "end": 123
@@ -577,9 +585,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "e",
                                         "rawText": "e",
@@ -587,7 +595,7 @@
                                         "start": 138,
                                         "end": 139
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 129,
                                         "member": {
                                             "kind": 134299649,
@@ -609,6 +617,7 @@
                                         "start": 138,
                                         "end": 144
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 138,
                                     "end": 144
@@ -743,19 +752,22 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 224,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 177,
                                         "end": 180
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 4276321,
                                         "flags": 96,
                                         "start": 180,
                                         "end": 184
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 177,
                                     "end": 184
@@ -897,19 +909,22 @@
                                     "end": 222
                                 },
                                 {
-                                    "kind": 224,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 223,
                                         "end": 227
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 4276321,
                                         "flags": 96,
                                         "start": 227,
                                         "end": 231
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 223,
                                     "end": 231
@@ -1051,9 +1066,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -1061,7 +1076,7 @@
                                         "start": 271,
                                         "end": 272
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
@@ -1083,6 +1098,7 @@
                                         "start": 271,
                                         "end": 277
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 271,
                                     "end": 277

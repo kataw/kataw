@@ -2511,9 +2511,9 @@ foo((x, y) => {});
                                     "end": 619
                                 },
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -2521,7 +2521,7 @@ foo((x, y) => {});
                                         "start": 620,
                                         "end": 621
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
@@ -2529,14 +2529,15 @@ foo((x, y) => {});
                                         "start": 622,
                                         "end": 623
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 620,
                                     "end": 623
                                 },
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 194,
                                         "expression": {
                                             "kind": 134299649,
@@ -2550,7 +2551,7 @@ foo((x, y) => {});
                                         "start": 624,
                                         "end": 627
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -2573,6 +2574,7 @@ foo((x, y) => {});
                                         "start": 628,
                                         "end": 631
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 624,
                                     "end": 631

@@ -38,9 +38,9 @@
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -48,7 +48,7 @@
                                                     "start": 3,
                                                     "end": 4
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
@@ -70,6 +70,7 @@
                                                     "start": 3,
                                                     "end": 9
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 3,
                                                 "end": 9

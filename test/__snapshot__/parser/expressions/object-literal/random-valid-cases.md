@@ -1375,9 +1375,9 @@ a = { y: x = 1 } = b;
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 201392131,
                                         "text": "x",
                                         "rawText": "\"x\"",
@@ -1385,7 +1385,7 @@ a = { y: x = 1 } = b;
                                         "start": 296,
                                         "end": 299
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -1408,6 +1408,7 @@ a = { y: x = 1 } = b;
                                         "start": 300,
                                         "end": 304
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 296,
                                     "end": 304

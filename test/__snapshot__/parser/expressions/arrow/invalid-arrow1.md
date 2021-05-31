@@ -83,9 +83,9 @@ y = (x => {}(0));
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -93,7 +93,7 @@ y = (x => {}(0));
                                         "start": 2,
                                         "end": 3
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
@@ -115,6 +115,7 @@ y = (x => {}(0));
                                         "start": 2,
                                         "end": 8
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 8
@@ -174,9 +175,9 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 219,
-                                                    "generatorToken": null,
-                                                    "left": {
+                                                    "kind": 204,
+                                                    "ellipsisToken": null,
+                                                    "key": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -184,7 +185,7 @@ y = (x => {}(0));
                                                         "start": 21,
                                                         "end": 22
                                                     },
-                                                    "right": {
+                                                    "value": {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 134299649,
@@ -206,6 +207,7 @@ y = (x => {}(0));
                                                         "start": 21,
                                                         "end": 27
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 21,
                                                     "end": 27
@@ -285,9 +287,9 @@ y = (x => {}(0));
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -295,7 +297,7 @@ y = (x => {}(0));
                                                     "start": 45,
                                                     "end": 46
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
@@ -317,6 +319,7 @@ y = (x => {}(0));
                                                     "start": 45,
                                                     "end": 51
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 45,
                                                 "end": 51
@@ -385,9 +388,9 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 219,
-                                                    "generatorToken": null,
-                                                    "left": {
+                                                    "kind": 204,
+                                                    "ellipsisToken": null,
+                                                    "key": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -395,7 +398,7 @@ y = (x => {}(0));
                                                         "start": 65,
                                                         "end": 66
                                                     },
-                                                    "right": {
+                                                    "value": {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 134299649,
@@ -417,6 +420,7 @@ y = (x => {}(0));
                                                         "start": 65,
                                                         "end": 71
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 65,
                                                     "end": 71
@@ -499,9 +503,9 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 219,
-                                                    "generatorToken": null,
-                                                    "left": {
+                                                    "kind": 204,
+                                                    "ellipsisToken": null,
+                                                    "key": {
                                                         "kind": 201392131,
                                                         "text": "foo",
                                                         "rawText": "\"foo\"",
@@ -509,7 +513,7 @@ y = (x => {}(0));
                                                         "start": 89,
                                                         "end": 94
                                                     },
-                                                    "right": {
+                                                    "value": {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 134299649,
@@ -531,6 +535,7 @@ y = (x => {}(0));
                                                         "start": 89,
                                                         "end": 99
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 89,
                                                     "end": 99
@@ -608,9 +613,9 @@ y = (x => {}(0));
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 219,
-                                        "generatorToken": null,
-                                        "left": {
+                                        "kind": 204,
+                                        "ellipsisToken": null,
+                                        "key": {
                                             "kind": 201392131,
                                             "text": "foo",
                                             "rawText": "\"foo\"",
@@ -618,7 +623,7 @@ y = (x => {}(0));
                                             "start": 116,
                                             "end": 121
                                         },
-                                        "right": {
+                                        "value": {
                                             "kind": 129,
                                             "member": {
                                                 "kind": 134299649,
@@ -640,6 +645,7 @@ y = (x => {}(0));
                                             "start": 116,
                                             "end": 126
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 116,
                                         "end": 126
@@ -710,9 +716,9 @@ y = (x => {}(0));
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 201392131,
                                                     "text": "foo",
                                                     "rawText": "\"foo\"",
@@ -720,7 +726,7 @@ y = (x => {}(0));
                                                     "start": 143,
                                                     "end": 148
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
@@ -742,6 +748,7 @@ y = (x => {}(0));
                                                     "start": 143,
                                                     "end": 153
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 143,
                                                 "end": 153
@@ -810,9 +817,9 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 219,
-                                                    "generatorToken": null,
-                                                    "left": {
+                                                    "kind": 204,
+                                                    "ellipsisToken": null,
+                                                    "key": {
                                                         "kind": 201392131,
                                                         "text": "foo",
                                                         "rawText": "\"foo\"",
@@ -820,7 +827,7 @@ y = (x => {}(0));
                                                         "start": 167,
                                                         "end": 172
                                                     },
-                                                    "right": {
+                                                    "value": {
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 134299649,
@@ -842,6 +849,7 @@ y = (x => {}(0));
                                                         "start": 167,
                                                         "end": 177
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 167,
                                                     "end": 177

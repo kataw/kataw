@@ -311,9 +311,9 @@ const { async = true } = x;
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 219,
-                                                "generatorToken": null,
-                                                "left": {
+                                                "kind": 204,
+                                                "ellipsisToken": null,
+                                                "key": {
                                                     "kind": 134299649,
                                                     "text": "async",
                                                     "rawText": "async",
@@ -321,7 +321,7 @@ const { async = true } = x;
                                                     "start": 100,
                                                     "end": 106
                                                 },
-                                                "right": {
+                                                "value": {
                                                     "kind": 134299649,
                                                     "text": "bar",
                                                     "rawText": "bar",
@@ -329,6 +329,7 @@ const { async = true } = x;
                                                     "start": 107,
                                                     "end": 111
                                                 },
+                                                "initializer": null,
                                                 "flags": 32,
                                                 "start": 100,
                                                 "end": 111

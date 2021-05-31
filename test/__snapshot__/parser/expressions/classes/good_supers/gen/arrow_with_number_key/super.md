@@ -120,9 +120,9 @@ class x extends y {
                                                                 "kind": 213,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 219,
-                                                                        "generatorToken": null,
-                                                                        "left": {
+                                                                        "kind": 204,
+                                                                        "ellipsisToken": null,
+                                                                        "key": {
                                                                             "kind": 201392130,
                                                                             "text": 123,
                                                                             "rawText": "123",
@@ -130,7 +130,7 @@ class x extends y {
                                                                             "start": 44,
                                                                             "end": 47
                                                                         },
-                                                                        "right": {
+                                                                        "value": {
                                                                             "kind": 129,
                                                                             "member": {
                                                                                 "kind": 225,
@@ -155,6 +155,7 @@ class x extends y {
                                                                             "start": 48,
                                                                             "end": 54
                                                                         },
+                                                                        "initializer": null,
                                                                         "flags": 32,
                                                                         "start": 44,
                                                                         "end": 54

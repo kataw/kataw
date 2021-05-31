@@ -55,9 +55,9 @@
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 219,
-                                        "generatorToken": null,
-                                        "left": {
+                                        "kind": 204,
+                                        "ellipsisToken": null,
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "async",
                                             "rawText": "async",
@@ -65,7 +65,7 @@
                                             "start": 18,
                                             "end": 24
                                         },
-                                        "right": {
+                                        "value": {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
@@ -73,6 +73,7 @@
                                             "start": 25,
                                             "end": 29
                                         },
+                                        "initializer": null,
                                         "flags": 32,
                                         "start": 18,
                                         "end": 29

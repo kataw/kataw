@@ -33,15 +33,15 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 224,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 2,
                                         "end": 5
                                     },
-                                    "argument": {
-                                        "kind": 119,
+                                    "left": {
+                                        "kind": 201,
                                         "elementList": {
                                             "kind": 270,
                                             "elements": [
@@ -60,9 +60,11 @@
                                             "end": 7
                                         },
                                         "flags": 32,
-                                        "start": 5,
-                                        "end": 8
+                                        "start": 5
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 8

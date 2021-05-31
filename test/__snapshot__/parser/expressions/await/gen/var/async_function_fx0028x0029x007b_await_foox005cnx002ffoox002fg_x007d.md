@@ -84,6 +84,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
+                                "expressions": [],
                                 "flags": 32,
                                 "start": 18,
                                 "end": 68

@@ -31,9 +31,9 @@ async ({ident: {x}}) => x
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 219,
-                                "generatorToken": null,
-                                "left": {
+                                "kind": 204,
+                                "ellipsisToken": null,
+                                "key": {
                                     "kind": 134299649,
                                     "text": "ident",
                                     "rawText": "ident",
@@ -41,7 +41,7 @@ async ({ident: {x}}) => x
                                     "start": 8,
                                     "end": 13
                                 },
-                                "right": {
+                                "value": {
                                     "kind": 220,
                                     "propertyList": {
                                         "kind": 218,
@@ -64,6 +64,7 @@ async ({ident: {x}}) => x
                                     "start": 14,
                                     "end": 18
                                 },
+                                "initializer": null,
                                 "flags": 32,
                                 "start": 8,
                                 "end": 18

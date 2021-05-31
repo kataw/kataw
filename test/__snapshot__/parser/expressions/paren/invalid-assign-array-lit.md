@@ -564,6 +564,7 @@
                 "kind": 121,
                 "expression": {
                     "kind": 132,
+                    "expressions": [],
                     "flags": 32,
                     "start": 108,
                     "end": 118
@@ -588,6 +589,7 @@
                 "kind": 121,
                 "expression": {
                     "kind": 132,
+                    "expressions": [],
                     "flags": 32,
                     "start": 121,
                     "end": 130

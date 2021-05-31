@@ -706,9 +706,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -716,7 +716,7 @@
                                         "start": 276,
                                         "end": 277
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
@@ -724,6 +724,7 @@
                                         "start": 278,
                                         "end": 284
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 276,
                                     "end": 284

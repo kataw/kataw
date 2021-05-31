@@ -37,9 +37,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "ident",
                                         "rawText": "ident",
@@ -47,7 +47,7 @@
                                         "start": 2,
                                         "end": 7
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -85,6 +85,7 @@
                                         "start": 8,
                                         "end": 15
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 15
@@ -136,9 +137,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "ident",
                                         "rawText": "ident",
@@ -146,7 +147,7 @@
                                         "start": 27,
                                         "end": 32
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -169,6 +170,7 @@
                                         "start": 33,
                                         "end": 37
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 27,
                                     "end": 37

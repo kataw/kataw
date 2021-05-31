@@ -41,15 +41,16 @@
                                     "end": 3
                                 },
                                 {
-                                    "kind": 224,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 4,
                                         "end": 8
                                     },
-                                    "argument": {
-                                        "kind": 125,
+                                    "left": {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -58,12 +59,8 @@
                                             "start": 8,
                                             "end": 9
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 9,
-                                            "end": 11
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 0,
@@ -76,6 +73,9 @@
                                         "start": 8,
                                         "end": 13
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 4,
                                     "end": 13

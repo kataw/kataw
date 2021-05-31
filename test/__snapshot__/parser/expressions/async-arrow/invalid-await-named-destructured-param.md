@@ -39,9 +39,9 @@ async ({a: await}) => 1;
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 219,
-                                "generatorToken": null,
-                                "left": {
+                                "kind": 204,
+                                "ellipsisToken": null,
+                                "key": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
@@ -49,7 +49,7 @@ async ({a: await}) => 1;
                                     "start": 8,
                                     "end": 9
                                 },
-                                "right": {
+                                "value": {
                                     "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",
@@ -57,6 +57,7 @@ async ({a: await}) => 1;
                                     "start": 10,
                                     "end": 16
                                 },
+                                "initializer": null,
                                 "flags": 32,
                                 "start": 8,
                                 "end": 16

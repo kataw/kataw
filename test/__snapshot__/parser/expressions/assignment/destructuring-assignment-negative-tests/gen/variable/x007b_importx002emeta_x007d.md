@@ -96,6 +96,7 @@ var x, y, z; ({ import.meta } = {});
                 "kind": 121,
                 "expression": {
                     "kind": 132,
+                    "expressions": [],
                     "flags": 32,
                     "start": 12,
                     "end": 27

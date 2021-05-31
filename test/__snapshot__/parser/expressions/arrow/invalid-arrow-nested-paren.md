@@ -123,9 +123,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 194,
                                         "expression": {
                                             "kind": 134299649,
@@ -139,7 +139,7 @@
                                         "start": 23,
                                         "end": 28
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 131,
                                         "expression": {
                                             "kind": 134299649,
@@ -161,6 +161,7 @@
                                         "start": 23,
                                         "end": 35
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 23,
                                     "end": 35

@@ -4027,10 +4027,6 @@ function parseSpreadElement(parser: ParserState, context: Context): SpreadElemen
 
 export function convertArrowParameter(parser: ParserState, node: any): any {
   switch (node.kind) {
-    case SyntaxKind.Elison:
-    case SyntaxKind.Identifier:
-    case SyntaxKind.BindingElement:
-      return node;
     case SyntaxKind.ArrayLiteral:
       return createArrayBindingPattern(
         convertArrowParameter(parser, node.elementList),
@@ -4053,6 +4049,17 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.end
       );
     case SyntaxKind.AssignmentExpression:
+      if (node.operatorToken.kind !== SyntaxKind.Assign) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[
+            DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+          ],
+          node.start,
+          node.end
+        );
+      }
       return createBindingElement(
         /* ellipsisToken */ null,
         convertArrowParameter(parser, node.left),
@@ -4091,6 +4098,26 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.end
       );
     }
+    case SyntaxKind.PropertyDefinition:
+      return createBindingProperty(
+        /* optionalToken */ null,
+        convertArrowParameter(parser, node.left),
+        node.right,
+        /* initializer */ null,
+        node.start,
+        node.end
+      );
+    case SyntaxKind.SpreadProperty:
+      return createBindingElement(
+        node.ellipsisToken,
+        convertArrowParameter(parser, node.argument),
+        /* optionalToken */ null,
+        /* type */ null,
+        /* left */ null,
+        node.flags,
+        node.start,
+        node.end
+      );
     case SyntaxKind.SpreadElement:
       return createBindingElement(
         node.ellipsisToken,
@@ -4588,7 +4615,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     return createParenthesizedExpression(expression, curPos, parser.curPos);
   }
 
-  let expressions: any;
+  let expressions: any = [];
 
   // 12.16 Comma Operator
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
@@ -4915,15 +4942,13 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parser.pos
         );
       }
+
       let arrowParams = [];
-      if (expressions) {
-        let length = expressions.length;
-        if (length) {
-          for (let i = 0; i < length; ++i) {
-            arrowParams.push(convertArrowParameter(parser, expressions[i]));
-          }
-        }
+
+      for (let i = 0; i < expressions.length; ++i) {
+        arrowParams.push(convertArrowParameter(parser, expressions[i]));
       }
+
       return parseArrowFunction(
         parser,
         context,
@@ -9559,14 +9584,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         );
       }
       let arrowParams = [];
-      if (params) {
-        let length = params.length;
-        if (length) {
-          for (let i = 0; i < length; ++i) {
-            arrowParams.push(convertArrowParameter(parser, params[i]));
-          }
-        }
+      for (let i = 0; i < params.length; ++i) {
+        arrowParams.push(convertArrowParameter(parser, params[i]));
       }
+
       return parseArrowFunction(
         parser,
         context,

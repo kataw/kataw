@@ -48,6 +48,7 @@ async (x = (yield x))
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
+                                "expressions": [],
                                 "flags": 32,
                                 "start": 10,
                                 "end": 17

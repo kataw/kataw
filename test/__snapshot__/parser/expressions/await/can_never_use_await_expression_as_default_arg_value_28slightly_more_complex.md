@@ -70,6 +70,7 @@ function call(foo= 5 + (await bar())){}
                                 "kind": 121,
                                 "expression": {
                                     "kind": 132,
+                                    "expressions": [],
                                     "flags": 32,
                                     "start": 22,
                                     "end": 29

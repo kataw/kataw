@@ -5260,9 +5260,9 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 219,
-                                                    "generatorToken": null,
-                                                    "left": {
+                                                    "kind": 204,
+                                                    "ellipsisToken": null,
+                                                    "key": {
                                                         "kind": 194,
                                                         "expression": {
                                                             "kind": 229,
@@ -5283,7 +5283,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "start": 4869,
                                                         "end": 4876
                                                     },
-                                                    "right": {
+                                                    "value": {
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
@@ -5291,6 +5291,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "start": 4877,
                                                         "end": 4879
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 4869,
                                                     "end": 4879

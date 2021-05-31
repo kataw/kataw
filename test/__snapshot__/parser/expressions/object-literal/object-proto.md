@@ -432,9 +432,9 @@ x = {async __proto__(){}, *__proto__(){}};
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
@@ -442,7 +442,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 116,
                                         "end": 126
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -450,14 +450,15 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 127,
                                         "end": 129
                                     },
-                                    "flags": 36,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 116,
                                     "end": 129
                                 },
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
@@ -465,7 +466,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 130,
                                         "end": 140
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
@@ -473,7 +474,8 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 141,
                                         "end": 143
                                     },
-                                    "flags": 36,
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 130,
                                     "end": 143
                                 }

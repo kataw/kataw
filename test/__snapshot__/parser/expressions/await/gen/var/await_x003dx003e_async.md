@@ -84,6 +84,7 @@ var await; var f = (async function() { await => async });
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
+                                "expressions": [],
                                 "flags": 32,
                                 "start": 18,
                                 "end": 44

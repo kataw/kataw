@@ -33,9 +33,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -43,7 +43,7 @@
                                         "start": 2,
                                         "end": 3
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
@@ -51,19 +51,20 @@
                                         "start": 4,
                                         "end": 5
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 5
                                 },
                                 {
-                                    "kind": 224,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 6,
                                         "end": 9
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "obj",
                                         "rawText": "obj",
@@ -71,6 +72,9 @@
                                         "start": 9,
                                         "end": 12
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 6,
                                     "end": 12

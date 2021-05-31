@@ -66,9 +66,9 @@
                                     "end": 7
                                 },
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
@@ -76,7 +76,7 @@
                                         "start": 8,
                                         "end": 9
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
@@ -84,14 +84,15 @@
                                         "start": 10,
                                         "end": 11
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 8,
                                     "end": 11
                                 },
                                 {
-                                    "kind": 219,
-                                    "generatorToken": null,
-                                    "left": {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
                                         "kind": 194,
                                         "expression": {
                                             "kind": 134299649,
@@ -105,7 +106,7 @@
                                         "start": 12,
                                         "end": 15
                                     },
-                                    "right": {
+                                    "value": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -128,6 +129,7 @@
                                         "start": 16,
                                         "end": 19
                                     },
+                                    "initializer": null,
                                     "flags": 32,
                                     "start": 12,
                                     "end": 19
