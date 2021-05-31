@@ -2184,34 +2184,18 @@ for ({}.bar = x in obj);
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 607,
-                                            "end": 608
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
                                         "start": 607,
                                         "end": 608
                                     },
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 609,
-                                            "end": 611
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
                                         "start": 609,
                                         "end": 611
                                     }

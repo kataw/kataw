@@ -542,18 +542,10 @@ class o {f([b, a], ...b) {}}
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 222,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "b",
-                                                            "rawText": "b",
-                                                            "flags": 96,
-                                                            "start": 114,
-                                                            "end": 115
-                                                        },
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "b",
+                                                        "rawText": "b",
+                                                        "flags": 96,
                                                         "start": 114,
                                                         "end": 115
                                                     }
@@ -689,7 +681,7 @@ class o {f([b, a], ...b) {}}
                                             "end": 140
                                         },
                                         {
-                                            "kind": 203,
+                                            "kind": 281,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,

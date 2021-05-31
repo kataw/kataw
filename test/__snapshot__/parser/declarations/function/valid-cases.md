@@ -276,7 +276,7 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -574,7 +574,7 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -1285,7 +1285,7 @@ function f({x:arg = (arg = 2)}) {}
                         "end": 354
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -1475,7 +1475,7 @@ function f({x:arg = (arg = 2)}) {}
                         "end": 403
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -1655,7 +1655,7 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -2024,7 +2024,7 @@ function f({x:arg = (arg = 2)}) {}
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 222,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -2034,6 +2034,8 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 560,
                                         "end": 561
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 121,
                                         "expression": {
@@ -2107,7 +2109,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 562,
                                         "end": 578
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 560,
                                     "end": 578
                                 }
@@ -2853,7 +2855,7 @@ function f({x:arg = (arg = 2)}) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,

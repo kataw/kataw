@@ -144,7 +144,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                             "kind": 214,
                                                                             "formalParameterList": [
                                                                                 {
-                                                                                    "kind": 203,
+                                                                                    "kind": 281,
                                                                                     "ellipsisToken": {
                                                                                         "kind": 524302,
                                                                                         "flags": 64,

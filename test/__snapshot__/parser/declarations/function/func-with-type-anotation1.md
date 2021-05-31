@@ -46,7 +46,7 @@ function g(a:number=1, e:number=1) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -82,7 +82,7 @@ function g(a:number=1, e:number=1) {}
                         "end": 21
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,

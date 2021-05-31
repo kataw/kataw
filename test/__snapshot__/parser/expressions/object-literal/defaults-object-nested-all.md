@@ -35,7 +35,7 @@ var {x = 10, y: { z = 10}} = a;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -45,6 +45,8 @@ var {x = 10, y: { z = 10}} = a;
                                             "start": 5,
                                             "end": 6
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 10,
@@ -53,7 +55,7 @@ var {x = 10, y: { z = 10}} = a;
                                             "start": 8,
                                             "end": 11
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -74,7 +76,7 @@ var {x = 10, y: { z = 10}} = a;
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 222,
+                                                        "kind": 281,
                                                         "ellipsisToken": null,
                                                         "left": {
                                                             "kind": 134299649,
@@ -84,6 +86,8 @@ var {x = 10, y: { z = 10}} = a;
                                                             "start": 17,
                                                             "end": 19
                                                         },
+                                                        "optionalToken": null,
+                                                        "type": null,
                                                         "right": {
                                                             "kind": 201392130,
                                                             "text": 10,
@@ -92,7 +96,7 @@ var {x = 10, y: { z = 10}} = a;
                                                             "start": 21,
                                                             "end": 24
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 17,
                                                         "end": 24
                                                     }

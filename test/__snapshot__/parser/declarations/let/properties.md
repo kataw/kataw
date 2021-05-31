@@ -34,23 +34,15 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 5,
-                                            "end": 6
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 6
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -60,6 +52,8 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "start": 7,
                                             "end": 8
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 0,
@@ -68,7 +62,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 7,
                                         "end": 10
                                     },

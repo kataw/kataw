@@ -34,7 +34,7 @@ let {...obj1,...obj2} = foo
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -49,13 +49,15 @@ let {...obj1,...obj2} = foo
                                             "start": 8,
                                             "end": 12
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 12
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -70,8 +72,10 @@ let {...obj1,...obj2} = foo
                                             "start": 16,
                                             "end": 20
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 13,
                                         "end": 20
                                     }

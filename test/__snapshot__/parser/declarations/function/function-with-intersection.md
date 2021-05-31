@@ -46,7 +46,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -91,7 +91,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                         "end": 21
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,

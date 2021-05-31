@@ -81,7 +81,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,

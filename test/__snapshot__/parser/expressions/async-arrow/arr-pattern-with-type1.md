@@ -45,7 +45,7 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,
@@ -131,7 +131,7 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 119,
@@ -232,7 +232,7 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 119,
@@ -240,7 +240,7 @@ async ([{x}: string]) =>  {};
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
@@ -354,7 +354,7 @@ async ([{x}: string]) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 220,
@@ -453,10 +453,10 @@ async ([{x}: string]) =>  {};
 
 ```javascript
 
-async ([[]]) =>  {}
-async ([[]]) =>  {}
-async ([[]]) =>  {}
-async ([[]]) =>  {}
+async ([]) =>  {}
+async ([]) =>  {}
+async ([]) =>  {}
+async ([]) =>  {}
 
 ```
 

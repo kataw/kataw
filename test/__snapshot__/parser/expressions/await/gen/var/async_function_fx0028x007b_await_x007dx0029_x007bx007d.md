@@ -145,18 +145,10 @@ var await; var f = (async function() { async function f({ await }) {} });
                                                                 "kind": 213,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 222,
-                                                                        "ellipsisToken": null,
-                                                                        "left": {
-                                                                            "kind": 134299649,
-                                                                            "text": "await",
-                                                                            "rawText": "await",
-                                                                            "flags": 96,
-                                                                            "start": 57,
-                                                                            "end": 63
-                                                                        },
-                                                                        "right": null,
-                                                                        "flags": 32,
+                                                                        "kind": 134299649,
+                                                                        "text": "await",
+                                                                        "rawText": "await",
+                                                                        "flags": 96,
                                                                         "start": 57,
                                                                         "end": 63
                                                                     }

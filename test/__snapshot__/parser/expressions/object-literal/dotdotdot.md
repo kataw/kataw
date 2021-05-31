@@ -55,7 +55,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 222,
+                                                        "kind": 281,
                                                         "ellipsisToken": null,
                                                         "left": {
                                                             "kind": 134299649,
@@ -65,6 +65,8 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "start": 10,
                                                             "end": 12
                                                         },
+                                                        "optionalToken": null,
+                                                        "type": null,
                                                         "right": {
                                                             "kind": 201392130,
                                                             "text": 5,
@@ -73,7 +75,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "start": 14,
                                                             "end": 16
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 10,
                                                         "end": 16
                                                     }

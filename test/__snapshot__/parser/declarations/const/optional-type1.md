@@ -58,7 +58,7 @@ const f = (x?, y?:Object = {}) => {}
                             "parameters": [
                                 [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -81,7 +81,7 @@ const f = (x?, y?:Object = {}) => {}
                                         "end": 13
                                     },
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,

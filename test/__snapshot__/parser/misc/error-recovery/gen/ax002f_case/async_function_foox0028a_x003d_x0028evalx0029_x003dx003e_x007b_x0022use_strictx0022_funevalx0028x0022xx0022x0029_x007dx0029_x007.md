@@ -46,7 +46,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,

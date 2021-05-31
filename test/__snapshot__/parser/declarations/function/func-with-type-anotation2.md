@@ -46,7 +46,7 @@ function foo(numVal: any, otherVal: mixed){}
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -75,7 +75,7 @@ function foo(numVal: any, otherVal: mixed){}
                         "end": 24
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,

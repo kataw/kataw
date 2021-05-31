@@ -89,7 +89,6 @@ import { createElementList, ElementList } from '../ast/expressions/element-list'
 import { createBindingProperty, BindingProperty } from '../ast/expressions/binding-property';
 import { createBindingPropertyList, BindingPropertyList } from '../ast/expressions/binding-property-list';
 import { createObjectBindingPattern, ObjectBindingPattern } from '../ast/expressions/object-binding-pattern';
-import { createSingleNameBinding, SingleNameBinding } from '../ast/expressions/singleNameBinding';
 import { createRootNode, RootNode } from '../ast/rootNode';
 import { createIdentifier, Identifier } from '../ast/expressions/identifier-expr';
 import { createComputedPropertyName, ComputedPropertyName } from '../ast/expressions/computed-property-name';
@@ -5114,39 +5113,45 @@ function parseBindingProperty(
   context: Context,
   scope: ScopeState,
   type: BindingType
-): BindingProperty | SingleNameBinding {
+): BindingProperty | BindingElement | any {
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     const tokenValue = parser.tokenValue;
     const key = parseIdentifierReference(parser, context);
-    if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
-      addVarOrBlock(parser, context, scope, tokenValue, type);
-      return createSingleNameBinding(
+    if (consumeOpt(parser, context, SyntaxKind.Colon)) {
+      return createBindingProperty(
         ellipsisToken,
-        key as any,
-        parseInitializer(parser, context, ellipsisToken ? true : false),
+        key,
+        parseIdentifierOrPattern(
+          parser,
+          context,
+          scope,
+          type,
+          ellipsisToken ? DiagnosticCode.Binding_identifier_expected : DiagnosticCode.Object_property_expected
+        ),
+        parseInitializer(parser, context, false),
         pos,
         parser.curPos
       );
     }
-    consume(parser, context, SyntaxKind.Colon);
 
-    return createBindingProperty(
-      ellipsisToken,
-      key,
-      parseIdentifierOrPattern(
-        parser,
-        context,
-        scope,
-        type,
-        ellipsisToken ? DiagnosticCode.Binding_identifier_expected : DiagnosticCode.Object_property_expected
-      ),
-      parseInitializer(parser, context, false),
-      pos,
-      parser.curPos
-    );
+    addVarOrBlock(parser, context, scope, tokenValue, type);
+
+    if (ellipsisToken || parser.token === SyntaxKind.Assign) {
+      return createBindingElement(
+        ellipsisToken,
+        key as any,
+        /* optionalToken */ null,
+        /* type */ null,
+        parseInitializer(parser, context, ellipsisToken ? true : false),
+        NodeFlags.None,
+        pos,
+        parser.curPos
+      );
+    }
+    return key; // SingleNameBinding
   }
   const key = parsePropertyName(parser, context);
 

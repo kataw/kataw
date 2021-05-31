@@ -3558,7 +3558,7 @@ foo ? bar : baz => {};
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -3627,7 +3627,7 @@ foo ? bar : baz => {};
                             "end": 1152
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -3717,7 +3717,7 @@ foo ? bar : baz => {};
                             "end": 1173
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -3815,7 +3815,7 @@ foo ? bar : baz => {};
                             "end": 1197
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -3964,7 +3964,7 @@ foo ? bar : baz => {};
                             "end": 1233
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,

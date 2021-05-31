@@ -53,7 +53,7 @@ const {x=y};
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -63,6 +63,8 @@ const {x=y};
                                             "start": 7,
                                             "end": 8
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 134299649,
                                             "text": "y",
@@ -71,7 +73,7 @@ const {x=y};
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 7,
                                         "end": 10
                                     }

@@ -159,16 +159,16 @@ interface ArrayBindingPattern <: ExpressionNode {
 }
 ```
 
-### ArrayBindingElement
+### BindingElement
 
 ```js
-interface ArrayBindingPattern <: ExpressionNode {
-  kind: NodeKind.ArrayBindingPattern;
+interface BindingElement <: ExpressionNode {
+  kind: NodeKind.BindingElement;
   ellipsisToken: SyntaxToken | null;
-  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier;
+  left: ObjectBindingPattern | ArrayBindingPattern | Identifier;
   optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   type: TypeNode | null;
-  initializer: ExpressionNode | null;
+  right: ExpressionNode | null;
 }
 ```
 
@@ -177,7 +177,7 @@ interface ArrayBindingPattern <: ExpressionNode {
 ```js
 interface BindingElementList <: ExpressionNode {
   kind: NodeKind.BindingElement;
-  elements: [ Elison | ArrayBindingElement ];
+  elements: [ Elison | BindingElement | ObjectBindingPattern | ArrayBindingPattern | Identifier];
   trailingComma: boolean;
 }
 ```
@@ -424,20 +424,8 @@ interface GeneratorExpression <: ExpressionNode {
 ```js
 interface FormalParameterList <: ExpressionNode {
   kind: NodeKind.FormalParameterList;
-  formalParameterList: [ FormalParameter ];
+  formalParameterList: [ BindingElement | ObjectBindingPattern | ArrayBindingPattern | Identifier ];
   trailingComma: boolean;
-}
-```
-
-### FormalParameter
-
-```js
-interface FormalParameter <: ExpressionNode {
-  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
-  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier;
-  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  type: TypeNode | null;
-  initializer: ExpressionNode | null;
 }
 ```
 
@@ -771,18 +759,7 @@ interface BindingProperty <: ExpressionNode {
   kind: NodeKind.BindingProperty;
   ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   key: PropertyKey;
-  value: ArrayBindingPattern |  ObjectBindingPattern  | SingleNameBinding;
-}
-```
-
-### SingleNameBinding
-
-```js
-interface SingleNameBinding <: ExpressionNode {
-  kind: NodeKind.SingleNameBinding;
-  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
-  binding: BindingIdentifier;
-  initializer: AssignmentExpression | null;
+  value: ArrayBindingPattern |  ObjectBindingPattern  | BindingElement;
 }
 ```
 

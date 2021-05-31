@@ -225,7 +225,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
@@ -271,7 +271,7 @@ try {} catch(e) { for(var e of 0); };
                             "end": 323
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -315,7 +315,7 @@ try {} catch(e) { for(var e of 0); };
                     "expression": {
                         "kind": 121,
                         "expression": {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -373,7 +373,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 533
                                 },
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,

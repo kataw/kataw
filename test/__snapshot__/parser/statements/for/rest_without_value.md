@@ -34,7 +34,7 @@ for (let [...] = obj);
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,

@@ -118,7 +118,7 @@ const {q}: string = y;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -209,18 +209,10 @@ const {q}: string = y;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "q",
-                                            "rawText": "q",
-                                            "flags": 96,
-                                            "start": 63,
-                                            "end": 64
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "q",
+                                        "rawText": "q",
+                                        "flags": 96,
                                         "start": 63,
                                         "end": 64
                                     }

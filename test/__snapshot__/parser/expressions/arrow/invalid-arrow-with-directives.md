@@ -1653,7 +1653,7 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 203,
+                                                            "kind": 281,
                                                             "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
@@ -1787,7 +1787,7 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 203,
+                                                            "kind": 281,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
@@ -2052,18 +2052,10 @@
                                                     "kind": 213,
                                                     "properties": [
                                                         {
-                                                            "kind": 222,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "yield",
-                                                                "rawText": "yield",
-                                                                "flags": 96,
-                                                                "start": 789,
-                                                                "end": 794
-                                                            },
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "yield",
+                                                            "rawText": "yield",
+                                                            "flags": 96,
                                                             "start": 789,
                                                             "end": 794
                                                         }
@@ -2177,7 +2169,7 @@
                                                     "kind": 213,
                                                     "properties": [
                                                         {
-                                                            "kind": 222,
+                                                            "kind": 281,
                                                             "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
@@ -2187,6 +2179,8 @@
                                                                 "start": 832,
                                                                 "end": 837
                                                             },
+                                                            "optionalToken": null,
+                                                            "type": null,
                                                             "right": {
                                                                 "kind": 201392130,
                                                                 "text": 0,
@@ -2195,7 +2189,7 @@
                                                                 "start": 839,
                                                                 "end": 841
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 832,
                                                             "end": 841
                                                         }
@@ -2607,7 +2601,7 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 203,
+                                                            "kind": 281,
                                                             "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
@@ -2740,7 +2734,7 @@
                                                     "kind": 202,
                                                     "elements": [
                                                         {
-                                                            "kind": 203,
+                                                            "kind": 281,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
@@ -3003,18 +2997,10 @@
                                                     "kind": 213,
                                                     "properties": [
                                                         {
-                                                            "kind": 222,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "yield",
-                                                                "rawText": "yield",
-                                                                "flags": 96,
-                                                                "start": 1137,
-                                                                "end": 1142
-                                                            },
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "yield",
+                                                            "rawText": "yield",
+                                                            "flags": 96,
                                                             "start": 1137,
                                                             "end": 1142
                                                         }

@@ -957,18 +957,10 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x5",
-                                            "rawText": "x5",
-                                            "flags": 96,
-                                            "start": 258,
-                                            "end": 260
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x5",
+                                        "rawText": "x5",
+                                        "flags": 96,
                                         "start": 258,
                                         "end": 260
                                     }

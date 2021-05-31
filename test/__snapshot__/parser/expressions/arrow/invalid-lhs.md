@@ -32,7 +32,7 @@ x = (a,b)+c=>{};
                 "member": {
                     "kind": 121,
                     "expression": {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -118,7 +118,7 @@ x = (a,b)+c=>{};
                 "shortCircuit": {
                     "kind": 121,
                     "expression": {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -251,7 +251,7 @@ x = (a,b)+c=>{};
                     "member": {
                         "kind": 121,
                         "expression": {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -334,7 +334,7 @@ x = (a,b)+c=>{};
                                 "end": 71
                             },
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
@@ -436,7 +436,7 @@ x = (a,b)+c=>{};
                                 "end": 103
                             },
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
@@ -560,7 +560,7 @@ x = (a,b)+c=>{};
                                     "end": 140
                                 },
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,

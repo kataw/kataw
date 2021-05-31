@@ -139,7 +139,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 "kind": 214,
                                                                 "formalParameterList": [
                                                                     {
-                                                                        "kind": 203,
+                                                                        "kind": 281,
                                                                         "ellipsisToken": null,
                                                                         "left": {
                                                                             "kind": 134299649,

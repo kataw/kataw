@@ -1160,10 +1160,11 @@ function printSingleNameBinding(node: any, printer: Printer): any {
 function printBindingElement(node: any, printer: Printer): any {
   return chain([
     printKeyword(node.ellipsisToken, printer, node.start, node, /* separator */ false),
-    ,
     printStatements(node.left, printer, node),
-    printKeyword(node.optionalToken, printer, node.left.end, node, /* separator */ false),
-    printInitializer(node.right, printer, node)
+    node.optionalToken
+      ? printKeyword(node.optionalToken, printer, node.optionalToken.start, node, /* separator */ false)
+      : '',
+    node.right ? printInitializer(node.right, printer, node) : ''
   ]);
 }
 

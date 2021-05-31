@@ -62,7 +62,7 @@ function a({x = 10}) {}
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 222,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -72,6 +72,8 @@ function a({x = 10}) {}
                                         "start": 12,
                                         "end": 13
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 201392130,
                                         "text": 10,
@@ -80,7 +82,7 @@ function a({x = 10}) {}
                                         "start": 15,
                                         "end": 18
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 12,
                                     "end": 18
                                 }

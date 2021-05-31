@@ -882,7 +882,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
@@ -2420,7 +2420,7 @@ try {} catch({ x: "str" }) {}
                                     "kind": 202,
                                     "elements": [
                                         {
-                                            "kind": 203,
+                                            "kind": 281,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,

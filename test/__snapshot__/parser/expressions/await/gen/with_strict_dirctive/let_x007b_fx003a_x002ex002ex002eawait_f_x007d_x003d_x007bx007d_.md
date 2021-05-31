@@ -69,7 +69,7 @@
                                         "end": 22
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -84,24 +84,18 @@
                                             "start": 26,
                                             "end": 31
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 22,
                                         "end": 31
                                     },
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "f",
-                                            "rawText": "f",
-                                            "flags": 96,
-                                            "start": 31,
-                                            "end": 33
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 96,
                                         "start": 31,
                                         "end": 33
                                     }

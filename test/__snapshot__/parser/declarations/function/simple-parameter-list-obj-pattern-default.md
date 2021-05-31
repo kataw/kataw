@@ -40,7 +40,7 @@ function a({ option1, option2 } = {}) {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 212,
@@ -48,34 +48,18 @@ function a({ option1, option2 } = {}) {
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "option1",
-                                            "rawText": "option1",
-                                            "flags": 96,
-                                            "start": 12,
-                                            "end": 20
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "option1",
+                                        "rawText": "option1",
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 20
                                     },
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "option2",
-                                            "rawText": "option2",
-                                            "flags": 96,
-                                            "start": 21,
-                                            "end": 29
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "option2",
+                                        "rawText": "option2",
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 29
                                     }

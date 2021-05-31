@@ -41,7 +41,7 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
@@ -82,7 +82,7 @@
                                     "end": 18
                                 },
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,

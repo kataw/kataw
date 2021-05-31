@@ -94,7 +94,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                     "end": 40
                                 },
                                 {
-                                    "kind": 222,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
@@ -109,8 +109,10 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                         "start": 45,
                                         "end": 46
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": null,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 41,
                                     "end": 46
                                 }

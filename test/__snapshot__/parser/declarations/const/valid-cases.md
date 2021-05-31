@@ -86,7 +86,7 @@ const { async = true } = x;
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 222,
+                                                    "kind": 281,
                                                     "ellipsisToken": null,
                                                     "left": {
                                                         "kind": 134299649,
@@ -96,13 +96,15 @@ const { async = true } = x;
                                                         "start": 20,
                                                         "end": 26
                                                     },
+                                                    "optionalToken": null,
+                                                    "type": null,
                                                     "right": {
                                                         "kind": 24752947,
                                                         "flags": 96,
                                                         "start": 28,
                                                         "end": 33
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 20,
                                                     "end": 33
                                                 }
@@ -738,7 +740,7 @@ const { async = true } = x;
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 222,
+                                                    "kind": 281,
                                                     "ellipsisToken": null,
                                                     "left": {
                                                         "kind": 134299649,
@@ -748,6 +750,8 @@ const { async = true } = x;
                                                         "start": 279,
                                                         "end": 285
                                                     },
+                                                    "optionalToken": null,
+                                                    "type": null,
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "bar",
@@ -756,7 +760,7 @@ const { async = true } = x;
                                                         "start": 287,
                                                         "end": 291
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 279,
                                                     "end": 291
                                                 }
@@ -855,7 +859,7 @@ const { async = true } = x;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -865,13 +869,15 @@ const { async = true } = x;
                                             "start": 321,
                                             "end": 327
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 24752947,
                                             "flags": 96,
                                             "start": 329,
                                             "end": 334
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 321,
                                         "end": 334
                                     }

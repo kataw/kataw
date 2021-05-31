@@ -1,12 +1,22 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { BindingElement } from './binding-element';
+import { ArrayBindingPattern } from './array-binding-pattern';
+import { ObjectBindingPattern } from './object-binding-pattern';
+import { Identifier } from './identifier-expr';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 import { Elison } from './elison';
 
 /**
  * BindingElementList
  */
 
-export type BindingListElements = Elison | BindingElement;
+export type BindingListElements =
+  | Elison
+  | BindingElement
+  | ObjectBindingPattern
+  | ArrayBindingPattern
+  | Identifier
+  | DummyIdentifier;
 
 export interface BindingElementList extends SyntaxNode {
   readonly elements: BindingListElements[];

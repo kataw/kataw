@@ -59,7 +59,7 @@ var x = ({ a } : any = 'foo') => {}
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 220,

@@ -57,7 +57,7 @@ const fn = async (a?: any): Promise<void> => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,

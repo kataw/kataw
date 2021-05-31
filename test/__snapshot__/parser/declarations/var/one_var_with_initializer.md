@@ -44,7 +44,7 @@ var [foo=a] = arr;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,

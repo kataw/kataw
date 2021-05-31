@@ -543,7 +543,7 @@ for ({a: b.c}-- of d) e;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -625,18 +625,10 @@ for ({a: b.c}-- of d) e;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 150,
-                                            "end": 151
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 150,
                                         "end": 151
                                     }
@@ -2612,18 +2604,10 @@ for ({a: b.c}-- of d) e;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 726,
-                                            "end": 727
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 726,
                                         "end": 727
                                     }
@@ -3450,18 +3434,10 @@ for ({a: b.c}-- of d) e;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 937,
-                                            "end": 938
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 937,
                                         "end": 938
                                     }
@@ -3555,18 +3531,10 @@ for ({a: b.c}-- of d) e;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 967,
-                                            "end": 968
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 967,
                                         "end": 968
                                     }

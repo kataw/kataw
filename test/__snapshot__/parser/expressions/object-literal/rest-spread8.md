@@ -55,18 +55,10 @@ var {...{z}} = { z: 1};
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 222,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "z",
-                                                            "rawText": "z",
-                                                            "flags": 96,
-                                                            "start": 9,
-                                                            "end": 10
-                                                        },
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "z",
+                                                        "rawText": "z",
+                                                        "flags": 96,
                                                         "start": 9,
                                                         "end": 10
                                                     }

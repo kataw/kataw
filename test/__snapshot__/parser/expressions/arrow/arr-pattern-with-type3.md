@@ -49,7 +49,7 @@
                                     "end": 4
                                 },
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -126,7 +126,7 @@
 
 ```javascript
 
-([x, []]) =>  {};
+([x, ]) =>  {};
 ```
 
 ### Diagnostics

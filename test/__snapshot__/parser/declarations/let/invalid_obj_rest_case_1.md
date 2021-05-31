@@ -34,7 +34,7 @@ let {...obj1,a} = foo
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -49,24 +49,18 @@ let {...obj1,a} = foo
                                             "start": 8,
                                             "end": 12
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 12
                                     },
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 13,
-                                            "end": 14
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
                                         "start": 13,
                                         "end": 14
                                     }

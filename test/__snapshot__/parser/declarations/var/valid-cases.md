@@ -252,18 +252,10 @@ var {get} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 49,
-                                            "end": 50
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 49,
                                         "end": 50
                                     }
@@ -1295,18 +1287,10 @@ var {get} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 309,
-                                            "end": 312
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
                                         "start": 309,
                                         "end": 312
                                     }
@@ -1393,7 +1377,7 @@ var {get} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -1403,6 +1387,8 @@ var {get} = obj;
                                             "start": 332,
                                             "end": 335
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 3,
@@ -1411,7 +1397,7 @@ var {get} = obj;
                                             "start": 336,
                                             "end": 337
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 332,
                                         "end": 337
                                     }
@@ -1474,7 +1460,7 @@ var {get} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -1484,6 +1470,8 @@ var {get} = obj;
                                             "start": 351,
                                             "end": 354
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 134299649,
                                             "text": "defaultValue",
@@ -1492,7 +1480,7 @@ var {get} = obj;
                                             "start": 356,
                                             "end": 369
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 351,
                                         "end": 369
                                     }
@@ -1549,7 +1537,7 @@ var {get} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -1559,6 +1547,8 @@ var {get} = obj;
                                             "start": 384,
                                             "end": 392
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 134299649,
                                             "text": "defaultValue",
@@ -1567,7 +1557,7 @@ var {get} = obj;
                                             "start": 394,
                                             "end": 407
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 384,
                                         "end": 407
                                     }
@@ -1707,18 +1697,10 @@ var {get} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "get",
-                                            "rawText": "get",
-                                            "flags": 96,
-                                            "start": 470,
-                                            "end": 473
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
                                         "start": 470,
                                         "end": 473
                                     }

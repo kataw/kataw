@@ -90,7 +90,7 @@ function *foo() {
                                         "initializer": {
                                             "kind": 121,
                                             "expression": {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 229,

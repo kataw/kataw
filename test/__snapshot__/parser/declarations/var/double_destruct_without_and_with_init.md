@@ -54,23 +54,15 @@ var {x, y = z} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 5,
-                                            "end": 6
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 6
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -80,6 +72,8 @@ var {x, y = z} = obj;
                                             "start": 7,
                                             "end": 9
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 134299649,
                                             "text": "z",
@@ -88,7 +82,7 @@ var {x, y = z} = obj;
                                             "start": 11,
                                             "end": 13
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 7,
                                         "end": 13
                                     }

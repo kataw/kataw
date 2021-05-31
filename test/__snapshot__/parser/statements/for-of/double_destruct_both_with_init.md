@@ -35,7 +35,7 @@ for (let {x = y, z = a} of obj);
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -45,6 +45,8 @@ for (let {x = y, z = a} of obj);
                                             "start": 10,
                                             "end": 11
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 134299649,
                                             "text": "y",
@@ -53,12 +55,12 @@ for (let {x = y, z = a} of obj);
                                             "start": 13,
                                             "end": 15
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 10,
                                         "end": 15
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -68,6 +70,8 @@ for (let {x = y, z = a} of obj);
                                             "start": 16,
                                             "end": 18
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -76,7 +80,7 @@ for (let {x = y, z = a} of obj);
                                             "start": 20,
                                             "end": 22
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 16,
                                         "end": 22
                                     }

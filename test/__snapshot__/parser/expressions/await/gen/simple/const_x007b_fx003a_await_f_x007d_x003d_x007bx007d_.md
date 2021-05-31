@@ -61,18 +61,10 @@ const { f: await f } = {};
                                         "end": 16
                                     },
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "f",
-                                            "rawText": "f",
-                                            "flags": 96,
-                                            "start": 16,
-                                            "end": 18
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 96,
                                         "start": 16,
                                         "end": 18
                                     }

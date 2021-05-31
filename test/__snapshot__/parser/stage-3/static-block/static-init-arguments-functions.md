@@ -96,7 +96,7 @@ class C {
                                                                         "kind": 213,
                                                                         "properties": [
                                                                             {
-                                                                                "kind": 222,
+                                                                                "kind": 281,
                                                                                 "ellipsisToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
@@ -106,6 +106,8 @@ class C {
                                                                                     "start": 36,
                                                                                     "end": 43
                                                                                 },
+                                                                                "optionalToken": null,
+                                                                                "type": null,
                                                                                 "right": {
                                                                                     "kind": 125,
                                                                                     "left": {
@@ -134,7 +136,7 @@ class C {
                                                                                     "start": 45,
                                                                                     "end": 65
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 0,
                                                                                 "start": 36,
                                                                                 "end": 65
                                                                             }
@@ -273,7 +275,7 @@ class C {
                                                                                 "kind": 213,
                                                                                 "properties": [
                                                                                     {
-                                                                                        "kind": 222,
+                                                                                        "kind": 281,
                                                                                         "ellipsisToken": null,
                                                                                         "left": {
                                                                                             "kind": 134299649,
@@ -283,6 +285,8 @@ class C {
                                                                                             "start": 131,
                                                                                             "end": 138
                                                                                         },
+                                                                                        "optionalToken": null,
+                                                                                        "type": null,
                                                                                         "right": {
                                                                                             "kind": 125,
                                                                                             "left": {
@@ -311,7 +315,7 @@ class C {
                                                                                             "start": 140,
                                                                                             "end": 161
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 0,
                                                                                         "start": 131,
                                                                                         "end": 161
                                                                                     }
@@ -470,7 +474,7 @@ class C {
                                                                         "kind": 213,
                                                                         "properties": [
                                                                             {
-                                                                                "kind": 222,
+                                                                                "kind": 281,
                                                                                 "ellipsisToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
@@ -480,6 +484,8 @@ class C {
                                                                                     "start": 249,
                                                                                     "end": 256
                                                                                 },
+                                                                                "optionalToken": null,
+                                                                                "type": null,
                                                                                 "right": {
                                                                                     "kind": 125,
                                                                                     "left": {
@@ -508,7 +514,7 @@ class C {
                                                                                     "start": 258,
                                                                                     "end": 283
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 0,
                                                                                 "start": 249,
                                                                                 "end": 283
                                                                             }

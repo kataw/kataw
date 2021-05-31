@@ -57,7 +57,7 @@ export const enum SyntaxKind {
   AnyKeyword = 134234252,
   ArgumentList = 256,
   ArgumentsIdentifier = 16635,
-  BindingElement = 203,
+  BindingElement = 281,
   ArrayBindingPattern = 201,
   ArrayLiteral = 119,
   ArrayType = 136,

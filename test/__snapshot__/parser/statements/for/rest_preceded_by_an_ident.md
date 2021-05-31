@@ -42,7 +42,7 @@ for (let [foo, ...bar] = obj);
                                         "end": 13
                                     },
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,

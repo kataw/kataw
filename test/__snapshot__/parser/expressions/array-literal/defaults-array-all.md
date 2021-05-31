@@ -54,7 +54,7 @@ var [x = 10, y = 5, z = 1] = a;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -79,7 +79,7 @@ var [x = 10, y = 5, z = 1] = a;
                                         "end": 11
                                     },
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -104,7 +104,7 @@ var [x = 10, y = 5, z = 1] = a;
                                         "end": 18
                                     },
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,

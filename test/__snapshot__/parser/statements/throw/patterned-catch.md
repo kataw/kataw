@@ -71,18 +71,10 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                     "kind": 213,
                                     "properties": [
                                         {
-                                            "kind": 222,
-                                            "ellipsisToken": null,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "c",
-                                                "rawText": "c",
-                                                "flags": 96,
-                                                "start": 21,
-                                                "end": 22
-                                            },
-                                            "right": null,
-                                            "flags": 32,
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -155,7 +147,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                             "end": 38
                                         },
                                         {
-                                            "kind": 222,
+                                            "kind": 281,
                                             "ellipsisToken": null,
                                             "left": {
                                                 "kind": 134299649,
@@ -165,6 +157,8 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "start": 39,
                                                 "end": 41
                                             },
+                                            "optionalToken": null,
+                                            "type": null,
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "i",
@@ -173,7 +167,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "start": 42,
                                                 "end": 43
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 39,
                                             "end": 43
                                         }

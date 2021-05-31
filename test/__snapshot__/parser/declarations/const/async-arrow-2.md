@@ -118,7 +118,7 @@ const f = async <T, R, S>(
                             },
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -156,7 +156,7 @@ const f = async <T, R, S>(
                                     "end": 33
                                 },
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -194,7 +194,7 @@ const f = async <T, R, S>(
                                     "end": 41
                                 },
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,

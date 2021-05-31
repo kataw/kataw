@@ -34,7 +34,7 @@ let {...obj1,} = foo
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -49,8 +49,10 @@ let {...obj1,} = foo
                                             "start": 8,
                                             "end": 12
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 12
                                     }

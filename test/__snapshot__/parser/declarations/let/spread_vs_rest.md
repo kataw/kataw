@@ -53,7 +53,7 @@ let [a=[...b], ...c] = obj;
                                 "kind": 202,
                                 "elements": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -105,7 +105,7 @@ let [a=[...b], ...c] = obj;
                                         "end": 13
                                     },
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,

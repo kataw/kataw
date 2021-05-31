@@ -44,7 +44,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -113,7 +113,7 @@
                             "end": 21
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": null,
                             "left": {
                                 "kind": 134299649,
@@ -174,7 +174,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 119,
@@ -249,7 +249,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 220,

@@ -37,7 +37,7 @@
                 "parameters": [
                     [
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": null,
                             "left": {
                                 "kind": 220,
@@ -72,7 +72,7 @@
                             "end": 11
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": null,
                             "left": {
                                 "kind": 119,

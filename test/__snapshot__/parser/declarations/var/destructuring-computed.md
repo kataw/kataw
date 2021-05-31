@@ -245,7 +245,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                         "end": 84
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -260,8 +260,10 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "start": 89,
                                             "end": 95
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 85,
                                         "end": 95
                                     }

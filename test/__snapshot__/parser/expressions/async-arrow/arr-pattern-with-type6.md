@@ -39,7 +39,7 @@ async ([{x}: string], y, z: string) =>  {};
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 220,
@@ -101,7 +101,7 @@ async ([{x}: string], y, z: string) =>  {};
                     "end": 23
                 },
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
@@ -175,7 +175,7 @@ async ([{x}: string], y, z: string) =>  {};
 
 ```javascript
 
-async ([[]], y, z) =>  {}
+async ([], y, z) =>  {}
 
 ```
 

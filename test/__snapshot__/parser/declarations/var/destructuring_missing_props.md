@@ -43,23 +43,15 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "nonExistent",
-                                            "rawText": "nonExistent",
-                                            "flags": 96,
-                                            "start": 5,
-                                            "end": 16
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "nonExistent",
+                                        "rawText": "nonExistent",
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 16
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -69,6 +61,8 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "start": 17,
                                             "end": 26
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392131,
                                             "text": "hi",
@@ -77,12 +71,12 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "start": 28,
                                             "end": 33
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 17,
                                         "end": 33
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -92,6 +86,8 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "start": 34,
                                             "end": 38
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 3,
@@ -100,7 +96,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "start": 40,
                                             "end": 42
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 34,
                                         "end": 42
                                     }

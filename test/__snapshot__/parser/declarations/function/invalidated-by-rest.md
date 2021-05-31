@@ -62,7 +62,7 @@ function f(b, a, b, ...a) {}
                         "end": 18
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,

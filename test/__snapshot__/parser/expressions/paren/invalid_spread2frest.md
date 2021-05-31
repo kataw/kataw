@@ -20,7 +20,7 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,

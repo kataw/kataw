@@ -1188,7 +1188,7 @@ class Array { concat(items:number | string) {}; }
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -1226,7 +1226,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 428
                                 },
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -1611,18 +1611,10 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 563,
-                                            "end": 564
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 563,
                                         "end": 564
                                     }
@@ -1747,18 +1739,10 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 604,
-                                            "end": 605
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 604,
                                         "end": 605
                                     }
@@ -2194,7 +2178,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 214,
                                     "formalParameterList": [
                                         {
-                                            "kind": 203,
+                                            "kind": 281,
                                             "ellipsisToken": null,
                                             "left": {
                                                 "kind": 134299649,

@@ -64,7 +64,7 @@ function x({x}) { "use strict"; }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -146,7 +146,7 @@ function x({x}) { "use strict"; }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -311,18 +311,10 @@ function x({x}) { "use strict"; }
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 222,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 120,
-                                        "end": 121
-                                    },
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
                                     "start": 120,
                                     "end": 121
                                 }

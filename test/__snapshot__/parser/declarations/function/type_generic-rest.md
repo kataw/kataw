@@ -50,7 +50,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -118,23 +118,15 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 222,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "p",
-                                                            "rawText": "p",
-                                                            "flags": 96,
-                                                            "start": 62,
-                                                            "end": 63
-                                                        },
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "p",
+                                                        "rawText": "p",
+                                                        "flags": 96,
                                                         "start": 62,
                                                         "end": 63
                                                     },
                                                     {
-                                                        "kind": 222,
+                                                        "kind": 281,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
@@ -149,8 +141,10 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                             "start": 68,
                                                             "end": 69
                                                         },
+                                                        "optionalToken": null,
+                                                        "type": null,
                                                         "right": null,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 64,
                                                         "end": 69
                                                     }

@@ -202,18 +202,10 @@ function f(x, ...y) { 'use strict' }
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 222,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 78,
-                                        "end": 79
-                                    },
-                                    "right": null,
-                                    "flags": 32,
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
                                     "start": 78,
                                     "end": 79
                                 }
@@ -285,7 +277,7 @@ function f(x, ...y) { 'use strict' }
                 "kind": 214,
                 "formalParameterList": [
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
@@ -375,7 +367,7 @@ function f(x, ...y) { 'use strict' }
                         "end": 148
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -535,7 +527,7 @@ function f(x, ...y) { 'use strict' }
                         "kind": 214,
                         "formalParameterList": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,
@@ -629,7 +621,7 @@ function f(x, ...y) { 'use strict' }
                                 "end": 257
                             },
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,

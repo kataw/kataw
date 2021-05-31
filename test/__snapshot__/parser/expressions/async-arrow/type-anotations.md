@@ -50,7 +50,7 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
@@ -126,7 +126,7 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 119,
@@ -220,7 +220,7 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 119,
@@ -314,7 +314,7 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 119,
@@ -358,7 +358,7 @@ async (...[x]?: string, a?) => {};
                     "end": 107
                 },
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
@@ -429,7 +429,7 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 119,
@@ -528,7 +528,7 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 119,
@@ -577,7 +577,7 @@ async (...[x]?: string, a?) => {};
                     "end": 179
                 },
                 {
-                    "kind": 203,
+                    "kind": 281,
                     "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
@@ -788,7 +788,7 @@ async (...[x]?: string, a?) => {};
                         "end": 274
                     },
                     {
-                        "kind": 203,
+                        "kind": 281,
                         "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,

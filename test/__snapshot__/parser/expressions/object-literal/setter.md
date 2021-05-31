@@ -48,7 +48,7 @@
                                         "kind": 214,
                                         "formalParameterList": [
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
@@ -155,7 +155,7 @@
                                                 "end": 29
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
@@ -277,7 +277,7 @@
                                                 "end": 55
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
@@ -415,7 +415,7 @@
                                                 "end": 84
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,

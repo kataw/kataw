@@ -170,7 +170,7 @@ export var { x = await foo } = {};
                                     "kind": 213,
                                     "properties": [
                                         {
-                                            "kind": 222,
+                                            "kind": 281,
                                             "ellipsisToken": null,
                                             "left": {
                                                 "kind": 134299649,
@@ -180,6 +180,8 @@ export var { x = await foo } = {};
                                                 "start": 56,
                                                 "end": 58
                                             },
+                                            "optionalToken": null,
+                                            "type": null,
                                             "right": {
                                                 "kind": 208,
                                                 "awaitKeyword": {
@@ -200,7 +202,7 @@ export var { x = await foo } = {};
                                                 "start": 60,
                                                 "end": 70
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 56,
                                             "end": 70
                                         }

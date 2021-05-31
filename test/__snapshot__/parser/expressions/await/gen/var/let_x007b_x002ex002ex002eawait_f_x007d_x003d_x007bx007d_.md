@@ -131,7 +131,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
                                                                     "kind": 213,
                                                                     "properties": [
                                                                         {
-                                                                            "kind": 222,
+                                                                            "kind": 281,
                                                                             "ellipsisToken": {
                                                                                 "kind": 524302,
                                                                                 "flags": 64,
@@ -146,24 +146,18 @@ var await; var f = (async function() { let { ...await f } = {}; });
                                                                                 "start": 48,
                                                                                 "end": 53
                                                                             },
+                                                                            "optionalToken": null,
+                                                                            "type": null,
                                                                             "right": null,
-                                                                            "flags": 32,
+                                                                            "flags": 0,
                                                                             "start": 44,
                                                                             "end": 53
                                                                         },
                                                                         {
-                                                                            "kind": 222,
-                                                                            "ellipsisToken": null,
-                                                                            "left": {
-                                                                                "kind": 134299649,
-                                                                                "text": "f",
-                                                                                "rawText": "f",
-                                                                                "flags": 96,
-                                                                                "start": 53,
-                                                                                "end": 55
-                                                                            },
-                                                                            "right": null,
-                                                                            "flags": 32,
+                                                                            "kind": 134299649,
+                                                                            "text": "f",
+                                                                            "rawText": "f",
+                                                                            "flags": 96,
                                                                             "start": 53,
                                                                             "end": 55
                                                                         }

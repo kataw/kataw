@@ -35,7 +35,7 @@ var {x = 10, y = 5, z = 1} = a;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -45,6 +45,8 @@ var {x = 10, y = 5, z = 1} = a;
                                             "start": 5,
                                             "end": 6
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 10,
@@ -53,12 +55,12 @@ var {x = 10, y = 5, z = 1} = a;
                                             "start": 8,
                                             "end": 11
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 11
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -68,6 +70,8 @@ var {x = 10, y = 5, z = 1} = a;
                                             "start": 12,
                                             "end": 14
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 5,
@@ -76,12 +80,12 @@ var {x = 10, y = 5, z = 1} = a;
                                             "start": 16,
                                             "end": 18
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 12,
                                         "end": 18
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -91,6 +95,8 @@ var {x = 10, y = 5, z = 1} = a;
                                             "start": 19,
                                             "end": 21
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 1,
@@ -99,7 +105,7 @@ var {x = 10, y = 5, z = 1} = a;
                                             "start": 23,
                                             "end": 25
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 19,
                                         "end": 25
                                     }

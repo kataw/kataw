@@ -58,7 +58,7 @@ try {} catch ([ x = await 42 ]) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 222,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,
@@ -68,6 +68,8 @@ try {} catch ([ x = await 42 ]) {}
                                     "start": 15,
                                     "end": 17
                                 },
+                                "optionalToken": null,
+                                "type": null,
                                 "right": {
                                     "kind": 208,
                                     "awaitKeyword": {
@@ -88,7 +90,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "start": 19,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 15,
                                 "end": 28
                             }
@@ -270,7 +272,7 @@ try {} catch ([ x = await 42 ]) {}
                         "kind": 202,
                         "elements": [
                             {
-                                "kind": 203,
+                                "kind": 281,
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,

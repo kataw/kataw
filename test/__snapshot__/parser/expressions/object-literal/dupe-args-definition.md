@@ -696,7 +696,7 @@ o = {f([b, a], b=x) {}};
                                                 "end": 132
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
@@ -835,7 +835,7 @@ o = {f([b, a], b=x) {}};
                                                 "end": 161
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
@@ -1108,7 +1108,7 @@ o = {f([b, a], b=x) {}};
                                                 "end": 212
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
@@ -1254,7 +1254,7 @@ o = {f([b, a], b=x) {}};
                                                 "end": 238
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
@@ -1398,7 +1398,7 @@ o = {f([b, a], b=x) {}};
                                                 "end": 265
                                             },
                                             {
-                                                "kind": 203,
+                                                "kind": 281,
                                                 "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,

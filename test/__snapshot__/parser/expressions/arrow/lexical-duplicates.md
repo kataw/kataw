@@ -95,7 +95,7 @@ a = b => { let b; };
                             "end": 4
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -410,18 +410,10 @@ a = b => { let b; };
                                                     "kind": 213,
                                                     "properties": [
                                                         {
-                                                            "kind": 222,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 89,
-                                                                "end": 90
-                                                            },
-                                                            "right": null,
-                                                            "flags": 32,
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
                                                             "start": 89,
                                                             "end": 90
                                                         }
@@ -831,18 +823,10 @@ a = b => { let b; };
                                                                                             "kind": 213,
                                                                                             "properties": [
                                                                                                 {
-                                                                                                    "kind": 222,
-                                                                                                    "ellipsisToken": null,
-                                                                                                    "left": {
-                                                                                                        "kind": 134299649,
-                                                                                                        "text": "a",
-                                                                                                        "rawText": "a",
-                                                                                                        "flags": 96,
-                                                                                                        "start": 192,
-                                                                                                        "end": 193
-                                                                                                    },
-                                                                                                    "right": null,
-                                                                                                    "flags": 32,
+                                                                                                    "kind": 134299649,
+                                                                                                    "text": "a",
+                                                                                                    "rawText": "a",
+                                                                                                    "flags": 96,
                                                                                                     "start": 192,
                                                                                                     "end": 193
                                                                                                 }
@@ -1842,7 +1826,7 @@ a = b => { let b; };
                             "end": 425
                         },
                         {
-                            "kind": 203,
+                            "kind": 281,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,

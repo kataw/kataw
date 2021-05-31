@@ -65,7 +65,7 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -172,7 +172,7 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -262,7 +262,7 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
@@ -372,7 +372,7 @@ const bar9 = <T>(x) => {};
                                         "end": 113
                                     },
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -483,7 +483,7 @@ const bar9 = <T>(x) => {};
                                         "end": 149
                                     },
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -749,7 +749,7 @@ const bar9 = <T>(x) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 203,
+                                    "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,

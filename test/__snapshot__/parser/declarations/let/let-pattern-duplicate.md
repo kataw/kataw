@@ -470,34 +470,18 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 111,
-                                            "end": 112
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 111,
                                         "end": 112
                                     },
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 113,
-                                            "end": 115
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 113,
                                         "end": 115
                                     }
@@ -839,18 +823,10 @@ let x = a; let x = b;
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 222,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "x",
-                                                            "rawText": "x",
-                                                            "flags": 96,
-                                                            "start": 194,
-                                                            "end": 195
-                                                        },
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
                                                         "start": 194,
                                                         "end": 195
                                                     }
@@ -965,18 +941,10 @@ let x = a; let x = b;
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 222,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "x",
-                                                            "rawText": "x",
-                                                            "flags": 96,
-                                                            "start": 221,
-                                                            "end": 222
-                                                        },
-                                                        "right": null,
-                                                        "flags": 32,
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
                                                         "start": 221,
                                                         "end": 222
                                                     }
@@ -1071,7 +1039,7 @@ let x = a; let x = b;
                                         "end": 242
                                     },
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -1086,8 +1054,10 @@ let x = a; let x = b;
                                             "start": 247,
                                             "end": 248
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 243,
                                         "end": 248
                                     }
@@ -1160,18 +1130,10 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 266,
-                                            "end": 267
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
                                         "start": 266,
                                         "end": 267
                                     }

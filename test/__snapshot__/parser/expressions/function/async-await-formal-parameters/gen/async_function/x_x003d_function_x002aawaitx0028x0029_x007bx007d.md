@@ -69,7 +69,7 @@ var f = async function f(x = function *await() {}) {}
                                 "kind": 214,
                                 "formalParameterList": [
                                     {
-                                        "kind": 203,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,

@@ -194,18 +194,10 @@ let {q=3} = {};
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 38,
-                                            "end": 41
-                                        },
-                                        "right": null,
-                                        "flags": 32,
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
                                         "start": 38,
                                         "end": 41
                                     }
@@ -291,7 +283,7 @@ let {q=3} = {};
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 222,
+                                        "kind": 281,
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
@@ -301,6 +293,8 @@ let {q=3} = {};
                                             "start": 60,
                                             "end": 61
                                         },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 201392130,
                                             "text": 3,
@@ -309,7 +303,7 @@ let {q=3} = {};
                                             "start": 62,
                                             "end": 63
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 60,
                                         "end": 63
                                     }

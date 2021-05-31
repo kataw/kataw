@@ -829,18 +829,10 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 222,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "e",
-                                    "rawText": "e",
-                                    "flags": 96,
-                                    "start": 269,
-                                    "end": 270
-                                },
-                                "right": null,
-                                "flags": 32,
+                                "kind": 134299649,
+                                "text": "e",
+                                "rawText": "e",
+                                "flags": 96,
                                 "start": 269,
                                 "end": 270
                             }

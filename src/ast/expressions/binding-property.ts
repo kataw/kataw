@@ -1,7 +1,7 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from './';
-import { SingleNameBinding } from './singleNameBinding';
+import { BindingElement } from './binding-element';
 import { DummyIdentifier } from '../internal/dummy-identifier';
 import { Identifier } from './identifier-expr';
 import { NumericLiteral } from './numeric-literal';
@@ -28,14 +28,14 @@ export type PropertyKey =
 export interface BindingProperty extends SyntaxNode {
   readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly key: PropertyKey;
-  readonly value: ArrayBindingPattern | ObjectBindingPattern | SingleNameBinding;
+  readonly value: ArrayBindingPattern | ObjectBindingPattern | BindingElement;
   readonly initializer: ExpressionNode | null;
 }
 
 export function createBindingProperty(
   ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
   key: PropertyKey,
-  value: ArrayBindingPattern | ObjectBindingPattern | SingleNameBinding,
+  value: ArrayBindingPattern | ObjectBindingPattern | BindingElement,
   initializer: ExpressionNode | null,
   start: number,
   end: number
