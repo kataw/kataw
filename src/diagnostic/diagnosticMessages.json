@@ -94,7 +94,7 @@
   "Explicit inexact syntax cannot appear in class or interface definitions": 95,
   "`declare module` cannot be used inside another `declare module`": 96,
   "A binding pattern parameter cannot be optional in an implementation signature.": 97,
-  "A setter cannot have a `this` parameter.": 98,
+  "A 'set' accessor cannot have a `this` parameter": 98,
   "Spread properties cannot have variance": 99,
   "A type annotation is required for the `this` parameter.": 100,
   "The `this` parameter must be the first function parameter.": 101,
@@ -221,5 +221,11 @@
   "Private identifier cannot contain escape characters": 225,
   "Private fields can't be accessed on super ": 226,
   "An optional parameter cannot be used within an array pattern": 227,
-  "Catch clause variable cannot have an type annotation": 228
+  "Catch clause variable cannot have an type annotation": 228,
+  "The 'this' keyword cannot be a formal parameter": 229,
+  "A 'get' accessor cannot have a `this` parameter": 231,
+  "A 'constructor' cannot have a `this` parameter": 232
 }
+
+
+

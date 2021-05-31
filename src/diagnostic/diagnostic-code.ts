@@ -97,7 +97,7 @@ export const enum DiagnosticCode {
   Explicit_inexact_syntax_cannot_appear_in_class_or_interface_definitions = 95,
   _declare_module_cannot_be_used_inside_another_declare_module = 96,
   A_binding_pattern_parameter_cannot_be_optional_in_an_implementation_signature = 97,
-  A_setter_cannot_have_a_this_parameter = 98,
+  A_set_accessor_cannot_have_a_this_parameter = 98,
   Spread_properties_cannot_have_variance = 99,
   A_type_annotation_is_required_for_the_this_parameter = 100,
   The_this_parameter_must_be_the_first_function_parameter = 101,
@@ -224,7 +224,10 @@ export const enum DiagnosticCode {
   Private_identifier_cannot_contain_escape_characters = 225,
   Private_fields_can_t_be_accessed_on_super = 226,
   An_optional_parameter_cannot_be_used_within_an_array_pattern = 227,
-  Catch_clause_variable_cannot_have_an_type_annotation = 228
+  Catch_clause_variable_cannot_have_an_type_annotation = 228,
+  The_this_keyword_cannot_be_a_formal_parameter = 229,
+  A_get_accessor_cannot_have_a_this_parameter = 231,
+  A_constructor_cannot_have_a_this_parameter = 232
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -323,13 +326,12 @@ export const diagnosticMap: { [key: number]: string } = {
   [95]: 'Explicit inexact syntax cannot appear in class or interface definitions',
   [96]: '`declare module` cannot be used inside another `declare module`',
   [97]: 'A binding pattern parameter cannot be optional in an implementation signature.',
-  [98]: 'A setter cannot have a `this` parameter.',
+  [98]: "A 'set' accessor cannot have a `this` parameter",
   [99]: 'Spread properties cannot have variance',
   [100]: 'A type annotation is required for the `this` parameter.',
   [101]: 'The `this` parameter must be the first function parameter.',
   [102]: '`_` is only allowed as a type argument to call or new',
-  [103]:
-    'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
+  [103]: 'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
   [104]: 'Only declares and type imports are allowed inside declare module',
   [105]: "Class methods cannot have the 'declare' modifier",
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
@@ -370,8 +372,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [141]: 'Function declarations can only be declared at top level or inside a block in strict mode',
   [143]: "'try' expected",
   [144]: 'Expected a `;`',
-  [145]:
-    "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
+  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
   [146]: 'Unicode escapes at the start of labels should not allow keywords',
   [148]: 'Duplicate label',
   [149]: 'Missing label',
@@ -447,11 +448,13 @@ export const diagnosticMap: { [key: number]: string } = {
   [220]: "'await' is only allowed within async functions and at the top levels of modules",
   [221]: "'of' expected",
   [222]: "Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label",
-  [223]:
-    "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label",
+  [223]: "Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label",
   [224]: "'#!' can only be used at the start of a file.",
   [225]: 'Private identifier cannot contain escape characters',
   [226]: "Private fields can't be accessed on super ",
   [227]: 'An optional parameter cannot be used within an array pattern',
-  [228]: 'Catch clause variable cannot have an type annotation'
+  [228]: 'Catch clause variable cannot have an type annotation',
+  [229]: "The 'this' keyword cannot be a formal parameter",
+  [231]: "A 'get' accessor cannot have a `this` parameter",
+  [232]: "A 'constructor' cannot have a `this` parameter"
 };

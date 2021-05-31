@@ -82,6 +82,7 @@
 ### Diagnostics
 
 ```javascript
+✖ The 'this' keyword cannot be a formal parameter - start: 19, end: 23
 ✖ ',' expected - start: 23, end: 24
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 24
 ✖ Expression expected - start: 23, end: 24

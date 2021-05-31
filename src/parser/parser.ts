@@ -637,7 +637,9 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
         context,
         scope,
         BindingType.CatchIdentifier,
-        DiagnosticCode.Private_identifiers_cannot_be_used_as_parameters
+        parser.token === SyntaxKind.PrivateIdentifier
+          ? DiagnosticCode.Private_identifiers_cannot_be_used_as_parameters
+          : DiagnosticCode.Binding_identifier_expected
       );
     }
 
@@ -3023,7 +3025,11 @@ function parsMethodParameters(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.A_get_accessor_cannot_have_parameters],
+        diagnosticMap[
+          parser.token === SyntaxKind.GetKeyword
+            ? DiagnosticCode.A_get_accessor_cannot_have_a_this_parameter
+            : DiagnosticCode.A_get_accessor_cannot_have_parameters
+        ],
         parser.curPos,
         parser.pos
       );
@@ -3042,11 +3048,15 @@ function parsMethodParameters(
             parser.pos
           );
         }
-        if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.ThisKeyword) {
+        if (parser.token === SyntaxKind.ThisKeyword) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error | DiagnosticKind.EarlyError,
-            diagnosticMap[DiagnosticCode.A_setter_cannot_have_a_this_parameter],
+            diagnosticMap[
+              context & Context.OptionsAllowTypes
+                ? DiagnosticCode.A_set_accessor_cannot_have_a_this_parameter
+                : DiagnosticCode.The_this_keyword_cannot_be_a_formal_parameter
+            ],
             parser.curPos,
             parser.pos
           );
@@ -6067,27 +6077,35 @@ function parseFormalParameter(
   let nodeflags = NodeFlags.ExpressionNode;
 
   if (parser.token === SyntaxKind.ThisKeyword) {
+    if ((context & Context.OptionsAllowTypes) === 0) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.The_this_keyword_cannot_be_a_formal_parameter],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
     const left = parseBindingIdentifier(parser, context, scope, BindingType.ArgumentList);
-    if (context & Context.OptionsAllowTypes) {
-      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-      if (optionalToken) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
-          parser.curPos,
-          parser.pos
-        );
-      }
-      if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
-          parser.curPos,
-          parser.pos
-        );
-      }
+    const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+    if (optionalToken) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
+        parser.curPos,
+        parser.pos
+      );
     }
 
     return createBindingElement(
@@ -8888,12 +8906,12 @@ export function parseFieldDefinition(
 function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateIdentifier {
   const pos = parser.curPos;
   const name = parser.tokenValue;
-  if ((context & Context.InClassBody) === 0) {
+  if ((context & Context.InClassBody) === 0 && parser.previousErrorPos !== parser.pos) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies],
-      parser.curPos,
+      pos,
       parser.pos
     );
   }

@@ -3502,10 +3502,10 @@ try {} catch({ x: "str" }) {}
 ✖ ',' expected - start: 401, end: 403
 ✖ Declaration or statement expected - start: 417, end: 419
 ✖ Declaration or statement expected - start: 419, end: 420
-✖ Private identifiers cannot be used as parameters - start: 438, end: 440
+✖ Binding identifier expected - start: 438, end: 440
 ✖ Declaration or statement expected - start: 440, end: 441
 ✖ Duplicate identifier - start: 463, end: 465
-✖ Private identifiers cannot be used as parameters - start: 486, end: 487
+✖ Binding identifier expected - start: 486, end: 487
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 535, end: 537
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 568, end: 570
 ✖ Duplicate identifier - start: 608, end: 612
