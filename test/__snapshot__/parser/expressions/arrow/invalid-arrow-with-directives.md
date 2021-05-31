@@ -3081,15 +3081,12 @@
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 650, end: 655
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 700, end: 705
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 745, end: 751
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 789, end: 794
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 832, end: 837
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 877, end: 883
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 913, end: 919
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 955, end: 960
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 998, end: 1003
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 1048, end: 1053
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 1093, end: 1099
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 1137, end: 1142
 
 ```
 
