@@ -26,7 +26,8 @@ async(a = (await) => {}) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 125,
+                    "kind": 281,
+                    "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
                         "text": "a",
@@ -35,12 +36,8 @@ async(a = (await) => {}) => {};
                         "start": 6,
                         "end": 7
                     },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 7,
-                        "end": 9
-                    },
+                    "optionalToken": null,
+                    "type": null,
                     "right": {
                         "kind": 271,
                         "arrowToken": {

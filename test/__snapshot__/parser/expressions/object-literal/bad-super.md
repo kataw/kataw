@@ -108,9 +108,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
-                                                            "kind": 220,
+                                                            "kind": 212,
                                                             "propertyList": {
-                                                                "kind": 218,
+                                                                "kind": 213,
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
@@ -154,11 +154,11 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 16,
+                                                                "flags": 32,
                                                                 "start": 39,
                                                                 "end": 51
                                                             },
-                                                            "flags": 48,
+                                                            "flags": 32,
                                                             "start": 38,
                                                             "end": 52
                                                         }

@@ -28,19 +28,19 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 223,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 2,
                                         "end": 5
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 220,
@@ -97,6 +97,9 @@
                                         "start": 5,
                                         "end": 16
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 16
@@ -108,8 +111,7 @@
                             "end": 16
                         },
                         "flags": 32,
-                        "start": 1,
-                        "end": 17
+                        "start": 1
                     }
                 ],
                 "asyncKeyword": null,
@@ -144,7 +146,7 @@
 
 ```javascript
 
-([...{ a = b } = c]) =>  d;
+([]) =>  d;
 ```
 
 ### Diagnostics

@@ -50,14 +50,15 @@ f = ([[,] = g()]) => {};
                     "typeParameters": null,
                     "parameters": [
                         {
-                            "kind": 119,
+                            "kind": 201,
                             "elementList": {
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
-                                            "kind": 119,
+                                            "kind": 201,
                                             "elementList": {
                                                 "kind": 270,
                                                 "elements": [
@@ -74,15 +75,10 @@ f = ([[,] = g()]) => {};
                                                 "end": 8
                                             },
                                             "flags": 32,
-                                            "start": 6,
-                                            "end": 9
+                                            "start": 6
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 9,
-                                            "end": 11
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 131,
                                             "expression": {
@@ -116,8 +112,7 @@ f = ([[,] = g()]) => {};
                                 "end": 15
                             },
                             "flags": 32,
-                            "start": 5,
-                            "end": 16
+                            "start": 5
                         }
                     ],
                     "asyncKeyword": null,
@@ -162,7 +157,7 @@ f = ([[,] = g()]) => {};
 
 ```javascript
 
-f = ([[,] = g()]) =>  {};
+f = ([]) =>  {};
 ```
 
 ### Diagnostics

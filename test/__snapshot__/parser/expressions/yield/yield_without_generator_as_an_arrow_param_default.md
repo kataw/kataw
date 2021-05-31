@@ -28,11 +28,12 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 220,
+                            "kind": 212,
                             "propertyList": {
-                                "kind": 218,
+                                "kind": 213,
                                 "properties": [
                                     {
                                         "kind": 134299649,
@@ -44,20 +45,16 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 3
                             },
-                            "flags": 48,
+                            "flags": 32,
                             "start": 1,
                             "end": 4
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 4,
-                            "end": 6
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 134299649,
                             "text": "yield",
@@ -109,7 +106,9 @@
 
 ```javascript
 
-({ x } = yield) =>  {};
+({
+  x
+} = yield) =>  {};
 ```
 
 ### Diagnostics

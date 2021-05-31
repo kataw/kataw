@@ -1595,7 +1595,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
-                                                            "kind": 125,
+                                                            "kind": 281,
+                                                            "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
@@ -1604,12 +1605,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                 "start": 440,
                                                                 "end": 441
                                                             },
-                                                            "operatorToken": {
-                                                                "kind": 4125,
-                                                                "flags": 64,
-                                                                "start": 441,
-                                                                "end": 442
-                                                            },
+                                                            "optionalToken": null,
+                                                            "type": null,
                                                             "right": {
                                                                 "kind": 131,
                                                                 "expression": {
@@ -2076,7 +2073,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
-                                                            "kind": 125,
+                                                            "kind": 281,
+                                                            "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
@@ -2085,12 +2083,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                 "start": 595,
                                                                 "end": 596
                                                             },
-                                                            "operatorToken": {
-                                                                "kind": 4125,
-                                                                "flags": 64,
-                                                                "start": 596,
-                                                                "end": 597
-                                                            },
+                                                            "optionalToken": null,
+                                                            "type": null,
                                                             "right": {
                                                                 "kind": 129,
                                                                 "member": {

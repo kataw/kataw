@@ -27,32 +27,30 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 3,
-                            "end": 4
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "z",
-                            "rawText": "z",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 6
-                        }
-                    ]
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 2
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 3,
+                        "end": 4
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "z",
+                        "rawText": "z",
+                        "flags": 96,
+                        "start": 5,
+                        "end": 6
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -92,7 +90,7 @@
 
 ```javascript
 
-() =>  {};
+(x, y, z) =>  {};
 ```
 
 ### Diagnostics

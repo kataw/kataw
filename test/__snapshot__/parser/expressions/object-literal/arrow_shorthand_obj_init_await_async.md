@@ -26,12 +26,13 @@ async ({await = x}) => x
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 220,
+                    "kind": 212,
                     "propertyList": {
-                        "kind": 218,
+                        "kind": 213,
                         "properties": [
                             {
-                                "kind": 205,
+                                "kind": 281,
+                                "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "await",
@@ -40,6 +41,8 @@ async ({await = x}) => x
                                     "start": 8,
                                     "end": 13
                                 },
+                                "optionalToken": null,
+                                "type": null,
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -54,11 +57,11 @@ async ({await = x}) => x
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 16,
+                        "flags": 32,
                         "start": 8,
                         "end": 17
                     },
-                    "flags": 48,
+                    "flags": 32,
                     "start": 7,
                     "end": 18
                 }
@@ -96,7 +99,9 @@ async ({await = x}) => x
 
 ```javascript
 
-async ({ await = x }) =>  x
+async ({
+  await = x
+}) =>  x
 ```
 
 ### Diagnostics

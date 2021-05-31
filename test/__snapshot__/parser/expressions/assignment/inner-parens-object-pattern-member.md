@@ -34,11 +34,12 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 220,
+                            "kind": 212,
                             "propertyList": {
-                                "kind": 218,
+                                "kind": 213,
                                 "properties": [
                                     {
                                         "kind": 219,
@@ -85,20 +86,16 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 15
                             },
-                            "flags": 48,
+                            "flags": 32,
                             "start": 1,
                             "end": 17
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 17,
-                            "end": 19
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 220,
                             "propertyList": {
@@ -156,7 +153,9 @@
 
 ```javascript
 
-({ a: (foo.qux) } = {}) =>  {};
+({
+  a: (foo.qux)
+} = {}) =>  {};
 ```
 
 ### Diagnostics

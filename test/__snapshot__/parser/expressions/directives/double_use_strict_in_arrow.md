@@ -27,40 +27,38 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 134299649,
-                            "text": "w",
-                            "rawText": "w",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "o",
-                            "rawText": "o",
-                            "flags": 96,
-                            "start": 3,
-                            "end": 5
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "e",
-                            "rawText": "e",
-                            "flags": 96,
-                            "start": 6,
-                            "end": 8
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "m",
-                            "rawText": "m",
-                            "flags": 96,
-                            "start": 9,
-                            "end": 11
-                        }
-                    ]
+                    {
+                        "kind": 134299649,
+                        "text": "w",
+                        "rawText": "w",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 2
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "o",
+                        "rawText": "o",
+                        "flags": 96,
+                        "start": 3,
+                        "end": 5
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "e",
+                        "rawText": "e",
+                        "flags": 96,
+                        "start": 6,
+                        "end": 8
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "m",
+                        "rawText": "m",
+                        "flags": 96,
+                        "start": 9,
+                        "end": 11
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -117,7 +115,7 @@
 
 ```javascript
 
-() =>  {};
+(w, o, e, m) =>  {};
 ```
 
 ### Diagnostics

@@ -28,20 +28,13 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 119,
+                            "kind": 201,
                             "elementList": {
                                 "kind": 270,
                                 "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 2,
-                                        "end": 3
-                                    },
                                     {
                                         "kind": 134299649,
                                         "text": "y",
@@ -49,6 +42,14 @@
                                         "flags": 96,
                                         "start": 4,
                                         "end": 6
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 3
                                     }
                                 ],
                                 "trailingComma": false,
@@ -57,15 +58,10 @@
                                 "end": 6
                             },
                             "flags": 32,
-                            "start": 1,
-                            "end": 7
+                            "start": 1
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 7,
-                            "end": 9
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 134299649,
                             "text": "z",
@@ -111,7 +107,7 @@
 
 ```javascript
 
-([x, y] = z) =>  x;
+([y, x] = z) =>  x;
 ```
 
 ### Diagnostics

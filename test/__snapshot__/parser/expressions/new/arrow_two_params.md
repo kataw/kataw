@@ -35,24 +35,22 @@ new (a,b) => x
                     },
                     "typeParameters": null,
                     "parameters": [
-                        [
-                            {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 6
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 7,
-                                "end": 8
-                            }
-                        ]
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 5,
+                            "end": 6
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        }
                     ],
                     "asyncKeyword": null,
                     "returnType": null,
@@ -91,7 +89,7 @@ new (a,b) => x
 
 ```javascript
 
-new  () =>  x();
+new  (a, b) =>  x();
 ```
 
 ### Diagnostics

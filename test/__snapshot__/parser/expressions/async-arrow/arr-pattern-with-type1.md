@@ -40,7 +40,7 @@ async ([{x}: string]) =>  {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 119,
+                    "kind": 201,
                     "elementList": {
                         "kind": 270,
                         "elements": [
@@ -80,8 +80,7 @@ async ([{x}: string]) =>  {};
                         "end": 17
                     },
                     "flags": 32,
-                    "start": 7,
-                    "end": 18
+                    "start": 7
                 }
             ],
             "asyncKeyword": {
@@ -126,7 +125,7 @@ async ([{x}: string]) =>  {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 119,
+                    "kind": 201,
                     "elementList": {
                         "kind": 270,
                         "elements": [
@@ -181,8 +180,7 @@ async ([{x}: string]) =>  {};
                         "end": 48
                     },
                     "flags": 32,
-                    "start": 36,
-                    "end": 49
+                    "start": 36
                 }
             ],
             "asyncKeyword": {
@@ -227,7 +225,7 @@ async ([{x}: string]) =>  {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 119,
+                    "kind": 201,
                     "elementList": {
                         "kind": 270,
                         "elements": [
@@ -303,8 +301,7 @@ async ([{x}: string]) =>  {};
                         "end": 87
                     },
                     "flags": 32,
-                    "start": 67,
-                    "end": 88
+                    "start": 67
                 }
             ],
             "asyncKeyword": {
@@ -349,7 +346,7 @@ async ([{x}: string]) =>  {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 119,
+                    "kind": 201,
                     "elementList": {
                         "kind": 270,
                         "elements": [
@@ -404,8 +401,7 @@ async ([{x}: string]) =>  {};
                         "end": 118
                     },
                     "flags": 32,
-                    "start": 106,
-                    "end": 119
+                    "start": 106
                 }
             ],
             "asyncKeyword": {

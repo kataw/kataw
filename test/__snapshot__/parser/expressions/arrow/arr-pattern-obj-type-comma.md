@@ -49,51 +49,49 @@ x = (x, {}:string) => {} ;
                     },
                     "typeParameters": null,
                     "parameters": [
-                        [
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 6
-                            },
-                            {
-                                "kind": 281,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 220,
-                                    "propertyList": {
-                                        "kind": 218,
-                                        "properties": [],
-                                        "trailingComma": false,
-                                        "flags": 16,
-                                        "start": 9,
-                                        "end": 9
-                                    },
-                                    "flags": 48,
-                                    "start": 7,
-                                    "end": 10
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 5,
+                            "end": 6
+                        },
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 220,
+                                "propertyList": {
+                                    "kind": 218,
+                                    "properties": [],
+                                    "trailingComma": false,
+                                    "flags": 16,
+                                    "start": 9,
+                                    "end": 9
                                 },
-                                "optionalToken": null,
+                                "flags": 48,
+                                "start": 7,
+                                "end": 10
+                            },
+                            "optionalToken": null,
+                            "type": {
+                                "kind": 139,
                                 "type": {
-                                    "kind": 139,
-                                    "type": {
-                                        "kind": 134234347,
-                                        "flags": 64,
-                                        "start": 11,
-                                        "end": 17
-                                    },
-                                    "flags": 0,
-                                    "start": 10,
+                                    "kind": 134234347,
+                                    "flags": 64,
+                                    "start": 11,
                                     "end": 17
                                 },
-                                "right": null,
-                                "flags": 32,
-                                "start": 3,
+                                "flags": 0,
+                                "start": 10,
                                 "end": 17
-                            }
-                        ]
+                            },
+                            "right": null,
+                            "flags": 32,
+                            "start": 3,
+                            "end": 17
+                        }
                     ],
                     "asyncKeyword": null,
                     "returnType": null,
@@ -137,7 +135,7 @@ x = (x, {}:string) => {} ;
 
 ```javascript
 
-x = () =>  {};
+x = (x, {}) =>  {};
 ```
 
 ### Diagnostics

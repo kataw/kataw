@@ -4025,6 +4025,88 @@ function parseSpreadElement(parser: ParserState, context: Context): SpreadElemen
   );
 }
 
+export function convertArrowParameter(parser: ParserState, node: any): any {
+  switch (node.kind) {
+    case SyntaxKind.Elison:
+    case SyntaxKind.Identifier:
+    case SyntaxKind.BindingElement:
+      return node;
+    case SyntaxKind.ArrayLiteral:
+      return createArrayBindingPattern(
+        convertArrowParameter(parser, node.elementList),
+        node.flags,
+        node.start,
+        node.number
+      );
+    case SyntaxKind.ElementList:
+      let listElements = [];
+      let arrayElements = node.elements;
+      let i = arrayElements.length;
+      while (i--) {
+        listElements.push(convertArrowParameter(parser, arrayElements[i]));
+      }
+      return createElementList(
+        listElements,
+        /* trailingComma */ node.trailingComma,
+        NodeFlags.ExpressionNode,
+        node.start,
+        node.end
+      );
+    case SyntaxKind.AssignmentExpression:
+      return createBindingElement(
+        /* ellipsisToken */ null,
+        convertArrowParameter(parser, node.left),
+        /* optionalToken */ null,
+        /* type */ null,
+        node.right,
+        NodeFlags.ExpressionNode,
+        node.start,
+        node.end
+      );
+    case SyntaxKind.ObjectLiteral:
+      return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.start, node.end);
+    case SyntaxKind.PropertyDefinitionList:
+      //createBindingPropertyList()
+      let bindingProperty = [];
+      let properties = node.properties;
+      for (let i = 0, n = properties.length; i < n; ++i) {
+        bindingProperty.push(convertArrowParameter(parser, properties[i]));
+      }
+      return createBindingPropertyList(
+        bindingProperty,
+        NodeFlags.ExpressionNode,
+        /* trailingComma */ node.trailingComma,
+        node.start,
+        node.end
+      );
+    case SyntaxKind.CoverInitializedName: {
+      return createBindingElement(
+        /* ellipsisToken */ null,
+        convertArrowParameter(parser, node.left),
+        /* optionalToken */ null,
+        /* type */ null,
+        node.right,
+        node.flags,
+        node.start,
+        node.end
+      );
+    }
+    case SyntaxKind.SpreadElement:
+      return createBindingElement(
+        node.ellipsisToken,
+        node.argument,
+        /* optionalToken */ null,
+        /* type */ null,
+        /* right */ null,
+        node.flags | NodeFlags.ExpressionNode,
+        node.start,
+        node.end
+      );
+    default:
+      return node;
+  }
+}
+
 // CoverParenthesizedExpressionAndArrowParameterList :
 //   `(` Expression `)`
 //   `(` Expression `,` `)`
@@ -4464,6 +4546,8 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           );
         }
 
+        expression = convertArrowParameter(parser, expression);
+
         return parseArrowFunction(
           parser,
           context,
@@ -4831,13 +4915,22 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parser.pos
         );
       }
+      let arrowParams = [];
+      if (expressions) {
+        let length = expressions.length;
+        if (length) {
+          for (let i = 0; i < length; ++i) {
+            arrowParams.push(convertArrowParameter(parser, expressions[i]));
+          }
+        }
+      }
       return parseArrowFunction(
         parser,
         context,
         scope,
         typeParameters,
         parseTypeAnnotation(parser, context),
-        [expressions],
+        arrowParams,
         null,
         flags,
         curPos
@@ -5067,7 +5160,7 @@ function parseBindingPropertyList(
 
     if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if (bindingProperty.ellipsisToken) {
+      if (bindingProperty.kind !== SyntaxKind.Identifier && (bindingProperty as any).ellipsisToken) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -5113,7 +5206,7 @@ function parseBindingProperty(
   context: Context,
   scope: ScopeState,
   type: BindingType
-): BindingProperty | BindingElement | any {
+): BindingProperty | BindingElement | Identifier | DummyIdentifier {
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
 
@@ -9465,14 +9558,22 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           parser.pos
         );
       }
-
+      let arrowParams = [];
+      if (params) {
+        let length = params.length;
+        if (length) {
+          for (let i = 0; i < length; ++i) {
+            arrowParams.push(convertArrowParameter(parser, params[i]));
+          }
+        }
+      }
       return parseArrowFunction(
         parser,
         context,
         scope,
         typeParameters,
         parseTypeAnnotation(parser, context),
-        params,
+        arrowParams,
         asyncToken,
         /* nodeFlags */ flags | NodeFlags.Async,
         start

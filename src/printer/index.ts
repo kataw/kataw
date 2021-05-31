@@ -1237,6 +1237,8 @@ function printObjectBindingPattern(node: any, printer: Printer, parentNode: any)
 }
 
 function printBindingPropertyList(node: any, printer: Printer, parentNode: any): any {
+  //console.log('adjsfldfsakjlalkjdasfjfdasdfsajldfkdsasd')
+  //console.log(node)
   return node.properties.length === 0
     ? '{}'
     : group(

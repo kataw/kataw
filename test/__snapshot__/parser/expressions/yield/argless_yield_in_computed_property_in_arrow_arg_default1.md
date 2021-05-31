@@ -66,7 +66,8 @@ function *g(){ (x = {[yield]: 1}) => z }
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -75,12 +76,8 @@ function *g(){ (x = {[yield]: 1}) => z }
                                             "start": 16,
                                             "end": 17
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 17,
-                                            "end": 19
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 220,
                                             "propertyList": {

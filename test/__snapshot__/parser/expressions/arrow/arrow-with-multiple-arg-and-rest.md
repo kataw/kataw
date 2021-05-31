@@ -27,47 +27,45 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 96,
-                            "start": 3,
-                            "end": 4
-                        },
-                        {
-                            "kind": 281,
-                            "ellipsisToken": {
-                                "kind": 524302,
-                                "flags": 64,
-                                "start": 5,
-                                "end": 8
-                            },
-                            "left": {
-                                "kind": 134299649,
-                                "text": "c",
-                                "rawText": "c",
-                                "flags": 96,
-                                "start": 8,
-                                "end": 9
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "right": null,
-                            "flags": 34,
+                    {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 2
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "b",
+                        "rawText": "b",
+                        "flags": 96,
+                        "start": 3,
+                        "end": 4
+                    },
+                    {
+                        "kind": 281,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
                             "start": 5,
+                            "end": 8
+                        },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "c",
+                            "rawText": "c",
+                            "flags": 96,
+                            "start": 8,
                             "end": 9
-                        }
-                    ]
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": null,
+                        "flags": 34,
+                        "start": 5,
+                        "end": 9
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -101,7 +99,7 @@
 
 ```javascript
 
-() =>  0;
+(a, b, ...c) =>  0;
 ```
 
 ### Diagnostics

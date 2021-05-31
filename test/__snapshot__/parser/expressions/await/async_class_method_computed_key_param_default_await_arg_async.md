@@ -68,7 +68,8 @@ async function f(){
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "fail",
@@ -77,12 +78,8 @@ async function f(){
                                             "start": 23,
                                             "end": 27
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 27,
-                                            "end": 29
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 189,
                                             "decorators": null,

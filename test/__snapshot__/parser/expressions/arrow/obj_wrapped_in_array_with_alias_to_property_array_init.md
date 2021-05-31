@@ -28,16 +28,17 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 119,
+                            "kind": 201,
                             "elementList": {
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 220,
+                                        "kind": 212,
                                         "propertyList": {
-                                            "kind": 218,
+                                            "kind": 213,
                                             "properties": [
                                                 {
                                                     "kind": 219,
@@ -78,11 +79,11 @@
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 16,
+                                            "flags": 32,
                                             "start": 3,
                                             "end": 9
                                         },
-                                        "flags": 48,
+                                        "flags": 32,
                                         "start": 2,
                                         "end": 10
                                     }
@@ -93,15 +94,10 @@
                                 "end": 10
                             },
                             "flags": 32,
-                            "start": 1,
-                            "end": 11
+                            "start": 1
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 11,
-                            "end": 13
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 134299649,
                             "text": "a",

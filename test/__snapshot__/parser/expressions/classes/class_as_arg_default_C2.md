@@ -44,12 +44,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
                     "typeParameters": null,
                     "parameters": [
                         {
-                            "kind": 119,
+                            "kind": 201,
                             "elementList": {
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "xCls2",
@@ -58,12 +59,8 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                             "start": 6,
                                             "end": 11
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 11,
-                                            "end": 13
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 189,
                                             "decorators": null,
@@ -161,8 +158,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                 "end": 40
                             },
                             "flags": 32,
-                            "start": 5,
-                            "end": 41
+                            "start": 5
                         }
                     ],
                     "asyncKeyword": null,

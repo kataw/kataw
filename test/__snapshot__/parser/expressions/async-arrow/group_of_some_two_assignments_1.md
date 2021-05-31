@@ -26,7 +26,8 @@ async (a = 1, b = 2) => x;
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 125,
+                    "kind": 281,
+                    "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
                         "text": "a",
@@ -35,12 +36,8 @@ async (a = 1, b = 2) => x;
                         "start": 7,
                         "end": 8
                     },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 8,
-                        "end": 10
-                    },
+                    "optionalToken": null,
+                    "type": null,
                     "right": {
                         "kind": 201392130,
                         "text": 1,
@@ -54,7 +51,8 @@ async (a = 1, b = 2) => x;
                     "end": 12
                 },
                 {
-                    "kind": 125,
+                    "kind": 281,
+                    "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
                         "text": "b",
@@ -63,12 +61,8 @@ async (a = 1, b = 2) => x;
                         "start": 13,
                         "end": 15
                     },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 17
-                    },
+                    "optionalToken": null,
+                    "type": null,
                     "right": {
                         "kind": 201392130,
                         "text": 2,

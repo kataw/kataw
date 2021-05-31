@@ -33,7 +33,8 @@
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -42,12 +43,8 @@
                                         "start": 3,
                                         "end": 4
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 4,
-                                        "end": 6
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 220,
                                         "propertyList": {

@@ -74,7 +74,8 @@ async function fn() {
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -83,12 +84,8 @@ async function fn() {
                                         "start": 31,
                                         "end": 32
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 32,
-                                        "end": 34
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 131,
                                         "expression": {

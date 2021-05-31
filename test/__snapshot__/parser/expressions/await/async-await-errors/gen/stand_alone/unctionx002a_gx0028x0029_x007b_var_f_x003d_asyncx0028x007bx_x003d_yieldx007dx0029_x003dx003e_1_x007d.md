@@ -106,12 +106,13 @@ unction* g() { var f = async({x = yield}) => 1; }
                                         "typeParameters": null,
                                         "parameters": [
                                             {
-                                                "kind": 220,
+                                                "kind": 212,
                                                 "propertyList": {
-                                                    "kind": 218,
+                                                    "kind": 213,
                                                     "properties": [
                                                         {
-                                                            "kind": 205,
+                                                            "kind": 281,
+                                                            "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
@@ -120,6 +121,8 @@ unction* g() { var f = async({x = yield}) => 1; }
                                                                 "start": 30,
                                                                 "end": 31
                                                             },
+                                                            "optionalToken": null,
+                                                            "type": null,
                                                             "right": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
@@ -134,11 +137,11 @@ unction* g() { var f = async({x = yield}) => 1; }
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 16,
+                                                    "flags": 32,
                                                     "start": 30,
                                                     "end": 39
                                                 },
-                                                "flags": 48,
+                                                "flags": 32,
                                                 "start": 29,
                                                 "end": 40
                                             }

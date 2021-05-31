@@ -56,87 +56,85 @@ const f = (x?, y?:Object = {}) => {}
                             },
                             "typeParameters": null,
                             "parameters": [
-                                [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 11,
-                                            "end": 12
-                                        },
-                                        "optionalToken": {
-                                            "kind": 134217750,
-                                            "flags": 64,
-                                            "start": 12,
-                                            "end": 13
-                                        },
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
-                                        "start": 9,
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    "optionalToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 12,
                                         "end": 13
                                     },
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 14,
-                                            "end": 16
-                                        },
-                                        "optionalToken": {
-                                            "kind": 134217750,
-                                            "flags": 64,
-                                            "start": 16,
-                                            "end": 17
-                                        },
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 9,
+                                    "end": 13
+                                },
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 14,
+                                        "end": 16
+                                    },
+                                    "optionalToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 16,
+                                        "end": 17
+                                    },
+                                    "type": {
+                                        "kind": 139,
                                         "type": {
-                                            "kind": 139,
-                                            "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "Object",
-                                                    "rawText": "Object",
-                                                    "flags": 96,
-                                                    "start": 18,
-                                                    "end": 24
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "Object",
+                                                "rawText": "Object",
+                                                "flags": 96,
                                                 "start": 18,
                                                 "end": 24
                                             },
+                                            "typeParameters": null,
                                             "flags": 0,
-                                            "start": 17,
+                                            "start": 18,
                                             "end": 24
                                         },
-                                        "right": {
-                                            "kind": 220,
-                                            "propertyList": {
-                                                "kind": 218,
-                                                "properties": [],
-                                                "trailingComma": false,
-                                                "flags": 16,
-                                                "start": 28,
-                                                "end": 28
-                                            },
-                                            "flags": 48,
-                                            "start": 26,
-                                            "end": 29
+                                        "flags": 0,
+                                        "start": 17,
+                                        "end": 24
+                                    },
+                                    "right": {
+                                        "kind": 220,
+                                        "propertyList": {
+                                            "kind": 218,
+                                            "properties": [],
+                                            "trailingComma": false,
+                                            "flags": 16,
+                                            "start": 28,
+                                            "end": 28
                                         },
-                                        "flags": 32,
-                                        "start": 9,
+                                        "flags": 48,
+                                        "start": 26,
                                         "end": 29
-                                    }
-                                ]
+                                    },
+                                    "flags": 32,
+                                    "start": 9,
+                                    "end": 29
+                                }
                             ],
                             "asyncKeyword": null,
                             "returnType": null,
@@ -185,7 +183,7 @@ const f = (x?, y?:Object = {}) => {}
 
 ```javascript
 
-const f = () =>  {};
+const f = (x?, y? = {}) =>  {};
 ```
 
 ### Diagnostics

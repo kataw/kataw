@@ -161,9 +161,10 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                 "typeParameters": null,
                                                                 "parameters": [
                                                                     {
-                                                                        "kind": 125,
+                                                                        "kind": 281,
+                                                                        "ellipsisToken": null,
                                                                         "left": {
-                                                                            "kind": 119,
+                                                                            "kind": 201,
                                                                             "elementList": {
                                                                                 "kind": 270,
                                                                                 "elements": [
@@ -182,15 +183,10 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                                 "end": 72
                                                                             },
                                                                             "flags": 32,
-                                                                            "start": 70,
-                                                                            "end": 73
+                                                                            "start": 70
                                                                         },
-                                                                        "operatorToken": {
-                                                                            "kind": 4125,
-                                                                            "flags": 64,
-                                                                            "start": 73,
-                                                                            "end": 75
-                                                                        },
+                                                                        "optionalToken": null,
+                                                                        "type": null,
                                                                         "right": {
                                                                             "kind": 119,
                                                                             "elementList": {

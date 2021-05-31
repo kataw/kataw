@@ -642,13 +642,16 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 223,
+                    "kind": 281,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 200,
                         "end": 203
                     },
+                    "optionalToken": null,
+                    "type": null,
+                    "right": null,
                     "flags": 32,
                     "start": 200,
                     "end": 212
@@ -696,13 +699,16 @@ async (...[x]?: string, a?) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 223,
+                    "kind": 281,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 229,
                         "end": 232
                     },
+                    "optionalToken": null,
+                    "type": null,
+                    "right": null,
                     "flags": 32,
                     "start": 229,
                     "end": 242

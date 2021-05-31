@@ -28,9 +28,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 219,
@@ -55,11 +55,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 2,
                             "end": 11
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 1,
                         "end": 12
                     }

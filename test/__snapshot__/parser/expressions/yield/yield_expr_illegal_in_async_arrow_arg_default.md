@@ -26,7 +26,8 @@ async (x = yield y) => {}
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 125,
+                    "kind": 281,
+                    "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
                         "text": "x",
@@ -35,12 +36,8 @@ async (x = yield y) => {}
                         "start": 7,
                         "end": 8
                     },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 8,
-                        "end": 10
-                    },
+                    "optionalToken": null,
+                    "type": null,
                     "right": {
                         "kind": 134299649,
                         "text": "yield",

@@ -28,17 +28,18 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 205,
+                                                "kind": 281,
+                                                "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -47,6 +48,8 @@
                                                     "start": 3,
                                                     "end": 4
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "y",
@@ -61,11 +64,11 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 3,
                                         "end": 8
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 9
                                 }
@@ -76,8 +79,7 @@
                             "end": 9
                         },
                         "flags": 32,
-                        "start": 1,
-                        "end": 10
+                        "start": 1
                     }
                 ],
                 "asyncKeyword": null,
@@ -112,7 +114,7 @@
 
 ```javascript
 
-([{ x = y }]) =>  z;
+([]) =>  z;
 ```
 
 ### Diagnostics

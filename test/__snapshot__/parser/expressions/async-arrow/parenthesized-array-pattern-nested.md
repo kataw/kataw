@@ -26,16 +26,18 @@ async ([ [(a)] = [] ] = []) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 125,
+                    "kind": 281,
+                    "ellipsisToken": null,
                     "left": {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
-                                        "kind": 119,
+                                        "kind": 201,
                                         "elementList": {
                                             "kind": 270,
                                             "elements": [
@@ -60,15 +62,10 @@ async ([ [(a)] = [] ] = []) => {};
                                             "end": 13
                                         },
                                         "flags": 32,
-                                        "start": 8,
-                                        "end": 14
+                                        "start": 8
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 14,
-                                        "end": 16
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 119,
                                         "elementList": {
@@ -94,15 +91,10 @@ async ([ [(a)] = [] ] = []) => {};
                             "end": 19
                         },
                         "flags": 32,
-                        "start": 7,
-                        "end": 21
+                        "start": 7
                     },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 21,
-                        "end": 23
-                    },
+                    "optionalToken": null,
+                    "type": null,
                     "right": {
                         "kind": 119,
                         "elementList": {
@@ -167,7 +159,7 @@ async ([ [(a)] = [] ] = []) => {};
 
 ```javascript
 
-async ([[(a)] = []] = []) =>  {}
+async ([] = []) =>  {}
 
 ```
 

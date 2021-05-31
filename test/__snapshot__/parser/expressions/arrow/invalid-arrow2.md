@@ -55,38 +55,36 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 536871042,
-                            "member": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 1,
-                                "end": 2
-                            },
-                            "expression": {
-                                "kind": 201392131,
-                                "text": "b",
-                                "rawText": "'b'",
-                                "flags": 4194400,
-                                "start": 3,
-                                "end": 6
-                            },
-                            "flags": 32,
-                            "start": 0,
-                            "end": 7
-                        },
-                        {
+                    {
+                        "kind": 536871042,
+                        "member": {
                             "kind": 134299649,
-                            "text": "c",
-                            "rawText": "c",
+                            "text": "a",
+                            "rawText": "a",
                             "flags": 96,
-                            "start": 8,
-                            "end": 10
-                        }
-                    ]
+                            "start": 1,
+                            "end": 2
+                        },
+                        "expression": {
+                            "kind": 201392131,
+                            "text": "b",
+                            "rawText": "'b'",
+                            "flags": 4194400,
+                            "start": 3,
+                            "end": 6
+                        },
+                        "flags": 32,
+                        "start": 0,
+                        "end": 7
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "c",
+                        "rawText": "c",
+                        "flags": 96,
+                        "start": 8,
+                        "end": 10
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -307,9 +305,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 219,
@@ -334,11 +332,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 81,
                             "end": 88
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 80,
                         "end": 89
                     }
@@ -380,11 +378,12 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 220,
+                            "kind": 212,
                             "propertyList": {
-                                "kind": 218,
+                                "kind": 213,
                                 "properties": [
                                     {
                                         "kind": 219,
@@ -425,20 +424,16 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 102,
                                 "end": 108
                             },
-                            "flags": 48,
+                            "flags": 32,
                             "start": 101,
                             "end": 109
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 109,
-                            "end": 111
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 134299649,
                             "text": "a",
@@ -921,9 +916,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 257,
@@ -980,11 +975,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 257,
                             "end": 266
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 256,
                         "end": 267
                     }
@@ -1077,9 +1072,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 219,
@@ -1113,11 +1108,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 298,
                             "end": 306
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 297,
                         "end": 307
                     }

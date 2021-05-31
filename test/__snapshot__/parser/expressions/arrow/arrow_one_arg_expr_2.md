@@ -27,24 +27,22 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 3,
-                            "end": 5
-                        }
-                    ]
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 2
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 3,
+                        "end": 5
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -78,7 +76,7 @@
 
 ```javascript
 
-() =>  x;
+(x, y) =>  x;
 ```
 
 ### Diagnostics

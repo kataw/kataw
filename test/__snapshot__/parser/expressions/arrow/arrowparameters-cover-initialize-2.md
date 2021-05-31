@@ -50,12 +50,13 @@ var af = ({x = 1}) => x;
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 205,
+                                                "kind": 281,
+                                                "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -64,6 +65,8 @@ var af = ({x = 1}) => x;
                                                     "start": 11,
                                                     "end": 12
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
@@ -78,11 +81,11 @@ var af = ({x = 1}) => x;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 16
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 17
                                 }
@@ -128,7 +131,9 @@ var af = ({x = 1}) => x;
 
 ```javascript
 
-var af = ({ x = 1 }) =>  x;
+var af = ({
+  x = 1
+}) =>  x;
 ```
 
 ### Diagnostics

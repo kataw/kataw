@@ -50,7 +50,8 @@ let f = async
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "g",
@@ -59,12 +60,8 @@ let f = async
                                         "start": 16,
                                         "end": 17
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 17,
-                                        "end": 19
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 134299649,
                                         "text": "await",

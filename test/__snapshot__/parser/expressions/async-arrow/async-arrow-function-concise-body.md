@@ -50,7 +50,8 @@ var a = async (options = {}) => options;
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "options",
@@ -59,12 +60,8 @@ var a = async (options = {}) => options;
                                         "start": 15,
                                         "end": 22
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 22,
-                                        "end": 24
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 220,
                                         "propertyList": {

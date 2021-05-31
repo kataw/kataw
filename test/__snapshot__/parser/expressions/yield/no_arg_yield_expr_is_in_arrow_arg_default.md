@@ -64,7 +64,8 @@ function *f(){ async (x = yield) => {} }
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -73,12 +74,8 @@ function *f(){ async (x = yield) => {} }
                                         "start": 22,
                                         "end": 23
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 23,
-                                        "end": 25
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 229,
                                         "yieldKeyword": {

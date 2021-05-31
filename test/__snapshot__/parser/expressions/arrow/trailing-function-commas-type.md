@@ -35,46 +35,44 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "props",
-                                "rawText": "props",
-                                "flags": 96,
-                                "start": 1,
-                                "end": 7
-                            },
-                            "optionalToken": null,
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "props",
+                            "rawText": "props",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 7
+                        },
+                        "optionalToken": null,
+                        "type": {
+                            "kind": 139,
                             "type": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "SomeType",
-                                        "rawText": "SomeType",
-                                        "flags": 96,
-                                        "start": 8,
-                                        "end": 17
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 0,
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "SomeType",
+                                    "rawText": "SomeType",
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 17
                                 },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 7,
+                                "start": 8,
                                 "end": 17
                             },
-                            "right": null,
-                            "flags": 32,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 7,
                             "end": 17
-                        }
-                    ]
+                        },
+                        "right": null,
+                        "flags": 32,
+                        "start": 0,
+                        "end": 17
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": {
@@ -134,7 +132,7 @@
 
 ```javascript
 
-() =>  (3);
+(props) =>  (3);
 ```
 
 ### Diagnostics

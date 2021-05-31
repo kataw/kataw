@@ -76,9 +76,10 @@
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
-                                        "kind": 119,
+                                        "kind": 201,
                                         "elementList": {
                                             "kind": 270,
                                             "elements": [
@@ -97,15 +98,10 @@
                                             "end": 47
                                         },
                                         "flags": 32,
-                                        "start": 45,
-                                        "end": 48
+                                        "start": 45
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 48,
-                                        "end": 50
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 119,
                                         "elementList": {

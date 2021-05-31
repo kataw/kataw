@@ -28,16 +28,18 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 119,
+                            "kind": 201,
                             "elementList": {
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
-                                            "kind": 119,
+                                            "kind": 201,
                                             "elementList": {
                                                 "kind": 270,
                                                 "elements": [
@@ -62,15 +64,10 @@
                                                 "end": 7
                                             },
                                             "flags": 32,
-                                            "start": 2,
-                                            "end": 8
+                                            "start": 2
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 8,
-                                            "end": 10
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 119,
                                             "elementList": {
@@ -96,15 +93,10 @@
                                 "end": 13
                             },
                             "flags": 32,
-                            "start": 1,
-                            "end": 15
+                            "start": 1
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 17
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 119,
                             "elementList": {
@@ -162,7 +154,7 @@
 
 ```javascript
 
-([[(a)] = []] = []) =>  {};
+([] = []) =>  {};
 ```
 
 ### Diagnostics

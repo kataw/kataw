@@ -145,24 +145,22 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             },
                             "typeParameters": null,
                             "parameters": [
-                                [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "o1",
-                                        "rawText": "o1",
-                                        "flags": 96,
-                                        "start": 47,
-                                        "end": 50
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "o2",
-                                        "rawText": "o2",
-                                        "flags": 96,
-                                        "start": 51,
-                                        "end": 54
-                                    }
-                                ]
+                                {
+                                    "kind": 134299649,
+                                    "text": "o1",
+                                    "rawText": "o1",
+                                    "flags": 96,
+                                    "start": 47,
+                                    "end": 50
+                                },
+                                {
+                                    "kind": 134299649,
+                                    "text": "o2",
+                                    "rawText": "o2",
+                                    "flags": 96,
+                                    "start": 51,
+                                    "end": 54
+                                }
                             ],
                             "asyncKeyword": null,
                             "returnType": null,
@@ -205,7 +203,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 
 ```javascript
 
-const fn = () =>  o1;
+const fn = (o1, o2) =>  o1;
 ```
 
 ### Diagnostics

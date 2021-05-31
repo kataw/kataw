@@ -50,7 +50,8 @@ var af = (x = 1) => x;
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -59,12 +60,8 @@ var af = (x = 1) => x;
                                         "start": 10,
                                         "end": 11
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 11,
-                                        "end": 13
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 201392130,
                                         "text": 1,

@@ -31,7 +31,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
@@ -84,8 +84,7 @@
                             "end": 11
                         },
                         "flags": 32,
-                        "start": 1,
-                        "end": 12
+                        "start": 1
                     }
                 ],
                 "asyncKeyword": null,
@@ -119,9 +118,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 219,
@@ -168,11 +167,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 23,
                             "end": 35
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 22,
                         "end": 36
                     }

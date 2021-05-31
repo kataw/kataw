@@ -34,7 +34,7 @@ async ([{x}: string], y, z: string) =>  {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 119,
+                    "kind": 201,
                     "elementList": {
                         "kind": 270,
                         "elements": [
@@ -89,8 +89,7 @@ async ([{x}: string], y, z: string) =>  {};
                         "end": 19
                     },
                     "flags": 32,
-                    "start": 7,
-                    "end": 20
+                    "start": 7
                 },
                 {
                     "kind": 134299649,

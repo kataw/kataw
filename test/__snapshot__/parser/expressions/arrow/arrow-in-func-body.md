@@ -177,39 +177,37 @@
                                             },
                                             "typeParameters": null,
                                             "parameters": [
-                                                [
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "yield",
-                                                        "rawText": "yield",
-                                                        "flags": 96,
-                                                        "start": 53,
-                                                        "end": 58
-                                                    },
-                                                    {
-                                                        "kind": 281,
-                                                        "ellipsisToken": {
-                                                            "kind": 524302,
-                                                            "flags": 64,
-                                                            "start": 59,
-                                                            "end": 63
-                                                        },
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 63,
-                                                            "end": 64
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": null,
-                                                        "flags": 34,
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "yield",
+                                                    "rawText": "yield",
+                                                    "flags": 96,
+                                                    "start": 53,
+                                                    "end": 58
+                                                },
+                                                {
+                                                    "kind": 281,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 64,
                                                         "start": 59,
+                                                        "end": 63
+                                                    },
+                                                    "left": {
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
+                                                        "start": 63,
                                                         "end": 64
-                                                    }
-                                                ]
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "right": null,
+                                                    "flags": 34,
+                                                    "start": 59,
+                                                    "end": 64
+                                                }
                                             ],
                                             "asyncKeyword": null,
                                             "returnType": null,
@@ -313,7 +311,7 @@
                                             "typeParameters": null,
                                             "parameters": [
                                                 {
-                                                    "kind": 119,
+                                                    "kind": 201,
                                                     "elementList": {
                                                         "kind": 270,
                                                         "elements": [
@@ -332,8 +330,7 @@
                                                         "end": 102
                                                     },
                                                     "flags": 32,
-                                                    "start": 96,
-                                                    "end": 103
+                                                    "start": 96
                                                 }
                                             ],
                                             "asyncKeyword": null,
@@ -438,9 +435,9 @@
                                             "typeParameters": null,
                                             "parameters": [
                                                 {
-                                                    "kind": 220,
+                                                    "kind": 212,
                                                     "propertyList": {
-                                                        "kind": 218,
+                                                        "kind": 213,
                                                         "properties": [
                                                             {
                                                                 "kind": 134299649,
@@ -452,11 +449,11 @@
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 16,
+                                                        "flags": 32,
                                                         "start": 136,
                                                         "end": 141
                                                     },
-                                                    "flags": 48,
+                                                    "flags": 32,
                                                     "start": 135,
                                                     "end": 142
                                                 }
@@ -640,13 +637,15 @@
     (yield =>  {});
   });
 (function f() {
-    (() =>  {});
+    ((yield, ...a) =>  {});
   });
 (function f() {
     (([yield]) =>  {});
   });
 (function f() {
-    (({ yield }) =>  {});
+    (({
+        yield
+      }) =>  {});
   });
 (function f() {
     ((yield) =>  {});

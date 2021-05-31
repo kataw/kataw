@@ -34,18 +34,10 @@
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 119,
+                    "kind": 201,
                     "elementList": {
                         "kind": 270,
                         "elements": [
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 9,
-                                "end": 10
-                            },
                             {
                                 "kind": 281,
                                 "ellipsisToken": null,
@@ -74,6 +66,14 @@
                                 "flags": 32,
                                 "start": 11,
                                 "end": 21
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 10
                             }
                         ],
                         "trailingComma": false,
@@ -82,8 +82,7 @@
                         "end": 21
                     },
                     "flags": 32,
-                    "start": 8,
-                    "end": 22
+                    "start": 8
                 }
             ],
             "asyncKeyword": {
@@ -131,7 +130,7 @@
 
 ```javascript
 
-async ([x, ]) =>  {}
+async ([, x]) =>  {}
 
 ```
 

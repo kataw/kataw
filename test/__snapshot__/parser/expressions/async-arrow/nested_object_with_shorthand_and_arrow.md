@@ -26,9 +26,9 @@ async ({ident: {x}}) => x
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 220,
+                    "kind": 212,
                     "propertyList": {
-                        "kind": 218,
+                        "kind": 213,
                         "properties": [
                             {
                                 "kind": 219,
@@ -70,11 +70,11 @@ async ({ident: {x}}) => x
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 16,
+                        "flags": 32,
                         "start": 8,
                         "end": 18
                     },
-                    "flags": 48,
+                    "flags": 32,
                     "start": 7,
                     "end": 19
                 }
@@ -112,7 +112,9 @@ async ({ident: {x}}) => x
 
 ```javascript
 
-async ({ ident: { x } }) =>  x
+async ({
+  ident: { x }
+}) =>  x
 ```
 
 ### Diagnostics

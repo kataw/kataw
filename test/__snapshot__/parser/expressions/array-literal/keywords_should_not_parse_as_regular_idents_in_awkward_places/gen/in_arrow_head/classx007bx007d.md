@@ -31,7 +31,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
@@ -71,8 +71,7 @@
                             "end": 10
                         },
                         "flags": 32,
-                        "start": 1,
-                        "end": 12
+                        "start": 1
                     }
                 ],
                 "asyncKeyword": null,

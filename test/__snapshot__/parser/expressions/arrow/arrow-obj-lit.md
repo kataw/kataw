@@ -30,12 +30,13 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 205,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -44,6 +45,8 @@
                                         "start": 2,
                                         "end": 3
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -58,11 +61,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 2,
                             "end": 5
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 1,
                         "end": 6
                     }

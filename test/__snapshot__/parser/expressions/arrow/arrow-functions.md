@@ -362,50 +362,48 @@ const bar9 = <T>(x) => {};
                             },
                             "typeParameters": null,
                             "parameters": [
-                                [
-                                    {
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 112,
+                                    "end": 113
+                                },
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
                                         "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
+                                        "text": "y",
+                                        "rawText": "y",
                                         "flags": 96,
-                                        "start": 112,
-                                        "end": 113
+                                        "start": 114,
+                                        "end": 116
                                     },
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 114,
-                                            "end": 116
-                                        },
-                                        "optionalToken": {
-                                            "kind": 134217750,
-                                            "flags": 64,
-                                            "start": 116,
-                                            "end": 117
-                                        },
+                                    "optionalToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 116,
+                                        "end": 117
+                                    },
+                                    "type": {
+                                        "kind": 139,
                                         "type": {
-                                            "kind": 139,
-                                            "type": {
-                                                "kind": 134234347,
-                                                "flags": 64,
-                                                "start": 118,
-                                                "end": 125
-                                            },
-                                            "flags": 0,
-                                            "start": 117,
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 118,
                                             "end": 125
                                         },
-                                        "right": null,
-                                        "flags": 32,
-                                        "start": 110,
+                                        "flags": 0,
+                                        "start": 117,
                                         "end": 125
-                                    }
-                                ]
+                                    },
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 110,
+                                    "end": 125
+                                }
                             ],
                             "asyncKeyword": null,
                             "returnType": null,
@@ -473,55 +471,53 @@ const bar9 = <T>(x) => {};
                             },
                             "typeParameters": null,
                             "parameters": [
-                                [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 148,
-                                        "end": 149
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 148,
+                                    "end": 149
+                                },
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 64,
+                                        "start": 150,
+                                        "end": 154
                                     },
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 150,
-                                            "end": 154
-                                        },
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 154,
-                                            "end": 155
-                                        },
-                                        "optionalToken": {
-                                            "kind": 134217750,
-                                            "flags": 64,
-                                            "start": 155,
-                                            "end": 156
-                                        },
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 154,
+                                        "end": 155
+                                    },
+                                    "optionalToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 155,
+                                        "end": 156
+                                    },
+                                    "type": {
+                                        "kind": 139,
                                         "type": {
-                                            "kind": 139,
-                                            "type": {
-                                                "kind": 134234347,
-                                                "flags": 64,
-                                                "start": 157,
-                                                "end": 164
-                                            },
-                                            "flags": 0,
-                                            "start": 156,
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 157,
                                             "end": 164
                                         },
-                                        "right": null,
-                                        "flags": 34,
-                                        "start": 150,
+                                        "flags": 0,
+                                        "start": 156,
                                         "end": 164
-                                    }
-                                ]
+                                    },
+                                    "right": null,
+                                    "flags": 34,
+                                    "start": 150,
+                                    "end": 164
+                                }
                             ],
                             "asyncKeyword": null,
                             "returnType": null,
@@ -926,8 +922,8 @@ const bar9 = <T>(x) => {};
 const bar1 = (x) =>  {};
 const bar2 = (x?) =>  {};
 const bar3 = (x?) =>  {};
-const bar4 = () =>  {};
-const bar5 = () =>  {};
+const bar4 = (x, y?) =>  {};
+const bar5 = (x, ...y?) =>  {};
 const bar6 = x =>  {};
 const bar7 = (x) =>  {};
 const bar8 = (x) =>  {};

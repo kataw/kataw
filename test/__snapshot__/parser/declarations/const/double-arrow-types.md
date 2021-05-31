@@ -157,24 +157,22 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     },
                     "typeParameters": null,
                     "parameters": [
-                        [
-                            {
-                                "kind": 134299649,
-                                "text": "o1",
-                                "rawText": "o1",
-                                "flags": 96,
-                                "start": 41,
-                                "end": 44
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "o2",
-                                "rawText": "o2",
-                                "flags": 96,
-                                "start": 45,
-                                "end": 48
-                            }
-                        ]
+                        {
+                            "kind": 134299649,
+                            "text": "o1",
+                            "rawText": "o1",
+                            "flags": 96,
+                            "start": 41,
+                            "end": 44
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "o2",
+                            "rawText": "o2",
+                            "flags": 96,
+                            "start": 45,
+                            "end": 48
+                        }
                     ],
                     "asyncKeyword": null,
                     "returnType": null,
@@ -331,24 +329,22 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     },
                     "typeParameters": null,
                     "parameters": [
-                        [
-                            {
-                                "kind": 134299649,
-                                "text": "o1",
-                                "rawText": "o1",
-                                "flags": 96,
-                                "start": 101,
-                                "end": 104
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "o2",
-                                "rawText": "o2",
-                                "flags": 96,
-                                "start": 105,
-                                "end": 108
-                            }
-                        ]
+                        {
+                            "kind": 134299649,
+                            "text": "o1",
+                            "rawText": "o1",
+                            "flags": 96,
+                            "start": 101,
+                            "end": 104
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "o2",
+                            "rawText": "o2",
+                            "flags": 96,
+                            "start": 105,
+                            "end": 108
+                        }
                     ],
                     "asyncKeyword": null,
                     "returnType": null,

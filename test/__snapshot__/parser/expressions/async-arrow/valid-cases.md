@@ -50,9 +50,9 @@
                     "typeParameters": null,
                     "parameters": [
                         {
-                            "kind": 220,
+                            "kind": 212,
                             "propertyList": {
-                                "kind": 218,
+                                "kind": 213,
                                 "properties": [
                                     {
                                         "kind": 219,
@@ -79,11 +79,11 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 29
                             },
-                            "flags": 48,
+                            "flags": 32,
                             "start": 17,
                             "end": 31
                         }
@@ -881,7 +881,9 @@
 
 ```javascript
 
-foo = async ({ async: bar }) =>  {
+foo = async ({
+  async: bar
+}) =>  {
   await baz;
 };
 var x = async (a, b) =>  await a + b;

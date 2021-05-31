@@ -32,7 +32,8 @@ async ( { x}  ) => {
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 125,
+                    "kind": 281,
+                    "ellipsisToken": null,
                     "left": {
                         "kind": 134299649,
                         "text": "x",
@@ -41,12 +42,8 @@ async ( { x}  ) => {
                         "start": 7,
                         "end": 9
                     },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 64,
-                        "start": 9,
-                        "end": 11
-                    },
+                    "optionalToken": null,
+                    "type": null,
                     "right": {
                         "kind": 134299649,
                         "text": "y",
@@ -105,9 +102,9 @@ async ( { x}  ) => {
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 220,
+                    "kind": 212,
                     "propertyList": {
-                        "kind": 218,
+                        "kind": 213,
                         "properties": [
                             {
                                 "kind": 134299649,
@@ -119,11 +116,11 @@ async ( { x}  ) => {
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 16,
+                        "flags": 32,
                         "start": 49,
                         "end": 51
                     },
-                    "flags": 48,
+                    "flags": 32,
                     "start": 47,
                     "end": 52
                 }

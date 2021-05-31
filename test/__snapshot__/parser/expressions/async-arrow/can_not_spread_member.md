@@ -26,19 +26,19 @@ async ([...x.y]) => z
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 119,
+                    "kind": 201,
                     "elementList": {
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 223,
+                                "kind": 281,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
                                     "start": 8,
                                     "end": 11
                                 },
-                                "argument": {
+                                "left": {
                                     "kind": 129,
                                     "member": {
                                         "kind": 134299649,
@@ -60,6 +60,9 @@ async ([...x.y]) => z
                                     "start": 11,
                                     "end": 14
                                 },
+                                "optionalToken": null,
+                                "type": null,
+                                "right": null,
                                 "flags": 32,
                                 "start": 8,
                                 "end": 14
@@ -71,8 +74,7 @@ async ([...x.y]) => z
                         "end": 14
                     },
                     "flags": 32,
-                    "start": 7,
-                    "end": 15
+                    "start": 7
                 }
             ],
             "asyncKeyword": {

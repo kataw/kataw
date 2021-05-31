@@ -427,9 +427,9 @@ x = {async __proto__(){}, *__proto__(){}};
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 219,
@@ -479,11 +479,11 @@ x = {async __proto__(){}, *__proto__(){}};
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 20,
+                            "flags": 32,
                             "start": 116,
                             "end": 143
                         },
-                        "flags": 52,
+                        "flags": 32,
                         "start": 115,
                         "end": 145
                     }

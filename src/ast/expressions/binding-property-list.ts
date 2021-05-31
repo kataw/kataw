@@ -1,17 +1,22 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { BindingProperty } from './binding-property';
+import { BindingElement } from './binding-element';
+import { Identifier } from './identifier-expr';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 
 /**
  * BindingPropertyList
  */
 
+export type BindingProperties = BindingProperty | BindingElement | Identifier | DummyIdentifier;
+
 export interface BindingPropertyList extends SyntaxNode {
-  readonly properties: BindingProperty[];
+  readonly properties: BindingProperties[];
   readonly trailingComma: boolean;
 }
 
 export function createBindingPropertyList(
-  properties: BindingProperty[],
+  properties: BindingProperties[],
   flags: NodeFlags,
   trailingComma: boolean,
   start: number,

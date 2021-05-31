@@ -36,10 +36,18 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 14,
+                                    "end": 16
+                                },
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,
@@ -73,14 +81,6 @@
                                     "flags": 32,
                                     "start": 3,
                                     "end": 13
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 14,
-                                    "end": 16
                                 }
                             ],
                             "trailingComma": false,
@@ -89,8 +89,7 @@
                             "end": 16
                         },
                         "flags": 32,
-                        "start": 2,
-                        "end": 17
+                        "start": 2
                     }
                 ],
                 "asyncKeyword": null,

@@ -53,13 +53,16 @@ var asyncArrow = async(...await) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 223,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 23,
                                         "end": 26
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 23,
                                     "end": 31

@@ -34,9 +34,9 @@ async ({a: await}) => 1;
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 220,
+                    "kind": 212,
                     "propertyList": {
-                        "kind": 218,
+                        "kind": 213,
                         "properties": [
                             {
                                 "kind": 219,
@@ -63,11 +63,11 @@ async ({a: await}) => 1;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 16,
+                        "flags": 32,
                         "start": 8,
                         "end": 16
                     },
-                    "flags": 48,
+                    "flags": 32,
                     "start": 7,
                     "end": 17
                 }
@@ -111,7 +111,9 @@ async ({a: await}) => 1;
 
 ```javascript
 
-async ({ a: await }) =>  1
+async ({
+  a: await
+}) =>  1
 
 ```
 

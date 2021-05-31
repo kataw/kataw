@@ -42,7 +42,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
@@ -82,8 +82,7 @@
                             "end": 11
                         },
                         "flags": 32,
-                        "start": 1,
-                        "end": 12
+                        "start": 1
                     }
                 ],
                 "asyncKeyword": null,
@@ -123,7 +122,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
@@ -178,8 +177,7 @@
                             "end": 36
                         },
                         "flags": 32,
-                        "start": 24,
-                        "end": 37
+                        "start": 24
                     }
                 ],
                 "asyncKeyword": null,
@@ -219,7 +217,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
@@ -295,8 +293,7 @@
                             "end": 69
                         },
                         "flags": 32,
-                        "start": 49,
-                        "end": 70
+                        "start": 49
                     }
                 ],
                 "asyncKeyword": null,
@@ -336,7 +333,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
@@ -391,8 +388,7 @@
                             "end": 94
                         },
                         "flags": 32,
-                        "start": 82,
-                        "end": 95
+                        "start": 82
                     }
                 ],
                 "asyncKeyword": null,

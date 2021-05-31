@@ -3471,19 +3471,19 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 223,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 606,
                                         "end": 609
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -3506,6 +3506,9 @@
                                         "start": 609,
                                         "end": 612
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 606,
                                     "end": 612
@@ -3517,8 +3520,7 @@
                             "end": 612
                         },
                         "flags": 32,
-                        "start": 605,
-                        "end": 613
+                        "start": 605
                     }
                 ],
                 "asyncKeyword": null,
@@ -3607,7 +3609,8 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
                             "text": "z",
@@ -3616,12 +3619,8 @@
                             "start": 633,
                             "end": 634
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 634,
-                            "end": 636
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 125,
                             "left": {
@@ -3727,7 +3726,8 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
                             "text": "z",
@@ -3736,12 +3736,8 @@
                             "start": 658,
                             "end": 659
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 659,
-                            "end": 661
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 119,
                             "elementList": {
@@ -7301,7 +7297,7 @@
 [...50];
 [...a = b];
 ([...a.b] = c);
-([...[x]]) =>  x;
+([]) =>  x;
 [(a)] = x;
 (z = [...x.y] = z) =>  z;
 (z = [...x.y]) =>  z;

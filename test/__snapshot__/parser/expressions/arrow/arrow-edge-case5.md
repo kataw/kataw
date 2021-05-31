@@ -52,7 +52,8 @@ a ? (b = (c) => d) : e => f : g;
                     "typeParameters": null,
                     "parameters": [
                         {
-                            "kind": 125,
+                            "kind": 281,
+                            "ellipsisToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "b",
@@ -61,12 +62,8 @@ a ? (b = (c) => d) : e => f : g;
                                 "start": 5,
                                 "end": 6
                             },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 64,
-                                "start": 6,
-                                "end": 8
-                            },
+                            "optionalToken": null,
+                            "type": null,
                             "right": {
                                 "kind": 271,
                                 "arrowToken": {

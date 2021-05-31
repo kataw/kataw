@@ -35,54 +35,52 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 1,
-                                "end": 2
-                            },
-                            "optionalToken": {
-                                "kind": 134217750,
-                                "flags": 64,
-                                "start": 2,
-                                "end": 3
-                            },
-                            "type": null,
-                            "right": null,
-                            "flags": 32,
-                            "start": 0,
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 2
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 2,
                             "end": 3
                         },
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 4,
-                                "end": 6
-                            },
-                            "optionalToken": {
-                                "kind": 134217750,
-                                "flags": 64,
-                                "start": 6,
-                                "end": 7
-                            },
-                            "type": null,
-                            "right": null,
-                            "flags": 32,
-                            "start": 0,
+                        "type": null,
+                        "right": null,
+                        "flags": 32,
+                        "start": 0,
+                        "end": 3
+                    },
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 4,
+                            "end": 6
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 6,
                             "end": 7
-                        }
-                    ]
+                        },
+                        "type": null,
+                        "right": null,
+                        "flags": 32,
+                        "start": 0,
+                        "end": 7
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -116,7 +114,7 @@
 
 ```javascript
 
-() =>  0;
+(a?, b?) =>  0;
 ```
 
 ### Diagnostics

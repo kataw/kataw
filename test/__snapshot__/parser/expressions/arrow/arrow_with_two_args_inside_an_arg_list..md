@@ -42,24 +42,22 @@ f(((a, b) => a + b));
                                 },
                                 "typeParameters": null,
                                 "parameters": [
-                                    [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 4,
-                                            "end": 5
-                                        },
-                                        {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 6,
-                                            "end": 8
-                                        }
-                                    ]
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 6,
+                                        "end": 8
+                                    }
                                 ],
                                 "asyncKeyword": null,
                                 "returnType": null,
@@ -127,7 +125,7 @@ f(((a, b) => a + b));
 
 ```javascript
 
-f((() =>  a + b));
+f(((a, b) =>  a + b));
 ```
 
 ### Diagnostics

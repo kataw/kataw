@@ -66,7 +66,8 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
                             "text": "a",
@@ -75,12 +76,8 @@
                             "start": 15,
                             "end": 16
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 16,
-                            "end": 18
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 134299649,
                             "text": "yield",
@@ -145,7 +142,8 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
                             "text": "a",
@@ -154,12 +152,8 @@
                             "start": 48,
                             "end": 49
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 49,
-                            "end": 51
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 198,
                             "left": {
@@ -380,7 +374,8 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 125,
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
                             "kind": 134299649,
                             "text": "yield",
@@ -389,12 +384,8 @@
                             "start": 142,
                             "end": 147
                         },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 64,
-                            "start": 147,
-                            "end": 149
-                        },
+                        "optionalToken": null,
+                        "type": null,
                         "right": {
                             "kind": 201392130,
                             "text": 0,
@@ -459,7 +450,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
@@ -478,8 +469,7 @@
                             "end": 181
                         },
                         "flags": 32,
-                        "start": 175,
-                        "end": 182
+                        "start": 175
                     }
                 ],
                 "asyncKeyword": null,
@@ -533,12 +523,13 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 125,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "yield",
@@ -547,12 +538,8 @@
                                         "start": 207,
                                         "end": 212
                                     },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 212,
-                                        "end": 214
-                                    },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 201392130,
                                         "text": 0,
@@ -572,8 +559,7 @@
                             "end": 216
                         },
                         "flags": 32,
-                        "start": 206,
-                        "end": 217
+                        "start": 206
                     }
                 ],
                 "asyncKeyword": null,
@@ -627,19 +613,19 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 223,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 242,
                                         "end": 245
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
@@ -647,6 +633,9 @@
                                         "start": 245,
                                         "end": 250
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 242,
                                     "end": 250
@@ -658,8 +647,7 @@
                             "end": 250
                         },
                         "flags": 32,
-                        "start": 241,
-                        "end": 251
+                        "start": 241
                     }
                 ],
                 "asyncKeyword": null,
@@ -713,9 +701,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 219,
@@ -742,11 +730,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 276,
                             "end": 284
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 275,
                         "end": 285
                     }
@@ -802,9 +790,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 134299649,
@@ -816,11 +804,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 310,
                             "end": 315
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 309,
                         "end": 316
                     }
@@ -876,12 +864,13 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 205,
+                                    "kind": 281,
+                                    "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "yield",
@@ -890,6 +879,8 @@
                                         "start": 341,
                                         "end": 346
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
                                     "right": {
                                         "kind": 201392130,
                                         "text": 0,
@@ -904,11 +895,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 341,
                             "end": 350
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 340,
                         "end": 351
                     }

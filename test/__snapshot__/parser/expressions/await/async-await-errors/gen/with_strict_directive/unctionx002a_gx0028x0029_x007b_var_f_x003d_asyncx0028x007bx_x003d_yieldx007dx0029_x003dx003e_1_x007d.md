@@ -115,12 +115,13 @@
                                         "typeParameters": null,
                                         "parameters": [
                                             {
-                                                "kind": 220,
+                                                "kind": 212,
                                                 "propertyList": {
-                                                    "kind": 218,
+                                                    "kind": 213,
                                                     "properties": [
                                                         {
-                                                            "kind": 205,
+                                                            "kind": 281,
+                                                            "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
@@ -129,6 +130,8 @@
                                                                 "start": 44,
                                                                 "end": 45
                                                             },
+                                                            "optionalToken": null,
+                                                            "type": null,
                                                             "right": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
@@ -143,11 +146,11 @@
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 16,
+                                                    "flags": 32,
                                                     "start": 44,
                                                     "end": 53
                                                 },
-                                                "flags": 48,
+                                                "flags": 32,
                                                 "start": 43,
                                                 "end": 54
                                             }

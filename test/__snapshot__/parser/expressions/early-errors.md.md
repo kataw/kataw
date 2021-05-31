@@ -4705,7 +4705,8 @@ try {} catch(e) { for(var e of 0); };
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -4714,12 +4715,8 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 4712,
                                             "end": 4713
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 4713,
-                                            "end": 4715
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 229,
                                             "yieldKeyword": {
@@ -4830,7 +4827,8 @@ try {} catch(e) { for(var e of 0); };
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -4839,12 +4837,8 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 4748,
                                             "end": 4749
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 4749,
-                                            "end": 4751
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 229,
                                             "yieldKeyword": {
@@ -4962,7 +4956,8 @@ try {} catch(e) { for(var e of 0); };
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -4971,12 +4966,8 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 4786,
                                             "end": 4787
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 4787,
-                                            "end": 4789
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 229,
                                             "yieldKeyword": {
@@ -5099,7 +5090,8 @@ try {} catch(e) { for(var e of 0); };
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -5108,12 +5100,8 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 4825,
                                             "end": 4826
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 4826,
-                                            "end": 4828
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 198,
                                             "left": {
@@ -5267,9 +5255,9 @@ try {} catch(e) { for(var e of 0); };
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 220,
+                                        "kind": 212,
                                         "propertyList": {
-                                            "kind": 218,
+                                            "kind": 213,
                                             "properties": [
                                                 {
                                                     "kind": 219,
@@ -5309,11 +5297,11 @@ try {} catch(e) { for(var e of 0); };
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 16,
+                                            "flags": 32,
                                             "start": 4869,
                                             "end": 4879
                                         },
-                                        "flags": 48,
+                                        "flags": 32,
                                         "start": 4868,
                                         "end": 4880
                                     }
@@ -5408,12 +5396,13 @@ try {} catch(e) { for(var e of 0); };
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 220,
+                                        "kind": 212,
                                         "propertyList": {
-                                            "kind": 218,
+                                            "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 205,
+                                                    "kind": 281,
+                                                    "ellipsisToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -5422,6 +5411,8 @@ try {} catch(e) { for(var e of 0); };
                                                         "start": 4908,
                                                         "end": 4909
                                                     },
+                                                    "optionalToken": null,
+                                                    "type": null,
                                                     "right": {
                                                         "kind": 229,
                                                         "yieldKeyword": {
@@ -5443,11 +5434,11 @@ try {} catch(e) { for(var e of 0); };
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 16,
+                                            "flags": 32,
                                             "start": 4908,
                                             "end": 4917
                                         },
-                                        "flags": 48,
+                                        "flags": 32,
                                         "start": 4907,
                                         "end": 4918
                                     }
@@ -5542,12 +5533,13 @@ try {} catch(e) { for(var e of 0); };
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 119,
+                                        "kind": 201,
                                         "elementList": {
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 125,
+                                                    "kind": 281,
+                                                    "ellipsisToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -5556,12 +5548,8 @@ try {} catch(e) { for(var e of 0); };
                                                         "start": 4946,
                                                         "end": 4947
                                                     },
-                                                    "operatorToken": {
-                                                        "kind": 4125,
-                                                        "flags": 64,
-                                                        "start": 4947,
-                                                        "end": 4949
-                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
                                                     "right": {
                                                         "kind": 229,
                                                         "yieldKeyword": {
@@ -5588,8 +5576,7 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 4955
                                         },
                                         "flags": 32,
-                                        "start": 4945,
-                                        "end": 4956
+                                        "start": 4945
                                     }
                                 ],
                                 "asyncKeyword": null,

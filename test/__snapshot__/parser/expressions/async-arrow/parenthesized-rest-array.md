@@ -50,19 +50,19 @@ var foo = async ([...(foo)]) => {};
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
+                                    "kind": 201,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 223,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 18,
                                                     "end": 21
                                                 },
-                                                "argument": {
+                                                "left": {
                                                     "kind": 121,
                                                     "expression": {
                                                         "kind": 134299649,
@@ -76,6 +76,9 @@ var foo = async ([...(foo)]) => {};
                                                     "start": 21,
                                                     "end": 26
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 18,
                                                 "end": 26
@@ -87,8 +90,7 @@ var foo = async ([...(foo)]) => {};
                                         "end": 26
                                     },
                                     "flags": 32,
-                                    "start": 17,
-                                    "end": 27
+                                    "start": 17
                                 }
                             ],
                             "asyncKeyword": {

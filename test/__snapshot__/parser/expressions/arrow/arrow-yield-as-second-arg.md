@@ -27,24 +27,22 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 4
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "yield",
-                            "rawText": "yield",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 11
-                        }
-                    ]
+                    {
+                        "kind": 134299649,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "yield",
+                        "rawText": "yield",
+                        "flags": 96,
+                        "start": 5,
+                        "end": 11
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -84,7 +82,7 @@
 
 ```javascript
 
-() =>  {};
+(bar, yield) =>  {};
 ```
 
 ### Diagnostics

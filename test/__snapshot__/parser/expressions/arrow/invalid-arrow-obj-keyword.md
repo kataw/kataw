@@ -30,9 +30,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 134299649,
@@ -44,11 +44,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 2,
                             "end": 7
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 1,
                         "end": 8
                     }
@@ -84,9 +84,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 134299649,
@@ -98,11 +98,11 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 19,
                             "end": 27
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 18,
                         "end": 28
                     }

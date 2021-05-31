@@ -114,7 +114,8 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
-                                                            "kind": 125,
+                                                            "kind": 281,
+                                                            "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
@@ -123,12 +124,8 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                                 "start": 43,
                                                                 "end": 44
                                                             },
-                                                            "operatorToken": {
-                                                                "kind": 4125,
-                                                                "flags": 64,
-                                                                "start": 44,
-                                                                "end": 45
-                                                            },
+                                                            "optionalToken": null,
+                                                            "type": null,
                                                             "right": {
                                                                 "kind": 129,
                                                                 "member": {

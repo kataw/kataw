@@ -35,45 +35,43 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 2
+                    },
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
                             "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
+                            "text": "y",
+                            "rawText": "y",
                             "flags": 96,
-                            "start": 1,
-                            "end": 2
+                            "start": 3,
+                            "end": 5
                         },
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 3,
-                                "end": 5
-                            },
-                            "optionalToken": null,
+                        "optionalToken": null,
+                        "type": {
+                            "kind": 139,
                             "type": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 134234347,
-                                    "flags": 64,
-                                    "start": 6,
-                                    "end": 13
-                                },
-                                "flags": 0,
-                                "start": 5,
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 6,
                                 "end": 13
                             },
-                            "right": null,
-                            "flags": 32,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 5,
                             "end": 13
-                        }
-                    ]
+                        },
+                        "right": null,
+                        "flags": 32,
+                        "start": 0,
+                        "end": 13
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -107,7 +105,7 @@
 
 ```javascript
 
-() =>  x;
+(x, y) =>  x;
 ```
 
 ### Diagnostics

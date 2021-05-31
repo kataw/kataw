@@ -306,9 +306,9 @@ const { async = true } = x;
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
                                                 "kind": 219,
@@ -335,11 +335,11 @@ const { async = true } = x;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 100,
                                         "end": 111
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 99,
                                     "end": 113
                                 }
@@ -443,12 +443,13 @@ const { async = true } = x;
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 205,
+                                                "kind": 281,
+                                                "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "async",
@@ -457,6 +458,8 @@ const { async = true } = x;
                                                     "start": 155,
                                                     "end": 161
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "bar",
@@ -471,11 +474,11 @@ const { async = true } = x;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 155,
                                         "end": 167
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 154,
                                     "end": 169
                                 }
@@ -934,10 +937,14 @@ const a = function ({
 const b = function ({
   async: bar
 }) {};
-const c = async ({ async: bar }) =>  {
+const c = async ({
+  async: bar
+}) =>  {
   await baz;
 };
-const d = async ({ async = bar }) =>  {
+const d = async ({
+  async = bar
+}) =>  {
   await baz;
 };
 const e = async function ({

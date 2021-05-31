@@ -52,9 +52,9 @@ var foo = ( { title, ...other } ) => {
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
                                                 "kind": 134299649,
@@ -86,11 +86,11 @@ var foo = ( { title, ...other } ) => {
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 29
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 31
                                 }
@@ -142,7 +142,10 @@ var foo = ( { title, ...other } ) => {
 
 ```javascript
 
-var foo = ({ title, ...other }) =>  {};
+var foo = ({
+  title,
+  ...other
+}) =>  {};
 ```
 
 ### Diagnostics

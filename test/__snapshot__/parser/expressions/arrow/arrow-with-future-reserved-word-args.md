@@ -27,24 +27,22 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 134299649,
-                            "text": "interface",
-                            "rawText": "interface",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 10
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "eval",
-                            "rawText": "eval",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 16
-                        }
-                    ]
+                    {
+                        "kind": 134299649,
+                        "text": "interface",
+                        "rawText": "interface",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 10
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "eval",
+                        "rawText": "eval",
+                        "flags": 96,
+                        "start": 11,
+                        "end": 16
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,
@@ -84,7 +82,7 @@
 
 ```javascript
 
-() =>  {};
+(interface, eval) =>  {};
 ```
 
 ### Diagnostics

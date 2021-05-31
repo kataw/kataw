@@ -34,13 +34,16 @@ async (...args: any) => {};
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 223,
+                    "kind": 281,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 7,
                         "end": 10
                     },
+                    "optionalToken": null,
+                    "type": null,
+                    "right": null,
                     "flags": 32,
                     "start": 7,
                     "end": 19

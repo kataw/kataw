@@ -27,36 +27,34 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 127,
-                            "operandToken": {
-                                "kind": 196636,
-                                "flags": 64,
-                                "start": 2,
-                                "end": 4
-                            },
-                            "operand": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 1,
-                                "end": 2
-                            },
-                            "flags": 32,
-                            "start": 0,
+                    {
+                        "kind": 127,
+                        "operandToken": {
+                            "kind": 196636,
+                            "flags": 64,
+                            "start": 2,
                             "end": 4
                         },
-                        {
+                        "operand": {
                             "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 96,
-                            "start": 5,
-                            "end": 7
-                        }
-                    ]
+                            "start": 1,
+                            "end": 2
+                        },
+                        "flags": 32,
+                        "start": 0,
+                        "end": 4
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 5,
+                        "end": 7
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,

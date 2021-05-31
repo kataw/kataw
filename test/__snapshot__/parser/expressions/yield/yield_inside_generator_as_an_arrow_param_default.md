@@ -66,11 +66,12 @@ function *f(){ ({x} = yield) => {} }
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
-                                            "kind": 220,
+                                            "kind": 212,
                                             "propertyList": {
-                                                "kind": 218,
+                                                "kind": 213,
                                                 "properties": [
                                                     {
                                                         "kind": 134299649,
@@ -82,20 +83,16 @@ function *f(){ ({x} = yield) => {} }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 16,
+                                                "flags": 32,
                                                 "start": 17,
                                                 "end": 18
                                             },
-                                            "flags": 48,
+                                            "flags": 32,
                                             "start": 16,
                                             "end": 19
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 19,
-                                            "end": 21
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 229,
                                             "yieldKeyword": {
@@ -170,7 +167,9 @@ function *f(){ ({x} = yield) => {} }
 ```javascript
 
 function * f() {
-  ({ x } =  yield) =>  {};
+  ({
+    x
+  } =  yield) =>  {};
 }
 ```
 

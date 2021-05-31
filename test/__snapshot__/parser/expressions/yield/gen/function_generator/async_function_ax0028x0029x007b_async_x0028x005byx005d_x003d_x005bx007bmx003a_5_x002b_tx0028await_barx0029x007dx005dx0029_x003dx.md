@@ -138,9 +138,10 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                             "typeParameters": null,
                                                             "parameters": [
                                                                 {
-                                                                    "kind": 125,
+                                                                    "kind": 281,
+                                                                    "ellipsisToken": null,
                                                                     "left": {
-                                                                        "kind": 119,
+                                                                        "kind": 201,
                                                                         "elementList": {
                                                                             "kind": 270,
                                                                             "elements": [
@@ -159,15 +160,10 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                             "end": 73
                                                                         },
                                                                         "flags": 32,
-                                                                        "start": 71,
-                                                                        "end": 74
+                                                                        "start": 71
                                                                     },
-                                                                    "operatorToken": {
-                                                                        "kind": 4125,
-                                                                        "flags": 64,
-                                                                        "start": 74,
-                                                                        "end": 76
-                                                                    },
+                                                                    "optionalToken": null,
+                                                                    "type": null,
                                                                     "right": {
                                                                         "kind": 119,
                                                                         "elementList": {

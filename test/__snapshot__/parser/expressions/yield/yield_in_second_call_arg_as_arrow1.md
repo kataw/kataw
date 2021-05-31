@@ -66,7 +66,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -75,12 +76,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                             "start": 17,
                                             "end": 18
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 18,
-                                            "end": 20
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 198,
                                             "left": {

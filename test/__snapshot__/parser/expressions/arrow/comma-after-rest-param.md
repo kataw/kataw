@@ -27,31 +27,29 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": {
-                                "kind": 524302,
-                                "flags": 64,
-                                "start": 1,
-                                "end": 4
-                            },
-                            "left": {
-                                "kind": 134299649,
-                                "text": "rest",
-                                "rawText": "rest",
-                                "flags": 96,
-                                "start": 4,
-                                "end": 8
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "right": null,
-                            "flags": 34,
+                    {
+                        "kind": 281,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
                             "start": 1,
+                            "end": 4
+                        },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "rest",
+                            "rawText": "rest",
+                            "flags": 96,
+                            "start": 4,
                             "end": 8
-                        }
-                    ]
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": null,
+                        "flags": 34,
+                        "start": 1,
+                        "end": 8
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,

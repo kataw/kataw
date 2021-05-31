@@ -26,12 +26,13 @@ async ({ x = [ await ], y = { await } }) => {}
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 220,
+                    "kind": 212,
                     "propertyList": {
-                        "kind": 218,
+                        "kind": 213,
                         "properties": [
                             {
-                                "kind": 205,
+                                "kind": 281,
+                                "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -40,6 +41,8 @@ async ({ x = [ await ], y = { await } }) => {}
                                     "start": 8,
                                     "end": 10
                                 },
+                                "optionalToken": null,
+                                "type": null,
                                 "right": {
                                     "kind": 119,
                                     "elementList": {
@@ -68,7 +71,8 @@ async ({ x = [ await ], y = { await } }) => {}
                                 "end": 22
                             },
                             {
-                                "kind": 205,
+                                "kind": 281,
+                                "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "y",
@@ -77,6 +81,8 @@ async ({ x = [ await ], y = { await } }) => {}
                                     "start": 23,
                                     "end": 25
                                 },
+                                "optionalToken": null,
+                                "type": null,
                                 "right": {
                                     "kind": 220,
                                     "propertyList": {
@@ -106,11 +112,11 @@ async ({ x = [ await ], y = { await } }) => {}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 16,
+                        "flags": 32,
                         "start": 8,
                         "end": 37
                     },
-                    "flags": 48,
+                    "flags": 32,
                     "start": 7,
                     "end": 39
                 }
@@ -154,7 +160,10 @@ async ({ x = [ await ], y = { await } }) => {}
 
 ```javascript
 
-async ({ x = [await], y = { await } }) =>  {}
+async ({
+  x = [await],
+  y = { await }
+}) =>  {}
 ```
 
 ### Diagnostics

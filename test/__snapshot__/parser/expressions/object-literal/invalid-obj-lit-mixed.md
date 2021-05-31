@@ -318,9 +318,7 @@
                     "end": 162
                 },
                 "typeParameters": null,
-                "parameters": [
-                    null
-                ],
+                "parameters": [],
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
@@ -356,9 +354,7 @@
                     "end": 232
                 },
                 "typeParameters": null,
-                "parameters": [
-                    null
-                ],
+                "parameters": [],
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
@@ -393,9 +389,7 @@
                     "end": 278
                 },
                 "typeParameters": null,
-                "parameters": [
-                    null
-                ],
+                "parameters": [],
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
@@ -486,9 +480,7 @@
                     "end": 339
                 },
                 "typeParameters": null,
-                "parameters": [
-                    null
-                ],
+                "parameters": [],
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
@@ -593,9 +585,7 @@
                     "end": 407
                 },
                 "typeParameters": null,
-                "parameters": [
-                    null
-                ],
+                "parameters": [],
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
@@ -700,9 +690,7 @@
                     "end": 475
                 },
                 "typeParameters": null,
-                "parameters": [
-                    null
-                ],
+                "parameters": [],
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {

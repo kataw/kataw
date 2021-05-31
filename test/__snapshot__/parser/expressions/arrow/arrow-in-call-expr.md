@@ -42,24 +42,22 @@ foo(y,(y) => ok);
                             },
                             "typeParameters": null,
                             "parameters": [
-                                [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 6
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 7,
-                                        "end": 9
-                                    }
-                                ]
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 6
+                                },
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 7,
+                                    "end": 9
+                                }
                             ],
                             "asyncKeyword": null,
                             "returnType": null,
@@ -255,7 +253,7 @@ foo(y,(y) => ok);
 
 ```javascript
 
-foo(() =>  {});
+foo((x, y) =>  {});
 foo(x, (y) =>  {});
 foo(y, (y) =>  ok);
 ```

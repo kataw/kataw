@@ -104,7 +104,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "typeParameters": null,
                                                 "parameters": [
                                                     {
-                                                        "kind": 125,
+                                                        "kind": 281,
+                                                        "ellipsisToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "a",
@@ -113,12 +114,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                             "start": 46,
                                                             "end": 47
                                                         },
-                                                        "operatorToken": {
-                                                            "kind": 4125,
-                                                            "flags": 64,
-                                                            "start": 47,
-                                                            "end": 48
-                                                        },
+                                                        "optionalToken": null,
+                                                        "type": null,
                                                         "right": {
                                                             "kind": 220,
                                                             "propertyList": {

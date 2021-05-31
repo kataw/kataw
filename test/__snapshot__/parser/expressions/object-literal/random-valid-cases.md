@@ -1370,9 +1370,9 @@ a = { y: x = 1 } = b;
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 220,
+                        "kind": 212,
                         "propertyList": {
-                            "kind": 218,
+                            "kind": 213,
                             "properties": [
                                 {
                                     "kind": 219,
@@ -1414,11 +1414,11 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 32,
                             "start": 296,
                             "end": 304
                         },
-                        "flags": 48,
+                        "flags": 32,
                         "start": 295,
                         "end": 305
                     }
@@ -4539,7 +4539,9 @@ a = { y: x = 1 } = b;
 ({ x() {}, x: 1 });
 ({ * x() {}, get x() {} });
 ({ "\"x\"": y + z });
-({ "\"x\"": [y] }) =>  x;
+({
+  "\"x\"": [y]
+}) =>  x;
 ({ "\"x\"": { y: z } });
 x({ [a]: b, [15]: d } = obj);
 ({ l: 50.foo } = x);

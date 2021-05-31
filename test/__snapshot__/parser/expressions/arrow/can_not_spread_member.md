@@ -28,19 +28,19 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 223,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 2,
                                         "end": 5
                                     },
-                                    "argument": {
+                                    "left": {
                                         "kind": 129,
                                         "member": {
                                             "kind": 134299649,
@@ -62,6 +62,9 @@
                                         "start": 5,
                                         "end": 8
                                     },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
                                     "flags": 32,
                                     "start": 2,
                                     "end": 8
@@ -73,8 +76,7 @@
                             "end": 8
                         },
                         "flags": 32,
-                        "start": 1,
-                        "end": 9
+                        "start": 1
                     }
                 ],
                 "asyncKeyword": null,

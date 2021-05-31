@@ -34,13 +34,16 @@ async (x, ...a)=>0;
                     "end": 8
                 },
                 {
-                    "kind": 223,
+                    "kind": 281,
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
                         "start": 9,
                         "end": 13
                     },
+                    "optionalToken": null,
+                    "type": null,
+                    "right": null,
                     "flags": 32,
                     "start": 9,
                     "end": 14

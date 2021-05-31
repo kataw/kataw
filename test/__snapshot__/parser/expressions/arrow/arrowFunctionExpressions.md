@@ -829,7 +829,7 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
+                                    "kind": 201,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
@@ -848,8 +848,7 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 233
                                     },
                                     "flags": 32,
-                                    "start": 231,
-                                    "end": 234
+                                    "start": 231
                                 }
                             ],
                             "asyncKeyword": null,
@@ -920,19 +919,19 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
+                                    "kind": 201,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 223,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 255,
                                                     "end": 258
                                                 },
-                                                "argument": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -940,6 +939,9 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 258,
                                                     "end": 259
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 255,
                                                 "end": 259
@@ -951,8 +953,7 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 259
                                     },
                                     "flags": 32,
-                                    "start": 254,
-                                    "end": 260
+                                    "start": 254
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1023,16 +1024,10 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
+                                    "kind": 201,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
-                                            {
-                                                "kind": 230,
-                                                "flags": 96,
-                                                "start": 281,
-                                                "end": 281
-                                            },
                                             {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -1040,6 +1035,12 @@ var p10 = ([{ value, done }]) => { };
                                                 "flags": 96,
                                                 "start": 282,
                                                 "end": 284
+                                            },
+                                            {
+                                                "kind": 230,
+                                                "flags": 96,
+                                                "start": 281,
+                                                "end": 281
                                             }
                                         ],
                                         "trailingComma": false,
@@ -1048,8 +1049,7 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 284
                                     },
                                     "flags": 32,
-                                    "start": 280,
-                                    "end": 285
+                                    "start": 280
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1120,25 +1120,19 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
+                                    "kind": 201,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 230,
-                                                "flags": 96,
-                                                "start": 306,
-                                                "end": 306
-                                            },
-                                            {
-                                                "kind": 223,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 307,
                                                     "end": 311
                                                 },
-                                                "argument": {
+                                                "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -1146,9 +1140,18 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 311,
                                                     "end": 312
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "right": null,
                                                 "flags": 32,
                                                 "start": 307,
                                                 "end": 312
+                                            },
+                                            {
+                                                "kind": 230,
+                                                "flags": 96,
+                                                "start": 306,
+                                                "end": 306
                                             }
                                         ],
                                         "trailingComma": false,
@@ -1157,8 +1160,7 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 312
                                     },
                                     "flags": 32,
-                                    "start": 305,
-                                    "end": 313
+                                    "start": 305
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1229,12 +1231,13 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
+                                    "kind": 201,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 125,
+                                                "kind": 281,
+                                                "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -1243,12 +1246,8 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 334,
                                                     "end": 335
                                                 },
-                                                "operatorToken": {
-                                                    "kind": 4125,
-                                                    "flags": 64,
-                                                    "start": 335,
-                                                    "end": 337
-                                                },
+                                                "optionalToken": null,
+                                                "type": null,
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
@@ -1268,8 +1267,7 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 339
                                     },
                                     "flags": 32,
-                                    "start": 333,
-                                    "end": 340
+                                    "start": 333
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1340,9 +1338,9 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
                                                 "kind": 134299649,
@@ -1354,11 +1352,11 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 361,
                                         "end": 363
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 360,
                                     "end": 365
                                 }
@@ -1431,9 +1429,9 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
                                                 "kind": 219,
@@ -1475,11 +1473,11 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 386,
                                         "end": 395
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 385,
                                     "end": 397
                                 }
@@ -1552,12 +1550,13 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 205,
+                                                "kind": 281,
+                                                "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -1566,6 +1565,8 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 418,
                                                     "end": 420
                                                 },
+                                                "optionalToken": null,
+                                                "type": null,
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
@@ -1580,11 +1581,11 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 418,
                                         "end": 424
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 417,
                                     "end": 426
                                 }
@@ -1657,14 +1658,14 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 119,
+                                    "kind": 201,
                                     "elementList": {
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 220,
+                                                "kind": 212,
                                                 "propertyList": {
-                                                    "kind": 218,
+                                                    "kind": 213,
                                                     "properties": [
                                                         {
                                                             "kind": 134299649,
@@ -1684,11 +1685,11 @@ var p10 = ([{ value, done }]) => { };
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 16,
+                                                    "flags": 32,
                                                     "start": 498,
                                                     "end": 510
                                                 },
-                                                "flags": 48,
+                                                "flags": 32,
                                                 "start": 497,
                                                 "end": 512
                                             }
@@ -1699,8 +1700,7 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 512
                                     },
                                     "flags": 32,
-                                    "start": 496,
-                                    "end": 513
+                                    "start": 496
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1765,15 +1765,21 @@ var d = n =>  c = n;
 var d = (n) =>  c = n;
 var d;
 var p1 = ([a]) =>  {};
-var p2 = ([...a]) =>  {};
-var p3 = ([, a]) =>  {};
-var p4 = ([, ...a]) =>  {};
-var p5 = ([a = 1]) =>  {};
-var p6 = ({ a }) =>  {};
-var p7 = ({ a: { b } }) =>  {};
-var p8 = ({ a = 1 }) =>  {};
+var p2 = ([]) =>  {};
+var p3 = ([a, ]) =>  {};
+var p4 = ([, ]) =>  {};
+var p5 = ([]) =>  {};
+var p6 = ({
+  a
+}) =>  {};
+var p7 = ({
+  a: { b }
+}) =>  {};
+var p8 = ({
+  a = 1
+}) =>  {};
 //var p9 = ({ a: { b = 1 } = { b: 1 } }) => { };
-var p10 = ([{ value, done }]) =>  {};
+var p10 = ([]) =>  {};
 ```
 
 ### Diagnostics

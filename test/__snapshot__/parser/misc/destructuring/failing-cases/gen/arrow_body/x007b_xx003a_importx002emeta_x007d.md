@@ -30,70 +30,68 @@
                 },
                 "typeParameters": null,
                 "parameters": [
-                    [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        {
-                            "kind": 220,
-                            "propertyList": {
-                                "kind": 218,
-                                "properties": [
-                                    {
-                                        "kind": 219,
-                                        "generatorToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 5,
-                                            "end": 7
-                                        },
-                                        "right": {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 207,
-                                                "importKeyword": {
-                                                    "kind": 37814364,
-                                                    "flags": 64,
-                                                    "start": 8,
-                                                    "end": 15
-                                                },
-                                                "metaIdentifier": {
-                                                    "kind": 16595,
-                                                    "flags": 64,
-                                                    "start": 16,
-                                                    "end": 20
-                                                },
-                                                "flags": 15,
-                                                "start": 96,
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 2
+                    },
+                    {
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 219,
+                                    "generatorToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 7
+                                    },
+                                    "right": {
+                                        "kind": 120,
+                                        "expression": {
+                                            "kind": 207,
+                                            "importKeyword": {
+                                                "kind": 37814364,
+                                                "flags": 64,
+                                                "start": 8,
+                                                "end": 15
+                                            },
+                                            "metaIdentifier": {
+                                                "kind": 16595,
+                                                "flags": 64,
+                                                "start": 16,
                                                 "end": 20
                                             },
-                                            "flags": 16,
-                                            "start": 15,
+                                            "flags": 15,
+                                            "start": 96,
                                             "end": 20
                                         },
-                                        "flags": 32,
-                                        "start": 5,
+                                        "flags": 16,
+                                        "start": 15,
                                         "end": 20
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 16,
-                                "start": 5,
-                                "end": 20
-                            },
-                            "flags": 48,
-                            "start": 3,
-                            "end": 22
-                        }
-                    ]
+                                    },
+                                    "flags": 32,
+                                    "start": 5,
+                                    "end": 20
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 5,
+                            "end": 20
+                        },
+                        "flags": 32,
+                        "start": 3,
+                        "end": 22
+                    }
                 ],
                 "asyncKeyword": null,
                 "returnType": null,

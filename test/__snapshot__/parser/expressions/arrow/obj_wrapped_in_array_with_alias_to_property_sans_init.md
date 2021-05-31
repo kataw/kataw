@@ -28,14 +28,14 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 119,
+                        "kind": 201,
                         "elementList": {
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 220,
+                                    "kind": 212,
                                     "propertyList": {
-                                        "kind": 218,
+                                        "kind": 213,
                                         "properties": [
                                             {
                                                 "kind": 219,
@@ -76,11 +76,11 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 3,
                                         "end": 9
                                     },
-                                    "flags": 48,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 10
                                 }
@@ -91,8 +91,7 @@
                             "end": 10
                         },
                         "flags": 32,
-                        "start": 1,
-                        "end": 11
+                        "start": 1
                     }
                 ],
                 "asyncKeyword": null,

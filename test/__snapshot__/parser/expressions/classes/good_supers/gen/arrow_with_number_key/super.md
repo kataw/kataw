@@ -115,9 +115,9 @@ class x extends y {
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
-                                                            "kind": 220,
+                                                            "kind": 212,
                                                             "propertyList": {
-                                                                "kind": 218,
+                                                                "kind": 213,
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
@@ -161,11 +161,11 @@ class x extends y {
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 16,
+                                                                "flags": 32,
                                                                 "start": 44,
                                                                 "end": 54
                                                             },
-                                                            "flags": 48,
+                                                            "flags": 32,
                                                             "start": 43,
                                                             "end": 55
                                                         }

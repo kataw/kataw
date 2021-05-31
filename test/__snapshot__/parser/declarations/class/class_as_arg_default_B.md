@@ -63,12 +63,13 @@ f = ([xCls = class X {}]) => {}
                     "typeParameters": null,
                     "parameters": [
                         {
-                            "kind": 119,
+                            "kind": 201,
                             "elementList": {
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 125,
+                                        "kind": 281,
+                                        "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "xCls",
@@ -77,12 +78,8 @@ f = ([xCls = class X {}]) => {}
                                             "start": 6,
                                             "end": 10
                                         },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 64,
-                                            "start": 10,
-                                            "end": 12
-                                        },
+                                        "optionalToken": null,
+                                        "type": null,
                                         "right": {
                                             "kind": 189,
                                             "decorators": null,
@@ -130,8 +127,7 @@ f = ([xCls = class X {}]) => {}
                                 "end": 23
                             },
                             "flags": 32,
-                            "start": 5,
-                            "end": 24
+                            "start": 5
                         }
                     ],
                     "asyncKeyword": null,
@@ -176,7 +172,7 @@ f = ([xCls = class X {}]) => {}
 
 ```javascript
 
-f = ([xCls = class X {}]) =>  {};
+f = ([]) =>  {};
 ```
 
 ### Diagnostics

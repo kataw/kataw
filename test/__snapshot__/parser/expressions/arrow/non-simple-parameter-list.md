@@ -36,7 +36,8 @@
                     "typeParameters": null,
                     "parameters": [
                         {
-                            "kind": 125,
+                            "kind": 281,
+                            "ellipsisToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -45,12 +46,8 @@
                                 "start": 1,
                                 "end": 3
                             },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 64,
-                                "start": 3,
-                                "end": 5
-                            },
+                            "optionalToken": null,
+                            "type": null,
                             "right": {
                                 "kind": 134299649,
                                 "text": "y",

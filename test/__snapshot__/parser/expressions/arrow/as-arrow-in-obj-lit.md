@@ -150,24 +150,22 @@ x = {arrow: (x, y) => ok};
                                     },
                                     "typeParameters": null,
                                     "parameters": [
-                                        [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 38,
-                                                "end": 39
-                                            },
-                                            {
-                                                "kind": 134299649,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 96,
-                                                "start": 40,
-                                                "end": 42
-                                            }
-                                        ]
+                                        {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 38,
+                                            "end": 39
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 40,
+                                            "end": 42
+                                        }
                                     ],
                                     "asyncKeyword": null,
                                     "returnType": null,
@@ -220,7 +218,7 @@ x = {arrow: (x, y) => ok};
 ```javascript
 
 x = { arrow: (x) =>  ok };
-x = { arrow: () =>  ok };
+x = { arrow: (x, y) =>  ok };
 ```
 
 ### Diagnostics
