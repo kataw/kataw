@@ -29,6 +29,7 @@ import {x, z,} from "y"
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -61,6 +62,7 @@ import {x, z,} from "y"
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -78,6 +80,7 @@ import {x, z,} from "y"
                             },
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,

@@ -29,6 +29,7 @@ import { y as yield } from 'm.js'
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -61,6 +62,7 @@ import { y as yield } from 'm.js'
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,

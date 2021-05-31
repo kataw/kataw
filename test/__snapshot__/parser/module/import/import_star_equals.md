@@ -29,6 +29,7 @@ import *= from 'f';
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,

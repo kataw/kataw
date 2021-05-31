@@ -29,6 +29,7 @@ import {'\uD800' as x} from 'foo'
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -61,6 +62,7 @@ import {'\uD800' as x} from 'foo'
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": {
                                     "kind": 201392131,
                                     "text": "\ud800",

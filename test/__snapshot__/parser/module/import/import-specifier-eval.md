@@ -39,6 +39,7 @@ import {eval as o} from 'foo';
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -71,6 +72,7 @@ import {eval as o} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -111,6 +113,7 @@ import {eval as o} from 'foo';
                 "start": 25,
                 "end": 33
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -143,6 +146,7 @@ import {eval as o} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -183,6 +187,7 @@ import {eval as o} from 'foo';
                 "start": 57,
                 "end": 65
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -215,6 +220,7 @@ import {eval as o} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -267,6 +273,7 @@ import {eval as o} from 'foo';
                 "start": 89,
                 "end": 97
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -299,6 +306,7 @@ import {eval as o} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -351,6 +359,7 @@ import {eval as o} from 'foo';
                 "start": 127,
                 "end": 135
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -383,6 +392,7 @@ import {eval as o} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -423,6 +433,7 @@ import {eval as o} from 'foo';
                 "start": 164,
                 "end": 172
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -455,6 +466,7 @@ import {eval as o} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,

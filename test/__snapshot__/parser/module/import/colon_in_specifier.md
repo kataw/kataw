@@ -29,6 +29,7 @@ import {a: b} from "bar";
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -55,6 +56,7 @@ import {a: b} from "bar";
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,

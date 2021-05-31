@@ -3,13 +3,13 @@
 ## Options
 
 `````js
-{ jsx: true, disableWebCompat: true, module: true }
+{ jsx: true, disableWebCompat: true, module: true, allowTypes: true }
 `````
 
 ## Input
 
 `````js
-import a , from 'm.js';
+import type foo24 from "bar";
 `````
 
 ## Output
@@ -29,55 +29,55 @@ import a , from 'm.js';
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "isType": true,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 10,
-                    "end": 15
+                    "start": 17,
+                    "end": 22
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "m.js",
-                    "rawText": "'m.js'",
-                    "flags": 4194400,
-                    "start": 15,
-                    "end": 22
+                    "text": "bar",
+                    "rawText": "\"bar\"",
+                    "flags": 96,
+                    "start": 22,
+                    "end": 28
                 },
                 "flags": 0,
-                "start": 10,
-                "end": 22
+                "start": 17,
+                "end": 28
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
+                    "text": "foo24",
+                    "rawText": "foo24",
                     "flags": 96,
-                    "start": 6,
-                    "end": 8
+                    "start": 11,
+                    "end": 17
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 10
+                "end": 17
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 29
         }
     ],
     "isModule": true,
-    "source": "import a , from 'm.js';",
+    "source": "import type foo24 from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 29
 }
 ```
 
@@ -85,12 +85,12 @@ import a , from 'm.js';
 
 ```javascript
 
+import foo24  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Import declaration expected - start: 10, end: 15
-
+✔ No errors
 ```
 

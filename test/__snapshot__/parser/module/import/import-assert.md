@@ -29,6 +29,7 @@ import 'x' assert {x}
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": null,
             "moduleSpecifier": {
                 "kind": 201392131,

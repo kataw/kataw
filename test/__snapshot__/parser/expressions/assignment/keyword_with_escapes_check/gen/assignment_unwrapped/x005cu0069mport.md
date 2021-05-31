@@ -26,6 +26,7 @@
                 "start": 0,
                 "end": 11
             },
+            "isType": false,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,

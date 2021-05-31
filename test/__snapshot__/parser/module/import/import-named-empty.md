@@ -29,6 +29,7 @@ import {} from "foo";
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {

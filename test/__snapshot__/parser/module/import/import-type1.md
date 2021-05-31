@@ -3,13 +3,14 @@
 ## Options
 
 `````js
-{ jsx: true, disableWebCompat: true, module: true }
+{ jsx: true, disableWebCompat: true, module: true, allowTypes: true }
 `````
 
 ## Input
 
 `````js
-import {bar as baz} from "foo";
+import type { foo25, bar1 } from "baz";
+
 `````
 
 ## Output
@@ -29,31 +30,38 @@ import {bar as baz} from "foo";
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "isType": true,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 19,
-                    "end": 24
+                    "start": 27,
+                    "end": 32
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "foo",
-                    "rawText": "\"foo\"",
+                    "text": "baz",
+                    "rawText": "\"baz\"",
                     "flags": 96,
-                    "start": 24,
-                    "end": 30
+                    "start": 32,
+                    "end": 38
                 },
                 "flags": 0,
-                "start": 19,
-                "end": 30
+                "start": 27,
+                "end": 38
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
-                "defaultBinding": null,
+                "defaultBinding": {
+                    "kind": 134299649,
+                    "text": "type",
+                    "rawText": "type",
+                    "flags": 96,
+                    "start": 6,
+                    "end": 11
+                },
                 "nameSpaceImport": null,
                 "namedImports": {
                     "kind": 267,
@@ -64,56 +72,62 @@ import {bar as baz} from "foo";
                                 "kind": 264,
                                 "isType": false,
                                 "moduleExportName": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "bar",
-                                    "rawText": "bar",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 11
-                                },
-                                "asKeyword": {
-                                    "kind": 16494,
-                                    "flags": 80,
-                                    "start": 11,
-                                    "end": 14
-                                },
+                                "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "baz",
-                                    "rawText": "baz",
+                                    "text": "foo25",
+                                    "rawText": "foo25",
                                     "flags": 96,
-                                    "start": 14,
-                                    "end": 18
+                                    "start": 13,
+                                    "end": 19
                                 },
                                 "flags": 16,
-                                "start": 8,
-                                "end": 18
+                                "start": 13,
+                                "end": 19
+                            },
+                            {
+                                "kind": 264,
+                                "isType": false,
+                                "moduleExportName": null,
+                                "name": null,
+                                "asKeyword": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "bar1",
+                                    "rawText": "bar1",
+                                    "flags": 96,
+                                    "start": 20,
+                                    "end": 25
+                                },
+                                "flags": 16,
+                                "start": 20,
+                                "end": 25
                             }
                         ],
                         "flags": 0,
-                        "start": 8,
-                        "end": 18
+                        "start": 13,
+                        "end": 25
                     },
                     "flags": 16,
-                    "start": 6,
-                    "end": 19
+                    "start": 11,
+                    "end": 27
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 19
+                "end": 27
             },
             "flags": 16,
             "start": 0,
-            "end": 31
+            "end": 39
         }
     ],
     "isModule": true,
-    "source": "import {bar as baz} from \"foo\";",
+    "source": "import type { foo25, bar1 } from \"baz\";\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 31
+    "end": 40
 }
 ```
 
@@ -121,7 +135,7 @@ import {bar as baz} from "foo";
 
 ```javascript
 
-import { bar asbaz }  ;
+import type, { foo25, bar1 }  ;
 ```
 
 ### Diagnostics

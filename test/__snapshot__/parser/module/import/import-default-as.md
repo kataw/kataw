@@ -29,6 +29,7 @@ import {default as foo} from "foo";
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -61,6 +62,7 @@ import {default as foo} from "foo";
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,

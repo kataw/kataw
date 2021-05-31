@@ -29,6 +29,7 @@ import a { b, c } from 'm.js'
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -68,6 +69,7 @@ import a { b, c } from 'm.js'
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -85,6 +87,7 @@ import a { b, c } from 'm.js'
                             },
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,

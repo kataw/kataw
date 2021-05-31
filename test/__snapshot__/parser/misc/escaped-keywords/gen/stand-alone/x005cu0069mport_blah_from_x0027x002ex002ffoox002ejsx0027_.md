@@ -26,6 +26,7 @@
                 "start": 0,
                 "end": 11
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {

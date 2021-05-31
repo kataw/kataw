@@ -6165,12 +6165,13 @@ function parseImportDeclaration(
     NodeFlags.IsStatement,
     pos
   );
-  const afterImportPos = parser.curPos;
+
   if (parser.token === SyntaxKind.StringLiteral) {
     const moduleSpecifier = parseStringLiteral(parser, context);
     parseSemicolon(parser, context);
     return createImportDeclaration(
       importToken,
+      /* isType*/ false,
       /* fromClause */ null,
       moduleSpecifier,
       /* importClause */ null,
@@ -6199,9 +6200,12 @@ function parseImportDeclaration(
 
   let importClause = null;
   let fromClause = null;
+  let token = parser.token;
+  let tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
+  let isType = false;
 
   if (
-    parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier) || // import id
+    tokenIsIdentifier || // import id
     parser.token === SyntaxKind.Multiply || // import *
     parser.token === SyntaxKind.LeftBrace // import {
   ) {
@@ -6209,7 +6213,8 @@ function parseImportDeclaration(
     let namespace = null;
     let namedImports = null;
 
-    if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+    if (tokenIsIdentifier) {
+      const isEvalOrArguments = token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier;
       defaultBinding = parseIdentifier(
         parser,
         context,
@@ -6217,19 +6222,43 @@ function parseImportDeclaration(
         DiagnosticCode.Binding_identifier_expected
       ) as Identifier;
 
+      // - `import type a from "b";`
+      // - `import type { a, b } from "c";`
+      // - `import type a from "b";`
       if (
-        consumeOpt(parser, context, SyntaxKind.Comma) &&
-        parser.token !== SyntaxKind.Multiply && // import *
-        parser.token !== SyntaxKind.LeftBrace
+        context & Context.OptionsAllowTypes &&
+        (token as SyntaxKind) === SyntaxKind.TypeKeyword &&
+        parser.token !== SyntaxKind.FromKeyword
       ) {
-        // import {)
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode._NameSpaceImport_or_NamedImports_expected],
-          parser.curPos,
-          parser.pos
-        );
+        isType = true;
+        // - `import type foo24 from "bar";`
+        if (parser.token & 0b00000000100000000100000000000000) {
+          defaultBinding = parseIdentifier(
+            parser,
+            context,
+            0b00000000100000000100000000000000,
+            DiagnosticCode.Binding_identifier_expected
+          ) as Identifier;
+        }
+      } else {
+        if (
+          isEvalOrArguments ||
+          (consumeOpt(parser, context, SyntaxKind.Comma) &&
+            parser.token !== SyntaxKind.Multiply && // import *
+            parser.token !== SyntaxKind.LeftBrace)
+        ) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[
+              isEvalOrArguments
+                ? DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
+                : DiagnosticCode.Import_declaration_expected
+            ],
+            parser.curPos,
+            parser.pos
+          );
+        }
       }
     }
 
@@ -6252,9 +6281,11 @@ function parseImportDeclaration(
   }
 
   parseSemicolon(parser, context);
+
   return createImportDeclaration(
     importToken,
-    fromClause as any,
+    isType,
+    fromClause,
     /* moduleSpecifier */ null,
     importClause,
     pos,
@@ -6307,6 +6338,7 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
   while (parser.token === SyntaxKind.StringLiteral) {
     specifiers.push(
       createImportSpecifier(
+        /* isType */ false,
         parseModuleExportName(parser, context),
         null,
         consumeKeywordAndCheckForEscapeSequence(
@@ -6341,9 +6373,9 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
 //   Identifier `as` ImportedBinding
 function parseImportSpecifier(parser: ParserState, context: Context, scope: ScopeState): ImportSpecifier {
   const pos = parser.curPos;
-  const isEvalOrArguments =
-    parser.token === SyntaxKind.EvalIdentifier || parser.token === SyntaxKind.ArgumentsIdentifier;
-  const identifier = parseIdentifier(
+  const token = parser.token;
+  let isType = false;
+  let identifier = parseIdentifier(
     parser,
     context,
     0b00000000110000000100000000000000,
@@ -6352,6 +6384,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
 
   if (parser.token === SyntaxKind.AsKeyword) {
     return createImportSpecifier(
+      /* isType */ false,
       null,
       identifier as Identifier,
       consumeKeywordAndCheckForEscapeSequence(
@@ -6366,7 +6399,18 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
       parser.curPos
     );
   }
-  if (isEvalOrArguments) {
+
+  if (token === SyntaxKind.TypeKeyword && parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    isType = true;
+    identifier = parseIdentifier(
+      parser,
+      context,
+      0b00000000110000000100000000000000,
+      DiagnosticCode.Identifier_expected
+    );
+  }
+
+  if (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -6381,7 +6425,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
   }
   addVarOrBlock(parser, context, scope, identifier.text, BindingType.Let);
 
-  return createImportSpecifier(null, null, null, identifier as Identifier, pos, parser.curPos);
+  return createImportSpecifier(isType, null, null, null, identifier as Identifier, pos, parser.curPos);
 }
 
 // ModulemoduleExportName : StringLiteral

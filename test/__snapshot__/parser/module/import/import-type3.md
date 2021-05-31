@@ -3,13 +3,13 @@
 ## Options
 
 `````js
-{ jsx: true, disableWebCompat: true, module: true }
+{ jsx: true, disableWebCompat: true, module: true, allowTypes: true }
 `````
 
 ## Input
 
 `````js
-import {bar as baz} from "foo";
+import { type Foo12 } from "bar";
 `````
 
 ## Output
@@ -35,20 +35,20 @@ import {bar as baz} from "foo";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 19,
-                    "end": 24
+                    "start": 21,
+                    "end": 26
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "foo",
-                    "rawText": "\"foo\"",
+                    "text": "bar",
+                    "rawText": "\"bar\"",
                     "flags": 96,
-                    "start": 24,
-                    "end": 30
+                    "start": 26,
+                    "end": 32
                 },
                 "flags": 0,
-                "start": 19,
-                "end": 30
+                "start": 21,
+                "end": 32
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -62,58 +62,46 @@ import {bar as baz} from "foo";
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "isType": true,
                                 "moduleExportName": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "bar",
-                                    "rawText": "bar",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 11
-                                },
-                                "asKeyword": {
-                                    "kind": 16494,
-                                    "flags": 80,
-                                    "start": 11,
-                                    "end": 14
-                                },
+                                "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "baz",
-                                    "rawText": "baz",
+                                    "text": "Foo12",
+                                    "rawText": "Foo12",
                                     "flags": 96,
-                                    "start": 14,
-                                    "end": 18
+                                    "start": 13,
+                                    "end": 19
                                 },
                                 "flags": 16,
                                 "start": 8,
-                                "end": 18
+                                "end": 19
                             }
                         ],
                         "flags": 0,
                         "start": 8,
-                        "end": 18
+                        "end": 19
                     },
                     "flags": 16,
                     "start": 6,
-                    "end": 19
+                    "end": 21
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 19
+                "end": 21
             },
             "flags": 16,
             "start": 0,
-            "end": 31
+            "end": 33
         }
     ],
     "isModule": true,
-    "source": "import {bar as baz} from \"foo\";",
+    "source": "import { type Foo12 } from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 31
+    "end": 33
 }
 ```
 
@@ -121,7 +109,7 @@ import {bar as baz} from "foo";
 
 ```javascript
 
-import { bar asbaz }  ;
+import { Foo12 }  ;
 ```
 
 ### Diagnostics

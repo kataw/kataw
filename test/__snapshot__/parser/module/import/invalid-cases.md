@@ -40,6 +40,7 @@ import * as x, {y} from 'm.js';
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -66,6 +67,7 @@ import * as x, {y} from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -148,6 +150,7 @@ import * as x, {y} from 'm.js';
                 "start": 30,
                 "end": 38
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -220,6 +223,7 @@ import * as x, {y} from 'm.js';
                 "start": 61,
                 "end": 69
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -323,6 +327,7 @@ import * as x, {y} from 'm.js';
                 "start": 94,
                 "end": 102
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -459,6 +464,7 @@ import * as x, {y} from 'm.js';
                 "start": 130,
                 "end": 138
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -485,6 +491,7 @@ import * as x, {y} from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
+                                "isType": false,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -581,6 +588,7 @@ import * as x, {y} from 'm.js';
                 "start": 160,
                 "end": 168
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -712,7 +720,7 @@ import * as x, {y} from 'm.js';
 ✖ Identifier expected - start: 12, end: 13
 ✖ Expected a `;` - start: 17, end: 22
 ✖ Expected a `;` - start: 22, end: 29
-✖ 'NameSpaceImport' or 'NamedImports' expected - start: 43, end: 48
+✖ Import declaration expected - start: 43, end: 48
 ✖ Expected a `;` - start: 48, end: 53
 ✖ Expected a `;` - start: 53, end: 60
 ✖ Duplicate identifier - start: 74, end: 76

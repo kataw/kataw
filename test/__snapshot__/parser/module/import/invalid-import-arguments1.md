@@ -29,6 +29,7 @@ import arguments from 'm.js';
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -84,12 +85,12 @@ import arguments from 'm.js';
 
 ```javascript
 
-import arguments  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 16, end: 21
+
 ```
 

@@ -29,6 +29,7 @@ import a, *= from 'f';
                 "start": 0,
                 "end": 6
             },
+            "isType": false,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -117,7 +118,7 @@ import a, *= from 'f';
 ### Diagnostics
 
 ```javascript
-✖ 'NameSpaceImport' or 'NamedImports' expected - start: 9, end: 12
+✖ Import declaration expected - start: 9, end: 12
 ✖ Identifier expected - start: 9, end: 12
 ✖ Expected a `;` - start: 17, end: 21
 
