@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import {} from "foo";
+import arguments from 'm.js';
 `````
 
 ## Output
@@ -34,54 +34,49 @@ import {} from "foo";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 9,
-                    "end": 14
+                    "start": 16,
+                    "end": 21
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "foo",
-                    "rawText": "\"foo\"",
-                    "flags": 96,
-                    "start": 14,
-                    "end": 20
+                    "text": "m.js",
+                    "rawText": "'m.js'",
+                    "flags": 4194400,
+                    "start": 21,
+                    "end": 28
                 },
                 "flags": 0,
-                "start": 9,
-                "end": 20
+                "start": 16,
+                "end": 28
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": null,
-                "namedImports": {
-                    "kind": 267,
-                    "importsList": {
-                        "kind": 265,
-                        "specifiers": [],
-                        "flags": 0,
-                        "start": 8,
-                        "end": 8
-                    },
-                    "flags": 16,
+                "defaultBinding": {
+                    "kind": 134299649,
+                    "text": "arguments",
+                    "rawText": "arguments",
+                    "flags": 96,
                     "start": 6,
-                    "end": 9
+                    "end": 16
                 },
+                "nameSpaceImport": null,
+                "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 9
+                "end": 16
             },
             "flags": 16,
             "start": 0,
-            "end": 21
+            "end": 29
         }
     ],
     "isModule": true,
-    "source": "import {} from \"foo\";",
+    "source": "import arguments from 'm.js';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 21
+    "end": 29
 }
 ```
 
@@ -89,7 +84,7 @@ import {} from "foo";
 
 ```javascript
 
-import {}  ;
+import arguments  ;
 ```
 
 ### Diagnostics

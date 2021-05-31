@@ -122,8 +122,8 @@ class import {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
+✖ The `import` keyword can only be used with the module goal - start: 5, end: 14
 ✖ Identifier expected - start: 15, end: 15
-✖ The `import` keyword can only be used with the module goal - start: 15, end: 15
 
 ```
 

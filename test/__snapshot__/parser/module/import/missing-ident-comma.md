@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import {x as z,} from "y"
+import a { b, c } from 'm.js'
 `````
 
 ## Output
@@ -34,25 +34,32 @@ import {x as z,} from "y"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 16,
-                    "end": 21
+                    "start": 17,
+                    "end": 22
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "y",
-                    "rawText": "\"y\"",
-                    "flags": 96,
-                    "start": 21,
-                    "end": 25
+                    "text": "m.js",
+                    "rawText": "'m.js'",
+                    "flags": 4194400,
+                    "start": 22,
+                    "end": 29
                 },
                 "flags": 0,
-                "start": 16,
-                "end": 25
+                "start": 17,
+                "end": 29
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
-                "defaultBinding": null,
+                "defaultBinding": {
+                    "kind": 134299649,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 96,
+                    "start": 6,
+                    "end": 8
+                },
                 "nameSpaceImport": null,
                 "namedImports": {
                     "kind": 267,
@@ -62,56 +69,61 @@ import {x as z,} from "y"
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                "asKeyword": {
-                                    "kind": 16494,
-                                    "flags": 80,
-                                    "start": 9,
-                                    "end": 12
-                                },
+                                "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
+                                    "text": "b",
+                                    "rawText": "b",
                                     "flags": 96,
-                                    "start": 12,
-                                    "end": 14
+                                    "start": 10,
+                                    "end": 12
                                 },
                                 "flags": 16,
-                                "start": 8,
-                                "end": 14
+                                "start": 10,
+                                "end": 12
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "asKeyword": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "c",
+                                    "rawText": "c",
+                                    "flags": 96,
+                                    "start": 13,
+                                    "end": 15
+                                },
+                                "flags": 16,
+                                "start": 13,
+                                "end": 15
                             }
                         ],
                         "flags": 0,
-                        "start": 8,
+                        "start": 10,
                         "end": 15
                     },
                     "flags": 16,
-                    "start": 6,
-                    "end": 16
+                    "start": 8,
+                    "end": 17
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 16
+                "end": 17
             },
             "flags": 16,
             "start": 0,
-            "end": 25
+            "end": 29
         }
     ],
     "isModule": true,
-    "source": "import {x as z,} from \"y\"",
+    "source": "import a { b, c } from 'm.js'",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 25
+    "end": 29
 }
 ```
 
@@ -119,7 +131,7 @@ import {x as z,} from "y"
 
 ```javascript
 
-import { x asz }  ;
+import a, { b, c }  ;
 ```
 
 ### Diagnostics

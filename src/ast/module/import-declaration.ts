@@ -6,7 +6,7 @@ import { FromClause } from './from-clause';
 
 export interface ImportDeclaration extends SyntaxNode {
   readonly importKeyword: SyntaxToken<TokenSyntaxKind>;
-  readonly fromClause: FromClause;
+  readonly fromClause: FromClause | null;
   readonly moduleSpecifier: ExpressionNode | null;
   readonly importClause: ImportClause | null;
 }
@@ -14,7 +14,7 @@ export interface ImportDeclaration extends SyntaxNode {
 export function createImportDeclaration(
   importKeyword: SyntaxToken<TokenSyntaxKind>,
   /** If this is not a StringLiteral it will be a grammar error. */
-  fromClause: FromClause,
+  fromClause: FromClause | null,
   moduleSpecifier: ExpressionNode | null,
   importClause: ImportClause | null,
   start: number,

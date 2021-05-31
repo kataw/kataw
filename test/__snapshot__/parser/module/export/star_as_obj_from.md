@@ -41,7 +41,7 @@ export * as foo, {bar} from 'bar';
                 },
                 "asKeyword": {
                     "kind": 16494,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 8,
                     "end": 11
                 },

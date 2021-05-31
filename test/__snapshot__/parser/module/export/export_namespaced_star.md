@@ -41,7 +41,7 @@ export * as x from "x" foo
                 },
                 "asKeyword": {
                     "kind": 16494,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 8,
                     "end": 11
                 },
@@ -62,7 +62,7 @@ export * as x from "x" foo
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 13,
                     "end": 18
                 },

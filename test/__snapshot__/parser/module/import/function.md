@@ -66,7 +66,7 @@ function f(){import {x} from "y";}
                                 "kind": 256,
                                 "fromKeyword": {
                                     "kind": 16500,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 23,
                                     "end": 28
                                 },
@@ -160,7 +160,7 @@ function f(){import {x} from "y";}
 ### Diagnostics
 
 ```javascript
-✖ The `import` keyword can only be used with the module goal - start: 32, end: 33
+✖ The `import` keyword can only be used with the module goal - start: 13, end: 21
 
 ```
 

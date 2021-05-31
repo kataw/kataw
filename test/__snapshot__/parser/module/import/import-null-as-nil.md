@@ -33,7 +33,7 @@ import { null as nil } from "bar"
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 22,
                     "end": 27
                 },
@@ -72,7 +72,7 @@ import { null as nil } from "bar"
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 13,
                                     "end": 16
                                 },

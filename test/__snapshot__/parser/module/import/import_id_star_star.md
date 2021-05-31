@@ -117,7 +117,7 @@ import a, ** from 'f';
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 9, end: 12
+✖ 'NameSpaceImport' or 'NamedImports' expected - start: 9, end: 12
 ✖ Identifier expected - start: 9, end: 12
 ✖ Expected a `;` - start: 17, end: 21
 

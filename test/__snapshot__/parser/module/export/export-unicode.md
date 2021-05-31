@@ -48,7 +48,7 @@ export {𐀀 as x} from 'path'
                             },
                             "asKeyword": {
                                 "kind": 16494,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 10,
                                 "end": 13
                             },
@@ -78,7 +78,7 @@ export {𐀀 as x} from 'path'
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 16,
                     "end": 21
                 },

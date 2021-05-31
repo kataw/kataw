@@ -48,7 +48,7 @@ export {a \u0061s b} from "x";
                             },
                             "asKeyword": {
                                 "kind": 16494,
-                                "flags": 16448,
+                                "flags": 16464,
                                 "start": 9,
                                 "end": 17
                             },
@@ -78,7 +78,7 @@ export {a \u0061s b} from "x";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 20,
                     "end": 25
                 },
@@ -113,12 +113,12 @@ export {a \u0061s b} from "x";
 
 ```javascript
 
-export { a as b } from ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Keywords cannot contain escape characters - start: 9, end: 17
+
 ```
 

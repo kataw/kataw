@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-var x; export {x as a,}
+var a; export { a, ;
 `````
 
 ## Output
@@ -37,8 +37,8 @@ var x; export {x as a,}
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
+                            "text": "a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -78,53 +78,41 @@ var x; export {x as a,}
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 15,
-                                "end": 16
-                            },
-                            "asKeyword": {
-                                "kind": 16494,
-                                "flags": 80,
-                                "start": 16,
-                                "end": 19
-                            },
-                            "binding": {
-                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
-                                "start": 19,
-                                "end": 21
+                                "start": 15,
+                                "end": 17
                             },
+                            "asKeyword": null,
+                            "binding": null,
                             "flags": 16,
                             "start": 15,
-                            "end": 21
+                            "end": 17
                         }
                     ],
                     "flags": 16,
                     "start": 15,
-                    "end": 22
+                    "end": 18
                 },
                 "flags": 0,
                 "start": 13,
-                "end": 23
+                "end": 18
             },
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
             "flags": 16,
             "start": 6,
-            "end": 23
+            "end": 20
         }
     ],
     "isModule": true,
-    "source": "var x; export {x as a,}",
+    "source": "var a; export { a, ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 20
 }
 ```
 
@@ -132,13 +120,12 @@ var x; export {x as a,}
 
 ```javascript
 
-var x;
-export { x as a };
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 20
+
 ```
 

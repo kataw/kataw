@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import foo;
+import { , };
 `````
 
 ## Output
@@ -36,41 +36,52 @@ import foo;
                     "kind": 16637,
                     "text": "",
                     "flags": 64,
-                    "start": 10,
-                    "end": 10
+                    "start": 8,
+                    "end": 8
                 },
                 "flags": 0,
-                "start": 10,
-                "end": 10
+                "start": 8,
+                "end": 8
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
-                "defaultBinding": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 6,
-                    "end": 10
-                },
+                "defaultBinding": null,
                 "nameSpaceImport": null,
-                "namedImports": null,
+                "namedImports": {
+                    "kind": 267,
+                    "importsList": {
+                        "kind": 265,
+                        "specifiers": [],
+                        "flags": 0,
+                        "start": 8,
+                        "end": 8
+                    },
+                    "flags": 16,
+                    "start": 6,
+                    "end": 8
+                },
                 "flags": 16,
                 "start": 0,
-                "end": 10
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 8
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 12,
+            "end": 13
         }
     ],
     "isModule": true,
-    "source": "import foo;",
+    "source": "import { , };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 11
+    "end": 13
 }
 ```
 
@@ -83,7 +94,8 @@ import foo;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 10, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 10
+✖ Declaration or statement expected - start: 10, end: 12
 
 ```
 

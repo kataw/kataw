@@ -50,7 +50,7 @@ export * from x
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 8,
                     "end": 13
                 },

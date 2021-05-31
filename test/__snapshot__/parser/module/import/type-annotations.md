@@ -41,7 +41,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 27,
                     "end": 32
                 },
@@ -87,7 +87,7 @@ import { type Foo12 } from "bar";
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 17,
                                     "end": 20
                                 },
@@ -132,7 +132,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 51,
                     "end": 56
                 },
@@ -181,7 +181,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 87,
                     "end": 92
                 },
@@ -332,7 +332,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 157,
                     "end": 162
                 },
@@ -530,7 +530,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 232,
                     "end": 237
                 },
@@ -628,12 +628,13 @@ import { type Foo12 } from "bar";
 ```javascript
 ✖ Expected a `;` - start: 117, end: 122
 ✖ Expected a `;` - start: 122, end: 128
-✖ Unexpected token. - start: 176, end: 183
+✖ Declaration or statement expected - start: 176, end: 183
 ✖ Expected a `;` - start: 176, end: 183
 ✖ Identifier expected - start: 183, end: 185
 ✖ Expected a `;` - start: 188, end: 198
 ✖ Expected a `;` - start: 198, end: 203
 ✖ Expected a `;` - start: 203, end: 209
+✖ ',' expected - start: 224, end: 230
 
 ```
 

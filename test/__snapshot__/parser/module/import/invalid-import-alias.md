@@ -33,7 +33,7 @@ import {'\uD800' as x} from 'foo'
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 22,
                     "end": 27
                 },
@@ -72,7 +72,7 @@ import {'\uD800' as x} from 'foo'
                                 "name": null,
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 16,
                                     "end": 19
                                 },

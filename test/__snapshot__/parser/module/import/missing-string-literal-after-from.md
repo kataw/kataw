@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import {x as z,} from "y"
+import { a } from;
 `````
 
 ## Output
@@ -34,20 +34,19 @@ import {x as z,} from "y"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 16,
-                    "end": 21
+                    "start": 12,
+                    "end": 17
                 },
                 "from": {
-                    "kind": 201392131,
-                    "text": "y",
-                    "rawText": "\"y\"",
-                    "flags": 96,
-                    "start": 21,
-                    "end": 25
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 17,
+                    "end": 17
                 },
                 "flags": 0,
-                "start": 16,
-                "end": 25
+                "start": 12,
+                "end": 17
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -62,56 +61,44 @@ import {x as z,} from "y"
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                "asKeyword": {
-                                    "kind": 16494,
-                                    "flags": 80,
-                                    "start": 9,
-                                    "end": 12
-                                },
+                                "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
+                                    "text": "a",
+                                    "rawText": "a",
                                     "flags": 96,
-                                    "start": 12,
-                                    "end": 14
+                                    "start": 8,
+                                    "end": 10
                                 },
                                 "flags": 16,
                                 "start": 8,
-                                "end": 14
+                                "end": 10
                             }
                         ],
                         "flags": 0,
                         "start": 8,
-                        "end": 15
+                        "end": 10
                     },
                     "flags": 16,
                     "start": 6,
-                    "end": 16
+                    "end": 12
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 16
+                "end": 12
             },
             "flags": 16,
             "start": 0,
-            "end": 25
+            "end": 18
         }
     ],
     "isModule": true,
-    "source": "import {x as z,} from \"y\"",
+    "source": "import { a } from;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 25
+    "end": 18
 }
 ```
 
@@ -119,12 +106,12 @@ import {x as z,} from "y"
 
 ```javascript
 
-import { x asz }  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 17, end: 18
+
 ```
 

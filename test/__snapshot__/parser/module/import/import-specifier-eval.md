@@ -43,7 +43,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 13,
                     "end": 18
                 },
@@ -115,7 +115,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 45,
                     "end": 50
                 },
@@ -187,7 +187,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 77,
                     "end": 82
                 },
@@ -226,7 +226,7 @@ import {eval as o} from 'foo';
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 68,
                                     "end": 71
                                 },
@@ -271,7 +271,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 115,
                     "end": 120
                 },
@@ -310,7 +310,7 @@ import {eval as o} from 'foo';
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 101,
                                     "end": 104
                                 },
@@ -355,7 +355,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 152,
                     "end": 157
                 },
@@ -427,7 +427,7 @@ import {eval as o} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 184,
                     "end": 189
                 },
@@ -466,7 +466,7 @@ import {eval as o} from 'foo';
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 178,
                                     "end": 181
                                 },
@@ -518,12 +518,12 @@ import {eval as o} from 'foo';
 ### Diagnostics
 
 ```javascript
-✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 12, end: 13
-✖ 'eval' and 'arguments' cannot contain escape characters - start: 44, end: 45
+✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 8, end: 13
+✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 35, end: 45
 ✖ Duplicate identifier - start: 44, end: 45
 ✖ Duplicate identifier - start: 71, end: 76
 ✖ Duplicate identifier - start: 104, end: 114
-✖ 'eval' and 'arguments' cannot contain escape characters - start: 151, end: 152
+✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 137, end: 152
 
 ```
 

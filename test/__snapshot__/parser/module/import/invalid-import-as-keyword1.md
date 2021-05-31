@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import {x as z,} from "y"
+import { y as yield } from 'm.js'
 `````
 
 ## Output
@@ -34,20 +34,20 @@ import {x as z,} from "y"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 16,
-                    "end": 21
+                    "start": 21,
+                    "end": 26
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "y",
-                    "rawText": "\"y\"",
-                    "flags": 96,
-                    "start": 21,
-                    "end": 25
+                    "text": "m.js",
+                    "rawText": "'m.js'",
+                    "flags": 4194400,
+                    "start": 26,
+                    "end": 33
                 },
                 "flags": 0,
-                "start": 16,
-                "end": 25
+                "start": 21,
+                "end": 33
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -64,54 +64,54 @@ import {x as z,} from "y"
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 8,
-                                    "end": 9
+                                    "end": 10
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
-                                    "start": 9,
-                                    "end": 12
+                                    "start": 10,
+                                    "end": 13
                                 },
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
+                                    "text": "yield",
+                                    "rawText": "yield",
                                     "flags": 96,
-                                    "start": 12,
-                                    "end": 14
+                                    "start": 13,
+                                    "end": 19
                                 },
                                 "flags": 16,
                                 "start": 8,
-                                "end": 14
+                                "end": 19
                             }
                         ],
                         "flags": 0,
                         "start": 8,
-                        "end": 15
+                        "end": 19
                     },
                     "flags": 16,
                     "start": 6,
-                    "end": 16
+                    "end": 21
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 16
+                "end": 21
             },
             "flags": 16,
             "start": 0,
-            "end": 25
+            "end": 33
         }
     ],
     "isModule": true,
-    "source": "import {x as z,} from \"y\"",
+    "source": "import { y as yield } from 'm.js'",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 25
+    "end": 33
 }
 ```
 
@@ -119,12 +119,12 @@ import {x as z,} from "y"
 
 ```javascript
 
-import { x asz }  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 13, end: 19
+
 ```
 

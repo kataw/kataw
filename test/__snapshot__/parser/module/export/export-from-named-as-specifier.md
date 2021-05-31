@@ -48,7 +48,7 @@ export {foo as bar} from "foo";
                             },
                             "asKeyword": {
                                 "kind": 16494,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 11,
                                 "end": 14
                             },
@@ -78,7 +78,7 @@ export {foo as bar} from "foo";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 19,
                     "end": 24
                 },

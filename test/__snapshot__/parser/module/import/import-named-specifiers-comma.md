@@ -33,7 +33,7 @@ import {bar, baz,} from "foo";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 18,
                     "end": 23
                 },

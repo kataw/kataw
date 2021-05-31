@@ -103,7 +103,7 @@ var x,y; export {x as a, y as b}
                             },
                             "asKeyword": {
                                 "kind": 16494,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 18,
                                 "end": 21
                             },
@@ -132,7 +132,7 @@ var x,y; export {x as a, y as b}
                             },
                             "asKeyword": {
                                 "kind": 16494,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 26,
                                 "end": 29
                             },

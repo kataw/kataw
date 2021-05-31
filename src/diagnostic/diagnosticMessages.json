@@ -224,7 +224,8 @@
   "Catch clause variable cannot have an type annotation": 228,
   "The 'this' keyword cannot be a formal parameter": 229,
   "A 'get' accessor cannot have a `this` parameter": 231,
-  "A 'constructor' cannot have a `this` parameter": 232
+  "A 'constructor' cannot have a `this` parameter": 232,
+  "'NameSpaceImport' or 'NamedImports' expected": 234
 }
 
 

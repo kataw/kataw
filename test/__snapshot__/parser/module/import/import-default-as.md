@@ -33,7 +33,7 @@ import {default as foo} from "foo";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 23,
                     "end": 28
                 },
@@ -72,7 +72,7 @@ import {default as foo} from "foo";
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 15,
                                     "end": 18
                                 },

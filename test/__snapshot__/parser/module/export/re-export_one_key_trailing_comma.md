@@ -66,7 +66,7 @@ export {x,} from "foo"
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 11,
                     "end": 16
                 },

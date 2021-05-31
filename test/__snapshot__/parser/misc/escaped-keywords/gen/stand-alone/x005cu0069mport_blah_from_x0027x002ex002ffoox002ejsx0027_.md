@@ -30,7 +30,7 @@
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 16,
                     "end": 21
                 },
@@ -87,7 +87,7 @@
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 0, end: 11
-✖ The `import` keyword can only be used with the module goal - start: 32, end: 33
+✖ The `import` keyword can only be used with the module goal - start: 0, end: 16
 
 ```
 

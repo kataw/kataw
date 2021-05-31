@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import *= from 'f';
+import , from 'm.js';
 `````
 
 ## Output
@@ -43,34 +43,34 @@ import *= from 'f';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
-                "start": 9,
-                "end": 14
+                "start": 8,
+                "end": 13
             },
             "flags": 16,
-            "start": 9,
-            "end": 14
+            "start": 8,
+            "end": 13
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "f",
-                "rawText": "'f'",
+                "text": "m.js",
+                "rawText": "'m.js'",
                 "flags": 4194400,
-                "start": 14,
-                "end": 18
+                "start": 13,
+                "end": 20
             },
             "flags": 16,
-            "start": 14,
-            "end": 19
+            "start": 13,
+            "end": 21
         }
     ],
     "isModule": true,
-    "source": "import *= from 'f';",
+    "source": "import , from 'm.js';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 21
 }
 ```
 
@@ -83,9 +83,9 @@ import *= from 'f';
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 6, end: 9
-✖ Expected a `;` - start: 6, end: 9
-✖ Expected a `;` - start: 14, end: 18
+✖ Declaration or statement expected - start: 6, end: 8
+✖ Expected a `;` - start: 6, end: 8
+✖ Expected a `;` - start: 13, end: 20
 
 ```
 

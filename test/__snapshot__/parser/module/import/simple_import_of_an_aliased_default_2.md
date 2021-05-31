@@ -33,7 +33,7 @@ import x, * as a from "y"
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 16,
                     "end": 21
                 },
@@ -70,7 +70,7 @@ import x, * as a from "y"
                     },
                     "asKeyword": {
                         "kind": 16494,
-                        "flags": 64,
+                        "flags": 80,
                         "start": 11,
                         "end": 14
                     },

@@ -1572,7 +1572,6 @@ function parseIdentifier(
 ): Identifier | DummyIdentifier {
   const { curPos, tokenValue, tokenRaw, pos } = parser;
   parser.assignable = true;
-
   if (parser.token & check) {
     nextToken(parser, context);
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
@@ -5252,7 +5251,7 @@ function parseBindingProperty(
     if (ellipsisToken || parser.token === SyntaxKind.Assign) {
       return createBindingElement(
         ellipsisToken,
-        key as any,
+        key as Identifier,
         /* optionalToken */ null,
         /* type */ null,
         parseInitializer(parser, context, ellipsisToken ? true : false),
@@ -6157,9 +6156,6 @@ function parseImportDeclaration(
   scope: ScopeState,
   isScript: boolean
 ): ImportDeclaration | ExpressionStatement {
-  let moduleSpecifier = null;
-  let importClause = null;
-  let fromClause: FromClause | null = null;
   const pos = parser.curPos;
   const importToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -6168,18 +6164,49 @@ function parseImportDeclaration(
     NodeFlags.IsStatement,
     pos
   );
-
+  const afterImportPos = parser.curPos;
   if (parser.token === SyntaxKind.StringLiteral) {
-    moduleSpecifier = parseStringLiteral(parser, context);
-  } else if (
+    const moduleSpecifier = parseStringLiteral(parser, context);
+    parseSemicolon(parser, context);
+    return createImportDeclaration(
+      importToken,
+      /* fromClause */ null,
+      moduleSpecifier,
+      /* importClause */ null,
+      pos,
+      parser.curPos
+    );
+  }
+
+  if (parser.token === SyntaxKind.LeftParen) {
+    return parseImportCall(parser, context, importToken);
+  }
+
+  if (parser.token === SyntaxKind.Period) {
+    return parseImportMeta(parser, context, importToken);
+  }
+
+  if (isScript) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.The_import_keyword_can_only_be_used_with_the_module_goal],
+      pos,
+      parser.pos
+    );
+  }
+
+  let importClause = null;
+  let fromClause = null;
+
+  if (
     parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier) || // import id
     parser.token === SyntaxKind.Multiply || // import *
     parser.token === SyntaxKind.LeftBrace // import {
   ) {
-    let defaultBinding: Identifier | null = null;
-    let namespace: NameSpaceImport | null = null;
-    let namedImports: NamedImports | null = null;
-    let isCommaSeparated = true;
+    let defaultBinding = null;
+    let namespace = null;
+    let namedImports = null;
 
     if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
       defaultBinding = parseIdentifier(
@@ -6188,59 +6215,65 @@ function parseImportDeclaration(
         0b00000000100000000100000000000000,
         DiagnosticCode.Binding_identifier_expected
       ) as Identifier;
-      isCommaSeparated = !consumeOpt(parser, context, SyntaxKind.Comma);
+
+      if (
+        consumeOpt(parser, context, SyntaxKind.Comma) &&
+        parser.token !== SyntaxKind.Multiply && // import *
+        parser.token !== SyntaxKind.LeftBrace
+      ) {
+        // import {)
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode._NameSpaceImport_or_NamedImports_expected],
+          parser.curPos,
+          parser.pos
+        );
+      }
     }
+
     if (parser.token === SyntaxKind.Multiply) {
       namespace = parseNameSpaceImport(parser, context, scope);
     } else if (parser.token === SyntaxKind.LeftBrace) {
       namedImports = parseNamedImports(parser, context, scope);
-    } else if (!isCommaSeparated) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Unexpected_token],
-        parser.curPos,
-        parser.pos
-      );
     }
 
     importClause = createImportClause(defaultBinding, namespace, namedImports, pos, parser.curPos);
     fromClause = parseFromClause(parser, context);
-  } else if (parser.token === SyntaxKind.LeftParen) {
-    return parseImportCall(parser, context, importToken);
-  } else if (parser.token === SyntaxKind.Period) {
-    return parseImportMeta(parser, context, importToken);
   } else {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Unexpected_token],
+      diagnosticMap[DiagnosticCode.Declaration_or_statement_expected],
       parser.curPos,
       parser.pos
     );
   }
-  if (isScript) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.The_import_keyword_can_only_be_used_with_the_module_goal],
-      parser.curPos,
-      parser.pos
-    );
-  }
+
   parseSemicolon(parser, context);
-  return createImportDeclaration(importToken, fromClause as any, moduleSpecifier, importClause, pos, parser.curPos);
+  return createImportDeclaration(
+    importToken,
+    fromClause as any,
+    /* moduleSpecifier */ null,
+    importClause,
+    pos,
+    parser.curPos
+  );
 }
 
 // NameSpaceImport :
 //   `*` `as` ImportedBinding
 function parseNameSpaceImport(parser: ParserState, context: Context, scope: ScopeState): NameSpaceImport {
   const pos = parser.curPos;
-  const asteriskToken = consumeToken(parser, context, SyntaxKind.Multiply);
-  const asKeyword = consumeToken(parser, context, SyntaxKind.AsKeyword);
   return createNameSpaceImport(
-    asteriskToken,
-    asKeyword,
+    consumeToken(parser, context, SyntaxKind.Multiply),
+    consumeKeywordAndCheckForEscapeSequence(
+      parser,
+      context,
+      SyntaxKind.AsKeyword,
+      NodeFlags.IsStatement,
+      parser.curPos
+    ),
     parseBindingIdentifier(parser, context, scope, BindingType.Let, DiagnosticCode.Identifier_expected),
     pos,
     parser.curPos
@@ -6264,23 +6297,33 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
   const specifiers = [];
 
   while (parser.token === SyntaxKind.StringLiteral) {
-    const moduleExportName = parseModuleExportName(parser, context);
-    const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
-    const importedBinding = parseIdentifier(
-      parser,
-      context,
-      0b00000000100000000100000000000000,
-      DiagnosticCode.Binding_identifier_expected
-    );
     specifiers.push(
-      createImportSpecifier(moduleExportName, null, asKeyword, importedBinding as Identifier, pos, parser.curPos)
+      createImportSpecifier(
+        parseModuleExportName(parser, context),
+        null,
+        consumeKeywordAndCheckForEscapeSequence(
+          parser,
+          context,
+          SyntaxKind.AsKeyword,
+          NodeFlags.IsStatement,
+          parser.curPos
+        ),
+        parseIdentifier(
+          parser,
+          context,
+          0b00000000100000000100000000000000,
+          DiagnosticCode.Binding_identifier_expected
+        ) as Identifier,
+        pos,
+        parser.curPos
+      )
     );
   }
 
-  while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved)) {
+  while (parser.token & 0b00000000110000000100000000000000) {
     specifiers.push(parseImportSpecifier(parser, context, scope));
     if (parser.token === SyntaxKind.RightBrace) break;
-    consume(parser, context, SyntaxKind.Comma);
+    consume(parser, context, SyntaxKind.Comma, DiagnosticCode._expected);
   }
   return createImportsList(specifiers, parser.nodeFlags, pos, parser.curPos);
 }
@@ -6290,57 +6333,60 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
 //   Identifier `as` ImportedBinding
 function parseImportSpecifier(parser: ParserState, context: Context, scope: ScopeState): ImportSpecifier {
   const pos = parser.curPos;
-  const token = parser.token;
-  const tokenValue = parser.tokenValue;
-  const flags = parser.nodeFlags;
-  const Identifier = parseIdentifier(
+  const isEvalOrArguments =
+    parser.token === SyntaxKind.EvalIdentifier || parser.token === SyntaxKind.ArgumentsIdentifier;
+  const identifier = parseIdentifier(
     parser,
     context,
     0b00000000110000000100000000000000,
     DiagnosticCode.Identifier_expected
   );
-  const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
 
-  if (asKeyword) {
+  if (parser.token === SyntaxKind.AsKeyword) {
     return createImportSpecifier(
       null,
-      Identifier as Identifier,
-      asKeyword,
+      identifier as Identifier,
+      consumeKeywordAndCheckForEscapeSequence(
+        parser,
+        context,
+        SyntaxKind.AsKeyword,
+        NodeFlags.IsStatement,
+        parser.curPos
+      ),
       parseBindingIdentifier(parser, context, scope, BindingType.Let),
       pos,
       parser.curPos
     );
   }
-  if (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier) {
+  if (isEvalOrArguments) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        flags & 0b00000000000000000110000000000000
+        identifier.flags & 0b00000000000000000110000000000000
           ? DiagnosticCode._eval_and_arguments_cannot_contain_escape_characters
           : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
       ],
-      parser.curPos,
+      pos,
       parser.pos
     );
   }
+  addVarOrBlock(parser, context, scope, identifier.text, BindingType.Let);
 
-  if (token & SyntaxKind.IsFutureReserved) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  addVarOrBlock(parser, context, scope, tokenValue, BindingType.Let);
-
-  return createImportSpecifier(asKeyword, null, null, Identifier as Identifier, pos, parser.curPos);
+  return createImportSpecifier(null, null, null, identifier as Identifier, pos, parser.curPos);
 }
 
 // ModulemoduleExportName : StringLiteral
 function parseModuleExportName(parser: ParserState, context: Context): StringLiteral {
+  if (parser.token !== SyntaxKind.StringLiteral) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Declaration_or_statement_expected],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return parseStringLiteral(parser, context);
 }
 
@@ -6348,9 +6394,8 @@ function parseModuleExportName(parser: ParserState, context: Context): StringLit
 //   `from` ModuleSpecifier
 function parseFromClause(parser: ParserState, context: Context): FromClause {
   const { curPos, nodeFlags } = parser;
-  const fromKeyword = consumeToken(parser, context, SyntaxKind.FromKeyword);
   return createFromClause(
-    fromKeyword,
+    consumeKeywordAndCheckForEscapeSequence(parser, context, SyntaxKind.FromKeyword, NodeFlags.IsStatement, curPos),
     parser.token === SyntaxKind.StringLiteral
       ? parseStringLiteral(parser, context)
       : // We allow arbitrary expressions here due to error recovery, even though the grammar only allows string
@@ -6494,7 +6539,13 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
   let moduleExportName: StringLiteral | null = null;
   let namedBinding: Identifier | DummyIdentifier | null = null;
   const flags = parser.nodeFlags;
-  const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
+  const asKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context,
+    SyntaxKind.AsKeyword,
+    NodeFlags.IsStatement,
+    parser.curPos
+  );
   if (asKeyword) {
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
@@ -6560,7 +6611,13 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
 
   let exportedName = null;
 
-  const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
+  const asKeyword = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context,
+    SyntaxKind.AsKeyword,
+    NodeFlags.IsStatement,
+    parser.curPos
+  );
 
   if (asKeyword) {
     if (parser.token === SyntaxKind.StringLiteral) {

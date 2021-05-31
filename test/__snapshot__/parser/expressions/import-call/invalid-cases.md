@@ -2070,20 +2070,20 @@ new import(x);
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 7, end: 8
+✖ Declaration or statement expected - start: 7, end: 8
 ✖ Expected a `;` - start: 7, end: 8
 ✖ Import Call should take at least one argument - start: 18, end: 19
 ✖ Identifier expected - start: 29, end: 30
-✖ Unexpected token. - start: 38, end: 39
+✖ Declaration or statement expected - start: 38, end: 39
 ✖ Expected a `;` - start: 38, end: 39
 ✖ Import Call should take at least one argument - start: 49, end: 50
 ✖ Unterminated string literal - start: 60, end: 63
 ✖ Expected a ')' to match the '(' token here - start: 63, end: 71
 ✖ Expected a ')' to match the '(' token here - start: 75, end: 76
-✖ Unexpected token. - start: 85, end: 86
+✖ Declaration or statement expected - start: 85, end: 86
 ✖ Expected a `;` - start: 85, end: 86
 ✖ ',' expected - start: 89, end: 90
-✖ Unexpected token. - start: 99, end: 101
+✖ Declaration or statement expected - start: 99, end: 101
 ✖ Expected a `;` - start: 99, end: 101
 ✖ Dynamic import must have one specifier as an argument. - start: 114, end: 115
 ✖ Identifier expected - start: 115, end: 116
@@ -2104,17 +2104,17 @@ new import(x);
 ✖ Identifier expected - start: 218, end: 219
 ✖ Dynamic import must have one specifier as an argument. - start: 229, end: 230
 ✖ Expected a ')' to match the '(' token here - start: 232, end: 233
-✖ Unexpected token. - start: 241, end: 242
+✖ Declaration or statement expected - start: 241, end: 242
 ✖ Expected a `;` - start: 241, end: 242
 ✖ Did you forgot a ']' to match the `[` token? - start: 242, end: 243
-✖ Unexpected token. - start: 251, end: 252
+✖ Declaration or statement expected - start: 251, end: 252
 ✖ Expected a `;` - start: 251, end: 252
-✖ Unexpected token. - start: 262, end: 263
+✖ Declaration or statement expected - start: 262, end: 263
 ✖ Expected a `;` - start: 262, end: 263
-✖ Unexpected token. - start: 272, end: 273
+✖ Declaration or statement expected - start: 272, end: 273
 ✖ Expected a `;` - start: 272, end: 273
 ✖ The parser expected to find a '}' to match the '{' token here - start: 285, end: 286
-✖ The parser expected to find a '}' to match the '{' token here - start: 296, end: 297
+✖ ',' expected - start: 296, end: 297
 ✖ Duplicate identifier - start: 307, end: 308
 ✖ Identifier expected - start: 308, end: 309
 ✖ Dynamic import must have one specifier as an argument. - start: 319, end: 320
@@ -2135,10 +2135,10 @@ new import(x);
 ✖ ',' expected - start: 400, end: 403
 ✖ Property definition expected. Did you mean to use a ':'? - start: 409, end: 410
 ✖ ',' expected - start: 410, end: 411
-✖ Unexpected token. - start: 419, end: 420
+✖ Declaration or statement expected - start: 419, end: 420
 ✖ Expected a `;` - start: 419, end: 420
 ✖ Identifier expected - start: 420, end: 421
-✖ Unexpected token. - start: 429, end: 431
+✖ Declaration or statement expected - start: 429, end: 431
 ✖ Expected a `;` - start: 429, end: 431
 ✖ 'import.meta' is the only valid meta property for import - start: 443, end: 446
 ✖ Dynamic import must have one specifier as an argument. - start: 457, end: 458

@@ -122,8 +122,8 @@ function *f(){
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 14, end: 28
-✖ Unexpected token. - start: 28, end: 30
-✖ The `import` keyword can only be used with the module goal - start: 28, end: 30
+✖ The `import` keyword can only be used with the module goal - start: 14, end: 30
+✖ Declaration or statement expected - start: 28, end: 30
 ✖ Expected a `;` - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 34
 

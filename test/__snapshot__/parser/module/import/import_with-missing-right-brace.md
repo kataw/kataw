@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import {} from "foo";
+import {;
 `````
 
 ## Output
@@ -31,23 +31,17 @@ import {} from "foo";
             },
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 9,
-                    "end": 14
-                },
+                "fromKeyword": null,
                 "from": {
-                    "kind": 201392131,
-                    "text": "foo",
-                    "rawText": "\"foo\"",
-                    "flags": 96,
-                    "start": 14,
-                    "end": 20
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 8,
+                    "end": 8
                 },
                 "flags": 0,
-                "start": 9,
-                "end": 20
+                "start": 8,
+                "end": 8
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -65,23 +59,23 @@ import {} from "foo";
                     },
                     "flags": 16,
                     "start": 6,
-                    "end": 9
+                    "end": 8
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 9
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 21
+            "end": 9
         }
     ],
     "isModule": true,
-    "source": "import {} from \"foo\";",
+    "source": "import {;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 21
+    "end": 9
 }
 ```
 
@@ -89,12 +83,12 @@ import {} from "foo";
 
 ```javascript
 
-import {}  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
+
 ```
 

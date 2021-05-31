@@ -33,7 +33,7 @@ import {x, z as b} from "y"
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 18,
                     "end": 23
                 },
@@ -89,7 +89,7 @@ import {x, z as b} from "y"
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 12,
                                     "end": 15
                                 },

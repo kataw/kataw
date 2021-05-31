@@ -39,7 +39,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 18,
                     "end": 23
                 },
@@ -78,7 +78,7 @@ import {'' as x} from 'foo';
                                 "name": null,
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -123,7 +123,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 51,
                     "end": 56
                 },
@@ -162,7 +162,7 @@ import {'' as x} from 'foo';
                                 "name": null,
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 45,
                                     "end": 48
                                 },
@@ -207,7 +207,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 93,
                     "end": 98
                 },
@@ -246,7 +246,7 @@ import {'' as x} from 'foo';
                                 "name": null,
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 87,
                                     "end": 90
                                 },
@@ -291,7 +291,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 123,
                     "end": 128
                 },
@@ -330,7 +330,7 @@ import {'' as x} from 'foo';
                                 "name": null,
                                 "asKeyword": {
                                     "kind": 16494,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 117,
                                     "end": 120
                                 },

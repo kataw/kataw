@@ -83,7 +83,7 @@ import **= from 'f';
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 6, end: 10
+✖ Declaration or statement expected - start: 6, end: 10
 ✖ Expected a `;` - start: 6, end: 10
 ✖ Expected a `;` - start: 15, end: 19
 
