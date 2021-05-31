@@ -10713,6 +10713,7 @@ a++ => {};
 ✖ Expected a `;` - start: 3169, end: 3172
 ✖ Expected a `;` - start: 3194, end: 3197
 ✖ Expected a `;` - start: 3222, end: 3225
+✖ The left hand side of the arrow is not destructible  - start: 3250, end: 3253
 ✖ The left hand side of the arrow is not destructible  - start: 3266, end: 3269
 ✖ Expected a `;` - start: 3282, end: 3285
 ✖ The left hand side of the arrow is not destructible  - start: 3301, end: 3304

@@ -4241,7 +4241,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     // - `(a?) => {}`
     // - `(a?: string) => {}`
     // - `(a?b:c)`
-    if (parser.token === SyntaxKind.QuestionMark) {
+    if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
       const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
       if (
         (parser.token as SyntaxKind) === SyntaxKind.RightParen ||
@@ -4270,10 +4270,11 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           curPos,
           parser.curPos
         );
+        state = Tristate.False;
         parser.assignable = false;
       }
       // - `(a: string) => {}"
-    } else if (parser.token === SyntaxKind.Colon) {
+    } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
 
       expression = createBindingElement(
@@ -6286,9 +6287,16 @@ function parseNameSpaceImport(parser: ParserState, context: Context, scope: Scop
 //   `{` ImportsList `,` `}`
 function parseNamedImports(parser: ParserState, context: Context, scope: ScopeState): NamedImports {
   const pos = parser.curPos;
-  consume(parser, context, SyntaxKind.LeftBrace);
+  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace);
   const importsList = parseImportsList(parser, context, scope);
-  consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightBrace,
+    openBraceExists
+      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+      : DiagnosticCode.Declaration_or_statement_expected
+  );
   return createNamedImports(importsList, pos, parser.curPos);
 }
 
@@ -6575,16 +6583,23 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
 //   `{` ExportsList `,` `}`
 function parseNamedExports(parser: ParserState, context: Context): NamedExports {
   const pos = parser.curPos;
-  consume(parser, context, SyntaxKind.LeftBrace);
+  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace);
   const exportsList = parseExportsList(parser, context);
-  consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightBrace,
+    openBraceExists
+      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+      : DiagnosticCode.Declaration_or_statement_expected
+  );
   return createNamedExports(exportsList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseExportsList(parser: ParserState, context: Context): ExportsList {
   const pos = parser.curPos;
   const specifiers = [];
-  while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved)) {
+  while (parser.token & 0b00000000110000000100000000000000) {
     specifiers.push(parseExportSpecifier(parser, context));
     if (parser.token === SyntaxKind.RightBrace) break;
     consume(parser, context, SyntaxKind.Comma);
