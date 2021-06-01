@@ -248,7 +248,7 @@ for ({}.bar = x in obj);
                     "end": 30
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 30,
                     "end": 31
@@ -556,7 +556,7 @@ for ({}.bar = x in obj);
                                 "end": 145
                             },
                             "operatorToken": {
-                                "kind": 34098,
+                                "kind": 99634,
                                 "flags": 64,
                                 "start": 145,
                                 "end": 147
@@ -6526,7 +6526,7 @@ for ({}.bar = x in obj);
                                         "end": 1785
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 1785,
                                         "end": 1787
@@ -6792,7 +6792,7 @@ for ({}.bar = x in obj);
                                     "end": 1867
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 1867,
                                     "end": 1869

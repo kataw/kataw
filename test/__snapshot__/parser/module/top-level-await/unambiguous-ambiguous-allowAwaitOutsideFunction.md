@@ -66,7 +66,7 @@ await / 0 /u
                 "expression": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 34098,
+                        "kind": 99634,
                         "flags": 64,
                         "start": 14,
                         "end": 16
@@ -104,7 +104,7 @@ await / 0 /u
                 "expression": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 35379,
+                        "kind": 100915,
                         "flags": 64,
                         "start": 24,
                         "end": 26

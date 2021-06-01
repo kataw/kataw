@@ -21,9 +21,15 @@ class x {}
             "declareKeyword": null,
             "decorators": {
                 "kind": 207,
-                "decoratorList": [
+                "elements": [
                     {
                         "kind": 34611453,
+                        "decoratorToken": {
+                            "kind": 34611453,
+                            "flags": 64,
+                            "start": 0,
+                            "end": 1
+                        },
                         "expression": {
                             "kind": 134299649,
                             "text": "A",
@@ -33,12 +39,12 @@ class x {}
                             "end": 2
                         },
                         "flags": 1,
-                        "start": 1,
+                        "start": 0,
                         "end": 2
                     }
                 ],
                 "flags": 32,
-                "start": 1,
+                "start": 0,
                 "end": 2
             },
             "classKeyword": {

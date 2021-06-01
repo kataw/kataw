@@ -48,9 +48,15 @@ let MyClass = @foo export class {}
                             "kind": 189,
                             "decorators": {
                                 "kind": 207,
-                                "decoratorList": [
+                                "elements": [
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 64,
+                                            "start": 13,
+                                            "end": 15
+                                        },
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "foo",
@@ -60,12 +66,12 @@ let MyClass = @foo export class {}
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "start": 15,
+                                        "start": 13,
                                         "end": 18
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 15,
+                                "start": 13,
                                 "end": 18
                             },
                             "classKeyword": null,

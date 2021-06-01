@@ -1698,7 +1698,7 @@ switch (answer) { case 0: let a; };
                                             "end": 587
                                         },
                                         "operatorToken": {
-                                            "kind": 35379,
+                                            "kind": 100915,
                                             "flags": 64,
                                             "start": 587,
                                             "end": 603
@@ -1916,7 +1916,7 @@ switch (answer) { case 0: let a; };
                     "end": 734
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 734,
                     "end": 735

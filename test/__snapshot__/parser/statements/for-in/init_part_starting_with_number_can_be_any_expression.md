@@ -53,7 +53,7 @@ for (2 + b in obj);
                     "end": 6
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 6,
                     "end": 8

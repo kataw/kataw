@@ -112,9 +112,15 @@ class C {
                             "kind": 263,
                             "decorators": {
                                 "kind": 207,
-                                "decoratorList": [
+                                "elements": [
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 65,
+                                            "start": 27,
+                                            "end": 31
+                                        },
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "dec",
@@ -124,12 +130,12 @@ class C {
                                             "end": 34
                                         },
                                         "flags": 1,
-                                        "start": 31,
+                                        "start": 27,
                                         "end": 34
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 31,
+                                "start": 27,
                                 "end": 34
                             },
                             "declaredKeyword": null,

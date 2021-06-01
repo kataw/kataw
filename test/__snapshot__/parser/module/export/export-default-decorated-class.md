@@ -41,9 +41,15 @@ export default
                 "declareKeyword": null,
                 "decorators": {
                     "kind": 207,
-                    "decoratorList": [
+                    "elements": [
                         {
                             "kind": 34611453,
+                            "decoratorToken": {
+                                "kind": 34611453,
+                                "flags": 65,
+                                "start": 14,
+                                "end": 16
+                            },
                             "expression": {
                                 "kind": 134299649,
                                 "text": "bar",
@@ -53,12 +59,12 @@ export default
                                 "end": 19
                             },
                             "flags": 0,
-                            "start": 16,
+                            "start": 14,
                             "end": 19
                         }
                     ],
                     "flags": 32,
-                    "start": 16,
+                    "start": 14,
                     "end": 19
                 },
                 "classKeyword": {

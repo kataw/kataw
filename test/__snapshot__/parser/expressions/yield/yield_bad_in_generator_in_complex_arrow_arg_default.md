@@ -89,7 +89,7 @@ function *g() { (x = u + yield z) => {}; }
                                                 "end": 22
                                             },
                                             "operatorToken": {
-                                                "kind": 34098,
+                                                "kind": 99634,
                                                 "flags": 64,
                                                 "start": 22,
                                                 "end": 24

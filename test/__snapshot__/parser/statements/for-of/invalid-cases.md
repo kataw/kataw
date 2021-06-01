@@ -2195,7 +2195,7 @@ for ({a: b.c}-- of d) e;
                     "end": 612
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 612,
                     "end": 614
