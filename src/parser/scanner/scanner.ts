@@ -369,19 +369,14 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         cp = source.charCodeAt(++parser.pos);
 
         if (cp === Char.Hyphen) {
-          if (context & Context.Module) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Invalid_character],
-              parser.curPos,
-              parser.pos
-            );
-          }
           parser.pos++;
           // treat HTML end-comment after possible whitespace
           // after line start as comment-until-eol
-          if (source.charCodeAt(parser.pos) === Char.GreaterThan && parser.nodeFlags & NodeFlags.NewLine) {
+          if (
+            (context & Context.Module) === 0 &&
+            source.charCodeAt(parser.pos) === Char.GreaterThan &&
+            parser.nodeFlags & NodeFlags.NewLine
+          ) {
             parser.pos++;
             while (parser.pos < parser.end && !isLineTerminator(source.charCodeAt(parser.pos))) {
               parser.pos++;

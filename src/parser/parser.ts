@@ -720,7 +720,7 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
         hasNoLabel = true;
       }
     }
-    if (hasNoLabel) {
+    /*if (hasNoLabel) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -728,7 +728,7 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
         parser.curPos,
         parser.pos
       );
-    }
+    }*/
   }
 
   parseSemicolon(parser, context | Context.AllowRegExp);
@@ -1008,7 +1008,7 @@ function parseReturnStatement(parser: ParserState, context: Context): ReturnStat
     NodeFlags.IsStatement,
     pos
   );
-  const expression = canParseSemicolon(parser) ? null : parseExpression(parser, context);
+  const expression = canParseSemicolon(parser) ? null : parseExpressions(parser, context);
   parseSemicolon(parser, context);
   return createReturnStatement(returnToken, expression, parser.nodeFlags, pos);
 }
@@ -1053,7 +1053,7 @@ export function parseLabelledStatement(
   }
 
   const labelledIdentfier = expr.text;
-
+  /*
   for (let i = 0; i < parser.labels.length; i++) {
     if (parser.labels[i].label === labelledIdentfier) {
       parser.onError(
@@ -1066,7 +1066,7 @@ export function parseLabelledStatement(
       flags | NodeFlags.DuplicateLabels;
     }
   }
-
+*/
   parser.labels.push(
     createLabels(
       labelledIdentfier,

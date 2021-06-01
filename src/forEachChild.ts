@@ -253,7 +253,7 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
     case SyntaxKind.CaseBlock:
       return visitNodes(node.clauses, node, visitor);
     case SyntaxKind.SwitchStatement:
-      return visitNode(node.expression, node, visitor), visitNode(node.caseBlock, node, visitor);
+      return visitNode(node.expression, node, visitor) || visitNode(node.caseBlock, node, visitor);
     case SyntaxKind.WhileStatement:
       return visitNode(node.expression, node, visitor) || visitNode(node.statement, node, visitor);
     case SyntaxKind.WithStatement:
