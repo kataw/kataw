@@ -3,13 +3,13 @@
 ## Options
 
 `````js
-{ jsx: true, disableWebCompat: true, module: true }
+{ jsx: true, disableWebCompat: true, module: true, allowTypes: true }
 `````
 
 ## Input
 
 `````js
-import {x, z,} from "y"
+import { typeof Foo12 } from "bar";
 `````
 
 ## Output
@@ -36,20 +36,20 @@ import {x, z,} from "y"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 14,
-                    "end": 19
+                    "start": 23,
+                    "end": 28
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "y",
-                    "rawText": "\"y\"",
+                    "text": "bar",
+                    "rawText": "\"bar\"",
                     "flags": 96,
-                    "start": 19,
-                    "end": 23
+                    "start": 28,
+                    "end": 34
                 },
                 "flags": 0,
-                "start": 14,
-                "end": 23
+                "start": 23,
+                "end": 34
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -69,15 +69,15 @@ import {x, z,} from "y"
                                 "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "typeof",
+                                    "rawText": "typeof",
                                     "flags": 96,
                                     "start": 8,
-                                    "end": 9
+                                    "end": 15
                                 },
                                 "flags": 16,
                                 "start": 8,
-                                "end": 9
+                                "end": 15
                             },
                             {
                                 "kind": 264,
@@ -87,40 +87,40 @@ import {x, z,} from "y"
                                 "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
+                                    "text": "Foo12",
+                                    "rawText": "Foo12",
                                     "flags": 96,
-                                    "start": 10,
-                                    "end": 12
+                                    "start": 15,
+                                    "end": 21
                                 },
                                 "flags": 16,
-                                "start": 10,
-                                "end": 12
+                                "start": 15,
+                                "end": 21
                             }
                         ],
                         "flags": 0,
                         "start": 8,
-                        "end": 13
+                        "end": 21
                     },
                     "flags": 16,
                     "start": 6,
-                    "end": 14
+                    "end": 23
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 14
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 35
         }
     ],
     "isModule": true,
-    "source": "import {x, z,} from \"y\"",
+    "source": "import { typeof Foo12 } from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 35
 }
 ```
 
@@ -128,12 +128,12 @@ import {x, z,} from "y"
 
 ```javascript
 
-import { x, z }  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 15, end: 21
+
 ```
 

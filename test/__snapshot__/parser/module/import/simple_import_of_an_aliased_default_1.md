@@ -29,64 +29,96 @@ import * as a from "y"
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 13,
-                    "end": 18
-                },
+                "fromKeyword": null,
                 "from": {
-                    "kind": 201392131,
-                    "text": "y",
-                    "rawText": "\"y\"",
-                    "flags": 96,
-                    "start": 18,
-                    "end": 22
-                },
-                "flags": 0,
-                "start": 13,
-                "end": 22
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 6,
+                        "end": 6
+                    },
+                    "operatorToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 6,
                         "end": 8
                     },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
                         "start": 8,
                         "end": 11
                     },
-                    "binding": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 11,
-                        "end": 13
-                    },
-                    "flags": 16,
+                    "flags": 32,
                     "start": 6,
-                    "end": 13
+                    "end": 11
                 },
+                "flags": 0,
+                "start": 6,
+                "end": 11
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 262,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 13
+                "end": 6
             },
             "flags": 16,
             "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "a",
+                "rawText": "a",
+                "flags": 96,
+                "start": 11,
+                "end": 13
+            },
+            "flags": 16,
+            "start": 11,
+            "end": 13
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 13,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "y",
+                "rawText": "\"y\"",
+                "flags": 96,
+                "start": 18,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 18,
             "end": 22
         }
     ],
@@ -103,12 +135,15 @@ import * as a from "y"
 
 ```javascript
 
-import * as   ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 6, end: 8
+✖ Expected a `;` - start: 11, end: 13
+✖ Expected a `;` - start: 13, end: 18
+✖ Expected a `;` - start: 18, end: 22
+
 ```
 

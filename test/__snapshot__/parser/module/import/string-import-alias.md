@@ -35,7 +35,8 @@ import {'' as x} from 'foo';
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -68,7 +69,7 @@ import {'' as x} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": {
                                     "kind": 201392131,
                                     "text": "🍕",
@@ -121,7 +122,8 @@ import {'' as x} from 'foo';
                 "start": 30,
                 "end": 38
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -154,7 +156,7 @@ import {'' as x} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": {
                                     "kind": 201392131,
                                     "text": "a b",
@@ -207,7 +209,8 @@ import {'' as x} from 'foo';
                 "start": 63,
                 "end": 71
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -240,7 +243,7 @@ import {'' as x} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": {
                                     "kind": 201392131,
                                     "text": "𐀀",
@@ -293,7 +296,8 @@ import {'' as x} from 'foo';
                 "start": 105,
                 "end": 113
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -326,7 +330,7 @@ import {'' as x} from 'foo';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": {
                                     "kind": 201392131,
                                     "text": "",

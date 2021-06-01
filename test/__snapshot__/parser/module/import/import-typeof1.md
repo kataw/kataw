@@ -3,13 +3,14 @@
 ## Options
 
 `````js
-{ jsx: true, disableWebCompat: true, module: true }
+{ jsx: true, disableWebCompat: true, module: true, allowTypes: true }
 `````
 
 ## Input
 
 `````js
-import {x, z,} from "y"
+import typeof { foo25, bar1 } from "baz";
+
 `````
 
 ## Output
@@ -30,26 +31,31 @@ import {x, z,} from "y"
                 "end": 6
             },
             "typeKeyword": null,
-            "typeofKeyword": null,
+            "typeofKeyword": {
+                "kind": 138477613,
+                "flags": 64,
+                "start": 6,
+                "end": 13
+            },
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 80,
-                    "start": 14,
-                    "end": 19
+                    "start": 29,
+                    "end": 34
                 },
                 "from": {
                     "kind": 201392131,
-                    "text": "y",
-                    "rawText": "\"y\"",
+                    "text": "baz",
+                    "rawText": "\"baz\"",
                     "flags": 96,
-                    "start": 19,
-                    "end": 23
+                    "start": 34,
+                    "end": 40
                 },
                 "flags": 0,
-                "start": 14,
-                "end": 23
+                "start": 29,
+                "end": 40
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -69,15 +75,15 @@ import {x, z,} from "y"
                                 "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "foo25",
+                                    "rawText": "foo25",
                                     "flags": 96,
-                                    "start": 8,
-                                    "end": 9
+                                    "start": 15,
+                                    "end": 21
                                 },
                                 "flags": 16,
-                                "start": 8,
-                                "end": 9
+                                "start": 15,
+                                "end": 21
                             },
                             {
                                 "kind": 264,
@@ -87,40 +93,40 @@ import {x, z,} from "y"
                                 "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
+                                    "text": "bar1",
+                                    "rawText": "bar1",
                                     "flags": 96,
-                                    "start": 10,
-                                    "end": 12
+                                    "start": 22,
+                                    "end": 27
                                 },
                                 "flags": 16,
-                                "start": 10,
-                                "end": 12
+                                "start": 22,
+                                "end": 27
                             }
                         ],
                         "flags": 0,
-                        "start": 8,
-                        "end": 13
+                        "start": 15,
+                        "end": 27
                     },
                     "flags": 16,
-                    "start": 6,
-                    "end": 14
+                    "start": 13,
+                    "end": 29
                 },
                 "flags": 16,
                 "start": 0,
-                "end": 14
+                "end": 29
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 41
         }
     ],
     "isModule": true,
-    "source": "import {x, z,} from \"y\"",
+    "source": "import typeof { foo25, bar1 } from \"baz\";\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 42
 }
 ```
 
@@ -128,7 +134,7 @@ import {x, z,} from "y"
 
 ```javascript
 
-import { x, z }  ;
+import { foo25, bar1 }  ;
 ```
 
 ### Diagnostics

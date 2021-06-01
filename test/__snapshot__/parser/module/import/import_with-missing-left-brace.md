@@ -29,7 +29,8 @@ import };
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,

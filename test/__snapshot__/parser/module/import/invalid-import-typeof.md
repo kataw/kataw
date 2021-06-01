@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import x from 'y'
+import typeof from "iteration"
 `````
 
 ## Output
@@ -30,55 +30,55 @@ import x from 'y'
                 "end": 6
             },
             "typeKeyword": null,
-            "typeofKeyword": null,
+            "typeofKeyword": {
+                "kind": 138477613,
+                "flags": 64,
+                "start": 6,
+                "end": 13
+            },
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 8,
-                    "end": 13
-                },
+                "fromKeyword": null,
                 "from": {
                     "kind": 201392131,
-                    "text": "y",
-                    "rawText": "'y'",
-                    "flags": 4194400,
-                    "start": 13,
-                    "end": 17
+                    "text": "iteration",
+                    "rawText": "\"iteration\"",
+                    "flags": 96,
+                    "start": 18,
+                    "end": 30
                 },
                 "flags": 0,
-                "start": 8,
-                "end": 17
+                "start": 18,
+                "end": 30
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
+                    "text": "from",
+                    "rawText": "from",
                     "flags": 96,
-                    "start": 6,
-                    "end": 8
+                    "start": 13,
+                    "end": 18
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 8
+                "end": 18
             },
             "flags": 16,
             "start": 0,
-            "end": 17
+            "end": 30
         }
     ],
     "isModule": true,
-    "source": "import x from 'y'",
+    "source": "import typeof from \"iteration\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 17
+    "end": 30
 }
 ```
 
@@ -86,12 +86,12 @@ import x from 'y'
 
 ```javascript
 
-import x  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Import declaration expected - start: 6, end: 13
+
 ```
 

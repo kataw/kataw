@@ -49,7 +49,8 @@ async () => {  impo\u0072t = x  }
                                 "start": 13,
                                 "end": 26
                             },
-                            "isType": false,
+                            "typeKeyword": null,
+                            "typeofKeyword": null,
                             "fromClause": null,
                             "moduleSpecifier": null,
                             "importClause": null,

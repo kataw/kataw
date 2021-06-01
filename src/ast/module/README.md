@@ -6,6 +6,8 @@
 interface ImportDeclaration <: Node {
   kind: NodeKind.ImportDeclaration;
   importKeyword: SyntaxToken<TokenSyntaxKind>;
+  typeKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  typeofKeyword: SyntaxToken<TokenSyntaxKind> | null;
   fromClause: FromClause;
   moduleSpecifier: ExpressionNode | null;
   importClause: ImportClause | null;
@@ -47,6 +49,7 @@ interface ImportsList <: Node {
 ```js
 interface ImportSpecifier <: Node {
   kind: NodeKind.ImportSpecifier;
+  typeKeyword: SyntaxToken<TokenSyntaxKind> | null;
   name: Identifier | null;
   asKeyword: SyntaxToken<TokenSyntaxKind> | null;
   binding: Identifier | null;

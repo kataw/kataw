@@ -30,7 +30,13 @@ import type { foo25, bar1 } from "baz";
                 "start": 0,
                 "end": 6
             },
-            "isType": true,
+            "typeKeyword": {
+                "kind": 24775,
+                "flags": 64,
+                "start": 6,
+                "end": 11
+            },
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -70,7 +76,7 @@ import type { foo25, bar1 } from "baz";
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -88,7 +94,7 @@ import type { foo25, bar1 } from "baz";
                             },
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,

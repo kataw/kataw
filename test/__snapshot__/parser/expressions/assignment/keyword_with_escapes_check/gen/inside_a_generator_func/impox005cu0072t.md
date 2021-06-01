@@ -66,7 +66,8 @@ function *f(){
                                 "start": 14,
                                 "end": 28
                             },
-                            "isType": false,
+                            "typeKeyword": null,
+                            "typeofKeyword": null,
                             "fromClause": null,
                             "moduleSpecifier": null,
                             "importClause": null,

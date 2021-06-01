@@ -56,7 +56,8 @@ import { let as l } from 'm.js';
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -89,7 +90,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -142,7 +143,8 @@ import { let as l } from 'm.js';
                 "start": 30,
                 "end": 38
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -192,7 +194,8 @@ import { let as l } from 'm.js';
                 "start": 53,
                 "end": 61
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -225,7 +228,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -278,7 +281,8 @@ import { let as l } from 'm.js';
                 "start": 85,
                 "end": 93
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -406,64 +410,96 @@ import { let as l } from 'm.js';
                 "start": 140,
                 "end": 148
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 157,
-                    "end": 162
-                },
+                "fromKeyword": null,
                 "from": {
-                    "kind": 201392131,
-                    "text": "bar.js",
-                    "rawText": "'bar.js'",
-                    "flags": 4194400,
-                    "start": 162,
-                    "end": 171
-                },
-                "flags": 0,
-                "start": 157,
-                "end": 171
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 148,
+                        "end": 148
+                    },
+                    "operatorToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 148,
                         "end": 150
                     },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
                         "start": 150,
                         "end": 153
                     },
-                    "binding": {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 153,
-                        "end": 157
-                    },
-                    "flags": 16,
+                    "flags": 32,
                     "start": 148,
-                    "end": 157
+                    "end": 153
                 },
+                "flags": 0,
+                "start": 148,
+                "end": 153
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 262,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 140,
-                "end": 157
+                "end": 148
             },
             "flags": 16,
             "start": 140,
+            "end": 153
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 153,
+                "end": 157
+            },
+            "flags": 16,
+            "start": 153,
+            "end": 157
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 157,
+                "end": 162
+            },
+            "flags": 16,
+            "start": 157,
+            "end": 162
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "bar.js",
+                "rawText": "'bar.js'",
+                "flags": 4194400,
+                "start": 162,
+                "end": 171
+            },
+            "flags": 16,
+            "start": 162,
             "end": 172
         },
         {
@@ -474,7 +510,8 @@ import { let as l } from 'm.js';
                 "start": 172,
                 "end": 180
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -507,7 +544,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -560,7 +597,8 @@ import { let as l } from 'm.js';
                 "start": 204,
                 "end": 212
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": {
                 "kind": 201392131,
@@ -583,7 +621,8 @@ import { let as l } from 'm.js';
                 "start": 229,
                 "end": 236
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -638,7 +677,8 @@ import { let as l } from 'm.js';
                 "start": 253,
                 "end": 260
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -671,7 +711,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -712,7 +752,8 @@ import { let as l } from 'm.js';
                 "start": 279,
                 "end": 286
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -745,7 +786,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -763,7 +804,7 @@ import { let as l } from 'm.js';
                             },
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -793,7 +834,7 @@ import { let as l } from 'm.js';
                             },
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -834,64 +875,96 @@ import { let as l } from 'm.js';
                 "start": 317,
                 "end": 324
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 335,
-                    "end": 340
-                },
+                "fromKeyword": null,
                 "from": {
-                    "kind": 201392131,
-                    "text": "m.js",
-                    "rawText": "'m.js'",
-                    "flags": 4194400,
-                    "start": 340,
-                    "end": 347
-                },
-                "flags": 0,
-                "start": 335,
-                "end": 347
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 324,
+                        "end": 324
+                    },
+                    "operatorToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 324,
                         "end": 326
                     },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
                         "start": 326,
                         "end": 329
                     },
-                    "binding": {
-                        "kind": 134299649,
-                        "text": "thing",
-                        "rawText": "thing",
-                        "flags": 96,
-                        "start": 329,
-                        "end": 335
-                    },
-                    "flags": 16,
+                    "flags": 32,
                     "start": 324,
-                    "end": 335
+                    "end": 329
                 },
+                "flags": 0,
+                "start": 324,
+                "end": 329
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 262,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 317,
-                "end": 335
+                "end": 324
             },
             "flags": 16,
             "start": 317,
+            "end": 329
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "thing",
+                "rawText": "thing",
+                "flags": 96,
+                "start": 329,
+                "end": 335
+            },
+            "flags": 16,
+            "start": 329,
+            "end": 335
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 335,
+                "end": 340
+            },
+            "flags": 16,
+            "start": 335,
+            "end": 340
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "m.js",
+                "rawText": "'m.js'",
+                "flags": 4194400,
+                "start": 340,
+                "end": 347
+            },
+            "flags": 16,
+            "start": 340,
             "end": 348
         },
         {
@@ -902,7 +975,8 @@ import { let as l } from 'm.js';
                 "start": 348,
                 "end": 355
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -952,26 +1026,41 @@ import { let as l } from 'm.js';
                 "start": 374,
                 "end": 381
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 398,
-                    "end": 403
-                },
+                "fromKeyword": null,
                 "from": {
-                    "kind": 201392131,
-                    "text": "m.js",
-                    "rawText": "'m.js'",
-                    "flags": 4194400,
-                    "start": 403,
-                    "end": 410
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 388,
+                        "end": 388
+                    },
+                    "operatorToken": {
+                        "kind": 67143222,
+                        "flags": 64,
+                        "start": 388,
+                        "end": 390
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
+                        "start": 390,
+                        "end": 393
+                    },
+                    "flags": 32,
+                    "start": 388,
+                    "end": 393
                 },
                 "flags": 0,
-                "start": 398,
-                "end": 410
+                "start": 388,
+                "end": 393
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -984,39 +1073,56 @@ import { let as l } from 'm.js';
                     "start": 381,
                     "end": 387
                 },
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
-                        "kind": 67143222,
-                        "flags": 64,
-                        "start": 388,
-                        "end": 390
-                    },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
-                        "start": 390,
-                        "end": 393
-                    },
-                    "binding": {
-                        "kind": 134299649,
-                        "text": "rest",
-                        "rawText": "rest",
-                        "flags": 96,
-                        "start": 393,
-                        "end": 398
-                    },
-                    "flags": 16,
-                    "start": 388,
-                    "end": 398
-                },
+                "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 374,
-                "end": 398
+                "end": 388
             },
             "flags": 16,
             "start": 374,
+            "end": 393
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "rest",
+                "rawText": "rest",
+                "flags": 96,
+                "start": 393,
+                "end": 398
+            },
+            "flags": 16,
+            "start": 393,
+            "end": 398
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 398,
+                "end": 403
+            },
+            "flags": 16,
+            "start": 398,
+            "end": 403
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "m.js",
+                "rawText": "'m.js'",
+                "flags": 4194400,
+                "start": 403,
+                "end": 410
+            },
+            "flags": 16,
+            "start": 403,
             "end": 411
         },
         {
@@ -1027,7 +1133,8 @@ import { let as l } from 'm.js';
                 "start": 411,
                 "end": 418
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -1067,7 +1174,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -1085,7 +1192,7 @@ import { let as l } from 'm.js';
                             },
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -1103,7 +1210,7 @@ import { let as l } from 'm.js';
                             },
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -1144,7 +1251,8 @@ import { let as l } from 'm.js';
                 "start": 450,
                 "end": 457
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -1177,7 +1285,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -1230,7 +1338,8 @@ import { let as l } from 'm.js';
                 "start": 489,
                 "end": 496
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -1263,7 +1372,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -1316,7 +1425,8 @@ import { let as l } from 'm.js';
                 "start": 522,
                 "end": 529
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -1349,7 +1459,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -1402,7 +1512,8 @@ import { let as l } from 'm.js';
                 "start": 557,
                 "end": 564
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -1435,7 +1546,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -1488,7 +1599,8 @@ import { let as l } from 'm.js';
                 "start": 593,
                 "end": 600
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -1521,7 +1633,7 @@ import { let as l } from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -1585,9 +1697,21 @@ import { let as l } from 'm.js';
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected - start: 148, end: 150
+✖ Expected a `;` - start: 153, end: 157
+✖ Expected a `;` - start: 157, end: 162
+✖ Expected a `;` - start: 162, end: 171
 ✖ Duplicate identifier - start: 264, end: 266
 ✖ Duplicate identifier - start: 290, end: 291
 ✖ Duplicate identifier - start: 296, end: 298
+✖ Identifier expected - start: 324, end: 326
+✖ Expected a `;` - start: 329, end: 335
+✖ Expected a `;` - start: 335, end: 340
+✖ Expected a `;` - start: 340, end: 347
+✖ Identifier expected - start: 388, end: 390
+✖ Expected a `;` - start: 393, end: 398
+✖ Expected a `;` - start: 398, end: 403
+✖ Expected a `;` - start: 403, end: 410
 ✖ Duplicate identifier - start: 429, end: 430
 ✖ Duplicate identifier - start: 435, end: 437
 ✖ Duplicate identifier - start: 472, end: 474

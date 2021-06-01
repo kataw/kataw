@@ -40,7 +40,8 @@ import * as x, {y} from 'm.js';
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -67,7 +68,7 @@ import * as x, {y} from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -150,7 +151,8 @@ import * as x, {y} from 'm.js';
                 "start": 30,
                 "end": 38
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -223,40 +225,62 @@ import * as x, {y} from 'm.js';
                 "start": 61,
                 "end": 69
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 76,
-                    "end": 76
-                },
-                "flags": 0,
-                "start": 76,
-                "end": 76
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 69,
+                        "end": 69
+                    },
+                    "operatorToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 69,
                         "end": 71
                     },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
                         "start": 71,
                         "end": 74
                     },
-                    "binding": {
+                    "flags": 32,
+                    "start": 69,
+                    "end": 74
+                },
+                "flags": 0,
+                "start": 69,
+                "end": 74
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 262,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": null,
+                "flags": 16,
+                "start": 61,
+                "end": 69
+            },
+            "flags": 16,
+            "start": 61,
+            "end": 74
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
@@ -264,31 +288,21 @@ import * as x, {y} from 'm.js';
                         "start": 74,
                         "end": 76
                     },
-                    "flags": 16,
-                    "start": 69,
-                    "end": 76
-                },
-                "namedImports": null,
-                "flags": 16,
-                "start": 61,
-                "end": 76
-            },
-            "flags": 16,
-            "start": 61,
-            "end": 76
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "def",
-                "rawText": "def",
-                "flags": 96,
-                "start": 77,
+                    {
+                        "kind": 134299649,
+                        "text": "def",
+                        "rawText": "def",
+                        "flags": 96,
+                        "start": 77,
+                        "end": 81
+                    }
+                ],
+                "flags": 32,
+                "start": 74,
                 "end": 81
             },
             "flags": 16,
-            "start": 77,
+            "start": 74,
             "end": 81
         },
         {
@@ -327,40 +341,62 @@ import * as x, {y} from 'm.js';
                 "start": 94,
                 "end": 102
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 109,
-                    "end": 109
-                },
-                "flags": 0,
-                "start": 109,
-                "end": 109
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 102,
+                        "end": 102
+                    },
+                    "operatorToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 102,
                         "end": 104
                     },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
                         "start": 104,
                         "end": 107
                     },
-                    "binding": {
+                    "flags": 32,
+                    "start": 102,
+                    "end": 107
+                },
+                "flags": 0,
+                "start": 102,
+                "end": 107
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 262,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": null,
+                "flags": 16,
+                "start": 94,
+                "end": 102
+            },
+            "flags": 16,
+            "start": 94,
+            "end": 107
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
@@ -368,50 +404,40 @@ import * as x, {y} from 'm.js';
                         "start": 107,
                         "end": 109
                     },
-                    "flags": 16,
-                    "start": 102,
-                    "end": 109
-                },
-                "namedImports": null,
-                "flags": 16,
-                "start": 94,
-                "end": 109
-            },
-            "flags": 16,
-            "start": 94,
-            "end": 109
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 110,
-                    "end": 110
-                },
-                "operatorToken": {
-                    "kind": 67143222,
-                    "flags": 64,
-                    "start": 110,
-                    "end": 112
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "as",
-                    "rawText": "as",
-                    "flags": 96,
-                    "start": 112,
-                    "end": 115
-                },
+                    {
+                        "kind": 198,
+                        "left": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 110,
+                            "end": 110
+                        },
+                        "operatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 110,
+                            "end": 112
+                        },
+                        "right": {
+                            "kind": 134299649,
+                            "text": "as",
+                            "rawText": "as",
+                            "flags": 96,
+                            "start": 112,
+                            "end": 115
+                        },
+                        "flags": 32,
+                        "start": 110,
+                        "end": 115
+                    }
+                ],
                 "flags": 32,
-                "start": 110,
+                "start": 107,
                 "end": 115
             },
             "flags": 16,
-            "start": 110,
+            "start": 107,
             "end": 115
         },
         {
@@ -464,7 +490,8 @@ import * as x, {y} from 'm.js';
                 "start": 130,
                 "end": 138
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -491,7 +518,7 @@ import * as x, {y} from 'm.js';
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -588,40 +615,62 @@ import * as x, {y} from 'm.js';
                 "start": 160,
                 "end": 168
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 175,
-                    "end": 175
-                },
-                "flags": 0,
-                "start": 175,
-                "end": 175
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 168,
+                        "end": 168
+                    },
+                    "operatorToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 168,
                         "end": 170
                     },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
                         "start": 170,
                         "end": 173
                     },
-                    "binding": {
+                    "flags": 32,
+                    "start": 168,
+                    "end": 173
+                },
+                "flags": 0,
+                "start": 168,
+                "end": 173
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 262,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": null,
+                "flags": 16,
+                "start": 160,
+                "end": 168
+            },
+            "flags": 16,
+            "start": 160,
+            "end": 173
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
@@ -629,45 +678,36 @@ import * as x, {y} from 'm.js';
                         "start": 173,
                         "end": 175
                     },
-                    "flags": 16,
-                    "start": 168,
-                    "end": 175
-                },
-                "namedImports": null,
-                "flags": 16,
-                "start": 160,
-                "end": 175
-            },
-            "flags": 16,
-            "start": 160,
-            "end": 175
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 178,
+                                    "end": 179
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 16,
                             "start": 178,
                             "end": 179
                         },
-                        "flags": 16,
-                        "start": 178,
-                        "end": 179
+                        "flags": 48,
+                        "start": 176,
+                        "end": 180
                     }
                 ],
-                "flags": 16,
-                "start": 178,
-                "end": 179
+                "flags": 32,
+                "start": 173,
+                "end": 180
             },
             "flags": 16,
-            "start": 176,
+            "start": 173,
             "end": 180
         },
         {
@@ -723,12 +763,12 @@ import * as x, {y} from 'm.js';
 ✖ Import declaration expected - start: 43, end: 48
 ✖ Expected a `;` - start: 48, end: 53
 ✖ Expected a `;` - start: 53, end: 60
-✖ Duplicate identifier - start: 74, end: 76
-✖ Identifier expected - start: 76, end: 77
+✖ Identifier expected - start: 69, end: 71
+✖ Expected a `;` - start: 74, end: 76
 ✖ Expected a `;` - start: 81, end: 86
 ✖ Expected a `;` - start: 86, end: 93
-✖ Duplicate identifier - start: 107, end: 109
-✖ Identifier expected - start: 109, end: 110
+✖ Identifier expected - start: 102, end: 104
+✖ Expected a `;` - start: 107, end: 109
 ✖ Identifier expected - start: 110, end: 112
 ✖ Expected a `;` - start: 115, end: 117
 ✖ Expected a `;` - start: 117, end: 122
@@ -736,8 +776,9 @@ import * as x, {y} from 'm.js';
 ✖ Duplicate identifier - start: 141, end: 142
 ✖ Identifier expected - start: 142, end: 143
 ✖ Expected a `;` - start: 152, end: 159
-✖ Duplicate identifier - start: 173, end: 175
-✖ Identifier expected - start: 175, end: 176
+✖ Identifier expected - start: 168, end: 170
+✖ Expected a `;` - start: 173, end: 175
+✖ Expected a `;` - start: 180, end: 185
 ✖ Expected a `;` - start: 185, end: 192
 
 ```

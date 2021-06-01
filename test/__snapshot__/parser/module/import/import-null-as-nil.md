@@ -29,7 +29,8 @@ import { null as nil } from "bar"
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -62,7 +63,7 @@ import { null as nil } from "bar"
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,

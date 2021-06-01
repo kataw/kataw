@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-import type foo24 from "bar";
+import type a * from "b";
 `````
 
 ## Output
@@ -38,52 +38,67 @@ import type foo24 from "bar";
             "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 17,
-                    "end": 22
-                },
+                "fromKeyword": null,
                 "from": {
                     "kind": 201392131,
-                    "text": "bar",
-                    "rawText": "\"bar\"",
+                    "text": "b",
+                    "rawText": "\"b\"",
                     "flags": 96,
-                    "start": 22,
-                    "end": 28
+                    "start": 20,
+                    "end": 24
                 },
                 "flags": 0,
-                "start": 17,
-                "end": 28
+                "start": 20,
+                "end": 24
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
-                    "text": "foo24",
-                    "rawText": "foo24",
+                    "text": "a",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 11,
-                    "end": 17
+                    "end": 13
                 },
-                "nameSpaceImport": null,
+                "nameSpaceImport": {
+                    "kind": 255,
+                    "asteriskToken": {
+                        "kind": 67143222,
+                        "flags": 64,
+                        "start": 13,
+                        "end": 15
+                    },
+                    "asKeyword": null,
+                    "binding": {
+                        "kind": 134299649,
+                        "text": "from",
+                        "rawText": "from",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 20
+                    },
+                    "flags": 16,
+                    "start": 13,
+                    "end": 20
+                },
                 "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 17
+                "end": 20
             },
             "flags": 16,
             "start": 0,
-            "end": 29
+            "end": 25
         }
     ],
     "isModule": true,
-    "source": "import type foo24 from \"bar\";",
+    "source": "import type a * from \"b\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 29
+    "end": 25
 }
 ```
 
@@ -91,7 +106,7 @@ import type foo24 from "bar";
 
 ```javascript
 
-import foo24  ;
+import a, * as   ;
 ```
 
 ### Diagnostics

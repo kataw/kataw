@@ -29,7 +29,8 @@ import { type Foo12 } from "bar";
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -62,7 +63,12 @@ import { type Foo12 } from "bar";
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": true,
+                                "typeKeyword": {
+                                    "kind": 24775,
+                                    "flags": 64,
+                                    "start": 8,
+                                    "end": 13
+                                },
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,

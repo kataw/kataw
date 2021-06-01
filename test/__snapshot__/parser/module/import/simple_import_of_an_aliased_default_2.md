@@ -29,26 +29,41 @@ import x, * as a from "y"
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 16,
-                    "end": 21
-                },
+                "fromKeyword": null,
                 "from": {
-                    "kind": 201392131,
-                    "text": "y",
-                    "rawText": "\"y\"",
-                    "flags": 96,
-                    "start": 21,
-                    "end": 25
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 9,
+                        "end": 9
+                    },
+                    "operatorToken": {
+                        "kind": 67143222,
+                        "flags": 64,
+                        "start": 9,
+                        "end": 11
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
+                        "start": 11,
+                        "end": 14
+                    },
+                    "flags": 32,
+                    "start": 9,
+                    "end": 14
                 },
                 "flags": 0,
-                "start": 16,
-                "end": 25
+                "start": 9,
+                "end": 14
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -61,39 +76,56 @@ import x, * as a from "y"
                     "start": 6,
                     "end": 8
                 },
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
-                        "kind": 67143222,
-                        "flags": 64,
-                        "start": 9,
-                        "end": 11
-                    },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
-                        "start": 11,
-                        "end": 14
-                    },
-                    "binding": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 14,
-                        "end": 16
-                    },
-                    "flags": 16,
-                    "start": 9,
-                    "end": 16
-                },
+                "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 16
+                "end": 9
             },
             "flags": 16,
             "start": 0,
+            "end": 14
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "a",
+                "rawText": "a",
+                "flags": 96,
+                "start": 14,
+                "end": 16
+            },
+            "flags": 16,
+            "start": 14,
+            "end": 16
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 16,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 16,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "y",
+                "rawText": "\"y\"",
+                "flags": 96,
+                "start": 21,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 21,
             "end": 25
         }
     ],
@@ -110,12 +142,15 @@ import x, * as a from "y"
 
 ```javascript
 
-import x, * as   ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 9, end: 11
+✖ Expected a `;` - start: 14, end: 16
+✖ Expected a `;` - start: 16, end: 21
+✖ Expected a `;` - start: 21, end: 25
+
 ```
 

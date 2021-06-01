@@ -62,7 +62,8 @@ function f(){import {x} from "y";}
                                 "start": 13,
                                 "end": 19
                             },
-                            "isType": false,
+                            "typeKeyword": null,
+                            "typeofKeyword": null,
                             "fromClause": {
                                 "kind": 256,
                                 "fromKeyword": {
@@ -95,7 +96,7 @@ function f(){import {x} from "y";}
                                         "specifiers": [
                                             {
                                                 "kind": 264,
-                                                "isType": false,
+                                                "typeKeyword": null,
                                                 "moduleExportName": null,
                                                 "name": null,
                                                 "asKeyword": null,

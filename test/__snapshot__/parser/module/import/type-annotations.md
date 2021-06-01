@@ -37,7 +37,13 @@ import { type Foo12 } from "bar";
                 "start": 0,
                 "end": 6
             },
-            "isType": true,
+            "typeKeyword": {
+                "kind": 24775,
+                "flags": 64,
+                "start": 6,
+                "end": 11
+            },
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -77,7 +83,7 @@ import { type Foo12 } from "bar";
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": {
                                     "kind": 134299649,
@@ -130,7 +136,8 @@ import { type Foo12 } from "bar";
                 "start": 39,
                 "end": 46
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -180,7 +187,8 @@ import { type Foo12 } from "bar";
                 "start": 63,
                 "end": 70
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -220,7 +228,7 @@ import { type Foo12 } from "bar";
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -261,7 +269,13 @@ import { type Foo12 } from "bar";
                 "start": 99,
                 "end": 106
             },
-            "isType": true,
+            "typeKeyword": {
+                "kind": 24775,
+                "flags": 64,
+                "start": 106,
+                "end": 111
+            },
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -311,7 +325,13 @@ import { type Foo12 } from "bar";
                 "start": 129,
                 "end": 136
             },
-            "isType": true,
+            "typeKeyword": {
+                "kind": 24775,
+                "flags": 64,
+                "start": 136,
+                "end": 141
+            },
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -351,7 +371,7 @@ import { type Foo12 } from "bar";
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -369,7 +389,7 @@ import { type Foo12 } from "bar";
                             },
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -410,29 +430,23 @@ import { type Foo12 } from "bar";
                 "start": 169,
                 "end": 176
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": {
+                "kind": 138477613,
+                "flags": 64,
+                "start": 176,
+                "end": 183
+            },
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
                 "from": {
                     "kind": 198,
                     "left": {
-                        "kind": 126,
-                        "operandToken": {
-                            "kind": 138477613,
-                            "flags": 64,
-                            "start": 176,
-                            "end": 183
-                        },
-                        "operand": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 183,
-                            "end": 183
-                        },
-                        "flags": 32,
-                        "start": 176,
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 183,
                         "end": 183
                     },
                     "operatorToken": {
@@ -450,28 +464,22 @@ import { type Foo12 } from "bar";
                         "end": 188
                     },
                     "flags": 32,
-                    "start": 176,
+                    "start": 183,
                     "end": 188
                 },
                 "flags": 0,
-                "start": 176,
+                "start": 183,
                 "end": 188
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
-                "defaultBinding": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 176,
-                    "end": 176
-                },
+                "defaultBinding": null,
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 169,
-                "end": 176
+                "end": 183
             },
             "flags": 16,
             "start": 169,
@@ -527,7 +535,8 @@ import { type Foo12 } from "bar";
                 "start": 210,
                 "end": 217
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": {
@@ -560,7 +569,12 @@ import { type Foo12 } from "bar";
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": true,
+                                "typeKeyword": {
+                                    "kind": 24775,
+                                    "flags": 64,
+                                    "start": 219,
+                                    "end": 224
+                                },
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -612,7 +626,6 @@ import { type Foo12 } from "bar";
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 176, end: 183
 ✖ Identifier expected - start: 183, end: 185
 ✖ Expected a `;` - start: 188, end: 198
 ✖ Expected a `;` - start: 198, end: 203

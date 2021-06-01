@@ -29,26 +29,41 @@ import foo, * as bar from "foo";
                 "start": 0,
                 "end": 6
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
-                "fromKeyword": {
-                    "kind": 16500,
-                    "flags": 80,
-                    "start": 20,
-                    "end": 25
-                },
+                "fromKeyword": null,
                 "from": {
-                    "kind": 201392131,
-                    "text": "foo",
-                    "rawText": "\"foo\"",
-                    "flags": 96,
-                    "start": 25,
-                    "end": 31
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 11,
+                        "end": 11
+                    },
+                    "operatorToken": {
+                        "kind": 67143222,
+                        "flags": 64,
+                        "start": 11,
+                        "end": 13
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "as",
+                        "rawText": "as",
+                        "flags": 96,
+                        "start": 13,
+                        "end": 16
+                    },
+                    "flags": 32,
+                    "start": 11,
+                    "end": 16
                 },
                 "flags": 0,
-                "start": 20,
-                "end": 31
+                "start": 11,
+                "end": 16
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -61,39 +76,56 @@ import foo, * as bar from "foo";
                     "start": 6,
                     "end": 10
                 },
-                "nameSpaceImport": {
-                    "kind": 255,
-                    "asteriskToken": {
-                        "kind": 67143222,
-                        "flags": 64,
-                        "start": 11,
-                        "end": 13
-                    },
-                    "asKeyword": {
-                        "kind": 16494,
-                        "flags": 80,
-                        "start": 13,
-                        "end": 16
-                    },
-                    "binding": {
-                        "kind": 134299649,
-                        "text": "bar",
-                        "rawText": "bar",
-                        "flags": 96,
-                        "start": 16,
-                        "end": 20
-                    },
-                    "flags": 16,
-                    "start": 11,
-                    "end": 20
-                },
+                "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 20
+                "end": 11
             },
             "flags": 16,
             "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "bar",
+                "rawText": "bar",
+                "flags": 96,
+                "start": 16,
+                "end": 20
+            },
+            "flags": 16,
+            "start": 16,
+            "end": 20
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 20,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 20,
+            "end": 25
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "foo",
+                "rawText": "\"foo\"",
+                "flags": 96,
+                "start": 25,
+                "end": 31
+            },
+            "flags": 16,
+            "start": 25,
             "end": 32
         }
     ],
@@ -110,12 +142,15 @@ import foo, * as bar from "foo";
 
 ```javascript
 
-import foo, * as   ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 11, end: 13
+✖ Expected a `;` - start: 16, end: 20
+✖ Expected a `;` - start: 20, end: 25
+✖ Expected a `;` - start: 25, end: 31
+
 ```
 

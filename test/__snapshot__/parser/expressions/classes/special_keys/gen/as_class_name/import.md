@@ -62,7 +62,8 @@ class import {}
                 "start": 5,
                 "end": 12
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,

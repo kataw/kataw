@@ -120,7 +120,8 @@ new import(x);
                 "start": 0,
                 "end": 7
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -192,7 +193,8 @@ new import(x);
                 "start": 30,
                 "end": 38
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -297,7 +299,8 @@ new import(x);
                 "start": 77,
                 "end": 85
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -348,7 +351,8 @@ new import(x);
                 "start": 91,
                 "end": 99
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -823,7 +827,8 @@ new import(x);
                 "start": 233,
                 "end": 241
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -859,7 +864,8 @@ new import(x);
                 "start": 243,
                 "end": 251
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -895,7 +901,8 @@ new import(x);
                 "start": 254,
                 "end": 262
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -917,7 +924,8 @@ new import(x);
                 "start": 264,
                 "end": 272
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -962,7 +970,8 @@ new import(x);
                 "start": 276,
                 "end": 284
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -1011,7 +1020,8 @@ new import(x);
                 "start": 286,
                 "end": 294
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -1038,7 +1048,7 @@ new import(x);
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -1079,7 +1089,8 @@ new import(x);
                 "start": 297,
                 "end": 305
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -1106,7 +1117,7 @@ new import(x);
                         "specifiers": [
                             {
                                 "kind": 264,
-                                "isType": false,
+                                "typeKeyword": null,
                                 "moduleExportName": null,
                                 "name": null,
                                 "asKeyword": null,
@@ -1480,7 +1491,8 @@ new import(x);
                 "start": 411,
                 "end": 419
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
@@ -1521,7 +1533,8 @@ new import(x);
                 "start": 421,
                 "end": 429
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,

@@ -26,7 +26,8 @@ impo\u0072t = x;
                 "start": 0,
                 "end": 11
             },
-            "isType": false,
+            "typeKeyword": null,
+            "typeofKeyword": null,
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,

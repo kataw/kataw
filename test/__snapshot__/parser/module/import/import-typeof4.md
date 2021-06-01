@@ -3,13 +3,13 @@
 ## Options
 
 `````js
-{ jsx: true, disableWebCompat: true, module: true }
+{ jsx: true, disableWebCompat: true, module: true, allowTypes: true }
 `````
 
 ## Input
 
 `````js
-import * as foo from "foo";
+import typeof a * from "b";
 `````
 
 ## Output
@@ -30,7 +30,12 @@ import * as foo from "foo";
                 "end": 6
             },
             "typeKeyword": null,
-            "typeofKeyword": null,
+            "typeofKeyword": {
+                "kind": 138477613,
+                "flags": 64,
+                "start": 6,
+                "end": 13
+            },
             "fromClause": {
                 "kind": 256,
                 "fromKeyword": null,
@@ -40,90 +45,69 @@ import * as foo from "foo";
                         "kind": 16637,
                         "text": "",
                         "flags": 64,
-                        "start": 6,
-                        "end": 6
+                        "start": 15,
+                        "end": 15
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "start": 6,
-                        "end": 8
+                        "start": 15,
+                        "end": 17
                     },
                     "right": {
                         "kind": 134299649,
-                        "text": "as",
-                        "rawText": "as",
+                        "text": "from",
+                        "rawText": "from",
                         "flags": 96,
-                        "start": 8,
-                        "end": 11
+                        "start": 17,
+                        "end": 22
                     },
                     "flags": 32,
-                    "start": 6,
-                    "end": 11
+                    "start": 15,
+                    "end": 22
                 },
                 "flags": 0,
-                "start": 6,
-                "end": 11
+                "start": 15,
+                "end": 22
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
-                "defaultBinding": null,
+                "defaultBinding": {
+                    "kind": 134299649,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 96,
+                    "start": 13,
+                    "end": 15
+                },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
                 "start": 0,
-                "end": 6
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 11
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 11,
                 "end": 15
             },
             "flags": 16,
-            "start": 11,
-            "end": 15
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "from",
-                "rawText": "from",
-                "flags": 96,
-                "start": 15,
-                "end": 20
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 20
+            "start": 0,
+            "end": 22
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "foo",
-                "rawText": "\"foo\"",
+                "text": "b",
+                "rawText": "\"b\"",
                 "flags": 96,
-                "start": 20,
+                "start": 22,
                 "end": 26
             },
             "flags": 16,
-            "start": 20,
+            "start": 22,
             "end": 27
         }
     ],
     "isModule": true,
-    "source": "import * as foo from \"foo\";",
+    "source": "import typeof a * from \"b\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
@@ -140,10 +124,8 @@ import * as foo from "foo";
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 6, end: 8
-✖ Expected a `;` - start: 11, end: 15
-✖ Expected a `;` - start: 15, end: 20
-✖ Expected a `;` - start: 20, end: 26
+✖ Identifier expected - start: 15, end: 17
+✖ Expected a `;` - start: 22, end: 26
 
 ```
 
