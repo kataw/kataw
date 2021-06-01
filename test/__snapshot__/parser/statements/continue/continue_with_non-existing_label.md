@@ -67,12 +67,12 @@ while (true) continue x;
 
 ```javascript
 
+while (true) continue x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 12, end: 24
-
+✔ No errors
 ```
 

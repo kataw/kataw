@@ -111,12 +111,12 @@ foo: if (x) while(z) continue foo
 
 ```javascript
 
+foo: if (x) while (z) continue foo;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 20, end: 33
-
+✔ No errors
 ```
 

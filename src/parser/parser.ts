@@ -184,8 +184,7 @@ import {
   addVarName,
   addBlockName,
   ScopeFlags,
-  lookupContinueTarget,
-  lookupBreakTarget,
+  lookupContinueTarget, lookupBreakTarget,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
 
@@ -559,9 +558,10 @@ function parseCaseBlock(
         pos
       );
       const expression = parseExpressions(parser, context);
+
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       const statements = [];
-      while (parser.token & 0b00010010100000011100000000000000) {
+      while (parser.token & (SyntaxKind.IsExpressionStart | SyntaxKind.IsProperty | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsPatternStart | SyntaxKind.IsStatementStart)) {
         statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
       clauses.push(createCaseClause(caseToken, expression, statements, pos, parser.curPos));
@@ -585,7 +585,7 @@ function parseCaseBlock(
       hasDefaultCase = true;
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       const statements = [];
-      while (parser.token & 0b00010010100000011100000000000000) {
+      while (parser.token & (SyntaxKind.IsExpressionStart | SyntaxKind.IsProperty | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsPatternStart | SyntaxKind.IsStatementStart)) {
         statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
       clauses.push(createDefaultClause(defaultToken, statements, pos, parser.curPos));
@@ -817,7 +817,7 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
   );
   if (!canParseSemicolon(parser)) {
     label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
-    if (lookupContinueTarget(labels, label.text)) {
+    /*if (lookupContinueTarget(labels, label.text)) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -825,7 +825,7 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
         pos,
         parser.pos
       );
-    }
+    }*/
   }
   parseSemicolon(parser, context);
   return createContinueStatement(continueToken, label as Identifier, pos, parser.curPos);
@@ -981,6 +981,7 @@ function parseDoWhileStatement(
     labels,
     ownLabels
   );
+  console.log(parser.token === SyntaxKind.WhileKeyword)
   const whileKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
   const openParenExists = consume(
     parser,
@@ -4157,8 +4158,8 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.number
       );
     case SyntaxKind.ElementList:
-      const listElements = [];
-      const arrayElements = node.elements;
+      let listElements = [];
+      let arrayElements = node.elements;
       let i = arrayElements.length;
       while (i--) {
         listElements.push(convertArrowParameter(parser, arrayElements[i]));
@@ -4196,8 +4197,8 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
       return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.start, node.end);
     case SyntaxKind.PropertyDefinitionList:
       //createBindingPropertyList()
-      const bindingProperty = [];
-      const properties = node.properties;
+      let bindingProperty = [];
+      let properties = node.properties;
       for (let i = 0, n = properties.length; i < n; ++i) {
         bindingProperty.push(convertArrowParameter(parser, properties[i]));
       }
@@ -5066,7 +5067,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         );
       }
 
-      const arrowParams = [];
+      let arrowParams = [];
 
       for (let i = 0; i < expressions.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, expressions[i]));
@@ -6315,8 +6316,8 @@ function parseImportDeclaration(
 
   let importClause = null;
   let fromClause = null;
-  const token = parser.token;
-  const tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
+  let token = parser.token;
+  let tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
   let typeKeyword = null;
   let typeofKeyword = null;
 
@@ -9878,7 +9879,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           parser.pos
         );
       }
-      const arrowParams = [];
+      let arrowParams = [];
       for (let i = 0; i < params.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, params[i]));
       }

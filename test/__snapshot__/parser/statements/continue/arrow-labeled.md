@@ -110,12 +110,15 @@
 
 ```javascript
 
+() =>  {
+  do continue y;
+  while (true);
+};
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 10, end: 32
-
+✔ No errors
 ```
 

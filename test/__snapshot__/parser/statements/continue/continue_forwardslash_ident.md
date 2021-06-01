@@ -103,7 +103,6 @@ for (x of 3) continue/x
 ```javascript
 ✖ Unterminated regular expression - start: 21, end: 23
 ✖ Expression expected - start: 21, end: 23
-✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 12, end: 23
 
 ```
 
