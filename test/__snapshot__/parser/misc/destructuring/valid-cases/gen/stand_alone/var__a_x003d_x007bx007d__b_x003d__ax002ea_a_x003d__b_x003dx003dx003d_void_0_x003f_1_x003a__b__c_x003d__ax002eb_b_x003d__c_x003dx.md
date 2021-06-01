@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/misc/destructuring/valid-cases/autogen.md
-- Path: kataw7/test\__snapshot__\parser\misc\destructuring\valid-cases\gen\stand_alone
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/misc/destructuring/valid-cases/autogen.md
+- Path: kataw8/test\__snapshot__\parser\misc\destructuring\valid-cases\gen\stand_alone
 > :: test: stand alone
 > :: case: var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0 ? 2 : _c, _d = _a.c, c = _d === void 0 ? b : _d
 ## Input

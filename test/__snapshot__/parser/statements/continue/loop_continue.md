@@ -74,7 +74,7 @@ while(z) continue foo
 ### Diagnostics
 
 ```javascript
-✖ Jump target cannot cross function boundary. - start: 8, end: 21
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 8, end: 21
 
 ```
 

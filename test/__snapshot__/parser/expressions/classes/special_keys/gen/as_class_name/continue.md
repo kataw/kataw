@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_class_name
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_class_name
 > :: test: as class name
 > :: case: continue
 ## Input
@@ -108,7 +108,7 @@ class continue {}
 ✖ Binding identifier expected - start: 5, end: 14
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 5, end: 14
 ✖ Expression expected - start: 14, end: 16
-✖ Jump target cannot cross function boundary. - start: 5, end: 16
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 5, end: 16
 
 ```
 

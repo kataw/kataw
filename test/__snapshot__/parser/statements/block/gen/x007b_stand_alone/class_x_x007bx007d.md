@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/statements/block/autogen.md
-- Path: kataw7/test\__snapshot__\parser\statements\block\gen\x007b_stand_alone
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
+- Path: kataw8/test\__snapshot__\parser\statements\block\gen\x007b_stand_alone
 > :: test: { stand alone
 > :: case: class x {}
 ## Input

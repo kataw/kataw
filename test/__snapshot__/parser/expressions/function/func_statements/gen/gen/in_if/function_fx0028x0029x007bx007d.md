@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\function\func_statements\gen\gen\in_if
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\function\func_statements\gen\gen\in_if
 > :: test: in if
 > :: case: function f(){}
 ## Input

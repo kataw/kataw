@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
-- Path: kataw7/test\__snapshot__\parser\declarations\function\func-decl-errors\gen\in_func_expr_body
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
+- Path: kataw8/test\__snapshot__\parser\declarations\function\func-decl-errors\gen\in_func_expr_body
 > :: test: in func expr body
 > :: case: for (var x in {}) label: function f() { };
 ## Input

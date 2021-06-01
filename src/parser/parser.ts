@@ -505,7 +505,7 @@ function parseSwitchStatement(
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpression(parser, context);
+  const expression = parseExpressions(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -558,7 +558,7 @@ function parseCaseBlock(
         NodeFlags.IsStatement,
         pos
       );
-      const expression = parseExpression(parser, context);
+      const expression = parseExpressions(parser, context);
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       const statements = [];
       while (parser.token & 0b00010010100000011100000000000000) {
@@ -821,7 +821,7 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.Jump_target_cannot_cross_function_boundary],
+        diagnosticMap[DiagnosticCode.A_continue_statement_can_only_jump_to_a_label_of_an_enclosing_iteration_statement],
         pos,
         parser.pos
       );
@@ -849,7 +849,7 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpression(parser, context);
+  const expression = parseExpressions(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -932,7 +932,7 @@ function parseWhileStatement(
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpression(parser, context);
+  const expression = parseExpressions(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1033,7 +1033,7 @@ function parseWithStatement(
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpression(parser, context);
+  const expression = parseExpressions(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1079,7 +1079,7 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
       parser.pos
     );
   }
-  const expression = parseExpression(parser, context);
+  const expression = parseExpressions(parser, context);
   parseSemicolon(parser, context);
   return createThrowStatement(throwKeyword, expression, pos, parser.curPos);
 }

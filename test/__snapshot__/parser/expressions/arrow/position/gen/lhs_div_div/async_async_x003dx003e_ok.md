@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\arrow\position\gen\lhs_div_div
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/arrow/position/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\arrow\position\gen\lhs_div_div
 > :: test: lhs div div
 > :: case: async async => ok
 ## Input

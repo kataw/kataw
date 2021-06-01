@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-01
-- From: d
-- Path: e
+- From: kataw8/test\__snapshot__/parser/statements/labelled/keywords/autogen.md
+- Path: kataw8/test\__snapshot__\parser\statements\labelled\keywords\gen\can_not_use_keywords_as_label_name
 > :: test: can not use keywords as label name
 > :: case: break
 ## Input
@@ -71,6 +71,7 @@ break: x
 
 ```javascript
 ✖ Expression expected - start: 5, end: 6
+✖ A 'break' statement can only jump to a label of an enclosing statement - start: 5, end: 6
 
 ```
 

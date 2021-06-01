@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/import-call/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\import-call\gen\lexical
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/import-call/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\import-call\gen\lexical
 > :: test: lexical
 > :: case: import(x,y,z)
 ## Input

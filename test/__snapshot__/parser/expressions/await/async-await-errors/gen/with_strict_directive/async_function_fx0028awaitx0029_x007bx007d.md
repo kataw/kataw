@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\await\async-await-errors\gen\with_strict_directive
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/await/async-await-errors/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\await\async-await-errors\gen\with_strict_directive
 > :: test: with strict directive
 > :: case: async function f(await) {}
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/statements/block/autogen.md
-- Path: kataw7/test\__snapshot__\parser\statements\block\gen\missing_parens_and_block
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
+- Path: kataw8/test\__snapshot__\parser\statements\block\gen\missing_parens_and_block
 > :: test: missing parens and block
 > :: case: {switch{
 ## Input

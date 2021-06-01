@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\assignment_paren_wrapped
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\assignment_paren_wrapped
 > :: test: assignment paren wrapped
 > :: case: \u0063ontinue
 ## Input
@@ -99,7 +99,7 @@
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 1, end: 14
 ✖ Keywords cannot contain escape characters - start: 1, end: 14
 ✖ Expression expected - start: 14, end: 16
-✖ Jump target cannot cross function boundary. - start: 1, end: 16
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 1, end: 16
 ✖ Expected a `;` - start: 18, end: 19
 
 ```

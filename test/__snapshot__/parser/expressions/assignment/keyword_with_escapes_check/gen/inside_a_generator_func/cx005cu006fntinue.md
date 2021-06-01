@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\inside_a_generator_func
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\inside_a_generator_func
 > :: test: inside a generator func
 > :: case: c\u006fntinue
 ## Input
@@ -128,7 +128,7 @@ function *f(){
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 14, end: 30
 ✖ Keywords cannot contain escape characters - start: 14, end: 30
 ✖ Expression expected - start: 30, end: 32
-✖ Jump target cannot cross function boundary. - start: 14, end: 32
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 14, end: 32
 ✖ Declaration or statement expected - start: 34, end: 36
 
 ```

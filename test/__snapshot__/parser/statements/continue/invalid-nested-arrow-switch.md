@@ -142,7 +142,7 @@
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 27, end: 42
-✖ Jump target cannot cross function boundary. - start: 27, end: 48
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 27, end: 48
 
 ```
 

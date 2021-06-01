@@ -108,7 +108,7 @@ while (true) {
 ### Diagnostics
 
 ```javascript
-✖ Jump target cannot cross function boundary. - start: 19, end: 31
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 19, end: 31
 
 ```
 

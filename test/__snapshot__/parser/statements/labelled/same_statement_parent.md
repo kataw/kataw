@@ -120,12 +120,12 @@ while(x) {
 
 ```javascript
 
-while (x) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'break' statement can only jump to a label of an enclosing statement - start: 36, end: 37
+
 ```
 

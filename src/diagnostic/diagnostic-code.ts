@@ -231,7 +231,7 @@ export const enum DiagnosticCode {
   Import_declaration_expected = 234,
   Identifier_expected_A_decorator_name_can_only_be_an_identifier = 235,
   A_break_statement_can_only_jump_to_a_label_of_an_enclosing_statement = 236,
-  Jump_target_cannot_cross_function_boundary = 237
+  A_continue_statement_can_only_jump_to_a_label_of_an_enclosing_iteration_statement = 237
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -467,5 +467,5 @@ export const diagnosticMap: { [key: number]: string } = {
   [234]: 'Import declaration expected',
   [235]: 'Identifier expected. A decorator name can only be an identifier',
   [236]: "A 'break' statement can only jump to a label of an enclosing statement",
-  [237]: 'Jump target cannot cross function boundary.'
+  [237]: "A 'continue' statement can only jump to a label of an enclosing iteration statement."
 };

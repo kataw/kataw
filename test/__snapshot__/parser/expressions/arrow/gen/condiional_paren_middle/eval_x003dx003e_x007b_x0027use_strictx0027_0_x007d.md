@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/arrow/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\arrow\gen\condiional_paren_middle
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/arrow/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\arrow\gen\condiional_paren_middle
 > :: test: condiional_paren_middle
 > :: case: eval => { 'use strict'; 0 }
 ## Input

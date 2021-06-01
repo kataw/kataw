@@ -582,7 +582,6 @@ export function lookupBreakTarget(labels: any, value: string): boolean {
   if (labels) {
     if (labels['#' + value]) return false;
     while ((labels = labels.parent)) if (labels['#' + value]) return false;
-    return true;
   }
-  return false;
+  return true;
 }

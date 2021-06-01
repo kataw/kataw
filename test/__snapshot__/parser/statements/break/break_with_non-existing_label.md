@@ -49,12 +49,12 @@ break x;
 
 ```javascript
 
-break x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'break' statement can only jump to a label of an enclosing statement - start: 7, end: 8
+
 ```
 

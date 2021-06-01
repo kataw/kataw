@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\inside_an_async_func
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\inside_an_async_func
 > :: test: inside an async func
 > :: case: \u0063ontinue
 ## Input
@@ -109,7 +109,7 @@ async () => {  \u0063ontinue = x  }
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 28
 ✖ Keywords cannot contain escape characters - start: 13, end: 28
 ✖ Expression expected - start: 28, end: 30
-✖ Jump target cannot cross function boundary. - start: 13, end: 30
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 13, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 
 ```

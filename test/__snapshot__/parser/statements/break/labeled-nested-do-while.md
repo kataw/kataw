@@ -143,15 +143,12 @@ function f(){ do        if (x) break y   ; while(true);}
 
 ```javascript
 
-function f() {
-  do if (x) break y;
-  while (true);
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'break' statement can only jump to a label of an enclosing statement - start: 38, end: 42
+
 ```
 

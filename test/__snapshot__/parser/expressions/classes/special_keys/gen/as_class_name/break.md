@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-05-30
-- From: kataw7/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw7/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_class_name
+- Regenerated: 2021-06-01
+- From: kataw8/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_class_name
 > :: test: as class name
 > :: case: break
 ## Input
@@ -107,6 +107,7 @@ class break {}
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
 ✖ Expression expected - start: 11, end: 13
+✖ A 'break' statement can only jump to a label of an enclosing statement - start: 11, end: 13
 
 ```
 
