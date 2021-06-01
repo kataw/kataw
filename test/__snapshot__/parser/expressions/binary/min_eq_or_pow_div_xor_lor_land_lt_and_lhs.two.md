@@ -34,7 +34,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                                 "end": 2
                             },
                             "operatorToken": {
-                                "kind": 35379,
+                                "kind": 100915,
                                 "flags": 64,
                                 "start": 2,
                                 "end": 4

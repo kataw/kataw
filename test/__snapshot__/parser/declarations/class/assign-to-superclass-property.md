@@ -185,7 +185,7 @@ class B extends A {
                                                             "end": 100
                                                         },
                                                         "operatorToken": {
-                                                            "kind": 34098,
+                                                            "kind": 99634,
                                                             "flags": 64,
                                                             "start": 100,
                                                             "end": 102

@@ -150,7 +150,7 @@ new package => x
                     "end": 31
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 65,
                     "start": 31,
                     "end": 34
@@ -235,7 +235,7 @@ new package => x
                                             "end": 65
                                         },
                                         "operatorToken": {
-                                            "kind": 34098,
+                                            "kind": 99634,
                                             "flags": 65,
                                             "start": 65,
                                             "end": 68

@@ -37,7 +37,7 @@
                             "end": 2
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 2,
                             "end": 4
@@ -97,7 +97,7 @@
                             "end": 16
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 16,
                             "end": 18
@@ -157,7 +157,7 @@
                             "end": 30
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 30,
                             "end": 32
@@ -217,7 +217,7 @@
                             "end": 44
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 44,
                             "end": 46
@@ -277,7 +277,7 @@
                             "end": 58
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 58,
                             "end": 60

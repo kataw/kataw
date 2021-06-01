@@ -127,7 +127,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     "end": 29
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 29,
                                     "end": 31

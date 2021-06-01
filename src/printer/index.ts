@@ -429,7 +429,7 @@ function canBreakAssignment(left: any, right: any): boolean {
       );
     }
     case SyntaxKind.ClassExpression:
-      return right.decorators && right.decorators.node.decoratorList.length;
+      return right.decorators && right.decorators.node.elements.length;
   }
 
   if (
@@ -761,8 +761,8 @@ function printWithStatement(node: any, printer: Printer): any {
 }
 
 function printDecorators(node: any, printer: Printer): any {
-  if (node.decoratorList) {
-    const children = node.decoratorList;
+  if (node.elements) {
+    const children = node.elements;
     const elements: any[] = [];
     for (let i = 0; i < children.length; i++) {
       const child = children[i];
@@ -1237,8 +1237,6 @@ function printObjectBindingPattern(node: any, printer: Printer, parentNode: any)
 }
 
 function printBindingPropertyList(node: any, printer: Printer, parentNode: any): any {
-  //console.log('adjsfldfsakjlalkjdasfjfdasdfsajldfkdsasd')
-  //console.log(node)
   return node.properties.length === 0
     ? '{}'
     : group(
@@ -1326,7 +1324,7 @@ function printVariableDeclarationOrLexicalBinding(node: any, printer: Printer): 
       initializer.kind === SyntaxKind.BinaryExpression ||
       (initializer.kind === SyntaxKind.ClassExpression &&
         initializer.decorators &&
-        initializer.decorators.node.decoratorList.length) ||
+        initializer.decorators.node.elements.length) ||
       initializer.kind === SyntaxKind.CommaOperator ||
       initializer.kind === SyntaxKind.UnaryExpression ||
       (initializer.kind === SyntaxKind.ConditionalExpression &&
@@ -1872,9 +1870,7 @@ function printFieldDefinition(node: any, printer: Printer): any {
         initializer.right.kind !== SyntaxKind.ObjectLiteral) ||
       initializer.kind === SyntaxKind.CommaOperator ||
       initializer.kind === SyntaxKind.StringType ||
-      (initializer.kind === SyntaxKind.ClassExpression &&
-        node.decorators &&
-        node.decorators.node.decoratorList.length) ||
+      (initializer.kind === SyntaxKind.ClassExpression && node.decorators && node.decorators.node.elements.length) ||
       node.key.kind & SyntaxKind.IsIdentifier ||
       node.key.kind === SyntaxKind.PrivateIdentifier ||
       node.key.kind === SyntaxKind.StringLiteral ||

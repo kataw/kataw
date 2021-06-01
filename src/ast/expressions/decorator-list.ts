@@ -6,13 +6,13 @@ import { Decorator } from './decorators';
  */
 
 export interface DecoratorList extends SyntaxNode {
-  readonly decoratorList: Decorator[];
+  readonly elements: Decorator[];
 }
 
-export function createDecoratorList(decoratorList: Decorator[], start: number, end: number): DecoratorList {
+export function createDecoratorList(elements: Decorator[], start: number, end: number): DecoratorList {
   return {
     kind: SyntaxKind.DecoratorList,
-    decoratorList,
+    elements,
     flags: NodeFlags.ExpressionNode,
     start,
     end

@@ -99,7 +99,7 @@ function *g() { function f(x = x + yield y) {}; }
                                                 "end": 32
                                             },
                                             "operatorToken": {
-                                                "kind": 34098,
+                                                "kind": 99634,
                                                 "flags": 64,
                                                 "start": 32,
                                                 "end": 34

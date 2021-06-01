@@ -54,9 +54,15 @@ class A {
                             "kind": 280,
                             "decorators": {
                                 "kind": 207,
-                                "decoratorList": [
+                                "elements": [
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 64,
+                                            "start": 19,
+                                            "end": 21
+                                        },
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "dec",
@@ -66,12 +72,12 @@ class A {
                                             "end": 24
                                         },
                                         "flags": 0,
-                                        "start": 21,
+                                        "start": 19,
                                         "end": 24
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 21,
+                                "start": 19,
                                 "end": 24
                             },
                             "declaredToken": {

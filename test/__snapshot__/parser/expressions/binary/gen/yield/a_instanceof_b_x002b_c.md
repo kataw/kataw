@@ -101,7 +101,7 @@ function *f() {
                                         "end": 38
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 38,
                                         "end": 40

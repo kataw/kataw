@@ -75,9 +75,15 @@ function func(@foo x) {}
             "declareKeyword": null,
             "decorators": {
                 "kind": 207,
-                "decoratorList": [
+                "elements": [
                     {
                         "kind": 34611453,
+                        "decoratorToken": {
+                            "kind": 34611453,
+                            "flags": 64,
+                            "start": 14,
+                            "end": 15
+                        },
                         "expression": {
                             "kind": 134299649,
                             "text": "foo",
@@ -87,12 +93,12 @@ function func(@foo x) {}
                             "end": 18
                         },
                         "flags": 0,
-                        "start": 15,
+                        "start": 14,
                         "end": 18
                     }
                 ],
                 "flags": 32,
-                "start": 15,
+                "start": 14,
                 "end": 18
             },
             "classKeyword": null,

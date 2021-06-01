@@ -580,7 +580,7 @@ a++ => {};
                     "end": 129
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 129,
                     "end": 131
@@ -2397,7 +2397,7 @@ a++ => {};
                                                                     "end": 548
                                                                 },
                                                                 "operatorToken": {
-                                                                    "kind": 34098,
+                                                                    "kind": 99634,
                                                                     "flags": 64,
                                                                     "start": 548,
                                                                     "end": 549
@@ -5625,7 +5625,7 @@ a++ => {};
                                                         "end": 1272
                                                     },
                                                     "operatorToken": {
-                                                        "kind": 35379,
+                                                        "kind": 100915,
                                                         "flags": 64,
                                                         "start": 1272,
                                                         "end": 1273
@@ -5780,7 +5780,7 @@ a++ => {};
                                                             "end": 1305
                                                         },
                                                         "operatorToken": {
-                                                            "kind": 35379,
+                                                            "kind": 100915,
                                                             "flags": 64,
                                                             "start": 1305,
                                                             "end": 1306
@@ -5971,7 +5971,7 @@ a++ => {};
                                                                 "end": 1343
                                                             },
                                                             "operatorToken": {
-                                                                "kind": 34098,
+                                                                "kind": 99634,
                                                                 "flags": 64,
                                                                 "start": 1343,
                                                                 "end": 1344
@@ -6199,7 +6199,7 @@ a++ => {};
                                                                                     "end": 1405
                                                                                 },
                                                                                 "operatorToken": {
-                                                                                    "kind": 35379,
+                                                                                    "kind": 100915,
                                                                                     "flags": 64,
                                                                                     "start": 1405,
                                                                                     "end": 1406
@@ -8940,7 +8940,7 @@ a++ => {};
                     "end": 2931
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 2931,
                     "end": 2933
@@ -9005,7 +9005,7 @@ a++ => {};
                         "end": 2945
                     },
                     "operatorToken": {
-                        "kind": 34098,
+                        "kind": 99634,
                         "flags": 64,
                         "start": 2945,
                         "end": 2947
@@ -9072,7 +9072,7 @@ a++ => {};
                             "end": 2960
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 2960,
                             "end": 2962
@@ -9148,7 +9148,7 @@ a++ => {};
                                 "end": 2981
                             },
                             "operatorToken": {
-                                "kind": 35379,
+                                "kind": 100915,
                                 "flags": 64,
                                 "start": 2981,
                                 "end": 2983
@@ -9344,7 +9344,7 @@ a++ => {};
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 35379,
+                    "kind": 100915,
                     "flags": 65,
                     "start": 3048,
                     "end": 3050
@@ -9401,7 +9401,7 @@ a++ => {};
                 "expression": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 35379,
+                        "kind": 100915,
                         "flags": 64,
                         "start": 3060,
                         "end": 3061
@@ -9455,7 +9455,7 @@ a++ => {};
                         {
                             "kind": 126,
                             "operandToken": {
-                                "kind": 35379,
+                                "kind": 100915,
                                 "flags": 64,
                                 "start": 3072,
                                 "end": 3073
@@ -9515,50 +9515,50 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 121,
-                    "expression": {
-                        "kind": 132,
-                        "expressions": [
-                            {
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 3087,
+                            "end": 3088
+                        },
+                        {
+                            "kind": 126,
+                            "operandToken": {
+                                "kind": 100915,
+                                "flags": 64,
+                                "start": 3089,
+                                "end": 3091
+                            },
+                            "operand": {
                                 "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
+                                "text": "b",
+                                "rawText": "b",
                                 "flags": 96,
-                                "start": 3087,
-                                "end": 3088
-                            }
-                        ],
-                        "flags": 32,
-                        "start": 3085,
-                        "end": 3089
-                    },
+                                "start": 3091,
+                                "end": 3092
+                            },
+                            "flags": 32,
+                            "start": 3089,
+                            "end": 3092
+                        }
+                    ],
                     "flags": 32,
                     "start": 3085,
-                    "end": 3089
-                },
-                "operatorToken": {
-                    "kind": 35379,
-                    "flags": 64,
-                    "start": 3089,
-                    "end": 3091
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 96,
-                    "start": 3091,
                     "end": 3092
                 },
                 "flags": 32,
                 "start": 3085,
-                "end": 3092
+                "end": 3093
             },
             "flags": 16,
             "start": 3085,
-            "end": 3092
+            "end": 3093
         },
         {
             "kind": 124,
@@ -10478,7 +10478,7 @@ a++ => {};
                     "end": 3354
                 },
                 "operatorToken": {
-                    "kind": 35379,
+                    "kind": 100915,
                     "flags": 64,
                     "start": 3354,
                     "end": 3356
@@ -10516,73 +10516,73 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 121,
-                    "expression": {
-                        "kind": 132,
-                        "expressions": [
-                            {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 3367,
-                                "end": 3368
-                            },
-                            {
-                                "kind": 281,
-                                "ellipsisToken": {
-                                    "kind": 524302,
-                                    "flags": 64,
-                                    "start": 3369,
-                                    "end": 3373
-                                },
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 3373,
-                                    "end": 3374
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": null,
-                                "flags": 34,
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 3367,
+                            "end": 3368
+                        },
+                        {
+                            "kind": 281,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
                                 "start": 3369,
+                                "end": 3373
+                            },
+                            "left": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 3373,
                                 "end": 3374
-                            }
-                        ],
-                        "flags": 32,
-                        "start": 3365,
-                        "end": 3374
-                    },
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": null,
+                            "flags": 34,
+                            "start": 3369,
+                            "end": 3374
+                        },
+                        {
+                            "kind": 126,
+                            "operandToken": {
+                                "kind": 100915,
+                                "flags": 64,
+                                "start": 3374,
+                                "end": 3376
+                            },
+                            "operand": {
+                                "kind": 201392130,
+                                "text": 10,
+                                "rawText": "10",
+                                "flags": 96,
+                                "start": 3376,
+                                "end": 3379
+                            },
+                            "flags": 32,
+                            "start": 3374,
+                            "end": 3379
+                        }
+                    ],
                     "flags": 32,
                     "start": 3365,
-                    "end": 3374
-                },
-                "operatorToken": {
-                    "kind": 35379,
-                    "flags": 64,
-                    "start": 3374,
-                    "end": 3376
-                },
-                "right": {
-                    "kind": 201392130,
-                    "text": 10,
-                    "rawText": "10",
-                    "flags": 96,
-                    "start": 3376,
                     "end": 3379
                 },
                 "flags": 32,
                 "start": 3365,
-                "end": 3379
+                "end": 3380
             },
             "flags": 16,
             "start": 3365,
-            "end": 3379
+            "end": 3380
         },
         {
             "kind": 120,
@@ -10702,9 +10702,7 @@ a++ => {};
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3017, end: 3044
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3058, end: 3066
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3070, end: 3081
-✖ Expected a ')' to match the '(' token here - start: 3089, end: 3091
-✖ Expected a `;` - start: 3092, end: 3093
-✖ Declaration or statement expected - start: 3093, end: 3096
+✖ Expected a `;` - start: 3093, end: 3096
 ✖ Declaration or statement expected - start: 3103, end: 3106
 ✖ Expected a `;` - start: 3114, end: 3117
 ✖ Expected a `;` - start: 3127, end: 3130
@@ -10722,9 +10720,7 @@ a++ => {};
 ✖ Expected a ')' to match the '(' token here - start: 3354, end: 3356
 ✖ Expected a `;` - start: 3358, end: 3359
 ✖ Declaration or statement expected - start: 3359, end: 3362
-✖ Expected a ')' to match the '(' token here - start: 3374, end: 3376
-✖ Expected a `;` - start: 3379, end: 3380
-✖ Declaration or statement expected - start: 3380, end: 3383
+✖ Expected a `;` - start: 3380, end: 3383
 
 ```
 

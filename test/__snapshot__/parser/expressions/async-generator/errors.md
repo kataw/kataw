@@ -2746,7 +2746,7 @@ async function * gen() {class C extends await { }}
                                         "end": 1360
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 1360,
                                         "end": 1362
@@ -3191,7 +3191,7 @@ async function * gen() {class C extends await { }}
                             "expression": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 1553,
                                     "end": 1554
@@ -3282,7 +3282,7 @@ async function * gen() {class C extends await { }}
                             "expression": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 1586,
                                     "end": 1587

@@ -225,7 +225,8 @@
   "The 'this' keyword cannot be a formal parameter": 229,
   "A 'get' accessor cannot have a `this` parameter": 231,
   "A 'constructor' cannot have a `this` parameter": 232,
-  "Import declaration expected": 234
+  "Import declaration expected": 234,
+  "Identifier expected. A decorator name can only be an identifier": 235
 }
 
 

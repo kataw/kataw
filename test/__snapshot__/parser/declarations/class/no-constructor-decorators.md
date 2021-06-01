@@ -48,9 +48,15 @@ class Foo {
                             "declareToken": null,
                             "decorators": {
                                 "kind": 207,
-                                "decoratorList": [
+                                "elements": [
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 65,
+                                            "start": 11,
+                                            "end": 15
+                                        },
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "abc",
@@ -60,12 +66,12 @@ class Foo {
                                             "end": 18
                                         },
                                         "flags": 1,
-                                        "start": 15,
+                                        "start": 11,
                                         "end": 18
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 15,
+                                "start": 11,
                                 "end": 18
                             },
                             "generatorToken": null,

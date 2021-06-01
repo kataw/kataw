@@ -228,7 +228,8 @@ export const enum DiagnosticCode {
   The_this_keyword_cannot_be_a_formal_parameter = 229,
   A_get_accessor_cannot_have_a_this_parameter = 231,
   A_constructor_cannot_have_a_this_parameter = 232,
-  Import_declaration_expected = 234
+  Import_declaration_expected = 234,
+  Identifier_expected_A_decorator_name_can_only_be_an_identifier = 235
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -461,5 +462,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [229]: "The 'this' keyword cannot be a formal parameter",
   [231]: "A 'get' accessor cannot have a `this` parameter",
   [232]: "A 'constructor' cannot have a `this` parameter",
-  [234]: 'Import declaration expected'
+  [234]: 'Import declaration expected',
+  [235]: 'Identifier expected. A decorator name can only be an identifier'
 };

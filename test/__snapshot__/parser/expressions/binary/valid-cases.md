@@ -50,7 +50,7 @@ typeof a == 'b';
                     "end": 1
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 1,
                     "end": 3
@@ -84,7 +84,7 @@ typeof a == 'b';
                     "end": 8
                 },
                 "operatorToken": {
-                    "kind": 35379,
+                    "kind": 100915,
                     "flags": 64,
                     "start": 8,
                     "end": 10
@@ -624,7 +624,7 @@ typeof a == 'b';
                     "end": 131
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 131,
                     "end": 133
@@ -710,7 +710,7 @@ typeof a == 'b';
                     "end": 157
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 157,
                     "end": 159

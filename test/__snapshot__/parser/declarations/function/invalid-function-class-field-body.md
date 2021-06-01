@@ -100,34 +100,33 @@ function* foo() {
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": {
-                                                "kind": 198,
-                                                "left": {
-                                                    "kind": 229,
-                                                    "yieldKeyword": {
-                                                        "kind": 8454253,
-                                                        "flags": 64,
-                                                        "start": 82,
-                                                        "end": 88
-                                                    },
-                                                    "delegate": false,
-                                                    "asteriskToken": null,
-                                                    "expression": null,
-                                                    "flags": 32,
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 64,
                                                     "start": 82,
                                                     "end": 88
                                                 },
-                                                "operatorToken": {
-                                                    "kind": 34098,
-                                                    "flags": 64,
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": {
+                                                    "kind": 126,
+                                                    "operandToken": {
+                                                        "kind": 99634,
+                                                        "flags": 64,
+                                                        "start": 88,
+                                                        "end": 90
+                                                    },
+                                                    "operand": {
+                                                        "kind": 201392130,
+                                                        "text": 42,
+                                                        "rawText": "42",
+                                                        "flags": 96,
+                                                        "start": 90,
+                                                        "end": 93
+                                                    },
+                                                    "flags": 32,
                                                     "start": 88,
-                                                    "end": 90
-                                                },
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 42,
-                                                    "rawText": "42",
-                                                    "flags": 96,
-                                                    "start": 90,
                                                     "end": 93
                                                 },
                                                 "flags": 32,
@@ -189,7 +188,7 @@ function* foo() {
 function * foo() {
   class C {
     // here yield is an identifier reference
-    p =  yield + 42;
+    p = yield +42;
 
   }
 }

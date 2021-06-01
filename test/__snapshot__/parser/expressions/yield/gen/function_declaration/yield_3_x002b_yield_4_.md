@@ -78,7 +78,7 @@ function not_gen() { yield 3 + yield 4; }}
                                     "end": 28
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 28,
                                     "end": 30

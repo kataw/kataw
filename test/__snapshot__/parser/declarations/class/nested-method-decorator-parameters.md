@@ -52,9 +52,15 @@ class Bar{
                             "kind": 280,
                             "decorators": {
                                 "kind": 207,
-                                "decoratorList": [
+                                "elements": [
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 65,
+                                            "start": 10,
+                                            "end": 14
+                                        },
                                         "expression": {
                                             "kind": 131,
                                             "expression": {
@@ -78,11 +84,17 @@ class Bar{
                                             "end": 20
                                         },
                                         "flags": 1,
-                                        "start": 14,
+                                        "start": 10,
                                         "end": 20
                                     },
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 65,
+                                            "start": 20,
+                                            "end": 26
+                                        },
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "classDec",
@@ -92,12 +104,12 @@ class Bar{
                                             "end": 34
                                         },
                                         "flags": 0,
-                                        "start": 26,
+                                        "start": 20,
                                         "end": 34
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 14,
+                                "start": 10,
                                 "end": 34
                             },
                             "declaredToken": null,
@@ -141,9 +153,15 @@ class Bar{
                         "declareKeyword": null,
                         "decorators": {
                             "kind": 207,
-                            "decoratorList": [
+                            "elements": [
                                 {
                                     "kind": 34611453,
+                                    "decoratorToken": {
+                                        "kind": 34611453,
+                                        "flags": 65,
+                                        "start": 42,
+                                        "end": 50
+                                    },
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "inner",
@@ -153,12 +171,12 @@ class Bar{
                                         "end": 55
                                     },
                                     "flags": 1,
-                                    "start": 50,
+                                    "start": 42,
                                     "end": 55
                                 }
                             ],
                             "flags": 32,
-                            "start": 50,
+                            "start": 42,
                             "end": 55
                         },
                         "classKeyword": null,

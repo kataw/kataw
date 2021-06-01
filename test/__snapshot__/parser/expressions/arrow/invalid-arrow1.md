@@ -1157,7 +1157,7 @@ y = (x => {}(0));
                                 "end": 265
                             },
                             "operatorToken": {
-                                "kind": 34098,
+                                "kind": 99634,
                                 "flags": 64,
                                 "start": 265,
                                 "end": 267
@@ -1237,7 +1237,7 @@ y = (x => {}(0));
                             "end": 284
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 284,
                             "end": 286

@@ -28,7 +28,7 @@ x + + y.x
                     "end": 1
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 1,
                     "end": 3
@@ -36,7 +36,7 @@ x + + y.x
                 "right": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 34098,
+                        "kind": 99634,
                         "flags": 64,
                         "start": 3,
                         "end": 5

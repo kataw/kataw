@@ -763,14 +763,6 @@ interface BindingProperty <: ExpressionNode {
 }
 ```
 
-### OmittedExpression
-
-```js
-interface OmittedExpression <: ExpressionNode {
-  kind: NodeKind.OmittedExpression;
-}
-```
-
 ### PropertyMethod
 
 ```js
@@ -781,5 +773,24 @@ interface PropertyMethod <: ExpressionNode {
   getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
   method: MethodDefinition;
+}
+```
+
+### PropertyMethod
+
+```js
+interface DecoratorList <: ExpressionNode {
+  kind: NodeKind.DecoratorList;
+  elements: Decorator[];
+}
+```
+
+### Decorator
+
+```js
+interface Decorator <: ExpressionNode {
+  kind: NodeKind.Decorator;
+  ecoratorToken: SyntaxToken<TokenSyntaxKind>;
+  expression: ExpressionNode;
 }
 ```

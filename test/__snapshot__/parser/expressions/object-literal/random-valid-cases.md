@@ -555,7 +555,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 126,
                                     "operandToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 101,
                                         "end": 104
@@ -623,7 +623,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 126,
                                     "operandToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 117,
                                         "end": 120
@@ -685,7 +685,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 126,
                                     "operandToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 131,
                                         "end": 134
@@ -1318,7 +1318,7 @@ a = { y: x = 1 } = b;
                                         "end": 288
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 288,
                                         "end": 289
@@ -4153,7 +4153,7 @@ a = { y: x = 1 } = b;
                                                         "end": 956
                                                     },
                                                     "operatorToken": {
-                                                        "kind": 34098,
+                                                        "kind": 99634,
                                                         "flags": 64,
                                                         "start": 956,
                                                         "end": 958

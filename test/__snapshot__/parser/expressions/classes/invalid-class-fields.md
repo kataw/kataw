@@ -120,7 +120,7 @@
                         "end": 13
                     },
                     "operatorToken": {
-                        "kind": 34098,
+                        "kind": 99634,
                         "flags": 64,
                         "start": 13,
                         "end": 14
@@ -203,10 +203,65 @@
                                     "kind": 280,
                                     "decorators": {
                                         "kind": 207,
-                                        "decoratorList": [],
+                                        "elements": [
+                                            {
+                                                "kind": 34611453,
+                                                "decoratorToken": {
+                                                    "kind": 34611453,
+                                                    "flags": 64,
+                                                    "start": 35,
+                                                    "end": 36
+                                                },
+                                                "expression": {
+                                                    "kind": 220,
+                                                    "propertyList": {
+                                                        "kind": 218,
+                                                        "properties": [
+                                                            {
+                                                                "kind": 134299649,
+                                                                "text": "x1f44d",
+                                                                "rawText": "x1f44d",
+                                                                "flags": 96,
+                                                                "start": 37,
+                                                                "end": 43
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 16,
+                                                        "start": 37,
+                                                        "end": 43
+                                                    },
+                                                    "flags": 48,
+                                                    "start": 36,
+                                                    "end": 44
+                                                },
+                                                "flags": 0,
+                                                "start": 35,
+                                                "end": 44
+                                            },
+                                            {
+                                                "kind": 34611453,
+                                                "decoratorToken": {
+                                                    "kind": 34611453,
+                                                    "flags": 64,
+                                                    "start": 44,
+                                                    "end": 45
+                                                },
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "flags": 64,
+                                                    "start": 45,
+                                                    "end": 45
+                                                },
+                                                "flags": 0,
+                                                "start": 44,
+                                                "end": 45
+                                            }
+                                        ],
                                         "flags": 32,
-                                        "start": 36,
-                                        "end": 36
+                                        "start": 35,
+                                        "end": 45
                                     },
                                     "declaredToken": null,
                                     "staticToken": null,
@@ -215,106 +270,35 @@
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 64,
-                                        "start": 36,
-                                        "end": 36
+                                        "start": 45,
+                                        "end": 45
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
                                     "flags": 32,
                                     "start": 35,
-                                    "end": 36
+                                    "end": 45
                                 }
                             ],
                             "flags": 32,
                             "start": 33,
-                            "end": 36
+                            "end": 45
                         },
                         "flags": 31,
                         "start": 32,
-                        "end": 36
+                        "end": 47
                     },
                     "flags": 32,
                     "start": 24,
-                    "end": 36
+                    "end": 47
                 },
                 "flags": 32,
                 "start": 21,
-                "end": 36
+                "end": 48
             },
             "flags": 16,
             "start": 21,
-            "end": 36
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x1f44d",
-                            "rawText": "x1f44d",
-                            "flags": 96,
-                            "start": 37,
-                            "end": 43
-                        },
-                        "flags": 16,
-                        "start": 37,
-                        "end": 43
-                    }
-                ],
-                "flags": 16,
-                "start": 37,
-                "end": 43
-            },
-            "flags": 16,
-            "start": 36,
-            "end": 44
-        },
-        {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": {
-                "kind": 207,
-                "decoratorList": [],
-                "flags": 32,
-                "start": 45,
-                "end": 45
-            },
-            "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "flags": 64,
-                "start": 45,
-                "end": 45
-            },
-            "typeParameters": null,
-            "tail": {
-                "kind": 277,
-                "classHeritage": null,
-                "body": {
-                    "kind": 262,
-                    "elements": [],
-                    "flags": 32,
-                    "start": 45,
-                    "end": 45
-                },
-                "flags": 45,
-                "start": 32,
-                "end": 45
-            },
-            "flags": 16,
-            "start": 44,
-            "end": 45
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 48,
             "end": 49
         },
         {
@@ -3483,9 +3467,9 @@
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 19
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 34, end: 35
-✖ Identifier expected - start: 36, end: 37
-✖ Binding identifier expected - start: 45, end: 47
-✖ Declaration or statement expected - start: 47, end: 48
+✖ Identifier expected. A decorator name can only be an identifier - start: 35, end: 37
+✖ Identifier expected. A decorator name can only be an identifier - start: 44, end: 47
+✖ Identifier expected - start: 45, end: 47
 ✖ Invalid character - start: 62, end: 63
 ✖ Missing an opening brace - '{ - start: 106, end: 108
 ✖ Expression expected - start: 106, end: 108

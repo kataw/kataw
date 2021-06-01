@@ -960,7 +960,7 @@ x((y ?? z) ?? 1);
                             "left": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 35379,
+                                    "kind": 100915,
                                     "flags": 64,
                                     "start": 202,
                                     "end": 203
@@ -1029,7 +1029,7 @@ x((y ?? z) ?? 1);
                             "left": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 214,
                                     "end": 215
@@ -1998,7 +1998,7 @@ x((y ?? z) ?? 1);
                                         "end": 415
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 415,
                                         "end": 417
@@ -2081,7 +2081,7 @@ x((y ?? z) ?? 1);
                                         "end": 432
                                     },
                                     "operatorToken": {
-                                        "kind": 35379,
+                                        "kind": 100915,
                                         "flags": 64,
                                         "start": 432,
                                         "end": 434

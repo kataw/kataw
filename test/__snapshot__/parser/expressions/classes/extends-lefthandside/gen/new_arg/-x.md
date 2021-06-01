@@ -31,7 +31,7 @@ new -x
                 "expression": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 35379,
+                        "kind": 100915,
                         "flags": 64,
                         "start": 3,
                         "end": 5

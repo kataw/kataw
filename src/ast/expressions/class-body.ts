@@ -2,7 +2,6 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ClassElement } from './class-element';
 import { FieldDefinition } from './field-definition';
 import { SemicolonClassElement } from './semicolon-class-element';
-import { ExpressionNode } from '.';
 
 export type ClassElements = SemicolonClassElement | ClassElement | FieldDefinition;
 

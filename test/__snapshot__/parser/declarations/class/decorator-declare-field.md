@@ -52,9 +52,15 @@ class x { @declare a }
                             "kind": 280,
                             "decorators": {
                                 "kind": 207,
-                                "decoratorList": [
+                                "elements": [
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 64,
+                                            "start": 9,
+                                            "end": 11
+                                        },
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "declare",
@@ -64,12 +70,12 @@ class x { @declare a }
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "start": 11,
+                                        "start": 9,
                                         "end": 18
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 11,
+                                "start": 9,
                                 "end": 18
                             },
                             "declaredToken": null,

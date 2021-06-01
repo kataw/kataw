@@ -96,7 +96,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                         "right": {
                                             "kind": 126,
                                             "operandToken": {
-                                                "kind": 34098,
+                                                "kind": 99634,
                                                 "flags": 64,
                                                 "start": 42,
                                                 "end": 44

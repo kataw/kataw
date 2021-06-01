@@ -83,7 +83,7 @@ x = { a: a / b + c }
                                         "end": 14
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 14,
                                         "end": 16

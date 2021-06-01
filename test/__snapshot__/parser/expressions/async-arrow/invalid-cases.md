@@ -547,7 +547,7 @@ async ([a]:string)=>c;
                     "end": 149
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 149,
                     "end": 151
@@ -711,7 +711,7 @@ async ([a]:string)=>c;
                                     "end": 223
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 223,
                                     "end": 225
@@ -729,7 +729,7 @@ async ([a]:string)=>c;
                                 "end": 227
                             },
                             "operatorToken": {
-                                "kind": 34098,
+                                "kind": 99634,
                                 "flags": 64,
                                 "start": 227,
                                 "end": 229

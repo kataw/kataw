@@ -157,7 +157,7 @@ var z = x + x;
                                 "end": 39
                             },
                             "operatorToken": {
-                                "kind": 34098,
+                                "kind": 99634,
                                 "flags": 64,
                                 "start": 39,
                                 "end": 41

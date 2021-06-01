@@ -1187,7 +1187,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "consequent": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 268,
                                     "end": 270
@@ -1213,7 +1213,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "alternate": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 35379,
+                                    "kind": 100915,
                                     "flags": 64,
                                     "start": 273,
                                     "end": 275
@@ -1282,7 +1282,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "consequent": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 284,
                                     "end": 286
@@ -1365,7 +1365,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "consequent": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 35379,
+                                    "kind": 100915,
                                     "flags": 64,
                                     "start": 299,
                                     "end": 301
@@ -1483,7 +1483,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 "consequent": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 35379,
+                        "kind": 100915,
                         "flags": 64,
                         "start": 325,
                         "end": 327
@@ -1509,7 +1509,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 "alternate": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 35379,
+                        "kind": 100915,
                         "flags": 64,
                         "start": 330,
                         "end": 332
@@ -2248,7 +2248,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 469
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 469,
                                     "end": 471
@@ -2333,7 +2333,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 485
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 485,
                                     "end": 487
@@ -2403,7 +2403,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 "consequent": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 35379,
+                        "kind": 100915,
                         "flags": 64,
                         "start": 499,
                         "end": 501
@@ -3062,7 +3062,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 624
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 624,
                                     "end": 626
@@ -3147,7 +3147,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 640
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 640,
                                     "end": 642

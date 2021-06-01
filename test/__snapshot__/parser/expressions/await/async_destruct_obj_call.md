@@ -129,7 +129,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                                             "end": 43
                                                                         },
                                                                         "operatorToken": {
-                                                                            "kind": 34098,
+                                                                            "kind": 99634,
                                                                             "flags": 64,
                                                                             "start": 43,
                                                                             "end": 45

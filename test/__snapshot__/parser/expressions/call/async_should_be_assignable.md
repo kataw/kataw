@@ -44,7 +44,7 @@ async = 5 + 5;
                         "end": 9
                     },
                     "operatorToken": {
-                        "kind": 34098,
+                        "kind": 99634,
                         "flags": 64,
                         "start": 9,
                         "end": 11

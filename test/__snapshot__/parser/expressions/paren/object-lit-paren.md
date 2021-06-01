@@ -1931,7 +1931,7 @@
                                         "end": 412
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 412,
                                         "end": 414

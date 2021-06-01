@@ -41,7 +41,7 @@ f(a + async instanceof b)
                                 "end": 3
                             },
                             "operatorToken": {
-                                "kind": 34098,
+                                "kind": 99634,
                                 "flags": 64,
                                 "start": 3,
                                 "end": 5

@@ -48,12 +48,7 @@ let x = (): Array<(string) => number> => []
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 26,
-                                "end": 29
-                            },
+                            "arrowToken": null,
                             "typeParameters": null,
                             "parameters": [],
                             "asyncKeyword": null,
@@ -71,63 +66,69 @@ let x = (): Array<(string) => number> => []
                                     },
                                     "typeParameters": {
                                         "kind": 266,
-                                        "parameters": [
-                                            {
-                                                "kind": 267,
-                                                "type": {
-                                                    "kind": 260,
-                                                    "type": {
-                                                        "kind": 134234347,
-                                                        "flags": 64,
-                                                        "start": 19,
-                                                        "end": 25
-                                                    },
-                                                    "flags": 0,
-                                                    "start": 18,
-                                                    "end": 26
-                                                },
-                                                "flags": 0,
-                                                "start": 18,
-                                                "end": 26
-                                            }
-                                        ],
+                                        "parameters": [],
                                         "flags": 0,
                                         "start": 17,
-                                        "end": 26
+                                        "end": 18
                                     },
                                     "flags": 0,
                                     "start": 11,
-                                    "end": 26
+                                    "end": 18
                                 },
                                 "flags": 0,
                                 "start": 10,
-                                "end": 26
+                                "end": 18
                             },
                             "contents": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "number",
-                                    "rawText": "number",
-                                    "flags": 96,
+                                "kind": 271,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 26,
+                                    "end": 29
+                                },
+                                "typeParameters": null,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "string",
+                                        "rawText": "string",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 25
+                                    }
+                                ],
+                                "asyncKeyword": null,
+                                "returnType": null,
+                                "contents": {
+                                    "kind": 198,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "number",
+                                        "rawText": "number",
+                                        "flags": 96,
+                                        "start": 29,
+                                        "end": 36
+                                    },
+                                    "operatorToken": {
+                                        "kind": 34883,
+                                        "flags": 64,
+                                        "start": 36,
+                                        "end": 37
+                                    },
+                                    "right": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "flags": 64,
+                                        "start": 37,
+                                        "end": 37
+                                    },
+                                    "flags": 32,
                                     "start": 29,
-                                    "end": 36
-                                },
-                                "operatorToken": {
-                                    "kind": 34883,
-                                    "flags": 64,
-                                    "start": 36,
-                                    "end": 37
-                                },
-                                "right": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 37,
                                     "end": 37
                                 },
                                 "flags": 32,
-                                "start": 29,
+                                "start": 18,
                                 "end": 37
                             },
                             "flags": 32,
@@ -186,7 +187,7 @@ let x = (): Array<(string) => number> => []
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 26, end: 29
+✖ Expected to find a '>' to match the '<' token here. - start: 18, end: 19
 ✖ Identifier expected - start: 37, end: 40
 ✖ ',' expected - start: 37, end: 40
 

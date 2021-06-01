@@ -421,7 +421,7 @@ foo ? bar : baz => {};
                                         "end": 109
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 109,
                                         "end": 111
@@ -525,7 +525,7 @@ foo ? bar : baz => {};
                                             "end": 141
                                         },
                                         "operatorToken": {
-                                            "kind": 34098,
+                                            "kind": 99634,
                                             "flags": 64,
                                             "start": 141,
                                             "end": 143
@@ -543,7 +543,7 @@ foo ? bar : baz => {};
                                         "end": 145
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 145,
                                         "end": 147
@@ -947,7 +947,7 @@ foo ? bar : baz => {};
                         "end": 243
                     },
                     "operatorToken": {
-                        "kind": 34098,
+                        "kind": 99634,
                         "flags": 64,
                         "start": 243,
                         "end": 245
@@ -1249,7 +1249,7 @@ foo ? bar : baz => {};
                             "end": 324
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 324,
                             "end": 326
@@ -1369,7 +1369,7 @@ foo ? bar : baz => {};
                             "end": 353
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 353,
                             "end": 355
@@ -1497,7 +1497,7 @@ foo ? bar : baz => {};
                                     "end": 382
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 382,
                                     "end": 384
@@ -1613,7 +1613,7 @@ foo ? bar : baz => {};
                                     "end": 410
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 410,
                                     "end": 412
@@ -2165,7 +2165,7 @@ foo ? bar : baz => {};
                                     "end": 694
                                 },
                                 "operatorToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 694,
                                     "end": 696
@@ -2285,7 +2285,7 @@ foo ? bar : baz => {};
                                         "end": 723
                                     },
                                     "operatorToken": {
-                                        "kind": 34098,
+                                        "kind": 99634,
                                         "flags": 64,
                                         "start": 723,
                                         "end": 725

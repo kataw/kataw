@@ -97,9 +97,15 @@ class Foo {
                             "kind": 280,
                             "decorators": {
                                 "kind": 207,
-                                "decoratorList": [
+                                "elements": [
                                     {
                                         "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 64,
+                                            "start": 26,
+                                            "end": 27
+                                        },
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "foo",
@@ -109,12 +115,12 @@ class Foo {
                                             "end": 30
                                         },
                                         "flags": 0,
-                                        "start": 27,
+                                        "start": 26,
                                         "end": 30
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 27,
+                                "start": 26,
                                 "end": 30
                             },
                             "declaredToken": null,

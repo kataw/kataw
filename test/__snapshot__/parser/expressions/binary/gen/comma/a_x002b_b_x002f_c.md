@@ -42,7 +42,7 @@ x, a + b / c
                             "end": 4
                         },
                         "operatorToken": {
-                            "kind": 34098,
+                            "kind": 99634,
                             "flags": 64,
                             "start": 4,
                             "end": 6

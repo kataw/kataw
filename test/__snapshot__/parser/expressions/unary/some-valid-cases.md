@@ -313,7 +313,7 @@ typeof (0 ? 1 : x);
                             {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 35379,
+                                    "kind": 100915,
                                     "flags": 64,
                                     "start": 106,
                                     "end": 108
@@ -373,7 +373,7 @@ typeof (0 ? 1 : x);
                             {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 35379,
+                                    "kind": 100915,
                                     "flags": 64,
                                     "start": 130,
                                     "end": 132
@@ -452,7 +452,7 @@ typeof (0 ? 1 : x);
                     "end": 157
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 157,
                     "end": 159
@@ -518,7 +518,7 @@ typeof (0 ? 1 : x);
                     "end": 178
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 178,
                     "end": 180
@@ -714,7 +714,7 @@ typeof (0 ? 1 : x);
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 35379,
+                    "kind": 100915,
                     "flags": 65,
                     "start": 237,
                     "end": 240
@@ -740,7 +740,7 @@ typeof (0 ? 1 : x);
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 65,
                     "start": 242,
                     "end": 245

@@ -2482,7 +2482,7 @@ let x = { foo(){ super(); } };
                                 "end": 687
                             },
                             "operatorToken": {
-                                "kind": 34098,
+                                "kind": 99634,
                                 "flags": 64,
                                 "start": 687,
                                 "end": 689

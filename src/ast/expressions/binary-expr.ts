@@ -1,6 +1,6 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { ExpressionNode } from './';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from './';
 
 /**
  * Binary expression.

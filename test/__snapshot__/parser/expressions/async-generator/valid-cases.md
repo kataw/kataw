@@ -634,7 +634,7 @@ for (;;) {}});
                                                 "end": 203
                                             },
                                             "operatorToken": {
-                                                "kind": 34098,
+                                                "kind": 99634,
                                                 "flags": 64,
                                                 "start": 203,
                                                 "end": 205
@@ -771,7 +771,7 @@ for (;;) {}});
                                                 "end": 248
                                             },
                                             "operatorToken": {
-                                                "kind": 34098,
+                                                "kind": 99634,
                                                 "flags": 64,
                                                 "start": 248,
                                                 "end": 250

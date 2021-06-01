@@ -52,7 +52,7 @@ export const enum NodeFlags {
  * Types of syntax which can appear in a source file of Kataw.
  */
 export const enum SyntaxKind {
-  Add = 34098,
+  Add = 99634,
   AddAssign = 4130,
   AnyKeyword = 134234252,
   ArgumentList = 256,
@@ -312,7 +312,7 @@ export const enum SyntaxKind {
   StringKeyword = 134234347,
   StringLiteral = 201392131,
   StringType = 134217967,
-  Subtract = 35379,
+  Subtract = 100915,
   SubtractAssign = 4131,
   Super = 225,
   SuperKeyword = 4259935,

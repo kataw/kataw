@@ -55,7 +55,7 @@ async x => ok + x
                         "end": 13
                     },
                     "operatorToken": {
-                        "kind": 34098,
+                        "kind": 99634,
                         "flags": 64,
                         "start": 13,
                         "end": 15

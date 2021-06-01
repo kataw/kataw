@@ -5113,7 +5113,7 @@ try {} catch(e) { for(var e of 0); };
                                                 "end": 4830
                                             },
                                             "operatorToken": {
-                                                "kind": 34098,
+                                                "kind": 99634,
                                                 "flags": 64,
                                                 "start": 4830,
                                                 "end": 4832

@@ -28,7 +28,7 @@ await - 25
                     "end": 5
                 },
                 "operatorToken": {
-                    "kind": 35379,
+                    "kind": 100915,
                     "flags": 64,
                     "start": 5,
                     "end": 7

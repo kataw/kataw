@@ -7193,7 +7193,7 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
     let requireDefault = false;
-    while (parser.token & 0b00111000000000010100000000000000) {
+    while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType | SyntaxKind.IsFutureReserved)) {
       const type = parseTypeParameter(parser, context, requireDefault);
       types.push(type);
       if (type.defaultType) requireDefault = true;
@@ -7214,7 +7214,7 @@ function parseTypeParameterInstantiationList(
   const pos = parser.curPos;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
-    while (parser.token & 0b00111000000000010100000000000000) {
+    while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType | SyntaxKind.IsFutureReserved)) {
       types.push(parseTypeParameterInstantiation(parser, context));
       if (parser.token !== SyntaxKind.GreaterThan) {
         consume(parser, context, SyntaxKind.Comma);
@@ -9138,12 +9138,12 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
 }
 
 function parseDecorators(parser: ParserState, context: Context): DecoratorList | null {
-  if (consumeOpt(parser, context, SyntaxKind.Decorator)) {
+  //
+  if (parser.token === SyntaxKind.Decorator) {
     const pos = parser.curPos;
     const decorators = [];
-    while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    while (parser.token === SyntaxKind.Decorator) {
       decorators.push(parseDecoratorExpression(parser, context));
-      if (!consumeOpt(parser, context, SyntaxKind.Decorator)) break;
     }
     return createDecoratorList(decorators, pos, parser.curPos);
   }
@@ -9152,8 +9152,19 @@ function parseDecorators(parser: ParserState, context: Context): DecoratorList |
 
 function parseDecoratorExpression(parser: ParserState, context: Context): Decorator {
   const pos = parser.curPos;
+  const decoratorToken = consumeOptToken(parser, context, SyntaxKind.Decorator);
+  /* error recovery */
+  if ((parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) === 0) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Identifier_expected_A_decorator_name_can_only_be_an_identifier],
+      pos,
+      parser.pos
+    );
+  }
   const expression = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
-  return createDecorator(expression, parser.nodeFlags, pos, parser.curPos);
+  return createDecorator(decoratorToken, expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function nextTokenIsLeftParen(parser: ParserState, context: Context): boolean {

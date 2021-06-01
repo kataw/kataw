@@ -70,7 +70,7 @@
                             "expression": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 34098,
+                                    "kind": 99634,
                                     "flags": 64,
                                     "start": 30,
                                     "end": 32

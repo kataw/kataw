@@ -53,66 +53,18 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                 },
                 "typeParameters": {
                     "kind": 266,
-                    "parameters": [
-                        {
-                            "kind": 267,
-                            "type": {
-                                "kind": 260,
-                                "type": {
-                                    "kind": 260,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "start": 20,
-                                            "end": 21
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 20,
-                                        "end": 21
-                                    },
-                                    "flags": 0,
-                                    "start": 16,
-                                    "end": 22
-                                },
-                                "flags": 0,
-                                "start": 15,
-                                "end": 22
-                            },
-                            "flags": 0,
-                            "start": 15,
-                            "end": 22
-                        }
-                    ],
+                    "parameters": [],
                     "flags": 0,
                     "start": 14,
-                    "end": 22
+                    "end": 15
                 },
                 "flags": 0,
                 "start": 8,
-                "end": 22
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 22
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 25,
-                "end": 27
-            },
-            "flags": 16,
-            "start": 25,
-            "end": 27
+            "end": 15
         },
         {
             "kind": 120,
@@ -122,10 +74,65 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                     {
                         "kind": 198,
                         "left": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 28,
+                            "kind": 121,
+                            "expression": {
+                                "kind": 271,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 22,
+                                    "end": 25
+                                },
+                                "typeParameters": {
+                                    "kind": 265,
+                                    "typeParameters": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 17,
+                                                "end": 18
+                                            },
+                                            "type": null,
+                                            "defaultType": null,
+                                            "flags": 0,
+                                            "start": 17,
+                                            "end": 18
+                                        }
+                                    ],
+                                    "flags": 0,
+                                    "start": 16,
+                                    "end": 19
+                                },
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 21
+                                    }
+                                ],
+                                "asyncKeyword": null,
+                                "returnType": null,
+                                "contents": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 25,
+                                    "end": 27
+                                },
+                                "flags": 32,
+                                "start": 16,
+                                "end": 27
+                            },
+                            "flags": 32,
+                            "start": 15,
                             "end": 28
                         },
                         "operatorToken": {
@@ -197,7 +204,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                             "end": 44
                         },
                         "flags": 32,
-                        "start": 28,
+                        "start": 15,
                         "end": 44
                     },
                     {
@@ -249,11 +256,11 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                     }
                 ],
                 "flags": 32,
-                "start": 28,
+                "start": 15,
                 "end": 52
             },
             "flags": 16,
-            "start": 28,
+            "start": 15,
             "end": 53
         }
     ],
@@ -275,9 +282,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 22, end: 25
-✖ Expected a `;` - start: 27, end: 28
-✖ Identifier expected - start: 28, end: 30
+✖ Expected to find a '>' to match the '<' token here. - start: 15, end: 16
 ✖ Identifier expected - start: 52, end: 53
 
 ```

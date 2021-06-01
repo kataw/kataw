@@ -63,7 +63,7 @@ typeof a instanceof b + c
                     "end": 21
                 },
                 "operatorToken": {
-                    "kind": 34098,
+                    "kind": 99634,
                     "flags": 64,
                     "start": 21,
                     "end": 23

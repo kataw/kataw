@@ -50,7 +50,7 @@ class A extends -x {}
                     "expression": {
                         "kind": 126,
                         "operandToken": {
-                            "kind": 35379,
+                            "kind": 100915,
                             "flags": 64,
                             "start": 15,
                             "end": 17
