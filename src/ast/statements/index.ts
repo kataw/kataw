@@ -26,7 +26,6 @@ import { TryStatement } from './try-stmt';
 import { ThrowStatement } from './throw-stmt';
 import { SwitchStatement } from './switch-stmt';
 import { ReturnStatement } from './return-stmt';
-import { Labels } from './labels';
 
 /**
  * The set of all syntax items which are statements.
@@ -51,7 +50,6 @@ export type StatementNode =
   | FunctionDeclaration
   | IfStatement
   | LabelledStatement
-  | Labels
   | LexicalBinding
   | LexicalDeclaration
   | ReturnStatement
