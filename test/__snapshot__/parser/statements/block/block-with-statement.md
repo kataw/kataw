@@ -30,16 +30,6 @@
                             "start": 1,
                             "end": 7
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "length",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1,
-                                "end": 7
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

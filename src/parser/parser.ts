@@ -7,7 +7,6 @@ import { createBlock, Block } from '../ast/statements/block';
 import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
 import { createBreakStatement, BreakStatement } from '../ast/statements/break-stmt';
 import { createContinueStatement, ContinueStatement } from '../ast/statements/continue-stmt';
-import { createLabels } from '../ast/statements/labels';
 import { createCaseBlock, CaseBlock } from '../ast/statements/case-block';
 import { createCaseClause } from '../ast/statements/case-clause';
 import { createCatch, CatchClause } from '../ast/statements/catch-stmt';
@@ -185,6 +184,7 @@ import {
   addVarName,
   addBlockName,
   ScopeFlags,
+  lookupContinueTarget, lookupBreakTarget,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
 
@@ -291,7 +291,7 @@ export function parse(
 
   while (parser.token !== SyntaxKind.EndOfFileToken) {
     if (parser.token & 0b00010000100000011110000000000000) {
-      statements.push(moduleOrScript(parser, context, scope));
+      statements.push(moduleOrScript(parser, context, scope, null, null));
     } else {
       if (parser.previousErrorPos !== parser.pos) {
         parser.onError(
@@ -324,14 +324,27 @@ function parseModuleItem(parser: ParserState, context: Context, scope: ScopeStat
     // of the import declaration to avoid any lookaheads
     return parseImportDeclaration(parser, context, scope, /* isScript*/ false);
   }
-  return parseStatementListItem(parser, context, scope);
+  return parseStatementListItem(parser, context, scope, /* labels*/ null, /* ownLabels */ null);
 }
 
-function parseStatementListItem(parser: ParserState, context: Context, scope: ScopeState): StatementNode {
+function parseStatementListItem(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): StatementNode {
   switch (parser.token) {
     case SyntaxKind.FunctionKeyword:
     case SyntaxKind.AsyncKeyword:
-      return parseFunctionDeclaration(parser, context, scope, /* declareKeyword */ null, ParseFunctionFlag.None);
+      return parseFunctionDeclaration(
+        parser,
+        context,
+        scope,
+        /* declareKeyword */ null,
+        ParseFunctionFlag.None,
+        labels
+      );
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
       return parseClassDeclaration(parser, context, scope, /* declareKeyword */ null, /* isDefaultModifier */ false);
@@ -345,13 +358,13 @@ function parseStatementListItem(parser: ParserState, context: Context, scope: Sc
         BindingType.Const
       );
     case SyntaxKind.LetKeyword:
-      return parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope);
+      return parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope, labels, ownLabels);
     case SyntaxKind.TypeKeyword:
-      return parseTypeAsIdentifierOrTypeAlias(parser, context, /* declareKeyword */ null, scope);
+      return parseTypeAsIdentifierOrTypeAlias(parser, context, /* declareKeyword */ null, scope, null, null);
     case SyntaxKind.OpaqueKeyword:
-      return parseOpaqueType(parser, context, /* declareKeyword */ null, scope);
+      return parseOpaqueType(parser, context, /* declareKeyword */ null, scope, null, null);
     case SyntaxKind.DeclareKeyword:
-      return parseDeclareAsIdentifierOrDeclareStatement(parser, context, scope);
+      return parseDeclareAsIdentifierOrDeclareStatement(parser, context, scope, null, null);
     case SyntaxKind.ImportKeyword:
       return parseImportDeclaration(parser, context, scope, /* isScript */ true);
     case SyntaxKind.ExportKeyword:
@@ -364,7 +377,7 @@ function parseStatementListItem(parser: ParserState, context: Context, scope: Sc
       );
       return parseExportDeclaration(parser, context, scope);
     default:
-      return parseStatement(parser, context, /* allowFunction */ true, scope);
+      return parseStatement(parser, context, /* allowFunction */ true, scope, labels, ownLabels);
   }
 }
 
@@ -374,31 +387,39 @@ function parseStatement(
   parser: ParserState,
   context: Context,
   allowFunction: boolean,
-  scope: ScopeState
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
 ): StatementNode {
   switch (parser.token) {
     case SyntaxKind.VarKeyword:
       return parseVariableStatement(parser, context, /* declareKeyword */ null, scope, BindingType.Var);
     case SyntaxKind.LeftBrace:
-      return parseBlockStatement(parser, context, {
-        kind: ScopeKind.Block,
-        scope,
-        flags: ScopeFlags.None
-      });
+      return parseBlockStatement(
+        parser,
+        context,
+        {
+          kind: ScopeKind.Block,
+          scope,
+          flags: ScopeFlags.None
+        },
+        labels,
+        ownLabels
+      );
     case SyntaxKind.Semicolon:
       return parseEmptyStatement(parser, context);
     case SyntaxKind.IfKeyword:
-      return parseIfStatement(parser, context, scope);
+      return parseIfStatement(parser, context, scope, labels);
     case SyntaxKind.DoKeyword:
-      return parseDoWhileStatement(parser, context, scope);
+      return parseDoWhileStatement(parser, context, scope, labels, ownLabels);
     case SyntaxKind.WhileKeyword:
-      return parseWhileStatement(parser, context, scope);
+      return parseWhileStatement(parser, context, scope, labels, ownLabels);
     case SyntaxKind.ForKeyword:
-      return parseForStatement(parser, context, scope);
+      return parseForStatement(parser, context, scope, labels);
     case SyntaxKind.ContinueKeyword:
-      return parseContinueStatement(parser, context);
+      return parseContinueStatement(parser, context, labels);
     case SyntaxKind.BreakKeyword:
-      return parseBreakStatement(parser, context);
+      return parseBreakStatement(parser, context, labels);
     case SyntaxKind.ReturnKeyword:
       return parseReturnStatement(parser, context);
     case SyntaxKind.ThrowKeyword:
@@ -414,13 +435,13 @@ function parseStatement(
         parser.pos
       );
     case SyntaxKind.TryKeyword:
-      return parseTryStatement(parser, context, scope);
+      return parseTryStatement(parser, context, scope, labels);
     case SyntaxKind.DebuggerKeyword:
       return parseDebuggerStatement(parser, context);
     case SyntaxKind.SwitchKeyword:
-      return parseSwitchStatement(parser, context, scope);
+      return parseSwitchStatement(parser, context, scope, labels, ownLabels);
     case SyntaxKind.WithKeyword:
-      return parseWithStatement(parser, context, scope);
+      return parseWithStatement(parser, context, scope, labels, ownLabels);
     case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
       // FunctionDeclaration are only allowed as a StatementListItem and cannot be used in
@@ -437,7 +458,14 @@ function parseStatement(
         parser.pos
       );
       /* error recovery */
-      return parseFunctionDeclaration(parser, context, scope, /* declareKeyword */ null, ParseFunctionFlag.None);
+      return parseFunctionDeclaration(
+        parser,
+        context,
+        scope,
+        /* declareKeyword */ null,
+        ParseFunctionFlag.None,
+        labels
+      );
     case SyntaxKind.ClassKeyword:
       parser.onError(
         DiagnosticSource.Parser,
@@ -449,13 +477,19 @@ function parseStatement(
       /* error recovery */
       return parseClassDeclaration(parser, context, scope, /* declareKeyword */ null, /* isDefaultModifier */ false);
     default:
-      return parseExpressionOrLabelledStatement(parser, context, allowFunction, scope);
+      return parseExpressionOrLabelledStatement(parser, context, allowFunction, scope, labels, ownLabels);
   }
 }
 
 // SwitchStatement :
 //   `switch` `(` Expression `)` CaseBlock
-function parseSwitchStatement(parser: ParserState, context: Context, scope: ScopeState): SwitchStatement {
+function parseSwitchStatement(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): SwitchStatement {
   const pos = parser.curPos;
   const switchToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -482,11 +516,17 @@ function parseSwitchStatement(parser: ParserState, context: Context, scope: Scop
   return createSwitchStatement(
     switchToken,
     expression,
-    parseCaseBlock(parser, context | Context.InsideSwitch | Context.InBlock, {
-      kind: ScopeKind.SwitchStatement,
-      scope,
-      flags: ScopeFlags.None
-    }),
+    parseCaseBlock(
+      parser,
+      context | Context.InsideSwitch | Context.InBlock,
+      {
+        kind: ScopeKind.SwitchStatement,
+        scope,
+        flags: ScopeFlags.None
+      },
+      labels,
+      ownLabels
+    ),
     pos,
     parser.curPos
   );
@@ -495,7 +535,13 @@ function parseSwitchStatement(parser: ParserState, context: Context, scope: Scop
 // CaseBlock :
 //   `{` CaseClauses? `}`
 //   `{` CaseClauses? DefaultClause CaseClauses? `}`
-function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState): CaseBlock {
+function parseCaseBlock(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): CaseBlock {
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
   const clauses = [];
@@ -515,7 +561,7 @@ function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       const statements = [];
       while (parser.token & 0b00010010100000011100000000000000) {
-        statements.push(parseStatementListItem(parser, context, scope));
+        statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
       clauses.push(createCaseClause(caseToken, expression, statements, pos, parser.curPos));
     } else {
@@ -539,7 +585,7 @@ function parseCaseBlock(parser: ParserState, context: Context, scope: ScopeState
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       const statements = [];
       while (parser.token & 0b00010010100000011100000000000000) {
-        statements.push(parseStatementListItem(parser, context, scope));
+        statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
       clauses.push(createDefaultClause(defaultToken, statements, pos, parser.curPos));
     }
@@ -572,7 +618,7 @@ function isCaseOrDefaultClause(t: SyntaxKind): boolean {
 // CatchParameter :
 //   BindingIdentifier
 //   BindingPattern
-function parseTryStatement(parser: ParserState, context: Context, scope: ScopeState): TryStatement {
+function parseTryStatement(parser: ParserState, context: Context, scope: ScopeState, labels: any): TryStatement {
   const pos = parser.curPos;
   const tryToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -581,16 +627,23 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
     NodeFlags.IsStatement,
     pos
   );
-  const block = parseBlockStatement(parser, context, {
-    kind: ScopeKind.Block,
-    scope: {
+  const block = parseBlockStatement(
+    parser,
+    context,
+    {
       kind: ScopeKind.Block,
-      scope,
+      scope: {
+        kind: ScopeKind.Block,
+        scope,
+        flags: ScopeFlags.None
+      },
       flags: ScopeFlags.None
     },
-    flags: ScopeFlags.None
-  });
-  const catchClause = parser.token === SyntaxKind.CatchKeyword ? parseCatchClause(parser, context, scope) : null;
+    labels,
+    null
+  );
+  const catchClause =
+    parser.token === SyntaxKind.CatchKeyword ? parseCatchClause(parser, context, scope, labels) : null;
 
   // If we don't have a catch clause, then we must have a finally clause. Try to parse
   // one out no matter what.
@@ -598,16 +651,22 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
   let finallyKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   if (!catchClause || parser.token === SyntaxKind.FinallyKeyword) {
     finallyKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.FinallyKeyword);
-    finallyBlock = parseBlockStatement(parser, context, {
-      kind: ScopeKind.Block,
-      scope,
-      flags: ScopeFlags.None
-    });
+    finallyBlock = parseBlockStatement(
+      parser,
+      context,
+      {
+        kind: ScopeKind.Block,
+        scope,
+        flags: ScopeFlags.None
+      },
+      labels,
+      null
+    );
   }
   return createTryStatement(tryToken, block, catchClause, finallyKeyword, finallyBlock, pos, parser.curPos);
 }
 
-function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState): CatchClause {
+function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState, labels: any): CatchClause {
   const pos = parser.curPos;
   const catchToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -663,7 +722,13 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
       flags: ScopeFlags.None
     };
   }
-  return createCatch(catchToken, catchParameter, parseBlockStatement(parser, context, catchScope), pos, parser.curPos);
+  return createCatch(
+    catchToken,
+    catchParameter,
+    parseBlockStatement(parser, context, catchScope, labels, null),
+    pos,
+    parser.curPos
+  );
 }
 
 function parseDebuggerStatement(parser: ParserState, context: Context): DebuggerStatement {
@@ -688,7 +753,7 @@ function parseEmptyStatement(parser: ParserState, context: Context): EmptyStatem
 // BreakStatement :
 //   `break` `;`
 //   `break` [no LineTerminator here] LabelIdentifier `;`
-function parseBreakStatement(parser: ParserState, context: Context): BreakStatement {
+function parseBreakStatement(parser: ParserState, context: Context, labels: any): BreakStatement {
   const pos = parser.curPos;
   let label = null;
   const breakToken = consumeKeywordAndCheckForEscapeSequence(
@@ -712,23 +777,15 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
     }
   } else {
     label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
-    const labelledIdentfier = label.text;
-    let hasNoLabel = parser.labels.length < 1;
-
-    for (let i = 0; i < parser.labels.length; i++) {
-      if (parser.labels[i].label !== labelledIdentfier) {
-        hasNoLabel = true;
-      }
-    }
-    /*if (hasNoLabel) {
+    if (lookupBreakTarget(labels, label.text)) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.Missing_label],
+        diagnosticMap[DiagnosticCode.A_break_statement_can_only_jump_to_a_label_of_an_enclosing_statement],
         parser.curPos,
         parser.pos
       );
-    }*/
+    }
   }
 
   parseSemicolon(parser, context | Context.AllowRegExp);
@@ -738,7 +795,7 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
 // ContinueStatement :
 //   `continue` `;`
 //   `continue` [no LineTerminator here] LabelIdentifier `;`
-function parseContinueStatement(parser: ParserState, context: Context): ContinueStatement {
+function parseContinueStatement(parser: ParserState, context: Context, labels: any): ContinueStatement {
   const pos = parser.curPos;
   if ((context & Context.InsideLoop) < 1) {
     parser.onError(
@@ -752,13 +809,22 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
   let label = null;
   const continueToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
-    context,
+    context | Context.AllowRegExp,
     SyntaxKind.ContinueKeyword,
     NodeFlags.IsStatement,
     pos
   );
   if (!canParseSemicolon(parser)) {
     label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+    if (lookupContinueTarget(labels, label.text)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode.Jump_target_cannot_cross_function_boundary],
+        pos,
+        parser.pos
+      );
+    }
   }
   parseSemicolon(parser, context);
   return createContinueStatement(continueToken, label as Identifier, pos, parser.curPos);
@@ -767,7 +833,7 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
 // IfStatement :
 //  `if` `(` Expression `)` Statement `else` Statement
 //  `if` `(` Expression `)` Statement [lookahead != `else`]
-function parseIfStatement(parser: ParserState, context: Context, scope: ScopeState): IfStatement {
+function parseIfStatement(parser: ParserState, context: Context, scope: ScopeState, labels: any): IfStatement {
   const pos = parser.curPos;
   const ifKeyword = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -791,20 +857,25 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
       ? DiagnosticCode.Expected_a_to_match_the_token_here
       : DiagnosticCode.Declaration_or_statement_expected
   );
-  const consequent = parseConsequentOrAlternative(parser, context, scope);
+  const consequent = parseConsequentOrAlternative(parser, context, scope, labels);
   const elseKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.ElseKeyword);
   return createIfStatement(
     ifKeyword,
     expression,
     consequent,
     elseKeyword,
-    elseKeyword ? parseConsequentOrAlternative(parser, context, scope) : null,
+    elseKeyword ? parseConsequentOrAlternative(parser, context, scope, labels) : null,
     pos,
     parser.curPos
   );
 }
 
-function parseConsequentOrAlternative(parser: ParserState, context: Context, scope: ScopeState): StatementNode {
+function parseConsequentOrAlternative(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any
+): StatementNode {
   // Annex B.3.4 says that unbraced FunctionDeclarations under if/else in
   // non-strict code act as if they were braced: 'if (x) function f() {}'
   // parses as 'if (x) { function f() {} }'.
@@ -831,14 +902,21 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context, sco
         flags: ScopeFlags.None
       },
       /* declareKeyword */ null,
-      ParseFunctionFlag.DisallowGenerator
+      ParseFunctionFlag.DisallowGenerator,
+      null
     );
   }
-  return parseStatement(parser, context, /* allowFunction */ false, scope);
+  return parseStatement(parser, context, /* allowFunction */ false, scope, labels, /* ownLabels */ null);
 }
 
 // `while` `(` Expression `)` Statement
-function parseWhileStatement(parser: ParserState, context: Context, scope: ScopeState): WhileStatement {
+function parseWhileStatement(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): WhileStatement {
   const pos = parser.curPos;
   const whileToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -869,7 +947,9 @@ function parseWhileStatement(parser: ParserState, context: Context, scope: Scope
       parser,
       (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
       /* allowFunction */ false,
-      scope
+      scope,
+      labels,
+      ownLabels
     ),
     pos,
     parser.curPos
@@ -877,7 +957,13 @@ function parseWhileStatement(parser: ParserState, context: Context, scope: Scope
 }
 
 // `do` Statement `while` `(` Expression `)` `;`
-function parseDoWhileStatement(parser: ParserState, context: Context, scope: ScopeState): DoWhileStatement {
+function parseDoWhileStatement(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): DoWhileStatement {
   const pos = parser.curPos;
   const doKeyword = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -890,7 +976,9 @@ function parseDoWhileStatement(parser: ParserState, context: Context, scope: Sco
     parser,
     (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
     /* allowFunction */ false,
-    scope
+    scope,
+    labels,
+    ownLabels
   );
   const whileKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
   const openParenExists = consume(
@@ -914,7 +1002,13 @@ function parseDoWhileStatement(parser: ParserState, context: Context, scope: Sco
 
 // WithStatement :
 //   `with` `(` Expression `)` Statement
-function parseWithStatement(parser: ParserState, context: Context, scope: ScopeState): WithStatement {
+function parseWithStatement(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): WithStatement {
   const pos = parser.curPos;
   if (context & Context.Strict) {
     parser.onError(
@@ -955,7 +1049,9 @@ function parseWithStatement(parser: ParserState, context: Context, scope: ScopeS
       parser,
       (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
       /* allowFunction */ false,
-      scope
+      scope,
+      labels,
+      ownLabels
     ),
     pos,
     parser.curPos
@@ -1021,6 +1117,8 @@ export function parseLabelledStatement(
   flags: NodeFlags,
   allowFunction: boolean,
   scope: ScopeState,
+  labels: any,
+  ownLabels: any,
   pos: number
 ): LabelledStatement {
   if (token === SyntaxKind.AwaitKeyword) {
@@ -1052,10 +1150,11 @@ export function parseLabelledStatement(
     );
   }
 
-  const labelledIdentfier = expr.text;
-  /*
-  for (let i = 0; i < parser.labels.length; i++) {
-    if (parser.labels[i].label === labelledIdentfier) {
+  let label = expr.text;
+  let set = labels;
+
+  while (set) {
+    if (set['#' + label]) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -1063,25 +1162,28 @@ export function parseLabelledStatement(
         pos,
         parser.pos
       );
-      flags | NodeFlags.DuplicateLabels;
     }
+    set = set.parent;
   }
-*/
-  parser.labels.push(
-    createLabels(
-      labelledIdentfier,
-      isIterationStatement(parser.token),
-      flags | NodeFlags.IsStatement,
-      pos,
-      parser.curPos
-    )
-  );
 
   const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon); // skip: ':'
 
+  labels = { parent: labels, iteration: null };
+
+  labels['#' + label] = true;
+
+  if (ownLabels) {
+    ownLabels.push(label);
+  } else {
+    ownLabels = [label];
+  }
+
+  if (isIterationStatement(parser.token)) {
+    labels.iteration = ownLabels;
+  }
+
   return createLabelledStatement(
     expr,
-    parser.labels,
     colonToken,
     !allowFunction ||
       // Per 13.13.1 it's a syntax error if LabelledItem: FunctionDeclaration
@@ -1089,13 +1191,14 @@ export function parseLabelledStatement(
       // applies only to strict mode code.
       context & (Context.OptionsDisableWebCompat | Context.Strict) ||
       parser.token !== SyntaxKind.FunctionKeyword
-      ? parseStatement(parser, context, allowFunction, scope)
+      ? parseStatement(parser, context, allowFunction, scope, labels, ownLabels)
       : parseFunctionDeclaration(
           parser,
           context,
           scope,
           /* declareKeyword */ null,
-          ParseFunctionFlag.DisallowGenerator
+          ParseFunctionFlag.DisallowGenerator,
+          null
         ),
     flags | NodeFlags.IsStatement,
     pos,
@@ -1120,7 +1223,8 @@ export function parseLabelledStatement(
 function parseForStatement(
   parser: ParserState,
   context: Context,
-  scope: ScopeState
+  scope: ScopeState,
+  labels: any
 ): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
   const forKeyword = consumeKeywordAndCheckForEscapeSequence(
@@ -1322,7 +1426,9 @@ function parseForStatement(
           parser,
           (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
           /* allowFunction */ false,
-          scope
+          scope,
+          labels,
+          /* ownLabels */ null
         ),
         awaitKeyword,
         pos,
@@ -1363,7 +1469,9 @@ function parseForStatement(
           parser,
           (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
           /* allowFunction */ false,
-          scope
+          scope,
+          labels,
+          /* ownLabels */ null
         ),
         pos,
         parser.curPos
@@ -1420,7 +1528,9 @@ function parseForStatement(
       parser,
       (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
       /* allowFunction */ false,
-      scope
+      scope,
+      labels,
+      /* ownLabels */ null
     ),
     pos,
     parser.curPos
@@ -1431,12 +1541,25 @@ export function parseExpressionOrLabelledStatement(
   parser: ParserState,
   context: Context,
   allowFunction: boolean,
-  scope: ScopeState
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
   const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
   return token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier) && parser.token === SyntaxKind.Colon
-    ? parseLabelledStatement(parser, context, expr as Identifier, token, nodeFlags, allowFunction, scope, curPos)
+    ? parseLabelledStatement(
+        parser,
+        context,
+        expr as Identifier,
+        token,
+        nodeFlags,
+        allowFunction,
+        scope,
+        labels,
+        ownLabels,
+        curPos
+      )
     : parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, curPos), curPos);
 }
 
@@ -1592,10 +1715,16 @@ function parseIdentifier(
 }
 
 // BlockStatement : Block
-function parseBlockStatement(parser: ParserState, context: Context, scope: ScopeState): BlockStatement {
+function parseBlockStatement(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): BlockStatement {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
-    const block = parseBlock(parser, context | Context.InBlock, scope);
+    const block = parseBlock(parser, context | Context.InBlock, scope, labels, ownLabels);
     consume(
       parser,
       context | Context.AllowRegExp,
@@ -1621,14 +1750,14 @@ function parseBlockStatement(parser: ParserState, context: Context, scope: Scope
 }
 
 // Block : `{` StatementList `}`
-function parseBlock(parser: ParserState, context: Context, scope: ScopeState): Block {
+function parseBlock(parser: ParserState, context: Context, scope: ScopeState, labels: any, ownLabels: any): Block {
   const curPos = parser.curPos;
   const statements: StatementNode[] = [];
   const flags = parser.nodeFlags;
   // We avoid making a a new 'catch scope' while parsing out a "TryStatement" for
   // cases like 'try {} catch(x) {}'. Instead we continue with current scope.
   while (parser.token & 0b00010000100000011110000000000000) {
-    statements.push(parseStatementListItem(parser, context, scope));
+    statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
   }
   return createBlock(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
 }
@@ -2106,7 +2235,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context | 0b00000000010000000101111000001000) ^ 0b00000000010000000101111000001000) |
+      ((context | 0b00000000010000000101111100001000) ^ 0b00000000010000000101111100001000) |
         (asyncToken ? Context.AwaitContext : Context.None),
       scope,
       (flags & NodeFlags.NoneSimpleParamList) < 1
@@ -2224,24 +2353,6 @@ function parseConciseOrFunctionBody(
     return body;
   }
 
-  if (
-    parser.token & SyntaxKind.IsStatementStart &&
-    parser.token !== SyntaxKind.Semicolon &&
-    parser.token !== SyntaxKind.FunctionKeyword &&
-    parser.token !== SyntaxKind.AwaitKeyword &&
-    parser.token !== SyntaxKind.ClassKeyword
-  ) {
-    return parseFunctionBody(
-      parser,
-      context,
-      scope,
-      /* scopeError */ (scope.flags & ScopeFlags.Error) > 0,
-      /* isDecl */ true,
-      /* isSimpleParameterList */ true,
-      /* ignoreMissingOpenBrace */ true,
-      /* firstRestricted */ parser.token
-    );
-  }
   return parseExpression(parser, context);
 }
 
@@ -5535,7 +5646,8 @@ function parseFunctionDeclaration(
   context: Context,
   scope: ScopeState,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  functionFlags: ParseFunctionFlag
+  functionFlags: ParseFunctionFlag,
+  labels: any
 ): FunctionDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
@@ -5642,6 +5754,8 @@ function parseFunctionDeclaration(
           NodeFlags.IsStatement,
           /* allowFunction */ true,
           scope,
+          labels,
+          null,
           pos
         );
       }
@@ -5860,7 +5974,7 @@ function parseFunctionBody(
   ) {
     const statementList = parseFunctionStatementList(
       parser,
-      (context | 0b00000000000000000101100000000000) ^ 0b00000000000000000101100000000000,
+      (context | 0b00000000000000000101100100000000) ^ 0b00000000000000000101100000000000,
       {
         kind: ScopeKind.FunctionBody,
         scope,
@@ -5967,9 +6081,8 @@ function parseFunctionStatementList(
     }
   }
 
-  //scope = createParentScope(scope, ScopeKind.FunctionBody);
   while (parser.token & 0b00010000100000011110000000000000) {
-    statements.push(parseStatementListItem(parser, context, scope));
+    statements.push(parseStatementListItem(parser, context, scope, null, null));
   }
   return createFunctionStatementList(directives, statements, flags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
@@ -6553,7 +6666,8 @@ function parseExportDeclaration(
         context,
         scope,
         null,
-        ParseFunctionFlag.DisallowGenerator | ParseFunctionFlag.DisallowAsyncArrow
+        ParseFunctionFlag.DisallowGenerator | ParseFunctionFlag.DisallowAsyncArrow,
+        null
       );
       break;
     case SyntaxKind.ConstKeyword:
@@ -6567,13 +6681,13 @@ function parseExportDeclaration(
       );
       break;
     case SyntaxKind.LetKeyword:
-      declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope);
+      declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope, null, null);
       break;
     case SyntaxKind.VarKeyword:
       declaration = parseVariableStatement(parser, context, null, scope, BindingType.Var | BindingType.Export);
       break;
     case SyntaxKind.TypeKeyword:
-      const typeAlias = parseTypeAsIdentifierOrTypeAlias(parser, context, null, scope);
+      const typeAlias = parseTypeAsIdentifierOrTypeAlias(parser, context, null, scope, null, null);
       if (typeAlias.kind !== SyntaxKind.OpaqueType) {
         parser.previousErrorPos = parser.pos;
         parser.onError(
@@ -6587,7 +6701,7 @@ function parseExportDeclaration(
       declaration = typeAlias;
       break;
     case SyntaxKind.OpaqueKeyword:
-      const opaqueType = parseOpaqueType(parser, context, null, scope);
+      const opaqueType = parseOpaqueType(parser, context, null, scope, null, null);
       if (opaqueType.kind === SyntaxKind.OpaqueType) {
         declaration = opaqueType;
         break;
@@ -6749,7 +6863,8 @@ function parseExportDefault(
         context,
         scope,
         /* declareKeyword */ null,
-        ParseFunctionFlag.IsDefaultModifier
+        ParseFunctionFlag.IsDefaultModifier,
+        null
       );
       break;
     case SyntaxKind.Decorator:
@@ -7402,7 +7517,9 @@ function parseVariableDeclaration(
 function parseDeclareAsIdentifierOrDeclareStatement(
   parser: ParserState,
   context: Context,
-  scope: ScopeState
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
 ): TypeAlias | LabelledStatement | ExpressionStatement | StatementNode {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
@@ -7412,11 +7529,11 @@ function parseDeclareAsIdentifierOrDeclareStatement(
       case SyntaxKind.VarKeyword:
         return parseVariableStatement(parser, context, declareKeyword, scope, BindingType.Var);
       case SyntaxKind.TypeKeyword:
-        return parseTypeAsIdentifierOrTypeAlias(parser, context, declareKeyword, scope);
+        return parseTypeAsIdentifierOrTypeAlias(parser, context, declareKeyword, scope, labels, ownLabels);
       case SyntaxKind.OpaqueKeyword:
-        return parseOpaqueType(parser, context, declareKeyword, scope);
+        return parseOpaqueType(parser, context, declareKeyword, scope, labels, ownLabels);
       case SyntaxKind.FunctionKeyword:
-        return parseFunctionDeclaration(parser, context, scope, declareKeyword, ParseFunctionFlag.None);
+        return parseFunctionDeclaration(parser, context, scope, declareKeyword, ParseFunctionFlag.None, null);
       case SyntaxKind.ClassKeyword:
         return parseClassDeclaration(parser, context, null, declareKeyword, /* isDefaultModifier */ false);
     }
@@ -7431,6 +7548,8 @@ function parseDeclareAsIdentifierOrDeclareStatement(
       NodeFlags.IsStatement,
       /* allowFunction */ true,
       scope,
+      labels,
+      ownLabels,
       pos
     );
   }
@@ -7454,7 +7573,9 @@ function parseTypeAsIdentifierOrTypeAlias(
   parser: ParserState,
   context: Context,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  scope: ScopeState
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
@@ -7500,6 +7621,8 @@ function parseTypeAsIdentifierOrTypeAlias(
       NodeFlags.IsStatement,
       /* allowFunction */ true,
       scope,
+      labels,
+      ownLabels,
       pos
     );
   }
@@ -7522,7 +7645,9 @@ function parseTypeAsIdentifierOrTypeAlias(
 function parseLetAsIdentifierOrLexicalDeclaration(
   parser: ParserState,
   context: Context,
-  scope: ScopeState
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
 ): LexicalDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.IsStatement;
@@ -7566,6 +7691,8 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       NodeFlags.IsStatement,
       /* allowFunction */ true,
       scope,
+      labels,
+      ownLabels,
       pos
     );
   }
@@ -8961,7 +9088,9 @@ export function parseStaticBlock(
         flags: ScopeFlags.None
       },
       flags: ScopeFlags.None
-    }
+    },
+    null,
+    null
   );
   consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
   if (consumeOpt(parser, context, SyntaxKind.Assign)) {
@@ -9787,7 +9916,9 @@ function parseOpaqueType(
   parser: ParserState,
   context: Context,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  scope: ScopeState
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
 ) {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
@@ -9825,6 +9956,8 @@ function parseOpaqueType(
       NodeFlags.IsStatement,
       /* allowFunction */ true,
       scope,
+      labels,
+      ownLabels,
       pos
     );
   }

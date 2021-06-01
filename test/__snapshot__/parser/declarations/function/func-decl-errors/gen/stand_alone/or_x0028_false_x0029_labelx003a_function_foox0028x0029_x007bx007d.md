@@ -68,16 +68,6 @@ or (;false;) label: function foo() {}
                 "start": 12,
                 "end": 18
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "label",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 12,
-                    "end": 18
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

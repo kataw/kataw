@@ -113,16 +113,6 @@ var C = class { async *gen() {
                                                                     "start": 30,
                                                                     "end": 46
                                                                 },
-                                                                "labels": [
-                                                                    {
-                                                                        "kind": 256,
-                                                                        "label": "aawait",
-                                                                        "iterationStatement": false,
-                                                                        "flags": 16401,
-                                                                        "start": 30,
-                                                                        "end": 46
-                                                                    }
-                                                                ],
                                                                 "colonToken": {
                                                                     "kind": 21,
                                                                     "flags": 64,

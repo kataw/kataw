@@ -30,8 +30,8 @@ do[ async funcion switch!!
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 26,
-                "end": 26
+                "start": 17,
+                "end": 17
             },
             "whileKeyword": null,
             "statement": {
@@ -61,90 +61,82 @@ do[ async funcion switch!!
                                 },
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [
-                                            {
-                                                "kind": 160,
-                                                "switchKeyword": {
-                                                    "kind": 37757024,
-                                                    "flags": 80,
-                                                    "start": 17,
-                                                    "end": 24
-                                                },
-                                                "expression": {
-                                                    "kind": 126,
-                                                    "operandToken": {
-                                                        "kind": 65584,
-                                                        "flags": 64,
-                                                        "start": 24,
-                                                        "end": 25
-                                                    },
-                                                    "operand": {
-                                                        "kind": 126,
-                                                        "operandToken": {
-                                                            "kind": 65584,
-                                                            "flags": 64,
-                                                            "start": 25,
-                                                            "end": 26
-                                                        },
-                                                        "operand": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "flags": 64,
-                                                            "start": 26,
-                                                            "end": 26
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 25,
-                                                        "end": 26
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 24,
-                                                    "end": 26
-                                                },
-                                                "caseBlock": {
-                                                    "kind": 152,
-                                                    "clauses": [],
-                                                    "flags": 16,
-                                                    "start": 26,
-                                                    "end": 26
-                                                },
-                                                "flags": 16,
-                                                "start": 17,
-                                                "end": 26
-                                            }
-                                        ],
-                                        "flags": 32,
-                                        "start": 17,
-                                        "end": 26
-                                    },
-                                    "flags": 32,
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
                                     "start": 17,
-                                    "end": 26
+                                    "end": 17
                                 },
                                 "flags": 288,
                                 "start": 3,
-                                "end": 26
+                                "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 3,
-                        "end": 26
+                        "end": 17
                     },
                     "flags": 32,
                     "start": 2,
-                    "end": 26
+                    "end": 17
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 26
+                "end": 17
             },
             "flags": 16,
             "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 80,
+                "start": 17,
+                "end": 24
+            },
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 65584,
+                    "flags": 64,
+                    "start": 24,
+                    "end": 25
+                },
+                "operand": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 65584,
+                        "flags": 64,
+                        "start": 25,
+                        "end": 26
+                    },
+                    "operand": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 26,
+                        "end": 26
+                    },
+                    "flags": 32,
+                    "start": 25,
+                    "end": 26
+                },
+                "flags": 32,
+                "start": 24,
+                "end": 26
+            },
+            "caseBlock": {
+                "kind": 152,
+                "clauses": [],
+                "flags": 16,
+                "start": 26,
+                "end": 26
+            },
+            "flags": 16,
+            "start": 17,
             "end": 26
         }
     ],
@@ -166,6 +158,7 @@ do[ async funcion switch!!
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected - start: 17, end: 24
 ✖ Missing an opening parentheses - '( - start: 24, end: 25
 ✖ Identifier expected - start: 26, end: 26
 

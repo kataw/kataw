@@ -58,16 +58,6 @@ opaque Ident: Type = SuperType;
                 "start": 6,
                 "end": 12
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "Ident",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 6,
-                    "end": 12
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

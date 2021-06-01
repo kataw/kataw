@@ -39,24 +39,6 @@ while (false) label1: label2: function f() {}
                     "start": 13,
                     "end": 20
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label1",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 13,
-                        "end": 20
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label2",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 21,
-                        "end": 28
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
@@ -73,24 +55,6 @@ while (false) label1: label2: function f() {}
                         "start": 21,
                         "end": 28
                     },
-                    "labels": [
-                        {
-                            "kind": 256,
-                            "label": "label1",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 13,
-                            "end": 20
-                        },
-                        {
-                            "kind": 256,
-                            "label": "label2",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 21,
-                            "end": 28
-                        }
-                    ],
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,

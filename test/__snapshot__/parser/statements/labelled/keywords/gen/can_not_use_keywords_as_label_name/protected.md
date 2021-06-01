@@ -1,0 +1,77 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-06-01
+- From: d
+- Path: e
+> :: test: can not use keywords as label name
+> :: case: protected
+## Input
+
+`````js
+protected: x
+`````
+## Output
+
+### CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 163,
+            "label": {
+                "kind": 134299649,
+                "text": "protected",
+                "rawText": "protected",
+                "flags": 96,
+                "start": 0,
+                "end": 9
+            },
+            "colonToken": {
+                "kind": 21,
+                "flags": 64,
+                "start": 9,
+                "end": 10
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 10,
+                    "end": 12
+                },
+                "flags": 16,
+                "start": 10,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
+    "source": "protected: x",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 12
+}
+```
+
+### Printed
+
+```javascript
+
+protected: x;
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+

@@ -30,24 +30,6 @@
                             "start": 1,
                             "end": 5
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "foo",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1,
-                                "end": 5
-                            },
-                            {
-                                "kind": 256,
-                                "label": "bar",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 6,
-                                "end": 10
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
@@ -64,24 +46,6 @@
                                 "start": 6,
                                 "end": 10
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "foo",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 1,
-                                    "end": 5
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "bar",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 6,
-                                    "end": 10
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

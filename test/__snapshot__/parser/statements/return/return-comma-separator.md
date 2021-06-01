@@ -59,45 +59,47 @@ function one() {
                                 "end": 25
                             },
                             "expression": {
-                                "kind": 134299649,
-                                "text": "two",
-                                "rawText": "two",
-                                "flags": 96,
+                                "kind": 132,
+                                "expressions": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "two",
+                                        "rawText": "two",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 29
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "three",
+                                        "rawText": "three",
+                                        "flags": 96,
+                                        "start": 30,
+                                        "end": 36
+                                    }
+                                ],
+                                "flags": 32,
                                 "start": 25,
-                                "end": 29
+                                "end": 36
                             },
                             "flags": 16,
-                            "start": 0,
+                            "start": 1,
                             "end": 16
                         }
                     ],
                     "flags": 33,
                     "start": 16,
-                    "end": 29
+                    "end": 37
                 },
                 "flags": 32,
                 "start": 14,
-                "end": 29
+                "end": 39
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
-            "end": 29
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "three",
-                "rawText": "three",
-                "flags": 96,
-                "start": 30,
-                "end": 36
-            },
-            "flags": 16,
-            "start": 30,
-            "end": 37
+            "end": 39
         }
     ],
     "isModule": false,
@@ -113,13 +115,14 @@ function one() {
 
 ```javascript
 
+function one() {
+  return  two, three;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 29, end: 30
-✖ Declaration or statement expected - start: 37, end: 39
-
+✔ No errors
 ```
 

@@ -229,7 +229,9 @@ export const enum DiagnosticCode {
   A_get_accessor_cannot_have_a_this_parameter = 231,
   A_constructor_cannot_have_a_this_parameter = 232,
   Import_declaration_expected = 234,
-  Identifier_expected_A_decorator_name_can_only_be_an_identifier = 235
+  Identifier_expected_A_decorator_name_can_only_be_an_identifier = 235,
+  A_break_statement_can_only_jump_to_a_label_of_an_enclosing_statement = 236,
+  Jump_target_cannot_cross_function_boundary = 237
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -463,5 +465,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [231]: "A 'get' accessor cannot have a `this` parameter",
   [232]: "A 'constructor' cannot have a `this` parameter",
   [234]: 'Import declaration expected',
-  [235]: 'Identifier expected. A decorator name can only be an identifier'
+  [235]: 'Identifier expected. A decorator name can only be an identifier',
+  [236]: "A 'break' statement can only jump to a label of an enclosing statement",
+  [237]: 'Jump target cannot cross function boundary.'
 };

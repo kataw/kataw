@@ -80,16 +80,6 @@ yield * \n { yield: 12 }
                             "start": 12,
                             "end": 18
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 12,
-                                "end": 18
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

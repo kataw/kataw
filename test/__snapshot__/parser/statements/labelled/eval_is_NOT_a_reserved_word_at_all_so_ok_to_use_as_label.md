@@ -25,16 +25,6 @@ eval: x;
                 "start": 0,
                 "end": 4
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "eval",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 4
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

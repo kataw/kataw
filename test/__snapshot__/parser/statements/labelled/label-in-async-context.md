@@ -76,15 +76,6 @@ async function x() {
                                 "start": 20,
                                 "end": 28
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "iterationStatement": false,
-                                    "flags": 17,
-                                    "start": 20,
-                                    "end": 28
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

@@ -26,16 +26,6 @@ x: for(;;) continue x
                 "start": 0,
                 "end": 1
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "x",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 1
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

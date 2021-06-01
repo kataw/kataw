@@ -60,80 +60,72 @@ var asyncFn = async () => var await = 'test';
                             },
                             "returnType": null,
                             "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 155,
-                                            "declareKeyword": null,
-                                            "varKeyword": {
-                                                "kind": 37757002,
-                                                "flags": 80,
-                                                "start": 25,
-                                                "end": 29
-                                            },
-                                            "declarationList": {
-                                                "kind": 156,
-                                                "declarations": [
-                                                    {
-                                                        "kind": 157,
-                                                        "binding": {
-                                                            "kind": 134299649,
-                                                            "text": "await",
-                                                            "rawText": "await",
-                                                            "flags": 96,
-                                                            "start": 29,
-                                                            "end": 35
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "initializer": {
-                                                            "kind": 201392131,
-                                                            "text": "test",
-                                                            "rawText": "'test'",
-                                                            "flags": 4194400,
-                                                            "start": 37,
-                                                            "end": 44
-                                                        },
-                                                        "flags": 16,
-                                                        "start": 29,
-                                                        "end": 44
-                                                    }
-                                                ],
-                                                "flags": 16,
-                                                "start": 29,
-                                                "end": 44
-                                            },
-                                            "flags": 16,
-                                            "start": 25,
-                                            "end": 45
-                                        }
-                                    ],
-                                    "flags": 32,
-                                    "start": 25,
-                                    "end": 45
-                                },
-                                "flags": 32,
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
                                 "start": 25,
-                                "end": 45
+                                "end": 25
                             },
                             "flags": 288,
                             "start": 13,
-                            "end": 45
+                            "end": 25
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 45
+                        "end": 25
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 45
+                "end": 25
             },
             "flags": 16,
             "start": 0,
+            "end": 25
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 80,
+                "start": 25,
+                "end": 29
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "start": 29,
+                            "end": 35
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 201392131,
+                            "text": "test",
+                            "rawText": "'test'",
+                            "flags": 4194400,
+                            "start": 37,
+                            "end": 44
+                        },
+                        "flags": 16,
+                        "start": 29,
+                        "end": 44
+                    }
+                ],
+                "flags": 16,
+                "start": 29,
+                "end": 44
+            },
+            "flags": 16,
+            "start": 25,
             "end": 45
         }
     ],
@@ -155,8 +147,8 @@ var asyncFn = async () => var await = 'test';
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 29, end: 35
-✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 45
+✖ Identifier expected - start: 25, end: 29
+✖ Variable declaration expected. - start: 25, end: 29
 
 ```
 

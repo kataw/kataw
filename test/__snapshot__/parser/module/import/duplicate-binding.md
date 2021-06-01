@@ -74,16 +74,6 @@ import 'x' assert {x: 'y', x: 'y'}
                             "start": 19,
                             "end": 20
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 19,
-                                "end": 20
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

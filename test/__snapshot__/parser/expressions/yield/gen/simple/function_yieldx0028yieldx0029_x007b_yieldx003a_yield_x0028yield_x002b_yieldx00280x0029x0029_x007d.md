@@ -70,16 +70,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                 "start": 23,
                                 "end": 29
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "yield",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 23,
-                                    "end": 29
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

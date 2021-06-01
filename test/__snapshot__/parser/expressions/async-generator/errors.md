@@ -2860,31 +2860,6 @@ async function * gen() {class C extends await { }}
                                 "start": 1397,
                                 "end": 1402
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 1397,
-                                    "end": 1402
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "yield",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 1857,
-                                    "end": 1862
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "yield",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 1916,
-                                    "end": 1921
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
@@ -3553,31 +3528,6 @@ async function * gen() {class C extends await { }}
                             "start": 1857,
                             "end": 1862
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1397,
-                                "end": 1402
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1857,
-                                "end": 1862
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1916,
-                                "end": 1921
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
@@ -3719,31 +3669,6 @@ async function * gen() {class C extends await { }}
                             "start": 1916,
                             "end": 1921
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1397,
-                                "end": 1402
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1857,
-                                "end": 1862
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1916,
-                                "end": 1921
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
@@ -7694,7 +7619,6 @@ async function * gen() {class C extends await { }}
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
 ✖ Expected a `;` - start: 1898, end: 1913
 ✖ Expected a `;` - start: 1914, end: 1916
-✖ Duplicate label - start: 1916, end: 1922
 ✖ Declaration or statement expected - start: 1926, end: 1927
 ✖ 'yield' cannot be used as an identifier here - start: 2076, end: 2081
 ✖ 'await' cannot be used as an identifier here - start: 2121, end: 2126

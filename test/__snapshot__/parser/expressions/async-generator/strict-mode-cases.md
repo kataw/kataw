@@ -1431,23 +1431,6 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 718,
                                 "end": 725
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "yield",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 718,
-                                    "end": 725
-                                },
-                                {
-                                    "kind": 256,
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 806,
-                                    "end": 813
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
@@ -1652,23 +1635,6 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 806,
                                 "end": 813
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "yield",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 718,
-                                    "end": 725
-                                },
-                                {
-                                    "kind": 256,
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 806,
-                                    "end": 813
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

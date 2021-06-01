@@ -36,24 +36,6 @@
                 "start": 13,
                 "end": 17
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "bar",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 13,
-                    "end": 17
-                },
-                {
-                    "kind": 256,
-                    "label": "bar",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 50,
-                    "end": 54
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -140,24 +122,6 @@
                 "start": 50,
                 "end": 54
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "bar",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 13,
-                    "end": 17
-                },
-                {
-                    "kind": 256,
-                    "label": "bar",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 50,
-                    "end": 54
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -235,7 +199,6 @@
 
 ```javascript
 ✖ Function declarations can only be declared at top level or inside a block in strict mode - start: 18, end: 27
-✖ Duplicate label - start: 50, end: 55
 ✖ Function declarations can only be declared at top level or inside a block in strict mode - start: 55, end: 64
 
 ```

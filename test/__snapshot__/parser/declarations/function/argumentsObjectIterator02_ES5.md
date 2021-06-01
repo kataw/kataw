@@ -110,16 +110,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "start": 42,
                 "end": 44
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "y",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 42,
-                    "end": 44
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

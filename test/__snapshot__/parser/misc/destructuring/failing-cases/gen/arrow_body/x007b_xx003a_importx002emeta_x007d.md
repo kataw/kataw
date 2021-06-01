@@ -112,16 +112,6 @@
                                     "start": 28,
                                     "end": 30
                                 },
-                                "labels": [
-                                    {
-                                        "kind": 256,
-                                        "label": "x",
-                                        "iterationStatement": false,
-                                        "flags": 16,
-                                        "start": 28,
-                                        "end": 30
-                                    }
-                                ],
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,

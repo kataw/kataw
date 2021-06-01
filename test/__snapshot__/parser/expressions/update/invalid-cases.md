@@ -498,16 +498,6 @@ new new foo().bar++;
                             "start": 129,
                             "end": 130
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 129,
-                                "end": 130
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

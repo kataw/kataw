@@ -162,16 +162,6 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                             "start": 63,
                             "end": 68
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 63,
-                                "end": 68
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

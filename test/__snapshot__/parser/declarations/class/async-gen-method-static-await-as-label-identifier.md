@@ -129,15 +129,6 @@ var C = class { static async *gen() {
                                                                     "start": 37,
                                                                     "end": 47
                                                                 },
-                                                                "labels": [
-                                                                    {
-                                                                        "kind": 256,
-                                                                        "iterationStatement": false,
-                                                                        "flags": 17,
-                                                                        "start": 37,
-                                                                        "end": 47
-                                                                    }
-                                                                ],
                                                                 "colonToken": {
                                                                     "kind": 21,
                                                                     "flags": 64,

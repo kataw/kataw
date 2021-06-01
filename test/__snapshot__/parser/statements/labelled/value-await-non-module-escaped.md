@@ -31,16 +31,6 @@ aw\u0061it: 1;
                 "start": 0,
                 "end": 10
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "await",
-                    "iterationStatement": false,
-                    "flags": 16400,
-                    "start": 0,
-                    "end": 10
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

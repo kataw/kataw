@@ -94,7 +94,6 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
 ✖ Expected a `;` - start: 4, end: 35
 ✖ Keywords cannot contain escape characters - start: 4, end: 35
 ✖ Expression expected - start: 35, end: 37
-✖ Missing label - start: 35, end: 37
 
 ```
 

@@ -662,40 +662,6 @@ L: let
                                         "start": 214,
                                         "end": 218
                                     },
-                                    "labels": [
-                                        {
-                                            "kind": 256,
-                                            "label": "let",
-                                            "iterationStatement": false,
-                                            "flags": 16,
-                                            "start": 214,
-                                            "end": 218
-                                        },
-                                        {
-                                            "kind": 256,
-                                            "label": "let",
-                                            "iterationStatement": false,
-                                            "flags": 16,
-                                            "start": 247,
-                                            "end": 251
-                                        },
-                                        {
-                                            "kind": 256,
-                                            "label": "L",
-                                            "iterationStatement": false,
-                                            "flags": 17,
-                                            "start": 320,
-                                            "end": 323
-                                        },
-                                        {
-                                            "kind": 256,
-                                            "label": "L",
-                                            "iterationStatement": false,
-                                            "flags": 17,
-                                            "start": 330,
-                                            "end": 333
-                                        }
-                                    ],
                                     "colonToken": {
                                         "kind": 21,
                                         "flags": 64,
@@ -795,40 +761,6 @@ L: let
                                 "start": 247,
                                 "end": 251
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "let",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 214,
-                                    "end": 218
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "let",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 247,
-                                    "end": 251
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "L",
-                                    "iterationStatement": false,
-                                    "flags": 17,
-                                    "start": 320,
-                                    "end": 323
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "L",
-                                    "iterationStatement": false,
-                                    "flags": 17,
-                                    "start": 330,
-                                    "end": 333
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
@@ -1129,40 +1061,6 @@ L: let
                 "start": 320,
                 "end": 323
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "let",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 214,
-                    "end": 218
-                },
-                {
-                    "kind": 256,
-                    "label": "let",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 247,
-                    "end": 251
-                },
-                {
-                    "kind": 256,
-                    "label": "L",
-                    "iterationStatement": false,
-                    "flags": 17,
-                    "start": 320,
-                    "end": 323
-                },
-                {
-                    "kind": 256,
-                    "label": "L",
-                    "iterationStatement": false,
-                    "flags": 17,
-                    "start": 330,
-                    "end": 333
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -1211,40 +1109,6 @@ L: let
                 "start": 330,
                 "end": 333
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "let",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 214,
-                    "end": 218
-                },
-                {
-                    "kind": 256,
-                    "label": "let",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 247,
-                    "end": 251
-                },
-                {
-                    "kind": 256,
-                    "label": "L",
-                    "iterationStatement": false,
-                    "flags": 17,
-                    "start": 320,
-                    "end": 323
-                },
-                {
-                    "kind": 256,
-                    "label": "L",
-                    "iterationStatement": false,
-                    "flags": 17,
-                    "start": 330,
-                    "end": 333
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -1311,13 +1175,41 @@ L: let
 
 ```javascript
 
+var let;
+var foo, let;
+try {
+} catch (let) {
+}
+function let() {}
+(function let() {});
+function foo(let) {}
+function foo(bar, let) {}
+let = 1;
+var foo = let = 1;
+let * 2;
+++let;
+let++;
+(function f() {
+    let: 34;
+  });
+function let(let) {
+  let: let(let + let(0));
+}
+({ let: 1 })({ get let() {
+    1;
+  } });
+let(100);
+L: let;
+x;
+L: let;
+{
+  x;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Duplicate label - start: 247, end: 252
-✖ Duplicate label - start: 330, end: 334
-
+✔ No errors
 ```
 

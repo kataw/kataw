@@ -116,16 +116,6 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "start": 27,
                     "end": 33
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 27,
-                        "end": 33
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,

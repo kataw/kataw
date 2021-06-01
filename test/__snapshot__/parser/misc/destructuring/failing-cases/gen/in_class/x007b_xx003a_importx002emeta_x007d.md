@@ -70,16 +70,6 @@ class x { { x: import.meta } }
                             "start": 11,
                             "end": 13
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 11,
-                                "end": 13
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

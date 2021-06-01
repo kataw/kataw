@@ -66,16 +66,6 @@ function x() {{ x: import.meta }}
                                             "start": 15,
                                             "end": 17
                                         },
-                                        "labels": [
-                                            {
-                                                "kind": 256,
-                                                "label": "x",
-                                                "iterationStatement": false,
-                                                "flags": 16,
-                                                "start": 15,
-                                                "end": 17
-                                            }
-                                        ],
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,

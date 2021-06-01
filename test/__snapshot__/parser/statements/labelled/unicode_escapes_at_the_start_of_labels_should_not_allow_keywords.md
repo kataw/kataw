@@ -59,15 +59,6 @@ async () => { \u{61}wait: x }
                                 "start": 13,
                                 "end": 24
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "iterationStatement": false,
-                                    "flags": 8208,
-                                    "start": 13,
-                                    "end": 24
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

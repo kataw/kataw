@@ -69,12 +69,12 @@ while(z) continue foo
 
 ```javascript
 
-while (z) continue foo;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Jump target cannot cross function boundary. - start: 8, end: 21
+
 ```
 

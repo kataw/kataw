@@ -106,16 +106,6 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "start": 35,
                 "end": 37
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "b",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 35,
-                    "end": 37
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

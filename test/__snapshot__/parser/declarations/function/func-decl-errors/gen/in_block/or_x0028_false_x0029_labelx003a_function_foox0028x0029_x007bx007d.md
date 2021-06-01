@@ -82,16 +82,6 @@
                 "start": 13,
                 "end": 19
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "label",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 13,
-                    "end": 19
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

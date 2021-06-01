@@ -25,16 +25,6 @@ foo: x;
                 "start": 0,
                 "end": 3
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "foo",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 3
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

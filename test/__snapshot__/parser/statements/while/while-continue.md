@@ -81,12 +81,12 @@ while (true) { continue /* Multiline\nComment */there; }
 
 ```javascript
 
-while (true) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Jump target cannot cross function boundary. - start: 14, end: 54
+
 ```
 

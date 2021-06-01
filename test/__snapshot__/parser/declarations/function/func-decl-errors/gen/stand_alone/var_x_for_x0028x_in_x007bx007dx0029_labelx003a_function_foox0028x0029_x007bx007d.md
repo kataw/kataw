@@ -102,16 +102,6 @@ var x; for (x in {}) label: function foo() {}
                     "start": 20,
                     "end": 26
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 20,
-                        "end": 26
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,

@@ -72,48 +72,9 @@ for (x of 3) continue/x/
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 21,
-                        "end": 21
-                    },
-                    "operatorToken": {
-                        "kind": 35640,
-                        "flags": 64,
-                        "start": 21,
-                        "end": 22
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 22,
-                        "end": 23
-                    },
-                    "flags": 32,
-                    "start": 21,
-                    "end": 23
-                },
-                "operatorToken": {
-                    "kind": 35640,
-                    "flags": 64,
-                    "start": 23,
-                    "end": 24
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 24,
-                    "end": 24
-                },
-                "flags": 32,
+                "kind": 221,
+                "text": "/x/",
+                "flags": 96,
                 "start": 21,
                 "end": 24
             },
@@ -140,8 +101,8 @@ for (x of 3) continue/x/
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 21, end: 22
-✖ Identifier expected - start: 24, end: 24
+✖ Expression expected - start: 21, end: 24
+✖ Jump target cannot cross function boundary. - start: 12, end: 24
 
 ```
 

@@ -25,24 +25,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 "start": 0,
                 "end": 3
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "foo",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 3
-                },
-                {
-                    "kind": 256,
-                    "label": "bar",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 9,
-                    "end": 13
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -86,24 +68,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     "start": 9,
                                     "end": 13
                                 },
-                                "labels": [
-                                    {
-                                        "kind": 256,
-                                        "label": "foo",
-                                        "iterationStatement": false,
-                                        "flags": 16,
-                                        "start": 0,
-                                        "end": 3
-                                    },
-                                    {
-                                        "kind": 256,
-                                        "label": "bar",
-                                        "iterationStatement": false,
-                                        "flags": 16,
-                                        "start": 9,
-                                        "end": 13
-                                    }
-                                ],
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,

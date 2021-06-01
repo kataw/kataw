@@ -49,12 +49,12 @@ break x;
 
 ```javascript
 
+break x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Missing label - start: 7, end: 8
-
+✔ No errors
 ```
 

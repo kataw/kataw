@@ -47,16 +47,6 @@
                                 "start": 10,
                                 "end": 16
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "label",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 10,
-                                    "end": 16
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

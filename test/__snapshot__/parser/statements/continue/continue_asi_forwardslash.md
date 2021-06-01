@@ -67,34 +67,15 @@ for (x of 3) continue
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 21,
-                    "end": 21
-                },
-                "operatorToken": {
-                    "kind": 35640,
-                    "flags": 65,
-                    "start": 21,
-                    "end": 23
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 23,
-                    "end": 23
-                },
-                "flags": 32,
+                "kind": 221,
+                "text": "/",
+                "flags": 96,
                 "start": 21,
-                "end": 23
+                "end": 24
             },
             "flags": 16,
             "start": 21,
-            "end": 23
+            "end": 24
         }
     ],
     "isModule": false,
@@ -115,7 +96,7 @@ for (x of 3) continue
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 21, end: 23
+✖ Unterminated regular expression - start: 21, end: 24
 
 ```
 

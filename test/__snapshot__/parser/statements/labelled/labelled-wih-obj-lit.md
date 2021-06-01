@@ -25,24 +25,6 @@ a: { a: x }
                 "start": 0,
                 "end": 1
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "a",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 1
-                },
-                {
-                    "kind": 256,
-                    "label": "a",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 4,
-                    "end": 6
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -64,24 +46,6 @@ a: { a: x }
                                 "start": 4,
                                 "end": 6
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "a",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 1
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "a",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 4,
-                                    "end": 6
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

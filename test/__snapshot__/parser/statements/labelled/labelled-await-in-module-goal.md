@@ -46,22 +46,6 @@ var await;
                 "start": 0,
                 "end": 6
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 6
-                },
-                {
-                    "kind": 256,
-                    "iterationStatement": false,
-                    "flags": 16401,
-                    "start": 9,
-                    "end": 22
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -99,22 +83,6 @@ var await;
                 "start": 9,
                 "end": 22
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 6
-                },
-                {
-                    "kind": 256,
-                    "iterationStatement": false,
-                    "flags": 16401,
-                    "start": 9,
-                    "end": 22
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -193,7 +161,6 @@ var await;
 ✖ 'await' keyword must not contain escaped characters - start: 9, end: 9
 ✖ Identifier expected - start: 22, end: 23
 ✖ Unicode escapes at the start of labels should not allow keywords - start: 9, end: 23
-✖ Duplicate label - start: 9, end: 23
 ✖ Identifier expected. 'await' is a reserved word in module goal - start: 30, end: 36
 
 ```

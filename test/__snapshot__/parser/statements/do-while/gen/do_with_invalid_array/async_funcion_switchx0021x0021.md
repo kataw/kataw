@@ -134,76 +134,68 @@ do while [catch] async funcion switch!!
                 },
                 "returnType": null,
                 "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [
-                            {
-                                "kind": 160,
-                                "switchKeyword": {
-                                    "kind": 37757024,
-                                    "flags": 80,
-                                    "start": 30,
-                                    "end": 37
-                                },
-                                "expression": {
-                                    "kind": 126,
-                                    "operandToken": {
-                                        "kind": 65584,
-                                        "flags": 64,
-                                        "start": 37,
-                                        "end": 38
-                                    },
-                                    "operand": {
-                                        "kind": 126,
-                                        "operandToken": {
-                                            "kind": 65584,
-                                            "flags": 64,
-                                            "start": 38,
-                                            "end": 39
-                                        },
-                                        "operand": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 39,
-                                            "end": 39
-                                        },
-                                        "flags": 32,
-                                        "start": 38,
-                                        "end": 39
-                                    },
-                                    "flags": 32,
-                                    "start": 37,
-                                    "end": 39
-                                },
-                                "caseBlock": {
-                                    "kind": 152,
-                                    "clauses": [],
-                                    "flags": 16,
-                                    "start": 39,
-                                    "end": 39
-                                },
-                                "flags": 16,
-                                "start": 30,
-                                "end": 39
-                            }
-                        ],
-                        "flags": 32,
-                        "start": 30,
-                        "end": 39
-                    },
-                    "flags": 32,
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
                     "start": 30,
-                    "end": 39
+                    "end": 30
                 },
                 "flags": 288,
                 "start": 16,
-                "end": 39
+                "end": 30
             },
             "flags": 16,
             "start": 16,
+            "end": 30
+        },
+        {
+            "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 80,
+                "start": 30,
+                "end": 37
+            },
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 65584,
+                    "flags": 64,
+                    "start": 37,
+                    "end": 38
+                },
+                "operand": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 65584,
+                        "flags": 64,
+                        "start": 38,
+                        "end": 39
+                    },
+                    "operand": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 39,
+                        "end": 39
+                    },
+                    "flags": 32,
+                    "start": 38,
+                    "end": 39
+                },
+                "flags": 32,
+                "start": 37,
+                "end": 39
+            },
+            "caseBlock": {
+                "kind": 152,
+                "clauses": [],
+                "flags": 16,
+                "start": 39,
+                "end": 39
+            },
+            "flags": 16,
+            "start": 30,
             "end": 39
         }
     ],
@@ -229,6 +221,7 @@ do while [catch] async funcion switch!!
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
+✖ Identifier expected - start: 30, end: 37
 ✖ Missing an opening parentheses - '( - start: 37, end: 38
 ✖ Identifier expected - start: 39, end: 39
 

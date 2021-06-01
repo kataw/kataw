@@ -41,16 +41,6 @@ do wow: while (x) while (x) continue wow;
                     "start": 2,
                     "end": 6
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "wow",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 2,
-                        "end": 6
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,

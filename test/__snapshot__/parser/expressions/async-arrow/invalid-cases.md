@@ -1924,16 +1924,6 @@ async ([a]:string)=>c;
                 "start": 696,
                 "end": 698
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "a",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 696,
-                    "end": 698
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

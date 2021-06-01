@@ -316,32 +316,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 86,
                             "end": 88
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 86,
-                                "end": 88
-                            },
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 183,
-                                "end": 185
-                            },
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 214,
-                                "end": 216
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
@@ -660,32 +634,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 183,
                             "end": 185
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 86,
-                                "end": 88
-                            },
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 183,
-                                "end": 185
-                            },
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 214,
-                                "end": 216
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
@@ -827,32 +775,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 214,
                             "end": 216
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 86,
-                                "end": 88
-                            },
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 183,
-                                "end": 185
-                            },
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 214,
-                                "end": 216
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
@@ -922,12 +844,9 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 147, end: 151
 ✖ ',' expected - start: 177, end: 179
 ✖ Declaration or statement expected - start: 179, end: 181
-✖ Duplicate label - start: 183, end: 186
 ✖ Declaration or statement expected - start: 190, end: 191
 ✖ ',' expected - start: 208, end: 210
 ✖ Declaration or statement expected - start: 210, end: 212
-✖ Duplicate label - start: 214, end: 217
-✖ Duplicate label - start: 214, end: 217
 ✖ Declaration or statement expected - start: 221, end: 222
 
 ```

@@ -1596,16 +1596,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                             "start": 519,
                             "end": 521
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "x",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 519,
-                                "end": 521
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

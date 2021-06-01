@@ -4074,48 +4074,6 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4478,
                     "end": 4484
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4478,
-                        "end": 4484
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelA",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4506,
-                        "end": 4513
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelB",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4514,
-                        "end": 4521
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4543,
-                        "end": 4549
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4585,
-                        "end": 4591
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
@@ -4205,48 +4163,6 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4506,
                     "end": 4513
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4478,
-                        "end": 4484
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelA",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4506,
-                        "end": 4513
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelB",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4514,
-                        "end": 4521
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4543,
-                        "end": 4549
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4585,
-                        "end": 4591
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
@@ -4263,48 +4179,6 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4514,
                         "end": 4521
                     },
-                    "labels": [
-                        {
-                            "kind": 256,
-                            "label": "label",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 4478,
-                            "end": 4484
-                        },
-                        {
-                            "kind": 256,
-                            "label": "labelA",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 4506,
-                            "end": 4513
-                        },
-                        {
-                            "kind": 256,
-                            "label": "labelB",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 4514,
-                            "end": 4521
-                        },
-                        {
-                            "kind": 256,
-                            "label": "label",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 4543,
-                            "end": 4549
-                        },
-                        {
-                            "kind": 256,
-                            "label": "label",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 4585,
-                            "end": 4591
-                        }
-                    ],
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,
@@ -4398,48 +4272,6 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4543,
                     "end": 4549
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4478,
-                        "end": 4484
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelA",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4506,
-                        "end": 4513
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelB",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4514,
-                        "end": 4521
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4543,
-                        "end": 4549
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4585,
-                        "end": 4591
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
@@ -4551,48 +4383,6 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4585,
                     "end": 4591
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4478,
-                        "end": 4484
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelA",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4506,
-                        "end": 4513
-                    },
-                    {
-                        "kind": 256,
-                        "label": "labelB",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4514,
-                        "end": 4521
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4543,
-                        "end": 4549
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 4585,
-                        "end": 4591
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
@@ -6106,10 +5896,7 @@ try {} catch(e) { for(var e of 0); };
 ✖ Declaration or statement expected - start: 4002, end: 4007
 ✖ Function declarations cannot be used in a single-statement context - start: 4485, end: 4494
 ✖ Function declarations cannot be used in a single-statement context - start: 4522, end: 4531
-✖ Duplicate label - start: 4543, end: 4550
 ✖ Function declarations cannot be used in a single-statement context - start: 4550, end: 4559
-✖ Duplicate label - start: 4585, end: 4592
-✖ Duplicate label - start: 4585, end: 4592
 ✖ Function declarations cannot be used in a single-statement context - start: 4592, end: 4601
 ✖ Invalid hexadecimal escape sequence - start: 5061, end: 5061
 ✖ Expected a `;` - start: 5061, end: 5062

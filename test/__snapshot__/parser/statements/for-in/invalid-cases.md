@@ -1757,32 +1757,6 @@ for ({}.bar = x in obj);
                     "start": 474,
                     "end": 480
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 474,
-                        "end": 480
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label1",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 782,
-                        "end": 789
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label2",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 790,
-                        "end": 797
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
@@ -2841,32 +2815,6 @@ for ({}.bar = x in obj);
                     "start": 782,
                     "end": 789
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 474,
-                        "end": 480
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label1",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 782,
-                        "end": 789
-                    },
-                    {
-                        "kind": 256,
-                        "label": "label2",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 790,
-                        "end": 797
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
@@ -2883,32 +2831,6 @@ for ({}.bar = x in obj);
                         "start": 790,
                         "end": 797
                     },
-                    "labels": [
-                        {
-                            "kind": 256,
-                            "label": "label",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 474,
-                            "end": 480
-                        },
-                        {
-                            "kind": 256,
-                            "label": "label1",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 782,
-                            "end": 789
-                        },
-                        {
-                            "kind": 256,
-                            "label": "label2",
-                            "iterationStatement": false,
-                            "flags": 16,
-                            "start": 790,
-                            "end": 797
-                        }
-                    ],
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,

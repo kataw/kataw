@@ -106,15 +106,6 @@ var obj = {
                                                                 "start": 30,
                                                                 "end": 45
                                                             },
-                                                            "labels": [
-                                                                {
-                                                                    "kind": 256,
-                                                                    "iterationStatement": false,
-                                                                    "flags": 16401,
-                                                                    "start": 30,
-                                                                    "end": 45
-                                                                }
-                                                            ],
                                                             "colonToken": {
                                                                 "kind": 21,
                                                                 "flags": 64,

@@ -25,16 +25,6 @@ foo: { while(z) continue foo }
                 "start": 0,
                 "end": 3
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "foo",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 3
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
@@ -113,14 +103,12 @@ foo: { while(z) continue foo }
 
 ```javascript
 
-foo: {
-  while (z) continue foo;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Jump target cannot cross function boundary. - start: 15, end: 30
+
 ```
 

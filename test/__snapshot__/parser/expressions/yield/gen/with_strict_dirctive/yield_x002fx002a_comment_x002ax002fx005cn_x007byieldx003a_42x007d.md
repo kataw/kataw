@@ -70,16 +70,6 @@
                             "start": 37,
                             "end": 42
                         },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 37,
-                                "end": 42
-                            }
-                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,

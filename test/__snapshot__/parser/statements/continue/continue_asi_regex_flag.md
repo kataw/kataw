@@ -67,49 +67,9 @@ for (x of 3) continue
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 21,
-                        "end": 21
-                    },
-                    "operatorToken": {
-                        "kind": 35640,
-                        "flags": 65,
-                        "start": 21,
-                        "end": 23
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 23,
-                        "end": 24
-                    },
-                    "flags": 32,
-                    "start": 21,
-                    "end": 24
-                },
-                "operatorToken": {
-                    "kind": 35640,
-                    "flags": 64,
-                    "start": 24,
-                    "end": 25
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "g",
-                    "rawText": "g",
-                    "flags": 96,
-                    "start": 25,
-                    "end": 26
-                },
-                "flags": 32,
+                "kind": 221,
+                "text": "/x/g",
+                "flags": 96,
                 "start": 21,
                 "end": 26
             },
@@ -131,12 +91,14 @@ for (x of 3) continue
 
 ```javascript
 
+for (x of 3)
+  continue;
+/x/g;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 21, end: 23
-
+✔ No errors
 ```
 

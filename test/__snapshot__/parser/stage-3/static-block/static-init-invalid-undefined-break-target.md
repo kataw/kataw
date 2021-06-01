@@ -72,16 +72,6 @@ class C {
                                                 "start": 20,
                                                 "end": 26
                                             },
-                                            "labels": [
-                                                {
-                                                    "kind": 256,
-                                                    "label": "x",
-                                                    "iterationStatement": false,
-                                                    "flags": 17,
-                                                    "start": 20,
-                                                    "end": 26
-                                                }
-                                            ],
                                             "colonToken": {
                                                 "kind": 21,
                                                 "flags": 64,
@@ -189,7 +179,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ Missing label - start: 57, end: 58
+✖ A 'break' statement can only jump to a label of an enclosing statement - start: 57, end: 58
 
 ```
 

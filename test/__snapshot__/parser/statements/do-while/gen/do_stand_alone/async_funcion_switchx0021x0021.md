@@ -30,8 +30,8 @@ do async funcion switch!!
                 "kind": 16637,
                 "text": "",
                 "flags": 64,
-                "start": 25,
-                "end": 25
+                "start": 16,
+                "end": 16
             },
             "whileKeyword": null,
             "statement": {
@@ -56,80 +56,72 @@ do async funcion switch!!
                     },
                     "returnType": null,
                     "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [
-                                {
-                                    "kind": 160,
-                                    "switchKeyword": {
-                                        "kind": 37757024,
-                                        "flags": 80,
-                                        "start": 16,
-                                        "end": 23
-                                    },
-                                    "expression": {
-                                        "kind": 126,
-                                        "operandToken": {
-                                            "kind": 65584,
-                                            "flags": 64,
-                                            "start": 23,
-                                            "end": 24
-                                        },
-                                        "operand": {
-                                            "kind": 126,
-                                            "operandToken": {
-                                                "kind": 65584,
-                                                "flags": 64,
-                                                "start": 24,
-                                                "end": 25
-                                            },
-                                            "operand": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 25,
-                                                "end": 25
-                                            },
-                                            "flags": 32,
-                                            "start": 24,
-                                            "end": 25
-                                        },
-                                        "flags": 32,
-                                        "start": 23,
-                                        "end": 25
-                                    },
-                                    "caseBlock": {
-                                        "kind": 152,
-                                        "clauses": [],
-                                        "flags": 16,
-                                        "start": 25,
-                                        "end": 25
-                                    },
-                                    "flags": 16,
-                                    "start": 16,
-                                    "end": 25
-                                }
-                            ],
-                            "flags": 32,
-                            "start": 16,
-                            "end": 25
-                        },
-                        "flags": 32,
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
                         "start": 16,
-                        "end": 25
+                        "end": 16
                     },
                     "flags": 288,
                     "start": 2,
-                    "end": 25
+                    "end": 16
                 },
                 "flags": 16,
                 "start": 2,
-                "end": 25
+                "end": 16
             },
             "flags": 16,
             "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 80,
+                "start": 16,
+                "end": 23
+            },
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 65584,
+                    "flags": 64,
+                    "start": 23,
+                    "end": 24
+                },
+                "operand": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 65584,
+                        "flags": 64,
+                        "start": 24,
+                        "end": 25
+                    },
+                    "operand": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 25,
+                        "end": 25
+                    },
+                    "flags": 32,
+                    "start": 24,
+                    "end": 25
+                },
+                "flags": 32,
+                "start": 23,
+                "end": 25
+            },
+            "caseBlock": {
+                "kind": 152,
+                "clauses": [],
+                "flags": 16,
+                "start": 25,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 16,
             "end": 25
         }
     ],
@@ -152,6 +144,7 @@ do async funcion switch!!
 
 ```javascript
 ✖ Function declarations cannot be used in a single-statement context - start: 2, end: 8
+✖ Identifier expected - start: 16, end: 23
 ✖ Missing an opening parentheses - '( - start: 23, end: 24
 ✖ Identifier expected - start: 25, end: 25
 

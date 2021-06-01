@@ -65,16 +65,6 @@ function * x () {
                                 "start": 17,
                                 "end": 23
                             },
-                            "labels": [
-                                {
-                                    "kind": 256,
-                                    "label": "y",
-                                    "iterationStatement": false,
-                                    "flags": 17,
-                                    "start": 17,
-                                    "end": 23
-                                }
-                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,

@@ -30,40 +30,32 @@
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [
-                            {
-                                "kind": 161,
-                                "returnKeyword": {
-                                    "kind": 37757022,
-                                    "flags": 80,
-                                    "start": 5,
-                                    "end": 12
-                                },
-                                "expression": null,
-                                "flags": 16,
-                                "start": 0,
-                                "end": 5
-                            }
-                        ],
-                        "flags": 32,
-                        "start": 5,
-                        "end": 12
-                    },
-                    "flags": 32,
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
                     "start": 5,
-                    "end": 12
+                    "end": 5
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 12
+                "end": 5
             },
             "flags": 16,
             "start": 0,
-            "end": 12
+            "end": 5
+        },
+        {
+            "kind": 161,
+            "returnKeyword": {
+                "kind": 37757022,
+                "flags": 80,
+                "start": 5,
+                "end": 12
+            },
+            "expression": null,
+            "flags": 16,
+            "start": 0,
+            "end": 5
         }
     ],
     "isModule": false,
@@ -84,8 +76,8 @@
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected - start: 5, end: 12
 ✖ A return statement can only be used within a function_body - start: 5, end: 12
-✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 12
 
 ```
 

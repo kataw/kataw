@@ -40,16 +40,6 @@
                 "start": 13,
                 "end": 28
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "protected",
-                    "iterationStatement": false,
-                    "flags": 16400,
-                    "start": 13,
-                    "end": 28
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

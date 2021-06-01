@@ -226,7 +226,9 @@
   "A 'get' accessor cannot have a `this` parameter": 231,
   "A 'constructor' cannot have a `this` parameter": 232,
   "Import declaration expected": 234,
-  "Identifier expected. A decorator name can only be an identifier": 235
+  "Identifier expected. A decorator name can only be an identifier": 235,
+  "A 'break' statement can only jump to a label of an enclosing statement": 236,
+  "Jump target cannot cross function boundary.": 237
 }
 
 

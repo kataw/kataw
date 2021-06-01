@@ -37,16 +37,6 @@ label: while(false) {
                 "start": 0,
                 "end": 5
             },
-            "labels": [
-                {
-                    "kind": 256,
-                    "label": "label",
-                    "iterationStatement": false,
-                    "flags": 16,
-                    "start": 0,
-                    "end": 5
-                }
-            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 64,

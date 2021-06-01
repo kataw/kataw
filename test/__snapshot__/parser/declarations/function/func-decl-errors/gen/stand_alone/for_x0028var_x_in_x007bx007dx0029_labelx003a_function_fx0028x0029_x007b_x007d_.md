@@ -81,16 +81,6 @@ for (var x in {}) label: function f() { };
                     "start": 17,
                     "end": 23
                 },
-                "labels": [
-                    {
-                        "kind": 256,
-                        "label": "label",
-                        "iterationStatement": false,
-                        "flags": 16,
-                        "start": 17,
-                        "end": 23
-                    }
-                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,

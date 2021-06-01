@@ -57,7 +57,8 @@ export const enum Context {
   InConditionalExpr = 1 << 22, // If node was parsed as part of 'ConditionalExpression'
   InTypes = 1 << 23, // If node was parsed in the type system context
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
-  LexicalContext = 1 << 26 // If node was parsed in a lexical context,
+  LexicalContext = 1 << 26, // If node was parsed in a lexical context,
+  ads = Context.IsOutsideFnOrArrow | 0b00000000010000000101111000001000
 }
 
 export const enum DestructibleKind {
@@ -559,4 +560,29 @@ export function addBlockName(parser: ParserState, context: Context, scope: any, 
     }
     scope['#' + name] = type;
   }
+}
+
+export function lookupContinueTarget(labels: any, value: string): boolean {
+  let iterationLabel: any;
+  while (labels) {
+    if (labels.iteration) {
+      iterationLabel = labels.iteration;
+      for (let i = 0; i < iterationLabel.length; i++) {
+        if (iterationLabel[i] === value) {
+          return false;
+        }
+      }
+    }
+    labels = labels.parent;
+  }
+  return true;
+}
+
+export function lookupBreakTarget(labels: any, value: string): boolean {
+  if (labels) {
+    if (labels['#' + value]) return false;
+    while ((labels = labels.parent)) if (labels['#' + value]) return false;
+    return true;
+  }
+  return false;
 }
