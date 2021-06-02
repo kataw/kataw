@@ -156,7 +156,7 @@ function f() {
 
 ```javascript
 ✖ Identifier expected - start: 34, end: 39
-✖ Expression expected - start: 39, end: 41
+✖ Identifier expected - start: 39, end: 41
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 39, end: 41
 ✖ Expected a `;` - start: 43, end: 44
 ✖ Declaration or statement expected - start: 45, end: 47

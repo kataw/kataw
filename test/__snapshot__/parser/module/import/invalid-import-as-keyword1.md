@@ -35,7 +35,7 @@ import { y as yield } from 'm.js'
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 21,
                     "end": 26
                 },

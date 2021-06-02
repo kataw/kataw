@@ -35,7 +35,7 @@ import { arguments } from 'm.js';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 20,
                     "end": 25
                 },

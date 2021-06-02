@@ -35,7 +35,7 @@ import { a } from;
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 12,
                     "end": 17
                 },

@@ -35,7 +35,7 @@ import { s as static } from 'm.js'
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 22,
                     "end": 27
                 },

@@ -159,7 +159,7 @@ async (x = delete ((continue) = f)) => {}
 ```javascript
 ✖ Identifier expected - start: 20, end: 28
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 20, end: 28
-✖ Expression expected - start: 28, end: 29
+✖ Identifier expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
 ✖ Expected a `;` - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35

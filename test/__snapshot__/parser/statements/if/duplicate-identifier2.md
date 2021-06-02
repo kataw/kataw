@@ -132,7 +132,8 @@ if (x) x;
 ### Diagnostics
 
 ```javascript
-✖ Function declarations cannot be used in a single-statement context - start: 18, end: 24
+✖ An async function declaration is not allowed as `if-else` child - start: 18, end: 24
+✖ Generators can only be declared at the top level or inside a block - start: 35, end: 36
 
 ```
 

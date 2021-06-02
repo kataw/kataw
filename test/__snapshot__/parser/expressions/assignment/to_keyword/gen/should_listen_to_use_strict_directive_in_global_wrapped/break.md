@@ -105,7 +105,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 20
-✖ Expression expected - start: 20, end: 22
+✖ Identifier expected - start: 20, end: 22
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 20, end: 22
 ✖ Expected a `;` - start: 24, end: 25
 

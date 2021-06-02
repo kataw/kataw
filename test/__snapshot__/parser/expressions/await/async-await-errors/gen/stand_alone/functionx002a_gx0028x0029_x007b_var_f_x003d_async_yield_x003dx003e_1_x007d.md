@@ -158,14 +158,12 @@ function* g() { var f = async yield => 1; }
 
 ```javascript
 
-function * g() {
-  var f = async yield =>  1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'yield' cannot be used as an identifier here - start: 29, end: 35
+
 ```
 

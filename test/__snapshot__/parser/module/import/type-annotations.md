@@ -48,7 +48,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 27,
                     "end": 32
                 },
@@ -142,7 +142,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 51,
                     "end": 56
                 },
@@ -193,7 +193,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 87,
                     "end": 92
                 },
@@ -280,7 +280,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 117,
                     "end": 122
                 },
@@ -336,7 +336,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 157,
                     "end": 162
                 },
@@ -541,7 +541,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 232,
                     "end": 237
                 },

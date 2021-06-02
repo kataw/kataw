@@ -212,7 +212,7 @@ foo = {
 ```javascript
 ✖ Identifier expected - start: 42, end: 50
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 42, end: 50
-✖ Expression expected - start: 50, end: 52
+✖ Identifier expected - start: 50, end: 52
 ✖ The left-hand side must be a variable or a property access. - start: 50, end: 52
 ✖ Expected a `;` - start: 54, end: 55
 ✖ Declaration or statement expected - start: 56, end: 60

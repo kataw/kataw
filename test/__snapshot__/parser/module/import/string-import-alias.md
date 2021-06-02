@@ -41,7 +41,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 18,
                     "end": 23
                 },
@@ -128,7 +128,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 51,
                     "end": 56
                 },
@@ -215,7 +215,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 93,
                     "end": 98
                 },
@@ -302,7 +302,7 @@ import {'' as x} from 'foo';
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 123,
                     "end": 128
                 },

@@ -106,7 +106,7 @@ class break {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 11, end: 13
+✖ Identifier expected - start: 11, end: 13
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 11, end: 13
 
 ```

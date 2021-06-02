@@ -92,7 +92,7 @@ for(let.a of 0);
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 9, end: 12
+✖ The left-hand side of a for-of loop cannot start with 'let' - start: 9, end: 12
 
 ```
 

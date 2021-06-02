@@ -118,7 +118,7 @@ async x => (break) = 1
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 17
-✖ Expression expected - start: 17, end: 18
+✖ Identifier expected - start: 17, end: 18
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 

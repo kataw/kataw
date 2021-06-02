@@ -130,7 +130,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 38, end: 40
+✖ Identifier expected - start: 38, end: 40
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 38, end: 40
 ✖ Declaration or statement expected - start: 42, end: 44
 

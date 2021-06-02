@@ -131,7 +131,7 @@ function f() {
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 30, end: 41
-✖ Expression expected - start: 41, end: 43
+✖ Identifier expected - start: 41, end: 43
 ✖ Declaration or statement expected - start: 45, end: 47
 
 ```

@@ -101,7 +101,7 @@ for (x of 3) continue/x/
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 21, end: 24
+✖ Identifier expected - start: 21, end: 24
 
 ```
 

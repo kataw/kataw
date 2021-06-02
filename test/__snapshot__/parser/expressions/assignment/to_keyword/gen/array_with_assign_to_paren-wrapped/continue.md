@@ -119,7 +119,7 @@ async x => (continue) = 1
 ```javascript
 ✖ Identifier expected - start: 12, end: 20
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 12, end: 20
-✖ Expression expected - start: 20, end: 21
+✖ Identifier expected - start: 20, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
 
 ```

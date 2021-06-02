@@ -168,7 +168,7 @@ function *f(x = (break) = f) {}
 ```javascript
 ✖ Identifier expected - start: 17, end: 22
 ✖ Expression expected - start: 17, end: 22
-✖ Expression expected - start: 22, end: 23
+✖ Identifier expected - start: 22, end: 23
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25
 ✖ Expected a `;` - start: 27, end: 28

@@ -40,7 +40,7 @@ import typeof foo24 from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 19,
                     "end": 24
                 },

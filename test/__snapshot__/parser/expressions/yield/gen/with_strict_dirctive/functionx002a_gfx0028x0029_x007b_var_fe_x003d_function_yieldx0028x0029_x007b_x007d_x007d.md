@@ -177,12 +177,14 @@
 
 ```javascript
 
+function * gf() {
+  var fe = function yield() {};
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 48, end: 54
-
+✔ No errors
 ```
 

@@ -80,7 +80,7 @@
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 22
-✖ Expression expected - start: 22, end: 24
+✖ Identifier expected - start: 22, end: 24
 
 ```
 

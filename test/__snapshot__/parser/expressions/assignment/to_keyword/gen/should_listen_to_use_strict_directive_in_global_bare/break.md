@@ -79,7 +79,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 19, end: 21
+✖ Identifier expected - start: 19, end: 21
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 19, end: 21
 
 ```

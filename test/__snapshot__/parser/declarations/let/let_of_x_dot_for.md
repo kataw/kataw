@@ -108,7 +108,7 @@ for (let.foo of x);
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 12, end: 15
+✖ The left-hand side of a for-of loop cannot start with 'let' - start: 12, end: 15
 
 ```
 

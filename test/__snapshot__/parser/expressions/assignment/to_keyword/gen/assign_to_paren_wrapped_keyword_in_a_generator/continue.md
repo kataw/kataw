@@ -146,7 +146,7 @@ function *f(){
 ```javascript
 ✖ Identifier expected - start: 18, end: 26
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 18, end: 26
-✖ Expression expected - start: 26, end: 27
+✖ Identifier expected - start: 26, end: 27
 ✖ Declaration or statement expected - start: 27, end: 29
 ✖ Declaration or statement expected - start: 32, end: 34
 

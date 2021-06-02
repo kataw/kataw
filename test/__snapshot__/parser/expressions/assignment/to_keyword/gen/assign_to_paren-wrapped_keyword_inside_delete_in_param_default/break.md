@@ -158,7 +158,7 @@ async (x = delete ((break) = f)) => {}
 
 ```javascript
 ✖ Identifier expected - start: 20, end: 25
-✖ Expression expected - start: 25, end: 26
+✖ Identifier expected - start: 25, end: 26
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
 ✖ Expected a `;` - start: 30, end: 31

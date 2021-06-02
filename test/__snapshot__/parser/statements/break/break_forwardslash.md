@@ -102,7 +102,7 @@ for(x of 3)break/
 
 ```javascript
 ✖ Unterminated regular expression - start: 16, end: 18
-✖ Expression expected - start: 16, end: 18
+✖ Identifier expected - start: 16, end: 18
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 16, end: 18
 
 ```

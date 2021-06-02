@@ -111,7 +111,7 @@ if (x) async function f(){}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations cannot be used in a single-statement context - start: 6, end: 12
+✖ An async function declaration is not allowed as `if-else` child - start: 6, end: 12
 
 ```
 

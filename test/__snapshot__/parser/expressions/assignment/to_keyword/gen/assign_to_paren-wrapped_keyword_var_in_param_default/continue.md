@@ -104,7 +104,7 @@
 ```javascript
 ✖ Identifier expected - start: 6, end: 14
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 6, end: 14
-✖ Expression expected - start: 14, end: 15
+✖ Identifier expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 15, end: 17
 ✖ Expected a `;` - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 23
