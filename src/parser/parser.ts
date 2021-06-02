@@ -641,10 +641,17 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
       scope,
       flags: ScopeFlags.None
     };
-    catchParameter = parseIdentifierOrPattern(parser,context,scope, parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) ? BindingType.CatchIdentifier : BindingType.CatchPattern,
-  parser.token === SyntaxKind.PrivateIdentifier
-    ? DiagnosticCode.Private_identifiers_cannot_be_used_as_parameters
-    : DiagnosticCode.Binding_identifier_expected);
+    catchParameter = parseIdentifierOrPattern(
+      parser,
+      context,
+      scope,
+      parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)
+        ? BindingType.CatchIdentifier
+        : BindingType.CatchPattern,
+      parser.token === SyntaxKind.PrivateIdentifier
+        ? DiagnosticCode.Private_identifiers_cannot_be_used_as_parameters
+        : DiagnosticCode.Binding_identifier_expected
+    );
 
     consume(
       parser,

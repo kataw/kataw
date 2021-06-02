@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-02
-- From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
-- Path: kataw8/test\__snapshot__\parser\statements\block\gen\x007b_triple
+- From: d
+- Path: e
 > :: test: { triple
 > :: case: async /*
 ## Input
