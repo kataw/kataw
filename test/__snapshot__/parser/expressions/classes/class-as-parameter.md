@@ -336,7 +336,7 @@ class A {
                                             "end": 139
                                         },
                                         "flags": 1,
-                                        "start": 126,
+                                        "start": 130,
                                         "end": 139
                                     }
                                 ],

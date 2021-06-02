@@ -82,55 +82,20 @@ class C { #@{x29e3d}@ }
                                             "end": 12
                                         },
                                         "expression": {
-                                            "kind": 220,
-                                            "propertyList": {
-                                                "kind": 218,
-                                                "properties": [
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "x29e3d",
-                                                        "rawText": "x29e3d",
-                                                        "flags": 96,
-                                                        "start": 13,
-                                                        "end": 19
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 16,
-                                                "start": 13,
-                                                "end": 19
-                                            },
-                                            "flags": 48,
-                                            "start": 12,
-                                            "end": 20
-                                        },
-                                        "flags": 0,
-                                        "start": 11,
-                                        "end": 20
-                                    },
-                                    {
-                                        "kind": 34611453,
-                                        "decoratorToken": {
-                                            "kind": 34611453,
-                                            "flags": 64,
-                                            "start": 20,
-                                            "end": 21
-                                        },
-                                        "expression": {
                                             "kind": 16637,
                                             "text": "",
                                             "flags": 64,
-                                            "start": 21,
-                                            "end": 21
+                                            "start": 12,
+                                            "end": 12
                                         },
                                         "flags": 0,
-                                        "start": 20,
-                                        "end": 21
+                                        "start": 12,
+                                        "end": 12
                                     }
                                 ],
                                 "flags": 32,
                                 "start": 11,
-                                "end": 21
+                                "end": 12
                             },
                             "declaredToken": null,
                             "staticToken": null,
@@ -139,28 +104,113 @@ class C { #@{x29e3d}@ }
                                 "kind": 16637,
                                 "text": "",
                                 "flags": 64,
-                                "start": 21,
-                                "end": 21
+                                "start": 12,
+                                "end": 12
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 32,
                             "start": 11,
-                            "end": 21
+                            "end": 12
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 21
+                    "end": 12
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 23
+                "end": 12
             },
             "flags": 16,
             "start": 0,
-            "end": 23
+            "end": 12
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x29e3d",
+                            "rawText": "x29e3d",
+                            "flags": 96,
+                            "start": 13,
+                            "end": 19
+                        },
+                        "flags": 16,
+                        "start": 13,
+                        "end": 19
+                    }
+                ],
+                "flags": 16,
+                "start": 13,
+                "end": 19
+            },
+            "flags": 16,
+            "start": 12,
+            "end": 20
+        },
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": {
+                "kind": 207,
+                "elements": [
+                    {
+                        "kind": 34611453,
+                        "decoratorToken": {
+                            "kind": 34611453,
+                            "flags": 64,
+                            "start": 20,
+                            "end": 21
+                        },
+                        "expression": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 21,
+                            "end": 21
+                        },
+                        "flags": 0,
+                        "start": 21,
+                        "end": 21
+                    }
+                ],
+                "flags": 32,
+                "start": 20,
+                "end": 21
+            },
+            "classKeyword": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 21,
+                "end": 21
+            },
+            "typeParameters": null,
+            "tail": {
+                "kind": 277,
+                "classHeritage": null,
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 21,
+                    "end": 21
+                },
+                "flags": 21,
+                "start": 32,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 20,
+            "end": 21
         }
     ],
     "isModule": false,
@@ -182,9 +232,8 @@ class C { #@{x29e3d}@ }
 
 ```javascript
 ✖ Invalid character - start: 10, end: 11
-✖ Identifier expected. A decorator name can only be an identifier - start: 11, end: 13
-✖ Identifier expected. A decorator name can only be an identifier - start: 20, end: 23
-✖ Identifier expected - start: 21, end: 23
+✖ Identifier expected. A decorator name can only be an identifier - start: 12, end: 13
+✖ Identifier expected. A decorator name can only be an identifier - start: 21, end: 23
 
 ```
 

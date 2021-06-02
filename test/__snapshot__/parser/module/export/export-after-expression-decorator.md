@@ -66,7 +66,7 @@ let MyClass = @foo export class {}
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "start": 13,
+                                        "start": 15,
                                         "end": 18
                                     }
                                 ],

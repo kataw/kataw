@@ -115,7 +115,7 @@ class Foo {
                                             "end": 30
                                         },
                                         "flags": 0,
-                                        "start": 26,
+                                        "start": 27,
                                         "end": 30
                                     }
                                 ],

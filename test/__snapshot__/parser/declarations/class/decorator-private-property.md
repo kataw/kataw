@@ -64,7 +64,7 @@ class A {
                                             "end": 16
                                         },
                                         "flags": 0,
-                                        "start": 9,
+                                        "start": 13,
                                         "end": 16
                                     }
                                 ],

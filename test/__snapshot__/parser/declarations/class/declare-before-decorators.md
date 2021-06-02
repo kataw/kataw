@@ -72,7 +72,7 @@ class A {
                                             "end": 24
                                         },
                                         "flags": 0,
-                                        "start": 19,
+                                        "start": 21,
                                         "end": 24
                                     }
                                 ],

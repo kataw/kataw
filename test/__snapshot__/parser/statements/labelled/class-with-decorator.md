@@ -39,7 +39,7 @@ class x {}
                             "end": 2
                         },
                         "flags": 1,
-                        "start": 0,
+                        "start": 1,
                         "end": 2
                     }
                 ],

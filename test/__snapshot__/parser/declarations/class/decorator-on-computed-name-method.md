@@ -93,7 +93,7 @@ class A {
                                             "end": 29
                                         },
                                         "flags": 0,
-                                        "start": 9,
+                                        "start": 13,
                                         "end": 29
                                     }
                                 ],

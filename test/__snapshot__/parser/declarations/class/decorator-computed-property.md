@@ -90,7 +90,7 @@ class Foo {
                                             "end": 25
                                         },
                                         "flags": 1,
-                                        "start": 11,
+                                        "start": 15,
                                         "end": 25
                                     }
                                 ],

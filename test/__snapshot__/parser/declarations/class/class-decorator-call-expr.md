@@ -62,7 +62,7 @@ class Foo {}
                             "end": 11
                         },
                         "flags": 1,
-                        "start": 0,
+                        "start": 1,
                         "end": 11
                     }
                 ],

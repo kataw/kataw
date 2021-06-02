@@ -32,26 +32,70 @@
                             "end": 1
                         },
                         "expression": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
                             "start": 1,
-                            "end": 2
+                            "end": 1
                         },
                         "flags": 0,
-                        "start": 0,
-                        "end": 2
+                        "start": 1,
+                        "end": 1
                     }
                 ],
                 "flags": 32,
                 "start": 0,
+                "end": 1
+            },
+            "classKeyword": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "flags": 64,
+                "start": 1,
+                "end": 1
+            },
+            "typeParameters": null,
+            "tail": {
+                "kind": 277,
+                "classHeritage": null,
+                "body": {
+                    "kind": 262,
+                    "elements": [],
+                    "flags": 32,
+                    "start": 1,
+                    "end": 1
+                },
+                "flags": 1,
+                "start": 32,
+                "end": 1
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 1
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392130,
+                "text": 1,
+                "rawText": "1",
+                "flags": 96,
+                "start": 1,
                 "end": 2
             },
+            "flags": 16,
+            "start": 1,
+            "end": 2
+        },
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 0,
+                "start": 2,
                 "end": 8
             },
             "name": {
@@ -78,7 +122,7 @@
                 "end": 13
             },
             "flags": 16,
-            "start": 0,
+            "start": 2,
             "end": 13
         },
         {
@@ -96,21 +140,21 @@
                             "end": 16
                         },
                         "expression": {
-                            "kind": 119,
-                            "elementList": {
-                                "kind": 270,
-                                "elements": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 17,
-                                "end": 17
+                            "kind": 536871042,
+                            "member": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 16,
+                                "end": 16
                             },
+                            "expression": null,
                             "flags": 32,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 0,
-                        "start": 13,
+                        "start": 16,
                         "end": 18
                     }
                 ],
@@ -170,8 +214,10 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. A decorator name can only be an identifier - start: 0, end: 2
-✖ Identifier expected. A decorator name can only be an identifier - start: 13, end: 17
+✖ Identifier expected. A decorator name can only be an identifier - start: 1, end: 2
+✖ Expected a `;` - start: 2, end: 8
+✖ Identifier expected. A decorator name can only be an identifier - start: 16, end: 17
+✖ An member access expression should take an argument. - start: 17, end: 18
 
 ```
 

@@ -3,9 +3,18 @@
 ## Input
 
 `````js
-class A {
-  @foo get getter(){}
+@await
+class C2 {
+   method() {}
 }
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true, script: true }
 `````
 
 ## Output
@@ -20,20 +29,47 @@ class A {
         {
             "kind": 178,
             "declareKeyword": null,
-            "decorators": null,
+            "decorators": {
+                "kind": 207,
+                "elements": [
+                    {
+                        "kind": 34611453,
+                        "decoratorToken": {
+                            "kind": 34611453,
+                            "flags": 64,
+                            "start": 0,
+                            "end": 1
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 6
+                        },
+                        "flags": 1,
+                        "start": 1,
+                        "end": 6
+                    }
+                ],
+                "flags": 32,
+                "start": 0,
+                "end": 6
+            },
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 80,
+                "flags": 81,
                 "start": 0,
-                "end": 5
+                "end": 12
             },
             "name": {
                 "kind": 134299649,
-                "text": "A",
-                "rawText": "A",
+                "text": "C2",
+                "rawText": "C2",
                 "flags": 96,
-                "start": 5,
-                "end": 7
+                "start": 12,
+                "end": 15
             },
             "typeParameters": null,
             "tail": {
@@ -45,52 +81,20 @@ class A {
                         {
                             "kind": 278,
                             "declareToken": null,
-                            "decorators": {
-                                "kind": 207,
-                                "elements": [
-                                    {
-                                        "kind": 34611453,
-                                        "decoratorToken": {
-                                            "kind": 34611453,
-                                            "flags": 65,
-                                            "start": 9,
-                                            "end": 13
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 13,
-                                            "end": 16
-                                        },
-                                        "flags": 0,
-                                        "start": 13,
-                                        "end": 16
-                                    }
-                                ],
-                                "flags": 32,
-                                "start": 9,
-                                "end": 16
-                            },
+                            "decorators": null,
                             "generatorToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
-                            "setKeyword": {
-                                "kind": 16498,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 20
-                            },
+                            "setKeyword": null,
                             "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "getter",
-                                    "rawText": "getter",
+                                    "text": "method",
+                                    "rawText": "method",
                                     "flags": 96,
-                                    "start": 20,
+                                    "start": 17,
                                     "end": 27
                                 },
                                 "typeParameters": null,
@@ -98,7 +102,7 @@ class A {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1024,
+                                    "flags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -110,41 +114,41 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
-                                        "start": 30,
-                                        "end": 30
+                                        "start": 31,
+                                        "end": 31
                                     },
                                     "flags": 32,
                                     "start": 29,
-                                    "end": 31
+                                    "end": 32
                                 },
-                                "flags": 1024,
+                                "flags": 0,
                                 "start": 27,
-                                "end": 31
+                                "end": 32
                             },
-                            "flags": 1024,
-                            "start": 9,
-                            "end": 31
+                            "flags": 0,
+                            "start": 17,
+                            "end": 32
                         }
                     ],
                     "flags": 32,
-                    "start": 9,
-                    "end": 31
+                    "start": 17,
+                    "end": 32
                 },
-                "flags": 7,
+                "flags": 15,
                 "start": 32,
-                "end": 33
+                "end": 34
             },
             "flags": 16,
             "start": 0,
-            "end": 33
+            "end": 34
         }
     ],
     "isModule": false,
-    "source": "class A {\n  @foo get getter(){}\n}",
+    "source": "@await\nclass C2 {\n   method() {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 33
+    "end": 34
 }
 ```
 
@@ -152,9 +156,9 @@ class A {
 
 ```javascript
 
-class A {
-  @foo
-  get getter() {}
+@await
+class C2 {
+  method() {}
 }
 ```
 

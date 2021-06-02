@@ -50,32 +50,70 @@ left@{xa0}@right
                             "end": 5
                         },
                         "expression": {
-                            "kind": 220,
-                            "propertyList": {
-                                "kind": 218,
-                                "properties": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "xa0",
-                                        "rawText": "xa0",
-                                        "flags": 96,
-                                        "start": 6,
-                                        "end": 9
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 16,
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 5,
+                            "end": 5
+                        },
+                        "flags": 0,
+                        "start": 5,
+                        "end": 5
+                    }
+                ],
+                "flags": 32,
+                "start": 4,
+                "end": 5
+            },
+            "classKeyword": null,
+            "name": null,
+            "typeParameters": null,
+            "tail": {
+                "kind": 277,
+                "classHeritage": null,
+                "body": {
+                    "kind": 262,
+                    "elements": [
+                        {
+                            "kind": 280,
+                            "decorators": null,
+                            "declaredToken": null,
+                            "staticToken": null,
+                            "asyncKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "xa0",
+                                "rawText": "xa0",
+                                "flags": 96,
                                 "start": 6,
                                 "end": 9
                             },
-                            "flags": 48,
-                            "start": 5,
-                            "end": 10
-                        },
-                        "flags": 0,
-                        "start": 4,
-                        "end": 10
-                    },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 32,
+                            "start": 6,
+                            "end": 9
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 6,
+                    "end": 9
+                },
+                "flags": 5,
+                "start": 32,
+                "end": 10
+            },
+            "flags": 16,
+            "start": 4,
+            "end": 10
+        },
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": {
+                "kind": 207,
+                "elements": [
                     {
                         "kind": 34611453,
                         "decoratorToken": {
@@ -93,12 +131,12 @@ left@{xa0}@right
                             "end": 16
                         },
                         "flags": 0,
-                        "start": 10,
+                        "start": 11,
                         "end": 16
                     }
                 ],
                 "flags": 32,
-                "start": 4,
+                "start": 10,
                 "end": 16
             },
             "classKeyword": null,
@@ -125,7 +163,7 @@ left@{xa0}@right
                 "end": 16
             },
             "flags": 16,
-            "start": 4,
+            "start": 10,
             "end": 16
         }
     ],
@@ -147,7 +185,8 @@ left@{xa0}@right
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. A decorator name can only be an identifier - start: 4, end: 6
+✖ Identifier expected. A decorator name can only be an identifier - start: 5, end: 6
+✖ A class declaration without the 'default' modifier must have a name. - start: 5, end: 6
 ✖ Binding identifier expected - start: 16, end: 16
 
 ```

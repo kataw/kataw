@@ -562,15 +562,7 @@ function parseCaseBlock(
 
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       const statements = [];
-      while (
-        parser.token &
-        (SyntaxKind.IsExpressionStart |
-          SyntaxKind.IsProperty |
-          SyntaxKind.IsIdentifier |
-          SyntaxKind.IsFutureReserved |
-          SyntaxKind.IsPatternStart |
-          SyntaxKind.IsStatementStart)
-      ) {
+      while (parser.token & 0b00010100100000010110000000000000) {
         statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
       clauses.push(createCaseClause(caseToken, expression, statements, pos, parser.curPos));
@@ -594,15 +586,7 @@ function parseCaseBlock(
       hasDefaultCase = true;
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       const statements = [];
-      while (
-        parser.token &
-        (SyntaxKind.IsExpressionStart |
-          SyntaxKind.IsProperty |
-          SyntaxKind.IsIdentifier |
-          SyntaxKind.IsFutureReserved |
-          SyntaxKind.IsPatternStart |
-          SyntaxKind.IsStatementStart)
-      ) {
+      while (parser.token & 0b00010100100000010110000000000000) {
         statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
       clauses.push(createDefaultClause(defaultToken, statements, pos, parser.curPos));
@@ -4174,8 +4158,8 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.number
       );
     case SyntaxKind.ElementList:
-      const listElements = [];
-      const arrayElements = node.elements;
+      let listElements = [];
+      let arrayElements = node.elements;
       let i = arrayElements.length;
       while (i--) {
         listElements.push(convertArrowParameter(parser, arrayElements[i]));
@@ -4213,8 +4197,8 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
       return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.start, node.end);
     case SyntaxKind.PropertyDefinitionList:
       //createBindingPropertyList()
-      const bindingProperty = [];
-      const properties = node.properties;
+      let bindingProperty = [];
+      let properties = node.properties;
       for (let i = 0, n = properties.length; i < n; ++i) {
         bindingProperty.push(convertArrowParameter(parser, properties[i]));
       }
@@ -5083,7 +5067,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         );
       }
 
-      const arrowParams = [];
+      let arrowParams = [];
 
       for (let i = 0; i < expressions.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, expressions[i]));
@@ -6332,8 +6316,8 @@ function parseImportDeclaration(
 
   let importClause = null;
   let fromClause = null;
-  const token = parser.token;
-  const tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
+  let token = parser.token;
+  let tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
   let typeKeyword = null;
   let typeofKeyword = null;
 
@@ -9285,33 +9269,38 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
 }
 
 function parseDecorators(parser: ParserState, context: Context): DecoratorList | null {
-  //
   if (parser.token === SyntaxKind.Decorator) {
     const pos = parser.curPos;
     const decorators = [];
-    while (parser.token === SyntaxKind.Decorator) {
+    do {
       decorators.push(parseDecoratorExpression(parser, context));
-    }
+    } while (parser.token === SyntaxKind.Decorator);
     return createDecoratorList(decorators, pos, parser.curPos);
   }
   return null;
 }
 
 function parseDecoratorExpression(parser: ParserState, context: Context): Decorator {
-  const pos = parser.curPos;
   const decoratorToken = consumeOptToken(parser, context, SyntaxKind.Decorator);
-  /* error recovery */
-  if ((parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) === 0) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Identifier_expected_A_decorator_name_can_only_be_an_identifier],
-      pos,
-      parser.pos
-    );
-  }
-  const expression = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
-  return createDecorator(decoratorToken, expression, parser.nodeFlags, pos, parser.curPos);
+  const pos = parser.curPos;
+  return createDecorator(
+    decoratorToken,
+    parseMemberExpression(
+      parser,
+      context | Context.DecoratorContext,
+      parseIdentifier(
+        parser,
+        context,
+        SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved,
+        DiagnosticCode.Identifier_expected_A_decorator_name_can_only_be_an_identifier
+      ),
+      SyntaxKind.IsPropertyOrCall,
+      pos
+    ),
+    parser.nodeFlags,
+    pos,
+    parser.curPos
+  );
 }
 
 function nextTokenIsLeftParen(parser: ParserState, context: Context): boolean {
@@ -9895,7 +9884,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           parser.pos
         );
       }
-      const arrowParams = [];
+      let arrowParams = [];
       for (let i = 0; i < params.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, params[i]));
       }

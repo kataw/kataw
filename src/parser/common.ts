@@ -58,7 +58,7 @@ export const enum Context {
   InTypes = 1 << 23, // If node was parsed in the type system context
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
   LexicalContext = 1 << 26, // If node was parsed in a lexical context,
-  ads = Context.IsOutsideFnOrArrow | 0b00000000010000000101111000001000
+  DecoratorContext = 1 << 27
 }
 
 export const enum DestructibleKind {

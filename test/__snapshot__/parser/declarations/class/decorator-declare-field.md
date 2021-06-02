@@ -70,7 +70,7 @@ class x { @declare a }
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "start": 9,
+                                        "start": 11,
                                         "end": 18
                                     }
                                 ],

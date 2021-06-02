@@ -47,7 +47,7 @@ typeof @foo class {};
                                     "end": 11
                                 },
                                 "flags": 0,
-                                "start": 6,
+                                "start": 8,
                                 "end": 11
                             }
                         ],

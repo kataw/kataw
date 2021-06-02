@@ -102,7 +102,7 @@ function func(x,  @foo x) {}
                             "end": 22
                         },
                         "flags": 0,
-                        "start": 16,
+                        "start": 19,
                         "end": 22
                     }
                 ],

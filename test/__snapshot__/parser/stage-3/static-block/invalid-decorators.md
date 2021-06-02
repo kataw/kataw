@@ -130,7 +130,7 @@ class C {
                                             "end": 34
                                         },
                                         "flags": 1,
-                                        "start": 27,
+                                        "start": 31,
                                         "end": 34
                                     }
                                 ],

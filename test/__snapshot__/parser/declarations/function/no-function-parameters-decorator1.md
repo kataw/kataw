@@ -93,7 +93,7 @@ function func(@foo x) {}
                             "end": 18
                         },
                         "flags": 0,
-                        "start": 14,
+                        "start": 15,
                         "end": 18
                     }
                 ],

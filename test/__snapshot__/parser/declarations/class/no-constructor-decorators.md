@@ -66,7 +66,7 @@ class Foo {
                                             "end": 18
                                         },
                                         "flags": 1,
-                                        "start": 11,
+                                        "start": 15,
                                         "end": 18
                                     }
                                 ],
