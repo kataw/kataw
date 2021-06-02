@@ -47,7 +47,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -161,7 +161,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 40,
                 "end": 47
             },
@@ -276,7 +276,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 80,
                 "end": 87
             },
@@ -414,7 +414,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 135,
                 "end": 142
             },
@@ -553,7 +553,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 191,
                 "end": 198
             },
@@ -700,7 +700,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 251,
                 "end": 258
             },
@@ -848,7 +848,7 @@ const { async = true } = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 312,
                 "end": 319
             },

@@ -28,7 +28,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -200,7 +200,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 57,
                 "end": 63
             },

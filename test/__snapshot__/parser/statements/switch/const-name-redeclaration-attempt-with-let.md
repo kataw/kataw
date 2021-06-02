@@ -55,7 +55,7 @@ switch (0) { case 1: const f = 0; default: let f }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 20,
                                     "end": 26
                                 },

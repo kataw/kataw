@@ -35,7 +35,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -142,7 +142,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 39,
                 "end": 45
             },
@@ -232,7 +232,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 64,
                 "end": 70
             },
@@ -333,7 +333,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 97,
                 "end": 103
             },
@@ -442,7 +442,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 133,
                 "end": 139
             },
@@ -556,7 +556,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 172,
                 "end": 178
             },
@@ -629,7 +629,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 194,
                 "end": 200
             },
@@ -715,7 +715,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 226,
                 "end": 232
             },
@@ -811,7 +811,7 @@ const bar9 = <T>(x) => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 258,
                 "end": 264
             },

@@ -36,7 +36,7 @@ const 𝓮𡚭𓀺ⱱ = "ok";
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -80,7 +80,7 @@ const 𝓮𡚭𓀺ⱱ = "ok";
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 32,
                 "end": 85
             },
@@ -124,7 +124,7 @@ const 𝓮𡚭𓀺ⱱ = "ok";
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 100,
                 "end": 114
             },
@@ -168,7 +168,7 @@ const 𝓮𡚭𓀺ⱱ = "ok";
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 129,
                 "end": 143
             },
@@ -212,7 +212,7 @@ const 𝓮𡚭𓀺ⱱ = "ok";
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 159,
                 "end": 166
             },
@@ -256,7 +256,7 @@ const 𝓮𡚭𓀺ⱱ = "ok";
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 182,
                 "end": 214
             },

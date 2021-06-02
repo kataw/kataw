@@ -249,7 +249,7 @@ a = b => { let b; };
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 64,
+                            "flags": 80,
                             "start": 43,
                             "end": 49
                         },
@@ -399,7 +399,7 @@ a = b => { let b; };
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 81,
                 "end": 87
             },
@@ -529,7 +529,7 @@ a = b => { let b; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 121,
                                     "end": 127
                                 },
@@ -615,7 +615,7 @@ a = b => { let b; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 145,
                                     "end": 151
                                 },
@@ -1561,7 +1561,7 @@ a = b => { let b; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 378,
                                     "end": 384
                                 },

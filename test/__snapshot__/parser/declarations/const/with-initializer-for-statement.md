@@ -52,7 +52,7 @@ for (;false;) const x = 1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 13,
                 "end": 19
             },

@@ -139,7 +139,7 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 35,
                 "end": 42
             },
@@ -523,7 +523,7 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 260,
                 "end": 267
             },

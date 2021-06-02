@@ -61,7 +61,7 @@ try {} catch (e) { const e = x; }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 18,
                                     "end": 24
                                 },

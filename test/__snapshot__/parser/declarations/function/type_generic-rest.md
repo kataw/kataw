@@ -308,7 +308,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 65,
+                            "flags": 81,
                             "start": 52,
                             "end": 60
                         },

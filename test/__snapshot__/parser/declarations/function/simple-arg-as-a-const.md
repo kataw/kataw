@@ -61,7 +61,7 @@ function f(x) { const x = y }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 15,
                                 "end": 21
                             },

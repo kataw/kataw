@@ -2452,7 +2452,7 @@ let x = { foo(){ super(); } };
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 675,
                 "end": 681
             },

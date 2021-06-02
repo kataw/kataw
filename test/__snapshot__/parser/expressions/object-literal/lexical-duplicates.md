@@ -1427,7 +1427,7 @@
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
-                                                        "flags": 64,
+                                                        "flags": 80,
                                                         "start": 236,
                                                         "end": 242
                                                     },
@@ -1629,7 +1629,7 @@
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
-                                                        "flags": 64,
+                                                        "flags": 80,
                                                         "start": 275,
                                                         "end": 281
                                                     },

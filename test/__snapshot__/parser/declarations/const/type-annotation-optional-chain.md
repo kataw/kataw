@@ -30,7 +30,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },
@@ -99,7 +99,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 27,
                 "end": 33
             },
@@ -201,7 +201,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 58,
                 "end": 64
             },
@@ -268,7 +268,7 @@ const d: string | null = c?.c;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 65,
+                "flags": 81,
                 "start": 80,
                 "end": 86
             },

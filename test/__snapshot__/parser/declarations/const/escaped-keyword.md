@@ -19,7 +19,7 @@
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 16448,
+                "flags": 16464,
                 "start": 0,
                 "end": 11
             },
@@ -78,7 +78,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 11, end: 13
+✖ Keywords cannot contain escape characters - start: 0, end: 11
 
 ```
 
