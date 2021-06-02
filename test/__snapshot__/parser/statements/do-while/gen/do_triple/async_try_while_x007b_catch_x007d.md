@@ -258,6 +258,7 @@ do do do async try while { catch } while while while
 ```javascript
 ✖ Function declarations cannot be used in a single-statement context - start: 8, end: 14
 ✖ Expected a `;` - start: 14, end: 18
+✖ Declaration or statement expected - start: 18, end: 24
 ✖ Missing an opening parentheses - '( - start: 24, end: 26
 ✖ Property definition expected. Did you mean to use a ':'? - start: 32, end: 34
 ✖ Declaration or statement expected - start: 34, end: 40

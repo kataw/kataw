@@ -57,7 +57,13 @@ while (a);
                             "start": 2,
                             "end": 6
                         },
-                        "expression": null,
+                        "expression": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 8,
+                            "end": 8
+                        },
                         "flags": 32,
                         "start": 2,
                         "end": 9
@@ -107,7 +113,8 @@ while (a);
 ### Diagnostics
 
 ```javascript
-✖ An member access expression should take an argument. - start: 8, end: 9
+✖ An member access expression should take an argument. - start: 2, end: 9
+✖ Identifier expected - start: 8, end: 9
 
 ```
 

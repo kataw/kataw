@@ -257,6 +257,7 @@ do do do catch try {} while while while
 ```javascript
 ✖ 'try' expected - start: 8, end: 14
 ✖ Missing an opening parentheses - '( - start: 14, end: 18
+✖ Declaration or statement expected - start: 21, end: 27
 ✖ Missing an opening parentheses - '( - start: 27, end: 33
 ✖ Missing an opening parentheses - '( - start: 33, end: 39
 

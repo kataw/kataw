@@ -70,7 +70,13 @@ for await (a of b) let
                             "start": 18,
                             "end": 22
                         },
-                        "expression": null,
+                        "expression": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 24,
+                            "end": 24
+                        },
                         "flags": 32,
                         "start": 18,
                         "end": 25
@@ -121,7 +127,8 @@ for await (a of b) let
 
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 9, end: 11
-✖ An member access expression should take an argument. - start: 24, end: 25
+✖ An member access expression should take an argument. - start: 18, end: 25
+✖ Identifier expected - start: 24, end: 25
 
 ```
 

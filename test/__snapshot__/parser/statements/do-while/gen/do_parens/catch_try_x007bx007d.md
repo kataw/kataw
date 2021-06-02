@@ -198,7 +198,7 @@ do( catch try {} while
 ```javascript
 ✖ Identifier expected - start: 3, end: 9
 ✖ 'try' expected - start: 3, end: 9
-✖ Missing an opening parentheses - '( - start: 22, end: 22
+✖ Declaration or statement expected - start: 16, end: 22
 
 ```
 

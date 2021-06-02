@@ -238,6 +238,7 @@ do while [catch] async try while { catch }
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Expected a `;` - start: 22, end: 26
+✖ Declaration or statement expected - start: 26, end: 32
 ✖ Missing an opening parentheses - '( - start: 32, end: 34
 ✖ Property definition expected. Did you mean to use a ':'? - start: 40, end: 42
 ✖ Declaration or statement expected - start: 42, end: 42

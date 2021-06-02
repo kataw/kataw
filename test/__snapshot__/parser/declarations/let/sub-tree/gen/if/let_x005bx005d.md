@@ -48,7 +48,13 @@ if (a) let
                         "start": 6,
                         "end": 10
                     },
-                    "expression": null,
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 12,
+                        "end": 12
+                    },
                     "flags": 32,
                     "start": 6,
                     "end": 13
@@ -82,7 +88,8 @@ if (a) let
 ### Diagnostics
 
 ```javascript
-✖ An member access expression should take an argument. - start: 12, end: 13
+✖ An member access expression should take an argument. - start: 6, end: 13
+✖ Identifier expected - start: 12, end: 13
 
 ```
 

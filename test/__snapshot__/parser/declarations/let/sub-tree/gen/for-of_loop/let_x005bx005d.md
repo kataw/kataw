@@ -63,7 +63,13 @@ for (a of b) let
                         "start": 12,
                         "end": 16
                     },
-                    "expression": null,
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 18,
+                        "end": 18
+                    },
                     "flags": 32,
                     "start": 12,
                     "end": 19
@@ -95,7 +101,8 @@ for (a of b) let
 ### Diagnostics
 
 ```javascript
-✖ An member access expression should take an argument. - start: 18, end: 19
+✖ An member access expression should take an argument. - start: 12, end: 19
+✖ Identifier expected - start: 18, end: 19
 
 ```
 

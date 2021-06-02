@@ -114,6 +114,7 @@ class try {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 9
+✖ Declaration or statement expected - start: 12, end: 12
 
 ```
 

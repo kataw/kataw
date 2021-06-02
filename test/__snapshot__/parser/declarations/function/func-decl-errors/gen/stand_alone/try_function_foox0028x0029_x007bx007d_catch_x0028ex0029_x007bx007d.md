@@ -179,6 +179,7 @@ try function foo() {} catch (e) {}
 ### Diagnostics
 
 ```javascript
+✖ Declaration or statement expected - start: 3, end: 12
 ✖ 'try' expected - start: 21, end: 27
 
 ```

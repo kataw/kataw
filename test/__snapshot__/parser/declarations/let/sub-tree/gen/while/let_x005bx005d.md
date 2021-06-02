@@ -48,7 +48,13 @@ while (a) let
                         "start": 9,
                         "end": 13
                     },
-                    "expression": null,
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 15,
+                        "end": 15
+                    },
                     "flags": 32,
                     "start": 9,
                     "end": 16
@@ -80,7 +86,8 @@ while (a) let
 ### Diagnostics
 
 ```javascript
-✖ An member access expression should take an argument. - start: 15, end: 16
+✖ An member access expression should take an argument. - start: 9, end: 16
+✖ Identifier expected - start: 15, end: 16
 
 ```
 

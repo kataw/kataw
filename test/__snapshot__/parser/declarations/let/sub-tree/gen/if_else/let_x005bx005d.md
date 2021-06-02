@@ -69,7 +69,13 @@ else let
                         "start": 14,
                         "end": 18
                     },
-                    "expression": null,
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 20,
+                        "end": 20
+                    },
                     "flags": 32,
                     "start": 14,
                     "end": 21
@@ -101,7 +107,8 @@ else let
 ### Diagnostics
 
 ```javascript
-✖ An member access expression should take an argument. - start: 20, end: 21
+✖ An member access expression should take an argument. - start: 14, end: 21
+✖ Identifier expected - start: 20, end: 21
 
 ```
 

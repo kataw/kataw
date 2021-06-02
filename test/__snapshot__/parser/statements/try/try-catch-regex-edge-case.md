@@ -118,6 +118,7 @@ try/catch/finally/{
 ✖ Unknown regular expression flag - start: 12, end: 13
 ✖ Unknown regular expression flag - start: 13, end: 14
 ✖ Unknown regular expression flag - start: 14, end: 15
+✖ Declaration or statement expected - start: 3, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
 
 ```

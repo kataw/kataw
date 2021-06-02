@@ -44,7 +44,13 @@
                         "start": 5,
                         "end": 9
                     },
-                    "expression": null,
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 11,
+                        "end": 11
+                    },
                     "flags": 32,
                     "start": 5,
                     "end": 12
@@ -76,7 +82,8 @@
 ### Diagnostics
 
 ```javascript
-✖ An member access expression should take an argument. - start: 11, end: 12
+✖ An member access expression should take an argument. - start: 5, end: 12
+✖ Identifier expected - start: 11, end: 12
 
 ```
 

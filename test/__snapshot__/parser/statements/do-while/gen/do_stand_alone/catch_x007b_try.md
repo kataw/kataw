@@ -147,7 +147,7 @@ do catch { try
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
+✖ Declaration or statement expected - start: 14, end: 14
 
 ```
 

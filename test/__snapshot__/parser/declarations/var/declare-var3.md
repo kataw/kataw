@@ -67,111 +67,71 @@ declare var tup: [{foo: string}, {bar: number}];
                                 },
                                 "typeParameters": {
                                     "kind": 266,
-                                    "parameters": [],
+                                    "parameters": [
+                                        {
+                                            "kind": 267,
+                                            "type": {
+                                                "kind": 134234353,
+                                                "properties": [
+                                                    {
+                                                        "kind": 193,
+                                                        "key": {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "start": 30,
+                                                            "end": 34
+                                                        },
+                                                        "value": {
+                                                            "kind": 134234347,
+                                                            "flags": 64,
+                                                            "start": 35,
+                                                            "end": 42
+                                                        },
+                                                        "optionalToken": null,
+                                                        "staticToken": null,
+                                                        "flags": 0,
+                                                        "start": 30,
+                                                        "end": 42
+                                                    }
+                                                ],
+                                                "indexers": [],
+                                                "callProperties": [],
+                                                "internalSlots": [],
+                                                "flags": 0,
+                                                "start": 29,
+                                                "end": 44
+                                            },
+                                            "flags": 0,
+                                            "start": 29,
+                                            "end": 44
+                                        }
+                                    ],
                                     "flags": 0,
                                     "start": 28,
-                                    "end": 29
+                                    "end": 45
                                 },
                                 "flags": 0,
                                 "start": 22,
-                                "end": 29
+                                "end": 45
                             },
                             "flags": 0,
                             "start": 21,
-                            "end": 29
+                            "end": 45
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 11,
-                        "end": 29
-                    },
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 204,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 30,
-                                            "end": 34
-                                        },
-                                        "value": {
-                                            "kind": 134299649,
-                                            "text": "string",
-                                            "rawText": "string",
-                                            "flags": 96,
-                                            "start": 35,
-                                            "end": 42
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 30,
-                                        "end": 42
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 30,
-                                "end": 42
-                            },
-                            "flags": 32,
-                            "start": 29,
-                            "end": 44
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 29,
-                        "end": 44
+                        "end": 45
                     }
                 ],
                 "flags": 16,
                 "start": 11,
-                "end": 44
+                "end": 45
             },
             "flags": 4112,
             "start": 7,
-            "end": 44
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 44,
-                    "end": 44
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 44,
-                    "end": 45
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 45,
-                    "end": 45
-                },
-                "flags": 32,
-                "start": 44,
-                "end": 45
-            },
-            "flags": 16,
-            "start": 44,
             "end": 46
         },
         {
@@ -216,111 +176,71 @@ declare var tup: [{foo: string}, {bar: number}];
                                 },
                                 "typeParameters": {
                                     "kind": 266,
-                                    "parameters": [],
+                                    "parameters": [
+                                        {
+                                            "kind": 267,
+                                            "type": {
+                                                "kind": 134234353,
+                                                "properties": [
+                                                    {
+                                                        "kind": 193,
+                                                        "key": {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "start": 88,
+                                                            "end": 91
+                                                        },
+                                                        "value": {
+                                                            "kind": 134234347,
+                                                            "flags": 64,
+                                                            "start": 92,
+                                                            "end": 99
+                                                        },
+                                                        "optionalToken": null,
+                                                        "staticToken": null,
+                                                        "flags": 0,
+                                                        "start": 88,
+                                                        "end": 99
+                                                    }
+                                                ],
+                                                "indexers": [],
+                                                "callProperties": [],
+                                                "internalSlots": [],
+                                                "flags": 0,
+                                                "start": 87,
+                                                "end": 100
+                                            },
+                                            "flags": 0,
+                                            "start": 87,
+                                            "end": 100
+                                        }
+                                    ],
                                     "flags": 0,
                                     "start": 86,
-                                    "end": 87
+                                    "end": 101
                                 },
                                 "flags": 0,
                                 "start": 71,
-                                "end": 87
+                                "end": 101
                             },
                             "flags": 0,
                             "start": 70,
-                            "end": 87
+                            "end": 101
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 58,
-                        "end": 87
-                    },
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 204,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 88,
-                                            "end": 91
-                                        },
-                                        "value": {
-                                            "kind": 134299649,
-                                            "text": "string",
-                                            "rawText": "string",
-                                            "flags": 96,
-                                            "start": 92,
-                                            "end": 99
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 88,
-                                        "end": 99
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 88,
-                                "end": 99
-                            },
-                            "flags": 32,
-                            "start": 87,
-                            "end": 100
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 87,
-                        "end": 100
+                        "end": 101
                     }
                 ],
                 "flags": 16,
                 "start": 58,
-                "end": 100
+                "end": 101
             },
             "flags": 4112,
             "start": 54,
-            "end": 100
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 100,
-                    "end": 100
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 100,
-                    "end": 101
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 101,
-                    "end": 101
-                },
-                "flags": 32,
-                "start": 100,
-                "end": 101
-            },
-            "flags": 16,
-            "start": 100,
             "end": 102
         },
         {
@@ -460,23 +380,14 @@ declare var tup: [{foo: string}, {bar: number}];
 
 ```javascript
 
+var arrOfObjs;
+var roArrOfObjs;
+var tup;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 29, end: 30
-✖ ',' expected - start: 29, end: 30
-✖ Missing initializer in destructuring declaration - start: 44, end: 45
-✖ ',' expected - start: 44, end: 45
-✖ Expected a `;` - start: 44, end: 45
-✖ Identifier expected - start: 45, end: 46
-✖ Expected to find a '>' to match the '<' token here. - start: 87, end: 88
-✖ ',' expected - start: 87, end: 88
-✖ Missing initializer in destructuring declaration - start: 100, end: 101
-✖ ',' expected - start: 100, end: 101
-✖ Expected a `;` - start: 100, end: 101
-✖ Identifier expected - start: 101, end: 102
-
+✔ No errors
 ```
 

@@ -148,7 +148,13 @@
                                 "start": 16,
                                 "end": 16
                             },
-                            "expression": null,
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 17,
+                                "end": 17
+                            },
                             "flags": 32,
                             "start": 16,
                             "end": 18
@@ -217,7 +223,8 @@
 ✖ Identifier expected. A decorator name can only be an identifier - start: 1, end: 2
 ✖ Expected a `;` - start: 2, end: 8
 ✖ Identifier expected. A decorator name can only be an identifier - start: 16, end: 17
-✖ An member access expression should take an argument. - start: 17, end: 18
+✖ An member access expression should take an argument. - start: 16, end: 18
+✖ Identifier expected - start: 17, end: 18
 
 ```
 

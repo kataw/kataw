@@ -336,6 +336,7 @@
 ✖ Binding identifier expected - start: 35, end: 39
 ✖ Missing an opening parentheses - '( - start: 35, end: 39
 ✖ Expression expected - start: 35, end: 39
+✖ Declaration or statement expected - start: 39, end: 45
 ✖ Missing an opening parentheses - '( - start: 45, end: 50
 ✖ Missing an opening parentheses - '( - start: 50, end: 54
 ✖ Declaration or statement expected - start: 54, end: 55

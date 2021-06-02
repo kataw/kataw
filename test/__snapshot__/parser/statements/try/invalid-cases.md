@@ -3473,6 +3473,7 @@ try {} catch({ x: "str" }) {}
 ```javascript
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 22, end: 24
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 57, end: 59
+✖ Declaration or statement expected - start: 106, end: 111
 ✖ Expected a `;` - start: 147, end: 148
 ✖ Cannot redeclare block-scoped variable - start: 171, end: 175
 ✖ Duplicate identifier - start: 199, end: 203

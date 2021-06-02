@@ -180,7 +180,7 @@ do {} while (x) { catch { try
 
 ```javascript
 ✖ 'try' expected - start: 17, end: 23
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
+✖ Declaration or statement expected - start: 29, end: 29
 
 ```
 

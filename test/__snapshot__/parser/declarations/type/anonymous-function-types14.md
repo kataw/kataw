@@ -53,75 +53,69 @@ type T = Array<(string) => number>
                 },
                 "typeParameters": {
                     "kind": 266,
-                    "parameters": [],
+                    "parameters": [
+                        {
+                            "kind": 267,
+                            "type": {
+                                "kind": 260,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 64,
+                                    "start": 16,
+                                    "end": 22
+                                },
+                                "flags": 0,
+                                "start": 15,
+                                "end": 23
+                            },
+                            "flags": 0,
+                            "start": 15,
+                            "end": 23
+                        }
+                    ],
                     "flags": 0,
                     "start": 14,
-                    "end": 15
+                    "end": 23
                 },
                 "flags": 0,
                 "start": 8,
-                "end": 15
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 23
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 23,
-                    "end": 26
-                },
-                "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "string",
-                        "rawText": "string",
-                        "flags": 96,
-                        "start": 16,
-                        "end": 22
-                    }
-                ],
-                "asyncKeyword": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "number",
-                        "rawText": "number",
-                        "flags": 96,
-                        "start": 26,
-                        "end": 33
-                    },
-                    "operatorToken": {
-                        "kind": 34883,
-                        "flags": 64,
-                        "start": 33,
-                        "end": 34
-                    },
-                    "right": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 34,
-                        "end": 34
-                    },
-                    "flags": 32,
+                "kind": 198,
+                "left": {
+                    "kind": 134299649,
+                    "text": "number",
+                    "rawText": "number",
+                    "flags": 96,
                     "start": 26,
+                    "end": 33
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 64,
+                    "start": 33,
+                    "end": 34
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 34,
                     "end": 34
                 },
                 "flags": 32,
-                "start": 15,
+                "start": 26,
                 "end": 34
             },
             "flags": 16,
-            "start": 15,
+            "start": 26,
             "end": 34
         }
     ],
@@ -143,7 +137,7 @@ type T = Array<(string) => number>
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 15, end: 16
+✖ Expected to find a '>' to match the '<' token here. - start: 23, end: 26
 ✖ Identifier expected - start: 34, end: 34
 
 ```

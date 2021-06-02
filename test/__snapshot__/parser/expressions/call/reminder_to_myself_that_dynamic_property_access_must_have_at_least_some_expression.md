@@ -40,7 +40,13 @@ foo(async[])
                                 "start": 4,
                                 "end": 9
                             },
-                            "expression": null,
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 10,
+                                "end": 10
+                            },
                             "flags": 32,
                             "start": 4,
                             "end": 11
@@ -78,7 +84,8 @@ foo(async[])
 ### Diagnostics
 
 ```javascript
-✖ An member access expression should take an argument. - start: 10, end: 11
+✖ An member access expression should take an argument. - start: 4, end: 11
+✖ Identifier expected - start: 10, end: 11
 
 ```
 

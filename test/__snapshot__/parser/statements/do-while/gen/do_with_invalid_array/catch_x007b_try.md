@@ -225,7 +225,7 @@ do while [catch] catch { try
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ 'try' expected - start: 16, end: 22
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
+✖ Declaration or statement expected - start: 28, end: 28
 
 ```
 

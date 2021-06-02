@@ -245,6 +245,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Declaration or statement expected - start: 16, end: 25
 ✖ 'try' expected - start: 34, end: 40
 
 ```
