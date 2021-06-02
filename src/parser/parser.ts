@@ -644,7 +644,12 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
   let finallyBlock: BlockStatement | null = null;
   let finallyKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   if (!catchClause || parser.token === SyntaxKind.FinallyKeyword) {
-    finallyKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.FinallyKeyword);
+    finallyKeyword = consumeToken(
+      parser,
+      context | Context.AllowRegExp,
+      SyntaxKind.FinallyKeyword,
+      DiagnosticCode.Declaration_or_statement_expected
+    );
     finallyBlock = parseBlockStatement(
       parser,
       context,
@@ -1377,100 +1382,84 @@ function parseForStatement(
     initializer = parseLeftHandSideExpression(parser, context | Context.DisallowInContext, LeftHandSide.ForStatement);
   }
 
-  if (parser.token & SyntaxKind.IsInOrOf || awaitKeyword) {
-    if (parser.nodeFlags & 0b00000000000000000110000000000000) {
+  const ofKeyword = awaitKeyword
+    ? consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword)
+    : consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword);
+
+  if (ofKeyword) {
+    if (!parser.assignable) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+        diagnosticMap[DiagnosticCode.The_left_hand_side_of_a_for_of_statement_must_be_a_variable_or_a_property_access],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    const expression = parseExpression(parser, context);
+    consume(
+      parser,
+      context | Context.AllowRegExp,
+      SyntaxKind.RightParen,
+      DiagnosticCode.Expected_a_to_match_the_token_here
+    );
+    return createForOfStatement(
+      forKeyword,
+      ofKeyword,
+      initializer,
+      expression,
+      parseStatement(
+        parser,
+        (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
+        /* allowFunction */ false,
+        scope,
+        labels,
+        /* ownLabels */ null
+      ),
+      awaitKeyword,
+      pos,
+      parser.curPos
+    );
+  }
+
+  const inKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword);
+
+  if (inKeyword) {
+    if (!parser.assignable) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode.The_left_hand_side_of_a_for_in_statement_must_be_a_variable_or_a_property_access],
         parser.curPos,
         parser.pos
       );
     }
 
-    const ofKeyword = awaitKeyword
-      ? consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword)
-      : consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword);
+    const expression = parseExpressions(parser, context);
 
-    if (ofKeyword) {
-      if (!parser.assignable) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[
-            DiagnosticCode.The_left_hand_side_of_a_for_of_statement_must_be_a_variable_or_a_property_access
-          ],
-          parser.curPos,
-          parser.pos
-        );
-      }
-      const expression = parseExpression(parser, context);
-      consume(
+    consume(
+      parser,
+      context | Context.AllowRegExp,
+      SyntaxKind.RightParen,
+      DiagnosticCode.Expected_a_to_match_the_token_here
+    );
+
+    return createForInStatement(
+      forKeyword,
+      inKeyword,
+      initializer,
+      expression,
+      parseStatement(
         parser,
-        context | Context.AllowRegExp,
-        SyntaxKind.RightParen,
-        DiagnosticCode.Expected_a_to_match_the_token_here
-      );
-      return createForOfStatement(
-        forKeyword,
-        ofKeyword,
-        initializer,
-        expression,
-        parseStatement(
-          parser,
-          (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
-          /* allowFunction */ false,
-          scope,
-          labels,
-          /* ownLabels */ null
-        ),
-        awaitKeyword,
-        pos,
-        parser.curPos
-      );
-    }
-
-    const inKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword);
-
-    if (inKeyword) {
-      if (!parser.assignable) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[
-            DiagnosticCode.The_left_hand_side_of_a_for_in_statement_must_be_a_variable_or_a_property_access
-          ],
-          parser.curPos,
-          parser.pos
-        );
-      }
-
-      const expression = parseExpressions(parser, context);
-
-      consume(
-        parser,
-        context | Context.AllowRegExp,
-        SyntaxKind.RightParen,
-        DiagnosticCode.Expected_a_to_match_the_token_here
-      );
-
-      return createForInStatement(
-        forKeyword,
-        inKeyword,
-        initializer,
-        expression,
-        parseStatement(
-          parser,
-          (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
-          /* allowFunction */ false,
-          scope,
-          labels,
-          /* ownLabels */ null
-        ),
-        pos,
-        parser.curPos
-      );
-    }
+        (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
+        /* allowFunction */ false,
+        scope,
+        labels,
+        /* ownLabels */ null
+      ),
+      pos,
+      parser.curPos
+    );
   }
 
   let condition: ExpressionNode | null = null;
@@ -1821,7 +1810,7 @@ function parseConditionalExpression(
   parser.assignable = false;
   return createConditionalExpression(
     shortCircuit,
-    consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark),
+    consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark, DiagnosticCode.Expression_expected),
     parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
     consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
     parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
@@ -2176,15 +2165,15 @@ function parseMemberAccessExpression(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
       diagnosticMap[DiagnosticCode.An_member_access_expression_should_take_an_argument],
-      parser.curPos,
+      pos,
       parser.pos
     );
-  } else {
-    expression = parseExpressions(
-      parser,
-      (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
-    );
   }
+  expression = parseExpressions(
+    parser,
+    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+  );
+
   consume(parser, context, SyntaxKind.RightBracket);
   parser.assignable = true;
   return createMemberAccessExpression(member, expression, pos, parser.curPos);
@@ -7302,7 +7291,14 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
     let requireDefault = false;
-    while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType | SyntaxKind.IsFutureReserved)) {
+    while (
+      parser.token &
+      (SyntaxKind.IsIdentifier |
+        SyntaxKind.IsPatternStart |
+        SyntaxKind.IsStartOfType |
+        SyntaxKind.IsFutureReserved |
+        SyntaxKind.IsLessThanOrLeftParen)
+    ) {
       const type = parseTypeParameter(parser, context, requireDefault);
       types.push(type);
       if (type.defaultType) requireDefault = true;
@@ -7323,7 +7319,14 @@ function parseTypeParameterInstantiationList(
   const pos = parser.curPos;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
-    while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType | SyntaxKind.IsFutureReserved)) {
+    while (
+      parser.token &
+      (SyntaxKind.IsIdentifier |
+        SyntaxKind.IsPatternStart |
+        SyntaxKind.IsStartOfType |
+        SyntaxKind.IsFutureReserved |
+        SyntaxKind.IsLessThanOrLeftParen)
+    ) {
       types.push(parseTypeParameterInstantiation(parser, context));
       if (parser.token !== SyntaxKind.GreaterThan) {
         consume(parser, context, SyntaxKind.Comma);
@@ -7715,13 +7718,7 @@ function parseLexicalDeclaration(
   type: BindingType
 ): LexicalDeclaration {
   const pos = parser.curPos;
-  const lexicalToken = consumeKeywordAndCheckForEscapeSequence(
-    parser,
-    context,
-    token,
-    NodeFlags.IsStatement,
-    pos
-  );
+  const lexicalToken = consumeKeywordAndCheckForEscapeSequence(parser, context, token, NodeFlags.IsStatement, pos);
   const declarationList = parseBindingList(
     parser,
     (context | 0b00000100000000000000000000010000) ^ Context.InBlock,
@@ -7974,7 +7971,7 @@ function parseObjectTypeSpreadProperty(
   pos: number
 ): ObjectTypeSpreadProperty {
   return createObjectTypeSpreadProperty(
-    /* ellipsisToken */ consumeToken(parser, context, SyntaxKind.Ellipsis),
+    /* ellipsisToken */ consumeToken(parser, context, SyntaxKind.Ellipsis, DiagnosticCode.Type_expected),
     /* type */ parseType(parser, context),
     /* staticKeyword */ staticKeyword,
     pos,
@@ -9186,7 +9183,7 @@ export function parseImportMetaOrCall(parser: ParserState, context: Context, inN
       parser.pos
     );
   }
-  const importToken = consumeToken(parser, context, SyntaxKind.ImportKeyword);
+  const importToken = consumeToken(parser, context, SyntaxKind.ImportKeyword, DiagnosticCode.Expression_expected);
   return parser.token === SyntaxKind.Period
     ? parseImportMeta(parser, context, importToken)
     : parseImportCall(parser, context, importToken);

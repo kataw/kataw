@@ -3,12 +3,12 @@ import { ExpressionNode } from '.';
 
 export interface MemberAccessExpression extends SyntaxNode {
   readonly member: ExpressionNode;
-  readonly expression: ExpressionNode | /* error recovery */ null;
+  readonly expression: ExpressionNode;
 }
 
 export function createMemberAccessExpression(
   member: ExpressionNode,
-  expression: ExpressionNode | null,
+  expression: ExpressionNode,
   start: number,
   end: number
 ): MemberAccessExpression {

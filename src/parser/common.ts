@@ -206,7 +206,8 @@ export function consumeOptToken<T extends TokenSyntaxKind>(
 export function consumeToken<T extends TokenSyntaxKind>(
   parser: ParserState,
   context: Context,
-  token: T
+  token: T,
+  diagnosticMessage?: DiagnosticCode
 ): SyntaxToken<T> | any {
   if (parser.token === token) {
     const { curPos, token, nodeFlags } = parser;
@@ -214,6 +215,16 @@ export function consumeToken<T extends TokenSyntaxKind>(
     return createToken(token, nodeFlags | NodeFlags.ChildLess, curPos, parser.curPos);
   }
 
+  if (diagnosticMessage && parser.previousErrorPos !== parser.pos) {
+    parser.previousErrorPos = parser.pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[diagnosticMessage],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return null;
 }
 

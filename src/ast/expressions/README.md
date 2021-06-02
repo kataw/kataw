@@ -7,8 +7,8 @@ interface Expression <: Node { }
 ### Identifier
 
 ```js
-interface IdentifierName <: ExpressionNode {
-  kind: NodeKind.IdentifierName;
+interface Identifier <: ExpressionNode {
+  kind: NodeKind.Identifier;
   text: string;
   rawText: string;
 }
@@ -455,7 +455,7 @@ interface ImportMeta <: ExpressionNode {
 interface IndexExpression <: ExpressionNode {
   kind: NodeKind.IndexExpression;
   member: LeftHandSideExpression | OptionalExpression;
-  expression: Expression;
+  expression: Identifier | PrivateIdentifier;
 }
 ```
 
@@ -465,7 +465,7 @@ interface IndexExpression <: ExpressionNode {
 interface MemberAccessExpression <: ExpressionNode {
   kind: NodeKind.MemberAccessExpression;
   member: LeftHandSideExpression | OptionalExpression;
-  expression: IdentifierName | PrivateIdentifier;
+  expression: Expression;
 }
 ```
 
@@ -636,7 +636,7 @@ interface OptionalChain <: ExpressionNode {
 interface IndexChain <: ExpressionNode {
   kind: NodeKind.IndexChain;
   chain: IndexChain | MemberAccessChain | CallChain | null;
-  expression: Expression | IdentifierName | null;
+  expression: Expression | Identifier | null;
 }
 ```
 
@@ -646,7 +646,7 @@ interface IndexChain <: ExpressionNode {
 interface MemberAccessChain <: ExpressionNode {
   kind: NodeKind.MemberAccessChain;
   chain: IndexChain | MemberAccessChain | CallChain | null;
-  expression: IdentifierName | PrivateName | null;
+  expression: Identifier | PrivateName | null;
 }
 ```
 
@@ -665,7 +665,7 @@ interface CallChain <: ExpressionNode {
 
 ```js
 enum PropertyKey {
-  IdentifierName, NumericLiteral, BigIntLiteral, StringLiteral, ComputedPropertyName
+  Identifier, NumericLiteral, BigIntLiteral, StringLiteral, ComputedPropertyName
 }
 ```
 
