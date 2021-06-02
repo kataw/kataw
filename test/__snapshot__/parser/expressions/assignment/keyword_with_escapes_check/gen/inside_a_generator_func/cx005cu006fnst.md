@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\inside_a_generator_func
 > :: test: inside a generator func
@@ -62,7 +62,7 @@ function *f(){
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 16449,
+                                "flags": 16465,
                                 "start": 14,
                                 "end": 27
                             },
@@ -125,7 +125,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 27, end: 29
+✖ Keywords cannot contain escape characters - start: 14, end: 27
 ✖ Expected a `;` - start: 27, end: 29
 ✖ Declaration or statement expected - start: 31, end: 33
 

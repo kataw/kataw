@@ -48,13 +48,15 @@ export const enum NodeFlags {
   IsUntionTypeIndention = 1 << 30
 }
 
+// DO NOT EDIT ANY OF THIS NUMBERS. IT WILL BREAK THE PARSER!!!!!
+
 /**
  * Types of syntax which can appear in a source file of Kataw.
  */
 export const enum SyntaxKind {
   Add = 99634,
-  AddAssign = 4130,
-  AnyKeyword = 134234252,
+  AddAssign = 0b00000000000000000001000000100010,
+  AnyKeyword = 0b00001000000000000100000010001100,
   ArgumentList = 256,
   ArgumentsIdentifier = 16635,
   BindingElement = 281,

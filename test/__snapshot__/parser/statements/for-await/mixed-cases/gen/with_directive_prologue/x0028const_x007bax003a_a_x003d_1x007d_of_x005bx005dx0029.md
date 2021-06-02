@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/statements/for-await/mixed-cases/autogen.md
 - Path: kataw8/test\__snapshot__\parser\statements\for-await\mixed-cases\gen\with_directive_prologue
 > :: test: with directive prologue

@@ -18,10 +18,10 @@ export interface Diagnostic {
 export enum DiagnosticKind {
   EarlyError = 1 << 0,
   Runtime = 1 << 1,
-  Message,
-  Warning,
-  Error,
-  Hint
+  Message = 1 << 2,
+  Warning = 1 << 3,
+  Error = 1 << 4,
+  Hint = 1 << 5,
 }
 
 /**

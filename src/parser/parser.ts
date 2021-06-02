@@ -149,7 +149,7 @@ import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
 import { Char } from './scanner/char';
-import { isIdentifierStart, isLineTerminator } from '../parser/scanner/common';
+import { isLineTerminator } from '../parser/scanner/common';
 import {
   createTypeParameterInstantiationList,
   TypeParameterInstantiationList
@@ -215,7 +215,6 @@ export function create(source: string, pos: number, onError: OnError): ParserSta
     destructible: DestructibleKind.None,
     assignable: true,
     onError,
-    labels: [],
     tokenValue: undefined,
     tokenRaw: '',
     previousErrorPos: 0
@@ -292,7 +291,7 @@ export function parse(
 
   while (parser.token !== SyntaxKind.EndOfFileToken) {
     if (parser.token & 0b00010000100000011110000000000000) {
-      statements.push(moduleOrScript(parser, context, scope, null, null));
+      statements.push(moduleOrScript(parser, context, scope, /* labels */ null, /* ownLabels */ null));
     } else {
       if (parser.previousErrorPos !== parser.pos) {
         parser.onError(
@@ -338,14 +337,7 @@ function parseStatementListItem(
   switch (parser.token) {
     case SyntaxKind.FunctionKeyword:
     case SyntaxKind.AsyncKeyword:
-      return parseFunctionDeclaration(
-        parser,
-        context,
-        scope,
-        /* declareKeyword */ null,
-        ParseFunctionFlag.None,
-        labels
-      );
+      return parseFunctionDeclaration(parser, context, scope, null, ParseFunctionFlag.None, labels);
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
       return parseClassDeclaration(parser, context, scope, /* declareKeyword */ null, /* isDefaultModifier */ false);
@@ -7413,7 +7405,7 @@ function parseVariableDeclarationList(
   const pos = parser.curPos;
   const declarations = [];
 
-  while (parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+  while (parser.token & 0b00010000100000000100000000000000) {
     declarations.push(parseVariableDeclaration(parser, context, inForStatement, scope, type));
     // If we can consume a semicolon (either explicitly, or with ASI), then consider us done
     // with parsing the list of variable declarators.
@@ -7422,7 +7414,7 @@ function parseVariableDeclarationList(
     // are done if we see an 'in' keyword in front of us. Same with for-of
     if (parser.token & (SyntaxKind.Smi | SyntaxKind.IsInOrOf) || parser.nodeFlags & NodeFlags.NewLine) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if ((parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) < 1) {
+      if ((parser.token & 0b00010000100000000100000000000000) < 1) {
         parser.previousErrorPos = parser.pos;
         parser.onError(
           DiagnosticSource.Parser,
@@ -7723,19 +7715,16 @@ function parseLexicalDeclaration(
   type: BindingType
 ): LexicalDeclaration {
   const pos = parser.curPos;
-  const lexicalToken = consumeToken(parser, context, token);
-  if (lexicalToken.flags & 0b00000000000000000110000000000000) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  const lexicalToken = consumeKeywordAndCheckForEscapeSequence(
+    parser,
+    context,
+    token,
+    NodeFlags.IsStatement,
+    pos
+  );
   const declarationList = parseBindingList(
     parser,
-    (context | Context.LexicalContext | Context.InBlock) ^ Context.InBlock,
+    (context | 0b00000100000000000000000000010000) ^ Context.InBlock,
     flags,
     /* inForStatement */ false,
     scope,
@@ -7756,7 +7745,7 @@ function parseBindingList(
   const pos = parser.curPos;
   const bindinglist = [];
 
-  while (parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+  while (parser.token & 0b00010000100000000100000000000000) {
     bindinglist.push(parseLexicalBinding(parser, context, flags, inForStatement, scope, type));
     // If we can consume a semicolon (either explicitly, or with ASI), then consider us done
     // with parsing the list of lexical bindings.
@@ -7766,7 +7755,7 @@ function parseBindingList(
     if (parser.token & (SyntaxKind.Smi | SyntaxKind.IsInOrOf) || parser.nodeFlags & NodeFlags.NewLine) break;
 
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if ((parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) < 1) {
+      if ((parser.token & 0b00010000100000000100000000000000) < 1) {
         parser.previousErrorPos = parser.pos;
         parser.onError(
           DiagnosticSource.Parser,

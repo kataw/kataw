@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\assignment_paren_wrapped
 > :: test: assignment paren wrapped
@@ -41,7 +41,7 @@
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 16448,
+                "flags": 16464,
                 "start": 1,
                 "end": 11
             },
@@ -96,7 +96,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 11
-✖ Keywords cannot contain escape characters - start: 11, end: 13
+✖ Keywords cannot contain escape characters - start: 1, end: 11
 ✖ Expected a `;` - start: 11, end: 13
 ✖ Expected a `;` - start: 15, end: 16
 

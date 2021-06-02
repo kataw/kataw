@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/misc/escaped-keywords/autogen.md
 - Path: kataw8/test\__snapshot__\parser\misc\escaped-keywords\gen\stand-alone
 > :: test: stand-alone
@@ -22,7 +22,7 @@
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 16448,
+                "flags": 16464,
                 "start": 0,
                 "end": 10
             },
@@ -81,7 +81,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 10, end: 14
+✖ Keywords cannot contain escape characters - start: 0, end: 10
 
 ```
 

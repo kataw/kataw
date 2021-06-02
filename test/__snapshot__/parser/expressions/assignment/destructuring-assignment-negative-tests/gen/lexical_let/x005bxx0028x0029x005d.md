@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/destructuring-assignment-negative-tests/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\destructuring-assignment-negative-tests\gen\lexical_let
 > :: test: lexical let

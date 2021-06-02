@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/statements/labelled/keywords/autogen.md
 - Path: kataw8/test\__snapshot__\parser\statements\labelled\keywords\gen\can_not_use_keywords_as_label_name
 > :: test: can not use keywords as label name
@@ -22,7 +22,7 @@ const: x
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 64,
+                "flags": 80,
                 "start": 0,
                 "end": 5
             },

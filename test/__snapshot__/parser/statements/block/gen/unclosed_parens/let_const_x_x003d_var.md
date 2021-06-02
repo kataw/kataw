@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
 - Path: kataw8/test\__snapshot__\parser\statements\block\gen\unclosed_parens
 > :: test: unclosed parens
@@ -46,7 +46,7 @@
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 64,
+                            "flags": 80,
                             "start": 6,
                             "end": 12
                         },

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/expressions/await/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\await\gen\var
 > :: test: var
@@ -116,7 +116,7 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                                 "kind": 162,
                                                 "lexicalKeyword": {
                                                     "kind": 37757004,
-                                                    "flags": 64,
+                                                    "flags": 80,
                                                     "start": 38,
                                                     "end": 44
                                                 },

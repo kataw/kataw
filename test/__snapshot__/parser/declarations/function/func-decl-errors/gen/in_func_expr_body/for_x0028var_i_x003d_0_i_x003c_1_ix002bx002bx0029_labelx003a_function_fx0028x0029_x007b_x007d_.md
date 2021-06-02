@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-01
+- Regenerated: 2021-06-02
 - From: kataw8/test\__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
 - Path: kataw8/test\__snapshot__\parser\declarations\function\func-decl-errors\gen\in_func_expr_body
 > :: test: in func expr body

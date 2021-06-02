@@ -155,7 +155,6 @@ export interface ParserState {
   assignable: boolean;
   tokenValue: any;
   tokenRaw: string;
-  labels: any[];
   previousErrorPos: number;
 }
 
