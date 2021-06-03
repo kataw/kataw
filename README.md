@@ -44,7 +44,20 @@ code lines and at the same time experience insane performance.
 
 ## CST nodes
 
-Kataw exports all CST nodes so you can create your own nodes.
+All CST nodes has a `kind` which is a number that represents the node type. It's identical to `ESTree` type with the exception that Kataw doesn't do any
+string comparisons - everything in Kataw is a number.
+
+Here is an example:
+
+```ts
+if (node.kind === Kataw.SyntaxKind.Identifier) {}
+```
+
+In the same way as for `NodeFlags` the `kind` contain some additional information that you can extract through public API.
+E. g. `Kataw.isKeyword`, `Kataw.isIdentifier`, and `Kataw.isFutureReserved`. This is made possbible because there are no `token` in Kataw. Everything is
+a `SyntaxKind` - `token` and `kind` merged into one.
+
+Kataw also exports all CST nodes so you can create your own nodes.
 
 Here is an example:
 
