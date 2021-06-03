@@ -56,53 +56,20 @@ function* bar() { yield /re/ }
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 198,
-                                    "left": {
-                                        "kind": 229,
-                                        "yieldKeyword": {
-                                            "kind": 8454253,
-                                            "flags": 64,
-                                            "start": 17,
-                                            "end": 23
-                                        },
-                                        "delegate": false,
-                                        "asteriskToken": null,
-                                        "expression": null,
-                                        "flags": 32,
-                                        "start": 17,
-                                        "end": 23
-                                    },
-                                    "operatorToken": {
-                                        "kind": 35640,
-                                        "flags": 64,
-                                        "start": 23,
-                                        "end": 25
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "re",
-                                        "rawText": "re",
-                                        "flags": 96,
-                                        "start": 25,
-                                        "end": 27
-                                    },
-                                    "flags": 32,
+                                "kind": 229,
+                                "yieldKeyword": {
+                                    "kind": 8454253,
+                                    "flags": 64,
                                     "start": 17,
-                                    "end": 27
+                                    "end": 23
                                 },
-                                "operatorToken": {
-                                    "kind": 35640,
-                                    "flags": 64,
-                                    "start": 27,
-                                    "end": 28
-                                },
-                                "right": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 28,
+                                "delegate": false,
+                                "asteriskToken": null,
+                                "expression": {
+                                    "kind": 221,
+                                    "text": "/re/",
+                                    "flags": 96,
+                                    "start": 23,
                                     "end": 28
                                 },
                                 "flags": 32,
@@ -142,12 +109,14 @@ function* bar() { yield /re/ }
 
 ```javascript
 
+function * bar() {
+  yield /re/;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 28, end: 30
-
+✔ No errors
 ```
 

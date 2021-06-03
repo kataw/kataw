@@ -57,53 +57,20 @@ function* f(){ yield
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 198,
-                                    "left": {
-                                        "kind": 229,
-                                        "yieldKeyword": {
-                                            "kind": 8454253,
-                                            "flags": 64,
-                                            "start": 14,
-                                            "end": 20
-                                        },
-                                        "delegate": false,
-                                        "asteriskToken": null,
-                                        "expression": null,
-                                        "flags": 32,
-                                        "start": 14,
-                                        "end": 20
-                                    },
-                                    "operatorToken": {
-                                        "kind": 35640,
-                                        "flags": 65,
-                                        "start": 20,
-                                        "end": 22
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 25
-                                    },
-                                    "flags": 32,
+                                "kind": 229,
+                                "yieldKeyword": {
+                                    "kind": 8454253,
+                                    "flags": 64,
                                     "start": 14,
-                                    "end": 25
+                                    "end": 20
                                 },
-                                "operatorToken": {
-                                    "kind": 35640,
-                                    "flags": 64,
-                                    "start": 25,
-                                    "end": 26
-                                },
-                                "right": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 26,
+                                "delegate": false,
+                                "asteriskToken": null,
+                                "expression": {
+                                    "kind": 221,
+                                    "text": "/foo/",
+                                    "flags": 96,
+                                    "start": 20,
                                     "end": 26
                                 },
                                 "flags": 32,
@@ -143,12 +110,14 @@ function* f(){ yield
 
 ```javascript
 
+function * f() {
+  yield /foo/;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 26, end: 28
-
+✔ No errors
 ```
 

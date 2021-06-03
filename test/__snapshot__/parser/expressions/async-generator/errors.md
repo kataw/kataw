@@ -3058,332 +3058,311 @@ async function * gen() {class C extends await { }}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 229,
-                                    "yieldKeyword": {
-                                        "kind": 8454253,
-                                        "flags": 64,
-                                        "start": 1514,
-                                        "end": 1519
-                                    },
-                                    "delegate": false,
-                                    "asteriskToken": null,
-                                    "expression": null,
-                                    "flags": 32,
-                                    "start": 1514,
-                                    "end": 1519
-                                },
-                                "operatorToken": {
-                                    "kind": 35640,
-                                    "flags": 64,
-                                    "start": 1519,
-                                    "end": 1521
-                                },
-                                "right": {
-                                    "kind": 229,
-                                    "yieldKeyword": {
-                                        "kind": 8454253,
-                                        "flags": 64,
-                                        "start": 1521,
-                                        "end": 1527
-                                    },
-                                    "delegate": false,
-                                    "asteriskToken": null,
-                                    "expression": null,
-                                    "flags": 32,
-                                    "start": 1521,
-                                    "end": 1527
-                                },
-                                "flags": 32,
-                                "start": 1514,
-                                "end": 1527
-                            },
-                            "flags": 16,
-                            "start": 1514,
-                            "end": 1527
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 1514,
-                    "end": 1527
-                },
-                "flags": 32,
-                "start": 1512,
-                "end": 1528
-            },
-            "typeParameters": null,
-            "returnType": null,
-            "flags": 400,
-            "start": 1446,
-            "end": 1528
-        },
-        {
-            "kind": 176,
-            "declareKeyword": null,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 65,
-                "start": 1528,
-                "end": 1534
-            },
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 64,
-                "start": 1534,
-                "end": 1543
-            },
-            "generatorToken": {
-                "kind": 67143222,
-                "flags": 64,
-                "start": 1543,
-                "end": 1545
-            },
-            "name": {
-                "kind": 134299649,
-                "text": "gen",
-                "rawText": "gen",
-                "flags": 96,
-                "start": 1545,
-                "end": 1549
-            },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 1549,
-                "end": 1551
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 126,
-                                "operandToken": {
-                                    "kind": 99634,
-                                    "flags": 64,
-                                    "start": 1553,
-                                    "end": 1554
-                                },
-                                "operand": {
-                                    "kind": 229,
-                                    "yieldKeyword": {
-                                        "kind": 8454253,
-                                        "flags": 64,
-                                        "start": 1554,
-                                        "end": 1560
-                                    },
-                                    "delegate": false,
-                                    "asteriskToken": null,
-                                    "expression": null,
-                                    "flags": 32,
-                                    "start": 1554,
-                                    "end": 1560
-                                },
-                                "flags": 32,
-                                "start": 1553,
-                                "end": 1560
-                            },
-                            "flags": 16,
-                            "start": 1553,
-                            "end": 1560
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 1553,
-                    "end": 1560
-                },
-                "flags": 32,
-                "start": 1551,
-                "end": 1561
-            },
-            "typeParameters": null,
-            "returnType": null,
-            "flags": 400,
-            "start": 1528,
-            "end": 1561
-        },
-        {
-            "kind": 176,
-            "declareKeyword": null,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 65,
-                "start": 1561,
-                "end": 1567
-            },
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 64,
-                "start": 1567,
-                "end": 1576
-            },
-            "generatorToken": {
-                "kind": 67143222,
-                "flags": 64,
-                "start": 1576,
-                "end": 1578
-            },
-            "name": {
-                "kind": 134299649,
-                "text": "gen",
-                "rawText": "gen",
-                "flags": 96,
-                "start": 1578,
-                "end": 1582
-            },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 1582,
-                "end": 1584
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 126,
-                                "operandToken": {
-                                    "kind": 99634,
-                                    "flags": 64,
-                                    "start": 1586,
-                                    "end": 1587
-                                },
-                                "operand": {
-                                    "kind": 229,
-                                    "yieldKeyword": {
-                                        "kind": 8454253,
-                                        "flags": 64,
-                                        "start": 1587,
-                                        "end": 1593
-                                    },
-                                    "delegate": false,
-                                    "asteriskToken": null,
-                                    "expression": {
-                                        "kind": 201392130,
-                                        "text": 3,
-                                        "rawText": "3",
-                                        "flags": 96,
-                                        "start": 1593,
-                                        "end": 1595
-                                    },
-                                    "flags": 32,
-                                    "start": 1587,
-                                    "end": 1595
-                                },
-                                "flags": 32,
-                                "start": 1586,
-                                "end": 1595
-                            },
-                            "flags": 16,
-                            "start": 1586,
-                            "end": 1595
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 1586,
-                    "end": 1595
-                },
-                "flags": 32,
-                "start": 1584,
-                "end": 1596
-            },
-            "typeParameters": null,
-            "returnType": null,
-            "flags": 400,
-            "start": 1561,
-            "end": 1596
-        },
-        {
-            "kind": 176,
-            "declareKeyword": null,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 65,
-                "start": 1596,
-                "end": 1659
-            },
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 64,
-                "start": 1659,
-                "end": 1668
-            },
-            "generatorToken": {
-                "kind": 67143222,
-                "flags": 64,
-                "start": 1668,
-                "end": 1670
-            },
-            "name": {
-                "kind": 134299649,
-                "text": "gen",
-                "rawText": "gen",
-                "flags": 96,
-                "start": 1670,
-                "end": 1674
-            },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 1674,
-                "end": 1676
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
-                                    "start": 1678,
-                                    "end": 1683
+                                    "start": 1514,
+                                    "end": 1519
                                 },
                                 "delegate": false,
                                 "asteriskToken": null,
-                                "expression": null,
+                                "expression": {
+                                    "kind": 221,
+                                    "text": "/ yield}",
+                                    "flags": 96,
+                                    "start": 1519,
+                                    "end": 1528
+                                },
                                 "flags": 32,
-                                "start": 1678,
-                                "end": 1683
+                                "start": 1514,
+                                "end": 1528
                             },
                             "flags": 16,
-                            "start": 1678,
+                            "start": 1514,
+                            "end": 1528
+                        },
+                        {
+                            "kind": 176,
+                            "declareKeyword": null,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 65,
+                                "start": 1528,
+                                "end": 1534
+                            },
+                            "functionKeyword": {
+                                "kind": 37822554,
+                                "flags": 64,
+                                "start": 1534,
+                                "end": 1543
+                            },
+                            "generatorToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 1543,
+                                "end": 1545
+                            },
+                            "name": {
+                                "kind": 134299649,
+                                "text": "gen",
+                                "rawText": "gen",
+                                "flags": 96,
+                                "start": 1545,
+                                "end": 1549
+                            },
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 1549,
+                                "end": 1551
+                            },
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 126,
+                                                "operandToken": {
+                                                    "kind": 99634,
+                                                    "flags": 64,
+                                                    "start": 1553,
+                                                    "end": 1554
+                                                },
+                                                "operand": {
+                                                    "kind": 229,
+                                                    "yieldKeyword": {
+                                                        "kind": 8454253,
+                                                        "flags": 64,
+                                                        "start": 1554,
+                                                        "end": 1560
+                                                    },
+                                                    "delegate": false,
+                                                    "asteriskToken": null,
+                                                    "expression": null,
+                                                    "flags": 32,
+                                                    "start": 1554,
+                                                    "end": 1560
+                                                },
+                                                "flags": 32,
+                                                "start": 1553,
+                                                "end": 1560
+                                            },
+                                            "flags": 16,
+                                            "start": 1553,
+                                            "end": 1560
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 1553,
+                                    "end": 1560
+                                },
+                                "flags": 32,
+                                "start": 1551,
+                                "end": 1561
+                            },
+                            "typeParameters": null,
+                            "returnType": null,
+                            "flags": 400,
+                            "start": 1528,
+                            "end": 1561
+                        },
+                        {
+                            "kind": 176,
+                            "declareKeyword": null,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 65,
+                                "start": 1561,
+                                "end": 1567
+                            },
+                            "functionKeyword": {
+                                "kind": 37822554,
+                                "flags": 64,
+                                "start": 1567,
+                                "end": 1576
+                            },
+                            "generatorToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 1576,
+                                "end": 1578
+                            },
+                            "name": {
+                                "kind": 134299649,
+                                "text": "gen",
+                                "rawText": "gen",
+                                "flags": 96,
+                                "start": 1578,
+                                "end": 1582
+                            },
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 1582,
+                                "end": 1584
+                            },
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 126,
+                                                "operandToken": {
+                                                    "kind": 99634,
+                                                    "flags": 64,
+                                                    "start": 1586,
+                                                    "end": 1587
+                                                },
+                                                "operand": {
+                                                    "kind": 229,
+                                                    "yieldKeyword": {
+                                                        "kind": 8454253,
+                                                        "flags": 64,
+                                                        "start": 1587,
+                                                        "end": 1593
+                                                    },
+                                                    "delegate": false,
+                                                    "asteriskToken": null,
+                                                    "expression": {
+                                                        "kind": 201392130,
+                                                        "text": 3,
+                                                        "rawText": "3",
+                                                        "flags": 96,
+                                                        "start": 1593,
+                                                        "end": 1595
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 1587,
+                                                    "end": 1595
+                                                },
+                                                "flags": 32,
+                                                "start": 1586,
+                                                "end": 1595
+                                            },
+                                            "flags": 16,
+                                            "start": 1586,
+                                            "end": 1595
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 1586,
+                                    "end": 1595
+                                },
+                                "flags": 32,
+                                "start": 1584,
+                                "end": 1596
+                            },
+                            "typeParameters": null,
+                            "returnType": null,
+                            "flags": 400,
+                            "start": 1561,
+                            "end": 1596
+                        },
+                        {
+                            "kind": 176,
+                            "declareKeyword": null,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 65,
+                                "start": 1596,
+                                "end": 1659
+                            },
+                            "functionKeyword": {
+                                "kind": 37822554,
+                                "flags": 64,
+                                "start": 1659,
+                                "end": 1668
+                            },
+                            "generatorToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 1668,
+                                "end": 1670
+                            },
+                            "name": {
+                                "kind": 134299649,
+                                "text": "gen",
+                                "rawText": "gen",
+                                "flags": 96,
+                                "start": 1670,
+                                "end": 1674
+                            },
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 1674,
+                                "end": 1676
+                            },
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 64,
+                                                    "start": 1678,
+                                                    "end": 1683
+                                                },
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": null,
+                                                "flags": 32,
+                                                "start": 1678,
+                                                "end": 1683
+                                            },
+                                            "flags": 16,
+                                            "start": 1678,
+                                            "end": 1683
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 1678,
+                                    "end": 1683
+                                },
+                                "flags": 32,
+                                "start": 1676,
+                                "end": 1683
+                            },
+                            "typeParameters": null,
+                            "returnType": null,
+                            "flags": 400,
+                            "start": 1596,
                             "end": 1683
                         }
                     ],
                     "flags": 32,
-                    "start": 1678,
+                    "start": 1514,
                     "end": 1683
                 },
                 "flags": 32,
-                "start": 1676,
+                "start": 1512,
                 "end": 1683
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 400,
-            "start": 1596,
+            "start": 1446,
             "end": 1683
         },
         {
@@ -7606,7 +7585,7 @@ async function * gen() {class C extends await { }}
 ✖ Identifier expected - start: 1228, end: 1229
 ✖ Expected a `;` - start: 1362, end: 1370
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 1397, end: 1403
-✖ Expected a `;` - start: 1521, end: 1528
+✖ Unterminated regular expression - start: 1519, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
 ✖ Expected a `;` - start: 1683, end: 1684

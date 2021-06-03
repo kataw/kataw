@@ -88,66 +88,52 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "end": 27
                                                 },
                                                 "right": {
-                                                    "kind": 198,
-                                                    "left": {
-                                                        "kind": 229,
-                                                        "yieldKeyword": {
-                                                            "kind": 8454253,
-                                                            "flags": 64,
-                                                            "start": 28,
-                                                            "end": 34
-                                                        },
-                                                        "delegate": false,
-                                                        "asteriskToken": null,
-                                                        "expression": null,
-                                                        "flags": 32,
+                                                    "kind": 229,
+                                                    "yieldKeyword": {
+                                                        "kind": 8454253,
+                                                        "flags": 64,
                                                         "start": 28,
                                                         "end": 34
                                                     },
-                                                    "operatorToken": {
-                                                        "kind": 35640,
-                                                        "flags": 64,
-                                                        "start": 34,
-                                                        "end": 36
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
-                                                        "text": "x",
-                                                        "rawText": "x",
+                                                    "delegate": false,
+                                                    "asteriskToken": null,
+                                                    "expression": {
+                                                        "kind": 221,
+                                                        "text": "/ x}   }",
                                                         "flags": 96,
-                                                        "start": 36,
-                                                        "end": 38
+                                                        "start": 34,
+                                                        "end": 43
                                                     },
                                                     "flags": 32,
-                                                    "start": 22,
-                                                    "end": 38
+                                                    "start": 28,
+                                                    "end": 43
                                                 },
                                                 "flags": 32,
                                                 "start": 22,
-                                                "end": 38
+                                                "end": 43
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
                                         "start": 22,
-                                        "end": 38
+                                        "end": 43
                                     },
                                     "flags": 48,
                                     "start": 20,
-                                    "end": 39
+                                    "end": 43
                                 },
                                 "flags": 32,
                                 "start": 14,
-                                "end": 39
+                                "end": 43
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 39
+                            "end": 43
                         }
                     ],
                     "flags": 32,
                     "start": 14,
-                    "end": 39
+                    "end": 43
                 },
                 "flags": 32,
                 "start": 13,
@@ -173,14 +159,13 @@ function *f(){   s = {"foo": yield / x}   }
 
 ```javascript
 
-function * f() {
-  s = { "\"foo\"":  yield / x };
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Unterminated regular expression - start: 34, end: 43
+✖ ',' expected - start: 43, end: 43
+
 ```
 

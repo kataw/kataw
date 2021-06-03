@@ -1183,7 +1183,7 @@ export function parseLabelledStatement(
     );
   }
 
-  let label = expr.text;
+  const label = expr.text;
   let set = labels;
 
   while (set) {
@@ -4200,8 +4200,8 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.number
       );
     case SyntaxKind.ElementList:
-      let listElements = [];
-      let arrayElements = node.elements;
+      const listElements = [];
+      const arrayElements = node.elements;
       let i = arrayElements.length;
       while (i--) {
         listElements.push(convertArrowParameter(parser, arrayElements[i]));
@@ -4239,8 +4239,8 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
       return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.start, node.end);
     case SyntaxKind.PropertyDefinitionList:
       //createBindingPropertyList()
-      let bindingProperty = [];
-      let properties = node.properties;
+      const bindingProperty = [];
+      const properties = node.properties;
       for (let i = 0, n = properties.length; i < n; ++i) {
         bindingProperty.push(convertArrowParameter(parser, properties[i]));
       }
@@ -5108,7 +5108,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         );
       }
 
-      let arrowParams = [];
+      const arrowParams = [];
 
       for (let i = 0; i < expressions.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, expressions[i]));
@@ -6374,8 +6374,8 @@ function parseImportDeclaration(
 
   let importClause = null;
   let fromClause = null;
-  let token = parser.token;
-  let tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
+  const token = parser.token;
+  const tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
   let typeKeyword = null;
   let typeofKeyword = null;
 
@@ -9943,7 +9943,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           parser.pos
         );
       }
-      let arrowParams = [];
+      const arrowParams = [];
       for (let i = 0; i < params.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, params[i]));
       }
