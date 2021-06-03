@@ -13,7 +13,7 @@ export const enum ExportKind {
   Value
 }
 
-export const enum NodeFlags {
+export enum NodeFlags {
   None = 0,
   NewLine = 1 << 0,
   NoneSimpleParamList = 1 << 1,
@@ -53,7 +53,7 @@ export const enum NodeFlags {
 /**
  * Types of syntax which can appear in a source file of Kataw.
  */
-export const enum SyntaxKind {
+export enum SyntaxKind {
   Add = 99634,
   AddAssign = 0b00000000000000000001000000100010,
   AnyKeyword = 0b00001000000000000100000010001100,
