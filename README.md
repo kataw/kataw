@@ -114,6 +114,21 @@ kataw.createToken(kataw.SyntaxKind.ForKeyword, Kataw.NodeFlags.ChildLess, /* sta
 
 - Performance
 
+## Comments
+
+Leading and trailing comments can be extracted at correct position with `kataw.getLeadingComments` and `kataw.getTrailingComments`.
+
+```ts
+Hello
+/* I'm a comment */
+  there!
+```
+
+Getting the trailing comment of `Hello` can be done like this `kataw.getTrailingComments(5, 24).` It get the comments from the end value of
+`hello` until the start value of `there!`.
+
+If you want a `1:1` copy of the actual source code, you can do a "*slice*" from the start value of `Hello` to the end value of `there!`.
+
 
 ## Current state
 

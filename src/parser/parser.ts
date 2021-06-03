@@ -9083,6 +9083,18 @@ export function parseClassElement(
     }
   }
 
+  if (parser.tokenValue === 'prototype') {
+    if (staticKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Classes_may_not_have_a_static_property_named_prototype],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }
+
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     if (declareKeyword) {
       parser.onError(

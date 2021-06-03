@@ -68,7 +68,7 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
   return result;
 }
 
-export function getLeadingComment(text: string, pos: number): any[] {
+export function getLeadingComments(text: string, pos: number): any[] {
   return extractComments(text, pos, /*trailing*/ false);
 }
 

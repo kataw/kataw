@@ -233,7 +233,6 @@
   "An async function declaration is not allowed as `if-else` child": 239,
   "Octal escape sequences are not allowed in template literal": 240,
   "Octal literals are not allowed in template literal": 241
-
 }
 
 
