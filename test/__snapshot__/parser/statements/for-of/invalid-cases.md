@@ -5359,7 +5359,7 @@ for ({a: b.c}-- of d) e;
 ```javascript
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 13, end: 15
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 69, end: 71
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 76, end: 79
+✖ The left-hand side of a for-of loop cannot start with 'let' - start: 76, end: 79
 ✖ ',' expected - start: 101, end: 103
 ✖ ',' expected - start: 104, end: 106
 ✖ Identifier expected - start: 104, end: 106
@@ -5380,8 +5380,8 @@ for ({a: b.c}-- of d) e;
 ✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 434, end: 438
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 462, end: 466
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 535, end: 537
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 555, end: 558
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 595, end: 598
+✖ The left-hand side of a for-of loop cannot start with 'let' - start: 555, end: 558
+✖ The left-hand side of a for-of loop cannot start with 'let' - start: 595, end: 598
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 598, end: 600
 ✖ Identifier expected - start: 614, end: 617
 ✖ Identifier expected - start: 619, end: 620

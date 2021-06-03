@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\array_with_assign_to_unwrapped
 > :: test: array with assign to unwrapped
@@ -112,7 +112,7 @@ async x => break = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 16
-✖ Expression expected - start: 16, end: 18
+✖ Identifier expected - start: 16, end: 18
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 16, end: 18
 
 ```

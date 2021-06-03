@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_keyword_in_param_default
 > :: test: assign to paren-wrapped keyword in param default
@@ -141,7 +141,7 @@ async (x = (continue) = f) => {}
 ```javascript
 ✖ Identifier expected - start: 12, end: 20
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 12, end: 20
-✖ Expression expected - start: 20, end: 21
+✖ Identifier expected - start: 20, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
 ✖ Expected a `;` - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 29

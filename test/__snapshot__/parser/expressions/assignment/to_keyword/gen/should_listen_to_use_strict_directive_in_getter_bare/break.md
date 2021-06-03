@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\should_listen_to_use_strict_directive_in_getter_bare
 > :: test: should listen to use strict directive in getter bare
@@ -185,7 +185,7 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 46, end: 48
+✖ Identifier expected - start: 46, end: 48
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 46, end: 48
 ✖ The left-hand side must be a variable or a property access. - start: 46, end: 48
 ✖ Declaration or statement expected - start: 50, end: 54

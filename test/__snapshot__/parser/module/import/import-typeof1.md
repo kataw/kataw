@@ -41,7 +41,7 @@ import typeof { foo25, bar1 } from "baz";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 29,
                     "end": 34
                 },

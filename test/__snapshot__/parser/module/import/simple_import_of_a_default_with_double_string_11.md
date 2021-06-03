@@ -35,7 +35,7 @@ import {x, z as b} from "y"
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 18,
                     "end": 23
                 },

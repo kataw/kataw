@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_VALUE_keyword_inside_delete_in_param_default
 > :: test: assign to paren-wrapped VALUE keyword inside delete in param default

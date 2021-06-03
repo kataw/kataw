@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assigning_to_keyword_paren_wrapped
 > :: test: assigning to keyword paren wrapped
@@ -90,7 +90,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 6
-✖ Expression expected - start: 6, end: 8
+✖ Identifier expected - start: 6, end: 8
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 6, end: 8
 ✖ Expected a `;` - start: 10, end: 11
 

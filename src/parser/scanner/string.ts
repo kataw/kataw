@@ -290,16 +290,18 @@ export function scanEscapeSequence(
     // `8`, `9` (invalid escapes)
     case EscapeChars.Eigth:
     case EscapeChars.Nine:
-      parser.onError(
-        DiagnosticSource.Lexer,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes],
-        parser.curPos,
-        parser.pos
-      );
+      // \8 \9 are acceptable in web compatibility mode
+      if ((context & Context.OptionsDisableWebCompat) | Context.Strict) {
+        parser.onError(
+          DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes],
+          parser.curPos,
+          parser.pos
+        );
 
-      parser.nodeFlags |= NodeFlags.ContainsInvalidEscape;
-
+        parser.nodeFlags |= NodeFlags.ContainsInvalidEscape;
+      }
       return String.fromCharCode(ch);
 
     case EscapeChars.Unicode:

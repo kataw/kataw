@@ -62,7 +62,7 @@ export * as x from "x" foo
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 13,
                     "end": 18
                 },

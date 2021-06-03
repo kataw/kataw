@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\should_listen_to_use_strict_directive_in_global_bare
 > :: test: should listen to use strict directive in global bare
@@ -79,7 +79,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 19, end: 21
+✖ Identifier expected - start: 19, end: 21
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 19, end: 21
 
 ```

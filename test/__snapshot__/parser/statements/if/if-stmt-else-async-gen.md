@@ -121,7 +121,8 @@ if (false) ; else async function* f() {  }
 ### Diagnostics
 
 ```javascript
-✖ Function declarations cannot be used in a single-statement context - start: 17, end: 23
+✖ An async function declaration is not allowed as `if-else` child - start: 17, end: 23
+✖ Generators can only be declared at the top level or inside a block - start: 33, end: 35
 
 ```
 

@@ -571,27 +571,27 @@ export function addBlockName(parser: ParserState, context: Context, scope: any, 
     scope['#' + name] = type;
   }
 }
-
 export function lookupContinueTarget(labels: any, value: string): boolean {
-  let iterationLabel: any;
-  while (labels) {
-    if (labels.iteration) {
-      iterationLabel = labels.iteration;
-      for (let i = 0; i < iterationLabel.length; i++) {
-        if (iterationLabel[i] === value) {
-          return false;
-        }
+  if (labels) {
+    let set = labels;
+
+    do {
+      if (set.iteration && set.iteration.has(value)) {
+        return false;
       }
-    }
-    labels = labels.parent;
+    } while ((set = set.parentLabels));
   }
   return true;
 }
 
 export function lookupBreakTarget(labels: any, value: string): boolean {
   if (labels) {
-    if (labels['#' + value]) return false;
-    while ((labels = labels.parent)) if (labels['#' + value]) return false;
+    let labelSet = labels;
+    do {
+      if (labelSet.statements.has(value)) {
+        return false;
+      }
+    } while ((labelSet = labelSet.parentLabels));
   }
   return true;
 }

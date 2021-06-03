@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/misc/escaped-keywords/autogen.md
 - Path: kataw8/test\__snapshot__\parser\misc\escaped-keywords\gen\stand-alone
 > :: test: stand-alone
@@ -32,7 +32,7 @@
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 16,
                     "end": 21
                 },

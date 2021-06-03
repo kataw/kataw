@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_keyword_in_generator_param_default
 > :: test: assign to paren-wrapped keyword in generator param default
@@ -169,7 +169,7 @@ function *f(x = (continue) = f) {}
 ✖ Identifier expected - start: 17, end: 25
 ✖ Expression expected - start: 17, end: 25
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 17, end: 25
-✖ Expression expected - start: 25, end: 26
+✖ Identifier expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
 ✖ Expected a `;` - start: 30, end: 31
 

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/await/async-await-errors/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\await\async-await-errors\gen\with_strict_directive
 > :: test: with strict directive
@@ -173,6 +173,7 @@
 
 ```javascript
 ✖ Identifier expected. Reserved word in strict mode - start: 43, end: 49
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
 
 ```

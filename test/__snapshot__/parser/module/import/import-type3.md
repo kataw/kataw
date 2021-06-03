@@ -35,7 +35,7 @@ import { type Foo12 } from "bar";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 21,
                     "end": 26
                 },

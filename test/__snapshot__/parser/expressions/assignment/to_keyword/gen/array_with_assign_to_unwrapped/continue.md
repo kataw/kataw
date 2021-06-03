@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\array_with_assign_to_unwrapped
 > :: test: array with assign to unwrapped
@@ -113,7 +113,7 @@ async x => continue = 1
 ```javascript
 ✖ Identifier expected - start: 10, end: 19
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 10, end: 19
-✖ Expression expected - start: 19, end: 21
+✖ Identifier expected - start: 19, end: 21
 
 ```
 

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren_wrapped_keyword_in_a_generator
 > :: test: assign to paren wrapped keyword in a generator
@@ -145,7 +145,7 @@ function *f(){
 
 ```javascript
 ✖ Identifier expected - start: 18, end: 23
-✖ Expression expected - start: 23, end: 24
+✖ Identifier expected - start: 23, end: 24
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
 ✖ Declaration or statement expected - start: 29, end: 31

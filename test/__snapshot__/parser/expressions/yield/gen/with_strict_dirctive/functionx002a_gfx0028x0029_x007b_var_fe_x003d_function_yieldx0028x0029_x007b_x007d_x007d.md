@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/yield/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\yield\gen\with_strict_dirctive
 > :: test: with_strict_dirctive
@@ -177,12 +177,14 @@
 
 ```javascript
 
+function * gf() {
+  var fe = function yield() {};
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 48, end: 54
-
+✔ No errors
 ```
 

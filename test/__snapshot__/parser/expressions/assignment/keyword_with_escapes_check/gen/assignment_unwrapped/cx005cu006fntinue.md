@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\assignment_unwrapped
 > :: test: assignment unwrapped
@@ -72,7 +72,7 @@ c\u006fntinue = x;
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 0, end: 13
 ✖ Keywords cannot contain escape characters - start: 0, end: 13
-✖ Expression expected - start: 13, end: 15
+✖ Identifier expected - start: 13, end: 15
 
 ```
 

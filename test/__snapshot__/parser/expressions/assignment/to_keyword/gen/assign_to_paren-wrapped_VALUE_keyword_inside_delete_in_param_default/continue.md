@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_VALUE_keyword_inside_delete_in_param_default
 > :: test: assign to paren-wrapped VALUE keyword inside delete in param default
@@ -187,7 +187,7 @@ function *f(x = delete ((continue) = f)) {}
 ✖ Identifier expected - start: 25, end: 33
 ✖ Expression expected - start: 25, end: 33
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 25, end: 33
-✖ Expression expected - start: 33, end: 34
+✖ Identifier expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 36
 ✖ Expected a `;` - start: 38, end: 39
 ✖ Declaration or statement expected - start: 39, end: 40

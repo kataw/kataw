@@ -73,14 +73,13 @@ function *f(){ for (yield of obj); }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 167,
+                            "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
                                 "start": 14,
                                 "end": 18
                             },
-                            "awaitKeyword": null,
                             "initializer": {
                                 "kind": 229,
                                 "yieldKeyword": {
@@ -91,18 +90,20 @@ function *f(){ for (yield of obj); }
                                 },
                                 "delegate": false,
                                 "asteriskToken": null,
-                                "expression": null,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "of",
+                                    "rawText": "of",
+                                    "flags": 96,
+                                    "start": 25,
+                                    "end": 28
+                                },
                                 "flags": 32,
                                 "start": 20,
-                                "end": 25
-                            },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 64,
-                                "start": 25,
                                 "end": 28
                             },
-                            "expression": {
+                            "condition": null,
+                            "incrementor": {
                                 "kind": 134299649,
                                 "text": "obj",
                                 "rawText": "obj",
@@ -155,7 +156,6 @@ function *f(){ for (yield of obj); }
 
 ```javascript
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 20, end: 28
-✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 28, end: 32
 
 ```
 

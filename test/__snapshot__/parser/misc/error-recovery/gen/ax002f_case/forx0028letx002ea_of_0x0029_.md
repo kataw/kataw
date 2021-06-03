@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/misc/error-recovery/autogen.md
 - Path: kataw8/test\__snapshot__\parser\misc\error-recovery\gen\ax002f_case
 > :: test: a/ case
@@ -92,7 +92,7 @@ for(let.a of 0);
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 9, end: 12
+✖ The left-hand side of a for-of loop cannot start with 'let' - start: 9, end: 12
 
 ```
 

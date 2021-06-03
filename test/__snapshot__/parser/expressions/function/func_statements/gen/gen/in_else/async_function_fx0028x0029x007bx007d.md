@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\function\func_statements\gen\gen\in_else
 > :: test: in else
@@ -130,7 +130,7 @@ else async function f(){}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations cannot be used in a single-statement context - start: 14, end: 20
+✖ An async function declaration is not allowed as `if-else` child - start: 14, end: 20
 
 ```
 

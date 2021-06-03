@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/declarations/class/special_keys/autogen.md
 - Path: kataw8/test\__snapshot__\parser\declarations\class\special_keys\gen\as_super_class_name
 > :: test: as super class name
@@ -127,7 +127,7 @@ class x extends continue {}
 ```javascript
 ✖ Identifier expected - start: 15, end: 24
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 15, end: 24
-✖ Expression expected - start: 24, end: 26
+✖ Identifier expected - start: 24, end: 26
 
 ```
 

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\keyword_with_escapes_check\gen\inside_an_async_func
 > :: test: inside an async func
@@ -108,7 +108,7 @@ async () => {  c\u006fntinue = x  }
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 28
 ✖ Keywords cannot contain escape characters - start: 13, end: 28
-✖ Expression expected - start: 28, end: 30
+✖ Identifier expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 
 ```

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_keyword_var_in_param_default
 > :: test: assign to paren-wrapped keyword var in param default
@@ -103,7 +103,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 6, end: 11
-✖ Expression expected - start: 11, end: 12
+✖ Identifier expected - start: 11, end: 12
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 11, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14
 ✖ Expected a `;` - start: 16, end: 17

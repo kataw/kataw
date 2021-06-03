@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/await/async-await-errors/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\await\async-await-errors\gen\stand_alone
 > :: test: stand alone
@@ -158,14 +158,12 @@ function* g() { var f = async yield => 1; }
 
 ```javascript
 
-function * g() {
-  var f = async yield =>  1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'yield' cannot be used as an identifier here - start: 29, end: 35
+
 ```
 

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_keyword_in_generator
 > :: test: assign to keyword in generator
@@ -126,7 +126,7 @@ function *f(){
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 14, end: 25
-✖ Expression expected - start: 25, end: 27
+✖ Identifier expected - start: 25, end: 27
 ✖ Declaration or statement expected - start: 30, end: 32
 
 ```

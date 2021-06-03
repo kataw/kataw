@@ -35,7 +35,7 @@ import {default as foo} from "foo";
                 "kind": 256,
                 "fromKeyword": {
                     "kind": 16500,
-                    "flags": 80,
+                    "flags": 64,
                     "start": 23,
                     "end": 28
                 },

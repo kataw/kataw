@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\should_listen_to_use_strict_directive_in_getter_bare
 > :: test: should listen to use strict directive in getter bare
@@ -186,7 +186,7 @@ foo = {
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 36, end: 49
-✖ Expression expected - start: 49, end: 51
+✖ Identifier expected - start: 49, end: 51
 ✖ The left-hand side must be a variable or a property access. - start: 49, end: 51
 ✖ Declaration or statement expected - start: 53, end: 57
 ✖ Declaration or statement expected - start: 57, end: 59

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\should_listen_to_use_strict_directive_in_global_wrapped
 > :: test: should listen to use strict directive in global wrapped
@@ -106,7 +106,7 @@
 ```javascript
 ✖ Identifier expected - start: 15, end: 23
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 15, end: 23
-✖ Expression expected - start: 23, end: 25
+✖ Identifier expected - start: 23, end: 25
 ✖ Expected a `;` - start: 27, end: 28
 
 ```

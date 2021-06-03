@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_keyword_inside_delete_in_param_default
 > :: test: assign to paren-wrapped keyword inside delete in param default
@@ -159,7 +159,7 @@ async (x = delete ((continue) = f)) => {}
 ```javascript
 ✖ Identifier expected - start: 20, end: 28
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 20, end: 28
-✖ Expression expected - start: 28, end: 29
+✖ Identifier expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
 ✖ Expected a `;` - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35

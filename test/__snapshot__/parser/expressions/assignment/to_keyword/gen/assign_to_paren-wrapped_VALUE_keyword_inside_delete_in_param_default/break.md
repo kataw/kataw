@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_VALUE_keyword_inside_delete_in_param_default
 > :: test: assign to paren-wrapped VALUE keyword inside delete in param default
@@ -186,7 +186,7 @@ function *f(x = delete ((break) = f)) {}
 ```javascript
 ✖ Identifier expected - start: 25, end: 30
 ✖ Expression expected - start: 25, end: 30
-✖ Expression expected - start: 30, end: 31
+✖ Identifier expected - start: 30, end: 31
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 33
 ✖ Expected a `;` - start: 35, end: 36

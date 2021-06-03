@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/statements/labelled/keywords/autogen.md
 - Path: kataw8/test\__snapshot__\parser\statements\labelled\keywords\gen\can_not_use_keywords_as_label_name
 > :: test: can not use keywords as label name
@@ -71,7 +71,7 @@ continue: x
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 0, end: 8
-✖ Expression expected - start: 8, end: 9
+✖ Identifier expected - start: 8, end: 9
 
 ```
 

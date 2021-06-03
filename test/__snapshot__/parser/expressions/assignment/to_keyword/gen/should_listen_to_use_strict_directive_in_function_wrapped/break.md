@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\should_listen_to_use_strict_directive_in_function_wrapped
 > :: test: should listen to use strict directive in function wrapped
@@ -156,7 +156,7 @@ function f() {
 
 ```javascript
 ✖ Identifier expected - start: 34, end: 39
-✖ Expression expected - start: 39, end: 41
+✖ Identifier expected - start: 39, end: 41
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 39, end: 41
 ✖ Expected a `;` - start: 43, end: 44
 ✖ Declaration or statement expected - start: 45, end: 47

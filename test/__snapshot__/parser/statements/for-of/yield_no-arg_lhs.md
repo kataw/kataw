@@ -73,14 +73,13 @@ function *f(){   for (yield of y);   }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 167,
+                            "kind": 165,
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
                                 "start": 14,
                                 "end": 20
                             },
-                            "awaitKeyword": null,
                             "initializer": {
                                 "kind": 229,
                                 "yieldKeyword": {
@@ -91,18 +90,20 @@ function *f(){   for (yield of y);   }
                                 },
                                 "delegate": false,
                                 "asteriskToken": null,
-                                "expression": null,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "of",
+                                    "rawText": "of",
+                                    "flags": 96,
+                                    "start": 27,
+                                    "end": 30
+                                },
                                 "flags": 32,
                                 "start": 22,
-                                "end": 27
-                            },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 64,
-                                "start": 27,
                                 "end": 30
                             },
-                            "expression": {
+                            "condition": null,
+                            "incrementor": {
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
@@ -155,7 +156,6 @@ function *f(){   for (yield of y);   }
 
 ```javascript
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 22, end: 30
-✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 30, end: 32
 
 ```
 

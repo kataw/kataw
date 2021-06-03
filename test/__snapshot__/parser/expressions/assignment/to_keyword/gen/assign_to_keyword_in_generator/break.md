@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_keyword_in_generator
 > :: test: assign to keyword in generator
@@ -125,7 +125,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 22, end: 24
+✖ Identifier expected - start: 22, end: 24
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 22, end: 24
 ✖ Declaration or statement expected - start: 27, end: 29
 

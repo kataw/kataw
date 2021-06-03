@@ -115,7 +115,7 @@ export {foo as default};
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 14, end: 22
+✖ Identifier expected - start: 14, end: 22
 
 ```
 

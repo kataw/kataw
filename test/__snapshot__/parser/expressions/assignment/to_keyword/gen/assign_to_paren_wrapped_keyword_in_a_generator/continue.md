@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren_wrapped_keyword_in_a_generator
 > :: test: assign to paren wrapped keyword in a generator
@@ -146,7 +146,7 @@ function *f(){
 ```javascript
 ✖ Identifier expected - start: 18, end: 26
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 18, end: 26
-✖ Expression expected - start: 26, end: 27
+✖ Identifier expected - start: 26, end: 27
 ✖ Declaration or statement expected - start: 27, end: 29
 ✖ Declaration or statement expected - start: 32, end: 34
 
