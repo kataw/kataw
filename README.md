@@ -26,11 +26,32 @@ a `switch statement` with 60 `switch cases`.
 Another example is how easy it is to find out if a keyword node contains an `escaped keyword`. You only need to use `kataw.hasUnicodeEscape`. You can narrow this down further
 if you use `kataw.isChildLess`. A keyword doesn't have any child nodes.
 
+Here is a few examples:
+
+```ts
+    // Check for unicode escape on childless nodes
+    if (kataw.isChildLess(node) && kataw.hasUnicodeEscape(node)) {}
+
+    // Check for unicode escape on keywords
+    if (kataw.isKeyword(node) && kataw.hasUnicodeEscape(node)) {}
+```
+
 A third benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. A build-in diagnostic system reports diagnostics if an `error handler` have been used. The diagnostics are dynamic. It means all the diagnostics are informative, and they will will change based on the context you
 are parsing in. The diagnostics have been designed like this so you can quickly understand what the problem is and correct it.
 
 These features used together gives you more options to adjust, modify and customize the CST tree compared to a regular AST parser and you can also write fewer
 code lines and at the same time experience insane performance.
+
+## CST nodes
+
+Kataw exports all CST nodes so you can create your own nodes.
+
+Here is a few examples:
+
+```ts
+    // creates an identifier
+    kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
+```
 
 ## CST parser features
 
