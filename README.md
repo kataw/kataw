@@ -54,7 +54,7 @@ Here is an example:
 ```
 
 Some CST nodes needes additional info - the famous `nodeFlag`. In this case you can pass the flags like
-this `kataw.nodeFlags.IsStatement`.
+this `kataw.NodeFlags.IsStatement`.
 
 **Note** This flag can be set on every CST node and every CST keyword nodes.
 
@@ -65,7 +65,7 @@ this `kataw.nodeFlags.IsStatement`.
 );
 
  // set the flag and mark it as unterminated. E.g. "string
- str.flag |= Kataw.Unterminated.
+ str.flag |= Kataw.NodeFlags.Unterminated.
 
  // Validate if the flag is set
  kataw.isUnterminated(str); // true
