@@ -60,18 +60,18 @@ For example `Kataw.isKeyword`, `Kataw.isIdentifier`, and `Kataw.isFutureReserved
 This is made possible because there are no `token` in Kataw. Everything is
 a `SyntaxKind` - `token` and `kind` merged into one.
 
-Kataw also exports all CST nodes so you can create your own nodes.
+Kataw also exports all CST nodes so you can create your own nodes. This is handy if you want to try out new `ECMA` features that isn't part of the language yet, or make your own transformers as in `Babel`.
 
-Here is an example:
+You can use `kataw.forEachChild` to walk the CST tree.
+
+Here is an example on how to create an CST node:
 
 ```ts
  // creates an identifier
  kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
 ```
 
-Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags`.
-
-**Note** This bitwise masks can be set on every CST node and CST keyword node.
+**Note**  Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags` andt this bitwise mask can be set on every CST node and CST keyword node.
 
 ```ts
  // creates an string literal
