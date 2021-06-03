@@ -102,12 +102,13 @@ if (a) let [x] = y
 
 ```javascript
 
-if (a)  = y;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 6, end: 10
+
 ```
 

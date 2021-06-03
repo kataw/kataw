@@ -98,12 +98,13 @@ while(true) let[a] = 0
 
 ```javascript
 
-while (true)  = 0;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 11, end: 15
+
 ```
 

@@ -88,6 +88,8 @@ if (a) let
 ### Diagnostics
 
 ```javascript
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 6, end: 10
 ✖ An member access expression should take an argument. - start: 6, end: 13
 ✖ Identifier expected - start: 12, end: 13
 

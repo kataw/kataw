@@ -94,13 +94,13 @@ for (a in b) let [x]
 
 ```javascript
 
-for (a in b)
-  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 12, end: 16
+
 ```
 

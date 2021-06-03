@@ -100,6 +100,8 @@ for (a in b) let
 ### Diagnostics
 
 ```javascript
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 12, end: 16
 ✖ An member access expression should take an argument. - start: 12, end: 19
 ✖ Identifier expected - start: 18, end: 19
 

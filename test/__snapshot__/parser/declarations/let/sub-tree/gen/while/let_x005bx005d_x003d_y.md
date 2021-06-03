@@ -106,6 +106,8 @@ while (a) let
 ### Diagnostics
 
 ```javascript
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 9, end: 13
 ✖ An member access expression should take an argument. - start: 9, end: 16
 ✖ Identifier expected - start: 15, end: 16
 

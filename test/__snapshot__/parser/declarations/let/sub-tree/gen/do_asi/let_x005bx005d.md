@@ -93,6 +93,8 @@ while (a);
 ### Diagnostics
 
 ```javascript
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 2, end: 6
 ✖ An member access expression should take an argument. - start: 2, end: 9
 ✖ Identifier expected - start: 8, end: 9
 

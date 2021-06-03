@@ -87,13 +87,13 @@ while (a);
 
 ```javascript
 
-do ;
-while (a);
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 2, end: 6
+
 ```
 

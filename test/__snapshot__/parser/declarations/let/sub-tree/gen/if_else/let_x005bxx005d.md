@@ -101,13 +101,13 @@ else let [x];
 
 ```javascript
 
-if (a) b;
-else  ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 14, end: 18
+
 ```
 

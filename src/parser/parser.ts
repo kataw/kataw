@@ -1577,6 +1577,18 @@ export function parseExpressionOrLabelledStatement(
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
   const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+
+  // 'let' followed by '[' means a lexical declaration, which should not appear here.
+  if (token === SyntaxKind.LetKeyword && parser.token === SyntaxKind.LeftBracket) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
+      curPos,
+      parser.curPos
+    );
+  }
+
   return token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier) && parser.token === SyntaxKind.Colon
     ? parseLabelledStatement(
         parser,
@@ -5850,7 +5862,6 @@ function parseFunctionDeclaration(
         parser.pos
       );
     }
-
   }
 
   const functionToken = consumeToken(parser, context, SyntaxKind.FunctionKeyword);
@@ -8733,7 +8744,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     body = parseClassBody(parser, inheritedContext, context);
     consume(
       parser,
-      context | (isDecl ?Context.AllowRegExp : Context.None),
+      context | (isDecl ? Context.AllowRegExp : Context.None),
       SyntaxKind.RightBrace,
       DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
     );

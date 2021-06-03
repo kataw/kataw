@@ -111,6 +111,8 @@ do let [x] = y while (a);
 ### Diagnostics
 
 ```javascript
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 2, end: 6
 ✖ Expected a `;` - start: 14, end: 20
 
 ```

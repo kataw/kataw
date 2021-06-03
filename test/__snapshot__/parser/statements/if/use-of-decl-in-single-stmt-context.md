@@ -1,16 +1,12 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-03
-- From: kataw8/test\__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\let\sub-tree\gen\if
-> :: test: if
-> :: case: let
->          [] = y
+# Kataw parser test case
+
 ## Input
 
 `````js
-if (a) let
-[] = y
+if (0) let
+[x] = 0
 `````
+
 ## Output
 
 ### CST
@@ -29,9 +25,9 @@ if (a) let
                 "end": 2
             },
             "expression": {
-                "kind": 134299649,
-                "text": "a",
-                "rawText": "a",
+                "kind": 201392130,
+                "text": 0,
+                "rawText": "0",
                 "flags": 96,
                 "start": 4,
                 "end": 5
@@ -51,51 +47,52 @@ if (a) let
                             "end": 10
                         },
                         "expression": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
                             "start": 12,
-                            "end": 12
+                            "end": 13
                         },
                         "flags": 32,
                         "start": 6,
-                        "end": 13
+                        "end": 14
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 64,
-                        "start": 13,
-                        "end": 15
+                        "start": 14,
+                        "end": 16
                     },
                     "right": {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
+                        "kind": 201392130,
+                        "text": 0,
+                        "rawText": "0",
                         "flags": 96,
-                        "start": 15,
-                        "end": 17
+                        "start": 16,
+                        "end": 18
                     },
                     "flags": 32,
                     "start": 6,
-                    "end": 17
+                    "end": 18
                 },
                 "flags": 16,
                 "start": 6,
-                "end": 17
+                "end": 18
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 16,
             "start": 0,
-            "end": 17
+            "end": 18
         }
     ],
     "isModule": false,
-    "source": "if (a) let\n[] = y",
+    "source": "if (0) let\n[x] = 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 17
+    "end": 18
 }
 ```
 
@@ -110,8 +107,6 @@ if (a) let
 ```javascript
 ✖ `let 
  [` is a restricted production at the start of a statement - start: 6, end: 10
-✖ An member access expression should take an argument. - start: 6, end: 13
-✖ Identifier expected - start: 12, end: 13
 
 ```
 

@@ -100,13 +100,13 @@ with (a) let [x] = y
 
 ```javascript
 
-with (a)
-   = y;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `let 
+ [` is a restricted production at the start of a statement - start: 8, end: 12
+
 ```
 
