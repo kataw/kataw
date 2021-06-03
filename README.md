@@ -11,8 +11,20 @@
 
 Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
 
-It's core is an CST parser that emits an ECMAScript friendly CST and allows you to
-parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
+It's core is an ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
+Each CST node contains several properties, and the `flags` property contains the CST info. 
+
+The CST info can be extracted from the CST node through public API methods. Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes for a complete list over all the public API methods.
+
+Many of these APIs have the advantage that they allow you to "retrieve" info that is not otherwise available with a standard AST parser.
+
+One example is that you only need to use `kataw.isStatementNode` to find out if the current CST node is a statement node. With an AST parser you must use
+a `switch statement` with 60 `switch cases`.
+
+Another example is how easy it is to find out if a keyword node contains an `escaped keyword`. You only need to use `kataw.hasUnicodeEscape`. You can narrow this down further
+if you use `kataw.isChildLess`. A keyword doesn't have any child nodes.
+
+Another benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. See the section below.
 
 ## CST parser features
 
@@ -47,9 +59,9 @@ conforms with the ECMA specs. In `Acron` you can expect that a `try statement` b
 - The CST parser can be used in production
 
 
-## This is what Kataw can do:
+## This is what the future plans are for
 
-- parse Javascript
+All this features are still *WIP*.
 
 - typechecking (_like Typescript and Flow_)
 
@@ -73,12 +85,6 @@ Kataw work around this with it's own AST that is optimized for performance.
 
 ![kataw-perf](https://user-images.githubusercontent.com/31855118/116775569-3242ff80-aa96-11eb-86b2-238a10388c36.png)
 
-
-## Current state
-
-Only the Kataw CST parser, walker, AST manipulation through global API is available as of now.
-
-Soon as this code is in a "stable state" I will add the rest of the tools
 
 ## Future
 
