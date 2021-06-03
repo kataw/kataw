@@ -46,11 +46,36 @@ code lines and at the same time experience insane performance.
 
 Kataw exports all CST nodes so you can create your own nodes.
 
-Here is a few examples:
+Here is a example:
 
 ```ts
-    // creates an identifier
-    kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
+ // creates an identifier
+ kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
+```
+
+Some CST nodes needes additional info - the famous `nodeFlag`. In this case you can pass the flags like
+this `kataw.nodeFlagsIsStatement`.
+
+**Note** This flag can be set on every CST node and every CST keyword nodes.
+
+```ts
+ // creates an string literal
+ const ident = kataw.createStringLiteral(Identifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5);
+
+ // set the flag and mark it as unterminated. E.g. "string
+ ident.flag = Kataw.Unterminated.
+
+ // Validate if the flag is set
+
+ kataw.isUnterminated(ident); // true
+```
+
+## CST keywords
+
+All keywords in Kataw is it's own CST node, and you create them in almost the same way as any other CST nodes.
+
+```ts
+kataw.createToken(kataw.SyntaxKind.ForKeyword, Kataw.NodeFlags.ChildLess, /* start */ 1,  /* end */ 5);
 ```
 
 ## CST parser features
