@@ -43,7 +43,7 @@ import { createClassTail, ClassTail } from '../ast/expressions/class-tail';
 import { createClassBody, ClassBody } from '../ast/expressions/class-body';
 import { createClassExpression, ClassExpression } from '../ast/expressions/class-expr';
 import { createFieldDefinition, FieldDefinition } from '../ast/expressions/field-definition';
-import { createClassHeritage, ClassHeritage } from '../ast/expressions/class-heritage';
+import { createClassHeritage } from '../ast/expressions/class-heritage';
 import { createTemplateSpan, TemplateSpan } from '../ast/expressions/template-span';
 import { createTemplateTail, TemplateTail } from '../ast/expressions/template-tail';
 import { createTaggedTemplate } from '../ast/expressions/tagged-template';
@@ -123,7 +123,7 @@ import { createObjectTypeIndexer, ObjectTypeIndexer } from '../ast/types/object-
 import { createIntersectionType } from '../ast/types/intersection-type';
 import { createUnionType } from '../ast/types/union-type';
 import { createTypeAnnotation, TypeAnnotation } from '../ast/types/type-annotation';
-import { createQualifiedType, QualifiedType } from '../ast/types/qualified-type';
+import { createQualifiedType } from '../ast/types/qualified-type';
 import { createTypeReference, TypeReference } from '../ast/types/type-reference';
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
 import { createTupleType, TupleType } from '../ast/types/tuple-type';
@@ -8278,7 +8278,7 @@ function parseYieldIdentifierOrExpression(
       );
     }
 
-    const yieldKeyword = consumeToken(parser, context, SyntaxKind.YieldKeyword);
+    const yieldKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.YieldKeyword);
 
     if (LeftHandSideContext) {
       parser.onError(

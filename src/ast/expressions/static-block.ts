@@ -1,5 +1,4 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { ExpressionNode } from '.';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { DecoratorList } from './decorator-list';
 import { BlockStatement } from '../statements/block-stmt';

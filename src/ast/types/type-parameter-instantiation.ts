@@ -1,6 +1,5 @@
 import { TypeNode } from '.';
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { TypeParameter } from './type-parameter';
 
 export interface TypeParameterInstantiation extends SyntaxNode {
   readonly type: TypeNode | null;
