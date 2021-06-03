@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
-- From: d
-- Path: y
+- Regenerated: 2021-06-03
+- From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
+- Path: kataw8/test\__snapshot__\parser\statements\block\gen\block_with_invalid_array
 > :: test: block with invalid array
 > :: case: { /a/iui
 ## Input

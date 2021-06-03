@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/classes/method-name/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\classes\method-name\gen\method-gen
 > :: test: method-gen

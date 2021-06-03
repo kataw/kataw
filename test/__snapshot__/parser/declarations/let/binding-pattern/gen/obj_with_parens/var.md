@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/declarations/let/binding-pattern/autogen.md
 - Path: kataw8/test\__snapshot__\parser\declarations\let\binding-pattern\gen\obj_with_parens
 > :: test: obj with parens

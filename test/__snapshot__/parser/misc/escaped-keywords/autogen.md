@@ -246,12 +246,131 @@
 > `````
 
 > `````js
-> (async ()=>{var \u0061wait = 100})()
+> aw\u0061it: 1;
+> `````
+
+
+> `````js
+> do { ; } wh\u0069le (true) { }
+> `````
+
+
+> `````js
+> var \u{63}ontinue = 123;
+> `````
+
+
+> `````js
+> (function *gen() { yi\u0065ld: ; })
+> `````
+
+
+> `````js
+> for (a o\u0066 b);
+> `````
+
+
+> `````js
+> class X { \u0061sync x() { await x } }
+> `````
+
+
+> `````js
+> class a { st\u0061tic m(){} }
+> `````
+
+
+> `````js
+> do { ; } wh\u0069le (true) { }
+> `````
+
+
+> `````js
+> var \u0064elete = 123;
+> `````
+
+
+> `````js
+> var x = { privat\u0065 } = { private: 42 };
+> `````
+
+> `````js
+> def\u0061ult
+> `````
+
+> `````js
+> var x = ({ typ\u0065of }) => {};
+> `````
+
+> `````js
+> var x = ({ tr\u0079 }) => {};
+> `````
+
+> `````js
+> (typ\u0065of 123)
+> `````
+
+> `````js
+> if (this \u0069nstanceof Array) {}
+> `````
+
+> `````js
+> let [l\u0065t] = 1
+> `````
+
+> `````js
+> (x === tr\u0075e);
+> `````
+
+> `````js
+> w\u0069th (this.scope) { }
+> `````
+
+> `````js
+> (function a({ hello: {var:v\u{0061}r}}) { })
+> `````
+
+> `````js
+> th\u{69}s
+> `````
+
+> `````js
+> {for(o i\u006E {}){}}
+> `````
+
+> `````js
+> class X { st\u0061tic y() {} }
+> `````
+
+> `````js
+> var v\u0061r = 2000000;
+> `````
+
+> `````js
+> (function a([[v\u{0061}r]]) { })
+> `````
+
+> `````js
+> [v\u{0061}r] = obj
+> `````
+
+> `````js
+> ({\u0067et get(){}})
+> `````
+
+> `````js
+> a(1,2\u0063onst foo = 1;
 > `````
 
 ### Templates
 
 #### stand-alone
+
+`````js
+#
+`````
+
+#### strict mode
 
 `````js
 #

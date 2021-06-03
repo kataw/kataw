@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
-- From: d
-- Path: y
+- Regenerated: 2021-06-03
+- From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
+- Path: kataw8/test\__snapshot__\parser\statements\block\gen\with_unclosed_array
 > :: test: with unclosed array
 > :: case: (a b, c = b : string)
 ## Input

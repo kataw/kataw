@@ -1417,6 +1417,15 @@ function parseForStatement(
     : consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword);
 
   if (ofKeyword) {
+    if (ofKeyword.flags & 0b00000000000000000110000000000000) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+        parser.curPos,
+        parser.pos
+      );
+    }
     if (!parser.assignable) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -1455,6 +1464,15 @@ function parseForStatement(
   const inKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword);
 
   if (inKeyword) {
+    if (inKeyword.flags & 0b00000000000000000110000000000000) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+        parser.curPos,
+        parser.pos
+      );
+    }
     if (!parser.assignable) {
       parser.onError(
         DiagnosticSource.Parser,

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-02
+- Regenerated: 2021-06-03
 - From: kataw8/test\__snapshot__/parser/expressions/function/async-await-formal-parameters/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\function\async-await-formal-parameters\gen\async_function
 > :: test: async function
