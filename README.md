@@ -46,7 +46,7 @@ code lines and at the same time experience insane performance.
 
 Kataw exports all CST nodes so you can create your own nodes.
 
-Here is a example:
+Here is an example:
 
 ```ts
  // creates an identifier
@@ -54,7 +54,7 @@ Here is a example:
 ```
 
 Some CST nodes needes additional info - the famous `nodeFlag`. In this case you can pass the flags like
-this `kataw.nodeFlagsIsStatement`.
+this `kataw.nodeFlags.IsStatement`.
 
 **Note** This flag can be set on every CST node and every CST keyword nodes.
 
@@ -68,7 +68,6 @@ this `kataw.nodeFlagsIsStatement`.
  str.flag |= Kataw.Unterminated.
 
  // Validate if the flag is set
-
  kataw.isUnterminated(str); // true
 ```
 
