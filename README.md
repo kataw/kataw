@@ -60,16 +60,16 @@ this `kataw.nodeFlagsIsStatement`.
 
 ```ts
  // creates an string literal
- const ident = kataw.createStringLiteral(Identifier(
+ const str = kataw.createStringLiteral(
     /* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5
 );
 
  // set the flag and mark it as unterminated. E.g. "string
- ident.flag = Kataw.Unterminated.
+ str.flag |= Kataw.Unterminated.
 
  // Validate if the flag is set
 
- kataw.isUnterminated(ident); // true
+ kataw.isUnterminated(str); // true
 ```
 
 ## CST keywords
