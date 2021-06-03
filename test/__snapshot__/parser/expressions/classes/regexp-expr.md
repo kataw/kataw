@@ -19,87 +19,61 @@ typeof class{}
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 126,
-                        "operandToken": {
-                            "kind": 138477613,
-                            "flags": 64,
-                            "start": 0,
-                            "end": 6
-                        },
-                        "operand": {
-                            "kind": 189,
-                            "decorators": null,
-                            "classKeyword": {
-                                "kind": 37822544,
-                                "flags": 64,
-                                "start": 6,
-                                "end": 12
-                            },
-                            "name": null,
-                            "typeParameters": null,
-                            "tail": {
-                                "kind": 277,
-                                "classHeritage": null,
-                                "body": {
-                                    "kind": 262,
-                                    "elements": [],
-                                    "flags": 32,
-                                    "start": 13,
-                                    "end": 13
-                                },
-                                "flags": 12,
-                                "start": 32,
-                                "end": 14
-                            },
+                "kind": 126,
+                "operandToken": {
+                    "kind": 138477613,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 6
+                },
+                "operand": {
+                    "kind": 189,
+                    "decorators": null,
+                    "classKeyword": {
+                        "kind": 37822544,
+                        "flags": 64,
+                        "start": 6,
+                        "end": 12
+                    },
+                    "name": null,
+                    "typeParameters": null,
+                    "tail": {
+                        "kind": 277,
+                        "classHeritage": null,
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
                             "flags": 32,
-                            "start": 6,
-                            "end": 14
+                            "start": 13,
+                            "end": 13
                         },
-                        "flags": 32,
-                        "start": 0,
+                        "flags": 12,
+                        "start": 32,
                         "end": 14
                     },
-                    "operatorToken": {
-                        "kind": 35640,
-                        "flags": 65,
-                        "start": 14,
-                        "end": 16
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 16,
-                        "end": 19
-                    },
                     "flags": 32,
-                    "start": 0,
-                    "end": 19
-                },
-                "operatorToken": {
-                    "kind": 35640,
-                    "flags": 64,
-                    "start": 19,
-                    "end": 20
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 20,
-                    "end": 20
+                    "start": 6,
+                    "end": 14
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 20
+                "end": 14
             },
             "flags": 16,
             "start": 0,
+            "end": 14
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 221,
+                "text": "/foo/",
+                "flags": 96,
+                "start": 14,
+                "end": 20
+            },
+            "flags": 16,
+            "start": 14,
             "end": 20
         }
     ],
@@ -116,12 +90,13 @@ typeof class{}
 
 ```javascript
 
+typeof class  {};
+/foo/;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 20, end: 20
-
+✔ No errors
 ```
 

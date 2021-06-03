@@ -75,49 +75,9 @@ class x{}
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 9,
-                        "end": 9
-                    },
-                    "operatorToken": {
-                        "kind": 35640,
-                        "flags": 65,
-                        "start": 9,
-                        "end": 11
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 11,
-                        "end": 14
-                    },
-                    "flags": 32,
-                    "start": 9,
-                    "end": 14
-                },
-                "operatorToken": {
-                    "kind": 35640,
-                    "flags": 64,
-                    "start": 14,
-                    "end": 15
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "g",
-                    "rawText": "g",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 16
-                },
-                "flags": 32,
+                "kind": 221,
+                "text": "/foo/g",
+                "flags": 96,
                 "start": 9,
                 "end": 16
             },
@@ -139,12 +99,13 @@ class x{}
 
 ```javascript
 
+class x {}
+/foo/g;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 9, end: 11
-
+✔ No errors
 ```
 

@@ -29,81 +29,68 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 198,
-                        "left": {
-                            "kind": 189,
-                            "decorators": null,
-                            "classKeyword": {
-                                "kind": 37822544,
-                                "flags": 64,
-                                "start": 1,
-                                "end": 6
-                            },
-                            "name": null,
-                            "typeParameters": null,
-                            "tail": {
-                                "kind": 277,
-                                "classHeritage": null,
-                                "body": {
-                                    "kind": 262,
-                                    "elements": [],
-                                    "flags": 32,
-                                    "start": 7,
-                                    "end": 7
-                                },
-                                "flags": 6,
-                                "start": 32,
-                                "end": 8
-                            },
-                            "flags": 32,
-                            "start": 1,
-                            "end": 8
-                        },
-                        "operatorToken": {
-                            "kind": 35640,
-                            "flags": 65,
-                            "start": 8,
-                            "end": 11
-                        },
-                        "right": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 15
-                        },
-                        "flags": 32,
-                        "start": 1,
-                        "end": 15
-                    },
-                    "operatorToken": {
-                        "kind": 35640,
+                    "kind": 189,
+                    "decorators": null,
+                    "classKeyword": {
+                        "kind": 37822544,
                         "flags": 64,
-                        "start": 15,
-                        "end": 17
+                        "start": 1,
+                        "end": 6
                     },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "g",
-                        "rawText": "g",
-                        "flags": 96,
-                        "start": 17,
-                        "end": 19
+                    "name": null,
+                    "typeParameters": null,
+                    "tail": {
+                        "kind": 277,
+                        "classHeritage": null,
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 7,
+                            "end": 7
+                        },
+                        "flags": 6,
+                        "start": 32,
+                        "end": 8
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 19
+                    "end": 8
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 20
+                "end": 8
             },
             "flags": 16,
             "start": 0,
-            "end": 20
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 221,
+                "text": "/ foo /",
+                "flags": 96,
+                "start": 8,
+                "end": 17
+            },
+            "flags": 16,
+            "start": 8,
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "g",
+                "rawText": "g",
+                "flags": 96,
+                "start": 17,
+                "end": 19
+            },
+            "flags": 16,
+            "start": 17,
+            "end": 19
         }
     ],
     "isModule": false,
@@ -119,12 +106,14 @@
 
 ```javascript
 
-(class  {} / foo / g);
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 8, end: 17
+✖ Expected a `;` - start: 17, end: 19
+✖ Expected a `;` - start: 19, end: 20
+
 ```
 

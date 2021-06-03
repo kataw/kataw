@@ -53,60 +53,53 @@ x = class{} / x
                     "end": 3
                 },
                 "right": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 189,
-                        "decorators": null,
-                        "classKeyword": {
-                            "kind": 37822544,
-                            "flags": 64,
-                            "start": 3,
-                            "end": 9
-                        },
-                        "name": null,
-                        "typeParameters": null,
-                        "tail": {
-                            "kind": 277,
-                            "classHeritage": null,
-                            "body": {
-                                "kind": 262,
-                                "elements": [],
-                                "flags": 32,
-                                "start": 10,
-                                "end": 10
-                            },
-                            "flags": 9,
-                            "start": 32,
-                            "end": 11
-                        },
-                        "flags": 32,
-                        "start": 3,
-                        "end": 11
-                    },
-                    "operatorToken": {
-                        "kind": 35640,
+                    "kind": 189,
+                    "decorators": null,
+                    "classKeyword": {
+                        "kind": 37822544,
                         "flags": 64,
-                        "start": 11,
-                        "end": 13
+                        "start": 3,
+                        "end": 9
                     },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 13,
-                        "end": 15
+                    "name": null,
+                    "typeParameters": null,
+                    "tail": {
+                        "kind": 277,
+                        "classHeritage": null,
+                        "body": {
+                            "kind": 262,
+                            "elements": [],
+                            "flags": 32,
+                            "start": 10,
+                            "end": 10
+                        },
+                        "flags": 9,
+                        "start": 32,
+                        "end": 11
                     },
                     "flags": 32,
                     "start": 3,
-                    "end": 15
+                    "end": 11
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 15
+                "end": 11
             },
             "flags": 16,
             "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 221,
+                "text": "/ x",
+                "flags": 96,
+                "start": 11,
+                "end": 15
+            },
+            "flags": 16,
+            "start": 11,
             "end": 15
         }
     ],
@@ -123,12 +116,13 @@ x = class{} / x
 
 ```javascript
 
-x = class  {} / x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Unterminated regular expression - start: 11, end: 15
+✖ Expected a `;` - start: 11, end: 15
+
 ```
 

@@ -8722,10 +8722,10 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
 
   if (consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)) {
     body = parseClassBody(parser, inheritedContext, context);
-    if (isDecl) context | Context.AllowRegExp;
+    ;
     consume(
       parser,
-      context,
+      context | (isDecl ?Context.AllowRegExp : Context.None),
       SyntaxKind.RightBrace,
       DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
     );
