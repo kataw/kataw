@@ -59,7 +59,7 @@ conforms with the ECMA specs. In `Acron` you can expect that a `try statement` b
 - The CST parser can be used in production
 
 
-## This is what the future plans are for
+## This is what the future plans are for Kataw
 
 All this features are still *WIP*.
 
