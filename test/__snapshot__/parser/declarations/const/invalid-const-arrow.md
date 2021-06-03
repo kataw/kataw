@@ -203,12 +203,12 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 
 ```javascript
 
-const fn = (o1, o2) =>  o1;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 26, end: 33
+
 ```
 

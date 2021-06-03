@@ -109,7 +109,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Private identifiers are not allowed outside class_bodies - start: 17, end: 19
+✖ Private identifiers are not allowed outside class bodies - start: 17, end: 19
 
 ```
 

@@ -33,8 +33,6 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
         visitNode(node.operatorToken, node, visitor) ||
         visitNode(node.right, node, visitor)
       );
-    case SyntaxKind.BindingElement:
-      return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
     case SyntaxKind.ExpressionStatement:
       return visitNode(node.expression, node, visitor);
     case SyntaxKind.ElementList:

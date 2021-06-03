@@ -870,20 +870,20 @@ class C { test() {get #a() { }}}
 ### Diagnostics
 
 ```javascript
-✖ Private identifiers are not allowed outside class_bodies - start: 0, end: 3
+✖ Private identifiers are not allowed outside class bodies - start: 0, end: 3
 ✖ Binding identifier expected - start: 18, end: 19
-✖ Private identifiers are not allowed outside class_bodies - start: 22, end: 25
+✖ Private identifiers are not allowed outside class bodies - start: 22, end: 25
 ✖ Binding identifier expected - start: 47, end: 48
-✖ Private identifiers are not allowed outside class_bodies - start: 51, end: 54
-✖ Private identifiers are not allowed outside class_bodies - start: 64, end: 67
+✖ Private identifiers are not allowed outside class bodies - start: 51, end: 54
+✖ Private identifiers are not allowed outside class bodies - start: 64, end: 67
 ✖ Expected a `;` - start: 69, end: 71
 ✖ Expected a `;` - start: 97, end: 100
 ✖ Expected a `;` - start: 102, end: 104
-✖ Private identifiers are not allowed outside class_bodies - start: 129, end: 132
-✖ Private identifiers are not allowed outside class_bodies - start: 163, end: 165
-✖ Private identifiers are not allowed outside class_bodies - start: 183, end: 186
+✖ Private identifiers are not allowed outside class bodies - start: 129, end: 132
+✖ Private identifiers are not allowed outside class bodies - start: 163, end: 165
+✖ Private identifiers are not allowed outside class bodies - start: 183, end: 186
 ✖ The left-hand side must be a variable or a property access. - start: 193, end: 195
-✖ Private identifiers are not allowed outside class_bodies - start: 211, end: 213
+✖ Private identifiers are not allowed outside class bodies - start: 211, end: 213
 ✖ The left-hand side must be a variable or a property access. - start: 220, end: 222
 
 ```

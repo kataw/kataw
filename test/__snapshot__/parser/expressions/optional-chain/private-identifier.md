@@ -3235,45 +3235,45 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
 ### Diagnostics
 
 ```javascript
-✖ Private identifiers are not allowed outside class_bodies - start: 5, end: 9
-✖ Private identifiers are not allowed outside class_bodies - start: 20, end: 24
-✖ Private identifiers are not allowed outside class_bodies - start: 35, end: 39
-✖ Private identifiers are not allowed outside class_bodies - start: 50, end: 54
-✖ Private identifiers are not allowed outside class_bodies - start: 65, end: 69
-✖ Private identifiers are not allowed outside class_bodies - start: 80, end: 84
-✖ Private identifiers are not allowed outside class_bodies - start: 122, end: 126
-✖ Private identifiers are not allowed outside class_bodies - start: 134, end: 136
-✖ Private identifiers are not allowed outside class_bodies - start: 138, end: 140
-✖ Private identifiers are not allowed outside class_bodies - start: 142, end: 144
-✖ Private identifiers are not allowed outside class_bodies - start: 146, end: 148
-✖ Private identifiers are not allowed outside class_bodies - start: 150, end: 152
-✖ Private identifiers are not allowed outside class_bodies - start: 154, end: 156
-✖ Private identifiers are not allowed outside class_bodies - start: 158, end: 162
-✖ Private identifiers are not allowed outside class_bodies - start: 190, end: 194
-✖ Private identifiers are not allowed outside class_bodies - start: 208, end: 210
-✖ Private identifiers are not allowed outside class_bodies - start: 215, end: 217
-✖ Private identifiers are not allowed outside class_bodies - start: 227, end: 229
-✖ Private identifiers are not allowed outside class_bodies - start: 237, end: 241
-✖ Private identifiers are not allowed outside class_bodies - start: 255, end: 257
-✖ Private identifiers are not allowed outside class_bodies - start: 272, end: 276
-✖ Private identifiers are not allowed outside class_bodies - start: 277, end: 283
-✖ Private identifiers are not allowed outside class_bodies - start: 303, end: 307
-✖ Private identifiers are not allowed outside class_bodies - start: 308, end: 314
-✖ Private identifiers are not allowed outside class_bodies - start: 334, end: 338
-✖ Private identifiers are not allowed outside class_bodies - start: 339, end: 345
+✖ Private identifiers are not allowed outside class bodies - start: 5, end: 9
+✖ Private identifiers are not allowed outside class bodies - start: 20, end: 24
+✖ Private identifiers are not allowed outside class bodies - start: 35, end: 39
+✖ Private identifiers are not allowed outside class bodies - start: 50, end: 54
+✖ Private identifiers are not allowed outside class bodies - start: 65, end: 69
+✖ Private identifiers are not allowed outside class bodies - start: 80, end: 84
+✖ Private identifiers are not allowed outside class bodies - start: 122, end: 126
+✖ Private identifiers are not allowed outside class bodies - start: 134, end: 136
+✖ Private identifiers are not allowed outside class bodies - start: 138, end: 140
+✖ Private identifiers are not allowed outside class bodies - start: 142, end: 144
+✖ Private identifiers are not allowed outside class bodies - start: 146, end: 148
+✖ Private identifiers are not allowed outside class bodies - start: 150, end: 152
+✖ Private identifiers are not allowed outside class bodies - start: 154, end: 156
+✖ Private identifiers are not allowed outside class bodies - start: 158, end: 162
+✖ Private identifiers are not allowed outside class bodies - start: 190, end: 194
+✖ Private identifiers are not allowed outside class bodies - start: 208, end: 210
+✖ Private identifiers are not allowed outside class bodies - start: 215, end: 217
+✖ Private identifiers are not allowed outside class bodies - start: 227, end: 229
+✖ Private identifiers are not allowed outside class bodies - start: 237, end: 241
+✖ Private identifiers are not allowed outside class bodies - start: 255, end: 257
+✖ Private identifiers are not allowed outside class bodies - start: 272, end: 276
+✖ Private identifiers are not allowed outside class bodies - start: 277, end: 283
+✖ Private identifiers are not allowed outside class bodies - start: 303, end: 307
+✖ Private identifiers are not allowed outside class bodies - start: 308, end: 314
+✖ Private identifiers are not allowed outside class bodies - start: 334, end: 338
+✖ Private identifiers are not allowed outside class bodies - start: 339, end: 345
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 362, end: 370
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 369, end: 370
-✖ Private identifiers are not allowed outside class_bodies - start: 374, end: 378
-✖ Private identifiers are not allowed outside class_bodies - start: 379, end: 385
+✖ Private identifiers are not allowed outside class bodies - start: 374, end: 378
+✖ Private identifiers are not allowed outside class bodies - start: 379, end: 385
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 396, end: 398
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 397, end: 398
-✖ Private identifiers are not allowed outside class_bodies - start: 407, end: 411
-✖ Private identifiers are not allowed outside class_bodies - start: 412, end: 418
+✖ Private identifiers are not allowed outside class bodies - start: 407, end: 411
+✖ Private identifiers are not allowed outside class bodies - start: 412, end: 418
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 429, end: 433
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 432, end: 433
 ✖ Expected a `;` - start: 434, end: 435
 ✖ Declaration or statement expected - start: 435, end: 437
-✖ Private identifiers are not allowed outside class_bodies - start: 443, end: 447
+✖ Private identifiers are not allowed outside class bodies - start: 443, end: 447
 
 ```
 

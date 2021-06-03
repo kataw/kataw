@@ -4415,7 +4415,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parser.curPos
         );
       } else {
-        state = Tristate.False;
         expression = createConditionalExpression(
           expression,
           questionMarkToken,
@@ -5162,8 +5161,12 @@ function isValidReturnType(parser: ParserState, context: Context, pos: number) {
         (parser.token as SyntaxKind) === SyntaxKind.Colon
       )
         return true;
-      expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
-      expression = parseAssignmentExpression(parser, context, expression, pos);
+      expression = parseAssignmentExpression(
+        parser,
+        context,
+        parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos),
+        pos
+      );
       return parser.token === SyntaxKind.Arrow;
     },
     /* rollback */ true
@@ -5986,7 +5989,7 @@ function parseFunctionDeclaration(
           context | Context.NewTarget | Context.IsOutsideFnOrArrow,
           innerScope,
           /* scopeError*/ (innerScope.flags & ScopeFlags.Error) > 0,
-          /* isDecl */ declareKeyword ? true : false,
+          /* isDecl */ !!declareKeyword,
           /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) < 1,
           /* ignoreMissingOpenBrace */ false,
           /* firstRestricted */ firstRestricted
@@ -7039,7 +7042,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
       return parseNumberType(parser, context);
     case SyntaxKind.TrueKeyword:
       return parseBooleanType(parser, context, /* isTruthy */ true);
-    case SyntaxKind.TrueKeyword:
+    case SyntaxKind.FalseKeyword:
       return parseBooleanType(parser, context, /* isTruthy */ false);
     case SyntaxKind.LeftBrace:
       return parseObjectType(parser, context, ObjectTypeFlag.None);
@@ -7305,17 +7308,10 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
       const params: any = [type];
       nextToken(parser, context);
-      let trailingComma = false;
       while (parser.token & (SyntaxKind.IsEllipsis | SyntaxKind.IsIdentifier)) {
         params.push(parseFunctionTypeParameter(parser, context));
         if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
-        if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
-          if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
-            trailingComma = true;
-            break;
-          }
-          continue;
-        }
+        consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
       }
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
@@ -7953,7 +7949,6 @@ function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: 
         )
       ) {
         protoStart = parser.curPos;
-        objectTypeFlag & ~ObjectTypeFlag.AllowStatic;
       }
     }
 
@@ -9068,8 +9063,6 @@ export function parseClassElement(
       nodeFlags |= NodeFlags.Constructor;
     }
   }
-
-  if (generatorToken) nodeFlags | NodeFlags.Generator;
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     if (declareKeyword) {

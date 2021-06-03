@@ -143,7 +143,7 @@ function fn() { (() => this)().#x }
 ### Diagnostics
 
 ```javascript
-✖ Private identifiers are not allowed outside class_bodies - start: 31, end: 33
+✖ Private identifiers are not allowed outside class bodies - start: 31, end: 33
 
 ```
 

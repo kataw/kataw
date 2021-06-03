@@ -300,12 +300,12 @@
 
 ```javascript
 ✖ Invalid character - start: 24, end: 25
-✖ Private identifiers are not allowed outside class_bodies - start: 23, end: 25
+✖ Private identifiers are not allowed outside class bodies - start: 23, end: 25
 ✖ Invalid character - start: 25, end: 26
 ✖ Expected a `;` - start: 25, end: 26
 ✖ Expected a `;` - start: 26, end: 34
 ✖ Invalid character - start: 36, end: 37
-✖ Private identifiers are not allowed outside class_bodies - start: 34, end: 37
+✖ Private identifiers are not allowed outside class bodies - start: 34, end: 37
 ✖ Invalid character - start: 37, end: 38
 ✖ Expected a `;` - start: 37, end: 38
 ✖ Invalid character - start: 38, end: 39

@@ -66,7 +66,7 @@
   "Multiple constructor implementations are not allowed": 66,
   "Class constructor may not be a accessor": 67,
   "Dot property must be an identifier": 68,
-  "Private identifiers are not allowed outside class_bodies": 69,
+  "Private identifiers are not allowed outside class bodies": 69,
   "Tagged template expressions are not permitted in an optional chain.": 70,
   "An optional chain cannot contain private identifiers.": 71,
   "Import Call should take at least one argument": 72,

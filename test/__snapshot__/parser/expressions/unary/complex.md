@@ -576,16 +576,8 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 267,
                                             "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "false",
-                                                    "rawText": "false",
-                                                    "flags": 96,
-                                                    "start": 348,
-                                                    "end": 353
-                                                },
-                                                "typeParameters": null,
+                                                "kind": 209,
+                                                "text": false,
                                                 "flags": 0,
                                                 "start": 348,
                                                 "end": 353
@@ -741,16 +733,8 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 267,
                                             "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "false",
-                                                    "rawText": "false",
-                                                    "flags": 96,
-                                                    "start": 404,
-                                                    "end": 409
-                                                },
-                                                "typeParameters": null,
+                                                "kind": 209,
+                                                "text": false,
                                                 "flags": 0,
                                                 "start": 404,
                                                 "end": 409
@@ -834,16 +818,8 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "false",
-                        "rawText": "false",
-                        "flags": 96,
-                        "start": 412,
-                        "end": 418
-                    },
-                    "typeParameters": null,
+                    "kind": 209,
+                    "text": false,
                     "flags": 0,
                     "start": 412,
                     "end": 418
@@ -902,31 +878,15 @@ function x8(a: false & false): false {
                                 "kind": 138,
                                 "types": [
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "false",
-                                            "rawText": "false",
-                                            "flags": 96,
-                                            "start": 476,
-                                            "end": 482
-                                        },
-                                        "typeParameters": null,
+                                        "kind": 209,
+                                        "text": false,
                                         "flags": 0,
                                         "start": 476,
                                         "end": 482
                                     },
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "false",
-                                            "rawText": "false",
-                                            "flags": 96,
-                                            "start": 484,
-                                            "end": 490
-                                        },
-                                        "typeParameters": null,
+                                        "kind": 209,
+                                        "text": false,
                                         "flags": 0,
                                         "start": 484,
                                         "end": 490
@@ -1062,31 +1022,15 @@ function x8(a: false & false): false {
                                 "kind": 138,
                                 "types": [
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "false",
-                                            "rawText": "false",
-                                            "flags": 96,
-                                            "start": 537,
-                                            "end": 543
-                                        },
-                                        "typeParameters": null,
+                                        "kind": 209,
+                                        "text": false,
                                         "flags": 0,
                                         "start": 537,
                                         "end": 543
                                     },
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "false",
-                                            "rawText": "false",
-                                            "flags": 96,
-                                            "start": 545,
-                                            "end": 551
-                                        },
-                                        "typeParameters": null,
+                                        "kind": 209,
+                                        "text": false,
                                         "flags": 0,
                                         "start": 545,
                                         "end": 551
@@ -1162,16 +1106,8 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "false",
-                        "rawText": "false",
-                        "flags": 96,
-                        "start": 553,
-                        "end": 559
-                    },
-                    "typeParameters": null,
+                    "kind": 209,
+                    "text": false,
                     "flags": 0,
                     "start": 553,
                     "end": 559

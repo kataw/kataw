@@ -3,6 +3,8 @@
 <p align="center"> An insane fast Javascript toolchain.</p>
 
 <p align="center">
+<a href="https://www.npmjs.com/package/kataw"><img src="https://img.shields.io/npm/v/kataw.svg?style=flat-square" alt="Kataw NPM"/></a>
+<a href="https://lgtm.com/projects/g/kataw/kataw/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/g/kataw/kataw.svg?logo=lgtm&logoWidth=18" alt="GitHub license" /></a>
 <a href="https://github.com/kataw/kataw"><img src="https://img.shields.io/badge/code_style-kataw-ff69b4.svg?style=flat-square" alt="Meriyah NPM"/></a>
 </p>
 <br>
@@ -12,7 +14,7 @@
 Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
 
 It's core is an ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
-Each CST node contains several properties, and the `flags` property contains the CST info. 
+Each CST node contains several properties, and the `flags` property contains the CST info.
 
 The CST info can be extracted from the CST node through public API methods. Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes) for a complete list over all the public API methods.
 
@@ -24,10 +26,10 @@ a `switch statement` with 60 `switch cases`.
 Another example is how easy it is to find out if a keyword node contains an `escaped keyword`. You only need to use `kataw.hasUnicodeEscape`. You can narrow this down further
 if you use `kataw.isChildLess`. A keyword doesn't have any child nodes.
 
-A third benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. A build-in diagnostic system reports diagnostics if an `error handler` have been used. The diagnostics are dynamic. It means all the diagnostics are informative, and they will will change based on the context you 
+A third benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. A build-in diagnostic system reports diagnostics if an `error handler` have been used. The diagnostics are dynamic. It means all the diagnostics are informative, and they will will change based on the context you
 are parsing in. The diagnostics have been designed like this so you can quickly understand what the problem is and correct it.
 
-These features used together gives you more options to adjust, modify and customize the CST tree compared to a regular AST parser and you can also write fewer 
+These features used together gives you more options to adjust, modify and customize the CST tree compared to a regular AST parser and you can also write fewer
 code lines and at the same time experience insane performance.
 
 ## CST parser features

@@ -65,7 +65,7 @@ this.#x
 ### Diagnostics
 
 ```javascript
-✖ Private identifiers are not allowed outside class_bodies - start: 5, end: 7
+✖ Private identifiers are not allowed outside class bodies - start: 5, end: 7
 
 ```
 

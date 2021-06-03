@@ -306,7 +306,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [66]: 'Multiple constructor implementations are not allowed',
   [67]: 'Class constructor may not be a accessor',
   [68]: 'Dot property must be an identifier',
-  [69]: 'Private identifiers are not allowed outside class_bodies',
+  [69]: 'Private identifiers are not allowed outside class bodies',
   [70]: 'Tagged template expressions are not permitted in an optional chain.',
   [71]: 'An optional chain cannot contain private identifiers.',
   [72]: 'Import Call should take at least one argument',

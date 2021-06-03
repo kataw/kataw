@@ -398,7 +398,7 @@ x?.y = 0;
 
 ```javascript
 ✖ Invalid character - start: 3, end: 4
-✖ Private identifiers are not allowed outside class_bodies - start: 3, end: 4
+✖ Private identifiers are not allowed outside class bodies - start: 3, end: 4
 ✖ An member access expression should take an argument. - start: 5, end: 6
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 4, end: 8
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 6, end: 8
