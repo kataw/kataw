@@ -69,10 +69,9 @@ Here is an example:
  kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
 ```
 
-Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags` like
-this `node | kataw.NodeFlags.IsStatement`.
+Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags`.
 
-**Note** This flag can be set on every CST node and every CST keyword nodes.
+**Note** This bitwise masks can be set on every CST node and CST keyword node.
 
 ```ts
  // creates an string literal
