@@ -66,6 +66,7 @@ Multiple API methods exist to get info from the CST nodes
 | `isInOrOf`              |  True if the node is one of `in` or `of` |
 | `isKeyword`              | True if the node is a keyword |
 | `isFutureReserved`              | True if the node is future reserved keyword |
+| `isIdentifier`              | True if the node is an identifier |
 | `isStartOfType`              | True if node is valid start of an type |
 | `isSemicolon`              | True if the node is `;`, |
 | `isChildLess`              | True if the node doesn't have any child AST nodes |

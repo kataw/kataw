@@ -159,6 +159,7 @@ export {
   isAsync,
   isDeclared,
   isNoneSimpleParamList,
+  isIdentifier,
   hasExtendedUnicodeEscape,
   isImplicitOctal,
   isOctalIntegerLiteral,

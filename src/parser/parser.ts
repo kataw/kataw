@@ -184,7 +184,6 @@ import {
   addVarName,
   addBlockName,
   ScopeFlags,
-  lookupContinueTarget,
   lookupBreakTarget,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';

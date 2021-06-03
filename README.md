@@ -53,8 +53,11 @@ Here is an example:
 if (node.kind === Kataw.SyntaxKind.Identifier) {}
 ```
 
-In the same way as for `NodeFlags` the `kind` contain some additional information that you can extract through public API.
-E. g. `Kataw.isKeyword`, `Kataw.isIdentifier`, and `Kataw.isFutureReserved`. This is made possbible because there are no `token` in Kataw. Everything is
+In the same way as for `NodeFlags` the `kind` contain some additional information that you can extract through the public API.
+
+For example `Kataw.isKeyword`, `Kataw.isIdentifier`, and `Kataw.isFutureReserved`.
+
+This is made possible because there are no `token` in Kataw. Everything is
 a `SyntaxKind` - `token` and `kind` merged into one.
 
 Kataw also exports all CST nodes so you can create your own nodes.
@@ -66,8 +69,8 @@ Here is an example:
  kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
 ```
 
-Some CST nodes needes additional info - the famous `nodeFlag`. In this case you can pass the flags like
-this `kataw.NodeFlags.IsStatement`.
+Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags` like
+this `node | kataw.NodeFlags.IsStatement`.
 
 **Note** This flag can be set on every CST node and every CST keyword nodes.
 
@@ -77,11 +80,11 @@ this `kataw.NodeFlags.IsStatement`.
     /* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5
 );
 
- // set the flag and mark it as unterminated. E.g. "string
- str.flag |= Kataw.NodeFlags.Unterminated.
+ // set the flag and mark it as a single quote. E.g. 'string'
+ str.flag |= Kataw.NodeFlags.SingleQuote.
 
- // Validate if the flag is set
- kataw.isUnterminated(str); // true
+ // Check if the flag is set
+ kataw.isSingleQuote(str); // true
 ```
 
 ## CST keywords
