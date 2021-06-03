@@ -148,6 +148,7 @@ export async\nfunction async() { await 1; }
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
 ✖ Invalid hexadecimal escape sequence - start: 6, end: 12
 ✖ Invalid hexadecimal escape sequence - start: 12, end: 12
+✖ Declaration or statement expected - start: 6, end: 13
 ✖ Expected a `;` - start: 12, end: 13
 ✖ Expected a `;` - start: 22, end: 28
 ✖ Expected a `;` - start: 38, end: 40

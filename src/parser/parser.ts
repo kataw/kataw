@@ -5782,7 +5782,7 @@ function parseFunctionDeclaration(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
             diagnosticMap[DiagnosticCode.An_async_arrow_without_the_default_modifier_can_not_be_exported],
-            parser.curPos,
+            pos,
             parser.pos
           );
         }
@@ -5826,6 +5826,15 @@ function parseFunctionDeclaration(
         ) as any;
       }
 
+      if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Declaration_or_statement_expected],
+          pos,
+          parser.pos
+        );
+      }
       // "async"
       // "async + 1"
       parser.assignable = true;
@@ -5841,6 +5850,7 @@ function parseFunctionDeclaration(
         parser.pos
       );
     }
+
   }
 
   const functionToken = consumeToken(parser, context, SyntaxKind.FunctionKeyword);
@@ -8721,7 +8731,6 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
 
   if (consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)) {
     body = parseClassBody(parser, inheritedContext, context);
-    ;
     consume(
       parser,
       context | (isDecl ?Context.AllowRegExp : Context.None),

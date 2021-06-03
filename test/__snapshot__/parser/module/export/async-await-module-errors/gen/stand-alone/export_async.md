@@ -68,6 +68,7 @@ export async
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
+✖ Declaration or statement expected - start: 6, end: 12
 
 ```
 
