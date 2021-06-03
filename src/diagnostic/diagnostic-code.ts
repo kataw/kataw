@@ -233,7 +233,9 @@ export const enum DiagnosticCode {
   A_break_statement_can_only_jump_to_a_label_of_an_enclosing_statement = 236,
   A_continue_statement_can_only_jump_to_a_label_of_an_enclosing_iteration_statement = 237,
   The_left_hand_side_of_a_for_of_loop_cannot_start_with_let = 238,
-  An_async_function_declaration_is_not_allowed_as_if_else_child = 239
+  An_async_function_declaration_is_not_allowed_as_if_else_child = 239,
+  Octal_escape_sequences_are_not_allowed_in_template_literal = 240,
+  Octal_literals_are_not_allowed_in_template_literal = 241
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -471,5 +473,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [236]: "A 'break' statement can only jump to a label of an enclosing statement",
   [237]: "A 'continue' statement can only jump to a label of an enclosing iteration statement.",
   [238]: "The left-hand side of a for-of loop cannot start with 'let'",
-  [239]: 'An async function declaration is not allowed as `if-else` child'
+  [239]: 'An async function declaration is not allowed as `if-else` child',
+  [240]: 'Octal escape sequences are not allowed in template literal',
+  [241]: 'Octal literals are not allowed in template literal'
 };

@@ -37,7 +37,7 @@ x = "\8";
                     "kind": 201392131,
                     "text": "8",
                     "rawText": "\"\\8\"",
-                    "flags": 8388704,
+                    "flags": 96,
                     "start": 3,
                     "end": 8
                 },
@@ -63,12 +63,12 @@ x = "\8";
 
 ```javascript
 
+x = "\"8\"";
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Escapes \8 or \9 are not syntactically valid escapes - start: 3, end: 7
-
+✔ No errors
 ```
 

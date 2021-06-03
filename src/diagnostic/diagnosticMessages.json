@@ -230,7 +230,10 @@
   "A 'break' statement can only jump to a label of an enclosing statement": 236,
   "A 'continue' statement can only jump to a label of an enclosing iteration statement.": 237,
   "The left-hand side of a for-of loop cannot start with 'let'": 238,
-  "An async function declaration is not allowed as `if-else` child": 239
+  "An async function declaration is not allowed as `if-else` child": 239,
+  "Octal escape sequences are not allowed in template literal": 240,
+  "Octal literals are not allowed in template literal": 241
+
 }
 
 

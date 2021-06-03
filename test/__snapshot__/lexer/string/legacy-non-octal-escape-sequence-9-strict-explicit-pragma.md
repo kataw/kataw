@@ -21,7 +21,7 @@
                 "kind": 201392131,
                 "text": "9",
                 "rawText": "\"\\9\"",
-                "flags": 8388704,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
@@ -43,12 +43,12 @@
 
 ```javascript
 
+"\"9\"";
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Escapes \8 or \9 are not syntactically valid escapes - start: 0, end: 3
-
+✔ No errors
 ```
 

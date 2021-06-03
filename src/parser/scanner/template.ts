@@ -40,7 +40,7 @@ export function scanTemplate(
 
     // Escape character
     if (cp === Char.Backslash) {
-      ret += scanEscapeSequence(parser, context, isTaggedTemplate, source);
+      ret += scanEscapeSequence(parser, context | Context.Strict, isTaggedTemplate, source, /* isTemplate */ true);
     } else {
       parser.pos++;
       // The TRV of LineTerminatorSequence :: <CR> is the CV 0x000A.

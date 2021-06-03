@@ -43,12 +43,12 @@
 
 ```javascript
 
-`401`;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Octal escape sequences are not allowed in template literal - start: 0, end: 3
+
 ```
 

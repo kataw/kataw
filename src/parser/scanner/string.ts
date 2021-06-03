@@ -173,7 +173,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
     if (ch === Char.Backslash) {
       // Most common escape sequences first
       result += source.substring(start, parser.pos);
-      result += scanEscapeSequence(parser, context, /* isTaggedTemplate */ false, source);
+      result += scanEscapeSequence(parser, context, /* isTaggedTemplate */ false, source, /* isTemplate */ false);
       start = parser.pos;
     } else {
       if (ch === quote) {
@@ -210,7 +210,8 @@ export function scanEscapeSequence(
   parser: ParserState,
   context: Context,
   isTaggedTemplate: boolean,
-  source: string
+  source: string,
+  isTemplate: boolean
 ): string {
   const start = parser.pos;
   parser.pos++;
@@ -259,7 +260,11 @@ export function scanEscapeSequence(
         parser.onError(
           DiagnosticSource.Lexer,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
+          diagnosticMap[
+            isTemplate
+              ? DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_template_literal
+              : DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode
+          ],
           parser.curPos,
           parser.pos
         );
@@ -272,11 +277,15 @@ export function scanEscapeSequence(
     case EscapeChars.Five:
     case EscapeChars.Six:
     case EscapeChars.Seven: {
-      if (context & Context.Strict) {
+      if (!isTaggedTemplate && context & Context.Strict) {
         parser.onError(
           DiagnosticSource.Lexer,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
+          diagnosticMap[
+            isTemplate
+              ? DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_template_literal
+              : DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode
+          ],
           parser.curPos,
           parser.pos
         );
@@ -291,7 +300,7 @@ export function scanEscapeSequence(
     case EscapeChars.Eigth:
     case EscapeChars.Nine:
       // \8 \9 are acceptable in web compatibility mode
-      if ((context & Context.OptionsDisableWebCompat) | Context.Strict) {
+      if (!isTaggedTemplate && context & (Context.OptionsDisableWebCompat | Context.Strict)) {
         parser.onError(
           DiagnosticSource.Lexer,
           DiagnosticKind.Error,
