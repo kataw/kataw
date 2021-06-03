@@ -8328,7 +8328,7 @@ function parseYieldIdentifierOrExpression(
       /* yieldKeyword */ yieldKeyword,
       /* delegate */ false,
       /* asteriskToken */ null,
-      /* expression */ parser.token & SyntaxKind.IsExpressionStart ? parseExpression(parser, context) : null,
+      /* expression */ parser.token & 0b00000000100000010100000000000000 ? parseExpression(parser, context) : null,
       pos,
       parser.curPos
     );
