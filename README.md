@@ -24,7 +24,8 @@ a `switch statement` with 60 `switch cases`.
 Another example is how easy it is to find out if a keyword node contains an `escaped keyword`. You only need to use `kataw.hasUnicodeEscape`. You can narrow this down further
 if you use `kataw.isChildLess`. A keyword doesn't have any child nodes.
 
-Another benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. See the section below.
+A third benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. A build-in diagnostic system reports diagnostics if an `error handler` have been used. The diagnostics are dynamic. It means all the diagnostics are informative, and they will will change based on the context you 
+are parsing in. The diagnostics have been designed like this so you can quickly understand what the problem is and correct it.
 
 ## CST parser features
 
@@ -46,13 +47,6 @@ Another benefit with this CST parser is that it is running in `recovery mode` by
 
 - Performance
 
-### Recovery mode
-
-The recovery mode is enabled by default. See the readme in the `parser folder` for further details.
-
-**Note** This *must* not to be confused with `Acorn loose` because Kataw's error recovery mode reconstruct the CST 100% and makes sure the output
-conforms with the ECMA specs. In `Acron` you can expect that a `try statement` become a `while statement` during error recovery or parts of the
-`ESTree AST` is missing.
 
 ## Current state
 
@@ -76,14 +70,6 @@ All this features are still *WIP*.
 - Linting (_like ESLint_)
 
 - Minify (_Like Terser_)
-
-## Performance 
-
-Performance is all about the memory and GC pressure, and it's commonly known that the ESTree and Babel AST is the real perf killer for parsers in Javascript.
-
-Kataw work around this with it's own AST that is optimized for performance.
-
-![kataw-perf](https://user-images.githubusercontent.com/31855118/116775569-3242ff80-aa96-11eb-86b2-238a10388c36.png)
 
 
 ## Future
