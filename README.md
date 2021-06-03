@@ -14,7 +14,7 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 It's core is an ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 Each CST node contains several properties, and the `flags` property contains the CST info. 
 
-The CST info can be extracted from the CST node through public API methods. Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes for a complete list over all the public API methods.
+The CST info can be extracted from the CST node through public API methods. Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes) for a complete list over all the public API methods.
 
 Many of these APIs have the advantage that they allow you to "retrieve" info that is not otherwise available with a standard AST parser.
 
