@@ -185,6 +185,7 @@ import {
   addBlockName,
   ScopeFlags,
   lookupBreakTarget,
+  LinterFlags,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
 
@@ -197,15 +198,29 @@ export interface Options {
   impliedStrict?: boolean;
   allowTypes?: boolean;
   autoFix?: boolean;
+  linter?: any;
+}
+
+export interface LinterOptions {
+  switchDefault?: boolean;
+  noCommaOperator?: boolean;
+  noCatchAssign?: boolean;
+  noDebugger?: boolean;
+  noEmptyBlocks?: boolean;
+  noNestedTernary?: boolean;
+  noSparseArray?: boolean;
+  noEmpty?: boolean;
+  noExtraParens?: boolean;
 }
 
 /**
  * Create a new parser instance.
  */
-export function create(source: string, pos: number, onError: OnError): ParserState {
+export function create(source: string, pos: number, linterFlags: LinterFlags, onError: OnError): ParserState {
   return {
     source,
     nodeFlags: NodeFlags.None,
+    linterFlags,
     curPos: 0,
     pos,
     end: source.length,
@@ -229,12 +244,25 @@ export function parse(
   onError: OnError,
   options?: Options
 ): RootNode {
+  let linter = LinterFlags.None;
   if (options != null) {
     if (options.next) context |= Context.OptionsNext;
     if (options.impliedStrict) context |= Context.Strict;
     if (options.allowTypes) context |= Context.OptionsAllowTypes;
     if (options.autoFix) context |= Context.OptionsAutoFix;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
+    if (options.linter) {
+      let linterOptions: LinterOptions = options.linter;
+      if (linterOptions.switchDefault) linter |= LinterFlags.SwitchDefault;
+      if (linterOptions.noCommaOperator) linter |= LinterFlags.NoCommaOperator;
+      if (linterOptions.noCatchAssign) linter |= LinterFlags.NoCatchAssign;
+      if (linterOptions.noDebugger) linter |= LinterFlags.NoDebugger;
+      if (linterOptions.noEmptyBlocks) linter |= LinterFlags.NoEmptyBlocks;
+      if (linterOptions.noNestedTernary) linter |= LinterFlags.NoNestedTernary;
+      if (linterOptions.noSparseArray) linter |= LinterFlags.NoSparseArray;
+      if (linterOptions.noEmpty) linter |= LinterFlags.NoEmpty;
+      if (linterOptions.noExtraParens) linter |= LinterFlags.noExtraParens;
+    }
   }
   let pos = 0;
 
@@ -260,7 +288,7 @@ export function parse(
     }
   }
 
-  const parser = create(source, pos, onError);
+  const parser = create(source, pos, linter, onError);
 
   // Prime the scanner
   nextToken(parser, context | Context.AllowRegExp);

@@ -62,8 +62,17 @@ export const enum Context {
   DecoratorContext = 1 << 27
 }
 
-export const enum Linter {
-  SwitchDefault = 1 << 0
+export const enum LinterFlags {
+  None = 0,
+  SwitchDefault = 1 << 0, // require switch default
+  NoCommaOperator = 1 << 1, // disallow comma
+  NoCatchAssign = 1 << 2, // disallow catch assign
+  NoDebugger = 1 << 3, // no debugger
+  NoEmptyBlocks = 1 << 4, // no empty block
+  NoNestedTernary = 1 << 5, // no nested ternary
+  NoSparseArray = 1 << 6, // no sparse array
+  NoEmpty = 1 << 7, // disallow empty block statements
+  noExtraParens = 1 << 8 // disallow unnecessary parentheses
 }
 
 export const enum DestructibleKind {
@@ -149,6 +158,7 @@ export const enum ScopeFlags {
 export interface ParserState {
   source: string;
   nodeFlags: NodeFlags;
+  linterFlags: LinterFlags;
   curPos: number;
   pos: number;
   token: TokenSyntaxKind;
