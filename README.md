@@ -130,6 +130,22 @@ If you want a `1:1` copy of the actual source code, you can do a "*slice*" from 
 
 - Performance
 
+
+## Linter
+
+Kataw's linter is still `WIP` and it is using an different approach than for example ESLint to maintain performance.
+
+An `autoFix` option can be set during the parsing and the parser will try to fix as much errors as possible. If not
+fixable - you will be notified through the advanced diagnostic system.
+
+The linter options can be set as part of the parser options like this:
+
+```ts
+kataw.parseScript('switch(x) {}', { linterOptions: { switchDefault: true} }, function() {});
+
+// A 'default' clause is required
+```
+
 ## Current state
 
 - The CST parser can be used in production
