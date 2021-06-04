@@ -190,17 +190,8 @@ import {
 } from './common';
 
 /**
- * The parser options.
+ * The linter options.
  */
-export interface Options {
-  next?: boolean;
-  disableWebCompat?: boolean;
-  impliedStrict?: boolean;
-  allowTypes?: boolean;
-  autoFix?: boolean;
-  linter?: any;
-}
-
 export interface LinterOptions {
   switchDefault?: boolean;
   noCommaOperator?: boolean;
@@ -211,6 +202,18 @@ export interface LinterOptions {
   noSparseArray?: boolean;
   noEmpty?: boolean;
   noExtraParens?: boolean;
+}
+
+/**
+ * The parser options.
+ */
+ export interface Options {
+  next?: boolean;
+  disableWebCompat?: boolean;
+  impliedStrict?: boolean;
+  allowTypes?: boolean;
+  autoFix?: boolean;
+  linterOptions?: LinterOptions;
 }
 
 /**
@@ -251,8 +254,8 @@ export function parse(
     if (options.allowTypes) context |= Context.OptionsAllowTypes;
     if (options.autoFix) context |= Context.OptionsAutoFix;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
-    if (options.linter) {
-      let linterOptions: LinterOptions = options.linter;
+    if (options.linterOptions) {
+      let linterOptions: LinterOptions = options.linterOptions;
       if (linterOptions.switchDefault) linter |= LinterFlags.SwitchDefault;
       if (linterOptions.noCommaOperator) linter |= LinterFlags.NoCommaOperator;
       if (linterOptions.noCatchAssign) linter |= LinterFlags.NoCatchAssign;
