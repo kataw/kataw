@@ -104,23 +104,58 @@ class C { constructor() { class C { get x) { super; } } } }
                                                         "kind": 262,
                                                         "elements": [
                                                             {
-                                                                "kind": 280,
+                                                                "kind": 278,
+                                                                "declareToken": null,
                                                                 "decorators": null,
-                                                                "declaredToken": null,
-                                                                "staticToken": null,
+                                                                "generatorToken": null,
+                                                                "staticKeyword": null,
                                                                 "asyncKeyword": null,
-                                                                "key": {
-                                                                    "kind": 134299649,
-                                                                    "text": "x",
-                                                                    "rawText": "x",
-                                                                    "flags": 96,
-                                                                    "start": 39,
+                                                                "setKeyword": {
+                                                                    "kind": 16498,
+                                                                    "flags": 64,
+                                                                    "start": 35,
+                                                                    "end": 39
+                                                                },
+                                                                "getKeyword": null,
+                                                                "method": {
+                                                                    "kind": 209,
+                                                                    "name": {
+                                                                        "kind": 134299649,
+                                                                        "text": "x",
+                                                                        "rawText": "x",
+                                                                        "flags": 96,
+                                                                        "start": 39,
+                                                                        "end": 41
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "formalParameters": {
+                                                                        "kind": 214,
+                                                                        "formalParameterList": [],
+                                                                        "trailingComma": false,
+                                                                        "flags": 1024,
+                                                                        "start": 41,
+                                                                        "end": 41
+                                                                    },
+                                                                    "returnType": null,
+                                                                    "contents": {
+                                                                        "kind": 216,
+                                                                        "functionStatementList": {
+                                                                            "kind": 217,
+                                                                            "directives": [],
+                                                                            "statements": [],
+                                                                            "flags": 32,
+                                                                            "start": 41,
+                                                                            "end": 41
+                                                                        },
+                                                                        "flags": 32,
+                                                                        "start": 41,
+                                                                        "end": 41
+                                                                    },
+                                                                    "flags": 1024,
+                                                                    "start": 41,
                                                                     "end": 41
                                                                 },
-                                                                "optionalToken": null,
-                                                                "type": null,
-                                                                "initializer": null,
-                                                                "flags": 32,
+                                                                "flags": 1024,
                                                                 "start": 35,
                                                                 "end": 41
                                                             }
@@ -231,7 +266,8 @@ class C { constructor() { class C { get x) { super; } } } }
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 42
+✖ Method definition expected - start: 41, end: 42
+✖ Expression expected - start: 41, end: 42
 ✖ 'super' must be followed by an argument list or member access. - start: 44, end: 51
 ✖ Dot property must be an identifier - start: 50, end: 51
 ✖ Declaration or statement expected - start: 53, end: 55

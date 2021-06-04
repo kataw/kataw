@@ -235,7 +235,9 @@ export const enum DiagnosticCode {
   The_left_hand_side_of_a_for_of_loop_cannot_start_with_let = 238,
   An_async_function_declaration_is_not_allowed_as_if_else_child = 239,
   Octal_escape_sequences_are_not_allowed_in_template_literal = 240,
-  Octal_literals_are_not_allowed_in_template_literal = 241
+  Octal_literals_are_not_allowed_in_template_literal = 241,
+  Comma_operator_is_disallowed_as_an_async_arrow_concise_body_with_export_default_modifier = 242,
+  _MethodDefinition_expected = 243
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -475,5 +477,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [238]: "The left-hand side of a for-of loop cannot start with 'let'",
   [239]: 'An async function declaration is not allowed as `if-else` child',
   [240]: 'Octal escape sequences are not allowed in template literal',
-  [241]: 'Octal literals are not allowed in template literal'
+  [241]: 'Octal literals are not allowed in template literal',
+  [242]: 'Comma operator is disallowed as an async arrow concise body with `export default` modifier',
+  [243]: '`MethodDefinition` expected'
 };

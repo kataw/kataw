@@ -41,28 +41,58 @@ class A {async get [foo](){}}
                     "kind": 262,
                     "elements": [
                         {
-                            "kind": 280,
+                            "kind": 278,
+                            "declareToken": null,
                             "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 9,
                                 "end": 14
                             },
-                            "key": {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 14,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "get",
+                                    "rawText": "get",
+                                    "flags": 96,
+                                    "start": 14,
+                                    "end": 18
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 256,
+                                    "start": 18,
+                                    "end": 18
+                                },
+                                "returnType": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 18,
+                                        "end": 18
+                                    },
+                                    "flags": 32,
+                                    "start": 18,
+                                    "end": 18
+                                },
+                                "flags": 256,
+                                "start": 18,
                                 "end": 18
                             },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
+                            "flags": 256,
                             "start": 9,
                             "end": 18
                         },
@@ -156,6 +186,8 @@ class A {async get [foo](){}}
 
 ```javascript
 ✖ 'async' modifier cannot be used here - start: 18, end: 20
+✖ Method definition expected - start: 18, end: 20
+✖ Expression expected - start: 18, end: 20
 
 ```
 

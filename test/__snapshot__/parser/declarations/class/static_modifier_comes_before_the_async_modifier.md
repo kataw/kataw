@@ -60,28 +60,58 @@ class x{   async static static(){}    }
                     "kind": 262,
                     "elements": [
                         {
-                            "kind": 280,
+                            "kind": 278,
+                            "declareToken": null,
                             "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 8,
                                 "end": 16
                             },
-                            "key": {
-                                "kind": 134299649,
-                                "text": "static",
-                                "rawText": "static",
-                                "flags": 96,
-                                "start": 16,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "static",
+                                    "rawText": "static",
+                                    "flags": 96,
+                                    "start": 16,
+                                    "end": 23
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 256,
+                                    "start": 23,
+                                    "end": 23
+                                },
+                                "returnType": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 23,
+                                        "end": 23
+                                    },
+                                    "flags": 32,
+                                    "start": 23,
+                                    "end": 23
+                                },
+                                "flags": 256,
+                                "start": 23,
                                 "end": 23
                             },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
+                            "flags": 256,
                             "start": 8,
                             "end": 23
                         },
@@ -163,15 +193,13 @@ class x{   async static static(){}    }
 
 ```javascript
 
-class x {
-  async static;
-  static() {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Method definition expected - start: 23, end: 30
+✖ Expression expected - start: 23, end: 30
+
 ```
 

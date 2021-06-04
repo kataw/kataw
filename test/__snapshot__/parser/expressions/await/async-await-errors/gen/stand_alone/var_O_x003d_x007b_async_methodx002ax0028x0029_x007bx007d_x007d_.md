@@ -194,7 +194,7 @@ var O = { async method*() {} };
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 22, end: 23
+✖ Method definition expected - start: 22, end: 23
 ✖ Expression expected - start: 22, end: 23
 ✖ Identifier expected - start: 23, end: 24
 

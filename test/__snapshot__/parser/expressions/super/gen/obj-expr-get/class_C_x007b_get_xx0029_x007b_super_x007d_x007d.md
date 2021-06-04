@@ -90,23 +90,58 @@
                                                             "kind": 262,
                                                             "elements": [
                                                                 {
-                                                                    "kind": 280,
+                                                                    "kind": 278,
+                                                                    "declareToken": null,
                                                                     "decorators": null,
-                                                                    "declaredToken": null,
-                                                                    "staticToken": null,
+                                                                    "generatorToken": null,
+                                                                    "staticKeyword": null,
                                                                     "asyncKeyword": null,
-                                                                    "key": {
-                                                                        "kind": 134299649,
-                                                                        "text": "x",
-                                                                        "rawText": "x",
-                                                                        "flags": 96,
-                                                                        "start": 26,
+                                                                    "setKeyword": {
+                                                                        "kind": 16498,
+                                                                        "flags": 64,
+                                                                        "start": 22,
+                                                                        "end": 26
+                                                                    },
+                                                                    "getKeyword": null,
+                                                                    "method": {
+                                                                        "kind": 209,
+                                                                        "name": {
+                                                                            "kind": 134299649,
+                                                                            "text": "x",
+                                                                            "rawText": "x",
+                                                                            "flags": 96,
+                                                                            "start": 26,
+                                                                            "end": 28
+                                                                        },
+                                                                        "typeParameters": null,
+                                                                        "formalParameters": {
+                                                                            "kind": 214,
+                                                                            "formalParameterList": [],
+                                                                            "trailingComma": false,
+                                                                            "flags": 1024,
+                                                                            "start": 28,
+                                                                            "end": 28
+                                                                        },
+                                                                        "returnType": null,
+                                                                        "contents": {
+                                                                            "kind": 216,
+                                                                            "functionStatementList": {
+                                                                                "kind": 217,
+                                                                                "directives": [],
+                                                                                "statements": [],
+                                                                                "flags": 32,
+                                                                                "start": 28,
+                                                                                "end": 28
+                                                                            },
+                                                                            "flags": 32,
+                                                                            "start": 28,
+                                                                            "end": 28
+                                                                        },
+                                                                        "flags": 1024,
+                                                                        "start": 28,
                                                                         "end": 28
                                                                     },
-                                                                    "optionalToken": null,
-                                                                    "type": null,
-                                                                    "initializer": null,
-                                                                    "flags": 32,
+                                                                    "flags": 1024,
                                                                     "start": 22,
                                                                     "end": 28
                                                                 }
@@ -222,7 +257,8 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
+✖ Method definition expected - start: 28, end: 29
+✖ Expression expected - start: 28, end: 29
 ✖ Expected a `;` - start: 29, end: 31
 ✖ 'super' must be followed by an argument list or member access. - start: 31, end: 38
 ✖ Dot property must be an identifier - start: 37, end: 38

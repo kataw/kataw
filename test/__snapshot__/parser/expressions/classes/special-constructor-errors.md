@@ -388,23 +388,58 @@
                             "kind": 262,
                             "elements": [
                                 {
-                                    "kind": 280,
+                                    "kind": 278,
+                                    "declareToken": null,
                                     "decorators": null,
-                                    "declaredToken": null,
-                                    "staticToken": null,
+                                    "generatorToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
-                                    "key": {
-                                        "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 96,
-                                        "start": 127,
+                                    "setKeyword": {
+                                        "kind": 16498,
+                                        "flags": 64,
+                                        "start": 123,
+                                        "end": 127
+                                    },
+                                    "getKeyword": null,
+                                    "method": {
+                                        "kind": 209,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
+                                            "start": 127,
+                                            "end": 129
+                                        },
+                                        "typeParameters": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 1024,
+                                            "start": 129,
+                                            "end": 129
+                                        },
+                                        "returnType": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 129,
+                                                "end": 129
+                                            },
+                                            "flags": 32,
+                                            "start": 129,
+                                            "end": 129
+                                        },
+                                        "flags": 1024,
+                                        "start": 129,
                                         "end": 129
                                     },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 32,
+                                    "flags": 1024,
                                     "start": 123,
                                     "end": 129
                                 }
@@ -825,7 +860,8 @@
 ✖ Class constructor may not be a accessor - start: 102, end: 103
 ✖ Invalid hexadecimal escape sequence - start: 127, end: 129
 ✖ Invalid hexadecimal escape sequence - start: 129, end: 129
-✖ The parser expected to find a '}' to match the '{' token here - start: 129, end: 130
+✖ Method definition expected - start: 129, end: 130
+✖ Expression expected - start: 129, end: 130
 ✖ Expected a `;` - start: 147, end: 149
 ✖ Declaration or statement expected - start: 150, end: 152
 ✖ Declaration or statement expected - start: 152, end: 153

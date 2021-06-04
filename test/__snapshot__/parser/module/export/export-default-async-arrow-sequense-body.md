@@ -191,13 +191,12 @@ export default async x => y, z;
 
 ```javascript
 
-export default async (x) =>  y, z;
-export default async x =>  y, z;;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Comma operator is disallowed as an async arrow concise body with `export default` modifier - start: 62, end: 63
+
 ```
 

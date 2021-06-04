@@ -114,7 +114,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 5, end: 7
+✖ Method definition expected - start: 5, end: 7
 ✖ Expression expected - start: 5, end: 7
 
 ```

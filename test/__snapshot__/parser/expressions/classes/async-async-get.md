@@ -42,28 +42,58 @@ class x {    async async get f(x){}    }
                     "kind": 262,
                     "elements": [
                         {
-                            "kind": 280,
+                            "kind": 278,
+                            "declareToken": null,
                             "decorators": null,
-                            "declaredToken": null,
-                            "staticToken": null,
+                            "generatorToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 9,
                                 "end": 18
                             },
-                            "key": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 18,
+                            "setKeyword": null,
+                            "getKeyword": null,
+                            "method": {
+                                "kind": 209,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 18,
+                                    "end": 24
+                                },
+                                "typeParameters": null,
+                                "formalParameters": {
+                                    "kind": 214,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 256,
+                                    "start": 24,
+                                    "end": 24
+                                },
+                                "returnType": null,
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 24,
+                                        "end": 24
+                                    },
+                                    "flags": 32,
+                                    "start": 24,
+                                    "end": 24
+                                },
+                                "flags": 256,
+                                "start": 24,
                                 "end": 24
                             },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
+                            "flags": 256,
                             "start": 9,
                             "end": 24
                         },
@@ -164,6 +194,8 @@ class x {    async async get f(x){}    }
 ### Diagnostics
 
 ```javascript
+✖ Method definition expected - start: 24, end: 28
+✖ Expression expected - start: 24, end: 28
 ✖ A 'get' accessor cannot have parameters. - start: 31, end: 32
 
 ```
