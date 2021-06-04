@@ -8984,52 +8984,54 @@ export function parseClassElement(
         );
       }
     }
-    if (key.kind !== SyntaxKind.ComputedPropertyName && parser.tokenValue === 'constructor') {
-      if (!staticKeyword && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-        if (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Class_constructor_may_not_be_a_accessor],
-            parser.curPos,
-            parser.pos
-          );
+
+    if (key.kind !== SyntaxKind.ComputedPropertyName) {
+      if (parser.tokenValue === 'constructor') {
+        if (!staticKeyword && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+          if (nodeFlags & 0b00000000000000000000011100000000) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.Class_constructor_may_not_be_a_accessor],
+              parser.curPos,
+              parser.pos
+            );
+          }
+          if ((context & Context.SuperCall) !== Context.SuperCall) {
+            nodeFlags |= NodeFlags.Constructor;
+          }
+          if (decorators) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.Decorators_are_not_valid_here],
+              parser.curPos,
+              parser.pos
+            );
+          }
+        } else if ((parser.token & SyntaxKind.IsLessThanOrLeftParen) < 1) {
+          if (parser.previousErrorPos !== parser.pos) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.Constructor_implementation_is_missing],
+              parser.curPos,
+              parser.pos
+            );
+          }
         }
-        if ((context & Context.SuperCall) !== Context.SuperCall) {
-          nodeFlags |= NodeFlags.Constructor;
-        }
-        if (decorators) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Decorators_are_not_valid_here],
-            parser.curPos,
-            parser.pos
-          );
-        }
-      } else if ((parser.token & SyntaxKind.IsLessThanOrLeftParen) < 1) {
-        if (parser.previousErrorPos !== parser.pos) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Constructor_implementation_is_missing],
-            parser.curPos,
-            parser.pos
-          );
-        }
+      } else if (
+        (staticKeyword || nodeFlags & 0b00000000000000000000011100000000) &&
+        parser.tokenValue === 'prototype'
+      ) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Classes_may_not_have_a_static_property_named_prototype],
+          parser.curPos,
+          parser.pos
+        );
       }
-    } else if (
-      key.kind !== SyntaxKind.ComputedPropertyName &&
-      (staticKeyword || nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) &&
-      parser.tokenValue === 'prototype'
-    ) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Classes_may_not_have_a_static_property_named_prototype],
-        parser.curPos,
-        parser.pos
-      );
     }
 
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
