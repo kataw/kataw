@@ -882,9 +882,9 @@ class C { test() {get #a() { }}}
 ✖ Private identifiers are not allowed outside class bodies - start: 129, end: 132
 ✖ Private identifiers are not allowed outside class bodies - start: 163, end: 165
 ✖ Private identifiers are not allowed outside class bodies - start: 183, end: 186
-✖ The left-hand side must be a variable or a property access. - start: 193, end: 195
+✖ The left-hand side must be a variable or a property access. - start: 177, end: 195
 ✖ Private identifiers are not allowed outside class bodies - start: 211, end: 213
-✖ The left-hand side must be a variable or a property access. - start: 220, end: 222
+✖ The left-hand side must be a variable or a property access. - start: 203, end: 222
 
 ```
 

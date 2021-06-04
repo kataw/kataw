@@ -93,7 +93,7 @@ class Foo { constructor }
 ### Diagnostics
 
 ```javascript
-✖ Constructor implementation is missing - start: 23, end: 25
+✖ A class field cannot have a field named 'constructor' - start: 23, end: 25
 
 ```
 

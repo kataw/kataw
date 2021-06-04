@@ -441,7 +441,7 @@ class w { static #\u0063onstructor }
 ✖ '#constructor' is a reserved word. - start: 75, end: 98
 ✖ '#constructor' is a reserved word. - start: 108, end: 131
 ✖ Private identifier cannot contain escape characters - start: 145, end: 146
-✖ Constructor implementation is missing - start: 162, end: 164
+✖ A class field cannot have a field named 'constructor' - start: 162, end: 164
 
 ```
 

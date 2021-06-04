@@ -840,7 +840,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ Constructor implementation is missing - start: 167, end: 181
+✖ A class field cannot have a field named 'constructor' - start: 167, end: 181
 ✖ Multiple constructor implementations are not allowed - start: 189, end: 199
 
 ```

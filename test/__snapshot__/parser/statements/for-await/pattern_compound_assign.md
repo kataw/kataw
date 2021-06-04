@@ -169,7 +169,7 @@ async function f() {
 ### Diagnostics
 
 ```javascript
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 36, end: 38
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 34, end: 38
 
 ```
 

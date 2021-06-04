@@ -7606,9 +7606,9 @@ async function * gen() {class C extends await { }}
 ✖ The left-hand side must be a variable or a property access. - start: 2274, end: 2276
 ✖ Identifier expected - start: 2314, end: 2315
 ✖ The left-hand side must be a variable or a property access. - start: 2315, end: 2317
-✖ The left-hand side must be a variable or a property access. - start: 2360, end: 2362
+✖ The left-hand side must be a variable or a property access. - start: 2350, end: 2362
 ✖ Identifier expected - start: 2408, end: 2409
-✖ The left-hand side must be a variable or a property access. - start: 2409, end: 2411
+✖ The left-hand side must be a variable or a property access. - start: 2399, end: 2411
 ✖ 'yield' cannot be used as an identifier here - start: 2509, end: 2514
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Did you forgot a ']' to match the `[` token? - start: 2514, end: 2517
@@ -7633,8 +7633,8 @@ async function * gen() {class C extends await { }}
 ✖ Object property expected - start: 2674, end: 2675
 ✖ The left-hand side must be a variable or a property access. - start: 2722, end: 2724
 ✖ The left-hand side must be a variable or a property access. - start: 2766, end: 2768
-✖ The left-hand side must be a variable or a property access. - start: 2814, end: 2816
-✖ The left-hand side must be a variable or a property access. - start: 2866, end: 2868
+✖ The left-hand side must be a variable or a property access. - start: 2801, end: 2816
+✖ The left-hand side must be a variable or a property access. - start: 2853, end: 2868
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 2909, end: 2918
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2921, end: 2923
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2969, end: 2971

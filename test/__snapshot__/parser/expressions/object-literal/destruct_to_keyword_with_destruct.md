@@ -137,7 +137,7 @@ s = {s: true = x} = x
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 12, end: 14
-✖ The left-hand side must be a variable or a property access. - start: 17, end: 19
+✖ The left-hand side must be a variable or a property access. - start: 3, end: 19
 
 ```
 

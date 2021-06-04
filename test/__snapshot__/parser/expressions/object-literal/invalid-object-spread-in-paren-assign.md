@@ -702,14 +702,14 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 11, end: 13
-✖ The left-hand side must be a variable or a property access. - start: 32, end: 34
-✖ The left-hand side must be a variable or a property access. - start: 50, end: 52
-✖ The left-hand side must be a variable or a property access. - start: 77, end: 79
-✖ The left-hand side must be a variable or a property access. - start: 98, end: 100
-✖ The left-hand side must be a variable or a property access. - start: 119, end: 121
-✖ The left-hand side must be a variable or a property access. - start: 141, end: 143
-✖ The left-hand side must be a variable or a property access. - start: 161, end: 163
+✖ The left-hand side must be a variable or a property access. - start: 1, end: 13
+✖ The left-hand side must be a variable or a property access. - start: 22, end: 34
+✖ The left-hand side must be a variable or a property access. - start: 43, end: 52
+✖ The left-hand side must be a variable or a property access. - start: 60, end: 79
+✖ The left-hand side must be a variable or a property access. - start: 88, end: 100
+✖ The left-hand side must be a variable or a property access. - start: 109, end: 121
+✖ The left-hand side must be a variable or a property access. - start: 130, end: 143
+✖ The left-hand side must be a variable or a property access. - start: 150, end: 163
 
 ```
 

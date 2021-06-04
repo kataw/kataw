@@ -179,7 +179,7 @@
 ✖ Missing an opening parentheses - '( - start: 16, end: 17
 ✖ Expression expected - start: 16, end: 17
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 17
-✖ The left-hand side must be a variable or a property access. - start: 19, end: 21
+✖ The left-hand side must be a variable or a property access. - start: 4, end: 21
 
 ```
 

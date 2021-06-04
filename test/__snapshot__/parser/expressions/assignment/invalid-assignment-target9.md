@@ -564,8 +564,8 @@ x?.[y] = 0;
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 29, end: 31
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 38, end: 43
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 41, end: 43
-✖ The left-hand side must be a variable or a property access. - start: 54, end: 56
-✖ The left-hand side must be a variable or a property access. - start: 70, end: 72
+✖ The left-hand side must be a variable or a property access. - start: 48, end: 56
+✖ The left-hand side must be a variable or a property access. - start: 62, end: 72
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 83, end: 85
 
 ```

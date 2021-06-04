@@ -150,6 +150,7 @@ class A { static static constructor() {} }
 
 ```javascript
 ✖ 'static' modifier already seen - start: 16, end: 35
+✖ A class field cannot have a field named 'constructor' - start: 23, end: 35
 
 ```
 

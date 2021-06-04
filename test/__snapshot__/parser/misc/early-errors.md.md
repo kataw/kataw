@@ -5832,15 +5832,15 @@ try {} catch(e) { for(var e of 0); };
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 783, end: 784
-✖ The left-hand side must be a variable or a property access. - start: 1057, end: 1059
-✖ The left-hand side must be a variable or a property access. - start: 1076, end: 1078
-✖ The left-hand side must be a variable or a property access. - start: 1096, end: 1098
-✖ The left-hand side must be a variable or a property access. - start: 1112, end: 1114
+✖ The left-hand side must be a variable or a property access. - start: 1051, end: 1059
+✖ The left-hand side must be a variable or a property access. - start: 1065, end: 1078
+✖ The left-hand side must be a variable or a property access. - start: 1084, end: 1098
+✖ The left-hand side must be a variable or a property access. - start: 1104, end: 1114
 ✖ The left-hand side must be a variable or a property access. - start: 1122, end: 1124
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1313, end: 1315
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1429, end: 1431
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1441, end: 1443
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 1452, end: 1455
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 1449, end: 1455
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 1464, end: 1467
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1473, end: 1476
 ✖ The left-hand side must be a variable or a property access. - start: 1762, end: 1764

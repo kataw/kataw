@@ -134,7 +134,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ Classes may not have a static property named 'prototype' - start: 28, end: 29
+✖ Class fields may not have a static property named 'prototype' - start: 28, end: 29
 
 ```
 

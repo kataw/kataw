@@ -35,6 +35,7 @@ export const enum Context {
   OptionsNext = 1 << 0,
   OptionsAllowTypes = 1 << 1,
   OptionsDisableWebCompat = 1 << 2,
+  OptionsAutoFix = 1 << 24,
   TopLevel = 1 << 3, // If node was parsed at the top level
   InBlock = 1 << 4, // If node was parsed in either 'BlockStatement' or 'FunctionStatementList'
   InStaticBlock = 1 << 5, // If node was parsed in a static block.
@@ -59,6 +60,10 @@ export const enum Context {
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
   LexicalContext = 1 << 26, // If node was parsed in a lexical context,
   DecoratorContext = 1 << 27
+}
+
+export const enum Linter {
+  SwitchDefault = 1 << 0
 }
 
 export const enum DestructibleKind {

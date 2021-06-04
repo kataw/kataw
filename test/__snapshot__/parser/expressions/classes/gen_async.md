@@ -134,12 +134,14 @@ class x { async *prototype(){} }
 
 ```javascript
 
+class x {
+  async prototype() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Classes may not have a static property named 'prototype' - start: 26, end: 27
-
+✔ No errors
 ```
 

@@ -2978,12 +2978,100 @@
 
 ```javascript
 
+class One {
+  foo() {}
+}
+class Two {
+  foo() {}
+}
+class Three {
+  get foo() {}
+}
+class Four {
+  set foo(x) {}
+}
+class Five {
+  static static foo() {}
+}
+class Six {
+  static static foo() {}
+}
+class Seven {
+  static get static foo() {}
+}
+class Eigth {
+  static set static foo(x) {}
+}
+class Nine {
+  async foo() {}
+}
+class Ten {
+  async static static foo() {}
+}
+class Eleven {
+  async static static foo() {}
+}
+class Twelwe {
+  if() {}
+}
+class Thirteen {
+  if() {}
+}
+class Fourtin {
+  get if() {}
+}
+class Fiveteen {
+  set if(x) {}
+}
+class Sixteen {
+  static static if() {}
+}
+class Seventeen {
+  static static if() {}
+}
+class Eigtheen {
+  async static static if() {}
+}
+class Nineteen {
+  a() {}
+  b() {}
+}
+class Twenty {
+  a() {}
+  get b() {}
+}
+class Twentyone {
+  a() {}
+  set b(x) {}
+}
+class Twentytwo {
+  a() {}
+  static static b() {}
+}
+class TwentyThree {
+  a() {}
+  async static static b() {}
+}
+class TwentyFour {
+  [arguments];
+}
+class TwentySix {
+  arguments = 1;
+}
+class TwentySeven {
+  static get static "'constructor'"() {}
+}
+class TwentyEigth {
+  ["'constructor'"]() {}
+}
+class TwentyNine {
+  async "'prototype'"() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Classes may not have a static property named 'prototype' - start: 1006, end: 1007
-
+✔ No errors
 ```
 

@@ -229,7 +229,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 54, end: 55
+✖ The left-hand side must be a variable or a property access. - start: 28, end: 55
 
 ```
 

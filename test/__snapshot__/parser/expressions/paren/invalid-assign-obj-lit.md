@@ -2321,11 +2321,11 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 11, end: 13
-✖ The left-hand side must be a variable or a property access. - start: 39, end: 41
-✖ The left-hand side must be a variable or a property access. - start: 70, end: 72
-✖ The left-hand side must be a variable or a property access. - start: 104, end: 106
-✖ The left-hand side must be a variable or a property access. - start: 142, end: 144
+✖ The left-hand side must be a variable or a property access. - start: 1, end: 13
+✖ The left-hand side must be a variable or a property access. - start: 28, end: 41
+✖ The left-hand side must be a variable or a property access. - start: 54, end: 72
+✖ The left-hand side must be a variable or a property access. - start: 87, end: 106
+✖ The left-hand side must be a variable or a property access. - start: 119, end: 144
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 158, end: 160
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 177, end: 178
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 177, end: 178
@@ -2342,12 +2342,12 @@
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 318, end: 319
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 342, end: 343
 ✖ Dot property must be an identifier - start: 347, end: 348
-✖ The left-hand side must be a variable or a property access. - start: 365, end: 367
-✖ The left-hand side must be a variable or a property access. - start: 392, end: 394
-✖ The left-hand side must be a variable or a property access. - start: 420, end: 422
-✖ The left-hand side must be a variable or a property access. - start: 447, end: 449
+✖ The left-hand side must be a variable or a property access. - start: 353, end: 367
+✖ The left-hand side must be a variable or a property access. - start: 381, end: 394
+✖ The left-hand side must be a variable or a property access. - start: 408, end: 422
+✖ The left-hand side must be a variable or a property access. - start: 436, end: 449
 ✖ The left-hand side must be a variable or a property access. - start: 476, end: 478
-✖ The left-hand side must be a variable or a property access. - start: 501, end: 503
+✖ The left-hand side must be a variable or a property access. - start: 494, end: 503
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 516, end: 518
 ✖ Property definition expected. Did you mean to use a ':'? - start: 528, end: 529
 ✖ Expected a ')' to match the '(' token here - start: 529, end: 530

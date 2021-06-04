@@ -215,9 +215,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 4, end: 8
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 17, end: 21
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 30, end: 34
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 1, end: 8
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 14, end: 21
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 27, end: 34
 
 ```
 

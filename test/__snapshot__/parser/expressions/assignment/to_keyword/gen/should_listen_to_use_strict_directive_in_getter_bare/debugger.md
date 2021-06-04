@@ -179,7 +179,7 @@ foo = {
 
 ```javascript
 ✖ Expected a `;` - start: 49, end: 51
-✖ The left-hand side must be a variable or a property access. - start: 49, end: 51
+✖ The left-hand side must be a variable or a property access. - start: 5, end: 51
 ✖ Declaration or statement expected - start: 53, end: 57
 ✖ Declaration or statement expected - start: 57, end: 59
 

@@ -123,12 +123,14 @@ class x { get prototype(){} }
 
 ```javascript
 
+class x {
+  get prototype() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Classes may not have a static property named 'prototype' - start: 23, end: 24
-
+✔ No errors
 ```
 

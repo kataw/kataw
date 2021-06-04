@@ -121,7 +121,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 9, end: 11
+✖ The left-hand side must be a variable or a property access. - start: 1, end: 11
 
 ```
 

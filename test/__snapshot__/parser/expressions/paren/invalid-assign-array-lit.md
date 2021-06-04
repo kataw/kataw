@@ -1592,7 +1592,7 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 293, end: 295
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 304, end: 306
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 315, end: 317
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 325, end: 328
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 322, end: 328
 
 ```
 

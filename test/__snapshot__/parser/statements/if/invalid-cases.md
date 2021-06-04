@@ -2111,13 +2111,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
  [` is a restricted production at the start of a statement - start: 369, end: 373
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 397, end: 401
 ✖ The left-hand side must be a variable or a property access. - start: 437, end: 439
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 469, end: 473
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 464, end: 473
 ✖ ',' expected - start: 513, end: 515
 ✖ Declaration or statement expected - start: 515, end: 517
 ✖ Declaration or statement expected - start: 526, end: 527
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 550, end: 554
 ✖ The left-hand side must be a variable or a property access. - start: 590, end: 592
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 622, end: 626
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 617, end: 626
 
 ```
 

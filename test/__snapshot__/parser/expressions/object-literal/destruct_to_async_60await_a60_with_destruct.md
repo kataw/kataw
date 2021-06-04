@@ -204,7 +204,7 @@ async function g() {   s = {"foo": await a = x} = x   }
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 42, end: 44
-✖ The left-hand side must be a variable or a property access. - start: 47, end: 49
+✖ The left-hand side must be a variable or a property access. - start: 26, end: 49
 
 ```
 

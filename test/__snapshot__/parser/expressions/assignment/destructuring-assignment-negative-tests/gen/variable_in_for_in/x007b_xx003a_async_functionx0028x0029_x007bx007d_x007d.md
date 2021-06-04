@@ -241,7 +241,7 @@ var x, y, z; for (x in { x: async function() {} } = {});
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 49, end: 51
+✖ The left-hand side must be a variable or a property access. - start: 22, end: 51
 
 ```
 

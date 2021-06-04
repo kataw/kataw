@@ -166,7 +166,7 @@ for ({a: x + y} = z in obj);
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 15, end: 17
+✖ The left-hand side must be a variable or a property access. - start: 5, end: 17
 ✖ Identifier expected - start: 26, end: 27
 
 ```

@@ -234,7 +234,7 @@ foo = {
 ✖ Identifier expected - start: 42, end: 49
 ✖ 'try' expected - start: 42, end: 49
 ✖ The parser expected to find a '}' to match the '{' token here - start: 49, end: 51
-✖ The left-hand side must be a variable or a property access. - start: 49, end: 51
+✖ The left-hand side must be a variable or a property access. - start: 5, end: 51
 ✖ Expected a `;` - start: 53, end: 54
 ✖ Declaration or statement expected - start: 55, end: 59
 ✖ Declaration or statement expected - start: 59, end: 61

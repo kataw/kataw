@@ -249,7 +249,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 63, end: 65
+✖ The left-hand side must be a variable or a property access. - start: 36, end: 65
 
 ```
 

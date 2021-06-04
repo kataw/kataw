@@ -196,6 +196,7 @@ export interface Options {
   disableWebCompat?: boolean;
   impliedStrict?: boolean;
   allowTypes?: boolean;
+  autoFix?: boolean;
 }
 
 /**
@@ -232,6 +233,7 @@ export function parse(
     if (options.next) context |= Context.OptionsNext;
     if (options.impliedStrict) context |= Context.Strict;
     if (options.allowTypes) context |= Context.OptionsAllowTypes;
+    if (options.autoFix) context |= Context.OptionsAutoFix;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
   }
   let pos = 0;
@@ -1576,7 +1578,7 @@ export function parseExpressionOrLabelledStatement(
   ownLabels: any
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
-  const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+  let expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
   // 'let' followed by '[' means a lexical declaration, which should not appear here.
   if (token === SyntaxKind.LetKeyword && parser.token === SyntaxKind.LeftBracket) {
@@ -2679,21 +2681,14 @@ function parsePrimaryExpression(
 //   `{` PropertyDefinitionList `,` `}`
 function parseObjectLiteral(parser: ParserState, context: Context): ObjectLiteral | AssignmentExpression {
   const expr = parseObjectLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal);
-  if (expr.flags & NodeFlags.PrototypeField) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  if (parser.destructible & DestructibleKind.MustDestruct) {
+  if (parser.destructible & DestructibleKind.MustDestruct || expr.flags & NodeFlags.PrototypeField) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        parser.destructible & DestructibleKind.CoverInitializedName
+        expr.flags & NodeFlags.PrototypeField
+          ? DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto
+          : parser.destructible & DestructibleKind.CoverInitializedName
           ? DiagnosticCode.Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring
           : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
       ],
@@ -2714,41 +2709,42 @@ function parseObjectLiteralOrAssignmentExpression(
   nextToken(parser, context | Context.AllowRegExp);
   const propertyDefinitionList = parsePropertyDefinitionList(parser, context, scope, type);
   consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
-  const node = createObjectLiteral(
+
+  if (parser.token & SyntaxKind.IsAssignOp) {
+    if (parser.token !== SyntaxKind.Assign || parser.destructible & DestructibleKind.NotDestructible) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[
+          parser.destructible & DestructibleKind.NotDestructible
+            ? DiagnosticCode.The_left_hand_side_must_be_a_variable_or_a_property_access
+            : DiagnosticCode.Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_object_literal
+        ],
+        pos,
+        parser.pos
+      );
+    }
+    const node = createAssignmentExpression(
+      createObjectLiteral(
+        propertyDefinitionList,
+        propertyDefinitionList.flags | NodeFlags.ExpressionNode,
+        pos,
+        parser.curPos
+      ),
+      parseTokenNode(parser, context),
+      parseExpression(parser, context),
+      pos,
+      parser.curPos
+    );
+    parser.destructible = (parser.destructible | DestructibleKind.MustDestruct) ^ DestructibleKind.MustDestruct;
+    return node;
+  }
+  return createObjectLiteral(
     propertyDefinitionList,
     propertyDefinitionList.flags | NodeFlags.ExpressionNode,
     pos,
     parser.curPos
   );
-
-  if (parser.token & SyntaxKind.IsAssignOp) {
-    if (parser.token !== SyntaxKind.Assign) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[
-          DiagnosticCode
-            .Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_object_literal
-        ],
-        parser.curPos,
-        parser.pos
-      );
-    }
-    if (parser.destructible & DestructibleKind.NotDestructible) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.The_left_hand_side_must_be_a_variable_or_a_property_access],
-        parser.curPos,
-        parser.pos
-      );
-    }
-    const operatorToken = parseTokenNode(parser, context);
-    const right = parseExpression(parser, context);
-    parser.destructible = (parser.destructible | DestructibleKind.MustDestruct) ^ DestructibleKind.MustDestruct;
-    return createAssignmentExpression(node, operatorToken, right, pos, parser.curPos);
-  }
-  return node;
 }
 
 function parsePropertyDefinitionList(
@@ -2781,9 +2777,8 @@ function parsePropertyDefinitionList(
       break;
     }
   }
-  if (prototypeCount > 1) {
-    flags |= NodeFlags.PrototypeField;
-  }
+
+  if (prototypeCount > 1) flags |= NodeFlags.PrototypeField;
   parser.destructible = destructible;
   return createPropertyDefinitionList(properties, trailingComma, flags | NodeFlags.IsStatement, pos, parser.curPos);
 }
@@ -2839,9 +2834,8 @@ function parsePropertyDefinition(
   const pos = parser.curPos;
 
   if (parser.token === SyntaxKind.Ellipsis) {
-    const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
     return createSpreadProperty(
-      ellipsisToken,
+      consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis),
       paresSpreadPropertyArgument(parser, context, scope, type),
       pos,
       parser.curPos
@@ -2860,10 +2854,7 @@ function parsePropertyDefinition(
 
   if (parser.token & 0b00000000100000000100000000000000) {
     const token = parser.token;
-    const tokenValue = parser.tokenValue;
-    if ((context & Context.OptionsDisableWebCompat) < 1 && parser.tokenValue === '__proto__') {
-      nodeFlags |= NodeFlags.PrototypeField;
-    }
+
     key = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
 
     // Check for a modifier keyword
@@ -2872,9 +2863,7 @@ function parsePropertyDefinition(
         nodeFlags |= NodeFlags.Async;
         asyncKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
-        if (generatorToken) {
-          nodeFlags |= NodeFlags.Generator;
-        }
+        if (generatorToken) nodeFlags |= NodeFlags.Generator;
         key = parsePropertyName(parser, context);
         return createPropertyMethod(
           generatorToken,
@@ -2924,7 +2913,6 @@ function parsePropertyDefinition(
             parser.curPos
           );
         }
-
         return createPropertyMethod(
           generatorToken,
           asyncKeyword,
@@ -2936,9 +2924,12 @@ function parsePropertyDefinition(
         );
       }
     }
+    if ((context & Context.OptionsDisableWebCompat) < 1 && key.text === '__proto__') {
+      nodeFlags |= NodeFlags.PrototypeField;
+    }
 
-    // `({* ident })`
-    if (generatorToken) {
+    // - `({* ident })`
+    if (parser.token & SyntaxKind.IsLessThanOrLeftParen || generatorToken) {
       return createPropertyMethod(
         generatorToken,
         asyncKeyword,
@@ -2950,8 +2941,8 @@ function parsePropertyDefinition(
       );
     }
 
-    // `({ x = y })`
-    // `({ x })`
+    // - `({ x = y })`
+    // - `({ x })`
     switch (parser.token) {
       case SyntaxKind.Assign:
       case SyntaxKind.Comma:
@@ -2965,7 +2956,7 @@ function parsePropertyDefinition(
           validateIdentifier(parser, context, token);
         }
         if (type & BindingType.InArrow) {
-          addVarOrBlock(parser, context, scope, tokenValue, type);
+          addVarOrBlock(parser, context, scope, key.text, type);
         }
         if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
           const right = parseExpression(parser, context);
@@ -3109,6 +3100,9 @@ function parseMethodDefinition(
   nodeFlags: NodeFlags
 ): MethodDefinition {
   const pos = parser.curPos;
+
+  // - `class X { foo?<T>(): T }`
+  // - `({ foo<T>(): T {} })`
   const typeParameters = parseTypeParameterDeclaration(parser, context);
   if (nodeFlags & NodeFlags.Constructor) {
   } else {
@@ -8717,8 +8711,8 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
   }
 
+  // - `declare class x { y(): z; }`
   if (isDeclared) {
-    // This is a declared class so the class body has to change into 'ObjectType' as part of the type system
     return createClassTail(
       classHeritage,
       parseObjectType(parser, context, ObjectTypeFlag.AllowProto | ObjectTypeFlag.AllowStatic),
@@ -8973,14 +8967,18 @@ export function parseClassElement(
       }
     }
 
-    if (key.kind !== SyntaxKind.ComputedPropertyName) {
-      if (parser.tokenValue === 'constructor') {
-        if (!staticKeyword && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-          if (nodeFlags & 0b00000000000000000000011100000000) {
+    if (parser.token & SyntaxKind.IsLessThanOrLeftParen || nodeFlags & 0b00000000000000000000011100000000) {
+      if (key.kind !== SyntaxKind.ComputedPropertyName) {
+        if (parser.tokenValue === 'constructor' && !staticKeyword) {
+          if (nodeFlags & 0b00000000000000000000011100000000 || decorators) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Class_constructor_may_not_be_a_accessor],
+              diagnosticMap[
+                decorators
+                  ? DiagnosticCode.Decorators_are_not_valid_here
+                  : DiagnosticCode.Class_constructor_may_not_be_a_accessor
+              ],
               parser.curPos,
               parser.pos
             );
@@ -8988,41 +8986,17 @@ export function parseClassElement(
           if ((context & Context.SuperCall) !== Context.SuperCall) {
             nodeFlags |= NodeFlags.Constructor;
           }
-          if (decorators) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Decorators_are_not_valid_here],
-              parser.curPos,
-              parser.pos
-            );
-          }
-        } else if ((parser.token & SyntaxKind.IsLessThanOrLeftParen) < 1) {
-          if (parser.previousErrorPos !== parser.pos) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Constructor_implementation_is_missing],
-              parser.curPos,
-              parser.pos
-            );
-          }
+        } else if (staticKeyword && parser.tokenValue === 'prototype') {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Classes_may_not_have_a_static_property_named_prototype],
+            parser.curPos,
+            parser.pos
+          );
         }
-      } else if (
-        (staticKeyword || nodeFlags & 0b00000000000000000000011100000000) &&
-        parser.tokenValue === 'prototype'
-      ) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Classes_may_not_have_a_static_property_named_prototype],
-          parser.curPos,
-          parser.pos
-        );
       }
-    }
 
-    if (nodeFlags & 0b00000000000000000000011100000000 || parser.token & SyntaxKind.IsLessThanOrLeftParen) {
       if (declareKeyword) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -9049,6 +9023,27 @@ export function parseClassElement(
       );
     }
 
+    if (key.kind !== SyntaxKind.ComputedPropertyName) {
+      if (parser.tokenValue === 'constructor') {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.A_class_field_cannot_have_a_field_named_constructor],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      if (staticKeyword && parser.tokenValue === 'prototype') {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Class_fields_may_not_have_a_static_property_named_prototype],
+          parser.curPos,
+          parser.pos
+        );
+      }
+    }
+
     return parseFieldDefinition(
       parser,
       context | Context.InClassBody,
@@ -9064,29 +9059,30 @@ export function parseClassElement(
   generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   const key = parsePropertyName(parser, inheritedContext);
-  if (key.kind !== SyntaxKind.ComputedPropertyName && parser.tokenValue === 'constructor') {
-    if (
-      parser.token & SyntaxKind.IsLessThanOrLeftParen &&
-      !staticKeyword &&
-      (context & Context.SuperCall) !== Context.SuperCall
-    ) {
-      nodeFlags |= NodeFlags.Constructor;
-    }
-  }
-
-  if (parser.tokenValue === 'prototype') {
-    if (key.kind !== SyntaxKind.ComputedPropertyName && staticKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Classes_may_not_have_a_static_property_named_prototype],
-        parser.curPos,
-        parser.pos
-      );
-    }
-  }
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+    if (key.kind !== SyntaxKind.ComputedPropertyName) {
+      if (parser.tokenValue === 'constructor') {
+        if (
+          parser.token & SyntaxKind.IsLessThanOrLeftParen &&
+          !staticKeyword &&
+          (context & Context.SuperCall) !== Context.SuperCall
+        ) {
+          nodeFlags |= NodeFlags.Constructor;
+        }
+      }
+
+      if (staticKeyword && parser.tokenValue === 'prototype') {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Classes_may_not_have_a_static_property_named_prototype],
+          parser.curPos,
+          parser.pos
+        );
+      }
+    }
+
     if (declareKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -9205,12 +9201,12 @@ export function parseFieldDefinition(
   key: any,
   pos: number
 ) {
-  // "class X { foo? }"
-  // "class X { foo?: number }"
+  // - `class X { foo? }`
+  // - `class X { foo?: number }`
   const optionalToken =
     context & Context.OptionsAllowTypes ? consumeOptToken(parser, context, SyntaxKind.QuestionMark) : null;
 
-  // "class X { foo: number }"
+  // - `class X { foo: number }`
   const type = parseTypeAnnotation(parser, context);
 
   let initializer = null;

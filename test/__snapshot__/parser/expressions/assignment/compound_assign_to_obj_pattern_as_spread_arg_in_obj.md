@@ -123,7 +123,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 8, end: 11
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 5, end: 11
 
 ```
 

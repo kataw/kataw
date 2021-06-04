@@ -237,7 +237,9 @@ export const enum DiagnosticCode {
   Octal_escape_sequences_are_not_allowed_in_template_literal = 240,
   Octal_literals_are_not_allowed_in_template_literal = 241,
   Comma_operator_is_disallowed_as_an_async_arrow_concise_body_with_export_default_modifier = 242,
-  _MethodDefinition_expected = 243
+  _MethodDefinition_expected = 243,
+  A_class_field_cannot_have_a_field_named_constructor = 244,
+  Class_fields_may_not_have_a_static_property_named_prototype = 245
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -479,5 +481,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [240]: 'Octal escape sequences are not allowed in template literal',
   [241]: 'Octal literals are not allowed in template literal',
   [242]: 'Comma operator is disallowed as an async arrow concise body with `export default` modifier',
-  [243]: '`MethodDefinition` expected'
+  [243]: '`MethodDefinition` expected',
+  [244]: "A class field cannot have a field named 'constructor'",
+  [245]: "Class fields may not have a static property named 'prototype'"
 };

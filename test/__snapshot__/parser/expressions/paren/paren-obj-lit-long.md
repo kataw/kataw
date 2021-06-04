@@ -413,8 +413,8 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 65, end: 67
-✖ The left-hand side must be a variable or a property access. - start: 83, end: 85
+✖ The left-hand side must be a variable or a property access. - start: 56, end: 67
+✖ The left-hand side must be a variable or a property access. - start: 74, end: 85
 
 ```
 

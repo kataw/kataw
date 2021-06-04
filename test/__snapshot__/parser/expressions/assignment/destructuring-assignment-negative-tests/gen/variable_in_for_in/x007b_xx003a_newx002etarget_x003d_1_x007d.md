@@ -237,7 +237,7 @@ var x, y, z; for (x in { x: new.target = 1 } = {});
 ```javascript
 ✖ 'new.target' only allowed within functions - start: 27, end: 40
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 38, end: 40
-✖ The left-hand side must be a variable or a property access. - start: 44, end: 46
+✖ The left-hand side must be a variable or a property access. - start: 22, end: 46
 
 ```
 

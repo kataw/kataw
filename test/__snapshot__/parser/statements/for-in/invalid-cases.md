@@ -7049,7 +7049,7 @@ for ({}.bar = x in obj);
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1718, end: 1720
 ✖ Identifier expected - start: 1743, end: 1744
 ✖ Identifier expected - start: 1771, end: 1772
-✖ The left-hand side must be a variable or a property access. - start: 1790, end: 1792
+✖ The left-hand side must be a variable or a property access. - start: 1780, end: 1792
 ✖ Identifier expected - start: 1801, end: 1802
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 1815, end: 1818
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 1842, end: 1845
