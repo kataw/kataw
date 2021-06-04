@@ -18,28 +18,28 @@ type =>  x, type =>  x;
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 4,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "parameters": {
-                    "kind": 134299649,
-                    "text": "type",
-                    "rawText": "type",
-                    "flags": 96,
-                    "start": 0,
-                    "end": 4
-                },
-                "asyncKeyword": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 132,
-                    "expressions": [
-                        {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 4,
+                            "end": 7
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "type",
+                            "rawText": "type",
+                            "flags": 96,
+                            "start": 0,
+                            "end": 4
+                        },
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -47,42 +47,42 @@ type =>  x, type =>  x;
                             "start": 7,
                             "end": 10
                         },
-                        {
-                            "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 19
-                            },
-                            "typeParameters": null,
-                            "parameters": {
-                                "kind": 134299649,
-                                "text": "type",
-                                "rawText": "type",
-                                "flags": 96,
-                                "start": 11,
-                                "end": 16
-                            },
-                            "asyncKeyword": null,
-                            "returnType": null,
-                            "contents": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 19,
-                                "end": 22
-                            },
-                            "flags": 32,
+                        "flags": 32,
+                        "start": 0,
+                        "end": 10
+                    },
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 16,
+                            "end": 19
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "type",
+                            "rawText": "type",
+                            "flags": 96,
                             "start": 11,
+                            "end": 16
+                        },
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 19,
                             "end": 22
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 7,
-                    "end": 22
-                },
+                        },
+                        "flags": 32,
+                        "start": 11,
+                        "end": 22
+                    }
+                ],
                 "flags": 32,
                 "start": 0,
                 "end": 22

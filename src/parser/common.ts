@@ -14,8 +14,7 @@ export const enum ParseFunctionFlag {
   None = 0,
   IsDefaultModifier = 1 << 0, // Parsed with 'default' modifer in 'eport default'
   DisallowAsyncArrow = 1 << 1, // Disallows async arrows in export declarations
-  DisallowGenerator = 1 << 2, // Disallow generators in 'IfStatement' and 'LabelledStatement'
-  DisallowCommaOperator = 1 << 3
+  DisallowGenerator = 1 << 2 // Disallow generators in 'IfStatement' and 'LabelledStatement'
 }
 
 export const enum LeftHandSide {

@@ -2264,7 +2264,6 @@ function parseArrowFunction(
   typeParameters: TypeParameterDeclaration | null,
   returnType: TypeNode | null,
   params: any,
-  allowCommaOperator: boolean,
   asyncToken: SyntaxToken<TokenSyntaxKind> | null,
   flags: NodeFlags,
   pos: number
@@ -2294,8 +2293,7 @@ function parseArrowFunction(
       ((context | 0b00000000010000000101111100001000) ^ 0b00000000010000000101111100001000) |
         (asyncToken ? Context.AwaitContext : Context.None),
       scope,
-      (flags & NodeFlags.NoneSimpleParamList) < 1,
-      allowCommaOperator
+      (flags & NodeFlags.NoneSimpleParamList) < 1
     ),
     flags | NodeFlags.ExpressionNode,
     pos,
@@ -2307,8 +2305,7 @@ function parseConciseOrFunctionBody(
   parser: ParserState,
   context: Context,
   scope: ScopeState,
-  isSimpleParameterList: boolean,
-  allowCommaOperator: boolean
+  isSimpleParameterList: boolean
 ): FunctionBody | ExpressionNode {
   if (scope.flags & ScopeFlags.Error) {
     parser.onError(
@@ -2410,27 +2407,8 @@ function parseConciseOrFunctionBody(
     }
     return body;
   }
-  const pos = parser.curPos;
-
-  const expr = parseExpression(parser, context);
-  if (parser.token !== SyntaxKind.Comma) return expr;
-  if (!allowCommaOperator) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[
-        DiagnosticCode.Comma_operator_is_disallowed_as_an_async_arrow_concise_body_with_export_default_modifier
-      ],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  const expressions: ExpressionNode[] = [expr];
-  do {
-    nextToken(parser, context | Context.AllowRegExp);
-    expressions.push(parseExpression(parser, context));
-  } while (parser.token === SyntaxKind.Comma);
-  return createCommaOperator(expressions, pos, parser.curPos);
+  // Single-expression body
+  return parseExpression(parser, context);
 }
 
 function parseArguments(parser: ParserState, context: Context): ArgumentList {
@@ -2564,7 +2542,6 @@ function parsePrimaryExpression(
         /*typeParameters */ null,
         /* returnType */ null,
         /* params */ expression,
-        /* allowCommaOperator */ true,
         /* asyncToken */ null,
         /* nodeFlags */ NodeFlags.ExpressionNode,
         pos
@@ -2686,7 +2663,6 @@ function parsePrimaryExpression(
         /*typeParameters */ null,
         /* returnType */ null,
         /* params */ expr,
-        /* allowCommaOperator */ true,
         /* asyncToken */ null,
         /* nodeFlags */ NodeFlags.ExpressionNode,
         curPos
@@ -4389,7 +4365,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           /*typeParameters */ typeParameters,
           /* returnType */ isType ? parseTypeAnnotation(parser, context | Context.InTypes) : null,
           /* params */ [],
-          /* allowCommaOperator */ true,
           /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
           curPos
@@ -4772,7 +4747,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           typeParameters,
           parseTypeAnnotation(parser, context | Context.InTypes),
           [expression],
-          /* allowCommaOperator */ true,
           null,
           /* nodeFlags */ flags,
           curPos
@@ -5147,7 +5121,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         typeParameters,
         parseTypeAnnotation(parser, context),
         arrowParams,
-        true,
         null,
         flags,
         curPos
@@ -5549,7 +5522,6 @@ function parseFunctionExpression(
             /* typeParameters */ null,
             /* returnType */ null,
             /* params */ parseIdentifierReference(parser, context),
-            /* allowCommaOperator */ true,
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -5594,7 +5566,6 @@ function parseFunctionExpression(
           /* typeParameters */ null,
           /* returnType */ null,
           /* params */ expression,
-          /* allowCommaOperator */ true,
           /* asyncToken */ asyncToken,
           /* nodeFlags */ NodeFlags.ExpressionNode,
           /* pos */ pos
@@ -5790,7 +5761,6 @@ function parseFunctionDeclaration(
             /* typeParameters */ null,
             /* returnType */ null,
             /* params */ parseIdentifier(parser, context, 0b00000000100000000100000000000000),
-            /* allowCommaOperator */ (functionFlags & ParseFunctionFlag.DisallowCommaOperator) === 0,
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -5850,7 +5820,6 @@ function parseFunctionDeclaration(
           /* typeParameters */ null,
           /* returnType */ null,
           /* params */ expression,
-          /* allowCommaOperator */ (functionFlags & ParseFunctionFlag.DisallowCommaOperator) === 0,
           /* asyncToken */ asyncToken,
           /* nodeFlags */ NodeFlags.Async,
           /* pos */ pos
@@ -6771,9 +6740,7 @@ function parseExportDeclaration(
         context,
         scope,
         null,
-        ParseFunctionFlag.DisallowGenerator |
-          ParseFunctionFlag.DisallowAsyncArrow |
-          ParseFunctionFlag.DisallowCommaOperator,
+        ParseFunctionFlag.DisallowGenerator | ParseFunctionFlag.DisallowAsyncArrow,
         null
       );
       break;
@@ -6970,7 +6937,7 @@ function parseExportDefault(
         context,
         scope,
         /* declareKeyword */ null,
-        ParseFunctionFlag.IsDefaultModifier | ParseFunctionFlag.DisallowCommaOperator,
+        ParseFunctionFlag.IsDefaultModifier,
         null
       );
       break;
@@ -7675,7 +7642,6 @@ function parseDeclareAsIdentifierOrDeclareStatement(
       /*typeParameters */ null,
       /* returnType */ null,
       /* params */ createIdentifier('declare', 'declare', pos, parser.curPos),
-      /* allowCommaOperator */ true,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
@@ -7749,7 +7715,6 @@ function parseTypeAsIdentifierOrTypeAlias(
       /*typeParameters */ null,
       /* returnType */ null,
       /* params */ createIdentifier('type', 'type', pos, parser.curPos),
-      /* allowCommaOperator */ true,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
@@ -7820,7 +7785,6 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       /*typeParameters */ null,
       /* returnType */ null,
       /* params */ createIdentifier('let', 'let', pos, parser.curPos),
-      /* allowCommaOperator */ true,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
@@ -8395,7 +8359,6 @@ function parseYieldIdentifierOrExpression(
       /*typeParameters */ null,
       /* returnType */ null,
       /* params */ expression,
-      /* allowCommaOperator */ true,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
@@ -9484,7 +9447,6 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         typeParameters,
         parseTypeAnnotation(parser, context),
         [],
-        /* allowCommaOperator */ true,
         asyncToken,
         /* nodeFlags */ NodeFlags.Async,
         start
@@ -10015,7 +9977,6 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         typeParameters,
         parseTypeAnnotation(parser, context),
         arrowParams,
-        /* allowCommaOperator */ true,
         asyncToken,
         /* nodeFlags */ flags | NodeFlags.Async,
         start
@@ -10096,7 +10057,6 @@ function parseOpaqueType(
       /*typeParameters */ null,
       /* returnType */ null,
       /* params */ expr,
-      /* allowCommaOperator */ true,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos

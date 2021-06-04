@@ -21,28 +21,28 @@ x => ok, a
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 1,
-                    "end": 4
-                },
-                "typeParameters": null,
-                "parameters": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 0,
-                    "end": 1
-                },
-                "asyncKeyword": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 132,
-                    "expressions": [
-                        {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 1,
+                            "end": 4
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 0,
+                            "end": 1
+                        },
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
                             "kind": 134299649,
                             "text": "ok",
                             "rawText": "ok",
@@ -50,19 +50,19 @@ x => ok, a
                             "start": 4,
                             "end": 7
                         },
-                        {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 8,
-                            "end": 10
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 4,
-                    "end": 10
-                },
+                        "flags": 32,
+                        "start": 0,
+                        "end": 7
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 8,
+                        "end": 10
+                    }
+                ],
                 "flags": 32,
                 "start": 0,
                 "end": 10

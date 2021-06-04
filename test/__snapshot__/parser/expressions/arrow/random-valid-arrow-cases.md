@@ -377,21 +377,21 @@ foo((x, y) => {});
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 76,
-                    "end": 79
-                },
-                "typeParameters": null,
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 132,
-                    "expressions": [
-                        {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 76,
+                            "end": 79
+                        },
+                        "typeParameters": null,
+                        "parameters": [],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
                             "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
@@ -399,19 +399,19 @@ foo((x, y) => {});
                             "start": 79,
                             "end": 81
                         },
-                        {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 82,
-                            "end": 84
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 79,
-                    "end": 84
-                },
+                        "flags": 32,
+                        "start": 73,
+                        "end": 81
+                    },
+                    {
+                        "kind": 201392130,
+                        "text": 1,
+                        "rawText": "1",
+                        "flags": 96,
+                        "start": 82,
+                        "end": 84
+                    }
+                ],
                 "flags": 32,
                 "start": 73,
                 "end": 84

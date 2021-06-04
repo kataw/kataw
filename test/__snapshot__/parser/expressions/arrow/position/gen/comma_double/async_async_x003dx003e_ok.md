@@ -21,33 +21,33 @@ async async => ok, async async => ok
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 11,
-                    "end": 14
-                },
-                "typeParameters": null,
-                "parameters": {
-                    "kind": 134299649,
-                    "text": "async",
-                    "rawText": "async",
-                    "flags": 96,
-                    "start": 5,
-                    "end": 11
-                },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
-                "returnType": null,
-                "contents": {
-                    "kind": 132,
-                    "expressions": [
-                        {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 11,
+                            "end": 14
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
+                            "flags": 96,
+                            "start": 5,
+                            "end": 11
+                        },
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 0,
+                            "end": 5
+                        },
+                        "returnType": null,
+                        "contents": {
                             "kind": 134299649,
                             "text": "ok",
                             "rawText": "ok",
@@ -55,48 +55,48 @@ async async => ok, async async => ok
                             "start": 14,
                             "end": 17
                         },
-                        {
-                            "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 30,
-                                "end": 33
-                            },
-                            "typeParameters": null,
-                            "parameters": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 24,
-                                "end": 30
-                            },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 18,
-                                "end": 24
-                            },
-                            "returnType": null,
-                            "contents": {
-                                "kind": 134299649,
-                                "text": "ok",
-                                "rawText": "ok",
-                                "flags": 96,
-                                "start": 33,
-                                "end": 36
-                            },
-                            "flags": 288,
+                        "flags": 288,
+                        "start": 0,
+                        "end": 17
+                    },
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 30,
+                            "end": 33
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
+                            "flags": 96,
+                            "start": 24,
+                            "end": 30
+                        },
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
                             "start": 18,
+                            "end": 24
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "ok",
+                            "rawText": "ok",
+                            "flags": 96,
+                            "start": 33,
                             "end": 36
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 14,
-                    "end": 36
-                },
-                "flags": 288,
+                        },
+                        "flags": 288,
+                        "start": 18,
+                        "end": 36
+                    }
+                ],
+                "flags": 32,
                 "start": 0,
                 "end": 36
             },
