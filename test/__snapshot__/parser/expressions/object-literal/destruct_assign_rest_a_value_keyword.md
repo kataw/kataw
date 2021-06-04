@@ -108,12 +108,12 @@ x={...true} = x
 
 ```javascript
 
-x = { ...true } = x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side must be a variable or a property access. - start: 2, end: 13
+
 ```
 

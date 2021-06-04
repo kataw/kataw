@@ -182,12 +182,13 @@ a ? (b) : c => (d => e) : f => g;
 
 ```javascript
 
-a ? (b) : c =>  (d =>  e) =>  g;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left hand side of the arrow is not destructible  - start: 23, end: 25
+✖ The left hand side of the arrow is not destructible  - start: 23, end: 25
+
 ```
 

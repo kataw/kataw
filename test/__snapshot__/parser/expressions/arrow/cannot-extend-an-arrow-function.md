@@ -782,6 +782,7 @@ class Foo extends async x => {} {}
 ✖ Expected a `;` - start: 19, end: 22
 ✖ Duplicate identifier - start: 35, end: 39
 ✖ Expected a `;` - start: 50, end: 53
+✖ Expected a `;` - start: 50, end: 53
 ✖ Duplicate identifier - start: 66, end: 70
 ✖ Expected a `;` - start: 84, end: 86
 ✖ Expected a `;` - start: 113, end: 116

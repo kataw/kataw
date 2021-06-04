@@ -1880,8 +1880,16 @@ function parseConditionalExpression(
   shortCircuit: ExpressionNode,
   pos: number
 ): ExpressionNode {
-  const questionToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark, DiagnosticCode.Expression_expected);
-  const consequent = parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000);
+  const questionToken = consumeToken(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.QuestionMark,
+    DiagnosticCode.Expression_expected
+  );
+  const consequent = parseExpression(
+    parser,
+    (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000
+  );
   const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
   const alternate = parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr);
   parser.assignable = false;
@@ -2287,6 +2295,14 @@ function parseArrowFunction(
 
   const arrowToken = consumeToken(parser, context, SyntaxKind.Arrow);
 
+  const contents = parseConciseOrFunctionBody(
+    parser,
+    ((context | 0b00000000010000000101111100001000) ^ 0b00000000010000000101111100001000) |
+      (asyncToken ? Context.AwaitContext : Context.None),
+    scope,
+    (flags & NodeFlags.NoneSimpleParamList) < 1
+  );
+
   parser.assignable = false;
   return createArrowFunction(
     arrowToken,
@@ -2294,13 +2310,7 @@ function parseArrowFunction(
     params,
     asyncToken,
     returnType,
-    parseConciseOrFunctionBody(
-      parser,
-      ((context | 0b00000000010000000101111100001000) ^ 0b00000000010000000101111100001000) |
-        (asyncToken ? Context.AwaitContext : Context.None),
-      scope,
-      (flags & NodeFlags.NoneSimpleParamList) < 1
-    ),
+    contents,
     flags | NodeFlags.ExpressionNode,
     pos,
     parser.curPos
@@ -3365,24 +3375,28 @@ function paresSpreadPropertyArgument(
     return argument;
   }
 
+  let destructible = DestructibleKind.Assignable;
+
   let argument = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
-  if (parser.token & SyntaxKind.IsExpressionStart) {
+  if (
+    parser.token === SyntaxKind.Assign &&
+    (parser.token as SyntaxKind) !== SyntaxKind.LeftBrace &&
+    (parser.token as SyntaxKind) !== SyntaxKind.Comma
+  ) {
     argument = parseAssignmentExpression(parser, context, argument, pos);
-    parser.destructible |= DestructibleKind.NotDestructible;
-    return argument;
+    destructible |= DestructibleKind.NotDestructible;
+  } else {
+    if (parser.token === SyntaxKind.Comma) {
+      destructible |= DestructibleKind.NotDestructible;
+    } else if ((parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
+      argument = parseAssignmentExpression(parser, context, argument, pos);
+    }
+
+    destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
   }
 
-  if (parser.token === SyntaxKind.Comma) {
-    parser.destructible = DestructibleKind.NotDestructible;
-    return argument;
-  }
-  if (parser.token === SyntaxKind.RightBrace) {
-    return argument;
-  }
-  argument = parseAssignmentExpression(parser, context, argument, pos);
-
-  parser.destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+  parser.destructible = destructible;
 
   return argument;
 }
@@ -4335,6 +4349,19 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   // - `(() => x)`
   // - `return () => x`
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
+    if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[
+          LeftHandSideContext & LeftHandSide.ForStatement
+            ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
+            : DiagnosticCode.Expected_a
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    }
     let isType = false;
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
       isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, curPos) : true;
@@ -5514,13 +5541,15 @@ function parseFunctionExpression(
 
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
+          const params = parseIdentifierReference(parser, context);
+
           return parseArrowFunction(
             parser,
             context,
             scope,
             /* typeParameters */ null,
             /* returnType */ null,
-            /* params */ parseIdentifierReference(parser, context),
+            /* params */ params,
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -5753,13 +5782,16 @@ function parseFunctionDeclaration(
           };
 
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
+
+          const params = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+
           expression = parseArrowFunction(
             parser,
             context,
             scope,
             /* typeParameters */ null,
             /* returnType */ null,
-            /* params */ parseIdentifier(parser, context, 0b00000000100000000100000000000000),
+            /* params */ params,
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -8314,8 +8346,8 @@ function parseYieldIdentifierOrExpression(
       return createYieldExpression(
         /* yieldKeyword */ yieldKeyword,
         /* delegate */ true,
-       asteriskToken,
-       expression,
+        asteriskToken,
+        expression,
         pos,
         parser.curPos
       );

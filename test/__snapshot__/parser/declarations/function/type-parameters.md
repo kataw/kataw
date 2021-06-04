@@ -886,15 +886,19 @@ type T = <
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 34, end: 35
 ✖ Expression expected - start: 34, end: 35
 ✖ Identifier expected - start: 82, end: 96
+✖ Expected a `;` - start: 98, end: 99
 ✖ Expression expected - start: 98, end: 99
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
 ✖ Identifier expected - start: 178, end: 179
+✖ Expected a `;` - start: 259, end: 260
 ✖ Expression expected - start: 259, end: 260
 ✖ Duplicate identifier - start: 267, end: 269
 ✖ Identifier expected - start: 310, end: 327
+✖ Expected a `;` - start: 329, end: 330
 ✖ Expression expected - start: 329, end: 330
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384

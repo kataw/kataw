@@ -193,13 +193,12 @@ var x, y, z; ([async x => z] = {});
 
 ```javascript
 
-var x, y, z;
-([async x =>  z] = {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side must be a variable or a property access. - start: 28, end: 30
+
 ```
 

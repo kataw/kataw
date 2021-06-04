@@ -123,7 +123,6 @@ async x => (import) = 1
 
 ```javascript
 ✖ Identifier expected - start: 19, end: 21
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 23
 
 ```

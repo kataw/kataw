@@ -100,12 +100,12 @@ for (async a => b in x) ;
 
 ```javascript
 
-for (async a =>  b in x);
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 20, end: 22
+
 ```
 

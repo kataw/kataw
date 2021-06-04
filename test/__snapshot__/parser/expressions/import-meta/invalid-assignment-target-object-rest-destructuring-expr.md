@@ -124,12 +124,12 @@
 
 ```javascript
 
-({ ...import.meta; } = {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side must be a variable or a property access. - start: 1, end: 19
+
 ```
 

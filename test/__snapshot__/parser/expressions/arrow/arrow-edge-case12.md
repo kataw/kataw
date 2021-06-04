@@ -186,6 +186,7 @@ a ? b ? (c => d) : e => f : g;
 ### Diagnostics
 
 ```javascript
+✖ The left hand side of the arrow is not destructible  - start: 16, end: 18
 ✖ Identifier expected - start: 29, end: 30
 
 ```

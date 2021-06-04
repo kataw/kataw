@@ -3918,12 +3918,56 @@
 
 ```javascript
 
+({ x: y } = z = {});
+({ x:  } = z = {});
+({ x: { foo: foo().y } });
+[...{ a }] = [{}];
+({ x: z = 1, x1: y = 20 } = {});
+(q, { x = 10 } = {});
+({ x } = { x: 3 });
+({ x = 10 } = {});
+({ 1: x });
+({ 1: x } = 1);
+({ 1: x } = null);
+({ 1: x });
+({ 1: x } = 1);
+({ 1: x } = null);
+({ a: b } = null);
+({ [x]: 1 });
+({ a } = 1)();
+({ a: a } = 1)();
+({ x: { x: y }.length } = x);
+({ x: false });
+({ x: function () {} });
+({ x: typeof x });
+({ x: void x });
+({ x: x + y });
+({ x: new  x() });
+({ x: delete x.y });
+({ ... } = x);
+({ ... } = x);
+({ ... } = x = y);
+({ ... } = x = (y));
+({ ... } = (x) = (y));
+({ ... } = x);
+({ ... } = x);
+({ async x() {} });
+({ async x() {} });
+({ async [foo]() {} });
+({ get 500() {} });
+({ set 500(b) {} });
+({ set [foo](d) {} });
+({ ... } = {});
+({ ...{ b: 0 }.x } = {});
+([] = x);
+({ ...x.x, y });
+({ ...x.x = y, y });
+({ ...x = y, y });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 455, end: 468
-
+✔ No errors
 ```
 
