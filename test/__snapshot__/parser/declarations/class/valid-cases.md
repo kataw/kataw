@@ -2830,7 +2830,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 2048,
+                                    "flags": 0,
                                     "start": 960,
                                     "end": 961
                                 },
@@ -2849,11 +2849,11 @@
                                     "start": 961,
                                     "end": 964
                                 },
-                                "flags": 2048,
+                                "flags": 0,
                                 "start": 959,
                                 "end": 964
                             },
-                            "flags": 2048,
+                            "flags": 0,
                             "start": 942,
                             "end": 964
                         }

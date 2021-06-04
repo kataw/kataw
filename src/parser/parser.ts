@@ -8984,7 +8984,7 @@ export function parseClassElement(
         );
       }
     }
-    if (parser.tokenValue === 'constructor') {
+    if (key.kind !== SyntaxKind.ComputedPropertyName && parser.tokenValue === 'constructor') {
       if (!staticKeyword && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         if (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) {
           parser.onError(
@@ -9019,6 +9019,7 @@ export function parseClassElement(
         }
       }
     } else if (
+      key.kind !== SyntaxKind.ComputedPropertyName &&
       (staticKeyword || nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) &&
       parser.tokenValue === 'prototype'
     ) {
@@ -9073,7 +9074,7 @@ export function parseClassElement(
   generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   const key = parsePropertyName(parser, inheritedContext);
-  if (parser.tokenValue === 'constructor') {
+  if (key.kind !== SyntaxKind.ComputedPropertyName && parser.tokenValue === 'constructor') {
     if (
       parser.token & SyntaxKind.IsLessThanOrLeftParen &&
       !staticKeyword &&
@@ -9084,7 +9085,7 @@ export function parseClassElement(
   }
 
   if (parser.tokenValue === 'prototype') {
-    if (staticKeyword) {
+    if (key.kind !== SyntaxKind.ComputedPropertyName && staticKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
