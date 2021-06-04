@@ -209,7 +209,6 @@ do while [catch] function while
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Binding identifier expected - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 25, end: 31
-✖ Expression expected - start: 25, end: 31
 
 ```
 

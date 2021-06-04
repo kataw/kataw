@@ -89,44 +89,23 @@ function* g() { var f = async(yield) => 1; }
                                                 "end": 39
                                             },
                                             "typeParameters": null,
-                                            "parameters": {
-                                                "kind": 131,
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "async",
-                                                    "rawText": "async",
-                                                    "flags": 96,
-                                                    "start": 23,
-                                                    "end": 29
-                                                },
-                                                "argumentList": {
-                                                    "kind": 256,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 229,
-                                                            "yieldKeyword": {
-                                                                "kind": 8454253,
-                                                                "flags": 64,
-                                                                "start": 30,
-                                                                "end": 35
-                                                            },
-                                                            "delegate": false,
-                                                            "asteriskToken": null,
-                                                            "expression": null,
-                                                            "flags": 32,
-                                                            "start": 30,
-                                                            "end": 35
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
+                                            "parameters": [
+                                                {
+                                                    "kind": 229,
+                                                    "yieldKeyword": {
+                                                        "kind": 8454253,
+                                                        "flags": 64,
+                                                        "start": 30,
+                                                        "end": 35
+                                                    },
+                                                    "delegate": false,
+                                                    "asteriskToken": null,
+                                                    "expression": null,
                                                     "flags": 32,
-                                                    "start": 23,
-                                                    "end": 23
-                                                },
-                                                "flags": 268435488,
-                                                "start": 23,
-                                                "end": 36
-                                            },
+                                                    "start": 30,
+                                                    "end": 35
+                                                }
+                                            ],
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
@@ -142,7 +121,7 @@ function* g() { var f = async(yield) => 1; }
                                                 "start": 39,
                                                 "end": 41
                                             },
-                                            "flags": 32,
+                                            "flags": 288,
                                             "start": 23,
                                             "end": 41
                                         },
@@ -189,7 +168,7 @@ function* g() { var f = async(yield) => 1; }
 ```javascript
 
 function * g() {
-  var f = async async( yield) =>  1;
+  var f = async ( yield) =>  1;
 }
 ```
 

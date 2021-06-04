@@ -2505,25 +2505,35 @@
 
 ```javascript
 
+({ a: obj.a } = {});
+({ a: this.a } = {});
+([...] = x);
+([...] = x);
+({ ...{ b: 0 }.x } = {});
+({ ...[0].x } = {});
+({ ... } = {});
+({ ... } = {});
+({ ... } = {});
+({ x = 0, y: z } = 0);
+({ x: y } = 0);
+({ [a]: a } = 1);
+(x, { a: obj.a } = {});
+(x, { a: this.a } = {});
+(x, [...] = x);
+(x, [...] = x);
+(x, { ...{ b: 0 }.x } = {});
+(x, { ...[0].x } = {});
+(x, { ... } = {});
+(x, { ... } = {});
+(x, { ... } = {});
+(x, { x = 0, y: z } = 0);
+(x, { x: y } = 0);
+(x, { [a]: a } = 1);
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 54, end: 56
-✖ The left-hand side must be a variable or a property access. - start: 72, end: 74
-✖ The left-hand side must be a variable or a property access. - start: 80, end: 95
-✖ The left-hand side must be a variable or a property access. - start: 102, end: 114
-✖ The left-hand side must be a variable or a property access. - start: 121, end: 137
-✖ The left-hand side must be a variable or a property access. - start: 144, end: 157
-✖ The left-hand side must be a variable or a property access. - start: 164, end: 177
-✖ The left-hand side must be a variable or a property access. - start: 296, end: 298
-✖ The left-hand side must be a variable or a property access. - start: 317, end: 319
-✖ The left-hand side must be a variable or a property access. - start: 327, end: 343
-✖ The left-hand side must be a variable or a property access. - start: 352, end: 365
-✖ The left-hand side must be a variable or a property access. - start: 374, end: 391
-✖ The left-hand side must be a variable or a property access. - start: 400, end: 414
-✖ The left-hand side must be a variable or a property access. - start: 423, end: 437
-
+✔ No errors
 ```
 

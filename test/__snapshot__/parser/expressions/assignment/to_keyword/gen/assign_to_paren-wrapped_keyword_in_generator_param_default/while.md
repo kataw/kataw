@@ -186,7 +186,6 @@ function *f(x = (while) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 22
-✖ Expression expected - start: 17, end: 22
 ✖ Missing an opening parentheses - '( - start: 22, end: 23
 ✖ Identifier expected - start: 23, end: 25
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 23, end: 25

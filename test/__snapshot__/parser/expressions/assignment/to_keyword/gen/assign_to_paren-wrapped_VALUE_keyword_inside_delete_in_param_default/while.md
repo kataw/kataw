@@ -204,7 +204,6 @@ function *f(x = delete ((while) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 30
-✖ Expression expected - start: 25, end: 30
 ✖ Missing an opening parentheses - '( - start: 30, end: 31
 ✖ Identifier expected - start: 31, end: 33
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 31, end: 33

@@ -165,7 +165,6 @@ function *f(x = (export) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 23
-✖ Expression expected - start: 17, end: 23
 ✖ The `export` keyword can only be used with the module goal - start: 17, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26

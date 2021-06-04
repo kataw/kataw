@@ -164,7 +164,6 @@ function *f(){
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 26, end: 27
-✖ Expression expected - start: 26, end: 27
 
 ```
 

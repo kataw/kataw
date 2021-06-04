@@ -129,7 +129,6 @@ async () => {  functi\u006fn = x  }
 ```javascript
 ✖ Binding identifier expected - start: 28, end: 30
 ✖ Missing an opening parentheses - '( - start: 28, end: 30
-✖ Expression expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 
 ```

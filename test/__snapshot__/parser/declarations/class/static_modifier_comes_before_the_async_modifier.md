@@ -199,7 +199,6 @@ class x{   async static static(){}    }
 
 ```javascript
 ✖ Method definition expected - start: 23, end: 30
-✖ Expression expected - start: 23, end: 30
 
 ```
 

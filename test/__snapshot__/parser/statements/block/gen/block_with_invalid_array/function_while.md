@@ -196,7 +196,6 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Binding identifier expected - start: 18, end: 24
 ✖ Missing an opening parentheses - '( - start: 18, end: 24
-✖ Expression expected - start: 18, end: 24
 
 ```
 

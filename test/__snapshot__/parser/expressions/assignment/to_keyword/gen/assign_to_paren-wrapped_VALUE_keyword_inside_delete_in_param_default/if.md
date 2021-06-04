@@ -206,7 +206,6 @@ function *f(x = delete ((if) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 27
-✖ Expression expected - start: 25, end: 27
 ✖ Missing an opening parentheses - '( - start: 27, end: 28
 ✖ Identifier expected - start: 28, end: 30
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 30

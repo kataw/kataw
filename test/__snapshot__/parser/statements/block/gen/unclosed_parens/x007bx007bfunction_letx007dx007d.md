@@ -133,7 +133,6 @@
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 5
 ✖ Missing an opening parentheses - '( - start: 17, end: 18
-✖ Expression expected - start: 17, end: 18
 
 ```
 

@@ -188,7 +188,6 @@ function *f(x = (finally) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 24
-✖ Expression expected - start: 17, end: 24
 ✖ 'try' expected - start: 17, end: 24
 ✖ Declaration or statement expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 27

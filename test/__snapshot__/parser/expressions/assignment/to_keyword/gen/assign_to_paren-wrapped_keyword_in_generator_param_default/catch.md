@@ -196,7 +196,6 @@ function *f(x = (catch) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 22
-✖ Expression expected - start: 17, end: 22
 ✖ 'try' expected - start: 17, end: 22
 ✖ Declaration or statement expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25

@@ -214,12 +214,13 @@ var x, y, z; for (x of [async x => z] = {});
 
 ```javascript
 
+var x, y, z;
+for (x of [async x =>  z] = {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 37, end: 39
-
+✔ No errors
 ```
 

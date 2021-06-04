@@ -182,7 +182,6 @@ a ? async (b) => (c => d) : e => f;
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 25, end: 27
 ✖ Identifier expected - start: 34, end: 35
 
 ```

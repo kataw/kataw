@@ -233,7 +233,6 @@ function x(function () { for (const x in { a: x }) { } }) {}
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 11, end: 19
-✖ Expression expected - start: 11, end: 19
 ✖ Binding identifier expected - start: 19, end: 21
 ✖ Declaration or statement expected - start: 56, end: 57
 

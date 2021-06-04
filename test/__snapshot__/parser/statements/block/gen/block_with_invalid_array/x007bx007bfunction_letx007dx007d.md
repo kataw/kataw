@@ -198,7 +198,6 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Missing an opening parentheses - '( - start: 24, end: 25
-✖ Expression expected - start: 24, end: 25
 
 ```
 

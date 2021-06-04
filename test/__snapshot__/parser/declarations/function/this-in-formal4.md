@@ -135,7 +135,6 @@ function one(this: number) {}
 ✖ The 'this' keyword cannot be a formal parameter - start: 13, end: 17
 ✖ ',' expected - start: 17, end: 18
 ✖ Missing an opening brace - '{ - start: 25, end: 26
-✖ Expression expected - start: 25, end: 26
 
 ```
 

@@ -156,7 +156,6 @@ async (x = (function) = f) => {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
-✖ Expression expected - start: 20, end: 21
 
 ```
 

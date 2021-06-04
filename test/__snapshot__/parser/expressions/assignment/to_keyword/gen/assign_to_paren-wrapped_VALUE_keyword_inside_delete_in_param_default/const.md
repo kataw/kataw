@@ -185,7 +185,6 @@ function *f(x = delete ((const) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 30
-✖ Expression expected - start: 25, end: 30
 ✖ Expected a `;` - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 33
 ✖ Expected a `;` - start: 35, end: 36

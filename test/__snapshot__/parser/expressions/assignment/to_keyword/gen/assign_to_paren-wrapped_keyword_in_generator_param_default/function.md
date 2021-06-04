@@ -173,7 +173,6 @@ function *f(x = (function) = f) {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 25, end: 26
-✖ Expression expected - start: 25, end: 26
 
 ```
 

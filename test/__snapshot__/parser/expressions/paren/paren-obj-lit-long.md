@@ -408,13 +408,16 @@
 
 ```javascript
 
+({ ...(obj) } = foo),
+  ({ ...obj } = foo),
+  ({ ...obj.x } = foo),
+  ({ ...{}.x } = foo),
+  ({ ...[].x } = foo);
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 56, end: 67
-✖ The left-hand side must be a variable or a property access. - start: 74, end: 85
-
+✔ No errors
 ```
 

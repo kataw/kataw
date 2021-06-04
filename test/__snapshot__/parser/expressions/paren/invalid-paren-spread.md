@@ -706,7 +706,6 @@
 ✖ Identifier expected - start: 70, end: 71
 ✖ Identifier expected - start: 71, end: 72
 ✖ Identifier expected - start: 72, end: 73
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 72, end: 73
 ✖ Identifier expected - start: 73, end: 74
 ✖ A rest parameter must be last in a parameter list - start: 83, end: 84
 ✖ Identifier expected - start: 84, end: 85

@@ -195,7 +195,6 @@ class x {    async async get f(x){}    }
 
 ```javascript
 ✖ Method definition expected - start: 24, end: 28
-✖ Expression expected - start: 24, end: 28
 ✖ A 'get' accessor cannot have parameters. - start: 31, end: 32
 
 ```

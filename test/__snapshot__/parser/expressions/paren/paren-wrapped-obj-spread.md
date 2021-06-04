@@ -1487,25 +1487,24 @@
 
 ```javascript
 
+([...{}.x] = x);
+({ ... } = x);
+({ ... } = x = y);
+({ ... } = x = (y));
+({ ... } = (x) = (y));
+({ ... } = x);
+({ ... } = x);
+([...] = x);
+([...] = x);
+([...] = x);
+({ ...{ b: 0 }.x } = {});
+({ ... } = {});
+({ ... } = {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 10, end: 12
-✖ The left-hand side must be a variable or a property access. - start: 18, end: 30
-✖ The left-hand side must be a variable or a property access. - start: 36, end: 48
-✖ The left-hand side must be a variable or a property access. - start: 58, end: 70
-✖ The left-hand side must be a variable or a property access. - start: 82, end: 94
-✖ The left-hand side must be a variable or a property access. - start: 108, end: 120
-✖ The left-hand side must be a variable or a property access. - start: 126, end: 147
-✖ The left-hand side must be a variable or a property access. - start: 159, end: 180
-✖ The left-hand side must be a variable or a property access. - start: 188, end: 190
-✖ The left-hand side must be a variable or a property access. - start: 206, end: 208
-✖ The left-hand side must be a variable or a property access. - start: 224, end: 226
-✖ The left-hand side must be a variable or a property access. - start: 232, end: 247
-✖ The left-hand side must be a variable or a property access. - start: 254, end: 270
-✖ The left-hand side must be a variable or a property access. - start: 277, end: 290
-
+✔ No errors
 ```
 

@@ -281,7 +281,6 @@ class C { set x(_) { class C { get x) { super; } } } }
 
 ```javascript
 ✖ Method definition expected - start: 36, end: 37
-✖ Expression expected - start: 36, end: 37
 ✖ 'super' must be followed by an argument list or member access. - start: 39, end: 46
 ✖ Dot property must be an identifier - start: 45, end: 46
 ✖ Declaration or statement expected - start: 48, end: 50

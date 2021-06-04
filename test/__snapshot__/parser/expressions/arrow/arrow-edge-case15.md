@@ -158,8 +158,6 @@ a ? (b) : (c => d) => e : f;
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 18, end: 21
-✖ The left hand side of the arrow is not destructible  - start: 18, end: 21
 ✖ Expected a `;` - start: 23, end: 25
 
 ```

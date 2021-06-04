@@ -185,7 +185,6 @@ function *f(x = delete ((break) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 30
-✖ Expression expected - start: 25, end: 30
 ✖ Identifier expected - start: 30, end: 31
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 33

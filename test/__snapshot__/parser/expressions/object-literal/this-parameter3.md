@@ -567,7 +567,6 @@ let one = {
 ✖ The 'this' keyword cannot be a formal parameter - start: 17, end: 21
 ✖ ',' expected - start: 21, end: 22
 ✖ Expected a ')' to match the '(' token here - start: 21, end: 22
-✖ Expression expected - start: 21, end: 22
 ✖ ',' expected - start: 21, end: 22
 ✖ Expected a `;` - start: 29, end: 30
 ✖ Declaration or statement expected - start: 33, end: 34

@@ -199,7 +199,6 @@ function *f(x = delete ((do) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 27
-✖ Expression expected - start: 25, end: 27
 ✖ Identifier expected - start: 27, end: 28
 ✖ Declaration or statement expected - start: 28, end: 30
 ✖ Expected a `;` - start: 32, end: 33

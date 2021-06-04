@@ -196,7 +196,6 @@ export interface Options {
   disableWebCompat?: boolean;
   impliedStrict?: boolean;
   allowTypes?: boolean;
-  autoFix?: boolean;
 }
 
 /**
@@ -233,7 +232,6 @@ export function parse(
     if (options.next) context |= Context.OptionsNext;
     if (options.impliedStrict) context |= Context.Strict;
     if (options.allowTypes) context |= Context.OptionsAllowTypes;
-    if (options.autoFix) context |= Context.OptionsAutoFix;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
   }
   let pos = 0;
@@ -548,6 +546,7 @@ function parseCaseBlock(
     SyntaxKind.RightBrace,
     DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
   );
+
   return createCaseBlock(clauses, pos, parser.curPos);
 }
 
@@ -1881,13 +1880,17 @@ function parseConditionalExpression(
   shortCircuit: ExpressionNode,
   pos: number
 ): ExpressionNode {
+  const questionToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark, DiagnosticCode.Expression_expected);
+  const consequent = parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000);
+  const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
+  const alternate = parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr);
   parser.assignable = false;
   return createConditionalExpression(
     shortCircuit,
-    consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark, DiagnosticCode.Expression_expected),
-    parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
-    consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
-    parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+    questionToken,
+    consequent,
+    colonToken,
+    alternate,
     pos,
     parser.curPos
   );
@@ -1925,8 +1928,6 @@ function parseBinaryExpression(
   let prec: number;
   const bit = -((context & Context.DisallowInContext) > 0) & SyntaxKind.InKeyword;
 
-  parser.assignable = false;
-
   while ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
     t = parser.token;
     prec = t & SyntaxKind.Precedence;
@@ -1951,6 +1952,9 @@ function parseBinaryExpression(
         parser.pos
       );
     }
+
+    parser.assignable = false;
+
     left = createBinaryExpression(
       left,
       parseTokenNode(parser, context | Context.AllowRegExp),
@@ -3440,6 +3444,7 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
 function parseNewExpression(parser: ParserState, context: Context): NewTarget | NewExpression {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
+
   const newToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
@@ -6052,14 +6057,6 @@ function parseFunctionBody(
     return createFunctionBody(statementList, pos, parser.curPos);
   }
 
-  parser.onError(
-    DiagnosticSource.Parser,
-    DiagnosticKind.Error,
-    diagnosticMap[DiagnosticCode.Expression_expected],
-    parser.curPos,
-    parser.pos
-  );
-
   // Empty list
   return createFunctionBody(createFunctionStatementList([], [], NodeFlags.ExpressionNode, pos, pos), pos, pos);
 }
@@ -8296,8 +8293,6 @@ function parseYieldIdentifierOrExpression(
       );
     }
 
-    parser.assignable = false;
-
     if (parser.token === SyntaxKind.Multiply) {
       // A `\n` after `yield` is illegal for `yield *`, and '*' should therefor be parsed as
       //an binary expr operator in error recovery mode
@@ -8311,11 +8306,16 @@ function parseYieldIdentifierOrExpression(
         );
       }
 
+      const asteriskToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Multiply);
+      const expression = parseExpression(parser, context);
+
+      parser.assignable = false;
+
       return createYieldExpression(
         /* yieldKeyword */ yieldKeyword,
         /* delegate */ true,
-        consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Multiply),
-        parseExpression(parser, context),
+       asteriskToken,
+       expression,
         pos,
         parser.curPos
       );
@@ -8536,6 +8536,7 @@ export function parseImportMeta(
 
 function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
   const pos = parser.curPos;
+  parser.assignable = false;
   const nodeFlags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const templateSpans = [parseTemplateSpan(parser, context)];
 

@@ -125,12 +125,14 @@ function *f() {
 
 ```javascript
 
+function * f() {
+   yield *= x;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 23, end: 26
-
+✔ No errors
 ```
 

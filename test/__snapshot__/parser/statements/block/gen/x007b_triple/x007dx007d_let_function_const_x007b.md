@@ -178,7 +178,6 @@
 ✖ Expected a `;` - start: 12, end: 21
 ✖ Binding identifier expected - start: 21, end: 27
 ✖ Missing an opening parentheses - '( - start: 21, end: 27
-✖ Expression expected - start: 21, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
 ✖ Missing initializer in const declaration - start: 29, end: 29
 

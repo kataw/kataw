@@ -115,7 +115,6 @@
 
 ```javascript
 ✖ Method definition expected - start: 5, end: 7
-✖ Expression expected - start: 5, end: 7
 
 ```
 

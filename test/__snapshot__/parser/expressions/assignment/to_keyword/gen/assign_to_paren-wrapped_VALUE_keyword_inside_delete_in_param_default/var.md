@@ -186,7 +186,6 @@ function *f(x = delete ((var) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 28
-✖ Expression expected - start: 25, end: 28
 ✖ Expected a `;` - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
 ✖ Expected a `;` - start: 33, end: 34

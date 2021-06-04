@@ -222,12 +222,13 @@
 
 ```javascript
 
+let x, y, z;
+for (x of [async x =>  z] = {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 51, end: 53
-
+✔ No errors
 ```
 

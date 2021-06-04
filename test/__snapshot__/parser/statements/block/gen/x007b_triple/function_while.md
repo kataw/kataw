@@ -153,7 +153,6 @@
 ```javascript
 ✖ Binding identifier expected - start: 14, end: 20
 ✖ Missing an opening parentheses - '( - start: 14, end: 20
-✖ Expression expected - start: 14, end: 20
 
 ```
 

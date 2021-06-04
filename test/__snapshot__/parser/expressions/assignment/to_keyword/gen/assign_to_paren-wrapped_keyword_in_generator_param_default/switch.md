@@ -174,7 +174,6 @@ function *f(x = (switch) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 23
-✖ Expression expected - start: 17, end: 23
 ✖ Missing an opening parentheses - '( - start: 23, end: 24
 ✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 26
 ✖ Expected a `;` - start: 28, end: 29

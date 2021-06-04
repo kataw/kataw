@@ -160,7 +160,6 @@ function *f(x = (debugger) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 25
-✖ Expression expected - start: 17, end: 25
 ✖ Expected a `;` - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
 ✖ Expected a `;` - start: 30, end: 31

@@ -330,7 +330,6 @@ do while [catch] =! class function try while with foo!
 ✖ Missing an opening brace - '{ - start: 25, end: 34
 ✖ Binding identifier expected - start: 34, end: 38
 ✖ Missing an opening parentheses - '( - start: 34, end: 38
-✖ Expression expected - start: 34, end: 38
 ✖ Declaration or statement expected - start: 38, end: 44
 ✖ Missing an opening parentheses - '( - start: 44, end: 49
 ✖ Missing an opening parentheses - '( - start: 49, end: 53

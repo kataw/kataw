@@ -181,7 +181,6 @@ function *f(x = (do) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 19
-✖ Expression expected - start: 17, end: 19
 ✖ Identifier expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
 ✖ Expected a `;` - start: 24, end: 25

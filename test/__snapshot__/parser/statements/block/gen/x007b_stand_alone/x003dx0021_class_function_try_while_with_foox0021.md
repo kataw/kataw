@@ -246,7 +246,6 @@
 ✖ Missing an opening brace - '{ - start: 10, end: 19
 ✖ Binding identifier expected - start: 19, end: 23
 ✖ Missing an opening parentheses - '( - start: 19, end: 23
-✖ Expression expected - start: 19, end: 23
 ✖ Declaration or statement expected - start: 23, end: 29
 ✖ Missing an opening parentheses - '( - start: 29, end: 34
 ✖ Missing an opening parentheses - '( - start: 34, end: 38

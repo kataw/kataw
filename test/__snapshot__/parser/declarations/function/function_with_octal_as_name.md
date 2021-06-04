@@ -146,7 +146,6 @@ function 00004() { "use strict"; 00004; }
 ```javascript
 ✖ Binding identifier expected - start: 8, end: 14
 ✖ Missing an opening parentheses - '( - start: 8, end: 14
-✖ Expression expected - start: 8, end: 14
 ✖ Expected a `;` - start: 16, end: 18
 
 ```

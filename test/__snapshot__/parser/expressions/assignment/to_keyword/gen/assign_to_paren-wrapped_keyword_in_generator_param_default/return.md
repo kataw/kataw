@@ -167,7 +167,6 @@ function *f(x = (return) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 23
-✖ Expression expected - start: 17, end: 23
 ✖ A return statement can only be used within a function_body - start: 17, end: 23
 ✖ Identifier expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26

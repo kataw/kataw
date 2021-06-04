@@ -86,12 +86,12 @@
 
 ```javascript
 
+++async async =>  ok;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The operand of an increment or decrement operator must be a variable or a property access - start: 19, end: 19
-
+✔ No errors
 ```
 

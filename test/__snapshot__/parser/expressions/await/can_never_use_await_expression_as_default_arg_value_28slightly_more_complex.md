@@ -168,7 +168,6 @@ function call(foo= 5 + (await bar())){}
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 29, end: 33
 ✖ ',' expected - start: 33, end: 34
-✖ Expression expected - start: 33, end: 34
 ✖ Expression expected - start: 35, end: 36
 ✖ Declaration or statement expected - start: 36, end: 37
 

@@ -194,7 +194,6 @@ function *f(x = (for) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 20
-✖ Expression expected - start: 17, end: 20
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
 ✖ Identifier expected - start: 21, end: 23
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23

@@ -195,7 +195,6 @@ function *f(x = delete ((import) = f)) {}
 ✖ Expected a `;` - start: 37, end: 38
 ✖ Expected a ')' to match the '(' token here - start: 38, end: 40
 ✖ ',' expected - start: 41, end: 41
-✖ Expression expected - start: 41, end: 41
 
 ```
 

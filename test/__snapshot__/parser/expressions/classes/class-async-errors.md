@@ -1685,28 +1685,21 @@
 ✖ Identifier expected - start: 41, end: 42
 ✖ 'async' modifier cannot be used here - start: 67, end: 69
 ✖ Method definition expected - start: 67, end: 69
-✖ Expression expected - start: 67, end: 69
 ✖ 'async' modifier cannot be used here - start: 95, end: 97
 ✖ Method definition expected - start: 95, end: 97
-✖ Expression expected - start: 95, end: 97
 ✖ Method definition expected - start: 122, end: 124
-✖ Expression expected - start: 122, end: 124
 ✖ Declaration or statement expected - start: 126, end: 127
 ✖ Declaration or statement expected - start: 127, end: 128
 ✖ The parser expected to find a '}' to match the '{' token here - start: 144, end: 146
 ✖ Declaration or statement expected - start: 148, end: 149
 ✖ Declaration or statement expected - start: 149, end: 150
 ✖ Method definition expected - start: 174, end: 176
-✖ Expression expected - start: 174, end: 176
 ✖ Identifier expected - start: 240, end: 241
 ✖ 'async' modifier cannot be used here - start: 273, end: 275
 ✖ Method definition expected - start: 273, end: 275
-✖ Expression expected - start: 273, end: 275
 ✖ 'async' modifier cannot be used here - start: 308, end: 310
 ✖ Method definition expected - start: 308, end: 310
-✖ Expression expected - start: 308, end: 310
 ✖ Method definition expected - start: 342, end: 344
-✖ Expression expected - start: 342, end: 344
 ✖ Declaration or statement expected - start: 346, end: 347
 ✖ Declaration or statement expected - start: 347, end: 348
 ✖ The parser expected to find a '}' to match the '{' token here - start: 371, end: 373

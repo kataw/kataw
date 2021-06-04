@@ -162,7 +162,6 @@ function x({ x: import.meta }) {}
 ```javascript
 ✖ Object property expected - start: 15, end: 22
 ✖ ',' expected - start: 15, end: 22
-✖ Expression expected - start: 15, end: 22
 ✖ Cannot use 'import.meta' outside a module - start: 27, end: 29
 ✖ Declaration or statement expected - start: 27, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30

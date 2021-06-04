@@ -166,7 +166,6 @@ function *f(x = delete ((case) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 29
-✖ Expression expected - start: 25, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 32
 ✖ Expected a `;` - start: 34, end: 35

@@ -267,7 +267,6 @@ class C { constructor() { class C { get x) { super; } } } }
 
 ```javascript
 ✖ Method definition expected - start: 41, end: 42
-✖ Expression expected - start: 41, end: 42
 ✖ 'super' must be followed by an argument list or member access. - start: 44, end: 51
 ✖ Dot property must be an identifier - start: 50, end: 51
 ✖ Declaration or statement expected - start: 53, end: 55

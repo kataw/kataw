@@ -102,7 +102,6 @@
 ```javascript
 ✖ Binding identifier expected - start: 22, end: 24
 ✖ Missing an opening parentheses - '( - start: 22, end: 24
-✖ Expression expected - start: 22, end: 24
 
 ```
 

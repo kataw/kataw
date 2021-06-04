@@ -187,7 +187,6 @@ class Foo {
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 26, end: 27
-✖ Expression expected - start: 26, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 33
 ✖ Declaration or statement expected - start: 36, end: 38
 

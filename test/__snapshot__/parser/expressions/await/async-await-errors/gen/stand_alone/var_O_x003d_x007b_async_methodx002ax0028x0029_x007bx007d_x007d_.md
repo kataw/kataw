@@ -195,7 +195,6 @@ var O = { async method*() {} };
 
 ```javascript
 ✖ Method definition expected - start: 22, end: 23
-✖ Expression expected - start: 22, end: 23
 ✖ Identifier expected - start: 23, end: 24
 
 ```

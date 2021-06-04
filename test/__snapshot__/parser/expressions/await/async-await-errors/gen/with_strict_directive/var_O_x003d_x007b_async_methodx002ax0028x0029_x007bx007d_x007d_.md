@@ -204,7 +204,6 @@
 
 ```javascript
 ✖ Method definition expected - start: 36, end: 37
-✖ Expression expected - start: 36, end: 37
 ✖ Identifier expected - start: 37, end: 38
 
 ```

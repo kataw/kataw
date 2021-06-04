@@ -174,7 +174,6 @@ async (x = delete ((function) = f)) => {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 28, end: 29
-✖ Expression expected - start: 28, end: 29
 
 ```
 

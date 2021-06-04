@@ -148,7 +148,6 @@ function *f(x = (case) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 21
-✖ Expression expected - start: 17, end: 21
 ✖ Declaration or statement expected - start: 21, end: 22
 ✖ Declaration or statement expected - start: 22, end: 24
 ✖ Expected a `;` - start: 26, end: 27

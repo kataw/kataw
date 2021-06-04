@@ -191,7 +191,6 @@ function *f(x = delete ((function) = f)) {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 33, end: 34
-✖ Expression expected - start: 33, end: 34
 
 ```
 

@@ -198,13 +198,12 @@
 
 ```javascript
 
+([...[([...[].x] = x)].x] = x);
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 16, end: 18
-✖ The left-hand side must be a variable or a property access. - start: 25, end: 27
-
+✔ No errors
 ```
 

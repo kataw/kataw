@@ -137,7 +137,6 @@ async x => (function) = 1
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
-✖ Expression expected - start: 20, end: 21
 
 ```
 

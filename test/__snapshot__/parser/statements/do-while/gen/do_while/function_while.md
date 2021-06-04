@@ -137,7 +137,6 @@ do function while while
 ✖ Function declarations cannot be used in a single-statement context - start: 2, end: 11
 ✖ Binding identifier expected - start: 11, end: 17
 ✖ Missing an opening parentheses - '( - start: 11, end: 17
-✖ Expression expected - start: 11, end: 17
 ✖ Missing an opening parentheses - '( - start: 17, end: 23
 
 ```

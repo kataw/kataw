@@ -157,7 +157,6 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 14, end: 15
-✖ Expression expected - start: 14, end: 15
 
 ```
 

@@ -175,7 +175,6 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 22, end: 23
-✖ Expression expected - start: 22, end: 23
 
 ```
 

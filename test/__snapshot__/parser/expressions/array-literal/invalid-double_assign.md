@@ -109,12 +109,12 @@
 
 ```javascript
 
+[] = n / f >>= v;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 6, end: 9
-
+✔ No errors
 ```
 

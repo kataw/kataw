@@ -109,7 +109,6 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 14, end: 16
-✖ Expression expected - start: 14, end: 16
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 14, end: 16
 
 ```

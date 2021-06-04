@@ -238,8 +238,6 @@ a ? b ? (c => d) : e => (f => g) : h => i;
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 32, end: 34
-✖ The left hand side of the arrow is not destructible  - start: 32, end: 34
 ✖ Identifier expected - start: 41, end: 42
 
 ```

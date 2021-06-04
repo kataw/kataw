@@ -187,7 +187,6 @@ do do do function while while while while
 ✖ Function declarations cannot be used in a single-statement context - start: 8, end: 17
 ✖ Binding identifier expected - start: 17, end: 23
 ✖ Missing an opening parentheses - '( - start: 17, end: 23
-✖ Expression expected - start: 17, end: 23
 ✖ Missing an opening parentheses - '( - start: 23, end: 29
 ✖ Missing an opening parentheses - '( - start: 29, end: 35
 ✖ Missing an opening parentheses - '( - start: 35, end: 41

@@ -116,12 +116,12 @@
 
 ```javascript
 
+([...] = x);
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 11, end: 13
-
+✔ No errors
 ```
 

@@ -221,13 +221,13 @@
 
 ```javascript
 
+([...] = x);
+(x, [...] = x);
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 11, end: 13
-✖ The left-hand side must be a variable or a property access. - start: 33, end: 35
-
+✔ No errors
 ```
 

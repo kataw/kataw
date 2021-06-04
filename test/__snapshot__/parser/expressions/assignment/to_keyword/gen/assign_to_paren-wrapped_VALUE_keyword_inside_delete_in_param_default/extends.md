@@ -166,7 +166,6 @@ function *f(x = delete ((extends) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 32
-✖ Expression expected - start: 25, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 35
 ✖ Expected a `;` - start: 37, end: 38

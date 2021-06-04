@@ -201,7 +201,6 @@ class A {set set foo(value) { }};
 
 ```javascript
 ✖ Method definition expected - start: 16, end: 20
-✖ Expression expected - start: 16, end: 20
 
 ```
 

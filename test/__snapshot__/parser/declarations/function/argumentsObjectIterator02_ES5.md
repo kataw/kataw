@@ -607,7 +607,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ```javascript
 ✖ ',' expected - start: 33, end: 34
 ✖ Missing an opening brace - '{ - start: 41, end: 42
-✖ Expression expected - start: 41, end: 42
 ✖ Expected a `;` - start: 55, end: 56
 ✖ Expected a `;` - start: 63, end: 64
 ✖ Declaration or statement expected - start: 64, end: 65

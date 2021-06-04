@@ -185,7 +185,6 @@ function *f(x = delete ((return) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 31
-✖ Expression expected - start: 25, end: 31
 ✖ A return statement can only be used within a function_body - start: 25, end: 31
 ✖ Identifier expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 34

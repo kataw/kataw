@@ -164,7 +164,6 @@ do {} while (x) { function while
 ```javascript
 ✖ Binding identifier expected - start: 26, end: 32
 ✖ Missing an opening parentheses - '( - start: 26, end: 32
-✖ Expression expected - start: 26, end: 32
 
 ```
 

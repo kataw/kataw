@@ -218,7 +218,6 @@ foo = {
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 50, end: 52
-✖ Expression expected - start: 50, end: 52
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 50, end: 52
 
 ```

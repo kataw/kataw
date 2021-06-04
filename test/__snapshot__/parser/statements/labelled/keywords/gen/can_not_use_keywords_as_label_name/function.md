@@ -100,7 +100,6 @@ function: x
 ✖ Binding identifier expected - start: 8, end: 9
 ✖ Missing an opening parentheses - '( - start: 8, end: 9
 ✖ Missing an opening brace - '{ - start: 11, end: 11
-✖ Expression expected - start: 11, end: 11
 
 ```
 

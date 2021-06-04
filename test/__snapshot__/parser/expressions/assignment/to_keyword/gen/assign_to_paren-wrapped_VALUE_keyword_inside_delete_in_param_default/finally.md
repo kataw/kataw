@@ -206,7 +206,6 @@ function *f(x = delete ((finally) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 32
-✖ Expression expected - start: 25, end: 32
 ✖ 'try' expected - start: 25, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 35

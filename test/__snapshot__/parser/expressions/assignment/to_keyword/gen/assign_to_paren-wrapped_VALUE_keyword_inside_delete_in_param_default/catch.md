@@ -214,7 +214,6 @@ function *f(x = delete ((catch) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 30
-✖ Expression expected - start: 25, end: 30
 ✖ 'try' expected - start: 25, end: 30
 ✖ Declaration or statement expected - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 33

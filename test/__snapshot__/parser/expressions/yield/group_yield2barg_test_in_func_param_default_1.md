@@ -149,7 +149,6 @@ function f(x=(yield z)=y){}
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 19, end: 21
 ✖ Missing an opening brace - '{ - start: 22, end: 23
-✖ Expression expected - start: 22, end: 23
 ✖ Expected a `;` - start: 24, end: 25
 
 ```

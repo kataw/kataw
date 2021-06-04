@@ -171,7 +171,6 @@ function func(x,  @foo x) {}
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 16, end: 19
-✖ Expression expected - start: 16, end: 19
 ✖ Missing an opening brace - '{ - start: 24, end: 25
 
 ```
