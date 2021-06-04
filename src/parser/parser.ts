@@ -207,7 +207,7 @@ export interface LinterOptions {
 /**
  * The parser options.
  */
- export interface Options {
+export interface Options {
   next?: boolean;
   disableWebCompat?: boolean;
   impliedStrict?: boolean;
@@ -579,6 +579,18 @@ function parseCaseBlock(
     SyntaxKind.RightBrace,
     DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
   );
+
+  // linter; 'require switch default'
+  if (!hasDefaultCase && parser.linterFlags & LinterFlags.SwitchDefault) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.Linter,
+      diagnosticMap[DiagnosticCode.A_default_clause_is_required],
+      pos,
+      parser.curPos
+    );
+  }
+
   return createCaseBlock(clauses, pos, parser.curPos);
 }
 

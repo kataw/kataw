@@ -239,7 +239,8 @@ export const enum DiagnosticCode {
   Comma_operator_is_disallowed_as_an_async_arrow_concise_body_with_export_default_modifier = 242,
   _MethodDefinition_expected = 243,
   A_class_field_cannot_have_a_field_named_constructor = 244,
-  Class_fields_may_not_have_a_static_property_named_prototype = 245
+  Class_fields_may_not_have_a_static_property_named_prototype = 245,
+  A_default_clause_is_required = 246
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -483,5 +484,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [242]: 'Comma operator is disallowed as an async arrow concise body with `export default` modifier',
   [243]: '`MethodDefinition` expected',
   [244]: "A class field cannot have a field named 'constructor'",
-  [245]: "Class fields may not have a static property named 'prototype'"
+  [245]: "Class fields may not have a static property named 'prototype'",
+  [246]: "A 'default' clause is required"
 };
