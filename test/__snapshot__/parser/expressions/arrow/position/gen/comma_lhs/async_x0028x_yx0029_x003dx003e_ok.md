@@ -53,29 +53,31 @@ async (x, y) => ok, a
             },
             "returnType": null,
             "contents": {
-                "kind": 134299649,
-                "text": "ok",
-                "rawText": "ok",
-                "flags": 96,
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 134299649,
+                        "text": "ok",
+                        "rawText": "ok",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 18
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 19,
+                        "end": 21
+                    }
+                ],
+                "flags": 32,
                 "start": 15,
-                "end": 18
+                "end": 21
             },
             "flags": 288,
             "start": 0,
-            "end": 18
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "a",
-                "rawText": "a",
-                "flags": 96,
-                "start": 19,
-                "end": 21
-            },
-            "flags": 16,
-            "start": 19,
             "end": 21
         }
     ],
@@ -92,12 +94,12 @@ async (x, y) => ok, a
 
 ```javascript
 
+async (x, y) =>  ok, a
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 18, end: 19
-
+✔ No errors
 ```
 

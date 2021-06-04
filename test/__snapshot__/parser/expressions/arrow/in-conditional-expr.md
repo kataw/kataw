@@ -219,38 +219,38 @@ x ? ( (a, {}) => {} ) : baz;
                 "consequent": {
                     "kind": 121,
                     "expression": {
-                        "kind": 132,
-                        "expressions": [
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 57,
+                            "end": 60
+                        },
+                        "typeParameters": null,
+                        "parameters": [
                             {
-                                "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 57,
-                                    "end": 60
-                                },
-                                "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 52,
-                                        "end": 53
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 54,
-                                        "end": 56
-                                    }
-                                ],
-                                "asyncKeyword": null,
-                                "returnType": null,
-                                "contents": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 52,
+                                "end": 53
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 54,
+                                "end": 56
+                            }
+                        ],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 132,
+                            "expressions": [
+                                {
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
@@ -258,54 +258,54 @@ x ? ( (a, {}) => {} ) : baz;
                                     "start": 60,
                                     "end": 62
                                 },
-                                "flags": 32,
-                                "start": 50,
-                                "end": 62
-                            },
-                            {
-                                "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 70,
-                                    "end": 73
-                                },
-                                "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 96,
-                                        "start": 65,
-                                        "end": 66
+                                {
+                                    "kind": 271,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 70,
+                                        "end": 73
                                     },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "d",
-                                        "rawText": "d",
+                                    "typeParameters": null,
+                                    "parameters": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
+                                            "start": 65,
+                                            "end": 66
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "d",
+                                            "rawText": "d",
+                                            "flags": 96,
+                                            "start": 67,
+                                            "end": 69
+                                        }
+                                    ],
+                                    "asyncKeyword": null,
+                                    "returnType": null,
+                                    "contents": {
+                                        "kind": 201392130,
+                                        "text": 1,
+                                        "rawText": "1",
                                         "flags": 96,
-                                        "start": 67,
-                                        "end": 69
-                                    }
-                                ],
-                                "asyncKeyword": null,
-                                "returnType": null,
-                                "contents": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 73,
+                                        "start": 73,
+                                        "end": 75
+                                    },
+                                    "flags": 32,
+                                    "start": 63,
                                     "end": 75
-                                },
-                                "flags": 32,
-                                "start": 63,
-                                "end": 75
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 60,
+                            "end": 75
+                        },
                         "flags": 32,
-                        "start": 48,
+                        "start": 50,
                         "end": 75
                     },
                     "flags": 32,

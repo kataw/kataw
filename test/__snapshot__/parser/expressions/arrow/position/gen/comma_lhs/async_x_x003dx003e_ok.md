@@ -21,33 +21,33 @@ async x => ok, a
         {
             "kind": 120,
             "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 7,
-                            "end": 10
-                        },
-                        "typeParameters": null,
-                        "parameters": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 7
-                        },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 0,
-                            "end": 5
-                        },
-                        "returnType": null,
-                        "contents": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 10
+                },
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 5,
+                    "end": 7
+                },
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 132,
+                    "expressions": [
+                        {
                             "kind": 134299649,
                             "text": "ok",
                             "rawText": "ok",
@@ -55,20 +55,20 @@ async x => ok, a
                             "start": 10,
                             "end": 13
                         },
-                        "flags": 288,
-                        "start": 0,
-                        "end": 13
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 14,
-                        "end": 16
-                    }
-                ],
-                "flags": 32,
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 14,
+                            "end": 16
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 10,
+                    "end": 16
+                },
+                "flags": 288,
                 "start": 0,
                 "end": 16
             },

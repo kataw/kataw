@@ -53,61 +53,69 @@ async (x, y) => ok, async (x, y) => ok
             },
             "returnType": null,
             "contents": {
-                "kind": 134299649,
-                "text": "ok",
-                "rawText": "ok",
-                "flags": 96,
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 134299649,
+                        "text": "ok",
+                        "rawText": "ok",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 18
+                    },
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 32,
+                            "end": 35
+                        },
+                        "typeParameters": null,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 27,
+                                "end": 28
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 29,
+                                "end": 31
+                            }
+                        ],
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 25
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "ok",
+                            "rawText": "ok",
+                            "flags": 96,
+                            "start": 35,
+                            "end": 38
+                        },
+                        "flags": 288,
+                        "start": 19,
+                        "end": 38
+                    }
+                ],
+                "flags": 32,
                 "start": 15,
-                "end": 18
-            },
-            "flags": 288,
-            "start": 0,
-            "end": 18
-        },
-        {
-            "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 32,
-                "end": 35
-            },
-            "typeParameters": null,
-            "parameters": [
-                {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 27,
-                    "end": 28
-                },
-                {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 29,
-                    "end": 31
-                }
-            ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 19,
-                "end": 25
-            },
-            "returnType": null,
-            "contents": {
-                "kind": 134299649,
-                "text": "ok",
-                "rawText": "ok",
-                "flags": 96,
-                "start": 35,
                 "end": 38
             },
             "flags": 288,
-            "start": 19,
+            "start": 0,
             "end": 38
         }
     ],
@@ -124,12 +132,12 @@ async (x, y) => ok, async (x, y) => ok
 
 ```javascript
 
+async (x, y) =>  ok, async (x, y) =>  ok
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 18, end: 19
-
+✔ No errors
 ```
 

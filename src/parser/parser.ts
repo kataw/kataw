@@ -2408,7 +2408,7 @@ function parseConciseOrFunctionBody(
     return body;
   }
 
-  return parseExpression(parser, context);
+  return parseExpressions(parser, context);
 }
 
 function parseArguments(parser: ParserState, context: Context): ArgumentList {

@@ -18,33 +18,33 @@ async x=>x, y
         {
             "kind": 120,
             "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 7,
-                            "end": 9
-                        },
-                        "typeParameters": null,
-                        "parameters": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 7
-                        },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 0,
-                            "end": 5
-                        },
-                        "returnType": null,
-                        "contents": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 9
+                },
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 5,
+                    "end": 7
+                },
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 132,
+                    "expressions": [
+                        {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -52,20 +52,20 @@ async x=>x, y
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 288,
-                        "start": 0,
-                        "end": 10
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 11,
-                        "end": 13
-                    }
-                ],
-                "flags": 32,
+                        {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 11,
+                            "end": 13
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 9,
+                    "end": 13
+                },
+                "flags": 288,
                 "start": 0,
                 "end": 13
             },
