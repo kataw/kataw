@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-03
+- Regenerated: 2021-06-05
 - From: kataw8/test\__snapshot__/parser/misc/destructuring/failing-cases/autogen.md
 - Path: kataw8/test\__snapshot__\parser\misc\destructuring\failing-cases\gen\lexical
 > :: test: lexical
@@ -58,55 +58,68 @@ let { x: import.meta }
                                         "flags": 32,
                                         "start": 5,
                                         "end": 8
+                                    },
+                                    {
+                                        "kind": 204,
+                                        "ellipsisToken": null,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "import",
+                                            "rawText": "import",
+                                            "flags": 96,
+                                            "start": 8,
+                                            "end": 15
+                                        },
+                                        "value": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 15,
+                                            "end": 15
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 8,
+                                        "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
-                                "end": 8
+                                "end": 15
                             },
                             "flags": 32,
                             "start": 3,
-                            "end": 8
+                            "end": 15
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 8
+                        "end": 15
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 8
+                "end": 15
             },
             "flags": 33554448,
             "start": 0,
-            "end": 8
+            "end": 15
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 207,
-                "importKeyword": {
-                    "kind": 37814364,
-                    "flags": 80,
-                    "start": 8,
-                    "end": 15
-                },
-                "metaIdentifier": {
-                    "kind": 16595,
-                    "flags": 64,
-                    "start": 16,
-                    "end": 20
-                },
-                "flags": 15,
-                "start": 96,
+                "kind": 134299649,
+                "text": "meta",
+                "rawText": "meta",
+                "flags": 96,
+                "start": 16,
                 "end": 20
             },
             "flags": 16,
-            "start": 15,
+            "start": 16,
             "end": 20
         }
     ],
@@ -130,9 +143,10 @@ let { x: import.meta }
 ```javascript
 ✖ Object property expected - start: 8, end: 15
 ✖ ',' expected - start: 8, end: 15
-✖ Missing initializer in destructuring declaration - start: 8, end: 15
-✖ Lexical declaration expected - start: 8, end: 15
-✖ Cannot use 'import.meta' outside a module - start: 20, end: 22
+✖ Object property expected - start: 15, end: 16
+✖ ',' expected - start: 15, end: 16
+✖ Missing initializer in destructuring declaration - start: 15, end: 16
+✖ ',' expected - start: 15, end: 16
 ✖ Declaration or statement expected - start: 20, end: 22
 
 ```

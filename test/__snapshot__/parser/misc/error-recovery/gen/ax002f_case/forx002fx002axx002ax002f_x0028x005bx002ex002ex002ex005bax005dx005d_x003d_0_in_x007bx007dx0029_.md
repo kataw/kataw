@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-03
+- Regenerated: 2021-06-05
 - From: kataw8/test\__snapshot__/parser/misc/error-recovery/autogen.md
 - Path: kataw8/test\__snapshot__\parser\misc\error-recovery\gen\ax002f_case
 > :: test: a/ case

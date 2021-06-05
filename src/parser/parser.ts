@@ -4126,7 +4126,7 @@ function parseArraySpreadArgument(
   type: BindingType
 ): ExpressionNode {
   const pos = parser.curPos;
-  // - `{...x};`
+// - `{...x};`
   // - `{...x/y};`
   // - `{...x};`
   // - `({...x}) => y;`
@@ -5404,7 +5404,7 @@ function parseBindingPropertyList(
   const properties = [];
   let trailingComma = false;
   const flags = parser.nodeFlags;
-  while (parser.token & 0b00010100100010000100000000000000) {
+  while (parser.token & 0b00010100110010000100000000000000) {
     const bindingProperty = parseBindingProperty(parser, context, scope, type);
     properties.push(bindingProperty);
 

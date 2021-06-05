@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-03
+- Regenerated: 2021-06-05
 - From: kataw8/test\__snapshot__/parser/misc/destructuring/failing-cases/autogen.md
 - Path: kataw8/test\__snapshot__\parser\misc\destructuring\failing-cases\gen\function_param_list
 > :: test: function param list
@@ -67,22 +67,45 @@ function x({ x: import.meta }) {}
                                     "flags": 32,
                                     "start": 12,
                                     "end": 15
+                                },
+                                {
+                                    "kind": 204,
+                                    "ellipsisToken": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "import",
+                                        "rawText": "import",
+                                        "flags": 96,
+                                        "start": 15,
+                                        "end": 22
+                                    },
+                                    "value": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "flags": 64,
+                                        "start": 22,
+                                        "end": 22
+                                    },
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 15,
+                                    "end": 22
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 12,
-                            "end": 15
+                            "end": 22
                         },
                         "flags": 32,
                         "start": 11,
-                        "end": 15
+                        "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 10,
-                "end": 22
+                "end": 23
             },
             "contents": {
                 "kind": 216,
@@ -91,41 +114,31 @@ function x({ x: import.meta }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
-                    "start": 15,
-                    "end": 15
+                    "start": 22,
+                    "end": 22
                 },
                 "flags": 32,
-                "start": 15,
-                "end": 15
+                "start": 22,
+                "end": 22
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 22
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 207,
-                "importKeyword": {
-                    "kind": 37814364,
-                    "flags": 80,
-                    "start": 15,
-                    "end": 22
-                },
-                "metaIdentifier": {
-                    "kind": 16595,
-                    "flags": 64,
-                    "start": 23,
-                    "end": 27
-                },
-                "flags": 22,
-                "start": 96,
+                "kind": 134299649,
+                "text": "meta",
+                "rawText": "meta",
+                "flags": 96,
+                "start": 23,
                 "end": 27
             },
             "flags": 16,
-            "start": 22,
+            "start": 23,
             "end": 27
         },
         {
@@ -162,7 +175,8 @@ function x({ x: import.meta }) {}
 ```javascript
 ✖ Object property expected - start: 15, end: 22
 ✖ ',' expected - start: 15, end: 22
-✖ Cannot use 'import.meta' outside a module - start: 27, end: 29
+✖ Object property expected - start: 22, end: 23
+✖ ',' expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 27, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 

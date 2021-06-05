@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-03
+- Regenerated: 2021-06-05
 - From: kataw8/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_static_setter_in_class
 > :: test: as static setter in class

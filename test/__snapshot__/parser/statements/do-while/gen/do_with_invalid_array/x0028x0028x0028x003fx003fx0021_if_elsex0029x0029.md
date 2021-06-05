@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-03
+- Regenerated: 2021-06-05
 - From: kataw8/test\__snapshot__/parser/statements/do-while/autogen.md
 - Path: kataw8/test\__snapshot__\parser\statements\do-while\gen\do_with_invalid_array
 > :: test: do with invalid array

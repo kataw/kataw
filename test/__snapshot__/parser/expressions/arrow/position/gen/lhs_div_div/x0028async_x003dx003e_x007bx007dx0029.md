@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-03
+- Regenerated: 2021-06-05
 - From: kataw8/test\__snapshot__/parser/expressions/arrow/position/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\arrow\position\gen\lhs_div_div
 > :: test: lhs div div
