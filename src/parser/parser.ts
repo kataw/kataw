@@ -4154,8 +4154,8 @@ function parseArraySpreadArgument(
     } else {
       // - `{...a.b}=c`
       // - `let {...a.b}=c`
-      // - `for ({...a.b} in c) d`
-      // - `for (let {...a.b} in c) d`
+      // - `for ({...a.b} in c);`
+      // - `for (let {...a.b} in c);`
       // - `{...a.b} = c`
       // - `({...a.b} = c)`
       // - `({...a.b}) => c`
@@ -4268,17 +4268,6 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.end
       );
     case SyntaxKind.AssignmentExpression:
-      if (node.operatorToken.kind !== SyntaxKind.Assign) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[
-            DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
-          ],
-          node.start,
-          node.end
-        );
-      }
       return createBindingElement(
         /* ellipsisToken */ null,
         convertArrowParameter(parser, node.left),
