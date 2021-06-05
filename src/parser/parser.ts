@@ -3290,91 +3290,116 @@ function paresSpreadPropertyArgument(
   type: BindingType
 ): SpreadProperty | any {
   const pos = parser.curPos;
+  // - `{...x};`
+  // - `{...x/y};`
+  // - `{...x};`
+  // - `({...x}) => y;`
+  // - `{...x} = y;`
+  // - `{...this};`
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     const tokenValue = parser.tokenValue;
     let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+    let destructible = 0;
 
-    // '... )' , '... ]' and '... }'
-    if (parser.token === SyntaxKind.RightBrace) {
-      parser.destructible = parser.assignable ? DestructibleKind.Destructible : DestructibleKind.NotDestructible;
-      return argument;
-    }
-
-    // A spread or rest element / property may not have a trailing comma, so we are setting the
-    // destructible state to 'NotDestructible' for cases like '..., )',  '..., }'  and '..., ]'.
-    if (parser.token === SyntaxKind.Comma) {
-      parser.destructible = DestructibleKind.NotDestructible;
-      return argument;
-    }
-
-    // This is the slow path. We shouldn't care too much about performance
+    let token = parser.token;
     argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
-    let destructible = DestructibleKind.None;
-
-    //if ((parser.token as SyntaxKind) !== SyntaxKind.Comma && (parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
-    if (parser.token & (SyntaxKind.IsAssignOp | SyntaxKind.IsBinaryOp)) {
+    if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightBrace) {
       destructible |= DestructibleKind.NotDestructible;
       argument = parseAssignmentExpression(parser, context, argument, pos);
-    } else if (parser.token === SyntaxKind.QuestionMark) {
-      argument = parseConditionalExpression(parser, context, argument, pos);
     }
 
+    // - `{...a+b}`
     if (!parser.assignable) {
       destructible |= DestructibleKind.NotDestructible;
-    } else if (
-      (parser.token as SyntaxKind) === SyntaxKind.Comma ||
-      (parser.token as SyntaxKind) === SyntaxKind.RightBrace
-    ) {
-      addVarOrBlock(parser, context, scope, tokenValue, type);
+    } else if (token === SyntaxKind.RightBrace || token === SyntaxKind.Comma) {
+      if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
     } else {
+      // - `{...a.b}=c`
+      // - `let {...a.b}=c`
+      // - `for ({...a.b} in c) d`
+      // - `for (let {...a.b} in c) d`
+      // - `{...a.b} = c`
+      // - `({...a.b} = c)`
+      // - `({...a.b}) => c`
       destructible |= DestructibleKind.Assignable;
     }
-
-    parser.destructible = destructible |= parser.assignable
-      ? DestructibleKind.Assignable
-      : DestructibleKind.NotDestructible;
-
+    if (parser.token !== SyntaxKind.RightBrace) {
+      if (parser.token === SyntaxKind.Assign) {
+        argument = parseAssignmentExpression(parser, context, argument, pos);
+        destructible |= DestructibleKind.NotDestructible;
+      } else {
+        destructible |= DestructibleKind.NotDestructible;
+      }
+    }
+    parser.destructible = destructible;
     return argument;
   }
 
-  // '{', '['
+  // - `({...[].x} = x);`
+  // - `({...[][x]} = x);`
+  // - `({...{}.x} = x);`
   if (parser.token & SyntaxKind.IsPatternStart) {
     let argument: any =
       parser.token === SyntaxKind.LeftBracket
         ? parseArrayLiteralOrAssignmentExpression(parser, context, scope, type)
         : parseObjectLiteralOrAssignmentExpression(parser, context, scope, type);
 
-    // '...[ ] )' , '... { } ]' etc.
-    if (parser.token === SyntaxKind.RightBrace) {
-      parser.destructible |= DestructibleKind.NotDestructible;
-      return argument;
+    const token = parser.token;
+    let destructible = DestructibleKind.None;
+
+    if (token !== SyntaxKind.Assign && token !== SyntaxKind.RightBrace && token !== SyntaxKind.Comma) {
+      // - `({...[].x} = x);`
+      if (parser.destructible & DestructibleKind.MustDestruct) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode._expected],
+          parser.curPos,
+          parser.pos
+        );
+      }
+
+      argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
+      // - `({ ...[x] }) => {}`
+      // - `{...[] = c}`
+      if (!parser.assignable) {
+        destructible |= DestructibleKind.NotDestructible;
+      }
+
+      if ((parser.token & SyntaxKind.IsAssignOp) === SyntaxKind.IsAssignOp) {
+        if (parser.token !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
+        argument = parseAssignmentExpression(parser, context, argument, pos);
+      } else {
+        if ((parser.token & SyntaxKind.IsBinaryOp) === SyntaxKind.IsBinaryOp) {
+          parseBinaryExpression(parser, context, argument, 4, parser.token, pos);
+        }
+        if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark)) {
+          argument = parseConditionalExpression(parser, context, argument, pos);
+        }
+        destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
+      }
+    } else {
+      destructible |=
+        token === SyntaxKind.RightBrace && (token as any) !== SyntaxKind.Assign
+          ? DestructibleKind.NotDestructible
+          : parser.destructible;
+    }
+    if (parser.token !== SyntaxKind.RightBrace) {
+      if (type & BindingType.ArgumentList) {
+        destructible |= DestructibleKind.Assignable;
+      }
+      if (parser.token === SyntaxKind.Assign) {
+        argument = parseAssignmentExpression(parser, context, argument, pos);
+        destructible |= DestructibleKind.NotDestructible;
+      } else {
+        destructible |= DestructibleKind.NotDestructible;
+      }
     }
 
-    if (parser.token === SyntaxKind.Comma) {
-      parser.destructible = DestructibleKind.NotDestructible;
-      return argument;
-    }
-
-    if (parser.destructible & DestructibleKind.MustDestruct) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._expected],
-        parser.curPos,
-        parser.pos
-      );
-    }
-
-    argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
-
-    argument = parseAssignmentExpression(parser, context, argument, pos);
-
-    parser.destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
-
+    parser.destructible = destructible;
     return argument;
   }
-
   let destructible = DestructibleKind.Assignable;
 
   let argument = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
@@ -3395,9 +3420,21 @@ function paresSpreadPropertyArgument(
 
     destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
   }
+  if (parser.token !== SyntaxKind.RightBrace) {
+    if (type & BindingType.ArgumentList) {
+      destructible |= DestructibleKind.Assignable;
+    }
+    if (parser.token === SyntaxKind.Assign) {
+      argument = parseAssignmentExpression(parser, context, argument, pos);
+      destructible |= DestructibleKind.NotDestructible;
+    } else {
+      destructible |= DestructibleKind.NotDestructible;
+    }
+  }
 
+  //if (kind & BindingKind.ArgumentList)
+  //destructible |= isAsync ? DestructuringKind.CannotDestruct : DestructuringKind.Assignable;
   parser.destructible = destructible;
-
   return argument;
 }
 
@@ -4089,46 +4126,50 @@ function parseArraySpreadArgument(
   type: BindingType
 ): ExpressionNode {
   const pos = parser.curPos;
-
+  // - `{...x};`
+  // - `{...x/y};`
+  // - `{...x};`
+  // - `({...x}) => y;`
+  // - `{...x} = y;`
+  // - `{...this};`
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     const tokenValue = parser.tokenValue;
     let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
-    // '... )' , '... ]' and '... }'
-    if (parser.token === SyntaxKind.RightBracket) {
-      parser.destructible = parser.assignable ? DestructibleKind.Destructible : DestructibleKind.NotDestructible;
-      return argument;
-    }
+    let destructible = 0;
 
-    // A spread or rest element / property may not have a trailing comma, so we are setting the
-    // destructible state to 'NotDestructible' for cases like '..., )',  '..., }'  and '..., ]'.
-    if (parser.token === SyntaxKind.Comma) {
-      parser.destructible = DestructibleKind.NotDestructible;
-      return argument;
-    }
-
-    // This is the slow path. We shouldn't care too much about performance
+    let token = parser.token;
     argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
-    let destructible = DestructibleKind.None;
-
-    if ((parser.token as SyntaxKind) !== SyntaxKind.Comma && (parser.token as SyntaxKind) !== SyntaxKind.RightBracket) {
+    if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightBracket) {
       destructible |= DestructibleKind.NotDestructible;
       argument = parseAssignmentExpression(parser, context, argument, pos);
     }
 
+    // - `{...a+b}`
     if (!parser.assignable) {
       destructible |= DestructibleKind.NotDestructible;
-    } else if ((parser.token as SyntaxKind) || (parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
-      addVarOrBlock(parser, context, scope, tokenValue, type);
+    } else if (token === SyntaxKind.RightBracket || token === SyntaxKind.Comma) {
+      if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
     } else {
+      // - `{...a.b}=c`
+      // - `let {...a.b}=c`
+      // - `for ({...a.b} in c) d`
+      // - `for (let {...a.b} in c) d`
+      // - `{...a.b} = c`
+      // - `({...a.b} = c)`
+      // - `({...a.b}) => c`
       destructible |= DestructibleKind.Assignable;
     }
-
-    parser.destructible = destructible |= parser.assignable
-      ? DestructibleKind.Assignable
-      : DestructibleKind.NotDestructible;
-
+    if (parser.token !== SyntaxKind.RightBracket) {
+      if (parser.token === SyntaxKind.Assign) {
+        argument = parseAssignmentExpression(parser, context, argument, pos);
+        destructible |= DestructibleKind.NotDestructible;
+      } else {
+        destructible |= DestructibleKind.NotDestructible;
+      }
+    }
+    parser.destructible = destructible;
     return argument;
   }
 

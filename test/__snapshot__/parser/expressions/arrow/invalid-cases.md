@@ -10643,19 +10643,24 @@ a++ => {};
 ✖ Block body arrows can not be immediately accessed without a group - start: 171, end: 172
 ✖ Property definition expected. Did you mean to use a ':'? - start: 201, end: 202
 ✖ Property definition expected. Did you mean to use a ':'? - start: 265, end: 266
+✖ Duplicate arrow formal parameter - start: 327, end: 341
 ✖ Property definition expected. Did you mean to use a ':'? - start: 374, end: 375
 ✖ Property definition expected. Did you mean to use a ':'? - start: 430, end: 431
 ✖ Property definition expected. Did you mean to use a ':'? - start: 435, end: 436
 ✖ Property definition expected. Did you mean to use a ':'? - start: 440, end: 441
 ✖ Property definition expected. Did you mean to use a ':'? - start: 465, end: 466
+✖ Duplicate arrow formal parameter - start: 494, end: 501
 ✖ Property definition expected. Did you mean to use a ':'? - start: 573, end: 574
 ✖ Property definition expected. Did you mean to use a ':'? - start: 588, end: 589
 ✖ Property definition expected. Did you mean to use a ':'? - start: 594, end: 595
 ✖ Property definition expected. Did you mean to use a ':'? - start: 706, end: 707
 ✖ Property definition expected. Did you mean to use a ':'? - start: 711, end: 712
 ✖ Property definition expected. Did you mean to use a ':'? - start: 769, end: 770
+✖ Duplicate arrow formal parameter - start: 814, end: 821
 ✖ Property definition expected. Did you mean to use a ':'? - start: 849, end: 850
+✖ Duplicate arrow formal parameter - start: 864, end: 871
 ✖ Property definition expected. Did you mean to use a ':'? - start: 894, end: 895
+✖ Duplicate arrow formal parameter - start: 1017, end: 1049
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1060, end: 1061
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1102, end: 1103
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1132, end: 1133
@@ -10667,6 +10672,7 @@ a++ => {};
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1436, end: 1437
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1493, end: 1494
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1579, end: 1580
+✖ Duplicate arrow formal parameter - start: 1453, end: 1587
 ✖ Property definition expected. Did you mean to use a ':'? - start: 1601, end: 1602
 ✖ Declaration or statement expected - start: 1638, end: 1756
 ✖ Declaration or statement expected - start: 1757, end: 1759
