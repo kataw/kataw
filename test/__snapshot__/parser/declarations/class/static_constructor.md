@@ -88,7 +88,7 @@ class A {static constructor(){}}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -107,11 +107,11 @@ class A {static constructor(){}}
                                     "start": 29,
                                     "end": 31
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 27,
                                 "end": 31
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 15,
                             "end": 31
                         }

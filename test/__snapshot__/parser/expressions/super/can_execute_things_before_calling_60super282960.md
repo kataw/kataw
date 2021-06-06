@@ -84,7 +84,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -200,11 +200,11 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                     "start": 33,
                                     "end": 64
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 31,
                                 "end": 64
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 19,
                             "end": 64
                         }

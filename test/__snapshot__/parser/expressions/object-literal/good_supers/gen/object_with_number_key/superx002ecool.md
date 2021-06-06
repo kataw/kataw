@@ -91,7 +91,7 @@ class x extends y {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -179,11 +179,11 @@ class x extends y {
                                     "start": 35,
                                     "end": 65
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 33,
                                 "end": 65
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 19,
                             "end": 65
                         }

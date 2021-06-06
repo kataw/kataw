@@ -3,7 +3,9 @@
 ## Input
 
 `````js
-({ __proto__: null, get __proto__(){}, set __proto__(x){} })
+({ __proto__: null, get __proto__(){}, set __proto__(x){} });
+
+({ 1: "__proto__", 1: "__proto__" });
 `````
 
 ## Output
@@ -176,15 +178,88 @@
             },
             "flags": 16,
             "start": 0,
-            "end": 60
+            "end": 61
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [
+                            {
+                                "kind": 219,
+                                "generatorToken": null,
+                                "left": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 65,
+                                    "end": 67
+                                },
+                                "right": {
+                                    "kind": 201392131,
+                                    "text": "__proto__",
+                                    "rawText": "\"__proto__\"",
+                                    "flags": 96,
+                                    "start": 68,
+                                    "end": 80
+                                },
+                                "flags": 32,
+                                "start": 65,
+                                "end": 80
+                            },
+                            {
+                                "kind": 219,
+                                "generatorToken": null,
+                                "left": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 81,
+                                    "end": 83
+                                },
+                                "right": {
+                                    "kind": 201392131,
+                                    "text": "__proto__",
+                                    "rawText": "\"__proto__\"",
+                                    "flags": 96,
+                                    "start": 84,
+                                    "end": 96
+                                },
+                                "flags": 32,
+                                "start": 81,
+                                "end": 96
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 16,
+                        "start": 65,
+                        "end": 96
+                    },
+                    "flags": 48,
+                    "start": 64,
+                    "end": 98
+                },
+                "flags": 32,
+                "start": 61,
+                "end": 99
+            },
+            "flags": 16,
+            "start": 61,
+            "end": 100
         }
     ],
     "isModule": false,
-    "source": "({ __proto__: null, get __proto__(){}, set __proto__(x){} })",
+    "source": "({ __proto__: null, get __proto__(){}, set __proto__(x){} });\n\n({ 1: \"__proto__\", 1: \"__proto__\" });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 60
+    "end": 100
 }
 ```
 
@@ -193,6 +268,7 @@
 ```javascript
 
 ({ __proto__: null, get __proto__() {}, set __proto__(x) {} });
+({ 1: "\"__proto__\"", 1: "\"__proto__\"" });
 ```
 
 ### Diagnostics

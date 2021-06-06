@@ -173,14 +173,12 @@
 
 ```javascript
 
-({ * async gen() {
-     yield ? 1 : 2;
-  } });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot use the 'yield' keyword on the left-hand side of conditional expression in a generator context - start: 19, end: 26
+
 ```
 

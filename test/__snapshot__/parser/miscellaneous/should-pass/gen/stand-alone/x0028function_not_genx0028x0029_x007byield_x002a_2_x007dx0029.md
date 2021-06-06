@@ -1,0 +1,138 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-06-06
+- From: kataw8/test\__snapshot__/parser/miscellaneous/should-pass/autogen.md
+- Path: kataw8/test\__snapshot__\parser\miscellaneous\should-pass\gen\stand-alone
+> :: test: stand-alone
+> :: case: (function not_gen() {yield * 2;})
+## Input
+
+`````js
+(function not_gen() {yield * 2;})
+`````
+## Output
+
+### CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 177,
+                    "asyncKeyword": null,
+                    "functionKeyword": {
+                        "kind": 37822554,
+                        "flags": 64,
+                        "start": 1,
+                        "end": 9
+                    },
+                    "generatorToken": null,
+                    "name": {
+                        "kind": 134299649,
+                        "text": "not_gen",
+                        "rawText": "not_gen",
+                        "flags": 96,
+                        "start": 9,
+                        "end": 17
+                    },
+                    "formalParameters": {
+                        "kind": 214,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 17,
+                        "end": 19
+                    },
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [
+                                {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 198,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "yield",
+                                            "rawText": "yield",
+                                            "flags": 96,
+                                            "start": 21,
+                                            "end": 26
+                                        },
+                                        "operatorToken": {
+                                            "kind": 67143222,
+                                            "flags": 64,
+                                            "start": 26,
+                                            "end": 28
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 2,
+                                            "rawText": "2",
+                                            "flags": 96,
+                                            "start": 28,
+                                            "end": 30
+                                        },
+                                        "flags": 32,
+                                        "start": 21,
+                                        "end": 30
+                                    },
+                                    "flags": 16,
+                                    "start": 21,
+                                    "end": 31
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 21,
+                            "end": 31
+                        },
+                        "flags": 32,
+                        "start": 19,
+                        "end": 32
+                    },
+                    "typeParameters": null,
+                    "returnType": null,
+                    "flags": 32,
+                    "start": 1,
+                    "end": 32
+                },
+                "flags": 32,
+                "start": 0,
+                "end": 33
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 33
+        }
+    ],
+    "isModule": false,
+    "source": "(function not_gen() {yield * 2;})",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 33
+}
+```
+
+### Printed
+
+```javascript
+
+(function not_gen() {
+    yield * 2;
+  });
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+

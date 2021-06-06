@@ -84,7 +84,7 @@ class x extends y { constructor() { new super() }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -142,11 +142,11 @@ class x extends y { constructor() { new super() }}
                                     "start": 33,
                                     "end": 49
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 31,
                                 "end": 49
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 19,
                             "end": 49
                         }
@@ -177,12 +177,16 @@ class x extends y { constructor() { new super() }}
 
 ```javascript
 
+class x  {
+  constructor() {
+    new  super();
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 39, end: 46
-
+✔ No errors
 ```
 

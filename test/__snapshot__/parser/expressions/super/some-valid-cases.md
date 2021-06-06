@@ -281,7 +281,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 84,
                                     "end": 85
                                 },
@@ -333,11 +333,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 85,
                                     "end": 98
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 83,
                                 "end": 98
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 71,
                             "end": 98
                         }
@@ -1565,7 +1565,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 429,
                                     "end": 430
                                 },
@@ -1665,11 +1665,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 430,
                                     "end": 458
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 428,
                                 "end": 458
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 416,
                             "end": 458
                         }
@@ -1755,7 +1755,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 493,
                                     "end": 494
                                 },
@@ -1829,11 +1829,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "start": 494,
                                     "end": 522
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 492,
                                 "end": 522
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 480,
                             "end": 522
                         }
@@ -2185,7 +2185,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
 ```javascript
 ✖ Duplicate identifier - start: 28, end: 30
 ✖ Duplicate identifier - start: 57, end: 59
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 87, end: 94
 ✖ Duplicate identifier - start: 107, end: 109
 ✖ Duplicate identifier - start: 147, end: 149
 ✖ Duplicate identifier - start: 179, end: 181
@@ -2193,7 +2192,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
 ✖ Duplicate identifier - start: 280, end: 282
 ✖ Duplicate identifier - start: 313, end: 315
 ✖ Duplicate identifier - start: 402, end: 404
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 442, end: 448
 ✖ Duplicate identifier - start: 466, end: 468
 ✖ Duplicate identifier - start: 530, end: 532
 ✖ Duplicate identifier - start: 574, end: 576

@@ -151,14 +151,12 @@ function *f() { yield ? yield : yield ; }
 
 ```javascript
 
-function * f() {
-   yield ?  yield :  yield;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Cannot use the 'yield' keyword on the left-hand side of conditional expression in a generator context - start: 15, end: 23
+
 ```
 

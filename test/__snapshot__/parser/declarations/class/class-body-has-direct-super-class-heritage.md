@@ -126,7 +126,7 @@ class B extends A {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -178,11 +178,11 @@ class B extends A {
                                     "start": 46,
                                     "end": 65
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 44,
                                 "end": 65
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 30,
                             "end": 65
                         }
@@ -213,12 +213,17 @@ class B extends A {
 
 ```javascript
 
+class A {}
+class B  {
+  constructor() {
+    super();
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 48, end: 59
-
+✔ No errors
 ```
 

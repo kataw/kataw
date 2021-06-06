@@ -84,7 +84,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2048,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -191,11 +191,11 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "start": 32,
                                     "end": 63
                                 },
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 30,
                                 "end": 63
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 19,
                             "end": 63
                         }

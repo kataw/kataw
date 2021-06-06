@@ -135,7 +135,7 @@ class C {}; class C2 extends C { async constructor() {} }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 2304,
                                     "start": 51,
                                     "end": 52
                                 },
@@ -154,11 +154,11 @@ class C {}; class C2 extends C { async constructor() {} }
                                     "start": 52,
                                     "end": 55
                                 },
-                                "flags": 256,
+                                "flags": 2304,
                                 "start": 50,
                                 "end": 55
                             },
-                            "flags": 256,
+                            "flags": 2304,
                             "start": 32,
                             "end": 55
                         }

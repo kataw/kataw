@@ -3059,10 +3059,7 @@ function parsePropertyDefinition(
         left = parseAssignmentExpression(parser, context, left, pos);
       }
     } else {
-      // Check for '__proto__' property and eventually set the 'Destructible.HasProto' bit
-      if ((context & Context.OptionsDisableWebCompat) < 1 && parser.tokenValue === '__proto__') {
-        nodeFlags |= NodeFlags.PrototypeField;
-      }
+
       left = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
       destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
@@ -3193,7 +3190,7 @@ function parsMethodParameters(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          parser.token === SyntaxKind.GetKeyword
+          parser.token === SyntaxKind.ThisKeyword
             ? DiagnosticCode.A_get_accessor_cannot_have_a_this_parameter
             : DiagnosticCode.A_get_accessor_cannot_have_parameters
         ],
@@ -5545,15 +5542,7 @@ function parseFunctionExpression(
               parser.pos
             );
           }
-          if (asyncToken.flags & 0b00000000000000000110000000000000) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode._async_keyword_in_an_async_arrow_must_not_contain_escaped_characters],
-              parser.curPos,
-              parser.pos
-            );
-          } else if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
+          if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -8340,7 +8329,15 @@ function parseYieldIdentifierOrExpression(
     }
 
     const yieldKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.YieldKeyword);
-
+    if (parser.token === SyntaxKind.QuestionMark) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context],
+        pos,
+        parser.pos
+      );
+    }
     if (LeftHandSideContext) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -9032,8 +9029,8 @@ export function parseClassElement(
 
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen || nodeFlags & 0b00000000000000000000011100000000) {
       if (key.kind !== SyntaxKind.ComputedPropertyName) {
-        if (parser.tokenValue === 'constructor' && !staticKeyword) {
-          if (nodeFlags & 0b00000000000000000000011100000000 || decorators) {
+        if (parser.tokenValue === 'constructor') {
+          if (!staticKeyword && nodeFlags & 0b00000000000000000000011100000000 || decorators) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -9049,6 +9046,7 @@ export function parseClassElement(
           if ((context & Context.SuperCall) !== Context.SuperCall) {
             nodeFlags |= NodeFlags.Constructor;
           }
+          nodeFlags |= NodeFlags.Constructor;
         } else if (staticKeyword && parser.tokenValue === 'prototype') {
           parser.onError(
             DiagnosticSource.Parser,
@@ -9070,7 +9068,7 @@ export function parseClassElement(
         );
       }
 
-      const method = parseMethodDefinition(parser, context | Context.InClassBody, key, nodeFlags);
+      const method = parseMethodDefinition(parser, context, key, nodeFlags);
       return createClassElement(
         declareKeyword,
         decorators,
