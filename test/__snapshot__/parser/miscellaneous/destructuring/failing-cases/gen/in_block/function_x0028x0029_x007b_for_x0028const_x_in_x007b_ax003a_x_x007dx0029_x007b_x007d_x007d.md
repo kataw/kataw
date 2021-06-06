@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
-- Path: kataw8/test\__snapshot__\parser\miscellaneous\destructuring\failing-cases\gen\in_block
+- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
+- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/gen/in_block
 > :: test: in block
 > :: case: function () { for (const x in { a: x }) { } }
 ## Input

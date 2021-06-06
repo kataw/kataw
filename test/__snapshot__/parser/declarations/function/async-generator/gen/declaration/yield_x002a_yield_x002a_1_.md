@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/declarations/function/async-generator/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\function\async-generator\gen\declaration
+- From: kataw/test/__snapshot__/parser/declarations/function/async-generator/autogen.md
+- Path: kataw/test/__snapshot__/parser/declarations/function/async-generator/gen/declaration
 > :: test: declaration
 > :: case: yield * yield * 1;
 ## Input

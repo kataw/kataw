@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\arrow\position\gen\lhs_mul_asi
+- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/lhs_mul_asi
 > :: test: lhs mul asi
 > :: case: x => ok
 ## Input

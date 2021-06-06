@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\assign_to_paren-wrapped_keyword_var_in_param_default
+- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_var_in_param_default
 > :: test: assign to paren-wrapped keyword var in param default
 > :: case: export
 ## Input

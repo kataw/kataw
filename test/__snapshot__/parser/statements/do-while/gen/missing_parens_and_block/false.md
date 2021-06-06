@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw8/test\__snapshot__\parser\statements\do-while\gen\missing_parens_and_block
+- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/missing_parens_and_block
 > :: test: missing parens and block
 > :: case: false
 ## Input

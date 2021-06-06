@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/expressions/object-literal/good_supers/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\object-literal\good_supers\gen\object_with_string_key
+- From: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/gen/object_with_string_key
 > :: test: object with string key
 > :: case: super
 ## Input

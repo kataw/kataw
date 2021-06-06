@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\await\async-await-errors\gen\stand_alone
+- From: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/gen/stand_alone
 > :: test: stand alone
 > :: case: class C { static async prototype() {} }
 ## Input

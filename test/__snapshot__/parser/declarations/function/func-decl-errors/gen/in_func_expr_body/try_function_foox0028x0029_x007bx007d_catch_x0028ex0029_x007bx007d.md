@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\function\func-decl-errors\gen\in_func_expr_body
+- From: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
+- Path: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/gen/in_func_expr_body
 > :: test: in func expr body
 > :: case: try function foo() {} catch (e) {}
 ## Input

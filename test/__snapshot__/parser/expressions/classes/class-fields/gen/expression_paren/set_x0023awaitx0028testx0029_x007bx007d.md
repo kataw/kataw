@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\classes\class-fields\gen\expression_paren
+- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/expression_paren
 > :: test: expression_paren
 > :: case: set #await(test) {}
 ## Input

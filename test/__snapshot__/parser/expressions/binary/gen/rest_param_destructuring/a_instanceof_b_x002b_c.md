@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\binary\gen\rest_param_destructuring
+- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/rest_param_destructuring
 > :: test: rest param destructuring
 > :: case: a instanceof b + c
 ## Input

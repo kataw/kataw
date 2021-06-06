@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
-- Path: kataw8/test\__snapshot__\parser\miscellaneous\escaped-keywords\gen\stand-alone
+- From: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
+- Path: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/gen/stand-alone
 > :: test: stand-alone
 > :: case: switch (this.a) { c\u0061se 6: break; }
 ## Input
