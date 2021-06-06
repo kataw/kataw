@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- From: kataw8/test\__snapshot__/parser/expressions/yield/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\yield\gen\simple
 > :: test: simple
 > :: case: function*g(){ function yield(){}; }
 ## Input

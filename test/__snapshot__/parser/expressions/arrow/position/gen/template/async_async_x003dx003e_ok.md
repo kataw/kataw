@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/template
+- From: kataw8/test\__snapshot__/parser/expressions/arrow/position/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\arrow\position\gen\template
 > :: test: template
 > :: case: async async => ok
 ## Input

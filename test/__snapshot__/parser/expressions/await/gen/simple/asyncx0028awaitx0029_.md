@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- From: kataw8/test\__snapshot__/parser/expressions/await/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\await\gen\simple
 > :: test: simple
 > :: case: async(await);
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/rest_assignment_destructuring
+- From: kataw8/test\__snapshot__/parser/expressions/binary/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\binary\gen\rest_assignment_destructuring
 > :: test: rest assignment destructuring
 > :: case: a / b + c
 ## Input

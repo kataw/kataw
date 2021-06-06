@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/gen/object_expr
+- From: kataw8/test\__snapshot__/parser/expressions/object-literal/private-members/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\object-literal\private-members\gen\object_expr
 > :: test: object_expr
 > :: case: a: class { #a }
 ## Input

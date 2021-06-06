@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/classes/misc/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/misc/gen/class-expr
+- From: kataw8/test\__snapshot__/parser/expressions/classes/misc/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\classes\misc\gen\class-expr
 > :: test: class-expr
 > :: case: get static() {}
 ## Input

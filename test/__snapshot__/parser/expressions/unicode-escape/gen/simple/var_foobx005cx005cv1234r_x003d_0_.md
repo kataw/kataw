@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/unicode-escape/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/unicode-escape/gen/simple
+- From: kataw8/test\__snapshot__/parser/expressions/unicode-escape/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\unicode-escape\gen\simple
 > :: test: simple
 > :: case: var foob\\v1234r = 0;
 ## Input

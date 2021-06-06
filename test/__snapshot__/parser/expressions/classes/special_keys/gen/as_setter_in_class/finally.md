@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_setter_in_class
+- From: kataw8/test\__snapshot__/parser/expressions/classes/special_keys/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\classes\special_keys\gen\as_setter_in_class
 > :: test: as setter in class
 > :: case: finally
 ## Input

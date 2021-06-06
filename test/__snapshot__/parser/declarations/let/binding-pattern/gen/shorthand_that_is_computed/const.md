@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/shorthand_that_is_computed
+- From: kataw8/test\__snapshot__/parser/declarations/let/binding-pattern/autogen.md
+- Path: kataw8/test\__snapshot__\parser\declarations\let\binding-pattern\gen\shorthand_that_is_computed
 > :: test: shorthand that is computed
 > :: case: const
 ## Input

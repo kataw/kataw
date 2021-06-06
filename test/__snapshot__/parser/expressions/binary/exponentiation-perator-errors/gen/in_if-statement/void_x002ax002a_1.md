@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/gen/in_if-statement
+- From: kataw8/test\__snapshot__/parser/expressions/binary/exponentiation-perator-errors/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\binary\exponentiation-perator-errors\gen\in_if-statement
 > :: test: in if-statement
 > :: case: void ** 1
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/for-await-of_loop
+- From: kataw8/test\__snapshot__/parser/declarations/let/sub-tree/autogen.md
+- Path: kataw8/test\__snapshot__\parser\declarations\let\sub-tree\gen\for-await-of_loop
 > :: test: for-await-of loop
 > :: case: let
 >          [] = y

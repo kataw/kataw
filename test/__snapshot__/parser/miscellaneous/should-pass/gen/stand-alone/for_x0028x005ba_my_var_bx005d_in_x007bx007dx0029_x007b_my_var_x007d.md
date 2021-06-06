@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw8/test\__snapshot__/parser/miscellaneous/should-pass/autogen.md
+- Path: kataw8/test\__snapshot__\parser\miscellaneous\should-pass\gen\stand-alone
 > :: test: stand-alone
 > :: case: for ([a, my_var, b] in {}) { my_var; }
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- From: kataw8/test\__snapshot__/parser/expressions/yield/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\yield\gen\function_generator
 > :: test: function generator
 > :: case: async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
 ## Input

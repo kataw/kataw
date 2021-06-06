@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_default
+- From: kataw8/test\__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
+- Path: kataw8/test\__snapshot__\parser\expressions\function\func_statements\gen\gen\in_default
 > :: test: in default
 > :: case: async function *f(){}
 ## Input

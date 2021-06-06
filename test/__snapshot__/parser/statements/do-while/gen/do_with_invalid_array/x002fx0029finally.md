@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_with_invalid_array
+- From: kataw8/test\__snapshot__/parser/statements/do-while/autogen.md
+- Path: kataw8/test\__snapshot__\parser\statements\do-while\gen\do_with_invalid_array
 > :: test: do with invalid array
 > :: case: /)finally
 ## Input
