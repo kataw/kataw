@@ -1,0 +1,117 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-06-06
+- From: kataw8/test\__snapshot__/parser/miscellaneous/should-pass/autogen.md
+- Path: kataw8/test\__snapshot__\parser\miscellaneous\should-pass\gen\in_a_block
+> :: test: in a block
+> :: case: --a+b--
+## Input
+
+`````js
+{ --a+b-- }
+`````
+## Output
+
+### CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 198,
+                            "left": {
+                                "kind": 128,
+                                "operandToken": {
+                                    "kind": 196636,
+                                    "flags": 64,
+                                    "start": 1,
+                                    "end": 4
+                                },
+                                "operand": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 4,
+                                    "end": 5
+                                },
+                                "flags": 32,
+                                "start": 1,
+                                "end": 5
+                            },
+                            "operatorToken": {
+                                "kind": 99634,
+                                "flags": 64,
+                                "start": 5,
+                                "end": 6
+                            },
+                            "right": {
+                                "kind": 127,
+                                "operandToken": {
+                                    "kind": 196636,
+                                    "flags": 64,
+                                    "start": 7,
+                                    "end": 9
+                                },
+                                "operand": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 6,
+                                    "end": 7
+                                },
+                                "flags": 32,
+                                "start": 6,
+                                "end": 9
+                            },
+                            "flags": 32,
+                            "start": 1,
+                            "end": 9
+                        },
+                        "flags": 16,
+                        "start": 1,
+                        "end": 9
+                    }
+                ],
+                "flags": 16,
+                "start": 1,
+                "end": 9
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 11
+        }
+    ],
+    "isModule": false,
+    "source": "{ --a+b-- }",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 11
+}
+```
+
+### Printed
+
+```javascript
+
+{
+  --a + b--;
+}
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+
