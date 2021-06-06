@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-05
+- Regenerated: 2021-06-06
 - From: kataw8/test\__snapshot__/parser/declarations/let/let-sloppy-only/autogen.md
 - Path: kataw8/test\__snapshot__\parser\declarations\let\let-sloppy-only\gen\stand_alone
 > :: test: stand alone

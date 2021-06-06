@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-05
+- Regenerated: 2021-06-06
 - From: kataw8/test\__snapshot__/parser/expressions/object-literal/good_supers/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\object-literal\good_supers\gen\arrow_with_string_key
 > :: test: arrow with string key

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-05
+- Regenerated: 2021-06-06
 - From: kataw8/test\__snapshot__/parser/declarations/let/binding-pattern/autogen.md
 - Path: kataw8/test\__snapshot__\parser\declarations\let\binding-pattern\gen\key_that_is_a_member_expression
 > :: test: key that is a member expression

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-05
+- Regenerated: 2021-06-06
 - From: kataw8/test\__snapshot__/parser/misc/destructuring/failing-cases/autogen.md
 - Path: kataw8/test\__snapshot__\parser\misc\destructuring\failing-cases\gen\for_in_statement
 > :: test: for in statement
