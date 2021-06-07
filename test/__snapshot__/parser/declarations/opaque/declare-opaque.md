@@ -37,7 +37,7 @@ declare var a: A;
                 "kind": 24822,
                 "flags": 64,
                 "start": 7,
-                "end": 19
+                "end": 14
             },
             "typeToken": {
                 "kind": 24775,
@@ -78,7 +78,7 @@ declare var a: A;
                 "kind": 24822,
                 "flags": 64,
                 "start": 30,
-                "end": 42
+                "end": 37
             },
             "typeToken": {
                 "kind": 24775,

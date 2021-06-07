@@ -81,6 +81,7 @@
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 22
 ✖ Identifier expected - start: 22, end: 24
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 13, end: 24
 
 ```
 

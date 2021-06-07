@@ -187,6 +187,7 @@ function *f(x = delete ((continue) = f)) {}
 ✖ Identifier expected - start: 25, end: 33
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 25, end: 33
 ✖ Identifier expected - start: 33, end: 34
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 25, end: 34
 ✖ Declaration or statement expected - start: 34, end: 36
 ✖ Expected a `;` - start: 38, end: 39
 ✖ Declaration or statement expected - start: 39, end: 40

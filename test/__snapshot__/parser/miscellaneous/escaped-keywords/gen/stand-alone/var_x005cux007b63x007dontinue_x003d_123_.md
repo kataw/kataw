@@ -94,6 +94,7 @@ var \u{63}ontinue = 123;
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 3, end: 17
 ✖ Keywords cannot contain escape characters - start: 3, end: 17
 ✖ Identifier expected - start: 17, end: 19
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 3, end: 19
 
 ```
 

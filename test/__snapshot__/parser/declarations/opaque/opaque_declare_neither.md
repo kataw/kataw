@@ -35,7 +35,7 @@ declare opaque type Foo
                 "kind": 24822,
                 "flags": 64,
                 "start": 7,
-                "end": 19
+                "end": 14
             },
             "typeToken": {
                 "kind": 24775,

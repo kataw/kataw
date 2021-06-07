@@ -101,13 +101,12 @@ x: foo; while (true) continue x;
 
 ```javascript
 
-x: foo;
-while (true) continue x;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 20, end: 32
+
 ```
 

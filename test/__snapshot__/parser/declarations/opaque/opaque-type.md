@@ -29,7 +29,7 @@ opaque type ID = string;
                 "kind": 24822,
                 "flags": 64,
                 "start": 0,
-                "end": 11
+                "end": 6
             },
             "typeToken": {
                 "kind": 24775,

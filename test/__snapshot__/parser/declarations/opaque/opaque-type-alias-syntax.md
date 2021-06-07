@@ -36,7 +36,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "kind": 24822,
                 "flags": 64,
                 "start": 0,
-                "end": 11
+                "end": 6
             },
             "typeToken": {
                 "kind": 24775,
@@ -77,7 +77,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "kind": 24822,
                 "flags": 64,
                 "start": 33,
-                "end": 45
+                "end": 40
             },
             "typeToken": {
                 "kind": 24775,
@@ -182,7 +182,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "kind": 24822,
                 "flags": 64,
                 "start": 104,
-                "end": 116
+                "end": 111
             },
             "typeToken": {
                 "kind": 24775,
@@ -246,7 +246,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "kind": 24822,
                 "flags": 64,
                 "start": 140,
-                "end": 152
+                "end": 147
             },
             "typeToken": {
                 "kind": 24775,
@@ -310,7 +310,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "kind": 24822,
                 "flags": 64,
                 "start": 191,
-                "end": 203
+                "end": 198
             },
             "typeToken": {
                 "kind": 24775,

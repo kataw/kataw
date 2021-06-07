@@ -158,6 +158,7 @@ function f() {
 ✖ Identifier expected - start: 34, end: 42
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 34, end: 42
 ✖ Identifier expected - start: 42, end: 44
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 34, end: 44
 ✖ Expected a `;` - start: 46, end: 47
 ✖ Declaration or statement expected - start: 48, end: 50
 

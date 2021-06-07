@@ -128,6 +128,7 @@ function *f(){
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 14, end: 30
 ✖ Keywords cannot contain escape characters - start: 14, end: 30
 ✖ Identifier expected - start: 30, end: 32
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 14, end: 32
 ✖ Declaration or statement expected - start: 34, end: 36
 
 ```

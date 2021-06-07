@@ -102,6 +102,7 @@ for (x of 3) continue/x/
 
 ```javascript
 ✖ Identifier expected - start: 21, end: 24
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 12, end: 24
 
 ```
 

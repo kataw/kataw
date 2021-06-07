@@ -114,6 +114,7 @@ async x => continue = 1
 ✖ Identifier expected - start: 10, end: 19
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 10, end: 19
 ✖ Identifier expected - start: 19, end: 21
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 10, end: 21
 
 ```
 

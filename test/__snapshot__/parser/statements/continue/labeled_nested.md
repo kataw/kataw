@@ -143,15 +143,12 @@ function f(){ do        if (x) continue y   ; while(true);}
 
 ```javascript
 
-function f() {
-  do if (x) continue y;
-  while (true);
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 30, end: 45
+
 ```
 

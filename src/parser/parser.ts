@@ -185,6 +185,7 @@ import {
   addBlockName,
   ScopeFlags,
   lookupBreakTarget,
+  lookupContinueTarget,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
 
@@ -767,7 +768,7 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
   );
   if (!canParseSemicolon(parser)) {
     label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
-    /*if (lookupContinueTarget(labels, label.text)) {
+    if (lookupContinueTarget(labels, label.text)) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -775,7 +776,7 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
         pos,
         parser.pos
       );
-    }*/
+    }
   }
   parseSemicolon(parser, context);
   return createContinueStatement(continueToken, label as Identifier, pos, parser.curPos);
@@ -1154,33 +1155,35 @@ export function parseLabelledStatement(
   ownLabels: any,
   pos: number
 ): LabelledStatement {
-  if (token === SyntaxKind.AwaitKeyword) {
-    if (context & (Context.AwaitContext | Context.Module)) {
+  if (context & 0b00000000000010000000011000000000) {
+    if (token === SyntaxKind.AwaitKeyword) {
+      if (context & (Context.AwaitContext | Context.Module)) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[
+            flags & 0b00000000000000000110000000000000
+              ? DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords
+              : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal_and_cannot_be_used_as_an_label
+          ],
+          pos,
+          parser.pos
+        );
+      }
+    }
+    if (token === SyntaxKind.YieldKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
           flags & 0b00000000000000000110000000000000
             ? DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords
-            : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal_and_cannot_be_used_as_an_label
+            : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode_and_cannot_be_used_as_an_label
         ],
         pos,
         parser.pos
       );
     }
-  }
-  if (context & (Context.YieldContext | Context.Strict) && token === SyntaxKind.YieldKeyword) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[
-        flags & 0b00000000000000000110000000000000
-          ? DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords
-          : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode_and_cannot_be_used_as_an_label
-      ],
-      pos,
-      parser.pos
-    );
   }
 
   const label = expr.text;
@@ -1209,6 +1212,7 @@ export function parseLabelledStatement(
   ownLabels.add(label);
 
   if (isIterationStatement(parser.token)) labels.iteration = ownLabels;
+
   return createLabelledStatement(
     expr,
     colonToken,
@@ -3059,7 +3063,6 @@ function parsePropertyDefinition(
         left = parseAssignmentExpression(parser, context, left, pos);
       }
     } else {
-
       left = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
       destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
@@ -3716,7 +3719,7 @@ function parseUnaryExpression(
 //   `[` ElementList `]`
 //   `[` ElementList `,` `]`
 //   `[` ElementList `,` Elision `]`
-function parseArrayLiteral(parser: ParserState, context: Context): ArrayLiteral {
+function parseArrayLiteral(parser: ParserState, context: Context): ArrayLiteral | AssignmentExpression {
   const expr = parseArrayLiteralOrAssignmentExpression(parser, context, null, BindingType.Literal);
   if (expr.flags & NodeFlags.PrototypeField) {
     parser.onError(
@@ -3738,7 +3741,7 @@ function parseArrayLiteral(parser: ParserState, context: Context): ArrayLiteral 
       parser.pos
     );
   }
-  return expr as any;
+  return expr;
 }
 
 function parseArrayLiteralOrAssignmentExpression(
@@ -3751,8 +3754,6 @@ function parseArrayLiteralOrAssignmentExpression(
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket);
   const elementList = parseElementList(parser, context, scope, type);
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
-  context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
-  const node = createArrayLiteral(elementList, curPos, parser.curPos);
 
   if (parser.token & SyntaxKind.IsAssignOp) {
     if (parser.token !== SyntaxKind.Assign) {
@@ -3776,32 +3777,34 @@ function parseArrayLiteralOrAssignmentExpression(
         parser.pos
       );
     }
-    const t = parseTokenNode(parser, context | Context.AllowRegExp);
-
-    const right = parseExpression(parser, context);
+    const node = createAssignmentExpression(
+      createArrayLiteral(elementList, curPos, parser.curPos),
+      parseTokenNode(parser, context | Context.AllowRegExp),
+      parseExpression(parser, context),
+      curPos,
+      parser.curPos
+    );
     parser.destructible = (parser.destructible | DestructibleKind.MustDestruct) ^ DestructibleKind.MustDestruct;
-    return createAssignmentExpression(node, t, right, curPos, parser.curPos);
+    return node;
   }
 
-  return node;
+  return createArrayLiteral(elementList, curPos, parser.curPos);
 }
 
 function parseElementList(parser: ParserState, context: Context, scope: ScopeState, type: BindingType): ElementList {
   const curPos = parser.curPos;
-  const elements: ExpressionNode[] = [];
-
-  let trailingComma = false;
-
+  const elements = [];
   const flags = parser.nodeFlags;
 
+  let trailingComma = false;
   let destructible = DestructibleKind.None;
 
   while (parser.token & 0b00010000101011010100000000000000) {
-    elements.push(parseArrayLiteralElement(parser, context, scope, type) as any);
+    elements.push(parseArrayLiteralElement(parser, context, scope, type));
     destructible |= parser.destructible;
     if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) break;
     consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
-    if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
+    if (parser.token === SyntaxKind.RightBracket) {
       trailingComma = true;
       break;
     }
@@ -3897,55 +3900,44 @@ function parseArrayLiteralElement(
     // - `[x, z]`
     // - `[this]`
     if (parser.token === SyntaxKind.RightBracket || parser.token === SyntaxKind.Comma) {
-      if (parser.assignable) {
-        // - `[x] = obj`
-        if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
-        parser.destructible = DestructibleKind.None;
-      } else {
-        parser.destructible = DestructibleKind.NotDestructible;
-      }
+      if (type & BindingType.InArrow) addVarOrBlock(parser, context, scope, tokenValue, type);
+      parser.destructible = parser.assignable ? DestructibleKind.None : DestructibleKind.NotDestructible;
       return left;
     }
 
-    let destructible = DestructibleKind.None;
+    let destructible =
+      type & BindingType.ArgumentList
+        ? // - `([x[y]] = z)`
+          DestructibleKind.Assignable
+        : (type & BindingType.Literal) !== BindingType.Literal
+        ? DestructibleKind.NotDestructible
+        : DestructibleKind.None;
 
-    if (type & BindingType.ArgumentList) {
-      // - `([x[y]] = z)`
-      destructible |= DestructibleKind.Assignable;
-    } else if ((type & BindingType.Literal) !== BindingType.Literal) {
-      destructible = DestructibleKind.NotDestructible;
-    }
+    left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
+
+    if (!parser.assignable) destructible = DestructibleKind.NotDestructible;
 
     if ((parser.token as SyntaxKind) === SyntaxKind.Comma || (parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
-      if (!parser.assignable) destructible |= DestructibleKind.NotDestructible;
-    } else {
-      left = parseMemberExpression(parser, context, left, SyntaxKind.IsPropertyOrCall, pos);
-      if (!parser.assignable) destructible = DestructibleKind.NotDestructible;
-      if (
-        (parser.token as SyntaxKind) === SyntaxKind.Comma ||
-        (parser.token as SyntaxKind) === SyntaxKind.RightBracket
-      ) {
-        if ((parser.token & SyntaxKind.IsAssignOp) < 1) {
-          // - `[...{a: b.b}.d] = c`
-          // - `[...{a: b}.c] = []`
-          // - `[...[{a: b}.c]] = [];`
-          // - `[...[{prop: 1}.prop]] = []`
-          // - `({"x": [y].slice(0)} = x)`
-          // - `({"x": [y].slice(0)}) => x`
-          // - `[...[x].map(y, z)] = a;`
-          // - `({ident: {x}.join("")}) => x`
-          destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
-        }
-        parser.destructible = destructible;
-
-        return left;
+      if ((parser.token & SyntaxKind.IsAssignOp) < 1) {
+        // - `[...{a: b.b}.d] = c`
+        // - `[...{a: b}.c] = []`
+        // - `[...[{a: b}.c]] = [];`
+        // - `[...[{prop: 1}.prop]] = []`
+        // - `({"x": [y].slice(0)} = x)`
+        // - `({"x": [y].slice(0)}) => x`
+        // - `[...[x].map(y, z)] = a;`
+        // - `({ident: {x}.join("")}) => x`
+        destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
       }
-      // - `[x.y = a] = z`
-      // - `({ a: [a + 1] = [] });`
-      // - `let({ a: [a + 1] = [] });`
-      if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
-      left = parseAssignmentExpression(parser, context, left, pos);
+      parser.destructible = destructible;
+
+      return left;
     }
+    // - `[x.y = a] = z`
+    // - `({ a: [a + 1] = [] });`
+    // - `let({ a: [a + 1] = [] });`
+    if ((parser.token as SyntaxKind) !== SyntaxKind.Assign) destructible |= DestructibleKind.NotDestructible;
+    left = parseAssignmentExpression(parser, context, left, pos);
 
     parser.destructible = destructible;
 
@@ -4123,7 +4115,7 @@ function parseArraySpreadArgument(
   type: BindingType
 ): ExpressionNode {
   const pos = parser.curPos;
-// - `{...x};`
+  // - `{...x};`
   // - `{...x/y};`
   // - `{...x};`
   // - `({...x}) => y;`
@@ -6574,16 +6566,9 @@ function parseNameSpaceImport(parser: ParserState, context: Context, scope: Scop
 //   `{` ImportsList `,` `}`
 function parseNamedImports(parser: ParserState, context: Context, scope: ScopeState): NamedImports {
   const pos = parser.curPos;
-  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace);
+  nextToken(parser, context);
   const importsList = parseImportsList(parser, context, scope);
-  consume(
-    parser,
-    context,
-    SyntaxKind.RightBrace,
-    openBraceExists
-      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-      : DiagnosticCode.Declaration_or_statement_expected
-  );
+  consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
   return createNamedImports(importsList, pos, parser.curPos);
 }
 
@@ -6686,15 +6671,6 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
 
 // ModulemoduleExportName : StringLiteral
 function parseModuleExportName(parser: ParserState, context: Context): StringLiteral {
-  if (parser.token !== SyntaxKind.StringLiteral) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Declaration_or_statement_expected],
-      parser.curPos,
-      parser.pos
-    );
-  }
   return parseStringLiteral(parser, context);
 }
 
@@ -6890,16 +6866,9 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
 //   `{` ExportsList `,` `}`
 function parseNamedExports(parser: ParserState, context: Context): NamedExports {
   const pos = parser.curPos;
-  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace);
+  nextToken(parser, context);
   const exportsList = parseExportsList(parser, context);
-  consume(
-    parser,
-    context,
-    SyntaxKind.RightBrace,
-    openBraceExists
-      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-      : DiagnosticCode.Declaration_or_statement_expected
-  );
+  consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
   return createNamedExports(exportsList, parser.nodeFlags, pos, parser.curPos);
 }
 
@@ -7105,7 +7074,6 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
       return parseTypeofType(parser, context);
     case SyntaxKind.Subtract:
       return parseSubtractionType(parser, context);
-    case SyntaxKind.QuestionMark:
     default:
       return parseTypeReference(parser, context);
   }
@@ -8333,7 +8301,10 @@ function parseYieldIdentifierOrExpression(
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context],
+        diagnosticMap[
+          DiagnosticCode
+            .Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context
+        ],
         pos,
         parser.pos
       );
@@ -8537,17 +8508,6 @@ export function parseImportMeta(
   importKeyword: SyntaxToken<TokenSyntaxKind>
 ): ExpressionStatement {
   const pos = parser.curPos;
-
-  if (parser.nodeFlags & 0b00000000000000000110000000000000) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Escape_sequence_in_keyword_import],
-      parser.curPos,
-      parser.pos
-    );
-  }
-
   consume(parser, context, SyntaxKind.Period);
 
   const metaKeyword = consumeToken(parser, context, SyntaxKind.Meta);
@@ -8968,15 +8928,6 @@ export function parseClassElement(
           break;
 
         case SyntaxKind.SetKeyword:
-          if (flags & 0b00000000000000000110000000000000) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-              pos,
-              parser.pos
-            );
-          }
           setKeyword = createToken(SyntaxKind.SetKeyword, flags | NodeFlags.ChildLess, pos, parser.curPos);
           nodeFlags |= NodeFlags.Setter;
           break;
@@ -9016,21 +8967,13 @@ export function parseClassElement(
             parser.pos
           );
         }
-      } else {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Method_definition_expected],
-          parser.curPos,
-          parser.pos
-        );
       }
     }
 
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen || nodeFlags & 0b00000000000000000000011100000000) {
       if (key.kind !== SyntaxKind.ComputedPropertyName) {
         if (parser.tokenValue === 'constructor') {
-          if (!staticKeyword && nodeFlags & 0b00000000000000000000011100000000 || decorators) {
+          if ((!staticKeyword && nodeFlags & 0b00000000000000000000011100000000) || decorators) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -9816,13 +9759,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               argument = parseConditionalExpression(parser, context, argument, pos);
             }
 
-            if (!parser.assignable) {
-              destructible |= DestructibleKind.NotDestructible;
-            } else {
-              destructible |= DestructibleKind.Assignable;
-            }
-
-            destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+            destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
           }
         }
       } else if (parser.token & SyntaxKind.IsPatternStart) {
@@ -9842,6 +9779,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               );
 
         parser.diagnosticStartPos = pos;
+
         flags |= NodeFlags.NoneSimpleParamList;
 
         if (context & Context.OptionsAllowTypes && (parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
@@ -9919,9 +9857,12 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               );
             }
 
-            argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
-
-            argument = parseAssignmentExpression(parser, context, argument, pos);
+            argument = parseAssignmentExpression(
+              parser,
+              context,
+              parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos),
+              pos
+            );
 
             destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
           }
@@ -10067,26 +10008,15 @@ function parseOpaqueType(
 ) {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
-  const typeToken = consumeOptToken(parser, context, SyntaxKind.TypeKeyword);
-  if (typeToken) {
-    const opaqueToken = createToken(SyntaxKind.OpaqueKeyword, NodeFlags.ChildLess, pos, parser.curPos);
-    const name = parseIdentifier(
-      parser,
-      context,
-      0b00000000100000000100000000000000,
-      DiagnosticCode.Identifier_expected
-    );
-    const typeParameters = parseTypeParameterDeclaration(parser, context);
-    const superType = consumeOpt(parser, context, SyntaxKind.Colon) ? parseType(parser, context) : null;
-    const impltype = !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseType(parser, context) : null;
+  if (parser.token === SyntaxKind.TypeKeyword) {
     return createOpaqueType(
       declareKeyword,
-      opaqueToken,
-      typeToken,
-      name,
-      typeParameters,
-      superType,
-      impltype,
+      createToken(SyntaxKind.OpaqueKeyword, NodeFlags.ChildLess, pos, parser.curPos),
+      consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
+      parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected),
+      parseTypeParameterDeclaration(parser, context),
+      consumeOpt(parser, context, SyntaxKind.Colon) ? parseType(parser, context) : null,
+      !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseType(parser, context) : null,
       pos,
       parser.curPos
     );
@@ -10111,7 +10041,7 @@ function parseOpaqueType(
       parser,
       context,
       scope,
-      /*typeParameters */ null,
+      /* typeParameters */ null,
       /* returnType */ null,
       /* params */ expr,
       /* asyncToken */ null,

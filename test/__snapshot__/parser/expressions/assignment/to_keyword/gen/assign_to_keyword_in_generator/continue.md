@@ -127,6 +127,7 @@ function *f(){
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 14, end: 25
 ✖ Identifier expected - start: 25, end: 27
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 14, end: 27
 ✖ Declaration or statement expected - start: 30, end: 32
 
 ```

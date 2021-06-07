@@ -579,7 +579,7 @@ export function lookupContinueTarget(labels: any, value: string): boolean {
       if (set.iteration && set.iteration.has(value)) {
         return false;
       }
-    } while ((set = set.parentLabels));
+    } while ((set = set.parent));
   }
   return true;
 }
@@ -591,7 +591,7 @@ export function lookupBreakTarget(labels: any, value: string): boolean {
       if (labelSet.statements.has(value)) {
         return false;
       }
-    } while ((labelSet = labelSet.parentLabels));
+    } while ((labelSet = labelSet.parent));
   }
   return true;
 }

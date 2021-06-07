@@ -99,6 +99,7 @@
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 1, end: 14
 ✖ Keywords cannot contain escape characters - start: 1, end: 14
 ✖ Identifier expected - start: 14, end: 16
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 1, end: 16
 ✖ Expected a `;` - start: 18, end: 19
 
 ```

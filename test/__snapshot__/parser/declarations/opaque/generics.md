@@ -34,7 +34,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                 "kind": 24822,
                 "flags": 64,
                 "start": 0,
-                "end": 11
+                "end": 6
             },
             "typeToken": {
                 "kind": 24775,

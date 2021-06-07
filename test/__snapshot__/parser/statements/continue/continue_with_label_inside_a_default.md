@@ -97,6 +97,7 @@ switch (x) { default: continue foo; }
 
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 21, end: 30
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 21, end: 35
 
 ```
 

@@ -169,6 +169,7 @@ function *f(x = (continue) = f) {}
 ✖ Identifier expected - start: 17, end: 25
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 17, end: 25
 ✖ Identifier expected - start: 25, end: 26
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 17, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
 ✖ Expected a `;` - start: 30, end: 31
 

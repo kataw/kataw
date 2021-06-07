@@ -73,6 +73,7 @@ c\u006fntinue = x;
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 0, end: 13
 ✖ Keywords cannot contain escape characters - start: 0, end: 13
 ✖ Identifier expected - start: 13, end: 15
+✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 0, end: 15
 
 ```
 
