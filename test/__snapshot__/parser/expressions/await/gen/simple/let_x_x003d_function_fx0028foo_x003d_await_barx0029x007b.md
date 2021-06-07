@@ -97,7 +97,7 @@ let x = function f(foo = await bar){
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 98,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 35
                             },

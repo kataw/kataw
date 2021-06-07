@@ -150,7 +150,7 @@ let [...[foo, bar],] = obj;
 ### Diagnostics
 
 ```javascript
-✖ A rest element must be last in a destructuring pattern - start: 19, end: 20
+✖ A rest element must be last in a destructuring pattern - start: 5, end: 20
 
 ```
 

@@ -104,7 +104,7 @@ async function * gen() {async function * foo(yield) { }}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 44,
                                 "end": 51
                             },

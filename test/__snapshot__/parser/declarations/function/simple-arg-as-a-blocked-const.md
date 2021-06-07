@@ -47,7 +47,7 @@ function f(x) { { const x = y } }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 13
             },

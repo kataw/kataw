@@ -49,7 +49,7 @@ function loadImport(file) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 19,
                 "end": 25
             },

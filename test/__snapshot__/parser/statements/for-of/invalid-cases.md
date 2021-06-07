@@ -5364,7 +5364,7 @@ for ({a: b.c}-- of d) e;
 ✖ ',' expected - start: 104, end: 106
 ✖ Identifier expected - start: 104, end: 106
 ✖ Binding identifier expected - start: 126, end: 127
-✖ A rest element must be last in a destructuring pattern - start: 127, end: 128
+✖ A rest element must be last in a destructuring pattern - start: 123, end: 128
 ✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 148, end: 156
 ✖ Identifier expected - start: 178, end: 179
 ✖ Identifier expected - start: 191, end: 192

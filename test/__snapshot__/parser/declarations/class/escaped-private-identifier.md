@@ -60,8 +60,9 @@ class z { #\u0020oo }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#fofoo",
+                                "rawText": "#fo",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 13
@@ -125,7 +126,7 @@ class z { #\u0020oo }
                                     "end": 31
                                 },
                                 "expression": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#foo",
                                     "flags": 96,
                                     "start": 32,
@@ -184,8 +185,9 @@ class z { #\u0020oo }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#fofo ",
+                                "rawText": "#fo",
                                 "flags": 96,
                                 "start": 49,
                                 "end": 53
@@ -263,8 +265,9 @@ class z { #\u0020oo }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "# oo",
+                                "rawText": "#",
                                 "flags": 96,
                                 "start": 72,
                                 "end": 74

@@ -87,7 +87,7 @@ function f(foo = +await bar){}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 98,
+                "flags": 32,
                 "start": 10,
                 "end": 28
             },

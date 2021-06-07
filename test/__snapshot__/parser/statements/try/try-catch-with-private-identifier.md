@@ -51,11 +51,12 @@ try {} catch(#private){}
                     "end": 12
                 },
                 "catchParameter": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
+                    "kind": 134299649,
+                    "text": "#private",
+                    "rawText": "#private",
+                    "flags": 96,
                     "start": 13,
-                    "end": 13
+                    "end": 21
                 },
                 "block": {
                     "kind": 124,
@@ -63,47 +64,21 @@ try {} catch(#private){}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
-                        "start": 13,
-                        "end": 13
+                        "start": 23,
+                        "end": 23
                     },
                     "flags": 16,
-                    "start": 13,
-                    "end": 13
+                    "start": 22,
+                    "end": 24
                 },
                 "flags": 16,
                 "start": 6,
-                "end": 13
+                "end": 24
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
             "start": 0,
-            "end": 13
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 67174651,
-                "text": "#private",
-                "flags": 96,
-                "start": 13,
-                "end": 21
-            },
-            "flags": 16,
-            "start": 13,
-            "end": 21
-        },
-        {
-            "kind": 124,
-            "block": {
-                "kind": 249,
-                "statements": [],
-                "flags": 16,
-                "start": 23,
-                "end": 23
-            },
-            "flags": 16,
-            "start": 22,
             "end": 24
         }
     ],
@@ -126,7 +101,6 @@ try {} catch(#private){}
 
 ```javascript
 ✖ Private identifiers cannot be used as parameters - start: 13, end: 21
-✖ Expected a `;` - start: 21, end: 22
 
 ```
 

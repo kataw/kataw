@@ -253,7 +253,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 34,
+                                                                "flags": 32,
                                                                 "start": 64,
                                                                 "end": 94
                                                             },

@@ -47,8 +47,9 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#foo",
+                                "rawText": "#foo",
                                 "flags": 96,
                                 "start": 11,
                                 "end": 16
@@ -131,7 +132,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                                 "kind": 536871114,
                                                                 "chain": null,
                                                                 "expression": {
-                                                                    "kind": 67174651,
+                                                                    "kind": 67191035,
                                                                     "text": "#foo",
                                                                     "flags": 96,
                                                                     "start": 39,

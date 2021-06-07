@@ -64,8 +64,9 @@ class C {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#brand",
+                                "rawText": "#brand",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 18
@@ -95,8 +96,9 @@ class C {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#method",
+                                    "rawText": "#method",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 30
@@ -150,7 +152,7 @@ class C {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#getter",
                                     "flags": 96,
                                     "start": 42,
@@ -252,7 +254,7 @@ class C {
                                                         "left": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 67174651,
+                                                                "kind": 67191035,
                                                                 "text": "#brand",
                                                                 "flags": 96,
                                                                 "start": 87,
@@ -285,7 +287,7 @@ class C {
                                                         "right": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 67174651,
+                                                                "kind": 67191035,
                                                                 "text": "#method",
                                                                 "flags": 96,
                                                                 "start": 104,
@@ -322,7 +324,7 @@ class C {
                                                     "right": {
                                                         "kind": 198,
                                                         "left": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#getter",
                                                             "flags": 96,
                                                             "start": 122,

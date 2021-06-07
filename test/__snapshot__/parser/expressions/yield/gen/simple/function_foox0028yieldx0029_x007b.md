@@ -50,7 +50,7 @@ function foo(yield) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 12,
                 "end": 19
             },

@@ -944,8 +944,9 @@ class Array { concat(items:number | string) {}; }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#prop1",
+                                "rawText": "#prop1",
                                 "flags": 96,
                                 "start": 328,
                                 "end": 337

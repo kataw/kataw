@@ -50,8 +50,9 @@ class C { #aaa
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#aaa",
+                                "rawText": "#aaa",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 14
@@ -76,8 +77,9 @@ class C { #aaa
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#bbb",
+                                "rawText": "#bbb",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 20
@@ -134,8 +136,9 @@ class C { #aaa
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#aaa",
+                                "rawText": "#aaa",
                                 "flags": 96,
                                 "start": 33,
                                 "end": 38
@@ -154,8 +157,9 @@ class C { #aaa
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#bbb",
+                                "rawText": "#bbb",
                                 "flags": 96,
                                 "start": 38,
                                 "end": 44

@@ -83,7 +83,7 @@ function not_gen() { function foo(yield) { }}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 40
                             },

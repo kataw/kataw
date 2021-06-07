@@ -106,7 +106,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 98,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 49
                             },

@@ -32,7 +32,7 @@ this.#x
                     "end": 4
                 },
                 "expression": {
-                    "kind": 67174651,
+                    "kind": 67191035,
                     "text": "#x",
                     "flags": 96,
                     "start": 5,

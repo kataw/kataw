@@ -97,7 +97,7 @@ declare function foo(): void
                 "start": 7,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 7,
             "end": 31
         },
@@ -212,7 +212,7 @@ declare function foo(): void
                 "start": 41,
                 "end": 82
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 41,
             "end": 82
         },
@@ -268,7 +268,7 @@ declare function foo(): void
                 "start": 92,
                 "end": 113
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 92,
             "end": 113
         }

@@ -62,8 +62,9 @@ class A {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#foo",
+                                "rawText": "#foo",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 24

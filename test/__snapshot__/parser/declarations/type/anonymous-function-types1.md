@@ -89,7 +89,7 @@ declare function foo(x: number, string): void;
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 20,
                 "end": 39
             },
@@ -107,7 +107,7 @@ declare function foo(x: number, string): void;
                 "start": 7,
                 "end": 45
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 7,
             "end": 45
         },

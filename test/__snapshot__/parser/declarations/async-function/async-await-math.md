@@ -68,7 +68,7 @@ async function foo(a, b) { await a + await b };
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 18,
                 "end": 24
             },

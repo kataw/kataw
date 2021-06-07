@@ -64,7 +64,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#g",
                                     "flags": 96,
                                     "start": 14,
@@ -119,7 +119,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#a",
                                     "flags": 96,
                                     "start": 28,
@@ -179,7 +179,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#ag",
                                     "flags": 96,
                                     "start": 45,
@@ -239,7 +239,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#sg",
                                     "flags": 96,
                                     "start": 63,
@@ -299,7 +299,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#sa",
                                     "flags": 96,
                                     "start": 85,
@@ -364,7 +364,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#sag",
                                     "flags": 96,
                                     "start": 110,

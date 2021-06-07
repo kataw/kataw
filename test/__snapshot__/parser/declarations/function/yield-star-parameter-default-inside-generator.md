@@ -95,7 +95,7 @@ function* fn(x = yield* yield) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 12,
                 "end": 30
             },

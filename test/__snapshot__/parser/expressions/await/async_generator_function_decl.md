@@ -57,7 +57,7 @@ async function *f(await){}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 17,
                 "end": 24
             },

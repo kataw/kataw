@@ -150,7 +150,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 18,
                 "end": 65
             },

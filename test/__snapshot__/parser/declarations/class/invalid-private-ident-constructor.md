@@ -63,8 +63,9 @@ class w { static #\u0063onstructor }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#constructor",
+                                "rawText": "#constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 22
@@ -126,8 +127,9 @@ class w { static #\u0063onstructor }
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#constructor",
+                                    "rawText": "#constructor",
                                     "flags": 96,
                                     "start": 35,
                                     "end": 48
@@ -214,8 +216,9 @@ class w { static #\u0063onstructor }
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#constructor",
+                                "rawText": "#constructor",
                                 "flags": 96,
                                 "start": 73,
                                 "end": 86
@@ -282,8 +285,9 @@ class w { static #\u0063onstructor }
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#constructor",
+                                    "rawText": "#constructor",
                                     "flags": 96,
                                     "start": 106,
                                     "end": 119
@@ -370,8 +374,9 @@ class w { static #\u0063onstructor }
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#constructor",
+                                "rawText": "#",
                                 "flags": 96,
                                 "start": 144,
                                 "end": 146
@@ -441,6 +446,7 @@ class w { static #\u0063onstructor }
 ✖ '#constructor' is a reserved word. - start: 75, end: 98
 ✖ '#constructor' is a reserved word. - start: 108, end: 131
 ✖ Private identifier cannot contain escape characters - start: 145, end: 146
+✖ A class field cannot have a field named 'constructor' - start: 146, end: 162
 ✖ A class field cannot have a field named 'constructor' - start: 162, end: 164
 
 ```

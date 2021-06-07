@@ -122,7 +122,7 @@ for (let [...foo,] of obj);
 ### Diagnostics
 
 ```javascript
-✖ A rest element must be last in a destructuring pattern - start: 17, end: 18
+✖ A rest element must be last in a destructuring pattern - start: 10, end: 18
 
 ```
 

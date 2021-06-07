@@ -135,7 +135,7 @@ const [...foo, bar] = obj;
 ### Diagnostics
 
 ```javascript
-✖ A rest element must be last in a destructuring pattern - start: 14, end: 18
+✖ A rest element must be last in a destructuring pattern - start: 7, end: 18
 
 ```
 

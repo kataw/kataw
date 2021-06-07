@@ -112,7 +112,7 @@ function inner2({a} = {a: my_var}) { }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 15,
                 "end": 34
             },

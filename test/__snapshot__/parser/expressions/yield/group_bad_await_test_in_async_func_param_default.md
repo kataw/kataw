@@ -106,7 +106,7 @@ async function f(x=(await)=y){}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 16,
                 "end": 29
             },

@@ -96,8 +96,9 @@ get
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#aaa",
+                                    "rawText": "#aaa",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 25

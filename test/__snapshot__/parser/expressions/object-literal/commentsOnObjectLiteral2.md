@@ -103,7 +103,7 @@ var Person = makeClass(
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 96,
+                                                            "flags": 32,
                                                             "start": 209,
                                                             "end": 215
                                                         },

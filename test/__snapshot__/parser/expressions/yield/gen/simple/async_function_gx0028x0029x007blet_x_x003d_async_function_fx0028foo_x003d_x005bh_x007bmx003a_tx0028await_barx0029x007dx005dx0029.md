@@ -220,7 +220,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 34,
+                                                "flags": 32,
                                                 "start": 43,
                                                 "end": 73
                                             },

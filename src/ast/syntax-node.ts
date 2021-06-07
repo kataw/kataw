@@ -274,7 +274,7 @@ export enum SyntaxKind {
   PrecStart = 8,
   Precedence = 3840,
   PrefixUpdateExpression = 128,
-  PrivateIdentifier = 67174651,
+  PrivateIdentifier = 67191035,
   PrivateKeyword = 8388713,
   PrologueDirective = 255,
   PropertyDefinition = 219,

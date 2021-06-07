@@ -28,8 +28,9 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#foo",
+                                    "rawText": "#foo",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 7
@@ -78,12 +79,12 @@
 
 ```javascript
 
+({ #foo: 1 });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Private identifiers are not allowed outside class bodies - start: 2, end: 7
-
+✔ No errors
 ```
 

@@ -59,8 +59,9 @@ class Test {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#x",
+                                "rawText": "#x",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 18
@@ -92,8 +93,9 @@ class Test {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#y",
+                                "rawText": "#y",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 29
@@ -215,7 +217,7 @@ class Test {
                                                         "end": 70
                                                     },
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#x",
                                                         "flags": 96,
                                                         "start": 71,
@@ -303,7 +305,7 @@ class Test {
                                                         "end": 101
                                                     },
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#y",
                                                         "flags": 96,
                                                         "start": 102,
@@ -513,7 +515,7 @@ class Test {
                                                                         "end": 176
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 67174651,
+                                                                        "kind": 67191035,
                                                                         "text": "#x",
                                                                         "flags": 96,
                                                                         "start": 177,
@@ -532,7 +534,7 @@ class Test {
                                                                         "end": 184
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 67174651,
+                                                                        "kind": 67191035,
                                                                         "text": "#y",
                                                                         "flags": 96,
                                                                         "start": 185,

@@ -104,7 +104,7 @@ function f(argument1, [a,b,...rest]) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 36
             },

@@ -90,8 +90,9 @@
                                                         "staticToken": null,
                                                         "asyncKeyword": null,
                                                         "key": {
-                                                            "kind": 67174651,
+                                                            "kind": 134299649,
                                                             "text": "#a",
+                                                            "rawText": "#a",
                                                             "flags": 96,
                                                             "start": 19,
                                                             "end": 22
@@ -209,8 +210,9 @@
                                                         "staticToken": null,
                                                         "asyncKeyword": null,
                                                         "key": {
-                                                            "kind": 67174651,
+                                                            "kind": 134299649,
                                                             "text": "#a",
+                                                            "rawText": "#a",
                                                             "flags": 96,
                                                             "start": 51,
                                                             "end": 54
@@ -350,8 +352,9 @@
                                                         "staticToken": null,
                                                         "asyncKeyword": null,
                                                         "key": {
-                                                            "kind": 67174651,
+                                                            "kind": 134299649,
                                                             "text": "#a",
+                                                            "rawText": "#a",
                                                             "flags": 96,
                                                             "start": 90,
                                                             "end": 93
@@ -467,8 +470,9 @@
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
-                                                                "kind": 67174651,
+                                                                "kind": 134299649,
                                                                 "text": "#a",
+                                                                "rawText": "#a",
                                                                 "flags": 96,
                                                                 "start": 118,
                                                                 "end": 121
@@ -614,7 +618,7 @@
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
-                                                                "kind": 67174651,
+                                                                "kind": 67191035,
                                                                 "text": "#a",
                                                                 "flags": 96,
                                                                 "start": 156,
@@ -761,7 +765,7 @@
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
-                                                                "kind": 67174651,
+                                                                "kind": 67191035,
                                                                 "text": "#a",
                                                                 "flags": 96,
                                                                 "start": 194,
@@ -917,7 +921,7 @@
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
-                                                                "kind": 67174651,
+                                                                "kind": 67191035,
                                                                 "text": "#a",
                                                                 "flags": 96,
                                                                 "start": 233,
@@ -1064,7 +1068,7 @@
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
-                                                                "kind": 67174651,
+                                                                "kind": 67191035,
                                                                 "text": "#a",
                                                                 "flags": 96,
                                                                 "start": 272,
@@ -1216,7 +1220,7 @@
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
-                                                                "kind": 67174651,
+                                                                "kind": 67191035,
                                                                 "text": "#a",
                                                                 "flags": 96,
                                                                 "start": 314,

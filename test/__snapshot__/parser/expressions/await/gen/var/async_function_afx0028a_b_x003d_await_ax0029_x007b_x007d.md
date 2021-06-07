@@ -186,7 +186,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 98,
+                                                    "flags": 32,
                                                     "start": 56,
                                                     "end": 72
                                                 },

@@ -191,7 +191,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 98,
+                                                                    "flags": 32,
                                                                     "start": 57,
                                                                     "end": 74
                                                                 },

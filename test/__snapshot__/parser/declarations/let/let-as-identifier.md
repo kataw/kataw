@@ -343,7 +343,7 @@ L: let
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 104,
                 "end": 109
             },
@@ -407,7 +407,7 @@ L: let
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 127,
                 "end": 137
             },
@@ -741,7 +741,7 @@ L: let
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 240,
                 "end": 245
             },

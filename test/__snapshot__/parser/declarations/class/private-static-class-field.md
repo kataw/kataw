@@ -71,8 +71,9 @@ class C { static #aaa }
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#aaa",
+                                "rawText": "#aaa",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 21

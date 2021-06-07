@@ -169,7 +169,7 @@ async function a(options = {}) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 70,
                 "end": 84
             },
@@ -216,12 +216,13 @@ async function a(options = {}) {
 
 ```javascript
 
+function a([option1, option2]) {}
+async function a(options = {}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 71, end: 102
-
+✔ No errors
 ```
 

@@ -104,7 +104,7 @@ function foo() {function* a(b,c,d,) {}}
                                     }
                                 ],
                                 "trailingComma": true,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 35
                             },

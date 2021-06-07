@@ -71,7 +71,7 @@ function* a(b,c,d,) {}
                     }
                 ],
                 "trailingComma": true,
-                "flags": 96,
+                "flags": 32,
                 "start": 11,
                 "end": 19
             },

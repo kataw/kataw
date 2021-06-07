@@ -73,8 +73,9 @@ class Foo {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#x",
+                                "rawText": "#x",
                                 "flags": 96,
                                 "start": 11,
                                 "end": 15
@@ -140,7 +141,7 @@ class Foo {
                                                             "end": 33
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 34,
@@ -177,7 +178,7 @@ class Foo {
                                                             "end": 45
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 46,
@@ -214,7 +215,7 @@ class Foo {
                                                             "end": 59
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 60,
@@ -251,7 +252,7 @@ class Foo {
                                                             "end": 71
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 72,
@@ -334,7 +335,7 @@ class Foo {
                                                             "end": 96
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 97,
@@ -379,7 +380,7 @@ class Foo {
                                                             "end": 110
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 111,
@@ -424,7 +425,7 @@ class Foo {
                                                             "end": 125
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 126,
@@ -469,7 +470,7 @@ class Foo {
                                                             "end": 140
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 141,
@@ -514,7 +515,7 @@ class Foo {
                                                             "end": 155
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 156,
@@ -559,7 +560,7 @@ class Foo {
                                                             "end": 170
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 171,
@@ -604,7 +605,7 @@ class Foo {
                                                             "end": 185
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 186,
@@ -649,7 +650,7 @@ class Foo {
                                                             "end": 201
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 202,
@@ -694,7 +695,7 @@ class Foo {
                                                             "end": 217
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 218,
@@ -739,7 +740,7 @@ class Foo {
                                                             "end": 233
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 234,
@@ -784,7 +785,7 @@ class Foo {
                                                             "end": 250
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 251,
@@ -829,7 +830,7 @@ class Foo {
                                                             "end": 265
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 266,
@@ -874,7 +875,7 @@ class Foo {
                                                             "end": 280
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 281,
@@ -919,7 +920,7 @@ class Foo {
                                                             "end": 295
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 296,
@@ -964,7 +965,7 @@ class Foo {
                                                             "end": 311
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 312,
@@ -1009,7 +1010,7 @@ class Foo {
                                                             "end": 327
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 328,

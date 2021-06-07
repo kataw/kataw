@@ -92,7 +92,7 @@ declare function foo<T>(): void;
                 "start": 7,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 7,
             "end": 31
         },

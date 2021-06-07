@@ -149,7 +149,7 @@ var await; var f = (async function() { function *f(await){} });
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 96,
+                                                    "flags": 32,
                                                     "start": 50,
                                                     "end": 57
                                                 },

@@ -149,8 +149,9 @@ class Base {
                                                                         },
                                                                         "asyncKeyword": null,
                                                                         "key": {
-                                                                            "kind": 67174651,
+                                                                            "kind": 134299649,
                                                                             "text": "#_",
+                                                                            "rawText": "#_",
                                                                             "flags": 96,
                                                                             "start": 66,
                                                                             "end": 69

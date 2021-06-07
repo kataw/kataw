@@ -94,7 +94,7 @@ function f(b, a, b, a, [fine]) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 30
             },

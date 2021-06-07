@@ -63,7 +63,7 @@ function f(b, a, a) {"use strict"}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 19
             },

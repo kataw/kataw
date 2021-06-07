@@ -86,7 +86,7 @@ function f(b, a, b, ...a) {"use strict"}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 98,
+                "flags": 32,
                 "start": 10,
                 "end": 25
             },
@@ -139,8 +139,6 @@ function f(b, a, b, ...a) {"use strict"}
 
 ```javascript
 ✖ Duplicate identifier - start: 23, end: 24
-✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 19, end: 25
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 19, end: 40
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 19, end: 40
 
 ```

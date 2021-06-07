@@ -67,8 +67,9 @@ class C {
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#_",
+                                "rawText": "#_",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 21
@@ -171,7 +172,7 @@ class C {
                                                                                             "end": 79
                                                                                         },
                                                                                         "expression": {
-                                                                                            "kind": 67174651,
+                                                                                            "kind": 67191035,
                                                                                             "text": "#_",
                                                                                             "flags": 96,
                                                                                             "start": 80,

@@ -430,13 +430,13 @@ function for_scope_var() {
                                             "start": 220,
                                             "end": 222
                                         },
-                                        "flags": 34,
+                                        "flags": 32,
                                         "start": 198,
                                         "end": 222
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 197,
                                 "end": 253
                             },
@@ -649,7 +649,7 @@ function for_scope_var() {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 392,
                                 "end": 405
                             },
@@ -812,7 +812,7 @@ function for_scope_var() {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 491,
                                 "end": 528
                             },

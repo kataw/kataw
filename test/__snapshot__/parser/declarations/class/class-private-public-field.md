@@ -76,8 +76,9 @@ class C { f(){ this.#a } #a; }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#a",
+                                "rawText": "#a",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 12
@@ -120,7 +121,7 @@ class C { f(){ this.#a } #a; }
                                     "end": 22
                                 },
                                 "expression": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#a",
                                     "flags": 96,
                                     "start": 23,
@@ -203,7 +204,7 @@ class C { f(){ this.#a } #a; }
                                     "end": 48
                                 },
                                 "expression": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#a",
                                     "flags": 96,
                                     "start": 49,
@@ -230,8 +231,9 @@ class C { f(){ this.#a } #a; }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#a",
+                                "rawText": "#a",
                                 "flags": 96,
                                 "start": 52,
                                 "end": 55
@@ -294,8 +296,9 @@ class C { f(){ this.#a } #a; }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#a",
+                                "rawText": "#a",
                                 "flags": 96,
                                 "start": 69,
                                 "end": 72
@@ -330,7 +333,7 @@ class C { f(){ this.#a } #a; }
                                         "end": 79
                                     },
                                     "expression": {
-                                        "kind": 67174651,
+                                        "kind": 67191035,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 80,
@@ -412,7 +415,7 @@ class C { f(){ this.#a } #a; }
                                         "end": 103
                                     },
                                     "expression": {
-                                        "kind": 67174651,
+                                        "kind": 67191035,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 104,
@@ -446,8 +449,9 @@ class C { f(){ this.#a } #a; }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#a",
+                                "rawText": "#a",
                                 "flags": 96,
                                 "start": 108,
                                 "end": 111
@@ -510,8 +514,9 @@ class C { f(){ this.#a } #a; }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#a",
+                                "rawText": "#a",
                                 "flags": 96,
                                 "start": 125,
                                 "end": 128
@@ -575,7 +580,7 @@ class C { f(){ this.#a } #a; }
                                                         "end": 139
                                                     },
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#a",
                                                         "flags": 96,
                                                         "start": 140,
@@ -690,7 +695,7 @@ class C { f(){ this.#a } #a; }
                                                         "end": 167
                                                     },
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#a",
                                                         "flags": 96,
                                                         "start": 168,
@@ -728,8 +733,9 @@ class C { f(){ this.#a } #a; }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#a",
+                                "rawText": "#a",
                                 "flags": 96,
                                 "start": 172,
                                 "end": 175

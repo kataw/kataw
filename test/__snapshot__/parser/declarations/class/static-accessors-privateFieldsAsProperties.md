@@ -70,7 +70,7 @@ new C;
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#p",
                                     "flags": 96,
                                     "start": 22,
@@ -116,7 +116,7 @@ new C;
                                                             "end": 32
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#q",
                                                             "flags": 96,
                                                             "start": 33,
@@ -177,8 +177,9 @@ new C;
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#q",
+                                "rawText": "#q",
                                 "flags": 96,
                                 "start": 50,
                                 "end": 53
@@ -253,7 +254,7 @@ new C;
                                                                             "end": 80
                                                                         },
                                                                         "expression": {
-                                                                            "kind": 67174651,
+                                                                            "kind": 67191035,
                                                                             "text": "#p",
                                                                             "flags": 96,
                                                                             "start": 81,

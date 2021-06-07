@@ -67,8 +67,9 @@ new Foo();
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#tag",
+                                    "rawText": "#tag",
                                     "flags": 96,
                                     "start": 11,
                                     "end": 18
@@ -131,8 +132,9 @@ new Foo();
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#tag2",
+                                "rawText": "#tag2",
                                 "flags": 96,
                                 "start": 43,
                                 "end": 52
@@ -148,7 +150,7 @@ new Foo();
                                     "end": 59
                                 },
                                 "expression": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#tag",
                                     "flags": 96,
                                     "start": 60,
@@ -237,7 +239,7 @@ new Foo();
                                                                         "end": 110
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 67174651,
+                                                                        "kind": 67191035,
                                                                         "text": "#tag",
                                                                         "flags": 96,
                                                                         "start": 111,
@@ -375,7 +377,7 @@ new Foo();
                                                                         "end": 200
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 67174651,
+                                                                        "kind": 67191035,
                                                                         "text": "#tag2",
                                                                         "flags": 96,
                                                                         "start": 201,

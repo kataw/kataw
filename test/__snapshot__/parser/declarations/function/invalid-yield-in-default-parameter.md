@@ -140,7 +140,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 46
                             },

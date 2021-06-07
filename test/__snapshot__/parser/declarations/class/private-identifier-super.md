@@ -67,8 +67,9 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#foo",
+                                "rawText": "#foo",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 28
@@ -138,7 +139,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                         "end": 43
                                                     },
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#foo",
                                                         "flags": 96,
                                                         "start": 44,

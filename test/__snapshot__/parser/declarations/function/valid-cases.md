@@ -109,7 +109,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 15
             },
@@ -302,7 +302,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 58,
                 "end": 65
             },
@@ -404,7 +404,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 86,
                 "end": 102
             },
@@ -598,7 +598,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 150,
                 "end": 158
             },
@@ -777,7 +777,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 206,
                 "end": 211
             },
@@ -942,7 +942,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 250,
                 "end": 255
             },
@@ -1110,7 +1110,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 302,
                 "end": 307
             },
@@ -1311,7 +1311,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 98,
+                "flags": 32,
                 "start": 350,
                 "end": 360
             },
@@ -1499,7 +1499,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 98,
+                "flags": 32,
                 "start": 399,
                 "end": 410
             },
@@ -1681,7 +1681,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 449,
                 "end": 456
             },
@@ -1846,7 +1846,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 495,
                 "end": 500
             },
@@ -2125,7 +2125,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 553,
                 "end": 580
             },
@@ -2219,7 +2219,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 601,
                 "end": 606
             },
@@ -2453,7 +2453,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 661,
                 "end": 666
             },
@@ -2657,7 +2657,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 714,
                 "end": 719
             },
@@ -2879,7 +2879,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 775,
                 "end": 783
             },
@@ -3047,7 +3047,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 830,
                 "end": 835
             },
@@ -3226,7 +3226,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 883,
                 "end": 888
             },
@@ -3394,7 +3394,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 931,
                 "end": 936
             },
@@ -3562,7 +3562,7 @@ function f({x:arg = (arg = 2)}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 992,
                 "end": 997
             },

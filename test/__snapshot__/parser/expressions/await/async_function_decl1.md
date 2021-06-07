@@ -80,7 +80,7 @@ async function f(foo = await){}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 16,
                 "end": 29
             },

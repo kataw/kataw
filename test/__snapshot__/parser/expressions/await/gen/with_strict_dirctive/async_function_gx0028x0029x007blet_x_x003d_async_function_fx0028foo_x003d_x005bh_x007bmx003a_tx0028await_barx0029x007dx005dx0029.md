@@ -229,7 +229,7 @@
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 34,
+                                                "flags": 32,
                                                 "start": 57,
                                                 "end": 87
                                             },

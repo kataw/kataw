@@ -1217,7 +1217,7 @@ async function * gen() {class C extends await { }}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 675,
                                 "end": 682
                             },
@@ -1344,7 +1344,7 @@ async function * gen() {class C extends await { }}
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 96,
+                                        "flags": 32,
                                         "start": 733,
                                         "end": 740
                                     },
@@ -1476,7 +1476,7 @@ async function * gen() {class C extends await { }}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 791,
                                 "end": 798
                             },
@@ -1603,7 +1603,7 @@ async function * gen() {class C extends await { }}
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 96,
+                                        "flags": 32,
                                         "start": 849,
                                         "end": 856
                                     },

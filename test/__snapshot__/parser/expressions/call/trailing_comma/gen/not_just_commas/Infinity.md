@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-06-06
-- From: kataw8/test\__snapshot__/parser/expressions/call/trailing_comma/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\call\trailing_comma\gen\not_just_commas
+- From: d
+- Path: s
 > :: test: not just commas
 > :: case: Infinity
 ## Input

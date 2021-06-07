@@ -84,7 +84,7 @@ async function f(x = await 1) { return x; }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 16,
                 "end": 29
             },

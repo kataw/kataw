@@ -95,7 +95,7 @@ function a({ option1, option2 } = {}) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 37
             },
@@ -142,12 +142,15 @@ function a({ option1, option2 } = {}) {
 
 ```javascript
 
+function a({
+  option1,
+  option2
+} = {}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 11, end: 55
-
+✔ No errors
 ```
 

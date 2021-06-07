@@ -42,7 +42,7 @@ class C { test() {get #a() { }}}
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 67174651,
+                    "kind": 67191035,
                     "text": "#a",
                     "flags": 96,
                     "start": 0,
@@ -101,7 +101,7 @@ class C { test() {get #a() { }}}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#a",
                                     "flags": 96,
                                     "start": 22,
@@ -195,7 +195,7 @@ class C { test() {get #a() { }}}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 67174651,
+                                "kind": 67191035,
                                 "text": "#a",
                                 "flags": 96,
                                 "start": 51,
@@ -245,7 +245,7 @@ class C { test() {get #a() { }}}
                                 "expression": {
                                     "kind": 131,
                                     "expression": {
-                                        "kind": 67174651,
+                                        "kind": 67191035,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 64,
@@ -376,7 +376,7 @@ class C { test() {get #a() { }}}
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#a",
                                                         "flags": 96,
                                                         "start": 97,
@@ -478,7 +478,7 @@ class C { test() {get #a() { }}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67174651,
+                                        "kind": 67191035,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 129,
@@ -580,8 +580,9 @@ class C { test() {get #a() { }}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67174651,
+                                        "kind": 134299649,
                                         "text": "#a",
+                                        "rawText": "#a",
                                         "flags": 96,
                                         "start": 163,
                                         "end": 165
@@ -661,7 +662,7 @@ class C { test() {get #a() { }}}
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 183,
@@ -771,7 +772,7 @@ class C { test() {get #a() { }}}
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 211,
@@ -880,7 +881,6 @@ class C { test() {get #a() { }}}
 ✖ Expected a `;` - start: 97, end: 100
 ✖ Expected a `;` - start: 102, end: 104
 ✖ Private identifiers are not allowed outside class bodies - start: 129, end: 132
-✖ Private identifiers are not allowed outside class bodies - start: 163, end: 165
 ✖ Private identifiers are not allowed outside class bodies - start: 183, end: 186
 ✖ The left-hand side must be a variable or a property access. - start: 177, end: 195
 ✖ Private identifiers are not allowed outside class bodies - start: 211, end: 213

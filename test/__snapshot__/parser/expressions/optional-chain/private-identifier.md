@@ -69,7 +69,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 5,
@@ -148,7 +148,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 20,
@@ -227,7 +227,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 35,
@@ -306,7 +306,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 50,
@@ -385,7 +385,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 65,
@@ -464,7 +464,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 80,
@@ -840,7 +840,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 122,
@@ -934,7 +934,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "kind": 536871114,
                                                 "chain": null,
                                                 "expression": {
-                                                    "kind": 67174651,
+                                                    "kind": 67191035,
                                                     "text": "#x",
                                                     "flags": 96,
                                                     "start": 134,
@@ -958,7 +958,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "kind": 536871114,
                                             "chain": null,
                                             "expression": {
-                                                "kind": 67174651,
+                                                "kind": 67191035,
                                                 "text": "#x",
                                                 "flags": 96,
                                                 "start": 138,
@@ -982,7 +982,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 536871114,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#x",
                                             "flags": 96,
                                             "start": 142,
@@ -1006,7 +1006,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 536871114,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 67174651,
+                                        "kind": 67191035,
                                         "text": "#x",
                                         "flags": 96,
                                         "start": 146,
@@ -1030,7 +1030,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "kind": 536871114,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#x",
                                     "flags": 96,
                                     "start": 150,
@@ -1054,7 +1054,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 536871114,
                             "chain": null,
                             "expression": {
-                                "kind": 67174651,
+                                "kind": 67191035,
                                 "text": "#x",
                                 "flags": 96,
                                 "start": 154,
@@ -1078,7 +1078,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 158,
@@ -1322,7 +1322,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 190,
@@ -1498,7 +1498,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "kind": 536871114,
                                                         "chain": null,
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 208,
@@ -1547,7 +1547,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "kind": 536871114,
                                                 "chain": null,
                                                 "expression": {
-                                                    "kind": 67174651,
+                                                    "kind": 67191035,
                                                     "text": "#x",
                                                     "flags": 96,
                                                     "start": 215,
@@ -1621,7 +1621,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "kind": 536871114,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 67174651,
+                                        "kind": 67191035,
                                         "text": "#x",
                                         "flags": 96,
                                         "start": 227,
@@ -1695,7 +1695,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 237,
@@ -1839,7 +1839,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "kind": 536871114,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#x",
                                             "flags": 96,
                                             "start": 255,
@@ -1938,7 +1938,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 272,
@@ -2019,7 +2019,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "end": 285
                                         },
                                         "member": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#foo",
                                             "flags": 96,
                                             "start": 277,
@@ -2181,7 +2181,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 303,
@@ -2262,7 +2262,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "end": 316
                                         },
                                         "member": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#foo",
                                             "flags": 96,
                                             "start": 308,
@@ -2424,7 +2424,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 334,
@@ -2499,7 +2499,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "end": 347
                                         },
                                         "member": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#foo",
                                             "flags": 96,
                                             "start": 339,
@@ -2683,7 +2683,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 536871114,
                             "chain": null,
                             "expression": {
-                                "kind": 67174651,
+                                "kind": 67191035,
                                 "text": "#bar",
                                 "flags": 96,
                                 "start": 374,
@@ -2746,7 +2746,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "end": 387
                                 },
                                 "member": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#foo",
                                     "flags": 96,
                                     "start": 379,
@@ -2946,7 +2946,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "kind": 536871114,
                             "chain": null,
                             "expression": {
-                                "kind": 67174651,
+                                "kind": 67191035,
                                 "text": "#bar",
                                 "flags": 96,
                                 "start": 407,
@@ -3009,7 +3009,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "end": 420
                                 },
                                 "member": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#foo",
                                     "flags": 96,
                                     "start": 412,
@@ -3194,7 +3194,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 536871114,
                         "chain": null,
                         "expression": {
-                            "kind": 67174651,
+                            "kind": 67191035,
                             "text": "#bar",
                             "flags": 96,
                             "start": 443,

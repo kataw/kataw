@@ -56,7 +56,12 @@ function one(this?: number) {}
                             "start": 13,
                             "end": 17
                         },
-                        "optionalToken": null,
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 17,
+                            "end": 18
+                        },
                         "type": {
                             "kind": 139,
                             "type": {

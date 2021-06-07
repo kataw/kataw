@@ -121,7 +121,7 @@ function * gen() { function not_gen() { function foo(yield) { }}
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 96,
+                                                "flags": 32,
                                                 "start": 52,
                                                 "end": 59
                                             },

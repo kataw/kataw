@@ -102,7 +102,7 @@ function *g() { function f(x = yield) {}; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 37
                             },

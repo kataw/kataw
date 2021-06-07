@@ -92,7 +92,7 @@ async function af(a, b = await a) { }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 98,
+                "flags": 32,
                 "start": 17,
                 "end": 33
             },

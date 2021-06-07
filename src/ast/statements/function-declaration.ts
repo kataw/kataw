@@ -35,7 +35,7 @@ export function createFunctionDeclaration(
   start: number,
   end: number
 ): FunctionDeclaration {
-  if (declareKeyword) flags | NodeFlags.Declared;
+  if (declareKeyword) flags |= NodeFlags.Declared;
 
   if (asyncKeyword) flags |= NodeFlags.Generator;
 

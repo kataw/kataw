@@ -92,7 +92,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 41,
                                 "end": 45
                             },

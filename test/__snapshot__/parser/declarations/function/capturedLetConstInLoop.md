@@ -227,7 +227,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 13,
                 "end": 16
             },
@@ -562,7 +562,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 163,
                 "end": 166
             },
@@ -896,7 +896,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 311,
                 "end": 314
             },
@@ -1265,7 +1265,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 469,
                 "end": 472
             },
@@ -1582,7 +1582,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 615,
                 "end": 618
             },
@@ -1942,7 +1942,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 779,
                 "end": 782
             },
@@ -2355,7 +2355,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 956,
                 "end": 959
             },
@@ -2788,7 +2788,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 1130,
                 "end": 1133
             },
@@ -3199,7 +3199,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 1302,
                 "end": 1305
             },
@@ -3616,7 +3616,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 1478,
                 "end": 1481
             },
@@ -4069,7 +4069,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 1680,
                 "end": 1683
             },
@@ -4404,7 +4404,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 1836,
                 "end": 1839
             },
@@ -4738,7 +4738,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 1990,
                 "end": 1993
             },
@@ -5088,7 +5088,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 2150,
                 "end": 2153
             },
@@ -5405,7 +5405,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 2300,
                 "end": 2303
             },
@@ -5772,7 +5772,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 2474,
                 "end": 2477
             },
@@ -6166,7 +6166,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 2655,
                 "end": 2658
             },
@@ -6580,7 +6580,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 2831,
                 "end": 2834
             },
@@ -7005,7 +7005,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 3017,
                 "end": 3020
             },
@@ -7436,7 +7436,7 @@ function foo8_c(x) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 3207,
                 "end": 3210
             },

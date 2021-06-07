@@ -128,7 +128,7 @@ declare function foo(x: number, y: string): void;
                 "start": 7,
                 "end": 48
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 7,
             "end": 48
         },

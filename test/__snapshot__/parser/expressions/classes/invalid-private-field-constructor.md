@@ -49,8 +49,9 @@ class C { static #constructor }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#constructor",
+                                "rawText": "#constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 22
@@ -112,8 +113,9 @@ class C { static #constructor }
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#constructor",
+                                "rawText": "#constructor",
                                 "flags": 96,
                                 "start": 42,
                                 "end": 55

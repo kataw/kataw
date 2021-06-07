@@ -63,7 +63,7 @@ function log(n, op, val,) { }
                     }
                 ],
                 "trailingComma": true,
-                "flags": 96,
+                "flags": 32,
                 "start": 12,
                 "end": 25
             },

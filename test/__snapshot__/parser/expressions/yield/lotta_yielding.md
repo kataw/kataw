@@ -219,7 +219,7 @@ var gen = async function *g() {
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 96,
+                                                                                "flags": 32,
                                                                                 "start": 102,
                                                                                 "end": 107
                                                                             },

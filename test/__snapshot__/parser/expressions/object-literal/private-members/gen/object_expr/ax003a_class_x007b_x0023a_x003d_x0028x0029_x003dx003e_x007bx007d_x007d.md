@@ -62,8 +62,9 @@
                                                     "staticToken": null,
                                                     "asyncKeyword": null,
                                                     "key": {
-                                                        "kind": 67174651,
+                                                        "kind": 134299649,
                                                         "text": "#a",
+                                                        "rawText": "#a",
                                                         "flags": 96,
                                                         "start": 13,
                                                         "end": 16

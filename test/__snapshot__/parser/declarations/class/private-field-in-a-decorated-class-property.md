@@ -54,8 +54,9 @@ class Example {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#priv",
+                                "rawText": "#priv",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 23
@@ -151,7 +152,7 @@ class Example {
                                                         "end": 76
                                                     },
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#priv",
                                                         "flags": 96,
                                                         "start": 77,

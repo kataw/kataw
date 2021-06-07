@@ -155,7 +155,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 "start": 7,
                 "end": 55
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 7,
             "end": 55
         }

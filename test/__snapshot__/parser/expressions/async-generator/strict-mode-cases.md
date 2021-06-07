@@ -581,7 +581,7 @@ function * x() { "use strict";  yield: 34; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 283,
                                 "end": 290
                             },
@@ -707,7 +707,7 @@ function * x() { "use strict";  yield: 34; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 344,
                                 "end": 356
                             },

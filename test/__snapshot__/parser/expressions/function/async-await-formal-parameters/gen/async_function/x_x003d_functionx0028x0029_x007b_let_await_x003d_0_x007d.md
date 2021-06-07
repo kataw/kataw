@@ -171,7 +171,7 @@ var f = async function f(x = function() { let await = 0; }) {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 59
                             },

@@ -70,8 +70,9 @@ new Foo();
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#tag",
+                                    "rawText": "#tag",
                                     "flags": 96,
                                     "start": 11,
                                     "end": 18
@@ -196,7 +197,7 @@ new Foo();
                                                                         "end": 88
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 67174651,
+                                                                        "kind": 67191035,
                                                                         "text": "#tag",
                                                                         "flags": 96,
                                                                         "start": 89,

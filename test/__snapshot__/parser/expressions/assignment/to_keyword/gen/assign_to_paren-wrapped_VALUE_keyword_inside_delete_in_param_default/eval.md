@@ -116,7 +116,7 @@ function *f(x = delete ((eval) = f)) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 11,
                 "end": 36
             },

@@ -68,8 +68,9 @@ class Foo {
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#bar",
+                                "rawText": "#bar",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 25
@@ -106,8 +107,9 @@ class Foo {
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#_",
+                                "rawText": "#_",
                                 "flags": 96,
                                 "start": 40,
                                 "end": 43
@@ -175,7 +177,7 @@ class Foo {
                                                                     "end": 74
                                                                 },
                                                                 "expression": {
-                                                                    "kind": 67174651,
+                                                                    "kind": 67191035,
                                                                     "text": "#bar",
                                                                     "flags": 96,
                                                                     "start": 75,
@@ -341,8 +343,9 @@ class Foo {
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#_2",
+                                "rawText": "#_2",
                                 "flags": 96,
                                 "start": 142,
                                 "end": 146

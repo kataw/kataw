@@ -72,7 +72,7 @@ function a(options = {}) {
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 24
             },
@@ -119,12 +119,12 @@ function a(options = {}) {
 
 ```javascript
 
+function a(options = {}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 11, end: 42
-
+✔ No errors
 ```
 

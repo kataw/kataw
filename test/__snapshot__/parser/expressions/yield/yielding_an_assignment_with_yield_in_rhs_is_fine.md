@@ -52,7 +52,7 @@ function* g(x) { yield x = yield 3; }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 11,
                 "end": 14
             },

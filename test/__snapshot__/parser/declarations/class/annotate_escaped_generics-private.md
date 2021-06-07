@@ -88,8 +88,9 @@ class I<X> {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#i",
+                                "rawText": "#i",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 17
@@ -332,7 +333,7 @@ class I<X> {
                                                             "end": 76
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#i",
                                                             "flags": 96,
                                                             "start": 77,

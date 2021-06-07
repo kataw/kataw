@@ -62,8 +62,9 @@ class Foo {
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#x",
+                                "rawText": "#x",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 22
@@ -97,7 +98,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#y",
                                     "flags": 96,
                                     "start": 34,
@@ -157,7 +158,7 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#y",
                                     "flags": 96,
                                     "start": 54,
@@ -221,8 +222,9 @@ class Foo {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#z",
+                                    "rawText": "#z",
                                     "flags": 96,
                                     "start": 71,
                                     "end": 74
@@ -309,7 +311,7 @@ class Foo {
                                                             "end": 96
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#x",
                                                             "flags": 96,
                                                             "start": 97,
@@ -356,7 +358,7 @@ class Foo {
                                                             "end": 111
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#y",
                                                             "flags": 96,
                                                             "start": 112,
@@ -403,7 +405,7 @@ class Foo {
                                                             "end": 126
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#z",
                                                             "flags": 96,
                                                             "start": 127,

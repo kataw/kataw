@@ -52,7 +52,7 @@ async function foo(await) { };
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 18,
                 "end": 25
             },

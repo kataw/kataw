@@ -79,7 +79,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 98,
+                "flags": 32,
                 "start": 19,
                 "end": 29
             },

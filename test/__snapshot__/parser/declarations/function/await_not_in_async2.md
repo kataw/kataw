@@ -57,7 +57,7 @@ f(await 1);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 13
             },

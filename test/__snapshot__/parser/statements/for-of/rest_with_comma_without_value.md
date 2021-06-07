@@ -122,7 +122,7 @@ for (let [...,] of obj);
 
 ```javascript
 ✖ Binding identifier expected - start: 13, end: 14
-✖ A rest element must be last in a destructuring pattern - start: 14, end: 15
+✖ A rest element must be last in a destructuring pattern - start: 10, end: 15
 
 ```
 

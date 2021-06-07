@@ -64,8 +64,9 @@ class A {
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 134299649,
                                     "text": "#method",
+                                    "rawText": "#method",
                                     "flags": 96,
                                     "start": 18,
                                     "end": 26
@@ -152,7 +153,7 @@ class A {
                                                             "end": 48
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#method",
                                                             "flags": 96,
                                                             "start": 49,
@@ -206,7 +207,7 @@ class A {
                                                                             "end": 69
                                                                         },
                                                                         "expression": {
-                                                                            "kind": 67174651,
+                                                                            "kind": 67191035,
                                                                             "text": "#method",
                                                                             "flags": 96,
                                                                             "start": 70,

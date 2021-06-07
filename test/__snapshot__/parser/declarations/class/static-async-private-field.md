@@ -67,7 +67,7 @@ class C { static async*#aaa(){} }
                             "method": {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 67174651,
+                                    "kind": 67191035,
                                     "text": "#aaa",
                                     "flags": 96,
                                     "start": 23,

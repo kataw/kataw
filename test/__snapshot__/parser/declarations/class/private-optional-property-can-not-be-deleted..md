@@ -71,8 +71,9 @@ class Foo {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#x",
+                                "rawText": "#x",
                                 "flags": 96,
                                 "start": 11,
                                 "end": 16
@@ -155,7 +156,7 @@ class Foo {
                                                                 "kind": 536871114,
                                                                 "chain": null,
                                                                 "expression": {
-                                                                    "kind": 67174651,
+                                                                    "kind": 67191035,
                                                                     "text": "#x",
                                                                     "flags": 96,
                                                                     "start": 53,

@@ -47,8 +47,9 @@ class C { #aaa = 0 }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#aaa",
+                                "rawText": "#aaa",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 14

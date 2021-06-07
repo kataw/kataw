@@ -121,7 +121,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 96,
+                                                "flags": 32,
                                                 "start": 54,
                                                 "end": 61
                                             },

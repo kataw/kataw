@@ -238,7 +238,7 @@ var callCount = 0;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 81,
                                 "end": 86
                             },

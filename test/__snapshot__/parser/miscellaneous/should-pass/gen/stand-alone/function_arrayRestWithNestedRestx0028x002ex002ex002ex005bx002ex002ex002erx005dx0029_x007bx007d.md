@@ -95,7 +95,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 32,
                 "end": 43
             },

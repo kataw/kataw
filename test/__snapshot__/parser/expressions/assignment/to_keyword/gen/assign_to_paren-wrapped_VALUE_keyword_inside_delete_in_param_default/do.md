@@ -95,7 +95,7 @@ function *f(x = delete ((do) = f)) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 11,
                 "end": 27
             },

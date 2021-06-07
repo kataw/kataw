@@ -58,8 +58,9 @@ class Foo {
                             },
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#client",
+                                "rawText": "#client",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 28
@@ -148,7 +149,7 @@ class Foo {
                                                                                 "end": 71
                                                                             },
                                                                             "expression": {
-                                                                                "kind": 67174651,
+                                                                                "kind": 67191035,
                                                                                 "text": "#client",
                                                                                 "flags": 96,
                                                                                 "start": 72,
@@ -242,17 +243,12 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  static #client;
-  constructor(props) {
-    ({ client: Foo.#client } = props);
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A class field cannot have a field named 'constructor' - start: 28, end: 43
+
 ```
 

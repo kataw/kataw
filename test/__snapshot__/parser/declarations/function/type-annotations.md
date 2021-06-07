@@ -365,7 +365,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 125,
                 "end": 153
             },
@@ -450,7 +450,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 170,
                 "end": 198
             },
@@ -1817,7 +1817,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 700,
                 "end": 721
             },
@@ -1937,7 +1937,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 739,
                 "end": 759
             },
@@ -2047,7 +2047,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 777,
                 "end": 801
             },
@@ -2125,13 +2125,13 @@ function foo28(numVal?: number = 2) {}
                             "start": 836,
                             "end": 838
                         },
-                        "flags": 34,
+                        "flags": 32,
                         "start": 820,
                         "end": 838
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 819,
                 "end": 839
             },
@@ -2214,13 +2214,13 @@ function foo28(numVal?: number = 2) {}
                             "start": 875,
                             "end": 877
                         },
-                        "flags": 34,
+                        "flags": 32,
                         "start": 858,
                         "end": 877
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 857,
                 "end": 878
             },

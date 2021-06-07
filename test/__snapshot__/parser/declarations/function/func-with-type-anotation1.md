@@ -77,7 +77,7 @@ function g(a:number=1, e:number=1) {}
                             "start": 20,
                             "end": 21
                         },
-                        "flags": 34,
+                        "flags": 32,
                         "start": 11,
                         "end": 21
                     },
@@ -113,13 +113,13 @@ function g(a:number=1, e:number=1) {}
                             "start": 32,
                             "end": 33
                         },
-                        "flags": 34,
+                        "flags": 32,
                         "start": 22,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 34
             },

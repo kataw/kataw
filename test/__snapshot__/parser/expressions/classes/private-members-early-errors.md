@@ -67,7 +67,7 @@ class C { foo() { this.#a = 1; }}
                                         "method": {
                                             "kind": 209,
                                             "name": {
-                                                "kind": 67174651,
+                                                "kind": 67191035,
                                                 "text": "#b",
                                                 "flags": 96,
                                                 "start": 12,
@@ -111,7 +111,7 @@ class C { foo() { this.#a = 1; }}
                                                                         "end": 27
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 67174651,
+                                                                        "kind": 67191035,
                                                                         "text": "#a",
                                                                         "flags": 96,
                                                                         "start": 28,
@@ -214,7 +214,7 @@ class C { foo() { this.#a = 1; }}
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
-                                                    "kind": 67174651,
+                                                    "kind": 67191035,
                                                     "text": "#b",
                                                     "flags": 96,
                                                     "start": 55,
@@ -253,7 +253,7 @@ class C { foo() { this.#a = 1; }}
                                                                         "end": 74
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 67174651,
+                                                                        "kind": 67191035,
                                                                         "text": "#a",
                                                                         "flags": 96,
                                                                         "start": 75,
@@ -408,7 +408,7 @@ class C { foo() { this.#a = 1; }}
                                                         "end": 125
                                                     },
                                                     "expression": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#a",
                                                         "flags": 96,
                                                         "start": 126,
@@ -525,7 +525,7 @@ class C { foo() { this.#a = 1; }}
                                                             "end": 156
                                                         },
                                                         "expression": {
-                                                            "kind": 67174651,
+                                                            "kind": 67191035,
                                                             "text": "#a",
                                                             "flags": 96,
                                                             "start": 157,

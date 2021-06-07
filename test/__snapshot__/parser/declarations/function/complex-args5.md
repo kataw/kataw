@@ -95,7 +95,7 @@ function f([b, a], b=x) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 10,
                 "end": 23
             },
@@ -133,12 +133,12 @@ function f([b, a], b=x) {}
 
 ```javascript
 
+function f([b, a], b = x) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 18, end: 23
-
+✔ No errors
 ```
 

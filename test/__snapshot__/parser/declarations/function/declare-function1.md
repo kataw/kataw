@@ -192,7 +192,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                 "start": 7,
                 "end": 39
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 7,
             "end": 39
         },

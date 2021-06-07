@@ -47,7 +47,7 @@ function w(casecase){y:j:function casecase(){}}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 20
             },

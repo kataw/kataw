@@ -58,8 +58,9 @@ class K {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#",
+                                "rawText": "K",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 15
@@ -112,8 +113,9 @@ class K {
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#",
+                                "rawText": "4",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 28

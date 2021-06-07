@@ -72,7 +72,7 @@ function call(foo=await bar){}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 98,
+                "flags": 32,
                 "start": 13,
                 "end": 28
             },

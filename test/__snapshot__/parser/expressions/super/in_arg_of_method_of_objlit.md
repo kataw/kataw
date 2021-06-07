@@ -142,7 +142,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 34,
+                                                            "flags": 32,
                                                             "start": 33,
                                                             "end": 46
                                                         },

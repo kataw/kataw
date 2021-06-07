@@ -113,7 +113,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                     }
                                 ],
                                 "trailingComma": true,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 41,
                                 "end": 49
                             },

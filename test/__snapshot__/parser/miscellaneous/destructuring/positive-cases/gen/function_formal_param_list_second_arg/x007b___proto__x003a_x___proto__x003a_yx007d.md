@@ -113,7 +113,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 96,
+                "flags": 32,
                 "start": 10,
                 "end": 52
             },

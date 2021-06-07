@@ -55,8 +55,9 @@ class C { #@{x29e3d}@ }
                             "staticToken": null,
                             "asyncKeyword": null,
                             "key": {
-                                "kind": 67174651,
+                                "kind": 134299649,
                                 "text": "#",
+                                "rawText": "C",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 11

@@ -88,7 +88,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 96,
+                                    "flags": 32,
                                     "start": 33,
                                     "end": 43
                                 },

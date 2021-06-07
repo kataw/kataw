@@ -93,8 +93,9 @@
                                         "staticToken": null,
                                         "asyncKeyword": null,
                                         "key": {
-                                            "kind": 67174651,
+                                            "kind": 134299649,
                                             "text": "#",
+                                            "rawText": "C",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 13
@@ -186,8 +187,9 @@
                                     "staticToken": null,
                                     "asyncKeyword": null,
                                     "key": {
-                                        "kind": 67174651,
+                                        "kind": 134299649,
                                         "text": "#",
+                                        "rawText": "C",
                                         "flags": 96,
                                         "start": 33,
                                         "end": 35
@@ -392,8 +394,9 @@
                                     "staticToken": null,
                                     "asyncKeyword": null,
                                     "key": {
-                                        "kind": 67174651,
+                                        "kind": 134299649,
                                         "text": "#",
+                                        "rawText": "C",
                                         "flags": 96,
                                         "start": 61,
                                         "end": 63
@@ -480,8 +483,9 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 134299649,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 81,
                                             "end": 83
@@ -572,8 +576,9 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 134299649,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 102,
                                             "end": 104
@@ -686,8 +691,9 @@
                                         "method": {
                                             "kind": 209,
                                             "name": {
-                                                "kind": 67174651,
+                                                "kind": 134299649,
                                                 "text": "#a",
+                                                "rawText": "#a",
                                                 "flags": 96,
                                                 "start": 122,
                                                 "end": 124
@@ -801,8 +807,9 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 134299649,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 140,
                                             "end": 142
@@ -907,8 +914,9 @@
                                     "staticToken": null,
                                     "asyncKeyword": null,
                                     "key": {
-                                        "kind": 67174651,
+                                        "kind": 134299649,
                                         "text": "#a",
+                                        "rawText": "#a",
                                         "flags": 96,
                                         "start": 162,
                                         "end": 164
@@ -1000,7 +1008,7 @@
                                         "method": {
                                             "kind": 209,
                                             "name": {
-                                                "kind": 67174651,
+                                                "kind": 67191035,
                                                 "text": "#a",
                                                 "flags": 96,
                                                 "start": 183,
@@ -1121,7 +1129,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 204,
@@ -1238,7 +1246,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 226,
@@ -1354,7 +1362,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 251,
@@ -1493,8 +1501,9 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 134299649,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 275,
                                             "end": 278
@@ -1627,8 +1636,9 @@
                                     "staticToken": null,
                                     "asyncKeyword": null,
                                     "key": {
-                                        "kind": 67174651,
+                                        "kind": 134299649,
                                         "text": "#a",
+                                        "rawText": "#a",
                                         "flags": 96,
                                         "start": 299,
                                         "end": 302
@@ -1720,7 +1730,7 @@
                                         "method": {
                                             "kind": 209,
                                             "name": {
-                                                "kind": 67174651,
+                                                "kind": 67191035,
                                                 "text": "#a",
                                                 "flags": 96,
                                                 "start": 325,
@@ -1841,7 +1851,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 351,
@@ -1952,8 +1962,9 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 134299649,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 372,
                                             "end": 374
@@ -2058,7 +2069,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 403,
@@ -2154,8 +2165,9 @@
                                     "staticToken": null,
                                     "asyncKeyword": null,
                                     "key": {
-                                        "kind": 67174651,
+                                        "kind": 134299649,
                                         "text": "#",
+                                        "rawText": "class",
                                         "flags": 96,
                                         "start": 433,
                                         "end": 434
@@ -2283,7 +2295,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#",
                                             "flags": 96,
                                             "start": 460,
@@ -2437,7 +2449,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#",
                                             "flags": 96,
                                             "start": 488,
@@ -2590,7 +2602,7 @@
                                     "staticToken": null,
                                     "asyncKeyword": null,
                                     "key": {
-                                        "kind": 67174651,
+                                        "kind": 67191035,
                                         "text": "#",
                                         "flags": 96,
                                         "start": 517,
@@ -2719,7 +2731,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#",
                                             "flags": 96,
                                             "start": 546,
@@ -2880,7 +2892,7 @@
                                         "method": {
                                             "kind": 209,
                                             "name": {
-                                                "kind": 67174651,
+                                                "kind": 67191035,
                                                 "text": "#",
                                                 "flags": 96,
                                                 "start": 578,
@@ -2973,7 +2985,7 @@
                                                                             "method": {
                                                                                 "kind": 209,
                                                                                 "name": {
-                                                                                    "kind": 67174651,
+                                                                                    "kind": 67191035,
                                                                                     "text": "#a",
                                                                                     "flags": 96,
                                                                                     "start": 605,
@@ -3028,7 +3040,7 @@
                                                                             "method": {
                                                                                 "kind": 209,
                                                                                 "name": {
-                                                                                    "kind": 67174651,
+                                                                                    "kind": 67191035,
                                                                                     "text": "#a",
                                                                                     "flags": 96,
                                                                                     "start": 617,
@@ -3156,7 +3168,7 @@
                                                 "method": {
                                                     "kind": 209,
                                                     "name": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#a",
                                                         "flags": 96,
                                                         "start": 640,
@@ -3211,7 +3223,7 @@
                                                 "method": {
                                                     "kind": 209,
                                                     "name": {
-                                                        "kind": 67174651,
+                                                        "kind": 67191035,
                                                         "text": "#",
                                                         "flags": 96,
                                                         "start": 652,
@@ -3375,7 +3387,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 679,
@@ -3439,7 +3451,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 694,
@@ -3545,7 +3557,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 720,
@@ -3609,7 +3621,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67174651,
+                                            "kind": 67191035,
                                             "text": "#",
                                             "flags": 96,
                                             "start": 735,

@@ -102,7 +102,7 @@ declare function four<T>(this: T): void;
                 "start": 7,
                 "end": 40
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 7,
             "end": 40
         },
@@ -217,7 +217,7 @@ declare function four<T>(this: T): void;
                 "start": 49,
                 "end": 93
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 49,
             "end": 93
         },
@@ -319,7 +319,7 @@ declare function four<T>(this: T): void;
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 117,
                 "end": 142
             },
@@ -337,7 +337,7 @@ declare function four<T>(this: T): void;
                 "start": 102,
                 "end": 148
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 102,
             "end": 148
         },
@@ -455,7 +455,7 @@ declare function four<T>(this: T): void;
                 "start": 157,
                 "end": 189
             },
-            "flags": 16,
+            "flags": 4112,
             "start": 157,
             "end": 189
         },

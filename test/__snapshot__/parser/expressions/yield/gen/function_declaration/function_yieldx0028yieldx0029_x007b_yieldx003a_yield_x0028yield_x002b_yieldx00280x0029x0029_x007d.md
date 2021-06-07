@@ -83,7 +83,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 96,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 42
                             },
