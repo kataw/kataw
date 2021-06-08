@@ -66,7 +66,7 @@ function f() {
                                 "kind": 201392130,
                                 "text": 511,
                                 "rawText": "0777",
-                                "flags": 131169,
+                                "flags": 131168,
                                 "start": 29,
                                 "end": 36
                             },
@@ -108,7 +108,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Octal literals are not allowed in strict mode - start: 29, end: 36
+✖ Expected a `;` - start: 29, end: 36
 
 ```
 

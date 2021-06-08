@@ -108,7 +108,7 @@ function 00004() { "use strict"; 00004; }
                             "kind": 201392130,
                             "text": 4,
                             "rawText": "00004",
-                            "flags": 131168,
+                            "flags": 96,
                             "start": 32,
                             "end": 38
                         },

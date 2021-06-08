@@ -88,11 +88,11 @@ x = {0xeban(){}}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 1048592,
+                        "flags": 16,
                         "start": 5,
                         "end": 15
                     },
-                    "flags": 1048624,
+                    "flags": 48,
                     "start": 3,
                     "end": 16
                 },

@@ -57,7 +57,7 @@
                 "kind": 201392130,
                 "text": 8,
                 "rawText": "08",
-                "flags": 131169,
+                "flags": 131168,
                 "start": 4,
                 "end": 7
             },
@@ -71,7 +71,7 @@
                 "kind": 201392130,
                 "text": 8,
                 "rawText": "00008",
-                "flags": 131169,
+                "flags": 97,
                 "start": 9,
                 "end": 15
             },
@@ -85,7 +85,7 @@
                 "kind": 201392130,
                 "text": 53,
                 "rawText": "065",
-                "flags": 131169,
+                "flags": 131168,
                 "start": 17,
                 "end": 21
             },
@@ -99,7 +99,7 @@
                 "kind": 201392130,
                 "text": 2,
                 "rawText": "02",
-                "flags": 131169,
+                "flags": 131168,
                 "start": 23,
                 "end": 26
             },
@@ -113,7 +113,7 @@
                 "kind": 201392130,
                 "text": 62,
                 "rawText": "076",
-                "flags": 131169,
+                "flags": 131168,
                 "start": 28,
                 "end": 32
             },
@@ -127,7 +127,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "000",
-                "flags": 131169,
+                "flags": 131168,
                 "start": 34,
                 "end": 38
             },
@@ -174,7 +174,7 @@
                 "kind": 201392130,
                 "text": 8,
                 "rawText": "00008",
-                "flags": 131169,
+                "flags": 97,
                 "start": 49,
                 "end": 55
             },
@@ -188,7 +188,7 @@
                 "kind": 201392130,
                 "text": 26,
                 "rawText": "032",
-                "flags": 131169,
+                "flags": 131168,
                 "start": 57,
                 "end": 61
             },
@@ -202,7 +202,7 @@
                 "kind": 201392130,
                 "text": 8,
                 "rawText": "0x8",
-                "flags": 1048673,
+                "flags": 1048672,
                 "start": 63,
                 "end": 67
             },

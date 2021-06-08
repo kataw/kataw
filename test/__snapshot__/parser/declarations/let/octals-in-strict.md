@@ -46,7 +46,7 @@
                                     "kind": 201392130,
                                     "text": 8,
                                     "rawText": "08",
-                                    "flags": 131168,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -64,11 +64,11 @@
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 131088,
+                        "flags": 16,
                         "start": 16,
                         "end": 21
                     },
-                    "flags": 131120,
+                    "flags": 48,
                     "start": 15,
                     "end": 22
                 },
@@ -119,7 +119,7 @@
                                             "kind": 201392130,
                                             "text": 8,
                                             "rawText": "08",
-                                            "flags": 131168,
+                                            "flags": 96,
                                             "start": 45,
                                             "end": 47
                                         },
@@ -138,7 +138,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 131104,
+                                "flags": 32,
                                 "start": 45,
                                 "end": 50
                             },
@@ -208,7 +208,7 @@
                                             "kind": 201392130,
                                             "text": 123,
                                             "rawText": "0123",
-                                            "flags": 131168,
+                                            "flags": 96,
                                             "start": 77,
                                             "end": 81
                                         },
@@ -227,7 +227,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 131104,
+                                "flags": 32,
                                 "start": 77,
                                 "end": 84
                             },
@@ -278,7 +278,7 @@
                 "kind": 201392130,
                 "text": 8,
                 "rawText": "08",
-                "flags": 131168,
+                "flags": 96,
                 "start": 105,
                 "end": 108
             },
@@ -305,10 +305,10 @@
 ### Diagnostics
 
 ```javascript
-✖ Octal literals are not allowed in strict mode - start: 16, end: 18
-✖ Octal literals are not allowed in strict mode - start: 45, end: 47
-✖ Octal literals are not allowed in strict mode - start: 77, end: 81
-✖ Octal literals are not allowed in strict mode - start: 105, end: 108
+✖ Octal literals are not allowed in strict mode - start: 16, end: 17
+✖ Octal literals are not allowed in strict mode - start: 45, end: 46
+✖ Octal literals are not allowed in strict mode - start: 77, end: 78
+✖ Octal literals are not allowed in strict mode - start: 105, end: 107
 
 ```
 

@@ -7,17 +7,6 @@ import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code'
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
 // prettier-ignore
-const enum NumberKind {
-  None                   = 0,
-  Decimal                = 1 << 0, // e.g. `123456`
-  Hex                    = 1 << 1,// e.g. `0x00000000`
-  Octal                  = 1 << 2, // e.g. `0o777`
-  Binary                 = 1 << 3,// e.g. `0b0110010000000000`
-  DecimalWithLeadingZero = 1 << 9, // e.g. `000123`
-  ImplicitOctal          = 1 << 10 // e.g. `0777`
-}
-
-// prettier-ignore
 const enum ZeroDigitKind {
   Unknown               = -1,
   Hexadecimal           = 1 << 0, // `x` or `X`
@@ -171,11 +160,11 @@ const ZeroDigitLookup = [
 
 export function scanNumber(parser: ParserState, context: Context, cp: number, source: string): SyntaxKind {
   // Optimization: most decimal values fit into 4 bytes.
-  let type = NumberKind.Decimal;
   let state = SeparatorAndBigIntState.AllowSeparator;
   let pos = parser.pos;
 
-  parser.tokenRaw = '';
+  let nodeFlags = NodeFlags.None;
+
   if (cp === Char.Zero) {
     let val = 0;
     pos++; // skips '0'
@@ -188,73 +177,87 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
         switch (ZeroDigitLookup[cp]) {
           // `x`, `X`
           case ZeroDigitKind.LetterX:
-            if (type & 0b00000000000000000000000000001110) {
+            // - `0bx0011`
+            // - `0O3x45_`
+            // - `0xxabcd241x33`
+            if (
+              nodeFlags &
+              (NodeFlags.BinaryIntegerLiteral | NodeFlags.HexIntegerLiteral | NodeFlags.OctalIntegerLiteral)
+            ) {
               parser.onError(
                 DiagnosticSource.Parser,
                 DiagnosticKind.Error,
                 diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
-                parser.curPos,
-                parser.pos
+                pos,
+                pos + 1
               );
               break;
             }
-            parser.nodeFlags |= NodeFlags.HexIntegerLiteral;
-            type = NumberKind.Hex;
+            nodeFlags |= NodeFlags.HexIntegerLiteral;
             break;
 
           // `b`, `B`
           case ZeroDigitKind.LetterB:
-            if (type === NumberKind.Hex) {
-              val = val * 0b00000000000000000000000000010000 + toHex(cp);
+            if (nodeFlags & NodeFlags.HexIntegerLiteral) {
+              val = val * 16 + toHex(cp);
               break;
             }
-            if (type & 0b00000000000000000000000000001100) {
+            // - `0bb0011`
+            // - `0Ob345`
+            if (nodeFlags & (NodeFlags.BinaryIntegerLiteral | NodeFlags.OctalIntegerLiteral)) {
               parser.onError(
                 DiagnosticSource.Lexer,
                 DiagnosticKind.Error,
                 diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
-                parser.curPos,
-                parser.pos
+                pos,
+                pos + 1
               );
               break;
             }
-            parser.nodeFlags |= NodeFlags.BinaryIntegerLiteral;
-            type = NumberKind.Binary;
+            nodeFlags |= NodeFlags.BinaryIntegerLiteral;
             break;
 
           // `o`, `O`
           case ZeroDigitKind.LetterO:
-            if (type & 0b00000000000000000000000000001110) {
+            // - `0bo00`
+            // - `0Oo34`
+            // - `0xaobcd2`
+            if (
+              nodeFlags &
+              (NodeFlags.BinaryIntegerLiteral | NodeFlags.OctalIntegerLiteral | NodeFlags.HexIntegerLiteral)
+            ) {
               parser.onError(
                 DiagnosticSource.Lexer,
                 DiagnosticKind.Error,
                 diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
-                parser.curPos,
-                parser.pos
+                pos,
+                pos + 1
               );
               break;
             }
-            parser.nodeFlags |= NodeFlags.OctalIntegerLiteral;
-            type = NumberKind.Octal;
+            nodeFlags |= NodeFlags.OctalIntegerLiteral;
             break;
 
           // `0`...`1`
           case ZeroDigitKind.Binary:
-            if (type & NumberKind.Binary) {
-              val = val * 0b00000000000000000000000000000010 + (cp - Char.Zero);
+            if (nodeFlags & NodeFlags.BinaryIntegerLiteral) {
+              state |= SeparatorAndBigIntState.AllowSeparator;
+              val = val * 2 + (cp - Char.Zero);
               break;
             }
 
           // `2`...`7`
           case ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal:
-            if (type & NumberKind.Octal) {
-              val = val * 0b00000000000000000000000000001000 + (cp - Char.Zero);
+            if (nodeFlags & NodeFlags.OctalIntegerLiteral) {
+              state |= SeparatorAndBigIntState.AllowSeparator;
+              val = val * 8 + (cp - Char.Zero);
               break;
             }
 
           // `8`...`9`, `a-f`...`A-F`
           case ZeroDigitKind.Hexadecimal:
-            if (type & NumberKind.Hex) {
+            if (nodeFlags & NodeFlags.HexIntegerLiteral) {
+              state |= SeparatorAndBigIntState.AllowSeparator;
               val = val * 0b00000000000000000000000000010000 + toHex(cp);
               break;
             }
@@ -262,18 +265,18 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
               DiagnosticSource.Lexer,
               DiagnosticKind.Error,
               diagnosticMap[
-                type & NumberKind.Binary
+                nodeFlags & NodeFlags.BinaryIntegerLiteral
                   ? DiagnosticCode.Binary_integer_literal_like_sequence_containing_an_invalid_digit
                   : DiagnosticCode.Octal_integer_literal_like_sequence_containing_an_invalid_digit
               ],
-              parser.curPos,
-              parser.pos
+              pos,
+              pos + 1
             );
             break;
 
           // `_`
           case ZeroDigitKind.Underscore:
-            parser.nodeFlags |= NodeFlags.ContainsSeparator;
+            nodeFlags |= NodeFlags.ContainsSeparator;
 
             if (state & SeparatorAndBigIntState.AllowSeparator) {
               // We need to consume '__' for cases like '0b1__2' so we can correctly parse out two
@@ -285,15 +288,16 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
                   DiagnosticSource.Lexer,
                   DiagnosticKind.Error,
                   diagnosticMap[DiagnosticCode.Multiple_consecutive_numeric_separators_are_not_permitted],
-                  parser.curPos,
-                  parser.pos
+                  pos,
+                  pos + 1
                 );
                 parser.pos += 5;
                 parser.tokenValue = val;
                 return SyntaxKind.NumericLiteral;
               }
               state = (state | SeparatorAndBigIntState.AllowSeparator) ^ SeparatorAndBigIntState.AllowSeparator;
-            } else state |= SeparatorAndBigIntState.AllowSeparator;
+            }
+            state |= SeparatorAndBigIntState.AllowSeparator;
             break;
 
           // `n`
@@ -308,6 +312,9 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
         cp = source.charCodeAt(pos);
       } while (AsciiCharTypes[cp] & (AsciiCharFlags.IsSeparator | AsciiCharFlags.Hex | AsciiCharFlags.OctHexBin));
 
+      // - `0b0011_`
+      // - `0O345_`
+      // - `0xabcd24133_`
       if (AsciiCharTypes[cp] & 0b00000000000000000000000000000011) {
         parser.onError(
           DiagnosticSource.Lexer,
@@ -318,15 +325,21 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
         );
         pos++; // skip invalid chars
       }
-      if (type & 0b00000000000000000000000000001110 && digits <= 1) {
+      if (
+        (nodeFlags & (NodeFlags.BinaryIntegerLiteral | NodeFlags.OctalIntegerLiteral | NodeFlags.HexIntegerLiteral) &&
+          digits <= 1) ||
+        (state & SeparatorAndBigIntState.AllowSeparator) === 0
+      ) {
         parser.onError(
           DiagnosticSource.Lexer,
           DiagnosticKind.Error,
           diagnosticMap[
-            type & NumberKind.Binary
+            (state & SeparatorAndBigIntState.AllowSeparator) === 0
+              ? DiagnosticCode.Numeric_separators_are_not_allowed_at_the_end_of_numeric_literals
+              : nodeFlags & NodeFlags.BinaryIntegerLiteral
               ? // Binary integer literal like sequence without any digits
                 DiagnosticCode.Binary_integer_literal_like_sequence_without_any_digits
-              : type & NumberKind.Octal
+              : nodeFlags & NodeFlags.OctalIntegerLiteral
               ? // Octal integer literal like sequence without any digits
                 DiagnosticCode.Octal_integer_literal_like_sequence_without_any_digits
               : // Hex integer literal like sequence without any digits
@@ -335,89 +348,87 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
           parser.curPos,
           parser.pos
         );
-        // We can't avoid this branching if we want to avoid double diagnostics, or
-        // we can but it will require use of 2x 'charCodeAt' and some unnecessary
-        // property / member access.
-      } else if ((state & SeparatorAndBigIntState.AllowSeparator) === 0) {
-        parser.onError(
-          DiagnosticSource.Lexer,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Numeric_separators_are_not_allowed_at_the_end_of_numeric_literals],
-          parser.curPos,
-          parser.pos
-        );
       }
+
+      parser.nodeFlags = nodeFlags;
       parser.pos = pos;
       parser.tokenValue = val;
-      parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+      parser.tokenRaw = source.slice(parser.tokenPos, pos);
 
       return SyntaxKind.NumericLiteral;
     }
     // Scan a implicit octal, or "noctal" (a number starting with '0' that contains '8' or '9' and is
     // treated as decimal) number.
     if (cp >= Char.Zero && cp <= Char.Eight) {
-      parser.nodeFlags |= NodeFlags.ImplicitOctal;
-      type = NumberKind.ImplicitOctal;
+      if (context & Context.Strict) {
+        parser.onError(
+          DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Octal_literals_are_not_allowed_in_strict_mode],
+          parser.curPos,
+          pos
+        );
+      }
+      nodeFlags = NodeFlags.ImplicitOctal;
       do {
-        val = val * 0b00000000000000000000000000001000 + (cp - Char.Zero);
+        val = val * 8 + (cp - Char.Zero);
         cp = source.charCodeAt(++pos);
         if (cp >= Char.Eight) {
-          type = NumberKind.DecimalWithLeadingZero;
+          nodeFlags = NodeFlags.OctalIntegerLiteral;
           break;
         }
       } while (cp >= Char.Zero && cp <= Char.Nine);
 
-      if (cp === Char.Underscore) {
+      if (AsciiCharTypes[cp] & (AsciiCharFlags.BigInt | AsciiCharFlags.IsSeparator)) {
         parser.onError(
           DiagnosticSource.Lexer,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Numeric_separator_can_not_be_used_after_leading_0],
+          diagnosticMap[
+            cp === Char.LowerN
+              ? DiagnosticCode.Invalid_BigInt_syntax
+              : DiagnosticCode.Numeric_separator_can_not_be_used_after_leading_0
+          ],
           parser.curPos,
           parser.pos
         );
       }
 
-      if (cp === Char.LowerN) {
-        parser.onError(
-          DiagnosticSource.Lexer,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Invalid_BigInt_syntax],
-          parser.curPos,
-          pos
-        );
-      }
-      if (type === NumberKind.ImplicitOctal) {
+      if (nodeFlags === NodeFlags.ImplicitOctal) {
+        parser.nodeFlags = NodeFlags.ImplicitOctal;
         parser.pos = pos;
         parser.tokenValue = val;
-        parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
-
+        parser.tokenRaw = source.slice(parser.tokenPos, pos);
         return SyntaxKind.NumericLiteral;
       }
     }
     // '0' not followed by [XxBbOo0-9_];  scan as a decimal number.
   }
+
+  // Optimization: most decimal values fit into 4 bytes.
   let ret = 0;
   let digit = 9;
 
-  while (digit >= 0 && cp <= Char.Nine && cp >= Char.Zero) {
-    ret = 0b00000000000000000000000000001010 * ret + (cp - Char.Zero);
+  while (AsciiCharTypes[cp] & AsciiCharFlags.Decimal && digit >= 0) {
+    ret = 10 * ret + (cp - Char.Zero);
     cp = source.charCodeAt(++pos);
     --digit;
   }
 
-  // Slow path
-  parser.pos = pos;
-
   if (
     digit >= 0 &&
+    // 'n', '.', 'E', 'e', '_' is all forbidden here
     (AsciiCharTypes[cp] & 0b00000000000000000000010000000011) === 0 &&
-    type !== NumberKind.DecimalWithLeadingZero
+    (nodeFlags & NodeFlags.OctalIntegerLiteral) === 0
   ) {
+    parser.pos = pos;
     parser.tokenValue = ret;
-    parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+    parser.tokenRaw = source.slice(parser.tokenPos, pos);
 
     return SyntaxKind.NumericLiteral;
   }
+
+  // Slow path
+  parser.pos = pos;
 
   let value = scanDigitsWithNumericSeparators(parser, parser.tokenPos, cp);
 
@@ -467,7 +478,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Non_number_after_exponent_indicator],
         parser.curPos,
-        pos
+        parser.pos
       );
       // For cases like '1e!', '1e€' etc we do a 'parser.pos + 1' so we can consume the
       // invalid char. If we do it this way, we will avoid parsing out an invalid
