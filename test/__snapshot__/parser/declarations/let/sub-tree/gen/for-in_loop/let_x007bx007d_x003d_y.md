@@ -77,7 +77,7 @@ for (a in b) let
                 "start": 18,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 17,
             "start": 16,
             "end": 21
         },

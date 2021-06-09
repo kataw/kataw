@@ -128,7 +128,7 @@ async function foo(a = class extends (await b) {}) {};
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 18,
                 "end": 50
             },

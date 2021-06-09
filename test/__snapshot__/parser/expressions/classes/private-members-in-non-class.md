@@ -471,7 +471,7 @@ class C { test() {get #a() { }}}
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 126,
                                     "end": 129
                                 },
@@ -652,7 +652,7 @@ class C { test() {get #a() { }}}
                                     "kind": 257,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 64,
+                                        "flags": 352,
                                         "start": 178,
                                         "end": 183
                                     },
@@ -757,7 +757,7 @@ class C { test() {get #a() { }}}
                                     "kind": 257,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 64,
+                                        "flags": 352,
                                         "start": 204,
                                         "end": 209
                                     },

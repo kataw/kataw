@@ -80,7 +80,7 @@ function argsLengthRestObject(...{a}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 29,
                 "end": 37
             },

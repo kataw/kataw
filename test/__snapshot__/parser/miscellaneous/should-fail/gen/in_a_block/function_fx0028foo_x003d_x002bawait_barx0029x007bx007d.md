@@ -92,7 +92,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 34,
                             "start": 12,
                             "end": 30
                         },

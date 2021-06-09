@@ -351,7 +351,7 @@ type T = <
                             "typeParameters": {
                                 "kind": 265,
                                 "typeParameters": [],
-                                "flags": 0,
+                                "flags": 1,
                                 "start": 150,
                                 "end": 168
                             },
@@ -462,7 +462,7 @@ type T = <
                 "start": 192,
                 "end": 220
             },
-            "flags": 16,
+            "flags": 17,
             "start": 182,
             "end": 221
         },
@@ -752,7 +752,7 @@ type T = <
                                         "end": 393
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 1,
                                 "start": 384,
                                 "end": 407
                             },
@@ -863,7 +863,7 @@ type T = <
                 "start": 431,
                 "end": 462
             },
-            "flags": 16,
+            "flags": 17,
             "start": 421,
             "end": 463
         }

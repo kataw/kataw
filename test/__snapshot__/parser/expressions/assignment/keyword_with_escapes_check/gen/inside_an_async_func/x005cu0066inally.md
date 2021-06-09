@@ -53,7 +53,7 @@ async () => {  \u0066inally = x  }
                                     "start": 13,
                                     "end": 13
                                 },
-                                "flags": 16,
+                                "flags": 16400,
                                 "start": 13,
                                 "end": 13
                             },

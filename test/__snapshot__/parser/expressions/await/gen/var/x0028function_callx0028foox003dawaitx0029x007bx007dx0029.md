@@ -164,7 +164,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 34,
                                                             "start": 53,
                                                             "end": 64
                                                         },

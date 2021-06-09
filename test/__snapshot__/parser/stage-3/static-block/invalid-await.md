@@ -190,8 +190,8 @@ async function foo() {
                                                     "start": 67,
                                                     "end": 83
                                                 },
-                                                "flags": 16,
-                                                "start": 54,
+                                                "flags": 54,
+                                                "start": 0,
                                                 "end": 89
                                             },
                                             "flags": 32,

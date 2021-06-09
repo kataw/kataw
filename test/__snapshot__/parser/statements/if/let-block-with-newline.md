@@ -59,7 +59,7 @@ if (false) let // ASI
                 "start": 23,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 17,
             "start": 14,
             "end": 24
         }

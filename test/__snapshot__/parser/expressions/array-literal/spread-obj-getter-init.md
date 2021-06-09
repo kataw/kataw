@@ -319,7 +319,7 @@ var callCount = 0;
                                                         "generatorToken": null,
                                                         "getKeyword": {
                                                             "kind": 16498,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 110,
                                                             "end": 114
                                                         },

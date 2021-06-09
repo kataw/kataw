@@ -208,8 +208,8 @@ class C {
                                     "start": 45,
                                     "end": 70
                                 },
-                                "flags": 16,
-                                "start": 27,
+                                "flags": 27,
+                                "start": 0,
                                 "end": 74
                             },
                             "flags": 32,

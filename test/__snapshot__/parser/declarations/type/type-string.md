@@ -76,7 +76,7 @@ type T1 = number;
                 "start": 27,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 17,
             "start": 17,
             "end": 35
         }

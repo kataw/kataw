@@ -85,7 +85,7 @@ var foo = {
                                             "start": 22,
                                             "end": 25
                                         },
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 11,
                                         "end": 25
                                     }

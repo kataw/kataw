@@ -77,7 +77,7 @@ function *f(x = (const) = f) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 11,
                 "end": 22
             },

@@ -54,7 +54,7 @@ foo = {
                                     "generatorToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
-                                        "flags": 64,
+                                        "flags": 97,
                                         "start": 7,
                                         "end": 13
                                     },
@@ -74,7 +74,7 @@ foo = {
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 1057,
                                             "start": 16,
                                             "end": 17
                                         },
@@ -162,7 +162,7 @@ foo = {
                                             "start": 17,
                                             "end": 49
                                         },
-                                        "flags": 1056,
+                                        "flags": 1057,
                                         "start": 15,
                                         "end": 49
                                     },

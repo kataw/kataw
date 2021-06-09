@@ -127,7 +127,7 @@ function fn(x = async function () { await 1 }) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 11,
                 "end": 46
             },

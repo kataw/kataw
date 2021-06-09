@@ -111,7 +111,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 10,
                                     "end": 14
                                 },
@@ -215,7 +215,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 38,
                                     "end": 42
                                 },
@@ -326,7 +326,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 69,
                                     "end": 73
                                 },
@@ -430,7 +430,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 100,
                                     "end": 104
                                 },
@@ -541,7 +541,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 128,
                                     "end": 132
                                 },
@@ -645,7 +645,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 151,
                                     "end": 155
                                 },
@@ -733,7 +733,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 170,
                                     "end": 173
                                 },
@@ -786,7 +786,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 183,
                                     "end": 187
                                 },
@@ -867,7 +867,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 203,
                                     "end": 206
                                 },
@@ -929,7 +929,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 217,
                                     "end": 221
                                 },
@@ -1882,7 +1882,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 414,
                                     "end": 418
                                 },
@@ -1986,7 +1986,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 444,
                                     "end": 448
                                 },
@@ -2247,7 +2247,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 513,
                                     "end": 519
                                 },
@@ -2377,7 +2377,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 554,
                                     "end": 560
                                 },
@@ -2617,7 +2617,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 640,
                                     "end": 644
                                 },
@@ -2735,7 +2735,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 680,
                                     "end": 684
                                 },
@@ -2847,7 +2847,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 708,
                                     "end": 712
                                 },
@@ -2958,7 +2958,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 736,
                                     "end": 740
                                 },
@@ -3062,7 +3062,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 765,
                                     "end": 769
                                 },

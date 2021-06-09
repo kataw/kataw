@@ -65,7 +65,7 @@ if (a) let
                 "start": 12,
                 "end": 12
             },
-            "flags": 16,
+            "flags": 17,
             "start": 10,
             "end": 15
         },

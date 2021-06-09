@@ -47,7 +47,7 @@ async let
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "flags": 32,
+                        "flags": 33,
                         "start": 11,
                         "end": 11
                     },

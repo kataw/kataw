@@ -1172,7 +1172,7 @@ foo ? bar : baz => {};
                                         "start": 306,
                                         "end": 309
                                     },
-                                    "flags": 32,
+                                    "flags": 4194336,
                                     "start": 298,
                                     "end": 309
                                 }

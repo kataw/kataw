@@ -51,7 +51,7 @@ var O = { async method(a, a) {} }
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 9,
                                             "end": 15
                                         },

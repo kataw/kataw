@@ -7,13 +7,14 @@ export interface TypeParameterInstantiationList extends SyntaxNode {
 
 export function createTypeParameterInstantiationList(
   parameters: readonly TypeParameterInstantiation[],
+  flags: NodeFlags,
   start: number,
   end: number
 ): TypeParameterInstantiationList {
   return {
     kind: SyntaxKind.TypeParameterInstantiationList,
     parameters,
-    flags: NodeFlags.None,
+    flags,
     start,
     end
   };

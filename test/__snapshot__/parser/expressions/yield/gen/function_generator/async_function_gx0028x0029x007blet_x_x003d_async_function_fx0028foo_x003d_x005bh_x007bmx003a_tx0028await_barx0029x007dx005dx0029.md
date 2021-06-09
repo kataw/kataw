@@ -291,7 +291,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 32,
+                                                                                "flags": 34,
                                                                                 "start": 83,
                                                                                 "end": 113
                                                                             },

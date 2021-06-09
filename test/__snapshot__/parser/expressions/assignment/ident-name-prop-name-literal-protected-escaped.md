@@ -72,7 +72,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "start": 25,
                                                 "end": 27
                                             },
-                                            "flags": 32,
+                                            "flags": 16416,
                                             "start": 9,
                                             "end": 27
                                         }

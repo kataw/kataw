@@ -303,7 +303,7 @@ function f(x, ...y) { 'use strict' }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 110,
                 "end": 117
             },
@@ -391,7 +391,7 @@ function f(x, ...y) { 'use strict' }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 146,
                 "end": 155
             },
@@ -553,7 +553,7 @@ function f(x, ...y) { 'use strict' }
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 34,
                         "start": 218,
                         "end": 225
                     },
@@ -645,7 +645,7 @@ function f(x, ...y) { 'use strict' }
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 34,
                         "start": 255,
                         "end": 264
                     },
@@ -700,21 +700,15 @@ function f(x, ...y) { 'use strict' }
 
 ```javascript
 
-function f(x) {}
-function f([x]) {}
-function f({
-  x
-}) {}
-function f(x = 1) {}
-function f(x, ...y) {}
-(function ([x]) {});
-(function (x = 1) {});
-(function (x, ...y) {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 111, end: 134
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 149, end: 172
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 219, end: 242
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 258, end: 281
+
 ```
 

@@ -39,7 +39,7 @@ x({async foo(){}, async bar(){}});
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 3,
                                             "end": 8
                                         },
@@ -92,7 +92,7 @@ x({async foo(){}, async bar(){}});
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 17,
                                             "end": 23
                                         },

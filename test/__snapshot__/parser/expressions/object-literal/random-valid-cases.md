@@ -827,7 +827,7 @@ a = { y: x = 1 } = b;
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 177,
                                     "end": 182
                                 },
@@ -1222,7 +1222,7 @@ a = { y: x = 1 } = b;
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 264,
                                     "end": 268
                                 },
@@ -2019,7 +2019,7 @@ a = { y: x = 1 } = b;
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 445,
                                             "end": 448
                                         },
@@ -2558,7 +2558,7 @@ a = { y: x = 1 } = b;
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 563,
                                             "end": 566
                                         },
@@ -2655,7 +2655,7 @@ a = { y: x = 1 } = b;
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 587,
                                             "end": 590
                                         },
@@ -3100,7 +3100,7 @@ a = { y: x = 1 } = b;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 712,
                                     "end": 715
                                 },
@@ -3316,7 +3316,7 @@ a = { y: x = 1 } = b;
                                             "getKeyword": null,
                                             "setKeyword": {
                                                 "kind": 16499,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 765,
                                                 "end": 768
                                             },
@@ -3943,7 +3943,7 @@ a = { y: x = 1 } = b;
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 903,
                                     "end": 906
                                 },

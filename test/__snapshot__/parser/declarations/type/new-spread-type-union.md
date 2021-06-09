@@ -246,7 +246,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "start": 58,
                 "end": 78
             },
-            "flags": 16,
+            "flags": 17,
             "start": 27,
             "end": 79
         }

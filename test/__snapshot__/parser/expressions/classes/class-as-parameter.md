@@ -187,7 +187,7 @@ class A {
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 75,
                                                                 "end": 81
                                                             },
@@ -241,7 +241,7 @@ class A {
                                                                 "start": 81,
                                                                 "end": 106
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 33,
                                                             "start": 74,
                                                             "end": 106
                                                         },

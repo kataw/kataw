@@ -86,7 +86,7 @@ function f(b, a, b, ...a) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 10,
                 "end": 25
             },
@@ -130,6 +130,7 @@ function f(b, a, b, ...a) {}
 
 ```javascript
 ✖ Duplicate identifier - start: 23, end: 24
+✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 19, end: 25
 
 ```
 

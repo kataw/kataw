@@ -333,7 +333,7 @@ try {} catch({ x: "str" }) {}
                                         "start": 87,
                                         "end": 87
                                     },
-                                    "flags": 16,
+                                    "flags": 17,
                                     "start": 87,
                                     "end": 87
                                 },
@@ -397,7 +397,7 @@ try {} catch({ x: "str" }) {}
                                                     "start": 106,
                                                     "end": 106
                                                 },
-                                                "flags": 16,
+                                                "flags": 17,
                                                 "start": 106,
                                                 "end": 106
                                             },
@@ -412,7 +412,7 @@ try {} catch({ x: "str" }) {}
                                                     "start": 106,
                                                     "end": 106
                                                 },
-                                                "flags": 16,
+                                                "flags": 17,
                                                 "start": 106,
                                                 "end": 106
                                             },
@@ -459,7 +459,7 @@ try {} catch({ x: "str" }) {}
                                                         "start": 120,
                                                         "end": 120
                                                     },
-                                                    "flags": 16,
+                                                    "flags": 17,
                                                     "start": 120,
                                                     "end": 120
                                                 },
@@ -1477,7 +1477,7 @@ try {} catch({ x: "str" }) {}
                     "start": 389,
                     "end": 389
                 },
-                "flags": 16,
+                "flags": 17,
                 "start": 389,
                 "end": 389
             },

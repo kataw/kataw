@@ -52,7 +52,7 @@ x = {get this(this):number{}};
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 8
                                 },

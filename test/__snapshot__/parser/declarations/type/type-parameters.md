@@ -153,7 +153,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 41,
                 "end": 43
             },
-            "flags": 16,
+            "flags": 17,
             "start": 24,
             "end": 44
         },
@@ -241,7 +241,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 75,
                 "end": 77
             },
-            "flags": 16,
+            "flags": 17,
             "start": 44,
             "end": 78
         },
@@ -345,7 +345,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 112,
                 "end": 114
             },
-            "flags": 16,
+            "flags": 17,
             "start": 78,
             "end": 115
         },
@@ -454,7 +454,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 158,
                 "end": 160
             },
-            "flags": 16,
+            "flags": 17,
             "start": 115,
             "end": 161
         }

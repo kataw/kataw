@@ -527,7 +527,7 @@ new new foo().bar++;
                 "start": 129,
                 "end": 133
             },
-            "flags": 16,
+            "flags": 17,
             "start": 126,
             "end": 134
         },

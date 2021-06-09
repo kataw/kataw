@@ -97,7 +97,7 @@ function call(foo= 5 + (await bar())){}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 13,
                 "end": 34
             },

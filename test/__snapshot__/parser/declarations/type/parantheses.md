@@ -489,7 +489,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "start": 80,
                 "end": 102
             },
-            "flags": 16,
+            "flags": 17,
             "start": 51,
             "end": 103
         },
@@ -619,7 +619,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "start": 133,
                 "end": 134
             },
-            "flags": 16,
+            "flags": 17,
             "start": 103,
             "end": 135
         }

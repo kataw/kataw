@@ -67,7 +67,7 @@ function f(x = await){}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 10,
                 "end": 21
             },

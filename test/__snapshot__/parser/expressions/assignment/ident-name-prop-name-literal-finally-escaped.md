@@ -65,7 +65,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "start": 23,
                                                 "end": 25
                                             },
-                                            "flags": 32,
+                                            "flags": 16416,
                                             "start": 9,
                                             "end": 25
                                         }

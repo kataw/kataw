@@ -208,7 +208,7 @@ function targetKey() {
                                             "generatorToken": null,
                                             "getKeyword": {
                                                 "kind": 16498,
-                                                "flags": 64,
+                                                "flags": 97,
                                                 "start": 72,
                                                 "end": 84
                                             },
@@ -228,7 +228,7 @@ function targetKey() {
                                                     "kind": 214,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 1056,
+                                                    "flags": 1057,
                                                     "start": 87,
                                                     "end": 88
                                                 },
@@ -299,7 +299,7 @@ function targetKey() {
                                                     "start": 88,
                                                     "end": 129
                                                 },
-                                                "flags": 1056,
+                                                "flags": 1057,
                                                 "start": 86,
                                                 "end": 129
                                             },
@@ -440,7 +440,7 @@ function targetKey() {
                                             "getKeyword": null,
                                             "setKeyword": {
                                                 "kind": 16499,
-                                                "flags": 64,
+                                                "flags": 97,
                                                 "start": 195,
                                                 "end": 207
                                             },
@@ -468,7 +468,7 @@ function targetKey() {
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 608,
+                                                    "flags": 609,
                                                     "start": 210,
                                                     "end": 212
                                                 },
@@ -539,7 +539,7 @@ function targetKey() {
                                                     "start": 212,
                                                     "end": 253
                                                 },
-                                                "flags": 544,
+                                                "flags": 545,
                                                 "start": 209,
                                                 "end": 253
                                             },
@@ -795,7 +795,7 @@ function targetKey() {
                                                 "start": 344,
                                                 "end": 436
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 326,
                                             "end": 436
                                         }
@@ -1047,7 +1047,7 @@ function targetKey() {
                                                 "start": 527,
                                                 "end": 619
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 509,
                                             "end": 619
                                         }

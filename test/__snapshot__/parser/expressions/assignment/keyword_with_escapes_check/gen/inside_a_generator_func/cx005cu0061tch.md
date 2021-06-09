@@ -70,7 +70,7 @@ function *f(){
                                     "start": 14,
                                     "end": 14
                                 },
-                                "flags": 16,
+                                "flags": 16401,
                                 "start": 14,
                                 "end": 14
                             },

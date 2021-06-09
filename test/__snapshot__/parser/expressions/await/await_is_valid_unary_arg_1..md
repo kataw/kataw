@@ -198,7 +198,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 33,
                                 "end": 64
                             },

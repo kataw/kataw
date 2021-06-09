@@ -72,7 +72,7 @@ x = {
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 17,
                                         "end": 22
                                     },
@@ -91,7 +91,7 @@ x = {
                                         "start": 22,
                                         "end": 31
                                     },
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 16,
                                     "end": 31
                                 },

@@ -463,7 +463,7 @@ function parseSwitchStatement(
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpressions(parser, context);
+  const expression = parseExpressionCoverGrammar(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -517,7 +517,7 @@ function parseCaseBlock(
     );
     const statements = [];
     if (caseOrDefaultToken.kind === SyntaxKind.CaseKeyword) {
-      const expression = parseExpressions(parser, context);
+      const expression = parseExpressionCoverGrammar(parser, context);
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       while (parser.token & 0b00010100100000010110000000000000) {
         statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
@@ -800,7 +800,7 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpressions(parser, context);
+  const expression = parseExpressionCoverGrammar(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -965,7 +965,7 @@ function parseWhileStatement(
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpressions(parser, context);
+  const expression = parseExpressionCoverGrammar(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1066,7 +1066,7 @@ function parseWithStatement(
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const expression = parseExpressions(parser, context);
+  const expression = parseExpressionCoverGrammar(parser, context);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1112,7 +1112,7 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
       parser.pos
     );
   }
-  const expression = parseExpressions(parser, context);
+  const expression = parseExpressionCoverGrammar(parser, context);
   parseSemicolon(parser, context);
   return createThrowStatement(throwKeyword, expression, pos, parser.curPos);
 }
@@ -1138,7 +1138,7 @@ function parseReturnStatement(parser: ParserState, context: Context): ReturnStat
     NodeFlags.IsStatement,
     pos
   );
-  const expression = canParseSemicolon(parser) ? null : parseExpressions(parser, context);
+  const expression = canParseSemicolon(parser) ? null : parseExpressionCoverGrammar(parser, context);
   parseSemicolon(parser, context);
   return createReturnStatement(returnToken, expression, parser.nodeFlags, pos);
 }
@@ -1487,7 +1487,7 @@ function parseForStatement(
       );
     }
 
-    const expression = parseExpressions(parser, context);
+    const expression = parseExpressionCoverGrammar(parser, context);
 
     consume(
       parser,
@@ -1541,11 +1541,11 @@ function parseForStatement(
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
 
-  if (parser.token !== SyntaxKind.Semicolon) condition = parseExpressions(parser, context);
+  if (parser.token !== SyntaxKind.Semicolon) condition = parseExpressionCoverGrammar(parser, context);
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
 
-  if (parser.token !== SyntaxKind.RightParen) incrementor = parseExpressions(parser, context);
+  if (parser.token !== SyntaxKind.RightParen) incrementor = parseExpressionCoverGrammar(parser, context);
 
   consume(
     parser,
@@ -1795,6 +1795,7 @@ function parseBlockStatement(
   ownLabels: any
 ): BlockStatement {
   const pos = parser.curPos;
+  let nodeFlags = parser.nodeFlags;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
     const block = parseBlock(parser, context | Context.InBlock, scope, labels, ownLabels);
     consume(
@@ -1815,10 +1816,15 @@ function parseBlockStatement(
         parser.pos
       );
     }
-    return createBlockStatement(block, pos, parser.curPos);
+    return createBlockStatement(block, nodeFlags | NodeFlags.IsStatement, pos, parser.curPos);
   }
   // Empty list
-  return createBlockStatement(createBlock([], NodeFlags.IsStatement, pos, parser.curPos), pos, pos);
+  return createBlockStatement(
+    createBlock([], NodeFlags.IsStatement, pos, parser.curPos),
+    nodeFlags | NodeFlags.IsStatement,
+    pos,
+    pos
+  );
 }
 
 // Block : `{` StatementList `}`
@@ -2017,7 +2023,7 @@ function parseExpression(parser: ParserState, context: Context): ExpressionNode 
   return expr;
 }
 
-function parseExpressions(parser: ParserState, context: Context): ExpressionNode {
+function parseExpressionCoverGrammar(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
   const property = parseExpression(parser, context);
   return parser.token === SyntaxKind.Comma ? parseCommaOperator(parser, context, property, curPos) : property;
@@ -2269,7 +2275,7 @@ function parseMemberAccessExpression(
       parser.pos
     );
   }
-  expression = parseExpressions(
+  expression = parseExpressionCoverGrammar(
     parser,
     (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
   );
@@ -2879,8 +2885,11 @@ function parsePropertyDefinition(
   let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
-  let nodeFlags = generatorToken ? NodeFlags.ExpressionNode | NodeFlags.Generator : NodeFlags.ExpressionNode;
+  let nodeFlags = parser.nodeFlags | NodeFlags.ExpressionNode;
+
   let destructible = DestructibleKind.None;
+
+  if (generatorToken) nodeFlags |= NodeFlags.Generator;
 
   if (parser.token & 0b00000000100000000100000000000000) {
     const token = parser.token;
@@ -2891,7 +2900,16 @@ function parsePropertyDefinition(
     if (parser.token & 0b00000100110000000100000000000000) {
       if (token === SyntaxKind.AsyncKeyword) {
         nodeFlags |= NodeFlags.Async;
-        asyncKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
+        asyncKeyword = createToken(SyntaxKind.AsyncKeyword, nodeFlags | NodeFlags.ChildLess, pos, parser.curPos);
+        if (nodeFlags & 0b00000000000000000110000000000000) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+            parser.curPos,
+            parser.pos
+          );
+        }
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
         if (generatorToken) nodeFlags |= NodeFlags.Generator;
         key = parsePropertyName(parser, context);
@@ -2907,7 +2925,7 @@ function parsePropertyDefinition(
       }
 
       if (token === SyntaxKind.GetKeyword) {
-        getKeyword = createToken(SyntaxKind.GetKeyword, NodeFlags.ChildLess, pos, parser.curPos);
+        getKeyword = createToken(SyntaxKind.GetKeyword, nodeFlags | NodeFlags.ChildLess, pos, parser.curPos);
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
         key = parsePropertyName(parser, context);
         if (generatorToken) {
@@ -2931,7 +2949,7 @@ function parsePropertyDefinition(
       }
 
       if (token === SyntaxKind.SetKeyword) {
-        setKeyword = createToken(SyntaxKind.SetKeyword, NodeFlags.ChildLess, pos, parser.curPos);
+        setKeyword = createToken(SyntaxKind.SetKeyword, nodeFlags | NodeFlags.ChildLess, pos, parser.curPos);
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
         key = parsePropertyName(parser, context);
         if (generatorToken) {
@@ -6064,6 +6082,7 @@ function parseFunctionBody(
   firstRestricted: SyntaxKind | null
 ): FunctionBody {
   const pos = parser.curPos;
+  const nodeFlags = parser.nodeFlags;
   if (
     ignoreMissingOpenBrace ||
     consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)
@@ -6078,7 +6097,8 @@ function parseFunctionBody(
       },
       scopeError,
       isSimpleParameterList,
-      firstRestricted
+      firstRestricted,
+      nodeFlags
     );
     consume(
       parser,
@@ -6099,12 +6119,13 @@ function parseFunctionStatementList(
   scope: ScopeState,
   scopeError: boolean,
   isSimpleParameterList: boolean,
-  firstRestricted: SyntaxKind | null
+  firstRestricted: SyntaxKind | null,
+  nodeFlags: NodeFlags
 ): FunctionStatementList {
   const pos = parser.curPos;
   const statements = [];
   const directives = [];
-  const flags = parser.nodeFlags;
+  const flags = nodeFlags | parser.nodeFlags;
   const isNotPreviousStrict = (context & Context.Strict) < 1;
 
   while (parser.token === SyntaxKind.StringLiteral) {
@@ -6181,7 +6202,7 @@ function parseFunctionStatementList(
 function parseFormalParameterList(parser: ParserState, context: Context, scope: ScopeState): FormalParameterList {
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
-  const nodeFlags = NodeFlags.ExpressionNode;
+  let nodeflags = NodeFlags.ExpressionNode;
   const curpPos = parser.curPos;
   if (
     consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses)
@@ -6191,8 +6212,6 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
     let ellipsisToken = null;
     while (parser.token & 0b00010000100010000100000000000000) {
       const pos = parser.curPos;
-      let nodeflags = NodeFlags.ExpressionNode;
-
       if (parser.token === SyntaxKind.ThisKeyword) {
         if ((context & Context.OptionsAllowTypes) < 1 || count > 0) {
           parser.onError(
@@ -6296,7 +6315,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
       }
     }
 
-    if (scope.flags & ScopeFlags.Error && (nodeFlags & NodeFlags.NoneSimpleParamList || context & Context.Strict)) {
+    if (scope.flags & ScopeFlags.Error && (nodeflags & NodeFlags.NoneSimpleParamList || context & Context.Strict)) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -6306,12 +6325,12 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
       );
     }
 
-    const result = createFormalParameterList(parameters, trailingComma, nodeFlags, curpPos, parser.pos);
+    const result = createFormalParameterList(parameters, trailingComma, nodeflags, curpPos, parser.pos);
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
     return result;
   }
   // Empty list
-  return createFormalParameterList([], /* trailingComma*/ false, nodeFlags, curpPos, curpPos);
+  return createFormalParameterList([], /* trailingComma*/ false, nodeflags, curpPos, curpPos);
 }
 
 /**
@@ -7457,6 +7476,7 @@ function parseEntityName(parser: ParserState, context: Context, entity: any, che
 
 function parseTypeParameterDeclaration(parser: ParserState, context: Context): TypeParameterDeclaration | null {
   const pos = parser.curPos;
+  const nodeFlags = parser.nodeFlags;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
     let requireDefault = false;
@@ -7476,7 +7496,7 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
       }
     }
     consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
-    return createTypeParameterDeclaration(types, pos, parser.curPos);
+    return createTypeParameterDeclaration(types, nodeFlags, pos, parser.curPos);
   }
   return null;
 }
@@ -7486,6 +7506,7 @@ function parseTypeParameterInstantiationList(
   context: Context
 ): TypeParameterInstantiationList | null {
   const pos = parser.curPos;
+  const nodeFlags = parser.nodeFlags;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
     while (
@@ -7502,7 +7523,7 @@ function parseTypeParameterInstantiationList(
       }
     }
     consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
-    return createTypeParameterInstantiationList(types, pos, parser.curPos);
+    return createTypeParameterInstantiationList(types, nodeFlags, pos, parser.curPos);
   }
   return null;
 }
@@ -7744,6 +7765,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   ownLabels: any
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
+  let nodeFlags = parser.nodeFlags | NodeFlags.IsStatement;
   let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
   if (context & Context.OptionsAllowTypes && parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
@@ -7765,6 +7787,10 @@ function parseTypeAsIdentifierOrTypeAlias(
       );
     }
 
+    if (declareKeyword) {
+      nodeFlags |= NodeFlags.Declared;
+    }
+
     parseSemicolon(parser, context);
     return createTypeAlias(
       declareKeyword,
@@ -7772,7 +7798,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       expr as Identifier,
       typeParameters,
       type as any,
-      declareKeyword ? NodeFlags.Declared | NodeFlags.IsStatement : NodeFlags.IsStatement,
+      nodeFlags,
       pos,
       parser.curPos
     );
@@ -8626,7 +8652,10 @@ function parseTemplateSpan(parser: ParserState, context: Context): TemplateSpan 
   return createTemplateSpan(
     tokenRaw,
     tokenValue,
-    parseExpressions(parser, (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000),
+    parseExpressionCoverGrammar(
+      parser,
+      (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+    ),
     curPos,
     parser.curPos
   );
@@ -8992,6 +9021,7 @@ export function parseClassElement(
         decorators,
         declareKeyword,
         staticKeyword,
+        nodeFlags,
         pos
       );
     }
@@ -9185,6 +9215,7 @@ export function parseStaticBlock(
   decorators: DecoratorList | null,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  nodeFlags: NodeFlags,
   pos: number
 ): StaticBlock {
   if (decorators) {
@@ -9238,7 +9269,7 @@ export function parseStaticBlock(
     decorators,
     declareKeyword,
     staticKeyword,
-    createBlockStatement(block, pos, parser.curPos),
+    createBlockStatement(block, pos, nodeFlags, parser.curPos),
     pos,
     parser.curPos
   );

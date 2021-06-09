@@ -57,7 +57,7 @@ while (false) let // ASI
                 "start": 26,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 17,
             "start": 17,
             "end": 27
         }

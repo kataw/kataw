@@ -164,7 +164,7 @@ type T3 = { [[foo]]?: X }
                 "start": 34,
                 "end": 51
             },
-            "flags": 16,
+            "flags": 17,
             "start": 24,
             "end": 51
         },
@@ -233,7 +233,7 @@ type T3 = { [[foo]]?: X }
                 "start": 61,
                 "end": 77
             },
-            "flags": 16,
+            "flags": 17,
             "start": 51,
             "end": 77
         }

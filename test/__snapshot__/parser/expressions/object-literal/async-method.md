@@ -32,7 +32,7 @@
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 2,
                                     "end": 8
                                 },
@@ -237,7 +237,7 @@
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 68,
                                     "end": 74
                                 },
@@ -454,7 +454,7 @@
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 127,
                                     "end": 133
                                 },
@@ -623,7 +623,7 @@
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 178,
                                     "end": 184
                                 },
@@ -749,7 +749,7 @@
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 212,
                                     "end": 218
                                 },

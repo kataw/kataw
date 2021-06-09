@@ -52,7 +52,7 @@ a={get fooProp():number{}}
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 3,
                                     "end": 6
                                 },

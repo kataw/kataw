@@ -30,7 +30,7 @@
                     "start": 0,
                     "end": 0
                 },
-                "flags": 16,
+                "flags": 16400,
                 "start": 0,
                 "end": 0
             },

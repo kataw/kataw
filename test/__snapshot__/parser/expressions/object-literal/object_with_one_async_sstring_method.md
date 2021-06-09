@@ -39,7 +39,7 @@ wrap({async 'foo'(){}});
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 6,
                                             "end": 11
                                         },

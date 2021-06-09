@@ -6,11 +6,11 @@ export interface BlockStatement extends SyntaxNode {
   block: Block;
 }
 
-export function createBlockStatement(block: Block, start: number, end: number): BlockStatement {
+export function createBlockStatement(block: Block, flags: NodeFlags, start: number, end: number): BlockStatement {
   return {
     kind: SyntaxKind.BlockStatement,
     block,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

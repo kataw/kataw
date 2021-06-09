@@ -51,7 +51,7 @@ var O = { *async method() {} };
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 480,
                                             "start": 9,
                                             "end": 16
                                         },

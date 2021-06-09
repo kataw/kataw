@@ -62,7 +62,7 @@ x = {
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 14,
                                         "end": 15
                                     },
@@ -81,7 +81,7 @@ x = {
                                         "start": 15,
                                         "end": 23
                                     },
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 13,
                                     "end": 23
                                 },

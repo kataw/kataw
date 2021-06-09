@@ -95,7 +95,7 @@ function f(a = async async => ok) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 10,
                 "end": 33
             },

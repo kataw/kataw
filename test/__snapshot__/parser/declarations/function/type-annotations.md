@@ -1817,7 +1817,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 700,
                 "end": 721
             },
@@ -1937,7 +1937,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 739,
                 "end": 759
             },
@@ -2047,7 +2047,7 @@ function foo28(numVal?: number = 2) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 777,
                 "end": 801
             },

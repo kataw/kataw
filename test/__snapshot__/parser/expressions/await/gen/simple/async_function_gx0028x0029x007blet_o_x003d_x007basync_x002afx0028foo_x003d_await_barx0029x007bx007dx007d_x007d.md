@@ -88,7 +88,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                         "kind": 257,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
-                                                            "flags": 64,
+                                                            "flags": 352,
                                                             "start": 28,
                                                             "end": 33
                                                         },

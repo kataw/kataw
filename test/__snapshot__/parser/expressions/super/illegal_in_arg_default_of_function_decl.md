@@ -83,7 +83,7 @@ function f(x=super.foo){ }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 10,
                 "end": 23
             },

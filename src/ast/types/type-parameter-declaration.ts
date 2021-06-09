@@ -7,13 +7,14 @@ export interface TypeParameterDeclaration extends SyntaxNode {
 
 export function createTypeParameterDeclaration(
   typeParameters: readonly TypeParameter[],
+  flags: NodeFlags,
   start: number,
   end: number
 ): TypeParameterDeclaration {
   return {
     kind: SyntaxKind.TypeParameterDeclaration,
     typeParameters,
-    flags: NodeFlags.None,
+    flags,
     start,
     end
   };

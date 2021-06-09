@@ -60,7 +60,7 @@
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 480,
                                             "start": 23,
                                             "end": 30
                                         },
