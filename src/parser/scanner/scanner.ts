@@ -322,8 +322,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
             cp = source.charCodeAt(++pos);
             // kataw-ignore
             if (
-              cp === Char.LowerK &&
-              source.charCodeAt(pos + 1) === Char.LowerA &&
+              (cp === Char.LowerK && source.charCodeAt(pos + 1) === Char.LowerA) &&
               source.charCodeAt(pos + 11) === Char.LowerE &&
               source.charCodeAt(pos + 10) === Char.LowerR &&
               source.charCodeAt(pos + 9) === Char.LowerO &&
@@ -345,7 +344,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
                 source.charCodeAt(pos + 12) === Char.Hyphen &&
                 source.charCodeAt(pos + 13) === Char.LowerB
               ) {
-                parser.nodeFlags |= NodeFlags.IgnoreNextLine | NodeFlags.IgnoreBlock;
+                parser.nodeFlags |= NodeFlags.IgnoreBlock;
               }
             }
           }
