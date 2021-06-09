@@ -6,161 +6,55 @@ import { toHex } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
-// prettier-ignore
-const enum ZeroDigitKind {
-  Unknown               = -1,
-  Hexadecimal           = 1 << 0, // `x` or `X`
-  Binary                = 1 << 1, // `b` or `B`
-  Octal                 = 1 << 2, // `o` or `O`
-  LetterB               = 1 << 3,
-  LetterO               = 1 << 4,
-  LetterX               = 1 << 5,
-  BigInt                = 1 << 6, // `n`
-  Underscore            = 1 << 7  // `_`
-}
-
-// prettier-ignore
-const enum SeparatorAndBigIntState {
-  None                   = 0,
-  AllowSeparator         = 1 << 0,// e.g. `0b1100_0101`
-  PreviousTokenSeparator = 1 << 1,
-  DisallowBigInt         = 1 << 2,
-}
-
-const ZeroDigitLookup = [
-  /*   0 - Null               */ ZeroDigitKind.Unknown,
-  /*   1 - Start of Heading   */ ZeroDigitKind.Unknown,
-  /*   2 - Start of Text      */ ZeroDigitKind.Unknown,
-  /*   3 - End of Text        */ ZeroDigitKind.Unknown,
-  /*   4 - End of Transm.     */ ZeroDigitKind.Unknown,
-  /*   5 - Enquiry            */ ZeroDigitKind.Unknown,
-  /*   6 - Acknowledgment     */ ZeroDigitKind.Unknown,
-  /*   7 - Bell               */ ZeroDigitKind.Unknown,
-  /*   8 - Backspace          */ ZeroDigitKind.Unknown,
-  /*   9 - Horizontal Tab     */ ZeroDigitKind.Unknown,
-  /*  10 - Line Feed          */ ZeroDigitKind.Unknown,
-  /*  11 - Vertical Tab       */ ZeroDigitKind.Unknown,
-  /*  12 - Form Feed          */ ZeroDigitKind.Unknown,
-  /*  13 - Carriage Return    */ ZeroDigitKind.Unknown,
-  /*  14 - Shift Out          */ ZeroDigitKind.Unknown,
-  /*  15 - Shift In           */ ZeroDigitKind.Unknown,
-  /*  16 - Data Line Escape   */ ZeroDigitKind.Unknown,
-  /*  17 - Device Control 1   */ ZeroDigitKind.Unknown,
-  /*  18 - Device Control 2   */ ZeroDigitKind.Unknown,
-  /*  19 - Device Control 3   */ ZeroDigitKind.Unknown,
-  /*  20 - Device Control 4   */ ZeroDigitKind.Unknown,
-  /*  21 - Negative Ack.      */ ZeroDigitKind.Unknown,
-  /*  22 - Synchronous Idle   */ ZeroDigitKind.Unknown,
-  /*  23 - End of Transmit    */ ZeroDigitKind.Unknown,
-  /*  24 - Cancel             */ ZeroDigitKind.Unknown,
-  /*  25 - End of Medium      */ ZeroDigitKind.Unknown,
-  /*  26 - Substitute         */ ZeroDigitKind.Unknown,
-  /*  27 - Escape             */ ZeroDigitKind.Unknown,
-  /*  28 - File Separator     */ ZeroDigitKind.Unknown,
-  /*  29 - Group Separator    */ ZeroDigitKind.Unknown,
-  /*  30 - Record Separator   */ ZeroDigitKind.Unknown,
-  /*  31 - Unit Separator     */ ZeroDigitKind.Unknown,
-  /*  32 - Space              */ ZeroDigitKind.Unknown,
-  /*  33 - !                  */ ZeroDigitKind.Unknown,
-  /*  34 - "                  */ ZeroDigitKind.Unknown,
-  /*  35 - #                  */ ZeroDigitKind.Unknown,
-  /*  36 - $                  */ ZeroDigitKind.Unknown,
-  /*  37 - %                  */ ZeroDigitKind.Unknown,
-  /*  38 - &                  */ ZeroDigitKind.Unknown,
-  /*  39 - '                  */ ZeroDigitKind.Unknown,
-  /*  40 - (                  */ ZeroDigitKind.Unknown,
-  /*  41 - )                  */ ZeroDigitKind.Unknown,
-  /*  42 - *                  */ ZeroDigitKind.Unknown,
-  /*  43 - +                  */ ZeroDigitKind.Unknown,
-  /*  44 - ,                  */ ZeroDigitKind.Unknown,
-  /*  45 - -                  */ ZeroDigitKind.Unknown,
-  /*  46 - .                  */ ZeroDigitKind.Unknown,
-  /*  47 - /                  */ ZeroDigitKind.Unknown,
-  /*  48 - 0                  */ ZeroDigitKind.Binary,
-  /*  49 - 1                  */ ZeroDigitKind.Binary,
-  /*  50 - 2                  */ ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal,
-  /*  51 - 3                  */ ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal,
-  /*  52 - 4                  */ ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal,
-  /*  53 - 5                  */ ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal,
-  /*  54 - 6                  */ ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal,
-  /*  55 - 7                  */ ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal,
-  /*  56 - 8                  */ ZeroDigitKind.Hexadecimal,
-  /*  57 - 9                  */ ZeroDigitKind.Hexadecimal,
-  /*  58 - :                  */ ZeroDigitKind.Unknown,
-  /*  59 - ;                  */ ZeroDigitKind.Unknown,
-  /*  60 - <                  */ ZeroDigitKind.Unknown,
-  /*  61 - =                  */ ZeroDigitKind.Unknown,
-  /*  62 - >                  */ ZeroDigitKind.Unknown,
-  /*  63 - ?                  */ ZeroDigitKind.Unknown,
-  /*  64 - @                  */ ZeroDigitKind.Unknown,
-  /*  65 - A                  */ ZeroDigitKind.Hexadecimal,
-  /*  66 - B                  */ ZeroDigitKind.LetterB,
-  /*  67 - C                  */ ZeroDigitKind.Hexadecimal,
-  /*  68 - D                  */ ZeroDigitKind.Hexadecimal,
-  /*  69 - E                  */ ZeroDigitKind.Hexadecimal,
-  /*  70 - F                  */ ZeroDigitKind.Hexadecimal,
-  /*  71 - G                  */ ZeroDigitKind.Unknown,
-  /*  72 - H                  */ ZeroDigitKind.Unknown,
-  /*  73 - I                  */ ZeroDigitKind.Unknown,
-  /*  74 - J                  */ ZeroDigitKind.Unknown,
-  /*  75 - K                  */ ZeroDigitKind.Unknown,
-  /*  76 - L                  */ ZeroDigitKind.Unknown,
-  /*  77 - M                  */ ZeroDigitKind.Unknown,
-  /*  78 - N                  */ ZeroDigitKind.Unknown,
-  /*  79 - O                  */ ZeroDigitKind.LetterO,
-  /*  80 - P                  */ ZeroDigitKind.Unknown,
-  /*  81 - Q                  */ ZeroDigitKind.Unknown,
-  /*  82 - R                  */ ZeroDigitKind.Unknown,
-  /*  83 - S                  */ ZeroDigitKind.Unknown,
-  /*  84 - T                  */ ZeroDigitKind.Unknown,
-  /*  85 - U                  */ ZeroDigitKind.Unknown,
-  /*  86 - V                  */ ZeroDigitKind.Unknown,
-  /*  87 - W                  */ ZeroDigitKind.Unknown,
-  /*  88 - X                  */ ZeroDigitKind.LetterX,
-  /*  89 - Y                  */ ZeroDigitKind.Unknown,
-  /*  90 - Z                  */ ZeroDigitKind.Unknown,
-  /*  91 - [                  */ ZeroDigitKind.Unknown,
-  /*  92 - \                  */ ZeroDigitKind.Unknown,
-  /*  93 - ]                  */ ZeroDigitKind.Unknown,
-  /*  94 - ^                  */ ZeroDigitKind.Unknown,
-  /*  95 - _                  */ ZeroDigitKind.Underscore,
-  /*  96 - `                  */ ZeroDigitKind.Unknown,
-  /*  97 - a                  */ ZeroDigitKind.Hexadecimal,
-  /*  98 - b                  */ ZeroDigitKind.LetterB,
-  /*  99 - c                  */ ZeroDigitKind.Hexadecimal,
-  /* 100 - d                  */ ZeroDigitKind.Hexadecimal,
-  /* 101 - e                  */ ZeroDigitKind.Hexadecimal,
-  /* 102 - f                  */ ZeroDigitKind.Hexadecimal,
-  /* 103 - g                  */ ZeroDigitKind.Unknown,
-  /* 104 - h                  */ ZeroDigitKind.Unknown,
-  /* 105 - i                  */ ZeroDigitKind.Unknown,
-  /* 106 - j                  */ ZeroDigitKind.Unknown,
-  /* 107 - k                  */ ZeroDigitKind.Unknown,
-  /* 108 - l                  */ ZeroDigitKind.Unknown,
-  /* 109 - m                  */ ZeroDigitKind.Unknown,
-  /* 110 - n                  */ ZeroDigitKind.BigInt,
-  /* 111 - o                  */ ZeroDigitKind.LetterO,
-  /* 112 - p                  */ ZeroDigitKind.Unknown,
-  /* 113 - q                  */ ZeroDigitKind.Unknown,
-  /* 114 - r                  */ ZeroDigitKind.Unknown,
-  /* 115 - s                  */ ZeroDigitKind.Unknown,
-  /* 116 - t                  */ ZeroDigitKind.Unknown,
-  /* 117 - u                  */ ZeroDigitKind.Unknown,
-  /* 118 - v                  */ ZeroDigitKind.Unknown,
-  /* 119 - w                  */ ZeroDigitKind.Unknown,
-  /* 120 - x                  */ ZeroDigitKind.LetterX,
-  /* 121 - y                  */ ZeroDigitKind.Unknown,
-  /* 122 - z                  */ ZeroDigitKind.Unknown,
-  /* 123 - {                  */ ZeroDigitKind.Unknown,
-  /* 124 - |                  */ ZeroDigitKind.Unknown,
-  /* 125 - }                  */ ZeroDigitKind.Unknown,
-  /* 126 - ~                  */ ZeroDigitKind.Unknown,
-  /* 127 - Delete             */ ZeroDigitKind.Unknown
+const AsciiDigits = [
+  /*   0 - Null               */ -1, /*   1 - Start of Heading   */ -1, /*   2 - Start of Text      */ -1,
+  /*   3 - End of Text        */ -1, /*   4 - End of Transm.     */ -1, /*   5 - Enquiry            */ -1,
+  /*   6 - Acknowledgment     */ -1, /*   7 - Bell               */ -1, /*   8 - Backspace          */ -1,
+  /*   9 - Horizontal Tab     */ -1, /*  10 - Line Feed          */ -1, /*  11 - Vertical Tab       */ -1,
+  /*  12 - Form Feed          */ -1, /*  13 - Carriage Return    */ -1, /*  14 - Shift Out          */ -1,
+  /*  15 - Shift In           */ -1, /*  16 - Data Line Escape   */ -1, /*  17 - Device Control 1   */ -1,
+  /*  18 - Device Control 2   */ -1, /*  19 - Device Control 3   */ -1, /*  20 - Device Control 4   */ -1,
+  /*  21 - Negative Ack.      */ -1, /*  22 - Synchronous Idle   */ -1, /*  23 - End of Transmit    */ -1,
+  /*  24 - Cancel             */ -1, /*  25 - End of Medium      */ -1, /*  26 - Substitute         */ -1,
+  /*  27 - Escape             */ -1, /*  28 - File Separator     */ -1, /*  29 - Group Separator    */ -1,
+  /*  30 - Record Separator   */ -1, /*  31 - Unit Separator     */ -1, /*  32 - Space              */ -1,
+  /*  33 - !                  */ -1, /*  34 - "                  */ -1, /*  35 - #                  */ -1,
+  /*  36 - $                  */ -1, /*  37 - %                  */ -1, /*  38 - &                  */ -1,
+  /*  39 - '                  */ -1, /*  40 - (                  */ -1, /*  41 - )                  */ -1,
+  /*  42 - *                  */ -1, /*  43 - +                  */ -1, /*  44 - ,                  */ -1,
+  /*  45 - -                  */ -1, /*  46 - .                  */ -1, /*  47 - /                  */ -1,
+  /*  48 - 0                  */ 2, /*  49 - 1                  */ 2, /*  50 - 2                  */ 5,
+  /*  51 - 3                  */ 5, /*  52 - 4                  */ 5, /*  53 - 5                  */ 5,
+  /*  54 - 6                  */ 5, /*  55 - 7                  */ 5, /*  56 - 8                  */ 1,
+  /*  57 - 9                  */ 1, /*  58 - :                  */ -1, /*  59 - ;                  */ -1,
+  /*  60 - <                  */ -1, /*  61 - =                  */ -1, /*  62 - >                  */ -1,
+  /*  63 - ?                  */ -1, /*  64 - @                  */ -1, /*  65 - A                  */ 1,
+  /*  66 - B                  */ 8, /*  67 - C                  */ 1, /*  68 - D                  */ 1,
+  /*  69 - E                  */ 1, /*  70 - F                  */ 1, /*  71 - G                  */ -1,
+  /*  72 - H                  */ -1, /*  73 - I                  */ -1, /*  74 - J                  */ -1,
+  /*  75 - K                  */ -1, /*  76 - L                  */ -1, /*  77 - M                  */ -1,
+  /*  78 - N                  */ -1, /*  79 - O                  */ 16, /*  80 - P                  */ -1,
+  /*  81 - Q                  */ -1, /*  82 - R                  */ -1, /*  83 - S                  */ -1,
+  /*  84 - T                  */ -1, /*  85 - U                  */ -1, /*  86 - V                  */ -1,
+  /*  87 - W                  */ -1, /*  88 - X                  */ 32, /*  89 - Y                  */ -1,
+  /*  90 - Z                  */ -1, /*  91 - [                  */ -1, /*  92 - \                  */ -1,
+  /*  93 - ]                  */ -1, /*  94 - ^                  */ -1, /*  95 - _                  */ 128,
+  /*  96 - `                  */ -1, /*  97 - a                  */ 1, /*  98 - b                  */ 8,
+  /*  99 - c                  */ 1, /* 100 - d                  */ 1, /* 101 - e                  */ 1,
+  /* 102 - f                  */ 1, /* 103 - g                  */ -1, /* 104 - h                  */ -1,
+  /* 105 - i                  */ -1, /* 106 - j                  */ -1, /* 107 - k                  */ -1,
+  /* 108 - l                  */ -1, /* 109 - m                  */ -1, /* 110 - n                  */ 64,
+  /* 111 - o                  */ 16, /* 112 - p                  */ -1, /* 113 - q                  */ -1,
+  /* 114 - r                  */ -1, /* 115 - s                  */ -1, /* 116 - t                  */ -1,
+  /* 117 - u                  */ -1, /* 118 - v                  */ -1, /* 119 - w                  */ -1,
+  /* 120 - x                  */ 32, /* 121 - y                  */ -1, /* 122 - z                  */ -1,
+  /* 123 - {                  */ -1, /* 124 - |                  */ -1, /* 125 - }                  */ -1,
+  /* 126 - ~                  */ -1, /* 127 - Delete             */ -1
 ];
 
 export function scanNumber(parser: ParserState, context: Context, cp: number, source: string): SyntaxKind {
   // Optimization: most decimal values fit into 4 bytes.
-  let state = SeparatorAndBigIntState.AllowSeparator;
+  let allowSeparator = true;
   let pos = parser.pos;
 
   let nodeFlags = NodeFlags.None;
@@ -174,9 +68,9 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       // and does a quick scan for a hexadecimal, binary and octals
       let digits = 0;
       do {
-        switch (ZeroDigitLookup[cp]) {
+        switch (AsciiDigits[cp]) {
           // `x`, `X`
-          case ZeroDigitKind.LetterX:
+          case 32:
             // - `0bx0011`
             // - `0O3x45_`
             // - `0xxabcd241x33`
@@ -197,7 +91,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             break;
 
           // `b`, `B`
-          case ZeroDigitKind.LetterB:
+          case 8:
             if (nodeFlags & NodeFlags.HexIntegerLiteral) {
               val = val * 16 + toHex(cp);
               break;
@@ -218,7 +112,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             break;
 
           // `o`, `O`
-          case ZeroDigitKind.LetterO:
+          case 16:
             // - `0bo00`
             // - `0Oo34`
             // - `0xaobcd2`
@@ -239,25 +133,25 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             break;
 
           // `0`...`1`
-          case ZeroDigitKind.Binary:
+          case 2:
             if (nodeFlags & NodeFlags.BinaryIntegerLiteral) {
-              state |= SeparatorAndBigIntState.AllowSeparator;
+              allowSeparator = true;
               val = val * 2 + (cp - Char.Zero);
               break;
             }
 
           // `2`...`7`
-          case ZeroDigitKind.Octal | ZeroDigitKind.Hexadecimal:
+          case 5:
             if (nodeFlags & NodeFlags.OctalIntegerLiteral) {
-              state |= SeparatorAndBigIntState.AllowSeparator;
+              allowSeparator = true;
               val = val * 8 + (cp - Char.Zero);
               break;
             }
 
           // `8`...`9`, `a-f`...`A-F`
-          case ZeroDigitKind.Hexadecimal:
+          case 1:
             if (nodeFlags & NodeFlags.HexIntegerLiteral) {
-              state |= SeparatorAndBigIntState.AllowSeparator;
+              allowSeparator = true;
               val = val * 0b00000000000000000000000000010000 + toHex(cp);
               break;
             }
@@ -275,10 +169,10 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             break;
 
           // `_`
-          case ZeroDigitKind.Underscore:
+          case 128:
             nodeFlags |= NodeFlags.ContainsSeparator;
 
-            if (state & SeparatorAndBigIntState.AllowSeparator) {
+            if (allowSeparator) {
               // We need to consume '__' for cases like '0b1__2' so we can correctly parse out two
               // numeric literal - '1' - and '2'.
               // '0b' and '__' are seen as invalid characters and should only be consumed.
@@ -295,13 +189,13 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
                 parser.tokenValue = val;
                 return SyntaxKind.NumericLiteral;
               }
-              state = (state | SeparatorAndBigIntState.AllowSeparator) ^ SeparatorAndBigIntState.AllowSeparator;
+              allowSeparator = false;
             }
-            state |= SeparatorAndBigIntState.AllowSeparator;
+            allowSeparator = true;
             break;
 
           // `n`
-          case ZeroDigitKind.BigInt:
+          case 64:
             parser.tokenValue = val;
             parser.pos = ++pos;
             parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
@@ -328,13 +222,13 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       if (
         (nodeFlags & (NodeFlags.BinaryIntegerLiteral | NodeFlags.OctalIntegerLiteral | NodeFlags.HexIntegerLiteral) &&
           digits <= 1) ||
-        (state & SeparatorAndBigIntState.AllowSeparator) === 0
+        !allowSeparator
       ) {
         parser.onError(
           DiagnosticSource.Lexer,
           DiagnosticKind.Error,
           diagnosticMap[
-            (state & SeparatorAndBigIntState.AllowSeparator) === 0
+            !allowSeparator
               ? DiagnosticCode.Numeric_separators_are_not_allowed_at_the_end_of_numeric_literals
               : nodeFlags & NodeFlags.BinaryIntegerLiteral
               ? // Binary integer literal like sequence without any digits
@@ -434,8 +328,10 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
 
   cp = source.charCodeAt(parser.pos);
 
+  let disallowBigInt = false;
+
   if (cp === Char.Period) {
-    state |= SeparatorAndBigIntState.DisallowBigInt;
+    disallowBigInt = true;
     cp = source.charCodeAt(++parser.pos); // skips: '.'
     value += '.' + scanDigitsWithNumericSeparators(parser, parser.pos, cp);
     cp = source.charCodeAt(parser.pos);
@@ -444,7 +340,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
   const end = parser.pos;
 
   if (cp === Char.LowerN) {
-    if (state & SeparatorAndBigIntState.DisallowBigInt) {
+    if (disallowBigInt) {
       parser.onError(
         DiagnosticSource.Lexer,
         DiagnosticKind.Error,
@@ -513,7 +409,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
 export function scanDigitsWithNumericSeparators(parser: ParserState, start: number, cp: number): string {
   let ret = '';
   let pos = parser.pos;
-  let state = SeparatorAndBigIntState.None;
+  let allowSeparator = false;
   const source = parser.source;
   while (AsciiCharTypes[cp] & 0b00000000000000000000000000110000) {
     // '_'
@@ -522,7 +418,7 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
       ret += source.substring(start, pos);
       cp = source.charCodeAt(++pos);
 
-      state |= SeparatorAndBigIntState.AllowSeparator;
+      allowSeparator = true;
 
       // '__' (invalid)
       if (cp === Char.Underscore) {
@@ -537,11 +433,11 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
       start = pos;
       continue;
     }
-    state = (state | SeparatorAndBigIntState.AllowSeparator) ^ SeparatorAndBigIntState.AllowSeparator;
+    allowSeparator = false;
     cp = source.charCodeAt(++pos);
   }
 
-  if (state & SeparatorAndBigIntState.AllowSeparator) {
+  if (allowSeparator) {
     parser.onError(
       DiagnosticSource.Lexer,
       DiagnosticKind.Error,
