@@ -44,7 +44,6 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.LineFeed:
         case Char.LineSeparator:
         case Char.ParagraphSeparator:
-          parser.nodeFlags |= NodeFlags.Unterminated;
           parser.onError(
             DiagnosticSource.Lexer,
             DiagnosticKind.Error,
@@ -60,7 +59,6 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
     // If we reach the end of a file, or hit a newline, then this is an unterminated
     // regex.
     if (pos >= parser.end) {
-      parser.nodeFlags |= NodeFlags.Unterminated;
       parser.onError(
         DiagnosticSource.Lexer,
         DiagnosticKind.Error,

@@ -93,7 +93,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Octal literals are not allowed in strict mode - start: 16, end: 17
+✖ Octal literals are not allowed in strict mode - start: 17, end: 18
 
 ```
 

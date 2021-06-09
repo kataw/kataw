@@ -76,7 +76,7 @@ do {} while (x) { /**/ /x do while
                         "end": 34
                     }
                 ],
-                "flags": 2097168,
+                "flags": 16,
                 "start": 17,
                 "end": 34
             },

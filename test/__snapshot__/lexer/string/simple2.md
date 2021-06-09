@@ -65,7 +65,7 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": "\"",
-                "flags": 2097248,
+                "flags": 96,
                 "start": 7,
                 "end": 9
             },

@@ -317,9 +317,11 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         cp = source.charCodeAt(++parser.pos);
         // is it a // comment?
         if (cp === Char.Slash) {
-          while (parser.pos < parser.end && !isLineTerminator(cp)) {
-            cp = source.charCodeAt(++parser.pos);
+          let pos = parser.pos;
+          while (pos < parser.end && !isLineTerminator(cp)) {
+            cp = source.charCodeAt(++pos);
           }
+          parser.pos = pos;
           break;
         }
 

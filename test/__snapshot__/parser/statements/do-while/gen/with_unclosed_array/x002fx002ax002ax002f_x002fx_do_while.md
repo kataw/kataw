@@ -50,7 +50,7 @@ do[ /**/ /x do while
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2097184,
+                        "flags": 32,
                         "start": 3,
                         "end": 20
                     },

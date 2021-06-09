@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-x = 0b89897kklb101b
+x = 0bxxxxxxxxx19;
 `````
 
 ## Output
@@ -41,41 +41,27 @@ x = 0b89897kklb101b
                 },
                 "right": {
                     "kind": 201392130,
-                    "text": 0,
-                    "rawText": "0b89897k",
+                    "text": 1,
+                    "rawText": "0bxxxxxxxxx19",
                     "flags": 524384,
                     "start": 3,
-                    "end": 12
+                    "end": 17
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 12
+                "end": 17
             },
             "flags": 16,
             "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "klb101b",
-                "rawText": "klb101b",
-                "flags": 96,
-                "start": 12,
-                "end": 19
-            },
-            "flags": 16,
-            "start": 12,
-            "end": 19
+            "end": 18
         }
     ],
     "isModule": true,
-    "source": "x = 0b89897kklb101b",
+    "source": "x = 0bxxxxxxxxx19;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 18
 }
 ```
 
@@ -88,13 +74,16 @@ x = 0b89897kklb101b
 ### Diagnostics
 
 ```javascript
-✖ Binary integer literal like sequence containing an invalid digit - start: 6, end: 7
-✖ Binary integer literal like sequence containing an invalid digit - start: 7, end: 8
-✖ Binary integer literal like sequence containing an invalid digit - start: 8, end: 9
-✖ Binary integer literal like sequence containing an invalid digit - start: 9, end: 10
-✖ Binary integer literal like sequence containing an invalid digit - start: 10, end: 11
-✖ An identifier or keyword cannot immediately follow a numeric literal - start: 3, end: 11
-✖ Expected a `;` - start: 12, end: 19
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 6, end: 7
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 7, end: 8
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 8, end: 9
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 9, end: 10
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 10, end: 11
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 11, end: 12
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 12, end: 13
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 13, end: 14
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 14, end: 15
+✖ Binary integer literal like sequence containing an invalid digit - start: 16, end: 17
 
 ```
 

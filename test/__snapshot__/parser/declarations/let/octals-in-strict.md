@@ -305,10 +305,10 @@
 ### Diagnostics
 
 ```javascript
-✖ Octal literals are not allowed in strict mode - start: 16, end: 17
-✖ Octal literals are not allowed in strict mode - start: 45, end: 46
-✖ Octal literals are not allowed in strict mode - start: 77, end: 78
-✖ Octal literals are not allowed in strict mode - start: 105, end: 107
+✖ Octal literals are not allowed in strict mode - start: 17, end: 18
+✖ Octal literals are not allowed in strict mode - start: 46, end: 47
+✖ Octal literals are not allowed in strict mode - start: 78, end: 79
+✖ Octal literals are not allowed in strict mode - start: 107, end: 108
 
 ```
 

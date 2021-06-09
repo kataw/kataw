@@ -21,7 +21,7 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": "\"\\xf",
-                "flags": 2097248,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },

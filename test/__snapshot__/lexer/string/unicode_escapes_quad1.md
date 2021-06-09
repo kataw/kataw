@@ -27,7 +27,7 @@
                 "kind": 201392131,
                 "text": "abc",
                 "rawText": "\"\\uabc",
-                "flags": 2113632,
+                "flags": 16480,
                 "start": 0,
                 "end": 6
             },

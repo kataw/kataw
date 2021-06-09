@@ -191,8 +191,6 @@ export function scanString(parser: ParserState, context: Context, quote: number,
     ch = source.charCodeAt(parser.pos);
   }
 
-  parser.nodeFlags |= NodeFlags.Unterminated;
-
   parser.onError(
     DiagnosticSource.Lexer,
     DiagnosticKind.Error,

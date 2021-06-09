@@ -79,7 +79,7 @@
 ### Diagnostics
 
 ```javascript
-✖ An identifier or keyword cannot immediately follow a numeric literal - start: 0, end: 0
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 0, end: 5
 ✖ Expected a `;` - start: 6, end: 15
 ✖ Expected a `;` - start: 15, end: 17
 

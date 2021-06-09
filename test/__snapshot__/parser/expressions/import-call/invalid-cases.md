@@ -247,7 +247,7 @@ new import(x);
                     "kind": 201392131,
                     "text": "x;",
                     "rawText": "'x;",
-                    "flags": 6291552,
+                    "flags": 4194400,
                     "start": 60,
                     "end": 63
                 },

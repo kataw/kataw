@@ -75,7 +75,7 @@
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 7, end: 9
-✖ Binary integer literal like sequence without any digits - start: 9, end: 10
+✖ Binary integer literal like sequence without any digits - start: 12, end: 13
 
 ```
 

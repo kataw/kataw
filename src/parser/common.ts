@@ -377,9 +377,7 @@ export function isOctalIntegerLiteral(node: SyntaxNode): boolean {
 export function isBinaryIntegerLiteral(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.BinaryIntegerLiteral) === NodeFlags.BinaryIntegerLiteral;
 }
-export function isUnterminated(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.Unterminated) === NodeFlags.Unterminated;
-}
+
 export function hexIntegerLiteral(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.HexIntegerLiteral) === NodeFlags.HexIntegerLiteral;
 }
@@ -438,10 +436,6 @@ export function isSemicolon(node: SyntaxNode): boolean {
 
 export function hasNewLine(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.NewLine) === NodeFlags.NewLine;
-}
-
-export function hasDuplicateLabels(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.DuplicateLabels) === NodeFlags.DuplicateLabels;
 }
 
 export function isTemplateLiteral(node: SyntaxNode): boolean {

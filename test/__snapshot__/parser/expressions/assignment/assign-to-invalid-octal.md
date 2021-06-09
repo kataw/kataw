@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-x = 000001111119999
+x = 0o89Z;
 `````
 
 ## Output
@@ -41,27 +41,27 @@ x = 000001111119999
                 },
                 "right": {
                     "kind": 201392130,
-                    "text": 1111119999,
-                    "rawText": "000001111119999",
-                    "flags": 96,
+                    "text": 0,
+                    "rawText": "0o89Z",
+                    "flags": 262240,
                     "start": 3,
-                    "end": 19
+                    "end": 9
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 19
+                "end": 9
             },
             "flags": 16,
             "start": 0,
-            "end": 19
+            "end": 10
         }
     ],
     "isModule": true,
-    "source": "x = 000001111119999",
+    "source": "x = 0o89Z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 10
 }
 ```
 
@@ -74,7 +74,9 @@ x = 000001111119999
 ### Diagnostics
 
 ```javascript
-✖ Octal literals are not allowed in strict mode - start: 5, end: 6
+✖ Octal integer literal like sequence containing an invalid digit - start: 6, end: 7
+✖ Octal integer literal like sequence containing an invalid digit - start: 7, end: 8
+✖ An identifier or keyword cannot immediately follow a numeric literal - start: 3, end: 8
 
 ```
 

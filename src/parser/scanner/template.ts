@@ -63,8 +63,6 @@ export function scanTemplate(
     parser.pos
   );
 
-  parser.nodeFlags |= NodeFlags.Unterminated;
-
   parser.tokenValue = ret;
 
   return SyntaxKind.TemplateTail;

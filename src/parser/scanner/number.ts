@@ -215,7 +215,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
           DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
           parser.curPos,
-          parser.pos
+          pos
         );
         pos++; // skip invalid chars
       }
@@ -239,8 +239,8 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
               : // Hex integer literal like sequence without any digits
                 DiagnosticCode.Hex_integer_literal_like_sequence_without_any_digits
           ],
-          parser.curPos,
-          parser.pos
+          pos,
+          pos + 1
         );
       }
 
@@ -259,8 +259,8 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
           DiagnosticSource.Lexer,
           DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Octal_literals_are_not_allowed_in_strict_mode],
-          parser.curPos,
-          pos
+          pos,
+          pos + 1
         );
       }
       nodeFlags = NodeFlags.ImplicitOctal;
