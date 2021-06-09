@@ -111,7 +111,8 @@ var f = (argument1,[a,b,...rest]) => {};
                                         "end": 31
                                     },
                                     "flags": 32,
-                                    "start": 19
+                                    "start": 19,
+                                    "end": 32
                                 }
                             ],
                             "asyncKeyword": null,

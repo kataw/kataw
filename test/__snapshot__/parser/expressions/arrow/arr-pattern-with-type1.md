@@ -82,7 +82,8 @@
                             "end": 11
                         },
                         "flags": 32,
-                        "start": 1
+                        "start": 1,
+                        "end": 12
                     }
                 ],
                 "asyncKeyword": null,
@@ -177,7 +178,8 @@
                             "end": 36
                         },
                         "flags": 32,
-                        "start": 24
+                        "start": 24,
+                        "end": 37
                     }
                 ],
                 "asyncKeyword": null,
@@ -293,7 +295,8 @@
                             "end": 69
                         },
                         "flags": 32,
-                        "start": 49
+                        "start": 49,
+                        "end": 70
                     }
                 ],
                 "asyncKeyword": null,
@@ -388,7 +391,8 @@
                             "end": 94
                         },
                         "flags": 32,
-                        "start": 82
+                        "start": 82,
+                        "end": 95
                     }
                 ],
                 "asyncKeyword": null,

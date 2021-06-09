@@ -90,7 +90,8 @@ a = b => { let b; };
                             "end": 3
                         },
                         "flags": 32,
-                        "start": 1
+                        "start": 1,
+                        "end": 4
                     },
                     {
                         "kind": 281,
@@ -1071,7 +1072,8 @@ a = b => { let b; };
                             "end": 247
                         },
                         "flags": 32,
-                        "start": 243
+                        "start": 243,
+                        "end": 248
                     },
                     {
                         "kind": 201,
@@ -1093,7 +1095,8 @@ a = b => { let b; };
                             "end": 254
                         },
                         "flags": 32,
-                        "start": 249
+                        "start": 249,
+                        "end": 255
                     }
                 ],
                 "asyncKeyword": null,
@@ -1160,7 +1163,8 @@ a = b => { let b; };
                             "end": 271
                         },
                         "flags": 32,
-                        "start": 266
+                        "start": 266,
+                        "end": 272
                     }
                 ],
                 "asyncKeyword": null,
@@ -1235,7 +1239,8 @@ a = b => { let b; };
                             "end": 291
                         },
                         "flags": 32,
-                        "start": 283
+                        "start": 283,
+                        "end": 292
                     }
                 ],
                 "asyncKeyword": null,
@@ -1302,7 +1307,8 @@ a = b => { let b; };
                             "end": 308
                         },
                         "flags": 32,
-                        "start": 303
+                        "start": 303,
+                        "end": 309
                     },
                     {
                         "kind": 134299649,
@@ -1393,7 +1399,8 @@ a = b => { let b; };
                             "end": 334
                         },
                         "flags": 32,
-                        "start": 323
+                        "start": 323,
+                        "end": 335
                     }
                 ],
                 "asyncKeyword": null,
@@ -1546,7 +1553,8 @@ a = b => { let b; };
                             "end": 371
                         },
                         "flags": 32,
-                        "start": 365
+                        "start": 365,
+                        "end": 372
                     }
                 ],
                 "asyncKeyword": null,

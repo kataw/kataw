@@ -103,7 +103,8 @@ var f = ([a,b,...rest]) => {};
                                         "end": 21
                                     },
                                     "flags": 32,
-                                    "start": 9
+                                    "start": 9,
+                                    "end": 22
                                 }
                             ],
                             "asyncKeyword": null,

@@ -90,7 +90,8 @@ var foo = async ([...(foo)]) => {};
                                         "end": 26
                                     },
                                     "flags": 32,
-                                    "start": 17
+                                    "start": 17,
+                                    "end": 27
                                 }
                             ],
                             "asyncKeyword": {

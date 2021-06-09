@@ -98,7 +98,8 @@
                                             "end": 47
                                         },
                                         "flags": 32,
-                                        "start": 45
+                                        "start": 45,
+                                        "end": 48
                                     },
                                     "optionalToken": null,
                                     "type": null,

@@ -64,7 +64,8 @@
                                                 "end": 7
                                             },
                                             "flags": 32,
-                                            "start": 2
+                                            "start": 2,
+                                            "end": 8
                                         },
                                         "optionalToken": null,
                                         "type": null,
@@ -93,7 +94,8 @@
                                 "end": 13
                             },
                             "flags": 32,
-                            "start": 1
+                            "start": 1,
+                            "end": 15
                         },
                         "optionalToken": null,
                         "type": null,

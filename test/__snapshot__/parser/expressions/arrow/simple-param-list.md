@@ -48,7 +48,8 @@
                                         "end": 3
                                     },
                                     "flags": 32,
-                                    "start": 2
+                                    "start": 2,
+                                    "end": 4
                                 }
                             ],
                             "asyncKeyword": null,

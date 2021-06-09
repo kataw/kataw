@@ -74,7 +74,8 @@ async ([...x.y]) => z
                         "end": 14
                     },
                     "flags": 32,
-                    "start": 7
+                    "start": 7,
+                    "end": 15
                 }
             ],
             "asyncKeyword": {

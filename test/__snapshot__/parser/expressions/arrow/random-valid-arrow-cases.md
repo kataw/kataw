@@ -777,7 +777,8 @@ foo((x, y) => {});
                             "end": 178
                         },
                         "flags": 32,
-                        "start": 176
+                        "start": 176,
+                        "end": 179
                     }
                 ],
                 "asyncKeyword": null,
@@ -921,7 +922,8 @@ foo((x, y) => {});
                                         "end": 217
                                     },
                                     "flags": 32,
-                                    "start": 213
+                                    "start": 213,
+                                    "end": 218
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1001,7 +1003,8 @@ foo((x, y) => {});
                             "end": 236
                         },
                         "flags": 32,
-                        "start": 230
+                        "start": 230,
+                        "end": 237
                     }
                 ],
                 "asyncKeyword": null,
@@ -1321,7 +1324,8 @@ foo((x, y) => {});
                                             "end": 315
                                         },
                                         "flags": 32,
-                                        "start": 310
+                                        "start": 310,
+                                        "end": 316
                                     },
                                     "optionalToken": null,
                                     "type": null,
@@ -1344,7 +1348,8 @@ foo((x, y) => {});
                             "end": 320
                         },
                         "flags": 32,
-                        "start": 309
+                        "start": 309,
+                        "end": 321
                     }
                 ],
                 "asyncKeyword": null,
@@ -1514,7 +1519,8 @@ foo((x, y) => {});
                                         "end": 362
                                     },
                                     "flags": 32,
-                                    "start": 359
+                                    "start": 359,
+                                    "end": 363
                                 },
                                 {
                                     "kind": 134299649,
@@ -1638,7 +1644,8 @@ foo((x, y) => {});
                                         "end": 390
                                     },
                                     "flags": 32,
-                                    "start": 387
+                                    "start": 387,
+                                    "end": 391
                                 },
                                 {
                                     "kind": 134299649,
@@ -1725,7 +1732,8 @@ foo((x, y) => {});
                                             "end": 408
                                         },
                                         "flags": 32,
-                                        "start": 406
+                                        "start": 406,
+                                        "end": 409
                                     },
                                     "optionalToken": null,
                                     "type": null,
@@ -2439,7 +2447,8 @@ foo((x, y) => {});
                             "end": 602
                         },
                         "flags": 32,
-                        "start": 594
+                        "start": 594,
+                        "end": 603
                     }
                 ],
                 "asyncKeyword": null,

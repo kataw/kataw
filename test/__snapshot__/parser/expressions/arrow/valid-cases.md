@@ -2683,7 +2683,8 @@ foo ? bar : baz => {};
                             "end": 935
                         },
                         "flags": 32,
-                        "start": 934
+                        "start": 934,
+                        "end": 936
                     }
                 ],
                 "asyncKeyword": null,
@@ -2741,7 +2742,8 @@ foo ? bar : baz => {};
                             "end": 950
                         },
                         "flags": 32,
-                        "start": 948
+                        "start": 948,
+                        "end": 951
                     }
                 ],
                 "asyncKeyword": null,
@@ -2791,7 +2793,8 @@ foo ? bar : baz => {};
                             "end": 962
                         },
                         "flags": 32,
-                        "start": 961
+                        "start": 961,
+                        "end": 963
                     },
                     {
                         "kind": 134299649,
@@ -4028,7 +4031,8 @@ foo ? bar : baz => {};
                                 "end": 1269
                             },
                             "flags": 32,
-                            "start": 1267
+                            "start": 1267,
+                            "end": 1270
                         },
                         "optionalToken": null,
                         "type": null,
@@ -4201,7 +4205,8 @@ foo ? bar : baz => {};
                             "end": 1309
                         },
                         "flags": 32,
-                        "start": 1303
+                        "start": 1303,
+                        "end": 1310
                     }
                 ],
                 "asyncKeyword": null,

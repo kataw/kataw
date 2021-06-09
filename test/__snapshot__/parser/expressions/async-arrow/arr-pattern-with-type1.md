@@ -80,7 +80,8 @@ async ([{x}: string]) =>  {};
                         "end": 17
                     },
                     "flags": 32,
-                    "start": 7
+                    "start": 7,
+                    "end": 18
                 }
             ],
             "asyncKeyword": {
@@ -180,7 +181,8 @@ async ([{x}: string]) =>  {};
                         "end": 48
                     },
                     "flags": 32,
-                    "start": 36
+                    "start": 36,
+                    "end": 49
                 }
             ],
             "asyncKeyword": {
@@ -301,7 +303,8 @@ async ([{x}: string]) =>  {};
                         "end": 87
                     },
                     "flags": 32,
-                    "start": 67
+                    "start": 67,
+                    "end": 88
                 }
             ],
             "asyncKeyword": {
@@ -401,7 +404,8 @@ async ([{x}: string]) =>  {};
                         "end": 118
                     },
                     "flags": 32,
-                    "start": 106
+                    "start": 106,
+                    "end": 119
                 }
             ],
             "asyncKeyword": {

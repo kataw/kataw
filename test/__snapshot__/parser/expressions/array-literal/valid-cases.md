@@ -3520,7 +3520,8 @@
                             "end": 612
                         },
                         "flags": 32,
-                        "start": 605
+                        "start": 605,
+                        "end": 613
                     }
                 ],
                 "asyncKeyword": null,

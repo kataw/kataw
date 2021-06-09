@@ -172,7 +172,8 @@
                             "end": 23
                         },
                         "flags": 32,
-                        "start": 19
+                        "start": 19,
+                        "end": 24
                     }
                 ],
                 "asyncKeyword": null,
@@ -305,7 +306,8 @@
                             "end": 61
                         },
                         "flags": 32,
-                        "start": 53
+                        "start": 53,
+                        "end": 62
                     }
                 ],
                 "asyncKeyword": null,
@@ -454,7 +456,8 @@
                             "end": 105
                         },
                         "flags": 32,
-                        "start": 94
+                        "start": 94,
+                        "end": 106
                     }
                 ],
                 "asyncKeyword": null,
@@ -705,7 +708,8 @@
                             "end": 162
                         },
                         "flags": 32,
-                        "start": 157
+                        "start": 157,
+                        "end": 163
                     }
                 ],
                 "asyncKeyword": null,
@@ -854,7 +858,8 @@
                             "end": 206
                         },
                         "flags": 32,
-                        "start": 197
+                        "start": 197,
+                        "end": 207
                     }
                 ],
                 "asyncKeyword": null,
@@ -1019,7 +1024,8 @@
                             "end": 256
                         },
                         "flags": 32,
-                        "start": 244
+                        "start": 244,
+                        "end": 257
                     }
                 ],
                 "asyncKeyword": null,

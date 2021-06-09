@@ -848,7 +848,8 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 233
                                     },
                                     "flags": 32,
-                                    "start": 231
+                                    "start": 231,
+                                    "end": 234
                                 }
                             ],
                             "asyncKeyword": null,
@@ -953,7 +954,8 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 259
                                     },
                                     "flags": 32,
-                                    "start": 254
+                                    "start": 254,
+                                    "end": 260
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1049,7 +1051,8 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 284
                                     },
                                     "flags": 32,
-                                    "start": 280
+                                    "start": 280,
+                                    "end": 285
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1160,7 +1163,8 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 312
                                     },
                                     "flags": 32,
-                                    "start": 305
+                                    "start": 305,
+                                    "end": 313
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1267,7 +1271,8 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 339
                                     },
                                     "flags": 32,
-                                    "start": 333
+                                    "start": 333,
+                                    "end": 340
                                 }
                             ],
                             "asyncKeyword": null,
@@ -1701,7 +1706,8 @@ var p10 = ([{ value, done }]) => { };
                                         "end": 512
                                     },
                                     "flags": 32,
-                                    "start": 496
+                                    "start": 496,
+                                    "end": 513
                                 }
                             ],
                             "asyncKeyword": null,

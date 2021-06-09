@@ -108,7 +108,8 @@ async ([x?: string, y: number]) =>  {};
                         "end": 29
                     },
                     "flags": 32,
-                    "start": 7
+                    "start": 7,
+                    "end": 30
                 }
             ],
             "asyncKeyword": {

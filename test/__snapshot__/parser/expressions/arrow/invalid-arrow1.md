@@ -243,7 +243,8 @@ y = (x => {}(0));
                             "end": 32
                         },
                         "flags": 32,
-                        "start": 19
+                        "start": 19,
+                        "end": 33
                     }
                 ],
                 "asyncKeyword": null,
@@ -341,7 +342,8 @@ y = (x => {}(0));
                             "end": 52
                         },
                         "flags": 32,
-                        "start": 43
+                        "start": 43,
+                        "end": 53
                     }
                 ],
                 "asyncKeyword": null,
@@ -442,7 +444,8 @@ y = (x => {}(0));
                                 "end": 72
                             },
                             "flags": 32,
-                            "start": 63
+                            "start": 63,
+                            "end": 73
                         },
                         "optionalToken": null,
                         "type": null,
@@ -571,7 +574,8 @@ y = (x => {}(0));
                             "end": 104
                         },
                         "flags": 32,
-                        "start": 87
+                        "start": 87,
+                        "end": 105
                     }
                 ],
                 "asyncKeyword": null,
@@ -770,7 +774,8 @@ y = (x => {}(0));
                             "end": 154
                         },
                         "flags": 32,
-                        "start": 141
+                        "start": 141,
+                        "end": 155
                     }
                 ],
                 "asyncKeyword": null,
@@ -871,7 +876,8 @@ y = (x => {}(0));
                                 "end": 178
                             },
                             "flags": 32,
-                            "start": 165
+                            "start": 165,
+                            "end": 179
                         },
                         "optionalToken": null,
                         "type": null,

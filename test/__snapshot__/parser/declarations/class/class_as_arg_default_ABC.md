@@ -265,7 +265,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                 "end": 75
                             },
                             "flags": 32,
-                            "start": 5
+                            "start": 5,
+                            "end": 76
                         }
                     ],
                     "asyncKeyword": null,
