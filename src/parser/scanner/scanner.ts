@@ -320,6 +320,34 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           let pos = parser.pos;
           while (pos < parser.end && !isLineTerminator(cp)) {
             cp = source.charCodeAt(++pos);
+            // kataw-ignore
+            if (
+              cp === Char.LowerK &&
+              source.charCodeAt(pos + 1) === Char.LowerA &&
+              source.charCodeAt(pos + 11) === Char.LowerE &&
+              source.charCodeAt(pos + 10) === Char.LowerR &&
+              source.charCodeAt(pos + 9) === Char.LowerO &&
+              source.charCodeAt(pos + 8) === Char.LowerN &&
+              source.charCodeAt(pos + 7) === Char.LowerG &&
+              source.charCodeAt(pos + 5) === Char.Hyphen &&
+              source.charCodeAt(pos + 6) === Char.LowerI &&
+              source.charCodeAt(pos + 2) === Char.LowerT &&
+              source.charCodeAt(pos + 3) === Char.LowerA &&
+              source.charCodeAt(pos + 4) === Char.LowerW
+            ) {
+              parser.nodeFlags |= NodeFlags.IgnoreNextLine;
+              // kataw-ignore-block
+              if (
+                source.charCodeAt(pos + 17) === Char.LowerK &&
+                source.charCodeAt(pos + 16) === Char.LowerC &&
+                source.charCodeAt(pos + 15) === Char.LowerO &&
+                source.charCodeAt(pos + 14) === Char.LowerL &&
+                source.charCodeAt(pos + 12) === Char.Hyphen &&
+                source.charCodeAt(pos + 13) === Char.LowerB
+              ) {
+                parser.nodeFlags |= NodeFlags.IgnoreNextLine | NodeFlags.IgnoreBlock;
+              }
+            }
           }
           parser.pos = pos;
           break;
