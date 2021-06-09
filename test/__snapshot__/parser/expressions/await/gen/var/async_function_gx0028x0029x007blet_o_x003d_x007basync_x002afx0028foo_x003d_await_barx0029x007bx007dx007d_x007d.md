@@ -182,7 +182,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                             "kind": 257,
                                                                                             "asyncKeyword": {
                                                                                                 "kind": 82031,
-                                                                                                "flags": 64,
+                                                                                                "flags": 352,
                                                                                                 "start": 67,
                                                                                                 "end": 72
                                                                                             },

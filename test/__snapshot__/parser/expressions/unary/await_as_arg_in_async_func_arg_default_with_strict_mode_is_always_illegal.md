@@ -131,7 +131,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 38,
                                 "end": 53
                             },
@@ -199,6 +199,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
 
 ```javascript
 ✖ `await` expression cannot be used in function parameters - start: 44, end: 50
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 39, end: 69
 
 ```
 

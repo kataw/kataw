@@ -269,7 +269,7 @@ function five<T>(this: T) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 79,
                 "end": 99
             },
@@ -385,7 +385,7 @@ function five<T>(this: T) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 117,
                 "end": 143
             },

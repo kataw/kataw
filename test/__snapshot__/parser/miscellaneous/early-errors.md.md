@@ -607,7 +607,7 @@ try {} catch(e) { for(var e of 0); };
                                     "generatorToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 1066,
                                         "end": 1069
                                     },
@@ -708,7 +708,7 @@ try {} catch(e) { for(var e of 0); };
                                     "getKeyword": null,
                                     "setKeyword": {
                                         "kind": 16499,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 1085,
                                         "end": 1088
                                     },
@@ -3286,7 +3286,7 @@ try {} catch(e) { for(var e of 0); };
                                                                     "generatorToken": null,
                                                                     "getKeyword": {
                                                                         "kind": 16498,
-                                                                        "flags": 64,
+                                                                        "flags": 96,
                                                                         "start": 3408,
                                                                         "end": 3411
                                                                     },
@@ -3516,7 +3516,7 @@ try {} catch(e) { for(var e of 0); };
                                                                     "getKeyword": null,
                                                                     "setKeyword": {
                                                                         "kind": 16499,
-                                                                        "flags": 64,
+                                                                        "flags": 96,
                                                                         "start": 3483,
                                                                         "end": 3486
                                                                     },

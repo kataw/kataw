@@ -55,7 +55,7 @@ x = {set this(this: string):number{}};
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -179,7 +179,7 @@ x = {set this(this: string):number{}};
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 37,
                                     "end": 40
                                 },

@@ -319,7 +319,7 @@ declare function four<T>(this: T): void;
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 117,
                 "end": 142
             },

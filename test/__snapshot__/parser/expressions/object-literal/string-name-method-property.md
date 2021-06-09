@@ -70,7 +70,7 @@ var x = {
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 20,
                                                 "end": 21
                                             },
@@ -110,7 +110,7 @@ var x = {
                                                 "start": 21,
                                                 "end": 49
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 19,
                                             "end": 49
                                         },

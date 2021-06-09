@@ -42,7 +42,7 @@ x({set [foo](b){}, set [bar](d){}});
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 3,
                                             "end": 6
                                         },
@@ -110,7 +110,7 @@ x({set [foo](b){}, set [bar](d){}});
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 22
                                         },

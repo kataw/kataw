@@ -191,7 +191,7 @@ type overloads2 = {
                 "start": 66,
                 "end": 70
             },
-            "flags": 16,
+            "flags": 17,
             "start": 44,
             "end": 70
         },
@@ -429,7 +429,7 @@ type overloads2 = {
                 "start": 135,
                 "end": 180
             },
-            "flags": 16,
+            "flags": 17,
             "start": 120,
             "end": 181
         },
@@ -554,7 +554,7 @@ type overloads2 = {
                 "start": 200,
                 "end": 245
             },
-            "flags": 16,
+            "flags": 17,
             "start": 181,
             "end": 246
         }

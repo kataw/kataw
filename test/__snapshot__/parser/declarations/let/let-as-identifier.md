@@ -928,7 +928,7 @@ L: let
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 291,
                                             "end": 295
                                         },
@@ -1157,7 +1157,7 @@ L: let
                 "start": 340,
                 "end": 341
             },
-            "flags": 16,
+            "flags": 17,
             "start": 338,
             "end": 342
         }

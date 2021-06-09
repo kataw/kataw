@@ -58,7 +58,7 @@
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 23
                                 },
@@ -256,7 +256,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 100,
                                     "end": 104
                                 },
@@ -365,7 +365,7 @@
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 145,
                                     "end": 149
                                 },
@@ -419,7 +419,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 164,
                                     "end": 168
                                 },
@@ -625,7 +625,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 250,
                                     "end": 254
                                 },

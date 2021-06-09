@@ -316,7 +316,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 34,
                             "start": 25,
                             "end": 83
                         },

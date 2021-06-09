@@ -79,7 +79,7 @@ var v = {
                                             "start": 28,
                                             "end": 30
                                         },
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 9,
                                         "end": 30
                                     },
@@ -133,7 +133,7 @@ var v = {
                                             "start": 105,
                                             "end": 122
                                         },
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 86,
                                         "end": 122
                                     },
@@ -158,7 +158,7 @@ var v = {
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 163,
                                                 "end": 164
                                             },
@@ -177,7 +177,7 @@ var v = {
                                                 "start": 164,
                                                 "end": 168
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 162,
                                             "end": 168
                                         },
@@ -191,7 +191,7 @@ var v = {
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 97,
                                             "start": 169,
                                             "end": 184
                                         },
@@ -211,7 +211,7 @@ var v = {
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 1056,
+                                                "flags": 1057,
                                                 "start": 187,
                                                 "end": 188
                                             },
@@ -263,7 +263,7 @@ var v = {
                                                 "start": 188,
                                                 "end": 213
                                             },
-                                            "flags": 1056,
+                                            "flags": 1057,
                                             "start": 186,
                                             "end": 213
                                         },
@@ -278,7 +278,7 @@ var v = {
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 64,
+                                            "flags": 97,
                                             "start": 229,
                                             "end": 244
                                         },
@@ -306,7 +306,7 @@ var v = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 608,
+                                                "flags": 609,
                                                 "start": 247,
                                                 "end": 253
                                             },
@@ -372,7 +372,7 @@ var v = {
                                                 "start": 253,
                                                 "end": 279
                                             },
-                                            "flags": 544,
+                                            "flags": 545,
                                             "start": 246,
                                             "end": 279
                                         },

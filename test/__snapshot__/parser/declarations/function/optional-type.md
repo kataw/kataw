@@ -90,7 +90,7 @@ function f([]?, {}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 10,
                 "end": 19
             },

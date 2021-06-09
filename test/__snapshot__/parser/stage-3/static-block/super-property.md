@@ -246,8 +246,8 @@ class C extends B {
                                     "start": 60,
                                     "end": 86
                                 },
-                                "flags": 16,
-                                "start": 49,
+                                "flags": 49,
+                                "start": 0,
                                 "end": 90
                             },
                             "flags": 32,

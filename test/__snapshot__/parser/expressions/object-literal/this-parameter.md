@@ -113,7 +113,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 17,
                                                 "end": 30
                                             },
@@ -132,7 +132,7 @@ let one = {
                                                 "start": 30,
                                                 "end": 33
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 16,
                                             "end": 33
                                         },
@@ -199,7 +199,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 41,
                                                 "end": 57
                                             },
@@ -218,7 +218,7 @@ let one = {
                                                 "start": 57,
                                                 "end": 60
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 40,
                                             "end": 60
                                         },
@@ -300,7 +300,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 34,
+                                                "flags": 35,
                                                 "start": 68,
                                                 "end": 87
                                             },
@@ -319,7 +319,7 @@ let one = {
                                                 "start": 87,
                                                 "end": 90
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 67,
                                             "end": 90
                                         },
@@ -417,7 +417,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 98,
+                                                "flags": 99,
                                                 "start": 98,
                                                 "end": 123
                                             },
@@ -436,7 +436,7 @@ let one = {
                                                 "start": 123,
                                                 "end": 126
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 97,
                                             "end": 126
                                         },
@@ -527,7 +527,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 137,
                                                 "end": 145
                                             },
@@ -546,7 +546,7 @@ let one = {
                                                 "start": 145,
                                                 "end": 148
                                             },
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 133,
                                             "end": 148
                                         },

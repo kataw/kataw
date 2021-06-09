@@ -176,7 +176,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 13,
                 "end": 45
             },

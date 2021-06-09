@@ -285,7 +285,7 @@ var o3: O3 = (0: mixed); // ok
                 "start": 80,
                 "end": 92
             },
-            "flags": 16,
+            "flags": 17,
             "start": 63,
             "end": 93
         },
@@ -606,7 +606,7 @@ var o3: O3 = (0: mixed); // ok
                 "start": 215,
                 "end": 228
             },
-            "flags": 16,
+            "flags": 17,
             "start": 205,
             "end": 229
         },

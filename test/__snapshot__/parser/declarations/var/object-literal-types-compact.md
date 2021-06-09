@@ -277,7 +277,7 @@ type T4 = { foo: number, bar: string, ... };
                 "start": 28,
                 "end": 65
             },
-            "flags": 16,
+            "flags": 17,
             "start": 18,
             "end": 65
         },
@@ -359,7 +359,7 @@ type T4 = { foo: number, bar: string, ... };
                 "start": 75,
                 "end": 96
             },
-            "flags": 16,
+            "flags": 17,
             "start": 65,
             "end": 97
         },
@@ -463,7 +463,7 @@ type T4 = { foo: number, bar: string, ... };
                 "start": 107,
                 "end": 141
             },
-            "flags": 16,
+            "flags": 17,
             "start": 97,
             "end": 142
         }

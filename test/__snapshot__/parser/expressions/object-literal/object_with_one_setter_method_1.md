@@ -42,7 +42,7 @@ wrap({set foo(a){}});
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 9
                                         },

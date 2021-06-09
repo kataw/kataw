@@ -52,7 +52,7 @@ var obj = {
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 353,
                                             "start": 11,
                                             "end": 19
                                         },
@@ -74,7 +74,7 @@ var obj = {
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 288,
+                                                "flags": 289,
                                                 "start": 27,
                                                 "end": 28
                                             },
@@ -131,7 +131,7 @@ var obj = {
                                                 "start": 28,
                                                 "end": 52
                                             },
-                                            "flags": 288,
+                                            "flags": 289,
                                             "start": 26,
                                             "end": 52
                                         },

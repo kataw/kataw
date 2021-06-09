@@ -314,7 +314,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 32,
+                                                                                    "flags": 34,
                                                                                     "start": 82,
                                                                                     "end": 112
                                                                                 },

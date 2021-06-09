@@ -59,7 +59,7 @@ ar O = { async method(x = await 1) { return x; } };
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 8,
                                     "end": 14
                                 },

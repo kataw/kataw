@@ -225,7 +225,7 @@ type B = Foo<
                 "start": 68,
                 "end": 70
             },
-            "flags": 16,
+            "flags": 17,
             "start": 33,
             "end": 71
         },
@@ -334,7 +334,7 @@ type B = Foo<
                 "start": 115,
                 "end": 117
             },
-            "flags": 16,
+            "flags": 17,
             "start": 71,
             "end": 118
         },
@@ -460,7 +460,7 @@ type B = Foo<
                 "start": 128,
                 "end": 167
             },
-            "flags": 16,
+            "flags": 17,
             "start": 118,
             "end": 168
         },
@@ -586,7 +586,7 @@ type B = Foo<
                 "start": 178,
                 "end": 217
             },
-            "flags": 16,
+            "flags": 17,
             "start": 168,
             "end": 218
         }

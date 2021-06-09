@@ -34,7 +34,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 5
                                 },
@@ -129,7 +129,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 26
                                 },
@@ -224,7 +224,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 42,
                                     "end": 45
                                 },
@@ -383,7 +383,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 79,
                                     "end": 82
                                 },

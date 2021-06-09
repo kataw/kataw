@@ -153,7 +153,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 18,
                 "end": 68
             },

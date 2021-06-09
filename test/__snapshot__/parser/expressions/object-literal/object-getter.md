@@ -256,7 +256,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 38,
                                             "end": 42
                                         },
@@ -359,7 +359,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 59,
                                             "end": 62
                                         },
@@ -462,7 +462,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 79,
                                             "end": 82
                                         },
@@ -521,7 +521,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 93,
                                             "end": 97
                                         },
@@ -624,7 +624,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 114,
                                             "end": 117
                                         },
@@ -721,7 +721,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 132,
                                             "end": 135
                                         },
@@ -774,7 +774,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 144,
                                             "end": 148
                                         },
@@ -871,7 +871,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 163,
                                             "end": 166
                                         },
@@ -968,7 +968,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 183,
                                             "end": 186
                                         },
@@ -1065,7 +1065,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 199,
                                             "end": 202
                                         },
@@ -1162,7 +1162,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 222,
                                             "end": 225
                                         },
@@ -1259,7 +1259,7 @@ x({get 0o4567(){}});
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 242,
                                             "end": 245
                                         },

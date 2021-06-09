@@ -49,7 +49,7 @@
                     "start": 1,
                     "end": 1
                 },
-                "flags": 16,
+                "flags": 16400,
                 "start": 1,
                 "end": 1
             },

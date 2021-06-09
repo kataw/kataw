@@ -72,7 +72,7 @@ async function foo(a = {async bar() { await b }}) {};
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 24,
                                             "end": 29
                                         },
@@ -164,7 +164,7 @@ async function foo(a = {async bar() { await b }}) {};
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 18,
                 "end": 49
             },

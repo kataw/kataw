@@ -101,7 +101,7 @@ function f(a = async x => {}) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 10,
                 "end": 29
             },

@@ -411,7 +411,7 @@ var stringArr:Array<string> = ['a','b'];
                 "start": 137,
                 "end": 146
             },
-            "flags": 16,
+            "flags": 17,
             "start": 119,
             "end": 147
         },

@@ -130,7 +130,7 @@ function *g() { function f(x = x + yield y) {}; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 26,
                                 "end": 43
                             },

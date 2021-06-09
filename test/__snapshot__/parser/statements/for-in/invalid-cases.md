@@ -1004,7 +1004,7 @@ for ({}.bar = x in obj);
                                         "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 260,
                                             "end": 264
                                         },
@@ -4100,7 +4100,7 @@ for ({}.bar = x in obj);
                                                     "getKeyword": null,
                                                     "setKeyword": {
                                                         "kind": 16499,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 1121,
                                                         "end": 1125
                                                     },
@@ -4335,7 +4335,7 @@ for ({}.bar = x in obj);
                                                 "getKeyword": null,
                                                 "setKeyword": {
                                                     "kind": 16499,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 1175,
                                                     "end": 1179
                                                 },

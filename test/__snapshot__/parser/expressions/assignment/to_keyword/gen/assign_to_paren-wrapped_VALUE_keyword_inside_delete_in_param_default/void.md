@@ -127,7 +127,7 @@ function *f(x = delete ((void) = f)) {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 11,
                 "end": 36
             },

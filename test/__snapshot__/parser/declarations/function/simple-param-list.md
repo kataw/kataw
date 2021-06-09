@@ -90,7 +90,7 @@ function x({x}) { "use strict"; }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 10,
                 "end": 17
             },
@@ -170,7 +170,7 @@ function x({x}) { "use strict"; }
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 47,
                 "end": 53
             },
@@ -377,17 +377,13 @@ function x({x}) { "use strict"; }
 
 ```javascript
 
-function x(x = y) {}
-function x(...x) {}
-function x([x]) {}
-function x({
-  x
-}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 11, end: 33
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 48, end: 69
+
 ```
 

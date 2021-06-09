@@ -63,7 +63,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -174,7 +174,7 @@
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 34
                                 },
@@ -278,7 +278,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 52,
                                     "end": 56
                                 },
@@ -512,7 +512,7 @@
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 108,
                                     "end": 111
                                 },
@@ -593,7 +593,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 126,
                                     "end": 129
                                 },
@@ -682,7 +682,7 @@
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 145,
                                     "end": 148
                                 },
@@ -793,7 +793,7 @@
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 169,
                                     "end": 173
                                 },
@@ -896,7 +896,7 @@
                                 "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 193,
                                     "end": 197
                                 },

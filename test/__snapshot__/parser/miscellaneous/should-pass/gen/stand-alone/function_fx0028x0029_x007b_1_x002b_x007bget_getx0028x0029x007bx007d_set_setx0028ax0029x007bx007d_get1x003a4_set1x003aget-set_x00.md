@@ -80,7 +80,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                 "generatorToken": null,
                                                 "getKeyword": {
                                                     "kind": 16498,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 20,
                                                     "end": 23
                                                 },
@@ -134,7 +134,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                 "getKeyword": null,
                                                 "setKeyword": {
                                                     "kind": 16499,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 32,
                                                     "end": 36
                                                 },

@@ -294,7 +294,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "kind": 257,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 64,
+                                    "flags": 352,
                                     "start": 76,
                                     "end": 81
                                 },

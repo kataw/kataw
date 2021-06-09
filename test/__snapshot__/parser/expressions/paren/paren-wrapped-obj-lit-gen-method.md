@@ -352,7 +352,7 @@ x({*foo(){}});
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 53,
                                             "end": 58
                                         },
@@ -545,7 +545,7 @@ x({*foo(){}});
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 91,
                                             "end": 97
                                         },
@@ -642,7 +642,7 @@ x({*foo(){}});
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 113,
                                             "end": 118
                                         },
@@ -739,7 +739,7 @@ x({*foo(){}});
                                         "kind": 257,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 64,
+                                            "flags": 352,
                                             "start": 136,
                                             "end": 141
                                         },

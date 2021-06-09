@@ -132,7 +132,7 @@ function* g( x = function() { async(yield) }) {};
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 11,
                 "end": 45
             },

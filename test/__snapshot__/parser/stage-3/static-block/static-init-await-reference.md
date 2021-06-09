@@ -129,7 +129,7 @@ class C {
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 34,
                                                             "start": 34,
                                                             "end": 58
                                                         },
@@ -213,8 +213,8 @@ class C {
                                     "start": 20,
                                     "end": 94
                                 },
-                                "flags": 16,
-                                "start": 9,
+                                "flags": 9,
+                                "start": 0,
                                 "end": 98
                             },
                             "flags": 32,

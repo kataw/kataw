@@ -96,7 +96,7 @@ wrap({[foo](){}, set [bar](e){}});
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 20
                                         },

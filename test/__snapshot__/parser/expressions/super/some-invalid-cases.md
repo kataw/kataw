@@ -1970,7 +1970,7 @@ let x = { foo(){ super(); } };
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 34,
                         "start": 541,
                         "end": 554
                     },
@@ -2332,7 +2332,7 @@ let x = { foo(){ super(); } };
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 632,
                 "end": 645
             },
