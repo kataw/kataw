@@ -3,9 +3,15 @@
 ## Input
 
 `````js
-function *f() {
-  yield *= x;
-}
+function f1() { yield / 1 /g }
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
 `````
 
 ## Output
@@ -27,18 +33,13 @@ function *f() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
-                "kind": 67143222,
-                "flags": 64,
-                "start": 8,
-                "end": 10
-            },
+            "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "text": "f",
-                "rawText": "f",
+                "text": "f1",
+                "rawText": "f1",
                 "flags": 96,
-                "start": 10,
+                "start": 8,
                 "end": 11
             },
             "formalParameters": {
@@ -58,34 +59,47 @@ function *f() {
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 125,
+                                "kind": 198,
                                 "left": {
-                                    "kind": 229,
-                                    "yieldKeyword": {
-                                        "kind": 8454253,
-                                        "flags": 65,
+                                    "kind": 198,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
                                         "start": 15,
+                                        "end": 21
+                                    },
+                                    "operatorToken": {
+                                        "kind": 35640,
+                                        "flags": 64,
+                                        "start": 21,
                                         "end": 23
                                     },
-                                    "delegate": false,
-                                    "asteriskToken": null,
-                                    "expression": null,
+                                    "right": {
+                                        "kind": 201392130,
+                                        "text": 1,
+                                        "rawText": "1",
+                                        "flags": 96,
+                                        "start": 23,
+                                        "end": 25
+                                    },
                                     "flags": 32,
                                     "start": 15,
-                                    "end": 23
+                                    "end": 25
                                 },
                                 "operatorToken": {
-                                    "kind": 4132,
+                                    "kind": 35640,
                                     "flags": 64,
-                                    "start": 23,
-                                    "end": 26
+                                    "start": 25,
+                                    "end": 27
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "g",
+                                    "rawText": "g",
                                     "flags": 96,
-                                    "start": 26,
+                                    "start": 27,
                                     "end": 28
                                 },
                                 "flags": 32,
@@ -94,30 +108,30 @@ function *f() {
                             },
                             "flags": 16,
                             "start": 15,
-                            "end": 29
+                            "end": 28
                         }
                     ],
-                    "flags": 33,
+                    "flags": 32,
                     "start": 15,
-                    "end": 29
+                    "end": 28
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 31
+                "end": 30
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 272,
+            "flags": 16,
             "start": 0,
-            "end": 31
+            "end": 30
         }
     ],
     "isModule": false,
-    "source": "function *f() {\n  yield *= x;\n}",
+    "source": "function f1() { yield / 1 /g }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 31
+    "end": 30
 }
 ```
 
@@ -125,12 +139,14 @@ function *f() {
 
 ```javascript
 
+function f1() {
+  yield / 1 / g;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 23, end: 26
-
+✔ No errors
 ```
 

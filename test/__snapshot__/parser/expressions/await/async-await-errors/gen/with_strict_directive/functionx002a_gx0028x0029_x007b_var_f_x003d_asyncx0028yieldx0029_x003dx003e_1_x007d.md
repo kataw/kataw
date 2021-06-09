@@ -98,23 +98,44 @@
                                                 "end": 53
                                             },
                                             "typeParameters": null,
-                                            "parameters": [
-                                                {
-                                                    "kind": 229,
-                                                    "yieldKeyword": {
-                                                        "kind": 8454253,
-                                                        "flags": 64,
-                                                        "start": 44,
-                                                        "end": 49
-                                                    },
-                                                    "delegate": false,
-                                                    "asteriskToken": null,
-                                                    "expression": null,
+                                            "parameters": {
+                                                "kind": 131,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "async",
+                                                    "rawText": "async",
+                                                    "flags": 96,
+                                                    "start": 37,
+                                                    "end": 43
+                                                },
+                                                "argumentList": {
+                                                    "kind": 256,
+                                                    "elements": [
+                                                        {
+                                                            "kind": 229,
+                                                            "yieldKeyword": {
+                                                                "kind": 8454253,
+                                                                "flags": 64,
+                                                                "start": 44,
+                                                                "end": 49
+                                                            },
+                                                            "delegate": false,
+                                                            "asteriskToken": null,
+                                                            "expression": null,
+                                                            "flags": 32,
+                                                            "start": 44,
+                                                            "end": 49
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 44,
-                                                    "end": 49
-                                                }
-                                            ],
+                                                    "start": 37,
+                                                    "end": 37
+                                                },
+                                                "flags": 268435488,
+                                                "start": 37,
+                                                "end": 50
+                                            },
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
@@ -130,7 +151,7 @@
                                                 "start": 53,
                                                 "end": 55
                                             },
-                                            "flags": 288,
+                                            "flags": 32,
                                             "start": 37,
                                             "end": 55
                                         },
@@ -177,7 +198,7 @@
 ```javascript
 
 function * g() {
-  var f = async ( yield) =>  1;
+  var f = async async( yield) =>  1;
 }
 ```
 

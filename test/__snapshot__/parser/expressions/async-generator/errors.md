@@ -7568,8 +7568,10 @@ async function * gen() {class C extends await { }}
 ✖ `yield` expression cannot be used in function parameters - start: 734, end: 739
 ✖ `await` expression cannot be used in function parameters - start: 792, end: 797
 ✖ `await` expression cannot be used in function parameters - start: 850, end: 855
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 892, end: 894
 ✖ Identifier expected - start: 928, end: 930
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 928, end: 930
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 974, end: 976
 ✖ Identifier expected - start: 1020, end: 1022
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1020, end: 1022
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1058, end: 1059
@@ -7602,8 +7604,10 @@ async function * gen() {class C extends await { }}
 ✖ 'await' cannot be used as an identifier here - start: 2121, end: 2126
 ✖ 'yield' cannot be used as an identifier here - start: 2170, end: 2176
 ✖ 'await' cannot be used as an identifier here - start: 2223, end: 2229
+✖ The left-hand side must be a variable or a property access. - start: 2274, end: 2276
 ✖ Identifier expected - start: 2314, end: 2315
 ✖ The left-hand side must be a variable or a property access. - start: 2315, end: 2317
+✖ The left-hand side must be a variable or a property access. - start: 2350, end: 2362
 ✖ Identifier expected - start: 2408, end: 2409
 ✖ The left-hand side must be a variable or a property access. - start: 2399, end: 2411
 ✖ 'yield' cannot be used as an identifier here - start: 2509, end: 2514
