@@ -5367,7 +5367,8 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 4955
                                         },
                                         "flags": 32,
-                                        "start": 4945
+                                        "start": 4945,
+                                        "end": 4956
                                     }
                                 ],
                                 "asyncKeyword": null,

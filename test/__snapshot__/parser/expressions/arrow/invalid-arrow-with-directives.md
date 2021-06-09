@@ -469,7 +469,8 @@
                             "end": 181
                         },
                         "flags": 32,
-                        "start": 175
+                        "start": 175,
+                        "end": 182
                     }
                 ],
                 "asyncKeyword": null,
@@ -559,7 +560,8 @@
                             "end": 216
                         },
                         "flags": 32,
-                        "start": 206
+                        "start": 206,
+                        "end": 217
                     }
                 ],
                 "asyncKeyword": null,
@@ -647,7 +649,8 @@
                             "end": 250
                         },
                         "flags": 32,
-                        "start": 241
+                        "start": 241,
+                        "end": 251
                     }
                 ],
                 "asyncKeyword": null,

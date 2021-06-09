@@ -108,7 +108,8 @@ f = ([xCls = class X {}]) => {}
                                 "end": 23
                             },
                             "flags": 32,
-                            "start": 5
+                            "start": 5,
+                            "end": 24
                         }
                     ],
                     "asyncKeyword": null,

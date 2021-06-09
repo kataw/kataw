@@ -60,7 +60,8 @@
                                             "end": 7
                                         },
                                         "flags": 32,
-                                        "start": 5
+                                        "start": 5,
+                                        "end": 8
                                     },
                                     "optionalToken": null,
                                     "type": null,

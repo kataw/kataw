@@ -183,7 +183,8 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                                 "end": 72
                                                                             },
                                                                             "flags": 32,
-                                                                            "start": 70
+                                                                            "start": 70,
+                                                                            "end": 73
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,

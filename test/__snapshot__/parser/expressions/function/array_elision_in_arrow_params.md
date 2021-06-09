@@ -75,7 +75,8 @@ f = ([[,] = g()]) => {};
                                                 "end": 8
                                             },
                                             "flags": 32,
-                                            "start": 6
+                                            "start": 6,
+                                            "end": 9
                                         },
                                         "optionalToken": null,
                                         "type": null,
@@ -112,7 +113,8 @@ f = ([[,] = g()]) => {};
                                 "end": 15
                             },
                             "flags": 32,
-                            "start": 5
+                            "start": 5,
+                            "end": 16
                         }
                     ],
                     "asyncKeyword": null,

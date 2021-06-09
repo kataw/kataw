@@ -103,7 +103,8 @@
                             "end": 9
                         },
                         "flags": 32,
-                        "start": 1
+                        "start": 1,
+                        "end": 10
                     }
                 ],
                 "asyncKeyword": null,
@@ -219,7 +220,8 @@
                             "end": 30
                         },
                         "flags": 32,
-                        "start": 20
+                        "start": 20,
+                        "end": 31
                     }
                 ],
                 "asyncKeyword": null,

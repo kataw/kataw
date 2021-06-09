@@ -187,7 +187,8 @@
                                                                                                                                                                                                                                                                 "end": 29
                                                                                                                                                                                                                                                             },
                                                                                                                                                                                                                                                             "flags": 32,
-                                                                                                                                                                                                                                                            "start": 20
+                                                                                                                                                                                                                                                            "start": 20,
+                                                                                                                                                                                                                                                            "end": 30
                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                     ],
                                                                                                                                                                                                                                                     "trailingComma": false,
@@ -196,7 +197,8 @@
                                                                                                                                                                                                                                                     "end": 30
                                                                                                                                                                                                                                                 },
                                                                                                                                                                                                                                                 "flags": 32,
-                                                                                                                                                                                                                                                "start": 19
+                                                                                                                                                                                                                                                "start": 19,
+                                                                                                                                                                                                                                                "end": 31
                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                         ],
                                                                                                                                                                                                                                         "trailingComma": false,
@@ -205,7 +207,8 @@
                                                                                                                                                                                                                                         "end": 31
                                                                                                                                                                                                                                     },
                                                                                                                                                                                                                                     "flags": 32,
-                                                                                                                                                                                                                                    "start": 18
+                                                                                                                                                                                                                                    "start": 18,
+                                                                                                                                                                                                                                    "end": 32
                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                             ],
                                                                                                                                                                                                                             "trailingComma": false,
@@ -214,7 +217,8 @@
                                                                                                                                                                                                                             "end": 32
                                                                                                                                                                                                                         },
                                                                                                                                                                                                                         "flags": 32,
-                                                                                                                                                                                                                        "start": 17
+                                                                                                                                                                                                                        "start": 17,
+                                                                                                                                                                                                                        "end": 33
                                                                                                                                                                                                                     }
                                                                                                                                                                                                                 ],
                                                                                                                                                                                                                 "trailingComma": false,
@@ -223,7 +227,8 @@
                                                                                                                                                                                                                 "end": 33
                                                                                                                                                                                                             },
                                                                                                                                                                                                             "flags": 32,
-                                                                                                                                                                                                            "start": 16
+                                                                                                                                                                                                            "start": 16,
+                                                                                                                                                                                                            "end": 34
                                                                                                                                                                                                         }
                                                                                                                                                                                                     ],
                                                                                                                                                                                                     "trailingComma": false,
@@ -232,7 +237,8 @@
                                                                                                                                                                                                     "end": 34
                                                                                                                                                                                                 },
                                                                                                                                                                                                 "flags": 32,
-                                                                                                                                                                                                "start": 15
+                                                                                                                                                                                                "start": 15,
+                                                                                                                                                                                                "end": 35
                                                                                                                                                                                             }
                                                                                                                                                                                         ],
                                                                                                                                                                                         "trailingComma": false,
@@ -241,7 +247,8 @@
                                                                                                                                                                                         "end": 35
                                                                                                                                                                                     },
                                                                                                                                                                                     "flags": 32,
-                                                                                                                                                                                    "start": 14
+                                                                                                                                                                                    "start": 14,
+                                                                                                                                                                                    "end": 36
                                                                                                                                                                                 }
                                                                                                                                                                             ],
                                                                                                                                                                             "trailingComma": false,
@@ -250,7 +257,8 @@
                                                                                                                                                                             "end": 36
                                                                                                                                                                         },
                                                                                                                                                                         "flags": 32,
-                                                                                                                                                                        "start": 13
+                                                                                                                                                                        "start": 13,
+                                                                                                                                                                        "end": 37
                                                                                                                                                                     }
                                                                                                                                                                 ],
                                                                                                                                                                 "trailingComma": false,
@@ -259,7 +267,8 @@
                                                                                                                                                                 "end": 37
                                                                                                                                                             },
                                                                                                                                                             "flags": 32,
-                                                                                                                                                            "start": 12
+                                                                                                                                                            "start": 12,
+                                                                                                                                                            "end": 38
                                                                                                                                                         }
                                                                                                                                                     ],
                                                                                                                                                     "trailingComma": false,
@@ -268,7 +277,8 @@
                                                                                                                                                     "end": 38
                                                                                                                                                 },
                                                                                                                                                 "flags": 32,
-                                                                                                                                                "start": 11
+                                                                                                                                                "start": 11,
+                                                                                                                                                "end": 39
                                                                                                                                             }
                                                                                                                                         ],
                                                                                                                                         "trailingComma": false,
@@ -277,7 +287,8 @@
                                                                                                                                         "end": 39
                                                                                                                                     },
                                                                                                                                     "flags": 32,
-                                                                                                                                    "start": 10
+                                                                                                                                    "start": 10,
+                                                                                                                                    "end": 40
                                                                                                                                 }
                                                                                                                             ],
                                                                                                                             "trailingComma": false,
@@ -286,7 +297,8 @@
                                                                                                                             "end": 40
                                                                                                                         },
                                                                                                                         "flags": 32,
-                                                                                                                        "start": 9
+                                                                                                                        "start": 9,
+                                                                                                                        "end": 41
                                                                                                                     }
                                                                                                                 ],
                                                                                                                 "trailingComma": false,
@@ -295,7 +307,8 @@
                                                                                                                 "end": 41
                                                                                                             },
                                                                                                             "flags": 32,
-                                                                                                            "start": 8
+                                                                                                            "start": 8,
+                                                                                                            "end": 42
                                                                                                         }
                                                                                                     ],
                                                                                                     "trailingComma": false,
@@ -304,7 +317,8 @@
                                                                                                     "end": 42
                                                                                                 },
                                                                                                 "flags": 32,
-                                                                                                "start": 7
+                                                                                                "start": 7,
+                                                                                                "end": 43
                                                                                             }
                                                                                         ],
                                                                                         "trailingComma": false,
@@ -313,7 +327,8 @@
                                                                                         "end": 43
                                                                                     },
                                                                                     "flags": 32,
-                                                                                    "start": 6
+                                                                                    "start": 6,
+                                                                                    "end": 44
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
@@ -322,7 +337,8 @@
                                                                             "end": 44
                                                                         },
                                                                         "flags": 32,
-                                                                        "start": 5
+                                                                        "start": 5,
+                                                                        "end": 45
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
@@ -331,7 +347,8 @@
                                                                 "end": 45
                                                             },
                                                             "flags": 32,
-                                                            "start": 4
+                                                            "start": 4,
+                                                            "end": 46
                                                         }
                                                     ],
                                                     "trailingComma": false,
@@ -340,7 +357,8 @@
                                                     "end": 46
                                                 },
                                                 "flags": 32,
-                                                "start": 3
+                                                "start": 3,
+                                                "end": 47
                                             }
                                         ],
                                         "trailingComma": false,
@@ -349,7 +367,8 @@
                                         "end": 47
                                     },
                                     "flags": 32,
-                                    "start": 2
+                                    "start": 2,
+                                    "end": 48
                                 }
                             ],
                             "trailingComma": false,
@@ -358,7 +377,8 @@
                             "end": 48
                         },
                         "flags": 32,
-                        "start": 1
+                        "start": 1,
+                        "end": 49
                     }
                 ],
                 "asyncKeyword": null,

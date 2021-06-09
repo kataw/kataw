@@ -122,7 +122,8 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                             "end": 54
                                                         },
                                                         "flags": 32,
-                                                        "start": 52
+                                                        "start": 52,
+                                                        "end": 55
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,

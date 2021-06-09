@@ -115,7 +115,8 @@
                             "end": 16
                         },
                         "flags": 32,
-                        "start": 1
+                        "start": 1,
+                        "end": 17
                     }
                 ],
                 "asyncKeyword": null,

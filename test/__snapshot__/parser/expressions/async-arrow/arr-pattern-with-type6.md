@@ -89,7 +89,8 @@ async ([{x}: string], y, z: string) =>  {};
                         "end": 19
                     },
                     "flags": 32,
-                    "start": 7
+                    "start": 7,
+                    "end": 20
                 },
                 {
                     "kind": 134299649,

@@ -158,7 +158,8 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                 "end": 40
                             },
                             "flags": 32,
-                            "start": 5
+                            "start": 5,
+                            "end": 41
                         }
                     ],
                     "asyncKeyword": null,

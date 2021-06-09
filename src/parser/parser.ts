@@ -4243,7 +4243,7 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         convertArrowParameter(parser, node.elementList),
         node.flags,
         node.start,
-        node.number
+        node.end
       );
     case SyntaxKind.ElementList:
       const listElements = [];

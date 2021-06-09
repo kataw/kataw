@@ -330,7 +330,8 @@
                                                         "end": 102
                                                     },
                                                     "flags": 32,
-                                                    "start": 96
+                                                    "start": 96,
+                                                    "end": 103
                                                 }
                                             ],
                                             "asyncKeyword": null,
