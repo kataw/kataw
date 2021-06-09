@@ -111,9 +111,9 @@ If you want a `1:1` copy of the actual source code, you can do a "*slice*" from 
 
 There also exist 2 unique comments that can be used to ignore the next line or an entire block.  
 
-- `kataw-ignore`
+- `// kataw-ignore`
 
-- `kataw-ignore-block`
+- `// kataw-ignore-block`
 
 To verify if the node or block should be ignored you can use either `kataw.shouldIgnoreNextLine(node)` or `kataw.shouldIgnoreBlock(node);`
 
