@@ -1581,7 +1581,7 @@ export function parseExpressionOrLabelledStatement(
   ownLabels: any
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
-  let expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+  const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
   // 'let' followed by '[' means a lexical declaration, which should not appear here.
   if (token === SyntaxKind.LetKeyword && parser.token === SyntaxKind.LeftBracket) {
@@ -3313,7 +3313,7 @@ function paresSpreadPropertyArgument(
     let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
     let destructible = 0;
 
-    let token = parser.token;
+    const token = parser.token;
     argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
     if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightBrace) {
@@ -4130,7 +4130,7 @@ function parseArraySpreadArgument(
 
     let destructible = 0;
 
-    let token = parser.token;
+    const token = parser.token;
     argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
 
     if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightBracket) {
@@ -6184,7 +6184,7 @@ function parseFunctionStatementList(
 function parseFormalParameterList(parser: ParserState, context: Context, scope: ScopeState): FormalParameterList {
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
-  let nodeFlags = NodeFlags.ExpressionNode;
+  const nodeFlags = NodeFlags.ExpressionNode;
   const curpPos = parser.curPos;
   if (
     consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses)

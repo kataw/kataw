@@ -182,7 +182,9 @@ export {
   isSemicolon,
   isCallExpression,
   isMemberExpression,
-  isTemplateLiteral
+  isTemplateLiteral,
+  shouldIgnoreNextLine,
+  shouldIgnoreBlock
 } from './parser/common';
 
 /**
