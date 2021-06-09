@@ -3634,8 +3634,8 @@ function parsePrefixUpdateExpression(
  * @param parser Parser object
  * @param context  Context masks
  */
-export function isPropertyWithPrivateFieldKey(expr: any): boolean {
-  return !expr.expression ? false : expr.expression.kind === SyntaxKind.PrivateIdentifier;
+export function isPropertyWithPrivateFieldKey(node: any): boolean {
+  return node.expression && node.expression.kind === SyntaxKind.PrivateIdentifier;
 }
 
 // UnaryExpression :
@@ -3655,20 +3655,18 @@ function parseUnaryExpression(
 ): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
-  if (operandToken.flags & 0b00000000000000000110000000000000) {
+  if (
+    operandToken.flags & 0b00000000000000000110000000000000 ||
+    LeftHandSideContext & LeftHandSide.DisallowClassExtends
+  ) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-      curPos,
-      parser.pos
-    );
-  }
-  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Expression_expected],
+      diagnosticMap[
+        operandToken.flags & 0b00000000000000000110000000000000
+          ? DiagnosticCode.Keywords_cannot_contain_escape_characters
+          : DiagnosticCode.Expression_expected
+      ],
       curPos,
       parser.pos
     );
@@ -3688,8 +3686,8 @@ function parseUnaryExpression(
     );
   }
 
-  if (context & Context.Strict && operandToken.kind === SyntaxKind.DeleteKeyword) {
-    if (expression.kind === SyntaxKind.Identifier) {
+  if (operandToken.kind === SyntaxKind.DeleteKeyword) {
+    if (context & Context.Strict && expression.kind === SyntaxKind.Identifier) {
       // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
       // UnaryExpression is a direct reference to a variable, function argument, or function name
       parser.onError(
@@ -4273,7 +4271,6 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
     case SyntaxKind.ObjectLiteral:
       return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.start, node.end);
     case SyntaxKind.PropertyDefinitionList:
-      //createBindingPropertyList()
       const bindingProperty = [];
       const properties = node.properties;
       for (let i = 0, n = properties.length; i < n; ++i) {
@@ -8451,22 +8448,29 @@ export function parseAwaitExpression(
   LeftHandSideContext: LeftHandSide
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
-  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends)
-    return parseIdentifierReference(parser, context, DiagnosticCode.Identifier_expected);
-  if (parser.nodeFlags & 0b00000000000000000110000000000000) {
+
+  if (
+    (context & Context.Module && (context & Context.TopLevel) == 0) ||
+    parser.nodeFlags & 0b00000000000000000110000000000000
+  ) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._await_keyword_must_not_contain_escaped_characters],
+      diagnosticMap[
+        parser.nodeFlags & 0b00000000000000000110000000000000
+          ? DiagnosticCode._await_keyword_must_not_contain_escaped_characters
+          : DiagnosticCode._await_is_only_allowed_within_async_functions_and_at_the_top_levels_of_modules
+      ],
       pos,
-      parser.curPos
+      parser.pos
     );
   }
-  if (context & Context.Module && (context & Context.TopLevel) == 0) {
+
+  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._await_is_only_allowed_within_async_functions_and_at_the_top_levels_of_modules],
+      diagnosticMap[DiagnosticCode.Expression_expected],
       pos,
       parser.pos
     );
@@ -8483,24 +8487,18 @@ export function parseAwaitExpression(
   }
   const awaitKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
   const expression = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
-  if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate) {
-    // Unary expressions as the left operand of an exponentation expression must be disambiguated with parentheses
+
+  // 'await' is a unary operator according to the spec, even though it's treated
+  // specially in the parser.
+  if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate || inNewExpression) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        DiagnosticCode
-          .Unary_expressions_as_the_left_operand_of_an_exponentation_expression_must_be_disambiguated_with_parentheses
+        inNewExpression
+          ? DiagnosticCode.Expression_expected
+          : DiagnosticCode.Unary_expressions_as_the_left_operand_of_an_exponentation_expression_must_be_disambiguated_with_parentheses
       ],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  if (inNewExpression) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Expression_expected],
       parser.curPos,
       parser.pos
     );

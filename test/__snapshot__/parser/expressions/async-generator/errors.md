@@ -7494,28 +7494,46 @@ async function * gen() {class C extends await { }}
                                         "end": 3378
                                     },
                                     "expression": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
+                                        "kind": 208,
+                                        "awaitKeyword": {
+                                            "kind": 82196,
+                                            "flags": 64,
+                                            "start": 3378,
+                                            "end": 3384
+                                        },
+                                        "expression": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 3386,
+                                                "end": 3386
+                                            },
+                                            "flags": 48,
+                                            "start": 3384,
+                                            "end": 3388
+                                        },
+                                        "flags": 32,
                                         "start": 3378,
-                                        "end": 3384
+                                        "end": 3388
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
                                     "start": 3378,
-                                    "end": 3384
+                                    "end": 3388
                                 },
                                 "body": {
                                     "kind": 262,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 3386,
-                                    "end": 3386
+                                    "start": 3370,
+                                    "end": 3370
                                 },
                                 "flags": 3370,
                                 "start": 32,
-                                "end": 3388
+                                "end": 3370
                             },
                             "flags": 16,
                             "start": 3363,
@@ -7658,6 +7676,8 @@ async function * gen() {class C extends await { }}
 ✖ Declaration or statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3327, end: 3335
 ✖ Missing an opening brace - '{ - start: 3337, end: 3338
+✖ Expression expected - start: 3378, end: 3384
+✖ Missing an opening brace - '{ - start: 3388, end: 3389
 
 ```
 

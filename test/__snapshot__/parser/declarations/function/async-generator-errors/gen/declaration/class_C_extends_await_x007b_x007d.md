@@ -92,28 +92,46 @@ async function * gen() {class C extends await { }}
                                         "end": 39
                                     },
                                     "expression": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
+                                        "kind": 208,
+                                        "awaitKeyword": {
+                                            "kind": 82196,
+                                            "flags": 64,
+                                            "start": 39,
+                                            "end": 45
+                                        },
+                                        "expression": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 47,
+                                                "end": 47
+                                            },
+                                            "flags": 48,
+                                            "start": 45,
+                                            "end": 49
+                                        },
+                                        "flags": 32,
                                         "start": 39,
-                                        "end": 45
+                                        "end": 49
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
                                     "start": 39,
-                                    "end": 45
+                                    "end": 49
                                 },
                                 "body": {
                                     "kind": 262,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 47,
-                                    "end": 47
+                                    "start": 31,
+                                    "end": 31
                                 },
                                 "flags": 31,
                                 "start": 32,
-                                "end": 49
+                                "end": 31
                             },
                             "flags": 16,
                             "start": 24,
@@ -148,14 +166,13 @@ async function * gen() {class C extends await { }}
 
 ```javascript
 
-async function * gen() {
-  class C  {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 39, end: 45
+✖ Missing an opening brace - '{ - start: 49, end: 50
+
 ```
 

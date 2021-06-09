@@ -99,28 +99,46 @@
                                                                 "end": 34
                                                             },
                                                             "expression": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
+                                                                "kind": 208,
+                                                                "awaitKeyword": {
+                                                                    "kind": 82196,
+                                                                    "flags": 64,
+                                                                    "start": 34,
+                                                                    "end": 40
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 220,
+                                                                    "propertyList": {
+                                                                        "kind": 218,
+                                                                        "properties": [],
+                                                                        "trailingComma": false,
+                                                                        "flags": 16,
+                                                                        "start": 42,
+                                                                        "end": 42
+                                                                    },
+                                                                    "flags": 48,
+                                                                    "start": 40,
+                                                                    "end": 44
+                                                                },
+                                                                "flags": 32,
                                                                 "start": 34,
-                                                                "end": 40
+                                                                "end": 44
                                                             },
                                                             "typeParameter": null,
                                                             "flags": 16,
                                                             "start": 34,
-                                                            "end": 40
+                                                            "end": 44
                                                         },
                                                         "body": {
                                                             "kind": 262,
                                                             "elements": [],
                                                             "flags": 32,
-                                                            "start": 42,
-                                                            "end": 42
+                                                            "start": 26,
+                                                            "end": 26
                                                         },
                                                         "flags": 26,
                                                         "start": 32,
-                                                        "end": 44
+                                                        "end": 26
                                                     },
                                                     "flags": 16,
                                                     "start": 19,
@@ -175,14 +193,13 @@
 
 ```javascript
 
-({ * async gen() {
-    class C  {}
-  } });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 34, end: 40
+✖ Missing an opening brace - '{ - start: 44, end: 45
+
 ```
 

@@ -117,7 +117,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'await' keyword must not contain escaped characters - start: 19, end: 19
+✖ 'await' keyword must not contain escaped characters - start: 19, end: 30
 
 ```
 

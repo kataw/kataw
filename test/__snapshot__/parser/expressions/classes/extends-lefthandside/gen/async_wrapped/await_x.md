@@ -88,58 +88,43 @@ async function p(){
                                         "end": 37
                                     },
                                     "expression": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
+                                        "kind": 208,
+                                        "awaitKeyword": {
+                                            "kind": 82196,
+                                            "flags": 64,
+                                            "start": 37,
+                                            "end": 43
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 43,
+                                            "end": 45
+                                        },
+                                        "flags": 32,
                                         "start": 37,
-                                        "end": 43
+                                        "end": 45
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
                                     "start": 37,
-                                    "end": 43
+                                    "end": 45
                                 },
                                 "body": {
                                     "kind": 262,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 29,
-                                    "end": 29
+                                    "start": 47,
+                                    "end": 47
                                 },
                                 "flags": 29,
                                 "start": 32,
-                                "end": 29
+                                "end": 48
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 43
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 43,
-                                "end": 45
-                            },
-                            "flags": 16,
-                            "start": 43,
-                            "end": 45
-                        },
-                        {
-                            "kind": 124,
-                            "block": {
-                                "kind": 249,
-                                "statements": [],
-                                "flags": 16,
-                                "start": 47,
-                                "end": 47
-                            },
-                            "flags": 16,
-                            "start": 45,
                             "end": 48
                         }
                     ],
@@ -176,8 +161,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 43, end: 45
-✖ Expected a `;` - start: 45, end: 47
+✖ Expression expected - start: 37, end: 43
 
 ```
 

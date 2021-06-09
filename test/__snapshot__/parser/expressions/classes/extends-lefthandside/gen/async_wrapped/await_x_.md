@@ -90,17 +90,29 @@ x; {}
                                         "end": 37
                                     },
                                     "expression": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
+                                        "kind": 208,
+                                        "awaitKeyword": {
+                                            "kind": 82196,
+                                            "flags": 64,
+                                            "start": 37,
+                                            "end": 43
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 43,
+                                            "end": 45
+                                        },
+                                        "flags": 32,
                                         "start": 37,
-                                        "end": 43
+                                        "end": 45
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
                                     "start": 37,
-                                    "end": 43
+                                    "end": 45
                                 },
                                 "body": {
                                     "kind": 262,
@@ -115,20 +127,12 @@ x; {}
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 43
+                            "end": 45
                         },
                         {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 43,
-                                "end": 45
-                            },
+                            "kind": 168,
                             "flags": 16,
-                            "start": 43,
+                            "start": 45,
                             "end": 46
                         },
                         {
@@ -178,7 +182,8 @@ x; {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 43, end: 45
+✖ Expression expected - start: 37, end: 43
+✖ Missing an opening brace - '{ - start: 45, end: 46
 
 ```
 
