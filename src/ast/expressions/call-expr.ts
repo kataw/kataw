@@ -10,6 +10,7 @@ export interface CallExpression extends SyntaxNode {
 export function createCallExpression(
   expression: ExpressionNode,
   argumentList: ArgumentList,
+  flags: NodeFlags,
   start: number,
   end: number
 ): CallExpression {
@@ -17,7 +18,7 @@ export function createCallExpression(
     kind: SyntaxKind.CallExpression,
     expression,
     argumentList,
-    flags: NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+    flags,
     start,
     end
   };

@@ -62,7 +62,7 @@ async(0,...a)
                 "start": 0,
                 "end": 12
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 0,
             "end": 13
         }
@@ -80,7 +80,7 @@ async(0,...a)
 
 ```javascript
 
-async(0, ...a)
+
 ```
 
 ### Diagnostics

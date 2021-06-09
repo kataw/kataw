@@ -81,7 +81,7 @@ function *f() { yield
                                                 "start": 23,
                                                 "end": 23
                                             },
-                                            "flags": 48,
+                                            "flags": 49,
                                             "start": 21,
                                             "end": 24
                                         },

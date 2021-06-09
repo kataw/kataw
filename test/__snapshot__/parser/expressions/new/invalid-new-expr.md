@@ -41,7 +41,7 @@ new foo ++;
                     "end": 8
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 33,
                 "start": 0,
                 "end": 8
             },
@@ -81,7 +81,7 @@ new foo ++;
                     "end": 18
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 33,
                 "start": 13,
                 "end": 18
             },
@@ -134,7 +134,7 @@ new foo ++;
                     "end": 36
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 33,
                 "start": 25,
                 "end": 36
             },
@@ -169,7 +169,7 @@ new foo ++;
                         "end": 46
                     },
                     "argumentList": null,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 37,
                     "end": 46
                 },

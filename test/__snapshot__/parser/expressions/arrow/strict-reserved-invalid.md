@@ -280,7 +280,7 @@ new package => x
                                     "end": 80
                                 },
                                 "argumentList": null,
-                                "flags": 32,
+                                "flags": 33,
                                 "start": 47,
                                 "end": 80
                             },

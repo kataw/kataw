@@ -50,7 +50,7 @@ async (yield x)
                 "start": 0,
                 "end": 0
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 0,
             "end": 15
         }
@@ -68,7 +68,7 @@ async (yield x)
 
 ```javascript
 
-async(yield, x)
+
 ```
 
 ### Diagnostics

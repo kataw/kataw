@@ -737,7 +737,7 @@ foo((x, y) => {});
                     "end": 172
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 33,
                 "start": 156,
                 "end": 172
             },

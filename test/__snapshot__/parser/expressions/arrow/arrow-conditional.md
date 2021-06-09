@@ -161,7 +161,7 @@ a ? b : (): string => {}
                         "start": 33,
                         "end": 33
                     },
-                    "flags": 268435488,
+                    "flags": 0,
                     "start": 33,
                     "end": 42
                 },

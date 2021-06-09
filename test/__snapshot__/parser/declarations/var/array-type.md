@@ -362,7 +362,7 @@ var a: (?number)[];
                     "start": 103,
                     "end": 103
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 101,
                 "end": 104
             },

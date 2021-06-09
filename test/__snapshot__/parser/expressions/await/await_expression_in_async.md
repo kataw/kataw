@@ -92,7 +92,7 @@ async function f(){ async(await x); }
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 268435488,
+                            "flags": 0,
                             "start": 19,
                             "end": 34
                         },
@@ -132,7 +132,7 @@ async function f(){ async(await x); }
 ```javascript
 
 async function f() {
-  async(await x)
+
 
 }
 ```

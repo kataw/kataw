@@ -106,7 +106,7 @@ var f = async(x = await 1) => x;
                                     "start": 7,
                                     "end": 25
                                 },
-                                "flags": 268435488,
+                                "flags": 2,
                                 "start": 7,
                                 "end": 26
                             },
@@ -156,7 +156,7 @@ var f = async(x = await 1) => x;
 
 ```javascript
 
-var f = async async(x = await, 1) =>  x;
+var f = async () =>  x;
 ```
 
 ### Diagnostics

@@ -124,7 +124,7 @@ function* wrap() {
                                 "start": 18,
                                 "end": 18
                             },
-                            "flags": 268435488,
+                            "flags": 2,
                             "start": 18,
                             "end": 41
                         }
@@ -164,7 +164,7 @@ function* wrap() {
 ```javascript
 
 function * wrap() {
-  async(a = yield b)
+
 }
 
 ```

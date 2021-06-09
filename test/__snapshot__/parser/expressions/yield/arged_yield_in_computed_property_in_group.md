@@ -150,7 +150,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                                 "start": 14,
                                 "end": 14
                             },
-                            "flags": 268435488,
+                            "flags": 2,
                             "start": 14,
                             "end": 41
                         }
@@ -184,7 +184,7 @@ function *g(){ async (x = {[yield y]: 1}) }
 ```javascript
 
 function * g() {
-  async(x = { [yield y]: 1 })
+
 }
 ```
 

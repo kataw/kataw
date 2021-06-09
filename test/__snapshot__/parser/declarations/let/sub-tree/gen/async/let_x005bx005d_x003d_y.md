@@ -53,7 +53,7 @@ async let
                             "start": 11,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 33,
                         "start": 9,
                         "end": 12
                     },

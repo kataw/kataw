@@ -39,7 +39,7 @@ while (a);
                     "start": 8,
                     "end": 8
                 },
-                "flags": 48,
+                "flags": 49,
                 "start": 6,
                 "end": 9
             },

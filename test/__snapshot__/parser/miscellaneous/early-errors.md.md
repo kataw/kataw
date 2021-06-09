@@ -926,7 +926,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1120,
                         "end": 1121
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 1118,
                     "end": 1122
                 },
@@ -1204,7 +1204,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1462,
                         "end": 1463
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 1460,
                     "end": 1464
                 },
@@ -1341,7 +1341,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1752,
                         "end": 1761
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 1480,
                     "end": 1762
                 },
@@ -1423,7 +1423,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1770,
                         "end": 1776
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 1768,
                     "end": 1777
                 },
@@ -1490,7 +1490,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1955,
                         "end": 1959
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 1783,
                     "end": 1960
                 },
@@ -1570,7 +1570,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1968,
                         "end": 1976
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 1966,
                     "end": 1977
                 },

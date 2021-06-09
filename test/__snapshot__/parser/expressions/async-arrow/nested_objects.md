@@ -102,7 +102,7 @@ async ({ident: {x: y}})
                 "start": 0,
                 "end": 0
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 0,
             "end": 23
         }
@@ -120,7 +120,7 @@ async ({ident: {x: y}})
 
 ```javascript
 
-async({ ident: { x: y } })
+
 ```
 
 ### Diagnostics

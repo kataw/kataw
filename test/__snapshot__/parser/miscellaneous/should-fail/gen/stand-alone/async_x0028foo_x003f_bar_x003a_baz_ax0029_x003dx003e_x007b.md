@@ -87,7 +87,7 @@ async (foo ? bar : baz, a) => {
                 "start": 0,
                 "end": 0
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 0,
             "end": 26
         },

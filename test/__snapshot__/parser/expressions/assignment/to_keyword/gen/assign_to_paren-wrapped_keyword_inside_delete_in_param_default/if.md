@@ -88,7 +88,7 @@ async (x = delete ((if) = f)) => {}
                 "start": 0,
                 "end": 0
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 0,
             "end": 20
         },

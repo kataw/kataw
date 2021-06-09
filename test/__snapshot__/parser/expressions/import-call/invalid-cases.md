@@ -1465,7 +1465,7 @@ new import(x);
                                 "start": 403,
                                 "end": 409
                             },
-                            "flags": 48,
+                            "flags": 49,
                             "start": 400,
                             "end": 410
                         }
@@ -1475,7 +1475,7 @@ new import(x);
                     "start": 392,
                     "end": 410
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 389,
                 "end": 410
             },
@@ -2071,7 +2071,7 @@ new import(x);
                     "end": 592
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 33,
                 "start": 576,
                 "end": 592
             },

@@ -100,7 +100,7 @@ async(a, [q].z = y);
                 "start": 0,
                 "end": 13
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 0,
             "end": 14
         },
@@ -143,7 +143,7 @@ async(a, [q].z = y);
                 "start": 15,
                 "end": 25
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 15,
             "end": 26
         },
@@ -200,7 +200,7 @@ async(a, [q].z = y);
                 "start": 27,
                 "end": 40
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 27,
             "end": 41
         },
@@ -277,7 +277,7 @@ async(a, [q].z = y);
                 "start": 42,
                 "end": 59
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 42,
             "end": 60
         },
@@ -354,7 +354,7 @@ async(a, [q].z = y);
                 "start": 61,
                 "end": 79
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 61,
             "end": 80
         },
@@ -451,7 +451,7 @@ async(a, [q].z = y);
                 "start": 81,
                 "end": 103
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 81,
             "end": 104
         },
@@ -528,7 +528,7 @@ async(a, [q].z = y);
                 "start": 105,
                 "end": 119
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 105,
             "end": 120
         },
@@ -587,7 +587,7 @@ async(a, [q].z = y);
                 "start": 121,
                 "end": 138
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 121,
             "end": 139
         },
@@ -638,7 +638,7 @@ async(a, [q].z = y);
                 "start": 140,
                 "end": 153
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 140,
             "end": 154
         },
@@ -703,7 +703,7 @@ async(a, [q].z = y);
                 "start": 155,
                 "end": 171
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 155,
             "end": 172
         },
@@ -788,7 +788,7 @@ async(a, [q].z = y);
                 "start": 173,
                 "end": 193
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 173,
             "end": 194
         },
@@ -873,7 +873,7 @@ async(a, [q].z = y);
                 "start": 195,
                 "end": 216
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 195,
             "end": 217
         },
@@ -978,7 +978,7 @@ async(a, [q].z = y);
                 "start": 218,
                 "end": 243
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 218,
             "end": 244
         },
@@ -1063,7 +1063,7 @@ async(a, [q].z = y);
                 "start": 245,
                 "end": 262
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 245,
             "end": 263
         },
@@ -1112,7 +1112,7 @@ async(a, [q].z = y);
                 "start": 264,
                 "end": 264
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 264,
             "end": 282
         },
@@ -1153,7 +1153,7 @@ async(a, [q].z = y);
                 "start": 283,
                 "end": 283
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 283,
             "end": 297
         },
@@ -1194,7 +1194,7 @@ async(a, [q].z = y);
                 "start": 298,
                 "end": 298
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 298,
             "end": 315
         },
@@ -1235,7 +1235,7 @@ async(a, [q].z = y);
                 "start": 316,
                 "end": 316
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 316,
             "end": 337
         },
@@ -1276,7 +1276,7 @@ async(a, [q].z = y);
                 "start": 338,
                 "end": 338
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 338,
             "end": 360
         },
@@ -1317,7 +1317,7 @@ async(a, [q].z = y);
                 "start": 361,
                 "end": 361
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 361,
             "end": 387
         },
@@ -1358,7 +1358,7 @@ async(a, [q].z = y);
                 "start": 388,
                 "end": 388
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 388,
             "end": 406
         },
@@ -1430,7 +1430,7 @@ async(a, [q].z = y);
                 "start": 407,
                 "end": 407
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 407,
             "end": 423
         },
@@ -1502,7 +1502,7 @@ async(a, [q].z = y);
                 "start": 424,
                 "end": 424
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 424,
             "end": 439
         },
@@ -1574,7 +1574,7 @@ async(a, [q].z = y);
                 "start": 440,
                 "end": 440
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 440,
             "end": 456
         },
@@ -1649,7 +1649,7 @@ async(a, [q].z = y);
                 "start": 457,
                 "end": 457
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 457,
             "end": 471
         },
@@ -1741,7 +1741,7 @@ async(a, [q].z = y);
                 "start": 472,
                 "end": 472
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 472,
             "end": 491
         },
@@ -1827,7 +1827,7 @@ async(a, [q].z = y);
                 "start": 492,
                 "end": 492
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 492,
             "end": 509
         },
@@ -1907,7 +1907,7 @@ async(a, [q].z = y);
                 "start": 510,
                 "end": 510
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 510,
             "end": 529
         },
@@ -1987,7 +1987,7 @@ async(a, [q].z = y);
                 "start": 530,
                 "end": 530
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 530,
             "end": 548
         },
@@ -2067,7 +2067,7 @@ async(a, [q].z = y);
                 "start": 549,
                 "end": 549
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 549,
             "end": 568
         },
@@ -2150,7 +2150,7 @@ async(a, [q].z = y);
                 "start": 569,
                 "end": 569
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 569,
             "end": 586
         },
@@ -2250,7 +2250,7 @@ async(a, [q].z = y);
                 "start": 587,
                 "end": 587
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 587,
             "end": 609
         },
@@ -2344,7 +2344,7 @@ async(a, [q].z = y);
                 "start": 610,
                 "end": 610
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 610,
             "end": 630
         },
@@ -2368,39 +2368,39 @@ async(a, [q].z = y);
 
 ```javascript
 
-async((x), y)
-async((x))
-async()
-async( = z)
-async((x) ? b : c)
-async((x) = a ? b : c)
-async((x) ? b : c)
-async(q, (x), y)
-async(q, (x))
-async(q, )
-async(q,  = z)
-async(q, (x) ? b : c)
-async(q, (x) = a ? b : c)
-async(q, (x) ? b : c)
-async(..., y)
-async(...)
-async(...)
-async(...)
-async(...)
-async(...)
-async(...)
-async([q] = y)
-async([q] / y)
-async([q] ** y)
-async([q](x))
-async([q] = y / z)
-async([q].z = y)
-async(a, [q] = y)
-async(a, [q] / y)
-async(a, [q] ** y)
-async(a, [q](x))
-async(a, [q] = y / z)
-async(a, [q].z = y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
 

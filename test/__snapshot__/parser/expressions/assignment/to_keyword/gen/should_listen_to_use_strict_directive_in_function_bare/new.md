@@ -83,7 +83,7 @@ function f() {
                                         "end": 36
                                     },
                                     "argumentList": null,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 30,
                                     "end": 36
                                 },

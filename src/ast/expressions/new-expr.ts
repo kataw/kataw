@@ -16,6 +16,7 @@ export function createNewExpression(
   newKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
   argumentList: ArgumentList | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): NewExpression {
@@ -24,7 +25,7 @@ export function createNewExpression(
     newKeyword,
     expression,
     argumentList,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

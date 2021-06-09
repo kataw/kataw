@@ -139,7 +139,7 @@
                                 "start": 33,
                                 "end": 33
                             },
-                            "flags": 268435488,
+                            "flags": 2,
                             "start": 33,
                             "end": 61
                         },
@@ -179,7 +179,7 @@
 ```javascript
 
 async function a() {
-  async([v] = await bar)
+
 
 }
 ```

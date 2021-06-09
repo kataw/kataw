@@ -99,7 +99,7 @@ var foo = async ([...(foo)]);
                                 "start": 9,
                                 "end": 9
                             },
-                            "flags": 268435488,
+                            "flags": 2,
                             "start": 9,
                             "end": 28
                         },

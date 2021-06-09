@@ -61,7 +61,7 @@ async (a, async, c);
                 "start": 0,
                 "end": 0
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 0,
             "end": 19
         },
@@ -85,7 +85,7 @@ async (a, async, c);
 
 ```javascript
 
-async(a, async, c)
+
 
 ```
 

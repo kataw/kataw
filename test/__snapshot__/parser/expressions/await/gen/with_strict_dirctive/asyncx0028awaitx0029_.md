@@ -54,7 +54,7 @@
                 "start": 13,
                 "end": 13
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 13,
             "end": 26
         },
@@ -78,7 +78,7 @@
 
 ```javascript
 
-async(await)
+
 
 ```
 

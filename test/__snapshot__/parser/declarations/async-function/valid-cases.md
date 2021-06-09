@@ -491,7 +491,7 @@ new async function() { await 0 }.x
                                     "start": 135,
                                     "end": 167
                                 },
-                                "flags": 268435488,
+                                "flags": 268435489,
                                 "start": 104,
                                 "end": 168
                             },
@@ -575,7 +575,7 @@ new async function() { await 0 }.x
                                 "start": 170,
                                 "end": 198
                             },
-                            "flags": 268435488,
+                            "flags": 268435489,
                             "start": 104,
                             "end": 199
                         },
@@ -674,7 +674,7 @@ new async function() { await 0 }.x
                             "start": 201,
                             "end": 236
                         },
-                        "flags": 268435488,
+                        "flags": 268435489,
                         "start": 104,
                         "end": 237
                     },
@@ -766,7 +766,7 @@ new async function() { await 0 }.x
                         "start": 239,
                         "end": 270
                     },
-                    "flags": 268435488,
+                    "flags": 268435489,
                     "start": 104,
                     "end": 271
                 },
@@ -860,7 +860,7 @@ new async function() { await 0 }.x
                     "end": 304
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 33,
                 "start": 271,
                 "end": 304
             },
@@ -952,7 +952,7 @@ new async function() { await 0 }.x
                         "end": 337
                     },
                     "argumentList": null,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 304,
                     "end": 337
                 },

@@ -80,7 +80,7 @@ export async\nfunction async() { await 1; }
                 "start": 22,
                 "end": 22
             },
-            "flags": 268435488,
+            "flags": 0,
             "start": 22,
             "end": 30
         },

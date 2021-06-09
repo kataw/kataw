@@ -570,7 +570,7 @@ class Test {
                                                             "start": 172,
                                                             "end": 194
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 33,
                                                         "start": 164,
                                                         "end": 195
                                                     },

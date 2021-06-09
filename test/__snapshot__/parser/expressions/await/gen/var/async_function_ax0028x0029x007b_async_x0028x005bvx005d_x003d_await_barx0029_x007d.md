@@ -224,7 +224,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                     "start": 58,
                                                                     "end": 58
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 2,
                                                                 "start": 58,
                                                                 "end": 86
                                                             },
@@ -298,7 +298,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 var await;
 var f = (async function () {
     async function a() {
-      async([v] = await bar)
+
 
     }
   });

@@ -129,7 +129,7 @@ async ([(a.b) = [] ] = []);
                 "start": 0,
                 "end": 0
             },
-            "flags": 268435488,
+            "flags": 2,
             "start": 0,
             "end": 26
         },
@@ -153,7 +153,7 @@ async ([(a.b) = [] ] = []);
 
 ```javascript
 
-async([(a.b) = []] = [])
+
 
 ```
 

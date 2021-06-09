@@ -150,7 +150,7 @@ var await; var f = (async function() { async(await); });
                                                     "start": 38,
                                                     "end": 38
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 0,
                                                 "start": 38,
                                                 "end": 51
                                             },

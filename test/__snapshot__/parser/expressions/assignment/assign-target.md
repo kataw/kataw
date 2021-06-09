@@ -181,7 +181,7 @@ x[y] = 0;
                         "start": 27,
                         "end": 28
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 25,
                     "end": 29
                 },
@@ -230,7 +230,7 @@ x[y] = 0;
                         "start": 36,
                         "end": 37
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 34,
                     "end": 38
                 },
@@ -299,7 +299,7 @@ x[y] = 0;
                         "start": 45,
                         "end": 50
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 43,
                     "end": 51
                 },
@@ -360,7 +360,7 @@ x[y] = 0;
                         "start": 58,
                         "end": 62
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 56,
                     "end": 63
                 },
