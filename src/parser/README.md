@@ -83,7 +83,8 @@ Multiple API methods exist to get info from the CST nodes
 | `isOctalIntegerLiteral`              | True if the node is an octal integer literal. e.g. `0777` |
 | `isBinaryIntegerLiteral`              | True if the node is an binary integer literal. e.g. `0b0110010000000000` |
 | `hexIntegerLiteral`              | True if the node is an hex integer literal. e.g. `0x00000000` |
-| `isUnterminated`              | True if the node is is unterminated. String or template literal. |
+| `shouldIgnoreNextLine`       | True if the next node should not be linted or formatted |
+| `shouldIgnoreBlock`       | True if the next block should not be linted or formatted. . e.g. `{ x = y; }` |
 | `containsInvalidEscape`              | True if the node contains invalid escape. e.g. `\uhello` |
 | `hasErrors`              | True if the node contains errors |
 | `isLexical`              | True if the node is a lexical declaration |

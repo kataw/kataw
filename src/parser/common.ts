@@ -450,6 +450,14 @@ export function isMemberExpression(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.IsMemberExpression) === NodeFlags.IsMemberExpression;
 }
 
+export function shouldIgnoreNextLine(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.IgnoreNextLine) === NodeFlags.IgnoreNextLine;
+}
+
+export function shouldIgnoreBlock(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.IgnoreBlock) === NodeFlags.IgnoreBlock;
+}
+
 export function addVarOrBlock(
   parser: ParserState,
   context: Context,
