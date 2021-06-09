@@ -50,7 +50,7 @@
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "00",
-                    "flags": 131168,
+                    "flags": 96,
                     "start": 6,
                     "end": 9
                 },

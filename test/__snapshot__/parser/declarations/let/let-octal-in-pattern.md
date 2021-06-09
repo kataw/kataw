@@ -49,7 +49,7 @@
                                             "kind": 201392130,
                                             "text": 123,
                                             "rawText": "0123",
-                                            "flags": 131168,
+                                            "flags": 96,
                                             "start": 19,
                                             "end": 23
                                         },
@@ -68,7 +68,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 131104,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 26
                             },
@@ -118,7 +118,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Octal literals are not allowed in strict mode - start: 19, end: 23
+✖ Octal literals are not allowed in strict mode - start: 19, end: 20
 
 ```
 

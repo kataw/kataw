@@ -70,7 +70,7 @@
                 "kind": 201392130,
                 "text": 2739128,
                 "rawText": "0O12345670",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 12,
                 "end": 23
             },
@@ -84,7 +84,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0o0",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 25,
                 "end": 29
             },
@@ -98,7 +98,7 @@
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "0o1",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 31,
                 "end": 35
             },
@@ -112,7 +112,7 @@
                 "kind": 201392130,
                 "text": 2,
                 "rawText": "0o2",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 37,
                 "end": 41
             },
@@ -126,7 +126,7 @@
                 "kind": 201392130,
                 "text": 3,
                 "rawText": "0o3",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 43,
                 "end": 47
             },
@@ -140,7 +140,7 @@
                 "kind": 201392130,
                 "text": 4,
                 "rawText": "0o4",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 49,
                 "end": 53
             },
@@ -154,7 +154,7 @@
                 "kind": 201392130,
                 "text": 5,
                 "rawText": "0o5",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 55,
                 "end": 59
             },
@@ -168,7 +168,7 @@
                 "kind": 201392130,
                 "text": 6,
                 "rawText": "0o6",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 61,
                 "end": 65
             },
@@ -182,7 +182,7 @@
                 "kind": 201392130,
                 "text": 7,
                 "rawText": "0o7",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 67,
                 "end": 71
             },
@@ -196,7 +196,7 @@
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "0o01",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 73,
                 "end": 78
             },
@@ -210,7 +210,7 @@
                 "kind": 201392130,
                 "text": 10,
                 "rawText": "0o12",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 80,
                 "end": 85
             },
@@ -224,7 +224,7 @@
                 "kind": 201392130,
                 "text": 19,
                 "rawText": "0o23",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 87,
                 "end": 92
             },
@@ -238,7 +238,7 @@
                 "kind": 201392130,
                 "text": 28,
                 "rawText": "0o3_4",
-                "flags": 327777,
+                "flags": 327776,
                 "start": 94,
                 "end": 100
             },
@@ -252,7 +252,7 @@
                 "kind": 201392130,
                 "text": 37,
                 "rawText": "0o45",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 102,
                 "end": 107
             },
@@ -266,7 +266,7 @@
                 "kind": 201392130,
                 "text": 46,
                 "rawText": "0o56",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 109,
                 "end": 114
             },
@@ -280,7 +280,7 @@
                 "kind": 201392130,
                 "text": 55,
                 "rawText": "0o6_7",
-                "flags": 327777,
+                "flags": 327776,
                 "start": 116,
                 "end": 122
             },
@@ -294,7 +294,7 @@
                 "kind": 201392130,
                 "text": 56,
                 "rawText": "0o70",
-                "flags": 262241,
+                "flags": 262240,
                 "start": 124,
                 "end": 129
             },
@@ -316,13 +316,29 @@
 
 ```javascript
 
+0o12345670;
+0o12345670;
+0o0;
+0o1;
+0o2;
+0o3;
+0o4;
+0o5;
+0o6;
+0o7;
+0o01;
+0o12;
+0o23;
+0o3_4;
+0o45;
+0o56;
+0o6_7;
+0o70;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Numeric separators are not allowed at the end of numeric literals - start: 94, end: 95
-✖ Numeric separators are not allowed at the end of numeric literals - start: 116, end: 117
-
+✔ No errors
 ```
 
