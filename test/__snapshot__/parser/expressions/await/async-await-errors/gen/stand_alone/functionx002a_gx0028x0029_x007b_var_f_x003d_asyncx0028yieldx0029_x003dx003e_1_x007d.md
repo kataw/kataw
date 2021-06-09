@@ -123,7 +123,7 @@ function* g() { var f = async(yield) => 1; }
                                                     "start": 23,
                                                     "end": 23
                                                 },
-                                                "flags": 0,
+                                                "flags": 268435488,
                                                 "start": 23,
                                                 "end": 36
                                             },
@@ -189,7 +189,7 @@ function* g() { var f = async(yield) => 1; }
 ```javascript
 
 function * g() {
-  var f = async () =>  1;
+  var f = async async( yield) =>  1;
 }
 ```
 

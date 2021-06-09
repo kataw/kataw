@@ -97,7 +97,7 @@ async({c=3} = {})
                 "start": 0,
                 "end": 0
             },
-            "flags": 2,
+            "flags": 268435490,
             "start": 0,
             "end": 17
         }
@@ -115,7 +115,7 @@ async({c=3} = {})
 
 ```javascript
 
-
+async({ c = 3 } = {})
 ```
 
 ### Diagnostics

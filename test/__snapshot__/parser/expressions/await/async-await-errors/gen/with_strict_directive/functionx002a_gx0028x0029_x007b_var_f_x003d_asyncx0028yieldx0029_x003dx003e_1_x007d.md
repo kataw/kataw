@@ -132,7 +132,7 @@
                                                     "start": 37,
                                                     "end": 37
                                                 },
-                                                "flags": 0,
+                                                "flags": 268435488,
                                                 "start": 37,
                                                 "end": 50
                                             },
@@ -198,7 +198,7 @@
 ```javascript
 
 function * g() {
-  var f = async () =>  1;
+  var f = async async( yield) =>  1;
 }
 ```
 

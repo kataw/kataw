@@ -115,7 +115,7 @@
                                     "start": 21,
                                     "end": 39
                                 },
-                                "flags": 2,
+                                "flags": 268435490,
                                 "start": 21,
                                 "end": 40
                             },
@@ -165,7 +165,7 @@
 
 ```javascript
 
-var f = async () =>  x;
+var f = async async(x = await, 1) =>  x;
 ```
 
 ### Diagnostics

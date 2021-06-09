@@ -184,7 +184,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                 "start": 0,
                 "end": 0
             },
-            "flags": 2,
+            "flags": 268435490,
             "start": 0,
             "end": 31
         }

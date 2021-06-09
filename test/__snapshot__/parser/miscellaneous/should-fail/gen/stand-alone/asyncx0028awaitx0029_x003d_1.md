@@ -45,7 +45,7 @@ async(await) = 1
                 "start": 0,
                 "end": 0
             },
-            "flags": 0,
+            "flags": 268435488,
             "start": 0,
             "end": 12
         },

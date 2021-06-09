@@ -101,7 +101,7 @@ async <T>(fn: () => T);
                 "start": 0,
                 "end": 0
             },
-            "flags": 0,
+            "flags": 268435488,
             "start": 0,
             "end": 22
         },
@@ -125,7 +125,7 @@ async <T>(fn: () => T);
 
 ```javascript
 
-
+async()
 
 ```
 

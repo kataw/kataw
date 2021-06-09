@@ -57,7 +57,7 @@ async({a})
                 "start": 0,
                 "end": 0
             },
-            "flags": 2,
+            "flags": 268435490,
             "start": 0,
             "end": 10
         }
@@ -75,7 +75,7 @@ async({a})
 
 ```javascript
 
-
+async({ a })
 ```
 
 ### Diagnostics

@@ -107,7 +107,7 @@ function* g( x = function() { async(yield) }) {};
                                                 "start": 29,
                                                 "end": 29
                                             },
-                                            "flags": 0,
+                                            "flags": 268435488,
                                             "start": 29,
                                             "end": 42
                                         }
@@ -177,7 +177,7 @@ function* g( x = function() { async(yield) }) {};
 ```javascript
 
 function * g(x = function () {
-
+  async(yield)
 }) {}
 
 ```

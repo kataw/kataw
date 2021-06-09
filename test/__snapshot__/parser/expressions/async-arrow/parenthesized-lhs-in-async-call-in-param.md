@@ -112,7 +112,7 @@ async (x = async([(f) = []])) => {};
                             "start": 10,
                             "end": 10
                         },
-                        "flags": 2,
+                        "flags": 268435490,
                         "start": 10,
                         "end": 28
                     },

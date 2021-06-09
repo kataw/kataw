@@ -2289,7 +2289,13 @@ function parseCallExpression(parser: ParserState, context: Context, expr: Expres
   const nodeFlags = parser.nodeFlags;
   const argumentList = parseArguments(parser, context);
   parser.assignable = false;
-  return createCallExpression(expr, argumentList, nodeFlags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression, pos, parser.curPos);
+  return createCallExpression(
+    expr,
+    argumentList,
+    nodeFlags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseArrowFunction(
@@ -9536,7 +9542,13 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         start
       );
     }
-    return createCallExpression(expr, createArgumentList([], trailingComma, start, start), flags, start, parser.curPos);
+    return createCallExpression(
+      expr,
+      createArgumentList([], trailingComma, start, start),
+      flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+      start,
+      parser.curPos
+    );
   }
 
   let destructible = DestructibleKind.None;
@@ -9972,7 +9984,13 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       const argumentList = createArgumentList(params, trailingComma, start, parser.curPos);
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
       parser.assignable = false;
-      return createCallExpression(expr, argumentList, flags, start, parser.curPos);
+      return createCallExpression(
+        expr,
+        argumentList,
+        flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+        start,
+        parser.curPos
+      );
     }
     params.push(expression);
 
@@ -9991,7 +10009,13 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   if (destructible & DestructibleKind.NotDestructible) {
     parser.assignable = false;
-    return createCallExpression(expr, createArgumentList(params, trailingComma, start, start), flags, start, parser.curPos);
+    return createCallExpression(
+      expr,
+      createArgumentList(params, trailingComma, start, start),
+      flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+      start,
+      parser.curPos
+    );
   }
 
   if (state) {
@@ -10060,7 +10084,13 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   }
 
   parser.assignable = false;
-  return createCallExpression(expr, createArgumentList(params, trailingComma, start, start), flags, start, parser.curPos);
+  return createCallExpression(
+    expr,
+    createArgumentList(params, trailingComma, start, start),
+    flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+    start,
+    parser.curPos
+  );
 }
 
 function parseOpaqueType(

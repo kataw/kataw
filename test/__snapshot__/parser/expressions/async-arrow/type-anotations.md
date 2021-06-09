@@ -822,7 +822,7 @@ async (...[x]?: string, a?) => {};
                 "start": 250,
                 "end": 250
             },
-            "flags": 2,
+            "flags": 268435490,
             "start": 250,
             "end": 279
         },

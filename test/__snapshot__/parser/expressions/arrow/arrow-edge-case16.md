@@ -68,7 +68,7 @@ a ? async (b) : c => d;
                         "start": 3,
                         "end": 3
                     },
-                    "flags": 0,
+                    "flags": 268435488,
                     "start": 3,
                     "end": 13
                 },

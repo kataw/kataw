@@ -62,7 +62,7 @@ async (x--, y) => x;
                 "start": 0,
                 "end": 0
             },
-            "flags": 0,
+            "flags": 268435488,
             "start": 0,
             "end": 14
         },

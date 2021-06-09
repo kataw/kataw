@@ -217,7 +217,7 @@ async( x = class { x = await });
                 "start": 36,
                 "end": 36
             },
-            "flags": 2,
+            "flags": 268435490,
             "start": 36,
             "end": 69
         },

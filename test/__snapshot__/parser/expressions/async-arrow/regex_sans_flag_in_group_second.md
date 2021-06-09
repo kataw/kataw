@@ -49,7 +49,7 @@ async (x, /x/g) => x
                 "start": 0,
                 "end": 14
             },
-            "flags": 0,
+            "flags": 268435488,
             "start": 0,
             "end": 15
         },
