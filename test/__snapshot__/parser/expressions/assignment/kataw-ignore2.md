@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-// kataw-ignore-block
+// kataw-ignore
 foo = bar;
 `````
 
@@ -26,44 +26,44 @@ foo = bar;
                     "rawText": "foo",
                     "flags": 96,
                     "start": 0,
-                    "end": 25
+                    "end": 19
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 64,
-                    "start": 25,
-                    "end": 27
+                    "start": 19,
+                    "end": 21
                 },
                 "right": {
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
-                    "start": 27,
-                    "end": 31
+                    "start": 21,
+                    "end": 25
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 31
+                "end": 25
             },
             "flags": 16,
             "start": 0,
-            "end": 32
+            "end": 26
         }
     ],
     "isModule": false,
-    "source": "// kataw-ignore-block\nfoo = bar;",
+    "source": "// kataw-ignore\nfoo = bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 32
+    "end": 26
 }
 ```
 
 ### Printed
 
 ```javascript
-// kataw-ignore-block
+// kataw-ignore
 
 foo = bar;
 ```
