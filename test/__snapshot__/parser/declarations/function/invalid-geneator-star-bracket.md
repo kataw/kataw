@@ -3,9 +3,9 @@
 ## Input
 
 `````js
-function *f() {
+function* fn() {
   yield
-  * 1;
+  * []
 }
 `````
 
@@ -32,23 +32,23 @@ function *f() {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
-                "end": 10
+                "end": 9
             },
             "name": {
                 "kind": 134299649,
-                "text": "f",
-                "rawText": "f",
+                "text": "fn",
+                "rawText": "fn",
                 "flags": 96,
-                "start": 10,
-                "end": 11
+                "start": 9,
+                "end": 12
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -63,54 +63,60 @@ function *f() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
-                                    "start": 15,
-                                    "end": 23
+                                    "start": 16,
+                                    "end": 24
                                 },
                                 "delegate": true,
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 65,
-                                    "start": 23,
-                                    "end": 27
+                                    "start": 24,
+                                    "end": 28
                                 },
                                 "expression": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 27,
-                                    "end": 29
+                                    "kind": 119,
+                                    "elementList": {
+                                        "kind": 270,
+                                        "elements": [],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 30,
+                                        "end": 30
+                                    },
+                                    "flags": 32,
+                                    "start": 28,
+                                    "end": 31
                                 },
                                 "flags": 32,
-                                "start": 15,
-                                "end": 29
+                                "start": 16,
+                                "end": 31
                             },
                             "flags": 16,
-                            "start": 15,
-                            "end": 30
+                            "start": 16,
+                            "end": 31
                         }
                     ],
                     "flags": 33,
-                    "start": 15,
-                    "end": 30
+                    "start": 16,
+                    "end": 31
                 },
                 "flags": 32,
-                "start": 13,
-                "end": 32
+                "start": 14,
+                "end": 33
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 32
+            "end": 33
         }
     ],
     "isModule": false,
-    "source": "function *f() {\n  yield\n  * 1;\n}",
+    "source": "function* fn() {\n  yield\n  * []\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 32
+    "end": 33
 }
 ```
 
@@ -123,7 +129,7 @@ function *f() {
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 27, end: 29
+✖ Expression expected - start: 28, end: 30
 
 ```
 

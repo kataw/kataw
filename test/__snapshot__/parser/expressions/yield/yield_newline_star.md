@@ -122,7 +122,7 @@ function *f() {
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 23, end: 27
+✖ Expression expected - start: 27, end: 29
 ✖ Identifier expected - start: 27, end: 29
 
 ```

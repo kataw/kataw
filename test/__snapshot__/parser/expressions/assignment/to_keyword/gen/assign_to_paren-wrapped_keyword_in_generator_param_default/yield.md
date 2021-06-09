@@ -149,6 +149,7 @@ function *f(x = (yield) = f) {}
 
 ```javascript
 ✖ `yield` expression cannot be used in function parameters - start: 17, end: 22
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 23, end: 25
 
 ```
 

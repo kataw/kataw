@@ -8352,18 +8352,7 @@ function parseYieldIdentifierOrExpression(
   LeftHandSideContext: LeftHandSide
 ): YieldExpression | ArrowFunction | Identifier | DummyIdentifier {
   const pos = parser.curPos;
-
   if (context & Context.YieldContext) {
-    if (parser.nodeFlags & 0b00000000000000000110000000000000) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._yield_keyword_must_not_contain_escaped_characters],
-        pos,
-        parser.curPos
-      );
-    }
-
     if (context & Context.Parameters) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -8373,27 +8362,17 @@ function parseYieldIdentifierOrExpression(
         parser.pos
       );
     }
-
     const yieldKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.YieldKeyword);
-    if (parser.token === SyntaxKind.QuestionMark) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[
-          DiagnosticCode
-            .Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context
-        ],
-        pos,
-        parser.pos
-      );
-    }
-    if (LeftHandSideContext) {
+
+    if (LeftHandSideContext || parser.token === SyntaxKind.QuestionMark) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
           LeftHandSideContext & LeftHandSide.ForStatement
             ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context
+            : parser.token === SyntaxKind.QuestionMark
+            ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context
             : DiagnosticCode.Expected_a
         ],
         pos,
@@ -8401,10 +8380,12 @@ function parseYieldIdentifierOrExpression(
       );
     }
 
-    if (parser.token === SyntaxKind.Multiply) {
+    const asteriskToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Multiply);
+    let expression = null;
+    if (asteriskToken) {
       // A `\n` after `yield` is illegal for `yield *`, and '*' should therefor be parsed as
       //an binary expr operator in error recovery mode
-      if (parser.nodeFlags & NodeFlags.NewLine) {
+      if (asteriskToken.flags & NodeFlags.NewLine) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -8414,26 +8395,18 @@ function parseYieldIdentifierOrExpression(
         );
       }
 
-      const asteriskToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Multiply);
-      const expression = parseExpression(parser, context);
-
-      parser.assignable = false;
-
-      return createYieldExpression(
-        /* yieldKeyword */ yieldKeyword,
-        /* delegate */ true,
-        asteriskToken,
-        expression,
-        pos,
-        parser.curPos
-      );
+      expression = parseExpression(parser, context);
+    } else if (parser.token & 0b00000000100000010100000000000000) {
+      expression = parseExpression(parser, context);
     }
+
+    parser.assignable = false;
 
     return createYieldExpression(
       /* yieldKeyword */ yieldKeyword,
-      /* delegate */ false,
-      /* asteriskToken */ null,
-      /* expression */ parser.token & 0b00000000100000010100000000000000 ? parseExpression(parser, context) : null,
+      /* delegate */ !!asteriskToken,
+      /* asteriskToken */ asteriskToken,
+      /* expression */ expression,
       pos,
       parser.curPos
     );

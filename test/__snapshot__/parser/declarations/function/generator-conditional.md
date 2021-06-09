@@ -3,9 +3,17 @@
 ## Input
 
 `````js
-function *f() {
-  yield *= x;
+function* fn() {
+  a ? yield : 2
 }
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
 `````
 
 ## Output
@@ -31,23 +39,23 @@ function *f() {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
-                "end": 10
+                "end": 9
             },
             "name": {
                 "kind": 134299649,
-                "text": "f",
-                "rawText": "f",
+                "text": "fn",
+                "rawText": "fn",
                 "flags": 96,
-                "start": 10,
-                "end": 11
+                "start": 9,
+                "end": 12
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -58,66 +66,80 @@ function *f() {
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 125,
-                                "left": {
+                                "kind": 197,
+                                "shortCircuit": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 16,
+                                    "end": 20
+                                },
+                                "questionToken": {
+                                    "kind": 134217750,
+                                    "flags": 64,
+                                    "start": 20,
+                                    "end": 22
+                                },
+                                "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 65,
-                                        "start": 15,
-                                        "end": 23
+                                        "flags": 64,
+                                        "start": 22,
+                                        "end": 28
                                     },
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "start": 15,
-                                    "end": 23
-                                },
-                                "operatorToken": {
-                                    "kind": 4132,
-                                    "flags": 64,
-                                    "start": 23,
-                                    "end": 26
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 26,
+                                    "start": 22,
                                     "end": 28
                                 },
+                                "colonToken": {
+                                    "kind": 21,
+                                    "flags": 64,
+                                    "start": 28,
+                                    "end": 30
+                                },
+                                "alternate": {
+                                    "kind": 201392130,
+                                    "text": 2,
+                                    "rawText": "2",
+                                    "flags": 96,
+                                    "start": 30,
+                                    "end": 32
+                                },
                                 "flags": 32,
-                                "start": 15,
-                                "end": 28
+                                "start": 16,
+                                "end": 32
                             },
                             "flags": 16,
-                            "start": 15,
-                            "end": 29
+                            "start": 16,
+                            "end": 32
                         }
                     ],
                     "flags": 33,
-                    "start": 15,
-                    "end": 29
+                    "start": 16,
+                    "end": 32
                 },
                 "flags": 32,
-                "start": 13,
-                "end": 31
+                "start": 14,
+                "end": 34
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 31
+            "end": 34
         }
     ],
     "isModule": false,
-    "source": "function *f() {\n  yield *= x;\n}",
+    "source": "function* fn() {\n  a ? yield : 2\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 31
+    "end": 34
 }
 ```
 
@@ -125,12 +147,14 @@ function *f() {
 
 ```javascript
 
+function * fn() {
+  a ?  yield : 2;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 23, end: 26
-
+✔ No errors
 ```
 

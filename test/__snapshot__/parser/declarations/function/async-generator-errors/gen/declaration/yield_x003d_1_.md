@@ -132,14 +132,12 @@ async function * gen() {yield = 1;}
 
 ```javascript
 
-async function * gen() {
-   yield = 1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 29, end: 31
+
 ```
 

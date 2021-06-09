@@ -131,14 +131,12 @@ function* g() {
 
 ```javascript
 
-function * g() {
-  ( yield) = 1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 25, end: 27
+
 ```
 

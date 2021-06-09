@@ -131,7 +131,7 @@ function *f() {
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 27, end: 33
+✖ Expression expected - start: 33, end: 35
 
 ```
 

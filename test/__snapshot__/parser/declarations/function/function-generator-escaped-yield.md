@@ -129,12 +129,14 @@ function *foo() { (x = \u0079ield) }
 
 ```javascript
 
+function * foo() {
+  (x =  yield);
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'yield' keyword must not contain escaped characters - start: 22, end: 22
-
+✔ No errors
 ```
 
