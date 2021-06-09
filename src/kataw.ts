@@ -183,8 +183,7 @@ export {
   isCallExpression,
   isMemberExpression,
   isTemplateLiteral,
-  shouldIgnoreNextLine,
-  shouldIgnoreBlock
+  shouldIgnoreNextNode
 } from './parser/common';
 
 /**

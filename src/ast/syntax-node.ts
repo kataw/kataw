@@ -36,12 +36,11 @@ export enum NodeFlags {
   OctalIntegerLiteral = 1 << 18, // e.g. `0777`
   BinaryIntegerLiteral = 1 << 19, // e.g. `0b0110010000000000`
   HexIntegerLiteral = 1 << 20, // e.g. `0x00000000`
-  IgnoreBlock = 1 << 21,
   SingleQuote = 1 << 22,
   ContainsInvalidEscape = 1 << 23, // e.g. `\uhello`
   Const = 1 << 24, // Lexical declaration
   Lexical = 1 << 25, // Lexical declaration
-  IgnoreNextLine = 1 << 26,
+  IgnoreNextNode = 1 << 26,
   TemplateLiteral = 1 << 27,
   IsCallExpression = 1 << 28,
   IsMemberExpression = 1 << 29,
