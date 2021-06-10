@@ -155,7 +155,8 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ 'import.meta' is the only valid meta property for import - start: 17, end: 21
+✖ Cannot use 'import.meta' outside a module - start: 16, end: 21
+✖ 'import.meta' is the only valid meta property for import - start: 16, end: 21
 
 ```
 

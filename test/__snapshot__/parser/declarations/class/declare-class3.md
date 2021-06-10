@@ -36,7 +36,7 @@ declare class B { () : number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -104,7 +104,7 @@ declare class B { () : number }
                 "end": 38
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 38
         },
         {
@@ -119,7 +119,7 @@ declare class B { () : number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 46,
+                "start": 38,
                 "end": 52
             },
             "name": {
@@ -172,7 +172,7 @@ declare class B { () : number }
                 "end": 70
             },
             "flags": 16,
-            "start": 46,
+            "start": 38,
             "end": 70
         }
     ],

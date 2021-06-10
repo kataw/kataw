@@ -66,7 +66,7 @@
                                             },
                                             "metaIdentifier": {
                                                 "kind": 16595,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 16,
                                                 "end": 20
                                             },
@@ -132,7 +132,7 @@
                                             },
                                             "metaIdentifier": {
                                                 "kind": 16595,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 39,
                                                 "end": 43
                                             },
@@ -188,9 +188,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Cannot use 'import.meta' outside a module - start: 20, end: 22
+✖ Cannot use 'import.meta' outside a module - start: 15, end: 22
 ✖ The left hand side of the arrow is not destructible  - start: 23, end: 26
-✖ Cannot use 'import.meta' outside a module - start: 43, end: 45
+✖ Cannot use 'import.meta' outside a module - start: 38, end: 45
 
 ```
 

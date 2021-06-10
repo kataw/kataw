@@ -35,7 +35,7 @@ declare class A<T> extends B<T> { x: number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -159,7 +159,7 @@ declare class A<T> extends B<T> { x: number }
                 "end": 45
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 45
         }
     ],

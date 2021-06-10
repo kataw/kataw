@@ -703,7 +703,7 @@ class Annotations {
                                                                                                                 "start": 344,
                                                                                                                 "end": 344
                                                                                                             },
-                                                                                                            "flags": 32,
+                                                                                                            "flags": 96,
                                                                                                             "start": 333,
                                                                                                             "end": 345
                                                                                                         },
@@ -763,7 +763,7 @@ class Annotations {
                                                                                                                         "start": 373,
                                                                                                                         "end": 373
                                                                                                                     },
-                                                                                                                    "flags": 32,
+                                                                                                                    "flags": 96,
                                                                                                                     "start": 362,
                                                                                                                     "end": 374
                                                                                                                 },
@@ -882,7 +882,7 @@ class Annotations {
                                                                                                                 "start": 475,
                                                                                                                 "end": 475
                                                                                                             },
-                                                                                                            "flags": 32,
+                                                                                                            "flags": 96,
                                                                                                             "start": 464,
                                                                                                             "end": 476
                                                                                                         },

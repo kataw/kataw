@@ -860,7 +860,7 @@ new async function() { await 0 }.x
                     "end": 304
                 },
                 "argumentList": null,
-                "flags": 33,
+                "flags": 97,
                 "start": 271,
                 "end": 304
             },
@@ -952,7 +952,7 @@ new async function() { await 0 }.x
                         "end": 337
                     },
                     "argumentList": null,
-                    "flags": 33,
+                    "flags": 97,
                     "start": 304,
                     "end": 337
                 },

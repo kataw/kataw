@@ -67,7 +67,8 @@ import.call
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' is the only valid meta property for import - start: 7, end: 11
+✖ Cannot use 'import.meta' outside a module - start: 6, end: 11
+✖ 'import.meta' is the only valid meta property for import - start: 6, end: 11
 
 ```
 

@@ -71,7 +71,7 @@ async (x = delete ((new) = f)) => {}
                                             "end": 23
                                         },
                                         "argumentList": null,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 23
                                     },

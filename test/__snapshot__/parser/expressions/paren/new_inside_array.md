@@ -43,7 +43,7 @@
                                     "end": 7
                                 },
                                 "argumentList": null,
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 7
                             }
@@ -102,7 +102,7 @@
                                             "end": 22
                                         },
                                         "argumentList": null,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 22
                                     }

@@ -43,7 +43,7 @@ declare class D extends C { }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -216,7 +216,7 @@ declare class D extends C { }
                 "end": 109
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 109
         },
         {
@@ -231,7 +231,7 @@ declare class D extends C { }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 118,
+                "start": 109,
                 "end": 124
             },
             "name": {
@@ -281,7 +281,7 @@ declare class D extends C { }
                 "end": 140
             },
             "flags": 16,
-            "start": 118,
+            "start": 109,
             "end": 140
         }
     ],

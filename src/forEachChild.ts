@@ -11,7 +11,7 @@ import { NodeFlags, SyntaxKind } from './ast/syntax-node';
  *
  */
 
-export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKind): any {
+export function forEachChild(node: any, visitor: any): any {
   const kind = node.kind;
 
   // Childless AST nodes - nodes without any children.
@@ -27,12 +27,6 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       return visitNode(node.functionStatementList, node, visitor);
     case SyntaxKind.FormalParameterList:
       return visitNodes(node.formalParameterList, node, visitor);
-    case SyntaxKind.AssignmentExpression:
-      return (
-        visitNode(node.left, node, visitor) ||
-        visitNode(node.operatorToken, node, visitor) ||
-        visitNode(node.right, node, visitor)
-      );
     case SyntaxKind.ExpressionStatement:
       return visitNode(node.expression, node, visitor);
     case SyntaxKind.ElementList:
@@ -46,15 +40,12 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
     case SyntaxKind.PropertyDefinitionList:
       return visitNodes(node.properties, node, visitor);
     case SyntaxKind.PropertyDefinition:
-      return visitNodes(node.left, node, visitor) || visitNodes(node.right, node, visitor);
     case SyntaxKind.CoverInitializedName:
       return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
+    case SyntaxKind.BindingElement:
+    case SyntaxKind.AssignmentExpression:
     case SyntaxKind.BinaryExpression:
-      return (
-        visitNode(node.left, node, visitor) ||
-        visitNode(node.operatorToken, node, visitor) ||
-        visitNode(node.right, node, visitor)
-      );
+      return visitNode(node.left, node, visitor) || visitNode(node.right, node, visitor);
     case SyntaxKind.ConditionalExpression:
       return (
         visitNode(node.shortCircuit, node, visitor) ||
@@ -74,73 +65,44 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       return visitNode(node.member, node, visitor) || visitNode(node.template, node, visitor);
     case SyntaxKind.BindingElementList:
       return visitNodes(node.elements, node, visitor);
-    case SyntaxKind.BindingElement:
-      return (
-        visitNode(node.left, node, visitor) ||
-        visitNode(node.type, node, visitor) ||
-        visitNode(node.right, node, visitor)
-      );
     case SyntaxKind.VariableStatement:
       return visitNode(node.declarationList, node, visitor);
-    case SyntaxKind.VariableDeclaration:
-      return visitNode(node.binding, node, visitor) || visitNode(node.initializer, node, visitor);
     case SyntaxKind.VariableDeclarationList:
       return visitNodes(node.declarations, node, visitor);
     case SyntaxKind.LexicalDeclaration:
       return visitNode(node.binding, node, visitor);
     case SyntaxKind.ArrayBindingPattern:
       return visitNode(node.elementList, node, visitor);
+    case SyntaxKind.VariableDeclaration:
     case SyntaxKind.LexicalBinding:
-      return (
-        visitNode(node.binding, node, visitor) ||
-        visitNode(node.type, node, visitor) ||
-        visitNode(node.initializer, node, visitor)
-      );
+      return visitNode(node.binding, node, visitor) || visitNode(node.initializer, node, visitor);
     case SyntaxKind.BindingList:
-      return visitNodes(node.lexicals, node, visitor);
+      return visitNodes(node.bindingList, node, visitor);
     case SyntaxKind.BindingPropertyList:
       return visitNodes(node.properties, node, visitor);
     case SyntaxKind.UnaryExpression:
       return visitNode(node.operand, node, visitor);
-    case SyntaxKind.IndexExpression:
-      return visitNode(node.member, node, visitor) || visitNode(node.expression, node, visitor);
     case SyntaxKind.ArrowFunction:
-      return (
-        visitNode(node.arrowToken, node, visitor) ||
-        visitNode(node.typeParameters, node, visitor) ||
-        visitNode(node.parameters, node, visitor) ||
-        visitNode(node.asyncToken, node, visitor) ||
-        visitNode(node.returnType, node, visitor) ||
-        visitNode(node.contents, node, visitor)
-      );
+      return visitNodes(node.parameters, node, visitor) || visitNode(node.contents, node, visitor);
+    case SyntaxKind.YieldExpression:
     case SyntaxKind.AwaitExpression:
-      return visitNode(node.awaitToken, node, visitor) || visitNode(node.expression, node, visitor);
+      return visitNode(node.expression, node, visitor);
     case SyntaxKind.BindingProperty:
-      return (
-        visitNode(node.key, node, visitor) ||
-        visitNode(node.ellipsisToken, node, visitor) ||
-        visitNode(node.value, node, visitor)
-      );
+      return visitNode(node.key, node, visitor) || visitNode(node.value, node, visitor);
     case SyntaxKind.OptionalExpression:
-      return (
-        visitNode(node.chainToken, node, visitor) ||
-        visitNode(node.member, node, visitor) ||
-        visitNode(node.chain, node, visitor)
-      );
+      return visitNode(node.member, node, visitor) || visitNode(node.chain, node, visitor);
+    case SyntaxKind.PropertyMethod:
+      return visitNode(node.method, node, visitor);
+    case SyntaxKind.IndexExpression:
     case SyntaxKind.MemberAccessExpression:
       return visitNode(node.member, node, visitor) || visitNode(node.expression, node, visitor);
+    case SyntaxKind.IndexExpressionChain:
+    case SyntaxKind.MemberAccessChain:
+      return visitNode(node.chain, node, visitor) || visitNode(node.expression, node, visitor);
     case SyntaxKind.OptionalChain:
       return visitNode(node.chain, node, visitor);
     case SyntaxKind.ClassElement:
-      return (
-        visitNode(node.declareToken, node, visitor) ||
-        visitNode(node.decorators, node, visitor) ||
-        visitNode(node.staticKeyword, node, visitor) ||
-        visitNode(node.asyncKeyword, node, visitor) ||
-        visitNode(node.setKeyword, node, visitor) ||
-        visitNode(node.getKeyword, node, visitor) ||
-        visitNode(node.method, node, visitor)
-      );
+      return visitNode(node.decorators, node, visitor) || visitNode(node.method, node, visitor);
     case SyntaxKind.ClassHeritage:
       return visitNode(node.expression, node, visitor) || visitNode(node.typeArguments, node, visitor);
     case SyntaxKind.ClassTail:
@@ -157,8 +119,6 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       return visitNode(node.operand, node, visitor);
     case SyntaxKind.PrefixUpdateExpression:
       return visitNode(node.operand, node, visitor);
-    case SyntaxKind.SpreadProperty:
-      return visitNode(node.argument, node, visitor);
     case SyntaxKind.ForInStatement:
       return (
         visitNode(node.initializer, node, visitor) ||
@@ -178,6 +138,7 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
         visitNode(node.incrementor, node, visitor) ||
         visitNode(node.statement, node, visitor)
       );
+    case SyntaxKind.SpreadProperty:
     case SyntaxKind.SpreadElement:
       return visitNode(node.argument, node, visitor);
     case SyntaxKind.TemplateExpression:
@@ -227,23 +188,16 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
         visitNode(node.catchClause, node, visitor) ||
         visitNode(node.finallyBlock, node, visitor)
       );
-    case SyntaxKind.IndexExpressionChain:
-      return visitNode(node.chain, node, visitor) || visitNode(node.expression, node, visitor);
     case SyntaxKind.FieldDefinition:
       return (
         visitNode(node.decorators, node, visitor) ||
-        visitNode(node.declaredToken, node, visitor) ||
-        visitNode(node.staticToken, node, visitor) ||
-        visitNode(node.asyncKeyword, node, visitor) ||
         visitNode(node.key, node, visitor) ||
-        visitNode(node.optionalToken, node, visitor) ||
-        visitNode(node.type, node, visitor) ||
         visitNode(node.initializer, node, visitor)
       );
     case SyntaxKind.CallChain:
       return visitNode(node.chain, node, visitor) || visitNode(node.argumentList, node, visitor);
     case SyntaxKind.ImportCall:
-      return visitNode(node.importKeyword, node, visitor) || visitNode(node.expression, node, visitor);
+      return visitNode(node.expression, node, visitor);
     case SyntaxKind.BlockStatement:
       return visitNode(node.block, node, visitor);
     case SyntaxKind.Block:
@@ -263,6 +217,8 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
         visitNode(node.exportFromClause, node, visitor) ||
         visitNode(node.fromClause, node, visitor)
       );
+    case SyntaxKind.ExportFromClause:
+      return visitNode(node.namedBinding, node, visitor) || visitNode(node.moduleExportName, node, visitor);
     case SyntaxKind.ExportDefault:
       return visitNode(node.declaration, node, visitor);
     case SyntaxKind.ExportSpecifier:
@@ -293,6 +249,10 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
       );
     case SyntaxKind.ImportsList:
       return visitNodes(node.specifiers, node, visitor);
+    case SyntaxKind.NamespaceExportDeclaration:
+      return visitNodes(node.name, node, visitor);
+    case SyntaxKind.NameSpaceImport:
+      return visitNodes(node.binding, node, visitor);
     case SyntaxKind.NamedExports:
       return visitNode(node.exportsList, node, visitor);
     case SyntaxKind.NamedImports:
@@ -302,52 +262,29 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
     case SyntaxKind.FunctionExpression:
     case SyntaxKind.FunctionDeclaration:
       return (
-        visitNode(node.asyncKeyword, node, visitor) ||
-        visitNode(node.functionKeyword, node, visitor) ||
-        visitNode(node.generatorToken, node, visitor) ||
         visitNode(node.name, node, visitor) ||
-        visitNode(node.formalParameters, node, visitor) ||
-        visitNode(node.contents, node, visitor) ||
-        visitNode(node.typeParameters, node, visitor) ||
-        visitNode(node.returnType, node, visitor)
+        visitNodes(node.formalParameters, node, visitor) ||
+        visitNode(node.contents, node, visitor)
       );
     case SyntaxKind.MethodDefinition:
       return (
-        visitNode(node.typeParameters, node, visitor) ||
-        visitNode(node.formalParameters, node, visitor) ||
-        visitNode(node.type, node, visitor) ||
+        visitNodes(node.formalParameters, node, visitor) ||
+        visitNodes(node.name, node, visitor) ||
         visitNode(node.contents, node, visitor)
       );
-    case SyntaxKind.FunctionType:
-      return (
-        visitNode(node.typeParameters, node, visitor) ||
-        visitNode(node.parameters, node, visitor) ||
-        visitNode(node.returnType, node, visitor)
-      );
-    case SyntaxKind.TupleType:
-      return visitNodes(node.elementTypes, node, visitor);
-    case SyntaxKind.UnionType:
-    case SyntaxKind.IntersectionType:
-      return visitNodes(node.types, node, visitor);
     case SyntaxKind.DecoratorList:
       return visitNodes(node.decoratorList, node, visitor);
     case SyntaxKind.Decorator:
       return visitNode(node.expression, node, visitor);
-    case SyntaxKind.TypeParameter:
-      return (
-        visitNode(node.constraint, node, visitor) ||
-        visitNode(node.defaultType, node, visitor) ||
-        visitNode(node.expression, node, visitor)
-      );
     default:
       return node;
   }
 }
 
 function visitNode(
-  node: SyntaxKind,
+  node: any,
   parentNode: any,
-  visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind
+  visitor: (node: any, parentNode: any) => SyntaxKind
 ): SyntaxKind | undefined {
   if (node === null) return node;
   return visitor(node, parentNode);
@@ -355,8 +292,8 @@ function visitNode(
 
 function visitNodes(
   nodes: any[],
-  parentNode: SyntaxKind,
-  visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind
+  parentNode: any,
+  visitor: (node: any, parentNode: any) => SyntaxKind
 ): SyntaxKind[] | void {
   if (nodes === null || visitor === null) return nodes;
 

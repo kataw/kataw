@@ -294,7 +294,7 @@ async function foo() {
                                 "start": 52,
                                 "end": 96
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 39,
                             "end": 97
                         },

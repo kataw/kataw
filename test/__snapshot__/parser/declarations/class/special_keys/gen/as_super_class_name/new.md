@@ -70,7 +70,7 @@ class x extends new {}
                             "end": 22
                         },
                         "argumentList": null,
-                        "flags": 32,
+                        "flags": 96,
                         "start": 15,
                         "end": 22
                     },

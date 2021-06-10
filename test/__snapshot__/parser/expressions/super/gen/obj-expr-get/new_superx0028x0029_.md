@@ -94,7 +94,7 @@
                                                             "start": 23,
                                                             "end": 23
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 12,
                                                         "end": 24
                                                     },

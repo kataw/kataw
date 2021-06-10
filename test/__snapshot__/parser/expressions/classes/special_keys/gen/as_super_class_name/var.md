@@ -138,7 +138,6 @@ class x extends var {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 19
-✖ Missing initializer in destructuring declaration - start: 22, end: 22
 
 ```
 

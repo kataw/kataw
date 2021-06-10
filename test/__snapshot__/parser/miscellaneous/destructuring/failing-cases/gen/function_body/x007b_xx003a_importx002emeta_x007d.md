@@ -86,7 +86,7 @@ function x() {{ x: import.meta }}
                                                     },
                                                     "metaIdentifier": {
                                                         "kind": 16595,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 26,
                                                         "end": 30
                                                     },
@@ -149,7 +149,7 @@ function x() {{ x: import.meta }}
 ### Diagnostics
 
 ```javascript
-✖ Cannot use 'import.meta' outside a module - start: 30, end: 32
+✖ Cannot use 'import.meta' outside a module - start: 25, end: 32
 
 ```
 

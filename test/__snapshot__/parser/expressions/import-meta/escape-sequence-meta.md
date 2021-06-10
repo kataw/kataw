@@ -33,7 +33,7 @@ import.m\u0065ta;
                 },
                 "metaIdentifier": {
                     "kind": 16595,
-                    "flags": 16448,
+                    "flags": 16480,
                     "start": 7,
                     "end": 16
                 },
@@ -64,7 +64,7 @@ import.m\u0065ta;
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' must not contain escaped characters - start: 16, end: 17
+✖ Keywords cannot contain escape characters - start: 7, end: 16
 
 ```
 

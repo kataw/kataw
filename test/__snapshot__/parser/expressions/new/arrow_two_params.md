@@ -67,7 +67,7 @@ new (a,b) => x
                     "end": 14
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 14
             },

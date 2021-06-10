@@ -80,7 +80,7 @@ function *f(){
                                             "end": 21
                                         },
                                         "argumentList": null,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 21
                                     },

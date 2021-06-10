@@ -92,7 +92,7 @@ async function* f() {
                                     },
                                     "metaIdentifier": {
                                         "kind": 16595,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 44,
                                         "end": 48
                                     },

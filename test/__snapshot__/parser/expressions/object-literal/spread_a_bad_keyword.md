@@ -62,7 +62,7 @@ x={...new}
                                         "end": 9
                                     },
                                     "argumentList": null,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 9
                                 },

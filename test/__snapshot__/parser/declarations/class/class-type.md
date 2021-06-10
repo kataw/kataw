@@ -340,7 +340,7 @@ type T = { [string]: Class<null> }
                                     "start": 97,
                                     "end": 97
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 90,
                                 "end": 98
                             },

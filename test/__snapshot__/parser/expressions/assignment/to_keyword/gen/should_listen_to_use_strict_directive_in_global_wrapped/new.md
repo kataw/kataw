@@ -49,7 +49,7 @@
                             "end": 18
                         },
                         "argumentList": null,
-                        "flags": 32,
+                        "flags": 96,
                         "start": 15,
                         "end": 18
                     },

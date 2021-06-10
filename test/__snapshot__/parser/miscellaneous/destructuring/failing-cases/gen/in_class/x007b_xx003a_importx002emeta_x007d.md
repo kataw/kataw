@@ -90,7 +90,7 @@ class x { { x: import.meta } }
                                     },
                                     "metaIdentifier": {
                                         "kind": 16595,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 22,
                                         "end": 26
                                     },
@@ -139,7 +139,7 @@ class x { { x: import.meta } }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
-✖ Cannot use 'import.meta' outside a module - start: 26, end: 28
+✖ Cannot use 'import.meta' outside a module - start: 21, end: 28
 ✖ Declaration or statement expected - start: 28, end: 30
 
 ```

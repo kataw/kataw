@@ -68,7 +68,6 @@ new.meta
 
 ```javascript
 ✖ The only valid meta property for new is 'new.target - start: 0, end: 8
-✖ 'new.target' only allowed within functions - start: 0, end: 8
 ✖ Expected a `;` - start: 4, end: 8
 
 ```

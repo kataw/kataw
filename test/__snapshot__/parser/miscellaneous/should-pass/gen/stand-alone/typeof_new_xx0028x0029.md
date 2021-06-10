@@ -52,7 +52,7 @@ typeof new x()
                         "start": 13,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 6,
                     "end": 14
                 },

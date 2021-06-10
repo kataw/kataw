@@ -50,7 +50,7 @@
                                         },
                                         "metaIdentifier": {
                                             "kind": 16595,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 15
                                         },

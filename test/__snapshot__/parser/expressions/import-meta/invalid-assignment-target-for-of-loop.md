@@ -42,7 +42,7 @@ for (import.meta of null) ;
                     },
                     "metaIdentifier": {
                         "kind": 16595,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 12,
                         "end": 16
                     },

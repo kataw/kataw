@@ -78,7 +78,7 @@ function *f(x = (new) = f) {}
                                         "end": 20
                                     },
                                     "argumentList": null,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 17,
                                     "end": 20
                                 },

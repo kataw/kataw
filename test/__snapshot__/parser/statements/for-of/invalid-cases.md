@@ -5377,7 +5377,6 @@ for ({a: b.c}-- of d) e;
 ✖ Expected a ')' to match the '(' token here - start: 387, end: 388
 ✖ Expected a `;` - start: 391, end: 392
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 408, end: 418
-✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 434, end: 438
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 462, end: 466
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 535, end: 537
 ✖ The left-hand side of a for-of loop cannot start with 'let' - start: 555, end: 558
@@ -5405,9 +5404,7 @@ for ({a: b.c}-- of d) e;
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 946, end: 949
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 978, end: 981
 ✖ Only a single variable declaration is allowed in a 'for...of' statement. - start: 1003, end: 1006
-✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 1034, end: 1040
 ✖ Only a single variable declaration is allowed in a 'for...of' statement. - start: 1040, end: 1043
-✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 1064, end: 1075
 ✖ Only a single variable declaration is allowed in a 'for...of' statement. - start: 1075, end: 1078
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1108, end: 1111
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1134, end: 1137

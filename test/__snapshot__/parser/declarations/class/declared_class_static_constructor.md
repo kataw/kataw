@@ -37,7 +37,7 @@ declare class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -99,7 +99,7 @@ declare class A {
                 "end": 58
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 58
         }
     ],

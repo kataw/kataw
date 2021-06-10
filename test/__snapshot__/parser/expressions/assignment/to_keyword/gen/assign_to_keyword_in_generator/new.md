@@ -78,7 +78,7 @@ function *f(){
                                         "end": 20
                                     },
                                     "argumentList": null,
-                                    "flags": 33,
+                                    "flags": 97,
                                     "start": 14,
                                     "end": 20
                                 },

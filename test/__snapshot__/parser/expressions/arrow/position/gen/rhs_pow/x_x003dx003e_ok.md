@@ -94,7 +94,7 @@ x ** x => ok
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 6, end: 9
+✖ Expected a `;` - start: 4, end: 9
 
 ```
 

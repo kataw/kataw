@@ -57,7 +57,7 @@ new x => x
                     "end": 10
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 10
             },
@@ -84,7 +84,7 @@ new x => x
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 8
+✖ Expected a `;` - start: 3, end: 8
 
 ```
 

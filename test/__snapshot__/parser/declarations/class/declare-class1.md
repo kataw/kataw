@@ -39,7 +39,7 @@ type T2 = number;
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -69,7 +69,7 @@ type T2 = number;
                 "end": 19
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 19
         },
         {

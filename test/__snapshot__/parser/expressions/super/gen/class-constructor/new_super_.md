@@ -114,7 +114,7 @@ class C { constructor() { new super; } }
                                                         "end": 35
                                                     },
                                                     "argumentList": null,
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 25,
                                                     "end": 35
                                                 },

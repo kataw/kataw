@@ -537,7 +537,7 @@ new Foo();
                     "start": 279,
                     "end": 279
                 },
-                "flags": 33,
+                "flags": 97,
                 "start": 270,
                 "end": 280
             },

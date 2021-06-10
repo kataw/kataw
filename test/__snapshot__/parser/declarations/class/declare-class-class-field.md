@@ -39,7 +39,7 @@ declare class X {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -136,7 +136,7 @@ declare class X {
                 "end": 65
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 65
         }
     ],

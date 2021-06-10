@@ -178,7 +178,7 @@ async function f(){
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of a 'for...in or of' statement must not be an arrow function - start: 34, end: 36
+✖ The left-hand side of a 'for...in or of' statement must not be an arrow function - start: 33, end: 36
 ✖ Block body arrows can not be immediately accessed without a group - start: 38, end: 39
 
 ```

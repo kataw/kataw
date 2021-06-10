@@ -130,7 +130,7 @@ class C { m() { k = new super; } }
                                                             "end": 29
                                                         },
                                                         "argumentList": null,
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 19,
                                                         "end": 29
                                                     },

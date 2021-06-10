@@ -143,7 +143,8 @@ function failsParse() {
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' is the only valid meta property for import - start: 40, end: 44
+✖ Cannot use 'import.meta' outside a module - start: 39, end: 44
+✖ 'import.meta' is the only valid meta property for import - start: 39, end: 44
 
 ```
 

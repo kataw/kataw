@@ -37,7 +37,7 @@ new `temp {waitforit} late`
                     "end": 27
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 27
             },

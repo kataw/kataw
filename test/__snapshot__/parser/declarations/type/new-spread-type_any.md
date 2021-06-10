@@ -496,7 +496,7 @@ var o3: O3 = (0: mixed); // ok
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 175,
+                "start": 167,
                 "end": 181
             },
             "name": {
@@ -546,7 +546,7 @@ var o3: O3 = (0: mixed); // ok
                 "end": 205
             },
             "flags": 16,
-            "start": 175,
+            "start": 167,
             "end": 205
         },
         {

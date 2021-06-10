@@ -104,7 +104,7 @@ async function p(){
                                             "end": 43
                                         },
                                         "argumentList": null,
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 37,
                                         "end": 43
                                     },

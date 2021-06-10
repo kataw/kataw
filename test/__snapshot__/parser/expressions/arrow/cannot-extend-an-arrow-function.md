@@ -779,13 +779,13 @@ class Foo extends async x => {} {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 19, end: 22
+✖ Expected a `;` - start: 17, end: 22
 ✖ Duplicate identifier - start: 35, end: 39
 ✖ Expected a `;` - start: 50, end: 53
 ✖ Expected a `;` - start: 50, end: 53
 ✖ Duplicate identifier - start: 66, end: 70
 ✖ Expected a `;` - start: 84, end: 86
-✖ Expected a `;` - start: 113, end: 116
+✖ Expected a `;` - start: 111, end: 116
 ✖ Expected a `;` - start: 143, end: 146
 ✖ Expected a `;` - start: 175, end: 177
 ✖ Expected a `;` - start: 238, end: 251

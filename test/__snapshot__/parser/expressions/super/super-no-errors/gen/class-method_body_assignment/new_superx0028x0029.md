@@ -124,7 +124,7 @@ class C { m() { k = new super(); } }
                                                             "start": 30,
                                                             "end": 30
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 19,
                                                         "end": 31
                                                     },

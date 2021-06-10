@@ -53,7 +53,7 @@
                                     },
                                     "metaIdentifier": {
                                         "kind": 16595,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 16
                                     },
@@ -101,7 +101,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Cannot use 'import.meta' outside a module - start: 16, end: 18
+✖ Cannot use 'import.meta' outside a module - start: 11, end: 18
 
 ```
 

@@ -2071,7 +2071,7 @@ new import(x);
                     "end": 592
                 },
                 "argumentList": null,
-                "flags": 33,
+                "flags": 97,
                 "start": 576,
                 "end": 592
             },
@@ -2168,7 +2168,7 @@ new import(x);
 ✖ Identifier expected - start: 420, end: 421
 ✖ Declaration or statement expected - start: 429, end: 431
 ✖ Expected a `;` - start: 429, end: 431
-✖ 'import.meta' is the only valid meta property for import - start: 443, end: 446
+✖ 'import.meta' is the only valid meta property for import - start: 442, end: 446
 ✖ Dynamic import must have one specifier as an argument. - start: 457, end: 458
 ✖ Identifier expected - start: 458, end: 459
 ✖ Identifier expected - start: 459, end: 460

@@ -89,7 +89,7 @@ async function f(){ [new await foo] }
                                                 "end": 34
                                             },
                                             "argumentList": null,
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 34
                                         }

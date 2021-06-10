@@ -112,7 +112,7 @@ foo = {
                                                                 "end": 44
                                                             },
                                                             "argumentList": null,
-                                                            "flags": 33,
+                                                            "flags": 97,
                                                             "start": 36,
                                                             "end": 44
                                                         },

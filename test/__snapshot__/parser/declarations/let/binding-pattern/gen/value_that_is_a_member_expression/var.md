@@ -136,7 +136,6 @@ var {a: b.c} = v
 ```javascript
 ✖ ',' expected - start: 9, end: 10
 ✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 10
-✖ Missing initializer in destructuring declaration - start: 9, end: 10
 ✖ ',' expected - start: 9, end: 10
 ✖ Declaration or statement expected - start: 11, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14

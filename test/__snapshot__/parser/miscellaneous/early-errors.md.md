@@ -1556,7 +1556,7 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 1976
                                     },
                                     "argumentList": null,
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 1971,
                                     "end": 1976
                                 },

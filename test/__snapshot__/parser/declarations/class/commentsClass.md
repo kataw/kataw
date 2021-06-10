@@ -178,7 +178,7 @@ class c9 {
                                 "start": 92,
                                 "end": 92
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 84,
                             "end": 93
                         },
@@ -377,7 +377,7 @@ class c9 {
                                 "start": 255,
                                 "end": 255
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 247,
                             "end": 256
                         },
@@ -576,7 +576,7 @@ class c9 {
                                 "start": 417,
                                 "end": 417
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 409,
                             "end": 418
                         },
@@ -767,7 +767,7 @@ class c9 {
                                 "start": 512,
                                 "end": 512
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 504,
                             "end": 513
                         },
@@ -1009,7 +1009,7 @@ class c9 {
                                 "start": 776,
                                 "end": 776
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 768,
                             "end": 777
                         },
@@ -1251,7 +1251,7 @@ class c9 {
                                 "start": 956,
                                 "end": 956
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 948,
                             "end": 957
                         },
@@ -1493,7 +1493,7 @@ class c9 {
                                 "start": 1216,
                                 "end": 1216
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 1208,
                             "end": 1217
                         },

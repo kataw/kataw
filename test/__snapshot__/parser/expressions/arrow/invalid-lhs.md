@@ -1074,7 +1074,7 @@ x = (a,b)+c=>{};
 ✖ Expected a `;` - start: 234, end: 236
 ✖ Expression expected - start: 245, end: 246
 ✖ Expected a `;` - start: 248, end: 250
-✖ Expected a `;` - start: 265, end: 267
+✖ Expected a `;` - start: 264, end: 267
 
 ```
 

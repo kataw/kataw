@@ -43,7 +43,7 @@ for (new a in b in c in d) break
                     "end": 10
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 96,
                 "start": 5,
                 "end": 10
             },

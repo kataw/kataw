@@ -65,7 +65,7 @@
                                     "end": 7
                                 },
                                 "argumentList": null,
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 4,
                                 "end": 7
                             },

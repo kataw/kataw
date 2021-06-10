@@ -129,12 +129,12 @@ class C { m() { foo(new new super()); } }
                                                                         "start": 34,
                                                                         "end": 34
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 96,
                                                                     "start": 23,
                                                                     "end": 35
                                                                 },
                                                                 "argumentList": null,
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 20,
                                                                 "end": 35
                                                             }

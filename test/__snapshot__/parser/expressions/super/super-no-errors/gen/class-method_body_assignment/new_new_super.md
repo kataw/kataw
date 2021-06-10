@@ -138,12 +138,12 @@ class C { m() { k = new new super; } }
                                                                 "end": 33
                                                             },
                                                             "argumentList": null,
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 23,
                                                             "end": 33
                                                         },
                                                         "argumentList": null,
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 19,
                                                         "end": 33
                                                     },

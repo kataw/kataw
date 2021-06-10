@@ -35,7 +35,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
-                "start": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -157,7 +157,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                 "end": 74
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 74
         }
     ],

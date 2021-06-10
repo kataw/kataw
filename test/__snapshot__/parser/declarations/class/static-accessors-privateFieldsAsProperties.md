@@ -364,7 +364,7 @@ new C;
                     "end": 105
                 },
                 "argumentList": null,
-                "flags": 33,
+                "flags": 97,
                 "start": 98,
                 "end": 105
             },

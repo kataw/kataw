@@ -64,7 +64,7 @@ async x => (new) = 1
                                 "end": 15
                             },
                             "argumentList": null,
-                            "flags": 32,
+                            "flags": 96,
                             "start": 12,
                             "end": 15
                         },

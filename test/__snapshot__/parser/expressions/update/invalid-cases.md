@@ -398,7 +398,7 @@ new new foo().bar++;
                         "start": 100,
                         "end": 100
                     },
-                    "flags": 33,
+                    "flags": 97,
                     "start": 90,
                     "end": 101
                 },
@@ -454,12 +454,12 @@ new new foo().bar++;
                                 "start": 118,
                                 "end": 118
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 109,
                             "end": 119
                         },
                         "argumentList": null,
-                        "flags": 33,
+                        "flags": 97,
                         "start": 104,
                         "end": 119
                     },

@@ -39,7 +39,7 @@ new fooo.bar
                         "end": 8
                     },
                     "argumentList": null,
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 8
                 },

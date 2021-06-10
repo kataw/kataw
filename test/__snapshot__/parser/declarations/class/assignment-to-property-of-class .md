@@ -186,7 +186,7 @@ c.m = n => n * 3;
                                 "start": 114,
                                 "end": 114
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 107,
                             "end": 115
                         },

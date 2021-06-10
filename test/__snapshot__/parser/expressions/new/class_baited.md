@@ -81,7 +81,7 @@ new class extends{}
                     "end": 19
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 19
             },

@@ -43,7 +43,7 @@ new[]
                     "end": 5
                 },
                 "argumentList": null,
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },

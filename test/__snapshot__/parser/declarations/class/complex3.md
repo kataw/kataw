@@ -569,7 +569,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                 "end": 220
                                                                             },
                                                                             "argumentList": null,
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 212,
                                                                             "end": 220
                                                                         }

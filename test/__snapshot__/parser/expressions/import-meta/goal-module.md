@@ -33,7 +33,7 @@ import.meta;
                 },
                 "metaIdentifier": {
                     "kind": 16595,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 7,
                     "end": 11
                 },

@@ -54,7 +54,7 @@ for({ x: import.meta } in y);
                                     },
                                     "metaIdentifier": {
                                         "kind": 16595,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 16,
                                         "end": 20
                                     },
@@ -123,7 +123,7 @@ for({ x: import.meta } in y);
 ### Diagnostics
 
 ```javascript
-✖ Cannot use 'import.meta' outside a module - start: 20, end: 22
+✖ Cannot use 'import.meta' outside a module - start: 15, end: 22
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 25, end: 27
 
 ```

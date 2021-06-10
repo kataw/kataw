@@ -623,7 +623,7 @@ let tests = [
                                                                         "start": 311,
                                                                         "end": 316
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 96,
                                                                     "start": 299,
                                                                     "end": 317
                                                                 },
@@ -692,7 +692,7 @@ let tests = [
                                                                         "start": 345,
                                                                         "end": 348
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 96,
                                                                     "start": 333,
                                                                     "end": 349
                                                                 },
