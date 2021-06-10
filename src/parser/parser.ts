@@ -1581,7 +1581,7 @@ export function parseExpressionOrLabelledStatement(
   ownLabels: any
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
-  const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+  const expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
   // 'let' followed by '[' means a lexical declaration, which should not appear here.
   if (token === SyntaxKind.LetKeyword && parser.token === SyntaxKind.LeftBracket) {
@@ -2008,16 +2008,16 @@ function parseBinaryExpression(
 function parseLeftHandSideExpression(
   parser: ParserState,
   context: Context,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): ExpressionNode {
   const pos = parser.curPos;
-  const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSideContext);
+  const expression = parsePrimaryExpression(parser, context, leftHandSideContext);
   return parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
 }
 
 function parseExpression(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
-  let expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+  let expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
   expr = parseMemberExpression(parser, context, expr, SyntaxKind.IsPropertyOrCall, curPos);
   expr = parseAssignmentExpression(parser, context, expr, curPos);
   return expr;
@@ -2517,12 +2517,11 @@ function parseExpressionRest(parser: ParserState, context: Context, expr: Expres
 function parsePrimaryExpression(
   parser: ParserState,
   context: Context,
-  inNewExpression: boolean,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): ExpressionNode {
   if (parser.token & SyntaxKind.IsIdentifier) {
     if (parser.token === SyntaxKind.AsyncKeyword) {
-      return parseFunctionExpression(parser, context, inNewExpression, LeftHandSideContext);
+      return parseFunctionExpression(parser, context, leftHandSideContext);
     }
     if (parser.token === SyntaxKind.PrivateIdentifier) {
       return parsePrivateIdentifier(parser, context);
@@ -2539,7 +2538,7 @@ function parsePrimaryExpression(
     }
 
     if (context & (Context.AwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
-      return parseAwaitExpression(parser, context, inNewExpression, LeftHandSideContext);
+      return parseAwaitExpression(parser, context, leftHandSideContext);
     }
 
     const pos = parser.curPos;
@@ -2550,25 +2549,17 @@ function parsePrimaryExpression(
 
     // Handle the start of an arrow expression
     if (parser.token === SyntaxKind.Arrow) {
-      if (LeftHandSideContext) {
+      if (leftHandSideContext) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
           diagnosticMap[
-            LeftHandSideContext & LeftHandSide.ForStatement
+            leftHandSideContext & LeftHandSide.NewExpression
+              ? DiagnosticCode.Expected_a
+              : leftHandSideContext & LeftHandSide.ForStatement
               ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
               : DiagnosticCode.Expected_a
           ],
-          parser.curPos,
-          parser.pos
-        );
-      }
-
-      if (inNewExpression) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Expected_a],
           parser.curPos,
           parser.pos
         );
@@ -2611,7 +2602,7 @@ function parsePrimaryExpression(
       return parseStringLiteral(parser, context);
     case SyntaxKind.Decrement:
     case SyntaxKind.Increment:
-      return parsePrefixUpdateExpression(parser, context, inNewExpression, LeftHandSideContext);
+      return parsePrefixUpdateExpression(parser, context, leftHandSideContext);
     case SyntaxKind.DeleteKeyword:
     case SyntaxKind.Negate:
     case SyntaxKind.Complement:
@@ -2619,9 +2610,9 @@ function parsePrimaryExpression(
     case SyntaxKind.Subtract:
     case SyntaxKind.TypeofKeyword:
     case SyntaxKind.VoidKeyword:
-      return parseUnaryExpression(parser, context, LeftHandSideContext);
+      return parseUnaryExpression(parser, context, leftHandSideContext);
     case SyntaxKind.FunctionKeyword:
-      return parseFunctionExpression(parser, context, inNewExpression, LeftHandSideContext);
+      return parseFunctionExpression(parser, context, leftHandSideContext);
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
       return parseClassExpression(parser, context);
@@ -2640,9 +2631,9 @@ function parsePrimaryExpression(
     case SyntaxKind.LeftBrace:
       return parseObjectLiteral(parser, context);
     case SyntaxKind.LeftParen:
-      return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, LeftHandSideContext);
+      return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, leftHandSideContext);
     case SyntaxKind.YieldKeyword:
-      return parseYieldIdentifierOrExpression(parser, context, LeftHandSideContext);
+      return parseYieldIdentifierOrExpression(parser, context, leftHandSideContext);
     case SyntaxKind.NewKeyword:
       return parseNewExpression(parser, context);
     case SyntaxKind.SuperKeyword:
@@ -2660,10 +2651,10 @@ function parsePrimaryExpression(
     case SyntaxKind.TemplateCont:
       return parseTemplateExpression(parser, context, /*isTaggedTemplate*/ false);
     case SyntaxKind.ImportKeyword:
-      return parseImportMetaOrCall(parser, context, inNewExpression);
+      return parseImportMetaOrCall(parser, context, leftHandSideContext);
     case SyntaxKind.LessThan:
       if (context & Context.OptionsAllowTypes && !speculate(parser, context, nextTokenIsLeftParen, true)) {
-        return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, LeftHandSideContext);
+        return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context, leftHandSideContext);
       }
   }
 
@@ -2673,7 +2664,7 @@ function parsePrimaryExpression(
 
   if (token & SyntaxKind.IsFutureReserved) {
     if (parser.token === SyntaxKind.Arrow) {
-      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+      if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -2683,7 +2674,7 @@ function parsePrimaryExpression(
         );
       }
 
-      if (inNewExpression) {
+      if (leftHandSideContext & LeftHandSide.NewExpression) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -3048,7 +3039,7 @@ function parsePropertyDefinition(
 
     if (parser.token & 0b00000000110000000100000000000000) {
       const colonValue = parser.tokenValue;
-      left = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+      left = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
       const token = parser.token;
 
@@ -3336,7 +3327,7 @@ function paresSpreadPropertyArgument(
   // - `{...this};`
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     const tokenValue = parser.tokenValue;
-    let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+    let argument = parsePrimaryExpression(parser, context, LeftHandSide.None);
     let destructible = 0;
 
     const token = parser.token;
@@ -3564,7 +3555,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     return createNewTarget(newToken, targetKeyword, pos, parser.curPos);
   }
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
-  const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ true, LeftHandSide.None);
+  const expression = parsePrimaryExpression(parser, context, LeftHandSide.NewExpression);
   if (parser.token === SyntaxKind.QuestionMarkPeriod) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -3616,13 +3607,12 @@ function parsePostfixUpdateExpression(
 function parsePrefixUpdateExpression(
   parser: ParserState,
   context: Context,
-  inNewExpression: boolean,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): PrefixUpdateExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
   const operand = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
-  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) {
+  if (leftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3642,7 +3632,7 @@ function parsePrefixUpdateExpression(
       parser.pos
     );
   }
-  if (inNewExpression) {
+  if (leftHandSideContext & LeftHandSide.NewExpression) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3678,13 +3668,13 @@ export function isPropertyWithPrivateFieldKey(node: any): boolean {
 function parseUnaryExpression(
   parser: ParserState,
   context: Context,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
   if (
     operandToken.flags & 0b00000000000000000110000000000000 ||
-    LeftHandSideContext & LeftHandSide.DisallowClassExtends
+    leftHandSideContext & LeftHandSide.DisallowClassExtends
   ) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -3860,7 +3850,7 @@ function parseArrayLiteralElement(
   // - `[this]`
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const tokenValue = parser.tokenValue;
-    let left = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+    let left = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
     // - `([a:b]) => x`
     if (context & Context.OptionsAllowTypes && type & BindingType.InArrow) {
@@ -4152,7 +4142,7 @@ function parseArraySpreadArgument(
   // - `{...this};`
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     const tokenValue = parser.tokenValue;
-    let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+    let argument = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
     let destructible = 0;
 
@@ -4370,7 +4360,7 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
 function parseCoverParenthesizedExpressionAndArrowParameterList(
   parser: ParserState,
   context: Context,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): ParenthesizedExpression | any {
   const curPos = parser.curPos;
   let typeParameters = null;
@@ -4396,12 +4386,12 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   // - `(() => x)`
   // - `return () => x`
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
-    if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+    if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
-          LeftHandSideContext & LeftHandSide.ForStatement
+          leftHandSideContext & LeftHandSide.ForStatement
             ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
             : DiagnosticCode.Expected_a
         ],
@@ -4418,12 +4408,12 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       case SyntaxKind.Arrow:
       case SyntaxKind.Colon:
       case SyntaxKind.LeftBrace:
-        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+        if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
             diagnosticMap[
-              LeftHandSideContext & LeftHandSide.ForStatement
+              leftHandSideContext & LeftHandSide.ForStatement
                 ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
                 : DiagnosticCode.Expected_a
             ],
@@ -4464,7 +4454,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
-    expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+    expression = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
     // - `(a?) => {}`
     // - `(a?: string) => {}`
@@ -4799,7 +4789,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parser.pos
           );
         }
-        if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+        if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -4860,7 +4850,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     while (parser.token & 0b00010000101010010100000000000000) {
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
         addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
-        expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+        expression = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
         state = Tristate.Unknown;
 
@@ -5167,7 +5157,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parser.pos
         );
       }
-      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+      if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -5223,7 +5213,7 @@ function isValidReturnType(parser: ParserState, context: Context, pos: number) {
     function () {
       nextToken(parser, context); // ':'
       const isIdentifier = parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier);
-      let expression: any = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+      let expression: any = parsePrimaryExpression(parser, context, LeftHandSide.None);
       if (
         isIdentifier &&
         expression.kind === SyntaxKind.ArrowFunction &&
@@ -5509,8 +5499,7 @@ function isArrowAfterTheCurrentToken(parser: ParserState, context: Context): boo
 function parseFunctionExpression(
   parser: ParserState,
   context: Context,
-  inNewExpression: boolean,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): FunctionExpression | Identifier | ArrowFunction {
   const pos = parser.curPos;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
@@ -5542,7 +5531,7 @@ function parseFunctionExpression(
             parser.assignable = true;
             return createIdentifier('async', 'async', pos, parser.curPos);
           }
-          if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+          if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -5588,7 +5577,7 @@ function parseFunctionExpression(
       let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
 
       // "new async"
-      if (inNewExpression) return expression;
+      if (leftHandSideContext & LeftHandSide.NewExpression) return expression;
 
       // "async()"
       // "async () => {}"
@@ -5599,7 +5588,7 @@ function parseFunctionExpression(
           parser,
           context,
           expression,
-          LeftHandSideContext,
+          leftHandSideContext,
           flags,
           pos
         );
@@ -8382,7 +8371,7 @@ function parseComputedPropertyName(parser: ParserState, context: Context): Compu
 function parseYieldIdentifierOrExpression(
   parser: ParserState,
   context: Context,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): YieldExpression | ArrowFunction | Identifier | DummyIdentifier {
   const pos = parser.curPos;
   if (context & Context.YieldContext) {
@@ -8397,12 +8386,14 @@ function parseYieldIdentifierOrExpression(
     }
     const yieldKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.YieldKeyword);
 
-    if (LeftHandSideContext || parser.token === SyntaxKind.QuestionMark) {
+    if (leftHandSideContext || parser.token === SyntaxKind.QuestionMark) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[
-          LeftHandSideContext & LeftHandSide.ForStatement
+          leftHandSideContext & LeftHandSide.NewExpression
+            ? DiagnosticCode.Expression_expected
+            : leftHandSideContext & LeftHandSide.ForStatement
             ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context
             : parser.token === SyntaxKind.QuestionMark
             ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context
@@ -8480,8 +8471,7 @@ function parseYieldIdentifierOrExpression(
 export function parseAwaitExpression(
   parser: ParserState,
   context: Context,
-  inNewExpression: boolean,
-  LeftHandSideContext: LeftHandSide
+  leftHandSideContext: LeftHandSide
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
 
@@ -8502,7 +8492,7 @@ export function parseAwaitExpression(
     );
   }
 
-  if (LeftHandSideContext & LeftHandSide.DisallowClassExtends) {
+  if (leftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -8526,12 +8516,12 @@ export function parseAwaitExpression(
 
   // 'await' is a unary operator according to the spec, even though it's treated
   // specially in the parser.
-  if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate || inNewExpression) {
+  if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate || leftHandSideContext & LeftHandSide.NewExpression) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        inNewExpression
+        leftHandSideContext & LeftHandSide.NewExpression
           ? DiagnosticCode.Expression_expected
           : DiagnosticCode.Unary_expressions_as_the_left_operand_of_an_exponentation_expression_must_be_disambiguated_with_parentheses
       ],
@@ -9358,8 +9348,12 @@ function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateI
   return createPrivateIdentifier(name, pos, parser.curPos);
 }
 
-export function parseImportMetaOrCall(parser: ParserState, context: Context, inNewExpression: boolean): ExpressionNode {
-  if (inNewExpression) {
+export function parseImportMetaOrCall(
+  parser: ParserState,
+  context: Context,
+  leftHandSideContext: LeftHandSide
+): ExpressionNode {
+  if (leftHandSideContext & LeftHandSide.NewExpression) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -9484,7 +9478,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   parser: ParserState,
   context: Context,
   expr: ExpressionNode,
-  LeftHandSideContext: LeftHandSide,
+  leftHandSideContext: LeftHandSide,
   flags: NodeFlags,
   start: number
 ): ArrowFunction | ExpressionNode {
@@ -9562,7 +9556,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
       addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
-      expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+      expression = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
       if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
         const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
@@ -9767,7 +9761,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       let argument: any;
 
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-        let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
+        let argument = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
         if (context & Context.OptionsAllowTypes && (parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
           const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
@@ -10034,7 +10028,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           parser.pos
         );
       }
-      if (LeftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+      if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,

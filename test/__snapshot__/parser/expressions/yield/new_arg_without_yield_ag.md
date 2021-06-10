@@ -116,14 +116,12 @@ function *g() { new yield }
 
 ```javascript
 
-function * g() {
-  new   yield();
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 19, end: 27
+
 ```
 

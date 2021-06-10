@@ -21,7 +21,8 @@ export const enum LeftHandSide {
   None = 0,
   NotAssignable = 1 << 0, // The left hand side is not assignable
   DisallowClassExtends = 1 << 1, // Disallow expr on the left side of 'class extends'
-  ForStatement = 1 << 2 // Left hand side in 'ForStatement'
+  ForStatement = 1 << 2, // Left hand side in 'ForStatement'
+  NewExpression = 1 << 3
 }
 
 export const enum ObjectTypeFlag {
