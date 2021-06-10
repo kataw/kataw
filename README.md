@@ -130,7 +130,7 @@ conform to the `ECMAScript® 2022 (ECMA-262 12th Edition) language specification
 
 As everything else - it's developed for high performance.
 
-It allows you to parse syntax like `function x(y: string, z: number): string | number` and other
+It allows you to parse syntax like `function x(y: string, z: number): string | number {}` and other
 similiar syntax.
 
 The type system is still `WIP` and will be enabled by default in the `CLI` together with
