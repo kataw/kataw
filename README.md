@@ -171,14 +171,6 @@ All this features are still *WIP*.
 
 - typechecking (_like Typescript and Flow_)
 
-- transform current ECMA code to older ECMA versions (_like Babel_)
-
-- global API to perform AST manipulation and tree walkers
-
-- Pretty printing (_like Prettier_)
-
-- Grammar checker
-
 - Linting (_like ESLint_)
 
 - Minify (_Like Terser_)
