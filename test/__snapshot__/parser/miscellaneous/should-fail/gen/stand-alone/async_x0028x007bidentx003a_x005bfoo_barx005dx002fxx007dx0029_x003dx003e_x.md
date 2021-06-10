@@ -106,7 +106,7 @@ async ({ident: [foo, bar]/x}) => x
                         "start": 8,
                         "end": 27
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 7,
                     "end": 28
                 }

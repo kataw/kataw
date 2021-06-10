@@ -87,7 +87,7 @@ var f = ({eval: x}) => {};
                                         "start": 10,
                                         "end": 17
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 9,
                                     "end": 18
                                 }

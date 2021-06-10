@@ -834,7 +834,7 @@ var {get} = obj;
                                         "start": 191,
                                         "end": 200
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 190,
                                     "end": 201
                                 },
@@ -919,7 +919,7 @@ var {get} = obj;
                                         "start": 204,
                                         "end": 215
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 202,
                                     "end": 216
                                 }
@@ -1072,7 +1072,7 @@ var {get} = obj;
                                         "start": 235,
                                         "end": 252
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 234,
                                     "end": 253
                                 }

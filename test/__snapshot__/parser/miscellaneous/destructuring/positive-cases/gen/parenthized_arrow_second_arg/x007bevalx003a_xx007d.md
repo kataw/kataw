@@ -95,7 +95,7 @@ var f = (argument1,{eval: x}) => {};
                                         "start": 20,
                                         "end": 27
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 19,
                                     "end": 28
                                 }

@@ -43,7 +43,7 @@ let
                                 "start": 5,
                                 "end": 5
                             },
-                            "flags": 32,
+                            "flags": 33,
                             "start": 3,
                             "end": 6
                         },

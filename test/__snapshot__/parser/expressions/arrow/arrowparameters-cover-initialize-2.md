@@ -85,7 +85,7 @@ var af = ({x = 1}) => x;
                                         "start": 11,
                                         "end": 16
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 10,
                                     "end": 17
                                 }

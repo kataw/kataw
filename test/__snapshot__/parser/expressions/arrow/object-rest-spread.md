@@ -93,7 +93,7 @@ var foo = ( { title, ...other } ) => {
                                         "start": 13,
                                         "end": 29
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 11,
                                     "end": 31
                                 }

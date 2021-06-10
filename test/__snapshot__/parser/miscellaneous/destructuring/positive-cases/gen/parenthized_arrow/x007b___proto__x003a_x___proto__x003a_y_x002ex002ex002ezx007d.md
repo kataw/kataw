@@ -134,7 +134,7 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                                         "start": 10,
                                         "end": 43
                                     },
-                                    "flags": 32,
+                                    "flags": 52,
                                     "start": 9,
                                     "end": 44
                                 }

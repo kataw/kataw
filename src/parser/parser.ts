@@ -1811,7 +1811,7 @@ function parseBlockStatement(
   ownLabels: any
 ): BlockStatement {
   const pos = parser.curPos;
-  let nodeFlags = parser.nodeFlags;
+  const nodeFlags = parser.nodeFlags;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
     const block = parseBlock(parser, context | Context.InBlock, scope, labels, ownLabels);
     consume(
@@ -4303,7 +4303,12 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.end
       );
     case SyntaxKind.ObjectLiteral:
-      return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.flags, node.start, node.end);
+      return createObjectBindingPattern(
+        convertArrowParameter(parser, node.propertyList),
+        node.flags,
+        node.start,
+        node.end
+      );
     case SyntaxKind.PropertyDefinitionList:
       const bindingProperty = [];
       const properties = node.properties;
@@ -8760,7 +8765,6 @@ function parseClassDeclaration(
     pos,
     parser.curPos
   );
-
 }
 
 // #sec-class-definitions
@@ -8796,9 +8800,16 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
 
   parser.assignable = false;
 
-  return createClassExpression(decorator, classToken, name as any, typeParameters, classTail,
+  return createClassExpression(
+    decorator,
+    classToken,
+    name as any,
+    typeParameters,
+    classTail,
     (flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
-    pos, parser.curPos);
+    pos,
+    parser.curPos
+  );
 }
 
 // ClassTail : ClassHeritage? `{` ClassBody? `}`

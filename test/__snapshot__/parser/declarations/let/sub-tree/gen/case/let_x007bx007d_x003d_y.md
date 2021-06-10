@@ -79,7 +79,7 @@ switch (a) { case b: let
                                                     "start": 26,
                                                     "end": 26
                                                 },
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 24,
                                                 "end": 27
                                             },

@@ -2513,7 +2513,7 @@ foo ? bar : baz => {};
                             "start": 893,
                             "end": 893
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 892,
                         "end": 894
                     }
@@ -2572,7 +2572,7 @@ foo ? bar : baz => {};
                             "start": 908,
                             "end": 908
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 906,
                         "end": 909
                     }
@@ -2623,7 +2623,7 @@ foo ? bar : baz => {};
                             "start": 920,
                             "end": 920
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 919,
                         "end": 921
                     },
@@ -3062,7 +3062,7 @@ foo ? bar : baz => {};
                             "start": 1028,
                             "end": 1029
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 1027,
                         "end": 1030
                     }
@@ -3836,7 +3836,7 @@ foo ? bar : baz => {};
                             "start": 1224,
                             "end": 1225
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 1222,
                         "end": 1226
                     },
@@ -3947,7 +3947,7 @@ foo ? bar : baz => {};
                                 "start": 1250,
                                 "end": 1251
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 1249,
                             "end": 1252
                         },
@@ -4127,7 +4127,7 @@ foo ? bar : baz => {};
                             "start": 1286,
                             "end": 1292
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 1285,
                         "end": 1293
                     }

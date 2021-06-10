@@ -340,7 +340,7 @@ const { async = true } = x;
                                         "start": 100,
                                         "end": 111
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 99,
                                     "end": 113
                                 }
@@ -479,7 +479,7 @@ const { async = true } = x;
                                         "start": 155,
                                         "end": 167
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 154,
                                     "end": 169
                                 }

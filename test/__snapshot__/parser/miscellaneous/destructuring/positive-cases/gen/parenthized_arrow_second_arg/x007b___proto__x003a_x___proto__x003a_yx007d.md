@@ -119,7 +119,7 @@ var f = (argument1,{ __proto__: x, __proto__: y}) => {};
                                         "start": 20,
                                         "end": 47
                                     },
-                                    "flags": 32,
+                                    "flags": 52,
                                     "start": 19,
                                     "end": 48
                                 }

@@ -5092,7 +5092,7 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 4869,
                                             "end": 4879
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 4868,
                                         "end": 4880
                                     }
@@ -5229,7 +5229,7 @@ try {} catch(e) { for(var e of 0); };
                                             "start": 4908,
                                             "end": 4917
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 4907,
                                         "end": 4918
                                     }

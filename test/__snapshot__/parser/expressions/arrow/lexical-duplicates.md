@@ -1482,7 +1482,7 @@ a = b => { let b; };
                             "start": 350,
                             "end": 354
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 348,
                         "end": 355
                     }
@@ -1774,7 +1774,7 @@ a = b => { let b; };
                             "start": 420,
                             "end": 424
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 419,
                         "end": 425
                     },
@@ -1911,7 +1911,7 @@ a = b => { let b; };
                             "start": 442,
                             "end": 458
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 441,
                         "end": 459
                     }

@@ -71,7 +71,7 @@ switch (a) { default: let
                                                     "start": 27,
                                                     "end": 27
                                                 },
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 25,
                                                 "end": 28
                                             },

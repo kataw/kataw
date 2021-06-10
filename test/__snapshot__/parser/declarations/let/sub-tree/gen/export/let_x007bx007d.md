@@ -51,7 +51,7 @@ export let
                                     "start": 12,
                                     "end": 12
                                 },
-                                "flags": 32,
+                                "flags": 33,
                                 "start": 10,
                                 "end": 13
                             },

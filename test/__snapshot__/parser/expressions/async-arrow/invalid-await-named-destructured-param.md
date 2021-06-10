@@ -68,7 +68,7 @@ async ({a: await}) => 1;
                         "start": 8,
                         "end": 16
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 7,
                     "end": 17
                 }

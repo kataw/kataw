@@ -738,7 +738,7 @@
                             "start": 276,
                             "end": 284
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 275,
                         "end": 285
                     }
@@ -812,7 +812,7 @@
                             "start": 310,
                             "end": 315
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 309,
                         "end": 316
                     }
@@ -903,7 +903,7 @@
                             "start": 341,
                             "end": 350
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 340,
                         "end": 351
                     }
