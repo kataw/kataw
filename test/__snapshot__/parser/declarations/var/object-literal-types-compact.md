@@ -49,6 +49,7 @@ type T4 = { foo: number, bar: string, ... };
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -106,6 +107,8 @@ type T4 = { foo: number, bar: string, ... };
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -116,11 +119,14 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 30,
                             "end": 32
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234353,
                             "properties": [
                                 {
                                     "kind": 193,
+                                    "protoKeyword": null,
+                                    "staticToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -131,11 +137,14 @@ type T4 = { foo: number, bar: string, ... };
                                         "start": 35,
                                         "end": 37
                                     },
+                                    "optionalToken": null,
                                     "value": {
                                         "kind": 134234353,
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "protoKeyword": null,
+                                                "staticToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -146,11 +155,13 @@ type T4 = { foo: number, bar: string, ... };
                                                     "start": 40,
                                                     "end": 42
                                                 },
+                                                "optionalToken": null,
                                                 "value": {
                                                     "kind": 134234353,
                                                     "properties": [
                                                         {
                                                             "kind": 247,
+                                                            "protoKeyword": null,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
@@ -181,14 +192,13 @@ type T4 = { foo: number, bar: string, ... };
                                                     "start": 43,
                                                     "end": 49
                                                 },
-                                                "optionalToken": null,
-                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 40,
                                                 "end": 50
                                             },
                                             {
                                                 "kind": 247,
+                                                "protoKeyword": null,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
@@ -219,14 +229,13 @@ type T4 = { foo: number, bar: string, ... };
                                         "start": 38,
                                         "end": 56
                                     },
-                                    "optionalToken": null,
-                                    "staticToken": null,
                                     "flags": 0,
                                     "start": 35,
                                     "end": 57
                                 },
                                 {
                                     "kind": 247,
+                                    "protoKeyword": null,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
@@ -257,8 +266,6 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 33,
                             "end": 63
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 30,
                         "end": 63
@@ -295,6 +302,8 @@ type T4 = { foo: number, bar: string, ... };
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -305,20 +314,20 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 77,
                             "end": 81
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 82,
                             "end": 89
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 77,
                         "end": 90
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -376,6 +385,8 @@ type T4 = { foo: number, bar: string, ... };
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -386,20 +397,21 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 109,
                             "end": 113
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 114,
                             "end": 121
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 109,
                         "end": 122
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -410,20 +422,20 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 122,
                             "end": 126
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 127,
                             "end": 134
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 122,
                         "end": 135
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,

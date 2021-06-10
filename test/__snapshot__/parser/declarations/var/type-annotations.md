@@ -982,6 +982,8 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -992,14 +994,13 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "start": 264,
                                             "end": 266
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 267,
                                             "end": 274
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 264,
                                         "end": 275

@@ -319,6 +319,8 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                             "properties": [
                                                 {
                                                     "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -329,6 +331,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         "start": 40,
                                                         "end": 41
                                                     },
+                                                    "optionalToken": null,
                                                     "value": {
                                                         "kind": 144,
                                                         "id": {
@@ -344,8 +347,6 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         "start": 42,
                                                         "end": 44
                                                     },
-                                                    "optionalToken": null,
-                                                    "staticToken": null,
                                                     "flags": 0,
                                                     "start": 40,
                                                     "end": 44

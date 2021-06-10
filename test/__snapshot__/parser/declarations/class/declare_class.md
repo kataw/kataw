@@ -63,6 +63,13 @@ declare class D extends C { }
                     "properties": [
                         {
                             "kind": 193,
+                            "protoKeyword": {
+                                "kind": 8388716,
+                                "flags": 65,
+                                "start": 17,
+                                "end": 28
+                            },
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -73,18 +80,12 @@ declare class D extends C { }
                                 "start": 28,
                                 "end": 30
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 31,
                                 "end": 38
-                            },
-                            "optionalToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 65,
-                                "start": 17,
-                                "end": 28
                             },
                             "flags": 0,
                             "start": 17,
@@ -92,6 +93,13 @@ declare class D extends C { }
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": {
+                                "kind": 8388716,
+                                "flags": 65,
+                                "start": 39,
+                                "end": 50
+                            },
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -102,6 +110,7 @@ declare class D extends C { }
                                 "start": 50,
                                 "end": 54
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
@@ -146,19 +155,14 @@ declare class D extends C { }
                                 "start": 54,
                                 "end": 71
                             },
-                            "optionalToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 65,
-                                "start": 39,
-                                "end": 50
-                            },
                             "flags": 0,
                             "start": 39,
                             "end": 71
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -168,6 +172,7 @@ declare class D extends C { }
                                 "start": 71,
                                 "end": 71
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -182,14 +187,14 @@ declare class D extends C { }
                                 "start": 71,
                                 "end": 71
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 71,
                             "end": 72
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -200,6 +205,7 @@ declare class D extends C { }
                                 "start": 72,
                                 "end": 89
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
@@ -244,14 +250,14 @@ declare class D extends C { }
                                 "start": 89,
                                 "end": 106
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 72,
                             "end": 106
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -261,6 +267,7 @@ declare class D extends C { }
                                 "start": 106,
                                 "end": 106
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -275,8 +282,6 @@ declare class D extends C { }
                                 "start": 106,
                                 "end": 106
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 106,
                             "end": 107

@@ -126,6 +126,8 @@ declare class A<T> extends B<T> { x: number }
                     "properties": [
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -136,14 +138,13 @@ declare class A<T> extends B<T> { x: number }
                                 "start": 33,
                                 "end": 35
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 36,
                                 "end": 43
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 33,
                             "end": 43

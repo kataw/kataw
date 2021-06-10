@@ -7996,27 +7996,54 @@ function parseLexicalBinding(
 function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): any {
   const pos = parser.curPos;
   let staticKeyword = null;
+  let protoKeyword = null;
+
+  if (objectTypeFlag & ObjectTypeFlag.AllowProto && parser.token === SyntaxKind.ProtoKeyword) {
+    if (speculate(parser, context, nextTokenIsNotColonOrQuestionMark, /* rollback */ true)) {
+      protoKeyword = consumeToken(parser, context, SyntaxKind.ProtoKeyword);
+    }
+  }
 
   if (objectTypeFlag & ObjectTypeFlag.AllowStatic && parser.token === SyntaxKind.StaticKeyword) {
-    staticKeyword = consumeToken(parser, context, SyntaxKind.StaticKeyword);
+    if (speculate(parser, context, nextTokenIsNotColonOrQuestionMark, /* rollback */ true)) {
+      staticKeyword = consumeToken(parser, context, SyntaxKind.StaticKeyword);
+    }
   }
 
   if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-    if (parser.token === SyntaxKind.LeftBracket) {
-      return parseObjectTypeInternalSlot(parser, context, staticKeyword, pos);
+    if (protoKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+        pos,
+        parser.pos
+      );
     }
-    return parseObjectTypeIndexer(parser, context, staticKeyword, pos);
+    if (parser.token === SyntaxKind.LeftBracket) {
+      return parseObjectTypeInternalSlot(parser, context, staticKeyword, protoKeyword, pos);
+    }
+    return parseObjectTypeIndexer(parser, context, protoKeyword, staticKeyword, pos);
   }
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-    return parseObjectTypeCallProperty(parser, context, staticKeyword, pos);
+    if (protoKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+        pos,
+        parser.pos
+      );
+    }
+    return parseObjectTypeCallProperty(parser, context, protoKeyword, staticKeyword, pos);
   }
 
   if (parser.token === SyntaxKind.Ellipsis) {
-    return parseObjectTypeSpreadProperty(parser, context, staticKeyword, pos);
+    return parseObjectTypeSpreadProperty(parser, context, protoKeyword, staticKeyword, pos);
   }
 
-  return parseObjectTypeProperty(parser, context, staticKeyword, pos);
+  return parseObjectTypeProperty(parser, context, staticKeyword, protoKeyword, pos);
 }
 
 function parseTypeMemberSemicolon(parser: ParserState, context: Context): void {
@@ -8046,13 +8073,15 @@ function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: 
 function parseObjectTypeSpreadProperty(
   parser: ParserState,
   context: Context,
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeSpreadProperty {
   return createObjectTypeSpreadProperty(
-    /* ellipsisToken */ consumeToken(parser, context, SyntaxKind.Ellipsis, DiagnosticCode.Type_expected),
-    /* type */ parseType(parser, context),
-    /* staticKeyword */ staticKeyword,
+    protoKeyword,
+    consumeToken(parser, context, SyntaxKind.Ellipsis, DiagnosticCode.Type_expected),
+    parseType(parser, context),
+    staticKeyword,
     pos,
     parser.curPos
   );
@@ -8061,6 +8090,7 @@ function parseObjectTypeSpreadProperty(
 function parseObjectTypeProperty(
   parser: ParserState,
   context: Context,
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeProperty {
@@ -8081,6 +8111,7 @@ function parseObjectTypeProperty(
         parseFunctionType(parser, context),
         /* optionalToken */ null,
         /* staticKeyword */ null,
+        protoKeyword,
         pos,
         parser.curPos
       );
@@ -8093,6 +8124,7 @@ function parseObjectTypeProperty(
         parseFunctionType(parser, context),
         /* optionalToken */ null,
         /* staticKeyword */ null,
+        protoKeyword,
         pos,
         parser.curPos
       );
@@ -8106,6 +8138,7 @@ function parseObjectTypeProperty(
         parseFunctionType(parser, context),
         /* optionalToken */ null,
         staticKeyword,
+        protoKeyword,
         pos,
         parser.curPos
       );
@@ -8121,6 +8154,7 @@ function parseObjectTypeProperty(
       value,
       optionalToken,
       staticKeyword,
+      protoKeyword,
       pos,
       parser.curPos
     );
@@ -8136,6 +8170,7 @@ function parseObjectTypeProperty(
       parseFunctionType(parser, context),
       /* optionalToken */ null,
       staticKeyword,
+      protoKeyword,
       pos,
       parser.curPos
     );
@@ -8144,12 +8179,23 @@ function parseObjectTypeProperty(
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
   parseTypeMemberSemicolon(parser, context);
-  return createObjectTypeProperty(getKeyword, setKeyword, key, value, optionalToken, staticKeyword, pos, parser.curPos);
+  return createObjectTypeProperty(
+    getKeyword,
+    setKeyword,
+    key,
+    value,
+    optionalToken,
+    staticKeyword,
+    protoKeyword,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseObjectTypeCallProperty(
   parser: ParserState,
   context: Context,
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeCallProperty {
@@ -8170,13 +8216,22 @@ function parseObjectTypeCallProperty(
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   consumeOpt(parser, context, SyntaxKind.Semicolon);
-  return createObjectTypeCallProperty(typeParameters, params, staticKeyword, returnType, pos, parser.curPos);
+  return createObjectTypeCallProperty(
+    protoKeyword,
+    typeParameters,
+    params,
+    staticKeyword,
+    returnType,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseObjectTypeInternalSlot(
   parser: ParserState,
   context: Context,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeInternalSlot {
   consume(parser, context, SyntaxKind.LeftBracket);
@@ -8204,23 +8259,35 @@ function parseObjectTypeInternalSlot(
     const returnType = parseType(parser, context);
     const value = createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
     parseTypeMemberSemicolon(parser, context);
-    return createObjectTypeInternalSlot(name, /* optionalToken */ null, staticKeyword, value, pos, parser.curPos);
+    return createObjectTypeInternalSlot(
+      protoKeyword,
+      name,
+      /* optionalToken */ null,
+      staticKeyword,
+      value,
+      pos,
+      parser.curPos
+    );
   }
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   consume(parser, context, SyntaxKind.Colon);
   const type = parseType(parser, context);
   parseTypeMemberSemicolon(parser, context);
-  return createObjectTypeInternalSlot(name, optionalToken, staticKeyword, type, pos, parser.curPos);
+  return createObjectTypeInternalSlot(protoKeyword, name, optionalToken, staticKeyword, type, pos, parser.curPos);
 }
 
 function nextTokenIsColon(parser: ParserState, context: Context) {
   nextToken(parser, context);
   return parser.token === SyntaxKind.Colon;
 }
-
+function nextTokenIsNotColonOrQuestionMark(parser: ParserState, context: Context) {
+  nextToken(parser, context);
+  return parser.token !== SyntaxKind.QuestionMark && parser.token !== SyntaxKind.Colon;
+}
 function parseObjectTypeIndexer(
   parser: ParserState,
   context: Context,
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeIndexer {
@@ -8238,7 +8305,7 @@ function parseObjectTypeIndexer(
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
   parseTypeMemberSemicolon(parser, context);
-  return createObjectTypeIndexer(name, key, value, staticKeyword, pos, parser.curPos);
+  return createObjectTypeIndexer(protoKeyword, name, key, value, staticKeyword, pos, parser.curPos);
 }
 
 function parseComputedPropertyName(parser: ParserState, context: Context): ComputedPropertyName {

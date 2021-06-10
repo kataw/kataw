@@ -530,6 +530,8 @@ class C2<X, Y> {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -540,6 +542,7 @@ class C2<X, Y> {
                                                 "start": 168,
                                                 "end": 169
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 144,
                                                 "id": {
@@ -555,8 +558,6 @@ class C2<X, Y> {
                                                 "start": 170,
                                                 "end": 172
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 168,
                                             "end": 172

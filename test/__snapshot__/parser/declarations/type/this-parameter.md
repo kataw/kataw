@@ -424,6 +424,8 @@ type ten = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -434,6 +436,7 @@ type ten = {
                             "start": 177,
                             "end": 182
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
@@ -478,14 +481,14 @@ type ten = {
                             "start": 182,
                             "end": 202
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 177,
                         "end": 202
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -495,6 +498,7 @@ type ten = {
                             "start": 202,
                             "end": 202
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -509,14 +513,14 @@ type ten = {
                             "start": 202,
                             "end": 202
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 202,
                         "end": 203
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -527,6 +531,7 @@ type ten = {
                             "start": 203,
                             "end": 208
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
@@ -593,14 +598,14 @@ type ten = {
                             "start": 208,
                             "end": 239
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 203,
                         "end": 239
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -610,6 +615,7 @@ type ten = {
                             "start": 239,
                             "end": 239
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -624,14 +630,14 @@ type ten = {
                             "start": 239,
                             "end": 239
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 239,
                         "end": 240
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -642,6 +648,7 @@ type ten = {
                             "start": 240,
                             "end": 245
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
@@ -713,14 +720,14 @@ type ten = {
                             "start": 245,
                             "end": 276
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 240,
                         "end": 276
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -730,6 +737,7 @@ type ten = {
                             "start": 276,
                             "end": 276
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -744,14 +752,14 @@ type ten = {
                             "start": 276,
                             "end": 276
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 276,
                         "end": 277
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -762,6 +770,7 @@ type ten = {
                             "start": 277,
                             "end": 282
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
@@ -838,14 +847,14 @@ type ten = {
                             "start": 282,
                             "end": 300
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 277,
                         "end": 300
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -855,6 +864,7 @@ type ten = {
                             "start": 300,
                             "end": 300
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -869,8 +879,6 @@ type ten = {
                             "start": 300,
                             "end": 300
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 300,
                         "end": 301

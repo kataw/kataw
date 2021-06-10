@@ -46,6 +46,7 @@ type T = { [[foo]]: X }
                 "properties": [
                     {
                         "kind": 248,
+                        "protoKeyword": null,
                         "name": {
                             "kind": 134299649,
                             "text": "foo",

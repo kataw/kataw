@@ -100,6 +100,8 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -110,20 +112,21 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                             "start": 61,
                             "end": 72
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 73,
                             "end": 80
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 61,
                         "end": 81
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -134,6 +137,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                             "start": 81,
                             "end": 90
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
@@ -155,14 +159,14 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                             "start": 90,
                             "end": 100
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 81,
                         "end": 100
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -172,6 +176,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                             "start": 100,
                             "end": 100
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -186,8 +191,6 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                             "start": 100,
                             "end": 100
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 100,
                         "end": 101

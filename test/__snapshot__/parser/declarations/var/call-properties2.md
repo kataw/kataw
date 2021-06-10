@@ -59,6 +59,7 @@ var c: { (): string; (x: number): string } =
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -81,6 +82,7 @@ var c: { (): string; (x: number): string } =
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -282,6 +284,7 @@ var c: { (): string; (x: number): string } =
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -304,6 +307,7 @@ var c: { (): string; (x: number): string } =
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,

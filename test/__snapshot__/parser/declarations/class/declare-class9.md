@@ -55,6 +55,8 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                     "properties": [
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -65,6 +67,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                 "start": 28,
                                 "end": 39
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
@@ -140,14 +143,14 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                 "start": 39,
                                 "end": 71
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 28,
                             "end": 71
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -157,6 +160,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                 "start": 71,
                                 "end": 71
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -171,8 +175,6 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                 "start": 71,
                                 "end": 71
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 71,
                             "end": 72

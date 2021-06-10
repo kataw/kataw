@@ -75,6 +75,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "properties": [
                                                     {
                                                         "kind": 193,
+                                                        "protoKeyword": null,
+                                                        "staticToken": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -85,14 +87,13 @@ declare var tup: [{foo: string}, {bar: number}];
                                                             "start": 30,
                                                             "end": 34
                                                         },
+                                                        "optionalToken": null,
                                                         "value": {
                                                             "kind": 134234347,
                                                             "flags": 64,
                                                             "start": 35,
                                                             "end": 42
                                                         },
-                                                        "optionalToken": null,
-                                                        "staticToken": null,
                                                         "flags": 0,
                                                         "start": 30,
                                                         "end": 42
@@ -183,6 +184,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "properties": [
                                                     {
                                                         "kind": 193,
+                                                        "protoKeyword": null,
+                                                        "staticToken": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -193,14 +196,13 @@ declare var tup: [{foo: string}, {bar: number}];
                                                             "start": 88,
                                                             "end": 91
                                                         },
+                                                        "optionalToken": null,
                                                         "value": {
                                                             "kind": 134234347,
                                                             "flags": 64,
                                                             "start": 92,
                                                             "end": 99
                                                         },
-                                                        "optionalToken": null,
-                                                        "staticToken": null,
                                                         "flags": 0,
                                                         "start": 88,
                                                         "end": 99
@@ -279,6 +281,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "protoKeyword": null,
+                                                "staticToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -289,14 +293,13 @@ declare var tup: [{foo: string}, {bar: number}];
                                                     "start": 122,
                                                     "end": 125
                                                 },
+                                                "optionalToken": null,
                                                 "value": {
                                                     "kind": 134234347,
                                                     "flags": 64,
                                                     "start": 126,
                                                     "end": 133
                                                 },
-                                                "optionalToken": null,
-                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 122,
                                                 "end": 133
@@ -311,6 +314,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "protoKeyword": null,
+                                                "staticToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -321,14 +326,13 @@ declare var tup: [{foo: string}, {bar: number}];
                                                     "start": 137,
                                                     "end": 140
                                                 },
+                                                "optionalToken": null,
                                                 "value": {
                                                     "kind": 134234345,
                                                     "flags": 64,
                                                     "start": 141,
                                                     "end": 148
                                                 },
-                                                "optionalToken": null,
-                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 137,
                                                 "end": 148

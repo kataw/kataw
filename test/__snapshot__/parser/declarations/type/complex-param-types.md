@@ -46,6 +46,8 @@ type o = { m(|int|bool): void }
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -56,6 +58,7 @@ type o = { m(|int|bool): void }
                             "start": 10,
                             "end": 12
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
@@ -125,8 +128,6 @@ type o = { m(|int|bool): void }
                             "start": 12,
                             "end": 29
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 29

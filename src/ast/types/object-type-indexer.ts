@@ -4,6 +4,7 @@ import { TypeNode } from '.';
 
 export interface ObjectTypeIndexer extends SyntaxNode {
   readonly kind: SyntaxKind.ObjectTypeIndexer;
+  readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: any;
   readonly key: TypeNode;
   readonly value: TypeNode;
@@ -11,6 +12,7 @@ export interface ObjectTypeIndexer extends SyntaxNode {
 }
 
 export function createObjectTypeIndexer(
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   name: any,
   key: TypeNode,
   value: TypeNode,
@@ -20,6 +22,7 @@ export function createObjectTypeIndexer(
 ): ObjectTypeIndexer {
   return {
     kind: SyntaxKind.ObjectTypeIndexer,
+    protoKeyword,
     name,
     key,
     value,

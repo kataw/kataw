@@ -57,6 +57,13 @@ declare class A {
                     "properties": [
                         {
                             "kind": 193,
+                            "protoKeyword": {
+                                "kind": 8388716,
+                                "flags": 65,
+                                "start": 17,
+                                "end": 26
+                            },
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -67,6 +74,7 @@ declare class A {
                                 "start": 26,
                                 "end": 36
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -81,13 +89,6 @@ declare class A {
                                 "flags": 0,
                                 "start": 37,
                                 "end": 44
-                            },
-                            "optionalToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 65,
-                                "start": 17,
-                                "end": 26
                             },
                             "flags": 0,
                             "start": 17,

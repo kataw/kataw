@@ -65,6 +65,7 @@ var foo2: {
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -110,6 +111,7 @@ var foo2: {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -156,6 +158,7 @@ var foo2: {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -202,6 +205,7 @@ var foo2: {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -299,6 +303,7 @@ var foo2: {
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -344,6 +349,7 @@ var foo2: {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -390,6 +396,7 @@ var foo2: {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -436,6 +443,7 @@ var foo2: {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,

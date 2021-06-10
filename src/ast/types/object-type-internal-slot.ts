@@ -4,6 +4,8 @@ import { TypeNode } from '.';
 
 export interface ObjectTypeInternalSlot extends SyntaxNode {
   readonly kind: SyntaxKind.ObjectTypeInternalSlot;
+  /* error recovery */
+  readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: any;
   readonly value: TypeNode;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -11,6 +13,7 @@ export interface ObjectTypeInternalSlot extends SyntaxNode {
 }
 
 export function createObjectTypeInternalSlot(
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   name: any,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
@@ -20,6 +23,7 @@ export function createObjectTypeInternalSlot(
 ): ObjectTypeInternalSlot {
   return {
     kind: SyntaxKind.ObjectTypeInternalSlot,
+    protoKeyword,
     name,
     value,
     optionalToken,

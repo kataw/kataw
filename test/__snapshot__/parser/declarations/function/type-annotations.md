@@ -1775,6 +1775,8 @@ function foo28(numVal?: number = 2) {}
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1785,14 +1787,13 @@ function foo28(numVal?: number = 2) {}
                                             "start": 707,
                                             "end": 709
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 710,
                                             "end": 717
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 707,
                                         "end": 718

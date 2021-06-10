@@ -58,6 +58,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -131,6 +132,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": {
                                             "kind": 265,
                                             "typeParameters": [
@@ -259,6 +261,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -332,6 +335,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -405,6 +409,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -427,6 +432,8 @@ var a: { <T>(x: T): number; };
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -437,20 +444,20 @@ var a: { <T>(x: T): number; };
                                             "start": 122,
                                             "end": 124
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 125,
                                             "end": 132
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 122,
                                         "end": 133
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -547,6 +554,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": {
                                             "kind": 265,
                                             "typeParameters": [

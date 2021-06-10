@@ -80,6 +80,8 @@ type overloads2 = {
                         "properties": [
                             {
                                 "kind": 193,
+                                "protoKeyword": null,
+                                "staticToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "key": {
@@ -90,6 +92,7 @@ type overloads2 = {
                                     "start": 17,
                                     "end": 21
                                 },
+                                "optionalToken": null,
                                 "value": {
                                     "kind": 134217967,
                                     "value": "A",
@@ -97,8 +100,6 @@ type overloads2 = {
                                     "start": 22,
                                     "end": 26
                                 },
-                                "optionalToken": null,
-                                "staticToken": null,
                                 "flags": 0,
                                 "start": 17,
                                 "end": 26
@@ -113,6 +114,8 @@ type overloads2 = {
                         "properties": [
                             {
                                 "kind": 193,
+                                "protoKeyword": null,
+                                "staticToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "key": {
@@ -123,6 +126,7 @@ type overloads2 = {
                                     "start": 32,
                                     "end": 36
                                 },
+                                "optionalToken": null,
                                 "value": {
                                     "kind": 134217967,
                                     "value": "B",
@@ -130,8 +134,6 @@ type overloads2 = {
                                     "start": 37,
                                     "end": 41
                                 },
-                                "optionalToken": null,
-                                "staticToken": null,
                                 "flags": 0,
                                 "start": 32,
                                 "end": 41
@@ -329,6 +331,8 @@ type overloads2 = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -339,6 +343,7 @@ type overloads2 = {
                             "start": 137,
                             "end": 141
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 137,
                             "types": [
@@ -347,6 +352,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -357,6 +364,7 @@ type overloads2 = {
                                                 "start": 150,
                                                 "end": 154
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "A",
@@ -364,8 +372,6 @@ type overloads2 = {
                                                 "start": 155,
                                                 "end": 159
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 150,
                                             "end": 159
@@ -380,6 +386,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -390,6 +398,7 @@ type overloads2 = {
                                                 "start": 168,
                                                 "end": 172
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "B",
@@ -397,8 +406,6 @@ type overloads2 = {
                                                 "start": 173,
                                                 "end": 177
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 168,
                                             "end": 177
@@ -413,8 +420,6 @@ type overloads2 = {
                             "start": 160,
                             "end": 178
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 137,
                         "end": 178
@@ -451,6 +456,8 @@ type overloads2 = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -461,6 +468,7 @@ type overloads2 = {
                             "start": 202,
                             "end": 206
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 138,
                             "types": [
@@ -469,6 +477,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -479,6 +489,7 @@ type overloads2 = {
                                                 "start": 215,
                                                 "end": 219
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "A",
@@ -486,8 +497,6 @@ type overloads2 = {
                                                 "start": 220,
                                                 "end": 224
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 215,
                                             "end": 224
@@ -502,6 +511,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -512,6 +523,7 @@ type overloads2 = {
                                                 "start": 233,
                                                 "end": 237
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "B",
@@ -519,8 +531,6 @@ type overloads2 = {
                                                 "start": 238,
                                                 "end": 242
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 233,
                                             "end": 242
@@ -535,8 +545,6 @@ type overloads2 = {
                             "start": 225,
                             "end": 243
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 202,
                         "end": 243

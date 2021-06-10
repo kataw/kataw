@@ -3,6 +3,7 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { TypeNode } from './';
 
 export interface ObjectTypeSpreadProperty extends SyntaxNode {
+  readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly ellipsisToken: SyntaxToken<TokenSyntaxKind>;
   readonly kind: SyntaxKind.ObjectTypeSpreadProperty;
   readonly type: TypeNode;
@@ -10,6 +11,7 @@ export interface ObjectTypeSpreadProperty extends SyntaxNode {
 }
 
 export function createObjectTypeSpreadProperty(
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   ellipsisToken: SyntaxToken<TokenSyntaxKind>,
   type: TypeNode,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
@@ -18,6 +20,7 @@ export function createObjectTypeSpreadProperty(
 ): ObjectTypeSpreadProperty {
   return {
     kind: SyntaxKind.ObjectTypeSpreadProperty,
+    protoKeyword,
     ellipsisToken,
     type,
     staticToken,

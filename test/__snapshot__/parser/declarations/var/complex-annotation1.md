@@ -53,6 +53,8 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -63,20 +65,21 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "start": 10,
                                             "end": 13
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 14,
                                             "end": 20
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 10,
                                         "end": 21
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -87,20 +90,21 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "start": 21,
                                             "end": 23
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 24,
                                             "end": 30
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 21,
                                         "end": 31
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -111,14 +115,13 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "start": 31,
                                             "end": 33
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234254,
                                             "flags": 64,
                                             "start": 34,
                                             "end": 41
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 31,
                                         "end": 41

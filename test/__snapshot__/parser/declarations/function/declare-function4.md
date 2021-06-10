@@ -84,6 +84,8 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                 "properties": [
                                                     {
                                                         "kind": 193,
+                                                        "protoKeyword": null,
+                                                        "staticToken": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -94,6 +96,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                             "start": 37,
                                                             "end": 40
                                                         },
+                                                        "optionalToken": null,
                                                         "value": {
                                                             "kind": 134217967,
                                                             "value": "a",
@@ -101,8 +104,6 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                             "start": 41,
                                                             "end": 45
                                                         },
-                                                        "optionalToken": null,
-                                                        "staticToken": null,
                                                         "flags": 0,
                                                         "start": 37,
                                                         "end": 45

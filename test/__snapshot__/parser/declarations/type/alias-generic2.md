@@ -105,6 +105,8 @@ type MyObject<A, B, C> = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -115,6 +117,7 @@ type MyObject<A, B, C> = {
                             "start": 26,
                             "end": 32
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -130,14 +133,14 @@ type MyObject<A, B, C> = {
                             "start": 33,
                             "end": 35
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 26,
                         "end": 36
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -148,6 +151,7 @@ type MyObject<A, B, C> = {
                             "start": 36,
                             "end": 42
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -163,14 +167,14 @@ type MyObject<A, B, C> = {
                             "start": 43,
                             "end": 45
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 36,
                         "end": 46
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -181,6 +185,7 @@ type MyObject<A, B, C> = {
                             "start": 46,
                             "end": 52
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -196,8 +201,6 @@ type MyObject<A, B, C> = {
                             "start": 53,
                             "end": 55
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 46,
                         "end": 56

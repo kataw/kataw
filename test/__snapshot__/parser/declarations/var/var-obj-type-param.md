@@ -53,6 +53,8 @@ var a: { id<T>(x: T): T; }
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -63,6 +65,7 @@ var a: { id<T>(x: T): T; }
                                             "start": 8,
                                             "end": 11
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 148,
                                             "parameters": {
@@ -148,14 +151,14 @@ var a: { id<T>(x: T): T; }
                                             "start": 11,
                                             "end": 23
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8,
                                         "end": 23
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -165,6 +168,7 @@ var a: { id<T>(x: T): T; }
                                             "start": 23,
                                             "end": 23
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 144,
                                             "id": {
@@ -179,8 +183,6 @@ var a: { id<T>(x: T): T; }
                                             "start": 23,
                                             "end": 23
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 23,
                                         "end": 24

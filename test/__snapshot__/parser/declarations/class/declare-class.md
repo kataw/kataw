@@ -55,6 +55,13 @@ declare class A { static foo(): number; static x : string }
                     "properties": [
                         {
                             "kind": 193,
+                            "protoKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 17,
+                                "end": 24
+                            },
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -65,6 +72,7 @@ declare class A { static foo(): number; static x : string }
                                 "start": 24,
                                 "end": 28
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
@@ -86,19 +94,14 @@ declare class A { static foo(): number; static x : string }
                                 "start": 28,
                                 "end": 38
                             },
-                            "optionalToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 17,
-                                "end": 24
-                            },
                             "flags": 0,
                             "start": 17,
                             "end": 38
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -108,6 +111,7 @@ declare class A { static foo(): number; static x : string }
                                 "start": 38,
                                 "end": 38
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -122,14 +126,19 @@ declare class A { static foo(): number; static x : string }
                                 "start": 38,
                                 "end": 38
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 38,
                             "end": 39
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 39,
+                                "end": 46
+                            },
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -140,18 +149,12 @@ declare class A { static foo(): number; static x : string }
                                 "start": 46,
                                 "end": 48
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 134234347,
                                 "flags": 64,
                                 "start": 50,
                                 "end": 57
-                            },
-                            "optionalToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 39,
-                                "end": 46
                             },
                             "flags": 0,
                             "start": 39,

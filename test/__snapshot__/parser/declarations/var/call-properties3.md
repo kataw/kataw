@@ -82,6 +82,8 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -92,14 +94,13 @@ var z : Object = (x) => "hi"
                                             "start": 69,
                                             "end": 78
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 79,
                                             "end": 86
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 69,
                                         "end": 86
@@ -195,6 +196,8 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -205,6 +208,7 @@ var z : Object = (x) => "hi"
                                             "start": 170,
                                             "end": 176
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 144,
                                             "id": {
@@ -220,8 +224,6 @@ var z : Object = (x) => "hi"
                                             "start": 177,
                                             "end": 186
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 170,
                                         "end": 186
@@ -441,6 +443,8 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -451,14 +455,13 @@ var z : Object = (x) => "hi"
                                             "start": 321,
                                             "end": 328
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 329,
                                             "end": 336
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 321,
                                         "end": 336
@@ -523,6 +526,7 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -679,6 +683,7 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -807,6 +812,7 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -963,6 +969,7 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -1068,6 +1075,7 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -1193,6 +1201,7 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -1298,6 +1307,7 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,

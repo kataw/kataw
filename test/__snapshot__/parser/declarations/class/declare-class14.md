@@ -56,6 +56,7 @@ declare class B { () : number }
                     "properties": [
                         {
                             "kind": 196,
+                            "protoKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 208,
@@ -126,6 +127,7 @@ declare class B { () : number }
                     "properties": [
                         {
                             "kind": 196,
+                            "protoKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 208,

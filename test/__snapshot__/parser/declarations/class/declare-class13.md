@@ -55,6 +55,7 @@ declare class A { static () : number }
                     "properties": [
                         {
                             "kind": 196,
+                            "protoKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 208,

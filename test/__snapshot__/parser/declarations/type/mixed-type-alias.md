@@ -50,6 +50,8 @@ type MyObject = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -60,20 +62,21 @@ type MyObject = {
                             "start": 17,
                             "end": 23
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 24,
                             "end": 31
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 17,
                         "end": 32
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -84,20 +87,21 @@ type MyObject = {
                             "start": 32,
                             "end": 38
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234254,
                             "flags": 64,
                             "start": 39,
                             "end": 47
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 32,
                         "end": 48
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -108,14 +112,13 @@ type MyObject = {
                             "start": 48,
                             "end": 54
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 55,
                             "end": 62
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 48,
                         "end": 63

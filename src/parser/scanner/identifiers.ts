@@ -80,7 +80,8 @@ export const descKeywordTable: { [key: string]: SyntaxKind | null } = {
   opaque: SyntaxKind.OpaqueKeyword,
   eval: SyntaxKind.EvalIdentifier,
   arguments: SyntaxKind.ArgumentsIdentifier,
-  as: SyntaxKind.AsKeyword
+  as: SyntaxKind.AsKeyword,
+  proto: SyntaxKind.ProtoKeyword
 };
 
 // Scan identifer and keyword and do a lookup for keywords

@@ -379,6 +379,8 @@ type B = Foo<
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "protoKeyword": null,
+                                                "staticToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -389,6 +391,7 @@ type B = Foo<
                                                     "start": 139,
                                                     "end": 143
                                                 },
+                                                "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "A",
@@ -396,8 +399,6 @@ type B = Foo<
                                                     "start": 144,
                                                     "end": 148
                                                 },
-                                                "optionalToken": null,
-                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 139,
                                                 "end": 148
@@ -412,6 +413,8 @@ type B = Foo<
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "protoKeyword": null,
+                                                "staticToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -422,6 +425,7 @@ type B = Foo<
                                                     "start": 155,
                                                     "end": 159
                                                 },
+                                                "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "B",
@@ -429,8 +433,6 @@ type B = Foo<
                                                     "start": 160,
                                                     "end": 164
                                                 },
-                                                "optionalToken": null,
-                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 155,
                                                 "end": 164
@@ -503,6 +505,8 @@ type B = Foo<
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "protoKeyword": null,
+                                                "staticToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -513,6 +517,7 @@ type B = Foo<
                                                     "start": 189,
                                                     "end": 193
                                                 },
+                                                "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "A",
@@ -520,8 +525,6 @@ type B = Foo<
                                                     "start": 194,
                                                     "end": 198
                                                 },
-                                                "optionalToken": null,
-                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 189,
                                                 "end": 198
@@ -536,6 +539,8 @@ type B = Foo<
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "protoKeyword": null,
+                                                "staticToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -546,6 +551,7 @@ type B = Foo<
                                                     "start": 205,
                                                     "end": 209
                                                 },
+                                                "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "B",
@@ -553,8 +559,6 @@ type B = Foo<
                                                     "start": 210,
                                                     "end": 214
                                                 },
-                                                "optionalToken": null,
-                                                "staticToken": null,
                                                 "flags": 0,
                                                 "start": 205,
                                                 "end": 214

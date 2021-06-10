@@ -1588,6 +1588,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1598,14 +1600,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 1093,
                                             "end": 1094
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 1095,
                                             "end": 1102
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 1093,
                                         "end": 1102
@@ -8650,6 +8651,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -8660,14 +8663,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "start": 6371,
                                                 "end": 6372
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 6373,
                                                 "end": 6380
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 6371,
                                             "end": 6380
@@ -9274,6 +9276,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -9284,14 +9288,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "start": 6690,
                                                 "end": 6691
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 6692,
                                                 "end": 6699
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 6690,
                                             "end": 6699
@@ -11421,6 +11424,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11431,14 +11436,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8361,
                                             "end": 8362
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 8363,
                                             "end": 8370
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8361,
                                         "end": 8370
@@ -11476,6 +11480,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11486,14 +11492,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8377,
                                             "end": 8378
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 8379,
                                             "end": 8386
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8377,
                                         "end": 8386
@@ -11699,6 +11704,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11709,20 +11716,21 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8511,
                                             "end": 8513
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 8514,
                                             "end": 8521
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8511,
                                         "end": 8522
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11733,14 +11741,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8522,
                                             "end": 8524
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234254,
                                             "flags": 64,
                                             "start": 8525,
                                             "end": 8533
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8522,
                                         "end": 8533
@@ -11912,6 +11919,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11922,20 +11931,21 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8623,
                                             "end": 8625
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 8626,
                                             "end": 8633
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8623,
                                         "end": 8634
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11946,14 +11956,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8634,
                                             "end": 8636
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234254,
                                             "flags": 64,
                                             "start": 8637,
                                             "end": 8645
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 8634,
                                         "end": 8645

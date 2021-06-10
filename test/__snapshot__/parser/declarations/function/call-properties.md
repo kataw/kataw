@@ -72,6 +72,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -94,6 +95,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -271,6 +273,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
@@ -293,6 +296,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,

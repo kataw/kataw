@@ -46,6 +46,7 @@ type A = { [string | boolean]: number };
                 "properties": [
                     {
                         "kind": 195,
+                        "protoKeyword": null,
                         "name": null,
                         "key": {
                             "kind": 137,

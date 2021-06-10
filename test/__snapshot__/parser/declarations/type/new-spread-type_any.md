@@ -58,6 +58,7 @@ var o3: O3 = (0: mixed); // ok
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -248,6 +249,7 @@ var o3: O3 = (0: mixed); // ok
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -563,6 +565,7 @@ var o3: O3 = (0: mixed); // ok
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
