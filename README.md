@@ -123,6 +123,23 @@ while (true) {}
 You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
 
 
+## Type annotations
+
+Kataw has it's own type system that is an improvement over `Typescript` and `Flow`, and it
+conform to the `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
+
+As everything else - it's developed for high performance.
+
+It allows you to parse syntax like `function x(y: string, z: number): string | number` and other
+similiar syntax.
+
+The type system is still `WIP` and will be enabled by default in the `CLI` together with
+Kataw's own type checker.
+
+You can manually enable this if you enable the `allowTypes` option. It will then parse the types but it
+will not do any type checking.
+
+
 ## CST parser features
 
 - Error recovery by default (_like Acorn loose_), but it reconstruct the CST tree correctly
