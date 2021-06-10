@@ -57,6 +57,8 @@ declare class A {
                     "properties": [
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "constructor",
@@ -89,35 +91,6 @@ declare class A {
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 46
-                        },
-                        {
-                            "kind": 193,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 46,
-                                "end": 46
-                            },
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 46,
-                                    "end": 46
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 46,
-                                "end": 46
-                            },
-                            "optionalToken": null,
-                            "staticToken": null,
-                            "flags": 0,
-                            "start": 46,
                             "end": 47
                         }
                     ],
@@ -147,12 +120,12 @@ declare class A {
 
 ```javascript
 
+declare class A TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 46, end: 47
-
+✔ No errors
 ```
 

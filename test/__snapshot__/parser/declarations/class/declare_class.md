@@ -63,6 +63,8 @@ declare class D extends C { }
                     "properties": [
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -86,39 +88,12 @@ declare class D extends C { }
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 38
-                        },
-                        {
-                            "kind": 193,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 38,
-                                "end": 38
-                            },
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 38,
-                                    "end": 38
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 38,
-                                "end": 38
-                            },
-                            "optionalToken": null,
-                            "staticToken": null,
-                            "flags": 0,
-                            "start": 38,
                             "end": 39
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -184,6 +159,8 @@ declare class D extends C { }
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",
@@ -213,6 +190,8 @@ declare class D extends C { }
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "constructor",
@@ -273,6 +252,8 @@ declare class D extends C { }
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",
@@ -394,7 +375,6 @@ declare class D extends C { }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 38, end: 39
 ✖ Identifier expected - start: 71, end: 72
 ✖ Identifier expected - start: 106, end: 107
 

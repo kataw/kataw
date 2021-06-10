@@ -46,6 +46,8 @@ type o = { m(|int|bool): void }
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "m",

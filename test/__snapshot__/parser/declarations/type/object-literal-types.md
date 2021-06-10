@@ -146,6 +146,8 @@ type T9 = { [param: string]: U };
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -233,6 +235,8 @@ type T9 = { [param: string]: U };
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -320,6 +324,8 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -347,35 +353,6 @@ type T9 = { [param: string]: U };
                         "staticToken": null,
                         "flags": 0,
                         "start": 84,
-                        "end": 89
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 89,
-                            "end": 89
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 89,
-                                "end": 89
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 89,
-                            "end": 89
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 89,
                         "end": 90
                     },
                     {
@@ -466,6 +443,8 @@ type T9 = { [param: string]: U };
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -495,6 +474,8 @@ type T9 = { [param: string]: U };
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -522,35 +503,6 @@ type T9 = { [param: string]: U };
                         "staticToken": null,
                         "flags": 0,
                         "start": 116,
-                        "end": 121
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 121,
-                            "end": 121
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 121,
-                                "end": 121
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 121,
-                            "end": 121
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 121,
                         "end": 122
                     }
                 ],
@@ -606,6 +558,8 @@ type T9 = { [param: string]: U };
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "p",
@@ -633,35 +587,6 @@ type T9 = { [param: string]: U };
                                             "staticToken": null,
                                             "flags": 0,
                                             "start": 145,
-                                            "end": 150
-                                        },
-                                        {
-                                            "kind": 193,
-                                            "key": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 150,
-                                                "end": 150
-                                            },
-                                            "value": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "flags": 64,
-                                                    "start": 150,
-                                                    "end": 150
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
-                                                "start": 150,
-                                                "end": 150
-                                            },
-                                            "optionalToken": null,
-                                            "staticToken": null,
-                                            "flags": 0,
-                                            "start": 150,
                                             "end": 151
                                         }
                                     ],
@@ -711,6 +636,8 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "foo",
@@ -778,6 +705,8 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "foo",
@@ -974,10 +903,7 @@ type T9 = { [param: string]: U };
 ```javascript
 ✖ Identifier expected - start: 42, end: 43
 ✖ Identifier expected - start: 63, end: 64
-✖ Identifier expected - start: 89, end: 90
 ✖ Identifier expected - start: 115, end: 116
-✖ Identifier expected - start: 121, end: 122
-✖ Identifier expected - start: 150, end: 151
 
 ```
 

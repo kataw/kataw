@@ -319,6 +319,8 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                             "properties": [
                                                 {
                                                     "kind": 193,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "key": {
                                                         "kind": 134299649,
                                                         "text": "p",

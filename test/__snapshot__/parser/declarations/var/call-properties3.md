@@ -82,6 +82,8 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "someProp",
@@ -193,6 +195,8 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "apply",
@@ -437,6 +441,8 @@ var z : Object = (x) => "hi"
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "myProp",

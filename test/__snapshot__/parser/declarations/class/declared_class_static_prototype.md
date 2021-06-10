@@ -57,6 +57,8 @@ declare class A {
                     "properties": [
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "prototype",
@@ -89,35 +91,6 @@ declare class A {
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 44
-                        },
-                        {
-                            "kind": 193,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 44,
-                                "end": 44
-                            },
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 44,
-                                    "end": 44
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 44,
-                                "end": 44
-                            },
-                            "optionalToken": null,
-                            "staticToken": null,
-                            "flags": 0,
-                            "start": 44,
                             "end": 45
                         }
                     ],
@@ -147,12 +120,12 @@ declare class A {
 
 ```javascript
 
+declare class A TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 44, end: 45
-
+✔ No errors
 ```
 

@@ -54,6 +54,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -76,6 +78,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                     },
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
@@ -88,6 +92,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "properties": [
                                                 {
                                                     "kind": 193,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "key": {
                                                         "kind": 134299649,
                                                         "text": "y",
@@ -221,7 +227,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 19, end: 20
+✖ Expected a `;` - start: 19, end: 20
 
 ```
 

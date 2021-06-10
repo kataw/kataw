@@ -50,6 +50,8 @@ type MyObject = {
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "foo",
@@ -68,39 +70,12 @@ type MyObject = {
                         "staticToken": null,
                         "flags": 0,
                         "start": 17,
-                        "end": 31
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 31,
-                            "end": 31
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 31,
-                                "end": 31
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 31,
-                            "end": 31
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 31,
                         "end": 32
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "bar",
@@ -119,39 +94,12 @@ type MyObject = {
                         "staticToken": null,
                         "flags": 0,
                         "start": 32,
-                        "end": 47
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 47,
-                            "end": 47
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 47,
-                                "end": 47
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 47,
-                            "end": 47
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 47,
                         "end": 48
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "baz",
@@ -170,35 +118,6 @@ type MyObject = {
                         "staticToken": null,
                         "flags": 0,
                         "start": 48,
-                        "end": 62
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 62,
-                            "end": 62
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 62,
-                                "end": 62
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 62,
-                            "end": 62
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 62,
                         "end": 63
                     }
                 ],
@@ -224,14 +143,12 @@ type MyObject = {
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 31, end: 32
-✖ Identifier expected - start: 47, end: 48
-✖ Identifier expected - start: 62, end: 63
-
+✔ No errors
 ```
 

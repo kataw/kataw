@@ -68,6 +68,8 @@ var {x}: {x: string; } = { x: "hello" };
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -86,35 +88,6 @@ var {x}: {x: string; } = { x: "hello" };
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 10,
-                                        "end": 19
-                                    },
-                                    {
-                                        "kind": 193,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 19,
-                                            "end": 19
-                                        },
-                                        "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 19,
-                                                "end": 19
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 19,
-                                            "end": 19
-                                        },
-                                        "optionalToken": null,
-                                        "staticToken": null,
-                                        "flags": 0,
-                                        "start": 19,
                                         "end": 20
                                     }
                                 ],
@@ -191,12 +164,14 @@ var {x}: {x: string; } = { x: "hello" };
 
 ```javascript
 
+var {
+  x
+} = { x: "\"hello\"" };
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 19, end: 20
-
+✔ No errors
 ```
 

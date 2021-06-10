@@ -55,6 +55,8 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                     "properties": [
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "didAnimate",
@@ -146,6 +148,8 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",

@@ -126,6 +126,8 @@ declare class A<T> extends B<T> { x: number }
                     "properties": [
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "x",

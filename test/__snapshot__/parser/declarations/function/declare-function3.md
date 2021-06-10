@@ -196,6 +196,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                 "properties": [
                                                     {
                                                         "kind": 193,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "foo",

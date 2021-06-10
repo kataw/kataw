@@ -100,6 +100,8 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "property",
@@ -118,39 +120,12 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         "staticToken": null,
                         "flags": 0,
                         "start": 61,
-                        "end": 80
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 80,
-                            "end": 80
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 80,
-                                "end": 80
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 80,
-                            "end": 80
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 80,
                         "end": 81
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "method",
@@ -188,6 +163,8 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -441,7 +418,6 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 80, end: 81
 ✖ Identifier expected - start: 100, end: 101
 
 ```

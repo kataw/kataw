@@ -530,6 +530,8 @@ class C2<X, Y> {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "p",

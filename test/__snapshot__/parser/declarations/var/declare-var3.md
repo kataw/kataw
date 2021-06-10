@@ -75,6 +75,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "properties": [
                                                     {
                                                         "kind": 193,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "foo",
@@ -181,6 +183,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "properties": [
                                                     {
                                                         "kind": 193,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "foo",
@@ -275,6 +279,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -305,6 +311,8 @@ declare var tup: [{foo: string}, {bar: number}];
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "bar",

@@ -80,6 +80,8 @@ type overloads2 = {
                         "properties": [
                             {
                                 "kind": 193,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "type",
@@ -111,6 +113,8 @@ type overloads2 = {
                         "properties": [
                             {
                                 "kind": 193,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "type",
@@ -325,6 +329,8 @@ type overloads2 = {
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "x",
@@ -341,6 +347,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "type",
@@ -372,6 +380,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "type",
@@ -441,6 +451,8 @@ type overloads2 = {
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "x",
@@ -457,6 +469,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "type",
@@ -488,6 +502,8 @@ type overloads2 = {
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "type",

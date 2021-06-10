@@ -8065,20 +8065,20 @@ function parseObjectTypeProperty(
   pos: number
 ): ObjectTypeProperty {
   let key;
-  if (parser.token & SyntaxKind.IsIdentifier) {
+  let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
+  let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
+
+  if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const token = parser.token;
 
     key = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
 
     if (token === SyntaxKind.GetKeyword) {
       return createObjectTypeProperty(
-        /* key */ parseIdentifier(
-          parser,
-          context,
-          0b00000000100000000100000000000000,
-          DiagnosticCode.Identifier_expected
-        ),
-        /* value */ parseFunctionType(parser, context),
+        createToken(SyntaxKind.GetKeyword, key.flags | NodeFlags.ChildLess, pos, parser.curPos),
+        setKeyword,
+        parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected),
+        parseFunctionType(parser, context),
         /* optionalToken */ null,
         /* staticKeyword */ null,
         pos,
@@ -8087,13 +8087,10 @@ function parseObjectTypeProperty(
     }
     if (token === SyntaxKind.SetKeyword) {
       return createObjectTypeProperty(
-        /* key */ parseIdentifier(
-          parser,
-          context,
-          0b00000000100000000100000000000000,
-          DiagnosticCode.Identifier_expected
-        ),
-        /* value */ parseFunctionType(parser, context),
+        getKeyword,
+        createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.ChildLess, pos, parser.curPos),
+        parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected),
+        parseFunctionType(parser, context),
         /* optionalToken */ null,
         /* staticKeyword */ null,
         pos,
@@ -8103,6 +8100,8 @@ function parseObjectTypeProperty(
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
       // This is a method property
       return createObjectTypeProperty(
+        getKeyword,
+        setKeyword,
         key,
         parseFunctionType(parser, context),
         /* optionalToken */ null,
@@ -8114,14 +8113,25 @@ function parseObjectTypeProperty(
     const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
     consume(parser, context, SyntaxKind.Colon);
     const value = parseType(parser, context);
-
-    return createObjectTypeProperty(key, value, optionalToken, staticKeyword, pos, parser.curPos);
+    parseTypeMemberSemicolon(parser, context);
+    return createObjectTypeProperty(
+      getKeyword,
+      setKeyword,
+      key,
+      value,
+      optionalToken,
+      staticKeyword,
+      pos,
+      parser.curPos
+    );
   }
   key = parsePropertyName(parser, context);
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     // This is a method property
     return createObjectTypeProperty(
+      getKeyword,
+      setKeyword,
       key,
       parseFunctionType(parser, context),
       /* optionalToken */ null,
@@ -8134,7 +8144,7 @@ function parseObjectTypeProperty(
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
   parseTypeMemberSemicolon(parser, context);
-  return createObjectTypeProperty(key, value, optionalToken, staticKeyword, pos, parser.curPos);
+  return createObjectTypeProperty(getKeyword, setKeyword, key, value, optionalToken, staticKeyword, pos, parser.curPos);
 }
 
 function parseObjectTypeCallProperty(
@@ -8203,6 +8213,11 @@ function parseObjectTypeInternalSlot(
   return createObjectTypeInternalSlot(name, optionalToken, staticKeyword, type, pos, parser.curPos);
 }
 
+function nextTokenIsColon(parser: ParserState, context: Context) {
+  nextToken(parser, context);
+  return parser.token === SyntaxKind.Colon;
+}
+
 function parseObjectTypeIndexer(
   parser: ParserState,
   context: Context,
@@ -8212,17 +8227,7 @@ function parseObjectTypeIndexer(
   let key: any;
   let name = null;
 
-  if (
-    speculate(
-      parser,
-      context,
-      function () {
-        nextToken(parser, context);
-        return parser.token === SyntaxKind.Colon;
-      },
-      /* rollback */ true
-    )
-  ) {
+  if (speculate(parser, context, nextTokenIsColon, /* rollback */ true)) {
     name = parsePropertyName(parser, context);
     consume(parser, context, SyntaxKind.Colon);
     key = parseType(parser, context);

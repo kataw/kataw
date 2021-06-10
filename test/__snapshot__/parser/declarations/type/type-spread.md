@@ -106,6 +106,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "foo",
@@ -124,35 +126,6 @@ type D32 = {p?: number};
                         "staticToken": null,
                         "flags": 0,
                         "start": 39,
-                        "end": 49
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 49,
-                            "end": 49
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 49,
-                                "end": 49
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 49,
-                            "end": 49
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 49,
                         "end": 50
                     },
                     {
@@ -243,6 +216,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -330,6 +305,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -410,6 +387,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -497,6 +476,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -596,6 +577,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -683,6 +666,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -760,6 +745,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -851,6 +838,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -922,6 +911,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "p",
@@ -975,7 +966,6 @@ type D32 = {p?: number};
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 49, end: 50
 ✖ Identifier expected - start: 74, end: 75
 ✖ Identifier expected - start: 123, end: 124
 ✖ Identifier expected - start: 184, end: 185

@@ -84,6 +84,8 @@ async function foo({x}: { x: string; }) {}
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -102,35 +104,6 @@ async function foo({x}: { x: string; }) {}
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 25,
-                                        "end": 35
-                                    },
-                                    {
-                                        "kind": 193,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 35,
-                                            "end": 35
-                                        },
-                                        "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 35,
-                                                "end": 35
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 35,
-                                            "end": 35
-                                        },
-                                        "optionalToken": null,
-                                        "staticToken": null,
-                                        "flags": 0,
-                                        "start": 35,
                                         "end": 36
                                     }
                                 ],
@@ -187,12 +160,14 @@ async function foo({x}: { x: string; }) {}
 
 ```javascript
 
+async function foo({
+  x
+}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 35, end: 36
-
+✔ No errors
 ```
 

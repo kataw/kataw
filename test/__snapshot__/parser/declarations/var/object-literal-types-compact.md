@@ -106,6 +106,8 @@ type T4 = { foo: number, bar: string, ... };
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "a",
@@ -119,6 +121,8 @@ type T4 = { foo: number, bar: string, ... };
                             "properties": [
                                 {
                                     "kind": 193,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "b",
@@ -132,6 +136,8 @@ type T4 = { foo: number, bar: string, ... };
                                         "properties": [
                                             {
                                                 "kind": 193,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "c",
@@ -179,35 +185,6 @@ type T4 = { foo: number, bar: string, ... };
                                                 "staticToken": null,
                                                 "flags": 0,
                                                 "start": 40,
-                                                "end": 49
-                                            },
-                                            {
-                                                "kind": 193,
-                                                "key": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "flags": 64,
-                                                    "start": 49,
-                                                    "end": 49
-                                                },
-                                                "value": {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 16637,
-                                                        "text": "",
-                                                        "flags": 64,
-                                                        "start": 49,
-                                                        "end": 49
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
-                                                    "start": 49,
-                                                    "end": 49
-                                                },
-                                                "optionalToken": null,
-                                                "staticToken": null,
-                                                "flags": 0,
-                                                "start": 49,
                                                 "end": 50
                                             },
                                             {
@@ -246,35 +223,6 @@ type T4 = { foo: number, bar: string, ... };
                                     "staticToken": null,
                                     "flags": 0,
                                     "start": 35,
-                                    "end": 56
-                                },
-                                {
-                                    "kind": 193,
-                                    "key": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "flags": 64,
-                                        "start": 56,
-                                        "end": 56
-                                    },
-                                    "value": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 56,
-                                            "end": 56
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 56,
-                                        "end": 56
-                                    },
-                                    "optionalToken": null,
-                                    "staticToken": null,
-                                    "flags": 0,
-                                    "start": 56,
                                     "end": 57
                                 },
                                 {
@@ -347,6 +295,8 @@ type T4 = { foo: number, bar: string, ... };
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "foo",
@@ -365,35 +315,6 @@ type T4 = { foo: number, bar: string, ... };
                         "staticToken": null,
                         "flags": 0,
                         "start": 77,
-                        "end": 89
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 89,
-                            "end": 89
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 89,
-                                "end": 89
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 89,
-                            "end": 89
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 89,
                         "end": 90
                     },
                     {
@@ -455,6 +376,8 @@ type T4 = { foo: number, bar: string, ... };
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "foo",
@@ -473,39 +396,12 @@ type T4 = { foo: number, bar: string, ... };
                         "staticToken": null,
                         "flags": 0,
                         "start": 109,
-                        "end": 121
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 121,
-                            "end": 121
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 121,
-                                "end": 121
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 121,
-                            "end": 121
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 121,
                         "end": 122
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "bar",
@@ -524,35 +420,6 @@ type T4 = { foo: number, bar: string, ... };
                         "staticToken": null,
                         "flags": 0,
                         "start": 122,
-                        "end": 134
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 134,
-                            "end": 134
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 134,
-                                "end": 134
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 134,
-                            "end": 134
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 134,
                         "end": 135
                     },
                     {
@@ -612,14 +479,9 @@ type T4 = { foo: number, bar: string, ... };
 ```javascript
 ✖ Type expected - start: 15, end: 17
 ✖ Type expected - start: 48, end: 49
-✖ Identifier expected - start: 49, end: 50
 ✖ Type expected - start: 54, end: 56
-✖ Identifier expected - start: 56, end: 57
 ✖ Type expected - start: 61, end: 63
-✖ Identifier expected - start: 89, end: 90
 ✖ Type expected - start: 94, end: 96
-✖ Identifier expected - start: 121, end: 122
-✖ Identifier expected - start: 134, end: 135
 ✖ Type expected - start: 139, end: 141
 
 ```

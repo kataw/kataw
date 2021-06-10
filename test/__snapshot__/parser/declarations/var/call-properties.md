@@ -427,6 +427,8 @@ var a: { <T>(x: T): number; };
                                     },
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "y",
@@ -445,35 +447,6 @@ var a: { <T>(x: T): number; };
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 122,
-                                        "end": 132
-                                    },
-                                    {
-                                        "kind": 193,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 132,
-                                            "end": 132
-                                        },
-                                        "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 132,
-                                                "end": 132
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 132,
-                                            "end": 132
-                                        },
-                                        "optionalToken": null,
-                                        "staticToken": null,
-                                        "flags": 0,
-                                        "start": 132,
                                         "end": 133
                                     },
                                     {
@@ -686,12 +659,17 @@ var a: { <T>(x: T): number; };
 
 ```javascript
 
+var a;
+var a;
+var a;
+var a;
+var a;
+var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 132, end: 133
-
+✔ No errors
 ```
 

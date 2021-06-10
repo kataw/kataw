@@ -53,6 +53,8 @@ var a: { id<T>(x: T): T; }
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "id",
@@ -154,6 +156,8 @@ var a: { id<T>(x: T): T; }
                                     },
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 16637,
                                             "text": "",

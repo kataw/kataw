@@ -62,6 +62,8 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "p",
@@ -101,6 +103,8 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "q",

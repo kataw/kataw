@@ -53,6 +53,8 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "str",
@@ -71,39 +73,12 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 10,
-                                        "end": 20
-                                    },
-                                    {
-                                        "kind": 193,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 20,
-                                            "end": 20
-                                        },
-                                        "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 20,
-                                                "end": 20
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 20,
-                                            "end": 20
-                                        },
-                                        "optionalToken": null,
-                                        "staticToken": null,
-                                        "flags": 0,
-                                        "start": 20,
                                         "end": 21
                                     },
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "i",
@@ -122,39 +97,12 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 21,
-                                        "end": 30
-                                    },
-                                    {
-                                        "kind": 193,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 30,
-                                            "end": 30
-                                        },
-                                        "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 30,
-                                                "end": 30
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 30,
-                                            "end": 30
-                                        },
-                                        "optionalToken": null,
-                                        "staticToken": null,
-                                        "flags": 0,
-                                        "start": 30,
                                         "end": 31
                                     },
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "j",
@@ -293,13 +241,12 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
 
 ```javascript
 
+var obj = { str: "\"...\"", i: "\"...\"", k: false };
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 20, end: 21
-✖ Identifier expected - start: 30, end: 31
-
+✔ No errors
 ```
 

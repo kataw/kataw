@@ -424,6 +424,8 @@ type ten = {
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "m1",
@@ -484,6 +486,8 @@ type ten = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -513,6 +517,8 @@ type ten = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "m2",
@@ -595,6 +601,8 @@ type ten = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -624,6 +632,8 @@ type ten = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "m3",
@@ -711,6 +721,8 @@ type ten = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -740,6 +752,8 @@ type ten = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "m4",
@@ -832,6 +846,8 @@ type ten = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",

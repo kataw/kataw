@@ -74,6 +74,8 @@ class two {
                     "properties": [
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "m1",
@@ -134,6 +136,8 @@ class two {
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",
@@ -163,6 +167,8 @@ class two {
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "m2",
@@ -245,6 +251,8 @@ class two {
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",
@@ -274,6 +282,8 @@ class two {
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "m3",
@@ -361,6 +371,8 @@ class two {
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",
@@ -390,6 +402,8 @@ class two {
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "m4",
@@ -482,6 +496,8 @@ class two {
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",

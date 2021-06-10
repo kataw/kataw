@@ -1775,6 +1775,8 @@ function foo28(numVal?: number = 2) {}
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -1793,35 +1795,6 @@ function foo28(numVal?: number = 2) {}
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 707,
-                                        "end": 717
-                                    },
-                                    {
-                                        "kind": 193,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 717,
-                                            "end": 717
-                                        },
-                                        "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 717,
-                                                "end": 717
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 717,
-                                            "end": 717
-                                        },
-                                        "optionalToken": null,
-                                        "staticToken": null,
-                                        "flags": 0,
-                                        "start": 717,
                                         "end": 718
                                     }
                                 ],
@@ -2281,12 +2254,35 @@ function foo28(numVal?: number = 2) {}
 
 ```javascript
 
+function foo1(numVal) {}
+function foo2(numVal) {}
+function foo3(numVal, strVal) {}
+function foo4(numVal, untypedVal) {}
+function foo5(untypedVal, numVal) {}
+function foo6(nullableNum) {}
+function foo7(callback) {}
+function foo8(callback) {}
+function foo9(callback) {}
+function foo10(callback) {}
+function foo11(callback) {}
+function foo12() {}
+function foo13() {}
+function foo14() {}
+function foo15() {}
+function foo16() {}
+function foo17() {}
+function foo21({
+  x
+}) {}
+function foo22([x]) {}
+function foo23(...rest) {}
+function foo27(numVal = 2) {}
+function foo28(numVal? = 2) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 717, end: 718
-
+✔ No errors
 ```
 

@@ -51,6 +51,8 @@ opaque type Good: {x: string} = {x: string, y: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "x",
@@ -81,6 +83,8 @@ opaque type Good: {x: string} = {x: string, y: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "x",
@@ -99,39 +103,12 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "staticToken": null,
                         "flags": 0,
                         "start": 33,
-                        "end": 42
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 42,
-                            "end": 42
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 42,
-                                "end": 42
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 42,
-                            "end": 42
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 42,
                         "end": 43
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "y",
@@ -181,12 +158,13 @@ opaque type Good: {x: string} = {x: string, y: number};
 
 ```javascript
 
+
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 42, end: 43
-
+✔ No errors
 ```
 

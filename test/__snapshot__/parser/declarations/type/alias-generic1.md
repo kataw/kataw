@@ -104,6 +104,8 @@ type MyObject<A, B, C> = {
                 "properties": [
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "property",
@@ -131,39 +133,12 @@ type MyObject<A, B, C> = {
                         "staticToken": null,
                         "flags": 0,
                         "start": 26,
-                        "end": 40
-                    },
-                    {
-                        "kind": 193,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 40,
-                            "end": 40
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 40,
-                                "end": 40
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 40,
-                            "end": 40
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 40,
                         "end": 41
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "method",
@@ -242,6 +217,8 @@ type MyObject<A, B, C> = {
                     },
                     {
                         "kind": 193,
+                        "getKeyword": null,
+                        "setKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
@@ -297,7 +274,6 @@ type MyObject<A, B, C> = {
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 40, end: 41
 ✖ Identifier expected - start: 61, end: 62
 
 ```

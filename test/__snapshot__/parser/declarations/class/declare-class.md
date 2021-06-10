@@ -55,6 +55,8 @@ declare class A { static foo(): number; static x : string }
                     "properties": [
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -97,6 +99,8 @@ declare class A { static foo(): number; static x : string }
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 16637,
                                 "text": "",
@@ -126,6 +130,8 @@ declare class A { static foo(): number; static x : string }
                         },
                         {
                             "kind": 193,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "x",
