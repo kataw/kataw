@@ -73,6 +73,7 @@
   },
   "devDependencies": {
     "@types/node": "^15.12.1",
+    "@types/progress": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
     "c8": "^7.7.2",
@@ -86,6 +87,7 @@
     "path": "^0.12.7",
     "prettier": "^2.3.1",
     "pretty-error": "^3.0.3",
+    "progress": "^2.0.3",
     "rimraf": "^3.0.2",
     "rollup": "^2.51.0",
     "rollup-plugin-replace": "^2.2.0",

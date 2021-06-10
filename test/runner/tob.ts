@@ -1,6 +1,7 @@
 import { printSourceFile } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
+import { visit } from './visit';
 
 // testing object
 export interface Tob {
@@ -45,6 +46,10 @@ export async function file2Tob(filename: string): Promise<Tob> {
     diagnostics.push(args);
   };
   const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, cb);
+
+  // assert the cst is valid
+  tob.parserOptions.allowTypes || visit(cst, tob.filename);
+
   tob.$cst = JSON.stringify(cst, null, 4);
   tob.$printed = diagnostics.length === 0 ? printSourceFile(cst, tob.printerOptions) : '';
   tob.$diagnostics = diagnostics2md(diagnostics);

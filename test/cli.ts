@@ -3,6 +3,7 @@
 // exitcode: 2 => bad argv
 // exitcode: 3 => unknown error(bug)
 
+import * as ProgressBar from 'progress';
 import { report, snapshotsFolderName, loadSnaps, ColorCodes } from './runner/utils';
 import { resolve } from 'path';
 import { autogen } from './runner/autogenerate';
@@ -14,6 +15,11 @@ runCli();
 
 export async function runCli() {
   const opts = cliOpts();
+  const bar = new ProgressBar('Testing snapshots [:bar] :percent, :elapseds elapsed, eta :etas,', {
+    clear: true,
+    total: opts.files.length
+  });
+
   console.time(
     ColorCodes.GREEN +
       'Running ' +
@@ -36,6 +42,7 @@ export async function runCli() {
         console.log(`Output mismatch(${tob.mismatchItems}) for`, tob.filename);
         updateTob(tob, opts.updateItems);
       }
+      bar.tick(1);
     }
     console.timeEnd(
       ColorCodes.GREEN +
