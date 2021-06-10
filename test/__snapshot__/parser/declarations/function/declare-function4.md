@@ -106,9 +106,6 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                         "end": 45
                                                     }
                                                 ],
-                                                "indexers": [],
-                                                "callProperties": [],
-                                                "internalSlots": [],
                                                 "flags": 0,
                                                 "start": 36,
                                                 "end": 46

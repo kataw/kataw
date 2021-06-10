@@ -76,9 +76,6 @@ var o3: O3 = (0: mixed); // ok
                         "end": 17
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 9,
                 "end": 18
@@ -278,9 +275,6 @@ var o3: O3 = (0: mixed); // ok
                         "end": 91
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 80,
                 "end": 92
@@ -534,9 +528,6 @@ var o3: O3 = (0: mixed); // ok
                 "body": {
                     "kind": 134234353,
                     "properties": [],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 202,
                     "end": 205
@@ -599,9 +590,6 @@ var o3: O3 = (0: mixed); // ok
                         "end": 227
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 215,
                 "end": 228

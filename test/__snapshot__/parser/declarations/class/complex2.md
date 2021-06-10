@@ -560,9 +560,6 @@ class C2<X, Y> {
                                             "end": 172
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 166,
                                     "end": 173

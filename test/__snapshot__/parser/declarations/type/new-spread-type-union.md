@@ -92,9 +92,6 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                             "end": 18
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 14,
                                     "end": 19
@@ -134,9 +131,6 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                             "end": 24
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 20,
                                     "end": 25
@@ -152,9 +146,6 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                         "end": 25
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 9,
                 "end": 26

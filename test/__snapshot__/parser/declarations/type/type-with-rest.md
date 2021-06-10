@@ -96,9 +96,6 @@ type C = { ...A&B };
                         "end": 17
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 8,
                 "end": 19

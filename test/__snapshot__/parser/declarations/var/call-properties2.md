@@ -56,9 +56,7 @@ var c: { (): string; (x: number): string } =
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -127,7 +125,6 @@ var c: { (): string; (x: number): string } =
                                         "end": 96
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 62,
                                 "end": 98
@@ -282,9 +279,7 @@ var c: { (): string; (x: number): string } =
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -353,7 +348,6 @@ var c: { (): string; (x: number): string } =
                                         "end": 257
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 223,
                                 "end": 259

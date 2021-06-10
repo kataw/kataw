@@ -672,8 +672,7 @@ type T = { [string]: Class<null> }
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
-                "properties": [],
-                "indexers": [
+                "properties": [
                     {
                         "kind": 195,
                         "name": null,
@@ -723,8 +722,6 @@ type T = { [string]: Class<null> }
                         "end": 228
                     }
                 ],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 204,
                 "end": 230

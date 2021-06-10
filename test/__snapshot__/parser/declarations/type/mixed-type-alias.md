@@ -73,6 +73,35 @@ type MyObject = {
                     {
                         "kind": 193,
                         "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 31,
+                            "end": 31
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 31,
+                                "end": 31
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 31,
+                            "end": 31
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 31,
+                        "end": 32
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
@@ -95,6 +124,35 @@ type MyObject = {
                     {
                         "kind": 193,
                         "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 47,
+                            "end": 47
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 47,
+                                "end": 47
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 47,
+                            "end": 47
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 47,
+                        "end": 48
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
                             "kind": 134299649,
                             "text": "baz",
                             "rawText": "baz",
@@ -113,11 +171,37 @@ type MyObject = {
                         "flags": 0,
                         "start": 48,
                         "end": 62
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 62,
+                            "end": 62
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 62,
+                                "end": 62
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 62,
+                            "end": 62
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 62,
+                        "end": 63
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 15,
                 "end": 65
@@ -140,12 +224,14 @@ type MyObject = {
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 31, end: 32
+✖ Identifier expected - start: 47, end: 48
+✖ Identifier expected - start: 62, end: 63
+
 ```
 

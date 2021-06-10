@@ -136,6 +136,35 @@ type MyObject<A, B, C> = {
                     {
                         "kind": 193,
                         "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 40,
+                            "end": 40
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 40,
+                                "end": 40
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 40,
+                            "end": 40
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 40,
+                        "end": 41
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
                             "kind": 134299649,
                             "text": "method",
                             "rawText": "method",
@@ -210,11 +239,37 @@ type MyObject<A, B, C> = {
                         "flags": 0,
                         "start": 41,
                         "end": 61
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 61,
+                            "end": 61
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 61,
+                                "end": 61
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 61,
+                            "end": 61
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 61,
+                        "end": 62
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 24,
                 "end": 64
@@ -237,12 +292,13 @@ type MyObject<A, B, C> = {
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 40, end: 41
+✖ Identifier expected - start: 61, end: 62
+
 ```
 

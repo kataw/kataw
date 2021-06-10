@@ -81,15 +81,46 @@ declare class A {
                                 "end": 44
                             },
                             "optionalToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 96,
+                                "start": 17,
+                                "end": 26
+                            },
+                            "flags": 0,
+                            "start": 17,
+                            "end": 44
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 44,
+                                "end": 44
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 44,
+                                    "end": 44
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 44,
+                                "end": 44
+                            },
+                            "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 26,
-                            "end": 44
+                            "start": 44,
+                            "end": 45
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 15,
                     "end": 56
@@ -116,12 +147,12 @@ declare class A {
 
 ```javascript
 
-declare class A TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 44, end: 45
+
 ```
 

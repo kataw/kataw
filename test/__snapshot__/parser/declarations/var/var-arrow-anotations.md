@@ -713,11 +713,37 @@ class Array { concat(items:number | string) {}; }
                                         "flags": 0,
                                         "start": 209,
                                         "end": 223
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 223,
+                                            "end": 223
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 223,
+                                                "end": 223
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 223,
+                                            "end": 223
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 223,
+                                        "end": 224
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 207,
                                 "end": 225
@@ -1427,6 +1453,35 @@ class Array { concat(items:number | string) {}; }
                                     {
                                         "kind": 193,
                                         "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 499,
+                                            "end": 499
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 499,
+                                                "end": 499
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 499,
+                                            "end": 499
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 499,
+                                        "end": 500
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "param2",
                                             "rawText": "param2",
@@ -1452,9 +1507,6 @@ class Array { concat(items:number | string) {}; }
                                         "end": 516
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 483,
                                 "end": 517
@@ -1657,9 +1709,6 @@ class Array { concat(items:number | string) {}; }
                                         "end": 577
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 566,
                                 "end": 579
@@ -1783,11 +1832,37 @@ class Array { concat(items:number | string) {}; }
                                         "flags": 0,
                                         "start": 609,
                                         "end": 618
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 618,
+                                            "end": 618
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 618,
+                                                "end": 618
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 618,
+                                            "end": 618
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 618,
+                                        "end": 619
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 607,
                                 "end": 621
@@ -1906,9 +1981,6 @@ class Array { concat(items:number | string) {}; }
                                             "end": 664
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 649,
                                     "end": 665
@@ -2090,9 +2162,6 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 730
                                                 }
                                             ],
-                                            "indexers": [],
-                                            "callProperties": [],
-                                            "internalSlots": [],
                                             "flags": 0,
                                             "start": 714,
                                             "end": 731
@@ -2104,9 +2173,6 @@ class Array { concat(items:number | string) {}; }
                                         "end": 731
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 705,
                                 "end": 732
@@ -2282,40 +2348,14 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-var a;
-var a;
-var a;
-var x = Y;
-var x = fn;
-var foo = bar ? (foo) =>  {} : baz;
-var a;
-var foo = bar ? (foo) : number;
-var foo = ((bar) =>  bar);
-var foo = (() =>  bar);
-var foo = async (bar) =>  bar;
-var foo = async () =>  bar;
-var foo = async (foo, bar) =>  {};
-var foo = () =>  bar;
-var a;
-var [x] = ["\"hello\""];
-var {
-  x
-} = { x: "\"hello\"" };
-var {
-  x
-} = { x: "\"hello\"" };
-var a;
-var x = Y;
-var a;
-class Array {
-  concat(items) {}
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 223, end: 224
+✖ Identifier expected - start: 499, end: 500
+✖ Identifier expected - start: 618, end: 619
+
 ```
 

@@ -103,9 +103,6 @@ var z : Object = (x) => "hi"
                                         "end": 86
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 67,
                                 "end": 88
@@ -226,9 +223,6 @@ var z : Object = (x) => "hi"
                                         "end": 186
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 168,
                                 "end": 188
@@ -464,9 +458,6 @@ var z : Object = (x) => "hi"
                                         "end": 336
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 319,
                                 "end": 338
@@ -523,9 +514,7 @@ var z : Object = (x) => "hi"
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -572,7 +561,6 @@ var z : Object = (x) => "hi"
                                         "end": 373
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 351,
                                 "end": 375
@@ -682,9 +670,7 @@ var z : Object = (x) => "hi"
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -731,7 +717,6 @@ var z : Object = (x) => "hi"
                                         "end": 484
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 462,
                                 "end": 486
@@ -813,9 +798,7 @@ var z : Object = (x) => "hi"
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -862,7 +845,6 @@ var z : Object = (x) => "hi"
                                         "end": 566
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 544,
                                 "end": 568
@@ -972,9 +954,7 @@ var z : Object = (x) => "hi"
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -998,7 +978,6 @@ var z : Object = (x) => "hi"
                                         "end": 641
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 628,
                                 "end": 643
@@ -1080,9 +1059,7 @@ var z : Object = (x) => "hi"
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -1129,7 +1106,6 @@ var z : Object = (x) => "hi"
                                         "end": 720
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 703,
                                 "end": 722
@@ -1208,9 +1184,7 @@ var z : Object = (x) => "hi"
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -1243,7 +1217,6 @@ var z : Object = (x) => "hi"
                                         "end": 762
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 750,
                                 "end": 764
@@ -1316,9 +1289,7 @@ var z : Object = (x) => "hi"
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -1374,7 +1345,6 @@ var z : Object = (x) => "hi"
                                         "end": 817
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 799,
                                 "end": 819
@@ -1498,9 +1468,6 @@ var z : Object = (x) => "hi"
                             "type": {
                                 "kind": 134234353,
                                 "properties": [],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 908,
                                 "end": 911

@@ -1001,11 +1001,37 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "flags": 0,
                                         "start": 264,
                                         "end": 274
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 274,
+                                            "end": 274
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 274,
+                                                "end": 274
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 274,
+                                            "end": 274
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 274,
+                                        "end": 275
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 262,
                                 "end": 277
@@ -1079,23 +1105,12 @@ var {x5}: {x5: string; } = { x5: "hello" };
 
 ```javascript
 
-var a21;
-var identity1;
-var identity2;
-var a17;
-var a18;
-var a19;
-var x2 = fn;
-var x3 = Y;
-var x4 = Y;
-var {
-  x5
-} = { x5: "\"hello\"" };
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 274, end: 275
+
 ```
 

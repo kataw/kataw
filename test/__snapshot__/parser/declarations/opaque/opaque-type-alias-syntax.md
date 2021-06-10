@@ -123,6 +123,35 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                     {
                         "kind": 193,
                         "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 80,
+                            "end": 80
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 80,
+                                "end": 80
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 80,
+                            "end": 80
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 80,
+                        "end": 81
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
                             "kind": 134299649,
                             "text": "method",
                             "rawText": "method",
@@ -156,11 +185,37 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         "flags": 0,
                         "start": 81,
                         "end": 100
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 100,
+                            "end": 100
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 100,
+                                "end": 100
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 100,
+                            "end": 100
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 100,
+                        "end": 101
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 59,
                 "end": 103
@@ -381,17 +436,13 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 
 ```javascript
 
-
-
-
-
-
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 80, end: 81
+✖ Identifier expected - start: 100, end: 101
+
 ```
 

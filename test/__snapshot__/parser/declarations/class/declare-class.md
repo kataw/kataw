@@ -85,10 +85,44 @@ declare class A { static foo(): number; static x : string }
                                 "end": 38
                             },
                             "optionalToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 96,
+                                "start": 17,
+                                "end": 24
+                            },
+                            "flags": 0,
+                            "start": 17,
+                            "end": 38
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 38,
+                                "end": 38
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 38,
+                                    "end": 38
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 38,
+                                "end": 38
+                            },
+                            "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 24,
-                            "end": 38
+                            "start": 38,
+                            "end": 39
                         },
                         {
                             "kind": 193,
@@ -107,15 +141,17 @@ declare class A { static foo(): number; static x : string }
                                 "end": 57
                             },
                             "optionalToken": null,
-                            "staticToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 96,
+                                "start": 39,
+                                "end": 46
+                            },
                             "flags": 0,
-                            "start": 46,
+                            "start": 39,
                             "end": 57
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 15,
                     "end": 59
@@ -142,12 +178,12 @@ declare class A { static foo(): number; static x : string }
 
 ```javascript
 
-declare class A TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 38, end: 39
+
 ```
 

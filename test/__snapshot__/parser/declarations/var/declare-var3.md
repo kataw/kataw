@@ -96,9 +96,6 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "end": 42
                                                     }
                                                 ],
-                                                "indexers": [],
-                                                "callProperties": [],
-                                                "internalSlots": [],
                                                 "flags": 0,
                                                 "start": 29,
                                                 "end": 44
@@ -205,9 +202,6 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "end": 99
                                                     }
                                                 ],
-                                                "indexers": [],
-                                                "callProperties": [],
-                                                "internalSlots": [],
                                                 "flags": 0,
                                                 "start": 87,
                                                 "end": 100
@@ -302,9 +296,6 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "end": 133
                                             }
                                         ],
-                                        "indexers": [],
-                                        "callProperties": [],
-                                        "internalSlots": [],
                                         "flags": 0,
                                         "start": 121,
                                         "end": 134
@@ -335,9 +326,6 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "end": 148
                                             }
                                         ],
-                                        "indexers": [],
-                                        "callProperties": [],
-                                        "internalSlots": [],
                                         "flags": 0,
                                         "start": 135,
                                         "end": 149

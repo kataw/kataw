@@ -81,6 +81,35 @@ var a: {param1?: number; param2: string; param3: string;}
                                     {
                                         "kind": 193,
                                         "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 23,
+                                            "end": 23
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 23,
+                                                "end": 23
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 23,
+                                            "end": 23
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 23,
+                                        "end": 24
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "param2",
                                             "rawText": "param2",
@@ -103,6 +132,35 @@ var a: {param1?: number; param2: string; param3: string;}
                                     {
                                         "kind": 193,
                                         "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 39,
+                                            "end": 39
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 39,
+                                                "end": 39
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 39,
+                                            "end": 39
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 39,
+                                        "end": 40
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "param3",
                                             "rawText": "param3",
@@ -121,11 +179,37 @@ var a: {param1?: number; param2: string; param3: string;}
                                         "flags": 0,
                                         "start": 40,
                                         "end": 55
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 55,
+                                            "end": 55
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 55,
+                                                "end": 55
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 55,
+                                            "end": 55
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 55,
+                                        "end": 56
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 6,
                                 "end": 57
@@ -162,12 +246,14 @@ var a: {param1?: number; param2: string; param3: string;}
 
 ```javascript
 
-var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 23, end: 24
+✖ Identifier expected - start: 39, end: 40
+✖ Identifier expected - start: 55, end: 56
+
 ```
 

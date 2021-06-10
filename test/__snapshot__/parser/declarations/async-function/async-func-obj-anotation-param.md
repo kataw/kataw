@@ -103,11 +103,37 @@ async function foo({x}: { x: string; }) {}
                                         "flags": 0,
                                         "start": 25,
                                         "end": 35
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 35,
+                                            "end": 35
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 35,
+                                                "end": 35
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 35,
+                                            "end": 35
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 35,
+                                        "end": 36
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 23,
                                 "end": 38
@@ -161,14 +187,12 @@ async function foo({x}: { x: string; }) {}
 
 ```javascript
 
-async function foo({
-  x
-}) {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 35, end: 36
+
 ```
 

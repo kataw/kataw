@@ -58,9 +58,6 @@ type T9 = { [param: string]: U };
             "type": {
                 "kind": 134234353,
                 "properties": [],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 8,
                 "end": 11
@@ -90,9 +87,6 @@ type T9 = { [param: string]: U };
             "type": {
                 "kind": 134234353,
                 "properties": [],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 21,
                 "end": 24
@@ -149,11 +143,37 @@ type T9 = { [param: string]: U };
                         "flags": 0,
                         "start": 37,
                         "end": 42
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 42,
+                            "end": 42
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 42,
+                                "end": 42
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 42,
+                            "end": 42
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 42,
+                        "end": 43
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 35,
                 "end": 45
@@ -212,6 +232,35 @@ type T9 = { [param: string]: U };
                         "end": 63
                     },
                     {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 63,
+                            "end": 63
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 63,
+                                "end": 63
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 63,
+                            "end": 63
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 63,
+                        "end": 64
+                    },
+                    {
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
@@ -240,9 +289,6 @@ type T9 = { [param: string]: U };
                         "end": 69
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 56,
                 "end": 71
@@ -304,6 +350,35 @@ type T9 = { [param: string]: U };
                         "end": 89
                     },
                     {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 89,
+                            "end": 89
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 89,
+                                "end": 89
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 89,
+                            "end": 89
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 89,
+                        "end": 90
+                    },
+                    {
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
@@ -332,9 +407,6 @@ type T9 = { [param: string]: U };
                         "end": 95
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 82,
                 "end": 97
@@ -395,6 +467,35 @@ type T9 = { [param: string]: U };
                     {
                         "kind": 193,
                         "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 115,
+                            "end": 115
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 115,
+                                "end": 115
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 115,
+                            "end": 115
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 115,
+                        "end": 116
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
                             "kind": 134299649,
                             "text": "p",
                             "rawText": "p",
@@ -422,11 +523,37 @@ type T9 = { [param: string]: U };
                         "flags": 0,
                         "start": 116,
                         "end": 121
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 121,
+                            "end": 121
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 121,
+                                "end": 121
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 121,
+                            "end": 121
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 121,
+                        "end": 122
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 108,
                 "end": 124
@@ -470,9 +597,6 @@ type T9 = { [param: string]: U };
                                 {
                                     "kind": 134234353,
                                     "properties": [],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 141,
                                     "end": 143
@@ -510,11 +634,37 @@ type T9 = { [param: string]: U };
                                             "flags": 0,
                                             "start": 145,
                                             "end": 150
+                                        },
+                                        {
+                                            "kind": 193,
+                                            "key": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 150,
+                                                "end": 150
+                                            },
+                                            "value": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "flags": 64,
+                                                    "start": 150,
+                                                    "end": 150
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 150,
+                                                "end": 150
+                                            },
+                                            "optionalToken": null,
+                                            "staticToken": null,
+                                            "flags": 0,
+                                            "start": 150,
+                                            "end": 151
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 144,
                                     "end": 153
@@ -530,9 +680,6 @@ type T9 = { [param: string]: U };
                         "end": 153
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 135,
                 "end": 154
@@ -600,9 +747,6 @@ type T9 = { [param: string]: U };
                         "end": 181
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 165,
                 "end": 183
@@ -676,9 +820,6 @@ type T9 = { [param: string]: U };
                         "end": 213
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 193,
                 "end": 215
@@ -707,8 +848,7 @@ type T9 = { [param: string]: U };
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
-                "properties": [],
-                "indexers": [
+                "properties": [
                     {
                         "kind": 195,
                         "name": null,
@@ -739,8 +879,6 @@ type T9 = { [param: string]: U };
                         "end": 239
                     }
                 ],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 225,
                 "end": 241
@@ -769,8 +907,7 @@ type T9 = { [param: string]: U };
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
-                "properties": [],
-                "indexers": [
+                "properties": [
                     {
                         "kind": 195,
                         "name": {
@@ -808,8 +945,6 @@ type T9 = { [param: string]: U };
                         "end": 273
                     }
                 ],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 252,
                 "end": 275
@@ -832,22 +967,17 @@ type T9 = { [param: string]: U };
 
 ```javascript
 
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 42, end: 43
+✖ Identifier expected - start: 63, end: 64
+✖ Identifier expected - start: 89, end: 90
+✖ Identifier expected - start: 115, end: 116
+✖ Identifier expected - start: 121, end: 122
+✖ Identifier expected - start: 150, end: 151
+
 ```
 

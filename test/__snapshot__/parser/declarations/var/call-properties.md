@@ -55,9 +55,7 @@ var a: { <T>(x: T): number; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -81,7 +79,6 @@ var a: { <T>(x: T): number; };
                                         "end": 21
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 7,
                                 "end": 23
@@ -131,9 +128,7 @@ var a: { <T>(x: T): number; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": {
@@ -212,7 +207,6 @@ var a: { <T>(x: T): number; };
                                         "end": 52
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 31,
                                 "end": 54
@@ -262,9 +256,7 @@ var a: { <T>(x: T): number; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -288,7 +280,6 @@ var a: { <T>(x: T): number; };
                                         "end": 74
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 61,
                                 "end": 76
@@ -338,9 +329,7 @@ var a: { <T>(x: T): number; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -364,7 +353,6 @@ var a: { <T>(x: T): number; };
                                         "end": 98
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 84,
                                 "end": 100
@@ -416,31 +404,6 @@ var a: { <T>(x: T): number; };
                                 "kind": 134234353,
                                 "properties": [
                                     {
-                                        "kind": 193,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 122,
-                                            "end": 124
-                                        },
-                                        "value": {
-                                            "kind": 134234347,
-                                            "flags": 64,
-                                            "start": 125,
-                                            "end": 132
-                                        },
-                                        "optionalToken": null,
-                                        "staticToken": null,
-                                        "flags": 0,
-                                        "start": 122,
-                                        "end": 132
-                                    }
-                                ],
-                                "indexers": [],
-                                "callProperties": [
-                                    {
                                         "kind": 196,
                                         "typeParameter": null,
                                         "value": {
@@ -461,6 +424,57 @@ var a: { <T>(x: T): number; };
                                         "flags": 0,
                                         "start": 110,
                                         "end": 122
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 122,
+                                            "end": 124
+                                        },
+                                        "value": {
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 125,
+                                            "end": 132
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 122,
+                                        "end": 132
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 132,
+                                            "end": 132
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 132,
+                                                "end": 132
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 132,
+                                            "end": 132
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 132,
+                                        "end": 133
                                     },
                                     {
                                         "kind": 196,
@@ -508,7 +522,6 @@ var a: { <T>(x: T): number; };
                                         "end": 153
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 108,
                                 "end": 155
@@ -558,9 +571,7 @@ var a: { <T>(x: T): number; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": {
@@ -639,7 +650,6 @@ var a: { <T>(x: T): number; };
                                         "end": 184
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 163,
                                 "end": 186
@@ -676,17 +686,12 @@ var a: { <T>(x: T): number; };
 
 ```javascript
 
-var a;
-var a;
-var a;
-var a;
-var a;
-var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 132, end: 133
+
 ```
 

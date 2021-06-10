@@ -78,10 +78,44 @@ declare class D extends C { }
                                 "end": 38
                             },
                             "optionalToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 96,
+                                "start": 17,
+                                "end": 28
+                            },
+                            "flags": 0,
+                            "start": 17,
+                            "end": 38
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 38,
+                                "end": 38
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 38,
+                                    "end": 38
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 38,
+                                "end": 38
+                            },
+                            "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 28,
-                            "end": 38
+                            "start": 38,
+                            "end": 39
                         },
                         {
                             "kind": 193,
@@ -138,10 +172,44 @@ declare class D extends C { }
                                 "end": 71
                             },
                             "optionalToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 96,
+                                "start": 39,
+                                "end": 50
+                            },
+                            "flags": 0,
+                            "start": 39,
+                            "end": 71
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 71,
+                                "end": 71
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 71,
+                                    "end": 71
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 71,
+                                "end": 71
+                            },
+                            "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 50,
-                            "end": 71
+                            "start": 71,
+                            "end": 72
                         },
                         {
                             "kind": 193,
@@ -202,11 +270,37 @@ declare class D extends C { }
                             "flags": 0,
                             "start": 72,
                             "end": 106
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 106,
+                                "end": 106
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 106,
+                                    "end": 106
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 106,
+                                "end": 106
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 106,
+                            "end": 107
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 15,
                     "end": 109
@@ -269,9 +363,6 @@ declare class D extends C { }
                 "body": {
                     "kind": 134234353,
                     "properties": [],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 136,
                     "end": 140
@@ -298,13 +389,14 @@ declare class D extends C { }
 
 ```javascript
 
-declare class C TODO!
-declare class D  TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 38, end: 39
+✖ Identifier expected - start: 71, end: 72
+✖ Identifier expected - start: 106, end: 107
+
 ```
 

@@ -401,9 +401,6 @@ type B = Foo<
                                                 "end": 148
                                             }
                                         ],
-                                        "indexers": [],
-                                        "callProperties": [],
-                                        "internalSlots": [],
                                         "flags": 0,
                                         "start": 137,
                                         "end": 149
@@ -435,9 +432,6 @@ type B = Foo<
                                                 "end": 164
                                             }
                                         ],
-                                        "indexers": [],
-                                        "callProperties": [],
-                                        "internalSlots": [],
                                         "flags": 0,
                                         "start": 153,
                                         "end": 165
@@ -527,9 +521,6 @@ type B = Foo<
                                                 "end": 198
                                             }
                                         ],
-                                        "indexers": [],
-                                        "callProperties": [],
-                                        "internalSlots": [],
                                         "flags": 0,
                                         "start": 187,
                                         "end": 199
@@ -561,9 +552,6 @@ type B = Foo<
                                                 "end": 214
                                             }
                                         ],
-                                        "indexers": [],
-                                        "callProperties": [],
-                                        "internalSlots": [],
                                         "flags": 0,
                                         "start": 203,
                                         "end": 215

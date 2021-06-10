@@ -72,9 +72,6 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "end": 28
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 17,
                 "end": 29
@@ -107,6 +104,35 @@ opaque type Good: {x: string} = {x: string, y: number};
                     {
                         "kind": 193,
                         "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 42,
+                            "end": 42
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 42,
+                                "end": 42
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 42,
+                            "end": 42
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 42,
+                        "end": 43
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
@@ -127,9 +153,6 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "end": 53
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 31,
                 "end": 54
@@ -158,13 +181,12 @@ opaque type Good: {x: string} = {x: string, y: number};
 
 ```javascript
 
-
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 42, end: 43
+
 ```
 

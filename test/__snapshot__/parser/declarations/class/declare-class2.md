@@ -82,6 +82,35 @@ declare class X {
                         {
                             "kind": 193,
                             "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 28,
+                                "end": 28
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 28,
+                                    "end": 28
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 28,
+                                "end": 28
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 28,
+                            "end": 29
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -96,10 +125,44 @@ declare class X {
                                 "end": 47
                             },
                             "optionalToken": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 96,
+                                "start": 29,
+                                "end": 37
+                            },
+                            "flags": 0,
+                            "start": 29,
+                            "end": 47
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 47,
+                                "end": 47
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 47,
+                                    "end": 47
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 47,
+                                "end": 47
+                            },
+                            "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 37,
-                            "end": 47
+                            "start": 47,
+                            "end": 48
                         },
                         {
                             "kind": 193,
@@ -122,11 +185,37 @@ declare class X {
                             "flags": 0,
                             "start": 48,
                             "end": 59
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 59,
+                                "end": 59
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 59,
+                                    "end": 59
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 59,
+                                "end": 59
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 59,
+                            "end": 60
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 15,
                     "end": 62
@@ -153,12 +242,14 @@ declare class X {
 
 ```javascript
 
-declare class X TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 28, end: 29
+✖ Identifier expected - start: 47, end: 48
+✖ Identifier expected - start: 59, end: 60
+
 ```
 

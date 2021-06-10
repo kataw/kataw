@@ -108,8 +108,7 @@ var a: { [a: number]: string; [b: number]: string; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [
+                                "properties": [
                                     {
                                         "kind": 195,
                                         "name": {
@@ -135,7 +134,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 42,
-                                        "end": 62
+                                        "end": 63
                                     },
                                     {
                                         "kind": 195,
@@ -162,11 +161,9 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "staticToken": null,
                                         "flags": 0,
                                         "start": 63,
-                                        "end": 83
+                                        "end": 84
                                     }
                                 ],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 40,
                                 "end": 86

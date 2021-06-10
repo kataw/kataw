@@ -57,9 +57,6 @@ type T2 = number;
                 "body": {
                     "kind": 134234353,
                     "properties": [],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 16,
                     "end": 19

@@ -130,9 +130,6 @@ type o = { m(|int|bool): void }
                         "end": 29
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 8,
                 "end": 31

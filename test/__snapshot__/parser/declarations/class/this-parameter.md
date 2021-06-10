@@ -135,6 +135,35 @@ class two {
                         {
                             "kind": 193,
                             "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 44,
+                                "end": 44
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 44,
+                                    "end": 44
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 44,
+                                "end": 44
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 44,
+                            "end": 45
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
                                 "kind": 134299649,
                                 "text": "m2",
                                 "rawText": "m2",
@@ -213,6 +242,35 @@ class two {
                             "flags": 0,
                             "start": 45,
                             "end": 81
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 81,
+                                "end": 81
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 81,
+                                    "end": 81
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 81,
+                                "end": 81
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 81,
+                            "end": 82
                         },
                         {
                             "kind": 193,
@@ -300,6 +358,35 @@ class two {
                             "flags": 0,
                             "start": 82,
                             "end": 118
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 118,
+                                "end": 118
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 118,
+                                    "end": 118
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 118,
+                                "end": 118
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 118,
+                            "end": 119
                         },
                         {
                             "kind": 193,
@@ -392,11 +479,37 @@ class two {
                             "flags": 0,
                             "start": 119,
                             "end": 142
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 142,
+                                "end": 142
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 142,
+                                    "end": 142
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 142,
+                                "end": 142
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 142,
+                            "end": 143
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 17,
                     "end": 145
@@ -968,19 +1081,15 @@ class two {
 
 ```javascript
 
-declare class one TODO!
-class two {
-  m1(this) {}
-  m2(this, a) {}
-  m3(this, ...a) {}
-  m4(this, a, b, ...c) {}
-  m5(this) {}
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 44, end: 45
+✖ Identifier expected - start: 81, end: 82
+✖ Identifier expected - start: 118, end: 119
+✖ Identifier expected - start: 142, end: 143
+
 ```
 

@@ -69,9 +69,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -140,7 +138,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "end": 101
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 67,
                                 "end": 103
@@ -271,9 +268,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -342,7 +337,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "end": 215
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 181,
                                 "end": 217

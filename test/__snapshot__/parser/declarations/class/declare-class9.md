@@ -143,11 +143,37 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                             "flags": 0,
                             "start": 28,
                             "end": 71
+                        },
+                        {
+                            "kind": 193,
+                            "key": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 71,
+                                "end": 71
+                            },
+                            "value": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 71,
+                                    "end": 71
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 71,
+                                "end": 71
+                            },
+                            "optionalToken": null,
+                            "staticToken": null,
+                            "flags": 0,
+                            "start": 71,
+                            "end": 72
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 26,
                     "end": 74
@@ -174,12 +200,12 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
 
 ```javascript
 
-declare class IViewFactory TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 71, end: 72
+
 ```
 

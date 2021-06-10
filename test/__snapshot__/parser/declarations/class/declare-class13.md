@@ -60,7 +60,7 @@ declare class A { static () : number }
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
-                                "start": 15,
+                                "start": 17,
                                 "end": 24
                             },
                             "value": {
@@ -87,13 +87,10 @@ declare class A { static () : number }
                             "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 15,
+                            "start": 17,
                             "end": 36
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 15,
                     "end": 38

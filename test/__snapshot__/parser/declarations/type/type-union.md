@@ -102,9 +102,6 @@ type overloads2 = {
                                 "end": 26
                             }
                         ],
-                        "indexers": [],
-                        "callProperties": [],
-                        "internalSlots": [],
                         "flags": 0,
                         "start": 15,
                         "end": 27
@@ -136,9 +133,6 @@ type overloads2 = {
                                 "end": 41
                             }
                         ],
-                        "indexers": [],
-                        "callProperties": [],
-                        "internalSlots": [],
                         "flags": 0,
                         "start": 30,
                         "end": 42
@@ -369,9 +363,6 @@ type overloads2 = {
                                             "end": 159
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 148,
                                     "end": 160
@@ -403,9 +394,6 @@ type overloads2 = {
                                             "end": 177
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 166,
                                     "end": 178
@@ -422,9 +410,6 @@ type overloads2 = {
                         "end": 178
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 135,
                 "end": 180
@@ -494,9 +479,6 @@ type overloads2 = {
                                             "end": 224
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 213,
                                     "end": 225
@@ -528,9 +510,6 @@ type overloads2 = {
                                             "end": 242
                                         }
                                     ],
-                                    "indexers": [],
-                                    "callProperties": [],
-                                    "internalSlots": [],
                                     "flags": 0,
                                     "start": 231,
                                     "end": 243
@@ -547,9 +526,6 @@ type overloads2 = {
                         "end": 243
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 200,
                 "end": 245

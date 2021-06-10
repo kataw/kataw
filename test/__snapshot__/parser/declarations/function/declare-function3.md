@@ -218,9 +218,6 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                         "end": 57
                                                     }
                                                 ],
-                                                "indexers": [],
-                                                "callProperties": [],
-                                                "internalSlots": [],
                                                 "flags": 0,
                                                 "start": 48,
                                                 "end": 58

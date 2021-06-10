@@ -62,9 +62,7 @@ var foo2: {
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -249,7 +247,6 @@ var foo2: {
                                         "end": 126
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 8,
                                 "end": 128
@@ -299,9 +296,7 @@ var foo2: {
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -486,7 +481,6 @@ var foo2: {
                                         "end": 255
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 139,
                                 "end": 257

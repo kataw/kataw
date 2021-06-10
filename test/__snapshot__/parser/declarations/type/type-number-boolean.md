@@ -43,8 +43,7 @@ type A = { [string | boolean]: number };
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
-                "properties": [],
-                "indexers": [
+                "properties": [
                     {
                         "kind": 195,
                         "name": null,
@@ -80,8 +79,6 @@ type A = { [string | boolean]: number };
                         "end": 37
                     }
                 ],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 8,
                 "end": 39

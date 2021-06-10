@@ -485,6 +485,35 @@ type ten = {
                     {
                         "kind": 193,
                         "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 202,
+                            "end": 202
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 202,
+                                "end": 202
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 202,
+                            "end": 202
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 202,
+                        "end": 203
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
                             "kind": 134299649,
                             "text": "m2",
                             "rawText": "m2",
@@ -563,6 +592,35 @@ type ten = {
                         "flags": 0,
                         "start": 203,
                         "end": 239
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 239,
+                            "end": 239
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 239,
+                                "end": 239
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 239,
+                            "end": 239
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 239,
+                        "end": 240
                     },
                     {
                         "kind": 193,
@@ -650,6 +708,35 @@ type ten = {
                         "flags": 0,
                         "start": 240,
                         "end": 276
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 276,
+                            "end": 276
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 276,
+                                "end": 276
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 276,
+                            "end": 276
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 276,
+                        "end": 277
                     },
                     {
                         "kind": 193,
@@ -742,11 +829,37 @@ type ten = {
                         "flags": 0,
                         "start": 277,
                         "end": 300
+                    },
+                    {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 300,
+                            "end": 300
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 300,
+                                "end": 300
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 300,
+                            "end": 300
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 300,
+                        "end": 301
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 175,
                 "end": 303
@@ -769,16 +882,15 @@ type ten = {
 
 ```javascript
 
-
-
-
-
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 202, end: 203
+✖ Identifier expected - start: 239, end: 240
+✖ Identifier expected - start: 276, end: 277
+✖ Identifier expected - start: 300, end: 301
+
 ```
 

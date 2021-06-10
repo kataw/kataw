@@ -151,11 +151,37 @@ var a: { id<T>(x: T): T; }
                                         "flags": 0,
                                         "start": 8,
                                         "end": 23
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 23,
+                                            "end": 23
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 23,
+                                                "end": 23
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 23,
+                                            "end": 23
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 23,
+                                        "end": 24
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 6,
                                 "end": 26
@@ -192,12 +218,12 @@ var a: { id<T>(x: T): T; }
 
 ```javascript
 
-var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 23, end: 24
+
 ```
 

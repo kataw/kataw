@@ -147,9 +147,6 @@ declare class A<T> extends B<T> { x: number }
                             "end": 43
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 31,
                     "end": 45

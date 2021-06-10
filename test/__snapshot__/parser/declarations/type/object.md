@@ -43,10 +43,7 @@ type T = { [[foo]]: X }
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
-                "properties": [],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [
+                "properties": [
                     {
                         "kind": 248,
                         "name": {

@@ -76,6 +76,35 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                     {
                                         "kind": 193,
                                         "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 20,
+                                            "end": 20
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 20,
+                                                "end": 20
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 20,
+                                            "end": 20
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 20,
+                                        "end": 21
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "i",
                                             "rawText": "i",
@@ -94,6 +123,35 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "flags": 0,
                                         "start": 21,
                                         "end": 30
+                                    },
+                                    {
+                                        "kind": 193,
+                                        "key": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "flags": 64,
+                                            "start": 30,
+                                            "end": 30
+                                        },
+                                        "value": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "flags": 64,
+                                                "start": 30,
+                                                "end": 30
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 30,
+                                            "end": 30
+                                        },
+                                        "optionalToken": null,
+                                        "staticToken": null,
+                                        "flags": 0,
+                                        "start": 30,
+                                        "end": 31
                                     },
                                     {
                                         "kind": 193,
@@ -118,9 +176,6 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "end": 41
                                     }
                                 ],
-                                "indexers": [],
-                                "callProperties": [],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 8,
                                 "end": 42
@@ -238,12 +293,13 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
 
 ```javascript
 
-var obj = { str: "\"...\"", i: "\"...\"", k: false };
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 20, end: 21
+✖ Identifier expected - start: 30, end: 31
+
 ```
 

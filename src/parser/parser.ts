@@ -7993,122 +7993,106 @@ function parseLexicalBinding(
   return createLexicalBinding(binding, optionalToken, typeAnnotation, initializer, pos, parser.curPos);
 }
 
-function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): ObjectType {
+function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): any {
   const pos = parser.curPos;
-  const openBraceExists = consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace);
-
-  const properties = [];
-  const indexers = [];
-  const callProperties = [];
-  const internalSlots = [];
   let protoStart: number | null = null;
-  while ((parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
-    const innerPos = parser.curPos;
+  let staticKeyword = null;
 
-    if (objectTypeFlag & ObjectTypeFlag.AllowProto && parser.tokenValue === '__proto__') {
-      if (
-        speculate(
-          parser,
-          context,
-          function () {
-            nextToken(parser, context);
-            if (parser.token !== SyntaxKind.QuestionMark && parser.token !== SyntaxKind.Colon) {
-              return true;
-            }
-            return null;
-          },
-          true
-        )
-      ) {
-        protoStart = parser.curPos;
-      }
+  if (objectTypeFlag & ObjectTypeFlag.AllowStatic && parser.token === SyntaxKind.StaticKeyword) {
+    let key = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+    if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+      return createObjectTypeProperty(
+        /* key  */ key,
+        /* value */ parseFunctionType(parser, context),
+        /* optionalToken */ null,
+        /* staticKeyword */ null,
+        pos,
+        parser.curPos
+      );
+    }
+    if (consumeOpt(parser, context, SyntaxKind.Colon)) {
+      return createObjectTypeProperty(
+        /* key  */ key,
+        /* value */ parseType(parser, context),
+        /* optionalToken */ null,
+        /* staticKeyword */ null,
+        pos,
+        parser.curPos
+      );
     }
 
-    let staticKeyword = null;
+    staticKeyword = createToken(SyntaxKind.StaticKeyword, key.flags, key.start, key.end);
 
-    if (objectTypeFlag & ObjectTypeFlag.AllowStatic && parser.token === SyntaxKind.StaticKeyword) {
-      staticKeyword = consumeToken(parser, context, SyntaxKind.StaticKeyword);
-      if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-        properties.push(
-          createObjectTypeProperty(
-            /* key  */ createIdentifier('static', 'static', pos, parser.curPos),
-            /* value */ parseFunctionType(parser, context),
-            /* optionalToken */ null,
-            /* staticKeyword */ null,
-            pos,
-            parser.curPos
-          )
+    if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
+      if (protoStart != null) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Type_expected],
+          pos,
+          parser.pos
         );
-      } else if (consumeOpt(parser, context, SyntaxKind.Colon)) {
-        properties.push(
-          createObjectTypeProperty(
-            /* key  */ createIdentifier('static', 'static', pos, parser.curPos),
-            /* value */ parseType(parser, context),
-            /* optionalToken */ null,
-            /* staticKeyword */ null,
-            pos,
-            parser.curPos
-          )
-        );
-      } else if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-        if (protoStart != null) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Unexpected_token],
-            pos,
-            parser.pos
-          );
-        }
-        indexers.push(parseObjectTypeIndexer(parser, context, /* isStatic */ staticKeyword, innerPos));
       }
-    } else {
-      if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-        if (protoStart != null) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Unexpected_token],
-            pos,
-            parser.pos
-          );
-        }
-        if (parser.token === SyntaxKind.LeftBracket) {
-          internalSlots.push(parseObjectTypeInternalSlot(parser, context, staticKeyword, innerPos));
-        } else {
-          indexers.push(parseObjectTypeIndexer(parser, context, staticKeyword, innerPos));
-        }
-      } else if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-        if (protoStart != null) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Unexpected_token],
-            pos,
-            parser.pos
-          );
-        }
-        callProperties.push(parseObjectTypeCallProperty(parser, context, staticKeyword, innerPos));
-      } else if (parser.token === SyntaxKind.Ellipsis) {
-        properties.push(parseObjectTypeSpreadProperty(parser, context, staticKeyword, innerPos));
-      } else {
-        properties.push(parseObjectTypeProperty(parser, context, staticKeyword, innerPos));
-      }
-    }
-
-    if (parser.token === SyntaxKind.Semicolon || parser.token === SyntaxKind.Comma) {
-      nextToken(parser, context);
+      return parseObjectTypeIndexer(parser, context, /* isStatic */ staticKeyword, pos);
     }
   }
-  consume(
-    parser,
-    context,
-    SyntaxKind.RightBrace,
-    openBraceExists
-      ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-      : DiagnosticCode.Type_expected
-  );
-  return createObjectType(properties, indexers, callProperties, internalSlots, pos, parser.curPos);
+  if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
+    if (protoStart != null) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Type_expected],
+        pos,
+        parser.pos
+      );
+    }
+
+    if (parser.token === SyntaxKind.LeftBracket) {
+      return parseObjectTypeInternalSlot(parser, context, staticKeyword, pos);
+    }
+    return parseObjectTypeIndexer(parser, context, staticKeyword, pos);
+  } else if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+    if (protoStart != null) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Type_expected],
+        pos,
+        parser.pos
+      );
+    }
+    return parseObjectTypeCallProperty(parser, context, staticKeyword, pos);
+  }
+
+  if (parser.token === SyntaxKind.Ellipsis) {
+    return parseObjectTypeSpreadProperty(parser, context, staticKeyword, pos);
+  }
+
+  return parseObjectTypeProperty(parser, context, staticKeyword, pos);
+}
+
+function parseTypeMemberSemicolon(parser: ParserState, context: Context): void {
+  if (consumeOpt(parser, context, SyntaxKind.Comma)) return;
+  // Didn't have a comma.  We must have a (possible ASI) semicolon.
+  parseSemicolon(parser, context);
+}
+
+function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): ObjectType {
+  const pos = parser.curPos;
+  const properties = [];
+  if (consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)) {
+    while ((parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
+      properties.push(parseTypeMember(parser, context, objectTypeFlag));
+    }
+    consume(
+      parser,
+      context,
+      SyntaxKind.RightBrace,
+      DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+    );
+  }
+
+  return createObjectType(properties, pos, parser.curPos);
 }
 
 function parseObjectTypeSpreadProperty(
@@ -8201,7 +8185,7 @@ function parseObjectTypeProperty(
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
-
+  parseTypeMemberSemicolon(parser, context);
   return createObjectTypeProperty(key, value, optionalToken, staticKeyword, pos, parser.curPos);
 }
 
@@ -8261,18 +8245,14 @@ function parseObjectTypeInternalSlot(
     consume(parser, context, SyntaxKind.Colon);
     const returnType = parseType(parser, context);
     const value = createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
+    parseTypeMemberSemicolon(parser, context);
     return createObjectTypeInternalSlot(name, /* optionalToken */ null, staticKeyword, value, pos, parser.curPos);
   }
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   consume(parser, context, SyntaxKind.Colon);
-  return createObjectTypeInternalSlot(
-    name,
-    optionalToken,
-    staticKeyword,
-    parseType(parser, context),
-    pos,
-    parser.curPos
-  );
+  const type = parseType(parser, context);
+  parseTypeMemberSemicolon(parser, context);
+  return createObjectTypeInternalSlot(name, optionalToken, staticKeyword, type, pos, parser.curPos);
 }
 
 function parseObjectTypeIndexer(
@@ -8304,6 +8284,7 @@ function parseObjectTypeIndexer(
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
+  parseTypeMemberSemicolon(parser, context);
   return createObjectTypeIndexer(name, key, value, staticKeyword, pos, parser.curPos);
 }
 

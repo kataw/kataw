@@ -70,9 +70,6 @@ function foo(): {} {}
                 "type": {
                     "kind": 134234353,
                     "properties": [],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 15,
                     "end": 18

@@ -61,7 +61,7 @@ declare class B { () : number }
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
-                                "start": 15,
+                                "start": 17,
                                 "end": 24
                             },
                             "value": {
@@ -88,13 +88,10 @@ declare class B { () : number }
                             "optionalToken": null,
                             "staticToken": null,
                             "flags": 0,
-                            "start": 15,
+                            "start": 17,
                             "end": 36
                         }
                     ],
-                    "indexers": [],
-                    "callProperties": [],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 15,
                     "end": 38
@@ -136,9 +133,7 @@ declare class B { () : number }
                 "classHeritage": null,
                 "body": {
                     "kind": 134234353,
-                    "properties": [],
-                    "indexers": [],
-                    "callProperties": [
+                    "properties": [
                         {
                             "kind": 196,
                             "typeParameter": null,
@@ -162,7 +157,6 @@ declare class B { () : number }
                             "end": 68
                         }
                     ],
-                    "internalSlots": [],
                     "flags": 0,
                     "start": 54,
                     "end": 70

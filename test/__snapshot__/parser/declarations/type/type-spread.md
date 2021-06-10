@@ -53,8 +53,7 @@ type D32 = {p?: number};
             "typeParameters": null,
             "type": {
                 "kind": 134234353,
-                "properties": [],
-                "indexers": [
+                "properties": [
                     {
                         "kind": 195,
                         "name": null,
@@ -76,8 +75,6 @@ type D32 = {p?: number};
                         "end": 26
                     }
                 ],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 8,
                 "end": 27
@@ -130,6 +127,35 @@ type D32 = {p?: number};
                         "end": 49
                     },
                     {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 49,
+                            "end": 49
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 49,
+                                "end": 49
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 49,
+                            "end": 49
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 49,
+                        "end": 50
+                    },
+                    {
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
@@ -158,9 +184,6 @@ type D32 = {p?: number};
                         "end": 55
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 37,
                 "end": 56
@@ -219,6 +242,35 @@ type D32 = {p?: number};
                         "end": 74
                     },
                     {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 74,
+                            "end": 74
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 74,
+                                "end": 74
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 74,
+                            "end": 74
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 74,
+                        "end": 75
+                    },
+                    {
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
@@ -247,9 +299,6 @@ type D32 = {p?: number};
                         "end": 81
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 67,
                 "end": 82
@@ -302,9 +351,6 @@ type D32 = {p?: number};
                         "end": 104
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 93,
                 "end": 105
@@ -363,6 +409,35 @@ type D32 = {p?: number};
                         "end": 123
                     },
                     {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 123,
+                            "end": 123
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 123,
+                                "end": 123
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 123,
+                            "end": 123
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 123,
+                        "end": 124
+                    },
+                    {
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
@@ -391,9 +466,6 @@ type D32 = {p?: number};
                         "end": 130
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 116,
                 "end": 131
@@ -465,9 +537,6 @@ type D32 = {p?: number};
                         "end": 163
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 142,
                 "end": 164
@@ -526,6 +595,35 @@ type D32 = {p?: number};
                         "end": 184
                     },
                     {
+                        "kind": 193,
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 184,
+                            "end": 184
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 184,
+                                "end": 184
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 184,
+                            "end": 184
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 184,
+                        "end": 185
+                    },
+                    {
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
@@ -554,9 +652,6 @@ type D32 = {p?: number};
                         "end": 192
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 176,
                 "end": 193
@@ -614,9 +709,6 @@ type D32 = {p?: number};
                         "end": 217
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 205,
                 "end": 218
@@ -646,6 +738,26 @@ type D32 = {p?: number};
             "type": {
                 "kind": 134234353,
                 "properties": [
+                    {
+                        "kind": 195,
+                        "name": null,
+                        "key": {
+                            "kind": 134234347,
+                            "flags": 64,
+                            "start": 233,
+                            "end": 239
+                        },
+                        "value": {
+                            "kind": 134234345,
+                            "flags": 64,
+                            "start": 241,
+                            "end": 248
+                        },
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 232,
+                        "end": 249
+                    },
                     {
                         "kind": 193,
                         "key": {
@@ -688,30 +800,6 @@ type D32 = {p?: number};
                         "end": 269
                     }
                 ],
-                "indexers": [
-                    {
-                        "kind": 195,
-                        "name": null,
-                        "key": {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 233,
-                            "end": 239
-                        },
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 64,
-                            "start": 241,
-                            "end": 248
-                        },
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 232,
-                        "end": 248
-                    }
-                ],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 230,
                 "end": 270
@@ -741,6 +829,26 @@ type D32 = {p?: number};
             "type": {
                 "kind": 134234353,
                 "properties": [
+                    {
+                        "kind": 195,
+                        "name": null,
+                        "key": {
+                            "kind": 134234347,
+                            "flags": 64,
+                            "start": 285,
+                            "end": 291
+                        },
+                        "value": {
+                            "kind": 134234345,
+                            "flags": 64,
+                            "start": 293,
+                            "end": 300
+                        },
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 284,
+                        "end": 301
+                    },
                     {
                         "kind": 193,
                         "key": {
@@ -783,30 +891,6 @@ type D32 = {p?: number};
                         "end": 321
                     }
                 ],
-                "indexers": [
-                    {
-                        "kind": 195,
-                        "name": null,
-                        "key": {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 285,
-                            "end": 291
-                        },
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 64,
-                            "start": 293,
-                            "end": 300
-                        },
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 284,
-                        "end": 300
-                    }
-                ],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 282,
                 "end": 322
@@ -864,9 +948,6 @@ type D32 = {p?: number};
                         "end": 346
                     }
                 ],
-                "indexers": [],
-                "callProperties": [],
-                "internalSlots": [],
                 "flags": 0,
                 "start": 334,
                 "end": 347
@@ -889,22 +970,15 @@ type D32 = {p?: number};
 
 ```javascript
 
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 49, end: 50
+✖ Identifier expected - start: 74, end: 75
+✖ Identifier expected - start: 123, end: 124
+✖ Identifier expected - start: 184, end: 185
+
 ```
 

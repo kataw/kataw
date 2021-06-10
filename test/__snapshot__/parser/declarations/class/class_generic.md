@@ -145,9 +145,6 @@ class C<T> {
                                                             "end": 35
                                                         }
                                                     ],
-                                                    "indexers": [],
-                                                    "callProperties": [],
-                                                    "internalSlots": [],
                                                     "flags": 0,
                                                     "start": 26,
                                                     "end": 36
@@ -314,9 +311,6 @@ class C<T> {
                                                                             "end": 82
                                                                         }
                                                                     ],
-                                                                    "indexers": [],
-                                                                    "callProperties": [],
-                                                                    "internalSlots": [],
                                                                     "flags": 0,
                                                                     "start": 72,
                                                                     "end": 83

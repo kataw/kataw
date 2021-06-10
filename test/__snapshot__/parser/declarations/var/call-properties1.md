@@ -50,9 +50,7 @@ var a : { (): number }
                             "kind": 139,
                             "type": {
                                 "kind": 134234353,
-                                "properties": [],
-                                "indexers": [],
-                                "callProperties": [
+                                "properties": [
                                     {
                                         "kind": 196,
                                         "typeParameter": null,
@@ -76,7 +74,6 @@ var a : { (): number }
                                         "end": 20
                                     }
                                 ],
-                                "internalSlots": [],
                                 "flags": 0,
                                 "start": 7,
                                 "end": 22
