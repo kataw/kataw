@@ -109,13 +109,18 @@ Getting the trailing comment of `Hello` can be done like this `kataw.getTrailing
 
 If you want a `1:1` copy of the actual source code, you can do a "*slice*" from the start value of `Hello` to the end value of `there!`.
 
-There also exist 2 unique comments that can be used to ignore the next line or an entire block.  
+### Ignore comment
 
-- `// kataw-ignore`
+Statements, blocks and other code lines can be ignored in Kataw with a `// kataw-ignore` comment.
 
-- `// kataw-ignore-block`
+If set on a `WhileStatement` it will ignore the entire statement and the `BlockStatement`.
 
-To verify if the node or block should be ignored you can use either `kataw.shouldIgnoreNextLine(node)` or `kataw.shouldIgnoreBlock(node);`
+```ts
+// kataw-ignore
+while (true) {}
+```
+
+**Note** You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
 
 
 ## CST parser features
