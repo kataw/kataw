@@ -120,7 +120,7 @@ If set on a `WhileStatement` it will ignore the entire statement and the `BlockS
 while (true) {}
 ```
 
-**Note** You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
+You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
 
 
 ## CST parser features
