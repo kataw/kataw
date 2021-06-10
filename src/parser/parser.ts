@@ -4305,7 +4305,7 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
     case SyntaxKind.ObjectLiteral:
       return createObjectBindingPattern(
         convertArrowParameter(parser, node.propertyList),
-        node.flags,
+        node.flags | NodeFlags.ExpressionNode,
         node.start,
         node.end
       );
